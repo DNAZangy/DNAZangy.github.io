@@ -1,0 +1,1 @@
+﻿Clandestine Snitch	U	common	Creature – Human Detective 	45	U	U	When Clandestine Snitch enters, investigate. (Create a colorless Clue artifact token with “2, Sacrifice this artifact: Draw a card.”)	0/3		normal	SRC		!script "<s><l>/spawn Clue</l><f>/spawn Clue 1 SRC</f></s>","r"
