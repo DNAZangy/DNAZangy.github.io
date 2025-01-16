@@ -1,0 +1,1 @@
+﻿Sleuthhound	G	common	Creature – Dog Detective 	192	G	3G	When Sleuthhound enters, investigate. (Create a colorless Clue artifact token with “2, Sacrifice this artifact: Draw a card.”)	4/2		normal	SRC		!script "<s><l>/spawn Clue</l><f>/spawn Clue 3 SRC</f></s>","r"

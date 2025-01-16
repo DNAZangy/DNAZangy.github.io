@@ -1,0 +1,1 @@
+﻿Jericho's Assistant	G	rare	Creature – Human Detective 	175	G	G	Whenever another creature you control becomes the target of a spell or ability an opponent controls, investigate. (Create a colorless Clue artifact token with “2, Sacrifice this artifact: Draw a card.”)	2/1		normal	SRC		!script "<s><l>/spawn Clue</l><f>/spawn Clue 4 SRC</f></s>","r"
