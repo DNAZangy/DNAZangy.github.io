@@ -1,1 +1,0 @@
-﻿Dame on the Run	B	common	Creature – Vampire Citizen 	89	B	2B	When Dame on the Run dies, investigate. (Create a colorless Clue artifact token with “2, Sacrifice this artifact: Draw a card.”)	3/2		normal	SRC		!script "<s><l>/spawn Clue</l><f>/spawn Clue 4 SRC</f></s>","r"

@@ -1,1 +1,0 @@
-﻿Investi-Gator	G	uncommon	Creature – Crocodile Detective 	174	G	2GG	When Investi-Gator enters, investigate. (Create a colorless Clue artifact token with “2, Sacrifice this artifact: Draw a card.”)NEWLINEInvesti-Gator gets +1/+1 for each card in your hand.	1/1		normal	SRC		!script "<s><l>/spawn Clue</l><f>/spawn Clue 4 SRC</f></s>","r"

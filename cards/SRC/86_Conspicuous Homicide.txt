@@ -1,1 +1,0 @@
-﻿Conspicuous Homicide	B	uncommon	Sorcery	86	B	B	Destroy target creature. That creature’s controller investigates. (They create a colorless Clue artifact token with “2, Sacrifice this artifact: Draw a card.”)			normal	SRC		wants flavorNEWLINEremovalNEWLINE!script "<s><l>/spawn Clue</l><f>/spawn Clue 1 SRC</f></s>","r"

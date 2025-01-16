@@ -750,13 +750,13 @@
 			}
 		},
 		{
-			"name": "Kumiko, Brighest in the Sky",
+			"name": "Kumiko, Brightest in the Sky",
 			"rarity": "mythic",
 			"mana_cost": "{2}{R}",
 			"type": "Legendary Creature — Elf Wizard ",
 			"collector_number": "132",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/132_Kumiko, Brighest in the Sky.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/132_Kumiko, Brightest in the Sky.png"
 			}
 		},
 		{
@@ -962,7 +962,7 @@
 		{
 			"name": "Platoon Intern",
 			"rarity": "rare",
-			"mana_cost": "{1}{G}",
+			"mana_cost": "{G}",
 			"type": "Creature — Human Monkey Student ",
 			"collector_number": "177",
 			"image_uris": {
@@ -1130,13 +1130,13 @@
 			}
 		},
 		{
-			"name": "Sensible Show Off",
+			"name": "Show Off",
 			"rarity": "rare",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
 			"collector_number": "141",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/141_Sensible Show Off.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/141_Show Off.png"
 			}
 		},
 		{
@@ -2214,9 +2214,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "268",
+			"collector_number": "265",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/268_Murky Demesne.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/265_Murky Demesne.png"
 			}
 		},
 		{
@@ -2352,7 +2352,7 @@
 		{
 			"name": "Heist of That Never Seen Before",
 			"rarity": "uncommon",
-			"mana_cost": "{5}{U}{B}",
+			"mana_cost": "{4}{U}{B}",
 			"type": "Sorcery",
 			"collector_number": "191",
 			"image_uris": {
@@ -2464,9 +2464,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "279",
+			"collector_number": "274",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/279_Wavering Academy.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/274_Wavering Academy.png"
 			}
 		},
 		{
@@ -2474,9 +2474,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "281",
+			"collector_number": "276",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/281_Wavering City.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/276_Wavering City.png"
 			}
 		},
 		{
@@ -2484,9 +2484,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "283",
+			"collector_number": "278",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/283_Wavering Rift.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/278_Wavering Rift.png"
 			}
 		},
 		{
@@ -2494,9 +2494,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "280",
+			"collector_number": "275",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/280_Wavering Arena.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/275_Wavering Arena.png"
 			}
 		},
 		{
@@ -2504,9 +2504,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "282",
+			"collector_number": "277",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/282_Wavering Playground.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/277_Wavering Playground.png"
 			}
 		},
 		{
@@ -2514,9 +2514,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Plains ",
-			"collector_number": "275",
+			"collector_number": "271",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/275_Serene Meadow.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/271_Serene Meadow.png"
 			}
 		},
 		{
@@ -2524,9 +2524,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Forest ",
-			"collector_number": "274",
+			"collector_number": "270",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/274_Serene Gymnasium.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/270_Serene Gymnasium.png"
 			}
 		},
 		{
@@ -2534,9 +2534,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Swamp ",
-			"collector_number": "272",
+			"collector_number": "268",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/272_Serene Court.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/268_Serene Court.png"
 			}
 		},
 		{
@@ -2544,9 +2544,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Mountain ",
-			"collector_number": "271",
+			"collector_number": "267",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/271_Serene Arcade.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/267_Serene Arcade.png"
 			}
 		},
 		{
@@ -2554,9 +2554,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Island ",
-			"collector_number": "273",
+			"collector_number": "269",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/273_Serene Depot.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/269_Serene Depot.png"
 			}
 		},
 		{
@@ -2674,9 +2674,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "278",
+			"collector_number": "273",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/278_Tranquil Demesne.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/273_Tranquil Demesne.png"
 			}
 		},
 		{
@@ -2684,9 +2684,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "265",
+			"collector_number": "264",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/265_Imposing Demesne.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/264_Imposing Demesne.png"
 			}
 		},
 		{
@@ -2694,9 +2694,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "276",
+			"collector_number": "272",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/276_Sinuous Demesne.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/272_Sinuous Demesne.png"
 			}
 		},
 		{
@@ -2714,9 +2714,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "264",
+			"collector_number": "263",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/264_Immaculate Demesne.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/263_Immaculate Demesne.png"
 			}
 		},
 		{
@@ -2744,9 +2744,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "270",
+			"collector_number": "266",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/270_Ravaged Demesne.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/266_Ravaged Demesne.png"
 			}
 		},
 		{
@@ -2774,9 +2774,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Plains ",
-			"collector_number": "269",
+			"collector_number": "279",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/269_Plains.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/279_Plains.png"
 			}
 		},
 		{
@@ -2784,9 +2784,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Swamp ",
-			"collector_number": "277",
+			"collector_number": "281",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/277_Swamp.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/281_Swamp.png"
 			}
 		},
 		{
@@ -2794,9 +2794,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "263",
+			"collector_number": "283",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/263_Forest.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/283_Forest.png"
 			}
 		},
 		{
@@ -2804,9 +2804,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Island ",
-			"collector_number": "266",
+			"collector_number": "280",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/266_Island.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/280_Island.png"
 			}
 		},
 		{
@@ -2814,9 +2814,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Mountain ",
-			"collector_number": "267",
+			"collector_number": "282",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/267_Mountain.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/282_Mountain.png"
 			}
 		},
 		{
@@ -2976,7 +2976,7 @@
 		2 Mirthful Bully
 		2 Commune with the Cosmic Dance
 		2 Capture the Spectrum
-		2 Sensible Show Off
+		2 Show Off
 		2 Itami, Always Aspiring
 		2 Hallway Wanderer
 		2 Hero of Understated Will
@@ -3010,7 +3010,7 @@
 		2 Sanrin, Tenured and Here
 		1 Itami, Enervated
 		1 Chinatsu, Hero to All
-		1 Kumiko, Brighest in the Sky
+		1 Kumiko, Brightest in the Sky
 		1 Banri, Guide in the Sky
 		1 Akio, Always Watchful
 		1 Castaway of a Broken Timeline
@@ -3221,9 +3221,21 @@
 		30 Serene Court
 		30 Serene Arcade
 		30 Serene Depot
-		30 Plains
-		30 Swamp
-		30 Forest
-		30 Island
-		30 Mountain
+		[CommonSlot(8)]
+		40 Construction Zone
+		25 Wavering Academy
+		25 Wavering City
+		25 Wavering Rift
+		25 Wavering Arena
+		25 Wavering Playground
+		15 Atrophic Demesne
+		15 Blossoming Demesne
+		15 Entropic Demesne
+		15 Erupting Demesne
+		15 Immaculate Demesne
+		15 Imposing Demesne
+		15 Murky Demesne
+		15 Ravaged Demesne
+		15 Sinuous Demesne
+		15 Tranquil Demesne
 		
