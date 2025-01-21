@@ -610,13 +610,13 @@
 			}
 		},
 		{
-			"name": "Overprotective",
+			"name": "Overprotective Senior",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Human Student ",
 			"collector_number": "26",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/26_Overprotective.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/26_Overprotective Senior.png"
 			}
 		},
 		{
@@ -862,8 +862,8 @@
 		{
 			"name": "On Wings of Despair",
 			"rarity": "rare",
-			"mana_cost": "{5}{B}{B}",
-			"type": "Creature — Demon ",
+			"mana_cost": "{6}{B}{B}",
+			"type": "Creature — Demon Dragon ",
 			"collector_number": "96",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HTS-files/img/96_On Wings of Despair.png"
@@ -1310,13 +1310,13 @@
 			}
 		},
 		{
-			"name": "Warden of those Fallen",
+			"name": "Warden of Those Fallen",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}",
 			"type": "Creature — Human Mystic ",
 			"collector_number": "112",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/112_Warden of those Fallen.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/112_Warden of Those Fallen.png"
 			}
 		},
 		{
@@ -1830,13 +1830,13 @@
 			}
 		},
 		{
-			"name": "Honor Role Assistant",
+			"name": "Honor Roll Assistant",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Human Advisor Warrior ",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/21_Honor Role Assistant.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/21_Honor Roll Assistant.png"
 			}
 		},
 		{
@@ -2190,13 +2190,13 @@
 			}
 		},
 		{
-			"name": "Academy Assitant",
+			"name": "Academy Assistant",
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact Creature",
 			"collector_number": "253",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/253_Academy Assitant.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/253_Academy Assistant.png"
 			}
 		},
 		{
@@ -2303,7 +2303,7 @@
 			"name": "Torn Between Light and Shadow",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{G}",
-			"type": "Sorcery",
+			"type": "Instant",
 			"collector_number": "210",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HTS-files/img/210_Torn Between Light and Shadow.png"
@@ -2322,7 +2322,7 @@
 		{
 			"name": "Siphoner of Otherworlds",
 			"rarity": "uncommon",
-			"mana_cost": "{U}{R}",
+			"mana_cost": "{1}{U}{R}",
 			"type": "Creature — Human Warlock ",
 			"collector_number": "207",
 			"image_uris": {
@@ -2440,13 +2440,13 @@
 			}
 		},
 		{
-			"name": "Brighest Star and the Darkest Shadow",
+			"name": "Brightest Star, Darkest Shadow",
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
-			"type": "Creature — Bird Shade ",
+			"type": "Creature — Elf Shade ",
 			"collector_number": "80",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/80_Brighest Star and the Darkest Shadow.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/80_Brightest Star, Darkest Shadow.png"
 			}
 		},
 		{
@@ -3027,7 +3027,7 @@
 	9 Offering to Monotony
 		9 Trainer of the Empty Mind
 		9 Penumbra Agent
-		9 Warden of those Fallen
+		9 Warden of Those Fallen
 		9 Disciple of the Wolf
 		9 Patron of Pride
 		9 Extracurricular Homicide
@@ -3079,7 +3079,7 @@
 		9 Nurse Practitioner
 		9 Hopeful Burning-Bright
 		9 Callous Hero
-		9 Honor Role Assistant
+		9 Honor Roll Assistant
 		9 Tenth-Second Precision Strike
 		9 Valorous Stance
 		9 Join the Pigments
@@ -3108,7 +3108,7 @@
 		9 Neon Junkie Guardian
 		9 Kazuki, the Neon Painter
 		9 Shifting Typhoon Strike
-		9 Brighest Star and the Darkest Shadow
+		9 Brightest Star, Darkest Shadow
 		9 Admired Overachiever
 		9 Imposing Stature
 		9 Disperse without Care
@@ -3192,7 +3192,7 @@
 		30 Dawnpulse Savior
 		30 Cool Kids Clique
 		30 Radiant Artillery
-		30 Overprotective
+		30 Overprotective Senior
 		30 Speed Coach
 		30 Aerobics Instructor
 		30 Afterschool Theater Club
@@ -3208,7 +3208,7 @@
 		30 Sixteen Point Punch
 		30 Invoker Bright
 		30 Blossoming Wallflower
-		30 Academy Assitant
+		30 Academy Assistant
 		30 Mayhem Reveler
 		30 Coastal Barricade
 		30 Wavering Academy

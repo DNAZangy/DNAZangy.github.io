@@ -2327,13 +2327,13 @@
 			}
 		},
 		{
-			"name": "Jump Scare",
+			"name": "Jump Scared",
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Sorcery",
 			"collector_number": "91",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/91_Jump Scare.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/91_Jump Scared.png"
 			}
 		},
 		{
@@ -3087,7 +3087,7 @@
 			}
 		},
 		]
-	[RareSlot(1)]
+	[RareSlot(2)]
 	2 Caryl Rey, the Rose
 		2 Ranulf, the Seed of Sapner
 		2 Takers of Voice
@@ -3163,7 +3163,7 @@
 		1 Geistwald Kraken
 		1 Blade of Heart and Soul
 		1 Closure
-		[UncommonSlot(3)]
+		[UncommonSlot(4)]
 	9 Imani Whitaker
 		9 Turnberry Scout
 		9 On the Knife's Edge
@@ -3244,7 +3244,7 @@
 		9 Turnberry Mediator
 		9 Wilderness Training
 		9 Nye Buccaneer
-		[CommonSlot(9)]
+		[CommonSlot(8)]
 	30 Dreadship Vessel
 		30 Hulking Vessel
 		30 War Map
@@ -3297,7 +3297,7 @@
 		30 Fleshborne Horror
 		30 Footmen of Deaths Sting
 		30 Dishonorable End
-		30 Jump Scare
+		30 Jump Scared
 		30 Overt Warning
 		30 Plaskett Assassin
 		30 Sever the Legacy
@@ -3346,4 +3346,5 @@
 		30 Geistwald Explorer
 		30 Spellwild Ouphe
 		30 Tend to the Wounded
+		30 Noble
 		
