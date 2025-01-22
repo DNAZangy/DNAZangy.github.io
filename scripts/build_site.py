@@ -24,6 +24,7 @@ def genAllCards(codes):
 		#F: grabs the corresponding file,
 		with open(os.path.join('sets', code + '-files', code + '.json'), encoding='utf-8-sig') as f:
 			#F: puts its card data into a temp dictionary,
+			print(code)
 			raw = json.load(f)
 			for card in raw['cards']:
 				card['type'] = card['type'].replace('—', '–')
