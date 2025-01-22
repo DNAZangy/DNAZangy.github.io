@@ -1,1 +1,0 @@
-﻿Moribund Witness	G	common	Creature – Elf Citizen 	179	G	G	When Moribund Witness dies, you gain 2 life and investigate. (Create a colorless Clue artifact token with “2, Sacrifice this artifact: Draw a card.”)	1/2		normal	SRC		!script "<s><l>/spawn Clue</l><f>/spawn Clue 1 SRC</f></s>","r"

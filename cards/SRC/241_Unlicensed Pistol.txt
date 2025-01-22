@@ -1,1 +1,0 @@
-﻿Unlicensed Pistol		uncommon	Artifact – Equipment 	241	C	1	Equipped creature gets +1/-1.NEWLINEWhenever equipped creature dies, investigate. (Create a colorless Clue artifact token with “2, Sacrifice this artifact: Draw a card.”)NEWLINEEquip 0			normal	SRC		!script "<s><l>/spawn Clue</l><f>/spawn Clue 1 SRC</f></s>","r"

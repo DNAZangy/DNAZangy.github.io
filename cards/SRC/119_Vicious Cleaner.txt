@@ -1,1 +1,0 @@
-﻿Vicious Cleaner	B	rare	Creature – Human Advisor 	119	B	1B	1B: Exile target card from a graveyard. If it’s a creature card, investigate. (Create a colorless Clue artifact token with “2, Sacrifice this artifact: Draw a card.”)NEWLINEWhenever you sacrifice a Clue, each opponent loses 1 life.	2/2		normal	SRC		!script "<s><l>/spawn Clue</l><f>/spawn Clue 1 SRC</f></s>","r"
