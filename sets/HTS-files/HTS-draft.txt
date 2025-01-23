@@ -343,7 +343,7 @@
 			"name": "Delinquent Duo",
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
-			"type": "Creature — Horror Student ",
+			"type": "Creature — Dog Horror ",
 			"collector_number": "124",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HTS-files/img/124_Delinquent Duo.png"
@@ -383,7 +383,7 @@
 			"name": "Guardian of the Fray",
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Human Cat Soldier ",
+			"type": "Creature — Human Mystic ",
 			"collector_number": "130",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HTS-files/img/130_Guardian of the Fray.png"
@@ -843,7 +843,7 @@
 			"name": "Prestigious Schoolmaster",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Human Advisor ",
+			"type": "Creature — Human Mutant Advisor ",
 			"collector_number": "103",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HTS-files/img/103_Prestigious Schoolmaster.png"
@@ -1103,7 +1103,7 @@
 			"name": "Mirthful Bully",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Kithkin Student ",
+			"type": "Creature — Human Warrior ",
 			"collector_number": "134",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HTS-files/img/134_Mirthful Bully.png"
@@ -1163,7 +1163,7 @@
 			"name": "Hero of Understated Will",
 			"rarity": "rare",
 			"mana_cost": "{5}{U}{U}",
-			"type": "Creature — Kithkin Wizard ",
+			"type": "Creature — Human Mystic ",
 			"collector_number": "54",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HTS-files/img/54_Hero of Understated Will.png"
@@ -1960,13 +1960,13 @@
 			}
 		},
 		{
-			"name": "Together as a Team!",
+			"name": "Together Now!",
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{U}{B}{R}{G}",
 			"type": "Sorcery",
 			"collector_number": "251",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HTS-files/img/251_Together as a Team!.png"
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/251_Together Now!.png"
 			}
 		},
 		{
@@ -2992,7 +2992,7 @@
 		2 Barrage from Above
 		2 Assemble the Squad
 		2 Internal Struggle
-		2 Together as a Team!
+		2 Together Now!
 		2 Boastful Finish
 		2 Pieces Fall into Place
 		2 Nebula of Mists
@@ -3023,7 +3023,7 @@
 		1 The Phantom Gun
 		1 The Painter of Flames
 		1 Gap Year Graduate
-		[UncommonSlot(3)]
+		[UncommonSlot(4)]
 	9 Offering to Monotony
 		9 Trainer of the Empty Mind
 		9 Penumbra Agent
@@ -3130,7 +3130,7 @@
 		9 Ravaged Demesne
 		9 Atrophic Demesne
 		9 Precursor of Light
-		[CommonSlot(9)]
+		[CommonSlot(8)]
 	30 Training Dummy
 		30 Inherited Scythe
 		30 Construction Zone
@@ -3221,4 +3221,19 @@
 		30 Serene Court
 		30 Serene Arcade
 		30 Serene Depot
-		
+		[LandSlot(1)]
+		15 Wavering Academy
+		15 Wavering City
+		15 Wavering Rift
+		15 Wavering Arena
+		15 Wavering Playground
+		20 Construction Zone
+		7 Tranquil Demesne
+		7 Imposing Demesne
+		7 Sinuous Demesne
+		7 Erupting Demesne
+		7 Immaculate Demesne
+		7 Blossoming Demesne
+		7 Entropic Demesne
+		7 Ravaged Demesne
+		7 Atrophic Demesne
