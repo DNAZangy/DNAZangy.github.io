@@ -121,14 +121,14 @@
 				<img src="/sets/HTS-files/icon.png">
 				<div class="set-title">Hatsuniji: We Stare Through the Window, Together, Holding Hands</div>
 				<div>HTS</div>
-				<div>278</div>
+				<div>288</div>
 			</a>
 			
 			<a href="/sets/MSK" class="set-row"> 
 				<img src="/sets/MSK-files/icon.png">
 				<div class="set-title">Myths, Masks, and Minutes Spent Apart</div>
 				<div>MSK</div>
-				<div>280</div>
+				<div>281</div>
 			</a>
 			
 			<a href="/sets/RAR" class="set-row"> 
@@ -149,14 +149,14 @@
 				<img src="/sets/SRC-files/icon.png">
 				<div class="set-title">Secrets of the River Cities</div>
 				<div>SRC</div>
-				<div>256</div>
+				<div>254</div>
 			</a>
 			
 			<a href="/sets/TRX" class="set-row"> 
 				<img src="/sets/TRX-files/icon.png">
 				<div class="set-title">Theros: Age of Trax</div>
 				<div>TRX</div>
-				<div>306</div>
+				<div>300</div>
 			</a>
 			
 			<a href="/sets/ZANG" class="set-row"> 
@@ -208,18 +208,26 @@
 		});
 
 		function search() {
-			window.location = ("/search?search=" + document.getElementById("search").value);
+			const url = new URL('search', window.location.origin);
+			url.searchParams.append('search', document.getElementById("search").value);
+			window.location.href = url;
 		}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-				let card_name = card_list_arrayified[i].card_name;
-				for (const char of specialchars)
-				{
-					card_name = card_name.replaceAll(char, "");
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
 				}
 
-				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
+				window.location.href = url;
 			}
 	</script>
 </body>

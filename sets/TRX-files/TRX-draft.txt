@@ -1,12 +1,13 @@
 ﻿[CustomCards]
-	[	{
+	[
+		{
 			"name": "Sunbeam Alseid",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment Creature — Nymph ",
 			"collector_number": "35",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/35_Sunbeam Alseid.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/35_Sunbeam Alseid.jpg"
 			}
 		},
 		{
@@ -16,7 +17,7 @@
 			"type": "Creature — Centaur Soldier ",
 			"collector_number": "38",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/38_Traxian Strategos.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/38_Traxian Strategos.jpg"
 			}
 		},
 		{
@@ -26,7 +27,7 @@
 			"type": "Creature — Human Soldier ",
 			"collector_number": "25",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/25_New Recruit.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/25_New Recruit.jpg"
 			}
 		},
 		{
@@ -36,7 +37,7 @@
 			"type": "Enchantment Creature — Nymph ",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/3_Alseid of Stilled Hearts.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/3_Alseid of Stilled Hearts.jpg"
 			}
 		},
 		{
@@ -45,15 +46,15 @@
 			"mana_cost": "{4}{W}",
 			"type": "Creature — Archon ",
 			"collector_number": "13",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/13_Daybreak Rider_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/13_Daybreak Rider_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/13_Daybreak Rider_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/13_Daybreak Rider_front.jpg"
 			}
 		},
 		{
@@ -63,7 +64,7 @@
 			"type": "Sorcery",
 			"collector_number": "36",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/36_Traxian Calvary.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/36_Traxian Calvary.jpg"
 			}
 		},
 		{
@@ -73,7 +74,7 @@
 			"type": "Creature — Minotaur Cleric Scout ",
 			"collector_number": "33",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/33_Skophos Warden.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/33_Skophos Warden.jpg"
 			}
 		},
 		{
@@ -83,7 +84,7 @@
 			"type": "Instant",
 			"collector_number": "40",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/40_Walk the Dead's Path.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/40_Walk the Dead's Path.jpg"
 			}
 		},
 		{
@@ -93,7 +94,7 @@
 			"type": "Instant",
 			"collector_number": "39",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/39_Tyranny of Trax.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/39_Tyranny of Trax.jpg"
 			}
 		},
 		{
@@ -103,7 +104,7 @@
 			"type": "Creature — Human Artist ",
 			"collector_number": "24",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/24_Marble Philosopher.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/24_Marble Philosopher.jpg"
 			}
 		},
 		{
@@ -113,17 +114,17 @@
 			"type": "Creature — Merfolk Soldier ",
 			"collector_number": "250",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/250_Olantin Stalwart.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/250_Olantin Stalwart.jpg"
 			}
 		},
 		{
 			"name": "Traxian Hoplite",
 			"rarity": "common",
-			"mana_cost": "{1}{W/B}",
+			"mana_cost": "{1{W}/B}",
 			"type": "Creature — Cat Soldier ",
 			"collector_number": "261",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/261_Traxian Hoplite.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/261_Traxian Hoplite.jpg"
 			}
 		},
 		{
@@ -133,7 +134,7 @@
 			"type": "Instant",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/20_Gods Willing.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/20_Gods Willing.jpg"
 			}
 		},
 		{
@@ -142,15 +143,15 @@
 			"mana_cost": "{U}",
 			"type": "Creature — Siren Wizard ",
 			"collector_number": "47",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/47_Charming Siren_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/47_Charming Siren_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/47_Charming Siren_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/47_Charming Siren_front.jpg"
 			}
 		},
 		{
@@ -160,7 +161,7 @@
 			"type": "Creature — Human Cleric ",
 			"collector_number": "60",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/60_Melancholic Oracle.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/60_Melancholic Oracle.jpg"
 			}
 		},
 		{
@@ -170,7 +171,7 @@
 			"type": "Sorcery",
 			"collector_number": "59",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/59_Meeting of the Minds.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/59_Meeting of the Minds.jpg"
 			}
 		},
 		{
@@ -180,7 +181,7 @@
 			"type": "Creature — Sphinx ",
 			"collector_number": "61",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/61_Mentor of the Dakra Isles.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/61_Mentor of the Dakra Isles.jpg"
 			}
 		},
 		{
@@ -190,7 +191,7 @@
 			"type": "Creature — Merfolk Soldier ",
 			"collector_number": "64",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/64_Olantin Emissary.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/64_Olantin Emissary.jpg"
 			}
 		},
 		{
@@ -199,15 +200,15 @@
 			"mana_cost": "{5}{U}{U}",
 			"type": "Creature — Crab Octopus ",
 			"collector_number": "48",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/48_Dakran Shipcrusher_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/48_Dakran Shipcrusher_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/48_Dakran Shipcrusher_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/48_Dakran Shipcrusher_front.jpg"
 			}
 		},
 		{
@@ -217,7 +218,7 @@
 			"type": "Creature — Merfolk Soldier ",
 			"collector_number": "81",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/81_Warden of the Deep-Dwelling.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/81_Warden of the Deep-Dwelling.jpg"
 			}
 		},
 		{
@@ -227,7 +228,7 @@
 			"type": "Instant",
 			"collector_number": "52",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/52_Fathomless Dominion.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/52_Fathomless Dominion.jpg"
 			}
 		},
 		{
@@ -237,7 +238,7 @@
 			"type": "Instant",
 			"collector_number": "49",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/49_Divine Mishap.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/49_Divine Mishap.jpg"
 			}
 		},
 		{
@@ -247,7 +248,7 @@
 			"type": "Creature — Kraken ",
 			"collector_number": "56",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/56_Kraken Hatchling.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/56_Kraken Hatchling.jpg"
 			}
 		},
 		{
@@ -257,7 +258,7 @@
 			"type": "Instant",
 			"collector_number": "73",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/73_Thassa's Caress.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/73_Thassa's Caress.jpg"
 			}
 		},
 		{
@@ -267,17 +268,17 @@
 			"type": "Creature — Siren Rogue ",
 			"collector_number": "252",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/252_Odunos Smuggler.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/252_Odunos Smuggler.jpg"
 			}
 		},
 		{
 			"name": "Possibility Savant",
 			"rarity": "common",
-			"mana_cost": "{1}{U/R}{U/R}",
+			"mana_cost": "{1{U}/R}{U/R}",
 			"type": "Creature — Minotaur Wizard ",
 			"collector_number": "262",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/262_Possibility Savant.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/262_Possibility Savant.jpg"
 			}
 		},
 		{
@@ -286,15 +287,15 @@
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Gorgon Cleric ",
 			"collector_number": "117",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/117_Secluded Gorgon_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/117_Secluded Gorgon_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/117_Secluded Gorgon_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/117_Secluded Gorgon_front.jpg"
 			}
 		},
 		{
@@ -304,7 +305,7 @@
 			"type": "Creature — Human Cleric ",
 			"collector_number": "93",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/93_Hekatan Demagogue.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/93_Hekatan Demagogue.jpg"
 			}
 		},
 		{
@@ -314,7 +315,7 @@
 			"type": "Creature — Archon ",
 			"collector_number": "113",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/113_Reaper Archon.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/113_Reaper Archon.jpg"
 			}
 		},
 		{
@@ -324,7 +325,7 @@
 			"type": "Creature — Skeleton Soldier ",
 			"collector_number": "120",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/120_Stoic Phylaskia.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/120_Stoic Phylaskia.jpg"
 			}
 		},
 		{
@@ -334,7 +335,7 @@
 			"type": "Enchantment Creature — Giant Zombie ",
 			"collector_number": "114",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/114_Remnant of Zakros.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/114_Remnant of Zakros.jpg"
 			}
 		},
 		{
@@ -344,7 +345,7 @@
 			"type": "Creature — Cyclops Zombie ",
 			"collector_number": "123",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/123_Xarr's Mockery.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/123_Xarr's Mockery.jpg"
 			}
 		},
 		{
@@ -354,7 +355,7 @@
 			"type": "Instant",
 			"collector_number": "95",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/95_Isolated Misery.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/95_Isolated Misery.jpg"
 			}
 		},
 		{
@@ -364,7 +365,7 @@
 			"type": "Sorcery",
 			"collector_number": "101",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/101_Nurture the Future.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/101_Nurture the Future.jpg"
 			}
 		},
 		{
@@ -374,7 +375,7 @@
 			"type": "Creature — Minotaur Warrior ",
 			"collector_number": "255",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/255_Skophos Conqueror.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/255_Skophos Conqueror.jpg"
 			}
 		},
 		{
@@ -384,7 +385,7 @@
 			"type": "Creature — Snake ",
 			"collector_number": "265",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/265_Split-Hair Asp.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/265_Split-Hair Asp.jpg"
 			}
 		},
 		{
@@ -394,7 +395,7 @@
 			"type": "Enchantment Creature — Satyr Soldier ",
 			"collector_number": "138",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/138_Hero in the Making.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/138_Hero in the Making.jpg"
 			}
 		},
 		{
@@ -404,7 +405,7 @@
 			"type": "Enchantment Creature — Spirit ",
 			"collector_number": "131",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/131_Eidolon of Empty Thoughts.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/131_Eidolon of Empty Thoughts.jpg"
 			}
 		},
 		{
@@ -414,7 +415,7 @@
 			"type": "Enchantment",
 			"collector_number": "140",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/140_Invest in the Future.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/140_Invest in the Future.jpg"
 			}
 		},
 		{
@@ -424,7 +425,7 @@
 			"type": "Artifact Creature — Cat ",
 			"collector_number": "124",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/124_Anvilwrought Lion.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/124_Anvilwrought Lion.jpg"
 			}
 		},
 		{
@@ -433,15 +434,15 @@
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Berserker ",
 			"collector_number": "144",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/144_Mogis's Raider_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/144_Mogis's Raider_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/144_Mogis's Raider_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/144_Mogis's Raider_front.jpg"
 			}
 		},
 		{
@@ -450,15 +451,15 @@
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Chimera ",
 			"collector_number": "154",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/154_Seismic Chimera_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/154_Seismic Chimera_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/154_Seismic Chimera_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/154_Seismic Chimera_front.jpg"
 			}
 		},
 		{
@@ -468,7 +469,7 @@
 			"type": "Sorcery",
 			"collector_number": "151",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/151_Rally the Hoplites.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/151_Rally the Hoplites.jpg"
 			}
 		},
 		{
@@ -478,7 +479,7 @@
 			"type": "Creature — Cyclops Warrior ",
 			"collector_number": "136",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/136_Guardians of Zakros.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/136_Guardians of Zakros.jpg"
 			}
 		},
 		{
@@ -488,7 +489,7 @@
 			"type": "Creature — Giant Wizard ",
 			"collector_number": "159",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/159_Speaker of the Lightning.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/159_Speaker of the Lightning.jpg"
 			}
 		},
 		{
@@ -498,7 +499,7 @@
 			"type": "Instant",
 			"collector_number": "149",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/149_Punishment from Nyx.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/149_Punishment from Nyx.jpg"
 			}
 		},
 		{
@@ -508,7 +509,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "133",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/133_Fall from Nyx.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/133_Fall from Nyx.jpg"
 			}
 		},
 		{
@@ -518,7 +519,7 @@
 			"type": "Instant",
 			"collector_number": "152",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/152_Reply to the Call.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/152_Reply to the Call.jpg"
 			}
 		},
 		{
@@ -528,7 +529,7 @@
 			"type": "Instant",
 			"collector_number": "137",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/137_Heedless Cruelty.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/137_Heedless Cruelty.jpg"
 			}
 		},
 		{
@@ -538,17 +539,17 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "162",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/162_Thrice-Blessed Boon.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/162_Thrice-Blessed Boon.jpg"
 			}
 		},
 		{
 			"name": "Aegis Assault",
 			"rarity": "common",
-			"mana_cost": "{1}{R/G}",
+			"mana_cost": "{1{R}/G}",
 			"type": "Instant",
 			"collector_number": "256",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/256_Aegis Assault.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/256_Aegis Assault.jpg"
 			}
 		},
 		{
@@ -558,7 +559,7 @@
 			"type": "Creature — Satyr Soldier ",
 			"collector_number": "193",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/193_Revel Watchguard.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/193_Revel Watchguard.jpg"
 			}
 		},
 		{
@@ -568,7 +569,7 @@
 			"type": "Enchantment Creature — Nymph Dryad ",
 			"collector_number": "173",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/173_Dryad of the Keen-Eyed.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/173_Dryad of the Keen-Eyed.jpg"
 			}
 		},
 		{
@@ -577,15 +578,15 @@
 			"mana_cost": "{G}",
 			"type": "Creature — Human Druid ",
 			"collector_number": "192",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/192_Reaper of Fields_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/192_Reaper of Fields_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/192_Reaper of Fields_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/192_Reaper of Fields_front.jpg"
 			}
 		},
 		{
@@ -595,7 +596,7 @@
 			"type": "Creature — Gorgon Warrior ",
 			"collector_number": "190",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/190_Pidae Raider.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/190_Pidae Raider.jpg"
 			}
 		},
 		{
@@ -604,15 +605,15 @@
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Satyr Bard ",
 			"collector_number": "168",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/168_Caller of Ferocity_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/168_Caller of Ferocity_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/168_Caller of Ferocity_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/168_Caller of Ferocity_front.jpg"
 			}
 		},
 		{
@@ -622,7 +623,7 @@
 			"type": "Creature — Basilisk ",
 			"collector_number": "179",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/179_Inkblooded Basilisk.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/179_Inkblooded Basilisk.jpg"
 			}
 		},
 		{
@@ -632,7 +633,7 @@
 			"type": "Creature — Centaur Warrior ",
 			"collector_number": "170",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/170_Centaur Mentor.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/170_Centaur Mentor.jpg"
 			}
 		},
 		{
@@ -642,7 +643,7 @@
 			"type": "Creature — Centaur Warrior ",
 			"collector_number": "189",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/189_Pheres-Band Huntmaster.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/189_Pheres-Band Huntmaster.jpg"
 			}
 		},
 		{
@@ -652,7 +653,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "199",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/199_Slumbering Serpent.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/199_Slumbering Serpent.jpg"
 			}
 		},
 		{
@@ -662,7 +663,7 @@
 			"type": "Creature — Serpent ",
 			"collector_number": "203",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/203_Thundering Serpent.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/203_Thundering Serpent.jpg"
 			}
 		},
 		{
@@ -672,7 +673,7 @@
 			"type": "Instant",
 			"collector_number": "204",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/204_Weave Destiny.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/204_Weave Destiny.jpg"
 			}
 		},
 		{
@@ -682,7 +683,7 @@
 			"type": "Instant",
 			"collector_number": "191",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/191_Punch Out of the Sky.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/191_Punch Out of the Sky.jpg"
 			}
 		},
 		{
@@ -692,7 +693,7 @@
 			"type": "Sorcery",
 			"collector_number": "183",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/183_Midsummer Dream.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/183_Midsummer Dream.jpg"
 			}
 		},
 		{
@@ -702,7 +703,7 @@
 			"type": "Creature — Giant Soldier ",
 			"collector_number": "259",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/259_Zakros General.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/259_Zakros General.jpg"
 			}
 		},
 		{
@@ -712,7 +713,7 @@
 			"type": "Creature — Serpent ",
 			"collector_number": "268",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/268_Imposing Serpent.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/268_Imposing Serpent.jpg"
 			}
 		},
 		{
@@ -722,7 +723,7 @@
 			"type": "Creature — Giant Mutant ",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/2_Agnomakhos's Abomination.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/2_Agnomakhos's Abomination.jpg"
 			}
 		},
 		{
@@ -732,7 +733,7 @@
 			"type": "Creature — Cat Cleric ",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/16_Ephara's Oracle.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/16_Ephara's Oracle.jpg"
 			}
 		},
 		{
@@ -742,7 +743,7 @@
 			"type": "Creature — Cat Artist ",
 			"collector_number": "29",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/29_Patron of Ephara's Glory.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/29_Patron of Ephara's Glory.jpg"
 			}
 		},
 		{
@@ -752,7 +753,7 @@
 			"type": "Creature — Archon ",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/4_Archon of Glorious Light.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/4_Archon of Glorious Light.jpg"
 			}
 		},
 		{
@@ -761,15 +762,15 @@
 			"mana_cost": "{1}{W}{W}",
 			"type": "Legendary Creature — Human Soldier ",
 			"collector_number": "7",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/7_Basilo, Lion of Valor_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/7_Basilo, Lion of Valor_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/7_Basilo, Lion of Valor_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/7_Basilo, Lion of Valor_front.jpg"
 			}
 		},
 		{
@@ -779,7 +780,7 @@
 			"type": "Enchantment",
 			"collector_number": "41",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/41_Zakros Decree.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/41_Zakros Decree.jpg"
 			}
 		},
 		{
@@ -789,7 +790,7 @@
 			"type": "Sorcery",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/12_Command from the Front.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/12_Command from the Front.jpg"
 			}
 		},
 		{
@@ -799,7 +800,7 @@
 			"type": "Creature — Bird ",
 			"collector_number": "54",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/54_Haubay's Familiar.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/54_Haubay's Familiar.jpg"
 			}
 		},
 		{
@@ -809,7 +810,7 @@
 			"type": "Sorcery",
 			"collector_number": "76",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/76_Traumatic Impact.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/76_Traumatic Impact.jpg"
 			}
 		},
 		{
@@ -819,7 +820,7 @@
 			"type": "Enchantment Creature — Spirit ",
 			"collector_number": "51",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/51_Eidolon of Graceful Steps.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/51_Eidolon of Graceful Steps.jpg"
 			}
 		},
 		{
@@ -828,15 +829,15 @@
 			"mana_cost": "{4}{U}",
 			"type": "Creature — Cyclops Shaman ",
 			"collector_number": "66",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/66_Oracle of Zakros_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/66_Oracle of Zakros_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/66_Oracle of Zakros_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/66_Oracle of Zakros_front.jpg"
 			}
 		},
 		{
@@ -846,7 +847,7 @@
 			"type": "Creature — Hydra Serpent Horror ",
 			"collector_number": "55",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/55_Horror of the Mystic Sea.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/55_Horror of the Mystic Sea.jpg"
 			}
 		},
 		{
@@ -856,7 +857,7 @@
 			"type": "Enchantment",
 			"collector_number": "53",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/53_The Founding of the Twelve.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/53_The Founding of the Twelve.jpg"
 			}
 		},
 		{
@@ -866,7 +867,7 @@
 			"type": "Instant",
 			"collector_number": "79",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/79_Turn to Nyx.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/79_Turn to Nyx.jpg"
 			}
 		},
 		{
@@ -876,7 +877,7 @@
 			"type": "Creature — Satyr Zombie ",
 			"collector_number": "84",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/84_Aphonai's Reveler.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/84_Aphonai's Reveler.jpg"
 			}
 		},
 		{
@@ -886,7 +887,7 @@
 			"type": "Creature — Zombie ",
 			"collector_number": "108",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/108_Phenax's Confidant.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/108_Phenax's Confidant.jpg"
 			}
 		},
 		{
@@ -895,15 +896,15 @@
 			"mana_cost": "{3}{B}",
 			"type": "Creature — Gorgon Cleric ",
 			"collector_number": "107",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/107_Pharika's Harbinger_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/107_Pharika's Harbinger_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/107_Pharika's Harbinger_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/107_Pharika's Harbinger_front.jpg"
 			}
 		},
 		{
@@ -913,7 +914,7 @@
 			"type": "Legendary Creature — Demon ",
 			"collector_number": "85",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/85_Axiomene, Syrurian Tyrant.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/85_Axiomene, Syrurian Tyrant.jpg"
 			}
 		},
 		{
@@ -923,7 +924,7 @@
 			"type": "Creature — Gorgon Cleric ",
 			"collector_number": "106",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/106_Petraform Hermit.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/106_Petraform Hermit.jpg"
 			}
 		},
 		{
@@ -933,7 +934,7 @@
 			"type": "Instant",
 			"collector_number": "99",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/99_Maim.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/99_Maim.jpg"
 			}
 		},
 		{
@@ -943,7 +944,7 @@
 			"type": "Enchantment",
 			"collector_number": "96",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/96_Kakomanties Circle.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/96_Kakomanties Circle.jpg"
 			}
 		},
 		{
@@ -953,7 +954,7 @@
 			"type": "Sorcery",
 			"collector_number": "121",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/121_Together Just a Moment More.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/121_Together Just a Moment More.jpg"
 			}
 		},
 		{
@@ -963,7 +964,7 @@
 			"type": "Enchantment",
 			"collector_number": "109",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/109_Phenax's Touch.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/109_Phenax's Touch.jpg"
 			}
 		},
 		{
@@ -973,7 +974,7 @@
 			"type": "Creature — Giant Artificer ",
 			"collector_number": "125",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/125_Apprentice of the Forge-God.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/125_Apprentice of the Forge-God.jpg"
 			}
 		},
 		{
@@ -983,7 +984,7 @@
 			"type": "Creature — Minotaur Soldier ",
 			"collector_number": "157",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/157_Skophos Raid-Veteran.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/157_Skophos Raid-Veteran.jpg"
 			}
 		},
 		{
@@ -992,15 +993,15 @@
 			"mana_cost": "{1}{R}{R}",
 			"type": "Legendary Creature — Human Soldier ",
 			"collector_number": "164",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/164_Zygos, Edge of the Bull_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/164_Zygos, Edge of the Bull_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/164_Zygos, Edge of the Bull_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/164_Zygos, Edge of the Bull_front.jpg"
 			}
 		},
 		{
@@ -1010,7 +1011,7 @@
 			"type": "Creature — Satyr Citizen ",
 			"collector_number": "160",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/160_Star-Seeking Dreamer.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/160_Star-Seeking Dreamer.jpg"
 			}
 		},
 		{
@@ -1020,7 +1021,7 @@
 			"type": "Creature — Giant Warrior ",
 			"collector_number": "163",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/163_Zakros Stompers.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/163_Zakros Stompers.jpg"
 			}
 		},
 		{
@@ -1030,7 +1031,7 @@
 			"type": "Enchantment",
 			"collector_number": "129",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/129_The Burning of Pidae.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/129_The Burning of Pidae.jpg"
 			}
 		},
 		{
@@ -1040,7 +1041,7 @@
 			"type": "Instant",
 			"collector_number": "132",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/132_Elektes's Charge.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/132_Elektes's Charge.jpg"
 			}
 		},
 		{
@@ -1050,7 +1051,7 @@
 			"type": "Sorcery",
 			"collector_number": "139",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/139_Ignite.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/139_Ignite.jpg"
 			}
 		},
 		{
@@ -1059,15 +1060,15 @@
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment Creature — Centaur Archer ",
 			"collector_number": "200",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/200_Star-Studded Sagittaur_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/200_Star-Studded Sagittaur_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/200_Star-Studded Sagittaur_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/200_Star-Studded Sagittaur_front.jpg"
 			}
 		},
 		{
@@ -1076,15 +1077,15 @@
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Satyr Druid ",
 			"collector_number": "205",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/205_Wolf-Whistle Satyr_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/205_Wolf-Whistle Satyr_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/205_Wolf-Whistle Satyr_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/205_Wolf-Whistle Satyr_front.jpg"
 			}
 		},
 		{
@@ -1094,7 +1095,7 @@
 			"type": "Creature — Gorgon ",
 			"collector_number": "201",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/201_Survivor of Pidae.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/201_Survivor of Pidae.jpg"
 			}
 		},
 		{
@@ -1104,7 +1105,7 @@
 			"type": "Creature — Octopus Mutant ",
 			"collector_number": "178",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/178_Hunger's Door.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/178_Hunger's Door.jpg"
 			}
 		},
 		{
@@ -1114,7 +1115,7 @@
 			"type": "Creature — Hydra ",
 			"collector_number": "181",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/181_Labyrinthine Hydra.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/181_Labyrinthine Hydra.jpg"
 			}
 		},
 		{
@@ -1124,7 +1125,7 @@
 			"type": "Creature — Human Cleric ",
 			"collector_number": "172",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/172_Disciple of the Weavers.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/172_Disciple of the Weavers.jpg"
 			}
 		},
 		{
@@ -1134,7 +1135,7 @@
 			"type": "Enchantment",
 			"collector_number": "169",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/169_Canopy of the Winter Nexus.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/169_Canopy of the Winter Nexus.jpg"
 			}
 		},
 		{
@@ -1144,17 +1145,17 @@
 			"type": "Enchantment",
 			"collector_number": "177",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/177_Harmony with Nature.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/177_Harmony with Nature.jpg"
 			}
 		},
 		{
 			"name": "The Army of Trax",
 			"rarity": "rare",
-			"mana_cost": "{5}{W}{W}",
+			"mana_cost": "{4}{W}{W}{W}",
 			"type": "Creature — Archon Army ",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/6_The Army of Trax.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/6_The Army of Trax.jpg"
 			}
 		},
 		{
@@ -1164,7 +1165,7 @@
 			"type": "Creature — Cat Soldier ",
 			"collector_number": "30",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/30_Prince of the Pride.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/30_Prince of the Pride.jpg"
 			}
 		},
 		{
@@ -1173,15 +1174,15 @@
 			"mana_cost": "{2}{W}{W}",
 			"type": "Creature — Human Archer ",
 			"collector_number": "10",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/10_Chosen of Heliod_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/10_Chosen of Heliod_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/10_Chosen of Heliod_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/10_Chosen of Heliod_front.jpg"
 			}
 		},
 		{
@@ -1191,7 +1192,7 @@
 			"type": "Enchantment — Saga ",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/19_The Fall of Trax.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/19_The Fall of Trax.jpg"
 			}
 		},
 		{
@@ -1201,7 +1202,7 @@
 			"type": "Legendary Enchantment — Shrine ",
 			"collector_number": "32",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/32_Shrine to Heliod.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/32_Shrine to Heliod.jpg"
 			}
 		},
 		{
@@ -1211,7 +1212,7 @@
 			"type": "Enchantment Creature — Leviathan ",
 			"collector_number": "72",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/72_Stormscraper of Ketaphos.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/72_Stormscraper of Ketaphos.jpg"
 			}
 		},
 		{
@@ -1221,7 +1222,7 @@
 			"type": "Legendary Creature — Human Shaman ",
 			"collector_number": "57",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/57_Lost Caller of the Sea.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/57_Lost Caller of the Sea.jpg"
 			}
 		},
 		{
@@ -1231,7 +1232,7 @@
 			"type": "Creature — Merfolk Wizard Rogue ",
 			"collector_number": "74",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/74_Thassa's Tideshaper.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/74_Thassa's Tideshaper.jpg"
 			}
 		},
 		{
@@ -1241,7 +1242,7 @@
 			"type": "Instant",
 			"collector_number": "42",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/42_Absorb Divinity.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/42_Absorb Divinity.jpg"
 			}
 		},
 		{
@@ -1251,7 +1252,7 @@
 			"type": "Sorcery",
 			"collector_number": "58",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/58_Lost to Memory.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/58_Lost to Memory.jpg"
 			}
 		},
 		{
@@ -1261,7 +1262,7 @@
 			"type": "Enchantment — Saga ",
 			"collector_number": "71",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/71_The Sinking of Olantin.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/71_The Sinking of Olantin.jpg"
 			}
 		},
 		{
@@ -1271,7 +1272,7 @@
 			"type": "Legendary Enchantment — Shrine ",
 			"collector_number": "70",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/70_Shrine to Thassa.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/70_Shrine to Thassa.jpg"
 			}
 		},
 		{
@@ -1281,7 +1282,7 @@
 			"type": "Creature — Demon Zombie ",
 			"collector_number": "122",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/122_Underworld Tormentor.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/122_Underworld Tormentor.jpg"
 			}
 		},
 		{
@@ -1291,7 +1292,7 @@
 			"type": "Legendary Creature — Demon ",
 			"collector_number": "119",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/119_Slighos the Body-Binder.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/119_Slighos the Body-Binder.jpg"
 			}
 		},
 		{
@@ -1301,7 +1302,7 @@
 			"type": "Creature — Gorgon Wizard ",
 			"collector_number": "97",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/97_Keeper of the Scale.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/97_Keeper of the Scale.jpg"
 			}
 		},
 		{
@@ -1311,7 +1312,7 @@
 			"type": "Sorcery",
 			"collector_number": "100",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/100_Make an Example.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/100_Make an Example.jpg"
 			}
 		},
 		{
@@ -1321,7 +1322,7 @@
 			"type": "Enchantment — Saga ",
 			"collector_number": "105",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/105_The Path of Phenax.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/105_The Path of Phenax.jpg"
 			}
 		},
 		{
@@ -1331,7 +1332,7 @@
 			"type": "Legendary Enchantment — Shrine ",
 			"collector_number": "118",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/118_Shrine to Erebos.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/118_Shrine to Erebos.jpg"
 			}
 		},
 		{
@@ -1341,7 +1342,7 @@
 			"type": "Creature — Satyr Wizard ",
 			"collector_number": "153",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/153_Satyr Arsonist.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/153_Satyr Arsonist.jpg"
 			}
 		},
 		{
@@ -1350,15 +1351,15 @@
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Archon ",
 			"collector_number": "150",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/150_Pyros Rider_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/150_Pyros Rider_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/150_Pyros Rider_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/150_Pyros Rider_front.jpg"
 			}
 		},
 		{
@@ -1368,7 +1369,7 @@
 			"type": "Enchantment Creature — Minotaur Spirit ",
 			"collector_number": "156",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/156_Skophos Conjuror.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/156_Skophos Conjuror.jpg"
 			}
 		},
 		{
@@ -1378,17 +1379,7 @@
 			"type": "Enchantment",
 			"collector_number": "128",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/128_Audience at Zakros.png"
-			}
-		},
-		{
-			"name": "A God Divided",
-			"rarity": "rare",
-			"mana_cost": "{2}{R}",
-			"type": "Enchantment — Saga ",
-			"collector_number": "135",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/135_A God Divided.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/128_Audience at Zakros.jpg"
 			}
 		},
 		{
@@ -1398,7 +1389,7 @@
 			"type": "Legendary Enchantment — Shrine ",
 			"collector_number": "155",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/155_Shrine to Purphoros.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/155_Shrine to Purphoros.jpg"
 			}
 		},
 		{
@@ -1408,7 +1399,7 @@
 			"type": "Creature — Centaur Druid ",
 			"collector_number": "186",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/186_Nylea's Grovetender.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/186_Nylea's Grovetender.jpg"
 			}
 		},
 		{
@@ -1418,7 +1409,7 @@
 			"type": "Creature — Minotaur Soldier ",
 			"collector_number": "184",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/184_Nessian Scout-Captain.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/184_Nessian Scout-Captain.jpg"
 			}
 		},
 		{
@@ -1428,17 +1419,17 @@
 			"type": "Creature — Satyr Soldier Scout ",
 			"collector_number": "198",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/198_Skola Nyxweaver.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/198_Skola Nyxweaver.jpg"
 			}
 		},
 		{
 			"name": "King of the Wilderness",
 			"rarity": "rare",
-			"mana_cost": "{G}{G}{G}",
+			"mana_cost": "{G}{G}{G}{G}{G}",
 			"type": "Creature — Chimera ",
 			"collector_number": "180",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/180_King of the Wilderness.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/180_King of the Wilderness.jpg"
 			}
 		},
 		{
@@ -1448,7 +1439,7 @@
 			"type": "Enchantment — Saga ",
 			"collector_number": "197",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/197_Siphon the Divine.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/197_Siphon the Divine.jpg"
 			}
 		},
 		{
@@ -1458,24 +1449,7 @@
 			"type": "Legendary Enchantment — Shrine ",
 			"collector_number": "196",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/196_Shrine to Nylea.png"
-			}
-		},
-		{
-			"name": "Claes, Shield of Karda",
-			"rarity": "mythic",
-			"mana_cost": "{W}",
-			"type": "Legendary Creature — Human Soldier ",
-			"collector_number": "11",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/11_Claes, Shield of Karda_front.png"
-			},
-			"back": {
-				"name": "",
-				"type": "",
-				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/11_Claes, Shield of Karda_back.png"
-				}
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/196_Shrine to Nylea.jpg"
 			}
 		},
 		{
@@ -1485,7 +1459,7 @@
 			"type": "Legendary Creature — Elder Giant ",
 			"collector_number": "232",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/232_Phlage, Titan of Burning Wind.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/232_Phlage, Titan of Burning Wind.jpg"
 			}
 		},
 		{
@@ -1495,7 +1469,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "275",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/275_The Smoking Strand.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/275_The Smoking Strand.jpg"
 			}
 		},
 		{
@@ -1505,7 +1479,7 @@
 			"type": "Sorcery",
 			"collector_number": "115",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/115_Ride the Tartyx.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/115_Ride the Tartyx.jpg"
 			}
 		},
 		{
@@ -1515,7 +1489,7 @@
 			"type": "Legendary Creature — Elder Giant ",
 			"collector_number": "239",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/239_Skotha, Titan of Eternal Dark.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/239_Skotha, Titan of Eternal Dark.jpg"
 			}
 		},
 		{
@@ -1525,7 +1499,7 @@
 			"type": "Legendary Enchantment Creature — God ",
 			"collector_number": "249",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/249_Karda, Battle-Born.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/249_Karda, Battle-Born.jpg"
 			}
 		},
 		{
@@ -1535,7 +1509,7 @@
 			"type": "Legendary Enchantment Planeswalker — Koios ",
 			"collector_number": "142",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/142_Koios, Spear of Karda.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/142_Koios, Spear of Karda.jpg"
 			}
 		},
 		{
@@ -1545,7 +1519,7 @@
 			"type": "Enchantment Creature — Spider ",
 			"collector_number": "166",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/166_Arasta's Handmaiden.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/166_Arasta's Handmaiden.jpg"
 			}
 		},
 		{
@@ -1555,7 +1529,7 @@
 			"type": "Legendary Creature — Human Soldier ",
 			"collector_number": "206",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/206_Benthalos of Land and Sea.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/206_Benthalos of Land and Sea.jpg"
 			}
 		},
 		{
@@ -1565,7 +1539,7 @@
 			"type": "Legendary Creature — Satyr Rogue ",
 			"collector_number": "210",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/210_Orestes, Heroic Scoundrel.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/210_Orestes, Heroic Scoundrel.jpg"
 			}
 		},
 		{
@@ -1575,7 +1549,7 @@
 			"type": "Legendary Creature — Minotaur Warrior ",
 			"collector_number": "216",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/216_Raksolcs Ravage-Soul.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/216_Raksolcs Ravage-Soul.jpg"
 			}
 		},
 		{
@@ -1585,7 +1559,7 @@
 			"type": "Legendary Creature — Cyclops Warrior ",
 			"collector_number": "220",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/220_Molpadia, the Last Acephali.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/220_Molpadia, the Last Acephali.jpg"
 			}
 		},
 		{
@@ -1594,15 +1568,15 @@
 			"mana_cost": "{2}{G}{W}",
 			"type": "Legendary Creature — Cat Druid ",
 			"collector_number": "225",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/225_Lykaretos, Harvest's Bounty_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/225_Lykaretos, Harvest's Bounty_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/225_Lykaretos, Harvest's Bounty_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/225_Lykaretos, Harvest's Bounty_front.jpg"
 			}
 		},
 		{
@@ -1612,7 +1586,7 @@
 			"type": "Legendary Enchantment Creature — Demigod ",
 			"collector_number": "229",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/229_Pero, Puppet of Erebos.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/229_Pero, Puppet of Erebos.jpg"
 			}
 		},
 		{
@@ -1622,7 +1596,7 @@
 			"type": "Legendary Creature — Dragon ",
 			"collector_number": "233",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/233_Timedrinker the Bleached.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/233_Timedrinker the Bleached.jpg"
 			}
 		},
 		{
@@ -1632,7 +1606,7 @@
 			"type": "Legendary Creature — Human Rogue ",
 			"collector_number": "235",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/235_Biaas the Poison Drinker.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/235_Biaas the Poison Drinker.jpg"
 			}
 		},
 		{
@@ -1642,7 +1616,7 @@
 			"type": "Legendary Enchantment Creature — Demigod ",
 			"collector_number": "241",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/241_Elektes, First King of Akros.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/241_Elektes, First King of Akros.jpg"
 			}
 		},
 		{
@@ -1652,7 +1626,7 @@
 			"type": "Legendary Creature — Human Ranger ",
 			"collector_number": "248",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/248_Zale, Titanohunter.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/248_Zale, Titanohunter.jpg"
 			}
 		},
 		{
@@ -1662,7 +1636,7 @@
 			"type": "Creature — Giant Artificer ",
 			"collector_number": "207",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/207_Builder of Monuments.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/207_Builder of Monuments.jpg"
 			}
 		},
 		{
@@ -1672,7 +1646,7 @@
 			"type": "Sorcery",
 			"collector_number": "213",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/213_Through Blood, Knowledge.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/213_Through Blood, Knowledge.jpg"
 			}
 		},
 		{
@@ -1681,15 +1655,15 @@
 			"mana_cost": "{R}{G}",
 			"type": "Creature — Cat ",
 			"collector_number": "221",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/221_Spikemane Lion_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/221_Spikemane Lion_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/221_Spikemane Lion_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/221_Spikemane Lion_front.jpg"
 			}
 		},
 		{
@@ -1699,7 +1673,7 @@
 			"type": "Legendary Creature — Human Soldier ",
 			"collector_number": "224",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/224_Kynaios, Blade-Bound.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/224_Kynaios, Blade-Bound.jpg"
 			}
 		},
 		{
@@ -1708,15 +1682,15 @@
 			"mana_cost": "{3}{W}{B}",
 			"type": "Creature — Archon ",
 			"collector_number": "226",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/226_Archon of Condemnation_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/226_Archon of Condemnation_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/226_Archon of Condemnation_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/226_Archon of Condemnation_front.jpg"
 			}
 		},
 		{
@@ -1726,7 +1700,7 @@
 			"type": "Legendary Creature — Human Soldier ",
 			"collector_number": "234",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/234_Tiro, the Silent Blade.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/234_Tiro, the Silent Blade.jpg"
 			}
 		},
 		{
@@ -1736,7 +1710,7 @@
 			"type": "Legendary Creature — Minotaur Soldier ",
 			"collector_number": "244",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/244_Nikon, Skophos Protector.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/244_Nikon, Skophos Protector.jpg"
 			}
 		},
 		{
@@ -1746,7 +1720,7 @@
 			"type": "Legendary Enchantment Creature — Demigod ",
 			"collector_number": "247",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/247_Nykthos, Architect of Gods.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/247_Nykthos, Architect of Gods.jpg"
 			}
 		},
 		{
@@ -1756,7 +1730,7 @@
 			"type": "Artifact Creature — Construct ",
 			"collector_number": "272",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/272_Colossus of Trax.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/272_Colossus of Trax.jpg"
 			}
 		},
 		{
@@ -1766,7 +1740,7 @@
 			"type": "Artifact Creature — Sculpture ",
 			"collector_number": "273",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/273_Implacable Shrine-Guard.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/273_Implacable Shrine-Guard.jpg"
 			}
 		},
 		{
@@ -1776,7 +1750,7 @@
 			"type": "Artifact",
 			"collector_number": "277",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/277_Tidelock Pearl.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/277_Tidelock Pearl.jpg"
 			}
 		},
 		{
@@ -1786,7 +1760,7 @@
 			"type": "Legendary Enchantment Creature — God ",
 			"collector_number": "227",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/227_Athreos, Gold-Eyed.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/227_Athreos, Gold-Eyed.jpg"
 			}
 		},
 		{
@@ -1796,7 +1770,7 @@
 			"type": "Legendary Enchantment Creature — God ",
 			"collector_number": "222",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/222_Karametra, Life-Harvester.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/222_Karametra, Life-Harvester.jpg"
 			}
 		},
 		{
@@ -1806,7 +1780,7 @@
 			"type": "Legendary Enchantment Creature — God ",
 			"collector_number": "218",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/218_Klothys, Fate-Driven.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/218_Klothys, Fate-Driven.jpg"
 			}
 		},
 		{
@@ -1816,7 +1790,7 @@
 			"type": "Legendary Enchantment Creature — God ",
 			"collector_number": "245",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/245_Kruphix, Far-Seeing.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/245_Kruphix, Far-Seeing.jpg"
 			}
 		},
 		{
@@ -1826,7 +1800,7 @@
 			"type": "Legendary Enchantment Creature — God ",
 			"collector_number": "214",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/214_Mogis, Rage-Crowned.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/214_Mogis, Rage-Crowned.jpg"
 			}
 		},
 		{
@@ -1836,7 +1810,7 @@
 			"type": "Legendary Enchantment Creature — God ",
 			"collector_number": "242",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/242_Iroas, Honor-Bound.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/242_Iroas, Honor-Bound.jpg"
 			}
 		},
 		{
@@ -1846,7 +1820,7 @@
 			"type": "Legendary Enchantment Creature — God ",
 			"collector_number": "230",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/230_Keranos, Fickle-Fortuned.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/230_Keranos, Fickle-Fortuned.jpg"
 			}
 		},
 		{
@@ -1855,15 +1829,15 @@
 			"mana_cost": "{U}{B}",
 			"type": "Legendary Creature — Human Rogue ",
 			"collector_number": "211",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/211_Phenax, Brazen Thief_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/211_Phenax, Brazen Thief_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/211_Phenax, Brazen Thief_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/211_Phenax, Brazen Thief_front.jpg"
 			}
 		},
 		{
@@ -1873,7 +1847,7 @@
 			"type": "Legendary Enchantment Creature — God ",
 			"collector_number": "237",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/237_Pharika, Snake-Twined.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/237_Pharika, Snake-Twined.jpg"
 			}
 		},
 		{
@@ -1883,7 +1857,7 @@
 			"type": "Legendary Enchantment Creature — God ",
 			"collector_number": "208",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/208_Ephara, Hero-Maker.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/208_Ephara, Hero-Maker.jpg"
 			}
 		},
 		{
@@ -1893,7 +1867,7 @@
 			"type": "Basic Land — Plains ",
 			"collector_number": "301",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/301_Plains.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/301_Plains.jpg"
 			}
 		},
 		{
@@ -1903,7 +1877,7 @@
 			"type": "Basic Land — Island ",
 			"collector_number": "302",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/302_Island.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/302_Island.jpg"
 			}
 		},
 		{
@@ -1913,7 +1887,7 @@
 			"type": "Basic Land — Swamp ",
 			"collector_number": "303",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/303_Swamp.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/303_Swamp.jpg"
 			}
 		},
 		{
@@ -1923,7 +1897,7 @@
 			"type": "Basic Land — Mountain ",
 			"collector_number": "304",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/304_Mountain.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/304_Mountain.jpg"
 			}
 		},
 		{
@@ -1933,7 +1907,7 @@
 			"type": "Basic Land — Forest ",
 			"collector_number": "305",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/305_Forest.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/305_Forest.jpg"
 			}
 		},
 		{
@@ -1943,7 +1917,7 @@
 			"type": "Legendary Creature — Archon ",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/1_Agnomakhos, Justice.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/1_Agnomakhos, Justice.jpg"
 			}
 		},
 		{
@@ -1953,7 +1927,7 @@
 			"type": "Creature — Leviathan Whale ",
 			"collector_number": "45",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/45_Behemoth of the Five Rivers.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/45_Behemoth of the Five Rivers.jpg"
 			}
 		},
 		{
@@ -1962,15 +1936,15 @@
 			"mana_cost": "{4}{B}{B}",
 			"type": "Creature — Horror ",
 			"collector_number": "90",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/90_Furies of the Natural Order_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/90_Furies of the Natural Order_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/90_Furies of the Natural Order_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/90_Furies of the Natural Order_front.jpg"
 			}
 		},
 		{
@@ -1980,7 +1954,7 @@
 			"type": "Legendary Enchantment Creature — Dragon ",
 			"collector_number": "161",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/161_Thraxes, Sire of Dragons.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/161_Thraxes, Sire of Dragons.jpg"
 			}
 		},
 		{
@@ -1989,15 +1963,15 @@
 			"mana_cost": "{G}",
 			"type": "Creature — Satyr Scout ",
 			"collector_number": "194",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/194_Seeker of New Horizons_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/194_Seeker of New Horizons_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/194_Seeker of New Horizons_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/194_Seeker of New Horizons_front.jpg"
 			}
 		},
 		{
@@ -2007,7 +1981,7 @@
 			"type": "Legendary Planeswalker — Haubay ",
 			"collector_number": "44",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/44_The Arbiter.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/44_The Arbiter.jpg"
 			}
 		},
 		{
@@ -2017,7 +1991,7 @@
 			"type": "Legendary Planeswalker — Xarr ",
 			"collector_number": "240",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/240_Xarr of the Eternal Cycle.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/240_Xarr of the Eternal Cycle.jpg"
 			}
 		},
 		{
@@ -2027,7 +2001,7 @@
 			"type": "Land",
 			"collector_number": "279",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/279_Barren Ashlands.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/279_Barren Ashlands.jpg"
 			}
 		},
 		{
@@ -2037,7 +2011,7 @@
 			"type": "Land",
 			"collector_number": "280",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/280_Buried Colossus.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/280_Buried Colossus.jpg"
 			}
 		},
 		{
@@ -2047,7 +2021,7 @@
 			"type": "Land",
 			"collector_number": "281",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/281_Ephemeral Mire.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/281_Ephemeral Mire.jpg"
 			}
 		},
 		{
@@ -2057,7 +2031,7 @@
 			"type": "Land",
 			"collector_number": "283",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/283_Gates to the Underworld.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/283_Gates to the Underworld.jpg"
 			}
 		},
 		{
@@ -2067,7 +2041,7 @@
 			"type": "Land",
 			"collector_number": "284",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/284_Hundred-Handed Pillars.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/284_Hundred-Handed Pillars.jpg"
 			}
 		},
 		{
@@ -2077,7 +2051,7 @@
 			"type": "Land",
 			"collector_number": "285",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/285_Miasmic Cove.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/285_Miasmic Cove.jpg"
 			}
 		},
 		{
@@ -2087,7 +2061,7 @@
 			"type": "Land",
 			"collector_number": "286",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/286_Nessian Woods.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/286_Nessian Woods.jpg"
 			}
 		},
 		{
@@ -2097,7 +2071,7 @@
 			"type": "Land",
 			"collector_number": "287",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/287_Nimbus of Thought.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/287_Nimbus of Thought.jpg"
 			}
 		},
 		{
@@ -2107,7 +2081,7 @@
 			"type": "Land",
 			"collector_number": "288",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/288_Shell Cove.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/288_Shell Cove.jpg"
 			}
 		},
 		{
@@ -2117,7 +2091,7 @@
 			"type": "Land",
 			"collector_number": "300",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/300_Titan's Stairs.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/300_Titan's Stairs.jpg"
 			}
 		},
 		{
@@ -2127,7 +2101,7 @@
 			"type": "Land",
 			"collector_number": "290",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/290_Temple of Deceit.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/290_Temple of Deceit.jpg"
 			}
 		},
 		{
@@ -2137,7 +2111,7 @@
 			"type": "Land",
 			"collector_number": "289",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/289_Temple of Abandon.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/289_Temple of Abandon.jpg"
 			}
 		},
 		{
@@ -2147,7 +2121,7 @@
 			"type": "Land",
 			"collector_number": "295",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/295_Temple of Mystery.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/295_Temple of Mystery.jpg"
 			}
 		},
 		{
@@ -2157,7 +2131,7 @@
 			"type": "Land",
 			"collector_number": "294",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/294_Temple of Malice.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/294_Temple of Malice.jpg"
 			}
 		},
 		{
@@ -2167,7 +2141,7 @@
 			"type": "Land",
 			"collector_number": "296",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/296_Temple of Plenty.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/296_Temple of Plenty.jpg"
 			}
 		},
 		{
@@ -2177,7 +2151,7 @@
 			"type": "Land",
 			"collector_number": "297",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/297_Temple of Silence.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/297_Temple of Silence.jpg"
 			}
 		},
 		{
@@ -2187,7 +2161,7 @@
 			"type": "Land",
 			"collector_number": "292",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/292_Temple of Epiphany.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/292_Temple of Epiphany.jpg"
 			}
 		},
 		{
@@ -2197,7 +2171,7 @@
 			"type": "Land",
 			"collector_number": "298",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/298_Temple of Triumph.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/298_Temple of Triumph.jpg"
 			}
 		},
 		{
@@ -2207,7 +2181,7 @@
 			"type": "Land",
 			"collector_number": "291",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/291_Temple of Enlightenment.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/291_Temple of Enlightenment.jpg"
 			}
 		},
 		{
@@ -2217,7 +2191,7 @@
 			"type": "Land",
 			"collector_number": "293",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/293_Temple of Malady.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/293_Temple of Malady.jpg"
 			}
 		},
 		{
@@ -2227,7 +2201,7 @@
 			"type": "Enchantment Artifact — Shrine ",
 			"collector_number": "274",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/274_Shrine to Those Forgotten.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/274_Shrine to Those Forgotten.jpg"
 			}
 		},
 		{
@@ -2237,7 +2211,7 @@
 			"type": "Legendary Enchantment — Shrine ",
 			"collector_number": "260",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/260_Shrine to Athreos.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/260_Shrine to Athreos.jpg"
 			}
 		},
 		{
@@ -2247,17 +2221,17 @@
 			"type": "Legendary Enchantment — Shrine ",
 			"collector_number": "251",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/251_Shrine to Ephara.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/251_Shrine to Ephara.jpg"
 			}
 		},
 		{
 			"name": "Shrine to Iroas",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{R/W}",
+			"mana_cost": "{1{R}/W}",
 			"type": "Legendary Enchantment — Shrine ",
 			"collector_number": "267",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/267_Shrine to Iroas.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/267_Shrine to Iroas.jpg"
 			}
 		},
 		{
@@ -2267,17 +2241,17 @@
 			"type": "Legendary Enchantment — Shrine ",
 			"collector_number": "258",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/258_Shrine to Karametra.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/258_Shrine to Karametra.jpg"
 			}
 		},
 		{
 			"name": "Shrine to Keranos",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{U/R}",
+			"mana_cost": "{1{U}/R}",
 			"type": "Legendary Enchantment — Shrine ",
 			"collector_number": "263",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/263_Shrine to Keranos.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/263_Shrine to Keranos.jpg"
 			}
 		},
 		{
@@ -2287,27 +2261,27 @@
 			"type": "Legendary Enchantment — Shrine ",
 			"collector_number": "257",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/257_Shrine to Klothys.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/257_Shrine to Klothys.jpg"
 			}
 		},
 		{
 			"name": "Shrine to Kruphix",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{G/U}",
+			"mana_cost": "{1{G}/U}",
 			"type": "Legendary Enchantment — Shrine ",
 			"collector_number": "269",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/269_Shrine to Kruphix.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/269_Shrine to Kruphix.jpg"
 			}
 		},
 		{
 			"name": "Shrine to Mogis",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{B/R}",
+			"mana_cost": "{1{B}/R}",
 			"type": "Legendary Enchantment — Shrine ",
 			"collector_number": "254",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/254_Shrine to Mogis.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/254_Shrine to Mogis.jpg"
 			}
 		},
 		{
@@ -2317,7 +2291,7 @@
 			"type": "Legendary Enchantment — Shrine ",
 			"collector_number": "264",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/264_Shrine to Pharika.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/264_Shrine to Pharika.jpg"
 			}
 		},
 		{
@@ -2327,7 +2301,7 @@
 			"type": "Legendary Enchantment — Shrine ",
 			"collector_number": "253",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/253_Shrine to Phenax.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/253_Shrine to Phenax.jpg"
 			}
 		},
 		{
@@ -2337,7 +2311,7 @@
 			"type": "Land",
 			"collector_number": "282",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/282_Garden of Shrines.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/282_Garden of Shrines.jpg"
 			}
 		},
 		{
@@ -2347,7 +2321,7 @@
 			"type": "Enchantment",
 			"collector_number": "27",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/27_Omen of Victory.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/27_Omen of Victory.jpg"
 			}
 		},
 		{
@@ -2357,7 +2331,7 @@
 			"type": "Enchantment",
 			"collector_number": "65",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/65_Omen of Deception.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/65_Omen of Deception.jpg"
 			}
 		},
 		{
@@ -2367,7 +2341,7 @@
 			"type": "Enchantment",
 			"collector_number": "103",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/103_Omen of Slaughter.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/103_Omen of Slaughter.jpg"
 			}
 		},
 		{
@@ -2377,7 +2351,7 @@
 			"type": "Enchantment",
 			"collector_number": "146",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/146_Omen of Storms.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/146_Omen of Storms.jpg"
 			}
 		},
 		{
@@ -2387,7 +2361,7 @@
 			"type": "Enchantment",
 			"collector_number": "187",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/187_Omen of Horizons.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/187_Omen of Horizons.jpg"
 			}
 		},
 		{
@@ -2397,7 +2371,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "28",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/28_Ordeal of Athreos.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/28_Ordeal of Athreos.jpg"
 			}
 		},
 		{
@@ -2407,7 +2381,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "67",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/67_Ordeal of Ephara.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/67_Ordeal of Ephara.jpg"
 			}
 		},
 		{
@@ -2417,7 +2391,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "104",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/104_Ordeal of Pharika.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/104_Ordeal of Pharika.jpg"
 			}
 		},
 		{
@@ -2427,7 +2401,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "147",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/147_Ordeal of Karda.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/147_Ordeal of Karda.jpg"
 			}
 		},
 		{
@@ -2437,7 +2411,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "188",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/188_Ordeal of Karametra.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/188_Ordeal of Karametra.jpg"
 			}
 		},
 		{
@@ -2447,7 +2421,7 @@
 			"type": "Legendary Creature — Gorgon Cleric ",
 			"collector_number": "236",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/236_Cybele of the Frozen Faith.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/236_Cybele of the Frozen Faith.jpg"
 			}
 		},
 		{
@@ -2457,7 +2431,7 @@
 			"type": "Enchantment",
 			"collector_number": "266",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/266_Karda's Emmisary.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/266_Karda's Emmisary.jpg"
 			}
 		},
 		{
@@ -2467,7 +2441,7 @@
 			"type": "Artifact",
 			"collector_number": "278",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/278_Traveler's Amulet.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/278_Traveler's Amulet.jpg"
 			}
 		},
 		{
@@ -2477,7 +2451,7 @@
 			"type": "Artifact Creature — Bird ",
 			"collector_number": "270",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/270_Anvilwrought Crane.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/270_Anvilwrought Crane.jpg"
 			}
 		},
 		{
@@ -2487,7 +2461,7 @@
 			"type": "Artifact Creature — Elk ",
 			"collector_number": "271",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/271_Chromatic Hart.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/271_Chromatic Hart.jpg"
 			}
 		},
 		{
@@ -2497,7 +2471,7 @@
 			"type": "Creature — Cat Soldier ",
 			"collector_number": "22",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/22_Leonin Hoplite.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/22_Leonin Hoplite.jpg"
 			}
 		},
 		{
@@ -2507,7 +2481,7 @@
 			"type": "Land",
 			"collector_number": "299",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/299_Terramorphic Expanse.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/299_Terramorphic Expanse.jpg"
 			}
 		},
 		{
@@ -2517,7 +2491,7 @@
 			"type": "Sorcery",
 			"collector_number": "68",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/68_Read the Tides.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/68_Read the Tides.jpg"
 			}
 		},
 		{
@@ -2527,7 +2501,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "195",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/195_Shatter the Reflection.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/195_Shatter the Reflection.jpg"
 			}
 		},
 		{
@@ -2537,7 +2511,7 @@
 			"type": "Sorcery",
 			"collector_number": "176",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/176_Fight the Tides.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/176_Fight the Tides.jpg"
 			}
 		},
 		{
@@ -2547,7 +2521,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "165",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/165_Arasta's Burden.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/165_Arasta's Burden.jpg"
 			}
 		},
 		{
@@ -2557,17 +2531,17 @@
 			"type": "Instant",
 			"collector_number": "145",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/145_Monstrous Challenge.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/145_Monstrous Challenge.jpg"
 			}
 		},
 		{
-			"name": "Flame Lash",
-			"rarity": "common",
-			"mana_cost": "{3}{R}",
-			"type": "Instant",
+			"name": "Flame Whip",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
 			"collector_number": "134",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/134_Flame Lash.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/134_Flame Whip.jpg"
 			}
 		},
 		{
@@ -2577,7 +2551,7 @@
 			"type": "Legendary Enchantment Creature — Artificer ",
 			"collector_number": "148",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/148_Petros, Purphoros's Double.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/148_Petros, Purphoros's Double.jpg"
 			}
 		},
 		{
@@ -2587,7 +2561,7 @@
 			"type": "Instant",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/17_Erase from Reality.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/17_Erase from Reality.jpg"
 			}
 		},
 		{
@@ -2597,7 +2571,7 @@
 			"type": "Creature — Merfolk Rogue ",
 			"collector_number": "43",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/43_Agent of Deception.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/43_Agent of Deception.jpg"
 			}
 		},
 		{
@@ -2607,7 +2581,7 @@
 			"type": "Creature — Zombie ",
 			"collector_number": "91",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/91_Gray Merchant of Asphodel.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/91_Gray Merchant of Asphodel.jpg"
 			}
 		},
 		{
@@ -2617,7 +2591,7 @@
 			"type": "Sorcery",
 			"collector_number": "185",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/185_Nylea's Call.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/185_Nylea's Call.jpg"
 			}
 		},
 		{
@@ -2627,7 +2601,7 @@
 			"type": "Creature — Serpent Hydra ",
 			"collector_number": "202",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/202_Terror of Olantin.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/202_Terror of Olantin.jpg"
 			}
 		},
 		{
@@ -2637,7 +2611,7 @@
 			"type": "Sorcery",
 			"collector_number": "89",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/89_Fall into the Underworld.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/89_Fall into the Underworld.jpg"
 			}
 		},
 		{
@@ -2647,7 +2621,7 @@
 			"type": "Enchantment Creature — Gorgon Warrior ",
 			"collector_number": "83",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/83_Agent of Pharika.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/83_Agent of Pharika.jpg"
 			}
 		},
 		{
@@ -2657,7 +2631,7 @@
 			"type": "Instant",
 			"collector_number": "116",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/116_Rite of Venom.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/116_Rite of Venom.jpg"
 			}
 		},
 		{
@@ -2667,7 +2641,7 @@
 			"type": "Enchantment Creature — Dog ",
 			"collector_number": "102",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/102_Nyxborn Retriever.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/102_Nyxborn Retriever.jpg"
 			}
 		},
 		{
@@ -2677,7 +2651,7 @@
 			"type": "Sorcery",
 			"collector_number": "110",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/110_Plead to Erebos.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/110_Plead to Erebos.jpg"
 			}
 		},
 		{
@@ -2687,7 +2661,7 @@
 			"type": "Instant",
 			"collector_number": "111",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/111_Poisoned Strike.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/111_Poisoned Strike.jpg"
 			}
 		},
 		{
@@ -2697,7 +2671,7 @@
 			"type": "Instant",
 			"collector_number": "77",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/77_Travel Through the Mystic Sea.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/77_Travel Through the Mystic Sea.jpg"
 			}
 		},
 		{
@@ -2707,7 +2681,7 @@
 			"type": "Creature — Kraken ",
 			"collector_number": "69",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/69_Shoreline Crasher.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/69_Shoreline Crasher.jpg"
 			}
 		},
 		{
@@ -2717,7 +2691,7 @@
 			"type": "Instant",
 			"collector_number": "50",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/50_Ebb and Flow.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/50_Ebb and Flow.jpg"
 			}
 		},
 		{
@@ -2727,7 +2701,7 @@
 			"type": "Instant",
 			"collector_number": "62",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/62_Misbegotten Aims.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/62_Misbegotten Aims.jpg"
 			}
 		},
 		{
@@ -2737,7 +2711,7 @@
 			"type": "Creature — Cat Soldier Army ",
 			"collector_number": "23",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/23_Leonin Phalanx.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/23_Leonin Phalanx.jpg"
 			}
 		},
 		{
@@ -2747,7 +2721,7 @@
 			"type": "Creature — Centaur Soldier ",
 			"collector_number": "34",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/34_Spear of the Sun-Crowned.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/34_Spear of the Sun-Crowned.jpg"
 			}
 		},
 		{
@@ -2757,7 +2731,7 @@
 			"type": "Creature — Cat Soldier ",
 			"collector_number": "37",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/37_Traxian General.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/37_Traxian General.jpg"
 			}
 		},
 		{
@@ -2767,7 +2741,7 @@
 			"type": "Sorcery",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/14_Dedicated Charge.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/14_Dedicated Charge.jpg"
 			}
 		},
 		{
@@ -2777,7 +2751,7 @@
 			"type": "Enchantment Creature — Griffin ",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/15_Ephara's Messenger.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/15_Ephara's Messenger.jpg"
 			}
 		},
 		{
@@ -2787,7 +2761,7 @@
 			"type": "Enchantment Creature — Griffin ",
 			"collector_number": "82",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/82_Zodiac Griffin.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/82_Zodiac Griffin.jpg"
 			}
 		},
 		{
@@ -2797,7 +2771,7 @@
 			"type": "Creature — Minotaur Warrior ",
 			"collector_number": "87",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/87_Coward-Eater.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/87_Coward-Eater.jpg"
 			}
 		},
 		{
@@ -2807,7 +2781,7 @@
 			"type": "Creature — Human Soldier ",
 			"collector_number": "158",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/158_Skophos Trainee.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/158_Skophos Trainee.jpg"
 			}
 		},
 		{
@@ -2817,7 +2791,7 @@
 			"type": "Instant",
 			"collector_number": "171",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/171_Clash of the Titans.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/171_Clash of the Titans.jpg"
 			}
 		},
 		{
@@ -2827,7 +2801,7 @@
 			"type": "Artifact",
 			"collector_number": "276",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/276_Soul-Guide Lantern.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/276_Soul-Guide Lantern.jpg"
 			}
 		},
 		{
@@ -2836,25 +2810,25 @@
 			"mana_cost": "{2}{W}{W}",
 			"type": "Creature — Archon ",
 			"collector_number": "8",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/8_Bringer of Heliod's Light_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/8_Bringer of Heliod's Light_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/8_Bringer of Heliod's Light_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/8_Bringer of Heliod's Light_front.jpg"
 			}
 		},
 		{
 			"name": "Life Begins Anew",
-			"rarity": "uncommon",
+			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
 			"collector_number": "143",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/143_Life Begins Anew.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/143_Life Begins Anew.jpg"
 			}
 		},
 		{
@@ -2864,7 +2838,7 @@
 			"type": "Enchantment Creature — Phoenix ",
 			"collector_number": "127",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/127_Ashlands Phoenix.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/127_Ashlands Phoenix.jpg"
 			}
 		},
 		{
@@ -2874,7 +2848,7 @@
 			"type": "Instant",
 			"collector_number": "63",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/63_Momentary Petrification.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/63_Momentary Petrification.jpg"
 			}
 		},
 		{
@@ -2884,7 +2858,7 @@
 			"type": "Creature — Archon ",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/5_Archon of the Legion.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/5_Archon of the Legion.jpg"
 			}
 		},
 		{
@@ -2894,7 +2868,7 @@
 			"type": "Instant",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/18_Fall of Olantin.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/18_Fall of Olantin.jpg"
 			}
 		},
 		{
@@ -2904,7 +2878,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "26",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/26_Nikon's Aegis.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/26_Nikon's Aegis.jpg"
 			}
 		},
 		{
@@ -2914,7 +2888,7 @@
 			"type": "Legendary Artifact — Equipment ",
 			"collector_number": "88",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/88_Deception's Edge.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/88_Deception's Edge.jpg"
 			}
 		},
 		{
@@ -2924,7 +2898,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "174",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/174_Eventide Coronet.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/174_Eventide Coronet.jpg"
 			}
 		},
 		{
@@ -2934,7 +2908,7 @@
 			"type": "Legendary Creature — Zombie Ranger ",
 			"collector_number": "217",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/217_Tymaret, Bane of Phenax.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/217_Tymaret, Bane of Phenax.jpg"
 			}
 		},
 		{
@@ -2944,7 +2918,7 @@
 			"type": "Token Artifact Creature — Sculpture ",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/18_Sculpture.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/18_Sculpture.jpg"
 			}
 		},
 		{
@@ -2954,7 +2928,7 @@
 			"type": "Token Artifact — Equipment Weapon ",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/20_Weapon.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/20_Weapon.jpg"
 			}
 		},
 		{
@@ -2964,7 +2938,7 @@
 			"type": "Token Artifact — Treasure ",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/19_Treasure.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/19_Treasure.jpg"
 			}
 		},
 		{
@@ -2974,7 +2948,7 @@
 			"type": "Token Creature — Army ",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/2_Army.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/2_Army.jpg"
 			}
 		},
 		{
@@ -2984,7 +2958,7 @@
 			"type": "Token Creature — Human ",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/3_Human.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/3_Human.jpg"
 			}
 		},
 		{
@@ -2994,7 +2968,7 @@
 			"type": "Token Creature — Snake ",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/10_Snake.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/10_Snake.jpg"
 			}
 		},
 		{
@@ -3004,7 +2978,7 @@
 			"type": "Token Creature — Tentacle ",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/6_Tentacle.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/6_Tentacle.jpg"
 			}
 		},
 		{
@@ -3014,7 +2988,7 @@
 			"type": "Token Creature — Soldier ",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/13_Soldier.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/13_Soldier.jpg"
 			}
 		},
 		{
@@ -3024,7 +2998,7 @@
 			"type": "Token Enchantment Artifact Creature",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/17_Follower.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/17_Follower.jpg"
 			}
 		},
 		{
@@ -3034,7 +3008,7 @@
 			"type": "Token Creature — Zombie ",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/11_Zombie.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/11_Zombie.jpg"
 			}
 		},
 		{
@@ -3044,7 +3018,7 @@
 			"type": "Token Creature — Wizard ",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/9_Wizard.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/9_Wizard.jpg"
 			}
 		},
 		{
@@ -3054,7 +3028,7 @@
 			"type": "Token Creature — Kraken ",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/5_Kraken.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/5_Kraken.jpg"
 			}
 		},
 		{
@@ -3064,7 +3038,7 @@
 			"type": "Token Legendary Creature — Kraken ",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/7_Tromokratis.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/7_Tromokratis.jpg"
 			}
 		},
 		{
@@ -3074,7 +3048,7 @@
 			"type": "Token Creature — Centaur ",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/14_Centaur.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/14_Centaur.jpg"
 			}
 		},
 		{
@@ -3084,7 +3058,7 @@
 			"type": "Creature — Zombie ",
 			"collector_number": "92",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/92_Grim Physician.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/92_Grim Physician.jpg"
 			}
 		},
 		{
@@ -3094,7 +3068,7 @@
 			"type": "Token Enchantment Creature — Dragon ",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/12_Dragon.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/12_Dragon.jpg"
 			}
 		},
 		{
@@ -3103,15 +3077,15 @@
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment Creature — Unicorn ",
 			"collector_number": "9",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/9_Charging Brightmare_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/9_Charging Brightmare_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/9_Charging Brightmare_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/9_Charging Brightmare_front.jpg"
 			}
 		},
 		{
@@ -3120,15 +3094,15 @@
 			"mana_cost": "{U}",
 			"type": "Legendary Creature — Human Scout ",
 			"collector_number": "46",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/46_Callaphe the Mariner_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/TRX-files/img/46_Callaphe the Mariner_back.png"
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/46_Callaphe the Mariner_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/46_Callaphe the Mariner_front.jpg"
 			}
 		},
 		{
@@ -3138,7 +3112,7 @@
 			"type": "Creature — Vampire Beast ",
 			"collector_number": "98",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/98_Lurking Vyrkolakas.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/98_Lurking Vyrkolakas.jpg"
 			}
 		},
 		{
@@ -3148,7 +3122,7 @@
 			"type": "Creature — Human Warrior ",
 			"collector_number": "126",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/126_Arena Champion.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/126_Arena Champion.jpg"
 			}
 		},
 		{
@@ -3158,7 +3132,7 @@
 			"type": "Creature — Chimera ",
 			"collector_number": "167",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/167_Belief-Belying Beast.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/167_Belief-Belying Beast.jpg"
 			}
 		},
 		{
@@ -3168,7 +3142,7 @@
 			"type": "Token Creature — Pegasus ",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/4_Pegasus.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/4_Pegasus.jpg"
 			}
 		},
 		{
@@ -3178,7 +3152,7 @@
 			"type": "Enchantment",
 			"collector_number": "31",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/31_Quality Time.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/31_Quality Time.jpg"
 			}
 		},
 		{
@@ -3188,7 +3162,7 @@
 			"type": "Legendary Creature — Gorgon Zombie ",
 			"collector_number": "86",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/86_Chrolcatos, Pidae's Founder.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/86_Chrolcatos, Pidae's Founder.jpg"
 			}
 		},
 		{
@@ -3198,17 +3172,17 @@
 			"type": "Enchantment",
 			"collector_number": "141",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/141_Karda's Legacy.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/141_Karda's Legacy.jpg"
 			}
 		},
 		{
 			"name": "Menelaia, Beloved Lyrist",
 			"rarity": "rare",
-			"mana_cost": "{2}{G}{G}",
+			"mana_cost": "{1}{G}",
 			"type": "Legendary Enchantment Creature — Demigod ",
 			"collector_number": "182",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/182_Menelaia, Beloved Lyrist.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/182_Menelaia, Beloved Lyrist.jpg"
 			}
 		},
 		{
@@ -3218,7 +3192,7 @@
 			"type": "Enchantment",
 			"collector_number": "75",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/75_Tide's Ire.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/75_Tide's Ire.jpg"
 			}
 		},
 		{
@@ -3228,7 +3202,7 @@
 			"type": "Instant",
 			"collector_number": "209",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/209_Ephara's Judgment.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/209_Ephara's Judgment.jpg"
 			}
 		},
 		{
@@ -3238,7 +3212,7 @@
 			"type": "Sorcery",
 			"collector_number": "212",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/212_Phenax's Judgment.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/212_Phenax's Judgment.jpg"
 			}
 		},
 		{
@@ -3248,7 +3222,7 @@
 			"type": "Sorcery",
 			"collector_number": "215",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/215_Mogis's Judgment.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/215_Mogis's Judgment.jpg"
 			}
 		},
 		{
@@ -3258,7 +3232,7 @@
 			"type": "Instant",
 			"collector_number": "219",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/219_Klothys's Judgment.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/219_Klothys's Judgment.jpg"
 			}
 		},
 		{
@@ -3268,7 +3242,7 @@
 			"type": "Instant",
 			"collector_number": "223",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/223_Karametra's Judgment.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/223_Karametra's Judgment.jpg"
 			}
 		},
 		{
@@ -3278,7 +3252,7 @@
 			"type": "Sorcery",
 			"collector_number": "228",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/228_Athreos's Judgment.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/228_Athreos's Judgment.jpg"
 			}
 		},
 		{
@@ -3288,7 +3262,7 @@
 			"type": "Instant",
 			"collector_number": "231",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/231_Keranos's Judgment.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/231_Keranos's Judgment.jpg"
 			}
 		},
 		{
@@ -3298,17 +3272,17 @@
 			"type": "Instant",
 			"collector_number": "238",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/238_Pharika's Judgment.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/238_Pharika's Judgment.jpg"
 			}
 		},
 		{
 			"name": "Iroas's Judgment",
 			"rarity": "rare",
-			"mana_cost": "{3}{R}{W}",
+			"mana_cost": "{2}{R}{W}",
 			"type": "Sorcery",
 			"collector_number": "243",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/243_Iroas's Judgment.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/243_Iroas's Judgment.jpg"
 			}
 		},
 		{
@@ -3318,7 +3292,7 @@
 			"type": "Instant",
 			"collector_number": "246",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/246_Kruphix's Judgment.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/246_Kruphix's Judgment.jpg"
 			}
 		},
 		{
@@ -3328,7 +3302,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "112",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/112_Pull of Tizerus.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/112_Pull of Tizerus.jpg"
 			}
 		},
 		{
@@ -3338,7 +3312,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "80",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/80_Voyage to the Siren Sea.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/80_Voyage to the Siren Sea.jpg"
 			}
 		},
 		{
@@ -3348,7 +3322,7 @@
 			"type": "Token Reminder",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/1_The Champion.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/1_The Champion.jpg"
 			}
 		},
 		{
@@ -3358,7 +3332,7 @@
 			"type": "Token Enchantment — Shrine ",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/8_Unmarked Shrine.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/8_Unmarked Shrine.jpg"
 			}
 		},
 		{
@@ -3368,7 +3342,7 @@
 			"type": "Legendary Creature — Human Soldier ",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/21_Iara, Blessed-Hart.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/21_Iara, Blessed-Hart.jpg"
 			}
 		},
 		{
@@ -3378,7 +3352,7 @@
 			"type": "Creature — Human Wizard ",
 			"collector_number": "78",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/78_Trinity of Fates.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/78_Trinity of Fates.jpg"
 			}
 		},
 		{
@@ -3388,7 +3362,7 @@
 			"type": "Creature — Satyr Noble ",
 			"collector_number": "94",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/94_Host of the Neverending Revel.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/94_Host of the Neverending Revel.jpg"
 			}
 		},
 		{
@@ -3398,7 +3372,7 @@
 			"type": "Legendary Creature — Human Soldier ",
 			"collector_number": "130",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/130_Efimia of the Horse.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/130_Efimia of the Horse.jpg"
 			}
 		},
 		{
@@ -3408,7 +3382,7 @@
 			"type": "Legendary Creature — Gorgon Noble ",
 			"collector_number": "175",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/175_Evridiki, Queen of Pidae.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/175_Evridiki, Queen of Pidae.jpg"
 			}
 		},
 		{
@@ -3418,7 +3392,7 @@
 			"type": "Token Creature — Wolf ",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/16_Wolf.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/16_Wolf.jpg"
 			}
 		},
 		{
@@ -3428,371 +3402,337 @@
 			"type": "Token Creature — Snake ",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/15_Snake.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/15_Snake.jpg"
 			}
 		},
 		{
-			"name": "Ephara, Hero-Maker",
-			"rarity": "special",
-			"mana_cost": "{1}{W}{U}",
-			"type": "Legendary Enchantment Creature — God ",
-			"collector_number": "0",
+			"name": "A God Divided",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment — Saga ",
+			"collector_number": "135",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/0_Ephara, Hero-Maker.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/135_A God Divided.jpg"
 			}
 		},
 		{
-			"name": "Koios, Spear of Karda",
-			"rarity": "special",
-			"mana_cost": "{R}{R}{R}{R}",
-			"type": "Legendary Enchantment Planeswalker — Koios ",
-			"collector_number": "0",
+			"name": "Claes, Shield of Karda",
+			"rarity": "mythic",
+			"mana_cost": "{W}",
+			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "11",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://DNAZangy.github.io/sets/TRX-files/img/11_Claes, Shield of Karda_back.jpg"
+				}
+			},
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/0_Koios, Spear of Karda.png"
+				"en": "https://DNAZangy.github.io/sets/TRX-files/img/11_Claes, Shield of Karda_front.jpg"
 			}
-		},
-		{
-			"name": "Omen of Slaughter",
-			"rarity": "special",
-			"mana_cost": "{1}{B}",
-			"type": "Enchantment",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/0_Omen of Slaughter.png"
-			}
-		},
-		{
-			"name": "Elektes, First King of Akros",
-			"rarity": "special",
-			"mana_cost": "{1}{R}{W}",
-			"type": "Legendary Enchantment Creature — Demigod ",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/0_Elektes, First King of Akros.png"
-			}
-		},
-		{
-			"name": "Pull of Tizerus",
-			"rarity": "special",
-			"mana_cost": "{B}",
-			"type": "Enchantment — Aura ",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/0_Pull of Tizerus.png"
-			}
-		},
-		{
-			"name": "Shrine to Those Forgotten",
-			"rarity": "special",
-			"mana_cost": "{2}",
-			"type": "Enchantment Artifact — Shrine ",
-			"collector_number": "0",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRX-files/img/0_Shrine to Those Forgotten.png"
-			}
-		},
-		]
-	[RareSlot(1)]
-	2 The Army of Trax
-		2 Prince of the Pride
-		2 Chosen of Heliod
-		2 The Fall of Trax
-		2 Shrine to Heliod
-		2 Stormscraper of Ketaphos
-		2 Lost Caller of the Sea
-		2 Absorb Divinity
-		2 Lost to Memory
-		2 The Sinking of Olantin
-		2 Shrine to Thassa
-		2 Underworld Tormentor
-		2 Slighos the Body-Binder
-		2 Keeper of the Scale
-		2 Make an Example
-		2 The Path of Phenax
-		2 Shrine to Erebos
-		2 Satyr Arsonist
-		2 Pyros Rider
-		2 Skophos Conjuror
-		2 Audience at Zakros
-		2 A God Divided
-		2 Shrine to Purphoros
-		2 Nylea's Grovetender
-		2 Nessian Scout-Captain
-		2 Skola Nyxweaver
-		2 King of the Wilderness
-		2 Siphon the Divine
-		2 Shrine to Nylea
-		2 Builder of Monuments
-		2 Through Blood, Knowledge
-		2 Spikemane Lion
-		2 Kynaios, Blade-Bound
-		2 Archon of Condemnation
-		2 Tiro, the Silent Blade
-		2 Nikon, Skophos Protector
-		2 Nykthos, Architect of Gods
-		2 Agnomakhos, Justice
-		2 Behemoth of the Five Rivers
-		2 Furies of the Natural Order
-		2 Thraxes, Sire of Dragons
-		2 Seeker of New Horizons
-		2 Barren Ashlands
-		2 Buried Colossus
-		2 Ephemeral Mire
-		2 Gates to the Underworld
-		2 Hundred-Handed Pillars
-		2 Miasmic Cove
-		2 Nessian Woods
-		2 Nimbus of Thought
-		2 Shell Cove
-		2 Titan's Stairs
-		2 Cybele of the Frozen Faith
-		2 Petros, Purphoros's Double
-		2 Fall of Olantin
-		2 Nikon's Aegis
-		2 Deception's Edge
-		2 Eventide Coronet
-		2 Tymaret, Bane of Phenax
-		2 Callaphe the Mariner
-		2 Quality Time
-		2 Chrolcatos, Pidae's Founder
-		2 Karda's Legacy
-		2 Menelaia, Beloved Lyrist
-		2 Ephara's Judgment
-		2 Phenax's Judgment
-		2 Mogis's Judgment
-		2 Klothys's Judgment
-		2 Karametra's Judgment
-		2 Athreos's Judgment
-		2 Keranos's Judgment
-		2 Pharika's Judgment
-		2 Iroas's Judgment
-		2 Kruphix's Judgment
-		2 Voyage to the Siren Sea
-		2 Iara, Blessed-Hart
-		2 Trinity of Fates
-		2 Host of the Neverending Revel
-		2 Efimia of the Horse
-		2 Evridiki, Queen of Pidae
-		1 Claes, Shield of Karda
-		1 Phlage, Titan of Burning Wind
-		1 The Smoking Strand
-		1 Ride the Tartyx
-		1 Skotha, Titan of Eternal Dark
-		1 Karda, Battle-Born
-		1 Koios, Spear of Karda
-		1 Arasta's Handmaiden
-		1 Athreos, Gold-Eyed
-		1 Karametra, Life-Harvester
-		1 Klothys, Fate-Driven
-		1 Kruphix, Far-Seeing
-		1 Mogis, Rage-Crowned
-		1 Iroas, Honor-Bound
-		1 Keranos, Fickle-Fortuned
-		1 Phenax, Brazen Thief
-		1 Pharika, Snake-Twined
-		1 Ephara, Hero-Maker
-		1 The Arbiter
-		1 Xarr of the Eternal Cycle
-		[UncommonSlot(3)]
-	9 Invest in the Future
-		9 Agnomakhos's Abomination
-		9 Ephara's Oracle
-		9 Patron of Ephara's Glory
-		9 Archon of Glorious Light
-		9 Basilo, Lion of Valor
-		9 Zakros Decree
-		9 Command from the Front
-		9 Haubay's Familiar
-		9 Traumatic Impact
-		9 Eidolon of Graceful Steps
-		9 Oracle of Zakros
-		9 Horror of the Mystic Sea
-		9 The Founding of the Twelve
-		9 Turn to Nyx
-		9 Aphonai's Reveler
-		9 Phenax's Confidant
-		9 Pharika's Harbinger
-		9 Axiomene, Syrurian Tyrant
-		9 Petraform Hermit
-		9 Maim
-		9 Kakomanties Circle
-		9 Together Just a Moment More
-		9 Phenax's Touch
-		9 Apprentice of the Forge-God
-		9 Skophos Raid-Veteran
-		9 Zygos, Edge of the Bull
-		9 Star-Seeking Dreamer
-		9 Zakros Stompers
-		9 The Burning of Pidae
-		9 Elektes's Charge
-		9 Ignite
-		9 Star-Studded Sagittaur
-		9 Wolf-Whistle Satyr
-		9 Survivor of Pidae
-		9 Hunger's Door
-		9 Labyrinthine Hydra
-		9 Disciple of the Weavers
-		9 Canopy of the Winter Nexus
-		9 Harmony with Nature
-		9 Thassa's Tideshaper
-		9 Benthalos of Land and Sea
-		9 Orestes, Heroic Scoundrel
-		9 Raksolcs Ravage-Soul
-		9 Molpadia, the Last Acephali
-		9 Lykaretos, Harvest's Bounty
-		9 Pero, Puppet of Erebos
-		9 Timedrinker the Bleached
-		9 Biaas the Poison Drinker
-		9 Elektes, First King of Akros
-		9 Zale, Titanohunter
-		9 Implacable Shrine-Guard
-		9 Tidelock Pearl
-		9 Shrine to Athreos
-		9 Shrine to Ephara
-		9 Shrine to Iroas
-		9 Shrine to Karametra
-		9 Shrine to Keranos
-		9 Shrine to Klothys
-		9 Shrine to Kruphix
-		9 Shrine to Mogis
-		9 Shrine to Pharika
-		9 Shrine to Phenax
-		9 Garden of Shrines
-		9 Ordeal of Athreos
-		9 Ordeal of Ephara
-		9 Ordeal of Pharika
-		9 Ordeal of Karda
-		9 Ordeal of Karametra
-		9 Erase from Reality
-		9 Agent of Deception
-		9 Gray Merchant of Asphodel
-		9 Nylea's Call
-		9 Terror of Olantin
-		9 Travel Through the Mystic Sea
-		9 Bringer of Heliod's Light
-		9 Life Begins Anew
-		9 Ashlands Phoenix
-		9 Archon of the Legion
-		9 Charging Brightmare
-		9 Lurking Vyrkolakas
-		9 Belief-Belying Beast
-		9 Tide's Ire
-		[CommonSlot(10)]
-	30 Sunbeam Alseid
-		30 Traxian Strategos
-		30 New Recruit
-		30 Alseid of Stilled Hearts
-		30 Daybreak Rider
-		30 Traxian Calvary
-		30 Skophos Warden
-		30 Walk the Dead's Path
-		30 Tyranny of Trax
-		30 Marble Philosopher
-		30 Olantin Stalwart
-		30 Traxian Hoplite
-		30 Gods Willing
-		30 Charming Siren
-		30 Melancholic Oracle
-		30 Meeting of the Minds
-		30 Mentor of the Dakra Isles
-		30 Olantin Emissary
-		30 Dakran Shipcrusher
-		30 Warden of the Deep-Dwelling
-		30 Fathomless Dominion
-		30 Divine Mishap
-		30 Kraken Hatchling
-		30 Thassa's Caress
-		30 Odunos Smuggler
-		30 Possibility Savant
-		30 Secluded Gorgon
-		30 Hekatan Demagogue
-		30 Reaper Archon
-		30 Stoic Phylaskia
-		30 Remnant of Zakros
-		30 Xarr's Mockery
-		30 Isolated Misery
-		30 Nurture the Future
-		30 Skophos Conqueror
-		30 Split-Hair Asp
-		30 Hero in the Making
-		30 Eidolon of Empty Thoughts
-		30 Anvilwrought Lion
-		30 Mogis's Raider
-		30 Seismic Chimera
-		30 Rally the Hoplites
-		30 Guardians of Zakros
-		30 Speaker of the Lightning
-		30 Punishment from Nyx
-		30 Fall from Nyx
-		30 Reply to the Call
-		30 Heedless Cruelty
-		30 Thrice-Blessed Boon
-		30 Aegis Assault
-		30 Revel Watchguard
-		30 Dryad of the Keen-Eyed
-		30 Reaper of Fields
-		30 Pidae Raider
-		30 Caller of Ferocity
-		30 Inkblooded Basilisk
-		30 Centaur Mentor
-		30 Pheres-Band Huntmaster
-		30 Slumbering Serpent
-		30 Thundering Serpent
-		30 Weave Destiny
-		30 Punch Out of the Sky
-		30 Midsummer Dream
-		30 Zakros General
-		30 Imposing Serpent
-		30 Colossus of Trax
-		30 Temple of Deceit
-		30 Temple of Abandon
-		30 Temple of Mystery
-		30 Temple of Malice
-		30 Temple of Plenty
-		30 Temple of Silence
-		30 Temple of Epiphany
-		30 Temple of Triumph
-		30 Temple of Enlightenment
-		30 Temple of Malady
-		30 Shrine to Those Forgotten
-		30 Omen of Victory
-		30 Omen of Deception
-		30 Omen of Slaughter
-		30 Omen of Storms
-		30 Omen of Horizons
-		30 Karda's Emmisary
-		30 Traveler's Amulet
-		30 Anvilwrought Crane
-		30 Chromatic Hart
-		30 Leonin Hoplite
-		30 Terramorphic Expanse
-		30 Read the Tides
-		30 Shatter the Reflection
-		30 Fight the Tides
-		30 Arasta's Burden
-		30 Monstrous Challenge
-		30 Flame Lash
-		30 Fall into the Underworld
-		30 Agent of Pharika
-		30 Rite of Venom
-		30 Nyxborn Retriever
-		30 Plead to Erebos
-		30 Poisoned Strike
-		30 Shoreline Crasher
-		30 Ebb and Flow
-		30 Misbegotten Aims
-		30 Leonin Phalanx
-		30 Spear of the Sun-Crowned
-		30 Traxian General
-		30 Dedicated Charge
-		30 Ephara's Messenger
-		30 Zodiac Griffin
-		30 Coward-Eater
-		30 Skophos Trainee
-		30 Clash of the Titans
-		30 Soul-Guide Lantern
-		30 Momentary Petrification
-		30 Grim Physician
-		30 Arena Champion
-		30 Pull of Tizerus
-		
+		}
+	]
+[RareSlot(1)]
+2 The Army of Trax
+2 Prince of the Pride
+2 Chosen of Heliod
+2 The Fall of Trax
+2 Shrine to Heliod
+2 Stormscraper of Ketaphos
+2 Lost Caller of the Sea
+2 Absorb Divinity
+2 Lost to Memory
+2 The Sinking of Olantin
+2 Shrine to Thassa
+2 Underworld Tormentor
+2 Slighos the Body-Binder
+2 Keeper of the Scale
+2 Make an Example
+2 The Path of Phenax
+2 Shrine to Erebos
+2 Satyr Arsonist
+2 Pyros Rider
+2 Skophos Conjuror
+2 Audience at Zakros
+2 Shrine to Purphoros
+2 Nylea's Grovetender
+2 Nessian Scout-Captain
+2 Skola Nyxweaver
+2 King of the Wilderness
+2 Siphon the Divine
+2 Shrine to Nylea
+2 Builder of Monuments
+2 Through Blood, Knowledge
+2 Spikemane Lion
+2 Kynaios, Blade-Bound
+2 Archon of Condemnation
+2 Tiro, the Silent Blade
+2 Nikon, Skophos Protector
+2 Nykthos, Architect of Gods
+2 Agnomakhos, Justice
+2 Behemoth of the Five Rivers
+2 Furies of the Natural Order
+2 Thraxes, Sire of Dragons
+2 Seeker of New Horizons
+2 Barren Ashlands
+2 Buried Colossus
+2 Ephemeral Mire
+2 Gates to the Underworld
+2 Hundred-Handed Pillars
+2 Miasmic Cove
+2 Nessian Woods
+2 Nimbus of Thought
+2 Shell Cove
+2 Titan's Stairs
+2 Cybele of the Frozen Faith
+2 Petros, Purphoros's Double
+2 Fall of Olantin
+2 Nikon's Aegis
+2 Deception's Edge
+2 Eventide Coronet
+2 Tymaret, Bane of Phenax
+2 Callaphe the Mariner
+2 Quality Time
+2 Chrolcatos, Pidae's Founder
+2 Karda's Legacy
+2 Menelaia, Beloved Lyrist
+2 Ephara's Judgment
+2 Phenax's Judgment
+2 Mogis's Judgment
+2 Klothys's Judgment
+2 Karametra's Judgment
+2 Athreos's Judgment
+2 Keranos's Judgment
+2 Pharika's Judgment
+2 Iroas's Judgment
+2 Kruphix's Judgment
+2 Voyage to the Siren Sea
+2 Iara, Blessed-Hart
+2 Trinity of Fates
+2 Host of the Neverending Revel
+2 Efimia of the Horse
+2 Evridiki, Queen of Pidae
+2 A God Divided
+1 Phlage, Titan of Burning Wind
+1 The Smoking Strand
+1 Ride the Tartyx
+1 Skotha, Titan of Eternal Dark
+1 Karda, Battle-Born
+1 Koios, Spear of Karda
+1 Arasta's Handmaiden
+1 Athreos, Gold-Eyed
+1 Karametra, Life-Harvester
+1 Klothys, Fate-Driven
+1 Kruphix, Far-Seeing
+1 Mogis, Rage-Crowned
+1 Iroas, Honor-Bound
+1 Keranos, Fickle-Fortuned
+1 Phenax, Brazen Thief
+1 Pharika, Snake-Twined
+1 Ephara, Hero-Maker
+1 The Arbiter
+1 Xarr of the Eternal Cycle
+1 Claes, Shield of Karda
+[UncommonSlot(3)]
+9 Invest in the Future
+9 Agnomakhos's Abomination
+9 Ephara's Oracle
+9 Patron of Ephara's Glory
+9 Archon of Glorious Light
+9 Basilo, Lion of Valor
+9 Zakros Decree
+9 Command from the Front
+9 Haubay's Familiar
+9 Traumatic Impact
+9 Eidolon of Graceful Steps
+9 Oracle of Zakros
+9 Horror of the Mystic Sea
+9 The Founding of the Twelve
+9 Turn to Nyx
+9 Aphonai's Reveler
+9 Phenax's Confidant
+9 Pharika's Harbinger
+9 Axiomene, Syrurian Tyrant
+9 Petraform Hermit
+9 Maim
+9 Kakomanties Circle
+9 Together Just a Moment More
+9 Phenax's Touch
+9 Apprentice of the Forge-God
+9 Skophos Raid-Veteran
+9 Zygos, Edge of the Bull
+9 Star-Seeking Dreamer
+9 Zakros Stompers
+9 The Burning of Pidae
+9 Elektes's Charge
+9 Ignite
+9 Star-Studded Sagittaur
+9 Wolf-Whistle Satyr
+9 Survivor of Pidae
+9 Hunger's Door
+9 Labyrinthine Hydra
+9 Disciple of the Weavers
+9 Canopy of the Winter Nexus
+9 Harmony with Nature
+9 Thassa's Tideshaper
+9 Benthalos of Land and Sea
+9 Orestes, Heroic Scoundrel
+9 Raksolcs Ravage-Soul
+9 Molpadia, the Last Acephali
+9 Lykaretos, Harvest's Bounty
+9 Pero, Puppet of Erebos
+9 Timedrinker the Bleached
+9 Biaas the Poison Drinker
+9 Elektes, First King of Akros
+9 Zale, Titanohunter
+9 Implacable Shrine-Guard
+9 Tidelock Pearl
+9 Shrine to Athreos
+9 Shrine to Ephara
+9 Shrine to Iroas
+9 Shrine to Karametra
+9 Shrine to Keranos
+9 Shrine to Klothys
+9 Shrine to Kruphix
+9 Shrine to Mogis
+9 Shrine to Pharika
+9 Shrine to Phenax
+9 Garden of Shrines
+9 Ordeal of Athreos
+9 Ordeal of Ephara
+9 Ordeal of Pharika
+9 Ordeal of Karda
+9 Ordeal of Karametra
+9 Flame Whip
+9 Erase from Reality
+9 Agent of Deception
+9 Gray Merchant of Asphodel
+9 Nylea's Call
+9 Terror of Olantin
+9 Travel Through the Mystic Sea
+9 Bringer of Heliod's Light
+9 Ashlands Phoenix
+9 Archon of the Legion
+9 Charging Brightmare
+9 Lurking Vyrkolakas
+9 Belief-Belying Beast
+9 Tide's Ire
+[CommonSlot(10)]
+30 Sunbeam Alseid
+30 Traxian Strategos
+30 New Recruit
+30 Alseid of Stilled Hearts
+30 Daybreak Rider
+30 Traxian Calvary
+30 Skophos Warden
+30 Walk the Dead's Path
+30 Tyranny of Trax
+30 Marble Philosopher
+30 Olantin Stalwart
+30 Traxian Hoplite
+30 Gods Willing
+30 Charming Siren
+30 Melancholic Oracle
+30 Meeting of the Minds
+30 Mentor of the Dakra Isles
+30 Olantin Emissary
+30 Dakran Shipcrusher
+30 Warden of the Deep-Dwelling
+30 Fathomless Dominion
+30 Divine Mishap
+30 Kraken Hatchling
+30 Thassa's Caress
+30 Odunos Smuggler
+30 Possibility Savant
+30 Secluded Gorgon
+30 Hekatan Demagogue
+30 Reaper Archon
+30 Stoic Phylaskia
+30 Remnant of Zakros
+30 Xarr's Mockery
+30 Isolated Misery
+30 Nurture the Future
+30 Skophos Conqueror
+30 Split-Hair Asp
+30 Hero in the Making
+30 Eidolon of Empty Thoughts
+30 Anvilwrought Lion
+30 Mogis's Raider
+30 Seismic Chimera
+30 Rally the Hoplites
+30 Guardians of Zakros
+30 Speaker of the Lightning
+30 Punishment from Nyx
+30 Fall from Nyx
+30 Reply to the Call
+30 Heedless Cruelty
+30 Thrice-Blessed Boon
+30 Aegis Assault
+30 Revel Watchguard
+30 Dryad of the Keen-Eyed
+30 Reaper of Fields
+30 Pidae Raider
+30 Caller of Ferocity
+30 Inkblooded Basilisk
+30 Centaur Mentor
+30 Pheres-Band Huntmaster
+30 Slumbering Serpent
+30 Thundering Serpent
+30 Weave Destiny
+30 Punch Out of the Sky
+30 Midsummer Dream
+30 Zakros General
+30 Imposing Serpent
+30 Colossus of Trax
+30 Temple of Deceit
+30 Temple of Abandon
+30 Temple of Mystery
+30 Temple of Malice
+30 Temple of Plenty
+30 Temple of Silence
+30 Temple of Epiphany
+30 Temple of Triumph
+30 Temple of Enlightenment
+30 Temple of Malady
+30 Shrine to Those Forgotten
+30 Omen of Victory
+30 Omen of Deception
+30 Omen of Slaughter
+30 Omen of Storms
+30 Omen of Horizons
+30 Karda's Emmisary
+30 Traveler's Amulet
+30 Anvilwrought Crane
+30 Chromatic Hart
+30 Leonin Hoplite
+30 Terramorphic Expanse
+30 Read the Tides
+30 Shatter the Reflection
+30 Fight the Tides
+30 Arasta's Burden
+30 Monstrous Challenge
+30 Fall into the Underworld
+30 Agent of Pharika
+30 Rite of Venom
+30 Nyxborn Retriever
+30 Plead to Erebos
+30 Poisoned Strike
+30 Shoreline Crasher
+30 Ebb and Flow
+30 Misbegotten Aims
+30 Leonin Phalanx
+30 Spear of the Sun-Crowned
+30 Traxian General
+30 Dedicated Charge
+30 Ephara's Messenger
+30 Zodiac Griffin
+30 Coward-Eater
+30 Skophos Trainee
+30 Clash of the Titans
+30 Soul-Guide Lantern
+30 Life Begins Anew
+30 Momentary Petrification
+30 Grim Physician
+30 Arena Champion
+30 Pull of Tizerus

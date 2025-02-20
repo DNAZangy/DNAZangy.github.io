@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/ROS-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>ROS visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 3%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/ROS-files/logo.png" />
+	<img class="preload-hidden" src="/sets/ACT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ALK-files/icon.png" />
+		<img class="preload-hidden" src="/sets/HOD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/HTS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MSK-files/icon.png" />
+		<img class="preload-hidden" src="/sets/RAR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ROS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ZANG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ZNU-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="ACT"><img src="/sets/ACT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ALK"><img src="/sets/ALK-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="HOD"><img src="/sets/HOD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="HTS"><img src="/sets/HTS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="MSK"><img src="/sets/MSK-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="RAR"><img src="/sets/RAR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ROS"><img src="/sets/ROS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SRC"><img src="/sets/SRC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ZANG"><img src="/sets/ZANG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ZNU"><img src="/sets/ZNU-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/ROS-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\ROS-files\img\18_Hollow Simulacrum.jpg" id="18_Hollow Simulacrum" data-flag="@X" onclick="openSidebar('18_Hollow Simulacrum',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\68_Shahmaran of the Empty Sea.jpg" id="68_Shahmaran of the Empty Sea" data-flag="@X" onclick="openSidebar('68_Shahmaran of the Empty Sea',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\79_Acrimony.jpg" id="79_Acrimony" data-flag="@X" onclick="openSidebar('79_Acrimony',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\137_In Blood, Vengeance.jpg" id="137_In Blood, Vengeance" data-flag="@X" onclick="openSidebar('137_In Blood, Vengeance',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\160_Colossus of Alkabah.jpg" id="160_Colossus of Alkabah" data-flag="@X" onclick="openSidebar('160_Colossus of Alkabah',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\9_Chained to the Roc.jpg" id="9_Chained to the Roc" data-flag="@X" onclick="openSidebar('9_Chained to the Roc',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\40_Acolyte of Water_back.jpg" alt="/sets\ROS-files\img\40_Acolyte of Water_front.jpg" id="40_Acolyte of Water" data-flag="@XD" onclick="openSidebar('40_Acolyte of Water',false)"><button class="flip-btn" onclick="imgFlip('40_Acolyte of Water')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\83_Backalley Connections.jpg" id="83_Backalley Connections" data-flag="@X" onclick="openSidebar('83_Backalley Connections',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\121_Archfiend of Rage.jpg" id="121_Archfiend of Rage" data-flag="@X" onclick="openSidebar('121_Archfiend of Rage',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\166_Danaj Sightseer.jpg" id="166_Danaj Sightseer" data-flag="@X" onclick="openSidebar('166_Danaj Sightseer',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\11_Consult the Lineage.jpg" id="11_Consult the Lineage" data-flag="@X" onclick="openSidebar('11_Consult the Lineage',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\48_Dawn Over Nizev.jpg" id="48_Dawn Over Nizev" data-flag="@X" onclick="openSidebar('48_Dawn Over Nizev',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\89_Dawn Over Kaneh.jpg" id="89_Dawn Over Kaneh" data-flag="@X" onclick="openSidebar('89_Dawn Over Kaneh',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\125_Cyrukans Elite.jpg" id="125_Cyrukans Elite" data-flag="@X" onclick="openSidebar('125_Cyrukans Elite',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\167_Dawn Over Danaj.jpg" id="167_Dawn Over Danaj" data-flag="@X" onclick="openSidebar('167_Dawn Over Danaj',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\13_Dawn Over Soli.jpg" id="13_Dawn Over Soli" data-flag="@X" onclick="openSidebar('13_Dawn Over Soli',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\50_Empyrean Scholar.jpg" id="50_Empyrean Scholar" data-flag="@X" onclick="openSidebar('50_Empyrean Scholar',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\91_Desolate Advance.jpg" id="91_Desolate Advance" data-flag="@X" onclick="openSidebar('91_Desolate Advance',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\126_Dawn Over Avaz.jpg" id="126_Dawn Over Avaz" data-flag="@X" onclick="openSidebar('126_Dawn Over Avaz',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\170_Dreaded of Sahra.jpg" id="170_Dreaded of Sahra" data-flag="@X" onclick="openSidebar('170_Dreaded of Sahra',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\17_Harsh Spahbed.jpg" id="17_Harsh Spahbed" data-flag="@X" onclick="openSidebar('17_Harsh Spahbed',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\52_Ingratiate.jpg" id="52_Ingratiate" data-flag="@X" onclick="openSidebar('52_Ingratiate',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\100_Jahi of Endless Hunger.jpg" id="100_Jahi of Endless Hunger" data-flag="@X" onclick="openSidebar('100_Jahi of Endless Hunger',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\133_Furious Blow.jpg" id="133_Furious Blow" data-flag="@X" onclick="openSidebar('133_Furious Blow',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\178_Herald of Ruination_back.jpg" alt="/sets\ROS-files\img\178_Herald of Ruination_front.jpg" id="178_Herald of Ruination" data-flag="@XD" onclick="openSidebar('178_Herald of Ruination',false)"><button class="flip-btn" onclick="imgFlip('178_Herald of Ruination')"></button></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\24_Listless Maneli_back.jpg" alt="/sets\ROS-files\img\24_Listless Maneli_front.jpg" id="24_Listless Maneli" data-flag="@XD" onclick="openSidebar('24_Listless Maneli',false)"><button class="flip-btn" onclick="imgFlip('24_Listless Maneli')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\54_Martoob Lifeshaper.jpg" id="54_Martoob Lifeshaper" data-flag="@X" onclick="openSidebar('54_Martoob Lifeshaper',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\104_Mehr's Unending Horde.jpg" id="104_Mehrs Unending Horde" data-flag="@X" onclick="openSidebar('104_Mehrs Unending Horde',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\135_Huma of Glory.jpg" id="135_Huma of Glory" data-flag="@X" onclick="openSidebar('135_Huma of Glory',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\179_Inspiring Tactician.jpg" id="179_Inspiring Tactician" data-flag="@X" onclick="openSidebar('179_Inspiring Tactician',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\28_Rhythm of Soli.jpg" id="28_Rhythm of Soli" data-flag="@X" onclick="openSidebar('28_Rhythm of Soli',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\58_Peer into Eternity.jpg" id="58_Peer into Eternity" data-flag="@X" onclick="openSidebar('58_Peer into Eternity',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\108_Reckoner of Kaneh.jpg" id="108_Reckoner of Kaneh" data-flag="@X" onclick="openSidebar('108_Reckoner of Kaneh',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\139_Jals Spawn.jpg" id="139_Jals Spawn" data-flag="@X" onclick="openSidebar('139_Jals Spawn',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\186_Rally the Armies.jpg" id="186_Rally the Armies" data-flag="@X" onclick="openSidebar('186_Rally the Armies',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\29_Savior Tactician.jpg" id="29_Savior Tactician" data-flag="@X" onclick="openSidebar('29_Savior Tactician',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\63_Rhythm of Nizev.jpg" id="63_Rhythm of Nizev" data-flag="@X" onclick="openSidebar('63_Rhythm of Nizev',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\110_Rhythm of Kaneh.jpg" id="110_Rhythm of Kaneh" data-flag="@X" onclick="openSidebar('110_Rhythm of Kaneh',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\141_Last Priest of Hadak.jpg" id="141_Last Priest of Hadak" data-flag="@X" onclick="openSidebar('141_Last Priest of Hadak',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\187_Rhythm of Danaj.jpg" id="187_Rhythm of Danaj" data-flag="@X" onclick="openSidebar('187_Rhythm of Danaj',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\33_Solis Crossbowmaster.jpg" id="33_Solis Crossbowmaster" data-flag="@X" onclick="openSidebar('33_Solis Crossbowmaster',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\66_Scorned Arcanist.jpg" id="66_Scorned Arcanist" data-flag="@X" onclick="openSidebar('66_Scorned Arcanist',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\116_Triumphant Greed.jpg" id="116_Triumphant Greed" data-flag="@X" onclick="openSidebar('116_Triumphant Greed',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\150_Rhythm of Avaz.jpg" id="150_Rhythm of Avaz" data-flag="@X" onclick="openSidebar('150_Rhythm of Avaz',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\193_Spawn of Andazir.jpg" id="193_Spawn of Andazir" data-flag="@X" onclick="openSidebar('193_Spawn of Andazir',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\37_Wretched Skulker.jpg" id="37_Wretched Skulker" data-flag="@X" onclick="openSidebar('37_Wretched Skulker',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\71_Streetwise Spellseeker.jpg" id="71_Streetwise Spellseeker" data-flag="@X" onclick="openSidebar('71_Streetwise Spellseeker',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\117_Vagabond of the Dunes_back.jpg" alt="/sets\ROS-files\img\117_Vagabond of the Dunes_front.jpg" id="117_Vagabond of the Dunes" data-flag="@XD" onclick="openSidebar('117_Vagabond of the Dunes',false)"><button class="flip-btn" onclick="imgFlip('117_Vagabond of the Dunes')"></button></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\153_Slinking Raider_back.jpg" alt="/sets\ROS-files\img\153_Slinking Raider_front.jpg" id="153_Slinking Raider" data-flag="@XD" onclick="openSidebar('153_Slinking Raider',false)"><button class="flip-btn" onclick="imgFlip('153_Slinking Raider')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\195_Variety of Goods.jpg" id="195_Variety of Goods" data-flag="@X" onclick="openSidebar('195_Variety of Goods',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\1_Advocate of Ideals.jpg" id="1_Advocate of Ideals" data-flag="@X" onclick="openSidebar('1_Advocate of Ideals',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\43_Angel of Wisdom.jpg" id="43_Angel of Wisdom" data-flag="@X" onclick="openSidebar('43_Angel of Wisdom',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\80_Andazirs Disdain.jpg" id="80_Andazirs Disdain" data-flag="@X" onclick="openSidebar('80_Andazirs Disdain',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\118_Advocate of Foibles.jpg" id="118_Advocate of Foibles" data-flag="@X" onclick="openSidebar('118_Advocate of Foibles',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\157_Accept into the Fold.jpg" id="157_Accept into the Fold" data-flag="@X" onclick="openSidebar('157_Accept into the Fold',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\3_Avaz Rising.jpg" id="3_Avaz Rising" data-flag="@X" onclick="openSidebar('3_Avaz Rising',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\46_Consult the Cosmos.jpg" id="46_Consult the Cosmos" data-flag="@X" onclick="openSidebar('46_Consult the Cosmos',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\84_Blackfeather Cleric_back.jpg" alt="/sets\ROS-files\img\84_Blackfeather Cleric_front.jpg" id="84_Blackfeather Cleric" data-flag="@XD" onclick="openSidebar('84_Blackfeather Cleric',false)"><button class="flip-btn" onclick="imgFlip('84_Blackfeather Cleric')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\119_Ambitious Truthseeker.jpg" id="119_Ambitious Truthseeker" data-flag="@X" onclick="openSidebar('119_Ambitious Truthseeker',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\162_Convicted Strike.jpg" id="162_Convicted Strike" data-flag="@X" onclick="openSidebar('162_Convicted Strike',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\6_Blessing from Wings on High.jpg" id="6_Blessing from Wings on High" data-flag="@X" onclick="openSidebar('6_Blessing from Wings on High',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\47_Crisis in Danaj.jpg" id="47_Crisis in Danaj" data-flag="@X" onclick="openSidebar('47_Crisis in Danaj',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\86_Chaosbender.jpg" id="86_Chaosbender" data-flag="@X" onclick="openSidebar('86_Chaosbender',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\124_Crisis in Nizev.jpg" id="124_Crisis in Nizev" data-flag="@X" onclick="openSidebar('124_Crisis in Nizev',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\163_Crisis in Avaz.jpg" id="163_Crisis in Avaz" data-flag="@X" onclick="openSidebar('163_Crisis in Avaz',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\10_Confine to the Oasis.jpg" id="10_Confine to the Oasis" data-flag="@X" onclick="openSidebar('10_Confine to the Oasis',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\55_Martoob's Forerunner.jpg" id="55_Martoobs Forerunner" data-flag="@X" onclick="openSidebar('55_Martoobs Forerunner',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\87_Crisis in Kaneh.jpg" id="87_Crisis in Kaneh" data-flag="@X" onclick="openSidebar('87_Crisis in Kaneh',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\127_Djinn of the Twisted Wish.jpg" id="127_Djinn of the Twisted Wish" data-flag="@X" onclick="openSidebar('127_Djinn of the Twisted Wish',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\171_Dunesea Ranger.jpg" id="171_Dunesea Ranger" data-flag="@X" onclick="openSidebar('171_Dunesea Ranger',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\12_Crisis in Soli.jpg" id="12_Crisis in Soli" data-flag="@X" onclick="openSidebar('12_Crisis in Soli',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\56_Nephilim Wisdomancer.jpg" id="56_Nephilim Wisdomancer" data-flag="@X" onclick="openSidebar('56_Nephilim Wisdomancer',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\88_Danaj Rising.jpg" id="88_Danaj Rising" data-flag="@X" onclick="openSidebar('88_Danaj Rising',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\131_Firebolt.jpg" id="131_Firebolt" data-flag="@X" onclick="openSidebar('131_Firebolt',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\175_Fracturing Swipe.jpg" id="175_Fracturing Swipe" data-flag="@X" onclick="openSidebar('175_Fracturing Swipe',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\14_Dunesea Merchant.jpg" id="14_Dunesea Merchant" data-flag="@X" onclick="openSidebar('14_Dunesea Merchant',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\57_Nizev Rising.jpg" id="57_Nizev Rising" data-flag="@X" onclick="openSidebar('57_Nizev Rising',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\93_Dutybound Ghul.jpg" id="93_Dutybound Ghul" data-flag="@X" onclick="openSidebar('93_Dutybound Ghul',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\140_Kaneh Rising.jpg" id="140_Kaneh Rising" data-flag="@X" onclick="openSidebar('140_Kaneh Rising',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\176_Gather the Forces.jpg" id="176_Gather the Forces" data-flag="@X" onclick="openSidebar('176_Gather the Forces',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\15_Fury of Cyrukan.jpg" id="15_Fury of Cyrukan" data-flag="@X" onclick="openSidebar('15_Fury of Cyrukan',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\59_Petty Thief_back.jpg" alt="/sets\ROS-files\img\59_Petty Thief_front.jpg" id="59_Petty Thief" data-flag="@XD" onclick="openSidebar('59_Petty Thief',false)"><button class="flip-btn" onclick="imgFlip('59_Petty Thief')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\99_Fulfill the Contract.jpg" id="99_Fulfill the Contract" data-flag="@X" onclick="openSidebar('99_Fulfill the Contract',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\142_Manifold Manipulator.jpg" id="142_Manifold Manipulator" data-flag="@X" onclick="openSidebar('142_Manifold Manipulator',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\177_Heartweaver.jpg" id="177_Heartweaver" data-flag="@X" onclick="openSidebar('177_Heartweaver',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\16_Garrison Warden_back.jpg" alt="/sets\ROS-files\img\16_Garrison Warden_front.jpg" id="16_Garrison Warden" data-flag="@XD" onclick="openSidebar('16_Garrison Warden',false)"><button class="flip-btn" onclick="imgFlip('16_Garrison Warden')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\60_Prepare for War.jpg" id="60_Prepare for War" data-flag="@X" onclick="openSidebar('60_Prepare for War',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\102_Kingpin of Nizev.jpg" id="102_Kingpin of Nizev" data-flag="@X" onclick="openSidebar('102_Kingpin of Nizev',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\143_Paygan Firebinder.jpg" id="143_Paygan Firebinder" data-flag="@X" onclick="openSidebar('143_Paygan Firebinder',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\184_Quake Devourer.jpg" id="184_Quake Devourer" data-flag="@X" onclick="openSidebar('184_Quake Devourer',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\19_Hooded Mystic.jpg" id="19_Hooded Mystic" data-flag="@X" onclick="openSidebar('19_Hooded Mystic',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\64_Scholar's Delight.jpg" id="64_Scholars Delight" data-flag="@X" onclick="openSidebar('64_Scholars Delight',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\105_Oracle of the Unseen.jpg" id="105_Oracle of the Unseen" data-flag="@X" onclick="openSidebar('105_Oracle of the Unseen',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\145_The Pillaging of Kaneh.jpg" id="145_The Pillaging of Kaneh" data-flag="@X" onclick="openSidebar('145_The Pillaging of Kaneh',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\185_Quickstep Ranger_back.jpg" alt="/sets\ROS-files\img\185_Quickstep Ranger_front.jpg" id="185_Quickstep Ranger" data-flag="@XD" onclick="openSidebar('185_Quickstep Ranger',false)"><button class="flip-btn" onclick="imgFlip('185_Quickstep Ranger')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\31_Settling of Kaneh.jpg" id="31_Settling of Kaneh" data-flag="@X" onclick="openSidebar('31_Settling of Kaneh',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\67_Settling of Soli.jpg" id="67_Settling of Soli" data-flag="@X" onclick="openSidebar('67_Settling of Soli',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\113_Settling of Nizev.jpg" id="113_Settling of Nizev" data-flag="@X" onclick="openSidebar('113_Settling of Nizev',true)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\146_Rahstahde Swiftspear_back.jpg" alt="/sets\ROS-files\img\146_Rahstahde Swiftspear_front.jpg" id="146_Rahstahde Swiftspear" data-flag="@XD" onclick="openSidebar('146_Rahstahde Swiftspear',false)"><button class="flip-btn" onclick="imgFlip('146_Rahstahde Swiftspear')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\189_Settling of Danaj.jpg" id="189_Settling of Danaj" data-flag="@X" onclick="openSidebar('189_Settling of Danaj',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\34_Standoff.jpg" id="34_Standoff" data-flag="@X" onclick="openSidebar('34_Standoff',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\73_Tidebender.jpg" id="73_Tidebender" data-flag="@X" onclick="openSidebar('73_Tidebender',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\114_Smiting Helix.jpg" id="114_Smiting Helix" data-flag="@X" onclick="openSidebar('114_Smiting Helix',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\148_Refracting Image.jpg" id="148_Refracting Image" data-flag="@X" onclick="openSidebar('148_Refracting Image',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\190_Shah's Caravan.jpg" id="190_Shahs Caravan" data-flag="@X" onclick="openSidebar('190_Shahs Caravan',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\38_Zagos Roc.jpg" id="38_Zagos Roc" data-flag="@X" onclick="openSidebar('38_Zagos Roc',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\76_Wade Through Treasures.jpg" id="76_Wade Through Treasures" data-flag="@X" onclick="openSidebar('76_Wade Through Treasures',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\115_Traverse the Endless Well.jpg" id="115_Traverse the Endless Well" data-flag="@X" onclick="openSidebar('115_Traverse the Endless Well',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\151_Settling of Avaz.jpg" id="151_Settling of Avaz" data-flag="@X" onclick="openSidebar('151_Settling of Avaz',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\192_Soli Rising.jpg" id="192_Soli Rising" data-flag="@X" onclick="openSidebar('192_Soli Rising',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\2_Assault on Soli.jpg" id="2_Assault on Soli" data-flag="@X" onclick="openSidebar('2_Assault on Soli',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\41_Acquiesce Position.jpg" id="41_Acquiesce Position" data-flag="@X" onclick="openSidebar('41_Acquiesce Position',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\81_Andazirs Pact.jpg" id="81_Andazirs Pact" data-flag="@X" onclick="openSidebar('81_Andazirs Pact',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\120_Andazir Veteran.jpg" id="120_Andazir Veteran" data-flag="@X" onclick="openSidebar('120_Andazir Veteran',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\158_Avaz Sentry_back.jpg" alt="/sets\ROS-files\img\158_Avaz Sentry_front.jpg" id="158_Avaz Sentry" data-flag="@XD" onclick="openSidebar('158_Avaz Sentry',false)"><button class="flip-btn" onclick="imgFlip('158_Avaz Sentry')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\4_Banishment of Aspirations.jpg" id="4_Banishment of Aspirations" data-flag="@X" onclick="openSidebar('4_Banishment of Aspirations',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\42_Adrift Surveyor_back.jpg" alt="/sets\ROS-files\img\42_Adrift Surveyor_front.jpg" id="42_Adrift Surveyor" data-flag="@XD" onclick="openSidebar('42_Adrift Surveyor',false)"><button class="flip-btn" onclick="imgFlip('42_Adrift Surveyor')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\82_Astral Assassination.jpg" id="82_Astral Assassination" data-flag="@X" onclick="openSidebar('82_Astral Assassination',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\122_Bloodcloaked Wrecker.jpg" id="122_Bloodcloaked Wrecker" data-flag="@X" onclick="openSidebar('122_Bloodcloaked Wrecker',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\159_Cherish the Past.jpg" id="159_Cherish the Past" data-flag="@X" onclick="openSidebar('159_Cherish the Past',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\5_Birthright Proselyte.jpg" id="5_Birthright Proselyte" data-flag="@X" onclick="openSidebar('5_Birthright Proselyte',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\44_Benevolent Host.jpg" id="44_Benevolent Host" data-flag="@X" onclick="openSidebar('44_Benevolent Host',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\85_Castaway's Remorse.jpg" id="85_Castaways Remorse" data-flag="@X" onclick="openSidebar('85_Castaways Remorse',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\123_Conjure Quicksand.jpg" id="123_Conjure Quicksand" data-flag="@X" onclick="openSidebar('123_Conjure Quicksand',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\161_Commanders Guidance.jpg" id="161_Commanders Guidance" data-flag="@X" onclick="openSidebar('161_Commanders Guidance',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\7_Blessing of Respite.jpg" id="7_Blessing of Respite" data-flag="@X" onclick="openSidebar('7_Blessing of Respite',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\45_Brightwing Sphinx.jpg" id="45_Brightwing Sphinx" data-flag="@X" onclick="openSidebar('45_Brightwing Sphinx',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\90_Demon of Endless Hunger.jpg" id="90_Demon of Endless Hunger" data-flag="@X" onclick="openSidebar('90_Demon of Endless Hunger',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\128_Evening Serenade.jpg" id="128_Evening Serenade" data-flag="@X" onclick="openSidebar('128_Evening Serenade',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\164_Crush Opposition.jpg" id="164_Crush Opposition" data-flag="@X" onclick="openSidebar('164_Crush Opposition',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\8_Cast Judgment.jpg" id="8_Cast Judgment" data-flag="@X" onclick="openSidebar('8_Cast Judgment',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\49_Dewdrop Ordainer.jpg" id="49_Dewdrop Ordainer" data-flag="@X" onclick="openSidebar('49_Dewdrop Ordainer',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\92_Drag Through the Alley.jpg" id="92_Drag Through the Alley" data-flag="@X" onclick="openSidebar('92_Drag Through the Alley',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\129_Eyes of Cyrukan.jpg" id="129_Eyes of Cyrukan" data-flag="@X" onclick="openSidebar('129_Eyes of Cyrukan',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\165_Cultivator of Crops.jpg" id="165_Cultivator of Crops" data-flag="@X" onclick="openSidebar('165_Cultivator of Crops',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\20_In Defense of Soli.jpg" id="20_In Defense of Soli" data-flag="@X" onclick="openSidebar('20_In Defense of Soli',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\51_Implacable Djinn.jpg" id="51_Implacable Djinn" data-flag="@X" onclick="openSidebar('51_Implacable Djinn',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\94_Enigmatic Herald.jpg" id="94_Enigmatic Herald" data-flag="@X" onclick="openSidebar('94_Enigmatic Herald',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\130_Figments of Warriors Lost.jpg" id="130_Figments of Warriors Lost" data-flag="@X" onclick="openSidebar('130_Figments of Warriors Lost',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\168_Day at the Market.jpg" id="168_Day at the Market" data-flag="@X" onclick="openSidebar('168_Day at the Market',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\21_Inspirational Beacon.jpg" id="21_Inspirational Beacon" data-flag="@X" onclick="openSidebar('21_Inspirational Beacon',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\53_Maneli Ambassador.jpg" id="53_Maneli Ambassador" data-flag="@X" onclick="openSidebar('53_Maneli Ambassador',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\95_Esoteric Visionary.jpg" id="95_Esoteric Visionary" data-flag="@X" onclick="openSidebar('95_Esoteric Visionary',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\132_Frantic Efreetspeaker.jpg" id="132_Frantic Efreetspeaker" data-flag="@X" onclick="openSidebar('132_Frantic Efreetspeaker',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\169_Div of Lethargic Ideals.jpg" id="169_Div of Lethargic Ideals" data-flag="@X" onclick="openSidebar('169_Div of Lethargic Ideals',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\22_Kaneh Scribe.jpg" id="22_Kaneh Scribe" data-flag="@X" onclick="openSidebar('22_Kaneh Scribe',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\61_Regretful Chronicler_back.jpg" alt="/sets\ROS-files\img\61_Regretful Chronicler_front.jpg" id="61_Regretful Chronicler" data-flag="@XD" onclick="openSidebar('61_Regretful Chronicler',false)"><button class="flip-btn" onclick="imgFlip('61_Regretful Chronicler')"></button></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\96_EverWandering Vagabond_back.jpg" alt="/sets\ROS-files\img\96_EverWandering Vagabond_front.jpg" id="96_EverWandering Vagabond" data-flag="@XD" onclick="openSidebar('96_EverWandering Vagabond',false)"><button class="flip-btn" onclick="imgFlip('96_EverWandering Vagabond')"></button></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\134_Hesitant Vanguard_back.jpg" alt="/sets\ROS-files\img\134_Hesitant Vanguard_front.jpg" id="134_Hesitant Vanguard" data-flag="@XD" onclick="openSidebar('134_Hesitant Vanguard',false)"><button class="flip-btn" onclick="imgFlip('134_Hesitant Vanguard')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\172_Erode.jpg" id="172_Erode" data-flag="@X" onclick="openSidebar('172_Erode',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\23_Keen Blademaster.jpg" id="23_Keen Blademaster" data-flag="@X" onclick="openSidebar('23_Keen Blademaster',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\62_Reject Wickedness.jpg" id="62_Reject Wickedness" data-flag="@X" onclick="openSidebar('62_Reject Wickedness',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\97_Fatal Strike.jpg" id="97_Fatal Strike" data-flag="@X" onclick="openSidebar('97_Fatal Strike',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\136_Ignite the Inner Flame.jpg" id="136_Ignite the Inner Flame" data-flag="@X" onclick="openSidebar('136_Ignite the Inner Flame',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\173_Expose Wickedness.jpg" id="173_Expose Wickedness" data-flag="@X" onclick="openSidebar('173_Expose Wickedness',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\25_Lowly Cataphract_back.jpg" alt="/sets\ROS-files\img\25_Lowly Cataphract_front.jpg" id="25_Lowly Cataphract" data-flag="@XD" onclick="openSidebar('25_Lowly Cataphract',false)"><button class="flip-btn" onclick="imgFlip('25_Lowly Cataphract')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\65_Scope the Cosmos.jpg" id="65_Scope the Cosmos" data-flag="@X" onclick="openSidebar('65_Scope the Cosmos',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\98_Fiendish Bruiser.jpg" id="98_Fiendish Bruiser" data-flag="@X" onclick="openSidebar('98_Fiendish Bruiser',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\138_Incendiary Flow.jpg" id="138_Incendiary Flow" data-flag="@X" onclick="openSidebar('138_Incendiary Flow',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\174_Fell LanternBearer.jpg" id="174_Fell LanternBearer" data-flag="@X" onclick="openSidebar('174_Fell LanternBearer',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\26_Mahara Enforcer.jpg" id="26_Mahara Enforcer" data-flag="@X" onclick="openSidebar('26_Mahara Enforcer',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\69_Sinking Pessimism.jpg" id="69_Sinking Pessimism" data-flag="@X" onclick="openSidebar('69_Sinking Pessimism',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\101_Kaneh Siege.jpg" id="101_Kaneh Siege" data-flag="@X" onclick="openSidebar('101_Kaneh Siege',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\144_Piercing Arrow.jpg" id="144_Piercing Arrow" data-flag="@X" onclick="openSidebar('144_Piercing Arrow',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\180_Ironclad Sentry.jpg" id="180_Ironclad Sentry" data-flag="@X" onclick="openSidebar('180_Ironclad Sentry',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\27_Prepare for Rest.jpg" id="27_Prepare for Rest" data-flag="@X" onclick="openSidebar('27_Prepare for Rest',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\70_Skyborne Strategist.jpg" id="70_Skyborne Strategist" data-flag="@X" onclick="openSidebar('70_Skyborne Strategist',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\103_Manipulations of the Div.jpg" id="103_Manipulations of the Div" data-flag="@X" onclick="openSidebar('103_Manipulations of the Div',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\147_Refitting for Battle.jpg" id="147_Refitting for Battle" data-flag="@X" onclick="openSidebar('147_Refitting for Battle',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\181_Kahroba Patrol.jpg" id="181_Kahroba Patrol" data-flag="@X" onclick="openSidebar('181_Kahroba Patrol',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\30_Sentinel of Avaz.jpg" id="30_Sentinel of Avaz" data-flag="@X" onclick="openSidebar('30_Sentinel of Avaz',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\72_Tempt with Gifts.jpg" id="72_Tempt with Gifts" data-flag="@X" onclick="openSidebar('72_Tempt with Gifts',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\106_Poison-Sky Acolyte.jpg" id="106_Poison-Sky Acolyte" data-flag="@X" onclick="openSidebar('106_Poison-Sky Acolyte',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\149_Regroup and Stockpile.jpg" id="149_Regroup and Stockpile" data-flag="@X" onclick="openSidebar('149_Regroup and Stockpile',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\182_Martoob Hawker.jpg" id="182_Martoob Hawker" data-flag="@X" onclick="openSidebar('182_Martoob Hawker',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\32_Show of Unwavering Honor.jpg" id="32_Show of Unwavering Honor" data-flag="@X" onclick="openSidebar('32_Show of Unwavering Honor',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\74_Tiller of the Paltry Lie.jpg" id="74_Tiller of the Paltry Lie" data-flag="@X" onclick="openSidebar('74_Tiller of the Paltry Lie',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\107_Prepare for Assault.jpg" id="107_Prepare for Assault" data-flag="@X" onclick="openSidebar('107_Prepare for Assault',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\152_Shipment Overseer_back.jpg" alt="/sets\ROS-files\img\152_Shipment Overseer_front.jpg" id="152_Shipment Overseer" data-flag="@XD" onclick="openSidebar('152_Shipment Overseer',false)"><button class="flip-btn" onclick="imgFlip('152_Shipment Overseer')"></button></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\183_Nimble Pathfinder_back.jpg" alt="/sets\ROS-files\img\183_Nimble Pathfinder_front.jpg" id="183_Nimble Pathfinder" data-flag="@XD" onclick="openSidebar('183_Nimble Pathfinder',false)"><button class="flip-btn" onclick="imgFlip('183_Nimble Pathfinder')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\35_Unyielding Aswaran.jpg" id="35_Unyielding Aswaran" data-flag="@X" onclick="openSidebar('35_Unyielding Aswaran',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\75_Truthseeker Prodigy.jpg" id="75_Truthseeker Prodigy" data-flag="@X" onclick="openSidebar('75_Truthseeker Prodigy',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\109_Refine to Nothing.jpg" id="109_Refine to Nothing" data-flag="@X" onclick="openSidebar('109_Refine to Nothing',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\154_Tomb-Raider Duo.jpg" id="154_Tomb-Raider Duo" data-flag="@X" onclick="openSidebar('154_Tomb-Raider Duo',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\188_Settling Alkabah.jpg" id="188_Settling Alkabah" data-flag="@X" onclick="openSidebar('188_Settling Alkabah',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\36_Vanguard of Glory.jpg" id="36_Vanguard of Glory" data-flag="@X" onclick="openSidebar('36_Vanguard of Glory',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\77_Wave Shield.jpg" id="77_Wave Shield" data-flag="@X" onclick="openSidebar('77_Wave Shield',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\111_Ruthless Advisor_back.jpg" alt="/sets\ROS-files\img\111_Ruthless Advisor_front.jpg" id="111_Ruthless Advisor" data-flag="@XD" onclick="openSidebar('111_Ruthless Advisor',false)"><button class="flip-btn" onclick="imgFlip('111_Ruthless Advisor')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\155_Truthbearing Peri.jpg" id="155_Truthbearing Peri" data-flag="@X" onclick="openSidebar('155_Truthbearing Peri',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\191_Shah's Proclamation.jpg" id="191_Shahs Proclamation" data-flag="@X" onclick="openSidebar('191_Shahs Proclamation',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\39_Zealot of Mahara_back.jpg" alt="/sets\ROS-files\img\39_Zealot of Mahara_front.jpg" id="39_Zealot of Mahara" data-flag="@XD" onclick="openSidebar('39_Zealot of Mahara',false)"><button class="flip-btn" onclick="imgFlip('39_Zealot of Mahara')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\78_Wisdom of the Dunesea.jpg" id="78_Wisdom of the Dunesea" data-flag="@X" onclick="openSidebar('78_Wisdom of the Dunesea',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\112_Selfserving Ghul.jpg" id="112_Selfserving Ghul" data-flag="@X" onclick="openSidebar('112_Selfserving Ghul',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\156_Vicious Shamshir.jpg" id="156_Vicious Shamshir" data-flag="@X" onclick="openSidebar('156_Vicious Shamshir',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\194_Unstoppable Zealot.jpg" id="194_Unstoppable Zealot" data-flag="@X" onclick="openSidebar('194_Unstoppable Zealot',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\196_Atieh, Seer of Distant Futures.jpg" id="196_Atieh, Seer of Distant Futures" data-flag="@X" onclick="openSidebar('196_Atieh, Seer of Distant Futures',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\199_Fahrib the EverScheming.jpg" id="199_Fahrib the EverScheming" data-flag="@X" onclick="openSidebar('199_Fahrib the EverScheming',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\202_Andazir, First to Aspire.jpg" id="202_Andazir, First to Aspire" data-flag="@X" onclick="openSidebar('202_Andazir, First to Aspire',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\207_Sahra, Hadak's Last Warrior.jpg" id="207_Sahra, Hadaks Last Warrior" data-flag="@X" onclick="openSidebar('207_Sahra, Hadaks Last Warrior',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\208_Abwad Kahroba, Failed Son.jpg" id="208_Abwad Kahroba, Failed Son" data-flag="@X" onclick="openSidebar('208_Abwad Kahroba, Failed Son',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\197_Atiehs Disciple_back.jpg" alt="/sets\ROS-files\img\197_Atiehs Disciple_front.jpg" id="197_Atiehs Disciple" data-flag="@XD" onclick="openSidebar('197_Atiehs Disciple',false)"><button class="flip-btn" onclick="imgFlip('197_Atiehs Disciple')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\200_Persecutor of Truths.jpg" id="200_Persecutor of Truths" data-flag="@X" onclick="openSidebar('200_Persecutor of Truths',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\203_Bloodthirsty Manticore_back.jpg" alt="/sets\ROS-files\img\203_Bloodthirsty Manticore_front.jpg" id="203_Bloodthirsty Manticore" data-flag="@XD" onclick="openSidebar('203_Bloodthirsty Manticore',false)"><button class="flip-btn" onclick="imgFlip('203_Bloodthirsty Manticore')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\206_Herald of Untold Riches.jpg" id="206_Herald of Untold Riches" data-flag="@X" onclick="openSidebar('206_Herald of Untold Riches',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\209_A Matricide Most Foul.jpg" id="209_A Matricide Most Foul" data-flag="@X" onclick="openSidebar('209_A Matricide Most Foul',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\198_Herald of Atieh.jpg" id="198_Herald of Atieh" data-flag="@X" onclick="openSidebar('198_Herald of Atieh',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\201_Ruthless Bakhtak.jpg" id="201_Ruthless Bakhtak" data-flag="@X" onclick="openSidebar('201_Ruthless Bakhtak',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\204_Djinn of the Waning Candle.jpg" id="204_Djinn of the Waning Candle" data-flag="@X" onclick="openSidebar('204_Djinn of the Waning Candle',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\205_Guardians of Kallians Tomb.jpg" id="205_Guardians of Kallians Tomb" data-flag="@X" onclick="openSidebar('205_Guardians of Kallians Tomb',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\210_Valiant Cataphract.jpg" id="210_Valiant Cataphract" data-flag="@X" onclick="openSidebar('210_Valiant Cataphract',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\259_Augur of Pathways.jpg" id="259_Augur of Pathways" data-flag="@X" onclick="openSidebar('259_Augur of Pathways',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\260_Cunning Plan.jpg" id="260_Cunning Plan" data-flag="@X" onclick="openSidebar('260_Cunning Plan',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\261_Offering to the Div.jpg" id="261_Offering to the Div" data-flag="@X" onclick="openSidebar('261_Offering to the Div',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\262_Bazaar Braggart.jpg" id="262_Bazaar Braggart" data-flag="@X" onclick="openSidebar('262_Bazaar Braggart',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\263_Marshal of Brethren.jpg" id="263_Marshal of Brethren" data-flag="@X" onclick="openSidebar('263_Marshal of Brethren',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\212_Mahara, General of All.jpg" id="212_Mahara, General of All" data-flag="@X" onclick="openSidebar('212_Mahara, General of All',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\219_Tamaak the Arid Swarm.jpg" id="219_Tamaak the Arid Swarm" data-flag="@X" onclick="openSidebar('219_Tamaak the Arid Swarm',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\224_Martoob of Flowing Life.jpg" id="224_Martoob of Flowing Life" data-flag="@X" onclick="openSidebar('224_Martoob of Flowing Life',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\215_Rahstahde, Brand of Truth.jpg" id="215_Rahstahde, Brand of Truth" data-flag="@X" onclick="openSidebar('215_Rahstahde, Brand of Truth',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\220_Cyrukan of Heart and Iron.jpg" id="220_Cyrukan of Heart and Iron" data-flag="@X" onclick="openSidebar('220_Cyrukan of Heart and Iron',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\213_Mehr's Last Captain.jpg" id="213_Mehrs Last Captain" data-flag="@X" onclick="openSidebar('213_Mehrs Last Captain',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\266_Hayat, Hungering Bakhtak_back.jpg" alt="/sets\ROS-files\img\266_Hayat, Hungering Bakhtak_front.jpg" id="266_Hayat, Hungering Bakhtak" data-flag="@XD" onclick="openSidebar('266_Hayat, Hungering Bakhtak',false)"><button class="flip-btn" onclick="imgFlip('266_Hayat, Hungering Bakhtak')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\225_Nozar, Dunesea Merchant.jpg" id="225_Nozar, Dunesea Merchant" data-flag="@X" onclick="openSidebar('225_Nozar, Dunesea Merchant',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\214_Abbas and Laila.jpg" id="214_Abbas and Laila" data-flag="@X" onclick="openSidebar('214_Abbas and Laila',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ROS-files\img\269_The Lost and Seeking_back.jpg" alt="/sets\ROS-files\img\269_The Lost and Seeking_front.jpg" id="269_The Lost and Seeking" data-flag="@XD" onclick="openSidebar('269_The Lost and Seeking',false)"><button class="flip-btn" onclick="imgFlip('269_The Lost and Seeking')"></button></div>
+			<div class="container"><img alt="/sets\ROS-files\img\211_Angel of Despair.jpg" id="211_Angel of Despair" data-flag="@X" onclick="openSidebar('211_Angel of Despair',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\217_Azra Warshaper.jpg" id="217_Azra Warshaper" data-flag="@X" onclick="openSidebar('217_Azra Warshaper',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\223_Coagulating Strength.jpg" id="223_Coagulating Strength" data-flag="@X" onclick="openSidebar('223_Coagulating Strength',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\216_Selection at Danaj.jpg" id="216_Selection at Danaj" data-flag="@X" onclick="openSidebar('216_Selection at Danaj',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\221_Figments of the Muktann.jpg" id="221_Figments of the Muktann" data-flag="@X" onclick="openSidebar('221_Figments of the Muktann',true)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\264_Toil Beyond Death.jpg" id="264_Toil Beyond Death" data-flag="@X" onclick="openSidebar('264_Toil Beyond Death',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\218_Herald of Tamaak.jpg" id="218_Herald of Tamaak" data-flag="@X" onclick="openSidebar('218_Herald of Tamaak',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\270_Venerable Skyblade.jpg" id="270_Venerable Skyblade" data-flag="@X" onclick="openSidebar('270_Venerable Skyblade',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\265_Rahstahde Pledge.jpg" id="265_Rahstahde Pledge" data-flag="@X" onclick="openSidebar('265_Rahstahde Pledge',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\222_Zagos Abomination.jpg" id="222_Zagos Abomination" data-flag="@X" onclick="openSidebar('222_Zagos Abomination',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\267_Openmaw Demon.jpg" id="267_Openmaw Demon" data-flag="@X" onclick="openSidebar('267_Openmaw Demon',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\268_Battlefield Tiger.jpg" id="268_Battlefield Tiger" data-flag="@X" onclick="openSidebar('268_Battlefield Tiger',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\248_Parastu, Soli's Overseer.jpg" id="248_Parastu, Solis Overseer" data-flag="@X" onclick="openSidebar('248_Parastu, Solis Overseer',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\237_Div of Unsettling Secrets.jpg" id="237_Div of Unsettling Secrets" data-flag="@X" onclick="openSidebar('237_Div of Unsettling Secrets',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\251_Sadegh, Tyrant of Nizev.jpg" id="251_Sadegh, Tyrant of Nizev" data-flag="@X" onclick="openSidebar('251_Sadegh, Tyrant of Nizev',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\250_Predatory Tombstalker.jpg" id="250_Predatory Tombstalker" data-flag="@X" onclick="openSidebar('250_Predatory Tombstalker',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\253_Shideh, Avazs Conqueror.jpg" id="253_Shideh, Avazs Conqueror" data-flag="@X" onclick="openSidebar('253_Shideh, Avazs Conqueror',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\227_Adrift into Endless Stories.jpg" id="227_Adrift into Endless Stories" data-flag="@X" onclick="openSidebar('227_Adrift into Endless Stories',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\226_Acolyte of the Far Winds.jpg" id="226_Acolyte of the Far Winds" data-flag="@X" onclick="openSidebar('226_Acolyte of the Far Winds',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\241_Echo of the Simurgh.jpg" id="241_Echo of the Simurgh" data-flag="@X" onclick="openSidebar('241_Echo of the Simurgh',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\229_Aswaran Conquerer.jpg" id="229_Aswaran Conquerer" data-flag="@X" onclick="openSidebar('229_Aswaran Conquerer',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\240_Dunesea Dreadstalker.jpg" id="240_Dunesea Dreadstalker" data-flag="@X" onclick="openSidebar('240_Dunesea Dreadstalker',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\258_Zhubin, Spear of Kaneh.jpg" id="258_Zhubin, Spear of Kaneh" data-flag="@X" onclick="openSidebar('258_Zhubin, Spear of Kaneh',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\244_Ineptitude.jpg" id="244_Ineptitude" data-flag="@X" onclick="openSidebar('244_Ineptitude',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\231_The Brink of War.jpg" id="231_The Brink of War" data-flag="@X" onclick="openSidebar('231_The Brink of War',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\243_From the Skies, Peace.jpg" id="243_From the Skies, Peace" data-flag="@X" onclick="openSidebar('243_From the Skies, Peace',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\234_Dali, the Eyes of Danaj.jpg" id="234_Dali, the Eyes of Danaj" data-flag="@X" onclick="openSidebar('234_Dali, the Eyes of Danaj',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\247_On Andazirs Whims.jpg" id="247_On Andazirs Whims" data-flag="@X" onclick="openSidebar('247_On Andazirs Whims',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\254_Spawn of Hadak.jpg" id="254_Spawn of Hadak" data-flag="@X" onclick="openSidebar('254_Spawn of Hadak',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\238_Div's Onslaught.jpg" id="238_Divs Onslaught" data-flag="@X" onclick="openSidebar('238_Divs Onslaught',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\239_Djinn of Unfolding Truths.jpg" id="239_Djinn of Unfolding Truths" data-flag="@X" onclick="openSidebar('239_Djinn of Unfolding Truths',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\235_Descent of the Div.jpg" id="235_Descent of the Div" data-flag="@X" onclick="openSidebar('235_Descent of the Div',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\249_Pariahs Bargain.jpg" id="249_Pariahs Bargain" data-flag="@X" onclick="openSidebar('249_Pariahs Bargain',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\257_Zareen Kahroba, Shah.jpg" id="257_Zareen Kahroba, Shah" data-flag="@X" onclick="openSidebar('257_Zareen Kahroba, Shah',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\228_Andazir's Command.jpg" id="228_Andazirs Command" data-flag="@X" onclick="openSidebar('228_Andazirs Command',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\230_Atieh's Command.jpg" id="230_Atiehs Command" data-flag="@X" onclick="openSidebar('230_Atiehs Command',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\232_Cosmic Banishment.jpg" id="232_Cosmic Banishment" data-flag="@X" onclick="openSidebar('232_Cosmic Banishment',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\233_Cyrukans Command.jpg" id="233_Cyrukans Command" data-flag="@X" onclick="openSidebar('233_Cyrukans Command',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\236_Disappointment.jpg" id="236_Disappointment" data-flag="@X" onclick="openSidebar('236_Disappointment',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\242_Fahribs Command.jpg" id="242_Fahribs Command" data-flag="@X" onclick="openSidebar('242_Fahribs Command',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\245_Iridescent Savior.jpg" id="245_Iridescent Savior" data-flag="@X" onclick="openSidebar('245_Iridescent Savior',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\246_Obstinate Wishgranter.jpg" id="246_Obstinate Wishgranter" data-flag="@X" onclick="openSidebar('246_Obstinate Wishgranter',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\252_Sahras Harbinger.jpg" id="252_Sahras Harbinger" data-flag="@X" onclick="openSidebar('252_Sahras Harbinger',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\255_Swooping Manticore.jpg" id="255_Swooping Manticore" data-flag="@X" onclick="openSidebar('255_Swooping Manticore',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\256_Tamaaks Command.jpg" id="256_Tamaaks Command" data-flag="@X" onclick="openSidebar('256_Tamaaks Command',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\273_Feather of the Simurgh.jpg" id="273_Feather of the Simurgh" data-flag="@X" onclick="openSidebar('273_Feather of the Simurgh',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\271_Attendant of Graves.jpg" id="271_Attendant of Graves" data-flag="@X" onclick="openSidebar('271_Attendant of Graves',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\272_Banner of Warfare.jpg" id="272_Banner of Warfare" data-flag="@X" onclick="openSidebar('272_Banner of Warfare',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\274_Wayfinder's Bauble.jpg" id="274_Wayfinders Bauble" data-flag="@X" onclick="openSidebar('274_Wayfinders Bauble',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\288_Soli Fortress.jpg" id="288_Soli Fortress" data-flag="@X" onclick="openSidebar('288_Soli Fortress',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\285_Nizev Fortress.jpg" id="285_Nizev Fortress" data-flag="@X" onclick="openSidebar('285_Nizev Fortress',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\282_Kaneh Fortress.jpg" id="282_Kaneh Fortress" data-flag="@X" onclick="openSidebar('282_Kaneh Fortress',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\275_Avaz Fortress.jpg" id="275_Avaz Fortress" data-flag="@X" onclick="openSidebar('275_Avaz Fortress',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\279_Danaj Fortress.jpg" id="279_Danaj Fortress" data-flag="@X" onclick="openSidebar('279_Danaj Fortress',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\289_Soli Sanctuary.jpg" id="289_Soli Sanctuary" data-flag="@X" onclick="openSidebar('289_Soli Sanctuary',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\287_Nizev Temple.jpg" id="287_Nizev Temple" data-flag="@X" onclick="openSidebar('287_Nizev Temple',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\284_Kaneh Temple.jpg" id="284_Kaneh Temple" data-flag="@X" onclick="openSidebar('284_Kaneh Temple',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\277_Avaz Temple.jpg" id="277_Avaz Temple" data-flag="@X" onclick="openSidebar('277_Avaz Temple',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\290_Soli Temple.jpg" id="290_Soli Temple" data-flag="@X" onclick="openSidebar('290_Soli Temple',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\283_Kaneh Sanctuary.jpg" id="283_Kaneh Sanctuary" data-flag="@X" onclick="openSidebar('283_Kaneh Sanctuary',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\281_Danaj Temple.jpg" id="281_Danaj Temple" data-flag="@X" onclick="openSidebar('281_Danaj Temple',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\280_Danaj Sanctuary.jpg" id="280_Danaj Sanctuary" data-flag="@X" onclick="openSidebar('280_Danaj Sanctuary',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\286_Nizev Sanctuary.jpg" id="286_Nizev Sanctuary" data-flag="@X" onclick="openSidebar('286_Nizev Sanctuary',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\276_Avaz Sanctuary.jpg" id="276_Avaz Sanctuary" data-flag="@X" onclick="openSidebar('276_Avaz Sanctuary',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\278_Burgeoning Satrapy.jpg" id="278_Burgeoning Satrapy" data-flag="@X" onclick="openSidebar('278_Burgeoning Satrapy',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\1t_Angel Soldier.jpg" id="1t_Angel Soldier" data-flag="@X" onclick="openSidebar('1t_Angel Soldier',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\2t_Soldier.jpg" id="2t_Soldier" data-flag="@X" onclick="openSidebar('2t_Soldier',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\3t_Horror.jpg" id="3t_Horror" data-flag="@X" onclick="openSidebar('3t_Horror',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\4t_Insect.jpg" id="4t_Insect" data-flag="@X" onclick="openSidebar('4t_Insect',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\5t_Snake.jpg" id="5t_Snake" data-flag="@X" onclick="openSidebar('5t_Snake',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\6t_Soldier Army.jpg" id="6t_Soldier Army" data-flag="@X" onclick="openSidebar('6t_Soldier Army',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\7t_Cleric.jpg" id="7t_Cleric" data-flag="@X" onclick="openSidebar('7t_Cleric',false)"></div>
+			<div class="container"><img alt="/sets\ROS-files\img\8t_Treasure.jpg" id="8t_Treasure" data-flag="@X" onclick="openSidebar('8t_Treasure',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && sidebar_img.src.includes("_front"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

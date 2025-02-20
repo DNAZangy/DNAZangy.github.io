@@ -13,7 +13,7 @@
 		{
 			"name": "Dietrich, Fassahd Seer",
 			"rarity": "rare",
-			"mana_cost": "{W}{U}",
+			"mana_cost": "{1}{W}{U}",
 			"type": "Legendary Creature — Human Shaman ",
 			"collector_number": "191",
 			"image_uris": {
@@ -51,13 +51,13 @@
 			}
 		},
 		{
-			"name": "Leave For Rot",
+			"name": "Leave to Rot",
 			"rarity": "rare",
-			"mana_cost": "{X}{B}{G}",
-			"type": "Enchantment",
+			"mana_cost": "{B}{G}",
+			"type": "Enchantment — Aura ",
 			"collector_number": "222",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/222_Leave For Rot.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/222_Leave to Rot.jpg"
 			}
 		},
 		{
@@ -684,7 +684,7 @@
 			"name": "Rot Begets Regrowth",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
-			"type": "Enchantment",
+			"type": "Enchantment — Aura ",
 			"collector_number": "107",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/MSK-files/img/107_Rot Begets Regrowth.jpg"
@@ -844,7 +844,7 @@
 			"name": "Lorn Executioner",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Elf Assassin ",
+			"type": "Creature — Elf Assassin Soldier ",
 			"collector_number": "130",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/MSK-files/img/130_Lorn Executioner.jpg"
@@ -895,9 +895,9 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Creature — Ouphe Shaman ",
-			"collector_number": "174",
+			"collector_number": "175",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/174_Myth Given Voice.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/175_Myth Given Voice.jpg"
 			}
 		},
 		{
@@ -905,9 +905,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Elk Warrior ",
-			"collector_number": "160",
+			"collector_number": "162",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/160_Deepwoods Sentinel.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/162_Deepwoods Sentinel.jpg"
 			}
 		},
 		{
@@ -915,9 +915,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Elemental ",
-			"collector_number": "158",
+			"collector_number": "160",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/158_Custodian of Cycles.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/160_Custodian of Cycles.jpg"
 			}
 		},
 		{
@@ -925,9 +925,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Human Scout ",
-			"collector_number": "154",
+			"collector_number": "156",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/154_Cartographer of History.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/156_Cartographer of History.jpg"
 			}
 		},
 		{
@@ -965,9 +965,9 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Instant",
-			"collector_number": "177",
+			"collector_number": "178",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/177_Push the Advantage.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/178_Push the Advantage.jpg"
 			}
 		},
 		{
@@ -985,9 +985,9 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "175",
+			"collector_number": "176",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/175_A New Direction.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/176_A New Direction.jpg"
 			}
 		},
 		{
@@ -1005,9 +1005,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Elemental ",
-			"collector_number": "155",
+			"collector_number": "157",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/155_Censor of the Veiled.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/157_Censor of the Veiled.jpg"
 			}
 		},
 		{
@@ -1015,9 +1015,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{G}{G}",
 			"type": "Creature — Elk Shaman ",
-			"collector_number": "157",
+			"collector_number": "159",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/157_Curator of Copses.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/159_Curator of Copses.jpg"
 			}
 		},
 		{
@@ -1025,9 +1025,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Dog ",
-			"collector_number": "178",
+			"collector_number": "179",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/178_Rambunctious Mount.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/179_Rambunctious Mount.jpg"
 			}
 		},
 		{
@@ -1035,19 +1035,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Creature — Elemental ",
-			"collector_number": "171",
+			"collector_number": "172",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/171_Magniloquent Soulcaller.jpg"
-			}
-		},
-		{
-			"name": "From Hope to Action",
-			"rarity": "rare",
-			"mana_cost": "{1}{G}",
-			"type": "Enchantment",
-			"collector_number": "166",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/166_From Hope to Action.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/172_Magniloquent Soulcaller.jpg"
 			}
 		},
 		{
@@ -1055,9 +1045,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Creature — Ouphe Warrior ",
-			"collector_number": "172",
+			"collector_number": "173",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/172_Marker of Odd Maps.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/173_Marker of Odd Maps.jpg"
 			}
 		},
 		{
@@ -1075,9 +1065,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Ouphe Rogue ",
-			"collector_number": "176",
+			"collector_number": "177",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/176_Parsimonious Scamp.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/177_Parsimonious Scamp.jpg"
 			}
 		},
 		{
@@ -1095,9 +1085,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Ouphe Shaman ",
-			"collector_number": "153",
+			"collector_number": "155",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/153_Buboh Shaman.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/155_Buboh Shaman.jpg"
 			}
 		},
 		{
@@ -1105,9 +1095,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Elemental ",
-			"collector_number": "156",
+			"collector_number": "158",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/156_Corpseborn Verdant.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/158_Corpseborn Verdant.jpg"
 			}
 		},
 		{
@@ -1115,9 +1105,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Creature — Elk Druid ",
-			"collector_number": "162",
+			"collector_number": "164",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/162_Devoted of Zwiewald.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/164_Devoted of Zwiewald.jpg"
 			}
 		},
 		{
@@ -1135,9 +1125,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "168",
+			"collector_number": "169",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/168_Hostile Watch.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/169_Hostile Watch.jpg"
 			}
 		},
 		{
@@ -1145,9 +1135,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "167",
+			"collector_number": "168",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/167_Harken the Past.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/168_Harken the Past.jpg"
 			}
 		},
 		{
@@ -1155,9 +1145,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "179",
+			"collector_number": "180",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/179_Revenge of the Zwiewald.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/180_Revenge of the Zwiewald.jpg"
 			}
 		},
 		{
@@ -1181,13 +1171,13 @@
 			}
 		},
 		{
-			"name": "Lessons Learned Trials Won",
+			"name": "Lessons Learned and Trials Won",
 			"rarity": "rare",
 			"mana_cost": "{G}{W}",
 			"type": "Enchantment",
 			"collector_number": "210",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/210_Lessons Learned Trials Won.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/210_Lessons Learned and Trials Won.jpg"
 			}
 		},
 		{
@@ -1443,7 +1433,7 @@
 		{
 			"name": "Horns of Drained Ichor",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{G}{W}",
+			"mana_cost": "{2}{G}{W}",
 			"type": "Creature — Elk ",
 			"collector_number": "209",
 			"image_uris": {
@@ -1535,9 +1525,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Plains ",
-			"collector_number": "281",
+			"collector_number": "282",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/281_Plains.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/282_Plains.jpg"
 			}
 		},
 		{
@@ -1545,9 +1535,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Island ",
-			"collector_number": "282",
+			"collector_number": "283",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/282_Island.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/283_Island.jpg"
 			}
 		},
 		{
@@ -1555,9 +1545,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Swamp ",
-			"collector_number": "283",
+			"collector_number": "284",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/283_Swamp.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/284_Swamp.jpg"
 			}
 		},
 		{
@@ -1565,9 +1555,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Mountain ",
-			"collector_number": "284",
+			"collector_number": "285",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/284_Mountain.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/285_Mountain.jpg"
 			}
 		},
 		{
@@ -1575,9 +1565,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "285",
+			"collector_number": "286",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/285_Forest.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/286_Forest.jpg"
 			}
 		},
 		{
@@ -1725,9 +1715,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "279",
+			"collector_number": "280",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/279_Wayfarer's Shrine.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/280_Wayfarer's Shrine.jpg"
 			}
 		},
 		{
@@ -1895,9 +1885,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "277",
+			"collector_number": "278",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/277_Valley of the Lost.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/278_Valley of the Lost.jpg"
 			}
 		},
 		{
@@ -1905,9 +1895,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "278",
+			"collector_number": "279",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/278_Warkrei Outpost.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/279_Warkrei Outpost.jpg"
 			}
 		},
 		{
@@ -1915,9 +1905,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "280",
+			"collector_number": "281",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/280_Zyklinder Outpost.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/281_Zyklinder Outpost.jpg"
 			}
 		},
 		{
@@ -2265,9 +2255,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "164",
+			"collector_number": "166",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/164_Edge of Autumn.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/166_Edge of Autumn.jpg"
 			}
 		},
 		{
@@ -2285,9 +2275,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Shaman Scout ",
-			"collector_number": "169",
+			"collector_number": "170",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/169_Jolly Scopuinter.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/170_Jolly Scopuinter.jpg"
 			}
 		},
 		{
@@ -2295,9 +2285,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "161",
+			"collector_number": "163",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/161_Deprecate.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/163_Deprecate.jpg"
 			}
 		},
 		{
@@ -2305,9 +2295,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Spider ",
-			"collector_number": "159",
+			"collector_number": "161",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/159_Deadly Recluse.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/161_Deadly Recluse.jpg"
 			}
 		},
 		{
@@ -2435,9 +2425,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Legendary Planeswalker — Kriemhild ",
-			"collector_number": "170",
+			"collector_number": "171",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/170_Kriemhild of One Truth.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/171_Kriemhild of One Truth.jpg"
 			}
 		},
 		{
@@ -2634,7 +2624,7 @@
 			"name": "Delighted Madcap",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Ouphe Assassin ",
+			"type": "Creature — Ouphe Rogue ",
 			"collector_number": "87",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/MSK-files/img/87_Delighted Madcap.jpg"
@@ -2695,9 +2685,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "173",
+			"collector_number": "174",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/173_Mend the Scenery.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/174_Mend the Scenery.jpg"
 			}
 		},
 		{
@@ -2781,13 +2771,13 @@
 			}
 		},
 		{
-			"name": "Slinking Sulfur",
+			"name": "Boots of the Ground",
 			"rarity": "rare",
-			"mana_cost": "{G}",
-			"type": "Creature — Elemental Cat ",
-			"collector_number": "180",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Spirit Knight ",
+			"collector_number": "154",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/180_Slinking Sulfur.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/154_Boots of the Ground.jpg"
 			}
 		},
 		{
@@ -2925,19 +2915,39 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment — Dream ",
-			"collector_number": "163",
+			"collector_number": "165",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/163_A Dream of Yesterdays.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/165_A Dream of Yesterdays.jpg"
 			}
 		},
 		{
-			"name": "Fassahd Speaker",
+			"name": "Adorned Orator",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Human Shaman ",
-			"collector_number": "165",
+			"collector_number": "153",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/165_Fassahd Speaker.jpg"
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/153_Adorned Orator.jpg"
+			}
+		},
+		{
+			"name": "Trunk of Fallen Friends",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/277_Trunk of Fallen Friends.jpg"
+			}
+		},
+		{
+			"name": "From Hope to Action",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/167_From Hope to Action.jpg"
 			}
 		}
 	]
@@ -2947,7 +2957,7 @@
 2 The Wolf and the Lamb
 2 Serenity's Guide
 2 Rauchi
-2 Leave For Rot
+2 Leave to Rot
 2 Brunhild
 2 Rousing Sentinel
 2 Ruhe, Season of Silence
@@ -2976,10 +2986,9 @@
 2 Curator of Copses
 2 Rambunctious Mount
 2 Magniloquent Soulcaller
-2 From Hope to Action
 2 Ziel, Season of Endings
 2 Crowned Croaker
-2 Lessons Learned Trials Won
+2 Lessons Learned and Trials Won
 2 Invigorating Discovery
 2 Magali
 2 Kriemhild, Unbidden End
@@ -3005,13 +3014,15 @@
 2 Reaping Whirlwind
 2 Rationalize
 2 Eike, Masked with the Flame
-2 Slinking Sulfur
+2 Boots of the Ground
 2 Return to Placidity
 2 A Dream of Stillness
 2 A Dream of Horizons
 2 A Dream of Mirrors
 2 A Dream of Reunion
 2 A Dream of Yesterdays
+2 Trunk of Fallen Friends
+2 From Hope to Action
 [UncommonSlot(4)]
 9 Waning Moon Adept
 9 Indifferent Landsknecht
@@ -3120,7 +3131,7 @@
 9 Warkrei Bladedancer
 9 Mark of Conquest
 9 Mend the Scenery
-9 Fassahd Speaker
+9 Adorned Orator
 [CommonSlot(9)]
 30 Quaint Harvest
 30 Veiled Foreboding
@@ -3174,6 +3185,7 @@
 30 Scenic Caldera
 30 Scenic Coast
 30 Scenic Copse
+30 Scenic Meadow
 30 Shardstone Rift
 30 Sunlit Highland
 30 Timber Range

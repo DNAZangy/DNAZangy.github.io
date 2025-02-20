@@ -1,12 +1,13 @@
 ﻿[CustomCards]
-	[	{
+	[
+		{
 			"name": "Greater Masticore",
 			"rarity": "mythic",
 			"mana_cost": "{6}",
 			"type": "Artifact Creature — Masticore ",
 			"collector_number": "271",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/271_Greater Masticore.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/271_Greater Masticore.jpg"
 			}
 		},
 		{
@@ -15,15 +16,15 @@
 			"mana_cost": "{3}{G}{U}",
 			"type": "Legendary Creature — Elder Angel ",
 			"collector_number": "207",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/207_Martoob, Blessing of Water_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/207_Martoob, Blessing of Water_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/207_Martoob, Blessing of Water_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/207_Martoob, Blessing of Water_front.jpg"
 			}
 		},
 		{
@@ -32,15 +33,15 @@
 			"mana_cost": "{3}{W}{B}",
 			"type": "Legendary Creature — Elder Angel ",
 			"collector_number": "178",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/178_Mahara, the Universal_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/178_Mahara, the Universal_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/178_Mahara, the Universal_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/178_Mahara, the Universal_front.jpg"
 			}
 		},
 		{
@@ -49,15 +50,15 @@
 			"mana_cost": "{2}{U}{R}",
 			"type": "Legendary Creature — Elder Angel ",
 			"collector_number": "186",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/186_Rahstahde, Word of Truth_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/186_Rahstahde, Word of Truth_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/186_Rahstahde, Word of Truth_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/186_Rahstahde, Word of Truth_front.jpg"
 			}
 		},
 		{
@@ -66,15 +67,15 @@
 			"mana_cost": "{3}{G}{W}",
 			"type": "Legendary Creature — Elder Demon ",
 			"collector_number": "171",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/171_Kahroba, Forefather of All_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/171_Kahroba, Forefather of All_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/171_Kahroba, Forefather of All_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/171_Kahroba, Forefather of All_front.jpg"
 			}
 		},
 		{
@@ -83,15 +84,15 @@
 			"mana_cost": "{3}{R}{G}",
 			"type": "Legendary Creature — Elder Demon ",
 			"collector_number": "167",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/167_Sahra, the Consuming_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/167_Sahra, the Consuming_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/167_Sahra, the Consuming_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/167_Sahra, the Consuming_front.jpg"
 			}
 		},
 		{
@@ -101,7 +102,7 @@
 			"type": "Enchantment",
 			"collector_number": "242",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/242_Muktann Protectors.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/242_Muktann Protectors.jpg"
 			}
 		},
 		{
@@ -111,7 +112,7 @@
 			"type": "Enchantment",
 			"collector_number": "260",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/260_Twice Blessed.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/260_Twice Blessed.jpg"
 			}
 		},
 		{
@@ -121,7 +122,7 @@
 			"type": "Creature — Horror ",
 			"collector_number": "210",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/210_All-Encompassing Akvan.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/210_All-Encompassing Akvan.jpg"
 			}
 		},
 		{
@@ -131,7 +132,7 @@
 			"type": "Legendary Creature — Dragon Shaman ",
 			"collector_number": "234",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/234_Hadak, End of Progress.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/234_Hadak, End of Progress.jpg"
 			}
 		},
 		{
@@ -141,7 +142,7 @@
 			"type": "Creature — Snake Warlock ",
 			"collector_number": "256",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/256_Tempting Shahmaran.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/256_Tempting Shahmaran.jpg"
 			}
 		},
 		{
@@ -151,7 +152,7 @@
 			"type": "Artifact",
 			"collector_number": "268",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/268_Decanter of Endless Rivers.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/268_Decanter of Endless Rivers.jpg"
 			}
 		},
 		{
@@ -161,7 +162,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "202",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/202_Sword of Fanaticism.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/202_Sword of Fanaticism.jpg"
 			}
 		},
 		{
@@ -171,7 +172,7 @@
 			"type": "Creature — Bird ",
 			"collector_number": "148",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/148_Shomi's Savior.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/148_Shomi's Savior.jpg"
 			}
 		},
 		{
@@ -181,7 +182,7 @@
 			"type": "Creature — Angel Wizard ",
 			"collector_number": "224",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/224_Chosen of Aminatou.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/224_Chosen of Aminatou.jpg"
 			}
 		},
 		{
@@ -191,7 +192,7 @@
 			"type": "Creature — Zombie Wizard ",
 			"collector_number": "253",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/253_Supreme Alchemist.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/253_Supreme Alchemist.jpg"
 			}
 		},
 		{
@@ -201,7 +202,7 @@
 			"type": "Creature — Angel Cleric ",
 			"collector_number": "233",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/233_Guardian of the Devout.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/233_Guardian of the Devout.jpg"
 			}
 		},
 		{
@@ -211,7 +212,7 @@
 			"type": "Creature — Angel Soldier ",
 			"collector_number": "199",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/199_Cyrukan's Messenger.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/199_Cyrukan's Messenger.jpg"
 			}
 		},
 		{
@@ -221,7 +222,7 @@
 			"type": "Creature — Azra Wizard ",
 			"collector_number": "48",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/48_Nizev Enforcer.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/48_Nizev Enforcer.jpg"
 			}
 		},
 		{
@@ -231,7 +232,7 @@
 			"type": "Creature — Demon Shaman ",
 			"collector_number": "255",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/255_Tamaak's Devourer.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/255_Tamaak's Devourer.jpg"
 			}
 		},
 		{
@@ -241,7 +242,7 @@
 			"type": "Creature — Horror ",
 			"collector_number": "156",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/156_Deprived Div.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/156_Deprived Div.jpg"
 			}
 		},
 		{
@@ -251,7 +252,7 @@
 			"type": "Creature — Human Pirate ",
 			"collector_number": "150",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/150_Dunesea Captain.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/150_Dunesea Captain.jpg"
 			}
 		},
 		{
@@ -261,7 +262,7 @@
 			"type": "Creature — Djinn Shaman ",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/1_Zareen's Pariah.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/1_Zareen's Pariah.jpg"
 			}
 		},
 		{
@@ -271,7 +272,7 @@
 			"type": "Creature — Dragon ",
 			"collector_number": "262",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/262_Zenith of Greed.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/262_Zenith of Greed.jpg"
 			}
 		},
 		{
@@ -281,7 +282,7 @@
 			"type": "Creature — Human Advisor ",
 			"collector_number": "236",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/236_Imposing Databdara.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/236_Imposing Databdara.jpg"
 			}
 		},
 		{
@@ -291,7 +292,7 @@
 			"type": "Creature — Horror ",
 			"collector_number": "226",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/226_Div of Bonded Souls.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/226_Div of Bonded Souls.jpg"
 			}
 		},
 		{
@@ -301,7 +302,7 @@
 			"type": "Creature — Lizard ",
 			"collector_number": "258",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/258_Travelling Bazaar.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/258_Travelling Bazaar.jpg"
 			}
 		},
 		{
@@ -311,7 +312,7 @@
 			"type": "Creature — Shapeshifter ",
 			"collector_number": "235",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/235_Illusion of the Div.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/235_Illusion of the Div.jpg"
 			}
 		},
 		{
@@ -321,7 +322,7 @@
 			"type": "Creature — Sphinx Cleric ",
 			"collector_number": "247",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/247_Recreator of Myths.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/247_Recreator of Myths.jpg"
 			}
 		},
 		{
@@ -331,7 +332,7 @@
 			"type": "Creature — Zombie ",
 			"collector_number": "192",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/192_Ghul of Forgotten Pasts.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/192_Ghul of Forgotten Pasts.jpg"
 			}
 		},
 		{
@@ -341,7 +342,7 @@
 			"type": "Enchantment",
 			"collector_number": "24",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/24_Shared Honor.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/24_Shared Honor.jpg"
 			}
 		},
 		{
@@ -351,7 +352,7 @@
 			"type": "Enchantment",
 			"collector_number": "191",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/191_Boon of the Pacts.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/191_Boon of the Pacts.jpg"
 			}
 		},
 		{
@@ -361,7 +362,7 @@
 			"type": "Instant",
 			"collector_number": "259",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/259_Triplicate.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/259_Triplicate.jpg"
 			}
 		},
 		{
@@ -371,7 +372,7 @@
 			"type": "Enchantment",
 			"collector_number": "228",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/228_Endless Infantry.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/228_Endless Infantry.jpg"
 			}
 		},
 		{
@@ -381,7 +382,7 @@
 			"type": "Enchantment",
 			"collector_number": "131",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/131_Lasting Legacy.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/131_Lasting Legacy.jpg"
 			}
 		},
 		{
@@ -391,7 +392,7 @@
 			"type": "Enchantment — Aura Curse ",
 			"collector_number": "217",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/217_Bane of Endless Snakes.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/217_Bane of Endless Snakes.jpg"
 			}
 		},
 		{
@@ -401,7 +402,7 @@
 			"type": "Enchantment",
 			"collector_number": "168",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/168_Unsustainable Consumption.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/168_Unsustainable Consumption.jpg"
 			}
 		},
 		{
@@ -411,7 +412,7 @@
 			"type": "Instant",
 			"collector_number": "208",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/208_Martoob's Message.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/208_Martoob's Message.jpg"
 			}
 		},
 		{
@@ -421,7 +422,7 @@
 			"type": "Instant",
 			"collector_number": "183",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/183_Cosmic Coalescing.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/183_Cosmic Coalescing.jpg"
 			}
 		},
 		{
@@ -430,15 +431,15 @@
 			"mana_cost": "{2}{W}{U}",
 			"type": "Instant",
 			"collector_number": "145",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/145_Contemplate the Cosmos_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/145_Contemplate the Cosmos_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/145_Contemplate the Cosmos_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/145_Contemplate the Cosmos_front.jpg"
 			}
 		},
 		{
@@ -448,7 +449,7 @@
 			"type": "Instant",
 			"collector_number": "149",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/149_Delve for Treasures.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/149_Delve for Treasures.jpg"
 			}
 		},
 		{
@@ -457,15 +458,15 @@
 			"mana_cost": "{2}{W}{B}",
 			"type": "Instant",
 			"collector_number": "176",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/176_Fight for Succession_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/176_Fight for Succession_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/176_Fight for Succession_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/176_Fight for Succession_front.jpg"
 			}
 		},
 		{
@@ -475,7 +476,7 @@
 			"type": "Instant",
 			"collector_number": "225",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/225_Cosmic Lineage.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/225_Cosmic Lineage.jpg"
 			}
 		},
 		{
@@ -484,15 +485,15 @@
 			"mana_cost": "{R}{W}{U}",
 			"type": "Instant",
 			"collector_number": "245",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/245_Peer into the Cosmos_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/245_Peer into the Cosmos_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/245_Peer into the Cosmos_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/245_Peer into the Cosmos_front.jpg"
 			}
 		},
 		{
@@ -502,7 +503,7 @@
 			"type": "Instant",
 			"collector_number": "229",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/229_Forced Germination.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/229_Forced Germination.jpg"
 			}
 		},
 		{
@@ -512,7 +513,7 @@
 			"type": "Instant",
 			"collector_number": "63",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/63_Assault of the Conscripted.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/63_Assault of the Conscripted.jpg"
 			}
 		},
 		{
@@ -522,7 +523,7 @@
 			"type": "Land",
 			"collector_number": "293",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/293_Shrine to Those Gone.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/293_Shrine to Those Gone.jpg"
 			}
 		},
 		{
@@ -532,7 +533,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "286",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/286_Marketplace Crossroads.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/286_Marketplace Crossroads.jpg"
 			}
 		},
 		{
@@ -542,7 +543,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "218",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/218_The Blacksmith's Banner.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/218_The Blacksmith's Banner.jpg"
 			}
 		},
 		{
@@ -551,15 +552,15 @@
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Creature — Nephilim Noble ",
 			"collector_number": "108",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/108_Shapur, the Fifth Shah_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/108_Shapur, the Fifth Shah_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/108_Shapur, the Fifth Shah_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/108_Shapur, the Fifth Shah_front.jpg"
 			}
 		},
 		{
@@ -569,7 +570,7 @@
 			"type": "Legendary Creature — Chimera ",
 			"collector_number": "231",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/231_The Grand Simurgh.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/231_The Grand Simurgh.jpg"
 			}
 		},
 		{
@@ -579,7 +580,7 @@
 			"type": "Legendary Creature — Human Knight Noble ",
 			"collector_number": "174",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/174_Saeedi Kahroba, Daughter.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/174_Saeedi Kahroba, Daughter.jpg"
 			}
 		},
 		{
@@ -589,7 +590,7 @@
 			"type": "Legendary Creature — Nephilim Noble ",
 			"collector_number": "209",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/209_Tyrus, Giver to All.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/209_Tyrus, Giver to All.jpg"
 			}
 		},
 		{
@@ -599,7 +600,7 @@
 			"type": "Legendary Creature — Human Noble ",
 			"collector_number": "164",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/164_Reha, Entropy's Call.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/164_Reha, Entropy's Call.jpg"
 			}
 		},
 		{
@@ -608,15 +609,15 @@
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Creature — Human Noble ",
 			"collector_number": "129",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/129_Golna, the First Shah_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/129_Golna, the First Shah_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/129_Golna, the First Shah_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/129_Golna, the First Shah_front.jpg"
 			}
 		},
 		{
@@ -625,15 +626,15 @@
 			"mana_cost": "{3}{U}{U}",
 			"type": "Legendary Creature — Nephilim Noble ",
 			"collector_number": "43",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/43_Jahan, the Third Shah_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/43_Jahan, the Third Shah_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/43_Jahan, the Third Shah_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/43_Jahan, the Third Shah_front.jpg"
 			}
 		},
 		{
@@ -642,15 +643,15 @@
 			"mana_cost": "{2}{W}",
 			"type": "Legendary Creature — Human Noble ",
 			"collector_number": "29",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/29_Zareen, the Second Shah_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/29_Zareen, the Second Shah_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/29_Zareen, the Second Shah_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/29_Zareen, the Second Shah_front.jpg"
 			}
 		},
 		{
@@ -660,7 +661,7 @@
 			"type": "Legendary Creature — Human Noble Wizard ",
 			"collector_number": "188",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/188_Veeni, High Truthseeker.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/188_Veeni, High Truthseeker.jpg"
 			}
 		},
 		{
@@ -670,7 +671,7 @@
 			"type": "Creature — Manticore ",
 			"collector_number": "257",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/257_Thief of Mortals.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/257_Thief of Mortals.jpg"
 			}
 		},
 		{
@@ -680,7 +681,7 @@
 			"type": "Legendary Creature — Nephilim Noble ",
 			"collector_number": "182",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/182_Siaveed, Commander of Armies.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/182_Siaveed, Commander of Armies.jpg"
 			}
 		},
 		{
@@ -689,15 +690,15 @@
 			"mana_cost": "{B}{R}",
 			"type": "Sorcery",
 			"collector_number": "158",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/158_Ghulish Unearthing_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/158_Ghulish Unearthing_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/158_Ghulish Unearthing_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/158_Ghulish Unearthing_front.jpg"
 			}
 		},
 		{
@@ -707,7 +708,7 @@
 			"type": "Sorcery",
 			"collector_number": "175",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/175_Venture into the Muktann.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/175_Venture into the Muktann.jpg"
 			}
 		},
 		{
@@ -717,7 +718,7 @@
 			"type": "Sorcery",
 			"collector_number": "248",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/248_Return to the Beginning.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/248_Return to the Beginning.jpg"
 			}
 		},
 		{
@@ -727,7 +728,7 @@
 			"type": "Sorcery",
 			"collector_number": "237",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/237_Judgment of the Soul.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/237_Judgment of the Soul.jpg"
 			}
 		},
 		{
@@ -737,7 +738,7 @@
 			"type": "Sorcery",
 			"collector_number": "254",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/254_The Tale of Kings.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/254_The Tale of Kings.jpg"
 			}
 		},
 		{
@@ -747,7 +748,7 @@
 			"type": "Sorcery",
 			"collector_number": "107",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/107_Shala's Immolation.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/107_Shala's Immolation.jpg"
 			}
 		},
 		{
@@ -757,7 +758,7 @@
 			"type": "Artifact",
 			"collector_number": "263",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/263_Adventurer's Amulet.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/263_Adventurer's Amulet.jpg"
 			}
 		},
 		{
@@ -767,7 +768,7 @@
 			"type": "Sorcery",
 			"collector_number": "115",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/115_Adventurous Impulse.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/115_Adventurous Impulse.jpg"
 			}
 		},
 		{
@@ -777,7 +778,7 @@
 			"type": "Creature — Human Knight ",
 			"collector_number": "190",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/190_Affluent Knight.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/190_Affluent Knight.jpg"
 			}
 		},
 		{
@@ -787,7 +788,7 @@
 			"type": "Creature — Azra Knight ",
 			"collector_number": "155",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/155_Agent of Andazir.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/155_Agent of Andazir.jpg"
 			}
 		},
 		{
@@ -797,7 +798,7 @@
 			"type": "Creature — Human Soldier ",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/8_Cyrukan Guardians.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/8_Cyrukan Guardians.jpg"
 			}
 		},
 		{
@@ -807,7 +808,7 @@
 			"type": "Creature — Angel Warrior ",
 			"collector_number": "103",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/103_Rahstahde Persecutor.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/103_Rahstahde Persecutor.jpg"
 			}
 		},
 		{
@@ -817,7 +818,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "116",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/116_Aid from Martoob.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/116_Aid from Martoob.jpg"
 			}
 		},
 		{
@@ -827,7 +828,7 @@
 			"type": "Artifact",
 			"collector_number": "30",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/30_Alchemist's Kit.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/30_Alchemist's Kit.jpg"
 			}
 		},
 		{
@@ -837,7 +838,7 @@
 			"type": "Creature — Angel Cleric ",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/2_Ameret's Favored.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/2_Ameret's Favored.jpg"
 			}
 		},
 		{
@@ -847,7 +848,7 @@
 			"type": "Instant",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/3_Ancestral Guidance.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/3_Ancestral Guidance.jpg"
 			}
 		},
 		{
@@ -857,7 +858,7 @@
 			"type": "Instant",
 			"collector_number": "36",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/36_Condescend.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/36_Condescend.jpg"
 			}
 		},
 		{
@@ -867,7 +868,7 @@
 			"type": "Creature — Elephant ",
 			"collector_number": "117",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/117_Armored Elephant.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/117_Armored Elephant.jpg"
 			}
 		},
 		{
@@ -877,7 +878,7 @@
 			"type": "Creature — Azra Soldier ",
 			"collector_number": "169",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/169_Army's Suppliers.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/169_Army's Suppliers.jpg"
 			}
 		},
 		{
@@ -887,7 +888,7 @@
 			"type": "Creature — Azra Assassin ",
 			"collector_number": "62",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/62_Assassin of Fahrib.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/62_Assassin of Fahrib.jpg"
 			}
 		},
 		{
@@ -897,7 +898,7 @@
 			"type": "Creature — Demon Soldier ",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/18_Kahroba Champion.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/18_Kahroba Champion.jpg"
 			}
 		},
 		{
@@ -907,7 +908,7 @@
 			"type": "Creature — Azra Warrior ",
 			"collector_number": "130",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/130_Kahroba Pureblood.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/130_Kahroba Pureblood.jpg"
 			}
 		},
 		{
@@ -917,7 +918,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/5_Avaz Banner.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/5_Avaz Banner.jpg"
 			}
 		},
 		{
@@ -927,7 +928,7 @@
 			"type": "Creature — Human Cleric Druid ",
 			"collector_number": "134",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/134_Martoob Druid.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/134_Martoob Druid.jpg"
 			}
 		},
 		{
@@ -937,7 +938,7 @@
 			"type": "Creature — Human Cleric Knight ",
 			"collector_number": "88",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/88_Avaz Cataphract.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/88_Avaz Cataphract.jpg"
 			}
 		},
 		{
@@ -947,7 +948,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "277",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/277_Avaz Sanctuary.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/277_Avaz Sanctuary.jpg"
 			}
 		},
 		{
@@ -957,7 +958,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "278",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/278_Avaz Temple.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/278_Avaz Temple.jpg"
 			}
 		},
 		{
@@ -967,7 +968,7 @@
 			"type": "Creature — Nephilim Warrior ",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/6_Blade of Mahara.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/6_Blade of Mahara.jpg"
 			}
 		},
 		{
@@ -977,7 +978,7 @@
 			"type": "Creature — Azra Knight ",
 			"collector_number": "120",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/120_Bringer of Armies.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/120_Bringer of Armies.jpg"
 			}
 		},
 		{
@@ -987,7 +988,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "35",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/35_Cage the Dissenter.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/35_Cage the Dissenter.jpg"
 			}
 		},
 		{
@@ -997,7 +998,7 @@
 			"type": "Sorcery",
 			"collector_number": "121",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/121_Call on Reinforcements.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/121_Call on Reinforcements.jpg"
 			}
 		},
 		{
@@ -1007,7 +1008,7 @@
 			"type": "Creature — Azra Assassin ",
 			"collector_number": "151",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/151_Fahrib Informant.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/151_Fahrib Informant.jpg"
 			}
 		},
 		{
@@ -1017,7 +1018,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "197",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/197_Conquerer's Blade.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/197_Conquerer's Blade.jpg"
 			}
 		},
 		{
@@ -1027,7 +1028,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "123",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/123_Courageous Stand.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/123_Courageous Stand.jpg"
 			}
 		},
 		{
@@ -1037,7 +1038,7 @@
 			"type": "Sorcery",
 			"collector_number": "91",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/91_Crash Through.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/91_Crash Through.jpg"
 			}
 		},
 		{
@@ -1047,7 +1048,7 @@
 			"type": "Creature — Azra Cleric Soldier ",
 			"collector_number": "124",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/124_Danaj Decider.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/124_Danaj Decider.jpg"
 			}
 		},
 		{
@@ -1057,7 +1058,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "280",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/280_Danaj Sanctuary.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/280_Danaj Sanctuary.jpg"
 			}
 		},
 		{
@@ -1067,7 +1068,7 @@
 			"type": "Creature — Djinn Warrior ",
 			"collector_number": "33",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/33_Benthic Shipcrasher.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/33_Benthic Shipcrasher.jpg"
 			}
 		},
 		{
@@ -1077,7 +1078,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "281",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/281_Danaj Temple.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/281_Danaj Temple.jpg"
 			}
 		},
 		{
@@ -1087,7 +1088,7 @@
 			"type": "Creature — Nephilim Knight ",
 			"collector_number": "27",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/27_Soli Windreader.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/27_Soli Windreader.jpg"
 			}
 		},
 		{
@@ -1097,7 +1098,7 @@
 			"type": "Instant",
 			"collector_number": "126",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/126_Dispute.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/126_Dispute.jpg"
 			}
 		},
 		{
@@ -1107,7 +1108,7 @@
 			"type": "Creature — Azra Citizen ",
 			"collector_number": "66",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/66_Distant Lover.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/66_Distant Lover.jpg"
 			}
 		},
 		{
@@ -1117,7 +1118,7 @@
 			"type": "Creature — Horror ",
 			"collector_number": "127",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/127_Div of the Ingited Soul.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/127_Div of the Ingited Soul.jpg"
 			}
 		},
 		{
@@ -1127,7 +1128,7 @@
 			"type": "Sorcery",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/10_Divine Splendor.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/10_Divine Splendor.jpg"
 			}
 		},
 		{
@@ -1137,7 +1138,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "38",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/38_Djinncrafting.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/38_Djinncrafting.jpg"
 			}
 		},
 		{
@@ -1147,7 +1148,7 @@
 			"type": "Sorcery",
 			"collector_number": "204",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/204_Empathic Bond.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/204_Empathic Bond.jpg"
 			}
 		},
 		{
@@ -1157,7 +1158,7 @@
 			"type": "Creature — Nephilim Cleric ",
 			"collector_number": "45",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/45_Martoob Watershaper.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/45_Martoob Watershaper.jpg"
 			}
 		},
 		{
@@ -1167,7 +1168,7 @@
 			"type": "Instant",
 			"collector_number": "128",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/128_Fall from the Heavens.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/128_Fall from the Heavens.jpg"
 			}
 		},
 		{
@@ -1177,7 +1178,7 @@
 			"type": "Creature — Nephilim Cleric ",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/13_Fateshifter's Prophet.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/13_Fateshifter's Prophet.jpg"
 			}
 		},
 		{
@@ -1187,7 +1188,7 @@
 			"type": "Artifact Creature — Construct Scout ",
 			"collector_number": "264",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/264_Artificial Wayfinder.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/264_Artificial Wayfinder.jpg"
 			}
 		},
 		{
@@ -1197,7 +1198,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "269",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/269_Flying Throne.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/269_Flying Throne.jpg"
 			}
 		},
 		{
@@ -1207,7 +1208,7 @@
 			"type": "Creature — Zombie ",
 			"collector_number": "67",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/67_Furnished Ghul.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/67_Furnished Ghul.jpg"
 			}
 		},
 		{
@@ -1216,15 +1217,15 @@
 			"mana_cost": "{R}",
 			"type": "Instant",
 			"collector_number": "95",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/95_Fury of Hadak_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/95_Fury of Hadak_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/95_Fury of Hadak_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/95_Fury of Hadak_front.jpg"
 			}
 		},
 		{
@@ -1234,7 +1235,7 @@
 			"type": "Instant",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/14_Grasp of the Sands.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/14_Grasp of the Sands.jpg"
 			}
 		},
 		{
@@ -1244,7 +1245,7 @@
 			"type": "Creature — Unicorn Rhino ",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/15_Hearty Karkadann.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/15_Hearty Karkadann.jpg"
 			}
 		},
 		{
@@ -1254,7 +1255,7 @@
 			"type": "Sorcery",
 			"collector_number": "42",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/42_Impede.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/42_Impede.jpg"
 			}
 		},
 		{
@@ -1264,7 +1265,7 @@
 			"type": "Creature — Manticore ",
 			"collector_number": "98",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/98_Imposing Manticore.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/98_Imposing Manticore.jpg"
 			}
 		},
 		{
@@ -1274,7 +1275,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/17_Imprison the Liar.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/17_Imprison the Liar.jpg"
 			}
 		},
 		{
@@ -1284,7 +1285,7 @@
 			"type": "Creature — Nephilim Knight ",
 			"collector_number": "32",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/32_Atieh Stargazer.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/32_Atieh Stargazer.jpg"
 			}
 		},
 		{
@@ -1294,7 +1295,7 @@
 			"type": "Creature — Human Assassin ",
 			"collector_number": "69",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/69_Kaneh Assassin.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/69_Kaneh Assassin.jpg"
 			}
 		},
 		{
@@ -1304,7 +1305,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/19_Kaneh Headdress.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/19_Kaneh Headdress.jpg"
 			}
 		},
 		{
@@ -1314,7 +1315,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "284",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/284_Kaneh Sanctuary.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/284_Kaneh Sanctuary.jpg"
 			}
 		},
 		{
@@ -1324,7 +1325,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "285",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/285_Kaneh Temple.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/285_Kaneh Temple.jpg"
 			}
 		},
 		{
@@ -1334,7 +1335,7 @@
 			"type": "Sorcery",
 			"collector_number": "99",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/99_Kaneh Troops.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/99_Kaneh Troops.jpg"
 			}
 		},
 		{
@@ -1344,7 +1345,7 @@
 			"type": "Creature — Azra Advisor Cleric ",
 			"collector_number": "142",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/142_Tamaak Confidant.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/142_Tamaak Confidant.jpg"
 			}
 		},
 		{
@@ -1354,7 +1355,7 @@
 			"type": "Sorcery",
 			"collector_number": "65",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/65_Burden of Thirst.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/65_Burden of Thirst.jpg"
 			}
 		},
 		{
@@ -1364,7 +1365,7 @@
 			"type": "Instant",
 			"collector_number": "76",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/76_Poison the Blade.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/76_Poison the Blade.jpg"
 			}
 		},
 		{
@@ -1374,7 +1375,7 @@
 			"type": "Creature — Angel Cleric ",
 			"collector_number": "70",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/70_Mahara Angel.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/70_Mahara Angel.jpg"
 			}
 		},
 		{
@@ -1384,7 +1385,7 @@
 			"type": "Artifact",
 			"collector_number": "275",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/275_Signet Ring.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/275_Signet Ring.jpg"
 			}
 		},
 		{
@@ -1394,7 +1395,7 @@
 			"type": "Artifact Creature — Elemental ",
 			"collector_number": "265",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/265_Avalanche Elemental.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/265_Avalanche Elemental.jpg"
 			}
 		},
 		{
@@ -1404,7 +1405,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "141",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/141_Sting of the Manticore.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/141_Sting of the Manticore.jpg"
 			}
 		},
 		{
@@ -1414,7 +1415,7 @@
 			"type": "Sorcery",
 			"collector_number": "100",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/100_Marketplace Haggling.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/100_Marketplace Haggling.jpg"
 			}
 		},
 		{
@@ -1424,7 +1425,7 @@
 			"type": "Instant",
 			"collector_number": "71",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/71_Murder.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/71_Murder.jpg"
 			}
 		},
 		{
@@ -1434,7 +1435,7 @@
 			"type": "Creature — Azra Soldier ",
 			"collector_number": "60",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/60_Andazir Assaulter.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/60_Andazir Assaulter.jpg"
 			}
 		},
 		{
@@ -1444,7 +1445,7 @@
 			"type": "Creature — Azra Warrior ",
 			"collector_number": "87",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/87_Andazir Elite.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/87_Andazir Elite.jpg"
 			}
 		},
 		{
@@ -1454,7 +1455,7 @@
 			"type": "Creature — Chimera ",
 			"collector_number": "47",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/47_Nizev Arbiter.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/47_Nizev Arbiter.jpg"
 			}
 		},
 		{
@@ -1464,7 +1465,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "290",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/290_Nizev Sanctuary.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/290_Nizev Sanctuary.jpg"
 			}
 		},
 		{
@@ -1474,7 +1475,7 @@
 			"type": "Creature — Nephilim Warrior ",
 			"collector_number": "101",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/101_Nizev Brawler.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/101_Nizev Brawler.jpg"
 			}
 		},
 		{
@@ -1484,7 +1485,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "291",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/291_Nizev Temple.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/291_Nizev Temple.jpg"
 			}
 		},
 		{
@@ -1494,7 +1495,7 @@
 			"type": "Sorcery",
 			"collector_number": "73",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/73_Ordeal of Kaneh.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/73_Ordeal of Kaneh.jpg"
 			}
 		},
 		{
@@ -1504,7 +1505,7 @@
 			"type": "Creature — Bird ",
 			"collector_number": "49",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/49_Owl of the Seven Stars.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/49_Owl of the Seven Stars.jpg"
 			}
 		},
 		{
@@ -1513,15 +1514,15 @@
 			"mana_cost": "{W}",
 			"type": "Sorcery",
 			"collector_number": "12",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/12_Falconry_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/12_Falconry_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/12_Falconry_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/12_Falconry_front.jpg"
 			}
 		},
 		{
@@ -1531,7 +1532,7 @@
 			"type": "Creature — Demon Cleric ",
 			"collector_number": "74",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/74_Patronizing Taromad.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/74_Patronizing Taromad.jpg"
 			}
 		},
 		{
@@ -1541,7 +1542,7 @@
 			"type": "Instant",
 			"collector_number": "51",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/51_Plan for Adventure.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/51_Plan for Adventure.jpg"
 			}
 		},
 		{
@@ -1551,7 +1552,7 @@
 			"type": "Creature — Human Bard Cleric ",
 			"collector_number": "166",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/166_Sahra Poet-Priest.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/166_Sahra Poet-Priest.jpg"
 			}
 		},
 		{
@@ -1561,7 +1562,7 @@
 			"type": "Creature — Demon Soldier ",
 			"collector_number": "105",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/105_Sahra Wrecker.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/105_Sahra Wrecker.jpg"
 			}
 		},
 		{
@@ -1571,7 +1572,7 @@
 			"type": "Creature — Demon Berserker ",
 			"collector_number": "138",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/138_Sahra's Crusher.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/138_Sahra's Crusher.jpg"
 			}
 		},
 		{
@@ -1580,15 +1581,15 @@
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
 			"collector_number": "137",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/137_Rapid Transformation_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/137_Rapid Transformation_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/137_Rapid Transformation_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/137_Rapid Transformation_front.jpg"
 			}
 		},
 		{
@@ -1598,7 +1599,7 @@
 			"type": "Creature — Nephilim Cleric ",
 			"collector_number": "78",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/78_Regulator of Tithes.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/78_Regulator of Tithes.jpg"
 			}
 		},
 		{
@@ -1608,7 +1609,7 @@
 			"type": "Sorcery",
 			"collector_number": "79",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/79_Relentless Army.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/79_Relentless Army.jpg"
 			}
 		},
 		{
@@ -1617,15 +1618,15 @@
 			"mana_cost": "{B}",
 			"type": "Sorcery",
 			"collector_number": "84",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/84_Shift the Sands_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/84_Shift the Sands_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/84_Shift the Sands_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/84_Shift the Sands_front.jpg"
 			}
 		},
 		{
@@ -1635,7 +1636,7 @@
 			"type": "Sorcery",
 			"collector_number": "104",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/104_Romantic Rescue.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/104_Romantic Rescue.jpg"
 			}
 		},
 		{
@@ -1645,7 +1646,7 @@
 			"type": "Sorcery",
 			"collector_number": "181",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/181_Scouting Party.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/181_Scouting Party.jpg"
 			}
 		},
 		{
@@ -1655,7 +1656,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "82",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/82_Selfish Conversion.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/82_Selfish Conversion.jpg"
 			}
 		},
 		{
@@ -1665,7 +1666,7 @@
 			"type": "Sorcery",
 			"collector_number": "140",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/140_Serene Thoughts.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/140_Serene Thoughts.jpg"
 			}
 		},
 		{
@@ -1675,7 +1676,7 @@
 			"type": "Sorcery",
 			"collector_number": "83",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/83_Shady Deal.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/83_Shady Deal.jpg"
 			}
 		},
 		{
@@ -1684,15 +1685,15 @@
 			"mana_cost": "{U}",
 			"type": "Instant",
 			"collector_number": "54",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/54_Shomi's Journey_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/54_Shomi's Journey_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/54_Shomi's Journey_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/54_Shomi's Journey_front.jpg"
 			}
 		},
 		{
@@ -1702,7 +1703,7 @@
 			"type": "Creature — Nephilim Cleric ",
 			"collector_number": "26",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/26_Soli Chronicler.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/26_Soli Chronicler.jpg"
 			}
 		},
 		{
@@ -1712,7 +1713,7 @@
 			"type": "Creature — Djinn Wizard ",
 			"collector_number": "56",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/56_Stoic Djinn.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/56_Stoic Djinn.jpg"
 			}
 		},
 		{
@@ -1722,7 +1723,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "295",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/295_Soli Sanctuary.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/295_Soli Sanctuary.jpg"
 			}
 		},
 		{
@@ -1732,7 +1733,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "296",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/296_Soli Temple.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/296_Soli Temple.jpg"
 			}
 		},
 		{
@@ -1742,7 +1743,7 @@
 			"type": "Creature — Angel Cleric ",
 			"collector_number": "144",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/144_Atieh's Disciple.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/144_Atieh's Disciple.jpg"
 			}
 		},
 		{
@@ -1752,7 +1753,7 @@
 			"type": "Creature — Angel Soldier ",
 			"collector_number": "28",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/28_Soli's Blessed.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/28_Soli's Blessed.jpg"
 			}
 		},
 		{
@@ -1762,7 +1763,7 @@
 			"type": "Sorcery",
 			"collector_number": "55",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/55_Sound Advice.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/55_Sound Advice.jpg"
 			}
 		},
 		{
@@ -1772,7 +1773,7 @@
 			"type": "Instant",
 			"collector_number": "57",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/57_Swindle the Rapacious.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/57_Swindle the Rapacious.jpg"
 			}
 		},
 		{
@@ -1782,7 +1783,7 @@
 			"type": "Creature — Nephilim Cleric ",
 			"collector_number": "93",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/93_Efreetspeaker.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/93_Efreetspeaker.jpg"
 			}
 		},
 		{
@@ -1792,7 +1793,7 @@
 			"type": "Creature — Human Cleric Soldier ",
 			"collector_number": "52",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/52_Rahstahde Truthseeker.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/52_Rahstahde Truthseeker.jpg"
 			}
 		},
 		{
@@ -1802,7 +1803,7 @@
 			"type": "Land",
 			"collector_number": "297",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/297_Terramorphic Expanse.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/297_Terramorphic Expanse.jpg"
 			}
 		},
 		{
@@ -1812,7 +1813,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "111",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/111_Threatening Khopesh.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/111_Threatening Khopesh.jpg"
 			}
 		},
 		{
@@ -1822,7 +1823,7 @@
 			"type": "Artifact",
 			"collector_number": "112",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/112_Treasure Hoard.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/112_Treasure Hoard.jpg"
 			}
 		},
 		{
@@ -1832,7 +1833,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "113",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/113_Truthseeker's Blade.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/113_Truthseeker's Blade.jpg"
 			}
 		},
 		{
@@ -1842,7 +1843,7 @@
 			"type": "Creature — Human Advisor Cleric ",
 			"collector_number": "189",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/189_Vizier of Noble Truths.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/189_Vizier of Noble Truths.jpg"
 			}
 		},
 		{
@@ -1852,7 +1853,7 @@
 			"type": "Sorcery",
 			"collector_number": "86",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/86_War's Trauma.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/86_War's Trauma.jpg"
 			}
 		},
 		{
@@ -1862,7 +1863,7 @@
 			"type": "Creature — Sphinx Demon ",
 			"collector_number": "41",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/41_Fahrib Deceiver.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/41_Fahrib Deceiver.jpg"
 			}
 		},
 		{
@@ -1872,7 +1873,7 @@
 			"type": "Sorcery",
 			"collector_number": "114",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/114_Worth of Ruin.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/114_Worth of Ruin.jpg"
 			}
 		},
 		{
@@ -1882,7 +1883,7 @@
 			"type": "Creature — Zombie Knight ",
 			"collector_number": "194",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/194_Piruz's Knight.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/194_Piruz's Knight.jpg"
 			}
 		},
 		{
@@ -1892,7 +1893,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "92",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/92_Cyrukan Battleaxe.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/92_Cyrukan Battleaxe.jpg"
 			}
 		},
 		{
@@ -1902,7 +1903,7 @@
 			"type": "Creature — Nephilim Soldier ",
 			"collector_number": "198",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/198_Cyrukan's Devoted.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/198_Cyrukan's Devoted.jpg"
 			}
 		},
 		{
@@ -1912,7 +1913,7 @@
 			"type": "Sorcery",
 			"collector_number": "212",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/212_Aminatou's Touch.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/212_Aminatou's Touch.jpg"
 			}
 		},
 		{
@@ -1922,7 +1923,7 @@
 			"type": "Enchantment",
 			"collector_number": "31",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/31_Appeal to the Div.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/31_Appeal to the Div.jpg"
 			}
 		},
 		{
@@ -1932,7 +1933,7 @@
 			"type": "Creature — Angel Cleric Soldier ",
 			"collector_number": "215",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/215_Ascendant Angel.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/215_Ascendant Angel.jpg"
 			}
 		},
 		{
@@ -1942,7 +1943,7 @@
 			"type": "Creature — Demon Cleric ",
 			"collector_number": "216",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/216_Ascendant Demon.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/216_Ascendant Demon.jpg"
 			}
 		},
 		{
@@ -1952,7 +1953,7 @@
 			"type": "Creature — Azra Soldier ",
 			"collector_number": "172",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/172_Kahroba General.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/172_Kahroba General.jpg"
 			}
 		},
 		{
@@ -1962,7 +1963,7 @@
 			"type": "Instant",
 			"collector_number": "177",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/177_Guidance from Above.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/177_Guidance from Above.jpg"
 			}
 		},
 		{
@@ -1972,7 +1973,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/9_Cyrukan's Crossblades.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/9_Cyrukan's Crossblades.jpg"
 			}
 		},
 		{
@@ -1981,15 +1982,15 @@
 			"mana_cost": "{G}",
 			"type": "Instant",
 			"collector_number": "118",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/118_Blessing of Golna_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/118_Blessing of Golna_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/118_Blessing of Golna_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/118_Blessing of Golna_front.jpg"
 			}
 		},
 		{
@@ -1999,7 +2000,7 @@
 			"type": "Creature — Human Scout ",
 			"collector_number": "119",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/119_Border Seeker.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/119_Border Seeker.jpg"
 			}
 		},
 		{
@@ -2009,7 +2010,7 @@
 			"type": "Enchantment",
 			"collector_number": "89",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/89_Bustling Bazaar.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/89_Bustling Bazaar.jpg"
 			}
 		},
 		{
@@ -2019,7 +2020,7 @@
 			"type": "Creature — Azra Rogue Wizard ",
 			"collector_number": "261",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/261_Unruly Magus.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/261_Unruly Magus.jpg"
 			}
 		},
 		{
@@ -2029,7 +2030,7 @@
 			"type": "Creature — Azra Wizard ",
 			"collector_number": "222",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/222_Champion of Foibles.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/222_Champion of Foibles.jpg"
 			}
 		},
 		{
@@ -2039,7 +2040,7 @@
 			"type": "Creature — Nephilim Warrior ",
 			"collector_number": "223",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/223_Champion of Ideals.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/223_Champion of Ideals.jpg"
 			}
 		},
 		{
@@ -2049,7 +2050,7 @@
 			"type": "Instant",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/7_Change of Station.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/7_Change of Station.jpg"
 			}
 		},
 		{
@@ -2059,7 +2060,7 @@
 			"type": "Instant",
 			"collector_number": "90",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/90_Collapsing Ramparts.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/90_Collapsing Ramparts.jpg"
 			}
 		},
 		{
@@ -2069,7 +2070,7 @@
 			"type": "Creature — Nephilim Warrior ",
 			"collector_number": "203",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/203_Commander of the Worthy.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/203_Commander of the Worthy.jpg"
 			}
 		},
 		{
@@ -2079,7 +2080,7 @@
 			"type": "Creature — Hag Shaman ",
 			"collector_number": "153",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/153_Surreal Bakhtak.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/153_Surreal Bakhtak.jpg"
 			}
 		},
 		{
@@ -2089,7 +2090,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "37",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/37_Confine to Prophecies.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/37_Confine to Prophecies.jpg"
 			}
 		},
 		{
@@ -2099,7 +2100,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "267",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/267_Dagger of the Lost Ages.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/267_Dagger of the Lost Ages.jpg"
 			}
 		},
 		{
@@ -2109,7 +2110,7 @@
 			"type": "Instant",
 			"collector_number": "146",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/146_Desert's Veil.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/146_Desert's Veil.jpg"
 			}
 		},
 		{
@@ -2119,7 +2120,7 @@
 			"type": "Enchantment",
 			"collector_number": "85",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/85_War of Resources.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/85_War of Resources.jpg"
 			}
 		},
 		{
@@ -2129,7 +2130,7 @@
 			"type": "Sorcery",
 			"collector_number": "125",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/125_Devastating Charge.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/125_Devastating Charge.jpg"
 			}
 		},
 		{
@@ -2139,7 +2140,7 @@
 			"type": "Sorcery",
 			"collector_number": "162",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/162_Disastrous Sirocco.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/162_Disastrous Sirocco.jpg"
 			}
 		},
 		{
@@ -2148,15 +2149,15 @@
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
 			"collector_number": "22",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/22_Sacred Heirloom_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/22_Sacred Heirloom_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/22_Sacred Heirloom_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/22_Sacred Heirloom_front.jpg"
 			}
 		},
 		{
@@ -2166,7 +2167,7 @@
 			"type": "Creature — Human Wizard ",
 			"collector_number": "163",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/163_Doomed Alchemist.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/163_Doomed Alchemist.jpg"
 			}
 		},
 		{
@@ -2176,7 +2177,7 @@
 			"type": "Creature — Human Knight Scout ",
 			"collector_number": "147",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/147_Dunesea Cartographer.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/147_Dunesea Cartographer.jpg"
 			}
 		},
 		{
@@ -2186,7 +2187,7 @@
 			"type": "Creature — Nephilim Shaman ",
 			"collector_number": "133",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/133_Martoob Beastkeeper.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/133_Martoob Beastkeeper.jpg"
 			}
 		},
 		{
@@ -2196,7 +2197,7 @@
 			"type": "Creature — Nephilim Warrior ",
 			"collector_number": "135",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/135_Martoob Guardian.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/135_Martoob Guardian.jpg"
 			}
 		},
 		{
@@ -2206,7 +2207,7 @@
 			"type": "Sorcery",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/11_Enlist.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/11_Enlist.jpg"
 			}
 		},
 		{
@@ -2216,7 +2217,7 @@
 			"type": "Creature — Human Artificer ",
 			"collector_number": "40",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/40_Exquisite Artisan.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/40_Exquisite Artisan.jpg"
 			}
 		},
 		{
@@ -2226,7 +2227,7 @@
 			"type": "Creature — Azra Rogue ",
 			"collector_number": "152",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/152_Fahrib's Tongue.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/152_Fahrib's Tongue.jpg"
 			}
 		},
 		{
@@ -2236,7 +2237,7 @@
 			"type": "Creature — Djinn ",
 			"collector_number": "94",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/94_Fiery Efreet.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/94_Fiery Efreet.jpg"
 			}
 		},
 		{
@@ -2246,7 +2247,7 @@
 			"type": "Creature — Nephilim Wizard ",
 			"collector_number": "184",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/184_Fiery Truthseeker.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/184_Fiery Truthseeker.jpg"
 			}
 		},
 		{
@@ -2256,7 +2257,7 @@
 			"type": "Creature — Bird ",
 			"collector_number": "34",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/34_Bird of Many Feathers.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/34_Bird of Many Feathers.jpg"
 			}
 		},
 		{
@@ -2266,7 +2267,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "230",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/230_Form of the Manticore.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/230_Form of the Manticore.jpg"
 			}
 		},
 		{
@@ -2275,15 +2276,15 @@
 			"mana_cost": "{1}{G}{U}",
 			"type": "Instant",
 			"collector_number": "205",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/205_Gathering of Minds_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/205_Gathering of Minds_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/205_Gathering of Minds_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/205_Gathering of Minds_front.jpg"
 			}
 		},
 		{
@@ -2293,7 +2294,7 @@
 			"type": "Artifact Creature — Construct ",
 			"collector_number": "270",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/270_Gilded Guardian.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/270_Gilded Guardian.jpg"
 			}
 		},
 		{
@@ -2303,7 +2304,7 @@
 			"type": "Creature — Djinn Scout ",
 			"collector_number": "206",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/206_Giver of Martoob.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/206_Giver of Martoob.jpg"
 			}
 		},
 		{
@@ -2313,7 +2314,7 @@
 			"type": "Sorcery",
 			"collector_number": "232",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/232_Grand Stand at Danaj.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/232_Grand Stand at Danaj.jpg"
 			}
 		},
 		{
@@ -2323,7 +2324,7 @@
 			"type": "Enchantment",
 			"collector_number": "61",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/61_Andazir's Judgment.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/61_Andazir's Judgment.jpg"
 			}
 		},
 		{
@@ -2333,7 +2334,7 @@
 			"type": "Artifact Creature — Soldier Army ",
 			"collector_number": "272",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/272_Heartless Army.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/272_Heartless Army.jpg"
 			}
 		},
 		{
@@ -2342,15 +2343,15 @@
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
 			"collector_number": "97",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/97_Hidden Cache_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/97_Hidden Cache_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/97_Hidden Cache_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/97_Hidden Cache_front.jpg"
 			}
 		},
 		{
@@ -2360,7 +2361,7 @@
 			"type": "Creature — Azra Cleric ",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/16_High Priest of Kahroba.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/16_High Priest of Kahroba.jpg"
 			}
 		},
 		{
@@ -2370,7 +2371,7 @@
 			"type": "Enchantment",
 			"collector_number": "170",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/170_Hold Captive.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/170_Hold Captive.jpg"
 			}
 		},
 		{
@@ -2380,7 +2381,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "68",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/68_Inner Evil.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/68_Inner Evil.jpg"
 			}
 		},
 		{
@@ -2390,7 +2391,7 @@
 			"type": "Instant",
 			"collector_number": "185",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/185_Joyous Connection.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/185_Joyous Connection.jpg"
 			}
 		},
 		{
@@ -2400,7 +2401,7 @@
 			"type": "Creature — Angel Cleric ",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/4_Atieh's Elite.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/4_Atieh's Elite.jpg"
 			}
 		},
 		{
@@ -2410,7 +2411,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "274",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/274_Knife of Sanctity.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/274_Knife of Sanctity.jpg"
 			}
 		},
 		{
@@ -2420,7 +2421,7 @@
 			"type": "Instant",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/20_Lax Gambit.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/20_Lax Gambit.jpg"
 			}
 		},
 		{
@@ -2430,7 +2431,7 @@
 			"type": "Creature — Horror ",
 			"collector_number": "132",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/132_Leech-Encrusted Div.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/132_Leech-Encrusted Div.jpg"
 			}
 		},
 		{
@@ -2440,7 +2441,7 @@
 			"type": "Enchantment",
 			"collector_number": "193",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/193_Influence of the Div.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/193_Influence of the Div.jpg"
 			}
 		},
 		{
@@ -2450,7 +2451,7 @@
 			"type": "Creature — Human Scout Soldier ",
 			"collector_number": "179",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/179_Mahara Vanguard.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/179_Mahara Vanguard.jpg"
 			}
 		},
 		{
@@ -2460,7 +2461,7 @@
 			"type": "Creature — Azra Warrior ",
 			"collector_number": "59",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/59_Aminatou's Adherent.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/59_Aminatou's Adherent.jpg"
 			}
 		},
 		{
@@ -2470,7 +2471,7 @@
 			"type": "Instant",
 			"collector_number": "221",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/221_Call of the Huma.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/221_Call of the Huma.jpg"
 			}
 		},
 		{
@@ -2480,7 +2481,7 @@
 			"type": "Instant",
 			"collector_number": "46",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/46_Mindscape Denial.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/46_Mindscape Denial.jpg"
 			}
 		},
 		{
@@ -2490,7 +2491,7 @@
 			"type": "Instant",
 			"collector_number": "173",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/173_Narrow Diversion.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/173_Narrow Diversion.jpg"
 			}
 		},
 		{
@@ -2500,7 +2501,7 @@
 			"type": "Creature — Nephilim Cleric ",
 			"collector_number": "143",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/143_Atieh's Destiny.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/143_Atieh's Destiny.jpg"
 			}
 		},
 		{
@@ -2510,7 +2511,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "288",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/288_Neutral Citystate.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/288_Neutral Citystate.jpg"
 			}
 		},
 		{
@@ -2520,7 +2521,7 @@
 			"type": "Sorcery",
 			"collector_number": "72",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/72_Nightly Raid.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/72_Nightly Raid.jpg"
 			}
 		},
 		{
@@ -2530,7 +2531,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "187",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/187_Shahmaran's Captivation.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/187_Shahmaran's Captivation.jpg"
 			}
 		},
 		{
@@ -2540,7 +2541,7 @@
 			"type": "Sorcery",
 			"collector_number": "136",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/136_Overwhelming Defeat.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/136_Overwhelming Defeat.jpg"
 			}
 		},
 		{
@@ -2550,7 +2551,7 @@
 			"type": "Creature — Nephilim Soldier ",
 			"collector_number": "180",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/180_Paladin of Order.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/180_Paladin of Order.jpg"
 			}
 		},
 		{
@@ -2559,15 +2560,15 @@
 			"mana_cost": "{U}",
 			"type": "Instant",
 			"collector_number": "50",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/50_Peek into the Future_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/50_Peek into the Future_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/50_Peek into the Future_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/50_Peek into the Future_front.jpg"
 			}
 		},
 		{
@@ -2577,7 +2578,7 @@
 			"type": "Creature — Angel Warrior ",
 			"collector_number": "200",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/200_Pyreheart Angel.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/200_Pyreheart Angel.jpg"
 			}
 		},
 		{
@@ -2587,7 +2588,7 @@
 			"type": "Creature — Azra Archer ",
 			"collector_number": "102",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/102_Paygan Archer.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/102_Paygan Archer.jpg"
 			}
 		},
 		{
@@ -2597,7 +2598,7 @@
 			"type": "Creature — Azra Shaman ",
 			"collector_number": "195",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/195_Tamaak's Mouth.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/195_Tamaak's Mouth.jpg"
 			}
 		},
 		{
@@ -2607,7 +2608,7 @@
 			"type": "Enchantment",
 			"collector_number": "159",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/159_Rewards of Ruthlessness.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/159_Rewards of Ruthlessness.jpg"
 			}
 		},
 		{
@@ -2617,7 +2618,7 @@
 			"type": "Instant",
 			"collector_number": "249",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/249_Righteous Combat.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/249_Righteous Combat.jpg"
 			}
 		},
 		{
@@ -2626,15 +2627,15 @@
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
 			"collector_number": "80",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/80_Rite of Ends_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/80_Rite of Ends_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/80_Rite of Ends_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/80_Rite of Ends_front.jpg"
 			}
 		},
 		{
@@ -2643,15 +2644,15 @@
 			"mana_cost": "{4}{R}{G}",
 			"type": "Artifact Creature — Construct ",
 			"collector_number": "165",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/165_Roaming City_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/165_Roaming City_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/165_Roaming City_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/165_Roaming City_front.jpg"
 			}
 		},
 		{
@@ -2661,7 +2662,7 @@
 			"type": "Artifact Creature — Bird Construct ",
 			"collector_number": "266",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/266_Constructed Jay.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/266_Constructed Jay.jpg"
 			}
 		},
 		{
@@ -2671,7 +2672,7 @@
 			"type": "Creature — Spirit ",
 			"collector_number": "161",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/161_Shala's Phantasm.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/161_Shala's Phantasm.jpg"
 			}
 		},
 		{
@@ -2681,7 +2682,7 @@
 			"type": "Land",
 			"collector_number": "292",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/292_Shifting City.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/292_Shifting City.jpg"
 			}
 		},
 		{
@@ -2691,7 +2692,7 @@
 			"type": "Creature — Azra Advisor ",
 			"collector_number": "157",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/157_Fang of Andazir.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/157_Fang of Andazir.jpg"
 			}
 		},
 		{
@@ -2701,7 +2702,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "201",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/201_Spear of Truth.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/201_Spear of Truth.jpg"
 			}
 		},
 		{
@@ -2711,7 +2712,7 @@
 			"type": "Creature — Manticore ",
 			"collector_number": "110",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/110_Taunting Manticore.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/110_Taunting Manticore.jpg"
 			}
 		},
 		{
@@ -2721,7 +2722,7 @@
 			"type": "Creature — Human Rogue ",
 			"collector_number": "58",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/58_Tomb-Diving Initiate.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/58_Tomb-Diving Initiate.jpg"
 			}
 		},
 		{
@@ -2731,7 +2732,7 @@
 			"type": "Creature — Zombie Advisor ",
 			"collector_number": "154",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/154_Vizier of Lies.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/154_Vizier of Lies.jpg"
 			}
 		},
 		{
@@ -2741,7 +2742,7 @@
 			"type": "Creature — Zombie Knight ",
 			"collector_number": "64",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/64_Avaricious Ghul.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/64_Avaricious Ghul.jpg"
 			}
 		},
 		{
@@ -2751,7 +2752,7 @@
 			"type": "Basic Land — Plains ",
 			"collector_number": "298",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/298_Plains.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/298_Plains.jpg"
 			}
 		},
 		{
@@ -2761,7 +2762,7 @@
 			"type": "Basic Land — Island ",
 			"collector_number": "299",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/299_Island.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/299_Island.jpg"
 			}
 		},
 		{
@@ -2771,7 +2772,7 @@
 			"type": "Basic Land — Swamp ",
 			"collector_number": "300",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/300_Swamp.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/300_Swamp.jpg"
 			}
 		},
 		{
@@ -2781,7 +2782,7 @@
 			"type": "Basic Land — Mountain ",
 			"collector_number": "301",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/301_Mountain.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/301_Mountain.jpg"
 			}
 		},
 		{
@@ -2791,7 +2792,7 @@
 			"type": "Basic Land — Forest ",
 			"collector_number": "302",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/302_Forest.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/302_Forest.jpg"
 			}
 		},
 		{
@@ -2801,7 +2802,7 @@
 			"type": "Token Creature — Soldier Army ",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/9_Soldier Army.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/9_Soldier Army.jpg"
 			}
 		},
 		{
@@ -2811,7 +2812,7 @@
 			"type": "Token Creature — Snake ",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/18_black Snake.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/18_black Snake.jpg"
 			}
 		},
 		{
@@ -2821,7 +2822,7 @@
 			"type": "Token Creature — Dog ",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/19_Dog.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/19_Dog.jpg"
 			}
 		},
 		{
@@ -2831,7 +2832,7 @@
 			"type": "Token Creature — Horror ",
 			"collector_number": "25",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/25_Horror.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/25_Horror.jpg"
 			}
 		},
 		{
@@ -2841,7 +2842,7 @@
 			"type": "Token Creature — Snake ",
 			"collector_number": "23",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/23_Snake.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/23_Snake.jpg"
 			}
 		},
 		{
@@ -2851,7 +2852,7 @@
 			"type": "Token Legendary Creature — Cat ",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/7_Shir.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/7_Shir.jpg"
 			}
 		},
 		{
@@ -2861,7 +2862,7 @@
 			"type": "Token Creature — Advisor ",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/12_Advisor.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/12_Advisor.jpg"
 			}
 		},
 		{
@@ -2871,7 +2872,7 @@
 			"type": "Token Creature — Citizen ",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/1_Citizen.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/1_Citizen.jpg"
 			}
 		},
 		{
@@ -2881,7 +2882,7 @@
 			"type": "Token Creature — Bird ",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/4_Bird.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/4_Bird.jpg"
 			}
 		},
 		{
@@ -2891,7 +2892,7 @@
 			"type": "Token Creature — Demon ",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/16_Demon.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/16_Demon.jpg"
 			}
 		},
 		{
@@ -2901,7 +2902,7 @@
 			"type": "Token Creature — Rogue ",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/14_Rogue.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/14_Rogue.jpg"
 			}
 		},
 		{
@@ -2911,7 +2912,7 @@
 			"type": "Token Creature — Soldier ",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/11_Soldier 3.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/11_Soldier 3.jpg"
 			}
 		},
 		{
@@ -2921,7 +2922,7 @@
 			"type": "Token Creature — Insect ",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/17_Insect.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/17_Insect.jpg"
 			}
 		},
 		{
@@ -2931,7 +2932,7 @@
 			"type": "Token Artifact",
 			"collector_number": "26",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/26_Treasure.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/26_Treasure.jpg"
 			}
 		},
 		{
@@ -2941,7 +2942,7 @@
 			"type": "Token Artifact — Equipment Weapon ",
 			"collector_number": "28",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/28_Weapon.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/28_Weapon.jpg"
 			}
 		},
 		{
@@ -2951,7 +2952,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "287",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/287_Mercantile Satrapy.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/287_Mercantile Satrapy.jpg"
 			}
 		},
 		{
@@ -2961,7 +2962,7 @@
 			"type": "Token Creature — Cat ",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/5_Cat.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/5_Cat.jpg"
 			}
 		},
 		{
@@ -2971,7 +2972,7 @@
 			"type": "Token Creature — Sand ",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/21_red Sand.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/21_red Sand.jpg"
 			}
 		},
 		{
@@ -2981,7 +2982,7 @@
 			"type": "Token Creature — Sand ",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/15_blue Sand.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/15_blue Sand.jpg"
 			}
 		},
 		{
@@ -2991,7 +2992,7 @@
 			"type": "Token Creature — Sand ",
 			"collector_number": "22",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/22_green Sand.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/22_green Sand.jpg"
 			}
 		},
 		{
@@ -3001,7 +3002,7 @@
 			"type": "Token Creature — Sand ",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/6_white Sand.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/6_white Sand.jpg"
 			}
 		},
 		{
@@ -3011,7 +3012,7 @@
 			"type": "Token Creature — Illusion ",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/2_Illusion.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/2_Illusion.jpg"
 			}
 		},
 		{
@@ -3021,7 +3022,7 @@
 			"type": "Creature — Phoenix ",
 			"collector_number": "96",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/96_Grandstanding Huma.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/96_Grandstanding Huma.jpg"
 			}
 		},
 		{
@@ -3031,7 +3032,7 @@
 			"type": "Sorcery",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/21_Makeshift Quarters.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/21_Makeshift Quarters.jpg"
 			}
 		},
 		{
@@ -3040,15 +3041,15 @@
 			"mana_cost": "{4}{B}{B}",
 			"type": "Legendary Creature — Azra Noble ",
 			"collector_number": "75",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/75_Piruz, the Fourth Shah_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/75_Piruz, the Fourth Shah_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/75_Piruz, the Fourth Shah_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/75_Piruz, the Fourth Shah_front.jpg"
 			}
 		},
 		{
@@ -3058,7 +3059,7 @@
 			"type": "Sorcery",
 			"collector_number": "25",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/25_Short Rest.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/25_Short Rest.jpg"
 			}
 		},
 		{
@@ -3068,7 +3069,7 @@
 			"type": "Sorcery",
 			"collector_number": "39",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/39_Evasive Maneuvers.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/39_Evasive Maneuvers.jpg"
 			}
 		},
 		{
@@ -3078,7 +3079,7 @@
 			"type": "Creature — Human Assassin ",
 			"collector_number": "77",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/77_Quick-Witted Slayer.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/77_Quick-Witted Slayer.jpg"
 			}
 		},
 		{
@@ -3088,7 +3089,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "109",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/109_Synergistic Curiosity.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/109_Synergistic Curiosity.jpg"
 			}
 		},
 		{
@@ -3098,7 +3099,7 @@
 			"type": "Creature — Nephilim Knight ",
 			"collector_number": "122",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/122_Caravan Guard.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/122_Caravan Guard.jpg"
 			}
 		},
 		{
@@ -3108,7 +3109,7 @@
 			"type": "Token Creature — Soldier ",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/8_Soldier.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/8_Soldier.jpg"
 			}
 		},
 		{
@@ -3118,7 +3119,7 @@
 			"type": "Artifact Creature — Ox ",
 			"collector_number": "273",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/273_Ironhide Hadhayosh.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/273_Ironhide Hadhayosh.jpg"
 			}
 		},
 		{
@@ -3128,7 +3129,7 @@
 			"type": "Sorcery",
 			"collector_number": "250",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/250_Sahra's Command.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/250_Sahra's Command.jpg"
 			}
 		},
 		{
@@ -3138,7 +3139,7 @@
 			"type": "Sorcery",
 			"collector_number": "238",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/238_Kahroba's Command.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/238_Kahroba's Command.jpg"
 			}
 		},
 		{
@@ -3148,7 +3149,7 @@
 			"type": "Sorcery",
 			"collector_number": "241",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/241_Martoob's Command.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/241_Martoob's Command.jpg"
 			}
 		},
 		{
@@ -3158,7 +3159,7 @@
 			"type": "Sorcery",
 			"collector_number": "240",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/240_Mahara's Command.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/240_Mahara's Command.jpg"
 			}
 		},
 		{
@@ -3168,7 +3169,7 @@
 			"type": "Sorcery",
 			"collector_number": "246",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/246_Rahstahde's Command.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/246_Rahstahde's Command.jpg"
 			}
 		},
 		{
@@ -3178,7 +3179,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "294",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/294_Soli Citadel.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/294_Soli Citadel.jpg"
 			}
 		},
 		{
@@ -3188,7 +3189,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "289",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/289_Nizev Citadel.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/289_Nizev Citadel.jpg"
 			}
 		},
 		{
@@ -3198,7 +3199,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "283",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/283_Kaneh Citadel.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/283_Kaneh Citadel.jpg"
 			}
 		},
 		{
@@ -3208,7 +3209,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "276",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/276_Avaz Citadel.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/276_Avaz Citadel.jpg"
 			}
 		},
 		{
@@ -3218,7 +3219,7 @@
 			"type": "Land — Satrapy ",
 			"collector_number": "279",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/279_Danaj Citadel.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/279_Danaj Citadel.jpg"
 			}
 		},
 		{
@@ -3228,7 +3229,7 @@
 			"type": "Legendary Creature — Angel Demon Advisor ",
 			"collector_number": "252",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/252_Suhra and Fori, Grand Viziers.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/252_Suhra and Fori, Grand Viziers.jpg"
 			}
 		},
 		{
@@ -3238,7 +3239,7 @@
 			"type": "Legendary Creature — Snake ",
 			"collector_number": "239",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/239_Maaru, Tomb Guardian.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/239_Maaru, Tomb Guardian.jpg"
 			}
 		},
 		{
@@ -3248,7 +3249,7 @@
 			"type": "Legendary Creature — Manticore ",
 			"collector_number": "214",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/214_Artiaburz, Granter of Boons.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/214_Artiaburz, Granter of Boons.jpg"
 			}
 		},
 		{
@@ -3258,7 +3259,7 @@
 			"type": "Legendary Creature — Demon Soldier ",
 			"collector_number": "244",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/244_Omid, the Undefeated.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/244_Omid, the Undefeated.jpg"
 			}
 		},
 		{
@@ -3268,7 +3269,7 @@
 			"type": "Creature — Angel Shaman ",
 			"collector_number": "213",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/213_Angel of Infinite Faces.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/213_Angel of Infinite Faces.jpg"
 			}
 		},
 		{
@@ -3278,7 +3279,7 @@
 			"type": "Sorcery",
 			"collector_number": "251",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/251_Seize Dominance.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/251_Seize Dominance.jpg"
 			}
 		},
 		{
@@ -3288,7 +3289,7 @@
 			"type": "Enchantment",
 			"collector_number": "220",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/220_Call of Piruz.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/220_Call of Piruz.jpg"
 			}
 		},
 		{
@@ -3298,7 +3299,7 @@
 			"type": "Creature — Demon Warrior ",
 			"collector_number": "219",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/219_Bulwark of Tradition.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/219_Bulwark of Tradition.jpg"
 			}
 		},
 		{
@@ -3308,7 +3309,7 @@
 			"type": "Creature — Horror ",
 			"collector_number": "227",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/227_Div of the Endless Thought.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/227_Div of the Endless Thought.jpg"
 			}
 		},
 		{
@@ -3318,7 +3319,7 @@
 			"type": "Legendary Creature — Angel Cleric ",
 			"collector_number": "243",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/243_Nakia, Infinity Seer.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/243_Nakia, Infinity Seer.jpg"
 			}
 		},
 		{
@@ -3328,7 +3329,7 @@
 			"type": "Token Creature — Manticore ",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/20_Manticore.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/20_Manticore.jpg"
 			}
 		},
 		{
@@ -3338,7 +3339,7 @@
 			"type": "Token Creature — Bird ",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/13_blue Bird.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/13_blue Bird.jpg"
 			}
 		},
 		{
@@ -3348,7 +3349,7 @@
 			"type": "Token Creature — Angel ",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/3_Angel.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/3_Angel.jpg"
 			}
 		},
 		{
@@ -3358,7 +3359,7 @@
 			"type": "Token Creature — Soldier ",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/10_Soldier 2.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/10_Soldier 2.jpg"
 			}
 		},
 		{
@@ -3368,7 +3369,7 @@
 			"type": "Token Artifact",
 			"collector_number": "27",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/27_Treasure 2.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/27_Treasure 2.jpg"
 			}
 		},
 		{
@@ -3378,7 +3379,7 @@
 			"type": "Creature — Angel Warrior ",
 			"collector_number": "23",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/23_Satrapy General.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/23_Satrapy General.jpg"
 			}
 		},
 		{
@@ -3388,7 +3389,7 @@
 			"type": "Creature — Djinn Wizard ",
 			"collector_number": "53",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/53_Satrapy Merchant.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/53_Satrapy Merchant.jpg"
 			}
 		},
 		{
@@ -3398,7 +3399,7 @@
 			"type": "Creature — Demon Wizard ",
 			"collector_number": "81",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/81_Satrapy Overseer.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/81_Satrapy Overseer.jpg"
 			}
 		},
 		{
@@ -3408,7 +3409,7 @@
 			"type": "Creature — Manticore ",
 			"collector_number": "106",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/106_Satrapy Protector.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/106_Satrapy Protector.jpg"
 			}
 		},
 		{
@@ -3418,7 +3419,7 @@
 			"type": "Creature — Human Advisor ",
 			"collector_number": "139",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/139_Satrapy Courier.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/139_Satrapy Courier.jpg"
 			}
 		},
 		{
@@ -3427,15 +3428,15 @@
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "282",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/282_Hidden Garden Entrance_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/ALK-files/img/282_Hidden Garden Entrance_back.png"
+					"en": "https://DNAZangy.github.io/sets/ALK-files/img/282_Hidden Garden Entrance_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/282_Hidden Garden Entrance_front.jpg"
 			}
 		},
 		{
@@ -3445,7 +3446,7 @@
 			"type": "Legendary Planeswalker — Aminatou ",
 			"collector_number": "211",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/211_Aminatou, Justicar.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/211_Aminatou, Justicar.jpg"
 			}
 		},
 		{
@@ -3455,7 +3456,7 @@
 			"type": "Legendary Planeswalker — Marilye ",
 			"collector_number": "44",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/44_Marilye, the Thieving Blade.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/44_Marilye, the Thieving Blade.jpg"
 			}
 		},
 		{
@@ -3465,7 +3466,7 @@
 			"type": "Legendary Planeswalker — Ameret ",
 			"collector_number": "196",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/196_Ameret, Pride of Cyrukan.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/196_Ameret, Pride of Cyrukan.jpg"
 			}
 		},
 		{
@@ -3475,7 +3476,7 @@
 			"type": "Legendary Planeswalker — Shala ",
 			"collector_number": "160",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/160_Shala Na, Planar Outcast.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/160_Shala Na, Planar Outcast.jpg"
 			}
 		},
 		{
@@ -3485,7 +3486,7 @@
 			"type": "Emblem — Shala ",
 			"collector_number": "29",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/29_Emblem.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/29_Emblem.jpg"
 			}
 		},
 		{
@@ -3495,309 +3496,307 @@
 			"type": "Token Creature — Cleric ",
 			"collector_number": "24",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ALK-files/img/24_Cleric.png"
+				"en": "https://DNAZangy.github.io/sets/ALK-files/img/24_Cleric.jpg"
 			}
-		},
-		]
-	[RareSlot(1)]
-	2 Decanter of Endless Rivers
-		2 Sword of Fanaticism
-		2 Shomi's Savior
-		2 Chosen of Aminatou
-		2 Supreme Alchemist
-		2 Guardian of the Devout
-		2 Cyrukan's Messenger
-		2 Nizev Enforcer
-		2 Tamaak's Devourer
-		2 Deprived Div
-		2 Dunesea Captain
-		2 Zareen's Pariah
-		2 Zenith of Greed
-		2 Imposing Databdara
-		2 Div of Bonded Souls
-		2 Travelling Bazaar
-		2 Illusion of the Div
-		2 Recreator of Myths
-		2 Ghul of Forgotten Pasts
-		2 Shared Honor
-		2 Boon of the Pacts
-		2 Triplicate
-		2 Endless Infantry
-		2 Lasting Legacy
-		2 Bane of Endless Snakes
-		2 Unsustainable Consumption
-		2 Martoob's Message
-		2 Cosmic Coalescing
-		2 Contemplate the Cosmos
-		2 Delve for Treasures
-		2 Fight for Succession
-		2 Cosmic Lineage
-		2 Peer into the Cosmos
-		2 Forced Germination
-		2 Assault of the Conscripted
-		2 Shrine to Those Gone
-		2 Marketplace Crossroads
-		2 The Blacksmith's Banner
-		2 Shapur, the Fifth Shah
-		2 The Grand Simurgh
-		2 Saeedi Kahroba, Daughter
-		2 Tyrus, Giver to All
-		2 Reha, Entropy's Call
-		2 Golna, the First Shah
-		2 Jahan, the Third Shah
-		2 Zareen, the Second Shah
-		2 Veeni, High Truthseeker
-		2 Thief of Mortals
-		2 Siaveed, Commander of Armies
-		2 Ghulish Unearthing
-		2 Venture into the Muktann
-		2 Return to the Beginning
-		2 Judgment of the Soul
-		2 Mercantile Satrapy
-		2 Grandstanding Huma
-		2 Piruz, the Fourth Shah
-		2 Sahra's Command
-		2 Kahroba's Command
-		2 Martoob's Command
-		2 Mahara's Command
-		2 Rahstahde's Command
-		2 Soli Citadel
-		2 Nizev Citadel
-		2 Kaneh Citadel
-		2 Avaz Citadel
-		2 Danaj Citadel
-		2 Suhra and Fori, Grand Viziers
-		2 Maaru, Tomb Guardian
-		2 Artiaburz, Granter of Boons
-		2 Omid, the Undefeated
-		2 Angel of Infinite Faces
-		2 Seize Dominance
-		2 Call of Piruz
-		2 Bulwark of Tradition
-		2 Div of the Endless Thought
-		2 Nakia, Infinity Seer
-		2 Satrapy General
-		2 Satrapy Merchant
-		2 Satrapy Overseer
-		2 Satrapy Protector
-		2 Satrapy Courier
-		2 Hidden Garden Entrance
-		1 Greater Masticore
-		1 Martoob, Blessing of Water
-		1 Mahara, the Universal
-		1 Rahstahde, Word of Truth
-		1 Kahroba, Forefather of All
-		1 Sahra, the Consuming
-		1 Muktann Protectors
-		1 Twice Blessed
-		1 All-Encompassing Akvan
-		1 Hadak, End of Progress
-		1 Tempting Shahmaran
-		1 The Tale of Kings
-		1 Aminatou, Justicar
-		1 Marilye, the Thieving Blade
-		1 Ameret, Pride of Cyrukan
-		1 Shala Na, Planar Outcast
-		[UncommonSlot(3)]
-	9 Piruz's Knight
-		9 Cyrukan Battleaxe
-		9 Cyrukan's Devoted
-		9 Aminatou's Touch
-		9 Appeal to the Div
-		9 Ascendant Angel
-		9 Ascendant Demon
-		9 Kahroba General
-		9 Guidance from Above
-		9 Cyrukan's Crossblades
-		9 Blessing of Golna
-		9 Border Seeker
-		9 Bustling Bazaar
-		9 Unruly Magus
-		9 Champion of Foibles
-		9 Champion of Ideals
-		9 Change of Station
-		9 Collapsing Ramparts
-		9 Commander of the Worthy
-		9 Surreal Bakhtak
-		9 Confine to Prophecies
-		9 Dagger of the Lost Ages
-		9 Desert's Veil
-		9 War of Resources
-		9 Devastating Charge
-		9 Disastrous Sirocco
-		9 Sacred Heirloom
-		9 Doomed Alchemist
-		9 Dunesea Cartographer
-		9 Martoob Beastkeeper
-		9 Martoob Guardian
-		9 Enlist
-		9 Exquisite Artisan
-		9 Fahrib's Tongue
-		9 Fiery Efreet
-		9 Fiery Truthseeker
-		9 Bird of Many Feathers
-		9 Form of the Manticore
-		9 Gathering of Minds
-		9 Gilded Guardian
-		9 Giver of Martoob
-		9 Grand Stand at Danaj
-		9 Andazir's Judgment
-		9 Heartless Army
-		9 Hidden Cache
-		9 High Priest of Kahroba
-		9 Hold Captive
-		9 Inner Evil
-		9 Joyous Connection
-		9 Atieh's Elite
-		9 Knife of Sanctity
-		9 Lax Gambit
-		9 Leech-Encrusted Div
-		9 Influence of the Div
-		9 Mahara Vanguard
-		9 Aminatou's Adherent
-		9 Call of the Huma
-		9 Mindscape Denial
-		9 Narrow Diversion
-		9 Atieh's Destiny
-		9 Neutral Citystate
-		9 Nightly Raid
-		9 Shahmaran's Captivation
-		9 Overwhelming Defeat
-		9 Paladin of Order
-		9 Peek into the Future
-		9 Pyreheart Angel
-		9 Paygan Archer
-		9 Tamaak's Mouth
-		9 Rewards of Ruthlessness
-		9 Righteous Combat
-		9 Rite of Ends
-		9 Roaming City
-		9 Constructed Jay
-		9 Shala's Phantasm
-		9 Shifting City
-		9 Fang of Andazir
-		9 Spear of Truth
-		9 Taunting Manticore
-		9 Tomb-Diving Initiate
-		9 Vizier of Lies
-		9 Avaricious Ghul
-		[CommonSlot(10)]
-	30 Shala's Immolation
-		30 Adventurer's Amulet
-		30 Adventurous Impulse
-		30 Affluent Knight
-		30 Agent of Andazir
-		30 Cyrukan Guardians
-		30 Rahstahde Persecutor
-		30 Aid from Martoob
-		30 Alchemist's Kit
-		30 Ameret's Favored
-		30 Ancestral Guidance
-		30 Condescend
-		30 Armored Elephant
-		30 Army's Suppliers
-		30 Assassin of Fahrib
-		30 Kahroba Champion
-		30 Kahroba Pureblood
-		30 Avaz Banner
-		30 Martoob Druid
-		30 Avaz Cataphract
-		30 Avaz Sanctuary
-		30 Avaz Temple
-		30 Blade of Mahara
-		30 Bringer of Armies
-		30 Cage the Dissenter
-		30 Call on Reinforcements
-		30 Fahrib Informant
-		30 Conquerer's Blade
-		30 Courageous Stand
-		30 Crash Through
-		30 Danaj Decider
-		30 Danaj Sanctuary
-		30 Benthic Shipcrasher
-		30 Danaj Temple
-		30 Soli Windreader
-		30 Dispute
-		30 Distant Lover
-		30 Div of the Ingited Soul
-		30 Divine Splendor
-		30 Djinncrafting
-		30 Empathic Bond
-		30 Martoob Watershaper
-		30 Fall from the Heavens
-		30 Fateshifter's Prophet
-		30 Artificial Wayfinder
-		30 Flying Throne
-		30 Furnished Ghul
-		30 Fury of Hadak
-		30 Grasp of the Sands
-		30 Hearty Karkadann
-		30 Impede
-		30 Imposing Manticore
-		30 Imprison the Liar
-		30 Atieh Stargazer
-		30 Kaneh Assassin
-		30 Kaneh Headdress
-		30 Kaneh Sanctuary
-		30 Kaneh Temple
-		30 Kaneh Troops
-		30 Tamaak Confidant
-		30 Burden of Thirst
-		30 Poison the Blade
-		30 Mahara Angel
-		30 Signet Ring
-		30 Avalanche Elemental
-		30 Sting of the Manticore
-		30 Marketplace Haggling
-		30 Murder
-		30 Andazir Assaulter
-		30 Andazir Elite
-		30 Nizev Arbiter
-		30 Nizev Sanctuary
-		30 Nizev Brawler
-		30 Nizev Temple
-		30 Ordeal of Kaneh
-		30 Owl of the Seven Stars
-		30 Falconry
-		30 Patronizing Taromad
-		30 Plan for Adventure
-		30 Sahra Poet-Priest
-		30 Sahra Wrecker
-		30 Sahra's Crusher
-		30 Rapid Transformation
-		30 Regulator of Tithes
-		30 Relentless Army
-		30 Shift the Sands
-		30 Romantic Rescue
-		30 Scouting Party
-		30 Selfish Conversion
-		30 Serene Thoughts
-		30 Shady Deal
-		30 Shomi's Journey
-		30 Soli Chronicler
-		30 Stoic Djinn
-		30 Soli Sanctuary
-		30 Soli Temple
-		30 Atieh's Disciple
-		30 Soli's Blessed
-		30 Sound Advice
-		30 Swindle the Rapacious
-		30 Efreetspeaker
-		30 Rahstahde Truthseeker
-		30 Terramorphic Expanse
-		30 Threatening Khopesh
-		30 Treasure Hoard
-		30 Truthseeker's Blade
-		30 Vizier of Noble Truths
-		30 War's Trauma
-		30 Fahrib Deceiver
-		30 Worth of Ruin
-		30 Makeshift Quarters
-		30 Short Rest
-		30 Evasive Maneuvers
-		30 Quick-Witted Slayer
-		30 Synergistic Curiosity
-		30 Caravan Guard
-		30 Ironhide Hadhayosh
-		30 Emblem
-		
+		}
+	]
+[RareSlot(1)]
+2 Decanter of Endless Rivers
+2 Sword of Fanaticism
+2 Shomi's Savior
+2 Chosen of Aminatou
+2 Supreme Alchemist
+2 Guardian of the Devout
+2 Cyrukan's Messenger
+2 Nizev Enforcer
+2 Tamaak's Devourer
+2 Deprived Div
+2 Dunesea Captain
+2 Zareen's Pariah
+2 Zenith of Greed
+2 Imposing Databdara
+2 Div of Bonded Souls
+2 Travelling Bazaar
+2 Illusion of the Div
+2 Recreator of Myths
+2 Ghul of Forgotten Pasts
+2 Shared Honor
+2 Boon of the Pacts
+2 Triplicate
+2 Endless Infantry
+2 Lasting Legacy
+2 Bane of Endless Snakes
+2 Unsustainable Consumption
+2 Martoob's Message
+2 Cosmic Coalescing
+2 Contemplate the Cosmos
+2 Delve for Treasures
+2 Fight for Succession
+2 Cosmic Lineage
+2 Peer into the Cosmos
+2 Forced Germination
+2 Assault of the Conscripted
+2 Shrine to Those Gone
+2 Marketplace Crossroads
+2 The Blacksmith's Banner
+2 Shapur, the Fifth Shah
+2 The Grand Simurgh
+2 Saeedi Kahroba, Daughter
+2 Tyrus, Giver to All
+2 Reha, Entropy's Call
+2 Golna, the First Shah
+2 Jahan, the Third Shah
+2 Zareen, the Second Shah
+2 Veeni, High Truthseeker
+2 Thief of Mortals
+2 Siaveed, Commander of Armies
+2 Ghulish Unearthing
+2 Venture into the Muktann
+2 Return to the Beginning
+2 Judgment of the Soul
+2 Mercantile Satrapy
+2 Grandstanding Huma
+2 Piruz, the Fourth Shah
+2 Sahra's Command
+2 Kahroba's Command
+2 Martoob's Command
+2 Mahara's Command
+2 Rahstahde's Command
+2 Soli Citadel
+2 Nizev Citadel
+2 Kaneh Citadel
+2 Avaz Citadel
+2 Danaj Citadel
+2 Suhra and Fori, Grand Viziers
+2 Maaru, Tomb Guardian
+2 Artiaburz, Granter of Boons
+2 Omid, the Undefeated
+2 Angel of Infinite Faces
+2 Seize Dominance
+2 Call of Piruz
+2 Bulwark of Tradition
+2 Div of the Endless Thought
+2 Nakia, Infinity Seer
+2 Satrapy General
+2 Satrapy Merchant
+2 Satrapy Overseer
+2 Satrapy Protector
+2 Satrapy Courier
+2 Hidden Garden Entrance
+1 Greater Masticore
+1 Martoob, Blessing of Water
+1 Mahara, the Universal
+1 Rahstahde, Word of Truth
+1 Kahroba, Forefather of All
+1 Sahra, the Consuming
+1 Muktann Protectors
+1 Twice Blessed
+1 All-Encompassing Akvan
+1 Hadak, End of Progress
+1 Tempting Shahmaran
+1 The Tale of Kings
+1 Aminatou, Justicar
+1 Marilye, the Thieving Blade
+1 Ameret, Pride of Cyrukan
+1 Shala Na, Planar Outcast
+[UncommonSlot(3)]
+9 Piruz's Knight
+9 Cyrukan Battleaxe
+9 Cyrukan's Devoted
+9 Aminatou's Touch
+9 Appeal to the Div
+9 Ascendant Angel
+9 Ascendant Demon
+9 Kahroba General
+9 Guidance from Above
+9 Cyrukan's Crossblades
+9 Blessing of Golna
+9 Border Seeker
+9 Bustling Bazaar
+9 Unruly Magus
+9 Champion of Foibles
+9 Champion of Ideals
+9 Change of Station
+9 Collapsing Ramparts
+9 Commander of the Worthy
+9 Surreal Bakhtak
+9 Confine to Prophecies
+9 Dagger of the Lost Ages
+9 Desert's Veil
+9 War of Resources
+9 Devastating Charge
+9 Disastrous Sirocco
+9 Sacred Heirloom
+9 Doomed Alchemist
+9 Dunesea Cartographer
+9 Martoob Beastkeeper
+9 Martoob Guardian
+9 Enlist
+9 Exquisite Artisan
+9 Fahrib's Tongue
+9 Fiery Efreet
+9 Fiery Truthseeker
+9 Bird of Many Feathers
+9 Form of the Manticore
+9 Gathering of Minds
+9 Gilded Guardian
+9 Giver of Martoob
+9 Grand Stand at Danaj
+9 Andazir's Judgment
+9 Heartless Army
+9 Hidden Cache
+9 High Priest of Kahroba
+9 Hold Captive
+9 Inner Evil
+9 Joyous Connection
+9 Atieh's Elite
+9 Knife of Sanctity
+9 Lax Gambit
+9 Leech-Encrusted Div
+9 Influence of the Div
+9 Mahara Vanguard
+9 Aminatou's Adherent
+9 Call of the Huma
+9 Mindscape Denial
+9 Narrow Diversion
+9 Atieh's Destiny
+9 Neutral Citystate
+9 Nightly Raid
+9 Shahmaran's Captivation
+9 Overwhelming Defeat
+9 Paladin of Order
+9 Peek into the Future
+9 Pyreheart Angel
+9 Paygan Archer
+9 Tamaak's Mouth
+9 Rewards of Ruthlessness
+9 Righteous Combat
+9 Rite of Ends
+9 Roaming City
+9 Constructed Jay
+9 Shala's Phantasm
+9 Shifting City
+9 Fang of Andazir
+9 Spear of Truth
+9 Taunting Manticore
+9 Tomb-Diving Initiate
+9 Vizier of Lies
+9 Avaricious Ghul
+[CommonSlot(10)]
+30 Shala's Immolation
+30 Adventurer's Amulet
+30 Adventurous Impulse
+30 Affluent Knight
+30 Agent of Andazir
+30 Cyrukan Guardians
+30 Rahstahde Persecutor
+30 Aid from Martoob
+30 Alchemist's Kit
+30 Ameret's Favored
+30 Ancestral Guidance
+30 Condescend
+30 Armored Elephant
+30 Army's Suppliers
+30 Assassin of Fahrib
+30 Kahroba Champion
+30 Kahroba Pureblood
+30 Avaz Banner
+30 Martoob Druid
+30 Avaz Cataphract
+30 Avaz Sanctuary
+30 Avaz Temple
+30 Blade of Mahara
+30 Bringer of Armies
+30 Cage the Dissenter
+30 Call on Reinforcements
+30 Fahrib Informant
+30 Conquerer's Blade
+30 Courageous Stand
+30 Crash Through
+30 Danaj Decider
+30 Danaj Sanctuary
+30 Benthic Shipcrasher
+30 Danaj Temple
+30 Soli Windreader
+30 Dispute
+30 Distant Lover
+30 Div of the Ingited Soul
+30 Divine Splendor
+30 Djinncrafting
+30 Empathic Bond
+30 Martoob Watershaper
+30 Fall from the Heavens
+30 Fateshifter's Prophet
+30 Artificial Wayfinder
+30 Flying Throne
+30 Furnished Ghul
+30 Fury of Hadak
+30 Grasp of the Sands
+30 Hearty Karkadann
+30 Impede
+30 Imposing Manticore
+30 Imprison the Liar
+30 Atieh Stargazer
+30 Kaneh Assassin
+30 Kaneh Headdress
+30 Kaneh Sanctuary
+30 Kaneh Temple
+30 Kaneh Troops
+30 Tamaak Confidant
+30 Burden of Thirst
+30 Poison the Blade
+30 Mahara Angel
+30 Signet Ring
+30 Avalanche Elemental
+30 Sting of the Manticore
+30 Marketplace Haggling
+30 Murder
+30 Andazir Assaulter
+30 Andazir Elite
+30 Nizev Arbiter
+30 Nizev Sanctuary
+30 Nizev Brawler
+30 Nizev Temple
+30 Ordeal of Kaneh
+30 Owl of the Seven Stars
+30 Falconry
+30 Patronizing Taromad
+30 Plan for Adventure
+30 Sahra Poet-Priest
+30 Sahra Wrecker
+30 Sahra's Crusher
+30 Rapid Transformation
+30 Regulator of Tithes
+30 Relentless Army
+30 Shift the Sands
+30 Romantic Rescue
+30 Scouting Party
+30 Selfish Conversion
+30 Serene Thoughts
+30 Shady Deal
+30 Shomi's Journey
+30 Soli Chronicler
+30 Stoic Djinn
+30 Soli Sanctuary
+30 Soli Temple
+30 Atieh's Disciple
+30 Soli's Blessed
+30 Sound Advice
+30 Swindle the Rapacious
+30 Efreetspeaker
+30 Rahstahde Truthseeker
+30 Terramorphic Expanse
+30 Threatening Khopesh
+30 Treasure Hoard
+30 Truthseeker's Blade
+30 Vizier of Noble Truths
+30 War's Trauma
+30 Fahrib Deceiver
+30 Worth of Ruin
+30 Makeshift Quarters
+30 Short Rest
+30 Evasive Maneuvers
+30 Quick-Witted Slayer
+30 Synergistic Curiosity
+30 Caravan Guard
+30 Ironhide Hadhayosh

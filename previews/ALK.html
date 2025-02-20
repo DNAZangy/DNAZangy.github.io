@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/ALK-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>ALK visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 3%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/ALK-files/logo.png" />
+	<img class="preload-hidden" src="/sets/ACT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ALK-files/icon.png" />
+		<img class="preload-hidden" src="/sets/HOD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/HTS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MSK-files/icon.png" />
+		<img class="preload-hidden" src="/sets/RAR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ROS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ZANG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ZNU-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="ACT"><img src="/sets/ACT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ALK"><img src="/sets/ALK-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="HOD"><img src="/sets/HOD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="HTS"><img src="/sets/HTS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="MSK"><img src="/sets/MSK-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="RAR"><img src="/sets/RAR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ROS"><img src="/sets/ROS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SRC"><img src="/sets/SRC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ZANG"><img src="/sets/ZANG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ZNU"><img src="/sets/ZNU-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/ALK-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\ALK-files\img\23_Satrapy General.jpg" id="23_Satrapy General" data-flag="@X" onclick="openSidebar('23_Satrapy General',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\44_Marilye, the Thieving Blade.jpg" id="44_Marilye, the Thieving Blade" data-flag="@X" onclick="openSidebar('44_Marilye, the Thieving Blade',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\63_Assault of the Conscripted.jpg" id="63_Assault of the Conscripted" data-flag="@X" onclick="openSidebar('63_Assault of the Conscripted',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\96_Grandstanding Huma.jpg" id="96_Grandstanding Huma" data-flag="@X" onclick="openSidebar('96_Grandstanding Huma',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\129_Golna, the First Shah_back.jpg" alt="/sets\ALK-files\img\129_Golna, the First Shah_front.jpg" id="129_Golna, the First Shah" data-flag="@XD" onclick="openSidebar('129_Golna, the First Shah',false)"><button class="flip-btn" onclick="imgFlip('129_Golna, the First Shah')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\24_Shared Honor.jpg" id="24_Shared Honor" data-flag="@X" onclick="openSidebar('24_Shared Honor',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\43_Jahan, the Third Shah_back.jpg" alt="/sets\ALK-files\img\43_Jahan, the Third Shah_front.jpg" id="43_Jahan, the Third Shah" data-flag="@XD" onclick="openSidebar('43_Jahan, the Third Shah',false)"><button class="flip-btn" onclick="imgFlip('43_Jahan, the Third Shah')"></button></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\75_Piruz, the Fourth Shah_back.jpg" alt="/sets\ALK-files\img\75_Piruz, the Fourth Shah_front.jpg" id="75_Piruz, the Fourth Shah" data-flag="@XD" onclick="openSidebar('75_Piruz, the Fourth Shah',false)"><button class="flip-btn" onclick="imgFlip('75_Piruz, the Fourth Shah')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\106_Satrapy Protector.jpg" id="106_Satrapy Protector" data-flag="@X" onclick="openSidebar('106_Satrapy Protector',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\131_Lasting Legacy.jpg" id="131_Lasting Legacy" data-flag="@X" onclick="openSidebar('131_Lasting Legacy',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\29_Zareen, the Second Shah_back.jpg" alt="/sets\ALK-files\img\29_Zareen, the Second Shah_front.jpg" id="29_Zareen, the Second Shah" data-flag="@XD" onclick="openSidebar('29_Zareen, the Second Shah',false)"><button class="flip-btn" onclick="imgFlip('29_Zareen, the Second Shah')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\48_Nizev Enforcer.jpg" id="48_Nizev Enforcer" data-flag="@X" onclick="openSidebar('48_Nizev Enforcer',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\81_Satrapy Overseer.jpg" id="81_Satrapy Overseer" data-flag="@X" onclick="openSidebar('81_Satrapy Overseer',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\108_Shapur, the Fifth Shah_back.jpg" alt="/sets\ALK-files\img\108_Shapur, the Fifth Shah_front.jpg" id="108_Shapur, the Fifth Shah" data-flag="@XD" onclick="openSidebar('108_Shapur, the Fifth Shah',false)"><button class="flip-btn" onclick="imgFlip('108_Shapur, the Fifth Shah')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\139_Satrapy Courier.jpg" id="139_Satrapy Courier" data-flag="@X" onclick="openSidebar('139_Satrapy Courier',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\4_Atieh's Elite.jpg" id="4_Atiehs Elite" data-flag="@X" onclick="openSidebar('4_Atiehs Elite',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\53_Satrapy Merchant.jpg" id="53_Satrapy Merchant" data-flag="@X" onclick="openSidebar('53_Satrapy Merchant',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\59_Aminatou's Adherent.jpg" id="59_Aminatous Adherent" data-flag="@X" onclick="openSidebar('59_Aminatous Adherent',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\89_Bustling Bazaar.jpg" id="89_Bustling Bazaar" data-flag="@X" onclick="openSidebar('89_Bustling Bazaar',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\118_Blessing of Golna_back.jpg" alt="/sets\ALK-files\img\118_Blessing of Golna_front.jpg" id="118_Blessing of Golna" data-flag="@XD" onclick="openSidebar('118_Blessing of Golna',false)"><button class="flip-btn" onclick="imgFlip('118_Blessing of Golna')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\7_Change of Station.jpg" id="7_Change of Station" data-flag="@X" onclick="openSidebar('7_Change of Station',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\31_Appeal to the Div.jpg" id="31_Appeal to the Div" data-flag="@X" onclick="openSidebar('31_Appeal to the Div',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\61_Andazir's Judgment.jpg" id="61_Andazirs Judgment" data-flag="@X" onclick="openSidebar('61_Andazirs Judgment',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\90_Collapsing Ramparts.jpg" id="90_Collapsing Ramparts" data-flag="@X" onclick="openSidebar('90_Collapsing Ramparts',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\119_Border Seeker.jpg" id="119_Border Seeker" data-flag="@X" onclick="openSidebar('119_Border Seeker',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\9_Cyrukan's Crossblades.jpg" id="9_Cyrukans Crossblades" data-flag="@X" onclick="openSidebar('9_Cyrukans Crossblades',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\34_Bird of Many Feathers.jpg" id="34_Bird of Many Feathers" data-flag="@X" onclick="openSidebar('34_Bird of Many Feathers',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\64_Avaricious Ghul.jpg" id="64_Avaricious Ghul" data-flag="@X" onclick="openSidebar('64_Avaricious Ghul',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\92_Cyrukan Battleaxe.jpg" id="92_Cyrukan Battleaxe" data-flag="@X" onclick="openSidebar('92_Cyrukan Battleaxe',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\125_Devastating Charge.jpg" id="125_Devastating Charge" data-flag="@X" onclick="openSidebar('125_Devastating Charge',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\11_Enlist.jpg" id="11_Enlist" data-flag="@X" onclick="openSidebar('11_Enlist',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\37_Confine to Prophecies.jpg" id="37_Confine to Prophecies" data-flag="@X" onclick="openSidebar('37_Confine to Prophecies',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\68_Inner Evil.jpg" id="68_Inner Evil" data-flag="@X" onclick="openSidebar('68_Inner Evil',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\94_Fiery Efreet.jpg" id="94_Fiery Efreet" data-flag="@X" onclick="openSidebar('94_Fiery Efreet',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\132_Leech-Encrusted Div.jpg" id="132_Leech-Encrusted Div" data-flag="@X" onclick="openSidebar('132_Leech-Encrusted Div',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\16_High Priest of Kahroba.jpg" id="16_High Priest of Kahroba" data-flag="@X" onclick="openSidebar('16_High Priest of Kahroba',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\40_Exquisite Artisan.jpg" id="40_Exquisite Artisan" data-flag="@X" onclick="openSidebar('40_Exquisite Artisan',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\72_Nightly Raid.jpg" id="72_Nightly Raid" data-flag="@X" onclick="openSidebar('72_Nightly Raid',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\97_Hidden Cache_back.jpg" alt="/sets\ALK-files\img\97_Hidden Cache_front.jpg" id="97_Hidden Cache" data-flag="@XD" onclick="openSidebar('97_Hidden Cache',false)"><button class="flip-btn" onclick="imgFlip('97_Hidden Cache')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\133_Martoob Beastkeeper.jpg" id="133_Martoob Beastkeeper" data-flag="@X" onclick="openSidebar('133_Martoob Beastkeeper',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\20_Lax Gambit.jpg" id="20_Lax Gambit" data-flag="@X" onclick="openSidebar('20_Lax Gambit',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\46_Mindscape Denial.jpg" id="46_Mindscape Denial" data-flag="@X" onclick="openSidebar('46_Mindscape Denial',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\80_Rite of Ends_back.jpg" alt="/sets\ALK-files\img\80_Rite of Ends_front.jpg" id="80_Rite of Ends" data-flag="@XD" onclick="openSidebar('80_Rite of Ends',false)"><button class="flip-btn" onclick="imgFlip('80_Rite of Ends')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\102_Paygan Archer.jpg" id="102_Paygan Archer" data-flag="@X" onclick="openSidebar('102_Paygan Archer',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\135_Martoob Guardian.jpg" id="135_Martoob Guardian" data-flag="@X" onclick="openSidebar('135_Martoob Guardian',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\22_Sacred Heirloom_back.jpg" alt="/sets\ALK-files\img\22_Sacred Heirloom_front.jpg" id="22_Sacred Heirloom" data-flag="@XD" onclick="openSidebar('22_Sacred Heirloom',false)"><button class="flip-btn" onclick="imgFlip('22_Sacred Heirloom')"></button></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\50_Peek into the Future_back.jpg" alt="/sets\ALK-files\img\50_Peek into the Future_front.jpg" id="50_Peek into the Future" data-flag="@XD" onclick="openSidebar('50_Peek into the Future',false)"><button class="flip-btn" onclick="imgFlip('50_Peek into the Future')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\85_War of Resources.jpg" id="85_War of Resources" data-flag="@X" onclick="openSidebar('85_War of Resources',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\110_Taunting Manticore.jpg" id="110_Taunting Manticore" data-flag="@X" onclick="openSidebar('110_Taunting Manticore',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\136_Overwhelming Defeat.jpg" id="136_Overwhelming Defeat" data-flag="@X" onclick="openSidebar('136_Overwhelming Defeat',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\2_Ameret's Favored.jpg" id="2_Amerets Favored" data-flag="@X" onclick="openSidebar('2_Amerets Favored',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\58_Tomb-Diving Initiate.jpg" id="58_Tomb-Diving Initiate" data-flag="@X" onclick="openSidebar('58_Tomb-Diving Initiate',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\60_Andazir Assaulter.jpg" id="60_Andazir Assaulter" data-flag="@X" onclick="openSidebar('60_Andazir Assaulter',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\87_Andazir Elite.jpg" id="87_Andazir Elite" data-flag="@X" onclick="openSidebar('87_Andazir Elite',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\115_Adventurous Impulse.jpg" id="115_Adventurous Impulse" data-flag="@X" onclick="openSidebar('115_Adventurous Impulse',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\3_Ancestral Guidance.jpg" id="3_Ancestral Guidance" data-flag="@X" onclick="openSidebar('3_Ancestral Guidance',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\30_Alchemist's Kit.jpg" id="30_Alchemists Kit" data-flag="@X" onclick="openSidebar('30_Alchemists Kit',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\62_Assassin of Fahrib.jpg" id="62_Assassin of Fahrib" data-flag="@X" onclick="openSidebar('62_Assassin of Fahrib',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\88_Avaz Cataphract.jpg" id="88_Avaz Cataphract" data-flag="@X" onclick="openSidebar('88_Avaz Cataphract',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\116_Aid from Martoob.jpg" id="116_Aid from Martoob" data-flag="@X" onclick="openSidebar('116_Aid from Martoob',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\5_Avaz Banner.jpg" id="5_Avaz Banner" data-flag="@X" onclick="openSidebar('5_Avaz Banner',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\32_Atieh Stargazer.jpg" id="32_Atieh Stargazer" data-flag="@X" onclick="openSidebar('32_Atieh Stargazer',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\65_Burden of Thirst.jpg" id="65_Burden of Thirst" data-flag="@X" onclick="openSidebar('65_Burden of Thirst',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\91_Crash Through.jpg" id="91_Crash Through" data-flag="@X" onclick="openSidebar('91_Crash Through',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\117_Armored Elephant.jpg" id="117_Armored Elephant" data-flag="@X" onclick="openSidebar('117_Armored Elephant',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\6_Blade of Mahara.jpg" id="6_Blade of Mahara" data-flag="@X" onclick="openSidebar('6_Blade of Mahara',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\33_Benthic Shipcrasher.jpg" id="33_Benthic Shipcrasher" data-flag="@X" onclick="openSidebar('33_Benthic Shipcrasher',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\66_Distant Lover.jpg" id="66_Distant Lover" data-flag="@X" onclick="openSidebar('66_Distant Lover',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\93_Efreetspeaker.jpg" id="93_Efreetspeaker" data-flag="@X" onclick="openSidebar('93_Efreetspeaker',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\120_Bringer of Armies.jpg" id="120_Bringer of Armies" data-flag="@X" onclick="openSidebar('120_Bringer of Armies',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\8_Cyrukan Guardians.jpg" id="8_Cyrukan Guardians" data-flag="@X" onclick="openSidebar('8_Cyrukan Guardians',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\35_Cage the Dissenter.jpg" id="35_Cage the Dissenter" data-flag="@X" onclick="openSidebar('35_Cage the Dissenter',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\67_Furnished Ghul.jpg" id="67_Furnished Ghul" data-flag="@X" onclick="openSidebar('67_Furnished Ghul',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\95_Fury of Hadak_back.jpg" alt="/sets\ALK-files\img\95_Fury of Hadak_front.jpg" id="95_Fury of Hadak" data-flag="@XD" onclick="openSidebar('95_Fury of Hadak',false)"><button class="flip-btn" onclick="imgFlip('95_Fury of Hadak')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\121_Call on Reinforcements.jpg" id="121_Call on Reinforcements" data-flag="@X" onclick="openSidebar('121_Call on Reinforcements',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\10_Divine Splendor.jpg" id="10_Divine Splendor" data-flag="@X" onclick="openSidebar('10_Divine Splendor',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\36_Condescend.jpg" id="36_Condescend" data-flag="@X" onclick="openSidebar('36_Condescend',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\69_Kaneh Assassin.jpg" id="69_Kaneh Assassin" data-flag="@X" onclick="openSidebar('69_Kaneh Assassin',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\98_Imposing Manticore.jpg" id="98_Imposing Manticore" data-flag="@X" onclick="openSidebar('98_Imposing Manticore',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\122_Caravan Guard.jpg" id="122_Caravan Guard" data-flag="@X" onclick="openSidebar('122_Caravan Guard',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\12_Falconry_back.jpg" alt="/sets\ALK-files\img\12_Falconry_front.jpg" id="12_Falconry" data-flag="@XD" onclick="openSidebar('12_Falconry',false)"><button class="flip-btn" onclick="imgFlip('12_Falconry')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\38_Djinncrafting.jpg" id="38_Djinncrafting" data-flag="@X" onclick="openSidebar('38_Djinncrafting',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\70_Mahara Angel.jpg" id="70_Mahara Angel" data-flag="@X" onclick="openSidebar('70_Mahara Angel',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\99_Kaneh Troops.jpg" id="99_Kaneh Troops" data-flag="@X" onclick="openSidebar('99_Kaneh Troops',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\123_Courageous Stand.jpg" id="123_Courageous Stand" data-flag="@X" onclick="openSidebar('123_Courageous Stand',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\13_Fateshifter's Prophet.jpg" id="13_Fateshifters Prophet" data-flag="@X" onclick="openSidebar('13_Fateshifters Prophet',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\39_Evasive Maneuvers.jpg" id="39_Evasive Maneuvers" data-flag="@X" onclick="openSidebar('39_Evasive Maneuvers',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\71_Murder.jpg" id="71_Murder" data-flag="@X" onclick="openSidebar('71_Murder',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\100_Marketplace Haggling.jpg" id="100_Marketplace Haggling" data-flag="@X" onclick="openSidebar('100_Marketplace Haggling',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\124_Danaj Decider.jpg" id="124_Danaj Decider" data-flag="@X" onclick="openSidebar('124_Danaj Decider',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\14_Grasp of the Sands.jpg" id="14_Grasp of the Sands" data-flag="@X" onclick="openSidebar('14_Grasp of the Sands',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\41_Fahrib Deceiver.jpg" id="41_Fahrib Deceiver" data-flag="@X" onclick="openSidebar('41_Fahrib Deceiver',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\73_Ordeal of Kaneh.jpg" id="73_Ordeal of Kaneh" data-flag="@X" onclick="openSidebar('73_Ordeal of Kaneh',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\101_Nizev Brawler.jpg" id="101_Nizev Brawler" data-flag="@X" onclick="openSidebar('101_Nizev Brawler',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\126_Dispute.jpg" id="126_Dispute" data-flag="@X" onclick="openSidebar('126_Dispute',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\15_Hearty Karkadann.jpg" id="15_Hearty Karkadann" data-flag="@X" onclick="openSidebar('15_Hearty Karkadann',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\42_Impede.jpg" id="42_Impede" data-flag="@X" onclick="openSidebar('42_Impede',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\74_Patronizing Taromad.jpg" id="74_Patronizing Taromad" data-flag="@X" onclick="openSidebar('74_Patronizing Taromad',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\103_Rahstahde Persecutor.jpg" id="103_Rahstahde Persecutor" data-flag="@X" onclick="openSidebar('103_Rahstahde Persecutor',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\127_Div of the Ingited Soul.jpg" id="127_Div of the Ingited Soul" data-flag="@X" onclick="openSidebar('127_Div of the Ingited Soul',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\17_Imprison the Liar.jpg" id="17_Imprison the Liar" data-flag="@X" onclick="openSidebar('17_Imprison the Liar',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\45_Martoob Watershaper.jpg" id="45_Martoob Watershaper" data-flag="@X" onclick="openSidebar('45_Martoob Watershaper',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\76_Poison the Blade.jpg" id="76_Poison the Blade" data-flag="@X" onclick="openSidebar('76_Poison the Blade',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\104_Romantic Rescue.jpg" id="104_Romantic Rescue" data-flag="@X" onclick="openSidebar('104_Romantic Rescue',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\128_Fall from the Heavens.jpg" id="128_Fall from the Heavens" data-flag="@X" onclick="openSidebar('128_Fall from the Heavens',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\18_Kahroba Champion.jpg" id="18_Kahroba Champion" data-flag="@X" onclick="openSidebar('18_Kahroba Champion',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\47_Nizev Arbiter.jpg" id="47_Nizev Arbiter" data-flag="@X" onclick="openSidebar('47_Nizev Arbiter',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\77_Quick-Witted Slayer.jpg" id="77_Quick-Witted Slayer" data-flag="@X" onclick="openSidebar('77_Quick-Witted Slayer',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\105_Sahra Wrecker.jpg" id="105_Sahra Wrecker" data-flag="@X" onclick="openSidebar('105_Sahra Wrecker',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\130_Kahroba Pureblood.jpg" id="130_Kahroba Pureblood" data-flag="@X" onclick="openSidebar('130_Kahroba Pureblood',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\19_Kaneh Headdress.jpg" id="19_Kaneh Headdress" data-flag="@X" onclick="openSidebar('19_Kaneh Headdress',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\49_Owl of the Seven Stars.jpg" id="49_Owl of the Seven Stars" data-flag="@X" onclick="openSidebar('49_Owl of the Seven Stars',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\78_Regulator of Tithes.jpg" id="78_Regulator of Tithes" data-flag="@X" onclick="openSidebar('78_Regulator of Tithes',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\107_Shala's Immolation.jpg" id="107_Shalas Immolation" data-flag="@X" onclick="openSidebar('107_Shalas Immolation',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\134_Martoob Druid.jpg" id="134_Martoob Druid" data-flag="@X" onclick="openSidebar('134_Martoob Druid',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\21_Makeshift Quarters.jpg" id="21_Makeshift Quarters" data-flag="@X" onclick="openSidebar('21_Makeshift Quarters',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\51_Plan for Adventure.jpg" id="51_Plan for Adventure" data-flag="@X" onclick="openSidebar('51_Plan for Adventure',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\79_Relentless Army.jpg" id="79_Relentless Army" data-flag="@X" onclick="openSidebar('79_Relentless Army',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\109_Synergistic Curiosity.jpg" id="109_Synergistic Curiosity" data-flag="@X" onclick="openSidebar('109_Synergistic Curiosity',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\137_Rapid Transformation_back.jpg" alt="/sets\ALK-files\img\137_Rapid Transformation_front.jpg" id="137_Rapid Transformation" data-flag="@XD" onclick="openSidebar('137_Rapid Transformation',false)"><button class="flip-btn" onclick="imgFlip('137_Rapid Transformation')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\25_Short Rest.jpg" id="25_Short Rest" data-flag="@X" onclick="openSidebar('25_Short Rest',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\52_Rahstahde Truthseeker.jpg" id="52_Rahstahde Truthseeker" data-flag="@X" onclick="openSidebar('52_Rahstahde Truthseeker',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\82_Selfish Conversion.jpg" id="82_Selfish Conversion" data-flag="@X" onclick="openSidebar('82_Selfish Conversion',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\111_Threatening Khopesh.jpg" id="111_Threatening Khopesh" data-flag="@X" onclick="openSidebar('111_Threatening Khopesh',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\138_Sahra's Crusher.jpg" id="138_Sahras Crusher" data-flag="@X" onclick="openSidebar('138_Sahras Crusher',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\26_Soli Chronicler.jpg" id="26_Soli Chronicler" data-flag="@X" onclick="openSidebar('26_Soli Chronicler',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\54_Shomi's Journey_back.jpg" alt="/sets\ALK-files\img\54_Shomi's Journey_front.jpg" id="54_Shomis Journey" data-flag="@XD" onclick="openSidebar('54_Shomis Journey',false)"><button class="flip-btn" onclick="imgFlip('54_Shomis Journey')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\83_Shady Deal.jpg" id="83_Shady Deal" data-flag="@X" onclick="openSidebar('83_Shady Deal',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\112_Treasure Hoard.jpg" id="112_Treasure Hoard" data-flag="@X" onclick="openSidebar('112_Treasure Hoard',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\140_Serene Thoughts.jpg" id="140_Serene Thoughts" data-flag="@X" onclick="openSidebar('140_Serene Thoughts',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\27_Soli Windreader.jpg" id="27_Soli Windreader" data-flag="@X" onclick="openSidebar('27_Soli Windreader',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\55_Sound Advice.jpg" id="55_Sound Advice" data-flag="@X" onclick="openSidebar('55_Sound Advice',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\84_Shift the Sands_back.jpg" alt="/sets\ALK-files\img\84_Shift the Sands_front.jpg" id="84_Shift the Sands" data-flag="@XD" onclick="openSidebar('84_Shift the Sands',false)"><button class="flip-btn" onclick="imgFlip('84_Shift the Sands')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\113_Truthseeker's Blade.jpg" id="113_Truthseekers Blade" data-flag="@X" onclick="openSidebar('113_Truthseekers Blade',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\141_Sting of the Manticore.jpg" id="141_Sting of the Manticore" data-flag="@X" onclick="openSidebar('141_Sting of the Manticore',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\28_Soli's Blessed.jpg" id="28_Solis Blessed" data-flag="@X" onclick="openSidebar('28_Solis Blessed',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\56_Stoic Djinn.jpg" id="56_Stoic Djinn" data-flag="@X" onclick="openSidebar('56_Stoic Djinn',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\86_War's Trauma.jpg" id="86_Wars Trauma" data-flag="@X" onclick="openSidebar('86_Wars Trauma',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\114_Worth of Ruin.jpg" id="114_Worth of Ruin" data-flag="@X" onclick="openSidebar('114_Worth of Ruin',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\142_Tamaak Confidant.jpg" id="142_Tamaak Confidant" data-flag="@X" onclick="openSidebar('142_Tamaak Confidant',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\57_Swindle the Rapacious.jpg" id="57_Swindle the Rapacious" data-flag="@X" onclick="openSidebar('57_Swindle the Rapacious',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\145_Contemplate the Cosmos_back.jpg" alt="/sets\ALK-files\img\145_Contemplate the Cosmos_front.jpg" id="145_Contemplate the Cosmos" data-flag="@XD" onclick="openSidebar('145_Contemplate the Cosmos',false)"><button class="flip-btn" onclick="imgFlip('145_Contemplate the Cosmos')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\149_Delve for Treasures.jpg" id="149_Delve for Treasures" data-flag="@X" onclick="openSidebar('149_Delve for Treasures',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\160_Shala Na, Planar Outcast.jpg" id="160_Shala Na, Planar Outcast" data-flag="@X" onclick="openSidebar('160_Shala Na, Planar Outcast',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\167_Sahra, the Consuming_back.jpg" alt="/sets\ALK-files\img\167_Sahra, the Consuming_front.jpg" id="167_Sahra, the Consuming" data-flag="@XD" onclick="openSidebar('167_Sahra, the Consuming',false)"><button class="flip-btn" onclick="imgFlip('167_Sahra, the Consuming')"></button></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\171_Kahroba, Forefather of All_back.jpg" alt="/sets\ALK-files\img\171_Kahroba, Forefather of All_front.jpg" id="171_Kahroba, Forefather of All" data-flag="@XD" onclick="openSidebar('171_Kahroba, Forefather of All',false)"><button class="flip-btn" onclick="imgFlip('171_Kahroba, Forefather of All')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\148_Shomi's Savior.jpg" id="148_Shomis Savior" data-flag="@X" onclick="openSidebar('148_Shomis Savior',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\150_Dunesea Captain.jpg" id="150_Dunesea Captain" data-flag="@X" onclick="openSidebar('150_Dunesea Captain',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\156_Deprived Div.jpg" id="156_Deprived Div" data-flag="@X" onclick="openSidebar('156_Deprived Div',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\164_Reha, Entropy's Call.jpg" id="164_Reha, Entropys Call" data-flag="@X" onclick="openSidebar('164_Reha, Entropys Call',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\174_Saeedi Kahroba, Daughter.jpg" id="174_Saeedi Kahroba, Daughter" data-flag="@X" onclick="openSidebar('174_Saeedi Kahroba, Daughter',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\143_Atieh's Destiny.jpg" id="143_Atiehs Destiny" data-flag="@X" onclick="openSidebar('143_Atiehs Destiny',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\152_Fahrib's Tongue.jpg" id="152_Fahribs Tongue" data-flag="@X" onclick="openSidebar('152_Fahribs Tongue',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\158_Ghulish Unearthing_back.jpg" alt="/sets\ALK-files\img\158_Ghulish Unearthing_front.jpg" id="158_Ghulish Unearthing" data-flag="@XD" onclick="openSidebar('158_Ghulish Unearthing',false)"><button class="flip-btn" onclick="imgFlip('158_Ghulish Unearthing')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\168_Unsustainable Consumption.jpg" id="168_Unsustainable Consumption" data-flag="@X" onclick="openSidebar('168_Unsustainable Consumption',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\175_Venture into the Muktann.jpg" id="175_Venture into the Muktann" data-flag="@X" onclick="openSidebar('175_Venture into the Muktann',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\146_Desert's Veil.jpg" id="146_Deserts Veil" data-flag="@X" onclick="openSidebar('146_Deserts Veil',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\153_Surreal Bakhtak.jpg" id="153_Surreal Bakhtak" data-flag="@X" onclick="openSidebar('153_Surreal Bakhtak',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\157_Fang of Andazir.jpg" id="157_Fang of Andazir" data-flag="@X" onclick="openSidebar('157_Fang of Andazir',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\162_Disastrous Sirocco.jpg" id="162_Disastrous Sirocco" data-flag="@X" onclick="openSidebar('162_Disastrous Sirocco',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\170_Hold Captive.jpg" id="170_Hold Captive" data-flag="@X" onclick="openSidebar('170_Hold Captive',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\147_Dunesea Cartographer.jpg" id="147_Dunesea Cartographer" data-flag="@X" onclick="openSidebar('147_Dunesea Cartographer',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\154_Vizier of Lies.jpg" id="154_Vizier of Lies" data-flag="@X" onclick="openSidebar('154_Vizier of Lies',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\159_Rewards of Ruthlessness.jpg" id="159_Rewards of Ruthlessness" data-flag="@X" onclick="openSidebar('159_Rewards of Ruthlessness',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\163_Doomed Alchemist.jpg" id="163_Doomed Alchemist" data-flag="@X" onclick="openSidebar('163_Doomed Alchemist',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\172_Kahroba General.jpg" id="172_Kahroba General" data-flag="@X" onclick="openSidebar('172_Kahroba General',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\144_Atieh's Disciple.jpg" id="144_Atiehs Disciple" data-flag="@X" onclick="openSidebar('144_Atiehs Disciple',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\151_Fahrib Informant.jpg" id="151_Fahrib Informant" data-flag="@X" onclick="openSidebar('151_Fahrib Informant',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\161_Shala's Phantasm.jpg" id="161_Shalas Phantasm" data-flag="@X" onclick="openSidebar('161_Shalas Phantasm',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\165_Roaming City_back.jpg" alt="/sets\ALK-files\img\165_Roaming City_front.jpg" id="165_Roaming City" data-flag="@XD" onclick="openSidebar('165_Roaming City',false)"><button class="flip-btn" onclick="imgFlip('165_Roaming City')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\173_Narrow Diversion.jpg" id="173_Narrow Diversion" data-flag="@X" onclick="openSidebar('173_Narrow Diversion',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\155_Agent of Andazir.jpg" id="155_Agent of Andazir" data-flag="@X" onclick="openSidebar('155_Agent of Andazir',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\166_Sahra Poet-Priest.jpg" id="166_Sahra Poet-Priest" data-flag="@X" onclick="openSidebar('166_Sahra Poet-Priest',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\169_Army's Suppliers.jpg" id="169_Armys Suppliers" data-flag="@X" onclick="openSidebar('169_Armys Suppliers',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\178_Mahara, the Universal_back.jpg" alt="/sets\ALK-files\img\178_Mahara, the Universal_front.jpg" id="178_Mahara, the Universal" data-flag="@XD" onclick="openSidebar('178_Mahara, the Universal',false)"><button class="flip-btn" onclick="imgFlip('178_Mahara, the Universal')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\191_Boon of the Pacts.jpg" id="191_Boon of the Pacts" data-flag="@X" onclick="openSidebar('191_Boon of the Pacts',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\207_Martoob, Blessing of Water_back.jpg" alt="/sets\ALK-files\img\207_Martoob, Blessing of Water_front.jpg" id="207_Martoob, Blessing of Water" data-flag="@XD" onclick="openSidebar('207_Martoob, Blessing of Water',false)"><button class="flip-btn" onclick="imgFlip('207_Martoob, Blessing of Water')"></button></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\186_Rahstahde, Word of Truth_back.jpg" alt="/sets\ALK-files\img\186_Rahstahde, Word of Truth_front.jpg" id="186_Rahstahde, Word of Truth" data-flag="@XD" onclick="openSidebar('186_Rahstahde, Word of Truth',false)"><button class="flip-btn" onclick="imgFlip('186_Rahstahde, Word of Truth')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\196_Ameret, Pride of Cyrukan.jpg" id="196_Ameret, Pride of Cyrukan" data-flag="@X" onclick="openSidebar('196_Ameret, Pride of Cyrukan',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\176_Fight for Succession_back.jpg" alt="/sets\ALK-files\img\176_Fight for Succession_front.jpg" id="176_Fight for Succession" data-flag="@XD" onclick="openSidebar('176_Fight for Succession',false)"><button class="flip-btn" onclick="imgFlip('176_Fight for Succession')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\192_Ghul of Forgotten Pasts.jpg" id="192_Ghul of Forgotten Pasts" data-flag="@X" onclick="openSidebar('192_Ghul of Forgotten Pasts',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\208_Martoob's Message.jpg" id="208_Martoobs Message" data-flag="@X" onclick="openSidebar('208_Martoobs Message',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\183_Cosmic Coalescing.jpg" id="183_Cosmic Coalescing" data-flag="@X" onclick="openSidebar('183_Cosmic Coalescing',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\199_Cyrukan's Messenger.jpg" id="199_Cyrukans Messenger" data-flag="@X" onclick="openSidebar('199_Cyrukans Messenger',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\182_Siaveed, Commander of Armies.jpg" id="182_Siaveed, Commander of Armies" data-flag="@X" onclick="openSidebar('182_Siaveed, Commander of Armies',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\193_Influence of the Div.jpg" id="193_Influence of the Div" data-flag="@X" onclick="openSidebar('193_Influence of the Div',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\209_Tyrus, Giver to All.jpg" id="209_Tyrus, Giver to All" data-flag="@X" onclick="openSidebar('209_Tyrus, Giver to All',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\188_Veeni, High Truthseeker.jpg" id="188_Veeni, High Truthseeker" data-flag="@X" onclick="openSidebar('188_Veeni, High Truthseeker',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\202_Sword of Fanaticism.jpg" id="202_Sword of Fanaticism" data-flag="@X" onclick="openSidebar('202_Sword of Fanaticism',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\177_Guidance from Above.jpg" id="177_Guidance from Above" data-flag="@X" onclick="openSidebar('177_Guidance from Above',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\194_Piruz's Knight.jpg" id="194_Piruzs Knight" data-flag="@X" onclick="openSidebar('194_Piruzs Knight',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\203_Commander of the Worthy.jpg" id="203_Commander of the Worthy" data-flag="@X" onclick="openSidebar('203_Commander of the Worthy',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\184_Fiery Truthseeker.jpg" id="184_Fiery Truthseeker" data-flag="@X" onclick="openSidebar('184_Fiery Truthseeker',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\198_Cyrukan's Devoted.jpg" id="198_Cyrukans Devoted" data-flag="@X" onclick="openSidebar('198_Cyrukans Devoted',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\179_Mahara Vanguard.jpg" id="179_Mahara Vanguard" data-flag="@X" onclick="openSidebar('179_Mahara Vanguard',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\195_Tamaak's Mouth.jpg" id="195_Tamaaks Mouth" data-flag="@X" onclick="openSidebar('195_Tamaaks Mouth',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\205_Gathering of Minds_back.jpg" alt="/sets\ALK-files\img\205_Gathering of Minds_front.jpg" id="205_Gathering of Minds" data-flag="@XD" onclick="openSidebar('205_Gathering of Minds',false)"><button class="flip-btn" onclick="imgFlip('205_Gathering of Minds')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\185_Joyous Connection.jpg" id="185_Joyous Connection" data-flag="@X" onclick="openSidebar('185_Joyous Connection',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\200_Pyreheart Angel.jpg" id="200_Pyreheart Angel" data-flag="@X" onclick="openSidebar('200_Pyreheart Angel',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\180_Paladin of Order.jpg" id="180_Paladin of Order" data-flag="@X" onclick="openSidebar('180_Paladin of Order',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\190_Affluent Knight.jpg" id="190_Affluent Knight" data-flag="@X" onclick="openSidebar('190_Affluent Knight',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\206_Giver of Martoob.jpg" id="206_Giver of Martoob" data-flag="@X" onclick="openSidebar('206_Giver of Martoob',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\187_Shahmaran's Captivation.jpg" id="187_Shahmarans Captivation" data-flag="@X" onclick="openSidebar('187_Shahmarans Captivation',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\201_Spear of Truth.jpg" id="201_Spear of Truth" data-flag="@X" onclick="openSidebar('201_Spear of Truth',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\181_Scouting Party.jpg" id="181_Scouting Party" data-flag="@X" onclick="openSidebar('181_Scouting Party',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\204_Empathic Bond.jpg" id="204_Empathic Bond" data-flag="@X" onclick="openSidebar('204_Empathic Bond',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\189_Vizier of Noble Truths.jpg" id="189_Vizier of Noble Truths" data-flag="@X" onclick="openSidebar('189_Vizier of Noble Truths',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\197_Conquerer's Blade.jpg" id="197_Conquerers Blade" data-flag="@X" onclick="openSidebar('197_Conquerers Blade',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\213_Angel of Infinite Faces.jpg" id="213_Angel of Infinite Faces" data-flag="@X" onclick="openSidebar('213_Angel of Infinite Faces',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\211_Aminatou, Justicar.jpg" id="211_Aminatou, Justicar" data-flag="@X" onclick="openSidebar('211_Aminatou, Justicar',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\227_Div of the Endless Thought.jpg" id="227_Div of the Endless Thought" data-flag="@X" onclick="openSidebar('227_Div of the Endless Thought',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\217_Bane of Endless Snakes.jpg" id="217_Bane of Endless Snakes" data-flag="@X" onclick="openSidebar('217_Bane of Endless Snakes',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\218_The Blacksmith's Banner.jpg" id="218_The Blacksmiths Banner" data-flag="@X" onclick="openSidebar('218_The Blacksmiths Banner',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\225_Cosmic Lineage.jpg" id="225_Cosmic Lineage" data-flag="@X" onclick="openSidebar('225_Cosmic Lineage',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\224_Chosen of Aminatou.jpg" id="224_Chosen of Aminatou" data-flag="@X" onclick="openSidebar('224_Chosen of Aminatou',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\251_Seize Dominance.jpg" id="251_Seize Dominance" data-flag="@X" onclick="openSidebar('251_Seize Dominance',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\239_Maaru, Tomb Guardian.jpg" id="239_Maaru, Tomb Guardian" data-flag="@X" onclick="openSidebar('239_Maaru, Tomb Guardian',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\219_Bulwark of Tradition.jpg" id="219_Bulwark of Tradition" data-flag="@X" onclick="openSidebar('219_Bulwark of Tradition',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\258_Travelling Bazaar.jpg" id="258_Travelling Bazaar" data-flag="@X" onclick="openSidebar('258_Travelling Bazaar',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\248_Return to the Beginning.jpg" id="248_Return to the Beginning" data-flag="@X" onclick="openSidebar('248_Return to the Beginning',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\257_Thief of Mortals.jpg" id="257_Thief of Mortals" data-flag="@X" onclick="openSidebar('257_Thief of Mortals',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\262_Zenith of Greed.jpg" id="262_Zenith of Greed" data-flag="@X" onclick="openSidebar('262_Zenith of Greed',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\226_Div of Bonded Souls.jpg" id="226_Div of Bonded Souls" data-flag="@X" onclick="openSidebar('226_Div of Bonded Souls',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\223_Champion of Ideals.jpg" id="223_Champion of Ideals" data-flag="@X" onclick="openSidebar('223_Champion of Ideals',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\252_Suhra and Fori, Grand Viziers.jpg" id="252_Suhra and Fori, Grand Viziers" data-flag="@X" onclick="openSidebar('252_Suhra and Fori, Grand Viziers',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\261_Unruly Magus.jpg" id="261_Unruly Magus" data-flag="@X" onclick="openSidebar('261_Unruly Magus',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\222_Champion of Foibles.jpg" id="222_Champion of Foibles" data-flag="@X" onclick="openSidebar('222_Champion of Foibles',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\249_Righteous Combat.jpg" id="249_Righteous Combat" data-flag="@X" onclick="openSidebar('249_Righteous Combat',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\212_Aminatou's Touch.jpg" id="212_Aminatous Touch" data-flag="@X" onclick="openSidebar('212_Aminatous Touch',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\220_Call of Piruz.jpg" id="220_Call of Piruz" data-flag="@X" onclick="openSidebar('220_Call of Piruz',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\214_Artiaburz, Granter of Boons.jpg" id="214_Artiaburz, Granter of Boons" data-flag="@X" onclick="openSidebar('214_Artiaburz, Granter of Boons',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\228_Endless Infantry.jpg" id="228_Endless Infantry" data-flag="@X" onclick="openSidebar('228_Endless Infantry',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\243_Nakia, Infinity Seer.jpg" id="243_Nakia, Infinity Seer" data-flag="@X" onclick="openSidebar('243_Nakia, Infinity Seer',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\229_Forced Germination.jpg" id="229_Forced Germination" data-flag="@X" onclick="openSidebar('229_Forced Germination',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\233_Guardian of the Devout.jpg" id="233_Guardian of the Devout" data-flag="@X" onclick="openSidebar('233_Guardian of the Devout',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\236_Imposing Databdara.jpg" id="236_Imposing Databdara" data-flag="@X" onclick="openSidebar('236_Imposing Databdara',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\244_Omid, the Undefeated.jpg" id="244_Omid, the Undefeated" data-flag="@X" onclick="openSidebar('244_Omid, the Undefeated',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\245_Peer into the Cosmos_back.jpg" alt="/sets\ALK-files\img\245_Peer into the Cosmos_front.jpg" id="245_Peer into the Cosmos" data-flag="@XD" onclick="openSidebar('245_Peer into the Cosmos',false)"><button class="flip-btn" onclick="imgFlip('245_Peer into the Cosmos')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\235_Illusion of the Div.jpg" id="235_Illusion of the Div" data-flag="@X" onclick="openSidebar('235_Illusion of the Div',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\237_Judgment of the Soul.jpg" id="237_Judgment of the Soul" data-flag="@X" onclick="openSidebar('237_Judgment of the Soul',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\259_Triplicate.jpg" id="259_Triplicate" data-flag="@X" onclick="openSidebar('259_Triplicate',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\255_Tamaak's Devourer.jpg" id="255_Tamaaks Devourer" data-flag="@X" onclick="openSidebar('255_Tamaaks Devourer',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\247_Recreator of Myths.jpg" id="247_Recreator of Myths" data-flag="@X" onclick="openSidebar('247_Recreator of Myths',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\253_Supreme Alchemist.jpg" id="253_Supreme Alchemist" data-flag="@X" onclick="openSidebar('253_Supreme Alchemist',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\215_Ascendant Angel.jpg" id="215_Ascendant Angel" data-flag="@X" onclick="openSidebar('215_Ascendant Angel',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\230_Form of the Manticore.jpg" id="230_Form of the Manticore" data-flag="@X" onclick="openSidebar('230_Form of the Manticore',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\232_Grand Stand at Danaj.jpg" id="232_Grand Stand at Danaj" data-flag="@X" onclick="openSidebar('232_Grand Stand at Danaj',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\221_Call of the Huma.jpg" id="221_Call of the Huma" data-flag="@X" onclick="openSidebar('221_Call of the Huma',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\216_Ascendant Demon.jpg" id="216_Ascendant Demon" data-flag="@X" onclick="openSidebar('216_Ascendant Demon',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\210_All-Encompassing Akvan.jpg" id="210_All-Encompassing Akvan" data-flag="@X" onclick="openSidebar('210_All-Encompassing Akvan',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\234_Hadak, End of Progress.jpg" id="234_Hadak, End of Progress" data-flag="@X" onclick="openSidebar('234_Hadak, End of Progress',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\242_Muktann Protectors.jpg" id="242_Muktann Protectors" data-flag="@X" onclick="openSidebar('242_Muktann Protectors',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\254_The Tale of Kings.jpg" id="254_The Tale of Kings" data-flag="@X" onclick="openSidebar('254_The Tale of Kings',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\256_Tempting Shahmaran.jpg" id="256_Tempting Shahmaran" data-flag="@X" onclick="openSidebar('256_Tempting Shahmaran',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\260_Twice Blessed.jpg" id="260_Twice Blessed" data-flag="@X" onclick="openSidebar('260_Twice Blessed',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\1_Zareen's Pariah.jpg" id="1_Zareens Pariah" data-flag="@X" onclick="openSidebar('1_Zareens Pariah',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\231_The Grand Simurgh.jpg" id="231_The Grand Simurgh" data-flag="@X" onclick="openSidebar('231_The Grand Simurgh',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\238_Kahroba's Command.jpg" id="238_Kahrobas Command" data-flag="@X" onclick="openSidebar('238_Kahrobas Command',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\240_Mahara's Command.jpg" id="240_Maharas Command" data-flag="@X" onclick="openSidebar('240_Maharas Command',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\241_Martoob's Command.jpg" id="241_Martoobs Command" data-flag="@X" onclick="openSidebar('241_Martoobs Command',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\246_Rahstahde's Command.jpg" id="246_Rahstahdes Command" data-flag="@X" onclick="openSidebar('246_Rahstahdes Command',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\250_Sahra's Command.jpg" id="250_Sahras Command" data-flag="@X" onclick="openSidebar('250_Sahras Command',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\266_Constructed Jay.jpg" id="266_Constructed Jay" data-flag="@X" onclick="openSidebar('266_Constructed Jay',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\271_Greater Masticore.jpg" id="271_Greater Masticore" data-flag="@X" onclick="openSidebar('271_Greater Masticore',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\268_Decanter of Endless Rivers.jpg" id="268_Decanter of Endless Rivers" data-flag="@X" onclick="openSidebar('268_Decanter of Endless Rivers',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\267_Dagger of the Lost Ages.jpg" id="267_Dagger of the Lost Ages" data-flag="@X" onclick="openSidebar('267_Dagger of the Lost Ages',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\270_Gilded Guardian.jpg" id="270_Gilded Guardian" data-flag="@X" onclick="openSidebar('270_Gilded Guardian',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\272_Heartless Army.jpg" id="272_Heartless Army" data-flag="@X" onclick="openSidebar('272_Heartless Army',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\274_Knife of Sanctity.jpg" id="274_Knife of Sanctity" data-flag="@X" onclick="openSidebar('274_Knife of Sanctity',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\263_Adventurer's Amulet.jpg" id="263_Adventurers Amulet" data-flag="@X" onclick="openSidebar('263_Adventurers Amulet',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\264_Artificial Wayfinder.jpg" id="264_Artificial Wayfinder" data-flag="@X" onclick="openSidebar('264_Artificial Wayfinder',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\265_Avalanche Elemental.jpg" id="265_Avalanche Elemental" data-flag="@X" onclick="openSidebar('265_Avalanche Elemental',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\269_Flying Throne.jpg" id="269_Flying Throne" data-flag="@X" onclick="openSidebar('269_Flying Throne',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\273_Ironhide Hadhayosh.jpg" id="273_Ironhide Hadhayosh" data-flag="@X" onclick="openSidebar('273_Ironhide Hadhayosh',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\275_Signet Ring.jpg" id="275_Signet Ring" data-flag="@X" onclick="openSidebar('275_Signet Ring',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\294_Soli Citadel.jpg" id="294_Soli Citadel" data-flag="@X" onclick="openSidebar('294_Soli Citadel',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\289_Nizev Citadel.jpg" id="289_Nizev Citadel" data-flag="@X" onclick="openSidebar('289_Nizev Citadel',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\283_Kaneh Citadel.jpg" id="283_Kaneh Citadel" data-flag="@X" onclick="openSidebar('283_Kaneh Citadel',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\276_Avaz Citadel.jpg" id="276_Avaz Citadel" data-flag="@X" onclick="openSidebar('276_Avaz Citadel',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\279_Danaj Citadel.jpg" id="279_Danaj Citadel" data-flag="@X" onclick="openSidebar('279_Danaj Citadel',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\295_Soli Sanctuary.jpg" id="295_Soli Sanctuary" data-flag="@X" onclick="openSidebar('295_Soli Sanctuary',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\291_Nizev Temple.jpg" id="291_Nizev Temple" data-flag="@X" onclick="openSidebar('291_Nizev Temple',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\285_Kaneh Temple.jpg" id="285_Kaneh Temple" data-flag="@X" onclick="openSidebar('285_Kaneh Temple',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\278_Avaz Temple.jpg" id="278_Avaz Temple" data-flag="@X" onclick="openSidebar('278_Avaz Temple',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\296_Soli Temple.jpg" id="296_Soli Temple" data-flag="@X" onclick="openSidebar('296_Soli Temple',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\284_Kaneh Sanctuary.jpg" id="284_Kaneh Sanctuary" data-flag="@X" onclick="openSidebar('284_Kaneh Sanctuary',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\281_Danaj Temple.jpg" id="281_Danaj Temple" data-flag="@X" onclick="openSidebar('281_Danaj Temple',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\280_Danaj Sanctuary.jpg" id="280_Danaj Sanctuary" data-flag="@X" onclick="openSidebar('280_Danaj Sanctuary',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\290_Nizev Sanctuary.jpg" id="290_Nizev Sanctuary" data-flag="@X" onclick="openSidebar('290_Nizev Sanctuary',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\277_Avaz Sanctuary.jpg" id="277_Avaz Sanctuary" data-flag="@X" onclick="openSidebar('277_Avaz Sanctuary',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img data-alt_src="/sets\ALK-files\img\282_Hidden Garden Entrance_back.jpg" alt="/sets\ALK-files\img\282_Hidden Garden Entrance_front.jpg" id="282_Hidden Garden Entrance" data-flag="@XD" onclick="openSidebar('282_Hidden Garden Entrance',false)"><button class="flip-btn" onclick="imgFlip('282_Hidden Garden Entrance')"></button></div>
+			<div class="container"><img alt="/sets\ALK-files\img\286_Marketplace Crossroads.jpg" id="286_Marketplace Crossroads" data-flag="@X" onclick="openSidebar('286_Marketplace Crossroads',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\287_Mercantile Satrapy.jpg" id="287_Mercantile Satrapy" data-flag="@X" onclick="openSidebar('287_Mercantile Satrapy',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\293_Shrine to Those Gone.jpg" id="293_Shrine to Those Gone" data-flag="@X" onclick="openSidebar('293_Shrine to Those Gone',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\288_Neutral Citystate.jpg" id="288_Neutral Citystate" data-flag="@X" onclick="openSidebar('288_Neutral Citystate',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\292_Shifting City.jpg" id="292_Shifting City" data-flag="@X" onclick="openSidebar('292_Shifting City',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\297_Terramorphic Expanse.jpg" id="297_Terramorphic Expanse" data-flag="@X" onclick="openSidebar('297_Terramorphic Expanse',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\298_Plains.jpg" id="298_Plains" data-flag="@X" onclick="openSidebar('298_Plains',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\299_Island.jpg" id="299_Island" data-flag="@X" onclick="openSidebar('299_Island',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\300_Swamp.jpg" id="300_Swamp" data-flag="@X" onclick="openSidebar('300_Swamp',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\301_Mountain.jpg" id="301_Mountain" data-flag="@X" onclick="openSidebar('301_Mountain',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\302_Forest.jpg" id="302_Forest" data-flag="@X" onclick="openSidebar('302_Forest',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\1t_Citizen.jpg" id="1t_Citizen" data-flag="@X" onclick="openSidebar('1t_Citizen',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\2t_Illusion.jpg" id="2t_Illusion" data-flag="@X" onclick="openSidebar('2t_Illusion',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\3t_Angel.jpg" id="3t_Angel" data-flag="@X" onclick="openSidebar('3t_Angel',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\4t_Bird.jpg" id="4t_Bird" data-flag="@X" onclick="openSidebar('4t_Bird',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\5t_Cat.jpg" id="5t_Cat" data-flag="@X" onclick="openSidebar('5t_Cat',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\6t_white Sand.jpg" id="6t_white Sand" data-flag="@X" onclick="openSidebar('6t_white Sand',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\7t_Shir.jpg" id="7t_Shir" data-flag="@X" onclick="openSidebar('7t_Shir',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\8t_Soldier.jpg" id="8t_Soldier" data-flag="@X" onclick="openSidebar('8t_Soldier',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\9t_Soldier Army.jpg" id="9t_Soldier Army" data-flag="@X" onclick="openSidebar('9t_Soldier Army',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\10t_Soldier 2.jpg" id="10t_Soldier 2" data-flag="@X" onclick="openSidebar('10t_Soldier 2',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\11t_Soldier 3.jpg" id="11t_Soldier 3" data-flag="@X" onclick="openSidebar('11t_Soldier 3',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\12t_Advisor.jpg" id="12t_Advisor" data-flag="@X" onclick="openSidebar('12t_Advisor',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\13t_blue Bird.jpg" id="13t_blue Bird" data-flag="@X" onclick="openSidebar('13t_blue Bird',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\14t_Rogue.jpg" id="14t_Rogue" data-flag="@X" onclick="openSidebar('14t_Rogue',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\15t_blue Sand.jpg" id="15t_blue Sand" data-flag="@X" onclick="openSidebar('15t_blue Sand',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\16t_Demon.jpg" id="16t_Demon" data-flag="@X" onclick="openSidebar('16t_Demon',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\17t_Insect.jpg" id="17t_Insect" data-flag="@X" onclick="openSidebar('17t_Insect',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\18t_black Snake.jpg" id="18t_black Snake" data-flag="@X" onclick="openSidebar('18t_black Snake',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\19t_Dog.jpg" id="19t_Dog" data-flag="@X" onclick="openSidebar('19t_Dog',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\20t_Manticore.jpg" id="20t_Manticore" data-flag="@X" onclick="openSidebar('20t_Manticore',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\21t_red Sand.jpg" id="21t_red Sand" data-flag="@X" onclick="openSidebar('21t_red Sand',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\22t_green Sand.jpg" id="22t_green Sand" data-flag="@X" onclick="openSidebar('22t_green Sand',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\23t_Snake.jpg" id="23t_Snake" data-flag="@X" onclick="openSidebar('23t_Snake',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\24t_Cleric.jpg" id="24t_Cleric" data-flag="@X" onclick="openSidebar('24t_Cleric',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\25t_Horror.jpg" id="25t_Horror" data-flag="@X" onclick="openSidebar('25t_Horror',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\26t_Treasure.jpg" id="26t_Treasure" data-flag="@X" onclick="openSidebar('26t_Treasure',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\27t_Treasure 2.jpg" id="27t_Treasure 2" data-flag="@X" onclick="openSidebar('27t_Treasure 2',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\28t_Weapon.jpg" id="28t_Weapon" data-flag="@X" onclick="openSidebar('28t_Weapon',false)"></div>
+			<div class="container"><img alt="/sets\ALK-files\img\29t_Emblem.jpg" id="29t_Emblem" data-flag="@X" onclick="openSidebar('29t_Emblem',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && sidebar_img.src.includes("_front"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>

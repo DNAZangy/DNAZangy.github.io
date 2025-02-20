@@ -1,12 +1,13 @@
 ﻿[CustomCards]
-	[	{
+	[
+		{
 			"name": "Imani Whitaker",
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Legendary Creature — Human Soldier ",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/12_Imani Whitaker.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/12_Imani Whitaker.jpg"
 			}
 		},
 		{
@@ -16,7 +17,7 @@
 			"type": "Creature — Human Soldier Scout ",
 			"collector_number": "108",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/108_Turnberry Scout.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/108_Turnberry Scout.jpg"
 			}
 		},
 		{
@@ -26,7 +27,7 @@
 			"type": "Legendary Creature — Human Noble ",
 			"collector_number": "123",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/123_Caryl Rey, the Rose.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/123_Caryl Rey, the Rose.jpg"
 			}
 		},
 		{
@@ -36,7 +37,7 @@
 			"type": "Legendary Creature — Azra Knight ",
 			"collector_number": "174",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/174_Ranulf, the Seed of Sapner.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/174_Ranulf, the Seed of Sapner.jpg"
 			}
 		},
 		{
@@ -46,7 +47,7 @@
 			"type": "Creature — Faerie Wizard ",
 			"collector_number": "238",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/238_Takers of Voice.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/238_Takers of Voice.jpg"
 			}
 		},
 		{
@@ -56,7 +57,7 @@
 			"type": "Legendary Creature — Azra Wizard ",
 			"collector_number": "219",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/219_Bistra Sapner, the Tide.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/219_Bistra Sapner, the Tide.jpg"
 			}
 		},
 		{
@@ -66,7 +67,7 @@
 			"type": "Legendary Creature — Human Noble ",
 			"collector_number": "218",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/218_Bennet Terrel, the High King.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/218_Bennet Terrel, the High King.jpg"
 			}
 		},
 		{
@@ -76,7 +77,7 @@
 			"type": "Legendary Planeswalker — Marilye ",
 			"collector_number": "59",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/59_Marilye, Heirloom Pilferer.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/59_Marilye, Heirloom Pilferer.jpg"
 			}
 		},
 		{
@@ -86,7 +87,7 @@
 			"type": "Legendary Planeswalker — Haubay ",
 			"collector_number": "189",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/189_Claes, Wandering Alone.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/189_Claes, Wandering Alone.jpg"
 			}
 		},
 		{
@@ -96,7 +97,7 @@
 			"type": "Legendary Planeswalker — Suyay ",
 			"collector_number": "200",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/200_Capac Suyay, Grim Seeker.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/200_Capac Suyay, Grim Seeker.jpg"
 			}
 		},
 		{
@@ -106,7 +107,7 @@
 			"type": "Creature — Ouphe Shaman ",
 			"collector_number": "167",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/167_Geistwald Retainer.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/167_Geistwald Retainer.jpg"
 			}
 		},
 		{
@@ -115,15 +116,15 @@
 			"mana_cost": "{B}{B}",
 			"type": "Legendary Creature — Elf Noble ",
 			"collector_number": "113",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/113_Waldemar, Forgotten Heir_front.png"
-			},
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://DNAZangy.github.io/sets/HOD-files/img/113_Waldemar, Forgotten Heir_back.png"
+					"en": "https://DNAZangy.github.io/sets/HOD-files/img/113_Waldemar, Forgotten Heir_back.jpg"
 				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/113_Waldemar, Forgotten Heir_front.jpg"
 			}
 		},
 		{
@@ -133,7 +134,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/1_The Aciesblade.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/1_The Aciesblade.jpg"
 			}
 		},
 		{
@@ -143,7 +144,7 @@
 			"type": "Sorcery",
 			"collector_number": "146",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/146_Thorough Conflagration.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/146_Thorough Conflagration.jpg"
 			}
 		},
 		{
@@ -153,7 +154,7 @@
 			"type": "Legendary Creature — Human Pirate ",
 			"collector_number": "225",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/225_Elric Nye, the Pirate King.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/225_Elric Nye, the Pirate King.jpg"
 			}
 		},
 		{
@@ -163,7 +164,7 @@
 			"type": "Legendary Creature — Human Noble ",
 			"collector_number": "224",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/224_Edith Rey the Just.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/224_Edith Rey the Just.jpg"
 			}
 		},
 		{
@@ -173,7 +174,7 @@
 			"type": "Legendary Creature — Elf Warlock ",
 			"collector_number": "221",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/221_Delora Vance, Lord of Laughs.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/221_Delora Vance, Lord of Laughs.jpg"
 			}
 		},
 		{
@@ -183,7 +184,7 @@
 			"type": "Creature — Kraken Horror ",
 			"collector_number": "50",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/50_Geistwald Kraken.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/50_Geistwald Kraken.jpg"
 			}
 		},
 		{
@@ -193,7 +194,7 @@
 			"type": "Instant",
 			"collector_number": "95",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/95_On the Knife's Edge.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/95_On the Knife's Edge.jpg"
 			}
 		},
 		{
@@ -203,7 +204,7 @@
 			"type": "Artifact — Equipment ",
 			"collector_number": "241",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/241_Blade of Heart and Soul.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/241_Blade of Heart and Soul.jpg"
 			}
 		},
 		{
@@ -213,7 +214,7 @@
 			"type": "Land",
 			"collector_number": "250",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/250_Castle on the Delta.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/250_Castle on the Delta.jpg"
 			}
 		},
 		{
@@ -223,7 +224,7 @@
 			"type": "Land",
 			"collector_number": "252",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/252_Fort Sapner.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/252_Fort Sapner.jpg"
 			}
 		},
 		{
@@ -233,7 +234,7 @@
 			"type": "Land",
 			"collector_number": "253",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/253_Hall of Graven Laughs.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/253_Hall of Graven Laughs.jpg"
 			}
 		},
 		{
@@ -243,7 +244,7 @@
 			"type": "Land",
 			"collector_number": "254",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/254_Kings Rock Castle.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/254_Kings Rock Castle.jpg"
 			}
 		},
 		{
@@ -253,7 +254,7 @@
 			"type": "Land",
 			"collector_number": "256",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/256_Skyspire Keep.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/256_Skyspire Keep.jpg"
 			}
 		},
 		{
@@ -263,7 +264,7 @@
 			"type": "Legendary Artifact — Equipment ",
 			"collector_number": "220",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/220_The Crown of Skyspire.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/220_The Crown of Skyspire.jpg"
 			}
 		},
 		{
@@ -273,7 +274,7 @@
 			"type": "Instant",
 			"collector_number": "222",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/222_Dirt to Flesh.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/222_Dirt to Flesh.jpg"
 			}
 		},
 		{
@@ -283,7 +284,7 @@
 			"type": "Sorcery",
 			"collector_number": "227",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/227_Frenzied Lunge.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/227_Frenzied Lunge.jpg"
 			}
 		},
 		{
@@ -293,7 +294,7 @@
 			"type": "Creature — Hag Warlock ",
 			"collector_number": "239",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/239_Virulent Hexer.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/239_Virulent Hexer.jpg"
 			}
 		},
 		{
@@ -303,7 +304,7 @@
 			"type": "Enchantment",
 			"collector_number": "231",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/231_Leon's Claim.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/231_Leon's Claim.jpg"
 			}
 		},
 		{
@@ -313,7 +314,7 @@
 			"type": "Enchamtnet — Aura Curse",
 			"collector_number": "240",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/240_Weight of War.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/240_Weight of War.jpg"
 			}
 		},
 		{
@@ -323,7 +324,7 @@
 			"type": "Creature — Human Wizard ",
 			"collector_number": "209",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/209_Radcliff Dragoncaller.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/209_Radcliff Dragoncaller.jpg"
 			}
 		},
 		{
@@ -333,7 +334,7 @@
 			"type": "Creature — Faerie Rogue ",
 			"collector_number": "194",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/194_Royal Seeker.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/194_Royal Seeker.jpg"
 			}
 		},
 		{
@@ -343,7 +344,7 @@
 			"type": "Enchantment",
 			"collector_number": "203",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/203_Rule from Afar.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/203_Rule from Afar.jpg"
 			}
 		},
 		{
@@ -353,7 +354,7 @@
 			"type": "Instant",
 			"collector_number": "205",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/205_Proof of Divinity.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/205_Proof of Divinity.jpg"
 			}
 		},
 		{
@@ -363,7 +364,7 @@
 			"type": "Sorcery",
 			"collector_number": "216",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/216_Appeal to Ancestry.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/216_Appeal to Ancestry.jpg"
 			}
 		},
 		{
@@ -373,7 +374,7 @@
 			"type": "Enchantment",
 			"collector_number": "226",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/226_Explore the Great Unknown.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/226_Explore the Great Unknown.jpg"
 			}
 		},
 		{
@@ -383,7 +384,7 @@
 			"type": "Artifact — Vehicle ",
 			"collector_number": "243",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/243_Extravagent Airship.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/243_Extravagent Airship.jpg"
 			}
 		},
 		{
@@ -393,7 +394,7 @@
 			"type": "Artifact — Clue ",
 			"collector_number": "245",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/245_Important Parcel.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/245_Important Parcel.jpg"
 			}
 		},
 		{
@@ -403,7 +404,7 @@
 			"type": "Artifact",
 			"collector_number": "246",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/246_Slabman Stoneplate.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/246_Slabman Stoneplate.jpg"
 			}
 		},
 		{
@@ -413,7 +414,7 @@
 			"type": "Land",
 			"collector_number": "251",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/251_Clearing in the Glade.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/251_Clearing in the Glade.jpg"
 			}
 		},
 		{
@@ -423,7 +424,7 @@
 			"type": "Land",
 			"collector_number": "255",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/255_Overflowing Sanctuary.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/255_Overflowing Sanctuary.jpg"
 			}
 		},
 		{
@@ -433,7 +434,7 @@
 			"type": "Artifact — Vehicle ",
 			"collector_number": "242",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/242_Dreadship Vessel.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/242_Dreadship Vessel.jpg"
 			}
 		},
 		{
@@ -443,7 +444,7 @@
 			"type": "Artifact — Vehicle ",
 			"collector_number": "244",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/244_Hulking Vessel.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/244_Hulking Vessel.jpg"
 			}
 		},
 		{
@@ -453,7 +454,7 @@
 			"type": "Artifact — Clue ",
 			"collector_number": "247",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/247_War Map.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/247_War Map.jpg"
 			}
 		},
 		{
@@ -463,7 +464,7 @@
 			"type": "Artifact Creature — Gargoyle Knight ",
 			"collector_number": "248",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/248_Wealthy Slabman.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/248_Wealthy Slabman.jpg"
 			}
 		},
 		{
@@ -473,7 +474,7 @@
 			"type": "Artifact",
 			"collector_number": "249",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/249_Writ of Supplies.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/249_Writ of Supplies.jpg"
 			}
 		},
 		{
@@ -483,7 +484,7 @@
 			"type": "Land",
 			"collector_number": "257",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/257_Terramorphic Expanse.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/257_Terramorphic Expanse.jpg"
 			}
 		},
 		{
@@ -493,7 +494,7 @@
 			"type": "Creature — Kithkin Bard ",
 			"collector_number": "158",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/158_Campsite Bard.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/158_Campsite Bard.jpg"
 			}
 		},
 		{
@@ -503,7 +504,7 @@
 			"type": "Creature — Ouphe Rogue ",
 			"collector_number": "129",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/129_Geistwald Deceiver.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/129_Geistwald Deceiver.jpg"
 			}
 		},
 		{
@@ -513,7 +514,7 @@
 			"type": "Creature — Merfolk Scout ",
 			"collector_number": "44",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/44_Captivating Merfolk.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/44_Captivating Merfolk.jpg"
 			}
 		},
 		{
@@ -523,7 +524,7 @@
 			"type": "Creature — Human Knight Army ",
 			"collector_number": "234",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/234_Sapner Cavalry.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/234_Sapner Cavalry.jpg"
 			}
 		},
 		{
@@ -533,7 +534,7 @@
 			"type": "Creature — Orc Rogue ",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/11_House Rivers Escorter.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/11_House Rivers Escorter.jpg"
 			}
 		},
 		{
@@ -543,7 +544,7 @@
 			"type": "Creature — Faerie Assassin ",
 			"collector_number": "94",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/94_Nye Informant.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/94_Nye Informant.jpg"
 			}
 		},
 		{
@@ -553,7 +554,7 @@
 			"type": "Legendary Creature — Kithkin Rogue ",
 			"collector_number": "192",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/192_Elias Plaskett, the Hidden Blade.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/192_Elias Plaskett, the Hidden Blade.jpg"
 			}
 		},
 		{
@@ -563,7 +564,7 @@
 			"type": "Legendary Creature — Angel Soldier ",
 			"collector_number": "191",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/191_Oriel Rivers.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/191_Oriel Rivers.jpg"
 			}
 		},
 		{
@@ -573,7 +574,7 @@
 			"type": "Legendary Creature — Azra Noble ",
 			"collector_number": "214",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/214_Dovizia Attwater.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/214_Dovizia Attwater.jpg"
 			}
 		},
 		{
@@ -583,7 +584,7 @@
 			"type": "Legendary Creature — Human Warrior ",
 			"collector_number": "196",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/196_Wulfric Hook.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/196_Wulfric Hook.jpg"
 			}
 		},
 		{
@@ -593,7 +594,7 @@
 			"type": "Instant",
 			"collector_number": "163",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/163_Foliage Decoy.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/163_Foliage Decoy.jpg"
 			}
 		},
 		{
@@ -603,7 +604,7 @@
 			"type": "Creature — Elf Warlock ",
 			"collector_number": "79",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/79_Callous Commander.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/79_Callous Commander.jpg"
 			}
 		},
 		{
@@ -613,7 +614,7 @@
 			"type": "Legendary Creature — Human Knight ",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/18_Leon Terrel, Unspoken Heir.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/18_Leon Terrel, Unspoken Heir.jpg"
 			}
 		},
 		{
@@ -623,7 +624,7 @@
 			"type": "Legendary Creature — Ouphe Knight ",
 			"collector_number": "211",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/211_Gosfridus Turnberry.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/211_Gosfridus Turnberry.jpg"
 			}
 		},
 		{
@@ -633,7 +634,7 @@
 			"type": "Legendary Creature — Human Pirate Noble ",
 			"collector_number": "76",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/76_Wilmot Nye, the Crafty.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/76_Wilmot Nye, the Crafty.jpg"
 			}
 		},
 		{
@@ -643,7 +644,7 @@
 			"type": "Creature — Kithkin Pirate ",
 			"collector_number": "72",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/72_Thugs at Graven Laughs.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/72_Thugs at Graven Laughs.jpg"
 			}
 		},
 		{
@@ -653,7 +654,7 @@
 			"type": "Creature — Elemental Dragon ",
 			"collector_number": "132",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/132_Herald of Storms.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/132_Herald of Storms.jpg"
 			}
 		},
 		{
@@ -663,7 +664,7 @@
 			"type": "Sorcery",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/3_Call to War.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/3_Call to War.jpg"
 			}
 		},
 		{
@@ -673,7 +674,7 @@
 			"type": "Creature — Hydra Mutant ",
 			"collector_number": "165",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/165_Geistwald Amalgam.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/165_Geistwald Amalgam.jpg"
 			}
 		},
 		{
@@ -683,7 +684,7 @@
 			"type": "Instant",
 			"collector_number": "150",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/150_William's Epiphany.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/150_William's Epiphany.jpg"
 			}
 		},
 		{
@@ -693,7 +694,7 @@
 			"type": "Creature — Phoenix ",
 			"collector_number": "122",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/122_Blazing Phoenix.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/122_Blazing Phoenix.jpg"
 			}
 		},
 		{
@@ -703,7 +704,7 @@
 			"type": "Creature — Cat ",
 			"collector_number": "24",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/24_Regal Lion.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/24_Regal Lion.jpg"
 			}
 		},
 		{
@@ -713,7 +714,7 @@
 			"type": "Creature — Otter ",
 			"collector_number": "54",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/54_Inquisitive Otter.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/54_Inquisitive Otter.jpg"
 			}
 		},
 		{
@@ -723,7 +724,7 @@
 			"type": "Creature — Hyena ",
 			"collector_number": "105",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/105_Thriving Hyena.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/105_Thriving Hyena.jpg"
 			}
 		},
 		{
@@ -733,7 +734,7 @@
 			"type": "Creature — Lizard ",
 			"collector_number": "173",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/173_Quirky Chameleon.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/173_Quirky Chameleon.jpg"
 			}
 		},
 		{
@@ -743,7 +744,7 @@
 			"type": "Enchantment",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/19_Luminous Distraction.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/19_Luminous Distraction.jpg"
 			}
 		},
 		{
@@ -753,7 +754,7 @@
 			"type": "Legendary Creature — Elf Noble ",
 			"collector_number": "97",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/97_Petula Vance, the Solemn Joke.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/97_Petula Vance, the Solemn Joke.jpg"
 			}
 		},
 		{
@@ -763,7 +764,7 @@
 			"type": "Sorcery",
 			"collector_number": "27",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/27_Scorched Earth.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/27_Scorched Earth.jpg"
 			}
 		},
 		{
@@ -773,7 +774,7 @@
 			"type": "Instant",
 			"collector_number": "60",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/60_Mirrorkins Bargain.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/60_Mirrorkins Bargain.jpg"
 			}
 		},
 		{
@@ -783,7 +784,7 @@
 			"type": "Instant",
 			"collector_number": "53",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/53_Grasp of the Mirrorkin.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/53_Grasp of the Mirrorkin.jpg"
 			}
 		},
 		{
@@ -793,7 +794,7 @@
 			"type": "Sorcery",
 			"collector_number": "81",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/81_Closure.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/81_Closure.jpg"
 			}
 		},
 		{
@@ -803,7 +804,7 @@
 			"type": "Sorcery",
 			"collector_number": "103",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/103_Taken By House Vance.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/103_Taken By House Vance.jpg"
 			}
 		},
 		{
@@ -813,7 +814,7 @@
 			"type": "Sorcery",
 			"collector_number": "144",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/144_Standoff at Beachside.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/144_Standoff at Beachside.jpg"
 			}
 		},
 		{
@@ -823,7 +824,7 @@
 			"type": "Instant",
 			"collector_number": "157",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/157_Battle for the Aciesblade.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/157_Battle for the Aciesblade.jpg"
 			}
 		},
 		{
@@ -833,7 +834,7 @@
 			"type": "Legendary Creature — Human Knight ",
 			"collector_number": "208",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/208_Minna Radcliff, the Swift.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/208_Minna Radcliff, the Swift.jpg"
 			}
 		},
 		{
@@ -843,7 +844,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "198",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/198_The Empty Throne.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/198_The Empty Throne.jpg"
 			}
 		},
 		{
@@ -853,7 +854,7 @@
 			"type": "Legendary Creature — Human Knight ",
 			"collector_number": "204",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/204_Conrad Whitaker, Protector.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/204_Conrad Whitaker, Protector.jpg"
 			}
 		},
 		{
@@ -863,7 +864,7 @@
 			"type": "Legendary Creature — Azra Knight ",
 			"collector_number": "202",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/202_Roul Banefort, the Stern.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/202_Roul Banefort, the Stern.jpg"
 			}
 		},
 		{
@@ -873,7 +874,7 @@
 			"type": "Legendary Creature — Orc Knight ",
 			"collector_number": "212",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/212_Alger Perle, Lord of Truetower.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/212_Alger Perle, Lord of Truetower.jpg"
 			}
 		},
 		{
@@ -883,7 +884,7 @@
 			"type": "Sorcery",
 			"collector_number": "237",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/237_Succession Scandal.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/237_Succession Scandal.jpg"
 			}
 		},
 		{
@@ -893,7 +894,7 @@
 			"type": "Instant",
 			"collector_number": "232",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/232_Meeting of Powers.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/232_Meeting of Powers.jpg"
 			}
 		},
 		{
@@ -903,7 +904,7 @@
 			"type": "Creature — Human Knight ",
 			"collector_number": "230",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/230_Inspiring Warsworn.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/230_Inspiring Warsworn.jpg"
 			}
 		},
 		{
@@ -913,7 +914,7 @@
 			"type": "Instant",
 			"collector_number": "223",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/223_Drown in Wealth.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/223_Drown in Wealth.jpg"
 			}
 		},
 		{
@@ -923,7 +924,7 @@
 			"type": "Creature — Angel Soldier ",
 			"collector_number": "217",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/217_Arbiter of the Meek.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/217_Arbiter of the Meek.jpg"
 			}
 		},
 		{
@@ -933,7 +934,7 @@
 			"type": "Creature — Griffin ",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/21_Noble Griffin.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/21_Noble Griffin.jpg"
 			}
 		},
 		{
@@ -943,7 +944,7 @@
 			"type": "Creature — Turtle ",
 			"collector_number": "47",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/47_Enduring Turtle.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/47_Enduring Turtle.jpg"
 			}
 		},
 		{
@@ -953,7 +954,7 @@
 			"type": "Creature — Scorpion ",
 			"collector_number": "102",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/102_Tacit Scorpion.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/102_Tacit Scorpion.jpg"
 			}
 		},
 		{
@@ -963,7 +964,7 @@
 			"type": "Creature — Dragon ",
 			"collector_number": "124",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/124_Catastrophic Dragon.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/124_Catastrophic Dragon.jpg"
 			}
 		},
 		{
@@ -973,7 +974,7 @@
 			"type": "Creature — Ox ",
 			"collector_number": "179",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/179_Robust Oxen.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/179_Robust Oxen.jpg"
 			}
 		},
 		{
@@ -983,7 +984,7 @@
 			"type": "Land",
 			"collector_number": "273",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/273_Ardleby Hold.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/273_Ardleby Hold.jpg"
 			}
 		},
 		{
@@ -993,7 +994,7 @@
 			"type": "Land",
 			"collector_number": "274",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/274_Beachside Castle.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/274_Beachside Castle.jpg"
 			}
 		},
 		{
@@ -1003,7 +1004,7 @@
 			"type": "Land",
 			"collector_number": "275",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/275_Castle of Death's Sting.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/275_Castle of Death's Sting.jpg"
 			}
 		},
 		{
@@ -1013,7 +1014,7 @@
 			"type": "Land",
 			"collector_number": "276",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/276_Castle of Shrouded Coasts.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/276_Castle of Shrouded Coasts.jpg"
 			}
 		},
 		{
@@ -1023,7 +1024,7 @@
 			"type": "Land",
 			"collector_number": "277",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/277_Cloudkissed Keep.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/277_Cloudkissed Keep.jpg"
 			}
 		},
 		{
@@ -1033,7 +1034,7 @@
 			"type": "Land",
 			"collector_number": "278",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/278_Hall of Flowing Streams.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/278_Hall of Flowing Streams.jpg"
 			}
 		},
 		{
@@ -1043,7 +1044,7 @@
 			"type": "Land",
 			"collector_number": "279",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/279_Riverdale Fortress.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/279_Riverdale Fortress.jpg"
 			}
 		},
 		{
@@ -1053,7 +1054,7 @@
 			"type": "Land",
 			"collector_number": "280",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/280_Sandrock Castle.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/280_Sandrock Castle.jpg"
 			}
 		},
 		{
@@ -1063,7 +1064,7 @@
 			"type": "Land",
 			"collector_number": "281",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/281_Truetower Castle.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/281_Truetower Castle.jpg"
 			}
 		},
 		{
@@ -1073,7 +1074,7 @@
 			"type": "Land",
 			"collector_number": "282",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/282_Turnberry Citadel.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/282_Turnberry Citadel.jpg"
 			}
 		},
 		{
@@ -1083,7 +1084,7 @@
 			"type": "Artifact",
 			"collector_number": "258",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/258_Attwater Sigil.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/258_Attwater Sigil.jpg"
 			}
 		},
 		{
@@ -1093,7 +1094,7 @@
 			"type": "Artifact",
 			"collector_number": "259",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/259_Banefort Sigil.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/259_Banefort Sigil.jpg"
 			}
 		},
 		{
@@ -1103,7 +1104,7 @@
 			"type": "Artifact",
 			"collector_number": "260",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/260_Hook Sigil.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/260_Hook Sigil.jpg"
 			}
 		},
 		{
@@ -1113,7 +1114,7 @@
 			"type": "Artifact",
 			"collector_number": "261",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/261_Nye Sigil.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/261_Nye Sigil.jpg"
 			}
 		},
 		{
@@ -1123,7 +1124,7 @@
 			"type": "Artifact",
 			"collector_number": "262",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/262_Perle Sigil.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/262_Perle Sigil.jpg"
 			}
 		},
 		{
@@ -1133,7 +1134,7 @@
 			"type": "Artifact",
 			"collector_number": "263",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/263_Phyre Sigil.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/263_Phyre Sigil.jpg"
 			}
 		},
 		{
@@ -1143,7 +1144,7 @@
 			"type": "Artifact",
 			"collector_number": "264",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/264_Plaskett Sigil.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/264_Plaskett Sigil.jpg"
 			}
 		},
 		{
@@ -1153,7 +1154,7 @@
 			"type": "Artifact",
 			"collector_number": "265",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/265_Radcliff Sigil.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/265_Radcliff Sigil.jpg"
 			}
 		},
 		{
@@ -1163,7 +1164,7 @@
 			"type": "Artifact",
 			"collector_number": "266",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/266_Rey Sigil.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/266_Rey Sigil.jpg"
 			}
 		},
 		{
@@ -1173,7 +1174,7 @@
 			"type": "Artifact",
 			"collector_number": "267",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/267_Rivers Sigil.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/267_Rivers Sigil.jpg"
 			}
 		},
 		{
@@ -1183,7 +1184,7 @@
 			"type": "Artifact",
 			"collector_number": "268",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/268_Sapner Sigil.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/268_Sapner Sigil.jpg"
 			}
 		},
 		{
@@ -1193,7 +1194,7 @@
 			"type": "Artifact",
 			"collector_number": "269",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/269_Terrel Sigil.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/269_Terrel Sigil.jpg"
 			}
 		},
 		{
@@ -1203,7 +1204,7 @@
 			"type": "Artifact",
 			"collector_number": "270",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/270_Turnberry Sigil.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/270_Turnberry Sigil.jpg"
 			}
 		},
 		{
@@ -1213,7 +1214,7 @@
 			"type": "Artifact",
 			"collector_number": "271",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/271_Vance Sigil.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/271_Vance Sigil.jpg"
 			}
 		},
 		{
@@ -1223,7 +1224,7 @@
 			"type": "Artifact",
 			"collector_number": "272",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/272_Whitaker Sigil.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/272_Whitaker Sigil.jpg"
 			}
 		},
 		{
@@ -1233,7 +1234,7 @@
 			"type": "Creature — Gargoyle Knight ",
 			"collector_number": "29",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/29_Terrel Battlemage.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/29_Terrel Battlemage.jpg"
 			}
 		},
 		{
@@ -1243,7 +1244,7 @@
 			"type": "Legendary Creature — Human Wizard ",
 			"collector_number": "37",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/37_Wystan Terrel, the Occultist.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/37_Wystan Terrel, the Occultist.jpg"
 			}
 		},
 		{
@@ -1253,7 +1254,7 @@
 			"type": "Legendary Creature — Human Pirate ",
 			"collector_number": "56",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/56_Lodema, Diamond of the Nye.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/56_Lodema, Diamond of the Nye.jpg"
 			}
 		},
 		{
@@ -1263,7 +1264,7 @@
 			"type": "Creature — Human Pirate ",
 			"collector_number": "62",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/62_Nye Battlemage.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/62_Nye Battlemage.jpg"
 			}
 		},
 		{
@@ -1273,7 +1274,7 @@
 			"type": "Legendary Creature — Elf Soldier ",
 			"collector_number": "77",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/77_Alder, Vances Claw.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/77_Alder, Vances Claw.jpg"
 			}
 		},
 		{
@@ -1283,7 +1284,7 @@
 			"type": "Creature — Gargoyle Knight ",
 			"collector_number": "109",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/109_Vance Battlemage.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/109_Vance Battlemage.jpg"
 			}
 		},
 		{
@@ -1293,7 +1294,7 @@
 			"type": "Creature — Orc Soldier ",
 			"collector_number": "140",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/140_Rey Battlemage.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/140_Rey Battlemage.jpg"
 			}
 		},
 		{
@@ -1303,7 +1304,7 @@
 			"type": "Legendary Creature — Human Noble ",
 			"collector_number": "149",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/149_William Rey, Lover to All.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/149_William Rey, Lover to All.jpg"
 			}
 		},
 		{
@@ -1313,7 +1314,7 @@
 			"type": "Legendary Creature — Azra Knight ",
 			"collector_number": "164",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/164_Fulchard Sapner, Gentle Giant.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/164_Fulchard Sapner, Gentle Giant.jpg"
 			}
 		},
 		{
@@ -1323,7 +1324,7 @@
 			"type": "Creature — Satyr Druid ",
 			"collector_number": "180",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/180_Sapner Battlemage.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/180_Sapner Battlemage.jpg"
 			}
 		},
 		{
@@ -1333,7 +1334,7 @@
 			"type": "Creature — Human Peasant ",
 			"collector_number": "206",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/206_Travelcart Supplier.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/206_Travelcart Supplier.jpg"
 			}
 		},
 		{
@@ -1343,7 +1344,7 @@
 			"type": "Creature — Kithkin Bard Soldier ",
 			"collector_number": "235",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/235_Sapner Warsworn.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/235_Sapner Warsworn.jpg"
 			}
 		},
 		{
@@ -1353,7 +1354,7 @@
 			"type": "Creature — Kithkin Rogue ",
 			"collector_number": "193",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/193_Plaskett Headhunter.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/193_Plaskett Headhunter.jpg"
 			}
 		},
 		{
@@ -1363,7 +1364,7 @@
 			"type": "Creature — Human Knight Noble ",
 			"collector_number": "228",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/228_Highborn Sovereign.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/228_Highborn Sovereign.jpg"
 			}
 		},
 		{
@@ -1373,7 +1374,7 @@
 			"type": "Creature — Azra Druid ",
 			"collector_number": "201",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/201_Heart of Banefort.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/201_Heart of Banefort.jpg"
 			}
 		},
 		{
@@ -1383,7 +1384,7 @@
 			"type": "Creature — Kithkin Wizard ",
 			"collector_number": "207",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/207_Flame of Radcliff.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/207_Flame of Radcliff.jpg"
 			}
 		},
 		{
@@ -1393,7 +1394,7 @@
 			"type": "Instant",
 			"collector_number": "197",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/197_Artillery Shot.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/197_Artillery Shot.jpg"
 			}
 		},
 		{
@@ -1403,7 +1404,7 @@
 			"type": "Instant",
 			"collector_number": "195",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/195_Sacrificial Lunge.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/195_Sacrificial Lunge.jpg"
 			}
 		},
 		{
@@ -1413,7 +1414,7 @@
 			"type": "Legendary Creature — Orc Soldier ",
 			"collector_number": "213",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/213_Kirsa Perle, the Sword of Perle.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/213_Kirsa Perle, the Sword of Perle.jpg"
 			}
 		},
 		{
@@ -1423,7 +1424,7 @@
 			"type": "Sorcery",
 			"collector_number": "215",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/215_Petty Negotiations.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/215_Petty Negotiations.jpg"
 			}
 		},
 		{
@@ -1433,7 +1434,7 @@
 			"type": "Creature — Zombie Soldier ",
 			"collector_number": "210",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/210_Citadel Loyalist.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/210_Citadel Loyalist.jpg"
 			}
 		},
 		{
@@ -1443,7 +1444,7 @@
 			"type": "Creature — Faerie Soldier ",
 			"collector_number": "190",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/190_Monarch-Wing Retainer.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/190_Monarch-Wing Retainer.jpg"
 			}
 		},
 		{
@@ -1453,7 +1454,7 @@
 			"type": "Instant",
 			"collector_number": "199",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/199_Succumb to History.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/199_Succumb to History.jpg"
 			}
 		},
 		{
@@ -1463,7 +1464,7 @@
 			"type": "Instant",
 			"collector_number": "35",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/35_Trust in the Future.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/35_Trust in the Future.jpg"
 			}
 		},
 		{
@@ -1473,7 +1474,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "134",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/134_Knighted.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/134_Knighted.jpg"
 			}
 		},
 		{
@@ -1483,7 +1484,7 @@
 			"type": "Sorcery",
 			"collector_number": "172",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/172_Patrol the Geistwald.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/172_Patrol the Geistwald.jpg"
 			}
 		},
 		{
@@ -1493,7 +1494,7 @@
 			"type": "Creature — Zombie Knight ",
 			"collector_number": "187",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/187_Turnberry Overseer.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/187_Turnberry Overseer.jpg"
 			}
 		},
 		{
@@ -1503,7 +1504,7 @@
 			"type": "Creature — Human Soldier ",
 			"collector_number": "36",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/36_Whitaker Captain.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/36_Whitaker Captain.jpg"
 			}
 		},
 		{
@@ -1513,7 +1514,7 @@
 			"type": "Creature — Azra Warlock ",
 			"collector_number": "93",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/93_Necrotic Pactmage.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/93_Necrotic Pactmage.jpg"
 			}
 		},
 		{
@@ -1523,7 +1524,7 @@
 			"type": "Creature — Kithkin Rogue Wizard ",
 			"collector_number": "66",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/66_Plaskett Trickster.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/66_Plaskett Trickster.jpg"
 			}
 		},
 		{
@@ -1533,7 +1534,7 @@
 			"type": "Creature — Human Assassin ",
 			"collector_number": "99",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/99_Plaskett Barber.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/99_Plaskett Barber.jpg"
 			}
 		},
 		{
@@ -1543,7 +1544,7 @@
 			"type": "Creature — Elf Pirate ",
 			"collector_number": "22",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/22_Nye Charlatans.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/22_Nye Charlatans.jpg"
 			}
 		},
 		{
@@ -1553,7 +1554,7 @@
 			"type": "Sorcery",
 			"collector_number": "121",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/121_Binding Lightning.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/121_Binding Lightning.jpg"
 			}
 		},
 		{
@@ -1563,7 +1564,7 @@
 			"type": "Sorcery",
 			"collector_number": "156",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/156_Barroom Bout.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/156_Barroom Bout.jpg"
 			}
 		},
 		{
@@ -1573,7 +1574,7 @@
 			"type": "Sorcery",
 			"collector_number": "133",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/133_Impulsive Replication.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/133_Impulsive Replication.jpg"
 			}
 		},
 		{
@@ -1583,7 +1584,7 @@
 			"type": "Sorcery",
 			"collector_number": "90",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/90_Hoist from Death.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/90_Hoist from Death.jpg"
 			}
 		},
 		{
@@ -1593,7 +1594,7 @@
 			"type": "Creature — Shapeshifter ",
 			"collector_number": "49",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/49_Facestealing Mirrorkin.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/49_Facestealing Mirrorkin.jpg"
 			}
 		},
 		{
@@ -1603,7 +1604,7 @@
 			"type": "Creature — Azra Wizard ",
 			"collector_number": "69",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/69_Sapner Elite.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/69_Sapner Elite.jpg"
 			}
 		},
 		{
@@ -1613,7 +1614,7 @@
 			"type": "Creature — Gargoyle Wizard ",
 			"collector_number": "142",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/142_Sapner Geomancer.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/142_Sapner Geomancer.jpg"
 			}
 		},
 		{
@@ -1623,7 +1624,7 @@
 			"type": "Creature — Azra Knight ",
 			"collector_number": "161",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/161_Cloudkissed Accorder.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/161_Cloudkissed Accorder.jpg"
 			}
 		},
 		{
@@ -1633,7 +1634,7 @@
 			"type": "Instant",
 			"collector_number": "51",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/51_Grab and Go.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/51_Grab and Go.jpg"
 			}
 		},
 		{
@@ -1643,7 +1644,7 @@
 			"type": "Instant",
 			"collector_number": "67",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/67_Read the Wingbeats.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/67_Read the Wingbeats.jpg"
 			}
 		},
 		{
@@ -1653,7 +1654,7 @@
 			"type": "Instant",
 			"collector_number": "68",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/68_Royal Send-Off.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/68_Royal Send-Off.jpg"
 			}
 		},
 		{
@@ -1663,7 +1664,7 @@
 			"type": "Sorcery",
 			"collector_number": "42",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/42_Beginning of a Grand Heist.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/42_Beginning of a Grand Heist.jpg"
 			}
 		},
 		{
@@ -1673,7 +1674,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "43",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/43_The Call to Adventure.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/43_The Call to Adventure.jpg"
 			}
 		},
 		{
@@ -1683,7 +1684,7 @@
 			"type": "Instant",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/17_Left to Wander.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/17_Left to Wander.jpg"
 			}
 		},
 		{
@@ -1693,7 +1694,7 @@
 			"type": "Creature — Orc Knight ",
 			"collector_number": "33",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/33_Travelcart Guardian.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/33_Travelcart Guardian.jpg"
 			}
 		},
 		{
@@ -1703,7 +1704,7 @@
 			"type": "Instant",
 			"collector_number": "32",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/32_Tithe to the King.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/32_Tithe to the King.jpg"
 			}
 		},
 		{
@@ -1713,7 +1714,7 @@
 			"type": "Instant",
 			"collector_number": "34",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/34_Travelcarts Care.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/34_Travelcarts Care.jpg"
 			}
 		},
 		{
@@ -1723,7 +1724,7 @@
 			"type": "Sorcery",
 			"collector_number": "80",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/80_Catharsis of Grief.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/80_Catharsis of Grief.jpg"
 			}
 		},
 		{
@@ -1733,7 +1734,7 @@
 			"type": "Sorcery",
 			"collector_number": "83",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/83_Deadly Interrogation.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/83_Deadly Interrogation.jpg"
 			}
 		},
 		{
@@ -1743,7 +1744,7 @@
 			"type": "Sorcery",
 			"collector_number": "92",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/92_Massacre at Ardleby.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/92_Massacre at Ardleby.jpg"
 			}
 		},
 		{
@@ -1753,7 +1754,7 @@
 			"type": "Creature — Faerie Warlock ",
 			"collector_number": "112",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/112_Vance Soulsapper.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/112_Vance Soulsapper.jpg"
 			}
 		},
 		{
@@ -1763,7 +1764,7 @@
 			"type": "Sorcery",
 			"collector_number": "128",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/128_Gaze Upon Greatness.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/128_Gaze Upon Greatness.jpg"
 			}
 		},
 		{
@@ -1773,7 +1774,7 @@
 			"type": "Creature — Kithkin Rogue ",
 			"collector_number": "139",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/139_Raving Bomber.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/139_Raving Bomber.jpg"
 			}
 		},
 		{
@@ -1783,7 +1784,7 @@
 			"type": "Sorcery",
 			"collector_number": "147",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/147_Torch.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/147_Torch.jpg"
 			}
 		},
 		{
@@ -1793,7 +1794,7 @@
 			"type": "Creature — Orc Soldier ",
 			"collector_number": "148",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/148_Truetower Warden.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/148_Truetower Warden.jpg"
 			}
 		},
 		{
@@ -1803,7 +1804,7 @@
 			"type": "Sorcery",
 			"collector_number": "171",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/171_Nurture.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/171_Nurture.jpg"
 			}
 		},
 		{
@@ -1813,7 +1814,7 @@
 			"type": "Enchantment",
 			"collector_number": "183",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/183_Scars of Wars Past.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/183_Scars of Wars Past.jpg"
 			}
 		},
 		{
@@ -1823,7 +1824,7 @@
 			"type": "Creature — Gargoyle Knight ",
 			"collector_number": "186",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/186_Turnberry Mediator.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/186_Turnberry Mediator.jpg"
 			}
 		},
 		{
@@ -1833,7 +1834,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "188",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/188_Wilderness Training.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/188_Wilderness Training.jpg"
 			}
 		},
 		{
@@ -1843,7 +1844,7 @@
 			"type": "Creature — Orc Pirate ",
 			"collector_number": "233",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/233_Nye Buccaneer.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/233_Nye Buccaneer.jpg"
 			}
 		},
 		{
@@ -1853,7 +1854,7 @@
 			"type": "Creature — Gargoyle Soldier ",
 			"collector_number": "229",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/229_Highguard of the Delta.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/229_Highguard of the Delta.jpg"
 			}
 		},
 		{
@@ -1863,7 +1864,7 @@
 			"type": "Instant",
 			"collector_number": "236",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/236_Serene Meditations.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/236_Serene Meditations.jpg"
 			}
 		},
 		{
@@ -1873,7 +1874,7 @@
 			"type": "Sorcery",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/2_Call of the King.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/2_Call of the King.jpg"
 			}
 		},
 		{
@@ -1883,7 +1884,7 @@
 			"type": "Creature — Orc Pirate Scout ",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/4_Castle Delta Lookout.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/4_Castle Delta Lookout.jpg"
 			}
 		},
 		{
@@ -1893,7 +1894,7 @@
 			"type": "Creature — Faerie Cleric ",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/5_Charitable Faerie.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/5_Charitable Faerie.jpg"
 			}
 		},
 		{
@@ -1903,7 +1904,7 @@
 			"type": "Creature — Azra Soldier ",
 			"collector_number": "26",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/26_Rouls High Guard.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/26_Rouls High Guard.jpg"
 			}
 		},
 		{
@@ -1913,7 +1914,7 @@
 			"type": "Creature — Kithkin Knight ",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/6_Cloudkissed Squire.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/6_Cloudkissed Squire.jpg"
 			}
 		},
 		{
@@ -1923,7 +1924,7 @@
 			"type": "Sorcery",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/7_Give Penance.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/7_Give Penance.jpg"
 			}
 		},
 		{
@@ -1933,7 +1934,7 @@
 			"type": "Instant",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/8_Glimpse.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/8_Glimpse.jpg"
 			}
 		},
 		{
@@ -1943,7 +1944,7 @@
 			"type": "Creature — Bird ",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/9_Honored Eagle.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/9_Honored Eagle.jpg"
 			}
 		},
 		{
@@ -1953,7 +1954,7 @@
 			"type": "Creature — Human Peasant ",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/10_Hopeful Spouse.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/10_Hopeful Spouse.jpg"
 			}
 		},
 		{
@@ -1963,7 +1964,7 @@
 			"type": "Instant",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/13_Impaling Lance.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/13_Impaling Lance.jpg"
 			}
 		},
 		{
@@ -1973,7 +1974,7 @@
 			"type": "Creature — Human Soldier ",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/14_Kings Rock Warden.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/14_Kings Rock Warden.jpg"
 			}
 		},
 		{
@@ -1983,7 +1984,7 @@
 			"type": "Creature — Orc Bard ",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/15_Kirsas Page.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/15_Kirsas Page.jpg"
 			}
 		},
 		{
@@ -1993,7 +1994,7 @@
 			"type": "Creature — Human Knight ",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/16_Knight of Skyspire.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/16_Knight of Skyspire.jpg"
 			}
 		},
 		{
@@ -2003,7 +2004,7 @@
 			"type": "Creature — Human Knight ",
 			"collector_number": "23",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/23_Overcoming Squire.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/23_Overcoming Squire.jpg"
 			}
 		},
 		{
@@ -2013,7 +2014,7 @@
 			"type": "Creature — Kithkin Rogue ",
 			"collector_number": "25",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/25_Rivers Scoundrel.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/25_Rivers Scoundrel.jpg"
 			}
 		},
 		{
@@ -2023,7 +2024,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "28",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/28_Take Root.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/28_Take Root.jpg"
 			}
 		},
 		{
@@ -2033,7 +2034,7 @@
 			"type": "Creature — Human Soldier ",
 			"collector_number": "30",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/30_Terrel Emissary.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/30_Terrel Emissary.jpg"
 			}
 		},
 		{
@@ -2043,7 +2044,7 @@
 			"type": "Creature — Gargoyle Soldier ",
 			"collector_number": "31",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/31_Terrel Recruit.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/31_Terrel Recruit.jpg"
 			}
 		},
 		{
@@ -2053,7 +2054,7 @@
 			"type": "Creature — Kithkin Knight Wizard ",
 			"collector_number": "38",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/38_Wystans Page.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/38_Wystans Page.jpg"
 			}
 		},
 		{
@@ -2063,7 +2064,7 @@
 			"type": "Creature — Faerie Rogue ",
 			"collector_number": "39",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/39_Aerial Interceptor.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/39_Aerial Interceptor.jpg"
 			}
 		},
 		{
@@ -2073,7 +2074,7 @@
 			"type": "Creature — Human Soldier ",
 			"collector_number": "40",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/40_Artful Warsworn.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/40_Artful Warsworn.jpg"
 			}
 		},
 		{
@@ -2083,7 +2084,7 @@
 			"type": "Creature — Azra Knight ",
 			"collector_number": "41",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/41_Attwater Drakerider.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/41_Attwater Drakerider.jpg"
 			}
 		},
 		{
@@ -2093,7 +2094,7 @@
 			"type": "Creature — Human Pirate ",
 			"collector_number": "45",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/45_Devious Sellsword.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/45_Devious Sellsword.jpg"
 			}
 		},
 		{
@@ -2103,7 +2104,7 @@
 			"type": "Instant",
 			"collector_number": "46",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/46_Disappointment.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/46_Disappointment.jpg"
 			}
 		},
 		{
@@ -2113,7 +2114,7 @@
 			"type": "Creature — Bird Horror ",
 			"collector_number": "48",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/48_Evertuning Crane.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/48_Evertuning Crane.jpg"
 			}
 		},
 		{
@@ -2123,7 +2124,7 @@
 			"type": "Instant",
 			"collector_number": "52",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/52_Grand Snail Race at Riverdale.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/52_Grand Snail Race at Riverdale.jpg"
 			}
 		},
 		{
@@ -2133,7 +2134,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "55",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/55_Kidnapping.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/55_Kidnapping.jpg"
 			}
 		},
 		{
@@ -2143,7 +2144,7 @@
 			"type": "Instant",
 			"collector_number": "57",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/57_Lost at Sea.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/57_Lost at Sea.jpg"
 			}
 		},
 		{
@@ -2153,7 +2154,7 @@
 			"type": "Instant",
 			"collector_number": "58",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/58_Lucky Break.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/58_Lucky Break.jpg"
 			}
 		},
 		{
@@ -2163,7 +2164,7 @@
 			"type": "Instant",
 			"collector_number": "61",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/61_Naval Diplomacy.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/61_Naval Diplomacy.jpg"
 			}
 		},
 		{
@@ -2173,7 +2174,7 @@
 			"type": "Creature — Human Pirate Scout ",
 			"collector_number": "63",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/63_Nye Recruit.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/63_Nye Recruit.jpg"
 			}
 		},
 		{
@@ -2183,7 +2184,7 @@
 			"type": "Creature — Human Rogue ",
 			"collector_number": "64",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/64_Pilferer of Shrouded Coasts.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/64_Pilferer of Shrouded Coasts.jpg"
 			}
 		},
 		{
@@ -2193,7 +2194,7 @@
 			"type": "Creature — Kithkin Scout ",
 			"collector_number": "65",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/65_Plaskett Informer.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/65_Plaskett Informer.jpg"
 			}
 		},
 		{
@@ -2203,7 +2204,7 @@
 			"type": "Creature — Spider Horror ",
 			"collector_number": "70",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/70_Secluded Arachnomorph.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/70_Secluded Arachnomorph.jpg"
 			}
 		},
 		{
@@ -2213,7 +2214,7 @@
 			"type": "Instant",
 			"collector_number": "71",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/71_Tavern Dealings.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/71_Tavern Dealings.jpg"
 			}
 		},
 		{
@@ -2223,7 +2224,7 @@
 			"type": "Creature — Faerie Peasant ",
 			"collector_number": "73",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/73_Town Busybody.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/73_Town Busybody.jpg"
 			}
 		},
 		{
@@ -2233,7 +2234,7 @@
 			"type": "Instant",
 			"collector_number": "74",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/74_Under the Cover of Ravens.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/74_Under the Cover of Ravens.jpg"
 			}
 		},
 		{
@@ -2243,7 +2244,7 @@
 			"type": "Creature — Elf Warlock ",
 			"collector_number": "75",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/75_Vance Devotee.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/75_Vance Devotee.jpg"
 			}
 		},
 		{
@@ -2253,7 +2254,7 @@
 			"type": "Sorcery",
 			"collector_number": "78",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/78_Blessing at Graven Laughs.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/78_Blessing at Graven Laughs.jpg"
 			}
 		},
 		{
@@ -2263,7 +2264,7 @@
 			"type": "Creature — Elf Assassin ",
 			"collector_number": "82",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/82_Creeping Mindreaper.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/82_Creeping Mindreaper.jpg"
 			}
 		},
 		{
@@ -2273,7 +2274,7 @@
 			"type": "Instant",
 			"collector_number": "84",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/84_Debt Collection.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/84_Debt Collection.jpg"
 			}
 		},
 		{
@@ -2283,7 +2284,7 @@
 			"type": "Creature — Bird Horror ",
 			"collector_number": "86",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/86_Duplicitous Crow.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/86_Duplicitous Crow.jpg"
 			}
 		},
 		{
@@ -2293,7 +2294,7 @@
 			"type": "Instant",
 			"collector_number": "87",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/87_Edict of the Mirrorkin.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/87_Edict of the Mirrorkin.jpg"
 			}
 		},
 		{
@@ -2303,7 +2304,7 @@
 			"type": "Creature — Horror Knight ",
 			"collector_number": "88",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/88_Fleshborne Horror.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/88_Fleshborne Horror.jpg"
 			}
 		},
 		{
@@ -2313,7 +2314,7 @@
 			"type": "Creature — Kithkin Soldier ",
 			"collector_number": "89",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/89_Footmen of Deaths Sting.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/89_Footmen of Deaths Sting.jpg"
 			}
 		},
 		{
@@ -2323,7 +2324,7 @@
 			"type": "Instant",
 			"collector_number": "85",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/85_Dishonorable End.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/85_Dishonorable End.jpg"
 			}
 		},
 		{
@@ -2333,7 +2334,7 @@
 			"type": "Sorcery",
 			"collector_number": "91",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/91_Jump Scared.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/91_Jump Scared.jpg"
 			}
 		},
 		{
@@ -2343,7 +2344,7 @@
 			"type": "Sorcery",
 			"collector_number": "96",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/96_Overt Warning.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/96_Overt Warning.jpg"
 			}
 		},
 		{
@@ -2353,7 +2354,7 @@
 			"type": "Creature — Kithkin Assassin ",
 			"collector_number": "98",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/98_Plaskett Assassin.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/98_Plaskett Assassin.jpg"
 			}
 		},
 		{
@@ -2363,7 +2364,7 @@
 			"type": "Instant",
 			"collector_number": "100",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/100_Sever the Legacy.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/100_Sever the Legacy.jpg"
 			}
 		},
 		{
@@ -2373,7 +2374,7 @@
 			"type": "Instant",
 			"collector_number": "101",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/101_Supernatural Stamina.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/101_Supernatural Stamina.jpg"
 			}
 		},
 		{
@@ -2383,7 +2384,7 @@
 			"type": "Creature — Orc Knight ",
 			"collector_number": "104",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/104_Terrel Stalwart.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/104_Terrel Stalwart.jpg"
 			}
 		},
 		{
@@ -2393,7 +2394,7 @@
 			"type": "Sorcery",
 			"collector_number": "106",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/106_Torrent of Destruction.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/106_Torrent of Destruction.jpg"
 			}
 		},
 		{
@@ -2403,7 +2404,7 @@
 			"type": "Creature — Zombie Knight ",
 			"collector_number": "107",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/107_Turnberry Legionnaire.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/107_Turnberry Legionnaire.jpg"
 			}
 		},
 		{
@@ -2413,7 +2414,7 @@
 			"type": "Creature — Elf Warlock ",
 			"collector_number": "110",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/110_Vance Mentor.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/110_Vance Mentor.jpg"
 			}
 		},
 		{
@@ -2423,7 +2424,7 @@
 			"type": "Creature — Elf Warrior ",
 			"collector_number": "111",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/111_Vance Recruit.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/111_Vance Recruit.jpg"
 			}
 		},
 		{
@@ -2433,7 +2434,7 @@
 			"type": "Creature — Human Knight ",
 			"collector_number": "114",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/114_Whitaker Cavalry.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/114_Whitaker Cavalry.jpg"
 			}
 		},
 		{
@@ -2443,7 +2444,7 @@
 			"type": "Creature — Gargoyle Knight ",
 			"collector_number": "143",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/143_Skyspire Infantry.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/143_Skyspire Infantry.jpg"
 			}
 		},
 		{
@@ -2453,7 +2454,7 @@
 			"type": "Sorcery",
 			"collector_number": "115",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/115_Ancestral Anger.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/115_Ancestral Anger.jpg"
 			}
 		},
 		{
@@ -2463,7 +2464,7 @@
 			"type": "Creature — Spirit Soldier ",
 			"collector_number": "117",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/117_Ardleby Gatekeeper.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/117_Ardleby Gatekeeper.jpg"
 			}
 		},
 		{
@@ -2473,7 +2474,7 @@
 			"type": "Creature — Kithkin Bard Rogue ",
 			"collector_number": "118",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/118_Barroom Gossip.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/118_Barroom Gossip.jpg"
 			}
 		},
 		{
@@ -2483,7 +2484,7 @@
 			"type": "Sorcery",
 			"collector_number": "119",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/119_Battle Scars.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/119_Battle Scars.jpg"
 			}
 		},
 		{
@@ -2493,7 +2494,7 @@
 			"type": "Sorcery",
 			"collector_number": "120",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/120_Beckon Greatness.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/120_Beckon Greatness.jpg"
 			}
 		},
 		{
@@ -2503,7 +2504,7 @@
 			"type": "Instant",
 			"collector_number": "125",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/125_Deaths Sting Diplomacy.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/125_Deaths Sting Diplomacy.jpg"
 			}
 		},
 		{
@@ -2513,7 +2514,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "126",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/126_Determination.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/126_Determination.jpg"
 			}
 		},
 		{
@@ -2523,7 +2524,7 @@
 			"type": "Sorcery",
 			"collector_number": "127",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/127_Doting Caress.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/127_Doting Caress.jpg"
 			}
 		},
 		{
@@ -2533,7 +2534,7 @@
 			"type": "Creature — Kithkin Soldier ",
 			"collector_number": "116",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/116_Ardent Warsworn.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/116_Ardent Warsworn.jpg"
 			}
 		},
 		{
@@ -2543,7 +2544,7 @@
 			"type": "Sorcery",
 			"collector_number": "130",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/130_Gleaming Courage.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/130_Gleaming Courage.jpg"
 			}
 		},
 		{
@@ -2553,7 +2554,7 @@
 			"type": "Creature — Bear ",
 			"collector_number": "131",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/131_Hardy Bears.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/131_Hardy Bears.jpg"
 			}
 		},
 		{
@@ -2563,7 +2564,7 @@
 			"type": "Creature — Ouphe Warrior ",
 			"collector_number": "135",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/135_Petty Thief.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/135_Petty Thief.jpg"
 			}
 		},
 		{
@@ -2573,7 +2574,7 @@
 			"type": "Creature — Orc Rogue ",
 			"collector_number": "137",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/137_Phyre Sellsword.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/137_Phyre Sellsword.jpg"
 			}
 		},
 		{
@@ -2583,7 +2584,7 @@
 			"type": "Sorcery",
 			"collector_number": "138",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/138_Puncturing Blow.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/138_Puncturing Blow.jpg"
 			}
 		},
 		{
@@ -2593,7 +2594,7 @@
 			"type": "Creature — Human Knight ",
 			"collector_number": "141",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/141_Rey Recruit.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/141_Rey Recruit.jpg"
 			}
 		},
 		{
@@ -2603,7 +2604,7 @@
 			"type": "Creature — Satyr Soldier ",
 			"collector_number": "136",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/136_Phyre Champion.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/136_Phyre Champion.jpg"
 			}
 		},
 		{
@@ -2613,7 +2614,7 @@
 			"type": "Instant",
 			"collector_number": "145",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/145_Summer Tryst.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/145_Summer Tryst.jpg"
 			}
 		},
 		{
@@ -2623,7 +2624,7 @@
 			"type": "Creature — Gargoyle Soldier ",
 			"collector_number": "151",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/151_Williams Page.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/151_Williams Page.jpg"
 			}
 		},
 		{
@@ -2633,7 +2634,7 @@
 			"type": "Instant",
 			"collector_number": "152",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/152_Aggressive Urge.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/152_Aggressive Urge.jpg"
 			}
 		},
 		{
@@ -2643,7 +2644,7 @@
 			"type": "Creature — Satyr Knight ",
 			"collector_number": "153",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/153_Ardleby Vanguard.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/153_Ardleby Vanguard.jpg"
 			}
 		},
 		{
@@ -2653,7 +2654,7 @@
 			"type": "Creature — Azra Knight Scout ",
 			"collector_number": "154",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/154_Attwater Explorer.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/154_Attwater Explorer.jpg"
 			}
 		},
 		{
@@ -2663,7 +2664,7 @@
 			"type": "Creature — Azra Archer Scout ",
 			"collector_number": "155",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/155_Banefort Archer.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/155_Banefort Archer.jpg"
 			}
 		},
 		{
@@ -2673,7 +2674,7 @@
 			"type": "Sorcery",
 			"collector_number": "159",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/159_Cherrywood Purification.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/159_Cherrywood Purification.jpg"
 			}
 		},
 		{
@@ -2683,7 +2684,7 @@
 			"type": "Creature — Zombie Knight ",
 			"collector_number": "160",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/160_Citadel Outrider.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/160_Citadel Outrider.jpg"
 			}
 		},
 		{
@@ -2693,7 +2694,7 @@
 			"type": "Creature — Kithkin Scout ",
 			"collector_number": "162",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/162_Flowing Streams Tracker.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/162_Flowing Streams Tracker.jpg"
 			}
 		},
 		{
@@ -2703,7 +2704,7 @@
 			"type": "Instant",
 			"collector_number": "168",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/168_Guerrilla Ambush.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/168_Guerrilla Ambush.jpg"
 			}
 		},
 		{
@@ -2713,7 +2714,7 @@
 			"type": "Sorcery",
 			"collector_number": "169",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/169_House Negotiations.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/169_House Negotiations.jpg"
 			}
 		},
 		{
@@ -2723,7 +2724,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "170",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/170_Master the Old Ways.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/170_Master the Old Ways.jpg"
 			}
 		},
 		{
@@ -2733,7 +2734,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "175",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/175_Ready Response.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/175_Ready Response.jpg"
 			}
 		},
 		{
@@ -2743,7 +2744,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "176",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/176_Replenishing Camp.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/176_Replenishing Camp.jpg"
 			}
 		},
 		{
@@ -2753,7 +2754,7 @@
 			"type": "Creature — Elk Spirit ",
 			"collector_number": "177",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/177_Resolute Elk.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/177_Resolute Elk.jpg"
 			}
 		},
 		{
@@ -2763,7 +2764,7 @@
 			"type": "Instant",
 			"collector_number": "178",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/178_Revenge of the Geistwald.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/178_Revenge of the Geistwald.jpg"
 			}
 		},
 		{
@@ -2773,7 +2774,7 @@
 			"type": "Creature — Azra Archer ",
 			"collector_number": "181",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/181_Sapner Hunter.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/181_Sapner Hunter.jpg"
 			}
 		},
 		{
@@ -2783,7 +2784,7 @@
 			"type": "Creature — Kithkin Scout ",
 			"collector_number": "182",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/182_Sapner Recruit.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/182_Sapner Recruit.jpg"
 			}
 		},
 		{
@@ -2793,7 +2794,7 @@
 			"type": "Creature — Gargoyle Scout ",
 			"collector_number": "166",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/166_Geistwald Explorer.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/166_Geistwald Explorer.jpg"
 			}
 		},
 		{
@@ -2803,7 +2804,7 @@
 			"type": "Creature — Ouphe ",
 			"collector_number": "184",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/184_Spellwild Ouphe.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/184_Spellwild Ouphe.jpg"
 			}
 		},
 		{
@@ -2813,7 +2814,7 @@
 			"type": "Instant",
 			"collector_number": "185",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/185_Tend to the Wounded.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/185_Tend to the Wounded.jpg"
 			}
 		},
 		{
@@ -2823,7 +2824,7 @@
 			"type": "Token Reminder",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/2_Reserves-Black.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/2_Reserves-Black.jpg"
 			}
 		},
 		{
@@ -2833,7 +2834,7 @@
 			"type": "Token Reminder",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/3_Reserves-Green.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/3_Reserves-Green.jpg"
 			}
 		},
 		{
@@ -2843,7 +2844,7 @@
 			"type": "Token Reminder",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/1_Reserves White.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/1_Reserves White.jpg"
 			}
 		},
 		{
@@ -2853,7 +2854,7 @@
 			"type": "Token Enchantment",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/4_Intisuyus Armies.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/4_Intisuyus Armies.jpg"
 			}
 		},
 		{
@@ -2863,7 +2864,7 @@
 			"type": "Token Creature — Noble ",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/20_Noble.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/20_Noble.jpg"
 			}
 		},
 		{
@@ -2873,7 +2874,7 @@
 			"type": "Token Legendary Creature — Human Wizard ",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/5_The Occultist.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/5_The Occultist.jpg"
 			}
 		},
 		{
@@ -2883,7 +2884,7 @@
 			"type": "Token Creature — Pirate ",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/6_Dewold Pirate.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/6_Dewold Pirate.jpg"
 			}
 		},
 		{
@@ -2893,7 +2894,7 @@
 			"type": "Token Creature — Soldier ",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/7_Suyay's Soldier.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/7_Suyay's Soldier.jpg"
 			}
 		},
 		{
@@ -2903,7 +2904,7 @@
 			"type": "Token Creature — Bird ",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/8_Dewold Bird.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/8_Dewold Bird.jpg"
 			}
 		},
 		{
@@ -2913,7 +2914,7 @@
 			"type": "Token Legendary Creature — Human Pirate ",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/9_The Diamond of the Nye.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/9_The Diamond of the Nye.jpg"
 			}
 		},
 		{
@@ -2923,7 +2924,7 @@
 			"type": "Token Creature — Scout ",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/10_Happy Scout.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/10_Happy Scout.jpg"
 			}
 		},
 		{
@@ -2933,7 +2934,7 @@
 			"type": "Token Creature — Army ",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/11_Dewold Army.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/11_Dewold Army.jpg"
 			}
 		},
 		{
@@ -2943,7 +2944,7 @@
 			"type": "Token Creature — Horror ",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/12_Horror.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/12_Horror.jpg"
 			}
 		},
 		{
@@ -2953,7 +2954,7 @@
 			"type": "Token Creature — Knight ",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/13_Wane Knight.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/13_Wane Knight.jpg"
 			}
 		},
 		{
@@ -2963,7 +2964,7 @@
 			"type": "Token Legendary Creature — Elf Soldier ",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/14_Vances Claw.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/14_Vances Claw.jpg"
 			}
 		},
 		{
@@ -2973,7 +2974,7 @@
 			"type": "Token Legendary Creature — Human Noble ",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/15_Lover to All.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/15_Lover to All.jpg"
 			}
 		},
 		{
@@ -2983,7 +2984,7 @@
 			"type": "Token Creature — Scout ",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/16_BadgerScout.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/16_BadgerScout.jpg"
 			}
 		},
 		{
@@ -2993,7 +2994,7 @@
 			"type": "Token Creature — Soldier ",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/17_Old Soldier.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/17_Old Soldier.jpg"
 			}
 		},
 		{
@@ -3003,7 +3004,7 @@
 			"type": "Token Creature — Soldier ",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/18_Young Soldier.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/18_Young Soldier.jpg"
 			}
 		},
 		{
@@ -3013,7 +3014,7 @@
 			"type": "Token Legendary Creature — Orc Soldier ",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/19_The Sword of Perle.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/19_The Sword of Perle.jpg"
 			}
 		},
 		{
@@ -3023,7 +3024,7 @@
 			"type": "Token Legendary Creature — Azra Knight ",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/20_The Gentle Giant.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/20_The Gentle Giant.jpg"
 			}
 		},
 		{
@@ -3033,7 +3034,7 @@
 			"type": "Token Creature — Knight ",
 			"collector_number": "22",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/22_Protection-Knight.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/22_Protection-Knight.jpg"
 			}
 		},
 		{
@@ -3043,7 +3044,7 @@
 			"type": "Token Creature — Knight ",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/21_Destroyed-Knight.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/21_Destroyed-Knight.jpg"
 			}
 		},
 		{
@@ -3053,7 +3054,7 @@
 			"type": "Token Artifact — Clue ",
 			"collector_number": "23",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/23_Clue.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/23_Clue.jpg"
 			}
 		},
 		{
@@ -3063,7 +3064,7 @@
 			"type": "Token Artifact — Food ",
 			"collector_number": "24",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/24_Food.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/24_Food.jpg"
 			}
 		},
 		{
@@ -3073,7 +3074,7 @@
 			"type": "Token Artifact — Treasure ",
 			"collector_number": "25",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/25_Treasure.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/25_Treasure.jpg"
 			}
 		},
 		{
@@ -3083,268 +3084,267 @@
 			"type": "Token Artifact — Equipment ",
 			"collector_number": "26",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/26_Weapon.png"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/26_Weapon.jpg"
 			}
-		},
-		]
-	[RareSlot(1)]
-	2 Caryl Rey, the Rose
-		2 Ranulf, the Seed of Sapner
-		2 Takers of Voice
-		2 Castle on the Delta
-		2 Fort Sapner
-		2 Hall of Graven Laughs
-		2 Kings Rock Castle
-		2 Skyspire Keep
-		2 The Crown of Skyspire
-		2 Dirt to Flesh
-		2 Frenzied Lunge
-		2 Virulent Hexer
-		2 Leon's Claim
-		2 Weight of War
-		2 Campsite Bard
-		2 Geistwald Deceiver
-		2 Captivating Merfolk
-		2 Sapner Cavalry
-		2 House Rivers Escorter
-		2 Nye Informant
-		2 Elias Plaskett, the Hidden Blade
-		2 Oriel Rivers
-		2 Dovizia Attwater
-		2 Wulfric Hook
-		2 Foliage Decoy
-		2 Callous Commander
-		2 Leon Terrel, Unspoken Heir
-		2 Gosfridus Turnberry
-		2 Wilmot Nye, the Crafty
-		2 Thugs at Graven Laughs
-		2 Herald of Storms
-		2 Call to War
-		2 Geistwald Amalgam
-		2 William's Epiphany
-		2 Blazing Phoenix
-		2 Regal Lion
-		2 Inquisitive Otter
-		2 Thriving Hyena
-		2 Quirky Chameleon
-		2 Luminous Distraction
-		2 Petula Vance, the Solemn Joke
-		2 Scorched Earth
-		2 Mirrorkins Bargain
-		2 Grasp of the Mirrorkin
-		2 Taken By House Vance
-		2 Standoff at Beachside
-		2 Battle for the Aciesblade
-		2 Minna Radcliff, the Swift
-		2 The Empty Throne
-		2 Conrad Whitaker, Protector
-		2 Roul Banefort, the Stern
-		2 Alger Perle, Lord of Truetower
-		2 Succession Scandal
-		2 Meeting of Powers
-		2 Inspiring Warsworn
-		2 Drown in Wealth
-		2 Arbiter of the Meek
-		2 Necrotic Pactmage
-		2 Highguard of the Delta
-		2 Serene Meditations
-		1 Bistra Sapner, the Tide
-		1 Bennet Terrel, the High King
-		1 Marilye, Heirloom Pilferer
-		1 Claes, Wandering Alone
-		1 Capac Suyay, Grim Seeker
-		1 Geistwald Retainer
-		1 Waldemar, Forgotten Heir
-		1 The Aciesblade
-		1 Thorough Conflagration
-		1 Elric Nye, the Pirate King
-		1 Edith Rey the Just
-		1 Delora Vance, Lord of Laughs
-		1 Geistwald Kraken
-		1 Blade of Heart and Soul
-		1 Closure
-		[UncommonSlot(3)]
-	9 Imani Whitaker
-		9 Turnberry Scout
-		9 On the Knife's Edge
-		9 Radcliff Dragoncaller
-		9 Royal Seeker
-		9 Rule from Afar
-		9 Proof of Divinity
-		9 Appeal to Ancestry
-		9 Explore the Great Unknown
-		9 Extravagent Airship
-		9 Important Parcel
-		9 Slabman Stoneplate
-		9 Clearing in the Glade
-		9 Overflowing Sanctuary
-		9 Noble Griffin
-		9 Enduring Turtle
-		9 Tacit Scorpion
-		9 Catastrophic Dragon
-		9 Robust Oxen
-		9 Terrel Battlemage
-		9 Wystan Terrel, the Occultist
-		9 Lodema, Diamond of the Nye
-		9 Nye Battlemage
-		9 Alder, Vances Claw
-		9 Vance Battlemage
-		9 Rey Battlemage
-		9 William Rey, Lover to All
-		9 Fulchard Sapner, Gentle Giant
-		9 Sapner Battlemage
-		9 Travelcart Supplier
-		9 Sapner Warsworn
-		9 Plaskett Headhunter
-		9 Highborn Sovereign
-		9 Heart of Banefort
-		9 Flame of Radcliff
-		9 Artillery Shot
-		9 Sacrificial Lunge
-		9 Kirsa Perle, the Sword of Perle
-		9 Petty Negotiations
-		9 Citadel Loyalist
-		9 Monarch-Wing Retainer
-		9 Succumb to History
-		9 Trust in the Future
-		9 Knighted
-		9 Patrol the Geistwald
-		9 Turnberry Overseer
-		9 Whitaker Captain
-		9 Plaskett Trickster
-		9 Plaskett Barber
-		9 Nye Charlatans
-		9 Binding Lightning
-		9 Barroom Bout
-		9 Impulsive Replication
-		9 Hoist from Death
-		9 Facestealing Mirrorkin
-		9 Sapner Elite
-		9 Sapner Geomancer
-		9 Cloudkissed Accorder
-		9 Grab and Go
-		9 Read the Wingbeats
-		9 Royal Send-Off
-		9 Beginning of a Grand Heist
-		9 The Call to Adventure
-		9 Left to Wander
-		9 Travelcart Guardian
-		9 Tithe to the King
-		9 Travelcarts Care
-		9 Catharsis of Grief
-		9 Deadly Interrogation
-		9 Massacre at Ardleby
-		9 Vance Soulsapper
-		9 Gaze Upon Greatness
-		9 Raving Bomber
-		9 Torch
-		9 Truetower Warden
-		9 Nurture
-		9 Scars of Wars Past
-		9 Turnberry Mediator
-		9 Wilderness Training
-		9 Nye Buccaneer
-		[CommonSlot(10)]
-	30 Dreadship Vessel
-		30 Hulking Vessel
-		30 War Map
-		30 Wealthy Slabman
-		30 Writ of Supplies
-		30 Terramorphic Expanse
-		30 Call of the King
-		30 Castle Delta Lookout
-		30 Charitable Faerie
-		30 Rouls High Guard
-		30 Cloudkissed Squire
-		30 Give Penance
-		30 Glimpse
-		30 Honored Eagle
-		30 Hopeful Spouse
-		30 Impaling Lance
-		30 Kings Rock Warden
-		30 Kirsas Page
-		30 Knight of Skyspire
-		30 Overcoming Squire
-		30 Rivers Scoundrel
-		30 Take Root
-		30 Terrel Emissary
-		30 Terrel Recruit
-		30 Wystans Page
-		30 Aerial Interceptor
-		30 Artful Warsworn
-		30 Attwater Drakerider
-		30 Devious Sellsword
-		30 Disappointment
-		30 Evertuning Crane
-		30 Grand Snail Race at Riverdale
-		30 Kidnapping
-		30 Lost at Sea
-		30 Lucky Break
-		30 Naval Diplomacy
-		30 Nye Recruit
-		30 Pilferer of Shrouded Coasts
-		30 Plaskett Informer
-		30 Secluded Arachnomorph
-		30 Tavern Dealings
-		30 Town Busybody
-		30 Under the Cover of Ravens
-		30 Vance Devotee
-		30 Blessing at Graven Laughs
-		30 Creeping Mindreaper
-		30 Debt Collection
-		30 Duplicitous Crow
-		30 Edict of the Mirrorkin
-		30 Fleshborne Horror
-		30 Footmen of Deaths Sting
-		30 Dishonorable End
-		30 Jump Scared
-		30 Overt Warning
-		30 Plaskett Assassin
-		30 Sever the Legacy
-		30 Supernatural Stamina
-		30 Terrel Stalwart
-		30 Torrent of Destruction
-		30 Turnberry Legionnaire
-		30 Vance Mentor
-		30 Vance Recruit
-		30 Whitaker Cavalry
-		30 Skyspire Infantry
-		30 Ancestral Anger
-		30 Ardleby Gatekeeper
-		30 Barroom Gossip
-		30 Battle Scars
-		30 Beckon Greatness
-		30 Deaths Sting Diplomacy
-		30 Determination
-		30 Doting Caress
-		30 Ardent Warsworn
-		30 Gleaming Courage
-		30 Hardy Bears
-		30 Petty Thief
-		30 Phyre Sellsword
-		30 Puncturing Blow
-		30 Rey Recruit
-		30 Phyre Champion
-		30 Summer Tryst
-		30 Williams Page
-		30 Aggressive Urge
-		30 Ardleby Vanguard
-		30 Attwater Explorer
-		30 Banefort Archer
-		30 Cherrywood Purification
-		30 Citadel Outrider
-		30 Flowing Streams Tracker
-		30 Guerrilla Ambush
-		30 House Negotiations
-		30 Master the Old Ways
-		30 Ready Response
-		30 Replenishing Camp
-		30 Resolute Elk
-		30 Revenge of the Geistwald
-		30 Sapner Hunter
-		30 Sapner Recruit
-		30 Geistwald Explorer
-		30 Spellwild Ouphe
-		30 Tend to the Wounded
-		30 Noble
-		
+		}
+	]
+[RareSlot(1)]
+2 Caryl Rey, the Rose
+2 Ranulf, the Seed of Sapner
+2 Takers of Voice
+2 Castle on the Delta
+2 Fort Sapner
+2 Hall of Graven Laughs
+2 Kings Rock Castle
+2 Skyspire Keep
+2 The Crown of Skyspire
+2 Dirt to Flesh
+2 Frenzied Lunge
+2 Virulent Hexer
+2 Leon's Claim
+2 Weight of War
+2 Campsite Bard
+2 Geistwald Deceiver
+2 Captivating Merfolk
+2 Sapner Cavalry
+2 House Rivers Escorter
+2 Nye Informant
+2 Elias Plaskett, the Hidden Blade
+2 Oriel Rivers
+2 Dovizia Attwater
+2 Wulfric Hook
+2 Foliage Decoy
+2 Callous Commander
+2 Leon Terrel, Unspoken Heir
+2 Gosfridus Turnberry
+2 Wilmot Nye, the Crafty
+2 Thugs at Graven Laughs
+2 Herald of Storms
+2 Call to War
+2 Geistwald Amalgam
+2 William's Epiphany
+2 Blazing Phoenix
+2 Regal Lion
+2 Inquisitive Otter
+2 Thriving Hyena
+2 Quirky Chameleon
+2 Luminous Distraction
+2 Petula Vance, the Solemn Joke
+2 Scorched Earth
+2 Mirrorkins Bargain
+2 Grasp of the Mirrorkin
+2 Taken By House Vance
+2 Standoff at Beachside
+2 Battle for the Aciesblade
+2 Minna Radcliff, the Swift
+2 The Empty Throne
+2 Conrad Whitaker, Protector
+2 Roul Banefort, the Stern
+2 Alger Perle, Lord of Truetower
+2 Succession Scandal
+2 Meeting of Powers
+2 Inspiring Warsworn
+2 Drown in Wealth
+2 Arbiter of the Meek
+2 Necrotic Pactmage
+2 Highguard of the Delta
+2 Serene Meditations
+1 Bistra Sapner, the Tide
+1 Bennet Terrel, the High King
+1 Marilye, Heirloom Pilferer
+1 Claes, Wandering Alone
+1 Capac Suyay, Grim Seeker
+1 Geistwald Retainer
+1 Waldemar, Forgotten Heir
+1 The Aciesblade
+1 Thorough Conflagration
+1 Elric Nye, the Pirate King
+1 Edith Rey the Just
+1 Delora Vance, Lord of Laughs
+1 Geistwald Kraken
+1 Blade of Heart and Soul
+1 Closure
+[UncommonSlot(3)]
+9 Imani Whitaker
+9 Turnberry Scout
+9 On the Knife's Edge
+9 Radcliff Dragoncaller
+9 Royal Seeker
+9 Rule from Afar
+9 Proof of Divinity
+9 Appeal to Ancestry
+9 Explore the Great Unknown
+9 Extravagent Airship
+9 Important Parcel
+9 Slabman Stoneplate
+9 Clearing in the Glade
+9 Overflowing Sanctuary
+9 Noble Griffin
+9 Enduring Turtle
+9 Tacit Scorpion
+9 Catastrophic Dragon
+9 Robust Oxen
+9 Terrel Battlemage
+9 Wystan Terrel, the Occultist
+9 Lodema, Diamond of the Nye
+9 Nye Battlemage
+9 Alder, Vances Claw
+9 Vance Battlemage
+9 Rey Battlemage
+9 William Rey, Lover to All
+9 Fulchard Sapner, Gentle Giant
+9 Sapner Battlemage
+9 Travelcart Supplier
+9 Sapner Warsworn
+9 Plaskett Headhunter
+9 Highborn Sovereign
+9 Heart of Banefort
+9 Flame of Radcliff
+9 Artillery Shot
+9 Sacrificial Lunge
+9 Kirsa Perle, the Sword of Perle
+9 Petty Negotiations
+9 Citadel Loyalist
+9 Monarch-Wing Retainer
+9 Succumb to History
+9 Trust in the Future
+9 Knighted
+9 Patrol the Geistwald
+9 Turnberry Overseer
+9 Whitaker Captain
+9 Plaskett Trickster
+9 Plaskett Barber
+9 Nye Charlatans
+9 Binding Lightning
+9 Barroom Bout
+9 Impulsive Replication
+9 Hoist from Death
+9 Facestealing Mirrorkin
+9 Sapner Elite
+9 Sapner Geomancer
+9 Cloudkissed Accorder
+9 Grab and Go
+9 Read the Wingbeats
+9 Royal Send-Off
+9 Beginning of a Grand Heist
+9 The Call to Adventure
+9 Left to Wander
+9 Travelcart Guardian
+9 Tithe to the King
+9 Travelcarts Care
+9 Catharsis of Grief
+9 Deadly Interrogation
+9 Massacre at Ardleby
+9 Vance Soulsapper
+9 Gaze Upon Greatness
+9 Raving Bomber
+9 Torch
+9 Truetower Warden
+9 Nurture
+9 Scars of Wars Past
+9 Turnberry Mediator
+9 Wilderness Training
+9 Nye Buccaneer
+[CommonSlot(10)]
+30 Dreadship Vessel
+30 Hulking Vessel
+30 War Map
+30 Wealthy Slabman
+30 Writ of Supplies
+30 Terramorphic Expanse
+30 Call of the King
+30 Castle Delta Lookout
+30 Charitable Faerie
+30 Rouls High Guard
+30 Cloudkissed Squire
+30 Give Penance
+30 Glimpse
+30 Honored Eagle
+30 Hopeful Spouse
+30 Impaling Lance
+30 Kings Rock Warden
+30 Kirsas Page
+30 Knight of Skyspire
+30 Overcoming Squire
+30 Rivers Scoundrel
+30 Take Root
+30 Terrel Emissary
+30 Terrel Recruit
+30 Wystans Page
+30 Aerial Interceptor
+30 Artful Warsworn
+30 Attwater Drakerider
+30 Devious Sellsword
+30 Disappointment
+30 Evertuning Crane
+30 Grand Snail Race at Riverdale
+30 Kidnapping
+30 Lost at Sea
+30 Lucky Break
+30 Naval Diplomacy
+30 Nye Recruit
+30 Pilferer of Shrouded Coasts
+30 Plaskett Informer
+30 Secluded Arachnomorph
+30 Tavern Dealings
+30 Town Busybody
+30 Under the Cover of Ravens
+30 Vance Devotee
+30 Blessing at Graven Laughs
+30 Creeping Mindreaper
+30 Debt Collection
+30 Duplicitous Crow
+30 Edict of the Mirrorkin
+30 Fleshborne Horror
+30 Footmen of Deaths Sting
+30 Dishonorable End
+30 Jump Scared
+30 Overt Warning
+30 Plaskett Assassin
+30 Sever the Legacy
+30 Supernatural Stamina
+30 Terrel Stalwart
+30 Torrent of Destruction
+30 Turnberry Legionnaire
+30 Vance Mentor
+30 Vance Recruit
+30 Whitaker Cavalry
+30 Skyspire Infantry
+30 Ancestral Anger
+30 Ardleby Gatekeeper
+30 Barroom Gossip
+30 Battle Scars
+30 Beckon Greatness
+30 Deaths Sting Diplomacy
+30 Determination
+30 Doting Caress
+30 Ardent Warsworn
+30 Gleaming Courage
+30 Hardy Bears
+30 Petty Thief
+30 Phyre Sellsword
+30 Puncturing Blow
+30 Rey Recruit
+30 Phyre Champion
+30 Summer Tryst
+30 Williams Page
+30 Aggressive Urge
+30 Ardleby Vanguard
+30 Attwater Explorer
+30 Banefort Archer
+30 Cherrywood Purification
+30 Citadel Outrider
+30 Flowing Streams Tracker
+30 Guerrilla Ambush
+30 House Negotiations
+30 Master the Old Ways
+30 Ready Response
+30 Replenishing Camp
+30 Resolute Elk
+30 Revenge of the Geistwald
+30 Sapner Hunter
+30 Sapner Recruit
+30 Geistwald Explorer
+30 Spellwild Ouphe
+30 Tend to the Wounded
+30 Noble
