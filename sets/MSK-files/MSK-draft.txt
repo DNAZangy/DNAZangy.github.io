@@ -363,7 +363,7 @@
 		{
 			"name": "Belligerent Muckamuck",
 			"rarity": "rare",
-			"mana_cost": "{6}{U}{U}",
+			"mana_cost": "{7}{U}{U}",
 			"type": "Creature — Salamander Beast ",
 			"collector_number": "40",
 			"image_uris": {
@@ -484,7 +484,7 @@
 			"name": "Proclaim the End",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
-			"type": "Sorcery",
+			"type": "Instant",
 			"collector_number": "64",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/MSK-files/img/64_Proclaim the End.jpg"
@@ -624,7 +624,7 @@
 			"name": "Commit to Memory",
 			"rarity": "rare",
 			"mana_cost": "{B}",
-			"type": "Sorcery",
+			"type": "Instant",
 			"collector_number": "81",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/MSK-files/img/81_Commit to Memory.jpg"
@@ -1103,7 +1103,7 @@
 		{
 			"name": "Devoted of Zwiewald",
 			"rarity": "uncommon",
-			"mana_cost": "{3}{G}{G}",
+			"mana_cost": "{4}{G}",
 			"type": "Creature — Elk Druid ",
 			"collector_number": "164",
 			"image_uris": {
@@ -1263,7 +1263,7 @@
 		{
 			"name": "Strands of Life's Web",
 			"rarity": "uncommon",
-			"mana_cost": "{U}{B}",
+			"mana_cost": "{1}{U}{B}",
 			"type": "Creature — Spider Avatar ",
 			"collector_number": "197",
 			"image_uris": {
@@ -1284,7 +1284,7 @@
 			"name": "Fool's Errand",
 			"rarity": "uncommon",
 			"mana_cost": "{B}{G}",
-			"type": "Sorcery",
+			"type": "Enchantment",
 			"collector_number": "219",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/MSK-files/img/219_Fool's Errand.jpg"
@@ -1483,8 +1483,8 @@
 		{
 			"name": "The Call of the Zwiewald",
 			"rarity": "rare",
-			"mana_cost": "{3}{G}{U}",
-			"type": "Instant",
+			"mana_cost": "{G}{U}",
+			"type": "Enchantment",
 			"collector_number": "229",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/MSK-files/img/229_The Call of the Zwiewald.jpg"
@@ -2891,16 +2891,6 @@
 			}
 		},
 		{
-			"name": "A Dream of Mirrors",
-			"rarity": "rare",
-			"mana_cost": "{1}{U}",
-			"type": "Enchantment — Dream ",
-			"collector_number": "46",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/MSK-files/img/46_A Dream of Mirrors.jpg"
-			}
-		},
-		{
 			"name": "A Dream of Reunion",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
@@ -2948,6 +2938,16 @@
 			"collector_number": "167",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/MSK-files/img/167_From Hope to Action.jpg"
+			}
+		},
+		{
+			"name": "A Dream of Mirrors",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Dream ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/MSK-files/img/46_A Dream of Mirrors.jpg"
 			}
 		}
 	]
@@ -3018,11 +3018,11 @@
 2 Return to Placidity
 2 A Dream of Stillness
 2 A Dream of Horizons
-2 A Dream of Mirrors
 2 A Dream of Reunion
 2 A Dream of Yesterdays
 2 Trunk of Fallen Friends
 2 From Hope to Action
+2 A Dream of Mirrors
 [UncommonSlot(4)]
 9 Waning Moon Adept
 9 Indifferent Landsknecht

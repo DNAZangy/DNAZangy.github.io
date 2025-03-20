@@ -894,7 +894,7 @@
 			"name": "Lost in Everywhere",
 			"rarity": "rare",
 			"mana_cost": "{B}",
-			"type": "Enchantment",
+			"type": "Legendary Enchantment",
 			"collector_number": "97",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HTS-files/img/97_Lost in Everywhere.jpg"
@@ -1033,7 +1033,7 @@
 		{
 			"name": "Emissary of Foxflame",
 			"rarity": "rare",
-			"mana_cost": "{3}{U}{R}",
+			"mana_cost": "{2}{U}{R}",
 			"type": "Creature — Fox Mystic ",
 			"collector_number": "215",
 			"image_uris": {
@@ -1043,7 +1043,7 @@
 		{
 			"name": "Channeler of the Wilds",
 			"rarity": "rare",
-			"mana_cost": "{4}{G}{U}",
+			"mana_cost": "{3}{G}{U}",
 			"type": "Creature — Human Warlock ",
 			"collector_number": "225",
 			"image_uris": {
@@ -1133,7 +1133,7 @@
 		{
 			"name": "Show Off",
 			"rarity": "rare",
-			"mana_cost": "{R}",
+			"mana_cost": "{1}{R}",
 			"type": "Instant",
 			"collector_number": "149",
 			"image_uris": {
@@ -1173,7 +1173,7 @@
 		{
 			"name": "Master of Knowledge",
 			"rarity": "rare",
-			"mana_cost": "{2}{U}",
+			"mana_cost": "{3}{U}{U}",
 			"type": "Creature — Human Advisor ",
 			"collector_number": "62",
 			"image_uris": {
@@ -1183,7 +1183,7 @@
 		{
 			"name": "Deluge of Colors",
 			"rarity": "rare",
-			"mana_cost": "{2}{U}{U}",
+			"mana_cost": "{3}{U}{U}",
 			"type": "Sorcery",
 			"collector_number": "48",
 			"image_uris": {
@@ -1233,7 +1233,7 @@
 		{
 			"name": "Veracious Soultender",
 			"rarity": "rare",
-			"mana_cost": "{2}{W}",
+			"mana_cost": "{3}{W}",
 			"type": "Creature — Elf Advisor Cleric ",
 			"collector_number": "40",
 			"image_uris": {
@@ -1994,7 +1994,7 @@
 			"name": "Nebula of Mists",
 			"rarity": "rare",
 			"mana_cost": "{B}{R}{R}{R}{G}",
-			"type": "Sorcery",
+			"type": "Instant",
 			"collector_number": "246",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HTS-files/img/246_Nebula of Mists.jpg"
@@ -2143,7 +2143,7 @@
 		{
 			"name": "Paragon of Precision",
 			"rarity": "uncommon",
-			"mana_cost": "{U}",
+			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Mystic ",
 			"collector_number": "67",
 			"image_uris": {
@@ -2194,7 +2194,7 @@
 			"name": "Academy Assistant",
 			"rarity": "common",
 			"mana_cost": "{2}",
-			"type": "Artifact Creature",
+			"type": "Artifact Creature — Construct ",
 			"collector_number": "263",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HTS-files/img/263_Academy Assistant.jpg"
@@ -3038,6 +3038,16 @@
 			"collector_number": "141",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HTS-files/img/141_Mount Shirogane Guardian.jpg"
+			}
+		},
+		{
+			"name": "Fatigue",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Sorcery",
+			"collector_number": "294",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/294_Fatigue.jpg"
 			}
 		}
 	]

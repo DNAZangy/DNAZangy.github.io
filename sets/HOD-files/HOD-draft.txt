@@ -63,7 +63,7 @@
 		{
 			"name": "Regal Lion",
 			"rarity": "rare",
-			"mana_cost": "{3}{W}",
+			"mana_cost": "{4}{W}",
 			"type": "Creature — Cat ",
 			"collector_number": "30",
 			"image_uris": {
@@ -94,7 +94,7 @@
 			"name": "The Aciesblade",
 			"rarity": "mythic",
 			"mana_cost": "{2}{W}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact",
 			"collector_number": "1",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HOD-files/img/1_The Aciesblade.jpg"
@@ -213,7 +213,7 @@
 		{
 			"name": "Royal Seeker",
 			"rarity": "mythic",
-			"mana_cost": "{6}{U}",
+			"mana_cost": "{7}{U}",
 			"type": "Creature — Faerie Warrior ",
 			"collector_number": "75",
 			"image_uris": {
@@ -380,7 +380,7 @@
 		{
 			"name": "Usurp",
 			"rarity": "rare",
-			"mana_cost": "{7}{R}{R}",
+			"mana_cost": "{6}{R}{R}",
 			"type": "Sorcery",
 			"collector_number": "164",
 			"image_uris": {
@@ -420,7 +420,7 @@
 		{
 			"name": "Thorough Conflagration",
 			"rarity": "mythic",
-			"mana_cost": "{X}{R}",
+			"mana_cost": "{X}{R}{R}",
 			"type": "Sorcery",
 			"collector_number": "161",
 			"image_uris": {
@@ -550,7 +550,7 @@
 		{
 			"name": "Elias Plaskett, Hidden Blade",
 			"rarity": "rare",
-			"mana_cost": "{2}{U}{B}",
+			"mana_cost": "{1}{U}{B}",
 			"type": "Legendary Creature — Kithkin Rogue ",
 			"collector_number": "212",
 			"image_uris": {
@@ -580,7 +580,7 @@
 		{
 			"name": "Capac Suyay, Grim Seeker",
 			"rarity": "mythic",
-			"mana_cost": "{2}{G}{W}",
+			"mana_cost": "{1}{G}{W}",
 			"type": "Legendary Planeswalker — Suyay ",
 			"collector_number": "223",
 			"image_uris": {
@@ -752,9 +752,9 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{B}{G}",
 			"type": "Creature — Azra Knight ",
-			"collector_number": "247",
+			"collector_number": "246",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/247_Cherrywood Elite.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/246_Cherrywood Elite.jpg"
 			}
 		},
 		{
@@ -840,7 +840,7 @@
 		{
 			"name": "Elric Nye, the Pirate King",
 			"rarity": "mythic",
-			"mana_cost": "{B}{G}{U}",
+			"mana_cost": "{3}{B}{G}{U}",
 			"type": "Legendary Creature — Human Pirate ",
 			"collector_number": "256",
 			"image_uris": {
@@ -950,7 +950,7 @@
 		{
 			"name": "Travelcart's Care",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{W}",
+			"mana_cost": "{W}",
 			"type": "Sorcery",
 			"collector_number": "38",
 			"image_uris": {
@@ -1481,7 +1481,7 @@
 			"name": "Sapner Battlemage",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Azra Knight  Wizard ",
+			"type": "Creature — Azra Knight Wizard ",
 			"collector_number": "200",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HOD-files/img/200_Sapner Battlemage.jpg"
@@ -1490,7 +1490,7 @@
 		{
 			"name": "Rey Hospitality",
 			"rarity": "uncommon",
-			"mana_cost": "{G}",
+			"mana_cost": "{1}{G}",
 			"type": "Instant",
 			"collector_number": "198",
 			"image_uris": {
@@ -1738,13 +1738,13 @@
 			}
 		},
 		{
-			"name": "Cherrwood Groundskeeper",
+			"name": "Cherrywood Groundskeeper",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}{G}",
 			"type": "Creature — Azra Druid ",
-			"collector_number": "246",
+			"collector_number": "247",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/246_Cherrwood Groundskeeper.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/247_Cherrywood Groundskeeper.jpg"
 			}
 		},
 		{
@@ -1950,7 +1950,7 @@
 		{
 			"name": "Whitaker Sigil",
 			"rarity": "special",
-			"mana_cost": "",
+			"mana_cost": "{2}",
 			"type": "Artifact",
 			"collector_number": "329",
 			"image_uris": {
@@ -3020,7 +3020,7 @@
 		{
 			"name": "Approach of the Newly Crowned",
 			"rarity": "rare",
-			"mana_cost": "{2}{W}",
+			"mana_cost": "{1}{W}",
 			"type": "Enchantment",
 			"collector_number": "2",
 			"image_uris": {
@@ -3038,13 +3038,13 @@
 			}
 		},
 		{
-			"name": "Bounty Collectors",
+			"name": "Bounty Collector",
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "Creature — Human Rogue ",
 			"collector_number": "87",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/87_Bounty Collectors.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/87_Bounty Collector.jpg"
 			}
 		},
 		{
@@ -3082,9 +3082,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Enchantment",
-			"collector_number": "2",
+			"collector_number": "3",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/2_Intisuyus Armies.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/3_Intisuyus Armies.jpg"
 			}
 		},
 		{
@@ -3092,9 +3092,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Soldier ",
-			"collector_number": "5",
+			"collector_number": "6",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/5_Suyay's Soldier.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/6_Suyay's Soldier.jpg"
 			}
 		},
 		{
@@ -3112,19 +3112,19 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Legendary Creature — Orc Soldier ",
-			"collector_number": "15",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/15_The Sword of Perle.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/16_The Sword of Perle.jpg"
 			}
 		},
 		{
-			"name": "Happy Scout",
+			"name": "Scout",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Scout ",
-			"collector_number": "8",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/8_Happy Scout.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/9_Scout.jpg"
 			}
 		},
 		{
@@ -3132,9 +3132,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Legendary Creature — Azra Knight ",
-			"collector_number": "16",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/16_The Gentle Giant.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/17_The Gentle Giant.jpg"
 			}
 		},
 		{
@@ -3142,9 +3142,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Legendary Creature — Elf Soldier ",
-			"collector_number": "11",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/11_Vances Claw.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/12_Vances Claw.jpg"
 			}
 		},
 		{
@@ -3152,9 +3152,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Legendary Creature — Human Noble ",
-			"collector_number": "12",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/12_Lover to All.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/13_Lover to All.jpg"
 			}
 		},
 		{
@@ -3162,9 +3162,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Legendary Creature — Human Pirate ",
-			"collector_number": "7",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/7_The Diamond of the Nye.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/8_The Diamond of the Nye.jpg"
 			}
 		},
 		{
@@ -3172,9 +3172,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Legendary Creature — Human Wizard ",
-			"collector_number": "3",
+			"collector_number": "4",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/3_The Occultist.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/4_The Occultist.jpg"
 			}
 		},
 		{
@@ -3182,9 +3182,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Horror ",
-			"collector_number": "10",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/10_Horror.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/11_Horror.jpg"
 			}
 		},
 		{
@@ -3192,9 +3192,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Army ",
-			"collector_number": "9",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/9_Dewold Army.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/10_Dewold Army.jpg"
 			}
 		},
 		{
@@ -3202,9 +3202,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Soldier ",
-			"collector_number": "13",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/13_Young Soldier.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/14_Young Soldier.jpg"
 			}
 		},
 		{
@@ -3212,9 +3212,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Reminder",
-			"collector_number": "1",
+			"collector_number": "2",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/1_Reserves.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/2_Reserves.jpg"
 			}
 		},
 		{
@@ -3222,9 +3222,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Knight ",
-			"collector_number": "18",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/18_Destroyed-Knight.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/19_Destroyed-Knight.jpg"
 			}
 		},
 		{
@@ -3382,9 +3382,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Soldier ",
-			"collector_number": "4",
+			"collector_number": "5",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/4_Soldier.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/5_Soldier.jpg"
 			}
 		},
 		{
@@ -3392,9 +3392,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Knight ",
-			"collector_number": "17",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/17_Knight.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/18_Knight.jpg"
 			}
 		},
 		{
@@ -3402,9 +3402,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Legendary Creature — Human Noble ",
-			"collector_number": "6",
+			"collector_number": "7",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/6_The True Heir.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/7_The True Heir.jpg"
 			}
 		},
 		{
@@ -3412,9 +3412,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Treasure ",
-			"collector_number": "21",
+			"collector_number": "22",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/21_Treasure.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/22_Treasure.jpg"
 			}
 		},
 		{
@@ -3422,9 +3422,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Equipment ",
-			"collector_number": "22",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/22_Weapon.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/23_Weapon.jpg"
 			}
 		},
 		{
@@ -3432,9 +3432,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Food ",
-			"collector_number": "20",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/20_Food.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/21_Food.jpg"
 			}
 		},
 		{
@@ -3442,9 +3442,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Clue ",
-			"collector_number": "19",
+			"collector_number": "20",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/19_Clue.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/20_Clue.jpg"
 			}
 		},
 		{
@@ -3452,15 +3452,15 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Spirit ",
-			"collector_number": "14",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/HOD-files/img/14_Spirit.jpg"
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/15_Spirit.jpg"
 			}
 		},
 		{
 			"name": "Vance Sigil",
 			"rarity": "special",
-			"mana_cost": "",
+			"mana_cost": "{2}",
 			"type": "Artifact",
 			"collector_number": "328",
 			"image_uris": {
@@ -3470,7 +3470,7 @@
 		{
 			"name": "Turnberry Sigil",
 			"rarity": "special",
-			"mana_cost": "",
+			"mana_cost": "{2}",
 			"type": "Artifact",
 			"collector_number": "327",
 			"image_uris": {
@@ -3480,7 +3480,7 @@
 		{
 			"name": "Terrel Sigil",
 			"rarity": "special",
-			"mana_cost": "",
+			"mana_cost": "{2}",
 			"type": "Artifact",
 			"collector_number": "326",
 			"image_uris": {
@@ -3490,7 +3490,7 @@
 		{
 			"name": "Sapner Sigil",
 			"rarity": "special",
-			"mana_cost": "",
+			"mana_cost": "{2}",
 			"type": "Artifact",
 			"collector_number": "325",
 			"image_uris": {
@@ -3500,7 +3500,7 @@
 		{
 			"name": "Rivers Sigil",
 			"rarity": "special",
-			"mana_cost": "",
+			"mana_cost": "{2}",
 			"type": "Artifact",
 			"collector_number": "324",
 			"image_uris": {
@@ -3510,7 +3510,7 @@
 		{
 			"name": "Rey Sigil",
 			"rarity": "special",
-			"mana_cost": "",
+			"mana_cost": "{2}",
 			"type": "Artifact",
 			"collector_number": "323",
 			"image_uris": {
@@ -3520,7 +3520,7 @@
 		{
 			"name": "Radcliff Sigil",
 			"rarity": "special",
-			"mana_cost": "",
+			"mana_cost": "{2}",
 			"type": "Artifact",
 			"collector_number": "322",
 			"image_uris": {
@@ -3530,7 +3530,7 @@
 		{
 			"name": "Plaskett Sigil",
 			"rarity": "special",
-			"mana_cost": "",
+			"mana_cost": "{2}",
 			"type": "Artifact",
 			"collector_number": "321",
 			"image_uris": {
@@ -3540,7 +3540,7 @@
 		{
 			"name": "Phyre Sigil",
 			"rarity": "special",
-			"mana_cost": "",
+			"mana_cost": "{2}",
 			"type": "Artifact",
 			"collector_number": "320",
 			"image_uris": {
@@ -3560,7 +3560,7 @@
 		{
 			"name": "Perle House Sigil",
 			"rarity": "special",
-			"mana_cost": "",
+			"mana_cost": "{2}",
 			"type": "Artifact",
 			"collector_number": "319",
 			"image_uris": {
@@ -3570,7 +3570,7 @@
 		{
 			"name": "Nye Sigil",
 			"rarity": "special",
-			"mana_cost": "",
+			"mana_cost": "{2}",
 			"type": "Artifact",
 			"collector_number": "318",
 			"image_uris": {
@@ -3580,7 +3580,7 @@
 		{
 			"name": "Hook Sigil",
 			"rarity": "special",
-			"mana_cost": "",
+			"mana_cost": "{2}",
 			"type": "Artifact",
 			"collector_number": "317",
 			"image_uris": {
@@ -3590,7 +3590,7 @@
 		{
 			"name": "Banefort Sigil",
 			"rarity": "special",
-			"mana_cost": "",
+			"mana_cost": "{2}",
 			"type": "Artifact",
 			"collector_number": "316",
 			"image_uris": {
@@ -3615,6 +3615,16 @@
 			"collector_number": "24",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HOD-files/img/24_Marilye's Revelation.jpg"
+			}
+		},
+		{
+			"name": "Heir Tracking",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Reminder",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HOD-files/img/1_Heir Tracking.jpg"
 			}
 		}
 	]
@@ -3691,7 +3701,7 @@
 2 Fort Sapner
 2 Approach of the Newly Crowned
 2 Read the Wingbeats
-2 Bounty Collectors
+2 Bounty Collector
 2 Gaze Upon Greatness
 2 Long Night's Rest
 1 Sword of the Royalty
@@ -3800,7 +3810,7 @@
 9 Renodet, the Shield of Perle
 9 Hillcrest Vanguard
 9 Attwater Warsworn
-9 Cherrwood Groundskeeper
+9 Cherrywood Groundskeeper
 9 Sapner Decree
 9 Terrel Decree
 9 Vance Decree
