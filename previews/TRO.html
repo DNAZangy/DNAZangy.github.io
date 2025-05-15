@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/TRO-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>TRO visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/TRO-files/logo.png" />
+	<img class="preload-hidden" src="/sets/ACT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ALK-files/icon.png" />
+		<img class="preload-hidden" src="/sets/HOD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/HTS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MSK-files/icon.png" />
+		<img class="preload-hidden" src="/sets/RAR-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ROS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRO-files/icon.png" />
+		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="/sets/ZNU-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="ACT"><img src="/sets/ACT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ALK"><img src="/sets/ALK-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="HOD"><img src="/sets/HOD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="HTS"><img src="/sets/HTS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="MSK"><img src="/sets/MSK-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="RAR"><img src="/sets/RAR-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ROS"><img src="/sets/ROS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="SRC"><img src="/sets/SRC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRO"><img src="/sets/TRO-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="ZNU"><img src="/sets/ZNU-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/TRO-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\TRO-files\img\1_Binding of Winter's Breath.png" id="1_Binding of Winters Breath" data-flag="@X" onclick="openSidebar('1_Binding of Winters Breath',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\42_Coven of Three.png" id="42_Coven of Three" data-flag="@X" onclick="openSidebar('42_Coven of Three',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\77_Arrive in Silence and Ash.png" id="77_Arrive in Silence and Ash" data-flag="@X" onclick="openSidebar('77_Arrive in Silence and Ash',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\120_Cragroot Rumbler.png" id="120_Cragroot Rumbler" data-flag="@X" onclick="openSidebar('120_Cragroot Rumbler',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\157_Brute of Kroslav Heights.png" id="157_Brute of Kroslav Heights" data-flag="@X" onclick="openSidebar('157_Brute of Kroslav Heights',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\3_Brightstep Chorus.png" id="3_Brightstep Chorus" data-flag="@X" onclick="openSidebar('3_Brightstep Chorus',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\44_Devourer of Forms.png" id="44_Devourer of Forms" data-flag="@X" onclick="openSidebar('44_Devourer of Forms',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\79_Become Unwritten.png" id="79_Become Unwritten" data-flag="@X" onclick="openSidebar('79_Become Unwritten',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\122_Everwatching Eyes of Struna.png" id="122_Everwatching Eyes of Struna" data-flag="@X" onclick="openSidebar('122_Everwatching Eyes of Struna',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\159_Cleanse with Frost.png" id="159_Cleanse with Frost" data-flag="@X" onclick="openSidebar('159_Cleanse with Frost',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\5_Concord of the Veiled.png" id="5_Concord of the Veiled" data-flag="@X" onclick="openSidebar('5_Concord of the Veiled',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\47_Flourish Together.png" id="47_Flourish Together" data-flag="@X" onclick="openSidebar('47_Flourish Together',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\84_Echo of the Pane.png" id="84_Echo of the Pane" data-flag="@X" onclick="openSidebar('84_Echo of the Pane',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\125_The Flames Know Guilt.png" id="125_The Flames Know Guilt" data-flag="@X" onclick="openSidebar('125_The Flames Know Guilt',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\160_Consonance of Seasons.png" id="160_Consonance of Seasons" data-flag="@X" onclick="openSidebar('160_Consonance of Seasons',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\10_Echo of the Oathbound.png" id="10_Echo of the Oathbound" data-flag="@X" onclick="openSidebar('10_Echo of the Oathbound',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\51_Kaelthar's Decree.png" id="51_Kaelthars Decree" data-flag="@X" onclick="openSidebar('51_Kaelthars Decree',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\86_Everwatching Praznostrazh.png" id="86_Everwatching Praznostrazh" data-flag="@X" onclick="openSidebar('86_Everwatching Praznostrazh',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\127_Garland of Trez.png" id="127_Garland of Trez" data-flag="@X" onclick="openSidebar('127_Garland of Trez',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\165_Fateful Beacon.png" id="165_Fateful Beacon" data-flag="@X" onclick="openSidebar('165_Fateful Beacon',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\18_Reflected Memories.png" id="18_Reflected Memories" data-flag="@X" onclick="openSidebar('18_Reflected Memories',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\53_Lurker of the Whisperfens.png" id="53_Lurker of the Whisperfens" data-flag="@X" onclick="openSidebar('53_Lurker of the Whisperfens',false)"></div>
+			<div class="container"><img data-alt_src="/sets\TRO-files\img\87_The Frozen Gaol_back.png" alt="/sets\TRO-files\img\87_The Frozen Gaol_front.png" id="87_The Frozen Gaol" data-flag="@XD" onclick="openSidebar('87_The Frozen Gaol',false)"><button class="flip-btn" onclick="imgFlip('87_The Frozen Gaol')"></button></div>
+			<div class="container"><img alt="/sets\TRO-files\img\128_Gildfrost Ancient.png" id="128_Gildfrost Ancient" data-flag="@X" onclick="openSidebar('128_Gildfrost Ancient',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\166_First Step into Snezvalir.png" id="166_First Step into Snezvalir" data-flag="@X" onclick="openSidebar('166_First Step into Snezvalir',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\19_Resolute Marshal.png" id="19_Resolute Marshal" data-flag="@X" onclick="openSidebar('19_Resolute Marshal',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\62_Silent Blade of the Rimecourt.png" id="62_Silent Blade of the Rimecourt" data-flag="@X" onclick="openSidebar('62_Silent Blade of the Rimecourt',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\92_Lady on the Blighted Mare.png" id="92_Lady on the Blighted Mare" data-flag="@X" onclick="openSidebar('92_Lady on the Blighted Mare',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\133_One Breath from Ruin.png" id="133_One Breath from Ruin" data-flag="@X" onclick="openSidebar('133_One Breath from Ruin',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\167_Honeytongued Sibilisk.png" id="167_Honeytongued Sibilisk" data-flag="@X" onclick="openSidebar('167_Honeytongued Sibilisk',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\25_Silence, Kaelthar's Oath.png" id="25_Silence, Kaelthars Oath" data-flag="@X" onclick="openSidebar('25_Silence, Kaelthars Oath',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\66_Tender Patchbinder.png" id="66_Tender Patchbinder" data-flag="@X" onclick="openSidebar('66_Tender Patchbinder',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\102_Slasher of Stragglers.png" id="102_Slasher of Stragglers" data-flag="@X" onclick="openSidebar('102_Slasher of Stragglers',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\136_Rimebag Wretch.png" id="136_Rimebag Wretch" data-flag="@X" onclick="openSidebar('136_Rimebag Wretch',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\170_Instinctive Bond.png" id="170_Instinctive Bond" data-flag="@X" onclick="openSidebar('170_Instinctive Bond',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\27_Songward Watcher.png" id="27_Songward Watcher" data-flag="@X" onclick="openSidebar('27_Songward Watcher',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\68_The Thirsting Pane.png" id="68_The Thirsting Pane" data-flag="@X" onclick="openSidebar('68_The Thirsting Pane',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\105_Sorrow Lasher.png" id="105_Sorrow Lasher" data-flag="@X" onclick="openSidebar('105_Sorrow Lasher',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\143_Steel Never Sleeps.png" id="143_Steel Never Sleeps" data-flag="@X" onclick="openSidebar('143_Steel Never Sleeps',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\171_Jednooko Creeper.png" id="171_Jednooko Creeper" data-flag="@X" onclick="openSidebar('171_Jednooko Creeper',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\28_Steal the Name.png" id="28_Steal the Name" data-flag="@X" onclick="openSidebar('28_Steal the Name',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\69_Tidings Carried on Ash.png" id="69_Tidings Carried on Ash" data-flag="@X" onclick="openSidebar('69_Tidings Carried on Ash',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\107_Thrust Beyond the Shard.png" id="107_Thrust Beyond the Shard" data-flag="@X" onclick="openSidebar('107_Thrust Beyond the Shard',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\144_Strike of Conviction.png" id="144_Strike of Conviction" data-flag="@X" onclick="openSidebar('144_Strike of Conviction',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\172_Master of the Pale Hunt.png" id="172_Master of the Pale Hunt" data-flag="@X" onclick="openSidebar('172_Master of the Pale Hunt',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\29_Stillness Reclaimed.png" id="29_Stillness Reclaimed" data-flag="@X" onclick="openSidebar('29_Stillness Reclaimed',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\70_Trinket Seeker.png" id="70_Trinket Seeker" data-flag="@X" onclick="openSidebar('70_Trinket Seeker',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\110_Virelen's Call.png" id="110_Virelens Call" data-flag="@X" onclick="openSidebar('110_Virelens Call',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\150_Veyhalde Emberhold.png" id="150_Veyhalde Emberhold" data-flag="@X" onclick="openSidebar('150_Veyhalde Emberhold',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\177_Prepare the Vessel.png" id="177_Prepare the Vessel" data-flag="@X" onclick="openSidebar('177_Prepare the Vessel',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\36_Vakhter Conscriptor.png" id="36_Vakhter Conscriptor" data-flag="@X" onclick="openSidebar('36_Vakhter Conscriptor',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\72_Veyhalde Liaison.png" id="72_Veyhalde Liaison" data-flag="@X" onclick="openSidebar('72_Veyhalde Liaison',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\111_Virelen's Skull.png" id="111_Virelens Skull" data-flag="@X" onclick="openSidebar('111_Virelens Skull',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\151_Warbark Reaver.png" id="151_Warbark Reaver" data-flag="@X" onclick="openSidebar('151_Warbark Reaver',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\181_Stampeding Gorejaw.png" id="181_Stampeding Gorejaw" data-flag="@X" onclick="openSidebar('181_Stampeding Gorejaw',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\2_Brighteyed Stranger.png" id="2_Brighteyed Stranger" data-flag="@X" onclick="openSidebar('2_Brighteyed Stranger',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\40_Cast to Slumber.png" id="40_Cast to Slumber" data-flag="@X" onclick="openSidebar('40_Cast to Slumber',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\80_Devour.png" id="80_Devour" data-flag="@X" onclick="openSidebar('80_Devour',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\117_Briarhoof Hearthtender.png" id="117_Briarhoof Hearthtender" data-flag="@X" onclick="openSidebar('117_Briarhoof Hearthtender',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\153_Answer with Steel and Blood.png" id="153_Answer with Steel and Blood" data-flag="@X" onclick="openSidebar('153_Answer with Steel and Blood',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\7_Dance of the Ovinnik.png" id="7_Dance of the Ovinnik" data-flag="@X" onclick="openSidebar('7_Dance of the Ovinnik',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\49_Hearthstead Tinkerer.png" id="49_Hearthstead Tinkerer" data-flag="@X" onclick="openSidebar('49_Hearthstead Tinkerer',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\85_Evermarching Nyavki.png" id="85_Evermarching Nyavki" data-flag="@X" onclick="openSidebar('85_Evermarching Nyavki',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\119_Cornered Tusker.png" id="119_Cornered Tusker" data-flag="@X" onclick="openSidebar('119_Cornered Tusker',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\154_Ashhorn Reaper.png" id="154_Ashhorn Reaper" data-flag="@X" onclick="openSidebar('154_Ashhorn Reaper',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\9_Duly Vanquished.png" id="9_Duly Vanquished" data-flag="@X" onclick="openSidebar('9_Duly Vanquished',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\52_Kaelthar's Wing.png" id="52_Kaelthars Wing" data-flag="@X" onclick="openSidebar('52_Kaelthars Wing',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\90_Hexer of Unburied Grudges.png" id="90_Hexer of Unburied Grudges" data-flag="@X" onclick="openSidebar('90_Hexer of Unburied Grudges',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\124_Flamemane Skydancer.png" id="124_Flamemane Skydancer" data-flag="@X" onclick="openSidebar('124_Flamemane Skydancer',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\161_Crushing Vodyanov.png" id="161_Crushing Vodyanov" data-flag="@X" onclick="openSidebar('161_Crushing Vodyanov',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\11_Graincleaver.png" id="11_Graincleaver" data-flag="@X" onclick="openSidebar('11_Graincleaver',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\54_March of the Pathbreaker.png" id="54_March of the Pathbreaker" data-flag="@X" onclick="openSidebar('54_March of the Pathbreaker',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\93_Loathsome Nuckelavee.png" id="93_Loathsome Nuckelavee" data-flag="@X" onclick="openSidebar('93_Loathsome Nuckelavee',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\126_Frantic Bukavac.png" id="126_Frantic Bukavac" data-flag="@X" onclick="openSidebar('126_Frantic Bukavac',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\163_Emptypetal Crone.png" id="163_Emptypetal Crone" data-flag="@X" onclick="openSidebar('163_Emptypetal Crone',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\13_Lifebinder's Bough.png" id="13_Lifebinders Bough" data-flag="@X" onclick="openSidebar('13_Lifebinders Bough',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\55_Maw of Slumbering Seeds.png" id="55_Maw of Slumbering Seeds" data-flag="@X" onclick="openSidebar('55_Maw of Slumbering Seeds',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\96_Pactstitcher.png" id="96_Pactstitcher" data-flag="@X" onclick="openSidebar('96_Pactstitcher',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\132_Oath of Embers.png" id="132_Oath of Embers" data-flag="@X" onclick="openSidebar('132_Oath of Embers',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\164_Evercareful Dvorovoi.png" id="164_Evercareful Dvorovoi" data-flag="@X" onclick="openSidebar('164_Evercareful Dvorovoi',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\14_Light at Bratovik.png" id="14_Light at Bratovik" data-flag="@X" onclick="openSidebar('14_Light at Bratovik',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\56_Messenger of Veyhalde.png" id="56_Messenger of Veyhalde" data-flag="@X" onclick="openSidebar('56_Messenger of Veyhalde',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\98_Pry.png" id="98_Pry" data-flag="@X" onclick="openSidebar('98_Pry',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\134_Pitywrought Whelp.png" id="134_Pitywrought Whelp" data-flag="@X" onclick="openSidebar('134_Pitywrought Whelp',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\168_Hope's Sprout.png" id="168_Hopes Sprout" data-flag="@X" onclick="openSidebar('168_Hopes Sprout',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\17_Newcomer at Veshaal's Rest.png" id="17_Newcomer at Veshaals Rest" data-flag="@X" onclick="openSidebar('17_Newcomer at Veshaals Rest',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\57_Mourning Current.png" id="57_Mourning Current" data-flag="@X" onclick="openSidebar('57_Mourning Current',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\101_Sign in Grief.png" id="101_Sign in Grief" data-flag="@X" onclick="openSidebar('101_Sign in Grief',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\137_The Road Made Real.png" id="137_The Road Made Real" data-flag="@X" onclick="openSidebar('137_The Road Made Real',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\169_Horizon's Edge.png" id="169_Horizons Edge" data-flag="@X" onclick="openSidebar('169_Horizons Edge',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\20_Rimegem Sovereign.png" id="20_Rimegem Sovereign" data-flag="@X" onclick="openSidebar('20_Rimegem Sovereign',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\65_Snowbound Serenity.png" id="65_Snowbound Serenity" data-flag="@X" onclick="openSidebar('65_Snowbound Serenity',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\103_Solmhar's Measure.png" id="103_Solmhars Measure" data-flag="@X" onclick="openSidebar('103_Solmhars Measure',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\138_Rousing Call.png" id="138_Rousing Call" data-flag="@X" onclick="openSidebar('138_Rousing Call',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\176_Peltborn Shifter.png" id="176_Peltborn Shifter" data-flag="@X" onclick="openSidebar('176_Peltborn Shifter',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\21_Rimeveil Courier.png" id="21_Rimeveil Courier" data-flag="@X" onclick="openSidebar('21_Rimeveil Courier',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\67_Tharnholt Invoker.png" id="67_Tharnholt Invoker" data-flag="@X" onclick="openSidebar('67_Tharnholt Invoker',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\104_Sootwinged Intruder.png" id="104_Sootwinged Intruder" data-flag="@X" onclick="openSidebar('104_Sootwinged Intruder',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\139_Scorch to Slag.png" id="139_Scorch to Slag" data-flag="@X" onclick="openSidebar('139_Scorch to Slag',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\179_Snowlit Reverie.png" id="179_Snowlit Reverie" data-flag="@X" onclick="openSidebar('179_Snowlit Reverie',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\31_Sunward Spear.png" id="31_Sunward Spear" data-flag="@X" onclick="openSidebar('31_Sunward Spear',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\74_Where the Wind Begins.png" id="74_Where the Wind Begins" data-flag="@X" onclick="openSidebar('74_Where the Wind Begins',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\108_Unbidden Patron.png" id="108_Unbidden Patron" data-flag="@X" onclick="openSidebar('108_Unbidden Patron',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\142_Spiteful Prankster.png" id="142_Spiteful Prankster" data-flag="@X" onclick="openSidebar('142_Spiteful Prankster',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\182_Steward of Hollowood.png" id="182_Steward of Hollowood" data-flag="@X" onclick="openSidebar('182_Steward of Hollowood',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\32_Sworn Departure.png" id="32_Sworn Departure" data-flag="@X" onclick="openSidebar('32_Sworn Departure',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\75_Whisper of Stillness.png" id="75_Whisper of Stillness" data-flag="@X" onclick="openSidebar('75_Whisper of Stillness',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\109_Veilbound Nocnitsa.png" id="109_Veilbound Nocnitsa" data-flag="@X" onclick="openSidebar('109_Veilbound Nocnitsa',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\146_Troubling Mischief.png" id="146_Troubling Mischief" data-flag="@X" onclick="openSidebar('146_Troubling Mischief',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\183_Strayhorn Guide.png" id="183_Strayhorn Guide" data-flag="@X" onclick="openSidebar('183_Strayhorn Guide',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\35_Urgent Summons.png" id="35_Urgent Summons" data-flag="@X" onclick="openSidebar('35_Urgent Summons',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\76_Will Away.png" id="76_Will Away" data-flag="@X" onclick="openSidebar('76_Will Away',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\113_Wilt Like the Others.png" id="113_Wilt Like the Others" data-flag="@X" onclick="openSidebar('113_Wilt Like the Others',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\149_Vespermaw.png" id="149_Vespermaw" data-flag="@X" onclick="openSidebar('149_Vespermaw',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\186_Tidy Blessing.png" id="186_Tidy Blessing" data-flag="@X" onclick="openSidebar('186_Tidy Blessing',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\4_Concord of Ashes.png" id="4_Concord of Ashes" data-flag="@X" onclick="openSidebar('4_Concord of Ashes',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\39_Aspid of the Mires.png" id="39_Aspid of the Mires" data-flag="@X" onclick="openSidebar('39_Aspid of the Mires',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\78_Bargain of the Drowned.png" id="78_Bargain of the Drowned" data-flag="@X" onclick="openSidebar('78_Bargain of the Drowned',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\115_Acolyte of Braided Crimson.png" id="115_Acolyte of Braided Crimson" data-flag="@X" onclick="openSidebar('115_Acolyte of Braided Crimson',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\155_Blade of the Vale.png" id="155_Blade of the Vale" data-flag="@X" onclick="openSidebar('155_Blade of the Vale',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\6_Copper-Blooded Warden.png" id="6_Copper-Blooded Warden" data-flag="@X" onclick="openSidebar('6_Copper-Blooded Warden',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\41_Cold Rebuttal.png" id="41_Cold Rebuttal" data-flag="@X" onclick="openSidebar('41_Cold Rebuttal',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\81_Disciple of Dried Blood.png" id="81_Disciple of Dried Blood" data-flag="@X" onclick="openSidebar('81_Disciple of Dried Blood',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\116_Ashen Reckoning.png" id="116_Ashen Reckoning" data-flag="@X" onclick="openSidebar('116_Ashen Reckoning',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\156_Briarhoof Guardian.png" id="156_Briarhoof Guardian" data-flag="@X" onclick="openSidebar('156_Briarhoof Guardian',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\8_Dawnforged Alkonost.png" id="8_Dawnforged Alkonost" data-flag="@X" onclick="openSidebar('8_Dawnforged Alkonost',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\43_Dance the Night Away.png" id="43_Dance the Night Away" data-flag="@X" onclick="openSidebar('43_Dance the Night Away',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\82_Doomed to Blossom.png" id="82_Doomed to Blossom" data-flag="@X" onclick="openSidebar('82_Doomed to Blossom',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\118_Charmbinder Artisan.png" id="118_Charmbinder Artisan" data-flag="@X" onclick="openSidebar('118_Charmbinder Artisan',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\158_Channeler of the Aurora.png" id="158_Channeler of the Aurora" data-flag="@X" onclick="openSidebar('158_Channeler of the Aurora',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\12_Griefbough Witness.png" id="12_Griefbough Witness" data-flag="@X" onclick="openSidebar('12_Griefbough Witness',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\45_Diffuse.png" id="45_Diffuse" data-flag="@X" onclick="openSidebar('45_Diffuse',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\83_Duskwing Harbinger.png" id="83_Duskwing Harbinger" data-flag="@X" onclick="openSidebar('83_Duskwing Harbinger',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\121_Encroaching Embers.png" id="121_Encroaching Embers" data-flag="@X" onclick="openSidebar('121_Encroaching Embers',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\162_Driblik Gang.png" id="162_Driblik Gang" data-flag="@X" onclick="openSidebar('162_Driblik Gang',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\15_Listless Parched.png" id="15_Listless Parched" data-flag="@X" onclick="openSidebar('15_Listless Parched',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\46_Direcall Siren.png" id="46_Direcall Siren" data-flag="@X" onclick="openSidebar('46_Direcall Siren',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\88_Ghastly Bukavac.png" id="88_Ghastly Bukavac" data-flag="@X" onclick="openSidebar('88_Ghastly Bukavac',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\123_Faceless Watcher.png" id="123_Faceless Watcher" data-flag="@X" onclick="openSidebar('123_Faceless Watcher',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\173_Mercy's Burden.png" id="173_Mercys Burden" data-flag="@X" onclick="openSidebar('173_Mercys Burden',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\16_Mavka of Forgotten Groves.png" id="16_Mavka of Forgotten Groves" data-flag="@X" onclick="openSidebar('16_Mavka of Forgotten Groves',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\48_Gift of Inspiration.png" id="48_Gift of Inspiration" data-flag="@X" onclick="openSidebar('48_Gift of Inspiration',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\89_Greedwrought Scourge.png" id="89_Greedwrought Scourge" data-flag="@X" onclick="openSidebar('89_Greedwrought Scourge',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\129_Hearthgut Behemoth.png" id="129_Hearthgut Behemoth" data-flag="@X" onclick="openSidebar('129_Hearthgut Behemoth',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\174_Murmurs in the Thicket.png" id="174_Murmurs in the Thicket" data-flag="@X" onclick="openSidebar('174_Murmurs in the Thicket',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\22_Sealing Edge.png" id="22_Sealing Edge" data-flag="@X" onclick="openSidebar('22_Sealing Edge',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\50_Herald of the First Frost.png" id="50_Herald of the First Frost" data-flag="@X" onclick="openSidebar('50_Herald of the First Frost',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\91_Hollowstep Adept.png" id="91_Hollowstep Adept" data-flag="@X" onclick="openSidebar('91_Hollowstep Adept',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\130_Kindle the Mischief.png" id="130_Kindle the Mischief" data-flag="@X" onclick="openSidebar('130_Kindle the Mischief',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\175_Pathcleaver Vakhter.png" id="175_Pathcleaver Vakhter" data-flag="@X" onclick="openSidebar('175_Pathcleaver Vakhter',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\23_Seraph of Stilled Grace.png" id="23_Seraph of Stilled Grace" data-flag="@X" onclick="openSidebar('23_Seraph of Stilled Grace',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\58_Murkmire Wretch.png" id="58_Murkmire Wretch" data-flag="@X" onclick="openSidebar('58_Murkmire Wretch',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\94_Mossborne Grotesque.png" id="94_Mossborne Grotesque" data-flag="@X" onclick="openSidebar('94_Mossborne Grotesque',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\131_Kindling of Traveled Pasts.png" id="131_Kindling of Traveled Pasts" data-flag="@X" onclick="openSidebar('131_Kindling of Traveled Pasts',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\178_Seer of Stolen Sight.png" id="178_Seer of Stolen Sight" data-flag="@X" onclick="openSidebar('178_Seer of Stolen Sight',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\24_Sheltered by the Light.png" id="24_Sheltered by the Light" data-flag="@X" onclick="openSidebar('24_Sheltered by the Light',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\59_Prepare the Path.png" id="59_Prepare the Path" data-flag="@X" onclick="openSidebar('59_Prepare the Path',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\95_Never to Return.png" id="95_Never to Return" data-flag="@X" onclick="openSidebar('95_Never to Return',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\135_Resolute Vakhter.png" id="135_Resolute Vakhter" data-flag="@X" onclick="openSidebar('135_Resolute Vakhter',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\180_So Easily Broken.png" id="180_So Easily Broken" data-flag="@X" onclick="openSidebar('180_So Easily Broken',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\26_Snezvalir Initiate.png" id="26_Snezvalir Initiate" data-flag="@X" onclick="openSidebar('26_Snezvalir Initiate',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\60_Riverborn Hex.png" id="60_Riverborn Hex" data-flag="@X" onclick="openSidebar('60_Riverborn Hex',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\97_Pilfer.png" id="97_Pilfer" data-flag="@X" onclick="openSidebar('97_Pilfer',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\140_Searing Thirst.png" id="140_Searing Thirst" data-flag="@X" onclick="openSidebar('140_Searing Thirst',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\184_Strike True.png" id="184_Strike True" data-flag="@X" onclick="openSidebar('184_Strike True',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\30_Sunlit Execution.png" id="30_Sunlit Execution" data-flag="@X" onclick="openSidebar('30_Sunlit Execution',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\61_Scrapswarm Pixies.png" id="61_Scrapswarm Pixies" data-flag="@X" onclick="openSidebar('61_Scrapswarm Pixies',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\99_Regretful Scion.png" id="99_Regretful Scion" data-flag="@X" onclick="openSidebar('99_Regretful Scion',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\141_Snickering Biesling.png" id="141_Snickering Biesling" data-flag="@X" onclick="openSidebar('141_Snickering Biesling',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\185_Thought Harvest.png" id="185_Thought Harvest" data-flag="@X" onclick="openSidebar('185_Thought Harvest',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\33_Tuckered-Out Domovoi.png" id="33_Tuckered-Out Domovoi" data-flag="@X" onclick="openSidebar('33_Tuckered-Out Domovoi',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\63_Silentstep Runner.png" id="63_Silentstep Runner" data-flag="@X" onclick="openSidebar('63_Silentstep Runner',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\100_Shepherd of Remembrance.png" id="100_Shepherd of Remembrance" data-flag="@X" onclick="openSidebar('100_Shepherd of Remembrance',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\145_Threadsnare Hag.png" id="145_Threadsnare Hag" data-flag="@X" onclick="openSidebar('145_Threadsnare Hag',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\187_Vesselbound Maw.png" id="187_Vesselbound Maw" data-flag="@X" onclick="openSidebar('187_Vesselbound Maw',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\34_Twilight Warden.png" id="34_Twilight Warden" data-flag="@X" onclick="openSidebar('34_Twilight Warden',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\64_Slumber in Ice.png" id="64_Slumber in Ice" data-flag="@X" onclick="openSidebar('64_Slumber in Ice',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\106_Thornroot Maiden.png" id="106_Thornroot Maiden" data-flag="@X" onclick="openSidebar('106_Thornroot Maiden',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\147_Vakhter's Edge.png" id="147_Vakhters Edge" data-flag="@X" onclick="openSidebar('147_Vakhters Edge',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\188_Ward of the Watchful.png" id="188_Ward of the Watchful" data-flag="@X" onclick="openSidebar('188_Ward of the Watchful',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\37_Voice of the Rimed Path.png" id="37_Voice of the Rimed Path" data-flag="@X" onclick="openSidebar('37_Voice of the Rimed Path',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\71_Undertow Vodnik.png" id="71_Undertow Vodnik" data-flag="@X" onclick="openSidebar('71_Undertow Vodnik',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\112_Wander Too Far.png" id="112_Wander Too Far" data-flag="@X" onclick="openSidebar('112_Wander Too Far',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\148_Velkora Marshal.png" id="148_Velkora Marshal" data-flag="@X" onclick="openSidebar('148_Velkora Marshal',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\189_Whisperfoot Skitterer.png" id="189_Whisperfoot Skitterer" data-flag="@X" onclick="openSidebar('189_Whisperfoot Skitterer',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\38_Whitehoof Ascendant.png" id="38_Whitehoof Ascendant" data-flag="@X" onclick="openSidebar('38_Whitehoof Ascendant',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\73_Warden of the Rimed Oath.png" id="73_Warden of the Rimed Oath" data-flag="@X" onclick="openSidebar('73_Warden of the Rimed Oath',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\114_Witch of the Mirepaths.png" id="114_Witch of the Mirepaths" data-flag="@X" onclick="openSidebar('114_Witch of the Mirepaths',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\152_Wreck and Wield.png" id="152_Wreck and Wield" data-flag="@X" onclick="openSidebar('152_Wreck and Wield',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\190_Witch's Spine.png" id="190_Witchs Spine" data-flag="@X" onclick="openSidebar('190_Witchs Spine',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\191_Dravhollow Currentweaver.png" id="191_Dravhollow Currentweaver" data-flag="@X" onclick="openSidebar('191_Dravhollow Currentweaver',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\196_Promise of Peril.png" id="196_Promise of Peril" data-flag="@X" onclick="openSidebar('196_Promise of Peril',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\199_Krovin, the Gilded Maw.png" id="199_Krovin, the Gilded Maw" data-flag="@X" onclick="openSidebar('199_Krovin, the Gilded Maw',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\203_Boilmaw Lomie.png" id="203_Boilmaw Lomie" data-flag="@X" onclick="openSidebar('203_Boilmaw Lomie',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\208_Crystalfang Howler.png" id="208_Crystalfang Howler" data-flag="@X" onclick="openSidebar('208_Crystalfang Howler',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\192_Glimpse Beyond the Rime.png" id="192_Glimpse Beyond the Rime" data-flag="@X" onclick="openSidebar('192_Glimpse Beyond the Rime',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\198_Selyndor Mindshaper.png" id="198_Selyndor Mindshaper" data-flag="@X" onclick="openSidebar('198_Selyndor Mindshaper',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\200_Reap the Kindling.png" id="200_Reap the Kindling" data-flag="@X" onclick="openSidebar('200_Reap the Kindling',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\206_Tithe of Flesh.png" id="206_Tithe of Flesh" data-flag="@X" onclick="openSidebar('206_Tithe of Flesh',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\210_Hope Beneath the Boughs.png" id="210_Hope Beneath the Boughs" data-flag="@X" onclick="openSidebar('210_Hope Beneath the Boughs',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\193_Snezvalir Songshaper.png" id="193_Snezvalir Songshaper" data-flag="@X" onclick="openSidebar('193_Snezvalir Songshaper',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\195_Call of the Hanging Bough.png" id="195_Call of the Hanging Bough" data-flag="@X" onclick="openSidebar('195_Call of the Hanging Bough',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\201_Wax and Woe.png" id="201_Wax and Woe" data-flag="@X" onclick="openSidebar('201_Wax and Woe',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\204_Pale Visage.png" id="204_Pale Visage" data-flag="@X" onclick="openSidebar('204_Pale Visage',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\207_Boon of Feathers and Fate.png" id="207_Boon of Feathers and Fate" data-flag="@X" onclick="openSidebar('207_Boon of Feathers and Fate',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\194_Winter's Rebuke.png" id="194_Winters Rebuke" data-flag="@X" onclick="openSidebar('194_Winters Rebuke',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\197_Rend to Nothing.png" id="197_Rend to Nothing" data-flag="@X" onclick="openSidebar('197_Rend to Nothing',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\202_Wayward Elder.png" id="202_Wayward Elder" data-flag="@X" onclick="openSidebar('202_Wayward Elder',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\205_Rite of Crossing.png" id="205_Rite of Crossing" data-flag="@X" onclick="openSidebar('205_Rite of Crossing',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\209_Gracesower Satyr.png" id="209_Gracesower Satyr" data-flag="@X" onclick="openSidebar('209_Gracesower Satyr',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\211_Crone's Choosing.png" id="211_Crones Choosing" data-flag="@X" onclick="openSidebar('211_Crones Choosing',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\215_Crowned in Summer.png" id="215_Crowned in Summer" data-flag="@X" onclick="openSidebar('215_Crowned in Summer',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\219_Erlhan of the Empty Pursuit.png" id="219_Erlhan of the Empty Pursuit" data-flag="@X" onclick="openSidebar('219_Erlhan of the Empty Pursuit',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\223_Hero of Earned Steel.png" id="223_Hero of Earned Steel" data-flag="@X" onclick="openSidebar('223_Hero of Earned Steel',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\227_Begin the Empty Pursuit.png" id="227_Begin the Empty Pursuit" data-flag="@X" onclick="openSidebar('227_Begin the Empty Pursuit',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\213_Sunveil Seraph.png" id="213_Sunveil Seraph" data-flag="@X" onclick="openSidebar('213_Sunveil Seraph',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\218_Shardbreath Tyrant.png" id="218_Shardbreath Tyrant" data-flag="@X" onclick="openSidebar('218_Shardbreath Tyrant',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\221_Siphoned Radiance.png" id="221_Siphoned Radiance" data-flag="@X" onclick="openSidebar('221_Siphoned Radiance',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\224_The Quiet Gallop.png" id="224_The Quiet Gallop" data-flag="@X" onclick="openSidebar('224_The Quiet Gallop',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\230_Wailing Songbeast.png" id="230_Wailing Songbeast" data-flag="@X" onclick="openSidebar('230_Wailing Songbeast',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\212_Hollow Revelry.png" id="212_Hollow Revelry" data-flag="@X" onclick="openSidebar('212_Hollow Revelry',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\216_Lockstock Vakhter.png" id="216_Lockstock Vakhter" data-flag="@X" onclick="openSidebar('216_Lockstock Vakhter',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\220_Plea Beneath the Surface.png" id="220_Plea Beneath the Surface" data-flag="@X" onclick="openSidebar('220_Plea Beneath the Surface',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\225_Reckoner of the Bend.png" id="225_Reckoner of the Bend" data-flag="@X" onclick="openSidebar('225_Reckoner of the Bend',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\228_Errant Krivolak.png" id="228_Errant Krivolak" data-flag="@X" onclick="openSidebar('228_Errant Krivolak',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\214_Weeping Cikavac.png" id="214_Weeping Cikavac" data-flag="@X" onclick="openSidebar('214_Weeping Cikavac',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\217_Rekindling Affection.png" id="217_Rekindling Affection" data-flag="@X" onclick="openSidebar('217_Rekindling Affection',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\222_Slabtooth Ambusher.png" id="222_Slabtooth Ambusher" data-flag="@X" onclick="openSidebar('222_Slabtooth Ambusher',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\226_Unintended Transit.png" id="226_Unintended Transit" data-flag="@X" onclick="openSidebar('226_Unintended Transit',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\229_Prudent Grovewarden.png" id="229_Prudent Grovewarden" data-flag="@X" onclick="openSidebar('229_Prudent Grovewarden',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\236_Kateryna, Weaver of Winter.png" id="236_Kateryna, Weaver of Winter" data-flag="@X" onclick="openSidebar('236_Kateryna, Weaver of Winter',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\238_Solmhar, He Who Reaps.png" id="238_Solmhar, He Who Reaps" data-flag="@X" onclick="openSidebar('238_Solmhar, He Who Reaps',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\239_Sorvain, He Who Collects.png" id="239_Sorvain, He Who Collects" data-flag="@X" onclick="openSidebar('239_Sorvain, He Who Collects',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\231_Ajani, Forever Adrift.png" id="231_Ajani, Forever Adrift" data-flag="@X" onclick="openSidebar('231_Ajani, Forever Adrift',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\235_Kaelthar, He Who Stills.png" id="235_Kaelthar, He Who Stills" data-flag="@X" onclick="openSidebar('235_Kaelthar, He Who Stills',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\237_Sisters of Rain & River.png" id="237_Sisters of Rain & River" data-flag="@X" onclick="openSidebar('237_Sisters of Rain & River',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\233_Draveth of One Cut.png" id="233_Draveth of One Cut" data-flag="@X" onclick="openSidebar('233_Draveth of One Cut',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\240_Vesnara, She Who Bloomed.png" id="240_Vesnara, She Who Bloomed" data-flag="@X" onclick="openSidebar('240_Vesnara, She Who Bloomed',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\234_Elena of the Quiet Vale.png" id="234_Elena of the Quiet Vale" data-flag="@X" onclick="openSidebar('234_Elena of the Quiet Vale',false)"></div>
+			<div class="container"><img data-alt_src="/sets\TRO-files\img\232_Ciar, Lost Vessel_back.png" alt="/sets\TRO-files\img\232_Ciar, Lost Vessel_front.png" id="232_Ciar, Lost Vessel" data-flag="@XD" onclick="openSidebar('232_Ciar, Lost Vessel',false)"><button class="flip-btn" onclick="imgFlip('232_Ciar, Lost Vessel')"></button></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\246_Dewfrost Treads.png" id="246_Dewfrost Treads" data-flag="@X" onclick="openSidebar('246_Dewfrost Treads',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\252_Oathbound Reliquary.png" id="252_Oathbound Reliquary" data-flag="@X" onclick="openSidebar('252_Oathbound Reliquary',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\256_Soulbound Doll.png" id="256_Soulbound Doll" data-flag="@X" onclick="openSidebar('256_Soulbound Doll',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\259_Stitched Witness.png" id="259_Stitched Witness" data-flag="@X" onclick="openSidebar('259_Stitched Witness',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\261_Vice, Between Spaces.png" id="261_Vice, Between Spaces" data-flag="@X" onclick="openSidebar('261_Vice, Between Spaces',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\241_Altar to Those Unbroken.png" id="241_Altar to Those Unbroken" data-flag="@X" onclick="openSidebar('241_Altar to Those Unbroken',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\245_Clutching Cottage.png" id="245_Clutching Cottage" data-flag="@X" onclick="openSidebar('245_Clutching Cottage',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\247_Edge of Stilled Resolve.png" id="247_Edge of Stilled Resolve" data-flag="@X" onclick="openSidebar('247_Edge of Stilled Resolve',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\248_Effigy of the Craving.png" id="248_Effigy of the Craving" data-flag="@X" onclick="openSidebar('248_Effigy of the Craving',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\250_Helm of the Lost.png" id="250_Helm of the Lost" data-flag="@X" onclick="openSidebar('250_Helm of the Lost',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\251_Mockery of Valor.png" id="251_Mockery of Valor" data-flag="@X" onclick="openSidebar('251_Mockery of Valor',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\253_Pendant of Good Harvests.png" id="253_Pendant of Good Harvests" data-flag="@X" onclick="openSidebar('253_Pendant of Good Harvests',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\254_Pulse of the Hollowood.png" id="254_Pulse of the Hollowood" data-flag="@X" onclick="openSidebar('254_Pulse of the Hollowood',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\258_Stiltwalker Husk.png" id="258_Stiltwalker Husk" data-flag="@X" onclick="openSidebar('258_Stiltwalker Husk',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\260_Threadcharmer's Boots.png" id="260_Threadcharmers Boots" data-flag="@X" onclick="openSidebar('260_Threadcharmers Boots',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\242_Ashpost Scarecrow.png" id="242_Ashpost Scarecrow" data-flag="@X" onclick="openSidebar('242_Ashpost Scarecrow',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\243_Betrayer's Effigy.png" id="243_Betrayers Effigy" data-flag="@X" onclick="openSidebar('243_Betrayers Effigy',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\244_Briarhoof Remnant.png" id="244_Briarhoof Remnant" data-flag="@X" onclick="openSidebar('244_Briarhoof Remnant',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\249_Grandmother's Maw.png" id="249_Grandmothers Maw" data-flag="@X" onclick="openSidebar('249_Grandmothers Maw',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\255_Quietward Stones.png" id="255_Quietward Stones" data-flag="@X" onclick="openSidebar('255_Quietward Stones',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\257_Stillmouth Wretch.png" id="257_Stillmouth Wretch" data-flag="@X" onclick="openSidebar('257_Stillmouth Wretch',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\262_Vigil of Those Lost.png" id="262_Vigil of Those Lost" data-flag="@X" onclick="openSidebar('262_Vigil of Those Lost',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\263_Wayfarer's Map.png" id="263_Wayfarers Map" data-flag="@X" onclick="openSidebar('263_Wayfarers Map',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\264_Woundlace Doll.png" id="264_Woundlace Doll" data-flag="@X" onclick="openSidebar('264_Woundlace Doll',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img data-alt_src="/sets\TRO-files\img\277_Veilshroud Crossing_back.png" alt="/sets\TRO-files\img\277_Veilshroud Crossing_front.png" id="277_Veilshroud Crossing" data-flag="@XD" onclick="openSidebar('277_Veilshroud Crossing',false)"><button class="flip-btn" onclick="imgFlip('277_Veilshroud Crossing')"></button></div>
+			<div class="container"><img data-alt_src="/sets\TRO-files\img\271_Hearthvale Crossing_back.png" alt="/sets\TRO-files\img\271_Hearthvale Crossing_front.png" id="271_Hearthvale Crossing" data-flag="@XD" onclick="openSidebar('271_Hearthvale Crossing',false)"><button class="flip-btn" onclick="imgFlip('271_Hearthvale Crossing')"></button></div>
+			<div class="container"><img data-alt_src="/sets\TRO-files\img\278_Wreathrot Crossing_back.png" alt="/sets\TRO-files\img\278_Wreathrot Crossing_front.png" id="278_Wreathrot Crossing" data-flag="@XD" onclick="openSidebar('278_Wreathrot Crossing',false)"><button class="flip-btn" onclick="imgFlip('278_Wreathrot Crossing')"></button></div>
+			<div class="container"><img data-alt_src="/sets\TRO-files\img\272_Hollowood Crossing_back.png" alt="/sets\TRO-files\img\272_Hollowood Crossing_front.png" id="272_Hollowood Crossing" data-flag="@XD" onclick="openSidebar('272_Hollowood Crossing',false)"><button class="flip-btn" onclick="imgFlip('272_Hollowood Crossing')"></button></div>
+			<div class="container"><img data-alt_src="/sets\TRO-files\img\266_Brightwane Crossing_back.png" alt="/sets\TRO-files\img\266_Brightwane Crossing_front.png" id="266_Brightwane Crossing" data-flag="@XD" onclick="openSidebar('266_Brightwane Crossing',false)"><button class="flip-btn" onclick="imgFlip('266_Brightwane Crossing')"></button></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img data-alt_src="/sets\TRO-files\img\273_Mirepath Crossing_back.png" alt="/sets\TRO-files\img\273_Mirepath Crossing_front.png" id="273_Mirepath Crossing" data-flag="@XD" onclick="openSidebar('273_Mirepath Crossing',false)"><button class="flip-btn" onclick="imgFlip('273_Mirepath Crossing')"></button></div>
+			<div class="container"><img data-alt_src="/sets\TRO-files\img\269_Glimmerpeak Crossing_back.png" alt="/sets\TRO-files\img\269_Glimmerpeak Crossing_front.png" id="269_Glimmerpeak Crossing" data-flag="@XD" onclick="openSidebar('269_Glimmerpeak Crossing',false)"><button class="flip-btn" onclick="imgFlip('269_Glimmerpeak Crossing')"></button></div>
+			<div class="container"><img data-alt_src="/sets\TRO-files\img\265_Ashwood Crossing_back.png" alt="/sets\TRO-files\img\265_Ashwood Crossing_front.png" id="265_Ashwood Crossing" data-flag="@XD" onclick="openSidebar('265_Ashwood Crossing',false)"><button class="flip-btn" onclick="imgFlip('265_Ashwood Crossing')"></button></div>
+			<div class="container"><img data-alt_src="/sets\TRO-files\img\270_Hagspire Crossing_back.png" alt="/sets\TRO-files\img\270_Hagspire Crossing_front.png" id="270_Hagspire Crossing" data-flag="@XD" onclick="openSidebar('270_Hagspire Crossing',false)"><button class="flip-btn" onclick="imgFlip('270_Hagspire Crossing')"></button></div>
+			<div class="container"><img data-alt_src="/sets\TRO-files\img\275_Singshore Crossing_back.png" alt="/sets\TRO-files\img\275_Singshore Crossing_front.png" id="275_Singshore Crossing" data-flag="@XD" onclick="openSidebar('275_Singshore Crossing',false)"><button class="flip-btn" onclick="imgFlip('275_Singshore Crossing')"></button></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\276_Tiller of Realms.png" id="276_Tiller of Realms" data-flag="@X" onclick="openSidebar('276_Tiller of Realms',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\267_Field of Ruin.png" id="267_Field of Ruin" data-flag="@X" onclick="openSidebar('267_Field of Ruin',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\274_Sanctum of the Stilled Bloom.png" id="274_Sanctum of the Stilled Bloom" data-flag="@X" onclick="openSidebar('274_Sanctum of the Stilled Bloom',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\268_Frostveil Crossroads.png" id="268_Frostveil Crossroads" data-flag="@X" onclick="openSidebar('268_Frostveil Crossroads',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\280_Plains.png" id="280_Plains" data-flag="@X" onclick="openSidebar('280_Plains',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\279_Plains.png" id="279_Plains" data-flag="@X" onclick="openSidebar('279_Plains',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\282_Island.png" id="282_Island" data-flag="@X" onclick="openSidebar('282_Island',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\281_Island.png" id="281_Island" data-flag="@X" onclick="openSidebar('281_Island',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\284_Swamp.png" id="284_Swamp" data-flag="@X" onclick="openSidebar('284_Swamp',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\283_Swamp.png" id="283_Swamp" data-flag="@X" onclick="openSidebar('283_Swamp',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\285_Mountain.png" id="285_Mountain" data-flag="@X" onclick="openSidebar('285_Mountain',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\286_Mountain.png" id="286_Mountain" data-flag="@X" onclick="openSidebar('286_Mountain',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\288_Forest.png" id="288_Forest" data-flag="@X" onclick="openSidebar('288_Forest',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\287_Forest.png" id="287_Forest" data-flag="@X" onclick="openSidebar('287_Forest',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="token" class="anchor"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\1t_Hunt for a Card.png" id="1t_Hunt for a Card" data-flag="@X" onclick="openSidebar('1t_Hunt for a Card',true)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\2t_Hunt for a Dragon.png" id="2t_Hunt for a Dragon" data-flag="@X" onclick="openSidebar('2t_Hunt for a Dragon',true)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\3t_Hunt for a Lover.png" id="3t_Hunt for a Lover" data-flag="@X" onclick="openSidebar('3t_Hunt for a Lover',true)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\4t_Hunt for Artifact.png" id="4t_Hunt for Artifact" data-flag="@X" onclick="openSidebar('4t_Hunt for Artifact',true)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\5t_Hunt for Cards.png" id="5t_Hunt for Cards" data-flag="@X" onclick="openSidebar('5t_Hunt for Cards',true)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\6t_Hunt for Echoes.png" id="6t_Hunt for Echoes" data-flag="@X" onclick="openSidebar('6t_Hunt for Echoes',true)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\7t_Hunt for Elemental.png" id="7t_Hunt for Elemental" data-flag="@X" onclick="openSidebar('7t_Hunt for Elemental',true)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\8t_Hunt for Glory.png" id="8t_Hunt for Glory" data-flag="@X" onclick="openSidebar('8t_Hunt for Glory',true)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\9t_Hunt for Karnstruct.png" id="9t_Hunt for Karnstruct" data-flag="@X" onclick="openSidebar('9t_Hunt for Karnstruct',true)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\10t_Hunt for Release.png" id="10t_Hunt for Release" data-flag="@X" onclick="openSidebar('10t_Hunt for Release',true)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\11t_Hunt for Salvation.png" id="11t_Hunt for Salvation" data-flag="@X" onclick="openSidebar('11t_Hunt for Salvation',true)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\12t_Hunt for Specific Cards.png" id="12t_Hunt for Specific Cards" data-flag="@X" onclick="openSidebar('12t_Hunt for Specific Cards',true)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\13t_Hunt for Vodyanov.png" id="13t_Hunt for Vodyanov" data-flag="@X" onclick="openSidebar('13t_Hunt for Vodyanov',true)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\14t_Hunt for Whisperfoot Skitterers.png" id="14t_Hunt for Whisperfoot Skitterers" data-flag="@X" onclick="openSidebar('14t_Hunt for Whisperfoot Skitterers',true)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\27t_Construct.png" id="27t_Construct" data-flag="@X" onclick="openSidebar('27t_Construct',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\28t_Treasure.png" id="28t_Treasure" data-flag="@X" onclick="openSidebar('28t_Treasure',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\29t_Twiddlebox.png" id="29t_Twiddlebox" data-flag="@X" onclick="openSidebar('29t_Twiddlebox',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\30t_Weapon.png" id="30t_Weapon" data-flag="@X" onclick="openSidebar('30t_Weapon',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\15t_Angel.png" id="15t_Angel" data-flag="@X" onclick="openSidebar('15t_Angel',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\16t_Cat.png" id="16t_Cat" data-flag="@X" onclick="openSidebar('16t_Cat',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\17t_Spirit.png" id="17t_Spirit" data-flag="@X" onclick="openSidebar('17t_Spirit',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\18t_Yaromir.png" id="18t_Yaromir" data-flag="@X" onclick="openSidebar('18t_Yaromir',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\19t_Elemental Beast.png" id="19t_Elemental Beast" data-flag="@X" onclick="openSidebar('19t_Elemental Beast',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\20t_Devil.png" id="20t_Devil" data-flag="@X" onclick="openSidebar('20t_Devil',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\21t_Dragon.png" id="21t_Dragon" data-flag="@X" onclick="openSidebar('21t_Dragon',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\22t_Human.png" id="22t_Human" data-flag="@X" onclick="openSidebar('22t_Human',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\23t_Elemental.png" id="23t_Elemental" data-flag="@X" onclick="openSidebar('23t_Elemental',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\24t_Human.png" id="24t_Human" data-flag="@X" onclick="openSidebar('24t_Human',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\25t_Ouphe.png" id="25t_Ouphe" data-flag="@X" onclick="openSidebar('25t_Ouphe',false)"></div>
+			<div class="container"><img alt="/sets\TRO-files\img\26t_Wolf.png" id="26t_Wolf" data-flag="@X" onclick="openSidebar('26t_Wolf',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
