@@ -169,6 +169,8 @@
 		<img class="preload-hidden" src="/sets/TRO-files/icon.png" />
 		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ZNU-files/icon.png" />
+		<img class="preload-hidden" id="bg" src="/sets/ZNU-files/bg.png" />
+		
 		<div class="header">
 		<div class="search-grid">
 			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
@@ -659,7 +661,7 @@
 		}
 		while (images_loaded.includes(false));
 
-		
+		document.body.style.backgroundImage = 'url(' + document.getElementById("bg").src + ')';
 		loadImages();
 	});
 

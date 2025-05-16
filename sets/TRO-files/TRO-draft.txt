@@ -73,7 +73,7 @@
 		{
 			"name": "Whitehoof Ascendant",
 			"rarity": "common",
-			"mana_cost": "{2}{W}",
+			"mana_cost": "{3}{W}",
 			"type": "Creature — Human Knight ",
 			"collector_number": "38",
 			"image_uris": {
@@ -3185,16 +3185,6 @@
 			}
 		},
 		{
-			"name": "Vice, Between Spaces",
-			"rarity": "rare",
-			"mana_cost": "{3}",
-			"type": "Legendary Artifact Planeswalker — Vice ",
-			"collector_number": "261",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRO-files/img/261_Vice, Between Spaces.png"
-			}
-		},
-		{
 			"name": "Twiddlebox",
 			"rarity": "common",
 			"mana_cost": "",
@@ -3262,6 +3252,16 @@
 			"collector_number": "7",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/TRO-files/img/7_Hunt for Elemental.png"
+			}
+		},
+		{
+			"name": "Vice, Between Spaces",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact Planeswalker — Vice ",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/261_Vice, Between Spaces.png"
 			}
 		}
 	]
