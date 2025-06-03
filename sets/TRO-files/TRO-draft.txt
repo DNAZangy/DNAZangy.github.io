@@ -1154,7 +1154,7 @@
 			"name": "Emptypetal Crone",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Faerie Warlock ",
+			"type": "Creature — Dryad Hag Warlock ",
 			"collector_number": "167",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/TRO-files/img/167_Emptypetal Crone.png"
@@ -1954,13 +1954,13 @@
 			}
 		},
 		{
-			"name": "Master of the Pale Light",
+			"name": "Master of the Pale Frost",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Human Druid ",
 			"collector_number": "176",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRO-files/img/176_Master of the Pale Light.png"
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/176_Master of the Pale Frost.png"
 			}
 		},
 		{
@@ -2331,13 +2331,13 @@
 			}
 		},
 		{
-			"name": "Sisters of Rain & River",
+			"name": "Sisters of Rain and River",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{W}{B}",
 			"type": "Legendary Creature — Elder Warlock ",
 			"collector_number": "242",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRO-files/img/242_Sisters of Rain & River.png"
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/242_Sisters of Rain and River.png"
 			}
 		},
 		{
@@ -2838,13 +2838,13 @@
 			}
 		},
 		{
-			"name": "Human",
+			"name": "Human2",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Human ",
 			"collector_number": "22",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRO-files/img/22_Human.png"
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/22_Human2.png"
 			}
 		},
 		{
@@ -2968,13 +2968,13 @@
 			}
 		},
 		{
-			"name": "Hunt for Specific Cards",
+			"name": "Hunt for Returns",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Battle — Hunt ",
-			"collector_number": "12",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRO-files/img/12_Hunt for Specific Cards.png"
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/11_Hunt for Returns.png"
 			}
 		},
 		{
@@ -3030,7 +3030,7 @@
 		{
 			"name": "Veyhalde Liaison",
 			"rarity": "rare",
-			"mana_cost": "{4}{U}",
+			"mana_cost": "{3}{U}{U}",
 			"type": "Creature — Satyr Advisor ",
 			"collector_number": "74",
 			"image_uris": {
@@ -3199,9 +3199,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Battle — Hunt ",
-			"collector_number": "11",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRO-files/img/11_Hunt for Salvation.png"
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/12_Hunt for Salvation.png"
 			}
 		},
 		{
@@ -3219,9 +3219,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Battle — Hunt ",
-			"collector_number": "8",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRO-files/img/8_Hunt for Glory.png"
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/9_Hunt for Glory.png"
 			}
 		},
 		{
@@ -3235,13 +3235,13 @@
 			}
 		},
 		{
-			"name": "Hunt for Karnstruct",
+			"name": "Hunt for Friends",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Battle — Hunt ",
-			"collector_number": "9",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/TRO-files/img/9_Hunt for Karnstruct.png"
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/8_Hunt for Friends.png"
 			}
 		},
 		{
@@ -3343,7 +3343,7 @@
 2 Strike of Conviction
 2 One Breath from Ruin
 2 Honeytongued Sibilisk
-2 Master of the Pale Light
+2 Master of the Pale Frost
 2 Stampeding Gorejaw
 2 Instinctive Bond
 2 Consonance of Seasons
@@ -3380,7 +3380,7 @@
 2 Erlhan of the Empty Pursuit
 2 Hero of Earned Steel
 2 Kaelthar, He Who Stills
-2 Sisters of Rain & River
+2 Sisters of Rain and River
 2 Kateryna, Weaver of Winter
 2 Vesnara, She Who Bloomed
 2 Draveth of One Cut
@@ -3515,7 +3515,7 @@
 9 Bitterguard Blade
 9 Bundle of Borrowed Charms
 9 Wreath of the Willing Bloom
-[CommonSlot(8)]
+[CommonSlot(9)]
 30 Griefbough Witness
 30 Mavka of Forgotten Groves
 30 Tuckered-Out Domovoi
