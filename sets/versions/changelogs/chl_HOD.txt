@@ -1,4 +1,144 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+
+
+Scorched Earth
+rules_text: As an additional cost to cast this spell, you may forsake. If you do it costs {2} less to cast. [i](To forsake, sacrifice creatures with total toughness 3 or more.)[/i]
+Destroy all creatures. => As an additional cost to cast this spell, you may forsake. If you do, it costs {2} less to cast. [i](To forsake, sacrifice creatures with total toughness 3 or more.)[/i]
+Destroy all creatures.
+
+Petula Vance, the Solemn Joke
+rules_text: Whenever Petula Vance attacks, you exile another attacking creature you control. If you do, return target creature card from your graveyard to the battlefield and attacking. => Whenever Petula Vance attacks, exile another attacking creature you control. If you do, return target creature card from your graveyard to the battlefield tapped and attacking.
+special_text: Heir—You've cast five or more spells for an amount of mana less than their mana value. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]
+Whenever Petula Vance attacks, you exile another attacking creature you control. If you do, return target creature card from your graveyard to the battlefield and attacking. => Heir—You've cast five or more spells for an amount of mana less than their mana value. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]
+Whenever Petula Vance attacks, exile another attacking creature you control. If you do, return target creature card from your graveyard to the battlefield tapped and attacking.
+
+House Negotiations
+rules_text: Enchant creature
+Enchanted creature has “Whenever this creature deals combat damage to a player or planeswalker, put that many +1/+1 counters on it” and “When this creature leaves the battlefield, create a number of 2/1 red Soldier creature tokens in your reserves equal its power. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i] => Enchant creature
+Enchanted creature has “Whenever this creature deals combat damage to a player or planeswalker, put two +1/+1 counters on it” and “When this creature leaves the battlefield, create a number of 2/1 red Soldier creature tokens in your reserves equal to the number of counters on it.” [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]
+
+Geistwald Amalgam
+rules_text: Geistwald Amalgam enters with X +1/+1 counters on it.
+Trample
+Escape—{4}{G}, Exile X other cards from your graveyard. X can't be 0. [i](You may cast this card from your graveyard for its escape cost.)[/i] => Geistwald Amalgam enters with X +1/+1 counters on it.
+Escape—{4}{G}, Exile X other cards from your graveyard. X can't be 0. [i](You may cast this card from your graveyard for its escape cost.)[/i]
+
+Geistwald Abomination
+rules_text: Trample, reach
+When Geistwald Abomination dies, choose two names. For each name, create a legendary 3/3 Knight creature token that is all colors with that name in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i] => Trample, reach
+When Geistwald Abomination dies, choose two names. For each chosen name, create a legendary 3/3 Knight creature token that is all colors with that name in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]
+
+Cherrywood Elite
+rules_text: Lifelink
+At the beginning of each end step, you may discard a card. If you do, return Cherrywood Elite from your graveyard to the battlefield if you spent four or more mana on casting noncreature spells or paying for bloom costs this turn. => Lifelink
+At the beginning of each end step, you may discard a card. If you do, return Cherrywood Elite from your graveyard to the battlefield if you spent four or more mana on casting noncreature spells and/or paying for bloom costs this turn.
+
+Travelcart's Care
+rules_text: Create a 2/1 red Soldier creature token in your reserves if you control fewer creatures than an opponent. Do the same for Food and a lower life total, a Clue token fewer cards in hand, and a Treasure for fewer lands. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i] => Create a 2/1 red Soldier creature token in your reserves if you control fewer creatures than an opponent. Do the same for Food and a lower life total, a Clue and fewer cards in hand, and Treasure and fewer lands. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]
+
+Grand Snail Race at Riverdale
+rules_text: Whenever a creature you control dies, exile the top three cards of each opponent's library.
+{2}: If there are 12 or more cards exiled by Grand Snail Race at Riverdale, it becomes a 5/5 blue Snail creature until end of turn. => Whenever a creature you control dies, exile the top three cards of each opponent's library.
+{2}: If there are twelve or more cards exiled by Grand Snail Race at Riverdale, it becomes a 5/5 blue Snail creature until end of turn.
+
+Reaper of Graven Laughs
+rules_text: Trample
+When Reaper of Graven Laughs enters, create a 1/1 blue Scout token for each card in your graveyard in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i] => Trample
+When Reaper of Graven Laughs enters, create a 1/1 blue Scout token in your reserves for each card in your graveyard. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]
+
+Beacon of Greatness
+rules_text: Choose one, then create a token with those characteristics, then create a 3/3 white Soldier creature token with defender.
+• Lover to All, a legendary 2/3 red Human Noble creature token with menace.
+• The Sword of Perle, a legendary 3/1 red Orc Soldier creature token with “This creature has first strike as long as it is attacking.” => Choose one, then create a token with those characteristics, then create a 3/3 white Soldier creature token with defender.
+• Lover to All, a legendary 2/3 red Human Noble creature token with menace.
+• The Sword of Perle, a legendary 3/1 red Orc Soldier creature token with “This creature has first strike as long as it's attacking.”
+
+Encroach Upon
+rules_text: The first time each turn you create one or more tokens, create a token copy of one of those tokens in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i] => The first time each turn you create one or more tokens, create a token that's a copy of one of those tokens in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]
+
+Restorative Hexer
+pt: 2/3 => 2/2
+
+Sacred Avenger
+rules_text: When Sacred Avenger enters, create three 1/1 blue Scout creature tokens.
+Equipped creature is a 4/4 white Angel creature with flying and vigilance.
+Equip— Forsake. [i](Sacrifice creatures with total toughness three or more.)[/i] => When Sacred Avenger enters, create three 1/1 blue Scout creature tokens.
+Equipped creature is a 4/4 white Angel creature with flying and vigilance.
+Equip—Forsake. [i](Sacrifice creatures with total toughness three or more.)[/i]
+
+Highborn Sovereign
+rules_text: {2}, Sacrifice another creature: Highborn Sovereign becomes indestructible until end of turn.
+Islandcycling {2}, Mountaincycling {2}, Plainscycling {2} [i]({2}, Discard this card: Search your library for a Island, Mountain, or Plains card, reveal it, put it into your hand, then shuffle.)[/i] => {2}, Sacrifice another creature: Highborn Sovereign gains indestructible until end of turn.
+Islandcycling {2}, Mountaincycling {2}, Plainscycling {2} [i]({2}, Discard this card: Search your library for a Island, Mountain, or Plains card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Blade of Riverdale
+rules_text: As an additional cost to cast this spell, you may forsake. If you do it costs {3} less to cast. [i](To forsake, sacrifice creatures with total toughness 3 or more.)[/i]
+Flying => As an additional cost to cast this spell, you may forsake. If you do, it costs {3} less to cast. [i](To forsake, sacrifice creatures with total toughness 3 or more.)[/i]
+Flying
+
+Royal Send-Off
+rules_text: As an additional cost to cast this spell, you may forsake. If you do it costs {3} less to cast. [i](To forsake, sacrifice creatures with total toughness 3 or more.)[/i]
+Surveil 2, then draw three cards. => As an additional cost to cast this spell, you may forsake. If you do, it costs {3} less to cast. [i](To forsake, sacrifice creatures with total toughness 3 or more.)[/i]
+Surveil 2, then draw three cards.
+
+Give Penance
+rules_text: As an additional cost to cast this spell, you may forsake. If you do it costs {4} less to cast. [i](To forsake, sacrifice creatures with total toughness 3 or more.)[/i]
+Exile target nonland permanent. => As an additional cost to cast this spell, you may forsake. If you do, it costs {4} less to cast. [i](To forsake, sacrifice creatures with total toughness 3 or more.)[/i]
+Exile target nonland permanent.
+
+Truetower Warden
+rules_text: As an additional cost to cast this spell, you may forsake. If you do it costs {3} less to cast. [i](To forsake, sacrifice creatures with total toughness 3 or more.)[/i]
+Vigilance, lifelink => As an additional cost to cast this spell, you may forsake. If you do, it costs {3} less to cast. [i](To forsake, sacrifice creatures with total toughness 3 or more.)[/i]
+Vigilance, lifelink
+
+Nye Recruit
+rules_text: {1{B}G}: Nye Recruit gains indestructible until end of turn. Tap it. => {1}{BG}: Nye Recruit gains indestructible until end of turn. Tap it.
+
+Vance Recruit
+rules_text: When Vance Recruit enters, create a Treasure token.
+{1{U}R}{UR}, Exile Vance Recruit from your graveyard: You draw two cards and you lose 2 life. => When Vance Recruit enters, create a Treasure token.
+{1}{UR}{UR}, Exile Vance Recruit from your graveyard: You draw two cards and you lose 2 life.
+
+Measured Strike
+rules_text: As an additional cost to cast this spell, you may forsake. If you do it costs {3} less to cast. [i](To forsake, sacrifice creatures with total toughness 3 or more.)[/i]
+Measured Strike deals 4 damage to any target. => As an additional cost to cast this spell, you may forsake. If you do, it costs {3} less to cast. [i](To forsake, sacrifice creatures with total toughness 3 or more.)[/i]
+Measured Strike deals 4 damage to any target.
+
+Call to Strength
+rules_text: This spell costs {2} less to cast if there are two or more noncreature nonland cards in your graveyard.
+Choose one —
+• Create The Gentle Giant, a legendary 5/5 green Azra Knight creature token with vigilance.
+• Put two +1/+1 counters on target creature you control. It fights target creature you don't control. => This spell costs {2} less to cast as long as there are two or more noncreature nonland cards in your graveyard.
+Choose one —
+• Create The Gentle Giant, a legendary 5/5 green Azra Knight creature token with vigilance.
+• Put two +1/+1 counters on target creature you control. It fights target creature you don't control.
+
+Overzealous Page
+rules_text: When Overzealous Page enters, create one of the following tokens in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]
+• The Sword of Perle, a legendary 3/1 red Orc Soldier creature token with “This creature has first strike as long as it is attacking.”
+• The Occultist, a legendary 2/3 Human Wizard with lifelink. => When Overzealous Page enters, create one of the following tokens in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]
+• The Sword of Perle, a legendary 3/1 red Orc Soldier creature token with “This creature has first strike as long as it's attacking.”
+• The Occultist, a legendary 2/3 Human Wizard with lifelink.
+
+Rey Recruit
+rules_text: Reach
+{1{G}W}: Rey Recruit gains vigilance until end of turn. Mill a card. Activate only once each turn. => Reach
+{1}{GW}: Rey Recruit gains vigilance until end of turn. Mill a card. Activate only once each turn.
+
+Kirsa's Page
+rules_text: When Kirsa's Page enters, choose one —
+• Destroy target artifact or nonbasic land.
+• Create The Sword of Perle, a legendary 3/1 red Orc Soldier creature token with “This creature has first strike as long as it is attacking.” => When Kirsa's Page enters, choose one —
+• Destroy target artifact or nonbasic land.
+• Create The Sword of Perle, a legendary 3/1 red Orc Soldier creature token with “This creature has first strike as long as it's attacking.”
+
+The Sword of Perle
+rules_text: The Sword of Perle has first strike as long as it is attacking. => The Sword of Perle has first strike as long as it's attacking.
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

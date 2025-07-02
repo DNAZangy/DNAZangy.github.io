@@ -3,6 +3,7 @@
     "formats": "Zangy, Santa",
     "trimmed": "y",
     "image_type": "png",
+    "draft_structure": "play booster",
     "cards": [
         {
             "card_name": "Leave Behind",
@@ -2078,7 +2079,7 @@
             "card_name": "Outlive Usefulness",
             "color": "B",
             "rarity": "uncommon",
-            "type": "Sorcery",
+            "type": "Instant",
             "number": 115,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
@@ -5909,5 +5910,5 @@
             "notes": "TOTALLYCOMPLETED"
         }
     ],
-    "version": 1
+    "version": 2
 }
