@@ -1,4 +1,636 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Gilded Noon Runner added.
+
+Gilded Noon Skirmisher removed.
+
+Soulflame Mystic
+
+Rend the Bonds
+
+Dawnward Minister
+
+Gift of Stillness
+
+Silent Veteran
+
+Doctrine of Cleansing Flames
+
+Sun-Frenzied Frontliner
+
+Refuse to Bloom
+
+Tendervow Witch
+
+Fury Sprout
+
+Crushed Under Conviction
+
+Resolute Reinforcements
+
+Hushed Briefing
+
+Hollowbark Seer
+
+Magma Spray
+
+Risen Butcher
+
+Bastion of Aureth
+
+Stargazing
+
+Sundered Heretic
+
+Emberforged Forerunner
+
+Blade of Borrowed Breath
+
+Saint of Stolen Flame
+
+Raven of Onyx Wing
+
+Herald of the Hollow Chant
+
+Convergence of Wings
+
+Dawnspark Vanguard
+
+Shaper of Luminous Will
+
+Echoed Chant
+
+Drowntide Exhumer
+
+Dawnveil Infiltrator
+
+Radiant Heritor
+
+Pagebinder Witch
+
+Deathsworn Blade
+
+Ember-Eyed Skirmisher
+
+Peaceweaver Adept
+
+Sanctum of Repression
+
+Chorus of One
+
+Die as Thou Wilt
+
+Scorchroot Forerunner
+
+Shatter the Sigil
+
+Undertide Scout
+
+Quiet the Heart
+
+Righteous Evangel
+
+Shieldbearer Protector
+
+Blade of the Sunvrath
+
+Gossamer Dreamer
+
+Extract the Truth
+
+Fellhorn Enforcer
+
+Redeemer of the Fallen Line
+
+Seer of Shackled Breath
+
+Night's Whisper
+
+Thistrel Ascendant
+
+Dawnhoof Behemoth
+
+Scornful Hexmistress
+
+Lunate Prowlwarden
+
+Gracebound Noble
+
+Soulhoarder
+
+Bloodied Zealot
+
+Sealed-Sigil Adept
+
+Lighttouched Vanguard
+
+Sweeten the Deal
+
+Aureth Cross Crusader
+
+Siphoned Allegiance
+
+Radiance Unmade
+
+Blaze Beyond Limits
+
+Sovereign's Execution
+
+Flutter
+
+Sentinel of Dawnbloom Grove
+
+Destructive Ambition
+
+Legacy Denied
+
+Spear of the Pale Thorn
+
+Rekindled Wrath
+
+Vow to Conquer
+
+Gleaming Barrier
+
+Thorn of Unmaking
+
+Guardian of the Empty Throne
+
+Zealforged Pathfinder
+
+Wind-Scarred Crag
+
+Swiftwater Cliffs
+
+Dismal Backwater
+
+Jungle Hollow
+
+Blossoming Sands
+
+Gravetithe Witch
+
+Sanctified Cartography
+
+Secrets on Painted Wings
+
+Path of the Gentle End
+
+Rite of Consuming Glory
+
+Shared in Shadow
+
+Softstep Vowkeeper
+
+Cloudveil Courier
+
+Cruxborn Tyrant
+
+Sacrament Tactician
+
+Gildchant Trasmuter
+
+Enduring Vowholder
+
+Uplifting Chorus
+
+Withered Wyrm
+
+Frenzied Dawnseeker
+
+Cidraeth Charm
+
+Lunate Charm
+
+Thistrel Charm
+
+Dolcairn Charm
+
+Sunvrath Charm
+
+Sanctified Attendant
+
+Overrule Thought
+
+Grasp of the Drowned
+
+Proclaimer of Blooming Wing
+
+Architect of Resolve
+
+The Throne of House Ravellan
+
+Remnant of the Devoured Sun
+
+Golden Bloom of the Silenced
+
+Heart of the Shed Soul
+
+Unyielding Conviction
+
+Wasted Preparation
+
+Cloak of Undeath
+
+Litany-Marked Schemer
+
+Widow's Knight
+
+Break the Tide
+
+Courtly Intrigue
+
+Outlive Usefulness
+
+Advance of Fire and Faith
+
+Advance of Rot and Ruin
+
+Sanctified Ravager
+
+Discern
+
+Unmaker of Thought
+
+Petalclaw Ambusher
+
+Advance of the Verdant Rite
+
+Blessed Linewarden
+
+Coven of Brine
+
+Reliquary Sentinel
+
+Undarah, of Fervor and Flame
+
+Banner Breaker
+
+Softlight Harmonist
+
+Advance of Rune and Whisper
+
+Stride Once More
+
+Aspen's Oathguard
+
+Wrought in Hunger
+
+Fieldlight Tactician
+
+Advance of Dreamwoven Law
+
+Heart's Betrayal
+
+Evangel of Severed Doubt
+
+Angelbound Warden
+
+Law Given Form
+
+Recital of the First Echo
+
+Reclaim the Fallen
+
+Despot of the Shifting Crown
+
+Groveborn Envoy
+
+Sunvrath Juggernaut
+
+Weigh the Whispers
+
+Bull of the Branded Flame
+
+Bloodline Inciter
+
+Dawnsworn Survivor
+
+Mandate of Conquest
+
+Reflected Echo
+
+Weaver of Brooding Threads
+
+Advance of the Blazing Court
+
+Hopeworn Veteran
+
+Sunvrath Exemplar
+
+Mistwrit Archivist
+
+Graveborn Confidant
+
+Pyrrhic Blast
+
+Purifier of Dawnbloom Grove
+
+Boundlight Seraph
+
+Gilded Noon Skirmisher
+type: Creature — Faerie Rogue => Creature — Faerie Wizard
+cost: {1}{R} => {3}{U}
+rules_text: Menace
+Decoy [i](Whenever this creature attacks, create a tapped and attacking 1/1 Illusion token that's a copy of it. Exile the token at the beginning of the next end step.)[/i] => Flying
+Whenever you create one or more tokens, put a +1/+1 counter on Gilded Noon Skirmisher.
+pt: 1/3 => 3/2
+
+Vardo's Scalpel
+
+Rebirth through Seasons
+
+Huskforger Acolyte
+
+Ember-Caged Siegebreaker
+
+Whisperthorn Weaver
+
+Ram of Obsidian Heart
+
+Coordinated Shot
+
+Dreadchant Warcaller
+
+Advance of the Quiet Moon
+
+Crab of the Hollow Gale
+
+Advance of the Umbral Bargain
+
+Doctrine of Sacrifice
+
+Stand in Unison
+
+Advance of the Sainted March
+
+Angler of the Crushing Sea
+
+Advance of the Hollow Wake
+
+Elixir of Divine Hunger
+
+Scour the Crownlands
+
+Omnipresence
+
+Call of the Crown
+
+Burning Blood Orator
+
+Dance of the Three Courts
+
+Eirian, the Last Light
+
+Annan, Thief of the Sun
+
+Vardo Ravellan, Forever King
+
+Snow on Petals
+
+The Ever-Gnashing Dark
+
+Consume the Divine
+
+Thorn and Trial
+
+Path of Scales
+
+Pact Beyond Death
+
+Eclipse of the Divine
+
+Gravebound Oath
+
+Sacrament of the Fallen
+
+Cloudveil Reshaper
+
+Rain of Blight
+
+Scourged Missionary
+
+Vestige of the King's Fall
+
+Sigil of the Last Light
+
+Fluttering Sun
+
+Guardian of Ashen Oaths
+
+Dreamswept Duelist
+
+Banners Unbroken
+
+Clash at Aureth Cross
+
+Unravel Thoughts
+
+Rhiannona, Pactborne
+
+Clash at Scorchroot Bluff
+
+Vow's Reflection
+
+Diviner of the Sun
+
+Three Become One
+
+Steep the Pactwen
+
+Verdant Radiance
+
+Paragon of Sacred Bellows
+
+Dawnhymn Herald
+
+Seize the Golden Bloom
+
+Fiend of the Crimson Pact
+
+Burn to Obscurity
+
+Reaper of Blossoms
+
+Archon of the Final March
+
+Witch of the First Echoes
+
+Gilded Noon Entertainer
+
+Ring of Promised Vows
+
+Henda Ravellan
+
+Voice of a Fallen Covenant
+
+Clash at the Shaded Maw
+
+Rekindled Seraph
+
+Clash at Dawnbloom Grove
+
+Radiant Devotee
+
+Clash at Mistwrit Vale
+
+Bleed for the Cause
+
+Silkenwing Tactician
+
+Faithline Marshal
+
+Lorespire Bluff
+
+Gallowsprout Timber
+
+Hall of the Gentle Light
+
+Sanctum of Bleeding Bark
+
+Crownfall Archive
+
+Chasm of the Silent Covenant
+
+Cruicible of Bound Flame
+
+Fort Ravellan
+
+Thronehall of Reckoning
+
+Glimmerveil Lake
+
+Cerridwyn, Matron
+
+Rozen, Clad in Guilt
+
+Towering Aspen
+
+Anthropomancy
+
+Ostarian, Architect of War
+
+Gwyneira of Frosted Grace
+
+Harmony
+
+Trickery
+
+Zaccola, the Gentle End
+
+Deafening Clarion
+
+Witchery
+
+Choir Ascendant
+
+Blooming Wing
+
+Cyrius, Bound to Dusk
+
+Bloodhorn Ravager
+
+Stag of the Broken Crown
+
+Rite of Harmony
+
+Mass Conjuration
+
+Bogspawn Witness
+
+Esdran, the Unburned
+
+Trauma Spike
+
+Cyra, Blade of Memory
+
+Ambassader of Unseen Edges
+
+Culling Ritual
+
+Glory
+
+Casus Belli
+
+Skytide Severer
+
+Reverie of the Endless Maw
+
+Fang of the Pale Thorn
+
+Ossin, the Crown's Shadow
+
+Gilded Court
+
+Terramorphic Expanse
+
+Aegis of Grace
+
+Speaker of Currents
+
+Matriarch of Veiled Kin
+
+Seed of the Golden Sun
+
+Commander of the Vow
+
+Oathbreaker's Challenge
+
+Surge of Bitter Breath
+
+The Forever Heart
+
+Herald of the Radiant Banner
+
+Frog of Eternal Gloom
+
+Thrice Sealed Blessing
+
+Gospel of Dominion
+
+Redeemer of Hollowed Flesh
+
+Soldier
+
+Knight
+
+Angel
+
+Warlock
+
+Horror
+
+Berserker
+
+Spirit
+
+Zombie
+
+Everywhere
+
+Treasure
+
+Warlock
+
+Warlock
+
+Warlock
+
+Warlock
+
+Too Late for Grace
+
+Erase from Existence
+
+Go Blank
+
+Ashes of the Self
+
+Refusal of the Hollow Gift
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
