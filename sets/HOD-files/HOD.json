@@ -535,7 +535,7 @@
             "number": 122,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Deathtouch, lifelink\nWhen Virulent Hexer enters, choose one. Each player exiles or removes the chosen until they have one.\n\u2022 Counters on permanents they control and counters on themselves.\n\u2022 Tokens they control and in their reserves.\n\u2022 Cards in their sanctum.",
+            "rules_text": "Deathtouch, lifelink\nWhen Virulent Hexer enters, choose one. Each player exiles or removes the chosen until they have one.\n\u2022 Counters on permanents they control and counters on themselves. [i](One per permanent or player, not one counter total.)[/i]\n\u2022 Tokens they control and in their reserves.\n\u2022 Cards in their sanctum.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -3299,7 +3299,7 @@
             "number": 257,
             "color_identity": "WRG",
             "cost": "{R}{G}{W}",
-            "rules_text": "[i]Landfall[/i] \u2014 Whenever a land you control enters, you may mill three cards. Create a 1/1 blue Scout creature token if a land card is milled this way. Create a Treasure token if a land card is milled this way. Create a Weapon token if a nonland, noncreature card is milled this way. [i](A Weapon token is an Equipment artifact token with equip {2} and \u201cEquipped creature gets +1/+1.)[/i]",
+            "rules_text": "[i]Landfall[/i] \u2014 Whenever a land you control enters, you may mill three cards. Create a 1/1 blue Scout creature token if a creature card is milled this way. Create a Treasure token if a land card is milled this way. Create a Weapon token if a nonland, noncreature card is milled this way. [i](A Weapon token is an Equipment artifact token with equip {2} and \u201cEquipped creature gets +1/+1.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6532,5 +6532,5 @@
             "notes": ""
         }
     ],
-    "version": 2
+    "version": 3
 }

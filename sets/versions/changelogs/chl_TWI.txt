@@ -1,4 +1,194 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Lunate Sentinel added.
+Thorn of Azurite added.
+Advance of the Empty Throne added.
+Tyrant of Burning Judgment added.
+Crumbling Ruin added.
+Crucible of the Burning Sun added.
+
+Shieldbearer Protector removed.
+Thorn of Unmaking removed.
+Advance of the Verdant Rite removed.
+Scourged Missionary removed.
+
+Soulflame Mystic
+
+Rend the Bonds
+
+Risen Butcher
+
+Gilded Noon Runner
+
+Peaceweaver Adept
+
+Chorus of One
+type: Creature — Horror => Creature — Angel Warlock
+
+Thistrel Ascendant
+
+Sentinel of Dawnbloom Grove
+
+Gleaming Barrier
+
+Guardian of the Empty Throne
+
+Zealforged Pathfinder
+
+Wind-Scarred Crag
+
+Swiftwater Cliffs
+
+Dismal Backwater
+
+Jungle Hollow
+
+Blossoming Sands
+
+The Throne of House Ravellan
+
+Remnant of the Devoured Sun
+rules_text: As an additional cost to cast this spell, exile seven cards from your graveyard.
+Indestructible
+Whenever Remnant of the Devoured Sun enters or attacks, return a card exiled with it to your hand. If it was a permanent card with lesser mana value than the number of cards in your hand, put it onto the battlefield instead. => As an additional cost to cast this spell, exile seven cards from your graveyard.
+Indestructible
+Whenever Remnant of the Devoured Sun enters or attacks, return a card exiled with it to your hand. If it was a permanent card with lesser mana value than the number of cards in your hand, you may put it onto the battlefield instead.
+
+Golden Bloom of the Silenced
+rules_text: If you would search your library for a land card, instead you may create a token that's a copy of a land you control. => As Golden Bloom of the Silenced enters, choose a nonland card name.
+Other permanents with the chosen name lose all abilities.
+
+Heart of the Shed Soul
+
+Discern
+rules_text: Draw a card. If you've spent 4 or more mana to cast instant and/or sorcery spells this turn, draw two cards instead. => Draw a card.
+Flashback {2}{U} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Weigh the Whispers
+
+Purifier of Dawnbloom Grove
+
+Scour the Crownlands
+
+Omnipresence
+
+Eclipse of the Divine
+special_text: [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+Whenever Eclipse of the Divine enters, exile the top three cards of your library.
+[b]3 Defense[/b] Level 2
+When this battle reaches this stage, you may play cards exiled with Eclipse of the Divine this turn.
+[b]Defeated[/b] Level 3
+Attacking creatures you control are 4/4 Angels with flying. => [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+Whenever Eclipse of the Divine enters, exile the top three cards of your library.
+[b]3 Defense[/b] Level 2
+When this battle reaches this stage, you may play cards exiled with Eclipse of the Divine until your next end step.
+[b]Defeated[/b] Level 3
+Attacking creatures you control are 4/4 Angels with flying.
+
+Clash at Scorchroot Bluff
+
+Verdant Radiance
+type: Enchantment => Sorcery
+rules_text: Sacrifice a creature: Creatures you control gain haste until end of turn.
+At the beginning of your end step, if three or more creatures have died under your control this turn, exile the top card of your library. You may play it until the end of your next turn. => Choose one —
+• Destroy all artifacts with mana value 3 or less.
+• Discard any number of cards, then draw that many cards plus one.
+
+Paragon of Sacred Bellows
+
+Seize the Golden Bloom
+rules_text: Search target player's library for a noncard with mana value X or less, exile it, where X is the number of creatures that have dealt damage to them this turn. Then they shuffle. Until end of turn, you may play that card without paying its mana cost. => Search target player's library for a nonland card with mana value X or less, exile it, where X is the number of creatures that have dealt damage to them this turn. Then they shuffle. Until end of turn, you may play that card without paying its mana cost.
+
+Reaper of Blossoms
+
+Witch of the First Echoes
+rules_text: Prowess
+At the beginning of your end step, if you've spent 4 or more mana to cast instant and/or sorcery spells this turn, create a 1/1 blue Warlock creature token with prowess. If you spent 8 or more mana to cast instant and/or sorcery spells this turn, instead create a 4/4 black Horror creature token. => Flash
+Prowess
+At the beginning of your end step, if you've spent 4 or more mana to cast instant and/or sorcery spells this turn, create a 1/1 blue Warlock creature token with prowess. If you spent 8 or more mana to cast instant and/or sorcery spells this turn, instead create a 4/4 black Horror creature token.
+
+Ring of Promised Vows
+
+Silkenwing Tactician
+
+Lorespire Bluff
+
+Gallowsprout Timber
+
+Hall of the Gentle Light
+
+Sanctum of Bleeding Bark
+
+Crownfall Archive
+
+Chasm of the Silent Covenant
+
+Cruicible of Bound Flame
+
+Fort Ravellan
+
+Thronehall of Reckoning
+
+Glimmerveil Lake
+
+Cerridwyn, Matron
+rules_text: Flying, prowess
+Whenever you cast an instant or sorcery spell from your hand, you may exile an instant or sorcery card with lesser mana value from your graveyard. Copy it and you may cast it without paying its mana cost. => Flying, prowess
+Whenever you cast an instant or sorcery spell from your hand, you may exile an instant or sorcery card with lesser mana value from your graveyard. Copy it and you may cast the copy without paying its mana cost.
+
+Trickery
+
+Ossin, the Crown's Shadow
+
+Gilded Court
+
+Ameret, Seeker of the Sun
+special_text: [+2]: Exile up to two target creatures you control. At the beginning of your next declare attackers step, return those creatures to the battlefield tapped and attacking.
+[0]: Ameret becomes a 4/4 Angel creature with flying, lifelink, haste, and indestructible until end of turn.
+[-9]: Ameret, Seeker of the Sun deals 5 damage to any number of other targets. You gain life equal to the damage dealt this way. => [+2]: Exile up to two target creatures you control. At the beginning of your next declare attackers step, return those creatures to the battlefield tapped and attacking.
+[0]: Ameret becomes a 4/4 Angel creature with flying, lifelink, haste, and indestructible until end of turn.
+[-2]: Ameret, Seeker of the Sun deals 3 damage to any target and you gain 3 life.
+loyalty: 4 => 5
+
+Terramorphic Expanse
+
+Seed of the Golden Sun
+rules_text: Once each turn, when an Illusion you control is exiled, you may create a token that's a copy of it. 
+{1}{R}, Discard Seed of the Golden Sun: Create a token that's a copy of target creature you control, except it's an Illusion with haste and “At the beginning of your end step, exile this creature.” => Once each turn, when an Illusion you control is exiled, you may create a token that's a copy of it. 
+{1}{R}, Discard Seed of the Golden Sun: Create a token that's a copy of target creature you control, except it's an Illusion with haste and “At the beginning of your end step, exile this creature.” Activate only as a sorcery.
+
+Oathbreaker's Challenge
+
+The Forever Heart
+
+Thrice Sealed Blessing
+rules_text: As long as you control exactly three creatures, creatures you control have +3/+0, have “Ward—Pay 3 life”, and can't be blocked except by three or more creatures. [i](Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life” and and can't be blocked except by three or more creatures.)[/i] => As long as you control exactly three creatures, creatures you control have +3/+0, have “Ward—Pay 3 life”, and can't be blocked except by three or more creatures.
+
+Redeemer of Hollowed Flesh
+
+Angel
+
+Everywhere
+
+Treasure
+
+Erase from Existence
+rules_text: Return target nonland permanent to its owner's hand. If there are four more more instant and/or sorcery cards in your graveyard, instead you may have its owner put it on the top or bottom of their library. => Return target nonland permanent to its owner's hand. If there are four or more instant and/or sorcery cards in your graveyard, instead you may have its owner put it on the top or bottom of their library.
+
+Refusal of the Hollow Gift
+rules_text: Target permanent you control gains hexproof and indestructible until end of turn. => You or target permanent you control gains hexproof until end of turn.
+
+Voice of a Fallen Covenant
+type: Creature — Angel Warlock => Creature — Horror Warlock
+rules_text: Flying
+Instant and sorcery spells you cast cost {1} less to cast for each other Warlock you control.
+Whenever a Horror you control attacks, you may exile an instant or sorcery card from you graveyard. You may cast a copy of that card. [i](You still pay its costs.)[/i] => Flying
+Instant and sorcery spells you cast cost {1} less to cast for each other Warlock you control.
+Whenever another Horror you control attacks, you may exile an instant or sorcery card from you graveyard. You may cast a copy of that card. [i](You still pay its costs.)[/i]
+
+
+VERSION 2 CHANGELOG
 ====================
 
 Gilded Noon Runner added.
