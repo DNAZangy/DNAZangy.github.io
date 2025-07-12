@@ -438,14 +438,14 @@
             "notes": "!tag Twiltrie\n!tag Cidraeth"
         },
         {
-            "card_name": "Convergence of Wings",
+            "card_name": "Convergence of Fae",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
             "number": 133,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Choose one \u2014\n\u2022 Convergence of Wings deals 3 damage to any target.\n\u2022 Creatures you control get +2/+0 until end of turn.",
+            "rules_text": "Choose one \u2014\n\u2022 Convergence of Fae deals 3 damage to any target.\n\u2022 Creatures you control get +2/+0 until end of turn.",
             "flavor_text": "[i]A glint between trees. Then another. Then many. Before the Lunate understood, the air was teeth and wings and blades.[/i]",
             "pt": "",
             "special_text": "",
@@ -1302,7 +1302,7 @@
             "notes": "!tag Twiltrie\n!tag Thistrel"
         },
         {
-            "card_name": "Rekindled Wrath",
+            "card_name": "Revivified Wrath",
             "color": "BG",
             "rarity": "common",
             "type": "Sorcery",
@@ -2346,14 +2346,14 @@
             "notes": "!tag Twiltrie\n!tag Dolcairn"
         },
         {
-            "card_name": "Undarah, of Fervor and Flame",
+            "card_name": "Undarah of Fervor and Flame",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Azra Archer",
             "number": 163,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Whenever a creature you control enters, if you didn't cast it, choose one that hasn't been chosen this turn \u2014\n\u2022 Put a +1/+1 counter on Undarah, of Fervor and Flame.\n\u2022 Undarah, of Fervor and Flame gains menace until end of turn.\n\u2022 Scry 2.",
+            "rules_text": "Whenever a creature you control enters, if you didn't cast it, choose one that hasn't been chosen this turn \u2014\n\u2022 Put a +1/+1 counter on Undarah of Fervor and Flame.\n\u2022 Undarah of Fervor and Flame gains menace until end of turn.\n\u2022 Scry 2.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -2444,7 +2444,7 @@
             "color_identity": "R",
             "cost": "{4}{R}",
             "rules_text": "Decoy [i](Whenever this creature attacks, create a tapped and attacking 1/1 Illusion token that's a copy of it. Exile the token at the beginning of the next end step.)[/i]\nAspen's Oathguard gets +1/+0 for each creature you control.",
-            "flavor_text": "[i]My sword may break and my armor may shatter, but until the last page of the last book is torn, I am not yet done.\u201d[/i]",
+            "flavor_text": "[i]My sword may break, but until the last page of the last book is torn, I am not done.\u201d[/i]",
             "pt": "1/5",
             "special_text": "",
             "shape": "normal",
@@ -3163,7 +3163,7 @@
             "number": 137,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "Target creature you control gets +1/+0 and gains trample and rapture until end of turn. [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]",
+            "rules_text": "Target creature you control gets +2/+0 and gains trample and rapture until end of turn. [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]",
             "flavor_text": "[i]\u201cA soldier who dies for conquest has fulfilled their purpose.\u201d\n\u2014Ostarian, Architect of War[/i]",
             "pt": "",
             "special_text": "",
@@ -3320,12 +3320,12 @@
         {
             "card_name": "Burning Blood Orator",
             "color": "R",
-            "rarity": "mythic",
+            "rarity": "rare",
             "type": "Creature \u2014 Lizard Cleric",
             "number": 131,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
-            "rules_text": "Haste\nBurning Blood Orator attacks each combat if able.\nWhenever a creature you control with a haze counter on it attacks, you may have it become a copy of Burning Blood Orator. [i](This effect lasts indefinitely.)[/i]\nRapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]",
+            "rules_text": "Haste\nWhenever Burning Blood Orator attacks, another target creature you control's base power and toughness become 4/2 and it gains rapture until end of turn.\nRapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "4/2",
             "special_text": "",
@@ -3522,11 +3522,11 @@
             "type": "Battle \u2014 Operation",
             "number": 139,
             "color_identity": "R",
-            "cost": "{2}{R}",
+            "cost": "{1}{R}{R}",
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "5",
-            "special_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]\nWhenever Eclipse of the Divine enters, exile the top three cards of your library.\n[b]3 Defense[/b] Level 2\nWhen this battle reaches this stage, you may play cards exiled with Eclipse of the Divine until your next end step.\n[b]Defeated[/b] Level 3\nAttacking creatures you control are 4/4 Angels with flying.",
+            "special_text": "[i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]\nWhenever Eclipse of the Divine enters, exile the top three cards of your library.\n[b]3 Defense[/b] Level 2\nWhen this battle reaches this stage, you may play cards exiled with Eclipse of the Divine until the end of your next turn.\n[b]Defeated[/b] Level 3\nAttacking creatures you control are 4/4 Angels with flying.",
             "shape": "class",
             "set": "TWI",
             "loyalty": "",
@@ -3613,7 +3613,7 @@
             "number": 162,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
-            "rules_text": "Flying, haste\nRapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]\nAttacking Berserkers and Clerics you control have rapture.",
+            "rules_text": "Flying\nRapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]\nOther attacking Berserkers and Clerics you control have rapture.",
             "flavor_text": "[i][/i]",
             "pt": "5/3",
             "special_text": "",
@@ -4112,7 +4112,7 @@
         {
             "card_name": "Rekindled Seraph",
             "color": "R",
-            "rarity": "rare",
+            "rarity": "mythic",
             "type": "Creature \u2014 Angel Cleric",
             "number": 155,
             "color_identity": "R",
@@ -4200,7 +4200,7 @@
             "notes": "!tag Twiltrie\n!tag Dolcairn"
         },
         {
-            "card_name": "Silkenwing Tactician",
+            "card_name": "Silken Tactician",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Faerie Advisor Wizard",
@@ -4585,7 +4585,7 @@
             "number": 262,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
-            "rules_text": "Choose one or both \u2014\n\u2022 Deafening Clarion deals 3 damage to each creature.\n\u2022 Creatures you control gian lifelink until end of turn.",
+            "rules_text": "Choose one or both \u2014\n\u2022 Deafening Clarion deals 3 damage to each creature.\n\u2022 Creatures you control gain lifelink until end of turn.",
             "flavor_text": "[i]Ameret had seen countless tyrants on countless planes. Few ever managed to imprison gods.[/i]",
             "pt": "",
             "special_text": "",
@@ -4974,17 +4974,17 @@
             "notes": "!tag Twiltrie\n!tag Thistrel\n!tag CustomReprint"
         },
         {
-            "card_name": "Sylvia",
+            "card_name": "Sylvia, the Rewoven Oath",
             "color": "WG",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Sylvia",
             "number": 232,
             "color_identity": "WG",
-            "cost": "{2}{G}{W}",
+            "cost": "{3}{G}{W}",
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[+1]: Create two 1/1 white Soldier creature tokens.\n[-2]: You and other planeswalkers you control gain protection from your opponents until your next turn.\n[-8]: For each other planeswalker you control, activate one of their abilities as if they had fifteen loyalty counters on them.",
+            "special_text": "Flash\nAs long as Sylvia entered this turn, you may activate her loyalty abilities any time you could cast an instant. When you activate an ability this way, prevent all damage that would be dealt to you and planeswalkers you control.\n[+2]: You and target opponent each draw a card.\n[+1]: Create two 1/1 white Soldier creature tokens. \n[-3]: Exile target nonplaneswalker, nonland permanent.",
             "shape": "planeswalker",
             "set": "TWI",
             "loyalty": "5",
@@ -5912,5 +5912,5 @@
             "notes": "!tag Sunvrath\n!tag Twiltrie"
         }
     ],
-    "version": 3
+    "version": 4
 }

@@ -1,4 +1,63 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+Convergence of Fae added.
+Revivified Wrath added.
+Undarah of Fervor and Flame added.
+Silken Tactician added.
+Sylvia, the Rewoven Oath added.
+
+Convergence of Wings removed.
+Rekindled Wrath removed.
+Undarah, of Fervor and Flame removed.
+Silkenwing Tactician removed.
+Sylvia removed.
+
+Aspen's Oathguard
+
+Doctrine of Sacrifice
+rules_text: Target creature you control gets +1/+0 and gains trample and rapture until end of turn. [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i] => Target creature you control gets +2/+0 and gains trample and rapture until end of turn. [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]
+
+Burning Blood Orator
+rules_text: Haste
+Burning Blood Orator attacks each combat if able.
+Whenever a creature you control with a haze counter on it attacks, you may have it become a copy of Burning Blood Orator. [i](This effect lasts indefinitely.)[/i]
+Rapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i] => Haste
+Whenever Burning Blood Orator attacks, another target creature you control's base power and toughness become 4/2 and it gains rapture until end of turn.
+Rapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]
+
+Eclipse of the Divine
+cost: {2}{R} => {1}{R}{R}
+special_text: [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+Whenever Eclipse of the Divine enters, exile the top three cards of your library.
+[b]3 Defense[/b] Level 2
+When this battle reaches this stage, you may play cards exiled with Eclipse of the Divine until your next end step.
+[b]Defeated[/b] Level 3
+Attacking creatures you control are 4/4 Angels with flying. => [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+Whenever Eclipse of the Divine enters, exile the top three cards of your library.
+[b]3 Defense[/b] Level 2
+When this battle reaches this stage, you may play cards exiled with Eclipse of the Divine until the end of your next turn.
+[b]Defeated[/b] Level 3
+Attacking creatures you control are 4/4 Angels with flying.
+
+Tyrant of Burning Judgment
+rules_text: Flying, haste
+Rapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]
+Attacking Berserkers and Clerics you control have rapture. => Flying
+Rapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]
+Other attacking Berserkers and Clerics you control have rapture.
+
+Rekindled Seraph
+
+Deafening Clarion
+rules_text: Choose one or both —
+• Deafening Clarion deals 3 damage to each creature.
+• Creatures you control gian lifelink until end of turn. => Choose one or both —
+• Deafening Clarion deals 3 damage to each creature.
+• Creatures you control gain lifelink until end of turn.
+
+
+VERSION 3 CHANGELOG
 ====================
 
 Lunate Sentinel added.
