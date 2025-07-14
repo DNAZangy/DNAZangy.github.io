@@ -1,4 +1,22 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+
+
+Lurker of the Whisperfens
+rules_text: Flash
+When Lurker of the Whisperfens enters, you may tap target creature and put a stun counter on it.
+Creatures you don't control with counters on them lose all abilities. => Flash
+When Lurker of the Whisperfens enters, you may tap target artifact or creature and put a stun counter on it.
+Creatures you don't control with counters on them lose all abilities.
+
+Crone's Choosing
+cost: {1}{W}{B} => {W}{B}
+rules_text: Exile any number of target nonland permanents you don't control with total mana value 4 or less. For each permanent exiled this way, its controller creates a tapped Treasure token. => Destroy all nonland permanents with mana value 1 or less.
+{2}{W}{B}, Discard Crone's Choosing: Destroy target nonland permanent. You lose 2 life.
+
+
+VERSION 4 CHANGELOG
 ====================
 
 Forlorn Hope added.

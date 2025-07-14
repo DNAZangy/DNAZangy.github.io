@@ -1,4 +1,102 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+
+
+Rend the Bonds
+rules_text: Target creature you control fights target creature you don't control When the creature you don't control dies this turn, you gain 4 life. => Target creature you control deals damage equal to its power to target creature you don't control. When the creature you don't control dies this turn, you gain 4 life.
+
+Sanctum of Repression
+rules_text: Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+When Sanctum of Repression enters, exile target nonland permanent you don't control if it's mana value is 3 or less until Sanctum of Repression leaves the battlefield. If Sanctum of Repression reprieved a creature, instead exile target nonland permanent until Sanctum of Repression leaves the battlefield. => Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+When Sanctum of Repression enters, exile target creature you don't control if it's mana value is 3 or less until Sanctum of Repression leaves the battlefield. If Sanctum of Repression reprieved a creature, instead exile target nonland permanent until Sanctum of Repression leaves the battlefield.
+
+Revivified Wrath
+rules_text: As an additional cost to cast this spell, pay 3 life or pay {2}
+Destroy target nonland permanent. => As an additional cost to cast this spell, pay 3 life or pay {2}.
+Destroy target nonland permanent.
+
+Groveborn Envoy
+
+Huskforger Acolyte
+rules_text: {T}: Add {1}.
+{4}{G}{G}: Huskforger Acolyte becomes a 5/5 Zombie Knight with trample and loses all other types and abilities. [i](This effect lasts indefinitely.)[/i] => {T}: Add {C}.
+{4}{G}{G}: Huskforger Acolyte becomes a 5/5 Zombie Knight with trample and loses all other types and abilities. [i](This effect lasts indefinitely.)[/i]
+
+Coordinated Shot
+rules_text: Coordinated Shot deals 3 damage to any target. 
+Flashback—{4}{R}, Sacrifice a creature. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Coordinated Shot deals 3 damage to any target. 
+Flashback—{3}{R}, Sacrifice a creature. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Pact Beyond Death
+cost: {2}{B} => {1}{B}
+pt: 5 => 6
+special_text: [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+When Pact Beyond Death enters, mill three cards, then return a card milled this way to your hand.
+[b]3 Defense[/b] Level 2
+Whenever you draw a card, you gain 2 life.
+Defeated Level 3
+When this battle is defeated, exile all creatures that didn't deal damage to it this turn. => [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+When Pact Beyond Death enters, mill three cards, then return a card milled this way to your hand.
+[b]4 Defense[/b] Level 2
+Whenever you draw a card, you gain 2 life.
+Defeated Level 3
+When this battle is defeated, exile all creatures that didn't deal damage to it this turn.
+
+Eclipse of the Divine
+special_text: [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+Whenever Eclipse of the Divine enters, exile the top three cards of your library.
+[b]3 Defense[/b] Level 2
+When this battle reaches this stage, you may play cards exiled with Eclipse of the Divine until the end of your next turn.
+[b]Defeated[/b] Level 3
+Attacking creatures you control are 4/4 Angels with flying. => [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+When Eclipse of the Divine enters, exile the top three cards of your library.
+[b]3 Defense[/b] Level 2
+When this battle reaches this stage, you may play cards exiled with Eclipse of the Divine until the end of your next turn.
+[b]Defeated[/b] Level 3
+Attacking creatures you control are 4/4 Angels with flying.
+
+Three Become One
+cost: {4}{U}{U} => {3}{U}{U}
+rules_text: If you control an artifact, a creature with flying, a creature with 3 power, and a Warlock, this spell costs {4} less to cast.
+Draw three cards. You may cast a spell with mana value 3 or less from your hand without paying its mana cost. => If you control an artifact, a creature with flying, a creature with 3 power, and a Warlock, this spell costs {3} less to cast.
+Draw three cards. You may cast a spell with mana value 3 or less from your hand without paying its mana cost.
+
+Reaper of Blossoms
+rules_text: At the beginning of your end step, mill three cards. Then you may pay {1}{G}. If you do, return up to two land cards from your graveyard to your hand. If you don't, you gain 1 life. => At the beginning of your end step, mill three cards. Then you may pay {G}. If you do, return a land card from your graveyard to your hand. If you don't, you gain 1 life.
+
+Faithline Marshal
+pt: 3/2 => 2/2
+
+Esdran, the Unburned
+rules_text: Haste
+Whenever Esdran, the Unburned attacks, you may return target creature card in your graveyard with mana value X or less from your graveyard to the battlefield tapped and attacking with a finality counter on it, where X is the number of attacking creatures. [i](Rapture won't save that creature from its final death.)[/i] => Haste
+Whenever Esdran attacks, you may return target creature card with mana value X or less from your graveyard to the battlefield tapped and attacking with a finality counter on it, where X is the number of attacking creatures. [i](Rapture won't save that creature from its final death.)[/i]
+
+Kazimierz, Bound in Flesh
+special_text: Whenever you activate a loyalty ability of Kazimierz, discard a card or sacrifice a permanent. Then if there are four or more card types among cards in your graveyard, transform Kazimierz. You may activate one of his loyalty abilities.
+[+1]: Draw a card.
+[-2]: Target player sacrifices a creature or planeswalker. => Whenever you activate a loyalty ability of Kazimierz, discard a card or sacrifice a permanent. Then if there are four or more card types among cards in your graveyard, you may transform Kazimierz.
+[+1]: Draw a card.
+[-2]: Target player sacrifices a creature or planeswalker.
+
+Matriarch of Veiled Kin
+rules_text: Other Warlocks you control get +1/+0 and have “Whenever this creature deals combat damage to a player, that player discards a card.
+When Matriarch of Veiled Kin enters, reveal the top card of your library until you reveal a Warlock creature card with mana value 2 or less. Put it onto the battlefield, then shuffle. => Other Warlocks you control get +1/+1 and have “Whenever this creature deals combat damage to a player, that player discards a card.
+When Matriarch of Veiled Kin enters, reveal the top card of your library until you reveal a Warlock creature card with mana value 2 or less. Put it onto the battlefield, then shuffle.
+
+Oathbreaker's Challenge
+rules_text: Target creature you control deals damage to target creature or battle equal to its power.
+[i]Vigor[/i] — Put a +1/+1 counter on the creature you control before it fights if your life total has changed this turn. => Target creature you control fights target creature you don't control.
+[i]Vigor[/i] — Put a +1/+1 counter on the creature you control before it fights if your life total has changed this turn.
+
+Frog of Eternal Gloom
+rules_text: Ward {2}
+Whenever Frog of Eternal Gloom attacks, copy the next instant or sorcery spell you cast this turn. => Ward {2}
+Whenever Frog of Eternal Gloom attacks, copy the next instant or sorcery spell you cast this turn. [i](You may choose new targets for the copies.)[/i]
+
+
+VERSION 5 CHANGELOG
 ====================
 
 Gildchant Transmuter added.
