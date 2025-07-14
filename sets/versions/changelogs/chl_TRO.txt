@@ -1,4 +1,64 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+Forlorn Hope added.
+
+The Quiet Gallop removed.
+
+Hope's Sprout
+rules_text: Search your library for a Forest card and put onto the battlefield tapped, then shuffle. If you control a creature with power 4 or greater, you gain 3 life. => Search your library for a Forest card and put onto the battlefield tapped, then shuffle.
+
+Dravhollow Currentweaver
+cost: {W}{U} => {1}{W}{U}
+rules_text: Whenever Dravhollow Currentweaver becomes tapped, draw a card. Then discard a card if Dravhollow Currentweaver is attacking. => Flash
+Dravhollow Currentweaver can't have counters put on it.
+Whenever Dravhollow Currentweaver becomes tapped, draw a card.
+
+Glimpse Beyond the Rime
+cost: {2}{W}{U}{U} => {W}{U}{U}
+rules_text: Presence X [i](As an additional cost to cast this spell, tap X untapped lands, artifacts, and/or creatures you control.)[/i]
+You gain X life and draw X cards. => Presence X [i](As an additional cost to cast this spell, tap X untapped lands, artifacts, and/or creatures you control.)[/i]
+You gain X life and draw X cards. Then, discard a number of cards equal to the number of artifacts and/or creatures tapped to cast this spell.
+
+Hero of Earned Steel
+
+Kaelthar, He Who Stills
+rules_text: Vigilance
+Kaelthar can't have counters put on him.
+Whenever Kaelthar enters or attacks, tap target nonland permanent and put a stun counter on it. It loses all abilities until it untaps. => Flash
+Vigilance
+Kaelthar can't have counters put on him.
+Whenever Kaelthar enters or attacks, tap target nonland permanent and put a stun counter on it. It loses all abilities until it untaps.
+
+Draveth of One Cut
+rules_text: Draveth of One Cut can't be blocked by creatures with lesser power.
+{1}: Draveth of One Cut becomes a copy of target equipped creature you control, except he has this ability and “This creature can't be blocked by creatures with lesser power.” => Draveth of One Cut can't be blocked by creatures with lesser power and can't have counters put on him.
+{1}: Draveth of One Cut becomes a copy of target equipped creature you control, except he has this ability and “This creature can't be blocked by creatures with lesser power and can't have counters put on him.”
+
+Tidy Blessing
+rules_text: Exile target artifact, battle, or enchantment. => Destroy target artifact, battle, or enchantment.
+
+Steal the Name
+rules_text: As Steal the Name enters, each opponent reveals half the cards in their hand, rounded down. Then choose a nonland card name.
+Spells with the chosen name can't be cast. => As Steal the Name enters, each opponent reveals half the cards in their hand, rounded down. Then you choose a nonland card name.
+Spells with the chosen name can't be cast.
+
+Reforged Vakhter
+type: Creature — Human Ranger => Creature — Human Advisor Ranger
+rules_text: Double strike
+Reforged Vakhter can't have counters put on it. => Double strike
+When Reforged Vakhter enters, each opponent exiles a card from their hand and may play that card for as long as it remains exiled. Each spell cast this way costs {1} more to cast. Each land played this way enters tapped.
+pt: 1/2 => 1/1
+
+Fractal Archivist
+rules_text: Flash
+Fractal Archivist can't have counters put on it.
+When Fractal Archivist enters, return target nonland permanent to its owner's hand. If that permanent had mana value 2 or less,instead you may have its owner put it on the top or bottom of their library. => Flash
+Fractal Archivist can't have counters put on it.
+When Fractal Archivist enters, return target nonland permanent to its owner's hand. If that permanent had mana value 2 or less, instead you may have its owner put it on the top or bottom of their library.
+
+
+VERSION 3 CHANGELOG
 ====================
 
 No changes.
