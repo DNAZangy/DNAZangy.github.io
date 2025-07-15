@@ -661,7 +661,7 @@
             "number": 31,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]\nWhen Sanctum of Repression enters, exile target creature you don't control if it's mana value is 3 or less until Sanctum of Repression leaves the battlefield. If Sanctum of Repression reprieved a creature, instead exile target nonland permanent until Sanctum of Repression leaves the battlefield.",
+            "rules_text": "Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]\nWhen Sanctum of Repression enters, exile target nonland permanent you don't control if it's mana value is 3 or less until Sanctum of Repression leaves the battlefield. If Sanctum of Repression reprieved a creature, instead exile target nonland permanent until Sanctum of Repression leaves the battlefield.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1974,7 +1974,7 @@
             "type": "Legendary Artifact Creature \u2014 Horror",
             "number": 282,
             "color_identity": "C",
-            "cost": "{7}",
+            "cost": "{5}",
             "rules_text": "As an additional cost to cast this spell, exile seven cards from your graveyard.\nIndestructible\nWhenever Remnant of the Devoured Sun enters or attacks, return a card exiled with it to your hand. If it was a permanent card with lesser mana value than the number of cards in your hand, you may put it onto the battlefield instead.",
             "flavor_text": "[i][/i]",
             "pt": "7/7",
@@ -2325,7 +2325,7 @@
             "set": "TWI",
             "loyalty": "",
             "artist": "Erin Petersen",
-            "notes": "!tag Twiltrie\n!tag Cidraeth"
+            "notes": "!tag Twiltrie\n!tag Cidraeth\nTribalCouple Cycle"
         },
         {
             "card_name": "Reliquary Sentinel",
@@ -3253,7 +3253,7 @@
             "number": 140,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Whenever you sacrifice a permanent, put a charge counter on Elixir of Divine Hunger.\n{2}{R}: Until end of turn, Elixir of Divine Hunger becomes an X/X Spirit artifact creature with trample, where X is the number of charge counters on it.",
+            "rules_text": "Whenever you sacrifice a permanent, put a charge counter on Elixir of Divine Hunger.\n{1}{R}: Until end of turn, Elixir of Divine Hunger becomes an X/X Spirit artifact creature with trample, where X is the number of charge counters on it.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4009,7 +4009,7 @@
             "number": 4,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Ward {1}\nBerserker creatures you control have lifelink and \u201cWhenever this creature dies, put a +1/+1 counter on target Cleric you control.\u201d",
+            "rules_text": "Ward {2}\nBerserker creatures you control have lifelink and \u201cWhenever this creature dies, put a +1/+1 counter on target Cleric you control.\u201d",
             "flavor_text": "[i]He speaks no commands. He merely arrives and endings follow.[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -4657,7 +4657,7 @@
             "number": 250,
             "color_identity": "BG",
             "cost": "{B}{B}{G}{G}",
-            "rules_text": "Ward\u2014Pay 3 life. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life.)[/i]\nIf you would gain life, you gain that much life plus 2 instead.\nIf you would lose life except if you paid, you lose that much life minus 2 instead. [i](Losing negative life doesn't cause you to gain life.)[/i]",
+            "rules_text": "Ward\u2014Pay 3 life.\nIf you would gain life, you gain that much life plus 2 instead.\nIf you would lose life except if you paid, you lose that much life minus 2 instead. [i](Losing negative life doesn't cause you to gain life.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
@@ -4855,7 +4855,7 @@
             "number": 275,
             "color_identity": "WR",
             "cost": "{R}{RW}{W}",
-            "rules_text": "Whenever a creature you control enters, Divinity deals 1 damage to each opponent and you gain 1 life.\nAt the beginning of your end step, create a 1/1 red Berserker creature token if two or more creatures have died under your control this turn.",
+            "rules_text": "Whenever a creature you control enters, Divinity deals 1 damage to each opponent and you gain 1 life.\nAt the beginning of your end step, create a 1/1 red Berserker creature token if two or more creatures died under your control this turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5451,9 +5451,9 @@
             "number": 57,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "Ward {2}\nWhenever Frog of Eternal Gloom attacks, copy the next instant or sorcery spell you cast this turn. [i](You may choose new targets for the copies.)[/i]",
+            "rules_text": "Flash\nWhen Frog of Eternal Gloom enters, return target creature you don't control to its owner's hand.",
             "flavor_text": "[i]\u201c\u2018Tis no creature of invention, but reflection\u2014an empty vessel that drinketh deeply of spellcraft, yet thirsteth evermore.\u201d\n\u2014Gwyneira of Frosted Grace[/i]",
-            "pt": "2/3",
+            "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "TWI",
@@ -5930,5 +5930,5 @@
             "notes": "!related Clash at Scorchroot Bluff"
         }
     ],
-    "version": 6
+    "version": 7
 }

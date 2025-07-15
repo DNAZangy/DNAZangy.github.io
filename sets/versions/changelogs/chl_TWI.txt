@@ -1,4 +1,48 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+
+
+Sanctum of Repression
+rules_text: Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+When Sanctum of Repression enters, exile target creature you don't control if it's mana value is 3 or less until Sanctum of Repression leaves the battlefield. If Sanctum of Repression reprieved a creature, instead exile target nonland permanent until Sanctum of Repression leaves the battlefield. => Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+When Sanctum of Repression enters, exile target nonland permanent you don't control if it's mana value is 3 or less until Sanctum of Repression leaves the battlefield. If Sanctum of Repression reprieved a creature, instead exile target nonland permanent until Sanctum of Repression leaves the battlefield.
+
+Remnant of the Devoured Sun
+cost: {7} => {5}
+
+Coven of Brine
+
+Elixir of Divine Hunger
+rules_text: Whenever you sacrifice a permanent, put a charge counter on Elixir of Divine Hunger.
+{2}{R}: Until end of turn, Elixir of Divine Hunger becomes an X/X Spirit artifact creature with trample, where X is the number of charge counters on it. => Whenever you sacrifice a permanent, put a charge counter on Elixir of Divine Hunger.
+{1}{R}: Until end of turn, Elixir of Divine Hunger becomes an X/X Spirit artifact creature with trample, where X is the number of charge counters on it.
+
+Archon of the Final March
+rules_text: Ward {1}
+Berserker creatures you control have lifelink and “Whenever this creature dies, put a +1/+1 counter on target Cleric you control.” => Ward {2}
+Berserker creatures you control have lifelink and “Whenever this creature dies, put a +1/+1 counter on target Cleric you control.”
+
+Cyrius, Bound to Dusk
+rules_text: Ward—Pay 3 life. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life.)[/i]
+If you would gain life, you gain that much life plus 2 instead.
+If you would lose life except if you paid, you lose that much life minus 2 instead. [i](Losing negative life doesn't cause you to gain life.)[/i] => Ward—Pay 3 life.
+If you would gain life, you gain that much life plus 2 instead.
+If you would lose life except if you paid, you lose that much life minus 2 instead. [i](Losing negative life doesn't cause you to gain life.)[/i]
+
+Divinity
+rules_text: Whenever a creature you control enters, Divinity deals 1 damage to each opponent and you gain 1 life.
+At the beginning of your end step, create a 1/1 red Berserker creature token if two or more creatures have died under your control this turn. => Whenever a creature you control enters, Divinity deals 1 damage to each opponent and you gain 1 life.
+At the beginning of your end step, create a 1/1 red Berserker creature token if two or more creatures died under your control this turn.
+
+Frog of Eternal Gloom
+rules_text: Ward {2}
+Whenever Frog of Eternal Gloom attacks, copy the next instant or sorcery spell you cast this turn. [i](You may choose new targets for the copies.)[/i] => Flash
+When Frog of Eternal Gloom enters, return target creature you don't control to its owner's hand.
+pt: 2/3 => 3/1
+
+
+VERSION 6 CHANGELOG
 ====================
 
 

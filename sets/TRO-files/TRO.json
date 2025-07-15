@@ -4508,7 +4508,7 @@
             "notes": "!tag Myloyar"
         },
         {
-            "card_name": "Plains",
+            "card_name": "PlainsWinter",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Plains",
@@ -4523,10 +4523,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Earl Lan",
-            "notes": "!tag SnezvalirWinter"
+            "notes": "!exportname PlainsWinter\n!tag Snezvalir\nWinter"
         },
         {
-            "card_name": "Plains",
+            "card_name": "PlainsSummer",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Plains",
@@ -4540,29 +4540,11 @@
             "shape": "normal",
             "set": "TRO",
             "loyalty": "",
-            "artist": "Helga Taniushkina",
-            "notes": "!tag Myloyar"
+            "artist": "Pochirika Kremenskova",
+            "notes": "!exportname PlainsSummer\n!tag Myloyar"
         },
         {
-            "card_name": "Island",
-            "color": "",
-            "rarity": "common",
-            "type": "Basic Land \u2014 Island",
-            "number": 291,
-            "color_identity": "U",
-            "cost": "",
-            "rules_text": "",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "TRO",
-            "loyalty": "",
-            "artist": "Alex Petruk",
-            "notes": "!tag SnezvalirWinter"
-        },
-        {
-            "card_name": "Island",
+            "card_name": "IslandWinter",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Island",
@@ -4576,16 +4558,16 @@
             "shape": "normal",
             "set": "TRO",
             "loyalty": "",
-            "artist": "Max Suleimanov",
-            "notes": "!tag Myloyar"
+            "artist": "Arnaerr Liurnia",
+            "notes": "!exportname IslandWinter\n!tag SnezvalirWinter"
         },
         {
-            "card_name": "Swamp",
+            "card_name": "IslandSummer",
             "color": "",
             "rarity": "common",
-            "type": "Basic Land \u2014 Swamp",
-            "number": 293,
-            "color_identity": "B",
+            "type": "Basic Land \u2014 Island",
+            "number": 291,
+            "color_identity": "U",
             "cost": "",
             "rules_text": "",
             "flavor_text": "[i][/i]",
@@ -4594,11 +4576,11 @@
             "shape": "normal",
             "set": "TRO",
             "loyalty": "",
-            "artist": "Lekso Tiger",
-            "notes": "!tag SnezvalirWinter"
+            "artist": "Max Suleimanov",
+            "notes": "!exportname IslandSummer\n!tag Myloyar"
         },
         {
-            "card_name": "Swamp",
+            "card_name": "SwampWinter",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Swamp",
@@ -4612,16 +4594,16 @@
             "shape": "normal",
             "set": "TRO",
             "loyalty": "",
-            "artist": "Alan Albiach",
-            "notes": "!tag Myloyar"
+            "artist": "Yuyang Olabukoo",
+            "notes": "!exportname SwampWinter\n!tag SnezvalirWinter"
         },
         {
-            "card_name": "Mountain",
+            "card_name": "SwampSummer",
             "color": "",
             "rarity": "common",
-            "type": "Basic Land \u2014 Mountain",
-            "number": 295,
-            "color_identity": "R",
+            "type": "Basic Land \u2014 Swamp",
+            "number": 293,
+            "color_identity": "B",
             "cost": "",
             "rules_text": "",
             "flavor_text": "[i][/i]",
@@ -4630,11 +4612,11 @@
             "shape": "normal",
             "set": "TRO",
             "loyalty": "",
-            "artist": "Sin Jong Hun",
-            "notes": "!tag SnezvalirWinter"
+            "artist": "Artem Demura",
+            "notes": "!exportname SwampSummer\n!tag Myloyar"
         },
         {
-            "card_name": "Mountain",
+            "card_name": "MountainWinter",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Mountain",
@@ -4648,11 +4630,29 @@
             "shape": "normal",
             "set": "TRO",
             "loyalty": "",
-            "artist": "Amara Ahmx",
-            "notes": "!tag Myloyar"
+            "artist": "Sin Jong Hun",
+            "notes": "!exportname MountainWinter\n!tag SnezvalirWinter"
         },
         {
-            "card_name": "Forest",
+            "card_name": "MountainSumemr",
+            "color": "",
+            "rarity": "common",
+            "type": "Basic Land \u2014 Mountain",
+            "number": 295,
+            "color_identity": "R",
+            "cost": "",
+            "rules_text": "",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "TRO",
+            "loyalty": "",
+            "artist": "Pawel Kozera",
+            "notes": "!exportname MountainSumemr\n!tag Myloyar"
+        },
+        {
+            "card_name": "ForestWinter",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Forest",
@@ -4666,11 +4666,11 @@
             "shape": "normal",
             "set": "TRO",
             "loyalty": "",
-            "artist": "Ilya Popov",
-            "notes": "!tag SnezvalirWinter"
+            "artist": "David D M",
+            "notes": "!exportname ForestWinter\n!tag SnezvalirWinter"
         },
         {
-            "card_name": "Forest",
+            "card_name": "ForestSummer",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Forest",
@@ -4685,7 +4685,7 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Sergey Demidov",
-            "notes": "!tag Myloyar"
+            "notes": "!exportname ForestSummer\n!tag Myloyar"
         },
         {
             "card_name": "Frostveil Crossroads",
@@ -6030,5 +6030,5 @@
             "notes": "!tag Snezvalir\nPristineCycle"
         }
     ],
-    "version": 5
+    "version": 6
 }
