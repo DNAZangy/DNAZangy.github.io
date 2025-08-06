@@ -1,4 +1,95 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+
+
+Brooding Replacement
+cost: {1{U}B} => {1}{UB}
+
+Overconfident Batter
+cost: {1{G}W} => {1}{GW}
+
+Young Soulspeaker
+cost: {1{B}G} => {1}{BG}
+
+Performers of Purpose
+cost: {1{R}W} => {1}{RW}
+
+Into Autumns Arms
+special_text: 
+I, II, III — Put a +1/+1 counter on target creature you control.
+Double the number of counters on target creature you control. => 
+I, II — Put a +1/+1 counter on target creature you control.
+III — Double the number of counters on target creature you control.
+
+A Memorial to Radiance
+special_text: 
+I, II, III — Create a token that's a copy of up to one target Aura you control and attach it to up to one target permanent you control.
+Put a +1/+1 counter on each enchanted creature you control. Those creatures gain indestructible and vigilance until end of turn.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — You may create a token that's a copy of target Aura you control. Attach it to target permanent you control.
+III — Put a +1/+1 counter on each enchanted creature you control. Those creatures gain indestructible and vigilance until end of turn.
+​
+
+Tales from the Fallen Court
+special_text: 
+I, II, III — Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+For each color, return up to one target creature card of that color from your graveyard to your hand.
+​ => 
+I, II — Create a Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i]
+III — For each color, return up to one target creature card of that color from your graveyard to your hand.
+​
+
+The Tragedy of Fruits and Fanfare
+special_text: 
+I, II, III — Distribute a trample counter, a vigilance counter and a +1/+1 counter among creatures you control.
+You may redistribute counters among other permanents you control. => 
+I, II — Distribute a trample counter, a vigilance counter and a +1/+1 counter among creatures you control.
+III — You may redistribute counters among other permanents you control.
+
+Over the Moon
+special_text: 
+I, II — Over the Moon deals 4 damage to up to one target creature or planeswalker.
+III — Spells you cast with mana value 4 or greater cost {1} less to cast this turn and can't be countered. => 
+I — Over the Moon deals 4 damage to up to one target creature or planeswalker.
+II, III — Spells you cast with mana value 4 or greater cost {1} less to cast this turn and can't be countered.
+
+Magellas First Step
+special_text: 
+I, II, III — Exile up to one target creature you control. At the beginning of your next end step, return it to the battlefield.
+Until end of turn, if a creature entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time. => 
+I, II — Exile up to one target creature you control. At the beginning of your next end step, return it to the battlefield.
+III — Until end of turn, if a creature entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+
+The Unhinging Project
+special_text: 
+I — Whenever you cast a spell from anywhere other than your hand, remove a lore counter from The Unhinging Project.
+II — The Unhinging Project deals 2 damage to any target. You gain 2 life.
+III — Discard your hand. Surveil 3. => 
+Whenever you cast a spell from anywhere other than your hand, remove a lore counter from The Unhinging Project.
+I, II — The Unhinging Project deals 2 damage to any target. You gain 2 life.
+III — Discard your hand. Surveil 3.
+
+That Fateful Tuesday
+special_text: 
+I, II, III — Audition for black. [i](Create a 1/1 Construct Actor creature token, a Cleric Role giving 2/2 and lifelink, or a Warlock Role giving 2/1 and flying. Roles replace older ones.)[/i]
+Until end of turn, if a creature you don't control would die, instead exile it and that creature's controller loses 2 life. => 
+I, II — Audition for black. [i](Create a 1/1 Construct Actor creature token, a Cleric Role giving 2/2 and lifelink, or a Warlock Role giving 2/1 and flying. Roles replace older ones.)[/i]
+III — Until end of turn, if a creature you don't control would die, instead exile it and that creature's controller loses 2 life.
+
+Saga Token
+
+Dance of Frost
+special_text: 
+I — Whenever you cast an enchantment spell, draw a card.
+II — Tap up to one target nonland permanent and put a stun counter on it. You gain 2 life.
+III — Target creature you control gets +1/+1 until end of turn for each enchantment you control. => 
+Whenever you cast an enchantment spell, draw a card.
+I, II — Tap up to one target nonland permanent and put a stun counter on it. You gain 2 life.
+III — Target creature you control gets +1/+1 until end of turn for each enchantment you control.
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

@@ -1655,12 +1655,6 @@
         "set": "ACT"
     },
     {
-        "card_name": "Saga Token",
-        "number": 0,
-        "shape": "saga",
-        "set": "ACT"
-    },
-    {
         "card_name": "Bedrock of Tales",
         "number": 255,
         "shape": "normal",
@@ -1677,18 +1671,6 @@
         "number": 258,
         "shape": "normal",
         "set": "ACT"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
     },
     {
         "card_name": "er"
@@ -1932,6 +1914,12 @@
     },
     "a->token",
     {
+        "card_name": "Saga Token",
+        "number": 0,
+        "shape": "token",
+        "set": "ACT"
+    },
+    {
         "card_name": "ACT Roles",
         "number": 1,
         "shape": "token",
@@ -2056,9 +2044,6 @@
         "number": 9,
         "shape": "token",
         "set": "ACT"
-    },
-    {
-        "card_name": "e"
     },
     {
         "card_name": "e"
