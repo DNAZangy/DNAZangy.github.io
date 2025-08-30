@@ -1,4 +1,106 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+Foliage Decoy added.
+
+Foilage Decoy removed.
+
+Call to War
+rules_text: Create X 1/1 green Knight creature tokens.
+Escape—{4}{W}, Exile X cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i] => Create X 1/1 green Knight creature tokens.
+Escape—{4}{W}{W}, Exile X cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]
+
+Leon Terrel, Unspoken Heir
+rules_text: Vigilance
+Other creatures you control get +2/+1. => Vigilance
+Other creature tokens you control get +1/+1 and have vigilance.
+special_text: Heir—You've created seven or more tokens this game. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]
+Vigilance
+Other creatures you control get +2/+1. => Heir—You've created five or more tokens with different names this game. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]
+Vigilance
+Other creature tokens you control get +1/+1 and have vigilance.
+
+Sapner Hexcrafter
+rules_text: Bloom [i](Whenever you cast a spell that targets this creature, you may pay that spell's mana cost. If you do, copy that spell. You may choose new targets for the copy.)[/i]
+Whenever you copy a spell, you draw a card and you lose 1 life. => Bloom [i](Whenever you cast a spell that targets this creature, you may pay that spell's mana cost. If you do, copy that spell. You may choose new targets for the copy.)[/i]
+Whenever you copy a spell that was targeting a creature you control, you draw a card and you lose 1 life.
+
+Virulent Hexer
+rules_text: Deathtouch, lifelink
+When Virulent Hexer enters, choose one. Each player exiles or removes the chosen until they have one.
+• Counters on permanents they control and counters on themselves. [i](One per permanent or player, not one counter total.)[/i]
+• Tokens they control and in their reserves.
+• Cards in their sanctum. => Deathtouch
+When Virulent Hexer enters, choose one —
+• Exile each token and each token in each player's reserves.
+• Reveal each player's sanctum, then each player exiles three nonland cards revealed this way at random.
+pt: 2/2 => 3/1
+
+Wulfric Hook, Lord of Ends
+pt: 2/3 => 2/1
+
+Edict of the Mirrorkin
+cost: {U}{R}{W} => {1}{U}{R}{W}
+
+Scars of Wars Past
+type: Sorcery => Instant
+rules_text: Mill six cards. You may put any number of creature cards with total mana value 4 or less and a land card milled this way onto the battlefield. => Mill six cards. You may return any number of creature cards with total mana value 4 or less milled this way onto the battlefield.
+
+Bistra Sapner, the Flourishing
+rules_text: Ward—Exile three cards that don't share any types from your graveyard.
+You have bloom. [i](Whenever you cast a spell that targets yourself, you may pay that spell's mana cost. If you do, copy that spell. You may choose new targets for the copy.)[/i] => Ward—Exile at least three cards from your gravyard that have three or more card types among them.
+You have bloom. [i](Whenever you cast a spell that targets yourself, you may pay that spell's mana cost. If you do, copy that spell. You may choose new targets for the copy.)[/i]
+
+Important Parcel
+rules_text: {1}, {T}: Exile target card from a graveyard.
+{2}, Sacrifice Important Parcel: Exile each opponent's graveyard. Draw a card. => {1}, {T}: Exile target card from a graveyard.
+{2}, Sacrifice Important Parcel: Draw a card.
+
+Lost at Sea
+rules_text: Return target creature to its owner's hand. Create a 1/1 blue Scout creature token if you didn't control it. Otherwise create a token that's a copy of it in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i] => Return target creature to its owner's hand. Create a token that's a copy of it in your reserves if you controlled it. Otherwise, create a 1/1 blue Scout creature token in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]
+
+Lodema, Diamond of the Nye
+rules_text: Lodema can't be blocked.
+Whenever one or more creatures you control deal combat damage to a player, put that many theft counters on Lodema.
+{2}{U}, Remove X theft counters from Lodema: Surveil X, then draw a card. => Lodema can't be blocked.
+Whenever one or more creatures you control deal combat damage to a player, put that many theft counters on Lodema.
+{2}{U}, Remove X theft counters from Lodema: Surveil X, then draw a card. X can't be 0.
+
+William Rey, Lover to All
+rules_text: Menace
+Whenever William Rey attacks, you may mill three cards. If you do, William Rey gets +X/+0 until end of turn, where X is the total mana value of cards milled this way. => Menace
+Whenever William Rey attacks, you may mill three cards. You may play one card milled this way until end of turn.
+
+Turnberry Overseer
+cost: {1}{G} => {2}{G}
+pt: 2/1 => 2/2
+
+Robust Oxen
+cost: {2}{G} => {1}{G}
+pt: 2/2 => 1/1
+
+Gathering of Lost Souls
+rules_text: Create four 1/1 red Spirit creature tokens.
+Flashback—{W}{U}, Forsake [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Create four 1/1 red Spirit creature tokens.
+Flashback—{W}{U}, Forsake [i](You may cast this card from your graveyard by paying {W}{U} and sacrificing creatures with total toughness three or more. Then exile it.)[/i]
+
+Standing Army
+rules_text: Whenever you attack, create two 1/1 blue Scout creature tokens in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]
+Exile three tokens from your reserves: Choose a name. Create a legendary 3/3 Knight creature token that's all colors with that name. It can't block this turn. => At the beginning of your end step, create a 1/1 blue Scout creature tokens in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]
+Exile three tokens from your reserves: Choose a name. Create a legendary 3/3 Knight creature token that's all colors with that name. It can't block this turn.
+
+Hillcrest Vanguard
+rules_text: Deception {G}{U} [i]({G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+If a creature entering the battlefield or dealing combat damage to an opponent causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time. => Deception {G}{U} [i]({G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+If a creature entering the battlefield or dealing combat damage to an opponent causes a triggered ability of a permanent you control to trigger during combat, that ability triggers an additional time.
+
+Vance Recruit
+rules_text: When Vance Recruit enters, create a Treasure token.
+{1}{UR}{UR}, Exile Vance Recruit from your graveyard: You draw two cards and you lose 2 life. => When Vance Recruit enters, create a Treasure token.
+{2}{UR}, Exile Vance Recruit from your graveyard: You draw a card and you lose 1 life.
+
+
+VERSION 3 CHANGELOG
 ====================
 
 

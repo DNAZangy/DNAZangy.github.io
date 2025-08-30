@@ -1,4 +1,906 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+Last Vows added.
+Pledge of Blooms added.
+Dravhollow Current Weaver added.
+Steps Towards Destiny added.
+Syr Varek of Bratovik added.
+Larynya, the Moon's Remnant added.
+Odranna, the Shadelit added.
+Syr Kreshtan of the Ember Wake added.
+Syr Thomir of the Golden Stag added.
+Herbalist of Kroslav Bend added.
+Burden of the Crown added.
+Gift of Hollow Life added.
+Farewell in Steel added.
+Fall of the Golden Stag added.
+
+Hexer of Unburied Grudges removed.
+Oath of Embers removed.
+Rite of Crossing removed.
+Dravhollow Currentweaver removed.
+Hunt for Cards removed.
+Hunt for a Lover removed.
+Hunt for Vodyanov removed.
+Hunt for Salvation removed.
+Hunt for Artifact removed.
+
+Griefbough Witness
+rules_text: Sacrifice Griefbough Witness: Destroy target artifact or enchantment. If a token was destroyed this way, you gain 3 life. Activate only as a sorcery. => Sacrifice Griefbough Witness: Destroy target artifact or enchantment. If a token was destroyed this way, you gain 3 life.
+
+Mavka of Forgotten Groves
+
+Tuckered-Out Domovoi
+
+Voice of the Rimed Path
+
+Dawnforged Alkonost
+
+Listless Parched
+
+Snezvalir Initiate
+
+Whitehoof Ascendant
+
+Twilight Warden
+
+Seraph of Stilled Grace
+cost: {W}{W} => {2}{W}
+rules_text: Presence 4 [i](As an additional cost to cast this spell, tap four untapped lands, artifacts, and/or creatures you control.)[/i]
+Flying
+Seraph of Stilled Grace can't have counters put on it. => Presence 3 [i](As an additional cost to cast this spell, tap three untapped lands, artifacts, and/or creatures you control.)[/i]
+Flying
+Seraph of Stilled Grace can't have counters put on it.
+pt: 4/3 => 4/4
+
+Sealing Blade
+
+Sheltered by the Light
+rules_text: Choose one —
+• Equip up to one target Equipment you control to target creature you control. That creature gains indestructible until end of turn.
+• Target creature gets +2/+2 until end of turn. => Choose one —
+• Target creature you control gains indestructible until end of turn. You may equip up to one target Equipment you control to it.
+• Target creature gets +2/+2 until end of turn.
+
+Sunlit Execution
+cost: {W} => {1}{W}
+rules_text: Sunlit Execution deals 2 damage to target attacking or blocking creature. You gain 2 life. => Sunlit Execution deals 3 damage to target attacking or blocking creature. You gain 3 life.
+
+Silentstep Runner
+
+Undertow Vodnik
+
+Herald of the First Frost
+rules_text: Flying
+When Herald of the First Frost enters, create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, draw a card.” => Flash
+Flying
+When Herald of the First Frost enters, create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, draw a card.”
+
+Scrapswarm Pixies
+rules_text: Flying
+When Scrapswarm Pixies enters, scry 1, then draw a card. => Flying
+When Scrapswarm Pixies enters, draw a card.
+
+Murkmire Wretch
+
+Warden of the Rimed Oath
+
+Direcall Siren
+
+Aspid of the Mires
+
+Diffuse
+
+Gift of Inspiration
+
+Prepare the Path
+
+Riverborn Hex
+
+Dance the Night Away
+
+Slumber in Ice
+
+Witch of the Mirepaths
+
+Hollowstep Adept
+
+Regretful Scion
+
+Mossborne Grotesque
+
+Thornroot Maiden
+
+Duskwing Harbinger
+
+Ghastly Bukavac
+
+Disciple of Dried Blood
+
+Shepherd of Remembrance
+type: Creature — Wurm => Creature — Zombie
+rules_text: Menace
+When Shepherd of Remembrance enters, exile target creature card from your graveyard. Create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, return the exiled card to your hand.” => Menace
+When Shepherd of Remembrance enters, create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, draw a card.”
+pt: 6/3 => 6/4
+
+Bargain of the Drowned
+
+Doomed to Blossom
+
+Pry
+
+Never to Return
+
+Wander Too Far
+
+Charmbinder Artisan
+
+Kindle the Mischief
+
+Velkora Marshal
+
+Snickering Biesling
+
+Acolyte of Braided Crimson
+
+Resolute Vakhter
+
+Hearth-Gut Behemoth
+
+Encroaching Embers
+
+Searing Thirst
+
+Faceless Watcher
+
+Vakhter's Edge
+
+Wreck and Wield
+
+Kindling of Traveled Pasts
+
+Ashen Reckoning
+
+Channeler of the Aurora
+
+Murmurs in the Thicket
+rules_text: Create two 1/1 green Ouphe creature tokens with wither. [i](They deal damage to creatures in the form of -1/-1 counters.)[/i]
+{2}{G}, Exile Murmurs in the Thicket from your graveyard: Create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, draw a card.” => Create two 1/1 green Ouphe creature tokens with wither. [i](They deal damage to creatures in the form of -1/-1 counters.)[/i]
+{1}{G}, Exile Murmurs in the Thicket from your graveyard: Create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, draw a card.”
+
+Driblik Gang
+rules_text: When Driblik Gang enters, look at the top five cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest on the bottom of your library in a random order.
+{4}{G}: Driblik Gang gets +3/+3 until end of turn. => When Driblik Gang enters, look at the top six cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest on the bottom of your library in a random order.
+{4}{G}: Driblik Gang gets +3/+3 until end of turn.
+
+Blade of the Vale
+
+Sight-Bound Martyr
+
+Pathcleaver Vakhter
+
+Witch's Spine
+
+Briarhoof Guardian
+
+Vesselbound Maw
+
+Strike True
+
+So Easily Broken
+
+Ward of the Watchful
+
+Whisperfoot Skitterer
+
+Thought Harvest
+
+Briarhoof Remnant
+
+Stillmouth Wretch
+rules_text: Flying
+When Stillmouth Wretch enters, choose one —
+• Create a Weapon token. [i](It's an Equipment artifact with equip {2} and “Equipped creature gets +1/+1.”)[/i]
+• Create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, draw a card.” => Flying
+When Stillmouth Wretch enters, create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, draw a card.”
+
+Grandmother's Maw
+
+Wayfarer's Map
+
+Brighteyed Stranger
+
+Rimeveil Courier
+
+Newcomer at Veshaal's Rest
+
+Light at Bratovik
+
+Rimegem Sovereign
+
+Graincleaver
+cost: {W}{W} => {1}{W}
+
+Sworn Departure
+rules_text: Destroy target artifact, creature, or planeswalker. Its controller creates a Weapon token. [i](It's an Equipment artifact with equip {2} and “Equipped creature gets +1/+1.”)[/i] => Destroy target creature or planeswalker. Its controller creates a Weapon token. [i](It's an Equipment artifact with equip {2} and “Equipped creature gets +1/+1.”)[/i]
+
+Sunward Spear
+rules_text: When Sunward Spear enters, create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, create a 4/4 white Angel creature token with flying.”
+Equipped creature gets +2+0 and has flying.
+Equip {2} => When Sunward Spear enters, create a 4/4 white Angel creature token with flying.
+Equipped creature gets +1+1 and has vigilance.
+Equip {2}
+
+Duly Vanquished
+
+Urgent Summons
+
+Hearthstead Tinkerer
+
+Kaelthar's Wing
+
+March of the Pathbreaker
+
+Tharnholt Invoker
+rules_text: Creatures you control have “Whenever this creature becomes tapped for the first time each turn, if it isn't being declared as an attacker, create a 1/1 green Human creature token.”
+{3}{U}, {T}: Draw a card. => At the beginning of each end step, create a 1/1 green Human creature token if you tapped two or more creatures this turn. [i](This includes using {T} abilities or attacking.)[/i]
+{2}{U}, {T}: Draw a card.
+
+Messenger of Veyhalde
+rules_text: Presence 3 [i](As an additional cost to cast this spell, tap three untapped lands, artifacts, and/or creatures you control.)[/i]
+Flash
+Flying
+When Messenger of Veyhalde enters, scry 3. Then draw a card if you control no other untapped permanents. => Presence 3 [i](As an additional cost to cast this spell, tap three untapped lands, artifacts, and/or creatures you control.)[/i]
+Flash
+Flying
+When Messenger of Veyhalde enters, draw a card.
+
+Snowbound Serenity
+
+Where the Wind Begins
+rules_text: Create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, draw two cards.” You can't attack it this turn. => Create two Hunt battle tokens an opponent protects with 2 defense and “When this battle is defeated, draw a card.”
+
+Will Away
+
+Maw of Slumbering Seeds
+
+Whisper of Stillness
+rules_text: Reveal the top six cards of your library. You may put any number of cards with the same name as each other and the rest into your graveyard. => Reveal the top six cards of your library. You may put any number of cards with the same name as each other into your hand and the rest into your graveyard.
+
+Evermarching Nyavki
+rules_text: Evermarching Nyavki enters tapped.
+When Evermarching Nyavki dies, exile it and create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, return target card you own in exile named Evermarching Nyavki to the battlefield.” => Evermarching Nyavki enters tapped.
+When Evermarching Nyavki dies, exile it and create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, put the exiled card onto the battlefield.”
+
+Unbidden Patron
+rules_text: Whenever you gain life, put that many alms counters on Unbidden Patron.
+{B}, Remove two alms counters from Unbidden Patron: You draw a card and you lose 1 life.
+{B}, Remove seven alms counters from Unbidden Patron: Return target creature card from your graveyard to the battlefield with a finality counter on it. Activate only as a sorcery. => Whenever you gain life, put that many alms counters on Unbidden Patron.
+{B}, Remove two alms counters from Unbidden Patron: You draw a card and you lose 1 life.
+{B}, Remove six alms counters from Unbidden Patron: Return target creature card from your graveyard to the battlefield with a finality counter on it. Activate only as a sorcery.
+
+Loathsome Nuckelavee
+
+Sootwinged Intruder
+
+Wailing Songbeast
+cost: {G}{U} => {2}{B}
+rules_text: Flash
+Flying
+When Wailing Songbeast enters, draw a card.
+{G}: Wailing Songbeast gets +1/+0 and gains deathtouch until end of turn. Activate only once each turn. => Flying
+Wither [i](This deals damage to creatures in the form of -1/-1 counters.)[/i]
+When Wailing Songbeast dies, it deals damage to any target equal to its power.
+pt: 1/1 => 2/1
+
+Solmhar's Measure
+cost: {B} => {1}{B}
+rules_text: Whenever you attack with one or more creatures with power 4 or greater, defending player loses 2 life and you gain 2 life.
+{1}{B}, Sacrifice a creature: Create a Weapon token and attach it to target creature you control. Activate only as a sorcery. [i](It's an Equipment artifact with equip {2} and “Equipped creature gets +1/+1.”)[/i] => Whenever you attack with one or more creatures with power 4 or greater, defending player loses 2 life and you gain 2 life.
+{B}, Sacrifice a creature: Create a Weapon token and attach it to target creature you control. Activate only outside of combat. [i](It's an Equipment artifact with equip {2} and “Equipped creature gets +1/+1.”)[/i]
+
+Pilfer
+
+Sign in Grief
+
+Wilt Like the Others
+
+Devour
+
+Pitywrought Whelp
+
+Briarhoof Hearthtender
+
+Spiteful Prankster
+
+Troubling Mischief
+
+Flamemane Skydancer
+
+Scorch to Slag
+type: Sorcery => Instant
+cost: {1}{R} => {R}{R}
+
+Vespermaw
+cost: {4}{R} => {3}{R}{R}
+rules_text: Menace
+{2}{R}, Exile Vespermaw from your hand: Draw a card, then create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, create a token that's a copy of Vespermaw.” => Menace
+Trample over battles [i](This creature can deal excess combat damage to the controller of battles blocking it.)[/i]
+Whenever Vespermaw enters, it deals 2 damage to each opponent, each planeswalker they control, and each battle they protect.
+pt: 5/3 => 5/5
+
+The Road Made Real
+
+Rousing Call
+
+Strayhorn Guide
+pt: 1/1 => 1/2
+
+Peltborn Shifter
+
+Emptypetal Crone
+
+Crushing Vodyanov
+rules_text: Trample
+When Crushing Vodyanov enters, create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, reveal the top card of your library until you reveal a creature card. Put that card onto the battlefield and the rest in your graveyard.” => Trample
+When Crushing Vodyanov enters, look at the top ten cards of your library. You may exile a creature card, then put the rest on the bottom of your library in a random order. Create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, put the exiled card onto the battlefield.”
+
+Ashhorn Reaper
+
+Steward of Hollowood
+
+Hope's Sprout
+
+Horizon's Edge
+rules_text: When Horizon's Edge enters, mill four cards. You may return a creature or land card milled this way to your hand.
+Equipped creature gets +X/+X, where X is the number of card types among cards in your graveyard.
+Equip {4} => When Horizon's Edge enters, mill four cards. You may return a creature or land card milled this way to your hand.
+Equipped creature gets +X/+X, where X is the number of card types among cards in your graveyard.
+Equip {3}
+
+Answer with Steel and Blood
+
+Snowlit Reverie
+
+Wreathrot Crossing
+rules_text: Wreathrot Crossing enters tapped.
+{T}: Add {B} or {R}. => Wreathrot Crossing enters tapped unless you control no other lands.
+{T}: Add {B} or {R}.
+
+Hollowood Crossing
+rules_text: Hollowood Crossing enters tapped
+{T}: Add {R} or {G}. => Hollowood Crossing enters tapped unless you control no other lands.
+{T}: Add {R} or {G}.
+
+Ashwood Crossing
+rules_text: Ashwood Crossing enters tapped.
+{T}: Add {B} or {G}. => Ashwood Crossing enters tapped unless you control no other lands.
+{T}: Add {B} or {G}.
+
+Singshore Crossing
+rules_text: Singshore Crossing enters tapped.
+{T}: Add {G} or {U}. => Singshore Crossing enters tapped unless you control no other lands.
+{T}: Add {G} or {U}.
+
+Veilshroud Crossing
+rules_text: Veilshroud Crossing enters tapped.
+{T}: Add {W} or {U}. => Veilshroud Crossing enters tapped unless you control no other lands.
+{T}: Add {W} or {U}.
+
+Hearthvale Crossing
+rules_text: Hearthvale Crossing enters tapped.
+{T}: Add {U} or {B}. => Hearthvale Crossing enters tapped unless you control no other lands.
+{T}: Add {U} or {B}.
+
+Brightwane Crossing
+rules_text: Brightwane Crossing enters tapped.
+{T}: Add {G} or {W}. => Brightwane Crossing enters tapped unless you control no other lands.
+{T}: Add {G} or {W}.
+
+Hagspire Crossing
+rules_text: Hagspire Crossing enters tapped.
+{T}: Add {R} or {W}. => Hagspire Crossing enters tapped unless you control no other lands.
+{T}: Add {R} or {W}.
+
+Glimmerpeak Crossing
+rules_text: Glimmerpeak Crossing enters tapped.
+{T}: Add {U} or {R}. => Glimmerpeak Crossing enters tapped unless you control no other lands.
+{T}: Add {U} or {R}.
+
+Altar to Those Unbroken
+
+Mockery of Valor
+
+Clutching Cottage
+
+Effigy of the Craving
+
+Helm of the Lost
+rules_text: Whenever equipped creature attacks, put a charge counter on Helm of the Lost.
+Remove a charge counter from Helm of the Lost: Choose one —
+• Equipped creature gets +2/+2 until end of turn.
+• Equipped creature phases out.
+• Scry 2.
+Equip {3} => Whenever Helm of the Lost becomes equipped or equipped creature attacks, put a charge counter on Helm of the Lost.
+Remove a charge counter from Helm of the Lost: Choose one —
+• Equipped creature gets +2/+2 until end of turn.
+• Equipped creature phases out.
+• Scry 2.
+Equip {3}
+
+Pendant of Good Harvests
+
+Edge of Stilled Resolve
+
+Stiltwalker Husk
+
+Threadcharmer's Boots
+
+Pulse of the Hollowood
+
+Snezvalir Songshaper
+
+Call of the Hanging Bough
+
+Wax and Woe
+
+Pale Visage
+
+Boon of Feathers and Fate
+
+Weeping Cikavac
+rules_text: This spell costs {1} less to cast for each 1 life you gained this turn.
+Flying
+When Weeping Cikavac enters, destroy target nonland permanent. => This spell costs {1} less to cast for each 1 life you gained this turn.
+Flying
+When Weeping Cikavac enters, destroy up to one target nonland permanent.
+
+Rekindling Affection
+
+Slabtooth Ambusher
+
+Unintended Transit
+
+Errant Krivolak
+
+Rend to Nothing
+
+Winter's Rebuke
+
+Wayward Elder
+
+Prudent Grovewarden
+
+Gracesower Satyr
+rules_text: When Gracesower Satyr enters, create a Weapon token. [i](It's an Equipment artifact with equip {2} and “Equipped creature gets +1/+1.”)[/i]
+At the beginning of your end step, you may put a refine counter on target Equipment. For as long as it has a refine counter on it, it has “Equip abilities of this Equipment cost {1} less to activate for each refine counter on it.” => Lifelink
+At the beginning of your end step, you may put a refine counter on target Equipment. For as long as it has a refine counter on it, it has “Equip abilities of this Equipment cost {1} less to activate for each refine counter on it.”
+pt: 2/2 => 2/3
+
+Hollow Revelry
+
+Lockstock Vakhter
+
+Plea Beneath the Surface
+
+Reckoner of the Bend
+
+Resolute Marshal
+cost: {1}{W} => {2}{W}
+rules_text: When Resolute Marshal enters, search your library for an Equipment card, exile it, then shuffle. Then create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, put the exiled card into your hand.” => When Resolute Marshal enters, search your library for an Equipment card, exile it, then shuffle. Then create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, put the exiled card onto the battlefield.” You can't attack it this turn.
+pt: 2/2 => 3/3
+
+Echo of the Oathbound
+pt: 4/4 => 5/5
+
+Binding of Winter's Breath
+
+Brightstep Chorus
+type: Creature — Elf Cleric => Creature — Elf Bard Cleric
+
+Concord of the Veiled
+cost: {2}{W} => {1}{W}
+
+Reflected Memories
+cost: {2}{W}{W} => {W}{W}
+rules_text: Presence X [i](As an additional cost to cast this spell, tap X untapped lands, artifacts, and/or creatures you control.)[/i]
+Return all creature cards with mana value X or less from your graveyard to the battlefield tapped. Exile Reflected Memories. => Presence 2 [i](As an additional cost to cast this spell, tap two untapped lands, artifacts, and/or creatures you control.)[/i]
+For each token you control, create a token that's a copy of that permanent.
+
+Lurker of the Whisperfens
+
+Devourer of Forms
+
+Coven of Three
+
+Tidings Carried on Ash
+
+Trinket Seeker
+cost: {2}{U} => {1}{U}{U}
+rules_text: When Trinket Seeker enters, create a colorless artifact token named Twiddlebox with “{U}, {T}: Tap or untap another target nonland permanent. Activate only outside of combat.”
+Whenever Trinket Seeker deals combat damage to a player or noncreature permanent, you may draw a card. If you do, discard a card. => When Trinket Seeker enters, create a colorless artifact token named Twiddlebox with “{U}, {T}: Tap or untap another target nonland permanent. Activate only outside of combat.”
+Whenever Trinket Seeker deals combat damage to a player or noncreature permanent, you may draw a card.
+pt: 3/2 => 3/3
+
+Flourish Together
+rules_text: Presence 4 [i](As an additional cost to cast this spell, tap four untapped lands, artifacts, and/or creatures you control.)[/i]
+Until end of turn, whenever you cast a spell, copy it. You may choose new targets for the copies.
+You can't cast spells named Flourish Together this turn. => Presence 3 [i](As an additional cost to cast this spell, tap three untapped lands, artifacts, and/or creatures you control.)[/i]
+Until end of turn, whenever you cast a spell, copy it. You may choose new targets for the copies.
+You can't cast spells named Flourish Together this turn.
+
+Kaelthar's Decree
+
+Echo of the Pane
+pt: 2/2 => 3/3
+
+Arrive in Silence and Ash
+type: Instant => Sorcery
+cost: {1}{B}{B}{B} => {X}{B}{B}
+rules_text: Put three -1/-1 counters on each creature. => Presence X [i](As an additional cost to cast this spell, tap X untapped lands, artifacts, and/or creatures you control.)[/i]
+Put X -1/-1 counters on each creature.
+
+Everwatching Praznostrazh
+
+Lady on the Blighted Mare
+
+Become Unwritten
+
+Sorrow Lasher
+
+Cragroot Rumbler
+
+Eyes of Struna
+type: Creature — Phoenix Faerie => Creature — Faerie
+rules_text: Flying, haste
+Whenever Eyes of Struna dies, exile it and create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, return target card named Eyes of Struna you own in exile to the battlefield from.” => Flying
+Wither [i](This deals damage to creatures in the form of -1/-1 counters.)[/i]
+Whenever a creature an opponent controls dies, if it had three or more counters on it, return Eyes of Struna from your graveyard to your hand.
+
+Rimebag Wretch
+
+Warbark Reaver
+rules_text: At the beginning of your upkeep, you may create a token that's a copy of target Equipment you control. Exile it at the beginning of the next end step.
+[i]Metalcraft[/i] — You may pay {0} rather than pay the equip cost of the first equip ability you activate each turn if you control three or more artifacts. => At the beginning of your upkeep, you may create a token that's a copy of target Equipment you control. Exile it at the beginning of the next end step.
+[i]Metalcraft[/i] — Equipment you control have equip {0} as long as you control three or more artifacts.
+
+The Flames Know Guilt
+
+Strike of Conviction
+
+One Breath from Ruin
+
+Honeytongued Sibilisk
+
+Master of the Pale Frost
+
+Stampeding Gorejaw
+rules_text: When Stampeding Gorejaw enters, create three Hunt battle tokens an opponent protects with 2 defense and “When this battle is defeated, create a 3/3 green Elemental creature token.”
+Whenever you sacrifice a creature, it deals damage equal to its power to up to one target battle. => When Stampeding Gorejaw enters, create three Hunt battle tokens an opponent protects with 2 defense and “When this battle is defeated, create a 3/3 green Elemental creature token.”
+Whenever a creature you control dies, it deals damage equal to its power to up to one target battle.
+
+Instinctive Bond
+
+Consonance of Seasons
+
+Prepare the Vessel
+
+First Step into Snezvalir
+
+Songward Watcher
+
+Tender Patchbinder
+
+Thrust Beyond the Shard
+
+Gildfrost Ancient
+
+Vakhter Conscriptor
+
+Blade of the Rimecourt
+
+The Frozen Gaol
+
+Veyhalde Emberhold
+
+Brute of Kroslav Heights
+
+Jednooko Creeper
+
+Promise of Peril
+rules_text: Exile the top five cards of target opponent's library and separate them into two piles. That opponent chooses a pile and puts it into their graveyard. You may play those cards for as long as they remain exiled and mana of any type can be spent to cast them. => Exile the top five cards of target opponent's library and separate them into two piles. That opponent chooses a pile and puts it into their graveyard. You may play cards in the other pile for as long as they remain exiled and mana of any type can be spent to cast them.
+
+Krovin, the Gilded Maw
+
+Tithe of Flesh
+
+Crystalfang Howler
+
+Crone's Choosing
+
+Shardbreath Tyrant
+
+Siphoned Radiance
+
+Forlorn Hope
+
+Begin the Empty Pursuit
+
+Glimpse Beyond the Rime
+
+Selyndor Mindshaper
+
+Reap the Kindling
+
+Boilmaw Lomie
+
+Hope Beneath the Boughs
+cost: {1}{G}{W} => {G}{W}
+rules_text: Whenever you attack, choose one —
+• Search your library for a creature card with mana value equal to or less than the number of attacking equipped creatures you control, put it onto the battlefield tapped and attacking, then shuffle.
+• Create a Weapon token attached to an attacking creature you control. [i](It's an Equipment artifact with equip {2} and “Equipped creature gets +1/+1.”)[/i] => Whenever you attack, search your library for a creature card with mana value equal to or less than the number of attacking equipped creatures you control, put it onto the battlefield tapped and attacking, then shuffle.
+
+Sunveil Seraph
+
+Crowned in Summer
+
+Erlhan of the Empty Pursuit
+
+Hero of Earned Steel
+rules_text: When Hero of Earned Steel enters, create a Weapon token and attach it to Hero of Earned Steel. [i](It's an Equipment artifact with equip {2} and “Equipped creature gets +1/+1.”)[/i]
+Whenever Hero of Earned Steel or another equipped creature you control dies, you may attach an Equipment that was attached to that creature to target creature you control. => When Hero of Earned Steel enters, create a Weapon token and attach it to Hero of Earned Steel. [i](It's an Equipment artifact with equip {2} and “Equipped creature gets +1/+1.”)[/i]
+Whenever an equipped creature you control dies, you may attach an Equipment that was attached to that creature to target creature you control.
+
+Kaelthar, He Who Stills
+
+Sisters of Rain and River
+
+Kateryna, Weaver of Winter
+
+Vesnara, She Who Bloomed
+
+Draveth of One Cut
+rules_text: Draveth of One Cut can't be blocked by creatures with lesser power and can't have counters put on him.
+{1}: Draveth of One Cut becomes a copy of target equipped creature you control, except he has this ability and “This creature can't be blocked by creatures with lesser power and can't have counters put on him.” => Flying
+When Draveth of One Cut enters, create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, draw a card.”
+Whenever you defeat a battle, create a 4/4 white Angel creature token with flying.
+
+Sorvain, He Who Collects
+rules_text: Flying
+Whenever you sacrifice a nonland permanent, choose one of that permanent's card types that hasn't been chosen this turn. If you do, each opponent sacrifices a permanent of that type. => At the beginning of combat on your turn, exile target creature card from your graveyard. Create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, put the exiled card onto the battlefield.”
+pt: 4/3 => 4/4
+
+Ajani, Forever Adrift
+
+Ciar, Lost Vessel
+special_text: [+1]: Mill two cards, then return a card milled this way to your hand.
+[-3]: Distribute three -1/-1 counters among any number of target creatures.
+[0]: If there are twelve or more creature cards in your graveyard, transform Ciar. You may activate another of his abilities this turn. => [+1]: Mill two cards, then return a card milled this way to your hand.
+[-3]: Distribute three -1/-1 counters among any number of target creatures.
+[0]: If there are ten or more creature cards in your graveyard, transform Ciar. You may activate another of his abilities this turn.
+
+Solmhar, He Who Reaps
+
+Silence, Kaelthar's Oath
+
+Tiller of Realms
+
+Dewfrost Treads
+
+Virelen's Skull
+
+Soulbound Doll
+
+Garland of Trez
+cost: {2}{R}{R}{R} => {3}{R}{R}
+
+Stitched Witness
+
+Fateful Beacon
+cost: {2}{G} => {4}{G}
+rules_text: When Fateful Beacon enters, if you cast it, you may search your library for a creature card with mana value 2 or less, put it onto the battlefield, attach Fateful Beacon to it, then shuffle.
+Equipped creature gets +1/+1 and has vigilance.
+Equip {2} => Whenever Fateful Beacon enters or equipped creature leaves the battlefield, you may exile the top five cards of your library with fate counters on them.”
+Whenever equipped creature attacks, you may put a permanent card you own exiled with a fate counter on it onto the battlefield.
+Equip {2}
+
+Oathbound Reliquary
+rules_text: Once during each of your turns, when Oathbound Reliquary enters or becomes unattached from a permanent, you may return target nonlegendary creature card from your graveyard to the battlefield, then attach Oathbound Reliquary to it.
+Whenever Oathbound Reliquary becomes unattached from a permanent, exile that permanent.
+Equip—Discard two cards. => Equipped creature gets +2/+2 and has trample and menace.
+At the beginning of your end step, draw three cards if an opponent lost life this turn. Otherwise, an opponent gains control of Oathbound Reliquary.
+Equip—Discard a card.
+
+The Thirsting Pane
+rules_text: When The Thirsting Pane enters, attach The Thirsting Pane to target creature you don't control and gain control of it for as long as The Thirsting Pane is attached to it. Tap that creature and put three stun counters on it.
+Equipped creature gets +2/+1 and has “Whenever this creature attacks, draw a card.”
+Equip {3} => When The Thirsting Pane enters, if you cast it, create a token of target creature you don't control, then attach The Thirsting Pane to it.
+Equipped creature gets +1/+1 and has “Whenever this creature attacks, draw a card.”
+Equip {4}
+
+Frostveil Crossroads
+
+Unyielding Witness
+
+Vigil of Those Lost
+
+Quietward Stones
+
+Woundlace Doll
+
+Betrayer's Effigy
+
+Copper-Blooded Warden
+
+Cold Rebuttal
+
+Greedwrought Scourge
+
+Threadsnare Hag
+
+Mercy's Burden
+
+Concord of Ashes
+
+Angel
+
+Lifebinder's Bough
+
+Cast to Slumber
+
+Veilbound Nocnitsa
+rules_text: Flying
+Wither [i](This deals damage to creatures in the form of -1/-1 counters.)[/i]
+When Veilbound Nocnitsa enters, all other creatures get -2/-2 until end of turn. => Flying
+When Veilbound Nocnitsa enters, exile target non-Demon creature card from your graveyard. Create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, put the exiled card onto the battlefield.” You can't attack it this turn.
+pt: 5/5 => 5/4
+
+Cornered Tusker
+
+Tidy Blessing
+
+Elemental
+
+Ouphe
+
+Construct
+
+Human
+
+Human2
+
+Yaromir
+
+Cat
+
+Spirit
+
+Treasure
+
+Devil
+
+Elemental Beast
+
+Dragon
+
+Weapon
+
+Hunt for a Card
+
+Hunt for a Dragon
+
+Hunt for Returns
+
+Hunt for Whisperfoot Skitterers
+
+Hunt for Echoes
+
+Wolf
+
+Stillness Reclaimed
+type: Sorcery => Enchantment
+cost: {1}{W}{W} => {3}{W}{W}
+rules_text: Destroy all artifacts and enchantments with mana value 3 or less. You gain 1 life for each permanent destroyed this way. => At the beginning of your end step, look at the top six cards of your library. Put up to one nonland permanent card with mana value 3 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
+
+Veyhalde Liaison
+rules_text: At the beginning of combat on your turn, for each opponent that is protecting two or fewer battles, create a Hunt battle token that opponent protects with 2 defense and “When this battle is defeated, draw a card.”
+Whenever Veyhalde Liaison attacks, for each battle defending player protects, create a 1/1 green Human creature token that's tapped and attacking that battle. => Veyhalde Liaison can't be countered.
+At the beginning of each opponent's upkeep, create a Hunt battle token an opponent protects with 2 defense and “When this battle is defeated, create a 3/3 green Elemental creature token.”
+
+Slasher of Stragglers
+
+Steel Never Sleeps
+
+Rebirth the Self
+
+Virelen's Call
+
+Dance of the Ovinnik
+
+Mourning Current
+rules_text: Flash
+Mourning Current can't be blocked.
+Whenever Mourning Current deals combat damage to a player or noncreature permanent, scry 1. => Mourning Current can't be blocked.
+Whenever Mourning Current deals combat damage to a player or noncreature permanent, scry 1.
+
+Pactstitcher
+
+Frantic Bukavac
+
+Evercareful Dvorovoi
+
+Sanctum of the Stilled Bloom
+
+Steal the Name
+
+Elena of the Quiet Vale
+
+Mirepath Crossing
+rules_text: Mirepath Crossing enters tapped.
+{T}: Add {W} or {B}. => Mirepath Crossing enters tapped unless you control no other lands.
+{T}: Add {W} or {B}.
+
+Field of Ruin
+
+Twiddlebox
+
+Hunt for Release
+
+Hunt for Glory
+
+Hunt for Friends
+
+Hunt for Elemental
+
+Vice, Between Spaces
+special_text: Whenever you activate one of Vice's loyalty abilities, create a Hunt battle token an opponent protects with 2 defense with that ability, except it's a triggered ability with “When this battle is defeated,”
+[+1]: Create a Treasure token.
+[-3]: Create a 0/0 colorless Construct artifact creature token with “This creature gets +1/+1 for each artifact you control.”
+[-4]: Create a token that's a copy of target nonlegendary artifact you control. => Whenever you activate one of Vice's loyalty abilities, create a Hunt battle token an opponent protects with 2 defense with that ability, except it's a triggered ability with “When this battle is defeated,”
+[+1]: Create a Treasure token.
+[-2]: Create a 0/0 colorless Construct artifact creature token with “This creature gets +1/+1 for each artifact you control.”
+
+Standard of the Risen Blade
+
+Confessor's Thorn
+
+Bitterguard Blade
+rules_text: Equipped creature gets +1/-1.
+Whenever equipped creature dies, you draw a card and you lose 1 life.
+Equip {2} => Equipped creature gets +1/-1.
+Whenever equipped creature dies, you draw a card and you lose 1 life.
+Equip {1}
+
+Bundle of Borrowed Charms
+
+Wreath of the Willing Bloom
+rules_text: Equipped creature gets +1/+1 and has trample and “Whenever this creature deals combat damage to a player, you may sacrifice it. When you do, destroy target artifact or enchantment that player controls.”
+Equip {3} => Equipped creature gets +1/+1 and has trample and “Whenever this creature deals combat damage to a player, you may sacrifice it. When you do, destroy target artifact or enchantment that player controls.”
+Equip {1}
+
+Reforged Vakhter
+
+Fractal Archivist
+rules_text: Flash
+Fractal Archivist can't have counters put on it.
+When Fractal Archivist enters, return target nonland permanent to its owner's hand. If that permanent had mana value 2 or less, instead you may have its owner put it on the top or bottom of their library. => Flash
+When Fractal Archivist enters, return target nonland permanent to its owner's hand. If that permanent had mana value 2 or less, instead you may have its owner put it on the top or bottom of their library.
+
+Ivrek Scrivener
+
+Edgeborne Stalwart
+
+Crystalfang Keeper
+rules_text: Crystalfang Keeper can't have counters put on it.
+Whenever Crystalfang Keeper enters or attacks, you may exile target card from a graveyard.
+{1}, Put a card exiled by Crystalfang Keeper on the bottom of its owner's library: Until end of turn, Crystalfang Keeper gets +2/+2 if that card was a creature card and hexproof if it was an instant or sorcery card. => Whenever Crystalfang Keeper enters or attacks, you may exile target card from a graveyard.
+{1}, Put a card exiled by Crystalfang Keeper on the bottom of its owner's library: Until end of turn, Crystalfang Keeper gets +1/+2 if that card was a creature card and hexproof if it was an instant or sorcery card.
+pt: 2/2 => 3/2
+
+
+VERSION 6 CHANGELOG
 ====================
 
 No changes.
