@@ -4461,7 +4461,7 @@
             "number": 182,
             "color_identity": "G",
             "cost": "{4}{G}",
-            "rules_text": "Whenever Fateful Beacon enters or equipped creature leaves the battlefield, you may exile the top five cards of your library with fate counters on them.\u201d\nWhenever equipped creature attacks, you may put a permanent card you own exiled with a fate counter on it onto the battlefield.\nEquip {2}",
+            "rules_text": "When Fateful Beacon enters, exile the top five cards of your library with fate counters on them.\nEquipped creature gets +3/+3, has trample and \u201cWhenever this creature attacks, you may put a permanent card you own exiled with a fate counter on it onto the battlefield.\u201d\nEquip {2}",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4695,7 +4695,7 @@
             "number": 288,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "{T}: Add {C}.\n{1}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+            "rules_text": "{T}: Add {C}.\n{1}, Sacrifice Frostveil Crossroads: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
             "flavor_text": "[i]\u201cStep through, and leave behind the warmth of Myloyar. Snezvalir waits with open arms and frozen breath.\u201d\n\u2014Kateryna[/i]",
             "pt": "",
             "special_text": "",
@@ -5965,7 +5965,7 @@
             "number": 61,
             "color_identity": "U",
             "cost": "{3}{U}",
-            "rules_text": "Flash\n[i]Metalcraft[/i] \u2014 {1}{U}: Exile another target artifact or creature, then return it to the battlefield tapped under its owner's control. Activate only if you control three or more artifacts.",
+            "rules_text": "Flash\nWard {2}\n[i]Metalcraft[/i] \u2014 {1}{U}: Exile another target artifact or creature, then return it to the battlefield tapped under its owner's control. Activate only if you control three or more artifacts.",
             "flavor_text": "[i][/i]",
             "pt": "3/4",
             "special_text": "",
@@ -6120,5 +6120,5 @@
             "notes": "!tag Yaoi\n!tag Trovsko\n!tag Kreshtan\n!tag Thomir"
         }
     ],
-    "version": 7
+    "version": 8
 }

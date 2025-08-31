@@ -1,4 +1,28 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+
+
+Fateful Beacon
+rules_text: Whenever Fateful Beacon enters or equipped creature leaves the battlefield, you may exile the top five cards of your library with fate counters on them.”
+Whenever equipped creature attacks, you may put a permanent card you own exiled with a fate counter on it onto the battlefield.
+Equip {2} => When Fateful Beacon enters, exile the top five cards of your library with fate counters on them.
+Equipped creature gets +3/+3, has trample and “Whenever this creature attacks, you may put a permanent card you own exiled with a fate counter on it onto the battlefield.”
+Equip {2}
+
+Frostveil Crossroads
+rules_text: {T}: Add {C}.
+{1}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. => {T}: Add {C}.
+{1}, Sacrifice Frostveil Crossroads: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+
+Larynya, the Moon's Remnant
+rules_text: Flash
+[i]Metalcraft[/i] — {1}{U}: Exile another target artifact or creature, then return it to the battlefield tapped under its owner's control. Activate only if you control three or more artifacts. => Flash
+Ward {2}
+[i]Metalcraft[/i] — {1}{U}: Exile another target artifact or creature, then return it to the battlefield tapped under its owner's control. Activate only if you control three or more artifacts.
+
+
+VERSION 7 CHANGELOG
 ====================
 
 Last Vows added.

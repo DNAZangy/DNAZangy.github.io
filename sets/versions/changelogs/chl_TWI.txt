@@ -1,4 +1,449 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+Pluck the Soul added.
+Binder of Greed and Merit added.
+Honesty added.
+Sevrith, Bound to Dusk added.
+Skytide Piercer added.
+Blood added.
+
+Extract the Truth removed.
+Gildchant Transmuter removed.
+Harmony removed.
+Cyrius, Bound to Dusk removed.
+Skytide Severer removed.
+
+Hollowbark Seer
+
+Risen Butcher
+rules_text: [i]Vigor[/i] — Risen Butcher enters with a +1/+1 counter on it if your life total has changed this turn.
+Deathtouch => [i]Vigor[/i] — Risen Butcher enters with a +1/+1 counter on it if you gained or lost life this turn.
+Deathtouch
+
+Sundered Heretic
+rules_text: [i]Vigor[/i] — At the beginning of your end step, if your life total has changed this turn, put a +1/+1 counter on Sundered Heretic. => [i]Vigor[/i] — At the beginning of your end step, if you gained or lost life this turn, put a +1/+1 counter on Sundered Heretic.
+
+Herald of the Hollow Chant
+
+Drowntide Exhumer
+rules_text: When Drowntide Exhumer enters, [b][return target non-Merfolk card from your graveyard to your hand.][/b]
+Chant {B} [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i] => When Drowntide Exhumer enters, [b][return target non-Merfolk creature card from your graveyard to your hand.][/b]
+Chant {B} [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i]
+
+Sanctum of Repression
+rules_text: Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+When Sanctum of Repression enters, exile target nonland permanent you don't control if it's mana value is 3 or less until Sanctum of Repression leaves the battlefield. If Sanctum of Repression reprieved a creature, instead exile target nonland permanent until Sanctum of Repression leaves the battlefield. => Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+When Sanctum of Repression enters, exile target nonland permanent you don't control if it's mana value is 3 or less or if Sanctum of Repression was reprieved until Sanctum of Repression leaves the battlefield.
+
+Night's Whisper
+
+Soulhoarder
+rules_text: Trample
+[i]Vigor[/i] — At the beginning of your end step, if your life total has changed this turn, put a +1/+1 counter on Soulhoarder. => Trample
+[i]Vigor[/i] — At the beginning of your end step, if you gained or lost life this turn, put a +1/+1 counter on Soulhoarder.
+
+Sovereign's Execution
+rules_text: Destroy target creature if it has power 3 or less.
+[i]Vigor[/i] — Destroy that creature instead if your life total has changed this turn. => Destroy target creature or planeswalker.
+[i]Vigor[/i] — You lose 3 life unless you've gained or lost life this turn.
+
+Destructive Ambition
+
+Revivified Wrath
+
+Path of the Gentle End
+
+Frenzied Dawnseeker
+rules_text: Haste
+Whenever Frenzied Dawnseeker attacks, creatures you control get +1/+0 until end of turn.
+Rapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i] => Whenever Frenzied Dawnseeker attacks, creatures you control get +1/+0 until end of turn.
+Rapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]
+
+Cidraeth Charm
+
+Lunate Charm
+rules_text: Choose one —
+• Permanents you control gain hexproof until end of turn.
+• Exile target creature with power 5 or greater.
+• Target player puts their graveyard on the bottom of their library in a random order. => Choose one —
+• Permanents you control gain hexproof until end of turn.
+• Exile target creature with power 4 or greater.
+• Target player puts their graveyard on the bottom of their library in a random order.
+
+Dolcairn Charm
+
+Sunvrath Charm
+rules_text: Choose one —
+• You may discard a card. If you do, draw two cards.
+• Return target creature card with mana value 2 or less from your graveyard to the battlefield.
+• Sunvrath Charm deals 2 damage to target attacking or blocking creature. You gain 2 life. => Choose one —
+• You may discard a card. If you do, draw two cards.
+• Return target creature card with mana value 2 or less from your graveyard to the battlefield.
+• Sunvrath Charm deals 2 damage to any target. You gain 2 life.
+
+Overrule Thought
+rules_text: This spell costs {1} less to cast if you control fewer lands than an opponent.
+Counter target spell unless its controller pays {2}. => Counter target spell unless its controller pays {2}.
+Target player mills three cards.
+
+Grasp of the Drowned
+
+Remnant of the Devoured Sun
+cost: {5} => {7}
+rules_text: As an additional cost to cast this spell, exile seven cards from your graveyard.
+Indestructible
+Whenever Remnant of the Devoured Sun enters or attacks, return a card exiled with it to your hand. If it was a permanent card with lesser mana value than the number of cards in your hand, you may put it onto the battlefield instead. => As an additional cost to cast this spell, exile seven cards from your graveyard.
+Indestructible
+Whenever Remnant of the Devoured Sun enters or attacks, return a card exiled with it to your hand.
+
+Break the Tide
+
+Courtly Intrigue
+rules_text: Enchant creature
+Whenever enchanted creature or another creature that shares enchanted creature's name deals damage to a player or planeswalker, draw a card. => Enchant creature
+Whenever enchanted creature or another creature that shares enchanted creature's name deals combat damage to player or noncreature permanent, draw a card.
+
+Outlive Usefulness
+
+Sanctified Ravager
+rules_text: Other Berserkers and Clerics you control get +1/+1.
+{3}{W}, Exile Sanctified Ravager from your graveyard: Put a +1/+1 counter on each creature you control. Activate only as a sorcery. => Whenever one or more Berserkers you control deals combat damage to one or more players or noncreature permanents, you may cast target Cleric card from your graveyard. It costs {1} less to cast for each Berserker that dealt combat damage this way.
+
+Petalclaw Ambusher
+rules_text: Haste
+Whenever an Illusion you control becomes blocked, put a +1/+1 counter on target Faerie. => Haste
+Whenever an Illusion you control dies, put a +1/+1 counter on target Faerie.
+
+Blessed Linewarden
+cost: {W} => {1}{W}
+pt: 1/1 => 2/3
+
+Reliquary Sentinel
+rules_text: [i]Vigor[/i] — At the beginning of your end step, sacrifice Reliquary Sentinel unless Reliquary Sentinel entered or your life total changed this turn. => [i]Vigor[/i] — At the beginning of your end step, sacrifice Reliquary Sentinel unless Reliquary Sentinel entered or if you gained or lost life this turn.
+
+Stride Once More
+rules_text: Create two 2/2 black Zombie creature tokens with “This creature can't block.”
+[i]Vigor[/i] — As long as your life total has changed this turn and Stride Once More is in your graveyard, it has flashback {3}{B}. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Create two 2/2 black Zombie creature tokens with “This creature can't block.”
+[i]Vigor[/i] — As long as you've gained or lost life this turn and Stride Once More is in your graveyard, it has flashback {3}{B}. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Wrought in Hunger
+
+Advance of Dreamwoven Law
+special_text: [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+Unblocked creatures you control get +1/+0.
+[b]Defeated[/b] Level 2
+When Advance of Dreamwoven Law is defeated, draw two cards.
+ Level 3
+​ => [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+When Advance of Dreamwoven Law enters, tap up to one target creature and put two stun counters on it.
+[b]Defeated[/b] Level 2
+Whenever you attack, tap target creature.
+ Level 3
+​
+
+Heart's Betrayal
+
+Evangel of Severed Doubt
+rules_text: Other Clerics you control are Berserkers in addition to their other types.
+Berserkers you control have haste.
+Whenever a Berserker you control dies, Evangel of Severed Doubt deals 1 damage to each opponent. => Other Clerics you control are Berserkers in addition to their other types. 
+Berserkers you control have haste.
+Whenever a Berserker you control dies, Evangel of Severed Doubt deals 1 damage to each opponent.
+
+Law Given Form
+rules_text: When Law Given Form enters, exile target tapped creature or creature with power 4 or greater you don't control. => When Law Given Form enters, exile target creature you don't control if it is tapped or if its power is 4 or greater.
+
+Reclaim the Fallen
+cost: {2}{B}{B} => {3}{B}{B}
+rules_text: Return target creature card from your graveyard to the battlefield.
+Flashback {3}{B}{B}{B} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Return target creature card from your graveyard to the battlefield.
+Flashback {1}{B}{B}{B} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Dawnsworn Survivor
+rules_text: Trample
+Whenever you cast your second creature spell each turn, you may return Dawnsworn Survivor from your graveyard to your hand. => Trample
+Whenever you cast your second spell each turn, you may return Dawnsworn Survivor from your graveyard to your hand.
+
+Reflected Echo
+rules_text: Create a token that's a copy of target creature you control, except it's a 1/1. It can't block this turn.
+Flashback {2}{U}{U} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Create a token that's a copy of target creature you control, except it's a 1/1 Illusion in addition to its other types. It can't block this turn.
+Flashback {2}{U}{U} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Advance of the Blazing Court
+pt: 3 => 4
+special_text: [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+Whenever a creature you control becomes blocked, it deals 1 damage to the player or permanent it is attacking.
+[b]Defeated[/b] Level 2
+{2}, Sacrifice a land: Create a 1/1 white Soldier creature token. It can't block this turn.
+ Level 3
+​ => [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+When Advance of the Blazing Court enters, create two Blood tokens. [i](They're artifacts with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”)[/i]
+[b]Defeated[/b] Level 2
+Whenever you sacrifice a permanent, Advance of the Blazing Court deals 1 damage to any other noncreature target.
+ Level 3
+​
+
+Graveborn Confidant
+rules_text: You may play cards exiled by Graveborn Confidant as long as you've gained or lost more life than their mana value this turn.
+[i]Vigor[/i] — At the beginning of your end step, if your life total changed this turn, exile the top card of your library. => You may play cards exiled by Graveborn Confidant as long as you've gained or lost more life than their mana value this turn.
+[i]Vigor[/i] — At the beginning of your end step, if you gained or lost life this turn, exile the top card of your library.
+
+Dreadchant Warcaller
+rules_text: Ward {1}
+[i]Vigor[/i] — At the beginning of your end step, if your life total has changed this turn, create a 2/2 black Zombie creature token with “This creature can't block.” => Ward {1}
+[i]Vigor[/i] — At the beginning of your end step, create a 2/2 black Zombie creature token with “This creature can't block” if you gained or lost life this turn
+
+Angler of the Crushing Sea
+cost: {5}{U}{U} => {6}{U}
+rules_text: [b][This spell costs {1} less to cast for each instant or sorcery card in your graveyard and for each creature card you own in exile that has chant.]
+[/b]Chant {U} [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i] => This spell costs {1} less to cast for each instant and sorcery card in your graveyard.[b]
+[/b]When Angler of the Crushing Sea enters, [b][target player mills three cards.]
+[/b]Chant {U} [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i]
+pt: 6/5 => 5/5
+
+Omnipresence
+
+Burning Blood Orator
+rules_text: Haste
+Whenever Burning Blood Orator attacks, another target creature you control's base power and toughness become 4/2 and it gains rapture until end of turn.
+Rapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i] => Haste
+Whenever Burning Blood Orator attacks, another target creature you control's base power and toughness become 4/2 until end of turn.
+Rapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]
+
+Annan, Thief of the Sun
+
+Vardo Ravellan, Forever King
+cost: {2}{B}{G} => {1}{B}{G}
+rules_text: You can't cast this spell unless your life total is 5 more than your starting life total or less than half your starting life total. [i](In most games, that's 25 or more or 9 or less.)[/i]
+Whenever Vardo Ravellan enters or dies, each opponent sacrifices a nonland permanent.
+{2}{B}{G}, Discard two cards: Return Vardo Ravellan from your graveyard to your hand. => Trample
+As long as you have 10 or less life, Vardo gets +2/+2.
+As long as you have 5 or less life, Vardo has indestructible.
+Whenever Vardo deals combat damage to a player, you draw a card and you lose 1 life.
+pt: 8/6 => 3/3
+
+The Ever-Gnashing Dark
+
+Pact Beyond Death
+special_text: [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+When Pact Beyond Death enters, mill three cards, then return a card milled this way to your hand.
+[b]4 Defense[/b] Level 2
+Whenever you draw a card, you gain 2 life.
+Defeated Level 3
+When this battle is defeated, exile all creatures that didn't deal damage to it this turn. => [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+When Pact Beyond Death enters, mill three cards, then return a card milled this way to your hand.
+[b]4 Defense[/b] Level 2
+Whenever you draw a card, you gain 2 life.
+Defeated Level 3
+When this battle is defeated, search your library for a card, put it into your hand, then shuffle.
+
+Gravebound Oath
+special_text: [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+Play with the top card of your library revealed.
+[b]3 Defense[/b] Level 2
+You may play land cards from the top of your library.
+[b]Defeated[/b] Level 3
+You may cast creature spells from the top of your library.
+Spells you cast from anywhere other than your hand cost {2} less to cast. => [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+Play with the top card of your library revealed.
+[b]4 Defense[/b] Level 2
+You may play land cards from the top of your library.
+[b]Defeated[/b] Level 3
+You may cast creature spells from the top of your library.
+
+Rain of Blight
+rules_text: All creatures get -3/-3 until end of turn.
+[i]Vigor[/i] — If your life total has changed this turn, instead all creatures get -5/-5 until end of turn. => All creatures get -3/-3 until end of turn.
+[i]Vigor[/i] – If you gained or lost life this turn, instead all creatures get -5/-5 until end of turn.
+
+Vestige of the King's Fall
+rules_text: Trample
+Trample over battles [i](This creature can deal excess combat damage to the defender of the battle it's attacking.)[/i]
+[i]Vigor[/i] — At the beginning of your end step, if your life total changed this turn, you may cast Vestige of the King's Fall from your graveyard. => Trample
+Trample over battles [i](This creature can deal excess combat damage to the defender of the battle it's attacking.)[/i]
+[i]Vigor[/i] — At the beginning of your end step, you may exile Vestige of the King's Fall from your graveyard if you have gained or lost life this turn. If you do, return target Zombie card from your graveyard to your hand.
+pt: 5/5 => 6/5
+
+Sigil of the Last Light
+rules_text: Whenever a creature you control enters, put a +1/+1 counter on Sigil of the Last Light. Then if this is the second time this ability has resolved this turn, put your choice of a flying, first strike, lifelink, vigilance counter on it. Then if this is the sixth time this ability has resolved this turn, put your choice of a double strike or indestructible counter on it.
+{1}{W}: Sigil of the Last Light becomes a 0/0 Angel creature until end of turn. => Whenever a creature you control enters, put a +1/+1 counter on Sigil of the Last Light. Then if this is the second time this ability has resolved this turn, put your choice of a flying, first strike, lifelink, or vigilance counter on it. 
+{1}{W}: Sigil of the Last Light becomes a 0/0 Angel enchantment creature until end of turn.
+
+Guardian of Ashen Oaths
+
+Dreamswept Duelist
+rules_text: First strike
+Creatures you control becoming blocked cause abilities of that creature to trigger as if they dealt damage to a player or planeswalker. => First strike
+Creatures you control becoming blocked causes abilities of that creature to trigger as if they dealt damage to a player or planeswalker.
+
+Banners Unbroken
+cost: {6}{G}{G} => {5}{G}{G}
+rules_text: This spell costs {2} less for each Angel you control.
+Until end of turn, creatures you control get +1/+1 for each Soldier you control. => This spell costs {1} less for each Angel you control.
+Put two +1/+1 counters on each Soldier you control.
+
+Clash at Scorchroot Bluff
+special_text: [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+At the beginning of combat on your turn, create two 1/1 red Faerie creature tokens with haste. Sacrifice them at the beginning of the next end step.
+[b]2 Defense[/b] Level 2
+When this battle reaches this stage, you may discard a card. If you do, draw a card.
+[b]Defeated[/b] Level 3
+Creatures you control get +1/+0. => [i](As this enters, choose an opponent to protect it. You and others can attack it. It gains abilities when it is at certain stages or below.)[/i]
+At the beginning of combat on your turn, create a 1/1 red Faerie creature token with haste. Sacrifice it at the beginning of the next end step.
+[b]2 Defense[/b] Level 2
+When this battle reaches this stage, you may discard up to two cards. If you do, draw that many cards.
+[b]Defeated[/b] Level 3
+Creatures you control get +1/+0.
+
+Diviner of the Sun
+type: Creature — Azra Cleric => Creature — Azra Advisor Cleric
+cost: {3}{W} => {2}{W}{W}
+rules_text: Other creatures you control get +1/+1.
+Rapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i] => Whenever another nontoken creature you control dies, create a 2/2 white Knight creature token with vigilance.
+Rapture [i](When this creature dies, return it to the battlefield with a haze counter on it. It loses all abilities and can't block.)[/i]
+
+Verdant Radiance
+rules_text: Choose one —
+• Destroy all artifacts with mana value 3 or less.
+• Discard any number of cards, then draw that many cards plus one. => Choose one —
+• Untap target creature. After this main phase, there is an additional combat phase followed by an additional main phase.
+• Destroy all artifacts with mana value 3 or less.
+
+Dawnhymn Herald
+rules_text: Flying
+Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+When Dawnhymn Herald enters, choose one. If it reprieved a creature, choose any number instead.
+• Create two 1/1 white Soldier creature tokens.
+• Exile target creature with power 4 or greater.
+• Target player gains 5 life. => Flying
+Reprieve [i](As this permanent enters, you may return a creature you control without reprieve to its owner's hand.)[/i]
+When Dawnhymn Herald enters, choose one. If it reprieved a creature, choose up two instead.
+• Create two 1/1 white Soldier creature tokens.
+• Exile target creature with power 4 or greater.
+• Target player gains 5 life.
+
+Fiend of the Crimson Pact
+rules_text: Flying
+Whenever Fiend of the Crimson Pact deals combat damage to a player or planeswalker, [b][search your library for a card, put it into your hand, then shuffle.][/b]
+Chant—{1}{B}{B}, Pay 3 life. [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i] => Flying
+Whenever Fiend of the Crimson Pact deals combat damage to a noncreature, [b][search your library for a card not named Fiend of the Crimson Pact, put it into your hand, then shuffle.][/b]
+Chant—{1}{B}{B}, Pay 3 life. [i](As you cast an instant or sorcery, you may exile this from hand and pay its chant cost to add this card's bracketed effects to that spell. You may cast this later from exile.)[/i]
+pt: 6/6 => 5/5
+
+Henda Ravellan
+rules_text: Vigilance
+Whenever you cast your second spell each turn, Henda Ravellan becomes a 4/4 Angel creature with flying. Prevent all damage that would be dealt to it this turn. => Vigilance
+Whenever you cast your second spell each turn, until end of turn Henda Ravellan becomes a 4/4 Angel creature with flying. Prevent all damage that would be dealt to her this turn.
+
+Radiant Devotee
+cost: {1}{W} => {W}
+pt: 2/2 => 2/1
+
+Faithline Marshal
+rules_text: Flash
+Whenever you cast your first spell each turn, create a 1/1 white Soldier creature token.
+Whenever you cast your second spell each turn, create a tapped Everywhere token. [i](It's a land that's every basic land type.)[/i]
+Whenever you cast your third spell each turn, creatures you control get +1/+1 until end of turn. => Flash
+Whenever you cast your first spell each turn, create a 1/1 white Soldier creature token.
+Whenever you cast your second spell each turn, create a tapped Everywhere token. [i](It's a land that's every basic land type.)[/i]
+pt: 2/2 => 2/3
+
+Cerridwyn, Matron
+
+Ostarian, Architect of War
+rules_text: Ostarian can't be countered.
+Ward—{3}, Pay 3 life.
+At the beginning of combat on your turn, create three 1/1 red Berserker creature tokens with haste. Sacrifice them at the beginning of the next end step. => Ostarian can't be countered.
+At the beginning of combat on your turn, create three 1/1 red Berserker creature tokens. They gain lifelink and haste until end of turn. Sacrifice them at the beginning of the next end step.
+pt: 6/6 => 5/5
+
+Zaccola, the Gentle End
+rules_text: Reach
+At the beginning of your end step, you may search your library for a creature or land card with mana value X or less, where X is the amount of life you've lost this turn. Put that card onto the battlefield, then shuffle. => Reach
+At the beginning of your end step, you may search your library for a creature card with mana value X or less, where X is the amount of life you've lost this turn. Put that card onto the battlefield, then shuffle.
+
+Witchery
+rules_text: Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn.
+At the beginning of each end step, if you've spent 4 or more mana to cast instant and/or sorcery spells this turn, create a 4/4 Horror creature token. => Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn.
+At the beginning of each end step, if you've spent 4 or more mana to cast instant and/or sorcery spells this turn, create a 4/4 black Horror creature token.
+
+Bogspawn Witness
+rules_text: [i]Vigor[/i] — At the beginning of your end step, if your life total has changed this turn, choose one. If you've gained and lost life this turn, choose both instead.
+• Each opponent sacrifices a creature or planeswalker unless they discard a card.
+• Return a creature or planeswalker card from your graveyard to your hand. => [i]Vigor[/i] — At the beginning of your end step, if you gained or lost life this turn, choose one. If you've gained and lost life this turn, choose both instead.
+• Each opponent sacrifices a creature or planeswalker unless they discard a card.
+• Return a creature or planeswalker card from your graveyard to your hand.
+
+Ambassador of Unseen Edges
+rules_text: Decoy [i](Whenever this creature attacks, create a tapped and attacking 1/1 Illusion token that's a copy of it. Exile the token at the beginning of the next end step.)[/i]
+Other creatures you control get +1/+0 and have haste. => Decoy [i](Whenever this creature attacks, create a tapped and attacking 1/1 Illusion token that's a copy of it. Exile the token at the beginning of the next end step.)[/i]
+Whenever a creature you control becomes blocked, it deals 1 damage to the player or permanent it is attacking.. Scry 1.
+
+Aldegar of Path Unwoven
+cost: {U}{R} => {1}{U}{R}
+special_text: [+1]: Discard a card, then draw a card. 
+[-3]: Aldegar deals 3 damage to any target.
+[0]: If Aldegar has six or more loyalty counters on him, he becomes a 5/5 blue and red Dragon creature with indestructible and flying. => [+1]: Discard a card, then draw a card. 
+[-2]: Aldegar deals 3 damage to any target.
+[0]: If Aldegar has six or more loyalty counters on him, he becomes a 5/5 blue and red Dragon creature with indestructible and flying.
+
+Ameret, Seeker of the Sun
+special_text: [+2]: Exile up to two target creatures you control. At the beginning of your next declare attackers step, return those creatures to the battlefield tapped and attacking.
+[0]: Ameret becomes a 4/4 Angel creature with flying, lifelink, haste, and indestructible until end of turn.
+[-2]: Ameret, Seeker of the Sun deals 3 damage to any target and you gain 3 life. => [+2]: Exile up to two target creatures you own. At the beginning of your next declare attackers step, return those creatures to the battlefield tapped and attacking.
+[0]: Ameret becomes a 4/4 Angel creature with flying, lifelink, haste, and indestructible until end of turn.
+[-2]: Ameret, Seeker of the Sun deals 3 damage to any target and you gain 3 life.
+
+Kazimierz, Bound in Flesh
+cost: {1}{U}{B} => {3}{U}{B}
+special_text: Whenever you activate a loyalty ability of Kazimierz, discard a card or sacrifice a permanent. Then if there are four or more card types among cards in your graveyard, you may transform Kazimierz.
+[+1]: Draw a card.
+[-2]: Target player sacrifices a creature or planeswalker. => At the beginning of your end step, discard a card. Then if there are five or more card types among cards in your graveyard, transform Kazimierz. Otherwise, draw a card.
+[+1]: Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
+[-2]: Destroy target creature or planeswalker. You gain 2 life.
+loyalty: 4 => 3
+
+Annick, Oathbound
+
+Terramorphic Expanse
+rules_text: {T}, Sacrifice Evolving Wilds: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. => {T}, Sacrifice Terramorphic Expanse: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+
+Speaker of Currents
+rules_text: Instant and sorcery spells you cast cost {1} less to cast.
+As you cast an instant or sorcery spell, you may pay the chant cost of any number of creatures you control and add those creature's bracketed effects to that spell. => Prowess
+As you cast an instant or sorcery spell, you may add pay the chant cost of any number of creatures you control and add those creature's chants to that spell.
+
+Oathbreaker's Challenge
+rules_text: Target creature you control fights target creature you don't control.
+[i]Vigor[/i] — Put a +1/+1 counter on the creature you control before it fights if your life total has changed this turn. => Target creature you control fights target creature you don't control.
+[i]Vigor[/i] — Put a +1/+1 counter on the creature you control before it fights if you've gained or lost life this turn
+
+The Forever Heart
+rules_text: {T}: Add one mana of any color.
+Whenever a creature you control dies, you may discard a card with equal or greater mana value. If you do, return that creature card from your graveyard to the battlefield with a finality counter on it. => {T}: Add one mana of any color.
+Whenever a nontoken creature you control dies, you may discard a card with equal or greater mana value. If you do, return that creature card from your graveyard to the battlefield with a finality counter on it.
+
+Redeemer of Hollowed Flesh
+rules_text: Ward {2}
+At the beginning of combat on your turn, target opponent exiles a card from their graveyard. Create a 1/1 white Soldier creature token if they exiled a creature card this way. Create a Treasure token if they exiled a land card this way. If you didn't create a token this way, put a +1/+1 counter on Redeemer of Hollowed Flesh. => At the beginning of combat on your turn, target opponent exiles a card from their graveyard. Create a 1/1 white Soldier creature token if they exiled a creature card this way. Create a Treasure token if they exiled a land card this way. If you didn't create a token this way, put a +1/+1 counter on Redeemer of Hollowed Flesh.
+
+Everywhere
+
+Treasure
+
+Go Blank
+
+Refusal of the Hollow Gift
+
+Matriarch of Veiled Kin
+rules_text: Other Warlocks you control get +1/+1 and have “Whenever this creature deals combat damage to a player, that player discards a card.
+When Matriarch of Veiled Kin enters, reveal the top card of your library until you reveal a Warlock creature card with mana value 2 or less. Put it onto the battlefield, then shuffle. => Menace
+Other Horrors and Warlocks you control get +1/+1.
+When Matriarch of Veiled Kin enters, reveal the top card of your library until you reveal a Horror or Warlock card with mana value 2 or less, put it onto the battlefield, then shuffle.
+
+
+VERSION 7 CHANGELOG
 ====================
 
 
