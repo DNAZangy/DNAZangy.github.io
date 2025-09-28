@@ -2,7 +2,8 @@
     "name": "Alkabah: Rise of Soli",
     "formats": "Zangy, MSEM",
     "trimmed": "y",
-    "image_type": "jpg",
+    "image_type": "png",
+    "draft_structure": "draft booster",
     "cards": [
         {
             "card_name": "Burgeoning Satrapy",
@@ -290,7 +291,7 @@
             "set": "ROS",
             "loyalty": "",
             "artist": "Mobarakeh Fallahi",
-            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Andazir\nFour Color Command Cycle\n"
+            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Andazir\nFour Color Command Cycle"
         },
         {
             "card_name": "Cyrukans Command",
@@ -511,7 +512,7 @@
             "notes": "!tag Alkabah\n!tag ZareenRule"
         },
         {
-            "card_name": "Solis Crossbowmaster",
+            "card_name": "Soli Arbalist",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Nephilim Ranger",
@@ -526,7 +527,7 @@
             "set": "ROS",
             "loyalty": "",
             "artist": "Kudos Productions",
-            "notes": "!exportname Solis Crossbowmaster\n!tag Alkabah\n!tag ZareenRule\n!tag Cyrukan"
+            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Cyrukan"
         },
         {
             "card_name": "Acolyte of Water",
@@ -736,7 +737,7 @@
             "set": "ROS",
             "loyalty": "",
             "artist": "Glow Productions",
-            "notes": "!tag Alkabah\n!tag ZareenRule\n"
+            "notes": "!tag Alkabah\n!tag ZareenRule"
         },
         {
             "card_name": "Herald of Untold Riches",
@@ -908,7 +909,7 @@
             "set": "ROS",
             "loyalty": "",
             "artist": "Christopher Jin Baron",
-            "notes": "!tag Alkabah\n!tag Atieh\n!tag ZareenRule\n!tag ROSStory\nStory Spotlight 4/14\n"
+            "notes": "!tag Alkabah\n!tag Atieh\n!tag ZareenRule\n!tag ROSStory\nStory Spotlight 4/14"
         },
         {
             "card_name": "Triumphant Greed",
@@ -980,7 +981,7 @@
             "set": "ROS",
             "loyalty": "",
             "artist": "Sizow",
-            "notes": "!tag Alkabah\n!tag Mehr\n!tag ZareenRule\n"
+            "notes": "!tag Alkabah\n!tag Mehr\n!tag ZareenRule"
         },
         {
             "card_name": "Abbas and Laila",
@@ -1088,7 +1089,7 @@
             "set": "ROS",
             "loyalty": "",
             "artist": "Pictor - Samuel Molina",
-            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Andazir\n!tag Mahara\nGround cycle\n"
+            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Andazir\n!tag Mahara\nGround cycle"
         },
         {
             "card_name": "Savior Tactician",
@@ -1503,7 +1504,7 @@
             "type": "Legendary Creature \u2014 Hag Shaman",
             "number": 266,
             "color_identity": "BG",
-            "cost": "{1{B}G}{BG}",
+            "cost": "{1}{BG}{BG}",
             "rules_text": "Ward\u2014Sacrifice a permanent.\nWhenever a player sacrifices a permanent, put a +1/+1 counter on Hayat, Hungering Bakhtak.\nSurpass {4}{B}{G} [i]({4}{B}{G}: Transform this creature. This costs {1} less to activate for each counter on it. Activate only as a sorcery.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
@@ -1519,7 +1520,7 @@
             "rules_text2": "a",
             "flavor_text2": "[i][/i]",
             "pt2": "",
-            "special_text2": "As this permanent transforms into The All-Consuming Swarm, counters on The All-Consuming Swarm become loyalty counters instead.\n[+2]: Create three 1/1 black and green Insect creature tokens with flying.\n[-3]: For each permanent type, each opponent sacrifices a permanent of that type.\n\u200b",
+            "special_text2": "As this permanent transforms into The All-Consuming Swarm, counters on her become loyalty counters instead.\n[+2]: Create three 1/1 black Insect creature tokens with flying.\n[-3]: For each permanent type, each opponent sacrifices a permanent of that type.",
             "loyalty2": "",
             "artist2": "Pedro Sena",
             "notes": "!backfacename The AllConsuming Swarm\n!tag Alkabah\n!tag ZareenRule\n!tag Hayat\n!tag Planeswalker\n!tag Sparker"
@@ -1828,7 +1829,7 @@
             "set": "ROS",
             "loyalty": "",
             "artist": "Alberto Dal Lago",
-            "notes": "!tag Alkabah\n!tag ZareenRule\n"
+            "notes": "!tag Alkabah\n!tag ZareenRule"
         },
         {
             "card_name": "Angel of Despair",
@@ -2026,7 +2027,7 @@
             "set": "ROS",
             "loyalty": "",
             "artist": "Angelo Peluso",
-            "notes": "!tag Alkabah\n!tag Atieh\n!tag ROSStory\n!tag ZareenRule\nStory Spotlight 3/14\n"
+            "notes": "!tag Alkabah\n!tag Atieh\n!tag ROSStory\n!tag ZareenRule\nStory Spotlight 3/14"
         },
         {
             "card_name": "On Andazirs Whims",
@@ -2224,7 +2225,7 @@
             "set": "ROS",
             "loyalty": "",
             "artist": "Wojciech Wilk",
-            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Andazir\n"
+            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Andazir"
         },
         {
             "card_name": "Spawn of Hadak",
@@ -2450,7 +2451,7 @@
             "set": "ROS",
             "loyalty": "",
             "artist": "Erion Makuo",
-            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Sahra\nOffcolor AA Cycle\n"
+            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Sahra\nOffcolor AA Cycle"
         },
         {
             "card_name": "Dunesea Merchant",
@@ -3158,7 +3159,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "William Bang",
-            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Sahra\n"
+            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Sahra"
         },
         {
             "card_name": "Blessing of Respite",
@@ -3376,7 +3377,7 @@
             "set": "ROS",
             "loyalty": "",
             "artist": "Lidiya Uyzh",
-            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Atieh\n"
+            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Atieh"
         },
         {
             "card_name": "Implacable Djinn",
@@ -3502,7 +3503,7 @@
             "set": "ROS",
             "loyalty": "",
             "artist": "Onur Aslan",
-            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Andazir\n!tag Zhubin\n"
+            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Andazir\n!tag Zhubin"
         },
         {
             "card_name": "Refitting for Battle",
@@ -3638,7 +3639,7 @@
             "set": "ROS",
             "loyalty": "",
             "artist": "Ryan Portillo",
-            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Sahra\n!exportname Commanders Guidance\n"
+            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Sahra\n!exportname Commanders Guidance"
         },
         {
             "card_name": "Banishment of Aspirations",
@@ -4596,7 +4597,7 @@
             "number": 260,
             "color_identity": "UB",
             "cost": "{UB}",
-            "rules_text": "Target creature gets +1/+0 until end of turn and can't be blocked this turn.\nFlashback {1{U}B} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
+            "rules_text": "Target creature gets +1/+0 until end of turn and can't be blocked this turn.\nFlashback {1}{UB} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
             "flavor_text": "[i]Two onlookers, draping banners, hazy morning sun; a quick repetition of Fahrib's teachings, and the deed was on.[/i]",
             "pt": "",
             "special_text": "",
@@ -4613,7 +4614,7 @@
             "type": "Instant",
             "number": 261,
             "color_identity": "BR",
-            "cost": "{1{B}R}",
+            "cost": "{1}{BR}",
             "rules_text": "As an additional cost to cast this spell, sacrifice a permanent.\nDraw two cards.",
             "flavor_text": "[i]\u201cAs Ineptitude wormed its way into the disgraced prince's mind, so too his limbs, skin, heart\u2014puppets all.\u201d\n[/i]\u2014The Tale of Kings[i][/i]",
             "pt": "",
@@ -4631,7 +4632,7 @@
             "type": "Creature \u2014 Human Merchant",
             "number": 262,
             "color_identity": "RG",
-            "cost": "{1{R}G}",
+            "cost": "{1}{RG}",
             "rules_text": "When Bazaar Braggart enters, create a tapped Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]",
             "flavor_text": "[i]\u201cMay I interest you in rubies, freshly quarried? Perfumes and censers, fit for a lord? You want it, Avaz has it.\u201d[/i]",
             "pt": "2/1",
@@ -4649,7 +4650,7 @@
             "type": "Creature \u2014 Azra Soldier",
             "number": 263,
             "color_identity": "WG",
-            "cost": "{1{G}W}",
+            "cost": "{1}{GW}",
             "rules_text": "When Marshal of Brethren enters, amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control one, create an 0/0 black Soldier Army creature token first.)[/i]",
             "flavor_text": "[i]\u201cA brother is only a brother as long as he acts the part of family.\u201d[/i]",
             "pt": "1/2",
@@ -4721,7 +4722,7 @@
             "type": "Creature \u2014 Cat",
             "number": 268,
             "color_identity": "WR",
-            "cost": "{1{R}W}{RW}",
+            "cost": "{1}{RW}{RW}",
             "rules_text": "When Battlefield Tiger enters, create two 1/1 white Soldier creature tokens.",
             "flavor_text": "[i]\u201cIt's a win-win. The glory goes to us, the flesh to him.\u201d\n\u2014Nosreh, warbeast trainer[/i]",
             "pt": "1/1",
@@ -5182,7 +5183,7 @@
             "set": "ROS",
             "loyalty": "",
             "artist": "Ernesto Carrasquillo V\u00e9lez",
-            "notes": "four color creature cycle\n!tag Alkabah\n!tag ZareenRule\n!tag Cyrukan\n"
+            "notes": "four color creature cycle\n!tag Alkabah\n!tag ZareenRule\n!tag Cyrukan"
         },
         {
             "card_name": "Div of Unsettling Secrets",
@@ -5243,7 +5244,7 @@
             "rules_text2": "",
             "flavor_text2": "[i][/i]",
             "pt2": "",
-            "special_text2": "As this permanent transforms into Ameret, counters on Ameret become loyalty counters instead.\n[+1]: Until end of turn, you may have Ameret become a X/X Angel creature with flying, indestructible, and haste, where X is the number of counters on them.\n[-2]: Create three 1/1 white and red Cleric creature tokens with lifelink and haste.",
+            "special_text2": "As this permanent transforms into Ameret, counters on them become loyalty counters instead.\n[+1]: Until end of turn, you may have Ameret become a X/X Angel creature with flying, indestructible, and haste, where X is the number of counters on them.\n[-2]: Create three 1/1 white and red Cleric creature tokens with lifelink and haste.",
             "loyalty2": "",
             "artist2": "Assassinmilks",
             "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Ameret\n!tag Planeswalker\n!tag Sparker"
@@ -5282,7 +5283,7 @@
             "set": "ROS",
             "loyalty": "",
             "artist": "hassan chenari",
-            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Zareen\n"
+            "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Zareen"
         },
         {
             "card_name": "Atieh, Seer of Distant Futures",
@@ -5609,5 +5610,5 @@
             "notes": "!tag Alkabah\n!tag ZareenRule"
         }
     ],
-    "version": 1
+    "version": 2
 }

@@ -3270,7 +3270,7 @@
             "type": "Sorcery",
             "number": 85,
             "color_identity": "B",
-            "cost": "{X}{B}{B}",
+            "cost": "{B}{B}",
             "rules_text": "Presence X [i](As an additional cost to cast this spell, tap X untapped lands, artifacts, and/or creatures you control.)[/i]\nPut X -1/-1 counters on each creature.",
             "flavor_text": "[i]Ciar glanced at the bodies sprawled around him that heralded his arrival. This was not his destination.[/i]",
             "pt": "",
@@ -6120,5 +6120,5 @@
             "notes": "!tag Yaoi\n!tag Trovsko\n!tag Kreshtan\n!tag Thomir"
         }
     ],
-    "version": 8
+    "version": 9
 }

@@ -1,8 +1,9 @@
 ﻿{
     "name": "Secrets of the River Cities",
-    "formats": "Zangy, REV",
+    "formats": "Zangy, Rev",
     "trimmed": "y",
-    "image_type": "jpg",
+    "image_type": "png",
+    "draft_structure": "draft booster",
     "cards": [
         {
             "card_name": "Bishop of Ameret's Way",
@@ -668,7 +669,7 @@
             "set": "SRC",
             "loyalty": "",
             "artist": "Nicholas Maxson",
-            "notes": "!tag DetrosseREMOVAL"
+            "notes": "!tag Detrosse"
         },
         {
             "card_name": "Aerial Sleuth",
@@ -2702,7 +2703,7 @@
             "set": "SRC",
             "loyalty": "",
             "artist": "Grace Kum",
-            "notes": "!tag Detrosseart?"
+            "notes": "!tag Detrosse"
         },
         {
             "card_name": "Torch Singer",
@@ -4991,5 +4992,5 @@
             "notes": "!tag Detrosse\n!tag Jericho\n!tag Planeswalker\n!related Jericho Hudson;\n!exportname Jericho Emblem"
         }
     ],
-    "version": 1
+    "version": 2
 }
