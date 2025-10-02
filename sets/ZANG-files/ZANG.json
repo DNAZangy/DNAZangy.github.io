@@ -2,7 +2,8 @@
     "name": "Zangy Cube",
     "formats": "Zangy, Cube",
     "trimmed": "y",
-    "image_type": "jpg",
+    "image_type": "png",
+    "draft_structure": "cube",
     "cards": [
         {
             "card_name": "Dower Mountainside",
@@ -1429,7 +1430,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nLook at the top six cards of your library. Put up to one creature card with mana value 2 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.",
+            "special_text": "\nI, II, III \u2014 Look at the top six cards of your library. Put up to one creature card with mana value 2 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.",
             "shape": "saga",
             "set": "ZANG",
             "loyalty": "",
@@ -1645,7 +1646,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nFlash\nBirth of the Praetor's Voice deals 4 damage to target attacking or blocking creature.\nExile up to two target cards from graveyards. You gain 2 life.\nCreate a 3/3 white, black, blue, and green Phyrexian Angel creature token with flying, vigilance, and lifelink.",
+            "special_text": "\nFlash\nBirth of the Praetor's Voice deals 4 damage to target attacking or blocking creature.\nExile up to two target cards from graveyards. You gain 2 life.\nI \u2014 Create a 3/3 white, black, blue, and green Phyrexian Angel creature token with flying, vigilance, and lifelink.",
             "shape": "saga",
             "set": "ZANG",
             "loyalty": "",
@@ -2277,7 +2278,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nFlash\nTap target creature and put two stun counters on it.\nSurveil 2.\nProliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]",
+            "special_text": "\nFlash\nTap target creature and put two stun counters on it.\nSurveil 2.\nI \u2014 Proliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]",
             "shape": "saga",
             "set": "ZANG",
             "loyalty": "",
@@ -4767,7 +4768,7 @@
             "shape": "normal",
             "set": "ZANG",
             "loyalty": "",
-            "artist": "Misterkevfang",
+            "artist": "Wojtek Depczynski",
             "notes": "!tag Ravnica\n!tag Gruul"
         },
         {
@@ -4879,14 +4880,14 @@
             "notes": "!tag Dewold"
         },
         {
-            "card_name": "Devourerer of Cosmos",
+            "card_name": "Devourer of Cosmos",
             "color": "R",
             "rarity": "cube",
             "type": "Creature \u2014 Elemental Soldier",
             "number": 207,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "As an additional cost to cast this spell, sacrifice a creature or planeswalker.\nWhen Devourerer of Cosmos enters, it gains haste if you sacrificed a planeswalker to cast it. Otherwise, put a trample counter on it.",
+            "rules_text": "As an additional cost to cast this spell, sacrifice a creature or planeswalker.\nWhen Devourer of Cosmos enters, it gains haste if you sacrificed a planeswalker to cast it. Otherwise, put a trample counter on it.",
             "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
@@ -6278,7 +6279,7 @@
             "card_name": "Curio Collector",
             "color": "UR",
             "rarity": "cube",
-            "type": "Creature \u2014 Orc Artificer",
+            "type": "Creature \u2014 Spirit",
             "number": 347,
             "color_identity": "UR",
             "cost": "{U}{R}",
@@ -6289,7 +6290,7 @@
             "shape": "normal",
             "set": "ZANG",
             "loyalty": "",
-            "artist": "Anna Jager Hauer",
+            "artist": "Daria Egorova",
             "notes": "!tag Detrosse\nArtifacts"
         },
         {
@@ -6415,7 +6416,7 @@
             "shape": "planeswalker",
             "set": "ZANG",
             "loyalty": "4",
-            "artist": "Stenio Campoio",
+            "artist": "Dat Phan",
             "notes": "!tag Claes\n!tag Planeswalker\n!tag theros\nSlotted\nGenerically good/Aggro\nRemoval"
         },
         {
@@ -8351,7 +8352,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nWhenever you put a lore counter on this Saga, put a +1/+1 counter on target creature you control.\n\u200b",
+            "special_text": "\nI, II, III, IV, V, VI, C \u2014 Whenever you put a lore counter on this Saga, put a +1/+1 counter on target creature you control.\n\u200b",
             "shape": "saga",
             "set": "ZANG",
             "loyalty": "",
@@ -8999,5 +9000,5 @@
             "notes": "!tag Giondaz"
         }
     ],
-    "version": 1
+    "version": 2
 }
