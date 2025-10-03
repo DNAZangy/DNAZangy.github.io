@@ -1,4 +1,38 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+
+
+Low Tide, High Stakes
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+Flash
+When Low Tide, High Stakes enters, counter target spell. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+Flash
+When Low Tide, High Stakes enters, if you cast it, counter target spell.
+
+Guttertooth
+rules_text: Trample, reach
+Whenever Guttertooth deals combat damage to a player or noncreature permanent, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Reach
+Whenever Guttertooth deals combat damage to a player or noncreature permanent, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+
+Detrossian Hydra
+rules_text: Detrossian Hydra enters with X +1/+1 green Insect creature counters on it. [i](The counters become creature tokens when the permanent they're on leaves the battlefield.)[/i]
+Trample
+Detrossian Hydra gets +1/+1 for each counter on it. => Detrossian Hydra enters with X 1/1 green Insect creature counters on it. [i](The counters become creature tokens when the permanent they're on leaves the battlefield.)[/i]
+Trample
+Detrossian Hydra gets +1/+1 for each counter on it.
+
+Compounded Realities
+cost: {1}{U}{U} => {2}{U}{U}
+
+The Glittering Cloud
+loyalty: 4 => 3
+
+Collections Box
+type: Token Artifact => Token Legendary Artifact
+
+
+VERSION 3 CHANGELOG
 ====================
 
 Quiet Audit added.
