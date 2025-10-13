@@ -1,4 +1,666 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+Lift ArchaicWards added.
+Spill the Beans added.
+Veda's Broker added.
+Cawyer River Dockworkers added.
+Dapper Detective added.
+Moroii Cleaner added.
+Zhang Seductress added.
+Shambling Nest added.
+
+Lift Archiac Wards removed.
+Expose removed.
+Veda's Broker of Secrets removed.
+
+Learned Rabota
+
+Haunted Widower
+
+Raise the Alarm
+
+Skybound Constable
+
+Lorre Patsy
+
+Gutbucket Gang
+rules_text: Whenever you gain life, put a 1/1 red Rogue creature counter on Gutbucket Gang. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i] => Whenever you gain life, you may put a 1/1 red Rogue creature counter on Gutbucket Gang. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+
+Mabuse Recruiter
+
+Hero of the Force
+
+Hound of the Bureau
+
+Purifier of Division
+
+Wrapped in Quiet Lies
+
+Stunning Irruption
+
+Marked for Grace
+
+Sleep in Company
+
+Sinister Thought-Snatcher
+
+Deepsea Detective
+
+Papertrail Trickster
+
+Drift of the Departed
+
+Sleuth of the Deep Hours
+
+Squeak-ret Operative
+
+Brute of the Velvet Rope
+
+Stool Pidgeon
+pt: 2/1 => 2/2
+
+Skyline Snooper
+
+Missing Piece of Reality
+rules_text: Counter target spell unless its controller pays {X}.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Counter target spell unless its controller pays {X}.
+{1}{U}, Exile Missing Piece of Reality from your graveyard: Surveil 2, then investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+
+Proboscidian Transmutation
+
+Refuse the Ruse
+
+Woke Up Wrong
+
+Defensive Stratagem
+
+Mockery of Flesh
+
+Lorre Blackmailer
+
+Woman with a Past
+
+Arrogant Moroii
+
+Truthsniffer
+
+Lorre Bagman
+
+Unweaving Raven
+
+Whisperer to the Chthonic
+
+Perimeter Lookout
+
+Stage the Grift
+
+Thread of Obsession
+
+Perseverance
+
+A Step Too Late
+
+Become Ashes
+
+Searing Redemption
+
+Veiled Scapegoat
+
+Pawn of Plenty
+
+Moroii Initiate
+
+Precinct Director
+
+Veda's Ears
+
+Star of the Gala
+
+Fox Agency Infiltrator
+
+Ill-Mannered Aberration
+
+Chum Collector
+
+Famished Moroii
+
+Wrap Up
+rules_text: This spell can't be countered.
+Wrap Up deals 2 damage to any target. => This spell can't be countered. [i](Hexproof still stops it.)[/i]
+Wrap Up deals 2 damage to any target.
+
+Confession by Gunfire
+
+Affair by Candlelight
+
+Blood Fugue
+
+Boiler Ambush
+
+Dustridden Smuggler
+
+Inspector of the Wilds
+
+Furline Smuggler
+
+Unwitting Devotee
+
+Unknowing Devotee
+
+Lawbound Tracker
+
+Red-Lipped Dame
+
+Catscratch Bouncer
+
+Innocent Stray
+
+Coopmaster
+
+Tampered Instincts
+
+Prizefight
+
+Weighted Farewell
+
+Dust Overload
+
+Sunset on the Cawyer
+
+Outlands Sifter
+
+Pilfered Jewels
+
+Fusebreaker
+
+Whispered Refuge
+
+Entry to Preservation
+
+Entry to Divergence
+
+Entry to Ambition
+
+Entry to Indulgence
+
+Entry to Ruin
+
+Thief of the Masked Benefactor
+
+District Nine Runner
+rules_text: Whenever District Nine Runner attacks, target attacking Soldier gets +2/+0 until end of turn.
+Exile two cards from your graveyard: District Nine Runner gains indestructible until end of turn. => Whenever District Nine Runner attacks, target attacking Soldier gets +2/+0 until end of turn.
+Exile three cards from your graveyard: District Nine Runner gains indestructible until end of turn.
+
+Gold-Tongued Broker
+
+Guardian of the Badge
+
+Everyone's Acquaintance
+
+Faith-Eaten Penitent
+
+Drift of Griffins
+
+Rekindled Purpose
+
+Herald of Unity
+
+Containment Sigil
+
+Glimmer of the Chase
+
+Vanishing Act
+
+Quiet Audit
+
+Terms of Salvation
+
+A Forged Familicide
+cost: {1}{W} => {2}{W}
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When A Forged Familicide enters or is defeated, create a 1/1 blue Spirit creature token with flying. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When A Forged Familicide enters or is defeated, exile up to two cards from graveyard, then create a 1/1 blue Spirit creature token with flying.
+
+Voicewoven Heretic
+
+Pipeway Inspector
+
+Muckraker Seeker
+rules_text: Sacrifice a Clue, {T}: Draw a card.
+At the beginning of your end step, if three or more creatures dealt combat damage to a player or noncreature permanent this turn, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => {T}, Sacrifice a Clue: Draw a card.
+At the beginning of your end step, if three or more creatures dealt combat damage to a player or noncreature permanent this turn, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+
+Melodic Mole
+type: Creature — Merfolk Bard => Creature — Merfolk Detective
+
+Master of Quiet Crimes
+
+Invasion of the Thought-Snatchers
+
+Hardline Enforcer
+
+Mabuse Mastermind
+
+Hull-Cracker Kraken
+
+Reconstruct The Scene
+
+Still the Pandemonium
+
+Inheritance of Thought
+
+Strange Disappearance
+
+Formally Missing
+
+Arcane Kenning
+
+Low Tide, High Stakes
+
+Impressions of Oil and Flesh
+
+Scene Reader
+
+Threadbound Remnant
+
+Lurking Abominations
+
+Threadcloaked Operative
+
+Smooth-Tongued Extractor
+
+Tethered Killer
+
+Schedule Maker
+
+Harbinger of Grey
+rules_text: Flying
+When Harbinger of Grey enters, destroy any number of creatures with total mana value 4 or less.
+{1}{B}, Discard Harbinger of Grey: Return up to one target creature card with mana value 3 or less from your graveyard to the battlefield. => Flying
+When Harbinger of Grey enters, destroy any number of target creatures with total mana value 4 or less.
+{1}{B}, Discard Harbinger of Grey: Return up to one target creature card with mana value 3 or less from your graveyard to the battlefield. Activate only as a sorcery.
+
+Unworthy Vessel
+
+Deadly Interrogation
+
+Nothing Left to Lose
+
+Buried in Deadlines
+
+The Spider's Bite
+
+Medium of Madness
+
+Behind Every Corner
+
+A Wake in Shadows
+
+No Clean Way Out
+
+Clawed Coquette
+cost: {R} => {1}{R}
+pt: 1/1 => 1/2
+
+Silkclad Socialite
+
+Fangpoint Bargainer
+
+Furensics Expert
+
+Uniter of Holy Flames
+
+Unleashed Constable
+
+Infernal Middleman
+
+Ravener of the Docks
+
+Mabuse Muscle
+
+Surge of the Moment
+
+Masquerade of Means
+rules_text: Whenever one or more Rogues you control attack, exile the top card of your library. You may play it this turn.
+Spells you cast from exile cost {X} less to cast, where X is the number of creatures that have dealt combat damage to an opponent this turn. => Whenever one or more Rogues you control attack, exile the top card of your library. You may play it this turn.
+Spells you cast from exile during your turn cost {X} less to cast, where X is the number of creatures that attacked and weren't blocked this turn.
+
+Antiquated Shot
+
+Red Herring
+
+Self Check-Out
+
+A Toast and a Vow of Union
+
+Framed in Flames
+cost: {3}{R} => {1}{R}{R}
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Framed in Flames enters, each opponent sacrifices a permanent.
+When Framed in Flames is defeated, create three 1/1 red Rogue creature tokens. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Framed in Flames enters, it deals 4 damage to any other target.
+When Framed in Flames is defeated, create a Treasure token.
+
+The Break at Museum Row
+
+Chrysalis Unbound
+
+Oblivious Officer
+
+Shadebound Vessel
+
+Hat in the Husks
+
+Outlands Gatekeeper
+
+Cobblestone Crew
+
+Dust-Hardened Tracker
+
+Faceless Hound
+
+Chewer of Deals
+
+Cradlebreaker Primordial
+
+Writhing Obedience
+rules_text: Trample
+Whenever Writhing Obedience enters or attacks, creatures you control get +1/+1 and gain vigilance until end of turn. => Trample
+Whenever Writhing Obedience enters or attacks, creatures you control get +1/+1 and gain trample until end of turn.
+
+Wriggling Wound
+
+Coded Passage
+
+Indifferent Brawl
+
+Silent Ambush
+
+Crashing Diversion
+
+The Silence at Verdant Valley
+cost: {4}{G} => {3}{G}
+
+Simulacrum of Grace
+
+Unburdened Shell
+
+Hullmaw Leviathan
+type: Artifact Creature — Construct Horror => Artifact — Vehicle
+cost: {8} => {4}
+rules_text: This spell costs {X} less to cast, where X is the number of differently named lands you control.
+Trample => Hullmaw Leviathan enters with a 4/4 green Horror creature counter on it. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+Trample
+Crew 4 [i](Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]
+
+Outlands Interceptor
+
+Empty Vaults
+
+Entry to Elegance
+
+Entry to Omen
+
+Entry to Obscurity
+
+Entry to Decay
+
+Entry to Entertainment
+
+Cawyer Station
+
+Veda's Club
+
+Fox Agency Outpost
+rules_text: Fox Agency Outpost enters tapped. When it does, you may behold a Detective. If you do, untap it. [i](To behold a Detective, choose a Detective you control or reveal a Detective card from your hand.)[/i]
+{T}: Add {U}.
+{1}{U}, {T}: Investigate. => Fox Agency Outpost enters tapped. When it does, you may behold a Detective. If you do, untap it. [i](To behold a Detective, choose a Detective you control or reveal a Detective card from your hand.)[/i]
+{T}: Add {U}.
+{2}{U}, {T}: Scry 1, then investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+
+Foyer of Silence
+
+Lorre's Lowlight
+
+Divinity Repossessed
+loyalty: 4 => 3
+
+Whorling Eviction
+rules_text: Return each creature with mana value 3 or less to its owner's hand. => Return each creature with mana value 3 or less to their owner's hands.
+
+Crowded Murmurs
+
+Wandering Ember
+
+Maw of Borrowed Flesh
+
+Watcher of Fractured Halos
+
+Oneiric Whisperer
+
+Sap Effervescence
+
+L'appel du vide
+
+Blessing of the Aberrant
+
+Gentle Collector
+rules_text: When Gentle Collector enters, create a colorless legendary artifact token named Collections Box with “{T}: You gain 1 life.”
+Whenever you gain life, put a +1/+1 counter on Gentle Collector. => When Gentle Collector enters, create a colorless legendary artifact token named Collections Box with “{T}: You gain 1 life.”
+Whenever you gain life, you may put a +1/+1 counter on Gentle Collector.
+
+Conjuror Extraordinaire
+
+Cleaner's Hammer
+rules_text: Menace
+Whenever Cleaner's Hammer or another Warrior you control enters or becomes a creature, each opponent discards a card if it's your turn. If they don't discard a card, you draw a card and you lose 1 life. => Menace, lifelink
+Whenever Cleaner's Hammer or another Warrior you control enters or becomes a creature, each opponent discards a card if it's your turn. If they don't discard a card, you draw a card and you lose 1 life.
+pt: 4/3 => 4/4
+
+Grafted Sins
+
+Scourge of Sapience
+
+Cawyer Station Recruit
+
+Unclocked Apparition
+
+Midshift Mourner
+
+Threads of Consumption
+
+Curio of Crawling Secrets
+
+Favor from the Family
+
+Delay the Inevitable
+
+Debt in the Outlands
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Debt in the Outlands enters, create a 6/6 black Demon creature token.
+At the beginning of your upkeep, if you control a Demon, you lose 2 life. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Debt in the Outlands enters, create a 5/5 black Demon creature token.
+At the beginning of your upkeep, if you control a Demon, you lose 3 life.
+
+Turncoat Officer
+
+District Broker
+
+Wide-Eyed Inquirer
+
+Divergence of Minds
+
+Painter of the Unseen
+
+Guttertooth
+
+Futures Unwritten
+cost: {2}{W} => {1}{W}
+rules_text: If one or more counters would be put on a player or permanent, that player or permanent's controller gains that much life instead. [i](This instantly defeats battles.)[/i] => Players can't create tokens and counters can't become permanents.
+Nonbasic lands enter tapped.
+
+Favored Traded in Uneven Hands
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Favored Traded in Uneven Hands enters or is defeated, look at the top four cards of your library. Put one into your hand and the rest on the bottom of your library in any order. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+Flash
+When Favored Traded in Uneven Hands enters or is defeated, look at the top four cards of your library. Put one into your hand and the rest on the bottom of your library in any order.
+
+Death's Favorite Pet
+
+Mabuse Enforcer
+
+Beyond the Lamplight
+cost: {3}{G} => {2}{G}
+loyalty: 5 => 6
+
+Echoes of Encouragement
+
+Owl-Knowing Sleuth
+
+Scourge of Unity
+
+Open the Vault
+loyalty: 3 => 2
+
+Detrossian Hydra
+
+Painter of the Fleeting Dawn
+
+Ciar's Sleuthing
+
+Damnation's Return
+
+Reaping Rite
+loyalty: 8 => 7
+
+Refracted Realities
+
+Settle Debts
+
+Monroe's Hatchery
+rules_text: Whenever you cast a noncreature spell, create a 0/2 red Dragon Egg creature token if it's the first noncreature spell you've cast this turn. Otherwise, put a 4/4 red Dragon creature counter with flying on an Egg you control that doesn't have a counter on it. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i] => Whenever you cast a noncreature spell, create a 0/2 red Dragon Egg creature token if this is the first time this ability has resolved this turn. Otherwise, put a 4/4 red Dragon creature counter with flying on an Egg you control that doesn't have a counter on it. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+
+Chthonic Gorger
+
+Paula and Josephine
+
+Unwelcome Welcome
+rules_text: Exile any number of target creatures you control. For each creature counter that became a creature this way, create a token that's a copy of that token. Then, return all creatures exiled this way to the battlefield tapped. => Exile any number of target creatures you control. For each creature counter that became a creature this way, create a token that's a copy of that token. Then, return all creatures exiled this way to the battlefield tapped.
+Exile Unwelcome Welcome.
+
+Joined in Song
+
+Haniel, Retired Shepherd
+
+Prodigy of the Opulent
+rules_text: Betrayal {2}{G}{G}{U}{U} [i]({2}{G}{G}{U}{U}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Prodigy of the Opulent deals combat damage to a player or noncreature permanent, create a token that's a copy of target permanent you control. If it's mana value is 2 or less, create two of those tokens instead. => Betrayal {2}{G}{G}{U}{U} [i]({2}{G}{G}{U}{U}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Prodigy of the Opulent deals combat damage to a player or noncreature permanent, create a token that's a copy of target permanent you control. If its mana value is 2 or less, create two of those tokens instead.
+
+Slumberleech
+
+Dealer of Ruin
+
+Lenny Corr, Door Left Ajar
+type: Creature — Orc Warlock => Legendary Creature — Orc Warlock
+
+Frank the Viper Lorre
+
+Feaster of Crimson
+
+Fraying Echoes
+
+Scarlet Moon
+
+Unifier of Flesh and Purpose
+
+Blinking Horizon
+
+Endless Investigation
+
+Collapse in Silence
+
+Kindly Guide of Souls
+cost: {2}{B} => {1}{B}{B}
+pt: 3/3 => 3/2
+
+Overwhelming Vitality
+
+Rise of the Primordials
+
+Nursery of Skin
+
+Tobias, the Charming Verse
+
+Aryeh, Heart of the Wild
+special_text: Aryeh enters with three 1/1 white Cat creature counters with lifelink on him. [i](The counters become creature tokens when the permanent they're on leaves the battlefield.)[/i]
+[+1]: Put a 1/1 white Cat creature counter with lifelink on target permanent.
+[0]: You may remove any number of counters from Aryeh. When you do, exile target nonland permanent with a mana value equal to or less than the number of counters removed this way. => Aryeh enters with two 1/1 white Cat creature counters with lifelink on him. [i](The counters become creature tokens when the permanent they're on leaves the battlefield.)[/i]
+[+1]: Put a 1/1 white Cat creature counter with lifelink on target permanent.
+[0]: You may remove any number of counters from Aryeh. When you do, exile target nonland permanent with a mana value equal to or less than the number of counters removed this way.
+loyalty: 3 => 2
+
+Frankie Lorre, Underboss
+
+Rescue the Damned
+loyalty: 4 => 5
+
+Imani, Answer in a Blade
+
+Messa di Requiem per Ctonia
+loyalty: 5 => 4
+
+Ciar, Cloaked in Clarity
+
+Tangled in Crimson
+cost: {3}{R} => {1}{R}
+loyalty: 7 => 6
+
+Compounded Realities
+loyalty: 5 => 4
+
+Claim of the Aberrant
+loyalty: 4 => 3
+
+Tome of Retained Flesh
+
+Zim-Shirrem, Threads of Life
+rules_text: Menace
+Whenever Zim-Shirrem, Threads of Life attacks, discard your hand, then draw that many cards plus one.
+You may cast Zim-Shirrem from your graveyard by discarding two cards in addition to paying its other costs. => Menace
+Whenever Zim-Shirrem, Threads of Life attacks, you may discard your hand. If you do, draw two cards.
+You may cast Zim-Shirrem from your graveyard by discarding two cards in addition to paying its other costs.
+pt: 5/3 => 5/5
+
+Unattended Mausoleum
+
+Composite Colossus
+
+Unbidden Rabota
+
+Shade
+
+The Glittering Cloud
+
+Mr. Monroe, Exquisite Collector
+
+The Mabuse Trio
+
+Tamsin and Riggs of the Fox Agency
+
+Spectrum of the Multiverse
+
+Tongue of Tethaleeg
+
+Demon
+pt: 6/6 => 5/5
+
+Sinking Lot
+
+
+VERSION 5 CHANGELOG
 ====================
 
 
