@@ -1,0 +1,3634 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Training Dummy",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Advisor",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/267_Training Dummy.png"
+			}
+		},
+		{
+			"name": "Inherited Scythe",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/265_Inherited Scythe.png"
+			}
+		},
+		{
+			"name": "Construction Zone",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/270_Construction Zone.png"
+			}
+		},
+		{
+			"name": "Instructor of Untold Secrets",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Mutant Advisor",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/95_Instructor of Untold Secrets.png"
+			}
+		},
+		{
+			"name": "Vengeant Husk",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Demon Assassin",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/116_Vengeant Husk.png"
+			}
+		},
+		{
+			"name": "Starcrossed Savior",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/113_Starcrossed Savior.png"
+			}
+		},
+		{
+			"name": "Professor of Fright",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/109_Professor of Fright.png"
+			}
+		},
+		{
+			"name": "Reckless Firestarter",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Horror Rogue",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/111_Reckless Firestarter.png"
+			}
+		},
+		{
+			"name": "Oni-Blooded Retainer",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Rogue Warlock",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/101_Oni-Blooded Retainer.png"
+			}
+		},
+		{
+			"name": "Dealer of Undeath",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Horror Rogue",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/88_Dealer of Undeath.png"
+			}
+		},
+		{
+			"name": "Concavity of the Rainbow",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/86_Concavity of the Rainbow.png"
+			}
+		},
+		{
+			"name": "Anguished Decree",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/81_Anguished Decree.png"
+			}
+		},
+		{
+			"name": "Futile Endeavor",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/92_Futile Endeavor.png"
+			}
+		},
+		{
+			"name": "Endless Nights",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/90_Endless Nights.png"
+			}
+		},
+		{
+			"name": "Burst of the Silent Snake",
+			"rarity": "common",
+			"mana_cost": "{X}{B}",
+			"type": "Instant",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/85_Burst of the Silent Snake.png"
+			}
+		},
+		{
+			"name": "Afternoon Snack",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/80_Afternoon Snack.png"
+			}
+		},
+		{
+			"name": "Lethargic First Year",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Horror Student",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/180_Lethargic First Year.png"
+			}
+		},
+		{
+			"name": "Pugnacious Paragon",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Mystic",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/187_Pugnacious Paragon.png"
+			}
+		},
+		{
+			"name": "Workout Mentor",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/196_Workout Mentor.png"
+			}
+		},
+		{
+			"name": "Boisterous Bright",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Kithkin Wizard",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/162_Boisterous Bright.png"
+			}
+		},
+		{
+			"name": "Neon Junkie Recruit",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/184_Neon Junkie Recruit.png"
+			}
+		},
+		{
+			"name": "Field Commander",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Cat Soldier",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/176_Field Commander.png"
+			}
+		},
+		{
+			"name": "Radiant Reckoner",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Horror Rogue",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/188_Radiant Reckoner.png"
+			}
+		},
+		{
+			"name": "Underground Profiteer",
+			"rarity": "common",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/195_Underground Profiteer.png"
+			}
+		},
+		{
+			"name": "Maw to Consume All",
+			"rarity": "common",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Horror",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/182_Maw to Consume All.png"
+			}
+		},
+		{
+			"name": "Bullet Lance Ambush",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/165_Bullet Lance Ambush.png"
+			}
+		},
+		{
+			"name": "Five-Mountain Crush",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/177_Five-Mountain Crush.png"
+			}
+		},
+		{
+			"name": "Training Montage",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/193_Training Montage.png"
+			}
+		},
+		{
+			"name": "Eclipse with Color",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/171_Eclipse with Color.png"
+			}
+		},
+		{
+			"name": "Bring Color to those Astray",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/164_Bring Color to those Astray.png"
+			}
+		},
+		{
+			"name": "Professor of Hidden Arts",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/147_Professor of Hidden Arts.png"
+			}
+		},
+		{
+			"name": "Bullheaded Recruit",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Ox Soldier",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/124_Bullheaded Recruit.png"
+			}
+		},
+		{
+			"name": "Prismad Reformer",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Horror Student",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/146_Prismad Reformer.png"
+			}
+		},
+		{
+			"name": "Heavy Artillery Monitor",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/138_Heavy Artillery Monitor.png"
+			}
+		},
+		{
+			"name": "Delinquent Duo",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Dog Horror",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/131_Delinquent Duo.png"
+			}
+		},
+		{
+			"name": "Vanguard of Fiery Fury",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Cat Soldier",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/156_Vanguard of Fiery Fury.png"
+			}
+		},
+		{
+			"name": "Neon Junkie Kyodai",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Demon Rogue",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/142_Neon Junkie Kyodai.png"
+			}
+		},
+		{
+			"name": "Arrogant Jock",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Fox Student",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/121_Arrogant Jock.png"
+			}
+		},
+		{
+			"name": "Guardian of the Fray",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Mystic",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/137_Guardian of the Fray.png"
+			}
+		},
+		{
+			"name": "Crash Through",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/128_Crash Through.png"
+			}
+		},
+		{
+			"name": "Greater Together",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/136_Greater Together.png"
+			}
+		},
+		{
+			"name": "Dangle the Autograph",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/130_Dangle the Autograph.png"
+			}
+		},
+		{
+			"name": "Ace the Test",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/120_Ace the Test.png"
+			}
+		},
+		{
+			"name": "Blessing from the Stars",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/122_Blessing from the Stars.png"
+			}
+		},
+		{
+			"name": "Stern Lecturer",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/73_Stern Lecturer.png"
+			}
+		},
+		{
+			"name": "Academy Champion",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Fox Student",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/41_Academy Champion.png"
+			}
+		},
+		{
+			"name": "Spoiled Crusader",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Cat Soldier",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/71_Spoiled Crusader.png"
+			}
+		},
+		{
+			"name": "Pactbinder Initiate",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Elf Warlock",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/66_Pactbinder Initiate.png"
+			}
+		},
+		{
+			"name": "Plucky Visionary",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Kithkin Mystic",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/68_Plucky Visionary.png"
+			}
+		},
+		{
+			"name": "Skyhigh Bright",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Elemental Wizard",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/70_Skyhigh Bright.png"
+			}
+		},
+		{
+			"name": "Tattooed Master",
+			"rarity": "common",
+			"mana_cost": "{5}{U}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/76_Tattooed Master.png"
+			}
+		},
+		{
+			"name": "Drown in Homework",
+			"rarity": "common",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/50_Drown in Homework.png"
+			}
+		},
+		{
+			"name": "Take Recon",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/75_Take Recon.png"
+			}
+		},
+		{
+			"name": "Group Study Session",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Sorcery",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/55_Group Study Session.png"
+			}
+		},
+		{
+			"name": "Cram Week",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/47_Cram Week.png"
+			}
+		},
+		{
+			"name": "Detention",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/49_Detention.png"
+			}
+		},
+		{
+			"name": "Moving On, Looking Forward",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/63_Moving On, Looking Forward.png"
+			}
+		},
+		{
+			"name": "Swiftsteel Wonder",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/33_Swiftsteel Wonder.png"
+			}
+		},
+		{
+			"name": "Dawnpulse Savior",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Cat Wizard",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/15_Dawnpulse Savior.png"
+			}
+		},
+		{
+			"name": "Cool Kids Clique",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Fox Student",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/14_Cool Kids Clique.png"
+			}
+		},
+		{
+			"name": "Radiant Artillery",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Bat Soldier",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/28_Radiant Artillery.png"
+			}
+		},
+		{
+			"name": "Overprotective Senior",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Student",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/25_Overprotective Senior.png"
+			}
+		},
+		{
+			"name": "Speed Coach",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/32_Speed Coach.png"
+			}
+		},
+		{
+			"name": "Uplifting Coach",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Elf Advisor Wizard",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/37_Uplifting Coach.png"
+			}
+		},
+		{
+			"name": "Afterschool Theater Club",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/4_Afterschool Theater Club.png"
+			}
+		},
+		{
+			"name": "Admired Superhero",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/3_Admired Superhero.png"
+			}
+		},
+		{
+			"name": "Sixth Period Skippers",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Student",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/31_Sixth Period Skippers.png"
+			}
+		},
+		{
+			"name": "Confine to Everywhere",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Enchantment",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/13_Confine to Everywhere.png"
+			}
+		},
+		{
+			"name": "Moment of Decision",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/23_Moment of Decision.png"
+			}
+		},
+		{
+			"name": "Appeal to Sensibilities",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/7_Appeal to Sensibilities.png"
+			}
+		},
+		{
+			"name": "Banri and Kumiko, Falling Stars",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Elf",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/83_Banri and Kumiko, Falling Stars.png"
+			}
+		},
+		{
+			"name": "Itami, Enervated",
+			"rarity": "mythic",
+			"mana_cost": "{B}{B}",
+			"type": "Legendary Creature — Shade",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/96_Itami, Enervated.png"
+			}
+		},
+		{
+			"name": "Moriko, the Jovial Friend",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Human Student",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/183_Moriko, the Jovial Friend.png"
+			}
+		},
+		{
+			"name": "Chinatsu, Hero to All",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Human Wizard",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/167_Chinatsu, Hero to All.png"
+			}
+		},
+		{
+			"name": "Tsukiko, Star of the Class",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Legendary Creature — Elf Student",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/153_Tsukiko, Star of the Class.png"
+			}
+		},
+		{
+			"name": "Kumiko, Brightest in the Sky",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Elf Wizard",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/139_Kumiko, Brightest in the Sky.png"
+			}
+		},
+		{
+			"name": "Aimi, Top Cut",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/42_Aimi, Top Cut.png"
+			}
+		},
+		{
+			"name": "Banri, Guide in the Sky",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}",
+			"type": "Legendary Creature — Elf Scout Wizard",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/43_Banri, Guide in the Sky.png"
+			}
+		},
+		{
+			"name": "Takara, Scarred by Fate",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Angel",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/34_Takara, Scarred by Fate.png"
+			}
+		},
+		{
+			"name": "Akio, Always Watchful",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Wolf Soldier",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/5_Akio, Always Watchful.png"
+			}
+		},
+		{
+			"name": "Castaway of a Broken Timeline",
+			"rarity": "mythic",
+			"mana_cost": "{W}{U}{B}",
+			"type": "Legendary Planeswalker — Serafhin",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/229_Castaway of a Broken Timeline.png"
+			}
+		},
+		{
+			"name": "The Fate-Scarred",
+			"rarity": "mythic",
+			"mana_cost": "{R}{W}{B}",
+			"type": "Legendary Creature — Angel Horror",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/237_The Fate-Scarred.png"
+			}
+		},
+		{
+			"name": "Traveller from Another Sky",
+			"rarity": "mythic",
+			"mana_cost": "{B}{R}{G}",
+			"type": "Legendary Planeswalker — Bastazim",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/262_Traveller from Another Sky.png"
+			}
+		},
+		{
+			"name": "The Phantom Bandit",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Elf",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/105_The Phantom Bandit.png"
+			}
+		},
+		{
+			"name": "Prestigious Schoolmaster",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Mutant Advisor",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/108_Prestigious Schoolmaster.png"
+			}
+		},
+		{
+			"name": "Harbinger of Fallen Fates",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Dragon Warlock",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/94_Harbinger of Fallen Fates.png"
+			}
+		},
+		{
+			"name": "Wings of Despair",
+			"rarity": "rare",
+			"mana_cost": "{6}{B}{B}",
+			"type": "Creature — Demon Dragon",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/118_Wings of Despair.png"
+			}
+		},
+		{
+			"name": "Quickwitted Adversary",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/110_Quickwitted Adversary.png"
+			}
+		},
+		{
+			"name": "Placate the Demon King",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/106_Placate the Demon King.png"
+			}
+		},
+		{
+			"name": "Lost in Everywhere",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Legendary Enchantment",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/97_Lost in Everywhere.png"
+			}
+		},
+		{
+			"name": "Chinatsu, Striving for Perfection",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/168_Chinatsu, Striving for Perfection.png"
+			}
+		},
+		{
+			"name": "Loathed Archvillain",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Druid Rogue",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/181_Loathed Archvillain.png"
+			}
+		},
+		{
+			"name": "Applied Gym Coach",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Human Advisor Mystic",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/158_Applied Gym Coach.png"
+			}
+		},
+		{
+			"name": "Citycrusher Behemoth",
+			"rarity": "rare",
+			"mana_cost": "{6}{G}",
+			"type": "Creature — Lizard",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/169_Citycrusher Behemoth.png"
+			}
+		},
+		{
+			"name": "Everywhere Beckons",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/175_Everywhere Beckons.png"
+			}
+		},
+		{
+			"name": "Teamwork Makes the Dream Work",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/192_Teamwork Makes the Dream Work.png"
+			}
+		},
+		{
+			"name": "Platoon Intern",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Creature — Monkey Student",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/186_Platoon Intern.png"
+			}
+		},
+		{
+			"name": "Starwalker",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Elemental Wizard",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/199_Starwalker.png"
+			}
+		},
+		{
+			"name": "Inked Diabolist",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/202_Inked Diabolist.png"
+			}
+		},
+		{
+			"name": "Fame Chaser",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/204_Fame Chaser.png"
+			}
+		},
+		{
+			"name": "Faded Hero",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Horror Wizard",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/206_Faded Hero.png"
+			}
+		},
+		{
+			"name": "Lovely Afternoon at the Park",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Enchantment",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/210_Lovely Afternoon at the Park.png"
+			}
+		},
+		{
+			"name": "Murmurs of Hope and Life",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Enchantment",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/212_Murmurs of Hope and Life.png"
+			}
+		},
+		{
+			"name": "Emissary of Foxflame",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Creature — Fox Mystic",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/215_Emissary of Foxflame.png"
+			}
+		},
+		{
+			"name": "Channeler of the Wilds",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/225_Channeler of the Wilds.png"
+			}
+		},
+		{
+			"name": "Frazzled Destinies Entwine",
+			"rarity": "rare",
+			"mana_cost": "{5}{B}{G}",
+			"type": "Enchantment",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/220_Frazzled Destinies Entwine.png"
+			}
+		},
+		{
+			"name": "Harmony in Mayhem",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Enchantment",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/222_Harmony in Mayhem.png"
+			}
+		},
+		{
+			"name": "Satomi, Platoon Leader",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/148_Satomi, Platoon Leader.png"
+			}
+		},
+		{
+			"name": "Field Trainer",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/133_Field Trainer.png"
+			}
+		},
+		{
+			"name": "Dancer on the Clouds",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}",
+			"type": "Creature — Elemental Dragon",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/129_Dancer on the Clouds.png"
+			}
+		},
+		{
+			"name": "Boundless Swiftness",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/123_Boundless Swiftness.png"
+			}
+		},
+		{
+			"name": "Commune with the Cosmic Dance",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/127_Commune with the Cosmic Dance.png"
+			}
+		},
+		{
+			"name": "Capture the Spectrum",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/126_Capture the Spectrum.png"
+			}
+		},
+		{
+			"name": "Show Off",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/149_Show Off.png"
+			}
+		},
+		{
+			"name": "Itami, Always Aspiring",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Human Student",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/59_Itami, Always Aspiring.png"
+			}
+		},
+		{
+			"name": "Hallway Wanderer",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Creature — Fox Student",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/56_Hallway Wanderer.png"
+			}
+		},
+		{
+			"name": "Hero of Resolute Will",
+			"rarity": "rare",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Human Mystic",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/58_Hero of Resolute Will.png"
+			}
+		},
+		{
+			"name": "Master of Knowledge",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/62_Master of Knowledge.png"
+			}
+		},
+		{
+			"name": "Deluge of Colors",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/48_Deluge of Colors.png"
+			}
+		},
+		{
+			"name": "Besmear",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/44_Besmear.png"
+			}
+		},
+		{
+			"name": "Warning Call",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/79_Warning Call.png"
+			}
+		},
+		{
+			"name": "Akio, Eyes of the Platoon",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/6_Akio, Eyes of the Platoon.png"
+			}
+		},
+		{
+			"name": "Homeroom Bully",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Student",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/19_Homeroom Bully.png"
+			}
+		},
+		{
+			"name": "Veracious Soultender",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Elf Advisor Cleric",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/40_Veracious Soultender.png"
+			}
+		},
+		{
+			"name": "Hearthsoul Kirin",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Dragon Elk Spirit",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/18_Hearthsoul Kirin.png"
+			}
+		},
+		{
+			"name": "Tear the World Asunder",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/35_Tear the World Asunder.png"
+			}
+		},
+		{
+			"name": "Barrage from Above",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/10_Barrage from Above.png"
+			}
+		},
+		{
+			"name": "Assemble the Squad",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/9_Assemble the Squad.png"
+			}
+		},
+		{
+			"name": "Offering to Monotony",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Demon Warlock",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/100_Offering to Monotony.png"
+			}
+		},
+		{
+			"name": "Trainer of the Empty Mind",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/114_Trainer of the Empty Mind.png"
+			}
+		},
+		{
+			"name": "Penumbra Agent",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Shade Warlock",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/104_Penumbra Agent.png"
+			}
+		},
+		{
+			"name": "Warden of Those Fallen",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Mystic",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/117_Warden of Those Fallen.png"
+			}
+		},
+		{
+			"name": "Disciple of the Wolf",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/89_Disciple of the Wolf.png"
+			}
+		},
+		{
+			"name": "Patron of Pride",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Demon Rogue",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/103_Patron of Pride.png"
+			}
+		},
+		{
+			"name": "Extracurricular Homicide",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/91_Extracurricular Homicide.png"
+			}
+		},
+		{
+			"name": "Getaway Ride",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/93_Getaway Ride.png"
+			}
+		},
+		{
+			"name": "Spread Thin",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/112_Spread Thin.png"
+			}
+		},
+		{
+			"name": "Unexpected Losses",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/115_Unexpected Losses.png"
+			}
+		},
+		{
+			"name": "Lost in Love",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/98_Lost in Love.png"
+			}
+		},
+		{
+			"name": "Crushing Ennui",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/87_Crushing Ennui.png"
+			}
+		},
+		{
+			"name": "Uncompromising Pillar",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/194_Uncompromising Pillar.png"
+			}
+		},
+		{
+			"name": "Eclipsed Assistant",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Horror Wizard",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/172_Eclipsed Assistant.png"
+			}
+		},
+		{
+			"name": "Congealed Longings",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Ooze Horror",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/170_Congealed Longings.png"
+			}
+		},
+		{
+			"name": "Star of the Class",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Cat Advisor",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/191_Star of the Class.png"
+			}
+		},
+		{
+			"name": "Avenging Vandal",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/159_Avenging Vandal.png"
+			}
+		},
+		{
+			"name": "Stalwart of the New Horizon",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/190_Stalwart of the New Horizon.png"
+			}
+		},
+		{
+			"name": "Endless Stream of Fans",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/173_Endless Stream of Fans.png"
+			}
+		},
+		{
+			"name": "Behemoth Tamer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Druid Warrior",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/161_Behemoth Tamer.png"
+			}
+		},
+		{
+			"name": "Engulf in the Rainbow",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/174_Engulf in the Rainbow.png"
+			}
+		},
+		{
+			"name": "Pathological Altruism",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/185_Pathological Altruism.png"
+			}
+		},
+		{
+			"name": "Battle of the Behemoths",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/160_Battle of the Behemoths.png"
+			}
+		},
+		{
+			"name": "Bombardment of Colors",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Sorcery",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/163_Bombardment of Colors.png"
+			}
+		},
+		{
+			"name": "FLARE Dominator",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Mystic",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/134_FLARE Dominator.png"
+			}
+		},
+		{
+			"name": "One-Slash Aspirant",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Mystic",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/144_One-Slash Aspirant.png"
+			}
+		},
+		{
+			"name": "Abstergent Eye",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Eye Horror",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/119_Abstergent Eye.png"
+			}
+		},
+		{
+			"name": "Forthright Spellfist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Wolf Mystic",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/135_Forthright Spellfist.png"
+			}
+		},
+		{
+			"name": "Two-Hit Prodigy",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Mystic",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/154_Two-Hit Prodigy.png"
+			}
+		},
+		{
+			"name": "Determined Underminer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Horror Rogue",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/132_Determined Underminer.png"
+			}
+		},
+		{
+			"name": "Stalwart Tagger",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Demon Rogue",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/150_Stalwart Tagger.png"
+			}
+		},
+		{
+			"name": "Uncurbed Vengeance",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/155_Uncurbed Vengeance.png"
+			}
+		},
+		{
+			"name": "Whirlwind-Melting Punch",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/157_Whirlwind-Melting Punch.png"
+			}
+		},
+		{
+			"name": "Star Performance",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/151_Star Performance.png"
+			}
+		},
+		{
+			"name": "Call the Stars",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/125_Call the Stars.png"
+			}
+		},
+		{
+			"name": "Overwhelming Epiphany",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/145_Overwhelming Epiphany.png"
+			}
+		},
+		{
+			"name": "One of the Lost Many",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Horror Rogue",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/65_One of the Lost Many.png"
+			}
+		},
+		{
+			"name": "Jaded Protector",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Student",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/60_Jaded Protector.png"
+			}
+		},
+		{
+			"name": "Condemned Competitor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Horror Mystic",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/45_Condemned Competitor.png"
+			}
+		},
+		{
+			"name": "Neon Junkie Watchguard",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Rabbit Rogue",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/64_Neon Junkie Watchguard.png"
+			}
+		},
+		{
+			"name": "Unflinching Proctor",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/78_Unflinching Proctor.png"
+			}
+		},
+		{
+			"name": "Refraction Arcanist",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/69_Refraction Arcanist.png"
+			}
+		},
+		{
+			"name": "Hard-headed Judge",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Mystic",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/57_Hard-headed Judge.png"
+			}
+		},
+		{
+			"name": "Find One Another",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/51_Find One Another.png"
+			}
+		},
+		{
+			"name": "Trickling Colors",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/77_Trickling Colors.png"
+			}
+		},
+		{
+			"name": "Contemplate Countless Futures",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/46_Contemplate Countless Futures.png"
+			}
+		},
+		{
+			"name": "Foster Inner Peace",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/54_Foster Inner Peace.png"
+			}
+		},
+		{
+			"name": "Stop and Rest",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/74_Stop and Rest.png"
+			}
+		},
+		{
+			"name": "Preserver of Individuality",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Angel Warrior",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/27_Preserver of Individuality.png"
+			}
+		},
+		{
+			"name": "Arbiter of Endless Starlight",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Angel Wizard",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/8_Arbiter of Endless Starlight.png"
+			}
+		},
+		{
+			"name": "FLARE Contender",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Mystic",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/17_FLARE Contender.png"
+			}
+		},
+		{
+			"name": "Diligent Cursebinder",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/16_Diligent Cursebinder.png"
+			}
+		},
+		{
+			"name": "Nurse Practitioner",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Advisor Cleric",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/24_Nurse Practitioner.png"
+			}
+		},
+		{
+			"name": "Hopeful Burning-Bright",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Fox Wizard",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/21_Hopeful Burning-Bright.png"
+			}
+		},
+		{
+			"name": "Callous Hero",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Horror Warrior",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/12_Callous Hero.png"
+			}
+		},
+		{
+			"name": "Honor Roll Assistant",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Advisor Warrior",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/20_Honor Roll Assistant.png"
+			}
+		},
+		{
+			"name": "Tenth-Second Precision Strike",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/36_Tenth-Second Precision Strike.png"
+			}
+		},
+		{
+			"name": "Valorous Stance",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/39_Valorous Stance.png"
+			}
+		},
+		{
+			"name": "Join the Pigments",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Sorcery",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/22_Join the Pigments.png"
+			}
+		},
+		{
+			"name": "Reminder of Times Long Past",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Enchantment",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/29_Reminder of Times Long Past.png"
+			}
+		},
+		{
+			"name": "Everything Goes On",
+			"rarity": "mythic",
+			"mana_cost": "{R}{G}{W}",
+			"type": "Enchantment",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/235_Everything Goes On.png"
+			}
+		},
+		{
+			"name": "Enigmatic Transfer Student",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{W}{U}",
+			"type": "Legendary Planeswalker — Elissia",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/234_Enigmatic Transfer Student.png"
+			}
+		},
+		{
+			"name": "New Wolf in Town",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{B}{R}",
+			"type": "Legendary Planeswalker — Ludolf",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/248_New Wolf in Town.png"
+			}
+		},
+		{
+			"name": "The Final Throne",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{G}{U}",
+			"type": "Legendary Enchantment",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/238_The Final Throne.png"
+			}
+		},
+		{
+			"name": "The Phantom Gun",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{B}{G}",
+			"type": "Legendary Creature — Horror Rogue",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/250_The Phantom Gun.png"
+			}
+		},
+		{
+			"name": "The Painter of Flames",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{R}{W}",
+			"type": "Legendary Creature — Horror Rogue",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/249_The Painter of Flames.png"
+			}
+		},
+		{
+			"name": "Gap-Year Graduate",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{U}{R}",
+			"type": "Legendary Planeswalker — Aimi",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/240_Gap-Year Graduate.png"
+			}
+		},
+		{
+			"name": "Internal Struggle",
+			"rarity": "rare",
+			"mana_cost": "{B}{G}{G}{G}{U}",
+			"type": "Sorcery",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/242_Internal Struggle.png"
+			}
+		},
+		{
+			"name": "Together Now!",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{U}{B}{R}{G}",
+			"type": "Sorcery",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/261_Together Now!.png"
+			}
+		},
+		{
+			"name": "Boastful Finish",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}{U}{U}{B}",
+			"type": "Instant",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/228_Boastful Finish.png"
+			}
+		},
+		{
+			"name": "Pieces Fall into Place",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}{B}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/251_Pieces Fall into Place.png"
+			}
+		},
+		{
+			"name": "Nebula of Mists",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}{R}{R}{G}",
+			"type": "Instant",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/246_Nebula of Mists.png"
+			}
+		},
+		{
+			"name": "Reveal Your Core Bare",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}{G}{G}{W}",
+			"type": "Sorcery",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/254_Reveal Your Core Bare.png"
+			}
+		},
+		{
+			"name": "Frenzy of Flesh",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}{W}{W}{U}",
+			"type": "Sorcery",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/239_Frenzy of Flesh.png"
+			}
+		},
+		{
+			"name": "Become Nothing",
+			"rarity": "rare",
+			"mana_cost": "{R}{W}{W}{W}{B}",
+			"type": "Sorcery",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/227_Become Nothing.png"
+			}
+		},
+		{
+			"name": "Convince the Aether",
+			"rarity": "rare",
+			"mana_cost": "{G}{U}{U}{U}{R}",
+			"type": "Instant",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/230_Convince the Aether.png"
+			}
+		},
+		{
+			"name": "Tether to Reality",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}{B}{B}{G}",
+			"type": "Sorcery",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/260_Tether to Reality.png"
+			}
+		},
+		{
+			"name": "Cross the Brink",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}{R}{R}{W}",
+			"type": "Sorcery",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/231_Cross the Brink.png"
+			}
+		},
+		{
+			"name": "The Second Best",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}{B}{R}",
+			"type": "Legendary Creature — Horror Mystic",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/256_The Second Best.png"
+			}
+		},
+		{
+			"name": "The Jovial Phantasm",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}{U}{B}",
+			"type": "Legendary Creature — Horror Wizard",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/243_The Jovial Phantasm.png"
+			}
+		},
+		{
+			"name": "The Quelling Star",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}{R}{G}",
+			"type": "Legendary Creature — Elf Horror",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/252_The Quelling Star.png"
+			}
+		},
+		{
+			"name": "Rainbow's End",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}{W}{U}",
+			"type": "Legendary Creature — Eye Horror",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/253_Rainbow's End.png"
+			}
+		},
+		{
+			"name": "Spotlight Hogger",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Student",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/72_Spotlight Hogger.png"
+			}
+		},
+		{
+			"name": "Overwhelming Tide of Grief",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/102_Overwhelming Tide of Grief.png"
+			}
+		},
+		{
+			"name": "Aspiring Challenger",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Demon Mystic",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/82_Aspiring Challenger.png"
+			}
+		},
+		{
+			"name": "Lofty Instructor",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Faerie Advisor",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/61_Lofty Instructor.png"
+			}
+		},
+		{
+			"name": "Paragon of Precision",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Mystic",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/67_Paragon of Precision.png"
+			}
+		},
+		{
+			"name": "Sixteen Point Punch",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/30_Sixteen Point Punch.png"
+			}
+		},
+		{
+			"name": "Invoker Bright",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/179_Invoker Bright.png"
+			}
+		},
+		{
+			"name": "Rampaging Behemoth",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Dinosaur",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/189_Rampaging Behemoth.png"
+			}
+		},
+		{
+			"name": "Blossoming Wallflower",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Faerie Horror Student",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/11_Blossoming Wallflower.png"
+			}
+		},
+		{
+			"name": "Academy Assistant",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/263_Academy Assistant.png"
+			}
+		},
+		{
+			"name": "Substitute Teacher",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/152_Substitute Teacher.png"
+			}
+		},
+		{
+			"name": "Murky Demesne",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/275_Murky Demesne.png"
+			}
+		},
+		{
+			"name": "Mayhem Reveler",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Wolf Soldier",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/140_Mayhem Reveler.png"
+			}
+		},
+		{
+			"name": "Coastal Barricade",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/264_Coastal Barricade.png"
+			}
+		},
+		{
+			"name": "Feline Personal Assistant Unit",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Enchantment Creature — Cat",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/197_Feline Personal Assistant Unit.png"
+			}
+		},
+		{
+			"name": "Asami, Twice-Reigning Champ",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{U}{B}",
+			"type": "Legendary Creature — Human Mystic",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/200_Asami, Twice-Reigning Champ.png"
+			}
+		},
+		{
+			"name": "Hotaru, Ever-Ignited",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/205_Hotaru, Ever-Ignited.png"
+			}
+		},
+		{
+			"name": "Herald of the Painted Sky",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Horror Warlock",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/207_Herald of the Painted Sky.png"
+			}
+		},
+		{
+			"name": "Embrace the Day",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Enchantment",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/209_Embrace the Day.png"
+			}
+		},
+		{
+			"name": "Vainglorious Bombardier",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Creature — Bat Soldier",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/213_Vainglorious Bombardier.png"
+			}
+		},
+		{
+			"name": "Covetous Ploy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Instant",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/218_Covetous Ploy.png"
+			}
+		},
+		{
+			"name": "The Brightest Star, Miki",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Creature — Elf Wizard",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/224_The Brightest Star, Miki.png"
+			}
+		},
+		{
+			"name": "Siphoner of Otherworlds",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/217_Siphoner of Otherworlds.png"
+			}
+		},
+		{
+			"name": "Ginjiro, Spoiled Upstart",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Legendary Creature — Cat Mystic",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/221_Ginjiro, Spoiled Upstart.png"
+			}
+		},
+		{
+			"name": "Investigative Journalism",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Enchantment",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/198_Investigative Journalism.png"
+			}
+		},
+		{
+			"name": "Heist of That Never Seen Before",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{B}",
+			"type": "Sorcery",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/201_Heist of That Never Seen Before.png"
+			}
+		},
+		{
+			"name": "The Bandit's Grand Finale",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/203_The Bandit's Grand Finale.png"
+			}
+		},
+		{
+			"name": "Possibilities Emerge, You Remain",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Enchantment",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/208_Possibilities Emerge, You Remain.png"
+			}
+		},
+		{
+			"name": "Shizuka, Head of the Class",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Human Student",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/211_Shizuka, Head of the Class.png"
+			}
+		},
+		{
+			"name": "Yua, Logistics Commando",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Creature — Bat Soldier",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/214_Yua, Logistics Commando.png"
+			}
+		},
+		{
+			"name": "The Entombed Tentagoyf",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature — Lhurgoyf Horror",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/219_The Entombed Tentagoyf.png"
+			}
+		},
+		{
+			"name": "Neon Junkie Guardian",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Creature — Cat Rogue Scout",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/226_Neon Junkie Guardian.png"
+			}
+		},
+		{
+			"name": "Kazuki, the Neon Painter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Creature — Elemental Rogue",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/216_Kazuki, the Neon Painter.png"
+			}
+		},
+		{
+			"name": "Shifting Typhoon Strike",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Instant",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/223_Shifting Typhoon Strike.png"
+			}
+		},
+		{
+			"name": "Brightest Star, Darkest Shadow",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Elf Shade",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/84_Brightest Star, Darkest Shadow.png"
+			}
+		},
+		{
+			"name": "Admired Overachiever",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Student",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/2_Admired Overachiever.png"
+			}
+		},
+		{
+			"name": "Wavering Academy",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "284",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/284_Wavering Academy.png"
+			}
+		},
+		{
+			"name": "Wavering City",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "286",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/286_Wavering City.png"
+			}
+		},
+		{
+			"name": "Wavering Alleyway",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "285",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/285_Wavering Alleyway.png"
+			}
+		},
+		{
+			"name": "Wavering Theater",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "288",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/288_Wavering Theater.png"
+			}
+		},
+		{
+			"name": "Wavering Playground",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "287",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/287_Wavering Playground.png"
+			}
+		},
+		{
+			"name": "Serene Meadow",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Plains",
+			"collector_number": "280",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/280_Serene Meadow.png"
+			}
+		},
+		{
+			"name": "Serene Gymnasium",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Forest",
+			"collector_number": "279",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/279_Serene Gymnasium.png"
+			}
+		},
+		{
+			"name": "Serene Rooftop",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Swamp",
+			"collector_number": "281",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/281_Serene Rooftop.png"
+			}
+		},
+		{
+			"name": "Serene Arcade",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Mountain",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/277_Serene Arcade.png"
+			}
+		},
+		{
+			"name": "Serene Depot",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Island",
+			"collector_number": "278",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/278_Serene Depot.png"
+			}
+		},
+		{
+			"name": "Imposing Stature",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}{B}",
+			"type": "Enchantment",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/241_Imposing Stature.png"
+			}
+		},
+		{
+			"name": "Disperse without Care",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}{R}",
+			"type": "Instant",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/232_Disperse without Care.png"
+			}
+		},
+		{
+			"name": "Shell of Lethargy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}{G}",
+			"type": "Creature — Horror",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/258_Shell of Lethargy.png"
+			}
+		},
+		{
+			"name": "New Murazu Gloryseeker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}{W}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/247_New Murazu Gloryseeker.png"
+			}
+		},
+		{
+			"name": "Let the Palette Run Dry",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{W}{U}",
+			"type": "Sorcery",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/244_Let the Palette Run Dry.png"
+			}
+		},
+		{
+			"name": "Miss Sanrin, Home Room",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}{B}",
+			"type": "Legendary Creature — Human Advisor",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/245_Miss Sanrin, Home Room.png"
+			}
+		},
+		{
+			"name": "Explore New Frontiers",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}{R}",
+			"type": "Instant",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/236_Explore New Frontiers.png"
+			}
+		},
+		{
+			"name": "Shed the Old Hue",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}{G}",
+			"type": "Enchantment",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/257_Shed the Old Hue.png"
+			}
+		},
+		{
+			"name": "Encroaching Hues",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}{W}",
+			"type": "Enchantment",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/233_Encroaching Hues.png"
+			}
+		},
+		{
+			"name": "Star of Unimaginable Evil",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}{U}",
+			"type": "Creature — Kithkin Horror Wizard",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/259_Star of Unimaginable Evil.png"
+			}
+		},
+		{
+			"name": "Jaksa, Alone but Listening",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact Creature — Scout",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/266_Jaksa, Alone but Listening.png"
+			}
+		},
+		{
+			"name": "Tranquil Demesne",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "283",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/283_Tranquil Demesne.png"
+			}
+		},
+		{
+			"name": "Imposing Demesne",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/274_Imposing Demesne.png"
+			}
+		},
+		{
+			"name": "Sinuous Demesne",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "282",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/282_Sinuous Demesne.png"
+			}
+		},
+		{
+			"name": "Erupting Demesne",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/272_Erupting Demesne.png"
+			}
+		},
+		{
+			"name": "Immaculate Demesne",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/273_Immaculate Demesne.png"
+			}
+		},
+		{
+			"name": "Blossoming Demesne",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/269_Blossoming Demesne.png"
+			}
+		},
+		{
+			"name": "Entropic Demesne",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/271_Entropic Demesne.png"
+			}
+		},
+		{
+			"name": "Ravaged Demesne",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/276_Ravaged Demesne.png"
+			}
+		},
+		{
+			"name": "Atrophic Demesne",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/268_Atrophic Demesne.png"
+			}
+		},
+		{
+			"name": "Sanrin, Tenured and Here",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}{G}{W}",
+			"type": "Legendary Creature — Horror Advisor",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/255_Sanrin, Tenured and Here.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "289",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/289_Plains.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "291",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/291_Swamp.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "293",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/293_Forest.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "290",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/290_Island.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "292",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/292_Mountain.png"
+			}
+		},
+		{
+			"name": "Precursor of Light",
+			"rarity": "uncommon",
+			"mana_cost": "{9}",
+			"type": "Legendary Creature — Horror",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/1_Precursor of Light.png"
+			}
+		},
+		{
+			"name": "Horror",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Horror",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/8_Horror.png"
+			}
+		},
+		{
+			"name": "Student",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Student",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/3_Student.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/10_Treasure.png"
+			}
+		},
+		{
+			"name": "Student",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Student",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/5_Student.png"
+			}
+		},
+		{
+			"name": "Horror",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Horror",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/9_Horror.png"
+			}
+		},
+		{
+			"name": "Fish Horror",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Fish Horror",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/7_Fish Horror.png"
+			}
+		},
+		{
+			"name": "Homunculus",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Homunculus",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/1_Homunculus.png"
+			}
+		},
+		{
+			"name": "Everywhere",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Land",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/11_Everywhere.png"
+			}
+		},
+		{
+			"name": "Demon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Demon Mystic",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/4_Demon.png"
+			}
+		},
+		{
+			"name": "Dinosaur",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Dinosaur",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/6_Dinosaur.png"
+			}
+		},
+		{
+			"name": "Bird",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bird",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/2_Bird.png"
+			}
+		},
+		{
+			"name": "Valiant Bright",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Fox Wizard",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/38_Valiant Bright.png"
+			}
+		},
+		{
+			"name": "FLARE Operative",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Human Mystic",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/52_FLARE Operative.png"
+			}
+		},
+		{
+			"name": "Platoon Commander",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Cat Soldier",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/107_Platoon Commander.png"
+			}
+		},
+		{
+			"name": "Neon Junkie Wakagashira",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Demon Rogue",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/143_Neon Junkie Wakagashira.png"
+			}
+		},
+		{
+			"name": "Hype Squad",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/178_Hype Squad.png"
+			}
+		},
+		{
+			"name": "Flexible Unit Repairer",
+			"rarity": "mythic",
+			"mana_cost": "{U}{U}{U}",
+			"type": "Enchantment Creature — Cat Advisor",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/53_Flexible Unit Repairer.png"
+			}
+		},
+		{
+			"name": "Caretaker of Hidden Shrines",
+			"rarity": "mythic",
+			"mana_cost": "{G}{G}{G}",
+			"type": "Creature — Cat Spirit Advisor",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/166_Caretaker of Hidden Shrines.png"
+			}
+		},
+		{
+			"name": "Obsidian Elite",
+			"rarity": "mythic",
+			"mana_cost": "{B}{B}{B}",
+			"type": "Creature — Cat Advisor Horror",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/99_Obsidian Elite.png"
+			}
+		},
+		{
+			"name": "Porcelain Elite",
+			"rarity": "mythic",
+			"mana_cost": "{W}{W}{W}",
+			"type": "Creature — Fox Advisor Horror",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/26_Porcelain Elite.png"
+			}
+		},
+		{
+			"name": "Mount Shirogane Guardian",
+			"rarity": "mythic",
+			"mana_cost": "{R}{R}{R}",
+			"type": "Creature — Dragon Spirit Advisor",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/141_Mount Shirogane Guardian.png"
+			}
+		},
+		{
+			"name": "Fatigue",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Sorcery",
+			"collector_number": "294",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HTS-files/img/294_Fatigue.png"
+			}
+		}
+	]
+
+[rare(1)]
+	2 Banri and Kumiko, Falling Stars
+	1 Itami, Enervated
+	2 Moriko, the Jovial Friend
+	1 Chinatsu, Hero to All
+	2 Tsukiko, Star of the Class
+	1 Kumiko, Brightest in the Sky
+	2 Aimi, Top Cut
+	1 Banri, Guide in the Sky
+	2 Takara, Scarred by Fate
+	1 Akio, Always Watchful
+	1 Castaway of a Broken Timeline
+	1 The Fate-Scarred
+	1 Traveller from Another Sky
+	2 The Phantom Bandit
+	2 Prestigious Schoolmaster
+	2 Harbinger of Fallen Fates
+	2 Wings of Despair
+	2 Quickwitted Adversary
+	2 Placate the Demon King
+	2 Lost in Everywhere
+	2 Chinatsu, Striving for Perfection
+	2 Loathed Archvillain
+	2 Applied Gym Coach
+	2 Citycrusher Behemoth
+	2 Everywhere Beckons
+	2 Teamwork Makes the Dream Work
+	2 Platoon Intern
+	2 Starwalker
+	2 Inked Diabolist
+	2 Fame Chaser
+	2 Faded Hero
+	2 Lovely Afternoon at the Park
+	2 Murmurs of Hope and Life
+	2 Emissary of Foxflame
+	2 Channeler of the Wilds
+	2 Frazzled Destinies Entwine
+	2 Harmony in Mayhem
+	2 Satomi, Platoon Leader
+	2 Field Trainer
+	2 Dancer on the Clouds
+	2 Boundless Swiftness
+	2 Commune with the Cosmic Dance
+	2 Capture the Spectrum
+	2 Show Off
+	2 Itami, Always Aspiring
+	2 Hallway Wanderer
+	2 Hero of Resolute Will
+	2 Master of Knowledge
+	2 Deluge of Colors
+	2 Besmear
+	2 Warning Call
+	2 Akio, Eyes of the Platoon
+	2 Homeroom Bully
+	2 Veracious Soultender
+	2 Hearthsoul Kirin
+	2 Tear the World Asunder
+	2 Barrage from Above
+	2 Assemble the Squad
+	1 Everything Goes On
+	1 Enigmatic Transfer Student
+	1 New Wolf in Town
+	1 The Final Throne
+	1 The Phantom Gun
+	1 The Painter of Flames
+	1 Gap-Year Graduate
+	2 Internal Struggle
+	2 Together Now!
+	2 Boastful Finish
+	2 Pieces Fall into Place
+	2 Nebula of Mists
+	2 Reveal Your Core Bare
+	2 Frenzy of Flesh
+	2 Become Nothing
+	2 Convince the Aether
+	2 Tether to Reality
+	2 Cross the Brink
+	2 The Second Best
+	2 The Jovial Phantasm
+	2 The Quelling Star
+	2 Rainbow's End
+	2 Jaksa, Alone but Listening
+	2 Sanrin, Tenured and Here
+	2 Valiant Bright
+	2 FLARE Operative
+	2 Platoon Commander
+	2 Neon Junkie Wakagashira
+	2 Hype Squad
+	1 Flexible Unit Repairer
+	1 Caretaker of Hidden Shrines
+	1 Obsidian Elite
+	1 Porcelain Elite
+	1 Mount Shirogane Guardian
+[uncommon(4)]
+	4 Offering to Monotony
+	4 Trainer of the Empty Mind
+	4 Penumbra Agent
+	4 Warden of Those Fallen
+	4 Disciple of the Wolf
+	4 Patron of Pride
+	4 Getaway Ride
+	4 Spread Thin
+	4 Unexpected Losses
+	4 Lost in Love
+	4 Crushing Ennui
+	4 Uncompromising Pillar
+	4 Eclipsed Assistant
+	4 Congealed Longings
+	4 Star of the Class
+	4 Avenging Vandal
+	4 Stalwart of the New Horizon
+	4 Endless Stream of Fans
+	4 Behemoth Tamer
+	4 Engulf in the Rainbow
+	4 Pathological Altruism
+	4 Battle of the Behemoths
+	4 Bombardment of Colors
+	4 FLARE Dominator
+	4 One-Slash Aspirant
+	4 Abstergent Eye
+	4 Forthright Spellfist
+	4 Two-Hit Prodigy
+	4 Determined Underminer
+	4 Stalwart Tagger
+	4 Uncurbed Vengeance
+	4 Whirlwind-Melting Punch
+	4 Star Performance
+	4 Call the Stars
+	4 Overwhelming Epiphany
+	4 One of the Lost Many
+	4 Jaded Protector
+	4 Condemned Competitor
+	4 Neon Junkie Watchguard
+	4 Unflinching Proctor
+	4 Refraction Arcanist
+	4 Hard-headed Judge
+	4 Find One Another
+	4 Trickling Colors
+	4 Contemplate Countless Futures
+	4 Foster Inner Peace
+	4 Stop and Rest
+	4 Preserver of Individuality
+	4 Arbiter of Endless Starlight
+	4 FLARE Contender
+	4 Diligent Cursebinder
+	4 Nurse Practitioner
+	4 Hopeful Burning-Bright
+	4 Callous Hero
+	4 Honor Roll Assistant
+	4 Tenth-Second Precision Strike
+	4 Valorous Stance
+	4 Join the Pigments
+	4 Reminder of Times Long Past
+	4 Overwhelming Tide of Grief
+	4 Paragon of Precision
+	4 Rampaging Behemoth
+	4 Substitute Teacher
+	4 Murky Demesne
+	4 Feline Personal Assistant Unit
+	4 Asami, Twice-Reigning Champ
+	4 Hotaru, Ever-Ignited
+	4 Herald of the Painted Sky
+	4 Embrace the Day
+	4 Vainglorious Bombardier
+	4 Covetous Ploy
+	4 The Brightest Star, Miki
+	4 Siphoner of Otherworlds
+	4 Ginjiro, Spoiled Upstart
+	4 Investigative Journalism
+	4 Heist of That Never Seen Before
+	4 The Bandit's Grand Finale
+	4 Possibilities Emerge, You Remain
+	4 Shizuka, Head of the Class
+	4 Yua, Logistics Commando
+	4 The Entombed Tentagoyf
+	4 Neon Junkie Guardian
+	4 Kazuki, the Neon Painter
+	4 Shifting Typhoon Strike
+	4 Brightest Star, Darkest Shadow
+	4 Admired Overachiever
+	4 Imposing Stature
+	4 Disperse without Care
+	4 Shell of Lethargy
+	4 New Murazu Gloryseeker
+	4 Let the Palette Run Dry
+	4 Miss Sanrin, Home Room
+	4 Explore New Frontiers
+	4 Shed the Old Hue
+	4 Encroaching Hues
+	4 Star of Unimaginable Evil
+	4 Tranquil Demesne
+	4 Imposing Demesne
+	4 Sinuous Demesne
+	4 Erupting Demesne
+	4 Immaculate Demesne
+	4 Blossoming Demesne
+	4 Entropic Demesne
+	4 Ravaged Demesne
+	4 Atrophic Demesne
+	4 Precursor of Light
+[common(7)]
+	8 Training Dummy
+	8 Inherited Scythe
+	8 Construction Zone
+	8 Instructor of Untold Secrets
+	8 Vengeant Husk
+	8 Starcrossed Savior
+	8 Professor of Fright
+	8 Reckless Firestarter
+	8 Oni-Blooded Retainer
+	8 Dealer of Undeath
+	8 Concavity of the Rainbow
+	8 Anguished Decree
+	8 Futile Endeavor
+	8 Endless Nights
+	8 Burst of the Silent Snake
+	8 Afternoon Snack
+	8 Lethargic First Year
+	8 Pugnacious Paragon
+	8 Workout Mentor
+	8 Boisterous Bright
+	8 Neon Junkie Recruit
+	8 Field Commander
+	8 Radiant Reckoner
+	8 Underground Profiteer
+	8 Maw to Consume All
+	8 Bullet Lance Ambush
+	8 Five-Mountain Crush
+	8 Training Montage
+	8 Eclipse with Color
+	8 Bring Color to those Astray
+	8 Professor of Hidden Arts
+	8 Bullheaded Recruit
+	8 Prismad Reformer
+	8 Heavy Artillery Monitor
+	8 Delinquent Duo
+	8 Vanguard of Fiery Fury
+	8 Neon Junkie Kyodai
+	8 Arrogant Jock
+	8 Guardian of the Fray
+	8 Crash Through
+	8 Greater Together
+	8 Dangle the Autograph
+	8 Ace the Test
+	8 Blessing from the Stars
+	8 Stern Lecturer
+	8 Academy Champion
+	8 Spoiled Crusader
+	8 Pactbinder Initiate
+	8 Plucky Visionary
+	8 Skyhigh Bright
+	8 Tattooed Master
+	8 Drown in Homework
+	8 Take Recon
+	8 Group Study Session
+	8 Cram Week
+	8 Detention
+	8 Moving On, Looking Forward
+	8 Swiftsteel Wonder
+	8 Dawnpulse Savior
+	8 Cool Kids Clique
+	8 Radiant Artillery
+	8 Overprotective Senior
+	8 Speed Coach
+	8 Uplifting Coach
+	8 Afterschool Theater Club
+	8 Admired Superhero
+	8 Sixth Period Skippers
+	8 Confine to Everywhere
+	8 Moment of Decision
+	8 Appeal to Sensibilities
+	8 Extracurricular Homicide
+	8 Spotlight Hogger
+	8 Aspiring Challenger
+	8 Lofty Instructor
+	8 Sixteen Point Punch
+	8 Invoker Bright
+	8 Blossoming Wallflower
+	8 Academy Assistant
+	8 Mayhem Reveler
+	8 Coastal Barricade
+	8 Wavering Academy
+	8 Wavering City
+	8 Wavering Alleyway
+	8 Wavering Theater
+	8 Wavering Playground
+	8 Serene Meadow
+	8 Serene Gymnasium
+	8 Serene Rooftop
+	8 Serene Arcade
+	8 Serene Depot
+[wildcard(2)]
+	6 Training Dummy
+	6 Inherited Scythe
+	6 Construction Zone
+	6 Instructor of Untold Secrets
+	6 Vengeant Husk
+	6 Starcrossed Savior
+	6 Professor of Fright
+	6 Reckless Firestarter
+	6 Oni-Blooded Retainer
+	6 Dealer of Undeath
+	6 Concavity of the Rainbow
+	6 Anguished Decree
+	6 Futile Endeavor
+	6 Endless Nights
+	6 Burst of the Silent Snake
+	6 Afternoon Snack
+	6 Lethargic First Year
+	6 Pugnacious Paragon
+	6 Workout Mentor
+	6 Boisterous Bright
+	6 Neon Junkie Recruit
+	6 Field Commander
+	6 Radiant Reckoner
+	6 Underground Profiteer
+	6 Maw to Consume All
+	6 Bullet Lance Ambush
+	6 Five-Mountain Crush
+	6 Training Montage
+	6 Eclipse with Color
+	6 Bring Color to those Astray
+	6 Professor of Hidden Arts
+	6 Bullheaded Recruit
+	6 Prismad Reformer
+	6 Heavy Artillery Monitor
+	6 Delinquent Duo
+	6 Vanguard of Fiery Fury
+	6 Neon Junkie Kyodai
+	6 Arrogant Jock
+	6 Guardian of the Fray
+	6 Crash Through
+	6 Greater Together
+	6 Dangle the Autograph
+	6 Ace the Test
+	6 Blessing from the Stars
+	6 Stern Lecturer
+	6 Academy Champion
+	6 Spoiled Crusader
+	6 Pactbinder Initiate
+	6 Plucky Visionary
+	6 Skyhigh Bright
+	6 Tattooed Master
+	6 Drown in Homework
+	6 Take Recon
+	6 Group Study Session
+	6 Cram Week
+	6 Detention
+	6 Moving On, Looking Forward
+	6 Swiftsteel Wonder
+	6 Dawnpulse Savior
+	6 Cool Kids Clique
+	6 Radiant Artillery
+	6 Overprotective Senior
+	6 Speed Coach
+	6 Uplifting Coach
+	6 Afterschool Theater Club
+	6 Admired Superhero
+	6 Sixth Period Skippers
+	6 Confine to Everywhere
+	6 Moment of Decision
+	6 Appeal to Sensibilities
+	7 Banri and Kumiko, Falling Stars
+	4 Itami, Enervated
+	7 Moriko, the Jovial Friend
+	4 Chinatsu, Hero to All
+	7 Tsukiko, Star of the Class
+	4 Kumiko, Brightest in the Sky
+	7 Aimi, Top Cut
+	4 Banri, Guide in the Sky
+	7 Takara, Scarred by Fate
+	4 Akio, Always Watchful
+	4 Castaway of a Broken Timeline
+	4 The Fate-Scarred
+	4 Traveller from Another Sky
+	7 The Phantom Bandit
+	7 Prestigious Schoolmaster
+	7 Harbinger of Fallen Fates
+	7 Wings of Despair
+	7 Quickwitted Adversary
+	7 Placate the Demon King
+	7 Lost in Everywhere
+	7 Chinatsu, Striving for Perfection
+	7 Loathed Archvillain
+	7 Applied Gym Coach
+	7 Citycrusher Behemoth
+	7 Everywhere Beckons
+	7 Teamwork Makes the Dream Work
+	7 Platoon Intern
+	7 Starwalker
+	7 Inked Diabolist
+	7 Fame Chaser
+	7 Faded Hero
+	7 Lovely Afternoon at the Park
+	7 Murmurs of Hope and Life
+	7 Emissary of Foxflame
+	7 Channeler of the Wilds
+	7 Frazzled Destinies Entwine
+	7 Harmony in Mayhem
+	7 Satomi, Platoon Leader
+	7 Field Trainer
+	7 Dancer on the Clouds
+	7 Boundless Swiftness
+	7 Commune with the Cosmic Dance
+	7 Capture the Spectrum
+	7 Show Off
+	7 Itami, Always Aspiring
+	7 Hallway Wanderer
+	7 Hero of Resolute Will
+	7 Master of Knowledge
+	7 Deluge of Colors
+	7 Besmear
+	7 Warning Call
+	7 Akio, Eyes of the Platoon
+	7 Homeroom Bully
+	7 Veracious Soultender
+	7 Hearthsoul Kirin
+	7 Tear the World Asunder
+	7 Barrage from Above
+	7 Assemble the Squad
+	15 Offering to Monotony
+	15 Trainer of the Empty Mind
+	15 Penumbra Agent
+	15 Warden of Those Fallen
+	15 Disciple of the Wolf
+	15 Patron of Pride
+	6 Extracurricular Homicide
+	15 Getaway Ride
+	15 Spread Thin
+	15 Unexpected Losses
+	15 Lost in Love
+	15 Crushing Ennui
+	15 Uncompromising Pillar
+	15 Eclipsed Assistant
+	15 Congealed Longings
+	15 Star of the Class
+	15 Avenging Vandal
+	15 Stalwart of the New Horizon
+	15 Endless Stream of Fans
+	15 Behemoth Tamer
+	15 Engulf in the Rainbow
+	15 Pathological Altruism
+	15 Battle of the Behemoths
+	15 Bombardment of Colors
+	15 FLARE Dominator
+	15 One-Slash Aspirant
+	15 Abstergent Eye
+	15 Forthright Spellfist
+	15 Two-Hit Prodigy
+	15 Determined Underminer
+	15 Stalwart Tagger
+	15 Uncurbed Vengeance
+	15 Whirlwind-Melting Punch
+	15 Star Performance
+	15 Call the Stars
+	15 Overwhelming Epiphany
+	15 One of the Lost Many
+	15 Jaded Protector
+	15 Condemned Competitor
+	15 Neon Junkie Watchguard
+	15 Unflinching Proctor
+	15 Refraction Arcanist
+	15 Hard-headed Judge
+	15 Find One Another
+	15 Trickling Colors
+	15 Contemplate Countless Futures
+	15 Foster Inner Peace
+	15 Stop and Rest
+	15 Preserver of Individuality
+	15 Arbiter of Endless Starlight
+	15 FLARE Contender
+	15 Diligent Cursebinder
+	15 Nurse Practitioner
+	15 Hopeful Burning-Bright
+	15 Callous Hero
+	15 Honor Roll Assistant
+	15 Tenth-Second Precision Strike
+	15 Valorous Stance
+	15 Join the Pigments
+	15 Reminder of Times Long Past
+	4 Everything Goes On
+	4 Enigmatic Transfer Student
+	4 New Wolf in Town
+	4 The Final Throne
+	4 The Phantom Gun
+	4 The Painter of Flames
+	4 Gap-Year Graduate
+	7 Internal Struggle
+	7 Together Now!
+	7 Boastful Finish
+	7 Pieces Fall into Place
+	7 Nebula of Mists
+	7 Reveal Your Core Bare
+	7 Frenzy of Flesh
+	7 Become Nothing
+	7 Convince the Aether
+	7 Tether to Reality
+	7 Cross the Brink
+	7 The Second Best
+	7 The Jovial Phantasm
+	7 The Quelling Star
+	7 Rainbow's End
+	6 Spotlight Hogger
+	15 Overwhelming Tide of Grief
+	6 Aspiring Challenger
+	6 Lofty Instructor
+	15 Paragon of Precision
+	6 Sixteen Point Punch
+	6 Invoker Bright
+	15 Rampaging Behemoth
+	6 Blossoming Wallflower
+	6 Academy Assistant
+	15 Substitute Teacher
+	15 Murky Demesne
+	6 Mayhem Reveler
+	6 Coastal Barricade
+	15 Feline Personal Assistant Unit
+	15 Asami, Twice-Reigning Champ
+	15 Hotaru, Ever-Ignited
+	15 Herald of the Painted Sky
+	15 Embrace the Day
+	15 Vainglorious Bombardier
+	15 Covetous Ploy
+	15 The Brightest Star, Miki
+	15 Siphoner of Otherworlds
+	15 Ginjiro, Spoiled Upstart
+	15 Investigative Journalism
+	15 Heist of That Never Seen Before
+	15 The Bandit's Grand Finale
+	15 Possibilities Emerge, You Remain
+	15 Shizuka, Head of the Class
+	15 Yua, Logistics Commando
+	15 The Entombed Tentagoyf
+	15 Neon Junkie Guardian
+	15 Kazuki, the Neon Painter
+	15 Shifting Typhoon Strike
+	15 Brightest Star, Darkest Shadow
+	15 Admired Overachiever
+	6 Wavering Academy
+	6 Wavering City
+	6 Wavering Alleyway
+	6 Wavering Theater
+	6 Wavering Playground
+	6 Serene Meadow
+	6 Serene Gymnasium
+	6 Serene Rooftop
+	6 Serene Arcade
+	6 Serene Depot
+	15 Imposing Stature
+	15 Disperse without Care
+	15 Shell of Lethargy
+	15 New Murazu Gloryseeker
+	15 Let the Palette Run Dry
+	15 Miss Sanrin, Home Room
+	15 Explore New Frontiers
+	15 Shed the Old Hue
+	15 Encroaching Hues
+	15 Star of Unimaginable Evil
+	7 Jaksa, Alone but Listening
+	15 Tranquil Demesne
+	15 Imposing Demesne
+	15 Sinuous Demesne
+	15 Erupting Demesne
+	15 Immaculate Demesne
+	15 Blossoming Demesne
+	15 Entropic Demesne
+	15 Ravaged Demesne
+	15 Atrophic Demesne
+	7 Sanrin, Tenured and Here
+	15 Precursor of Light
+	7 Valiant Bright
+	7 FLARE Operative
+	7 Platoon Commander
+	7 Neon Junkie Wakagashira
+	7 Hype Squad
+	4 Flexible Unit Repairer
+	4 Caretaker of Hidden Shrines
+	4 Obsidian Elite
+	4 Porcelain Elite
+	4 Mount Shirogane Guardian

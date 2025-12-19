@@ -1,4 +1,34 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+Lift Archaic Wards added.
+
+Lift ArchaicWards removed.
+
+Perseverance
+rules_text: Flash
+Enchant creature gets +1/+0 and has lifelink.
+When enchanted creature dies, return it to the battlefield tapped under its owner's control. => Flash
+Enchant creature
+Enchant creature gets +1/+0 and has lifelink.
+When enchanted creature dies, return it to the battlefield tapped under its owner's control.
+
+Delay the Inevitable
+rules_text: Exile target spell. It's controller may cast it for as long as it remains exiled by discarding a card in addition to its other costs. => Exile target spell. Its controller may cast it for as long as it remains exiled by discarding a card in addition to its other costs.
+
+Prodigy of the Opulent
+type: Creature — Human Horror Warlock => Legendary Creature — Human Horror Warlock
+
+The Glittering Cloud
+
+Zhang Seductress
+rules_text: Rogues you control have menace.
+{R}, {T}, Exile two cards from your graveyard: Create a 1/1 red Rogue creature token. => Menace
+Other Rogues you control have menace.
+{R}, {T}, Exile two cards from your graveyard: Create a 1/1 red Rogue creature token.
+
+
+VERSION 6 CHANGELOG
 ====================
 
 Lift ArchaicWards added.

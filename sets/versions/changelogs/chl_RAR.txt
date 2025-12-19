@@ -1,4 +1,38 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+
+
+Turn to Mist
+cost: {1{W}U} => {1}{WU}
+
+Vampire Ministrant
+cost: {1{W}B} => {1}{WB}
+
+Nature's Chant
+cost: {1{G}W} => {1}{GW}
+
+Stern Strongarm
+cost: {1{U}B} => {1}{UB}
+
+Pensive Trog
+cost: {1{R}G} => {1}{RG}
+
+Ral, Conductor of the League
+
+Ghired, Zhur-Taa Proven
+
+Lightning Strike
+
+Gateless Swarmlord
+rules_text: At the beginning of your upkeep, mill a card. Return that card to your hand unless target opponent has you create a 1/1 black Rat creature token.reveal the top card of your library. Then, you lose 1 life for each Rat you control.
+Rats you control get +1/+0 for each other Rat you control. => At the beginning of your upkeep, mill a card. Return that card to your hand unless target opponent has you create a 1/1 black Rat creature token. Then, you lose 1 life for each Rat you control.
+Rats you control get +1/+0 for each other Rat you control.
+
+Begin the Trance
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
