@@ -1646,7 +1646,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nFlash\nBirth of the Praetor's Voice deals 4 damage to target attacking or blocking creature.\nExile up to two target cards from graveyards. You gain 2 life.\nI \u2014 Create a 3/3 white, black, blue, and green Phyrexian Angel creature token with flying, vigilance, and lifelink.",
+            "special_text": "\nFlash\nBirth of the Praetor's Voice deals 4 damage to target attacking or blocking creature.\nExile up to two target cards from graveyards. You gain 2 life.\nCreate a 3/3 white, black, blue, and green Phyrexian Angel creature token with flying, vigilance, and lifelink.",
             "shape": "saga",
             "set": "ZANG",
             "loyalty": "",
@@ -2278,7 +2278,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nFlash\nTap target creature and put two stun counters on it.\nSurveil 2.\nI \u2014 Proliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]",
+            "special_text": "\nFlash\nTap target creature and put two stun counters on it.\nSurveil 2.\nProliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]",
             "shape": "saga",
             "set": "ZANG",
             "loyalty": "",
@@ -4066,7 +4066,7 @@
             "shape": "normal",
             "set": "ZANG",
             "loyalty": "",
-            "artist": "Rodney Amirebrahimi",
+            "artist": "Stu Harrington",
             "notes": "!tag Unknown"
         },
         {
@@ -6405,7 +6405,7 @@
             "card_name": "Claes",
             "color": "WU",
             "rarity": "cube",
-            "type": "Legendary Planeswalker \u2014 Claes",
+            "type": "Legendary Planeswalker \u2014 Claes Haubay",
             "number": 321,
             "color_identity": "WU",
             "cost": "{1}{W}{U}",
@@ -6733,7 +6733,7 @@
             "number": 106,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "Deception {3}{U}{U} [i]({3}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nWhenever Nowhere Explorer deals combat damage to a player, if it isn't an extra turn, taken an extra turn after this one.",
+            "rules_text": "Deception {3}{U}{U} [i]({3}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nWhenever Nowhere Explorer deals combat damage to a player, if it isn't an extra turn, take an extra turn after this one.",
             "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
@@ -9000,5 +9000,5 @@
             "notes": "!tag Giondaz"
         }
     ],
-    "version": 2
+    "version": 3
 }

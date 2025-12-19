@@ -2,7 +2,8 @@
     "name": "Ravnica: Resurgence",
     "formats": "Zangy, Santa",
     "trimmed": "y",
-    "image_type": "jpg",
+    "image_type": "png",
+    "draft_structure": "draft booster",
     "cards": [
         {
             "card_name": "Turn to Mist",
@@ -11,7 +12,7 @@
             "type": "Instant",
             "number": 253,
             "color_identity": "WU",
-            "cost": "{1{W}U}",
+            "cost": "{1}{WU}",
             "rules_text": "Exile target creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
             "flavor_text": "[i]\u201cA skilled precognitive mage has little need for other types of magic. It does come in handy, though.\u201d\n\u2014Geetra, precognitive mage[/i]",
             "pt": "",
@@ -29,7 +30,7 @@
             "type": "Creature \u2014 Vampire Cleric",
             "number": 254,
             "color_identity": "WB",
-            "cost": "{1{W}B}",
+            "cost": "{1}{WB}",
             "rules_text": "Lifelink",
             "flavor_text": "[i]The Orzhov are known for their ruthless pursuit of wealth and power, using their faith as a means to control and manipulate the masses. Even the great war didn't change their goals.[/i]",
             "pt": "2/2",
@@ -65,7 +66,7 @@
             "type": "Instant",
             "number": 246,
             "color_identity": "WG",
-            "cost": "{1{G}W}",
+            "cost": "{1}{GW}",
             "rules_text": "Destroy target artifact or enchantment.",
             "flavor_text": "[i]\u201cPlant every sword. Embrace every soul.\u201d\n\u2014Trostani[/i]",
             "pt": "",
@@ -83,7 +84,7 @@
             "type": "Creature \u2014 Minotaur Mercenary",
             "number": 250,
             "color_identity": "UB",
-            "cost": "{1{U}B}",
+            "cost": "{1}{UB}",
             "rules_text": "When Stern Strongarm becomes the target of a spell or ability, sacrifice it.",
             "flavor_text": "[i]Not all Dimir agents work with subtlety.[/i]",
             "pt": "3/3",
@@ -173,7 +174,7 @@
             "type": "Creature \u2014 Human Shaman",
             "number": 247,
             "color_identity": "RG",
-            "cost": "{1{R}G}",
+            "cost": "{1}{RG}",
             "rules_text": "Trample\nPensive Trog gets +1/+1 as long as you're in a trance. [i](You're in a trance if you've cast a noncreature spell or created a token this turn.)[/i]",
             "flavor_text": "[i]The Trogs are wandering hermits, known for their deep ceremonies and trances, unbothered by the woes of civilization.[/i]",
             "pt": "2/2",
@@ -1730,7 +1731,7 @@
             "set": "RAR",
             "loyalty": "3",
             "artist": "Riccardo La Barbera",
-            "notes": "!tag Yaoi\n!tag Ral\n!tag Ravnica\n!tag GuildLeader\n!tag Izzet\n!tag Planeswalker\n"
+            "notes": "!tag Yaoi\n!tag Ral\n!tag Ravnica\n!tag GuildLeader\n!tag Izzet\n!tag Planeswalker"
         },
         {
             "card_name": "Vannifar, Simic Apogee",
@@ -1838,7 +1839,7 @@
             "set": "RAR",
             "loyalty": "",
             "artist": "Raph Lomotan",
-            "notes": "!tag Ghired\n!tag Ravnica\n!tag Gruul\n"
+            "notes": "!tag Ghired\n!tag Ravnica\n!tag Gruul"
         },
         {
             "card_name": "Borborygmos, the Revolution",
@@ -2144,7 +2145,7 @@
             "set": "RAR",
             "loyalty": "",
             "artist": "Kael Ngu",
-            "notes": "!tag Ral\n!tag Ravnica\n!tag GuildLeader\n!tag Izzet\n!tag Planeswalker\n"
+            "notes": "!tag Ral\n!tag Ravnica\n!tag GuildLeader\n!tag Izzet\n!tag Planeswalker"
         },
         {
             "card_name": "Tragicomedy",
@@ -3648,7 +3649,7 @@
             "number": 71,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "At the beginning of your upkeep, mill a card. Return that card to your hand unless target opponent has you create a 1/1 black Rat creature token.reveal the top card of your library. Then, you lose 1 life for each Rat you control.\nRats you control get +1/+0 for each other Rat you control.",
+            "rules_text": "At the beginning of your upkeep, mill a card. Return that card to your hand unless target opponent has you create a 1/1 black Rat creature token. Then, you lose 1 life for each Rat you control.\nRats you control get +1/+0 for each other Rat you control.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -4790,7 +4791,7 @@
             "set": "RAR",
             "loyalty": "",
             "artist": "Clint Cearley",
-            "notes": "!tag Ilharg\n!tag Ravnica\n!tag Gruul\n"
+            "notes": "!tag Ilharg\n!tag Ravnica\n!tag Gruul"
         },
         {
             "card_name": "Ethereal Armaments",
@@ -5333,5 +5334,5 @@
             "notes": ""
         }
     ],
-    "version": 1
+    "version": 2
 }

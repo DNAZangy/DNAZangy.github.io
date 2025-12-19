@@ -276,7 +276,7 @@
             "notes": "!tag Detrosse"
         },
         {
-            "card_name": "Lift ArchaicWards",
+            "card_name": "Lift Archaic Wards",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
@@ -787,8 +787,8 @@
             "number": 114,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Flash\nEnchant creature gets +1/+0 and has lifelink.\nWhen enchanted creature dies, return it to the battlefield tapped under its owner's control.",
-            "flavor_text": "[i]Every day survived was a victory no one can take away.[/i]",
+            "rules_text": "Flash\nEnchant creature\nEnchant creature gets +1/+0 and has lifelink.\nWhen enchanted creature dies, return it to the battlefield tapped under its owner's control.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -3739,7 +3739,7 @@
             "number": 54,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Exile target spell. It's controller may cast it for as long as it remains exiled by discarding a card in addition to its other costs.",
+            "rules_text": "Exile target spell. Its controller may cast it for as long as it remains exiled by discarding a card in addition to its other costs.",
             "flavor_text": "[i]\u201cIt'll return. It always does. Maybe tomorrow, maybe the day after. I bought time, at least, and maybe time's enough for someone braver, stronger, wiser . . . Someone who won't just delay, but win.\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -4293,7 +4293,7 @@
             "card_name": "Prodigy of the Opulent",
             "color": "UG",
             "rarity": "rare",
-            "type": "Creature \u2014 Human Horror Warlock",
+            "type": "Legendary Creature \u2014 Human Horror Warlock",
             "number": 246,
             "color_identity": "UG",
             "cost": "{4}{G}{U}",
@@ -5223,7 +5223,7 @@
             "set": "ORC",
             "loyalty": "3",
             "artist": "Alexander Davtyan",
-            "notes": "!tag Detrosse"
+            "notes": "!tag Detrosse\n!tag Hayat\n!tag Planeswalker\n!tag Alkabah"
         },
         {
             "card_name": "Mr. Monroe, Exquisite Collector",
@@ -5593,7 +5593,7 @@
             "number": 176,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "Rogues you control have menace.\n{R}, {T}, Exile two cards from your graveyard: Create a 1/1 red Rogue creature token.",
+            "rules_text": "Menace\nOther Rogues you control have menace.\n{R}, {T}, Exile two cards from your graveyard: Create a 1/1 red Rogue creature token.",
             "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
@@ -5622,5 +5622,5 @@
             "notes": ""
         }
     ],
-    "version": 6
+    "version": 7
 }

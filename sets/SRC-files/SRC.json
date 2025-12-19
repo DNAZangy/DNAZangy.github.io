@@ -1,6 +1,6 @@
 ﻿{
     "name": "Secrets of the River Cities",
-    "formats": "Zangy, Rev",
+    "formats": "Zangy, Custard, Revolution",
     "trimmed": "y",
     "image_type": "png",
     "draft_structure": "draft booster",
@@ -1965,7 +1965,7 @@
             "set": "SRC",
             "loyalty": "",
             "artist": "Earl Waga",
-            "notes": "!tag Detrosse\nwants flavor\nremoval\n!script \"<s><l>/spawn Clue</l><f>/spawn Clue 1 SRC</f></s>\",\"r\""
+            "notes": "!tag Detrosse\n!tag PattyStory\nwants flavor\nremoval\n!script \"<s><l>/spawn Clue</l><f>/spawn Clue 1 SRC</f></s>\",\"r\""
         },
         {
             "card_name": "Rigged Negotiations",
@@ -4992,5 +4992,5 @@
             "notes": "!tag Detrosse\n!tag Jericho\n!tag Planeswalker\n!related Jericho Hudson;\n!exportname Jericho Emblem"
         }
     ],
-    "version": 2
+    "version": 3
 }
