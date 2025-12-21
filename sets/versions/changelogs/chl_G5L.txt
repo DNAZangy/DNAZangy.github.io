@@ -1,4 +1,807 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Bitter Ambition added.
+Cloaked Instigator added.
+Deny the Decree added.
+Marshal of Sarvagan added.
+Spitebound Bakhtak added.
+Glimpse of Grandeur added.
+Avaz Fortress added.
+Danaj Fortress added.
+Nizev Fortress added.
+Soli Fortress added.
+Kaneh Fortress added.
+Fell the Scourge added.
+Pyroclastic Blood added.
+Chronicle of Tales added.
+Plumecrowned Steed added.
+Break Their Markets Open added.
+Tidewatcher's Wisdom added.
+Scour the Tombs added.
+Bird added.
+Coronation of Shadows added.
+
+Temptation to Treason removed.
+Faceless Warmonger removed.
+Golna's Missive removed.
+Macabre Bloodmarshal removed.
+Spitebound Crone removed.
+Glimpse of Grandness removed.
+Zagos Garrison removed.
+Guzar Garrison removed.
+Tirbandar Garrison removed.
+Soli Garrison removed.
+Razvar Garrison removed.
+Pryoclastic Blood removed.
+Quill of Provinces removed.
+Acolyte of the Destined Prince removed.
+Unbind the Threads removed.
+Steed of the Shah's Plumes removed.
+Break their Streets Wide Open removed.
+Advice of the Shore removed.
+Step Behind the Shelves removed.
+
+Nizev District
+
+Marjavar District
+
+Sepidgar District
+
+Sarvagan District
+
+Burgeoning Satrapy
+
+Peacock of Good Omens
+
+Garmrud Peddler
+
+Rotten Veilcaster
+rules_text: Figment 1 [i](At the beginning of your combat, you may tap other creatures you control with at least 1 power to create a token copy of this with haste. Sacrifice it at end of turn.)[/i]
+Whenever Rotten Veilcaster attacks, each opponent loses 1 life. => Figment 3 [i](At the beginning of your combat, you may tap other creatures you control with at least 3 power to create a token copy of this with haste. Sacrifice it at end of turn.)[/i]
+Whenever Rotten Veilcaster attacks, each opponent loses 1 life.
+
+Nizev Conspirators
+rules_text: Retinue — 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Nizev Conspirators gets +1/+0 as long as you control a token. => Retinue — 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Nizev Conspirators gets +1/+0 as long as you control a token.
+
+Silent Ambusher
+
+Skycrowned Despot
+
+Div of the False Hero
+
+Echoing Fury
+
+Roadworn Dromedary
+
+Omens by Starlight
+
+Serpent of the Shabnam Sea
+rules_text: Trample
+When Serpent of the Shabnam Sea enters, creatures you control get +1/+0 until end of turn.
+Cycling {2} [i]({2}, Discard this card: Draw a card.)[/i] => Trample
+When Serpent of the Shabnam Sea enters, creatures you control get +1/+0 and gain trample until end of turn.
+Cycling {2} [i]({2}, Discard this card: Draw a card.)[/i]
+
+Harborline Fishermen
+rules_text: Retinue — 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Whenever a token you control enters, you gain 1 life. => Retinue — 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Whenever a token you control enters, you gain 1 life.
+
+Ruinic Safecraker
+
+Host of the Honored
+rules_text: Retinue — 1/1, 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Reach => Retinue — 1/1, 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Reach
+Creatures in Host of the Honored's retinue have reach.
+
+Satrap of Forgotten Farms
+
+Div of Broken Teeth
+rules_text: Retinue — 1/1, 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i] => Retinue — 1/1, 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+
+Promise of Greatness
+
+Blade of the Faceless
+
+Mirageblade Arcanist
+
+Splintered Devotee
+rules_text: Figment 4 [i](At the beginning of your combat, you may tap other creatures you control with at least 4 power to create a token copy of this with haste. Sacrifice it at end of turn.)[/i]
+Trample => Figment 6 [i](At the beginning of your combat, you may tap other creatures you control with at least 6 power to create a token copy of this with haste. Sacrifice it at end of turn.)[/i]
+Trample
+
+Bearer of Fallen Tidings
+rules_text: Retinue — 2/2, 2/2 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Whenever a creature you control dies, scry 1. => Retinue — 2/2, 2/2 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Whenever a creature you control dies, scry 1.
+
+Rally the Firebinders
+
+Steel the Spirit
+
+Garmrud Skyscout
+rules_text: Retinue — 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Flying => Retinue — 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Flying
+
+Maw of the Ultimate Sacrifice
+
+Heist Captain
+rules_text: Retinue — 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Heist Captain can't attack or block alone. => Retinue — 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Heist Captain can't attack or block alone.
+
+Nizev Courier
+
+Dreadlaugh Manticore
+rules_text: Flying
+When Dreadlaugh Manticore enters, you may sacrifice another creature. When you do, destroy target creature or planeswalker.
+Cycling {2} [i]({2}, Discard this card: Draw a card.)[/i] => Flying
+When Dreadlaugh Manticore enters, you may sacrifice another creature. When you do, you may return target creature card with mana value 5 or less from your graveyard to the battlefield.
+Cycling {2} [i]({2}, Discard this card: Draw a card.)[/i]
+
+Conductor of Hidden Patterns
+
+Sahra's Brute
+
+Shawl of the Rainbow Feather
+
+Djinn of Hidden Riches
+
+Mournful Withered
+
+Enduring Sandshaper
+rules_text: Retinue — 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i] => Retinue — 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+
+Sepidgar Outrider
+
+Prove Your Might
+rules_text: As an additional cost to cast this spell, you may collect backing 4. [i](For four colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+Choose one. If backing was collected, instead choose two.
+• Target creature gets +3/+3 and gains trample until end of turn.
+• Target creature you control fights target creature. => As an additional cost to cast this spell, you may collect backing 3. [i](For three colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+Target creature you control gets +3/+3 if backing was collected. Then it fights target creature an opponent controls.
+
+Strategist of Empty Halls
+
+Escort to Damnation
+rules_text: Choose one —
+• Destroy target creature with power 3 or less.
+• Target opponent reveals their hand. You choose a card from it with mana value 3 or greater. That player discards that card. => Choose one —
+• Destroy target creature with mana value 3 or less.
+• Target opponent reveals their hand. You choose a card from it with mana value 3 or greater. That player discards that card.
+
+Blinding Grit
+
+Searing Sands
+
+Knife of the Hidden Face
+
+Means to an End
+
+One Handed Execution
+
+Spoils of the Muktann
+
+Strike Down
+rules_text: As an additional cost to cast this spell, you may collect backing 2. This spell costs {2} less to cast if backing was collected. [i](For two colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+Destroy target creature. => As an additional cost to cast this spell, you may collect backing 3. This spell costs {3} less to cast if backing was collected. [i](For three colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+Destroy target creature or planeswalker.
+
+One Against All
+type: Sorcery => Instant
+cost: {WB} => {3}{WB}
+rules_text: Create a 1/1 white Soldier creature token. You gain 1 life.
+Flashback {1}{WB} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Exile target creature.
+
+Draining Revelation
+rules_text: Mill three cards. You may return a creature card in your graveyard to your hand. => Mill four cards. You gain 4 life.
+
+Witness Alkabah
+cost: {1}{GU} => {2}{GU}{GU}
+rules_text: Look at the top four cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest into your graveyard.
+Flashback {2}{GU}{GU} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Reveal the top five cards of your library. You may put a creature card and a land card from among them into your hand. Put the rest into your graveyard.
+
+Call to Wander
+rules_text: Create a 2/2 blue Rogue creature token for each card type among cards in your graveyard.
+Flashback {2}{G}{U}{R} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Draw a card for each differently named land you control.
+
+Withered Marshal
+rules_text: Retinue — 2/2, 2/2 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Whenever a token you control dies, you gain 1 life. => Retinue — 2/2, 2/2 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Whenever a token you control dies, you gain 1 life.
+
+Dragon of Waking Terrors
+
+Burn the World
+rules_text: As an additional cost to cast this spell, you may collect backing 3. If you do, copy it. You must choose new modes for the copy. [i](For three colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+Choose one —
+• Destroy all artifacts with mana value 3 or less.
+• Destroy all enchantments with mana value 3 or less.
+• Burn the World deals 3 damage to each creature. => As an additional cost to cast this spell, you may collect backing 3. [i](For three colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+Burn the World deals 3 damage to each creature and planeswalker. If backing was collected, instead Burn the World deals 3 damage to each creature and planeswalker you don't control.
+
+Blossoming Elemental
+rules_text: Retinue — 3/3 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Trample
+Blossoming Elemental gets +1/+1 for each creature you control. => Retinue — 3/3 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Trample
+Blossoming Elemental gets +1/+1 for each other creature and/or artifact you control.
+pt: 0/0 => 1/1
+
+Marjavar Tideseer
+
+Yearning Wavecaller
+rules_text: Flash
+Menace
+Whenever you draw your second card each turn, create a 1/1 white Soldier creature token. => Flash
+{U}{B}: Draw a card. Activate this ability only once each turn and only if an opponent has lost life this turn.
+
+Andazir's Bloodrager
+rules_text: Menace
+Whenever you cast your second spell each turn, you draw a card and you gain 1 life. => Menace
+The second spell you cast each turn costs {2} less and an additional 2 life to cast.
+
+Shepherd of the Pride
+rules_text: Retinue — 2/2, 2/2 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Creature tokens you control have vigilance. => Retinue — 2/2, 2/2 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Vigilance
+Creature tokens you control have vigilance.
+
+Broken Wing Paragon
+rules_text: Retinue — 1/1, 1/1, 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+At the beginning of your end step, you may sacrifice a creature. If you do, draw a card. => Retinue — 1/1, 1/1, 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+At the beginning of your end step, you may sacrifice a creature. If you do, draw a card.
+
+Echoing Arcanist
+rules_text: Flash 
+Prowess
+When Echoing Arcanist enters, you may collect backing X. When you do, exile target instant or sorcery card with mana value X or less from your graveyard. Copy it. You may cast the copy without paying its mana cost. [i](For X colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i] => Flash 
+When Echoing Arcanist enters, you may collect backing X. When you do, exile target instant or sorcery card with mana value X or less from your graveyard. Copy it. You may cast the copy without paying its mana cost. [i](For X colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+
+Div of Shattered Reflections
+
+Wealth of Sarvagan
+rules_text: Whenever one or more cards leave your graveyard, create a 1/1 white Soldier creature token and you gain 2 life. This ability triggers only once each turn.
+When Wealth of Sarvagan enters, mill five cards. Return up to two cards milled this way into your hand. => Whenever one or more cards leave your graveyard, create a 1/1 white Soldier creature token and you gain 2 life. This ability triggers only once each turn.
+When Wealth of Sarvagan enters, mill four cards. Return up to two cards milled this way into your hand.
+
+Cinders of Civilization
+rules_text: {T}: Add {C}.
+{6}, Sacrifice Cinders of Civilization: Put target nonland permanent on the bottom of its owner's library. => {T}: Add {C}.
+{6}, Sacrifice Cinders of Civilization: Put target nonland permanent on the bottom of its owner's library. Activate only as a sorcery.
+
+Ironhollow Cavern
+
+Grave of the Forgotten
+
+Research Quarter
+
+Boundless Expanse
+
+Scepter of Malice
+
+Radiant Hadhayosh
+cost: {2} => {1}
+pt: 1/2 => 1/1
+
+Dismiss the Unremarkable
+
+March of Many Banners
+
+Storyteller of Unearthed Tales
+
+Displace in Time
+
+Impatient Wishgranter
+rules_text: Creatures you control have haste.
+When Impatient Wishgranter enters, if you cast it, reveal the top card of your library until you reveal a nonland card with mana value 4 or less. You may cast that card without paying its mana cost. Put the exiled cards on the bottom of your library in a random order. => Creatures you control have haste.
+When Impatient Wishgranter enters, if you cast it from your hand, exile the top card of your library until you exile a nonland card with mana value 4 or less. You may cast that card without paying its mana cost. Put the exiled cards on the bottom of your library in a random order.
+
+Glimpse of Failure
+
+Heartfire Immolator
+
+Wonderlight Magus
+rules_text: Figment 2 [i](At the beginning of your combat, you may tap other creatures you control with at least 2 power to create a token copy of this with haste. Sacrifice it at end of turn.)[/i]
+Whenever Wonderlight Magus deals combat damage to a player, create a Treasure token. => Figment 3 [i](At the beginning of your combat, you may tap other creatures you control with at least 3 power to create a token copy of this with haste. Sacrifice it at end of turn.)[/i]
+Whenever Wonderlight Magus deals combat damage to a player, create a tapped Treasure token.
+
+Satrap of Empty Halls
+rules_text: Lifelink
+Retinue — 1/1, 1/1, 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Whenever a creature you control dies, put a +1/+1 counter on Satrap of Empty Halls. If it was a token, scry 1. => Lifelink
+Retinue — 1/1, 1/1, 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Whenever a creature you control dies, put a +1/+1 counter on Satrap of Empty Halls.
+
+Archivist of Soli
+rules_text: Flash
+Whenever you draw your second spell each turn, you may exile target permanent you control, then return it to the battlefield under its owner's control. => Flash
+Whenever you draw your second card each turn, you may exile target permanent you control, then return it to the battlefield under its owner's control.
+
+Death Deferred
+
+Crushed Resistance
+
+Scouring Windseeker
+rules_text: Whenever Scouring Windseeker attacks, mill a card. You may put a land card milled this way into your hand. If you didn't put a card into your hand this way, you gain 1 life. => Whenever Scouring Windseeker attacks, mill a card. If it's a land card, you may return it to your hand. If you don't put a card into your hand this way, you gain 1 life.
+
+Sepidgar Conscript
+rules_text: Retinue — 1/1, 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Prevent all damage that would be dealt creatures in Sepidgar Conscript's retinue. => Retinue — 1/1, 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Prevent all damage that would be dealt creatures in Sepidgar Conscript's retinue.
+
+Muktann Mirage
+
+Guzar Stalwart
+rules_text: {2}, Sacrifice a token: Guzar Stalwart gains indestructible until end of turn. Tap it.
+At the beginning of your end step, if you don't control any tokens, create two 2/2 blue Rogue creature tokens. => {1}, Sacrifice a creature Guzar Stalwart gains indestructible until end of turn. Tap it.
+At the beginning of your end step, if two or more creatures you controlled died this turn, draw a card.
+pt: 3/2 => 4/2
+
+Pass Into Oblivion
+rules_text: Destroy target nontoken, nonlegendary creature. => Destroy target nonlegendary creature.
+
+Justiciar of Distant Doors
+
+Simurgh of the Quiet Pool
+rules_text: This spell costs {1} less to cast for each token you control.
+Flying
+Satrapycycling {2}, plainscycling {2} [i]({2}, Discard this card: Search your library for a Satrapy or Plains card, reveal it, put it into your hand, then shuffle.)[/i] => Flying
+When Simurgh of the Quiet Pool enters, exile target tapped nonland permanent an opponent controls.
+Satrapycycling {2}, plainscycling {2} [i]({2}, Discard this card: Search your library for a Satrapy or Plains card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Knight of Open Hands
+
+Div of Reflected Voices
+
+Bonded Hunter
+
+Rally the Fallen
+cost: {X}{W} => {1}{W}
+rules_text: Return up to X target creature cards with total mana value X or less from your graveyard to the battlefield. => Target creature you control gets +2/+2 until end of turn. Each creature in that creature's retinue gets +1/+1 until end of turn.
+
+Spymaster Sphinx
+
+Borrowed Fury
+
+Akvani Warbrute
+rules_text: Retinue — 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Attacking tokens you control have deathtouch. => Retinue — 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Attacking tokens you control have deathtouch.
+
+Phantomsteed Cavalier
+rules_text: Retinue — 1/1, 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Tap two untapped tokens you control: Target creature can't be blocked this turn. => Retinue — 1/1, 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Tap two untapped tokens you control: Target creature and each token in that creature's retinue can't be blocked this turn.
+
+Muktann Scorpion
+type: Creature — Scorpion => Creature — Illusion Assassin
+cost: {1}{B} => {2}{B}
+rules_text: Deathtouch
+The second spell you cast each turn costs {1} less to cast. => Figment 3 [i](At the beginning of your combat, you may tap other creatures you control with at least 3 power to create a token copy of this with haste. Sacrifice it at end of turn.)[/i]
+Deathtouch
+Whenever Muktann Scorpion deals combat damage to a player, you may draw a card. If you do, you lose 1 life.
+
+Tempest of Lightning and Dust
+
+Tombbound Creeper
+rules_text: Retinue — 4/4 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Trample => Retinue — 4/4 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Trample
+pt: 4/4 => 5/5
+
+Soli Skyguard
+rules_text: Flying
+At the beginning of combat on your turn, tap Soli Skyguard unless you collect backing 2. [i](For two colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i] => Flying
+At the beginning of combat on your turn, tap Soli Skyguard unless you collect backing 1. [i](For one colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+
+Marjavar Bloomkeeper
+
+Dungeoneering Opportunist
+rules_text: At the beginning of each end step, if you've sacrificed a creature this turn, create a Treasure token. If you sacrificed three or more creatures this turn, put a +1/+1 counter on Dungeoneering Opportunist. => At the beginning of each end step, if you've sacrificed a creature this turn, create a Treasure token. If you sacrificed three or more creatures this turn, put two +1/+1 counters on Dungeoneering Opportunist.
+
+Fate of the Forgotten
+rules_text: As an additional cost to cast this spell, you may collect backing 3. [i](For three colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+Choose one. If backing was collected, instead choose two.
+• Exile up to four cards from target player's graveyard.
+• Destroy target artifact.
+• Destroy target enchantment. => Destroy up to one target artifact or enchantment you don't control. Then you may collect backing 3. If you do, exile up to four cards from an opponent's graveyard. [i](For three colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+
+Ride as One
+rules_text: Whenever Ride as One enters, create a 2/2 red Army creature token.
+Whenever you attack with two or more creatures that share a name, draw a card. => Creatures you control that share a name with another creature you control have ward {1}.
+Whenever you attack with two or more creatures that share a name, draw a card.
+
+Overflowing Imagination
+
+Blade of Freedom
+
+Realm That Never Rests
+cost: {3}{G} => {2}{G}{G}
+
+Akvani Turncoat
+pt: */5 => */6
+
+Blanched Warden
+rules_text: Players can't create tokens or copy spells.
+If a spell would become a token, exile it instead. => Nonland cards in libraries, hands, and graveyards lose all types and abilities.
+
+Razvar Divbinder
+cost: {2}{B}{B} => {2}{U}{B}
+
+Atashvar Stormcaller
+rules_text: Prowess
+Whenever Atashvar Stormcaller attacks, you may cast a noncreature spell that shares a name with another card in your graveyard. => Prowess
+Whenever Atashvar Stormcaller attacks, you may cast a noncreature card that shares a name with another card in your graveyard. [i](You still pay its costs.[/i]
+
+Voice of Caravans
+rules_text: Retinue — 1/1, 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Tokens you control have “{T}: Add one mana of any color.” => Retinue — 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Tokens you control have “{T}: Add one mana of any color.”
+
+Blooming Fireheart
+rules_text: {R}, {T}, Sacrifice Blooming Fireheart: Blooming Fireheart deals 2 damage to any target.
+{W}, {T}: You gain 2 life.
+{2}{R}{W}, {T}: Dynamize. [i](Activate any number of this artifact's other abilities without paying their costs.)[/i] => {R}, {T}, Sacrifice Blooming Fireheart: Blooming Fireheart deals 2 damage to any target.
+{W}, {T}: You gain 2 life.
+{2}{R}{W}, {T}: Dynamize. Activate only as a sorcery. [i](Activate any number of this artifact's other abilities without paying their costs.)[/i]
+
+Clutch of the Tyrant
+rules_text: {R}, {T}: Create a tapped Treasure token.
+{1}{G}, {T}: Untap target land you control. Until end of turn, it becomes an artifact creature land with power and toughness each equal to the number of artifacts you control.
+{1}{R}{G}, {T}: Dynamize. [i](Activate any number of this artifact's other abilities without paying their costs.)[/i] => {R}, {T}: Create a tapped Treasure token.
+{1}{G}, {T}: Untap target land you control. Until end of turn, it becomes an artifact creature land with power and toughness each equal to the number of artifacts you control.
+{1}{R}{G}, {T}: Dynamize. Activate only as a sorcery. [i](Activate any number of this artifact's other abilities without paying their costs.)[/i]
+
+Twinning Lattice
+rules_text: {1}{U}, {T}: Until end of turn, spells you control can't be countered.
+{1}{R}, {T}: When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.
+{1}{U}{R}, {T}: Dynamize. [i](Activate any number of this artifact's other abilities without paying their costs.)[/i] => {U}, {T}: The next spell you cast this turn can be cast as though it had flash.
+{1}{R}, {T}: When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.
+{1}{U}{R}, {T}: Dynamize. [i](Activate any number of this artifact's other abilities without paying their costs.)[/i]
+
+Quill of Fate
+rules_text: {2}{W}, {T}: Put a +1/+1 counter on up to two target creatures.
+{B}, {T}: Creatures you control gain menace until end of turn.
+{2}{W}{B}, {T}: Dynamize [i](Activate any number of this artifact's other abilities without paying their costs.)[/i] => {2}{W}, {T}: Put a +1/+1 counter on up to two target creatures.
+{B}, {T}: Creatures you control gain menace until end of turn.
+{2}{W}{B}, {T}: Dynamize. Activate only as a sorcery. [i](Activate any number of this artifact's other abilities without paying their costs.)[/i]
+
+Perch of the Sherdal
+rules_text: {1}{G}, {T}: Target creature gets +3/+3 until end of turn. 
+{W}, {T}: Target creature gains lifelink until end of turn.
+{1}{G}{W}, {T}: Dynamize. [i](Activate any number of this artifact's other abilities without paying their costs.)[/i] => {1}{G}, {T}: Target creature gets +3/+3 until end of turn. 
+{W}, {T}: Target creature gains lifelink until end of turn.
+{1}{G}{W}, {T}: Dynamize. Activate only as a sorcery. [i](Activate any number of this artifact's other abilities without paying their costs.)[/i]
+
+Deliverance
+cost: {W} => {1}{W}
+rules_text: As an additional cost to cast this spell, collect backing X. [i](For X colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+Exile target nonland permanent with mana value X or less. => Exile target nonland permanent. Its controller draws a card.
+
+Death by One Million Stings
+
+Koios's Charge
+cost: {2}{R}{R} => {2}{R}{W}
+
+Endearing Companionship
+cost: {1}{G} => {G}
+
+Choir of Steadfast Hearts
+rules_text: Retinue — 1/1, 1/1, 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Vigilance
+Armies you control get +1/+1 and have vigilance.
+As long as you control an Army, prevent all damage that would be dealt to Choir of Steadfast Hearts. => Retinue — 1/1, 1/1, 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Vigilance
+Armies you control get +1/+1 and have vigilance.
+As long as you control an Army, prevent all damage that would be dealt to Choir of Steadfast Hearts.
+
+Petition the Bakhtak
+cost: {2}{U} => {1}{U}{U}
+
+Choir of Trembling Hearts
+rules_text: Retinue — 3/3, 3/3, 3/3 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Flying
+At the beginning of your upkeep, sacrifice two creatures. => Retinue — 3/3, 3/3, 3/3 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Flying
+At the beginning of your upkeep, sacrifice two creatures.
+
+Siegebreaker Manticore
+rules_text: Flying
+Nonbasic land cards that aren't on the battlefield are Mountains.
+Whenever a nonbasic land enters, Siegebreaker Manticore deals 2 damage to that land's controller. => Flying
+Ward—Pay 3 life.
+Whenever Siegebreaker Manticore attacks, it deals damage to any nonplayer target defending player controls equal to the number of nonbasic lands they control.
+
+Sarvagan Footman
+rules_text: At the beginning of combat on your turn, you may collect backing 3. If you do, put a +1/+1 counter on each creature you control. Otherwise, create a 1/1 white Soldier creature token. [i](For three colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i] => At the beginning of combat on your turn, you may collect backing 3. If you do, put a +1/+1 counter on each creature you control. [i](For three colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+
+Maneli Shellsinger
+
+Amaurosis
+
+Stingbreaker
+
+Unbidden Mandate
+
+Winged Enigma
+rules_text: Flying, vigilance
+{U}, Exile Winged Enigma from your hand with six time counters on it: Draw a card. Winged Enigma gains “Whenever you scry and at the beginning of your upkeep, remove a time counter from Winged Enigma. If you removed the last time counter this way, cast Winged Enigma without paying its mana cost.” => Flying, vigilance
+If you would scry a number of cards, you may draw that many cards, then discard a card instead.
+
+Div of Ruined Bargains
+pt: 3/1 => 2/2
+
+Soli Palace
+rules_text: {T}: Add {C}.
+Nontoken Satrapies you control have “{3}{W}, Exile this land: Create a tapped Satrapy land with “{T}: Add {C}” and a 3/3 white Griffin creature token with flying. It can't block this turn. => {T}: Add {C}.
+Nontoken Satrapies you control have “{3}{W}, {T}, Sacrifice this land: Create a tapped Satrapy land with “{T}: Add {C}” and a 3/3 white Griffin creature token with flying. It can't block this turn.
+
+Avaz Palace
+rules_text: {T}: Add {C}.
+Nontoken Satrapies you control have “{2}{R}, Exile this land: Create a tapped Satrapy land with “{T}: Add {C}.” Creatures you control get +1/+0 and gain haste until end of turn. Activate only as a sorcery. => {T}: Add {C}.
+Nontoken Satrapies you control have “{2}{R}, {T}, Sacrifice this land: Create a tapped Satrapy land with “{T}: Add {C}.” Creatures you control get +1/+0 and gain haste until end of turn. Activate only as a sorcery.
+
+Danaj Palace
+rules_text: {T}: Add {C}.
+Nontoken Satrapies you control have “{2}{G}, Exile this land: Create two tapped Satrapy lands with “{T}: Add {C}.” => {T}: Add {C}.
+Nontoken Satrapies you control have “{2}{G}, {T}, Sacrifice this land: Create two tapped Satrapy lands with “{T}: Add {C}.”
+
+Garmrud Palace
+rules_text: {T}: Add {C}.
+Nontoken Satrapies you control have “{3}{U}, Exile this land: Create a tapped Satrapy land with “{T}: Add {C}.” Draw two cards, then discard a card. => {T}: Add {C}.
+Nontoken Satrapies you control have “{3}{U}, {T}, Sacrifice this land: Create a tapped Satrapy land with “{T}: Add {C}.” Draw two cards, then discard a card.
+
+Atashvar Palace
+rules_text: {T}: Add {C}.
+Nontoken Satrapies you control have “{4}{B}, Exile this land: Create a tapped Satrapy land with “{T}: Add {C}.” Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card. Activate only as a sorcery. => {T}: Add {C}.
+Nontoken Satrapies you control have “{4}{B}, {T}, Sacrifice this land: Create a tapped Satrapy land with “{T}: Add {C}.” Each opponent loses 3 life unless that player sacrifices a nonland permanent or discards a card. Activate only as a sorcery.
+
+Seat of Power
+
+Sunshroud Coil
+rules_text: Flash
+This spell can't be countered.
+Lifelink
+When Sunshroud Coil dies, if it isn't a token, create a token that's a copy of it. => Figment 5 [i](At the beginning of your combat, you may tap other creatures you control with at least 5 power to create a token copy of this with haste. Sacrifice it at end of turn.)[/i]
+Lifelink
+Whenever Sunshroud Coil dies, draw a card.
+
+Dali, Scribe of the Fields
+rules_text: Flash
+Flying, vigilance
+Whenever Dali enters or attacks, you may collect backing X. When you do, you may cast target card from your graveyard with mana value X. If that spell would be put into a graveyard, exile it instead. [i](For X colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i] => Flash
+Flying
+Whenever Dali attacks, you may collect backing X. When you do, you may cast target card from your graveyard with mana value X without paying its mana cost. If that spell would be put into a graveyard, exile it instead. [i](For X colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+
+Stalker of Horizons
+cost: {2}{G}{U}{R} => {4}{G}{U}{R}
+rules_text: Flying, haste
+When Stalker of Horizons enters, exile the top five cards of your library and your graveyard. An opponent chooses five cards exiled this way. Put each card chosen this way into your hand. => Flying, haste
+Whenever Stalker of Horizons attacks, exile the top three cards of your library. You may play them until end of turn. You may create a token that's a copy of one of the exiled creature cards that's tapped and attacking. Sacrifice the token at the beginning of the next end step.
+pt: 5/5 => 7/7
+
+Mehr's Decree
+rules_text: Return target land card, target enchantment card, target creature card, and target artifact from your graveyard to the battlefield. They each become 3/3 black Zombie creatures in addition to their other types. [i](You must have each target to cast this spell.)[/i] => Return target land card, target enchantment card, target creature card, and target artifact card from your graveyard to the battlefield. They each become 3/3 black Zombie creatures in addition to their other types. [i](You must have each target to cast this spell.)[/i]
+
+Sarvagan Massacre
+cost: {W}{W}{U}{B} => {1}{W}{U}{B}
+
+Div of the Wandering Mind
+cost: {U}{B}{R} => {1}{U}{B}{R}
+rules_text: Flying
+As Div of the Wandering Mind enters, exile up to three cards from graveyards.
+Div of the Wandering Mind has all activated and triggered abilities of cards exiled with it. => Flying
+Whenever you cast your second spell or draw your second card each turn, create a tapped Treasure token.
+
+Child of Maaru
+rules_text: Retinue — X 1/1s, where X is the number of lands you control. [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+{1}, Sacrifice another creature: Child of Maaru gains indestructible until end of turn. Tap it. If Child of Maaru was already tapped, you gain 1 life. => Retinue — X 1/1s, where X is the number of lands you control. [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+{1}, Sacrifice another creature: Child of Maaru gains indestructible until end of turn. Tap it. If Child of Maaru was already tapped, you gain 1 life.
+
+Regiment on Wings
+rules_text: Retinue — 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Flying, ward {2}
+Whenever a token you control deals combat damage to a player or planeswalker, create a 1/1 white Bird creature token in Regiment on Wings's retinue. => Retinue — 1/1, 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Flying, ward {2}
+Whenever a token you control deals combat damage to a player or planeswalker, create a 1/1 white Bird creature token with flying in Regiment on Wings's retinue.
+
+Andazir, Destined Prince
+rules_text: Menace
+Whenever you sacrifice a permanent, each opponent sacrifices a permanent unless they discard a card if this is the first time this ability has resolved this turn. Otherwise, draw a card. => Retinue — 1/1, 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Skip your draw step.
+Whenever you play a card, draw a card, then discard a card, sacrifice a permanent or pay 3 life.
+
+The Timeless Simurgh
+rules_text: Flying
+Once each turn, you may cast a card from your graveyard by exiling a card from your hand that shares a type with it in addition to its costs. If that spell would be put into a graveyard, exile it instead. => Flying
+The first white spell you cast each turn costs {W} less to cast. The same is true for the first blue spell and {U}, the first black spell and {B}, the first red spell and {R}, and the first green spell and {G}. This effect reduces only the amount of colored mana you pay.
+
+Div of Fraying Sanity
+cost: {3}{U}{B} => {1}{B}{B}
+rules_text: Flying
+If you would draw a card, draw two cards, then discard a card instead.
+Whenever you discard a card, each player exiles the top X cards of their library, where X is the discarded card's mana value. => Flying
+Once each turn, whenever one or more cards leave your graveyard, if they weren't shuffled into your library or returned to your hand, you may return one of them to your hand.
+pt: 6/6 => 3/2
+
+Hollow Eyed Ghulspawn
+rules_text: At the beginning of your end step, you may collect backing X. Do the following based on X. [i](For X colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+[b]1 [/b]| Mill two cards.
+[b]3 [/b]| Create a Treasure token.
+[b]5 [/b]| You draw a card and you lose 1 life. => At the beginning of your end step, you may collect backing X. Do the following based on X. [i](For X colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+[b]1+ [/b]| Mill two cards.
+[b]3+ [/b]| Create a Treasure token.
+[b]5 [/b]| You draw a card and you lose 1 life.
+
+Cyrukan, the Measured Blade
+rules_text: Whenever you attack, exile the top card of your library. If you control two or more attacking creatures with the same, exile the top two cards of your library instead. You may play those cards for as long as it remains exiled.
+At the beginning of your end step, if there are cards exiled with Cyrukan, put them into their owner's graveyard, then create that many 1/1 white Soldier creature tokens. => Whenever you attack, exile the top card of your library. You may play that card this turn.
+At the beginning of your end step, if there are cards exiled with Cyrukan, put them into their owner's graveyards, then create that many 1/1 white Soldier creature tokens.
+
+Ruby of the Wastes
+rules_text: Enchant nonland permanent
+You control enchanted permanent.
+Enchanted permanent can't attack, block, and its activated abilities can't be activated. => Enchant nonland permanent
+You control enchanted permanent.
+Enchanted permanent can't attack or block, and its activated abilities can't be activated.
+
+Zareen, Innocent Heir
+rules_text: Whenever you attack, scry 1. Then, you may reveal the top card of your library. If it's mana value is less than or equal to the number of cards you've looked at while scrying this turn, put it into your hand. Otherwise, you may put it on the bottom of your library. => Whenever you attack, scry 1. Then, you may reveal the top card of your library. If its mana value is less than or equal to the number of cards you've looked at while scrying this turn, put it into your hand. Otherwise, you may put it on the bottom of your library.
+
+The Only Constant
+rules_text: Flash
+When The Only Constant enters, if you cast them, you may exile target creature spell or creature you don't control. When The Only Constant is no longer on the battlefield, return the exiled card to its owner's hand.
+{U}{B}, Pay 2 life: The Only Constant becomes a Satrapy land with “{T}: Add {C}.” [i](They are no longer their other types.)[/i] => Flash
+When The Only Constant enters, if you cast them, you may exile target noncreature spell . When The Only Constant is no longer on the battlefield, return the exiled card to its owner's hand.
+{U}{B}, Pay 2 life: The Only Constant becomes a Satrapy land with “{T}: Add {C}.” [i](They are no longer their other types.)[/i]
+
+Sahra, Hand of Ruin
+rules_text: Retinue — 2/2, 2/2 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+At the beginning of combat on your turn, you may choose a nonlegendary creature you control. Any number of tokens you control become a copy of that creature. [i](They will still follow their retinue's orders.)[/i] => Retinue — 2/2, 2/2 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+At the beginning of combat on your turn, you may choose a nonlegendary creature you control. Any number of tokens you control become a copy of that creature. [i](They will still follow their retinue's orders.)[/i]
+
+Shir, Friend of Golna
+rules_text: Whenever Shir, Friend of Golna attacks, untap target token you control.
+{2}: Exile target card from a graveyard. If it was a creature card, create a tapped 1/1 white Soldier creature token. If it was a land card, create a tapped Treasure token. If it was a noncreature, nonland, you gain 2 life. => {2}: Exile target card from a graveyard. If it was a creature card, create a tapped 1/1 white Soldier creature token. If it was a land card, create a tapped Treasure token. If it was a noncreature, nonland, you gain 2 life.
+
+Hayat, Whisper of Nightmares
+rules_text: Deathtouch
+Whenever you collect backing, you may return a card from your graveyard with mana value less than or equal to the number of colors that were backed to your hand. => Deathtouch
+Whenever Hayat, Whisper of Nightmares enters or attacks, mill two cards.
+{X}{B}{G}: Target land you control becomes a copy of target permanent card in your graveyard with mana value X. Activate only as a sorcery and only once each turn.
+
+Counsel of the Highest Peak
+cost: {2}{R}{W} => {2}{R}{R}
+rules_text: Discard your hand, then draw that many cards plus one. If you drew three or more cards this way, you may cast a card from your hand with mana value 3 or less without paying its mana cost. => Discard your hand, then draw that many cards plus one. You may cast a noncreature card from your hand with mana value 3 or less without paying its mana cost.
+
+Devourer of Devotees
+rules_text: Retinue — 1/1, 1/1 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Flying
+Sacrifice a creature: Target player discards a card. Activate only as a sorcery. => Retinue — 1/1, 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Flying
+Sacrifice a creature: Target player discards a card. Activate only as a sorcery.
+
+Secondhand Serenade
+
+Glow of Defiance
+cost: {1}{G} => {G}
+
+Stories in Shifting Sand
+
+General of Phantasms
+rules_text: Flash
+Retinue — 0/2, 0/2, 0/2, 0/2 [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+General of Phantasms has hexproof and can't be blocked as long as you control an Army. => Flash
+Retinue — 0/2, 0/2, 0/2, 0/2 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+General of Phantasms has hexproof and can't be blocked as long as you control an Army.
+
+Div of Bleeding Reverence
+
+Huma of Radiant Flames
+rules_text: Flying, haste
+Whenever a creature you control dies, you may collect backing equal to its mana value. If you do and it is in your graveyard, return it to the battlefield with a finality counter on it. [i](To collect backing for a number, for up to that many colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i] => Flying, haste
+Whenever Huma of Radiant Flames attacks, you may collect backing X. When you do, creatures you control get +X/+0 until end of turn. [i](To collect backing X, for X colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+pt: 6/6 => 5/5
+
+Legion of Infinite Maws
+cost: {X}{X}{G}{G} => {X}{G}{G}
+rules_text: Retinue — X/X, X/X [i](As this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Legion of Infinite Maws enters with a number of +1/+1 counters on it equal to the amount of mana spent to cast it.
+Armies you control are Hydras in addition to their other types and have trample. => Retinue — X 1/1s [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Creatures in Legion of Infinite Maws's retinue are Hydra Armies and have “Whenever this creature is dealt damage, sacrifice it and create two tokens that are copies of it in the same retinue.”
+pt: 0/0 => 0/4
+
+Unearned Mercy
+
+Koios, the Bereaved
+
+Fall of the Tyrant
+rules_text: Whenever a creature you control dies for the first time each turn, reveal the top five cards of your library. You may put a creature card revealed this way onto the battlefield and the rest on the bottom of your library in a random order. => Once each turn, when a creature you control dies, you may reveal the top five cards of your library. You may put a creature card revealed this way onto the battlefield and the rest on the bottom of your library in a random order.
+
+Grove of the Sherdal
+
+Subdue Undeath
+rules_text: Exile up to one target creature or planeswalker and all token creatures controlled by that creature's controller. => Exile up to one target creature or planeswalker and all tokens in that creature's retinue.
+
+Seizure of Atashvar
+
+Golna, Shah
+rules_text: Protection from noncreatures
+Whenever Golna, Shah attacks, reveal the top five cards of your library. You may put any number of permanent cards revealed this way with total mana value 4 or less onto the battlefield. Put the rest on the bottom of your library in a random order. => At the beginning of your end step, you may collect backing X. [i](For X colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+Whenever you collect backing, you may return a card from your graveyard with mana value less than or equal to the number of colors that were backed to your hand.
+
+Soli, the First Great Satrapy
+rules_text: {T}: Add {C}.
+[i]Grandeur[/i] — Satrapies you control have “{T}, Discard a card that shares a name with this land: Search your library for a Satrapy card with a different name and you don't control a land with that name, reveal it, put it into your hand, then shuffle.” => {T}: Add {C}.
+[i]Grandeur[/i] — Satrapies you control have “{T}, Discard a card that shares a name with this land: Search your library for a Satrapy card that doesn't share a name with a land you control, reveal it, put it into your hand, then shuffle.”
+
+Reclaimed Ruins
+
+Soldier
+
+2Army
+
+Manticore
+
+Rogue
+
+Satrapy
+
+Wizard
+
+Warrior
+
+Horror2
+
+Horror1
+
+Treasure
+
+1Army
+
+0Army
+
+3Army
+
+4Army
+
+5Army
+
+XArmy
+
+Discordance
+rules_text: Flying
+If a creature would die, merge that creature under Discordance instead. They gain that card's abilities.
+Discordance gets +1/+1 for each card merged with it. => Flying
+If a creature would die, merge that creature under Discordance instead. They gain that card's activated and triggered abilities.
+Discordance gets +1/+1 for each card merged with it.
+
+Skycrested Roc
+rules_text: Flash
+Flying
+When Skycrested Roc enters, if you cast it from your hand, exile any number of other target permanents. For as long as they remain exiled, their owner may cast them for {1} rather than their mana cost. => Flash
+Flying
+When Skycrested Roc enters, if you cast it from your hand, exile another target nonland permanent you control and target nonland permanent an opponent controls. For as long as they remain exiled, their owner may cast them for rather than their mana cost.
+
+Last of Marjavar
+rules_text: Whenever a creature you control enters, if you control another creature, exile that creature. When you control no other creatures, return that card to the battlefield under its owner's control. [i](If there are multiple cards exiled with this card, you return only one when a new creature leaves.)[/i] => As long as you control exactly one creature, that creature gets +1/+1 and has ward {2}.
+Whenever a creature you control enters, if you control another creature, exile that creature. When you control no other creatures, return that card to the battlefield under its owner's control. [i](If there are multiple cards exiled with this card, you return only one when a new creature leaves.)[/i]
+
+Dreamstep Assassin
+cost: {2}{B} => {1}{B}
+rules_text: Figment 3 [i](At the beginning of your combat, you may tap other creatures you control with at least 3 power to create a token copy of this with haste. Sacrifice it at end of turn.)[/i]
+Deathtouch
+Whenever Dreamstep Assassin deals combat damage to a player, draw a card. => Deathtouch
+The second spell you cast each turn costs {1} less to cast.
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
