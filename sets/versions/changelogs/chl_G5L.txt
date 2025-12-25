@@ -1,4 +1,662 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+
+
+Soli Skyguard
+rules_text: Flying
+At the beginning of combat on your turn, tap Soli Skyguard unless you collect backing 1. [i](For one colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i] => Flying
+At the beginning of combat on your turn, tap Soli Skyguard unless you collect backing 1. [i](For one color, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+
+Plumecrowned Steed
+rules_text: {T}: Add {C}.
+Collect backing 1, {T}: Add one mana of any color. [i](For one colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+Collect backing 5, {T}: Add two mana of any combination of colors. => {T}: Add {C}.
+Collect backing 1, {T}: Add one mana of any color. [i](For one color, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+Collect backing 5, {T}: Add two mana of any combination of colors.
+
+
+VERSION 4 CHANGELOG
+====================
+
+Labor of Family added.
+Labor of Wit added.
+Labor of Loyalty added.
+Labor of Life added.
+Labor of Mercy added.
+Dragon added.
+Noble added.
+Assassin added.
+Zombie added.
+
+
+Nizev District
+rules_text: {T}: Add {C}.
+Satrapies you control have “Pay 1 life, {T}: Add {B}.” => Nizev District enters tapped unless you control two or fewer other lands.
+Satrapies you control have “{T}: Add {B}.”
+
+Marjavar District
+rules_text: {T}: Add {C}.
+Satrapies you control have “Pay 1 life, {T}: Add {U}.” => Marjavar District enters tapped unless you control two or fewer other lands.
+Satrapies you control have “{T}: Add {U}.”
+
+Sepidgar District
+rules_text: {T}: Add {C}.
+Satrapies you control have “Pay 1 life, {T}: Add {W}.” => Sepidgar District enters tapped unless you control two or fewer other lands.
+Satrapies you control have “{T}: Add {W}.”
+
+Sarvagan District
+rules_text: {T}: Add {C}.
+Satrapies you control have “Pay 1 life, {T}: Add {G}.” => Sarvagan District enters tapped unless you control two or fewer other lands.
+Satrapies you control have “{T}: Add {G}.”
+
+Atashvar District
+rules_text: {T}: Add {C}.
+Satrapies you control have “Pay 1 life, {T}: Add {R}.” => Atashvar District enters tapped unless you control two or fewer other lands.
+Satrapies you control have “{T}: Add {R}.”
+
+Burgeoning Satrapy
+
+Peacock of Good Omens
+
+Garmrud Peddler
+
+Rotten Veilcaster
+
+Bitter Ambition
+
+Nizev Conspirators
+
+Silent Ambusher
+
+Skycrowned Despot
+
+Div of the False Hero
+
+Echoing Fury
+
+Roadworn Dromedary
+
+Omens by Starlight
+
+Serpent of the Shabnam Sea
+
+Harborline Fishermen
+
+Ruinic Safecraker
+
+Step Into Wonder
+
+Cloaked Instigator
+
+Host of the Honored
+
+Satrap of Forgotten Farms
+
+Promise of Greatness
+
+Blade of the Faceless
+
+Mirageblade Arcanist
+
+Splintered Devotee
+
+Deny the Decree
+
+Marshal of Sarvagan
+
+Rally the Firebinders
+
+Pathfinder of the Dunesea
+rules_text: As an additional cost to cast Pathfinder of the Dunesea, you may collect backing 3. [i](For three colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+When Pathfinder of the Dunesea enters, if backing was collected, put two +1/+1 counters on another target creature you control.
+{T}: Add {G}. => As an additional cost to cast Pathfinder of the Dunesea, you may collect backing 3. When you do, put two +1+1 counters on target creature you control. [i](For three colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+{T}: Add {G}.
+
+Steel the Spirit
+
+Garmrud Skyscout
+
+Maw of the Ultimate Sacrifice
+
+Heist Captain
+
+Caravan Rhino
+
+Nizev Courier
+
+Dreadlaugh Manticore
+
+Conductor of Hidden Patterns
+
+Sahra's Brute
+
+Shawl of the Rainbow Feather
+
+Djinn of Hidden Riches
+
+Mournful Withered
+
+Volleyweaver Conjurer
+
+Earthbound Simurgh
+
+Razvar Pactcaller
+
+Strike Through Decay
+
+Sepidgar Outrider
+
+Prove Your Might
+
+Strategist of Empty Halls
+
+Cage of Still Time
+
+Escort to Damnation
+
+Blinding Grit
+
+Trail Through Old Stones
+
+Searing Sands
+
+Knife of the Hidden Face
+
+Means to an End
+
+One Handed Execution
+
+Spoils of the Muktann
+
+Warfather of Atashvar
+
+Spitebound Bakhtak
+
+Strike Down
+
+Atashvar Bowguard
+
+Boonscale Snake
+
+Stripped of Standing
+
+Whispered Commission
+
+Strike of the Faceless
+
+Run Them Down
+
+Decree of the First Shah
+
+One Against All
+cost: {3}{WB} => {2}{WB}{WB}
+
+Teach by Example
+
+Draining Revelation
+
+Cyrukan's Favor
+
+Witness Alkabah
+
+Call of the Huma
+
+Fall of Marjavar
+rules_text: Create a 4/4 black Horror creature token. You gain 4 life.
+At the beginning of your end step, you may collect backing 4. When you do, return Fall of Marjavar from your graveyard to your hand. [i](For four colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i] => Create a 4/4 green Horror creature token. You gain 4 life.
+At the beginning of your end step, you may collect backing 4. When you do, return Fall of Marjavar from your graveyard to your hand. [i](For four colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+
+Death of the First Shah
+
+Call to Wander
+
+Withered Marshal
+
+Glimpse of Grandeur
+
+Dragon of Waking Terrors
+
+Burn the World
+
+Div of a Thousand Grains
+
+Blossoming Elemental
+
+Marjavar Tideseer
+
+Yearning Wavecaller
+
+Andazir's Bloodrager
+
+Innerflame Awakener
+
+Shepherd of the Pride
+
+Broken Wing Paragon
+
+Echoing Arcanist
+
+Withered Sentinel
+
+Div of Shattered Reflections
+
+Wealth of Sarvagan
+
+Cinders of Civilization
+
+Ironhollow Cavern
+
+Avaz Fortress
+
+Danaj Fortress
+
+Grave of the Forgotten
+
+Nizev Fortress
+
+Research Quarter
+
+Boundless Expanse
+
+Soli Fortress
+
+Kaneh Fortress
+
+Muktann Colossus
+
+Scepter of Malice
+rules_text: {T}: Create a Treasure token.
+{W}{U}{B}{R}{G}, Discard a card, {T}: Create a 4/4 black Horror creature token with trample. It can't block this turn. => {T}: Create a Treasure token.
+{W}{U}{B}{R}{G}, Discard a card, {T}: Create a 4/4 green Horror creature token with trample. It can't block this turn.
+
+Beacon of Uneasy Futures
+
+Radiant Hadhayosh
+
+Dagger of Lost Ages
+
+Dismiss the Unremarkable
+
+Rend Mind and Flesh
+
+Atashvar Mobilized
+
+March of Many Banners
+
+Storyteller of Unearthed Tales
+
+Displace in Time
+
+Scour the Camp
+
+Impatient Wishgranter
+
+Foundation Forger
+
+Cast Overboard
+
+Glimpse of Failure
+
+Heartfire Immolator
+
+Wonderlight Magus
+
+Satrap of Empty Halls
+
+Archivist of Soli
+
+Death Deferred
+
+Crushed Resistance
+
+Scouring Windseeker
+
+Sepidgar Conscript
+
+Skyrelic Adept
+
+Spoils of the Stinging King
+
+Muktann Mirage
+
+Blinded Stomper
+
+Voyage of a Thousand Tales
+
+Pass Into Oblivion
+
+Justiciar of Distant Doors
+
+Grasping Visage
+
+Simurgh of the Quiet Pool
+
+Knight of Open Hands
+
+Div of Reflected Voices
+
+Bonded Hunter
+
+Akvani Soulwarden
+
+Rally the Fallen
+
+Silent Seer
+
+Spymaster Sphinx
+
+Borrowed Fury
+
+Akvani Warbrute
+
+Warden of Avaz
+
+Phantomsteed Cavalier
+
+Muktann Scorpion
+type: Creature — Illusion Assassin => Creature — Scorpion
+
+Tempest of Lightning and Dust
+
+Tombbound Creeper
+
+Soli Skyguard
+
+Marjavar Bloomkeeper
+
+Dungeoneering Opportunist
+
+Pyroclastic Blood
+
+Fate of the Forgotten
+
+Ride as One
+
+Overflowing Imagination
+
+Withered Deathchanter
+
+Blade of Freedom
+
+Realm That Never Rests
+
+Chronicle of Tales
+
+Akvani Turncoat
+
+Chart the Plane
+
+Blanched Warden
+rules_text: Nonland cards in libraries, hands, and graveyards lose all types and abilities. => Nonland cards in libraries, exile, and graveyards lose all types, names, and abilities.
+
+Strip Away
+
+Razvar Divbinder
+
+Atashvar Stormcaller
+rules_text: Prowess
+Whenever Atashvar Stormcaller attacks, you may cast a noncreature card that shares a name with another card in your graveyard. [i](You still pay its costs.[/i] => Prowess
+Whenever Atashvar Stormcaller attacks, you may cast target noncreature card that shares a name with another card in your graveyard. If that spell would be put into a graveyard, exile it instead. [i](You still pay its costs.[/i]
+
+Voice of Caravans
+rules_text: Retinue — 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Tokens you control have “{T}: Add one mana of any color.” => Retinue — 1/1, 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Creature tokens you control have “{T}: Add one mana of any color.”
+
+Cup of Infinite Possibilities
+
+Blooming Fireheart
+
+Crucible of Facets
+
+Heart of Creeping Doubt
+
+Clutch of the Tyrant
+
+Twinning Lattice
+
+Quill of Fate
+
+Twins of the Unresting Sting
+
+Perch of the Sherdal
+rules_text: {1}{G}, {T}: Target creature gets +3/+3 until end of turn. 
+{W}, {T}: Target creature gains lifelink until end of turn.
+{1}{G}{W}, {T}: Dynamize. Activate only as a sorcery. [i](Activate any number of this artifact's other abilities without paying their costs.)[/i] => {2}{G}, {T}: Target creature gets +3/+3 until end of turn. 
+{W}, {T}: Target creature gains lifelink until end of turn.
+{2}{G}{W}, {T}: Dynamize. Activate only as a sorcery. [i](Activate any number of this artifact's other abilities without paying their costs.)[/i]
+
+Core of Swelling Fields
+
+Shomi's Boatswain
+
+Death by One Million Stings
+
+Koios's Charge
+
+Endearing Companionship
+
+Petition the Bakhtak
+
+Choir of Trembling Hearts
+
+Siegebreaker Manticore
+
+Plumecrowned Steed
+
+Sarvagan Footman
+
+Maneli Shellsinger
+
+Amaurosis
+
+Stingbreaker
+
+Danaj War Lizard
+
+Unbidden Mandate
+rules_text: Search your library for a legendary card, exile it, then shuffle. If it's mana value is less than the number of legendary permanents you control, you may cast it without paying its mana cost. Otherwise, put it into your hand. => Search your library for a legendary card, exile it, then shuffle. If it's mana value is less than the number of legendary nonland permanents you control, you may cast it without paying its mana cost. Otherwise, put it into your hand.
+
+Winged Enigma
+
+Div of Ruined Bargains
+
+Andazir, Acrimony's Toy
+
+Break Their Markets Open
+rules_text: Each creature you control gets +1/+1 for each of its colors.
+{X}: Target creature becomes all the colors used to activate this ability until end of turn. => Each creature you control gets +1/+1 for each of its colors.
+{X}: Target creature becomes the colors used to activate this ability until end of turn.
+
+Soli Palace
+
+Avaz Palace
+
+Danaj Palace
+
+Garmrud Palace
+
+Atashvar Palace
+
+Seat of Power
+
+Sunshroud Coil
+
+Dali, Scribe of the Fields
+
+Hadak's Gilded Guard
+
+Stalker of Horizons
+
+Mehr's Decree
+
+Sarvagan Massacre
+
+Div of the Wandering Mind
+
+Child of Maaru
+
+Mirages of Dunesea
+
+Regiment on Wings
+
+Mehr, Blight of Life
+
+Desire
+
+Hadak, Tyrant of Alkabah
+
+Andazir, Destined Prince
+
+The First Blade of Alkabah
+
+The Timeless Simurgh
+cost: {W}{U}{B}{R}{G} => {1}{W}{U}{B}{R}{G}
+rules_text: Flying
+The first white spell you cast each turn costs {W} less to cast. The same is true for the first blue spell and {U}, the first black spell and {B}, the first red spell and {R}, and the first green spell and {G}. This effect reduces only the amount of colored mana you pay. => Flying
+When The Timeless Simurgh enters, you may search your library for two noncolorless cards and reveal them. If they share no colors but have five colors in total, put them into your hand. Then shuffle.
+
+Tidewatcher's Wisdom
+
+Div of Fraying Sanity
+
+Judgment from Above
+
+Warfront Ravager
+
+Paternal Devotion
+
+Scour the Tombs
+
+Hollow Eyed Ghulspawn
+
+Cyrukan, the Measured Blade
+
+Ruby of the Wastes
+
+Zareen, Innocent Heir
+
+The Only Constant
+
+Sahra, Hand of Ruin
+
+Shir, Friend of Golna
+
+In Mourning
+
+Ambivalence
+
+Hayat, Whisper of Nightmares
+
+Counsel of the Highest Peak
+
+Shomi, Wanderer of Tales
+
+Reefclaw Dredger
+
+Devourer of Devotees
+
+Secondhand Serenade
+
+Glow of Defiance
+
+Stories in Shifting Sand
+
+General of Phantasms
+
+Div of Bleeding Reverence
+
+Huma of Radiant Flames
+rules_text: Flying, haste
+Whenever Huma of Radiant Flames attacks, you may collect backing X. When you do, creatures you control get +X/+0 until end of turn. [i](To collect backing X, for X colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i] => Flying
+Whenever Huma of Radiant Flames is exiled to pay a cost, for as long as it remains exiled you may cast it. [i](This includes additional costs like collect backing.)[/i]
+
+Legion of Infinite Maws
+
+Feather of All Paths
+rules_text: Feather of All Paths has all activated abilities of other artifacts you control with mana value 1 or greater.
+{2}{W}{U}{B}{R}{G}: Dynamize. Activate only once each turn. [i](Activate any number of this artifact's other abilities without paying their costs.)[/i] => Feather of All Paths can only dynamize once each turn.
+Feather of All Paths has all activated abilities of other artifacts you control with mana value 1 or greater.
+{2}{W}{U}{B}{R}{G}: Dynamize. Activate only once each turn. [i](Activate any number of this artifact's other abilities without paying their costs.)[/i]
+
+Unearned Mercy
+
+Marvels of Alkabah
+
+Koios, the Bereaved
+
+Revelation in Ruin
+
+The Young Proselyte
+
+Fall of the Tyrant
+
+Subdue Undeath
+
+Seizure of Atashvar
+
+Golna, Shah
+rules_text: At the beginning of your end step, you may collect backing X. [i](For X colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+Whenever you collect backing, you may return a card from your graveyard with mana value less than or equal to the number of colors that were backed to your hand. => Vigilance
+At the beginning of your end step, you may collect backing X. [i](For X colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+Whenever you collect backing, you may return a card from your graveyard with mana value less than or equal to the number of colors that were backed to your hand.
+
+Soli, the First Great Satrapy
+
+Reclaimed Ruins
+
+2Army
+
+Manticore
+
+Satrapy
+
+Wizard
+
+Warrior
+
+Horror2
+
+Horror1
+
+Treasure
+
+1Army
+
+0Army
+
+3Army
+
+4Army
+
+5Army
+
+XArmy
+
+Khul-Kata, Tomb Colossus
+
+Discordance
+
+Skycrested Roc
+rules_text: Flash
+Flying
+When Skycrested Roc enters, if you cast it from your hand, exile another target nonland permanent you control and target nonland permanent an opponent controls. For as long as they remain exiled, their owner may cast them for rather than their mana cost. => Flash
+Flying
+When Skycrested Roc enters, if you cast it from your hand, exile another target nonland permanent you control and target nonland permanent an opponent controls. For as long as they remain exiled, their owner may cast them for {1} rather than their mana cost.
+
+Last of Marjavar
+
+Seat of the Faceless
+
+Ic, Seeker of Elsewheres
+
+Dreamstep Assassin
+
+Coronation of Shadows
+
+
+VERSION 3 CHANGELOG
 ====================
 
 No changes.
