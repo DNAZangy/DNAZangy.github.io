@@ -1,8 +1,10 @@
 ﻿{
     "name": "Theros: Age of Trax",
-    "formats": "Zangy, REV",
+    "formats": "Zangy, Revolution",
     "trimmed": "y",
     "image_type": "png",
+    "draft_structure": "play booster",
+    "unpreviewed": "card back",
     "cards": [
         {
             "card_name": "Sunbeam Alseid",
@@ -219,7 +221,7 @@
             "type": "Creature \u2014 Cat Soldier",
             "number": 261,
             "color_identity": "WB",
-            "cost": "{1{W}B}",
+            "cost": "{1}{WB}",
             "rules_text": "Whenever a creature you control leaves the battlefield, put a +1/+1 counter on Traxian Hoplite.",
             "flavor_text": "[i]The wandering mind gets the wandering spear.[/i]",
             "pt": "1/1",
@@ -491,7 +493,7 @@
             "type": "Creature \u2014 Minotaur Wizard",
             "number": 262,
             "color_identity": "UR",
-            "cost": "{1{U}R}{UR}",
+            "cost": "{1}{UR}{UR}",
             "rules_text": "Noncreature spells you cast cost {1} less to cast.",
             "flavor_text": "[i]In every mote of energy, Keranos hid a infinite existence of possibilities.[/i]",
             "pt": "2/3",
@@ -971,7 +973,7 @@
             "type": "Instant",
             "number": 256,
             "color_identity": "RG",
-            "cost": "{1{R}G}",
+            "cost": "{1}{RG}",
             "rules_text": "Target creature you control gets +4/+3 until end of turn.",
             "flavor_text": "[i]Koios trained with Claes in what seemed as centuries, as the two bolstered each other. While the Spear taught Claes to fight, the Shield taught Koios to love.[/i]",
             "pt": "",
@@ -3939,7 +3941,7 @@
             "type": "Legendary Enchantment \u2014 Shrine",
             "number": 267,
             "color_identity": "WR",
-            "cost": "{1{R}W}",
+            "cost": "{1}{RW}",
             "rules_text": "At the beginning of combat on your turn, target creature or Shrine you control gains first strike until end of turn. If you control three or more Shrines, it gains double strike until end of turn instead.",
             "flavor_text": "[i]Karda was split in two during the burning of Pidae. His nobility in battle spawned Iroas.[/i]",
             "pt": "",
@@ -3975,7 +3977,7 @@
             "type": "Legendary Enchantment \u2014 Shrine",
             "number": 263,
             "color_identity": "UR",
-            "cost": "{1{U}R}",
+            "cost": "{1}{UR}",
             "rules_text": "At the beginning of combat on your turn, you may discard a card. If you do, scry 2 if you control three or more Shrines, then draw a card.",
             "flavor_text": "[i]\u201cI was seized by inspiration one night. I worked feverishly for a week, then a month, to ensure this temple's absolute perfection.\u201d \n\u2014Nykthos, Architect of Gods [/i]",
             "pt": "",
@@ -4011,7 +4013,7 @@
             "type": "Legendary Enchantment \u2014 Shrine",
             "number": 269,
             "color_identity": "UG",
-            "cost": "{1{G}U}",
+            "cost": "{1}{GU}",
             "rules_text": "At the beginning of combat on your turn, up to one target Shrine you control becomes a creature in addition to its other types with base power and toughness 3/3 until end of turn. If you control three or more Shrines, it has base power and toughness 6/6 instead.",
             "flavor_text": "[i][/i]",
             "pt": "",
@@ -4029,7 +4031,7 @@
             "type": "Legendary Enchantment \u2014 Shrine",
             "number": 254,
             "color_identity": "BR",
-            "cost": "{1{B}R}",
+            "cost": "{1}{BR}",
             "rules_text": "At the beginning of combat on your turn, Shrine to Mogis deals 1 damage to each opponent. If you control three or more Shrines, Shrine to Mogis deals 3 damage to each opponent instead.",
             "flavor_text": "[i]Carnage is sacred to the bull-headed god, no matter where it occurs. [/i]",
             "pt": "",
@@ -6097,7 +6099,7 @@
             "notes": "!tag Theros\n!tag Karda\n!tag Claes\n!tag Sparker\n!tag Planeswalker"
         },
         {
-            "card_name": "Kynaios, Blade-Boundv2",
+            "card_name": "Kynaios, Blade-Bound",
             "color": "WG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Soldier",
@@ -6115,5 +6117,5 @@
             "notes": "!tag Theros\n!tag Kynaios\nAura love"
         }
     ],
-    "version": 1
+    "version": 2
 }
