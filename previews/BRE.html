@@ -5,6 +5,10 @@
 	<link rel="stylesheet" href="/resources/header.css">
 	<title>BRE visual preview</title>
 	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
 		body {
 			font-family: Arial, sans-serif;
 			margin: 0;
@@ -35,8 +39,8 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
@@ -82,7 +86,7 @@
 		.banner {
 			width: 100%;
 			height: auto;
-			padding-top: 20px;
+			padding-top: 80px;
 			padding-bottom: 50px;
 		}
 		.logo {
@@ -118,33 +122,41 @@
 			background-size: contain;
 			background-position: center;
 		}
-		.icon-bar {
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
 			display: grid;
-			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
-			gap: 1px;
-			padding-left: 5%;
-			padding-right: 5%;
-			padding-top: 2%;
-			padding-bottom: 1%;
-			justify-items: center;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
 			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
 		}
-		.icon-bar .icon img {
-			width: 90%;
-			max-width: 80px;
-			height: auto;
-			display: block;
-			padding: 5%;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
 		}
-		.icon-bar .dot img {
-			width: 50%;
-			max-width: 65px;
-			height: auto;
-			display: block;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
 		}
 		.preload-hidden {
 			display: none;
@@ -170,13 +182,13 @@
 		<img class="preload-hidden" src="/sets/ALK-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ACT-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ROS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/G5L-files/icon.png" />
 		<img class="preload-hidden" src="/sets/HOD-files/icon.png" />
 		<img class="preload-hidden" src="/sets/BRE-files/icon.png" />
 		<img class="preload-hidden" src="/sets/HTS-files/icon.png" />
 		<img class="preload-hidden" src="/sets/MSK-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ORC-files/icon.png" />
 		<img class="preload-hidden" src="/sets/TRO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/G5L-files/icon.png" />
 		<img class="preload-hidden" src="/sets/ZANG-files/icon.png" />
 		<img class="preload-hidden" src="/sets/CIUB-files/icon.png" />
 		<img class="preload-hidden" src="/sets/RAR-files/icon.png" />
@@ -194,461 +206,463 @@
 		</div>
 	</div>
 
-	<div class="icon-bar">
-			<div class="icon"><a href="SRC"><img src="/sets/SRC-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="TRX"><img src="/sets/TRX-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="TWI"><img src="/sets/TWI-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="ALK"><img src="/sets/ALK-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="ACT"><img src="/sets/ACT-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="ROS"><img src="/sets/ROS-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="HOD"><img src="/sets/HOD-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="BRE"><img src="/sets/BRE-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="HTS"><img src="/sets/HTS-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="MSK"><img src="/sets/MSK-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="ORC"><img src="/sets/ORC-files/icon.png"></img></a></div>
-		<div class="icon"><a href="TRO"><img src="/sets/TRO-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="G5L"><img src="/sets/G5L-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="ZANG"><img src="/sets/ZANG-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="CIUB"><img src="/sets/CIUB-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="RAR"><img src="/sets/RAR-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="ZNU"><img src="/sets/ZNU-files/icon.png"></img></a></div>
-
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="BRE"><img src="/sets/BRE-files/icon.png">Kaldheim: Bretagard’s Revival</a>
+	
+		<a class="set-bar inactive" href="SRC"><img src="/sets/SRC-files/icon.png">Secrets of the River Cities</a>
+	
+		<a class="set-bar inactive" href="TRX"><img src="/sets/TRX-files/icon.png">Theros: Age of Trax</a>
+	
+		<a class="set-bar inactive" href="TWI"><img src="/sets/TWI-files/icon.png">Exalts of Twiltrie</a>
+	
+		<a class="set-bar inactive" href="ALK"><img src="/sets/ALK-files/icon.png">Alkabah</a>
+	
+		<a class="set-bar inactive" href="ACT"><img src="/sets/ACT-files/icon.png">The Stage Presents: The Neverending Act</a>
+	
+		<a class="set-bar inactive" href="ROS"><img src="/sets/ROS-files/icon.png">Alkabah: Rise of Soli</a>
+	
+		<a class="set-bar inactive" href="G5L"><img src="/sets/G5L-files/icon.png">Alkabah: Golna’s Five Labors</a>
+	
+		<a class="set-bar inactive" href="HOD"><img src="/sets/HOD-files/icon.png">Houses of Dewold</a>
+	
+		<a class="set-bar inactive" href="HTS"><img src="/sets/HTS-files/icon.png">Hatsuniji: We Stare Through the Window, Together, Holding Hands</a>
+	
+		<a class="set-bar inactive" href="MSK"><img src="/sets/MSK-files/icon.png">Myths, Masks, and Minutes Spent Apart</a>
+	
+		<a class="set-bar inactive" href="ORC"><img src="/sets/ORC-files/icon.png">An Oddness in the River Cities</a>
+	
+		<a class="set-bar inactive" href="TRO"><img src="/sets/TRO-files/icon.png">Trovsko</a>
+	
+		<a class="set-bar inactive" href="ZANG"><img src="/sets/ZANG-files/icon.png">Zangy Cube</a>
+	
+		<a class="set-bar inactive" href="CIUB"><img src="/sets/CIUB-files/icon.png">Tairngire Cube</a>
+	
+		<a class="set-bar inactive" href="RAR"><img src="/sets/RAR-files/icon.png">Ravnica: Resurgence</a>
+	
+		<a class="set-bar inactive" href="ZNU"><img src="/sets/ZNU-files/icon.png">Zendikar Unleashed</a>
+	
 		</div>
 		<div class="banner">
 		<img class="logo" src="/sets/BRE-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\BRE-files\img\13_Gisla, Merciful Shepherd.png" id="13_Gisla, Merciful Shepherd" data-flag="@X" onclick="openSidebar('13_Gisla, Merciful Shepherd',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\44_Champion of Stillness.png" id="44_Champion of Stillness" data-flag="@X" onclick="openSidebar('44_Champion of Stillness',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\81_Alsig, Hardened Reaper.png" id="81_Alsig, Hardened Reaper" data-flag="@X" onclick="openSidebar('81_Alsig, Hardened Reaper',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\136_Goldspan Hellkite.png" id="136_Goldspan Hellkite" data-flag="@X" onclick="openSidebar('136_Goldspan Hellkite',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\170_Esika, Recovering.png" id="170_Esika, Recovering" data-flag="@X" onclick="openSidebar('170_Esika, Recovering',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\20_Rebuilding Beskir Hall.png" id="20_Rebuilding Beskir Hall" data-flag="@X" onclick="openSidebar('20_Rebuilding Beskir Hall',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\76_Vela Heights Seer.png" id="76_Vela Heights Seer" data-flag="@X" onclick="openSidebar('76_Vela Heights Seer',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\111_Scornsong Reaper.png" id="111_Scornsong Reaper" data-flag="@X" onclick="openSidebar('111_Scornsong Reaper',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\160_Voice of the Longhall.png" id="160_Voice of the Longhall" data-flag="@X" onclick="openSidebar('160_Voice of the Longhall',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\198_Vorinclex, the Apex.png" id="198_Vorinclex, the Apex" data-flag="@X" onclick="openSidebar('198_Vorinclex, the Apex',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\4_Blade of the Worthy.png" id="4_Blade of the Worthy" data-flag="@X" onclick="openSidebar('4_Blade of the Worthy',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\43_Betrayer of the Omenseekers.png" id="43_Betrayer of the Omenseekers" data-flag="@X" onclick="openSidebar('43_Betrayer of the Omenseekers',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\91_Draugr's Due.png" id="91_Draugrs Due" data-flag="@X" onclick="openSidebar('91_Draugrs Due',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\127_Dragonkin Herald.png" id="127_Dragonkin Herald" data-flag="@X" onclick="openSidebar('127_Dragonkin Herald',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\161_Blighted Pack.png" id="161_Blighted Pack" data-flag="@X" onclick="openSidebar('161_Blighted Pack',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\19_Protector of the Eight Doors.png" id="19_Protector of the Eight Doors" data-flag="@X" onclick="openSidebar('19_Protector of the Eight Doors',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\45_Charm of the Code.png" id="45_Charm of the Code" data-flag="@X" onclick="openSidebar('45_Charm of the Code',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\92_The Eidermaw_back.png" alt="/sets\BRE-files\img\92_The Eidermaw_front.png" id="92_The Eidermaw" data-flag="@XD" onclick="openSidebar('92_The Eidermaw',false)"><button class="flip-btn" onclick="imgFlip('92_The Eidermaw')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\132_Forge of Five-Hundred Names.png" id="132_Forge of Five-Hundred Names" data-flag="@X" onclick="openSidebar('132_Forge of Five-Hundred Names',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\164_Ciar's Fleshroot.png" id="164_Ciars Fleshroot" data-flag="@X" onclick="openSidebar('164_Ciars Fleshroot',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\21_Reciter of Tales.png" id="21_Reciter of Tales" data-flag="@X" onclick="openSidebar('21_Reciter of Tales',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\46_The Chasm Beast_back.png" alt="/sets\BRE-files\img\46_The Chasm Beast_front.png" id="46_The Chasm Beast" data-flag="@XD" onclick="openSidebar('46_The Chasm Beast',false)"><button class="flip-btn" onclick="imgFlip('46_The Chasm Beast')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\93_Elskul Rager.png" id="93_Elskul Rager" data-flag="@X" onclick="openSidebar('93_Elskul Rager',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\137_Heirloom Fang.png" id="137_Heirloom Fang" data-flag="@X" onclick="openSidebar('137_Heirloom Fang',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\177_The Himinneater_back.png" alt="/sets\BRE-files\img\177_The Himinneater_front.png" id="177_The Himinneater" data-flag="@XD" onclick="openSidebar('177_The Himinneater',false)"><button class="flip-btn" onclick="imgFlip('177_The Himinneater')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\26_Sarulf's Binding.png" id="26_Sarulfs Binding" data-flag="@X" onclick="openSidebar('26_Sarulfs Binding',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\51_Echoes of the Einir.png" id="51_Echoes of the Einir" data-flag="@X" onclick="openSidebar('51_Echoes of the Einir',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\104_Oilbound Spawn.png" id="104_Oilbound Spawn" data-flag="@X" onclick="openSidebar('104_Oilbound Spawn',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\140_Judgment of the Skoti.png" id="140_Judgment of the Skoti" data-flag="@X" onclick="openSidebar('140_Judgment of the Skoti',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\178_Horncaller of the Kannah.png" id="178_Horncaller of the Kannah" data-flag="@X" onclick="openSidebar('178_Horncaller of the Kannah',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\31_Speaker of Bretagard.png" id="31_Speaker of Bretagard" data-flag="@X" onclick="openSidebar('31_Speaker of Bretagard',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\55_Giant's Rebuff.png" id="55_Giants Rebuff" data-flag="@X" onclick="openSidebar('55_Giants Rebuff',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\110_Sarulf, Dread-Wolf.png" id="110_Sarulf, Dread-Wolf" data-flag="@X" onclick="openSidebar('110_Sarulf, Dread-Wolf',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\143_The Njidwing_back.png" alt="/sets\BRE-files\img\143_The Njidwing_front.png" id="143_The Njidwing" data-flag="@XD" onclick="openSidebar('143_The Njidwing',false)"><button class="flip-btn" onclick="imgFlip('143_The Njidwing')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\181_Keeper of the Old Marks.png" id="181_Keeper of the Old Marks" data-flag="@X" onclick="openSidebar('181_Keeper of the Old Marks',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\32_Stand Before the Vaklyries.png" id="32_Stand Before the Vaklyries" data-flag="@X" onclick="openSidebar('32_Stand Before the Vaklyries',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\59_Istfell Wanderer.png" id="59_Istfell Wanderer" data-flag="@X" onclick="openSidebar('59_Istfell Wanderer',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\113_Skelle Scorn Pole.png" id="113_Skelle Scorn Pole" data-flag="@X" onclick="openSidebar('113_Skelle Scorn Pole',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\147_Olsen Moltenhand.png" id="147_Olsen Moltenhand" data-flag="@X" onclick="openSidebar('147_Olsen Moltenhand',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\185_Nameless Heirloom.png" id="185_Nameless Heirloom" data-flag="@X" onclick="openSidebar('185_Nameless Heirloom',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\35_The Stjarnapelt_back.png" alt="/sets\BRE-files\img\35_The Stjarnapelt_front.png" id="35_The Stjarnapelt" data-flag="@XD" onclick="openSidebar('35_The Stjarnapelt',false)"><button class="flip-btn" onclick="imgFlip('35_The Stjarnapelt')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\67_Runebound Mentor.png" id="67_Runebound Mentor" data-flag="@X" onclick="openSidebar('67_Runebound Mentor',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\117_Test of the Vessel.png" id="117_Test of the Vessel" data-flag="@X" onclick="openSidebar('117_Test of the Vessel',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\152_Snowclash Shaman.png" id="152_Snowclash Shaman" data-flag="@X" onclick="openSidebar('152_Snowclash Shaman',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\186_Pathless Ranger.png" id="186_Pathless Ranger" data-flag="@X" onclick="openSidebar('186_Pathless Ranger',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\39_Unlikely Hero.png" id="39_Unlikely Hero" data-flag="@X" onclick="openSidebar('39_Unlikely Hero',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\77_Volatile Spellcatcher.png" id="77_Volatile Spellcatcher" data-flag="@X" onclick="openSidebar('77_Volatile Spellcatcher',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\82_Binding the Dread-Wolf.png" id="82_Binding the Dread-Wolf" data-flag="@X" onclick="openSidebar('82_Binding the Dread-Wolf',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\154_Surtland Lumberjack.png" id="154_Surtland Lumberjack" data-flag="@X" onclick="openSidebar('154_Surtland Lumberjack',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\188_The Raider's Trail.png" id="188_The Raiders Trail" data-flag="@X" onclick="openSidebar('188_The Raiders Trail',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\2_Axgard Warden.png" id="2_Axgard Warden" data-flag="@X" onclick="openSidebar('2_Axgard Warden',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\41_Alrund's Envoy.png" id="41_Alrunds Envoy" data-flag="@X" onclick="openSidebar('41_Alrunds Envoy',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\84_Blighted Coil.png" id="84_Blighted Coil" data-flag="@X" onclick="openSidebar('84_Blighted Coil',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\122_Axgard Doorwarden.png" id="122_Axgard Doorwarden" data-flag="@X" onclick="openSidebar('122_Axgard Doorwarden',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\163_Burrowed Torga.png" id="163_Burrowed Torga" data-flag="@X" onclick="openSidebar('163_Burrowed Torga',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\3_Beskir Lawspeaker.png" id="3_Beskir Lawspeaker" data-flag="@X" onclick="openSidebar('3_Beskir Lawspeaker',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\47_Covewalker Seer.png" id="47_Covewalker Seer" data-flag="@X" onclick="openSidebar('47_Covewalker Seer',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\86_Call to Elskul_back.png" alt="/sets\BRE-files\img\86_Call to Elskul_front.png" id="86_Call to Elskul" data-flag="@XD" onclick="openSidebar('86_Call to Elskul',false)"><button class="flip-btn" onclick="imgFlip('86_Call to Elskul')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\125_Burn the Oathless.png" id="125_Burn the Oathless" data-flag="@X" onclick="openSidebar('125_Burn the Oathless',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\166_Coilseeker.png" id="166_Coilseeker" data-flag="@X" onclick="openSidebar('166_Coilseeker',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\5_Bond of the Code.png" id="5_Bond of the Code" data-flag="@X" onclick="openSidebar('5_Bond of the Code',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\49_Divided Omen_back.png" alt="/sets\BRE-files\img\49_Divided Omen_front.png" id="49_Divided Omen" data-flag="@XD" onclick="openSidebar('49_Divided Omen',false)"><button class="flip-btn" onclick="imgFlip('49_Divided Omen')"></button></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\87_Ceaseless Return_back.png" alt="/sets\BRE-files\img\87_Ceaseless Return_front.png" id="87_Ceaseless Return" data-flag="@XD" onclick="openSidebar('87_Ceaseless Return',false)"><button class="flip-btn" onclick="imgFlip('87_Ceaseless Return')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\126_Clanborn Pair.png" id="126_Clanborn Pair" data-flag="@X" onclick="openSidebar('126_Clanborn Pair',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\169_Elderleaf Bowmaster.png" id="169_Elderleaf Bowmaster" data-flag="@X" onclick="openSidebar('169_Elderleaf Bowmaster',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\8_Codespell Arbiter.png" id="8_Codespell Arbiter" data-flag="@X" onclick="openSidebar('8_Codespell Arbiter',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\52_Exchange of Faces_back.png" alt="/sets\BRE-files\img\52_Exchange of Faces_front.png" id="52_Exchange of Faces" data-flag="@XD" onclick="openSidebar('52_Exchange of Faces',false)"><button class="flip-btn" onclick="imgFlip('52_Exchange of Faces')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\89_Coward Slayer.png" id="89_Coward Slayer" data-flag="@X" onclick="openSidebar('89_Coward Slayer',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\131_Flamesight Augur.png" id="131_Flamesight Augur" data-flag="@X" onclick="openSidebar('131_Flamesight Augur',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\175_Gladewalker Wanderers.png" id="175_Gladewalker Wanderers" data-flag="@X" onclick="openSidebar('175_Gladewalker Wanderers',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\10_Curse-Bound Wayfarer.png" id="10_Curse-Bound Wayfarer" data-flag="@X" onclick="openSidebar('10_Curse-Bound Wayfarer',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\53_Frostbitten Legion.png" id="53_Frostbitten Legion" data-flag="@X" onclick="openSidebar('53_Frostbitten Legion',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\96_Festering Rebirth.png" id="96_Festering Rebirth" data-flag="@X" onclick="openSidebar('96_Festering Rebirth',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\133_The Gates Stood Strong.png" id="133_The Gates Stood Strong" data-flag="@X" onclick="openSidebar('133_The Gates Stood Strong',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\179_Hunt in Tandem.png" id="179_Hunt in Tandem" data-flag="@X" onclick="openSidebar('179_Hunt in Tandem',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\14_Guardian of the Honored.png" id="14_Guardian of the Honored" data-flag="@X" onclick="openSidebar('14_Guardian of the Honored',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\54_Frostvein Binder.png" id="54_Frostvein Binder" data-flag="@X" onclick="openSidebar('54_Frostvein Binder',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\97_Folly of the Braggarts.png" id="97_Folly of the Braggarts" data-flag="@X" onclick="openSidebar('97_Folly of the Braggarts',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\134_Gloryweaver Bard.png" id="134_Gloryweaver Bard" data-flag="@X" onclick="openSidebar('134_Gloryweaver Bard',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\180_Into the North.png" id="180_Into the North" data-flag="@X" onclick="openSidebar('180_Into the North',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\17_Labors Without End.png" id="17_Labors Without End" data-flag="@X" onclick="openSidebar('17_Labors Without End',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\56_Gift of the Frost-Crown.png" id="56_Gift of the Frost-Crown" data-flag="@X" onclick="openSidebar('56_Gift of the Frost-Crown',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\100_Harthhall Champion.png" id="100_Harthhall Champion" data-flag="@X" onclick="openSidebar('100_Harthhall Champion',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\138_Hew the Skyterror.png" id="138_Hew the Skyterror" data-flag="@X" onclick="openSidebar('138_Hew the Skyterror',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\182_Koma's Call.png" id="182_Komas Call" data-flag="@X" onclick="openSidebar('182_Komas Call',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\23_Return of the Heart_back.png" alt="/sets\BRE-files\img\23_Return of the Heart_front.png" id="23_Return of the Heart" data-flag="@XD" onclick="openSidebar('23_Return of the Heart',false)"><button class="flip-btn" onclick="imgFlip('23_Return of the Heart')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\58_Icebound Prison.png" id="58_Icebound Prison" data-flag="@X" onclick="openSidebar('58_Icebound Prison',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\102_Mindhusk Effigy.png" id="102_Mindhusk Effigy" data-flag="@X" onclick="openSidebar('102_Mindhusk Effigy',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\139_Holder of Toralf's Thunder.png" id="139_Holder of Toralfs Thunder" data-flag="@X" onclick="openSidebar('139_Holder of Toralfs Thunder',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\183_Lathril's Chant.png" id="183_Lathrils Chant" data-flag="@X" onclick="openSidebar('183_Lathrils Chant',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\24_Righteous Roar.png" id="24_Righteous Roar" data-flag="@X" onclick="openSidebar('24_Righteous Roar',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\60_Littjara Chime.png" id="60_Littjara Chime" data-flag="@X" onclick="openSidebar('60_Littjara Chime',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\107_Remnant of Karfell.png" id="107_Remnant of Karfell" data-flag="@X" onclick="openSidebar('107_Remnant of Karfell',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\142_Mountaincleaver.png" id="142_Mountaincleaver" data-flag="@X" onclick="openSidebar('142_Mountaincleaver',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\184_Left to Rust_back.png" alt="/sets\BRE-files\img\184_Left to Rust_front.png" id="184_Left to Rust" data-flag="@XD" onclick="openSidebar('184_Left to Rust',false)"><button class="flip-btn" onclick="imgFlip('184_Left to Rust')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\28_Shephard's Blade.png" id="28_Shephards Blade" data-flag="@X" onclick="openSidebar('28_Shephards Blade',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\63_Rebuke of Rime.png" id="63_Rebuke of Rime" data-flag="@X" onclick="openSidebar('63_Rebuke of Rime',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\112_Selfcrowned Skald.png" id="112_Selfcrowned Skald" data-flag="@X" onclick="openSidebar('112_Selfcrowned Skald',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\144_Oathbearer at the Seventh Door_back.png" alt="/sets\BRE-files\img\144_Oathbearer at the Seventh Door_front.png" id="144_Oathbearer at the Seventh Door" data-flag="@XD" onclick="openSidebar('144_Oathbearer at the Seventh Door',false)"><button class="flip-btn" onclick="imgFlip('144_Oathbearer at the Seventh Door')"></button></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\189_Reunification_back.png" alt="/sets\BRE-files\img\189_Reunification_front.png" id="189_Reunification" data-flag="@XD" onclick="openSidebar('189_Reunification',false)"><button class="flip-btn" onclick="imgFlip('189_Reunification')"></button></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\33_Starnheim Redeemer_back.png" alt="/sets\BRE-files\img\33_Starnheim Redeemer_front.png" id="33_Starnheim Redeemer" data-flag="@XD" onclick="openSidebar('33_Starnheim Redeemer',false)"><button class="flip-btn" onclick="imgFlip('33_Starnheim Redeemer')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\64_Resilient Omenseeker.png" id="64_Resilient Omenseeker" data-flag="@X" onclick="openSidebar('64_Resilient Omenseeker',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\114_Skemfar Intruder.png" id="114_Skemfar Intruder" data-flag="@X" onclick="openSidebar('114_Skemfar Intruder',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\145_Oathsworn Ally.png" id="145_Oathsworn Ally" data-flag="@X" onclick="openSidebar('145_Oathsworn Ally',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\190_Run with the Pack.png" id="190_Run with the Pack" data-flag="@X" onclick="openSidebar('190_Run with the Pack',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\34_Steel at the Threshold.png" id="34_Steel at the Threshold" data-flag="@X" onclick="openSidebar('34_Steel at the Threshold',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\65_Rimebound Mystic.png" id="65_Rimebound Mystic" data-flag="@X" onclick="openSidebar('65_Rimebound Mystic',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\119_Valki's Pawn.png" id="119_Valkis Pawn" data-flag="@X" onclick="openSidebar('119_Valkis Pawn',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\149_Reckoning of Lava_back.png" alt="/sets\BRE-files\img\149_Reckoning of Lava_front.png" id="149_Reckoning of Lava" data-flag="@XD" onclick="openSidebar('149_Reckoning of Lava',false)"><button class="flip-btn" onclick="imgFlip('149_Reckoning of Lava')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\191_Runesworn Champion.png" id="191_Runesworn Champion" data-flag="@X" onclick="openSidebar('191_Runesworn Champion',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\36_Storyforged Champion.png" id="36_Storyforged Champion" data-flag="@X" onclick="openSidebar('36_Storyforged Champion',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\69_Skald of the Pillars.png" id="69_Skald of the Pillars" data-flag="@X" onclick="openSidebar('69_Skald of the Pillars',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\120_Vision in the Drifts.png" id="120_Vision in the Drifts" data-flag="@X" onclick="openSidebar('120_Vision in the Drifts',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\153_Stormchant Magus.png" id="153_Stormchant Magus" data-flag="@X" onclick="openSidebar('153_Stormchant Magus',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\192_Sagaweaver of Koma.png" id="192_Sagaweaver of Koma" data-flag="@X" onclick="openSidebar('192_Sagaweaver of Koma',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\37_Storysmith of the Hearth.png" id="37_Storysmith of the Hearth" data-flag="@X" onclick="openSidebar('37_Storysmith of the Hearth',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\78_Weaver of False Tales.png" id="78_Weaver of False Tales" data-flag="@X" onclick="openSidebar('78_Weaver of False Tales',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\83_Bitter Raider.png" id="83_Bitter Raider" data-flag="@X" onclick="openSidebar('83_Bitter Raider',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\159_Unlimited Horizons.png" id="159_Unlimited Horizons" data-flag="@X" onclick="openSidebar('159_Unlimited Horizons',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\200_Whispers to the Fanged.png" id="200_Whispers to the Fanged" data-flag="@X" onclick="openSidebar('200_Whispers to the Fanged',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\1_Accordant Valkyrie.png" id="1_Accordant Valkyrie" data-flag="@X" onclick="openSidebar('1_Accordant Valkyrie',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\42_Aurora Charger.png" id="42_Aurora Charger" data-flag="@X" onclick="openSidebar('42_Aurora Charger',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\85_Blighted Duskwielder.png" id="85_Blighted Duskwielder" data-flag="@X" onclick="openSidebar('85_Blighted Duskwielder',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\121_Avalanche Hagi.png" id="121_Avalanche Hagi" data-flag="@X" onclick="openSidebar('121_Avalanche Hagi',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\162_Boughcleaver.png" id="162_Boughcleaver" data-flag="@X" onclick="openSidebar('162_Boughcleaver',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\6_Brace Against Ruin.png" id="6_Brace Against Ruin" data-flag="@X" onclick="openSidebar('6_Brace Against Ruin',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\48_Deep Freeze.png" id="48_Deep Freeze" data-flag="@X" onclick="openSidebar('48_Deep Freeze',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\88_Chained Ravager.png" id="88_Chained Ravager" data-flag="@X" onclick="openSidebar('88_Chained Ravager',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\123_Boast of the Bloodied.png" id="123_Boast of the Bloodied" data-flag="@X" onclick="openSidebar('123_Boast of the Bloodied',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\165_Coil of Eternity.png" id="165_Coil of Eternity" data-flag="@X" onclick="openSidebar('165_Coil of Eternity',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\7_Code of the Clans.png" id="7_Code of the Clans" data-flag="@X" onclick="openSidebar('7_Code of the Clans',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\50_Draugr Ritualist.png" id="50_Draugr Ritualist" data-flag="@X" onclick="openSidebar('50_Draugr Ritualist',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\90_Doomskar Harbinger.png" id="90_Doomskar Harbinger" data-flag="@X" onclick="openSidebar('90_Doomskar Harbinger',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\124_Bond in Battle.png" id="124_Bond in Battle" data-flag="@X" onclick="openSidebar('124_Bond in Battle',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\167_Cover in Ice.png" id="167_Cover in Ice" data-flag="@X" onclick="openSidebar('167_Cover in Ice',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\9_Craven Coward.png" id="9_Craven Coward" data-flag="@X" onclick="openSidebar('9_Craven Coward',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\57_Harried Covewalker.png" id="57_Harried Covewalker" data-flag="@X" onclick="openSidebar('57_Harried Covewalker',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\94_Failure of Form.png" id="94_Failure of Form" data-flag="@X" onclick="openSidebar('94_Failure of Form',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\128_Drive the Wound Deeper.png" id="128_Drive the Wound Deeper" data-flag="@X" onclick="openSidebar('128_Drive the Wound Deeper',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\168_Crossing the Aldegard_back.png" alt="/sets\BRE-files\img\168_Crossing the Aldegard_front.png" id="168_Crossing the Aldegard" data-flag="@XD" onclick="openSidebar('168_Crossing the Aldegard',false)"><button class="flip-btn" onclick="imgFlip('168_Crossing the Aldegard')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\11_Dwarven Ritualist.png" id="11_Dwarven Ritualist" data-flag="@X" onclick="openSidebar('11_Dwarven Ritualist',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\61_Lord of Spoils.png" id="61_Lord of Spoils" data-flag="@X" onclick="openSidebar('61_Lord of Spoils',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\95_Feast of Empty Vaults.png" id="95_Feast of Empty Vaults" data-flag="@X" onclick="openSidebar('95_Feast of Empty Vaults',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\129_Earn Your Name_back.png" alt="/sets\BRE-files\img\129_Earn Your Name_front.png" id="129_Earn Your Name" data-flag="@XD" onclick="openSidebar('129_Earn Your Name',false)"><button class="flip-btn" onclick="imgFlip('129_Earn Your Name')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\171_Felling Blow.png" id="171_Felling Blow" data-flag="@X" onclick="openSidebar('171_Felling Blow',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\12_Ghostfang Companion.png" id="12_Ghostfang Companion" data-flag="@X" onclick="openSidebar('12_Ghostfang Companion',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\62_Negate.png" id="62_Negate" data-flag="@X" onclick="openSidebar('62_Negate',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\99_Graveward Keeper.png" id="99_Graveward Keeper" data-flag="@X" onclick="openSidebar('99_Graveward Keeper',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\130_Firesong Braggart.png" id="130_Firesong Braggart" data-flag="@X" onclick="openSidebar('130_Firesong Braggart',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\172_Feltmark Violinist.png" id="172_Feltmark Violinist" data-flag="@X" onclick="openSidebar('172_Feltmark Violinist',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\15_Honorbound Witness.png" id="15_Honorbound Witness" data-flag="@X" onclick="openSidebar('15_Honorbound Witness',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\66_Run Ashore.png" id="66_Run Ashore" data-flag="@X" onclick="openSidebar('66_Run Ashore',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\101_Jormund Adjudicator.png" id="101_Jormund Adjudicator" data-flag="@X" onclick="openSidebar('101_Jormund Adjudicator',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\135_Goldhoard Howler.png" id="135_Goldhoard Howler" data-flag="@X" onclick="openSidebar('135_Goldhoard Howler',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\173_Gladebond Protector.png" id="173_Gladebond Protector" data-flag="@X" onclick="openSidebar('173_Gladebond Protector',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\16_Judge the Unworthy.png" id="16_Judge the Unworthy" data-flag="@X" onclick="openSidebar('16_Judge the Unworthy',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\68_Signs Past the Shore_back.png" alt="/sets\BRE-files\img\68_Signs Past the Shore_front.png" id="68_Signs Past the Shore" data-flag="@XD" onclick="openSidebar('68_Signs Past the Shore',false)"><button class="flip-btn" onclick="imgFlip('68_Signs Past the Shore')"></button></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\103_Oathbreaker's Pike_back.png" alt="/sets\BRE-files\img\103_Oathbreaker's Pike_front.png" id="103_Oathbreakers Pike" data-flag="@XD" onclick="openSidebar('103_Oathbreakers Pike',false)"><button class="flip-btn" onclick="imgFlip('103_Oathbreakers Pike')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\141_Magda's Charger.png" id="141_Magdas Charger" data-flag="@X" onclick="openSidebar('141_Magdas Charger',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\174_Gladewalker Ritualist.png" id="174_Gladewalker Ritualist" data-flag="@X" onclick="openSidebar('174_Gladewalker Ritualist',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\18_Lawbearer's Axe.png" id="18_Lawbearers Axe" data-flag="@X" onclick="openSidebar('18_Lawbearers Axe',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\70_Skyspine Observer.png" id="70_Skyspine Observer" data-flag="@X" onclick="openSidebar('70_Skyspine Observer',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\105_Omen of Fright.png" id="105_Omen of Fright" data-flag="@X" onclick="openSidebar('105_Omen of Fright',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\146_Ode Singer.png" id="146_Ode Singer" data-flag="@X" onclick="openSidebar('146_Ode Singer',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\176_Gnottvold Rampager.png" id="176_Gnottvold Rampager" data-flag="@X" onclick="openSidebar('176_Gnottvold Rampager',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\22_Reidane's Outriders.png" id="22_Reidanes Outriders" data-flag="@X" onclick="openSidebar('22_Reidanes Outriders',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\71_Snowspeaker.png" id="71_Snowspeaker" data-flag="@X" onclick="openSidebar('71_Snowspeaker',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\106_Reaper Ritualist.png" id="106_Reaper Ritualist" data-flag="@X" onclick="openSidebar('106_Reaper Ritualist',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\148_Overbearing Lightning.png" id="148_Overbearing Lightning" data-flag="@X" onclick="openSidebar('148_Overbearing Lightning',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\187_Petrified Hermit.png" id="187_Petrified Hermit" data-flag="@X" onclick="openSidebar('187_Petrified Hermit',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\25_Runeshield Shepherd.png" id="25_Runeshield Shepherd" data-flag="@X" onclick="openSidebar('25_Runeshield Shepherd',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\72_Spirit of Borrowed Deeds.png" id="72_Spirit of Borrowed Deeds" data-flag="@X" onclick="openSidebar('72_Spirit of Borrowed Deeds',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\108_Rootwoven Blade.png" id="108_Rootwoven Blade" data-flag="@X" onclick="openSidebar('108_Rootwoven Blade',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\150_Rimefang Rootwalla.png" id="150_Rimefang Rootwalla" data-flag="@X" onclick="openSidebar('150_Rimefang Rootwalla',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\193_Sculptor of Winter.png" id="193_Sculptor of Winter" data-flag="@X" onclick="openSidebar('193_Sculptor of Winter',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\27_Sevalgr Tinkerer.png" id="27_Sevalgr Tinkerer" data-flag="@X" onclick="openSidebar('27_Sevalgr Tinkerer',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\73_Stay Strong.png" id="73_Stay Strong" data-flag="@X" onclick="openSidebar('73_Stay Strong',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\109_Rotmaw Ursine.png" id="109_Rotmaw Ursine" data-flag="@X" onclick="openSidebar('109_Rotmaw Ursine',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\151_Ruinpicker Troll.png" id="151_Ruinpicker Troll" data-flag="@X" onclick="openSidebar('151_Ruinpicker Troll',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\194_Serpent of the First Thaw.png" id="194_Serpent of the First Thaw" data-flag="@X" onclick="openSidebar('194_Serpent of the First Thaw',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\29_Shepherd Aspirant.png" id="29_Shepherd Aspirant" data-flag="@X" onclick="openSidebar('29_Shepherd Aspirant',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\74_Torn Between Duty.png" id="74_Torn Between Duty" data-flag="@X" onclick="openSidebar('74_Torn Between Duty',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\115_Skulder's Mound Marauder.png" id="115_Skulders Mound Marauder" data-flag="@X" onclick="openSidebar('115_Skulders Mound Marauder',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\155_Surtland Marauder.png" id="155_Surtland Marauder" data-flag="@X" onclick="openSidebar('155_Surtland Marauder',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\195_Spilling Tyrite.png" id="195_Spilling Tyrite" data-flag="@X" onclick="openSidebar('195_Spilling Tyrite',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\30_Skybound Oathsworn.png" id="30_Skybound Oathsworn" data-flag="@X" onclick="openSidebar('30_Skybound Oathsworn',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\75_Vela Heights Colossus.png" id="75_Vela Heights Colossus" data-flag="@X" onclick="openSidebar('75_Vela Heights Colossus',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\116_Stand Resolute.png" id="116_Stand Resolute" data-flag="@X" onclick="openSidebar('116_Stand Resolute',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\156_Tithefang.png" id="156_Tithefang" data-flag="@X" onclick="openSidebar('156_Tithefang',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\196_Triumphant Defeat.png" id="196_Triumphant Defeat" data-flag="@X" onclick="openSidebar('196_Triumphant Defeat',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\38_Teacher of the Third Strike.png" id="38_Teacher of the Third Strike" data-flag="@X" onclick="openSidebar('38_Teacher of the Third Strike',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\79_Whisperwing Courier.png" id="79_Whisperwing Courier" data-flag="@X" onclick="openSidebar('79_Whisperwing Courier',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\118_Unwept and Unnamed.png" id="118_Unwept and Unnamed" data-flag="@X" onclick="openSidebar('118_Unwept and Unnamed',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\157_Tuskeri Recruit.png" id="157_Tuskeri Recruit" data-flag="@X" onclick="openSidebar('157_Tuskeri Recruit',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\197_Voice of the Wanderers.png" id="197_Voice of the Wanderers" data-flag="@X" onclick="openSidebar('197_Voice of the Wanderers',false)"></div>
-				<div class="container"><img data-alt_src="/sets\BRE-files\img\40_Vragi's Rally_back.png" alt="/sets\BRE-files\img\40_Vragi's Rally_front.png" id="40_Vragis Rally" data-flag="@XD" onclick="openSidebar('40_Vragis Rally',false)"><button class="flip-btn" onclick="imgFlip('40_Vragis Rally')"></button></div>
-				<div class="container"><img alt="/sets\BRE-files\img\80_Whsipered Edge.png" id="80_Whsipered Edge" data-flag="@X" onclick="openSidebar('80_Whsipered Edge',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\158_Tuskeri Ritualist.png" id="158_Tuskeri Ritualist" data-flag="@X" onclick="openSidebar('158_Tuskeri Ritualist',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\199_Warden of the Cursed Path.png" id="199_Warden of the Cursed Path" data-flag="@X" onclick="openSidebar('199_Warden of the Cursed Path',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\315_Ode to the Departed.png" id="315_Ode to the Departed" data-flag="@X" onclick="openSidebar('315_Ode to the Departed',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\13_Gisla, Merciful Shepherd.png" id="13_Gisla, Merciful Shepherd" data-flag="@X" onclick="openSidebar('13_Gisla, Merciful Shepherd',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\44_Champion of Stillness.png" id="44_Champion of Stillness" data-flag="@X" onclick="openSidebar('44_Champion of Stillness',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\81_Alsig, Hardened Reaper.png" id="81_Alsig, Hardened Reaper" data-flag="@X" onclick="openSidebar('81_Alsig, Hardened Reaper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\136_Goldspan Hellkite.png" id="136_Goldspan Hellkite" data-flag="@X" onclick="openSidebar('136_Goldspan Hellkite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\170_Esika, Recovering.png" id="170_Esika, Recovering" data-flag="@X" onclick="openSidebar('170_Esika, Recovering',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\20_Rebuilding Beskir Hall.png" id="20_Rebuilding Beskir Hall" data-flag="@X" onclick="openSidebar('20_Rebuilding Beskir Hall',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\76_Vela Heights Seer.png" id="76_Vela Heights Seer" data-flag="@X" onclick="openSidebar('76_Vela Heights Seer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\111_Scornsong Reaper.png" id="111_Scornsong Reaper" data-flag="@X" onclick="openSidebar('111_Scornsong Reaper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\160_Voice of the Longhall.png" id="160_Voice of the Longhall" data-flag="@X" onclick="openSidebar('160_Voice of the Longhall',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\198_Vorinclex, the Apex.png" id="198_Vorinclex, the Apex" data-flag="@X" onclick="openSidebar('198_Vorinclex, the Apex',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\4_Blade of the Worthy.png" id="4_Blade of the Worthy" data-flag="@X" onclick="openSidebar('4_Blade of the Worthy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\43_Betrayer of the Omenseekers.png" id="43_Betrayer of the Omenseekers" data-flag="@X" onclick="openSidebar('43_Betrayer of the Omenseekers',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\91_Draugr's Due.png" id="91_Draugrs Due" data-flag="@X" onclick="openSidebar('91_Draugrs Due',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\127_Dragonkin Herald.png" id="127_Dragonkin Herald" data-flag="@X" onclick="openSidebar('127_Dragonkin Herald',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\161_Blighted Pack.png" id="161_Blighted Pack" data-flag="@X" onclick="openSidebar('161_Blighted Pack',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\19_Protector of the Eight Doors.png" id="19_Protector of the Eight Doors" data-flag="@X" onclick="openSidebar('19_Protector of the Eight Doors',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\45_Charm of the Code.png" id="45_Charm of the Code" data-flag="@X" onclick="openSidebar('45_Charm of the Code',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\92_The Eidermaw_back.png" alt="/sets\BRE-files\img\92_The Eidermaw_front.png" id="92_The Eidermaw" data-flag="@XD" onclick="openSidebar('92_The Eidermaw',false)"><button class="flip-btn" onclick="imgFlip('92_The Eidermaw')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\132_Forge of Five-Hundred Names.png" id="132_Forge of Five-Hundred Names" data-flag="@X" onclick="openSidebar('132_Forge of Five-Hundred Names',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\164_Ciar's Fleshroot.png" id="164_Ciars Fleshroot" data-flag="@X" onclick="openSidebar('164_Ciars Fleshroot',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\21_Reciter of Tales.png" id="21_Reciter of Tales" data-flag="@X" onclick="openSidebar('21_Reciter of Tales',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\46_The Chasm Beast_back.png" alt="/sets\BRE-files\img\46_The Chasm Beast_front.png" id="46_The Chasm Beast" data-flag="@XD" onclick="openSidebar('46_The Chasm Beast',false)"><button class="flip-btn" onclick="imgFlip('46_The Chasm Beast')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\93_Elskul Rager.png" id="93_Elskul Rager" data-flag="@X" onclick="openSidebar('93_Elskul Rager',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\137_Heirloom Fang.png" id="137_Heirloom Fang" data-flag="@X" onclick="openSidebar('137_Heirloom Fang',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\177_The Himinneater_back.png" alt="/sets\BRE-files\img\177_The Himinneater_front.png" id="177_The Himinneater" data-flag="@XD" onclick="openSidebar('177_The Himinneater',false)"><button class="flip-btn" onclick="imgFlip('177_The Himinneater')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\26_Sarulf's Binding.png" id="26_Sarulfs Binding" data-flag="@X" onclick="openSidebar('26_Sarulfs Binding',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\51_Echoes of the Einir.png" id="51_Echoes of the Einir" data-flag="@X" onclick="openSidebar('51_Echoes of the Einir',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\104_Oilbound Spawn.png" id="104_Oilbound Spawn" data-flag="@X" onclick="openSidebar('104_Oilbound Spawn',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\140_Judgment of the Skoti.png" id="140_Judgment of the Skoti" data-flag="@X" onclick="openSidebar('140_Judgment of the Skoti',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\178_Horncaller of the Kannah.png" id="178_Horncaller of the Kannah" data-flag="@X" onclick="openSidebar('178_Horncaller of the Kannah',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\31_Speaker of Bretagard.png" id="31_Speaker of Bretagard" data-flag="@X" onclick="openSidebar('31_Speaker of Bretagard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\55_Giant's Rebuff.png" id="55_Giants Rebuff" data-flag="@X" onclick="openSidebar('55_Giants Rebuff',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\110_Sarulf, Dread-Wolf.png" id="110_Sarulf, Dread-Wolf" data-flag="@X" onclick="openSidebar('110_Sarulf, Dread-Wolf',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\143_The Njidwing_back.png" alt="/sets\BRE-files\img\143_The Njidwing_front.png" id="143_The Njidwing" data-flag="@XD" onclick="openSidebar('143_The Njidwing',false)"><button class="flip-btn" onclick="imgFlip('143_The Njidwing')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\181_Keeper of the Old Marks.png" id="181_Keeper of the Old Marks" data-flag="@X" onclick="openSidebar('181_Keeper of the Old Marks',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\32_Stand Before the Vaklyries.png" id="32_Stand Before the Vaklyries" data-flag="@X" onclick="openSidebar('32_Stand Before the Vaklyries',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\59_Istfell Wanderer.png" id="59_Istfell Wanderer" data-flag="@X" onclick="openSidebar('59_Istfell Wanderer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\113_Skelle Scorn Pole.png" id="113_Skelle Scorn Pole" data-flag="@X" onclick="openSidebar('113_Skelle Scorn Pole',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\147_Olsen Moltenhand.png" id="147_Olsen Moltenhand" data-flag="@X" onclick="openSidebar('147_Olsen Moltenhand',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\185_Nameless Heirloom.png" id="185_Nameless Heirloom" data-flag="@X" onclick="openSidebar('185_Nameless Heirloom',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\35_The Stjarnapelt_back.png" alt="/sets\BRE-files\img\35_The Stjarnapelt_front.png" id="35_The Stjarnapelt" data-flag="@XD" onclick="openSidebar('35_The Stjarnapelt',false)"><button class="flip-btn" onclick="imgFlip('35_The Stjarnapelt')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\67_Runebound Mentor.png" id="67_Runebound Mentor" data-flag="@X" onclick="openSidebar('67_Runebound Mentor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\117_Test of the Vessel.png" id="117_Test of the Vessel" data-flag="@X" onclick="openSidebar('117_Test of the Vessel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\152_Snowclash Shaman.png" id="152_Snowclash Shaman" data-flag="@X" onclick="openSidebar('152_Snowclash Shaman',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\186_Pathless Ranger.png" id="186_Pathless Ranger" data-flag="@X" onclick="openSidebar('186_Pathless Ranger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\39_Unlikely Hero.png" id="39_Unlikely Hero" data-flag="@X" onclick="openSidebar('39_Unlikely Hero',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\77_Volatile Spellcatcher.png" id="77_Volatile Spellcatcher" data-flag="@X" onclick="openSidebar('77_Volatile Spellcatcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\82_Binding the Dread-Wolf.png" id="82_Binding the Dread-Wolf" data-flag="@X" onclick="openSidebar('82_Binding the Dread-Wolf',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\154_Surtland Lumberjack.png" id="154_Surtland Lumberjack" data-flag="@X" onclick="openSidebar('154_Surtland Lumberjack',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\188_The Raider's Trail.png" id="188_The Raiders Trail" data-flag="@X" onclick="openSidebar('188_The Raiders Trail',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\2_Axgard Warden.png" id="2_Axgard Warden" data-flag="@X" onclick="openSidebar('2_Axgard Warden',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\41_Alrund's Envoy.png" id="41_Alrunds Envoy" data-flag="@X" onclick="openSidebar('41_Alrunds Envoy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\84_Blighted Coil.png" id="84_Blighted Coil" data-flag="@X" onclick="openSidebar('84_Blighted Coil',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\122_Axgard Doorwarden.png" id="122_Axgard Doorwarden" data-flag="@X" onclick="openSidebar('122_Axgard Doorwarden',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\163_Burrowed Torga.png" id="163_Burrowed Torga" data-flag="@X" onclick="openSidebar('163_Burrowed Torga',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\3_Beskir Lawspeaker.png" id="3_Beskir Lawspeaker" data-flag="@X" onclick="openSidebar('3_Beskir Lawspeaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\47_Covewalker Seer.png" id="47_Covewalker Seer" data-flag="@X" onclick="openSidebar('47_Covewalker Seer',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\86_Call to Elskul_back.png" alt="/sets\BRE-files\img\86_Call to Elskul_front.png" id="86_Call to Elskul" data-flag="@XD" onclick="openSidebar('86_Call to Elskul',false)"><button class="flip-btn" onclick="imgFlip('86_Call to Elskul')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\125_Burn the Oathless.png" id="125_Burn the Oathless" data-flag="@X" onclick="openSidebar('125_Burn the Oathless',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\166_Coilseeker.png" id="166_Coilseeker" data-flag="@X" onclick="openSidebar('166_Coilseeker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\5_Bond of the Code.png" id="5_Bond of the Code" data-flag="@X" onclick="openSidebar('5_Bond of the Code',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\49_Divided Omen_back.png" alt="/sets\BRE-files\img\49_Divided Omen_front.png" id="49_Divided Omen" data-flag="@XD" onclick="openSidebar('49_Divided Omen',false)"><button class="flip-btn" onclick="imgFlip('49_Divided Omen')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\87_Ceaseless Return_back.png" alt="/sets\BRE-files\img\87_Ceaseless Return_front.png" id="87_Ceaseless Return" data-flag="@XD" onclick="openSidebar('87_Ceaseless Return',false)"><button class="flip-btn" onclick="imgFlip('87_Ceaseless Return')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\126_Clanborn Pair.png" id="126_Clanborn Pair" data-flag="@X" onclick="openSidebar('126_Clanborn Pair',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\169_Elderleaf Bowmaster.png" id="169_Elderleaf Bowmaster" data-flag="@X" onclick="openSidebar('169_Elderleaf Bowmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\8_Codespell Arbiter.png" id="8_Codespell Arbiter" data-flag="@X" onclick="openSidebar('8_Codespell Arbiter',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\52_Exchange of Faces_back.png" alt="/sets\BRE-files\img\52_Exchange of Faces_front.png" id="52_Exchange of Faces" data-flag="@XD" onclick="openSidebar('52_Exchange of Faces',false)"><button class="flip-btn" onclick="imgFlip('52_Exchange of Faces')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\89_Coward Slayer.png" id="89_Coward Slayer" data-flag="@X" onclick="openSidebar('89_Coward Slayer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\131_Flamesight Augur.png" id="131_Flamesight Augur" data-flag="@X" onclick="openSidebar('131_Flamesight Augur',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\175_Gladewalker Wanderers.png" id="175_Gladewalker Wanderers" data-flag="@X" onclick="openSidebar('175_Gladewalker Wanderers',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\10_Curse-Bound Wayfarer.png" id="10_Curse-Bound Wayfarer" data-flag="@X" onclick="openSidebar('10_Curse-Bound Wayfarer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\53_Frostbitten Legion.png" id="53_Frostbitten Legion" data-flag="@X" onclick="openSidebar('53_Frostbitten Legion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\96_Festering Rebirth.png" id="96_Festering Rebirth" data-flag="@X" onclick="openSidebar('96_Festering Rebirth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\133_The Gates Stood Strong.png" id="133_The Gates Stood Strong" data-flag="@X" onclick="openSidebar('133_The Gates Stood Strong',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\179_Hunt in Tandem.png" id="179_Hunt in Tandem" data-flag="@X" onclick="openSidebar('179_Hunt in Tandem',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\14_Guardian of the Honored.png" id="14_Guardian of the Honored" data-flag="@X" onclick="openSidebar('14_Guardian of the Honored',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\54_Frostvein Binder.png" id="54_Frostvein Binder" data-flag="@X" onclick="openSidebar('54_Frostvein Binder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\97_Folly of the Braggarts.png" id="97_Folly of the Braggarts" data-flag="@X" onclick="openSidebar('97_Folly of the Braggarts',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\134_Gloryweaver Bard.png" id="134_Gloryweaver Bard" data-flag="@X" onclick="openSidebar('134_Gloryweaver Bard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\180_Into the North.png" id="180_Into the North" data-flag="@X" onclick="openSidebar('180_Into the North',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\17_Labors Without End.png" id="17_Labors Without End" data-flag="@X" onclick="openSidebar('17_Labors Without End',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\56_Gift of the Frost-Crown.png" id="56_Gift of the Frost-Crown" data-flag="@X" onclick="openSidebar('56_Gift of the Frost-Crown',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\100_Harthhall Champion.png" id="100_Harthhall Champion" data-flag="@X" onclick="openSidebar('100_Harthhall Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\138_Hew the Skyterror.png" id="138_Hew the Skyterror" data-flag="@X" onclick="openSidebar('138_Hew the Skyterror',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\182_Koma's Call.png" id="182_Komas Call" data-flag="@X" onclick="openSidebar('182_Komas Call',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\23_Return of the Heart_back.png" alt="/sets\BRE-files\img\23_Return of the Heart_front.png" id="23_Return of the Heart" data-flag="@XD" onclick="openSidebar('23_Return of the Heart',false)"><button class="flip-btn" onclick="imgFlip('23_Return of the Heart')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\58_Icebound Prison.png" id="58_Icebound Prison" data-flag="@X" onclick="openSidebar('58_Icebound Prison',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\102_Mindhusk Effigy.png" id="102_Mindhusk Effigy" data-flag="@X" onclick="openSidebar('102_Mindhusk Effigy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\139_Holder of Toralf's Thunder.png" id="139_Holder of Toralfs Thunder" data-flag="@X" onclick="openSidebar('139_Holder of Toralfs Thunder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\183_Lathril's Chant.png" id="183_Lathrils Chant" data-flag="@X" onclick="openSidebar('183_Lathrils Chant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\24_Righteous Roar.png" id="24_Righteous Roar" data-flag="@X" onclick="openSidebar('24_Righteous Roar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\60_Littjara Chime.png" id="60_Littjara Chime" data-flag="@X" onclick="openSidebar('60_Littjara Chime',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\107_Remnant of Karfell.png" id="107_Remnant of Karfell" data-flag="@X" onclick="openSidebar('107_Remnant of Karfell',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\142_Mountaincleaver.png" id="142_Mountaincleaver" data-flag="@X" onclick="openSidebar('142_Mountaincleaver',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\184_Left to Rust_back.png" alt="/sets\BRE-files\img\184_Left to Rust_front.png" id="184_Left to Rust" data-flag="@XD" onclick="openSidebar('184_Left to Rust',false)"><button class="flip-btn" onclick="imgFlip('184_Left to Rust')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\28_Shephard's Blade.png" id="28_Shephards Blade" data-flag="@X" onclick="openSidebar('28_Shephards Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\63_Rebuke of Rime.png" id="63_Rebuke of Rime" data-flag="@X" onclick="openSidebar('63_Rebuke of Rime',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\112_Selfcrowned Skald.png" id="112_Selfcrowned Skald" data-flag="@X" onclick="openSidebar('112_Selfcrowned Skald',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\144_Oathbearer at the Seventh Door_back.png" alt="/sets\BRE-files\img\144_Oathbearer at the Seventh Door_front.png" id="144_Oathbearer at the Seventh Door" data-flag="@XD" onclick="openSidebar('144_Oathbearer at the Seventh Door',false)"><button class="flip-btn" onclick="imgFlip('144_Oathbearer at the Seventh Door')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\189_Reunification_back.png" alt="/sets\BRE-files\img\189_Reunification_front.png" id="189_Reunification" data-flag="@XD" onclick="openSidebar('189_Reunification',false)"><button class="flip-btn" onclick="imgFlip('189_Reunification')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\33_Starnheim Redeemer_back.png" alt="/sets\BRE-files\img\33_Starnheim Redeemer_front.png" id="33_Starnheim Redeemer" data-flag="@XD" onclick="openSidebar('33_Starnheim Redeemer',false)"><button class="flip-btn" onclick="imgFlip('33_Starnheim Redeemer')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\64_Resilient Omenseeker.png" id="64_Resilient Omenseeker" data-flag="@X" onclick="openSidebar('64_Resilient Omenseeker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\114_Skemfar Intruder.png" id="114_Skemfar Intruder" data-flag="@X" onclick="openSidebar('114_Skemfar Intruder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\145_Oathsworn Ally.png" id="145_Oathsworn Ally" data-flag="@X" onclick="openSidebar('145_Oathsworn Ally',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\190_Run with the Pack.png" id="190_Run with the Pack" data-flag="@X" onclick="openSidebar('190_Run with the Pack',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\34_Steel at the Threshold.png" id="34_Steel at the Threshold" data-flag="@X" onclick="openSidebar('34_Steel at the Threshold',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\65_Rimebound Mystic.png" id="65_Rimebound Mystic" data-flag="@X" onclick="openSidebar('65_Rimebound Mystic',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\119_Valki's Pawn.png" id="119_Valkis Pawn" data-flag="@X" onclick="openSidebar('119_Valkis Pawn',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\149_Reckoning of Lava_back.png" alt="/sets\BRE-files\img\149_Reckoning of Lava_front.png" id="149_Reckoning of Lava" data-flag="@XD" onclick="openSidebar('149_Reckoning of Lava',false)"><button class="flip-btn" onclick="imgFlip('149_Reckoning of Lava')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\191_Runesworn Champion.png" id="191_Runesworn Champion" data-flag="@X" onclick="openSidebar('191_Runesworn Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\36_Storyforged Champion.png" id="36_Storyforged Champion" data-flag="@X" onclick="openSidebar('36_Storyforged Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\69_Skald of the Pillars.png" id="69_Skald of the Pillars" data-flag="@X" onclick="openSidebar('69_Skald of the Pillars',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\120_Vision in the Drifts.png" id="120_Vision in the Drifts" data-flag="@X" onclick="openSidebar('120_Vision in the Drifts',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\153_Stormchant Magus.png" id="153_Stormchant Magus" data-flag="@X" onclick="openSidebar('153_Stormchant Magus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\192_Sagaweaver of Koma.png" id="192_Sagaweaver of Koma" data-flag="@X" onclick="openSidebar('192_Sagaweaver of Koma',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\37_Storysmith of the Hearth.png" id="37_Storysmith of the Hearth" data-flag="@X" onclick="openSidebar('37_Storysmith of the Hearth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\78_Weaver of False Tales.png" id="78_Weaver of False Tales" data-flag="@X" onclick="openSidebar('78_Weaver of False Tales',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\83_Bitter Raider.png" id="83_Bitter Raider" data-flag="@X" onclick="openSidebar('83_Bitter Raider',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\159_Unlimited Horizons.png" id="159_Unlimited Horizons" data-flag="@X" onclick="openSidebar('159_Unlimited Horizons',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\200_Whispers to the Fanged.png" id="200_Whispers to the Fanged" data-flag="@X" onclick="openSidebar('200_Whispers to the Fanged',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\1_Accordant Valkyrie.png" id="1_Accordant Valkyrie" data-flag="@X" onclick="openSidebar('1_Accordant Valkyrie',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\42_Aurora Charger.png" id="42_Aurora Charger" data-flag="@X" onclick="openSidebar('42_Aurora Charger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\85_Blighted Duskwielder.png" id="85_Blighted Duskwielder" data-flag="@X" onclick="openSidebar('85_Blighted Duskwielder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\121_Avalanche Hagi.png" id="121_Avalanche Hagi" data-flag="@X" onclick="openSidebar('121_Avalanche Hagi',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\162_Boughcleaver.png" id="162_Boughcleaver" data-flag="@X" onclick="openSidebar('162_Boughcleaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\6_Brace Against Ruin.png" id="6_Brace Against Ruin" data-flag="@X" onclick="openSidebar('6_Brace Against Ruin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\48_Deep Freeze.png" id="48_Deep Freeze" data-flag="@X" onclick="openSidebar('48_Deep Freeze',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\88_Chained Ravager.png" id="88_Chained Ravager" data-flag="@X" onclick="openSidebar('88_Chained Ravager',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\123_Boast of the Bloodied.png" id="123_Boast of the Bloodied" data-flag="@X" onclick="openSidebar('123_Boast of the Bloodied',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\165_Coil of Eternity.png" id="165_Coil of Eternity" data-flag="@X" onclick="openSidebar('165_Coil of Eternity',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\7_Code of the Clans.png" id="7_Code of the Clans" data-flag="@X" onclick="openSidebar('7_Code of the Clans',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\50_Draugr Ritualist.png" id="50_Draugr Ritualist" data-flag="@X" onclick="openSidebar('50_Draugr Ritualist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\90_Doomskar Harbinger.png" id="90_Doomskar Harbinger" data-flag="@X" onclick="openSidebar('90_Doomskar Harbinger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\124_Bond in Battle.png" id="124_Bond in Battle" data-flag="@X" onclick="openSidebar('124_Bond in Battle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\167_Cover in Ice.png" id="167_Cover in Ice" data-flag="@X" onclick="openSidebar('167_Cover in Ice',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\9_Craven Coward.png" id="9_Craven Coward" data-flag="@X" onclick="openSidebar('9_Craven Coward',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\57_Harried Covewalker.png" id="57_Harried Covewalker" data-flag="@X" onclick="openSidebar('57_Harried Covewalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\94_Failure of Form.png" id="94_Failure of Form" data-flag="@X" onclick="openSidebar('94_Failure of Form',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\128_Drive the Wound Deeper.png" id="128_Drive the Wound Deeper" data-flag="@X" onclick="openSidebar('128_Drive the Wound Deeper',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\168_Crossing the Aldegard_back.png" alt="/sets\BRE-files\img\168_Crossing the Aldegard_front.png" id="168_Crossing the Aldegard" data-flag="@XD" onclick="openSidebar('168_Crossing the Aldegard',false)"><button class="flip-btn" onclick="imgFlip('168_Crossing the Aldegard')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\11_Dwarven Ritualist.png" id="11_Dwarven Ritualist" data-flag="@X" onclick="openSidebar('11_Dwarven Ritualist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\61_Lord of Spoils.png" id="61_Lord of Spoils" data-flag="@X" onclick="openSidebar('61_Lord of Spoils',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\95_Feast of Empty Vaults.png" id="95_Feast of Empty Vaults" data-flag="@X" onclick="openSidebar('95_Feast of Empty Vaults',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\129_Earn Your Name_back.png" alt="/sets\BRE-files\img\129_Earn Your Name_front.png" id="129_Earn Your Name" data-flag="@XD" onclick="openSidebar('129_Earn Your Name',false)"><button class="flip-btn" onclick="imgFlip('129_Earn Your Name')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\171_Felling Blow.png" id="171_Felling Blow" data-flag="@X" onclick="openSidebar('171_Felling Blow',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\12_Ghostfang Companion.png" id="12_Ghostfang Companion" data-flag="@X" onclick="openSidebar('12_Ghostfang Companion',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\62_Negate.png" id="62_Negate" data-flag="@X" onclick="openSidebar('62_Negate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\99_Graveward Keeper.png" id="99_Graveward Keeper" data-flag="@X" onclick="openSidebar('99_Graveward Keeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\130_Firesong Braggart.png" id="130_Firesong Braggart" data-flag="@X" onclick="openSidebar('130_Firesong Braggart',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\172_Feltmark Violinist.png" id="172_Feltmark Violinist" data-flag="@X" onclick="openSidebar('172_Feltmark Violinist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\15_Honorbound Witness.png" id="15_Honorbound Witness" data-flag="@X" onclick="openSidebar('15_Honorbound Witness',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\66_Run Ashore.png" id="66_Run Ashore" data-flag="@X" onclick="openSidebar('66_Run Ashore',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\101_Jormund Adjudicator.png" id="101_Jormund Adjudicator" data-flag="@X" onclick="openSidebar('101_Jormund Adjudicator',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\135_Goldhoard Howler.png" id="135_Goldhoard Howler" data-flag="@X" onclick="openSidebar('135_Goldhoard Howler',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\173_Gladebond Protector.png" id="173_Gladebond Protector" data-flag="@X" onclick="openSidebar('173_Gladebond Protector',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\16_Judge the Unworthy.png" id="16_Judge the Unworthy" data-flag="@X" onclick="openSidebar('16_Judge the Unworthy',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\68_Signs Past the Shore_back.png" alt="/sets\BRE-files\img\68_Signs Past the Shore_front.png" id="68_Signs Past the Shore" data-flag="@XD" onclick="openSidebar('68_Signs Past the Shore',false)"><button class="flip-btn" onclick="imgFlip('68_Signs Past the Shore')"></button></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\103_Oathbreaker's Pike_back.png" alt="/sets\BRE-files\img\103_Oathbreaker's Pike_front.png" id="103_Oathbreakers Pike" data-flag="@XD" onclick="openSidebar('103_Oathbreakers Pike',false)"><button class="flip-btn" onclick="imgFlip('103_Oathbreakers Pike')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\141_Magda's Charger.png" id="141_Magdas Charger" data-flag="@X" onclick="openSidebar('141_Magdas Charger',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\174_Gladewalker Ritualist.png" id="174_Gladewalker Ritualist" data-flag="@X" onclick="openSidebar('174_Gladewalker Ritualist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\18_Lawbearer's Axe.png" id="18_Lawbearers Axe" data-flag="@X" onclick="openSidebar('18_Lawbearers Axe',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\70_Skyspine Observer.png" id="70_Skyspine Observer" data-flag="@X" onclick="openSidebar('70_Skyspine Observer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\105_Omen of Fright.png" id="105_Omen of Fright" data-flag="@X" onclick="openSidebar('105_Omen of Fright',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\146_Ode Singer.png" id="146_Ode Singer" data-flag="@X" onclick="openSidebar('146_Ode Singer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\176_Gnottvold Rampager.png" id="176_Gnottvold Rampager" data-flag="@X" onclick="openSidebar('176_Gnottvold Rampager',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\22_Reidane's Outriders.png" id="22_Reidanes Outriders" data-flag="@X" onclick="openSidebar('22_Reidanes Outriders',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\71_Snowspeaker.png" id="71_Snowspeaker" data-flag="@X" onclick="openSidebar('71_Snowspeaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\106_Reaper Ritualist.png" id="106_Reaper Ritualist" data-flag="@X" onclick="openSidebar('106_Reaper Ritualist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\148_Overbearing Lightning.png" id="148_Overbearing Lightning" data-flag="@X" onclick="openSidebar('148_Overbearing Lightning',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\187_Petrified Hermit.png" id="187_Petrified Hermit" data-flag="@X" onclick="openSidebar('187_Petrified Hermit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\25_Runeshield Shepherd.png" id="25_Runeshield Shepherd" data-flag="@X" onclick="openSidebar('25_Runeshield Shepherd',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\72_Spirit of Borrowed Deeds.png" id="72_Spirit of Borrowed Deeds" data-flag="@X" onclick="openSidebar('72_Spirit of Borrowed Deeds',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\108_Rootwoven Blade.png" id="108_Rootwoven Blade" data-flag="@X" onclick="openSidebar('108_Rootwoven Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\150_Rimefang Rootwalla.png" id="150_Rimefang Rootwalla" data-flag="@X" onclick="openSidebar('150_Rimefang Rootwalla',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\193_Sculptor of Winter.png" id="193_Sculptor of Winter" data-flag="@X" onclick="openSidebar('193_Sculptor of Winter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\27_Sevalgr Tinkerer.png" id="27_Sevalgr Tinkerer" data-flag="@X" onclick="openSidebar('27_Sevalgr Tinkerer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\73_Stay Strong.png" id="73_Stay Strong" data-flag="@X" onclick="openSidebar('73_Stay Strong',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\109_Rotmaw Ursine.png" id="109_Rotmaw Ursine" data-flag="@X" onclick="openSidebar('109_Rotmaw Ursine',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\151_Ruinpicker Troll.png" id="151_Ruinpicker Troll" data-flag="@X" onclick="openSidebar('151_Ruinpicker Troll',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\194_Serpent of the First Thaw.png" id="194_Serpent of the First Thaw" data-flag="@X" onclick="openSidebar('194_Serpent of the First Thaw',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\29_Shepherd Aspirant.png" id="29_Shepherd Aspirant" data-flag="@X" onclick="openSidebar('29_Shepherd Aspirant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\74_Torn Between Duty.png" id="74_Torn Between Duty" data-flag="@X" onclick="openSidebar('74_Torn Between Duty',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\115_Skulder's Mound Marauder.png" id="115_Skulders Mound Marauder" data-flag="@X" onclick="openSidebar('115_Skulders Mound Marauder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\155_Surtland Marauder.png" id="155_Surtland Marauder" data-flag="@X" onclick="openSidebar('155_Surtland Marauder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\195_Spilling Tyrite.png" id="195_Spilling Tyrite" data-flag="@X" onclick="openSidebar('195_Spilling Tyrite',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\30_Skybound Oathsworn.png" id="30_Skybound Oathsworn" data-flag="@X" onclick="openSidebar('30_Skybound Oathsworn',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\75_Vela Heights Colossus.png" id="75_Vela Heights Colossus" data-flag="@X" onclick="openSidebar('75_Vela Heights Colossus',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\116_Stand Resolute.png" id="116_Stand Resolute" data-flag="@X" onclick="openSidebar('116_Stand Resolute',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\156_Tithefang.png" id="156_Tithefang" data-flag="@X" onclick="openSidebar('156_Tithefang',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\196_Triumphant Defeat.png" id="196_Triumphant Defeat" data-flag="@X" onclick="openSidebar('196_Triumphant Defeat',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\38_Teacher of the Third Strike.png" id="38_Teacher of the Third Strike" data-flag="@X" onclick="openSidebar('38_Teacher of the Third Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\79_Whisperwing Courier.png" id="79_Whisperwing Courier" data-flag="@X" onclick="openSidebar('79_Whisperwing Courier',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\118_Unwept and Unnamed.png" id="118_Unwept and Unnamed" data-flag="@X" onclick="openSidebar('118_Unwept and Unnamed',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\157_Tuskeri Recruit.png" id="157_Tuskeri Recruit" data-flag="@X" onclick="openSidebar('157_Tuskeri Recruit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\197_Voice of the Wanderers.png" id="197_Voice of the Wanderers" data-flag="@X" onclick="openSidebar('197_Voice of the Wanderers',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="/sets\BRE-files\img\40_Vragi's Rally_back.png" alt="/sets\BRE-files\img\40_Vragi's Rally_front.png" id="40_Vragis Rally" data-flag="@XD" onclick="openSidebar('40_Vragis Rally',false)"><button class="flip-btn" onclick="imgFlip('40_Vragis Rally')"></button></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\80_Whsipered Edge.png" id="80_Whsipered Edge" data-flag="@X" onclick="openSidebar('80_Whsipered Edge',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\158_Tuskeri Ritualist.png" id="158_Tuskeri Ritualist" data-flag="@X" onclick="openSidebar('158_Tuskeri Ritualist',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\199_Warden of the Cursed Path.png" id="199_Warden of the Cursed Path" data-flag="@X" onclick="openSidebar('199_Warden of the Cursed Path',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\315_Ode to the Departed.png" id="315_Ode to the Departed" data-flag="@X" onclick="openSidebar('315_Ode to the Departed',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\201_Ballad of the Thread Uncut.png" id="201_Ballad of the Thread Uncut" data-flag="@X" onclick="openSidebar('201_Ballad of the Thread Uncut',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\208_Hagduin of the Shadow.png" id="208_Hagduin of the Shadow" data-flag="@X" onclick="openSidebar('208_Hagduin of the Shadow',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\212_Bari of Internal Wants.png" id="212_Bari of Internal Wants" data-flag="@X" onclick="openSidebar('212_Bari of Internal Wants',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\221_Knud of the Unknown.png" id="221_Knud of the Unknown" data-flag="@X" onclick="openSidebar('221_Knud of the Unknown',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\226_Ingalvur of New Beginnings.png" id="226_Ingalvur of New Beginnings" data-flag="@X" onclick="openSidebar('226_Ingalvur of New Beginnings',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\204_Faded Shieldmate.png" id="204_Faded Shieldmate" data-flag="@X" onclick="openSidebar('204_Faded Shieldmate',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\207_From Triumph to Tomb.png" id="207_From Triumph to Tomb" data-flag="@X" onclick="openSidebar('207_From Triumph to Tomb',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\213_Blood Price.png" id="213_Blood Price" data-flag="@X" onclick="openSidebar('213_Blood Price',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\219_Cairnsplitter.png" id="219_Cairnsplitter" data-flag="@X" onclick="openSidebar('219_Cairnsplitter',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\225_Horns Against the Coil.png" id="225_Horns Against the Coil" data-flag="@X" onclick="openSidebar('225_Horns Against the Coil',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\205_Moment's Hindrance.png" id="205_Moments Hindrance" data-flag="@X" onclick="openSidebar('205_Moments Hindrance',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\209_Jarl of the Empty House.png" id="209_Jarl of the Empty House" data-flag="@X" onclick="openSidebar('209_Jarl of the Empty House',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\214_Bloodsky Conquerer.png" id="214_Bloodsky Conquerer" data-flag="@X" onclick="openSidebar('214_Bloodsky Conquerer',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\222_Trollking of Mossrun.png" id="222_Trollking of Mossrun" data-flag="@X" onclick="openSidebar('222_Trollking of Mossrun',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\227_Maja, Bretagard's Heart.png" id="227_Maja, Bretagards Heart" data-flag="@X" onclick="openSidebar('227_Maja, Bretagards Heart',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\202_Beskir Soul-Guide.png" id="202_Beskir Soul-Guide" data-flag="@X" onclick="openSidebar('202_Beskir Soul-Guide',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\210_Lord of Rust and Bone.png" id="210_Lord of Rust and Bone" data-flag="@X" onclick="openSidebar('210_Lord of Rust and Bone',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\217_Verse of the Stolen Kiss.png" id="217_Verse of the Stolen Kiss" data-flag="@X" onclick="openSidebar('217_Verse of the Stolen Kiss',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\223_Unraveling the Jaspera.png" id="223_Unraveling the Jaspera" data-flag="@X" onclick="openSidebar('223_Unraveling the Jaspera',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\228_Rekindle History.png" id="228_Rekindle History" data-flag="@X" onclick="openSidebar('228_Rekindle History',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\203_The Elk King.png" id="203_The Elk King" data-flag="@X" onclick="openSidebar('203_The Elk King',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\206_Breath Held Still.png" id="206_Breath Held Still" data-flag="@X" onclick="openSidebar('206_Breath Held Still',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\215_Decree of the Skelle.png" id="215_Decree of the Skelle" data-flag="@X" onclick="openSidebar('215_Decree of the Skelle',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\218_Bloodtusk Terror.png" id="218_Bloodtusk Terror" data-flag="@X" onclick="openSidebar('218_Bloodtusk Terror',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\224_Accord in Blood.png" id="224_Accord in Blood" data-flag="@X" onclick="openSidebar('224_Accord in Blood',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\261_Selfless Remnant.png" id="261_Selfless Remnant" data-flag="@X" onclick="openSidebar('261_Selfless Remnant',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\211_Narfi, Raider of the Realms.png" id="211_Narfi, Raider of the Realms" data-flag="@X" onclick="openSidebar('211_Narfi, Raider of the Realms',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\216_Kardur, Unbound Doom.png" id="216_Kardur, Unbound Doom" data-flag="@X" onclick="openSidebar('216_Kardur, Unbound Doom',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\220_Glashruk, Gnottvold Reaver.png" id="220_Glashruk, Gnottvold Reaver" data-flag="@X" onclick="openSidebar('220_Glashruk, Gnottvold Reaver',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\229_Ylva, Spear of Bretagard.png" id="229_Ylva, Spear of Bretagard" data-flag="@X" onclick="openSidebar('229_Ylva, Spear of Bretagard',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\262_Bannerless Raider.png" id="262_Bannerless Raider" data-flag="@X" onclick="openSidebar('262_Bannerless Raider',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\263_Chains of the Mire.png" id="263_Chains of the Mire" data-flag="@X" onclick="openSidebar('263_Chains of the Mire',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\264_Barrow Marauder.png" id="264_Barrow Marauder" data-flag="@X" onclick="openSidebar('264_Barrow Marauder',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\265_Hearthstring Elder.png" id="265_Hearthstring Elder" data-flag="@X" onclick="openSidebar('265_Hearthstring Elder',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\235_Saevel of Thresholds.png" id="235_Saevel of Thresholds" data-flag="@X" onclick="openSidebar('235_Saevel of Thresholds',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\236_Cinders That Carved Strength.png" id="236_Cinders That Carved Strength" data-flag="@X" onclick="openSidebar('236_Cinders That Carved Strength',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\243_Lathril of Blade and Claw.png" id="243_Lathril of Blade and Claw" data-flag="@X" onclick="openSidebar('243_Lathril of Blade and Claw',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\247_Axgard Reinforcements.png" id="247_Axgard Reinforcements" data-flag="@X" onclick="openSidebar('247_Axgard Reinforcements',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\257_Vinrormr of the Cycle.png" id="257_Vinrormr of the Cycle" data-flag="@X" onclick="openSidebar('257_Vinrormr of the Cycle',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\230_Ambition Halted.png" id="230_Ambition Halted" data-flag="@X" onclick="openSidebar('230_Ambition Halted',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\237_Frostflame Ascetic.png" id="237_Frostflame Ascetic" data-flag="@X" onclick="openSidebar('237_Frostflame Ascetic',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\241_Harthall Evincar.png" id="241_Harthall Evincar" data-flag="@X" onclick="openSidebar('241_Harthall Evincar',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\250_Tale of Gold and Flame.png" id="250_Tale of Gold and Flame" data-flag="@X" onclick="openSidebar('250_Tale of Gold and Flame',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\253_Covewalker Acolyte.png" id="253_Covewalker Acolyte" data-flag="@X" onclick="openSidebar('253_Covewalker Acolyte',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\231_Contest of Valkyries.png" id="231_Contest of Valkyries" data-flag="@X" onclick="openSidebar('231_Contest of Valkyries',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\239_Skybreaker's Herald.png" id="239_Skybreakers Herald" data-flag="@X" onclick="openSidebar('239_Skybreakers Herald',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\242_Laid Among the Roots.png" id="242_Laid Among the Roots" data-flag="@X" onclick="openSidebar('242_Laid Among the Roots',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\251_Vanguard of the Eight Doors.png" id="251_Vanguard of the Eight Doors" data-flag="@X" onclick="openSidebar('251_Vanguard of the Eight Doors',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\255_Koma, Eater of Realms.png" id="255_Koma, Eater of Realms" data-flag="@X" onclick="openSidebar('255_Koma, Eater of Realms',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\234_Ride of the Valkyries.png" id="234_Ride of the Valkyries" data-flag="@X" onclick="openSidebar('234_Ride of the Valkyries',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\238_Metar, Sky-Breaker.png" id="238_Metar, Sky-Breaker" data-flag="@X" onclick="openSidebar('238_Metar, Sky-Breaker',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\244_Restoration of Jormund.png" id="244_Restoration of Jormund" data-flag="@X" onclick="openSidebar('244_Restoration of Jormund',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\248_Blades in Accord.png" id="248_Blades in Accord" data-flag="@X" onclick="openSidebar('248_Blades in Accord',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\256_Under Starnheim's Gaze.png" id="256_Under Starnheims Gaze" data-flag="@X" onclick="openSidebar('256_Under Starnheims Gaze',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\232_Firja, Judge and Executioner.png" id="232_Firja, Judge and Executioner" data-flag="@X" onclick="openSidebar('232_Firja, Judge and Executioner',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\240_Unearthed Secrets.png" id="240_Unearthed Secrets" data-flag="@X" onclick="openSidebar('240_Unearthed Secrets',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\245_Somerled of the Omenpaths.png" id="245_Somerled of the Omenpaths" data-flag="@X" onclick="openSidebar('245_Somerled of the Omenpaths',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\249_Magnhild of the Red Ridge.png" id="249_Magnhild of the Red Ridge" data-flag="@X" onclick="openSidebar('249_Magnhild of the Red Ridge',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\252_Concord Beyond Names.png" id="252_Concord Beyond Names" data-flag="@X" onclick="openSidebar('252_Concord Beyond Names',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\233_Monument of the Worthy.png" id="233_Monument of the Worthy" data-flag="@X" onclick="openSidebar('233_Monument of the Worthy',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\267_Stormseer Augur.png" id="267_Stormseer Augur" data-flag="@X" onclick="openSidebar('267_Stormseer Augur',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\246_Wardens of the Cycle.png" id="246_Wardens of the Cycle" data-flag="@X" onclick="openSidebar('246_Wardens of the Cycle',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\269_Goldgate Scout.png" id="269_Goldgate Scout" data-flag="@X" onclick="openSidebar('269_Goldgate Scout',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\254_Kerr, Student of Forms.png" id="254_Kerr, Student of Forms" data-flag="@X" onclick="openSidebar('254_Kerr, Student of Forms',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\266_Starnheim Arbiter.png" id="266_Starnheim Arbiter" data-flag="@X" onclick="openSidebar('266_Starnheim Arbiter',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\268_Omenpath Pilferer.png" id="268_Omenpath Pilferer" data-flag="@X" onclick="openSidebar('268_Omenpath Pilferer',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\270_Gladewalker Emissary.png" id="270_Gladewalker Emissary" data-flag="@X" onclick="openSidebar('270_Gladewalker Emissary',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\258_Aldegar, Searching for Stars.png" id="258_Aldegar, Searching for Stars" data-flag="@X" onclick="openSidebar('258_Aldegar, Searching for Stars',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\259_Ciar, Engineer of Ruin.png" id="259_Ciar, Engineer of Ruin" data-flag="@X" onclick="openSidebar('259_Ciar, Engineer of Ruin',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\260_Vragi, Hero of Sevalgr.png" id="260_Vragi, Hero of Sevalgr" data-flag="@X" onclick="openSidebar('260_Vragi, Hero of Sevalgr',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\201_Ballad of the Thread Uncut.png" id="201_Ballad of the Thread Uncut" data-flag="@X" onclick="openSidebar('201_Ballad of the Thread Uncut',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\208_Hagduin of the Shadow.png" id="208_Hagduin of the Shadow" data-flag="@X" onclick="openSidebar('208_Hagduin of the Shadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\212_Bari of Internal Wants.png" id="212_Bari of Internal Wants" data-flag="@X" onclick="openSidebar('212_Bari of Internal Wants',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\221_Knud of the Unknown.png" id="221_Knud of the Unknown" data-flag="@X" onclick="openSidebar('221_Knud of the Unknown',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\226_Ingalvur of New Beginnings.png" id="226_Ingalvur of New Beginnings" data-flag="@X" onclick="openSidebar('226_Ingalvur of New Beginnings',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\204_Faded Shieldmate.png" id="204_Faded Shieldmate" data-flag="@X" onclick="openSidebar('204_Faded Shieldmate',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\207_From Triumph to Tomb.png" id="207_From Triumph to Tomb" data-flag="@X" onclick="openSidebar('207_From Triumph to Tomb',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\213_Blood Price.png" id="213_Blood Price" data-flag="@X" onclick="openSidebar('213_Blood Price',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\219_Cairnsplitter.png" id="219_Cairnsplitter" data-flag="@X" onclick="openSidebar('219_Cairnsplitter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\225_Horns Against the Coil.png" id="225_Horns Against the Coil" data-flag="@X" onclick="openSidebar('225_Horns Against the Coil',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\205_Moment's Hindrance.png" id="205_Moments Hindrance" data-flag="@X" onclick="openSidebar('205_Moments Hindrance',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\209_Jarl of the Empty House.png" id="209_Jarl of the Empty House" data-flag="@X" onclick="openSidebar('209_Jarl of the Empty House',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\214_Bloodsky Conquerer.png" id="214_Bloodsky Conquerer" data-flag="@X" onclick="openSidebar('214_Bloodsky Conquerer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\222_Trollking of Mossrun.png" id="222_Trollking of Mossrun" data-flag="@X" onclick="openSidebar('222_Trollking of Mossrun',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\227_Maja, Bretagard's Heart.png" id="227_Maja, Bretagards Heart" data-flag="@X" onclick="openSidebar('227_Maja, Bretagards Heart',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\202_Beskir Soul-Guide.png" id="202_Beskir Soul-Guide" data-flag="@X" onclick="openSidebar('202_Beskir Soul-Guide',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\210_Lord of Rust and Bone.png" id="210_Lord of Rust and Bone" data-flag="@X" onclick="openSidebar('210_Lord of Rust and Bone',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\217_Verse of the Stolen Kiss.png" id="217_Verse of the Stolen Kiss" data-flag="@X" onclick="openSidebar('217_Verse of the Stolen Kiss',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\223_Unraveling the Jaspera.png" id="223_Unraveling the Jaspera" data-flag="@X" onclick="openSidebar('223_Unraveling the Jaspera',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\228_Rekindle History.png" id="228_Rekindle History" data-flag="@X" onclick="openSidebar('228_Rekindle History',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\203_The Elk King.png" id="203_The Elk King" data-flag="@X" onclick="openSidebar('203_The Elk King',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\206_Breath Held Still.png" id="206_Breath Held Still" data-flag="@X" onclick="openSidebar('206_Breath Held Still',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\215_Decree of the Skelle.png" id="215_Decree of the Skelle" data-flag="@X" onclick="openSidebar('215_Decree of the Skelle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\218_Bloodtusk Terror.png" id="218_Bloodtusk Terror" data-flag="@X" onclick="openSidebar('218_Bloodtusk Terror',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\224_Accord in Blood.png" id="224_Accord in Blood" data-flag="@X" onclick="openSidebar('224_Accord in Blood',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\261_Selfless Remnant.png" id="261_Selfless Remnant" data-flag="@X" onclick="openSidebar('261_Selfless Remnant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\211_Narfi, Raider of the Realms.png" id="211_Narfi, Raider of the Realms" data-flag="@X" onclick="openSidebar('211_Narfi, Raider of the Realms',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\216_Kardur, Unbound Doom.png" id="216_Kardur, Unbound Doom" data-flag="@X" onclick="openSidebar('216_Kardur, Unbound Doom',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\220_Glashruk, Gnottvold Reaver.png" id="220_Glashruk, Gnottvold Reaver" data-flag="@X" onclick="openSidebar('220_Glashruk, Gnottvold Reaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\229_Ylva, Spear of Bretagard.png" id="229_Ylva, Spear of Bretagard" data-flag="@X" onclick="openSidebar('229_Ylva, Spear of Bretagard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\262_Bannerless Raider.png" id="262_Bannerless Raider" data-flag="@X" onclick="openSidebar('262_Bannerless Raider',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\263_Chains of the Mire.png" id="263_Chains of the Mire" data-flag="@X" onclick="openSidebar('263_Chains of the Mire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\264_Barrow Marauder.png" id="264_Barrow Marauder" data-flag="@X" onclick="openSidebar('264_Barrow Marauder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\265_Hearthstring Elder.png" id="265_Hearthstring Elder" data-flag="@X" onclick="openSidebar('265_Hearthstring Elder',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\235_Saevel of Thresholds.png" id="235_Saevel of Thresholds" data-flag="@X" onclick="openSidebar('235_Saevel of Thresholds',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\236_Cinders That Carved Strength.png" id="236_Cinders That Carved Strength" data-flag="@X" onclick="openSidebar('236_Cinders That Carved Strength',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\243_Lathril of Blade and Claw.png" id="243_Lathril of Blade and Claw" data-flag="@X" onclick="openSidebar('243_Lathril of Blade and Claw',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\247_Axgard Reinforcements.png" id="247_Axgard Reinforcements" data-flag="@X" onclick="openSidebar('247_Axgard Reinforcements',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\257_Vinrormr of the Cycle.png" id="257_Vinrormr of the Cycle" data-flag="@X" onclick="openSidebar('257_Vinrormr of the Cycle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\230_Ambition Halted.png" id="230_Ambition Halted" data-flag="@X" onclick="openSidebar('230_Ambition Halted',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\237_Frostflame Ascetic.png" id="237_Frostflame Ascetic" data-flag="@X" onclick="openSidebar('237_Frostflame Ascetic',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\241_Harthall Evincar.png" id="241_Harthall Evincar" data-flag="@X" onclick="openSidebar('241_Harthall Evincar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\250_Tale of Gold and Flame.png" id="250_Tale of Gold and Flame" data-flag="@X" onclick="openSidebar('250_Tale of Gold and Flame',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\253_Covewalker Acolyte.png" id="253_Covewalker Acolyte" data-flag="@X" onclick="openSidebar('253_Covewalker Acolyte',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\231_Contest of Valkyries.png" id="231_Contest of Valkyries" data-flag="@X" onclick="openSidebar('231_Contest of Valkyries',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\239_Skybreaker's Herald.png" id="239_Skybreakers Herald" data-flag="@X" onclick="openSidebar('239_Skybreakers Herald',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\242_Laid Among the Roots.png" id="242_Laid Among the Roots" data-flag="@X" onclick="openSidebar('242_Laid Among the Roots',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\251_Vanguard of the Eight Doors.png" id="251_Vanguard of the Eight Doors" data-flag="@X" onclick="openSidebar('251_Vanguard of the Eight Doors',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\255_Koma, Eater of Realms.png" id="255_Koma, Eater of Realms" data-flag="@X" onclick="openSidebar('255_Koma, Eater of Realms',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\234_Ride of the Valkyries.png" id="234_Ride of the Valkyries" data-flag="@X" onclick="openSidebar('234_Ride of the Valkyries',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\238_Metar, Sky-Breaker.png" id="238_Metar, Sky-Breaker" data-flag="@X" onclick="openSidebar('238_Metar, Sky-Breaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\244_Restoration of Jormund.png" id="244_Restoration of Jormund" data-flag="@X" onclick="openSidebar('244_Restoration of Jormund',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\248_Blades in Accord.png" id="248_Blades in Accord" data-flag="@X" onclick="openSidebar('248_Blades in Accord',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\256_Under Starnheim's Gaze.png" id="256_Under Starnheims Gaze" data-flag="@X" onclick="openSidebar('256_Under Starnheims Gaze',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\232_Firja, Judge and Executioner.png" id="232_Firja, Judge and Executioner" data-flag="@X" onclick="openSidebar('232_Firja, Judge and Executioner',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\240_Unearthed Secrets.png" id="240_Unearthed Secrets" data-flag="@X" onclick="openSidebar('240_Unearthed Secrets',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\245_Somerled of the Omenpaths.png" id="245_Somerled of the Omenpaths" data-flag="@X" onclick="openSidebar('245_Somerled of the Omenpaths',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\249_Magnhild of the Red Ridge.png" id="249_Magnhild of the Red Ridge" data-flag="@X" onclick="openSidebar('249_Magnhild of the Red Ridge',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\252_Concord Beyond Names.png" id="252_Concord Beyond Names" data-flag="@X" onclick="openSidebar('252_Concord Beyond Names',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\233_Monument of the Worthy.png" id="233_Monument of the Worthy" data-flag="@X" onclick="openSidebar('233_Monument of the Worthy',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\267_Stormseer Augur.png" id="267_Stormseer Augur" data-flag="@X" onclick="openSidebar('267_Stormseer Augur',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\246_Wardens of the Cycle.png" id="246_Wardens of the Cycle" data-flag="@X" onclick="openSidebar('246_Wardens of the Cycle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\269_Goldgate Scout.png" id="269_Goldgate Scout" data-flag="@X" onclick="openSidebar('269_Goldgate Scout',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\254_Kerr, Student of Forms.png" id="254_Kerr, Student of Forms" data-flag="@X" onclick="openSidebar('254_Kerr, Student of Forms',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\266_Starnheim Arbiter.png" id="266_Starnheim Arbiter" data-flag="@X" onclick="openSidebar('266_Starnheim Arbiter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\268_Omenpath Pilferer.png" id="268_Omenpath Pilferer" data-flag="@X" onclick="openSidebar('268_Omenpath Pilferer',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\270_Gladewalker Emissary.png" id="270_Gladewalker Emissary" data-flag="@X" onclick="openSidebar('270_Gladewalker Emissary',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\258_Aldegar, Searching for Stars.png" id="258_Aldegar, Searching for Stars" data-flag="@X" onclick="openSidebar('258_Aldegar, Searching for Stars',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\259_Ciar, Engineer of Ruin.png" id="259_Ciar, Engineer of Ruin" data-flag="@X" onclick="openSidebar('259_Ciar, Engineer of Ruin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\260_Vragi, Hero of Sevalgr.png" id="260_Vragi, Hero of Sevalgr" data-flag="@X" onclick="openSidebar('260_Vragi, Hero of Sevalgr',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\271_Armor of the Bear King.png" id="271_Armor of the Bear King" data-flag="@X" onclick="openSidebar('271_Armor of the Bear King',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\272_Karo Stone.png" id="272_Karo Stone" data-flag="@X" onclick="openSidebar('272_Karo Stone',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\274_Realmsplitter.png" id="274_Realmsplitter" data-flag="@X" onclick="openSidebar('274_Realmsplitter',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\275_Stonespeaker Crystal.png" id="275_Stonespeaker Crystal" data-flag="@X" onclick="openSidebar('275_Stonespeaker Crystal',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\277_Thunderpelt Chariot.png" id="277_Thunderpelt Chariot" data-flag="@X" onclick="openSidebar('277_Thunderpelt Chariot',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\273_Mirefang Edge.png" id="273_Mirefang Edge" data-flag="@X" onclick="openSidebar('273_Mirefang Edge',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\276_Stormwake Drakkar.png" id="276_Stormwake Drakkar" data-flag="@X" onclick="openSidebar('276_Stormwake Drakkar',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\278_Winter's Provision.png" id="278_Winters Provision" data-flag="@X" onclick="openSidebar('278_Winters Provision',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\271_Armor of the Bear King.png" id="271_Armor of the Bear King" data-flag="@X" onclick="openSidebar('271_Armor of the Bear King',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\272_Karo Stone.png" id="272_Karo Stone" data-flag="@X" onclick="openSidebar('272_Karo Stone',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\274_Realmsplitter.png" id="274_Realmsplitter" data-flag="@X" onclick="openSidebar('274_Realmsplitter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\275_Stonespeaker Crystal.png" id="275_Stonespeaker Crystal" data-flag="@X" onclick="openSidebar('275_Stonespeaker Crystal',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\277_Thunderpelt Chariot.png" id="277_Thunderpelt Chariot" data-flag="@X" onclick="openSidebar('277_Thunderpelt Chariot',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\273_Mirefang Edge.png" id="273_Mirefang Edge" data-flag="@X" onclick="openSidebar('273_Mirefang Edge',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\276_Stormwake Drakkar.png" id="276_Stormwake Drakkar" data-flag="@X" onclick="openSidebar('276_Stormwake Drakkar',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\278_Winter's Provision.png" id="278_Winters Provision" data-flag="@X" onclick="openSidebar('278_Winters Provision',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="land" class="anchor"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\281_Auroral Waypost.png" id="281_Auroral Waypost" data-flag="@X" onclick="openSidebar('281_Auroral Waypost',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\300_Mistdrift Waypost.png" id="300_Mistdrift Waypost" data-flag="@X" onclick="openSidebar('300_Mistdrift Waypost',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\290_Gravecoil Waypost.png" id="290_Gravecoil Waypost" data-flag="@X" onclick="openSidebar('290_Gravecoil Waypost',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\301_Razorcrag Waypost.png" id="301_Razorcrag Waypost" data-flag="@X" onclick="openSidebar('301_Razorcrag Waypost',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\285_Frostglade Waypost.png" id="285_Frostglade Waypost" data-flag="@X" onclick="openSidebar('285_Frostglade Waypost',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\288_Gods' Hall.png" id="288_Gods Hall" data-flag="@X" onclick="openSidebar('288_Gods Hall',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\293_Jaspera of Dreams.png" id="293_Jaspera of Dreams" data-flag="@X" onclick="openSidebar('293_Jaspera of Dreams',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\297_Jaspera of Ruin.png" id="297_Jaspera of Ruin" data-flag="@X" onclick="openSidebar('297_Jaspera of Ruin',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\299_Jaspera of Vigor.png" id="299_Jaspera of Vigor" data-flag="@X" onclick="openSidebar('299_Jaspera of Vigor',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\296_Jaspera of Necessities.png" id="296_Jaspera of Necessities" data-flag="@X" onclick="openSidebar('296_Jaspera of Necessities',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\287_Glacial Floodplain.png" id="287_Glacial Floodplain" data-flag="@X" onclick="openSidebar('287_Glacial Floodplain',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\292_Ice Tunnel.png" id="292_Ice Tunnel" data-flag="@X" onclick="openSidebar('292_Ice Tunnel',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\307_Sulfurous Mire.png" id="307_Sulfurous Mire" data-flag="@X" onclick="openSidebar('307_Sulfurous Mire',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\291_Highland Forest.png" id="291_Highland Forest" data-flag="@X" onclick="openSidebar('291_Highland Forest',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\280_Arctic Treeline.png" id="280_Arctic Treeline" data-flag="@X" onclick="openSidebar('280_Arctic Treeline',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\295_Jaspera of Health.png" id="295_Jaspera of Health" data-flag="@X" onclick="openSidebar('295_Jaspera of Health',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\308_Surtland Conflux.png" id="308_Surtland Conflux" data-flag="@X" onclick="openSidebar('308_Surtland Conflux',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\298_Jaspera of Strife.png" id="298_Jaspera of Strife" data-flag="@X" onclick="openSidebar('298_Jaspera of Strife',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\289_Goldmaw Chasm.png" id="289_Goldmaw Chasm" data-flag="@X" onclick="openSidebar('289_Goldmaw Chasm',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\294_Jaspera of Growth.png" id="294_Jaspera of Growth" data-flag="@X" onclick="openSidebar('294_Jaspera of Growth',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\304_Snowfield Sinkhole.png" id="304_Snowfield Sinkhole" data-flag="@X" onclick="openSidebar('304_Snowfield Sinkhole',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\310_Volatile Fjord.png" id="310_Volatile Fjord" data-flag="@X" onclick="openSidebar('310_Volatile Fjord',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\311_Woodland Chasm.png" id="311_Woodland Chasm" data-flag="@X" onclick="openSidebar('311_Woodland Chasm',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\279_Alpine Meadow.png" id="279_Alpine Meadow" data-flag="@X" onclick="openSidebar('279_Alpine Meadow',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\302_Rimewood Falls.png" id="302_Rimewood Falls" data-flag="@X" onclick="openSidebar('302_Rimewood Falls',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\309_Valley of the Twin Warriors.png" id="309_Valley of the Twin Warriors" data-flag="@X" onclick="openSidebar('309_Valley of the Twin Warriors',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\284_Fading Horizon.png" id="284_Fading Horizon" data-flag="@X" onclick="openSidebar('284_Fading Horizon',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\286_Frozen Hoard.png" id="286_Frozen Hoard" data-flag="@X" onclick="openSidebar('286_Frozen Hoard',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\303_Sevalgr Port.png" id="303_Sevalgr Port" data-flag="@X" onclick="openSidebar('303_Sevalgr Port',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\305_Snowworn Expanse.png" id="305_Snowworn Expanse" data-flag="@X" onclick="openSidebar('305_Snowworn Expanse',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\306_Starlit Expanse.png" id="306_Starlit Expanse" data-flag="@X" onclick="openSidebar('306_Starlit Expanse',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\282_Crumbling Ruins.png" id="282_Crumbling Ruins" data-flag="@X" onclick="openSidebar('282_Crumbling Ruins',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\283_Developing Fjord.png" id="283_Developing Fjord" data-flag="@X" onclick="openSidebar('283_Developing Fjord',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\281_Auroral Waypost.png" id="281_Auroral Waypost" data-flag="@X" onclick="openSidebar('281_Auroral Waypost',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\300_Mistdrift Waypost.png" id="300_Mistdrift Waypost" data-flag="@X" onclick="openSidebar('300_Mistdrift Waypost',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\290_Gravecoil Waypost.png" id="290_Gravecoil Waypost" data-flag="@X" onclick="openSidebar('290_Gravecoil Waypost',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\301_Razorcrag Waypost.png" id="301_Razorcrag Waypost" data-flag="@X" onclick="openSidebar('301_Razorcrag Waypost',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\285_Frostglade Waypost.png" id="285_Frostglade Waypost" data-flag="@X" onclick="openSidebar('285_Frostglade Waypost',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\288_Gods' Hall.png" id="288_Gods Hall" data-flag="@X" onclick="openSidebar('288_Gods Hall',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\293_Jaspera of Dreams.png" id="293_Jaspera of Dreams" data-flag="@X" onclick="openSidebar('293_Jaspera of Dreams',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\297_Jaspera of Ruin.png" id="297_Jaspera of Ruin" data-flag="@X" onclick="openSidebar('297_Jaspera of Ruin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\299_Jaspera of Vigor.png" id="299_Jaspera of Vigor" data-flag="@X" onclick="openSidebar('299_Jaspera of Vigor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\296_Jaspera of Necessities.png" id="296_Jaspera of Necessities" data-flag="@X" onclick="openSidebar('296_Jaspera of Necessities',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\287_Glacial Floodplain.png" id="287_Glacial Floodplain" data-flag="@X" onclick="openSidebar('287_Glacial Floodplain',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\292_Ice Tunnel.png" id="292_Ice Tunnel" data-flag="@X" onclick="openSidebar('292_Ice Tunnel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\307_Sulfurous Mire.png" id="307_Sulfurous Mire" data-flag="@X" onclick="openSidebar('307_Sulfurous Mire',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\291_Highland Forest.png" id="291_Highland Forest" data-flag="@X" onclick="openSidebar('291_Highland Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\280_Arctic Treeline.png" id="280_Arctic Treeline" data-flag="@X" onclick="openSidebar('280_Arctic Treeline',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\295_Jaspera of Health.png" id="295_Jaspera of Health" data-flag="@X" onclick="openSidebar('295_Jaspera of Health',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\308_Surtland Conflux.png" id="308_Surtland Conflux" data-flag="@X" onclick="openSidebar('308_Surtland Conflux',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\298_Jaspera of Strife.png" id="298_Jaspera of Strife" data-flag="@X" onclick="openSidebar('298_Jaspera of Strife',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\289_Goldmaw Chasm.png" id="289_Goldmaw Chasm" data-flag="@X" onclick="openSidebar('289_Goldmaw Chasm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\294_Jaspera of Growth.png" id="294_Jaspera of Growth" data-flag="@X" onclick="openSidebar('294_Jaspera of Growth',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\304_Snowfield Sinkhole.png" id="304_Snowfield Sinkhole" data-flag="@X" onclick="openSidebar('304_Snowfield Sinkhole',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\310_Volatile Fjord.png" id="310_Volatile Fjord" data-flag="@X" onclick="openSidebar('310_Volatile Fjord',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\311_Woodland Chasm.png" id="311_Woodland Chasm" data-flag="@X" onclick="openSidebar('311_Woodland Chasm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\279_Alpine Meadow.png" id="279_Alpine Meadow" data-flag="@X" onclick="openSidebar('279_Alpine Meadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\302_Rimewood Falls.png" id="302_Rimewood Falls" data-flag="@X" onclick="openSidebar('302_Rimewood Falls',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\309_Valley of the Twin Warriors.png" id="309_Valley of the Twin Warriors" data-flag="@X" onclick="openSidebar('309_Valley of the Twin Warriors',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\284_Fading Horizon.png" id="284_Fading Horizon" data-flag="@X" onclick="openSidebar('284_Fading Horizon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\286_Frozen Hoard.png" id="286_Frozen Hoard" data-flag="@X" onclick="openSidebar('286_Frozen Hoard',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\303_Sevalgr Port.png" id="303_Sevalgr Port" data-flag="@X" onclick="openSidebar('303_Sevalgr Port',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\305_Snowworn Expanse.png" id="305_Snowworn Expanse" data-flag="@X" onclick="openSidebar('305_Snowworn Expanse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\306_Starlit Expanse.png" id="306_Starlit Expanse" data-flag="@X" onclick="openSidebar('306_Starlit Expanse',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\282_Crumbling Ruins.png" id="282_Crumbling Ruins" data-flag="@X" onclick="openSidebar('282_Crumbling Ruins',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\283_Developing Fjord.png" id="283_Developing Fjord" data-flag="@X" onclick="openSidebar('283_Developing Fjord',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\1t_Warrior.png" id="1t_Warrior" data-flag="@X" onclick="openSidebar('1t_Warrior',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\20t_Snow Treasure.png" id="20t_Snow Treasure" data-flag="@X" onclick="openSidebar('20t_Snow Treasure',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\21t_Vehicle.png" id="21t_Vehicle" data-flag="@X" onclick="openSidebar('21t_Vehicle',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\22t_Snow-Covered Waste.png" id="22t_Snow-Covered Waste" data-flag="@X" onclick="openSidebar('22t_Snow-Covered Waste',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\2t_Angel.png" id="2t_Angel" data-flag="@X" onclick="openSidebar('2t_Angel',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\3t_Bird Spirit.png" id="3t_Bird Spirit" data-flag="@X" onclick="openSidebar('3t_Bird Spirit',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\4t_Glorious Anthem.png" id="4t_Glorious Anthem" data-flag="@X" onclick="openSidebar('4t_Glorious Anthem',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\5t_Human.png" id="5t_Human" data-flag="@X" onclick="openSidebar('5t_Human',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\6t_Spirit.png" id="6t_Spirit" data-flag="@X" onclick="openSidebar('6t_Spirit',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\7t_Koma's Coil.png" id="7t_Komas Coil" data-flag="@X" onclick="openSidebar('7t_Komas Coil',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\8t_Shapeshifter.png" id="8t_Shapeshifter" data-flag="@X" onclick="openSidebar('8t_Shapeshifter',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\9t_Demon.png" id="9t_Demon" data-flag="@X" onclick="openSidebar('9t_Demon',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\10t_Zombie Warrior.png" id="10t_Zombie Warrior" data-flag="@X" onclick="openSidebar('10t_Zombie Warrior',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\11t_Berserker.png" id="11t_Berserker" data-flag="@X" onclick="openSidebar('11t_Berserker',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\12t_Dwarf Berserker.png" id="12t_Dwarf Berserker" data-flag="@X" onclick="openSidebar('12t_Dwarf Berserker',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\13t_Giant.png" id="13t_Giant" data-flag="@X" onclick="openSidebar('13t_Giant',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\14t_Warrior.png" id="14t_Warrior" data-flag="@X" onclick="openSidebar('14t_Warrior',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\15t_Elf Warrior.png" id="15t_Elf Warrior" data-flag="@X" onclick="openSidebar('15t_Elf Warrior',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\16t_Elk Spirit.png" id="16t_Elk Spirit" data-flag="@X" onclick="openSidebar('16t_Elk Spirit',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\17t_Serpent.png" id="17t_Serpent" data-flag="@X" onclick="openSidebar('17t_Serpent',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\18t_Troll.png" id="18t_Troll" data-flag="@X" onclick="openSidebar('18t_Troll',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\19t_Wolf.png" id="19t_Wolf" data-flag="@X" onclick="openSidebar('19t_Wolf',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\312t_Ode to Discovery.png" id="312t_Ode to Discovery" data-flag="@X" onclick="openSidebar('312t_Ode to Discovery',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\313t_Ode to Kin.png" id="313t_Ode to Kin" data-flag="@X" onclick="openSidebar('313t_Ode to Kin',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\314t_Ode to Returns.png" id="314t_Ode to Returns" data-flag="@X" onclick="openSidebar('314t_Ode to Returns',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\316t_Ode to Visions.png" id="316t_Ode to Visions" data-flag="@X" onclick="openSidebar('316t_Ode to Visions',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\317t_Ode to Ashes.png" id="317t_Ode to Ashes" data-flag="@X" onclick="openSidebar('317t_Ode to Ashes',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\318t_Ode to Binding.png" id="318t_Ode to Binding" data-flag="@X" onclick="openSidebar('318t_Ode to Binding',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\319t_Ode to Dread.png" id="319t_Ode to Dread" data-flag="@X" onclick="openSidebar('319t_Ode to Dread',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\320t_Ode to Folly.png" id="320t_Ode to Folly" data-flag="@X" onclick="openSidebar('320t_Ode to Folly',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\321t_Ode to the Vessel.png" id="321t_Ode to the Vessel" data-flag="@X" onclick="openSidebar('321t_Ode to the Vessel',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\322t_Ode to Cunning.png" id="322t_Ode to Cunning" data-flag="@X" onclick="openSidebar('322t_Ode to Cunning',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\323t_Ode to the Storm.png" id="323t_Ode to the Storm" data-flag="@X" onclick="openSidebar('323t_Ode to the Storm',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\324t_Ode to Discovery.png" id="324t_Ode to Discovery" data-flag="@X" onclick="openSidebar('324t_Ode to Discovery',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\325t_Ode to Renewal.png" id="325t_Ode to Renewal" data-flag="@X" onclick="openSidebar('325t_Ode to Renewal',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\326t_Ode to the Clans.png" id="326t_Ode to the Clans" data-flag="@X" onclick="openSidebar('326t_Ode to the Clans',false)"></div>
-				<div class="container"><img alt="/sets\BRE-files\img\327t_Ode to Valor.png" id="327t_Ode to Valor" data-flag="@X" onclick="openSidebar('327t_Ode to Valor',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\1t_Warrior.png" id="1t_Warrior" data-flag="@X" onclick="openSidebar('1t_Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\20t_Snow Treasure.png" id="20t_Snow Treasure" data-flag="@X" onclick="openSidebar('20t_Snow Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\21t_Vehicle.png" id="21t_Vehicle" data-flag="@X" onclick="openSidebar('21t_Vehicle',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\22t_Snow-Covered Waste.png" id="22t_Snow-Covered Waste" data-flag="@X" onclick="openSidebar('22t_Snow-Covered Waste',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\2t_Angel.png" id="2t_Angel" data-flag="@X" onclick="openSidebar('2t_Angel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\3t_Bird Spirit.png" id="3t_Bird Spirit" data-flag="@X" onclick="openSidebar('3t_Bird Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\4t_Glorious Anthem.png" id="4t_Glorious Anthem" data-flag="@X" onclick="openSidebar('4t_Glorious Anthem',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\5t_Human.png" id="5t_Human" data-flag="@X" onclick="openSidebar('5t_Human',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\6t_Spirit.png" id="6t_Spirit" data-flag="@X" onclick="openSidebar('6t_Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\7t_Koma's Coil.png" id="7t_Komas Coil" data-flag="@X" onclick="openSidebar('7t_Komas Coil',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\8t_Shapeshifter.png" id="8t_Shapeshifter" data-flag="@X" onclick="openSidebar('8t_Shapeshifter',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\9t_Demon.png" id="9t_Demon" data-flag="@X" onclick="openSidebar('9t_Demon',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\10t_Zombie Warrior.png" id="10t_Zombie Warrior" data-flag="@X" onclick="openSidebar('10t_Zombie Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\11t_Berserker.png" id="11t_Berserker" data-flag="@X" onclick="openSidebar('11t_Berserker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\12t_Dwarf Berserker.png" id="12t_Dwarf Berserker" data-flag="@X" onclick="openSidebar('12t_Dwarf Berserker',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\13t_Giant.png" id="13t_Giant" data-flag="@X" onclick="openSidebar('13t_Giant',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\14t_Warrior.png" id="14t_Warrior" data-flag="@X" onclick="openSidebar('14t_Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\15t_Elf Warrior.png" id="15t_Elf Warrior" data-flag="@X" onclick="openSidebar('15t_Elf Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\16t_Elk Spirit.png" id="16t_Elk Spirit" data-flag="@X" onclick="openSidebar('16t_Elk Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\17t_Serpent.png" id="17t_Serpent" data-flag="@X" onclick="openSidebar('17t_Serpent',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\18t_Troll.png" id="18t_Troll" data-flag="@X" onclick="openSidebar('18t_Troll',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\19t_Wolf.png" id="19t_Wolf" data-flag="@X" onclick="openSidebar('19t_Wolf',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\312t_Ode to Discovery.png" id="312t_Ode to Discovery" data-flag="@X" onclick="openSidebar('312t_Ode to Discovery',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\313t_Ode to Kin.png" id="313t_Ode to Kin" data-flag="@X" onclick="openSidebar('313t_Ode to Kin',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\314t_Ode to Returns.png" id="314t_Ode to Returns" data-flag="@X" onclick="openSidebar('314t_Ode to Returns',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\316t_Ode to Visions.png" id="316t_Ode to Visions" data-flag="@X" onclick="openSidebar('316t_Ode to Visions',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\317t_Ode to Ashes.png" id="317t_Ode to Ashes" data-flag="@X" onclick="openSidebar('317t_Ode to Ashes',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\318t_Ode to Binding.png" id="318t_Ode to Binding" data-flag="@X" onclick="openSidebar('318t_Ode to Binding',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\319t_Ode to Dread.png" id="319t_Ode to Dread" data-flag="@X" onclick="openSidebar('319t_Ode to Dread',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\320t_Ode to Folly.png" id="320t_Ode to Folly" data-flag="@X" onclick="openSidebar('320t_Ode to Folly',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\321t_Ode to the Vessel.png" id="321t_Ode to the Vessel" data-flag="@X" onclick="openSidebar('321t_Ode to the Vessel',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\322t_Ode to Cunning.png" id="322t_Ode to Cunning" data-flag="@X" onclick="openSidebar('322t_Ode to Cunning',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\323t_Ode to the Storm.png" id="323t_Ode to the Storm" data-flag="@X" onclick="openSidebar('323t_Ode to the Storm',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\324t_Ode to Discovery.png" id="324t_Ode to Discovery" data-flag="@X" onclick="openSidebar('324t_Ode to Discovery',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\325t_Ode to Renewal.png" id="325t_Ode to Renewal" data-flag="@X" onclick="openSidebar('325t_Ode to Renewal',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\326t_Ode to the Clans.png" id="326t_Ode to the Clans" data-flag="@X" onclick="openSidebar('326t_Ode to the Clans',false)"></div>
+				<div class="container"><img loading="lazy" alt="/sets\BRE-files\img\327t_Ode to Valor.png" id="327t_Ode to Valor" data-flag="@X" onclick="openSidebar('327t_Ode to Valor',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
@@ -745,27 +759,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -777,17 +815,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -817,6 +857,26 @@
 
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
 	}
 
 	document.getElementById("search").addEventListener("keypress", function(event) {

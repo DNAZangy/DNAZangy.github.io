@@ -1,4 +1,41 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+
+
+Bitter Ambition
+
+Strike of the Faceless
+
+Atashvar Stormcaller
+rules_text: Prowess
+Whenever Atashvar Stormcaller attacks, you may cast target noncreature card that shares a name with another card in your graveyard. If that spell would be put into a graveyard, exile it instead. [i](You still pay its costs.[/i] => Prowess
+Whenever Atashvar Stormcaller attacks, you may cast target noncreature card that shares a name with another card in your graveyard. If that spell would be put into a graveyard, exile it instead. [i](You still pay its costs.)[/i]
+
+The Only Constant
+rules_text: Flash
+When The Only Constant enters, if you cast them, you may exile target noncreature spell . When The Only Constant is no longer on the battlefield, return the exiled card to its owner's hand.
+{U}{B}, Pay 2 life: The Only Constant becomes a Satrapy land with “{T}: Add {C}.” [i](They are no longer their other types.)[/i] => Flash
+When The Only Constant enters, if you cast them, you may exile target noncreature spell. When The Only Constant is no longer on the battlefield, return the exiled card to its owner's hand.
+{U}{B}, Pay 2 life: The Only Constant becomes a Satrapy land with “{T}: Add {C}.” [i](They are no longer their other types.)[/i]
+
+Secondhand Serenade
+rules_text: Target instant or sorcery card in your graveyard gains flashback until end of turn. If this spell was cast from your graveyard, that flashback cost is equal to its mana cost minus {1}. 
+Flashback {3}{R} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. If this spell was cast from your graveyard, that flashback cost is equal to its mana cost minus {1}. 
+Flashback {3}{R} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Marvels of Alkabah
+rules_text: Reveal the top card of your library until you reveal two land cards. Put them into your hand, then shuffle. An opponent may have each each player put a land card from their hand onto the battlefield. => Reveal the top card of your library until you reveal two land cards. Put them into your hand, then shuffle. An opponent may have each player put a land card from their hand onto the battlefield.
+
+Last of Marjavar
+rules_text: As long as you control exactly one creature, that creature gets +1/+1 and has ward {2}.
+Whenever a creature you control enters, if you control another creature, exile that creature. When you control no other creatures, return that card to the battlefield under its owner's control. [i](If there are multiple cards exiled with this card, you return only one when a new creature leaves.)[/i] => As long as you control exactly one creature, that creature gets +1/+1 and has ward {2}.
+Whenever a creature you control enters, if you control another creature, exile that creature. When you control no other creatures, if you don't control any other creatures, return that card to the battlefield under its owner's control. [i](If there are multiple cards exiled with this card, you return only one when a new creature leaves.)[/i]
+
+Labor of Life
+
+
+VERSION 6 CHANGELOG
 ====================
 
 

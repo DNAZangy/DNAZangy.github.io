@@ -238,6 +238,10 @@
 									<a href="previews/ROS"><div class="set-icon"><img src="sets/ROS-files/icon.png" title="Alkabah: Rise of Soli"></img></div>
 									<div class="set-icon-name">Alkabah: Rise of Soli</div></a>
 								</div>
+				<div class="set-icon-container">
+									<a href="previews/G5L"><div class="set-icon"><img src="sets/G5L-files/icon.png" title="Alkabah: Golna’s Five Labors"></img></div>
+									<div class="set-icon-name">Alkabah: Golna’s Five Labors</div></a>
+								</div>
 									</div>
 							<div class="set-group">Voyager Format</div>
 							<div class="preview-container">
@@ -267,10 +271,6 @@
 				<div class="set-icon-container">
 									<a href="previews/TRO"><div class="set-icon"><img src="sets/TRO-files/icon.png" title="Trovsko"></img></div>
 									<div class="set-icon-name">Trovsko</div></a>
-								</div>
-				<div class="set-icon-container">
-									<a href="previews/G5L"><div class="set-icon"><img src="sets/G5L-files/icon.png" title="Alkabah: Golna’s Five Labors"></img></div>
-									<div class="set-icon-name">Alkabah: Golna’s Five Labors</div></a>
 								</div>
 									</div>
 							<div class="set-group">Cubes</div>
@@ -378,7 +378,14 @@
 				const img = document.createElement("img");
 				img.id = "cotd";
 
-				img.src = '/sets/' + card_stats.set + '-files/img/' + card_stats.number + '_' + card_stats.card_name + (card_stats.shape.includes('double') ? '_front' : '') + '.' + card_stats.image_type;
+				if ("position" in card_stats)
+				{
+					img.src = '/sets/' + card_stats.set + '-files/img/' + card_stats.position + (card_stats.shape.includes('double') ? '_front' : '') + '.' + card_stats.image_type;
+				}
+				else
+				{
+					img.src = '/sets/' + card_stats.set + '-files/img/' + card_stats.number + '_' + card_stats.card_name + (card_stats.shape.includes('double') ? '_front' : '') + '.' + card_stats.image_type;
+				}
 
 				a.append(img);
 				document.getElementById("cotd-image").append(a);
