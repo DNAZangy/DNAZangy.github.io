@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/HTS-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/HTS-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>HTS visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
 		@font-face {
 			font-family: Beleren;
-			src: url('/resources/beleren.ttf');
+			src: url('../resources/beleren.ttf');
 		}
 		body {
 			font-family: Arial, sans-serif;
@@ -45,13 +48,15 @@
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -62,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -82,6 +87,7 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
@@ -102,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -118,7 +125,7 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -174,470 +181,489 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/HTS-files/logo.png" />
-	<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TWI-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ALK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ACT-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ROS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/G5L-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HOD-files/icon.png" />
-		<img class="preload-hidden" src="/sets/BRE-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HTS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MSK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ORC-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TRO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ZANG-files/icon.png" />
-		<img class="preload-hidden" src="/sets/CIUB-files/icon.png" />
-		<img class="preload-hidden" src="/sets/RAR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ZNU-files/icon.png" />
-		<img class="preload-hidden" id="bg" src="/sets/HTS-files/bg.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/HTS-files/logo.png" />
+	<img class="preload-hidden" src="../sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TWI-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ALK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ACT-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ROS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/G5L-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HOD-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SHU-files/icon.png" />
+		<img class="preload-hidden" src="../sets/BRE-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HTS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MSK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ORC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TRO-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ZANG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CIUB-files/icon.png" />
+		<img class="preload-hidden" src="../sets/RAR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ZNU-files/icon.png" />
+		<img class="preload-hidden" id="bg" src="../sets/HTS-files/bg.png" />
 
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
 
 	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
-		<a class="set-bar" href="HTS"><img src="/sets/HTS-files/icon.png">Hatsuniji: We Stare Through the Window, Together, Holding Hands</a>
+		<a class="set-bar" href="../previews/HTS"><img src="../sets/HTS-files/icon.png">Hatsuniji: We Stare Through the Window, Together, Holding Hands</a>
 	
-		<a class="set-bar inactive" href="SRC"><img src="/sets/SRC-files/icon.png">Secrets of the River Cities</a>
+		<a class="set-bar inactive" href="../previews/SRC"><img src="../sets/SRC-files/icon.png">Secrets of the River Cities</a>
 	
-		<a class="set-bar inactive" href="TRX"><img src="/sets/TRX-files/icon.png">Theros: Age of Trax</a>
+		<a class="set-bar inactive" href="../previews/TRX"><img src="../sets/TRX-files/icon.png">Theros: Age of Trax</a>
 	
-		<a class="set-bar inactive" href="TWI"><img src="/sets/TWI-files/icon.png">Exalts of Twiltrie</a>
+		<a class="set-bar inactive" href="../previews/TWI"><img src="../sets/TWI-files/icon.png">Exalts of Twiltrie</a>
 	
-		<a class="set-bar inactive" href="ALK"><img src="/sets/ALK-files/icon.png">Alkabah</a>
+		<a class="set-bar inactive" href="../previews/ALK"><img src="../sets/ALK-files/icon.png">Alkabah</a>
 	
-		<a class="set-bar inactive" href="ACT"><img src="/sets/ACT-files/icon.png">The Stage Presents: The Neverending Act</a>
+		<a class="set-bar inactive" href="../previews/ACT"><img src="../sets/ACT-files/icon.png">The Stage Presents: The Neverending Act</a>
 	
-		<a class="set-bar inactive" href="ROS"><img src="/sets/ROS-files/icon.png">Alkabah: Rise of Soli</a>
+		<a class="set-bar inactive" href="../previews/ROS"><img src="../sets/ROS-files/icon.png">Alkabah: Rise of Soli</a>
 	
-		<a class="set-bar inactive" href="G5L"><img src="/sets/G5L-files/icon.png">Alkabah: Golna’s Five Labors</a>
+		<a class="set-bar inactive" href="../previews/G5L"><img src="../sets/G5L-files/icon.png">Alkabah: Golna’s Five Labors</a>
 	
-		<a class="set-bar inactive" href="HOD"><img src="/sets/HOD-files/icon.png">Houses of Dewold</a>
+		<a class="set-bar inactive" href="../previews/HOD"><img src="../sets/HOD-files/icon.png">Houses of Dewold</a>
 	
-		<a class="set-bar inactive" href="BRE"><img src="/sets/BRE-files/icon.png">Kaldheim: Bretagard’s Revival</a>
+		<a class="set-bar inactive" href="../previews/SHU"><img src="../sets/SHU-files/icon.png">Shurima: War of the Sands</a>
 	
-		<a class="set-bar inactive" href="MSK"><img src="/sets/MSK-files/icon.png">Myths, Masks, and Minutes Spent Apart</a>
+		<a class="set-bar inactive" href="../previews/BRE"><img src="../sets/BRE-files/icon.png">Kaldheim: Bretagard’s Revival</a>
 	
-		<a class="set-bar inactive" href="ORC"><img src="/sets/ORC-files/icon.png">An Oddness in the River Cities</a>
+		<a class="set-bar inactive" href="../previews/MSK"><img src="../sets/MSK-files/icon.png">Myths, Masks, and Minutes Spent Apart</a>
 	
-		<a class="set-bar inactive" href="TRO"><img src="/sets/TRO-files/icon.png">Trovsko</a>
+		<a class="set-bar inactive" href="../previews/ORC"><img src="../sets/ORC-files/icon.png">An Oddness in the River Cities</a>
 	
-		<a class="set-bar inactive" href="ZANG"><img src="/sets/ZANG-files/icon.png">Zangy Cube</a>
+		<a class="set-bar inactive" href="../previews/TRO"><img src="../sets/TRO-files/icon.png">Trovsko</a>
 	
-		<a class="set-bar inactive" href="CIUB"><img src="/sets/CIUB-files/icon.png">Tairngire Cube</a>
+		<a class="set-bar inactive" href="../previews/ZANG"><img src="../sets/ZANG-files/icon.png">Zangy Cube</a>
 	
-		<a class="set-bar inactive" href="RAR"><img src="/sets/RAR-files/icon.png">Ravnica: Resurgence</a>
+		<a class="set-bar inactive" href="../previews/CIUB"><img src="../sets/CIUB-files/icon.png">Tairngire Cube</a>
 	
-		<a class="set-bar inactive" href="ZNU"><img src="/sets/ZNU-files/icon.png">Zendikar Unleashed</a>
+		<a class="set-bar inactive" href="../previews/RAR"><img src="../sets/RAR-files/icon.png">Ravnica: Resurgence</a>
+	
+		<a class="set-bar inactive" href="../previews/ZNU"><img src="../sets/ZNU-files/icon.png">Zendikar Unleashed</a>
 	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/HTS-files/logo.png">
+		<img class="logo" src="../sets/HTS-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\5_Akio, Always Watchful.png" id="5_Akio, Always Watchful" data-flag="@X" onclick="openSidebar('5_Akio, Always Watchful',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\43_Banri, Guide in the Sky.png" id="43_Banri, Guide in the Sky" data-flag="@X" onclick="openSidebar('43_Banri, Guide in the Sky',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\96_Itami, Enervated.png" id="96_Itami, Enervated" data-flag="@X" onclick="openSidebar('96_Itami, Enervated',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\139_Kumiko, Brightest in the Sky.png" id="139_Kumiko, Brightest in the Sky" data-flag="@X" onclick="openSidebar('139_Kumiko, Brightest in the Sky',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\166_Caretaker of Hidden Shrines.png" id="166_Caretaker of Hidden Shrines" data-flag="@X" onclick="openSidebar('166_Caretaker of Hidden Shrines',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\26_Porcelain Elite.png" id="26_Porcelain Elite" data-flag="@X" onclick="openSidebar('26_Porcelain Elite',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\53_Flexible Unit Repairer.png" id="53_Flexible Unit Repairer" data-flag="@X" onclick="openSidebar('53_Flexible Unit Repairer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\99_Obsidian Elite.png" id="99_Obsidian Elite" data-flag="@X" onclick="openSidebar('99_Obsidian Elite',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\141_Mount Shirogane Guardian.png" id="141_Mount Shirogane Guardian" data-flag="@X" onclick="openSidebar('141_Mount Shirogane Guardian',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\167_Chinatsu, Hero to All.png" id="167_Chinatsu, Hero to All" data-flag="@X" onclick="openSidebar('167_Chinatsu, Hero to All',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\6_Akio, Eyes of the Platoon.png" id="6_Akio, Eyes of the Platoon" data-flag="@X" onclick="openSidebar('6_Akio, Eyes of the Platoon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\42_Aimi, Top Cut.png" id="42_Aimi, Top Cut" data-flag="@X" onclick="openSidebar('42_Aimi, Top Cut',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\83_Banri and Kumiko, Falling Stars.png" id="83_Banri and Kumiko, Falling Stars" data-flag="@X" onclick="openSidebar('83_Banri and Kumiko, Falling Stars',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\123_Boundless Swiftness.png" id="123_Boundless Swiftness" data-flag="@X" onclick="openSidebar('123_Boundless Swiftness',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\158_Applied Gym Coach.png" id="158_Applied Gym Coach" data-flag="@X" onclick="openSidebar('158_Applied Gym Coach',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\9_Assemble the Squad.png" id="9_Assemble the Squad" data-flag="@X" onclick="openSidebar('9_Assemble the Squad',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\44_Besmear.png" id="44_Besmear" data-flag="@X" onclick="openSidebar('44_Besmear',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\94_Harbinger of Fallen Fates.png" id="94_Harbinger of Fallen Fates" data-flag="@X" onclick="openSidebar('94_Harbinger of Fallen Fates',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\126_Capture the Spectrum.png" id="126_Capture the Spectrum" data-flag="@X" onclick="openSidebar('126_Capture the Spectrum',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\168_Chinatsu, Striving for Perfection.png" id="168_Chinatsu, Striving for Perfection" data-flag="@X" onclick="openSidebar('168_Chinatsu, Striving for Perfection',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\10_Barrage from Above.png" id="10_Barrage from Above" data-flag="@X" onclick="openSidebar('10_Barrage from Above',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\48_Deluge of Colors.png" id="48_Deluge of Colors" data-flag="@X" onclick="openSidebar('48_Deluge of Colors',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\97_Lost in Everywhere.png" id="97_Lost in Everywhere" data-flag="@X" onclick="openSidebar('97_Lost in Everywhere',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\127_Commune with the Cosmic Dance.png" id="127_Commune with the Cosmic Dance" data-flag="@X" onclick="openSidebar('127_Commune with the Cosmic Dance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\169_Citycrusher Behemoth.png" id="169_Citycrusher Behemoth" data-flag="@X" onclick="openSidebar('169_Citycrusher Behemoth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\18_Hearthsoul Kirin.png" id="18_Hearthsoul Kirin" data-flag="@X" onclick="openSidebar('18_Hearthsoul Kirin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\52_FLARE Operative.png" id="52_FLARE Operative" data-flag="@X" onclick="openSidebar('52_FLARE Operative',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\105_The Phantom Bandit.png" id="105_The Phantom Bandit" data-flag="@X" onclick="openSidebar('105_The Phantom Bandit',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\129_Dancer on the Clouds.png" id="129_Dancer on the Clouds" data-flag="@X" onclick="openSidebar('129_Dancer on the Clouds',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\175_Everywhere Beckons.png" id="175_Everywhere Beckons" data-flag="@X" onclick="openSidebar('175_Everywhere Beckons',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\19_Homeroom Bully.png" id="19_Homeroom Bully" data-flag="@X" onclick="openSidebar('19_Homeroom Bully',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\56_Hallway Wanderer.png" id="56_Hallway Wanderer" data-flag="@X" onclick="openSidebar('56_Hallway Wanderer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\106_Placate the Demon King.png" id="106_Placate the Demon King" data-flag="@X" onclick="openSidebar('106_Placate the Demon King',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\133_Field Trainer.png" id="133_Field Trainer" data-flag="@X" onclick="openSidebar('133_Field Trainer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\178_Hype Squad.png" id="178_Hype Squad" data-flag="@X" onclick="openSidebar('178_Hype Squad',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\34_Takara, Scarred by Fate.png" id="34_Takara, Scarred by Fate" data-flag="@X" onclick="openSidebar('34_Takara, Scarred by Fate',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\58_Hero of Resolute Will.png" id="58_Hero of Resolute Will" data-flag="@X" onclick="openSidebar('58_Hero of Resolute Will',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\107_Platoon Commander.png" id="107_Platoon Commander" data-flag="@X" onclick="openSidebar('107_Platoon Commander',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\143_Neon Junkie Wakagashira.png" id="143_Neon Junkie Wakagashira" data-flag="@X" onclick="openSidebar('143_Neon Junkie Wakagashira',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\181_Loathed Archvillain.png" id="181_Loathed Archvillain" data-flag="@X" onclick="openSidebar('181_Loathed Archvillain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\35_Tear the World Asunder.png" id="35_Tear the World Asunder" data-flag="@X" onclick="openSidebar('35_Tear the World Asunder',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\59_Itami, Always Aspiring.png" id="59_Itami, Always Aspiring" data-flag="@X" onclick="openSidebar('59_Itami, Always Aspiring',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\108_Prestigious Schoolmaster.png" id="108_Prestigious Schoolmaster" data-flag="@X" onclick="openSidebar('108_Prestigious Schoolmaster',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\148_Satomi, Platoon Leader.png" id="148_Satomi, Platoon Leader" data-flag="@X" onclick="openSidebar('148_Satomi, Platoon Leader',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\183_Moriko, the Jovial Friend.png" id="183_Moriko, the Jovial Friend" data-flag="@X" onclick="openSidebar('183_Moriko, the Jovial Friend',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\38_Valiant Bright.png" id="38_Valiant Bright" data-flag="@X" onclick="openSidebar('38_Valiant Bright',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\62_Master of Knowledge.png" id="62_Master of Knowledge" data-flag="@X" onclick="openSidebar('62_Master of Knowledge',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\110_Quickwitted Adversary.png" id="110_Quickwitted Adversary" data-flag="@X" onclick="openSidebar('110_Quickwitted Adversary',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\149_Show Off.png" id="149_Show Off" data-flag="@X" onclick="openSidebar('149_Show Off',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\186_Platoon Intern.png" id="186_Platoon Intern" data-flag="@X" onclick="openSidebar('186_Platoon Intern',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\40_Veracious Soultender.png" id="40_Veracious Soultender" data-flag="@X" onclick="openSidebar('40_Veracious Soultender',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\79_Warning Call.png" id="79_Warning Call" data-flag="@X" onclick="openSidebar('79_Warning Call',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\118_Wings of Despair.png" id="118_Wings of Despair" data-flag="@X" onclick="openSidebar('118_Wings of Despair',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\153_Tsukiko, Star of the Class.png" id="153_Tsukiko, Star of the Class" data-flag="@X" onclick="openSidebar('153_Tsukiko, Star of the Class',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\192_Teamwork Makes the Dream Work.png" id="192_Teamwork Makes the Dream Work" data-flag="@X" onclick="openSidebar('192_Teamwork Makes the Dream Work',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\2_Admired Overachiever.png" id="2_Admired Overachiever" data-flag="@X" onclick="openSidebar('2_Admired Overachiever',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\45_Condemned Competitor.png" id="45_Condemned Competitor" data-flag="@X" onclick="openSidebar('45_Condemned Competitor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\84_Brightest Star, Darkest Shadow.png" id="84_Brightest Star, Darkest Shadow" data-flag="@X" onclick="openSidebar('84_Brightest Star, Darkest Shadow',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\119_Abstergent Eye.png" id="119_Abstergent Eye" data-flag="@X" onclick="openSidebar('119_Abstergent Eye',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\159_Avenging Vandal.png" id="159_Avenging Vandal" data-flag="@X" onclick="openSidebar('159_Avenging Vandal',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\8_Arbiter of Endless Starlight.png" id="8_Arbiter of Endless Starlight" data-flag="@X" onclick="openSidebar('8_Arbiter of Endless Starlight',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\46_Contemplate Countless Futures.png" id="46_Contemplate Countless Futures" data-flag="@X" onclick="openSidebar('46_Contemplate Countless Futures',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\87_Crushing Ennui.png" id="87_Crushing Ennui" data-flag="@X" onclick="openSidebar('87_Crushing Ennui',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\125_Call the Stars.png" id="125_Call the Stars" data-flag="@X" onclick="openSidebar('125_Call the Stars',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\160_Battle of the Behemoths.png" id="160_Battle of the Behemoths" data-flag="@X" onclick="openSidebar('160_Battle of the Behemoths',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\12_Callous Hero.png" id="12_Callous Hero" data-flag="@X" onclick="openSidebar('12_Callous Hero',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\51_Find One Another.png" id="51_Find One Another" data-flag="@X" onclick="openSidebar('51_Find One Another',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\89_Disciple of the Wolf.png" id="89_Disciple of the Wolf" data-flag="@X" onclick="openSidebar('89_Disciple of the Wolf',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\132_Determined Underminer.png" id="132_Determined Underminer" data-flag="@X" onclick="openSidebar('132_Determined Underminer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\161_Behemoth Tamer.png" id="161_Behemoth Tamer" data-flag="@X" onclick="openSidebar('161_Behemoth Tamer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\16_Diligent Cursebinder.png" id="16_Diligent Cursebinder" data-flag="@X" onclick="openSidebar('16_Diligent Cursebinder',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\54_Foster Inner Peace.png" id="54_Foster Inner Peace" data-flag="@X" onclick="openSidebar('54_Foster Inner Peace',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\93_Getaway Ride.png" id="93_Getaway Ride" data-flag="@X" onclick="openSidebar('93_Getaway Ride',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\134_FLARE Dominator.png" id="134_FLARE Dominator" data-flag="@X" onclick="openSidebar('134_FLARE Dominator',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\163_Bombardment of Colors.png" id="163_Bombardment of Colors" data-flag="@X" onclick="openSidebar('163_Bombardment of Colors',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\17_FLARE Contender.png" id="17_FLARE Contender" data-flag="@X" onclick="openSidebar('17_FLARE Contender',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\57_Hard-headed Judge.png" id="57_Hard-headed Judge" data-flag="@X" onclick="openSidebar('57_Hard-headed Judge',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\98_Lost in Love.png" id="98_Lost in Love" data-flag="@X" onclick="openSidebar('98_Lost in Love',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\135_Forthright Spellfist.png" id="135_Forthright Spellfist" data-flag="@X" onclick="openSidebar('135_Forthright Spellfist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\170_Congealed Longings.png" id="170_Congealed Longings" data-flag="@X" onclick="openSidebar('170_Congealed Longings',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\20_Honor Roll Assistant.png" id="20_Honor Roll Assistant" data-flag="@X" onclick="openSidebar('20_Honor Roll Assistant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\60_Jaded Protector.png" id="60_Jaded Protector" data-flag="@X" onclick="openSidebar('60_Jaded Protector',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\100_Offering to Monotony.png" id="100_Offering to Monotony" data-flag="@X" onclick="openSidebar('100_Offering to Monotony',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\144_One-Slash Aspirant.png" id="144_One-Slash Aspirant" data-flag="@X" onclick="openSidebar('144_One-Slash Aspirant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\172_Eclipsed Assistant.png" id="172_Eclipsed Assistant" data-flag="@X" onclick="openSidebar('172_Eclipsed Assistant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\21_Hopeful Burning-Bright.png" id="21_Hopeful Burning-Bright" data-flag="@X" onclick="openSidebar('21_Hopeful Burning-Bright',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\64_Neon Junkie Watchguard.png" id="64_Neon Junkie Watchguard" data-flag="@X" onclick="openSidebar('64_Neon Junkie Watchguard',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\102_Overwhelming Tide of Grief.png" id="102_Overwhelming Tide of Grief" data-flag="@X" onclick="openSidebar('102_Overwhelming Tide of Grief',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\145_Overwhelming Epiphany.png" id="145_Overwhelming Epiphany" data-flag="@X" onclick="openSidebar('145_Overwhelming Epiphany',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\173_Endless Stream of Fans.png" id="173_Endless Stream of Fans" data-flag="@X" onclick="openSidebar('173_Endless Stream of Fans',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\22_Join the Pigments.png" id="22_Join the Pigments" data-flag="@X" onclick="openSidebar('22_Join the Pigments',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\65_One of the Lost Many.png" id="65_One of the Lost Many" data-flag="@X" onclick="openSidebar('65_One of the Lost Many',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\103_Patron of Pride.png" id="103_Patron of Pride" data-flag="@X" onclick="openSidebar('103_Patron of Pride',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\150_Stalwart Tagger.png" id="150_Stalwart Tagger" data-flag="@X" onclick="openSidebar('150_Stalwart Tagger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\174_Engulf in the Rainbow.png" id="174_Engulf in the Rainbow" data-flag="@X" onclick="openSidebar('174_Engulf in the Rainbow',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\24_Nurse Practitioner.png" id="24_Nurse Practitioner" data-flag="@X" onclick="openSidebar('24_Nurse Practitioner',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\67_Paragon of Precision.png" id="67_Paragon of Precision" data-flag="@X" onclick="openSidebar('67_Paragon of Precision',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\104_Penumbra Agent.png" id="104_Penumbra Agent" data-flag="@X" onclick="openSidebar('104_Penumbra Agent',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\151_Star Performance.png" id="151_Star Performance" data-flag="@X" onclick="openSidebar('151_Star Performance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\185_Pathological Altruism.png" id="185_Pathological Altruism" data-flag="@X" onclick="openSidebar('185_Pathological Altruism',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\27_Preserver of Individuality.png" id="27_Preserver of Individuality" data-flag="@X" onclick="openSidebar('27_Preserver of Individuality',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\69_Refraction Arcanist.png" id="69_Refraction Arcanist" data-flag="@X" onclick="openSidebar('69_Refraction Arcanist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\112_Spread Thin.png" id="112_Spread Thin" data-flag="@X" onclick="openSidebar('112_Spread Thin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\152_Substitute Teacher.png" id="152_Substitute Teacher" data-flag="@X" onclick="openSidebar('152_Substitute Teacher',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\189_Rampaging Behemoth.png" id="189_Rampaging Behemoth" data-flag="@X" onclick="openSidebar('189_Rampaging Behemoth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\29_Reminder of Times Long Past.png" id="29_Reminder of Times Long Past" data-flag="@X" onclick="openSidebar('29_Reminder of Times Long Past',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\74_Stop and Rest.png" id="74_Stop and Rest" data-flag="@X" onclick="openSidebar('74_Stop and Rest',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\114_Trainer of the Empty Mind.png" id="114_Trainer of the Empty Mind" data-flag="@X" onclick="openSidebar('114_Trainer of the Empty Mind',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\154_Two-Hit Prodigy.png" id="154_Two-Hit Prodigy" data-flag="@X" onclick="openSidebar('154_Two-Hit Prodigy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\190_Stalwart of the New Horizon.png" id="190_Stalwart of the New Horizon" data-flag="@X" onclick="openSidebar('190_Stalwart of the New Horizon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\36_Tenth-Second Precision Strike.png" id="36_Tenth-Second Precision Strike" data-flag="@X" onclick="openSidebar('36_Tenth-Second Precision Strike',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\77_Trickling Colors.png" id="77_Trickling Colors" data-flag="@X" onclick="openSidebar('77_Trickling Colors',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\115_Unexpected Losses.png" id="115_Unexpected Losses" data-flag="@X" onclick="openSidebar('115_Unexpected Losses',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\155_Uncurbed Vengeance.png" id="155_Uncurbed Vengeance" data-flag="@X" onclick="openSidebar('155_Uncurbed Vengeance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\191_Star of the Class.png" id="191_Star of the Class" data-flag="@X" onclick="openSidebar('191_Star of the Class',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\39_Valorous Stance.png" id="39_Valorous Stance" data-flag="@X" onclick="openSidebar('39_Valorous Stance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\78_Unflinching Proctor.png" id="78_Unflinching Proctor" data-flag="@X" onclick="openSidebar('78_Unflinching Proctor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\117_Warden of Those Fallen.png" id="117_Warden of Those Fallen" data-flag="@X" onclick="openSidebar('117_Warden of Those Fallen',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\157_Whirlwind-Melting Punch.png" id="157_Whirlwind-Melting Punch" data-flag="@X" onclick="openSidebar('157_Whirlwind-Melting Punch',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\194_Uncompromising Pillar.png" id="194_Uncompromising Pillar" data-flag="@X" onclick="openSidebar('194_Uncompromising Pillar',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\3_Admired Superhero.png" id="3_Admired Superhero" data-flag="@X" onclick="openSidebar('3_Admired Superhero',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\41_Academy Champion.png" id="41_Academy Champion" data-flag="@X" onclick="openSidebar('41_Academy Champion',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\80_Afternoon Snack.png" id="80_Afternoon Snack" data-flag="@X" onclick="openSidebar('80_Afternoon Snack',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\120_Ace the Test.png" id="120_Ace the Test" data-flag="@X" onclick="openSidebar('120_Ace the Test',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\162_Boisterous Bright.png" id="162_Boisterous Bright" data-flag="@X" onclick="openSidebar('162_Boisterous Bright',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\4_Afterschool Theater Club.png" id="4_Afterschool Theater Club" data-flag="@X" onclick="openSidebar('4_Afterschool Theater Club',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\47_Cram Week.png" id="47_Cram Week" data-flag="@X" onclick="openSidebar('47_Cram Week',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\81_Anguished Decree.png" id="81_Anguished Decree" data-flag="@X" onclick="openSidebar('81_Anguished Decree',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\121_Arrogant Jock.png" id="121_Arrogant Jock" data-flag="@X" onclick="openSidebar('121_Arrogant Jock',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\164_Bring Color to those Astray.png" id="164_Bring Color to those Astray" data-flag="@X" onclick="openSidebar('164_Bring Color to those Astray',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\7_Appeal to Sensibilities.png" id="7_Appeal to Sensibilities" data-flag="@X" onclick="openSidebar('7_Appeal to Sensibilities',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\49_Detention.png" id="49_Detention" data-flag="@X" onclick="openSidebar('49_Detention',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\82_Aspiring Challenger.png" id="82_Aspiring Challenger" data-flag="@X" onclick="openSidebar('82_Aspiring Challenger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\122_Blessing from the Stars.png" id="122_Blessing from the Stars" data-flag="@X" onclick="openSidebar('122_Blessing from the Stars',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\165_Bullet Lance Ambush.png" id="165_Bullet Lance Ambush" data-flag="@X" onclick="openSidebar('165_Bullet Lance Ambush',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\11_Blossoming Wallflower.png" id="11_Blossoming Wallflower" data-flag="@X" onclick="openSidebar('11_Blossoming Wallflower',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\50_Drown in Homework.png" id="50_Drown in Homework" data-flag="@X" onclick="openSidebar('50_Drown in Homework',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\85_Burst of the Silent Snake.png" id="85_Burst of the Silent Snake" data-flag="@X" onclick="openSidebar('85_Burst of the Silent Snake',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\124_Bullheaded Recruit.png" id="124_Bullheaded Recruit" data-flag="@X" onclick="openSidebar('124_Bullheaded Recruit',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\171_Eclipse with Color.png" id="171_Eclipse with Color" data-flag="@X" onclick="openSidebar('171_Eclipse with Color',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\13_Confine to Everywhere.png" id="13_Confine to Everywhere" data-flag="@X" onclick="openSidebar('13_Confine to Everywhere',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\55_Group Study Session.png" id="55_Group Study Session" data-flag="@X" onclick="openSidebar('55_Group Study Session',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\86_Concavity of the Rainbow.png" id="86_Concavity of the Rainbow" data-flag="@X" onclick="openSidebar('86_Concavity of the Rainbow',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\128_Crash Through.png" id="128_Crash Through" data-flag="@X" onclick="openSidebar('128_Crash Through',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\176_Field Commander.png" id="176_Field Commander" data-flag="@X" onclick="openSidebar('176_Field Commander',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\14_Cool Kids Clique.png" id="14_Cool Kids Clique" data-flag="@X" onclick="openSidebar('14_Cool Kids Clique',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\61_Lofty Instructor.png" id="61_Lofty Instructor" data-flag="@X" onclick="openSidebar('61_Lofty Instructor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\88_Dealer of Undeath.png" id="88_Dealer of Undeath" data-flag="@X" onclick="openSidebar('88_Dealer of Undeath',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\130_Dangle the Autograph.png" id="130_Dangle the Autograph" data-flag="@X" onclick="openSidebar('130_Dangle the Autograph',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\177_Five-Mountain Crush.png" id="177_Five-Mountain Crush" data-flag="@X" onclick="openSidebar('177_Five-Mountain Crush',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\15_Dawnpulse Savior.png" id="15_Dawnpulse Savior" data-flag="@X" onclick="openSidebar('15_Dawnpulse Savior',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\63_Moving On, Looking Forward.png" id="63_Moving On, Looking Forward" data-flag="@X" onclick="openSidebar('63_Moving On, Looking Forward',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\90_Endless Nights.png" id="90_Endless Nights" data-flag="@X" onclick="openSidebar('90_Endless Nights',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\131_Delinquent Duo.png" id="131_Delinquent Duo" data-flag="@X" onclick="openSidebar('131_Delinquent Duo',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\179_Invoker Bright.png" id="179_Invoker Bright" data-flag="@X" onclick="openSidebar('179_Invoker Bright',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\23_Moment of Decision.png" id="23_Moment of Decision" data-flag="@X" onclick="openSidebar('23_Moment of Decision',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\66_Pactbinder Initiate.png" id="66_Pactbinder Initiate" data-flag="@X" onclick="openSidebar('66_Pactbinder Initiate',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\91_Extracurricular Homicide.png" id="91_Extracurricular Homicide" data-flag="@X" onclick="openSidebar('91_Extracurricular Homicide',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\136_Greater Together.png" id="136_Greater Together" data-flag="@X" onclick="openSidebar('136_Greater Together',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\180_Lethargic First Year.png" id="180_Lethargic First Year" data-flag="@X" onclick="openSidebar('180_Lethargic First Year',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\25_Overprotective Senior.png" id="25_Overprotective Senior" data-flag="@X" onclick="openSidebar('25_Overprotective Senior',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\68_Plucky Visionary.png" id="68_Plucky Visionary" data-flag="@X" onclick="openSidebar('68_Plucky Visionary',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\92_Futile Endeavor.png" id="92_Futile Endeavor" data-flag="@X" onclick="openSidebar('92_Futile Endeavor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\137_Guardian of the Fray.png" id="137_Guardian of the Fray" data-flag="@X" onclick="openSidebar('137_Guardian of the Fray',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\182_Maw to Consume All.png" id="182_Maw to Consume All" data-flag="@X" onclick="openSidebar('182_Maw to Consume All',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\28_Radiant Artillery.png" id="28_Radiant Artillery" data-flag="@X" onclick="openSidebar('28_Radiant Artillery',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\70_Skyhigh Bright.png" id="70_Skyhigh Bright" data-flag="@X" onclick="openSidebar('70_Skyhigh Bright',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\95_Instructor of Untold Secrets.png" id="95_Instructor of Untold Secrets" data-flag="@X" onclick="openSidebar('95_Instructor of Untold Secrets',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\138_Heavy Artillery Monitor.png" id="138_Heavy Artillery Monitor" data-flag="@X" onclick="openSidebar('138_Heavy Artillery Monitor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\184_Neon Junkie Recruit.png" id="184_Neon Junkie Recruit" data-flag="@X" onclick="openSidebar('184_Neon Junkie Recruit',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\30_Sixteen Point Punch.png" id="30_Sixteen Point Punch" data-flag="@X" onclick="openSidebar('30_Sixteen Point Punch',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\71_Spoiled Crusader.png" id="71_Spoiled Crusader" data-flag="@X" onclick="openSidebar('71_Spoiled Crusader',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\101_Oni-Blooded Retainer.png" id="101_Oni-Blooded Retainer" data-flag="@X" onclick="openSidebar('101_Oni-Blooded Retainer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\140_Mayhem Reveler.png" id="140_Mayhem Reveler" data-flag="@X" onclick="openSidebar('140_Mayhem Reveler',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\187_Pugnacious Paragon.png" id="187_Pugnacious Paragon" data-flag="@X" onclick="openSidebar('187_Pugnacious Paragon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\31_Sixth Period Skippers.png" id="31_Sixth Period Skippers" data-flag="@X" onclick="openSidebar('31_Sixth Period Skippers',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\72_Spotlight Hogger.png" id="72_Spotlight Hogger" data-flag="@X" onclick="openSidebar('72_Spotlight Hogger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\109_Professor of Fright.png" id="109_Professor of Fright" data-flag="@X" onclick="openSidebar('109_Professor of Fright',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\142_Neon Junkie Kyodai.png" id="142_Neon Junkie Kyodai" data-flag="@X" onclick="openSidebar('142_Neon Junkie Kyodai',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\188_Radiant Reckoner.png" id="188_Radiant Reckoner" data-flag="@X" onclick="openSidebar('188_Radiant Reckoner',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\32_Speed Coach.png" id="32_Speed Coach" data-flag="@X" onclick="openSidebar('32_Speed Coach',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\73_Stern Lecturer.png" id="73_Stern Lecturer" data-flag="@X" onclick="openSidebar('73_Stern Lecturer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\111_Reckless Firestarter.png" id="111_Reckless Firestarter" data-flag="@X" onclick="openSidebar('111_Reckless Firestarter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\146_Prismad Reformer.png" id="146_Prismad Reformer" data-flag="@X" onclick="openSidebar('146_Prismad Reformer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\193_Training Montage.png" id="193_Training Montage" data-flag="@X" onclick="openSidebar('193_Training Montage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\33_Swiftsteel Wonder.png" id="33_Swiftsteel Wonder" data-flag="@X" onclick="openSidebar('33_Swiftsteel Wonder',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\75_Take Recon.png" id="75_Take Recon" data-flag="@X" onclick="openSidebar('75_Take Recon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\113_Starcrossed Savior.png" id="113_Starcrossed Savior" data-flag="@X" onclick="openSidebar('113_Starcrossed Savior',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\147_Professor of Hidden Arts.png" id="147_Professor of Hidden Arts" data-flag="@X" onclick="openSidebar('147_Professor of Hidden Arts',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\195_Underground Profiteer.png" id="195_Underground Profiteer" data-flag="@X" onclick="openSidebar('195_Underground Profiteer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\37_Uplifting Coach.png" id="37_Uplifting Coach" data-flag="@X" onclick="openSidebar('37_Uplifting Coach',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\76_Tattooed Master.png" id="76_Tattooed Master" data-flag="@X" onclick="openSidebar('76_Tattooed Master',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\116_Vengeant Husk.png" id="116_Vengeant Husk" data-flag="@X" onclick="openSidebar('116_Vengeant Husk',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\156_Vanguard of Fiery Fury.png" id="156_Vanguard of Fiery Fury" data-flag="@X" onclick="openSidebar('156_Vanguard of Fiery Fury',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\196_Workout Mentor.png" id="196_Workout Mentor" data-flag="@X" onclick="openSidebar('196_Workout Mentor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\HTS-files\img\5_Akio, Always Watchful.png" id="HTS_5_Akio, Always Watchful" data-flag="@X" onclick="openSidebar('HTS_5_Akio, Always Watchful',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\43_Banri, Guide in the Sky.png" id="HTS_43_Banri, Guide in the Sky" data-flag="@X" onclick="openSidebar('HTS_43_Banri, Guide in the Sky',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\96_Itami, Enervated.png" id="HTS_96_Itami, Enervated" data-flag="@X" onclick="openSidebar('HTS_96_Itami, Enervated',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\139_Kumiko, Brightest in the Sky.png" id="HTS_139_Kumiko, Brightest in the Sky" data-flag="@X" onclick="openSidebar('HTS_139_Kumiko, Brightest in the Sky',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\166_Caretaker of Hidden Shrines.png" id="HTS_166_Caretaker of Hidden Shrines" data-flag="@X" onclick="openSidebar('HTS_166_Caretaker of Hidden Shrines',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\26_Porcelain Elite.png" id="HTS_26_Porcelain Elite" data-flag="@X" onclick="openSidebar('HTS_26_Porcelain Elite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\53_Flexible Unit Repairer.png" id="HTS_53_Flexible Unit Repairer" data-flag="@X" onclick="openSidebar('HTS_53_Flexible Unit Repairer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\99_Obsidian Elite.png" id="HTS_99_Obsidian Elite" data-flag="@X" onclick="openSidebar('HTS_99_Obsidian Elite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\141_Mount Shirogane Guardian.png" id="HTS_141_Mount Shirogane Guardian" data-flag="@X" onclick="openSidebar('HTS_141_Mount Shirogane Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\167_Chinatsu, Hero to All.png" id="HTS_167_Chinatsu, Hero to All" data-flag="@X" onclick="openSidebar('HTS_167_Chinatsu, Hero to All',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\6_Akio, Eyes of the Platoon.png" id="HTS_6_Akio, Eyes of the Platoon" data-flag="@X" onclick="openSidebar('HTS_6_Akio, Eyes of the Platoon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\42_Aimi, Top Cut.png" id="HTS_42_Aimi, Top Cut" data-flag="@X" onclick="openSidebar('HTS_42_Aimi, Top Cut',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\83_Banri and Kumiko, Falling Stars.png" id="HTS_83_Banri and Kumiko, Falling Stars" data-flag="@X" onclick="openSidebar('HTS_83_Banri and Kumiko, Falling Stars',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\123_Boundless Swiftness.png" id="HTS_123_Boundless Swiftness" data-flag="@X" onclick="openSidebar('HTS_123_Boundless Swiftness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\158_Applied Gym Coach.png" id="HTS_158_Applied Gym Coach" data-flag="@X" onclick="openSidebar('HTS_158_Applied Gym Coach',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\9_Assemble the Squad.png" id="HTS_9_Assemble the Squad" data-flag="@X" onclick="openSidebar('HTS_9_Assemble the Squad',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\44_Besmear.png" id="HTS_44_Besmear" data-flag="@X" onclick="openSidebar('HTS_44_Besmear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\94_Harbinger of Fallen Fates.png" id="HTS_94_Harbinger of Fallen Fates" data-flag="@X" onclick="openSidebar('HTS_94_Harbinger of Fallen Fates',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\126_Capture the Spectrum.png" id="HTS_126_Capture the Spectrum" data-flag="@X" onclick="openSidebar('HTS_126_Capture the Spectrum',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\168_Chinatsu, Striving for Perfection.png" id="HTS_168_Chinatsu, Striving for Perfection" data-flag="@X" onclick="openSidebar('HTS_168_Chinatsu, Striving for Perfection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\10_Barrage from Above.png" id="HTS_10_Barrage from Above" data-flag="@X" onclick="openSidebar('HTS_10_Barrage from Above',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\48_Deluge of Colors.png" id="HTS_48_Deluge of Colors" data-flag="@X" onclick="openSidebar('HTS_48_Deluge of Colors',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\97_Lost in Everywhere.png" id="HTS_97_Lost in Everywhere" data-flag="@X" onclick="openSidebar('HTS_97_Lost in Everywhere',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\127_Commune with the Cosmic Dance.png" id="HTS_127_Commune with the Cosmic Dance" data-flag="@X" onclick="openSidebar('HTS_127_Commune with the Cosmic Dance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\169_Citycrusher Behemoth.png" id="HTS_169_Citycrusher Behemoth" data-flag="@X" onclick="openSidebar('HTS_169_Citycrusher Behemoth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\18_Hearthsoul Kirin.png" id="HTS_18_Hearthsoul Kirin" data-flag="@X" onclick="openSidebar('HTS_18_Hearthsoul Kirin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\52_FLARE Operative.png" id="HTS_52_FLARE Operative" data-flag="@X" onclick="openSidebar('HTS_52_FLARE Operative',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\105_The Phantom Bandit.png" id="HTS_105_The Phantom Bandit" data-flag="@X" onclick="openSidebar('HTS_105_The Phantom Bandit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\129_Dancer on the Clouds.png" id="HTS_129_Dancer on the Clouds" data-flag="@X" onclick="openSidebar('HTS_129_Dancer on the Clouds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\175_Everywhere Beckons.png" id="HTS_175_Everywhere Beckons" data-flag="@X" onclick="openSidebar('HTS_175_Everywhere Beckons',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\19_Homeroom Bully.png" id="HTS_19_Homeroom Bully" data-flag="@X" onclick="openSidebar('HTS_19_Homeroom Bully',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\56_Hallway Wanderer.png" id="HTS_56_Hallway Wanderer" data-flag="@X" onclick="openSidebar('HTS_56_Hallway Wanderer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\106_Placate the Demon King.png" id="HTS_106_Placate the Demon King" data-flag="@X" onclick="openSidebar('HTS_106_Placate the Demon King',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\133_Field Trainer.png" id="HTS_133_Field Trainer" data-flag="@X" onclick="openSidebar('HTS_133_Field Trainer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\178_Hype Squad.png" id="HTS_178_Hype Squad" data-flag="@X" onclick="openSidebar('HTS_178_Hype Squad',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\34_Takara, Scarred by Fate.png" id="HTS_34_Takara, Scarred by Fate" data-flag="@X" onclick="openSidebar('HTS_34_Takara, Scarred by Fate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\58_Hero of Resolute Will.png" id="HTS_58_Hero of Resolute Will" data-flag="@X" onclick="openSidebar('HTS_58_Hero of Resolute Will',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\107_Platoon Commander.png" id="HTS_107_Platoon Commander" data-flag="@X" onclick="openSidebar('HTS_107_Platoon Commander',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\143_Neon Junkie Wakagashira.png" id="HTS_143_Neon Junkie Wakagashira" data-flag="@X" onclick="openSidebar('HTS_143_Neon Junkie Wakagashira',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\181_Loathed Archvillain.png" id="HTS_181_Loathed Archvillain" data-flag="@X" onclick="openSidebar('HTS_181_Loathed Archvillain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\35_Tear the World Asunder.png" id="HTS_35_Tear the World Asunder" data-flag="@X" onclick="openSidebar('HTS_35_Tear the World Asunder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\59_Itami, Always Aspiring.png" id="HTS_59_Itami, Always Aspiring" data-flag="@X" onclick="openSidebar('HTS_59_Itami, Always Aspiring',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\108_Prestigious Schoolmaster.png" id="HTS_108_Prestigious Schoolmaster" data-flag="@X" onclick="openSidebar('HTS_108_Prestigious Schoolmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\148_Satomi, Platoon Leader.png" id="HTS_148_Satomi, Platoon Leader" data-flag="@X" onclick="openSidebar('HTS_148_Satomi, Platoon Leader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\183_Moriko, the Jovial Friend.png" id="HTS_183_Moriko, the Jovial Friend" data-flag="@X" onclick="openSidebar('HTS_183_Moriko, the Jovial Friend',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\38_Valiant Bright.png" id="HTS_38_Valiant Bright" data-flag="@X" onclick="openSidebar('HTS_38_Valiant Bright',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\62_Master of Knowledge.png" id="HTS_62_Master of Knowledge" data-flag="@X" onclick="openSidebar('HTS_62_Master of Knowledge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\110_Quickwitted Adversary.png" id="HTS_110_Quickwitted Adversary" data-flag="@X" onclick="openSidebar('HTS_110_Quickwitted Adversary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\149_Show Off.png" id="HTS_149_Show Off" data-flag="@X" onclick="openSidebar('HTS_149_Show Off',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\186_Platoon Intern.png" id="HTS_186_Platoon Intern" data-flag="@X" onclick="openSidebar('HTS_186_Platoon Intern',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\40_Veracious Soultender.png" id="HTS_40_Veracious Soultender" data-flag="@X" onclick="openSidebar('HTS_40_Veracious Soultender',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\79_Warning Call.png" id="HTS_79_Warning Call" data-flag="@X" onclick="openSidebar('HTS_79_Warning Call',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\118_Wings of Despair.png" id="HTS_118_Wings of Despair" data-flag="@X" onclick="openSidebar('HTS_118_Wings of Despair',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\153_Tsukiko, Star of the Class.png" id="HTS_153_Tsukiko, Star of the Class" data-flag="@X" onclick="openSidebar('HTS_153_Tsukiko, Star of the Class',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\192_Teamwork Makes the Dream Work.png" id="HTS_192_Teamwork Makes the Dream Work" data-flag="@X" onclick="openSidebar('HTS_192_Teamwork Makes the Dream Work',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\2_Admired Overachiever.png" id="HTS_2_Admired Overachiever" data-flag="@X" onclick="openSidebar('HTS_2_Admired Overachiever',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\45_Condemned Competitor.png" id="HTS_45_Condemned Competitor" data-flag="@X" onclick="openSidebar('HTS_45_Condemned Competitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\84_Brightest Star, Darkest Shadow.png" id="HTS_84_Brightest Star, Darkest Shadow" data-flag="@X" onclick="openSidebar('HTS_84_Brightest Star, Darkest Shadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\119_Abstergent Eye.png" id="HTS_119_Abstergent Eye" data-flag="@X" onclick="openSidebar('HTS_119_Abstergent Eye',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\159_Avenging Vandal.png" id="HTS_159_Avenging Vandal" data-flag="@X" onclick="openSidebar('HTS_159_Avenging Vandal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\8_Arbiter of Endless Starlight.png" id="HTS_8_Arbiter of Endless Starlight" data-flag="@X" onclick="openSidebar('HTS_8_Arbiter of Endless Starlight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\46_Contemplate Countless Futures.png" id="HTS_46_Contemplate Countless Futures" data-flag="@X" onclick="openSidebar('HTS_46_Contemplate Countless Futures',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\87_Crushing Ennui.png" id="HTS_87_Crushing Ennui" data-flag="@X" onclick="openSidebar('HTS_87_Crushing Ennui',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\125_Call the Stars.png" id="HTS_125_Call the Stars" data-flag="@X" onclick="openSidebar('HTS_125_Call the Stars',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\160_Battle of the Behemoths.png" id="HTS_160_Battle of the Behemoths" data-flag="@X" onclick="openSidebar('HTS_160_Battle of the Behemoths',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\12_Callous Hero.png" id="HTS_12_Callous Hero" data-flag="@X" onclick="openSidebar('HTS_12_Callous Hero',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\51_Find One Another.png" id="HTS_51_Find One Another" data-flag="@X" onclick="openSidebar('HTS_51_Find One Another',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\89_Disciple of the Wolf.png" id="HTS_89_Disciple of the Wolf" data-flag="@X" onclick="openSidebar('HTS_89_Disciple of the Wolf',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\132_Determined Underminer.png" id="HTS_132_Determined Underminer" data-flag="@X" onclick="openSidebar('HTS_132_Determined Underminer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\161_Behemoth Tamer.png" id="HTS_161_Behemoth Tamer" data-flag="@X" onclick="openSidebar('HTS_161_Behemoth Tamer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\16_Diligent Cursebinder.png" id="HTS_16_Diligent Cursebinder" data-flag="@X" onclick="openSidebar('HTS_16_Diligent Cursebinder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\54_Foster Inner Peace.png" id="HTS_54_Foster Inner Peace" data-flag="@X" onclick="openSidebar('HTS_54_Foster Inner Peace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\93_Getaway Ride.png" id="HTS_93_Getaway Ride" data-flag="@X" onclick="openSidebar('HTS_93_Getaway Ride',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\134_FLARE Dominator.png" id="HTS_134_FLARE Dominator" data-flag="@X" onclick="openSidebar('HTS_134_FLARE Dominator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\163_Bombardment of Colors.png" id="HTS_163_Bombardment of Colors" data-flag="@X" onclick="openSidebar('HTS_163_Bombardment of Colors',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\17_FLARE Contender.png" id="HTS_17_FLARE Contender" data-flag="@X" onclick="openSidebar('HTS_17_FLARE Contender',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\57_Hard-headed Judge.png" id="HTS_57_Hard-headed Judge" data-flag="@X" onclick="openSidebar('HTS_57_Hard-headed Judge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\98_Lost in Love.png" id="HTS_98_Lost in Love" data-flag="@X" onclick="openSidebar('HTS_98_Lost in Love',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\135_Forthright Spellfist.png" id="HTS_135_Forthright Spellfist" data-flag="@X" onclick="openSidebar('HTS_135_Forthright Spellfist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\170_Congealed Longings.png" id="HTS_170_Congealed Longings" data-flag="@X" onclick="openSidebar('HTS_170_Congealed Longings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\20_Honor Roll Assistant.png" id="HTS_20_Honor Roll Assistant" data-flag="@X" onclick="openSidebar('HTS_20_Honor Roll Assistant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\60_Jaded Protector.png" id="HTS_60_Jaded Protector" data-flag="@X" onclick="openSidebar('HTS_60_Jaded Protector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\100_Offering to Monotony.png" id="HTS_100_Offering to Monotony" data-flag="@X" onclick="openSidebar('HTS_100_Offering to Monotony',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\144_One-Slash Aspirant.png" id="HTS_144_One-Slash Aspirant" data-flag="@X" onclick="openSidebar('HTS_144_One-Slash Aspirant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\172_Eclipsed Assistant.png" id="HTS_172_Eclipsed Assistant" data-flag="@X" onclick="openSidebar('HTS_172_Eclipsed Assistant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\21_Hopeful Burning-Bright.png" id="HTS_21_Hopeful Burning-Bright" data-flag="@X" onclick="openSidebar('HTS_21_Hopeful Burning-Bright',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\64_Neon Junkie Watchguard.png" id="HTS_64_Neon Junkie Watchguard" data-flag="@X" onclick="openSidebar('HTS_64_Neon Junkie Watchguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\102_Overwhelming Tide of Grief.png" id="HTS_102_Overwhelming Tide of Grief" data-flag="@X" onclick="openSidebar('HTS_102_Overwhelming Tide of Grief',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\145_Overwhelming Epiphany.png" id="HTS_145_Overwhelming Epiphany" data-flag="@X" onclick="openSidebar('HTS_145_Overwhelming Epiphany',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\173_Endless Stream of Fans.png" id="HTS_173_Endless Stream of Fans" data-flag="@X" onclick="openSidebar('HTS_173_Endless Stream of Fans',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\22_Join the Pigments.png" id="HTS_22_Join the Pigments" data-flag="@X" onclick="openSidebar('HTS_22_Join the Pigments',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\65_One of the Lost Many.png" id="HTS_65_One of the Lost Many" data-flag="@X" onclick="openSidebar('HTS_65_One of the Lost Many',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\103_Patron of Pride.png" id="HTS_103_Patron of Pride" data-flag="@X" onclick="openSidebar('HTS_103_Patron of Pride',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\150_Stalwart Tagger.png" id="HTS_150_Stalwart Tagger" data-flag="@X" onclick="openSidebar('HTS_150_Stalwart Tagger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\174_Engulf in the Rainbow.png" id="HTS_174_Engulf in the Rainbow" data-flag="@X" onclick="openSidebar('HTS_174_Engulf in the Rainbow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\24_Nurse Practitioner.png" id="HTS_24_Nurse Practitioner" data-flag="@X" onclick="openSidebar('HTS_24_Nurse Practitioner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\67_Paragon of Precision.png" id="HTS_67_Paragon of Precision" data-flag="@X" onclick="openSidebar('HTS_67_Paragon of Precision',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\104_Penumbra Agent.png" id="HTS_104_Penumbra Agent" data-flag="@X" onclick="openSidebar('HTS_104_Penumbra Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\151_Star Performance.png" id="HTS_151_Star Performance" data-flag="@X" onclick="openSidebar('HTS_151_Star Performance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\185_Pathological Altruism.png" id="HTS_185_Pathological Altruism" data-flag="@X" onclick="openSidebar('HTS_185_Pathological Altruism',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\27_Preserver of Individuality.png" id="HTS_27_Preserver of Individuality" data-flag="@X" onclick="openSidebar('HTS_27_Preserver of Individuality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\69_Refraction Arcanist.png" id="HTS_69_Refraction Arcanist" data-flag="@X" onclick="openSidebar('HTS_69_Refraction Arcanist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\112_Spread Thin.png" id="HTS_112_Spread Thin" data-flag="@X" onclick="openSidebar('HTS_112_Spread Thin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\152_Substitute Teacher.png" id="HTS_152_Substitute Teacher" data-flag="@X" onclick="openSidebar('HTS_152_Substitute Teacher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\189_Rampaging Behemoth.png" id="HTS_189_Rampaging Behemoth" data-flag="@X" onclick="openSidebar('HTS_189_Rampaging Behemoth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\29_Reminder of Times Long Past.png" id="HTS_29_Reminder of Times Long Past" data-flag="@X" onclick="openSidebar('HTS_29_Reminder of Times Long Past',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\74_Stop and Rest.png" id="HTS_74_Stop and Rest" data-flag="@X" onclick="openSidebar('HTS_74_Stop and Rest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\114_Trainer of the Empty Mind.png" id="HTS_114_Trainer of the Empty Mind" data-flag="@X" onclick="openSidebar('HTS_114_Trainer of the Empty Mind',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\154_Two-Hit Prodigy.png" id="HTS_154_Two-Hit Prodigy" data-flag="@X" onclick="openSidebar('HTS_154_Two-Hit Prodigy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\190_Stalwart of the New Horizon.png" id="HTS_190_Stalwart of the New Horizon" data-flag="@X" onclick="openSidebar('HTS_190_Stalwart of the New Horizon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\36_Tenth-Second Precision Strike.png" id="HTS_36_Tenth-Second Precision Strike" data-flag="@X" onclick="openSidebar('HTS_36_Tenth-Second Precision Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\77_Trickling Colors.png" id="HTS_77_Trickling Colors" data-flag="@X" onclick="openSidebar('HTS_77_Trickling Colors',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\115_Unexpected Losses.png" id="HTS_115_Unexpected Losses" data-flag="@X" onclick="openSidebar('HTS_115_Unexpected Losses',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\155_Uncurbed Vengeance.png" id="HTS_155_Uncurbed Vengeance" data-flag="@X" onclick="openSidebar('HTS_155_Uncurbed Vengeance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\191_Star of the Class.png" id="HTS_191_Star of the Class" data-flag="@X" onclick="openSidebar('HTS_191_Star of the Class',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\39_Valorous Stance.png" id="HTS_39_Valorous Stance" data-flag="@X" onclick="openSidebar('HTS_39_Valorous Stance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\78_Unflinching Proctor.png" id="HTS_78_Unflinching Proctor" data-flag="@X" onclick="openSidebar('HTS_78_Unflinching Proctor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\117_Warden of Those Fallen.png" id="HTS_117_Warden of Those Fallen" data-flag="@X" onclick="openSidebar('HTS_117_Warden of Those Fallen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\157_Whirlwind-Melting Punch.png" id="HTS_157_Whirlwind-Melting Punch" data-flag="@X" onclick="openSidebar('HTS_157_Whirlwind-Melting Punch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\194_Uncompromising Pillar.png" id="HTS_194_Uncompromising Pillar" data-flag="@X" onclick="openSidebar('HTS_194_Uncompromising Pillar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\3_Admired Superhero.png" id="HTS_3_Admired Superhero" data-flag="@X" onclick="openSidebar('HTS_3_Admired Superhero',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\41_Academy Champion.png" id="HTS_41_Academy Champion" data-flag="@X" onclick="openSidebar('HTS_41_Academy Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\80_Afternoon Snack.png" id="HTS_80_Afternoon Snack" data-flag="@X" onclick="openSidebar('HTS_80_Afternoon Snack',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\120_Ace the Test.png" id="HTS_120_Ace the Test" data-flag="@X" onclick="openSidebar('HTS_120_Ace the Test',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\162_Boisterous Bright.png" id="HTS_162_Boisterous Bright" data-flag="@X" onclick="openSidebar('HTS_162_Boisterous Bright',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\4_Afterschool Theater Club.png" id="HTS_4_Afterschool Theater Club" data-flag="@X" onclick="openSidebar('HTS_4_Afterschool Theater Club',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\47_Cram Week.png" id="HTS_47_Cram Week" data-flag="@X" onclick="openSidebar('HTS_47_Cram Week',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\81_Anguished Decree.png" id="HTS_81_Anguished Decree" data-flag="@X" onclick="openSidebar('HTS_81_Anguished Decree',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\121_Arrogant Jock.png" id="HTS_121_Arrogant Jock" data-flag="@X" onclick="openSidebar('HTS_121_Arrogant Jock',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\164_Bring Color to those Astray.png" id="HTS_164_Bring Color to those Astray" data-flag="@X" onclick="openSidebar('HTS_164_Bring Color to those Astray',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\7_Appeal to Sensibilities.png" id="HTS_7_Appeal to Sensibilities" data-flag="@X" onclick="openSidebar('HTS_7_Appeal to Sensibilities',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\49_Detention.png" id="HTS_49_Detention" data-flag="@X" onclick="openSidebar('HTS_49_Detention',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\82_Aspiring Challenger.png" id="HTS_82_Aspiring Challenger" data-flag="@X" onclick="openSidebar('HTS_82_Aspiring Challenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\122_Blessing from the Stars.png" id="HTS_122_Blessing from the Stars" data-flag="@X" onclick="openSidebar('HTS_122_Blessing from the Stars',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\165_Bullet Lance Ambush.png" id="HTS_165_Bullet Lance Ambush" data-flag="@X" onclick="openSidebar('HTS_165_Bullet Lance Ambush',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\11_Blossoming Wallflower.png" id="HTS_11_Blossoming Wallflower" data-flag="@X" onclick="openSidebar('HTS_11_Blossoming Wallflower',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\50_Drown in Homework.png" id="HTS_50_Drown in Homework" data-flag="@X" onclick="openSidebar('HTS_50_Drown in Homework',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\85_Burst of the Silent Snake.png" id="HTS_85_Burst of the Silent Snake" data-flag="@X" onclick="openSidebar('HTS_85_Burst of the Silent Snake',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\124_Bullheaded Recruit.png" id="HTS_124_Bullheaded Recruit" data-flag="@X" onclick="openSidebar('HTS_124_Bullheaded Recruit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\171_Eclipse with Color.png" id="HTS_171_Eclipse with Color" data-flag="@X" onclick="openSidebar('HTS_171_Eclipse with Color',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\13_Confine to Everywhere.png" id="HTS_13_Confine to Everywhere" data-flag="@X" onclick="openSidebar('HTS_13_Confine to Everywhere',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\55_Group Study Session.png" id="HTS_55_Group Study Session" data-flag="@X" onclick="openSidebar('HTS_55_Group Study Session',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\86_Concavity of the Rainbow.png" id="HTS_86_Concavity of the Rainbow" data-flag="@X" onclick="openSidebar('HTS_86_Concavity of the Rainbow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\128_Crash Through.png" id="HTS_128_Crash Through" data-flag="@X" onclick="openSidebar('HTS_128_Crash Through',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\176_Field Commander.png" id="HTS_176_Field Commander" data-flag="@X" onclick="openSidebar('HTS_176_Field Commander',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\14_Cool Kids Clique.png" id="HTS_14_Cool Kids Clique" data-flag="@X" onclick="openSidebar('HTS_14_Cool Kids Clique',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\61_Lofty Instructor.png" id="HTS_61_Lofty Instructor" data-flag="@X" onclick="openSidebar('HTS_61_Lofty Instructor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\88_Dealer of Undeath.png" id="HTS_88_Dealer of Undeath" data-flag="@X" onclick="openSidebar('HTS_88_Dealer of Undeath',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\130_Dangle the Autograph.png" id="HTS_130_Dangle the Autograph" data-flag="@X" onclick="openSidebar('HTS_130_Dangle the Autograph',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\177_Five-Mountain Crush.png" id="HTS_177_Five-Mountain Crush" data-flag="@X" onclick="openSidebar('HTS_177_Five-Mountain Crush',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\15_Dawnpulse Savior.png" id="HTS_15_Dawnpulse Savior" data-flag="@X" onclick="openSidebar('HTS_15_Dawnpulse Savior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\63_Moving On, Looking Forward.png" id="HTS_63_Moving On, Looking Forward" data-flag="@X" onclick="openSidebar('HTS_63_Moving On, Looking Forward',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\90_Endless Nights.png" id="HTS_90_Endless Nights" data-flag="@X" onclick="openSidebar('HTS_90_Endless Nights',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\131_Delinquent Duo.png" id="HTS_131_Delinquent Duo" data-flag="@X" onclick="openSidebar('HTS_131_Delinquent Duo',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\179_Invoker Bright.png" id="HTS_179_Invoker Bright" data-flag="@X" onclick="openSidebar('HTS_179_Invoker Bright',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\23_Moment of Decision.png" id="HTS_23_Moment of Decision" data-flag="@X" onclick="openSidebar('HTS_23_Moment of Decision',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\66_Pactbinder Initiate.png" id="HTS_66_Pactbinder Initiate" data-flag="@X" onclick="openSidebar('HTS_66_Pactbinder Initiate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\91_Extracurricular Homicide.png" id="HTS_91_Extracurricular Homicide" data-flag="@X" onclick="openSidebar('HTS_91_Extracurricular Homicide',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\136_Greater Together.png" id="HTS_136_Greater Together" data-flag="@X" onclick="openSidebar('HTS_136_Greater Together',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\180_Lethargic First Year.png" id="HTS_180_Lethargic First Year" data-flag="@X" onclick="openSidebar('HTS_180_Lethargic First Year',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\25_Overprotective Senior.png" id="HTS_25_Overprotective Senior" data-flag="@X" onclick="openSidebar('HTS_25_Overprotective Senior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\68_Plucky Visionary.png" id="HTS_68_Plucky Visionary" data-flag="@X" onclick="openSidebar('HTS_68_Plucky Visionary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\92_Futile Endeavor.png" id="HTS_92_Futile Endeavor" data-flag="@X" onclick="openSidebar('HTS_92_Futile Endeavor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\137_Guardian of the Fray.png" id="HTS_137_Guardian of the Fray" data-flag="@X" onclick="openSidebar('HTS_137_Guardian of the Fray',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\182_Maw to Consume All.png" id="HTS_182_Maw to Consume All" data-flag="@X" onclick="openSidebar('HTS_182_Maw to Consume All',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\28_Radiant Artillery.png" id="HTS_28_Radiant Artillery" data-flag="@X" onclick="openSidebar('HTS_28_Radiant Artillery',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\70_Skyhigh Bright.png" id="HTS_70_Skyhigh Bright" data-flag="@X" onclick="openSidebar('HTS_70_Skyhigh Bright',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\95_Instructor of Untold Secrets.png" id="HTS_95_Instructor of Untold Secrets" data-flag="@X" onclick="openSidebar('HTS_95_Instructor of Untold Secrets',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\138_Heavy Artillery Monitor.png" id="HTS_138_Heavy Artillery Monitor" data-flag="@X" onclick="openSidebar('HTS_138_Heavy Artillery Monitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\184_Neon Junkie Recruit.png" id="HTS_184_Neon Junkie Recruit" data-flag="@X" onclick="openSidebar('HTS_184_Neon Junkie Recruit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\30_Sixteen Point Punch.png" id="HTS_30_Sixteen Point Punch" data-flag="@X" onclick="openSidebar('HTS_30_Sixteen Point Punch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\71_Spoiled Crusader.png" id="HTS_71_Spoiled Crusader" data-flag="@X" onclick="openSidebar('HTS_71_Spoiled Crusader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\101_Oni-Blooded Retainer.png" id="HTS_101_Oni-Blooded Retainer" data-flag="@X" onclick="openSidebar('HTS_101_Oni-Blooded Retainer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\140_Mayhem Reveler.png" id="HTS_140_Mayhem Reveler" data-flag="@X" onclick="openSidebar('HTS_140_Mayhem Reveler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\187_Pugnacious Paragon.png" id="HTS_187_Pugnacious Paragon" data-flag="@X" onclick="openSidebar('HTS_187_Pugnacious Paragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\31_Sixth Period Skippers.png" id="HTS_31_Sixth Period Skippers" data-flag="@X" onclick="openSidebar('HTS_31_Sixth Period Skippers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\72_Spotlight Hogger.png" id="HTS_72_Spotlight Hogger" data-flag="@X" onclick="openSidebar('HTS_72_Spotlight Hogger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\109_Professor of Fright.png" id="HTS_109_Professor of Fright" data-flag="@X" onclick="openSidebar('HTS_109_Professor of Fright',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\142_Neon Junkie Kyodai.png" id="HTS_142_Neon Junkie Kyodai" data-flag="@X" onclick="openSidebar('HTS_142_Neon Junkie Kyodai',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\188_Radiant Reckoner.png" id="HTS_188_Radiant Reckoner" data-flag="@X" onclick="openSidebar('HTS_188_Radiant Reckoner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\32_Speed Coach.png" id="HTS_32_Speed Coach" data-flag="@X" onclick="openSidebar('HTS_32_Speed Coach',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\73_Stern Lecturer.png" id="HTS_73_Stern Lecturer" data-flag="@X" onclick="openSidebar('HTS_73_Stern Lecturer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\111_Reckless Firestarter.png" id="HTS_111_Reckless Firestarter" data-flag="@X" onclick="openSidebar('HTS_111_Reckless Firestarter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\146_Prismad Reformer.png" id="HTS_146_Prismad Reformer" data-flag="@X" onclick="openSidebar('HTS_146_Prismad Reformer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\193_Training Montage.png" id="HTS_193_Training Montage" data-flag="@X" onclick="openSidebar('HTS_193_Training Montage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\33_Swiftsteel Wonder.png" id="HTS_33_Swiftsteel Wonder" data-flag="@X" onclick="openSidebar('HTS_33_Swiftsteel Wonder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\75_Take Recon.png" id="HTS_75_Take Recon" data-flag="@X" onclick="openSidebar('HTS_75_Take Recon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\113_Starcrossed Savior.png" id="HTS_113_Starcrossed Savior" data-flag="@X" onclick="openSidebar('HTS_113_Starcrossed Savior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\147_Professor of Hidden Arts.png" id="HTS_147_Professor of Hidden Arts" data-flag="@X" onclick="openSidebar('HTS_147_Professor of Hidden Arts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\195_Underground Profiteer.png" id="HTS_195_Underground Profiteer" data-flag="@X" onclick="openSidebar('HTS_195_Underground Profiteer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\37_Uplifting Coach.png" id="HTS_37_Uplifting Coach" data-flag="@X" onclick="openSidebar('HTS_37_Uplifting Coach',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\76_Tattooed Master.png" id="HTS_76_Tattooed Master" data-flag="@X" onclick="openSidebar('HTS_76_Tattooed Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\116_Vengeant Husk.png" id="HTS_116_Vengeant Husk" data-flag="@X" onclick="openSidebar('HTS_116_Vengeant Husk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\156_Vanguard of Fiery Fury.png" id="HTS_156_Vanguard of Fiery Fury" data-flag="@X" onclick="openSidebar('HTS_156_Vanguard of Fiery Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\196_Workout Mentor.png" id="HTS_196_Workout Mentor" data-flag="@X" onclick="openSidebar('HTS_196_Workout Mentor',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\199_Starwalker.png" id="199_Starwalker" data-flag="@X" onclick="openSidebar('199_Starwalker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\202_Inked Diabolist.png" id="202_Inked Diabolist" data-flag="@X" onclick="openSidebar('202_Inked Diabolist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\204_Fame Chaser.png" id="204_Fame Chaser" data-flag="@X" onclick="openSidebar('204_Fame Chaser',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\206_Faded Hero.png" id="206_Faded Hero" data-flag="@X" onclick="openSidebar('206_Faded Hero',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\210_Lovely Afternoon at the Park.png" id="210_Lovely Afternoon at the Park" data-flag="@X" onclick="openSidebar('210_Lovely Afternoon at the Park',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\197_Feline Personal Assistant Unit.png" id="197_Feline Personal Assistant Unit" data-flag="@X" onclick="openSidebar('197_Feline Personal Assistant Unit',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\200_Asami, Twice-Reigning Champ.png" id="200_Asami, Twice-Reigning Champ" data-flag="@X" onclick="openSidebar('200_Asami, Twice-Reigning Champ',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\203_The Bandit's Grand Finale.png" id="203_The Bandits Grand Finale" data-flag="@X" onclick="openSidebar('203_The Bandits Grand Finale',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\207_Herald of the Painted Sky.png" id="207_Herald of the Painted Sky" data-flag="@X" onclick="openSidebar('207_Herald of the Painted Sky',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\209_Embrace the Day.png" id="209_Embrace the Day" data-flag="@X" onclick="openSidebar('209_Embrace the Day',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\198_Investigative Journalism.png" id="198_Investigative Journalism" data-flag="@X" onclick="openSidebar('198_Investigative Journalism',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\201_Heist of That Never Seen Before.png" id="201_Heist of That Never Seen Before" data-flag="@X" onclick="openSidebar('201_Heist of That Never Seen Before',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\205_Hotaru, Ever-Ignited.png" id="205_Hotaru, Ever-Ignited" data-flag="@X" onclick="openSidebar('205_Hotaru, Ever-Ignited',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\208_Possibilities Emerge, You Remain.png" id="208_Possibilities Emerge, You Remain" data-flag="@X" onclick="openSidebar('208_Possibilities Emerge, You Remain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\211_Shizuka, Head of the Class.png" id="211_Shizuka, Head of the Class" data-flag="@X" onclick="openSidebar('211_Shizuka, Head of the Class',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\212_Murmurs of Hope and Life.png" id="212_Murmurs of Hope and Life" data-flag="@X" onclick="openSidebar('212_Murmurs of Hope and Life',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\215_Emissary of Foxflame.png" id="215_Emissary of Foxflame" data-flag="@X" onclick="openSidebar('215_Emissary of Foxflame',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\220_Frazzled Destinies Entwine.png" id="220_Frazzled Destinies Entwine" data-flag="@X" onclick="openSidebar('220_Frazzled Destinies Entwine',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\222_Harmony in Mayhem.png" id="222_Harmony in Mayhem" data-flag="@X" onclick="openSidebar('222_Harmony in Mayhem',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\225_Channeler of the Wilds.png" id="225_Channeler of the Wilds" data-flag="@X" onclick="openSidebar('225_Channeler of the Wilds',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\213_Vainglorious Bombardier.png" id="213_Vainglorious Bombardier" data-flag="@X" onclick="openSidebar('213_Vainglorious Bombardier',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\216_Kazuki, the Neon Painter.png" id="216_Kazuki, the Neon Painter" data-flag="@X" onclick="openSidebar('216_Kazuki, the Neon Painter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\218_Covetous Ploy.png" id="218_Covetous Ploy" data-flag="@X" onclick="openSidebar('218_Covetous Ploy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\221_Ginjiro, Spoiled Upstart.png" id="221_Ginjiro, Spoiled Upstart" data-flag="@X" onclick="openSidebar('221_Ginjiro, Spoiled Upstart',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\224_The Brightest Star, Miki.png" id="224_The Brightest Star, Miki" data-flag="@X" onclick="openSidebar('224_The Brightest Star, Miki',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\214_Yua, Logistics Commando.png" id="214_Yua, Logistics Commando" data-flag="@X" onclick="openSidebar('214_Yua, Logistics Commando',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\217_Siphoner of Otherworlds.png" id="217_Siphoner of Otherworlds" data-flag="@X" onclick="openSidebar('217_Siphoner of Otherworlds',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\219_The Entombed Tentagoyf.png" id="219_The Entombed Tentagoyf" data-flag="@X" onclick="openSidebar('219_The Entombed Tentagoyf',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\223_Shifting Typhoon Strike.png" id="223_Shifting Typhoon Strike" data-flag="@X" onclick="openSidebar('223_Shifting Typhoon Strike',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\226_Neon Junkie Guardian.png" id="226_Neon Junkie Guardian" data-flag="@X" onclick="openSidebar('226_Neon Junkie Guardian',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\229_Castaway of a Broken Timeline.png" id="229_Castaway of a Broken Timeline" data-flag="@X" onclick="openSidebar('229_Castaway of a Broken Timeline',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\248_New Wolf in Town.png" id="248_New Wolf in Town" data-flag="@X" onclick="openSidebar('248_New Wolf in Town',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\262_Traveller from Another Sky.png" id="262_Traveller from Another Sky" data-flag="@X" onclick="openSidebar('262_Traveller from Another Sky',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\235_Everything Goes On.png" id="235_Everything Goes On" data-flag="@X" onclick="openSidebar('235_Everything Goes On',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\234_Enigmatic Transfer Student.png" id="234_Enigmatic Transfer Student" data-flag="@X" onclick="openSidebar('234_Enigmatic Transfer Student',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\228_Boastful Finish.png" id="228_Boastful Finish" data-flag="@X" onclick="openSidebar('228_Boastful Finish',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\251_Pieces Fall into Place.png" id="251_Pieces Fall into Place" data-flag="@X" onclick="openSidebar('251_Pieces Fall into Place',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\246_Nebula of Mists.png" id="246_Nebula of Mists" data-flag="@X" onclick="openSidebar('246_Nebula of Mists',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\254_Reveal Your Core Bare.png" id="254_Reveal Your Core Bare" data-flag="@X" onclick="openSidebar('254_Reveal Your Core Bare',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\239_Frenzy of Flesh.png" id="239_Frenzy of Flesh" data-flag="@X" onclick="openSidebar('239_Frenzy of Flesh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\241_Imposing Stature.png" id="241_Imposing Stature" data-flag="@X" onclick="openSidebar('241_Imposing Stature',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\232_Disperse without Care.png" id="232_Disperse without Care" data-flag="@X" onclick="openSidebar('232_Disperse without Care',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\258_Shell of Lethargy.png" id="258_Shell of Lethargy" data-flag="@X" onclick="openSidebar('258_Shell of Lethargy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\247_New Murazu Gloryseeker.png" id="247_New Murazu Gloryseeker" data-flag="@X" onclick="openSidebar('247_New Murazu Gloryseeker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\244_Let the Palette Run Dry.png" id="244_Let the Palette Run Dry" data-flag="@X" onclick="openSidebar('244_Let the Palette Run Dry',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\237_The Fate-Scarred.png" id="237_The Fate-Scarred" data-flag="@X" onclick="openSidebar('237_The Fate-Scarred',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\240_Gap-Year Graduate.png" id="240_Gap-Year Graduate" data-flag="@X" onclick="openSidebar('240_Gap-Year Graduate',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\250_The Phantom Gun.png" id="250_The Phantom Gun" data-flag="@X" onclick="openSidebar('250_The Phantom Gun',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\249_The Painter of Flames.png" id="249_The Painter of Flames" data-flag="@X" onclick="openSidebar('249_The Painter of Flames',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\238_The Final Throne.png" id="238_The Final Throne" data-flag="@X" onclick="openSidebar('238_The Final Throne',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\227_Become Nothing.png" id="227_Become Nothing" data-flag="@X" onclick="openSidebar('227_Become Nothing',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\230_Convince the Aether.png" id="230_Convince the Aether" data-flag="@X" onclick="openSidebar('230_Convince the Aether',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\260_Tether to Reality.png" id="260_Tether to Reality" data-flag="@X" onclick="openSidebar('260_Tether to Reality',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\231_Cross the Brink.png" id="231_Cross the Brink" data-flag="@X" onclick="openSidebar('231_Cross the Brink',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\242_Internal Struggle.png" id="242_Internal Struggle" data-flag="@X" onclick="openSidebar('242_Internal Struggle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\245_Miss Sanrin, Home Room.png" id="245_Miss Sanrin, Home Room" data-flag="@X" onclick="openSidebar('245_Miss Sanrin, Home Room',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\236_Explore New Frontiers.png" id="236_Explore New Frontiers" data-flag="@X" onclick="openSidebar('236_Explore New Frontiers',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\257_Shed the Old Hue.png" id="257_Shed the Old Hue" data-flag="@X" onclick="openSidebar('257_Shed the Old Hue',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\233_Encroaching Hues.png" id="233_Encroaching Hues" data-flag="@X" onclick="openSidebar('233_Encroaching Hues',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\259_Star of Unimaginable Evil.png" id="259_Star of Unimaginable Evil" data-flag="@X" onclick="openSidebar('259_Star of Unimaginable Evil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\243_The Jovial Phantasm.png" id="243_The Jovial Phantasm" data-flag="@X" onclick="openSidebar('243_The Jovial Phantasm',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\252_The Quelling Star.png" id="252_The Quelling Star" data-flag="@X" onclick="openSidebar('252_The Quelling Star',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\253_Rainbow's End.png" id="253_Rainbows End" data-flag="@X" onclick="openSidebar('253_Rainbows End',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\255_Sanrin, Tenured and Here.png" id="255_Sanrin, Tenured and Here" data-flag="@X" onclick="openSidebar('255_Sanrin, Tenured and Here',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\256_The Second Best.png" id="256_The Second Best" data-flag="@X" onclick="openSidebar('256_The Second Best',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\261_Together Now!.png" id="261_Together Now!" data-flag="@X" onclick="openSidebar('261_Together Now!',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\1_Precursor of Light.png" id="1_Precursor of Light" data-flag="@X" onclick="openSidebar('1_Precursor of Light',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\199_Starwalker.png" id="HTS_199_Starwalker" data-flag="@X" onclick="openSidebar('HTS_199_Starwalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\202_Inked Diabolist.png" id="HTS_202_Inked Diabolist" data-flag="@X" onclick="openSidebar('HTS_202_Inked Diabolist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\204_Fame Chaser.png" id="HTS_204_Fame Chaser" data-flag="@X" onclick="openSidebar('HTS_204_Fame Chaser',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\206_Faded Hero.png" id="HTS_206_Faded Hero" data-flag="@X" onclick="openSidebar('HTS_206_Faded Hero',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\210_Lovely Afternoon at the Park.png" id="HTS_210_Lovely Afternoon at the Park" data-flag="@X" onclick="openSidebar('HTS_210_Lovely Afternoon at the Park',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\197_Feline Personal Assistant Unit.png" id="HTS_197_Feline Personal Assistant Unit" data-flag="@X" onclick="openSidebar('HTS_197_Feline Personal Assistant Unit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\200_Asami, Twice-Reigning Champ.png" id="HTS_200_Asami, Twice-Reigning Champ" data-flag="@X" onclick="openSidebar('HTS_200_Asami, Twice-Reigning Champ',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\203_The Bandit's Grand Finale.png" id="HTS_203_The Bandits Grand Finale" data-flag="@X" onclick="openSidebar('HTS_203_The Bandits Grand Finale',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\207_Herald of the Painted Sky.png" id="HTS_207_Herald of the Painted Sky" data-flag="@X" onclick="openSidebar('HTS_207_Herald of the Painted Sky',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\209_Embrace the Day.png" id="HTS_209_Embrace the Day" data-flag="@X" onclick="openSidebar('HTS_209_Embrace the Day',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\198_Investigative Journalism.png" id="HTS_198_Investigative Journalism" data-flag="@X" onclick="openSidebar('HTS_198_Investigative Journalism',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\201_Heist of That Never Seen Before.png" id="HTS_201_Heist of That Never Seen Before" data-flag="@X" onclick="openSidebar('HTS_201_Heist of That Never Seen Before',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\205_Hotaru, Ever-Ignited.png" id="HTS_205_Hotaru, Ever-Ignited" data-flag="@X" onclick="openSidebar('HTS_205_Hotaru, Ever-Ignited',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\208_Possibilities Emerge, You Remain.png" id="HTS_208_Possibilities Emerge, You Remain" data-flag="@X" onclick="openSidebar('HTS_208_Possibilities Emerge, You Remain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\211_Shizuka, Head of the Class.png" id="HTS_211_Shizuka, Head of the Class" data-flag="@X" onclick="openSidebar('HTS_211_Shizuka, Head of the Class',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\212_Murmurs of Hope and Life.png" id="HTS_212_Murmurs of Hope and Life" data-flag="@X" onclick="openSidebar('HTS_212_Murmurs of Hope and Life',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\215_Emissary of Foxflame.png" id="HTS_215_Emissary of Foxflame" data-flag="@X" onclick="openSidebar('HTS_215_Emissary of Foxflame',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\220_Frazzled Destinies Entwine.png" id="HTS_220_Frazzled Destinies Entwine" data-flag="@X" onclick="openSidebar('HTS_220_Frazzled Destinies Entwine',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\222_Harmony in Mayhem.png" id="HTS_222_Harmony in Mayhem" data-flag="@X" onclick="openSidebar('HTS_222_Harmony in Mayhem',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\225_Channeler of the Wilds.png" id="HTS_225_Channeler of the Wilds" data-flag="@X" onclick="openSidebar('HTS_225_Channeler of the Wilds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\213_Vainglorious Bombardier.png" id="HTS_213_Vainglorious Bombardier" data-flag="@X" onclick="openSidebar('HTS_213_Vainglorious Bombardier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\216_Kazuki, the Neon Painter.png" id="HTS_216_Kazuki, the Neon Painter" data-flag="@X" onclick="openSidebar('HTS_216_Kazuki, the Neon Painter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\218_Covetous Ploy.png" id="HTS_218_Covetous Ploy" data-flag="@X" onclick="openSidebar('HTS_218_Covetous Ploy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\221_Ginjiro, Spoiled Upstart.png" id="HTS_221_Ginjiro, Spoiled Upstart" data-flag="@X" onclick="openSidebar('HTS_221_Ginjiro, Spoiled Upstart',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\224_The Brightest Star, Miki.png" id="HTS_224_The Brightest Star, Miki" data-flag="@X" onclick="openSidebar('HTS_224_The Brightest Star, Miki',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\214_Yua, Logistics Commando.png" id="HTS_214_Yua, Logistics Commando" data-flag="@X" onclick="openSidebar('HTS_214_Yua, Logistics Commando',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\217_Siphoner of Otherworlds.png" id="HTS_217_Siphoner of Otherworlds" data-flag="@X" onclick="openSidebar('HTS_217_Siphoner of Otherworlds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\219_The Entombed Tentagoyf.png" id="HTS_219_The Entombed Tentagoyf" data-flag="@X" onclick="openSidebar('HTS_219_The Entombed Tentagoyf',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\223_Shifting Typhoon Strike.png" id="HTS_223_Shifting Typhoon Strike" data-flag="@X" onclick="openSidebar('HTS_223_Shifting Typhoon Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\226_Neon Junkie Guardian.png" id="HTS_226_Neon Junkie Guardian" data-flag="@X" onclick="openSidebar('HTS_226_Neon Junkie Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\229_Castaway of a Broken Timeline.png" id="HTS_229_Castaway of a Broken Timeline" data-flag="@X" onclick="openSidebar('HTS_229_Castaway of a Broken Timeline',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\248_New Wolf in Town.png" id="HTS_248_New Wolf in Town" data-flag="@X" onclick="openSidebar('HTS_248_New Wolf in Town',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\262_Traveller from Another Sky.png" id="HTS_262_Traveller from Another Sky" data-flag="@X" onclick="openSidebar('HTS_262_Traveller from Another Sky',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\235_Everything Goes On.png" id="HTS_235_Everything Goes On" data-flag="@X" onclick="openSidebar('HTS_235_Everything Goes On',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\234_Enigmatic Transfer Student.png" id="HTS_234_Enigmatic Transfer Student" data-flag="@X" onclick="openSidebar('HTS_234_Enigmatic Transfer Student',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\228_Boastful Finish.png" id="HTS_228_Boastful Finish" data-flag="@X" onclick="openSidebar('HTS_228_Boastful Finish',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\251_Pieces Fall into Place.png" id="HTS_251_Pieces Fall into Place" data-flag="@X" onclick="openSidebar('HTS_251_Pieces Fall into Place',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\246_Nebula of Mists.png" id="HTS_246_Nebula of Mists" data-flag="@X" onclick="openSidebar('HTS_246_Nebula of Mists',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\254_Reveal Your Core Bare.png" id="HTS_254_Reveal Your Core Bare" data-flag="@X" onclick="openSidebar('HTS_254_Reveal Your Core Bare',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\239_Frenzy of Flesh.png" id="HTS_239_Frenzy of Flesh" data-flag="@X" onclick="openSidebar('HTS_239_Frenzy of Flesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\241_Imposing Stature.png" id="HTS_241_Imposing Stature" data-flag="@X" onclick="openSidebar('HTS_241_Imposing Stature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\232_Disperse without Care.png" id="HTS_232_Disperse without Care" data-flag="@X" onclick="openSidebar('HTS_232_Disperse without Care',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\258_Shell of Lethargy.png" id="HTS_258_Shell of Lethargy" data-flag="@X" onclick="openSidebar('HTS_258_Shell of Lethargy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\247_New Murazu Gloryseeker.png" id="HTS_247_New Murazu Gloryseeker" data-flag="@X" onclick="openSidebar('HTS_247_New Murazu Gloryseeker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\244_Let the Palette Run Dry.png" id="HTS_244_Let the Palette Run Dry" data-flag="@X" onclick="openSidebar('HTS_244_Let the Palette Run Dry',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\237_The Fate-Scarred.png" id="HTS_237_The Fate-Scarred" data-flag="@X" onclick="openSidebar('HTS_237_The Fate-Scarred',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\240_Gap-Year Graduate.png" id="HTS_240_Gap-Year Graduate" data-flag="@X" onclick="openSidebar('HTS_240_Gap-Year Graduate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\250_The Phantom Gun.png" id="HTS_250_The Phantom Gun" data-flag="@X" onclick="openSidebar('HTS_250_The Phantom Gun',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\249_The Painter of Flames.png" id="HTS_249_The Painter of Flames" data-flag="@X" onclick="openSidebar('HTS_249_The Painter of Flames',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\238_The Final Throne.png" id="HTS_238_The Final Throne" data-flag="@X" onclick="openSidebar('HTS_238_The Final Throne',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\227_Become Nothing.png" id="HTS_227_Become Nothing" data-flag="@X" onclick="openSidebar('HTS_227_Become Nothing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\230_Convince the Aether.png" id="HTS_230_Convince the Aether" data-flag="@X" onclick="openSidebar('HTS_230_Convince the Aether',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\260_Tether to Reality.png" id="HTS_260_Tether to Reality" data-flag="@X" onclick="openSidebar('HTS_260_Tether to Reality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\231_Cross the Brink.png" id="HTS_231_Cross the Brink" data-flag="@X" onclick="openSidebar('HTS_231_Cross the Brink',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\242_Internal Struggle.png" id="HTS_242_Internal Struggle" data-flag="@X" onclick="openSidebar('HTS_242_Internal Struggle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\245_Miss Sanrin, Home Room.png" id="HTS_245_Miss Sanrin, Home Room" data-flag="@X" onclick="openSidebar('HTS_245_Miss Sanrin, Home Room',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\236_Explore New Frontiers.png" id="HTS_236_Explore New Frontiers" data-flag="@X" onclick="openSidebar('HTS_236_Explore New Frontiers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\257_Shed the Old Hue.png" id="HTS_257_Shed the Old Hue" data-flag="@X" onclick="openSidebar('HTS_257_Shed the Old Hue',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\233_Encroaching Hues.png" id="HTS_233_Encroaching Hues" data-flag="@X" onclick="openSidebar('HTS_233_Encroaching Hues',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\259_Star of Unimaginable Evil.png" id="HTS_259_Star of Unimaginable Evil" data-flag="@X" onclick="openSidebar('HTS_259_Star of Unimaginable Evil',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\243_The Jovial Phantasm.png" id="HTS_243_The Jovial Phantasm" data-flag="@X" onclick="openSidebar('HTS_243_The Jovial Phantasm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\252_The Quelling Star.png" id="HTS_252_The Quelling Star" data-flag="@X" onclick="openSidebar('HTS_252_The Quelling Star',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\253_Rainbow's End.png" id="HTS_253_Rainbows End" data-flag="@X" onclick="openSidebar('HTS_253_Rainbows End',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\255_Sanrin, Tenured and Here.png" id="HTS_255_Sanrin, Tenured and Here" data-flag="@X" onclick="openSidebar('HTS_255_Sanrin, Tenured and Here',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\256_The Second Best.png" id="HTS_256_The Second Best" data-flag="@X" onclick="openSidebar('HTS_256_The Second Best',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\261_Together Now!.png" id="HTS_261_Together Now!" data-flag="@X" onclick="openSidebar('HTS_261_Together Now!',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\1_Precursor of Light.png" id="HTS_1_Precursor of Light" data-flag="@X" onclick="openSidebar('HTS_1_Precursor of Light',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HTS_e" data-flag="@E" onclick="openSidebar('HTS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HTS_e" data-flag="@E" onclick="openSidebar('HTS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HTS_e" data-flag="@E" onclick="openSidebar('HTS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\266_Jaksa, Alone but Listening.png" id="266_Jaksa, Alone but Listening" data-flag="@X" onclick="openSidebar('266_Jaksa, Alone but Listening',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\263_Academy Assistant.png" id="263_Academy Assistant" data-flag="@X" onclick="openSidebar('263_Academy Assistant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\264_Coastal Barricade.png" id="264_Coastal Barricade" data-flag="@X" onclick="openSidebar('264_Coastal Barricade',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\265_Inherited Scythe.png" id="265_Inherited Scythe" data-flag="@X" onclick="openSidebar('265_Inherited Scythe',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\267_Training Dummy.png" id="267_Training Dummy" data-flag="@X" onclick="openSidebar('267_Training Dummy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\294_Fatigue.png" id="294_Fatigue" data-flag="@X" onclick="openSidebar('294_Fatigue',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\266_Jaksa, Alone but Listening.png" id="HTS_266_Jaksa, Alone but Listening" data-flag="@X" onclick="openSidebar('HTS_266_Jaksa, Alone but Listening',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\263_Academy Assistant.png" id="HTS_263_Academy Assistant" data-flag="@X" onclick="openSidebar('HTS_263_Academy Assistant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\264_Coastal Barricade.png" id="HTS_264_Coastal Barricade" data-flag="@X" onclick="openSidebar('HTS_264_Coastal Barricade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\265_Inherited Scythe.png" id="HTS_265_Inherited Scythe" data-flag="@X" onclick="openSidebar('HTS_265_Inherited Scythe',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\267_Training Dummy.png" id="HTS_267_Training Dummy" data-flag="@X" onclick="openSidebar('HTS_267_Training Dummy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\294_Fatigue.png" id="HTS_294_Fatigue" data-flag="@X" onclick="openSidebar('HTS_294_Fatigue',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HTS_e" data-flag="@E" onclick="openSidebar('HTS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HTS_e" data-flag="@E" onclick="openSidebar('HTS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HTS_e" data-flag="@E" onclick="openSidebar('HTS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HTS_e" data-flag="@E" onclick="openSidebar('HTS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
 				<div id="land" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\280_Serene Meadow.png" id="280_Serene Meadow" data-flag="@X" onclick="openSidebar('280_Serene Meadow',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\278_Serene Depot.png" id="278_Serene Depot" data-flag="@X" onclick="openSidebar('278_Serene Depot',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\281_Serene Rooftop.png" id="281_Serene Rooftop" data-flag="@X" onclick="openSidebar('281_Serene Rooftop',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\277_Serene Arcade.png" id="277_Serene Arcade" data-flag="@X" onclick="openSidebar('277_Serene Arcade',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\279_Serene Gymnasium.png" id="279_Serene Gymnasium" data-flag="@X" onclick="openSidebar('279_Serene Gymnasium',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\284_Wavering Academy.png" id="284_Wavering Academy" data-flag="@X" onclick="openSidebar('284_Wavering Academy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\288_Wavering Theater.png" id="288_Wavering Theater" data-flag="@X" onclick="openSidebar('288_Wavering Theater',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\286_Wavering City.png" id="286_Wavering City" data-flag="@X" onclick="openSidebar('286_Wavering City',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\285_Wavering Alleyway.png" id="285_Wavering Alleyway" data-flag="@X" onclick="openSidebar('285_Wavering Alleyway',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\287_Wavering Playground.png" id="287_Wavering Playground" data-flag="@X" onclick="openSidebar('287_Wavering Playground',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\273_Immaculate Demesne.png" id="273_Immaculate Demesne" data-flag="@X" onclick="openSidebar('273_Immaculate Demesne',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\275_Murky Demesne.png" id="275_Murky Demesne" data-flag="@X" onclick="openSidebar('275_Murky Demesne',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\272_Erupting Demesne.png" id="272_Erupting Demesne" data-flag="@X" onclick="openSidebar('272_Erupting Demesne',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\271_Entropic Demesne.png" id="271_Entropic Demesne" data-flag="@X" onclick="openSidebar('271_Entropic Demesne',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\274_Imposing Demesne.png" id="274_Imposing Demesne" data-flag="@X" onclick="openSidebar('274_Imposing Demesne',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\268_Atrophic Demesne.png" id="268_Atrophic Demesne" data-flag="@X" onclick="openSidebar('268_Atrophic Demesne',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\283_Tranquil Demesne.png" id="283_Tranquil Demesne" data-flag="@X" onclick="openSidebar('283_Tranquil Demesne',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\282_Sinuous Demesne.png" id="282_Sinuous Demesne" data-flag="@X" onclick="openSidebar('282_Sinuous Demesne',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\269_Blossoming Demesne.png" id="269_Blossoming Demesne" data-flag="@X" onclick="openSidebar('269_Blossoming Demesne',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\276_Ravaged Demesne.png" id="276_Ravaged Demesne" data-flag="@X" onclick="openSidebar('276_Ravaged Demesne',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\270_Construction Zone.png" id="270_Construction Zone" data-flag="@X" onclick="openSidebar('270_Construction Zone',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\289_Plains.png" id="289_Plains" data-flag="@X" onclick="openSidebar('289_Plains',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\291_Swamp.png" id="291_Swamp" data-flag="@X" onclick="openSidebar('291_Swamp',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\293_Forest.png" id="293_Forest" data-flag="@X" onclick="openSidebar('293_Forest',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\290_Island.png" id="290_Island" data-flag="@X" onclick="openSidebar('290_Island',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\292_Mountain.png" id="292_Mountain" data-flag="@X" onclick="openSidebar('292_Mountain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\280_Serene Meadow.png" id="HTS_280_Serene Meadow" data-flag="@X" onclick="openSidebar('HTS_280_Serene Meadow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\278_Serene Depot.png" id="HTS_278_Serene Depot" data-flag="@X" onclick="openSidebar('HTS_278_Serene Depot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\281_Serene Rooftop.png" id="HTS_281_Serene Rooftop" data-flag="@X" onclick="openSidebar('HTS_281_Serene Rooftop',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\277_Serene Arcade.png" id="HTS_277_Serene Arcade" data-flag="@X" onclick="openSidebar('HTS_277_Serene Arcade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\279_Serene Gymnasium.png" id="HTS_279_Serene Gymnasium" data-flag="@X" onclick="openSidebar('HTS_279_Serene Gymnasium',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\284_Wavering Academy.png" id="HTS_284_Wavering Academy" data-flag="@X" onclick="openSidebar('HTS_284_Wavering Academy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\288_Wavering Theater.png" id="HTS_288_Wavering Theater" data-flag="@X" onclick="openSidebar('HTS_288_Wavering Theater',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\286_Wavering City.png" id="HTS_286_Wavering City" data-flag="@X" onclick="openSidebar('HTS_286_Wavering City',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\285_Wavering Alleyway.png" id="HTS_285_Wavering Alleyway" data-flag="@X" onclick="openSidebar('HTS_285_Wavering Alleyway',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\287_Wavering Playground.png" id="HTS_287_Wavering Playground" data-flag="@X" onclick="openSidebar('HTS_287_Wavering Playground',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\273_Immaculate Demesne.png" id="HTS_273_Immaculate Demesne" data-flag="@X" onclick="openSidebar('HTS_273_Immaculate Demesne',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\275_Murky Demesne.png" id="HTS_275_Murky Demesne" data-flag="@X" onclick="openSidebar('HTS_275_Murky Demesne',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\272_Erupting Demesne.png" id="HTS_272_Erupting Demesne" data-flag="@X" onclick="openSidebar('HTS_272_Erupting Demesne',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\271_Entropic Demesne.png" id="HTS_271_Entropic Demesne" data-flag="@X" onclick="openSidebar('HTS_271_Entropic Demesne',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\274_Imposing Demesne.png" id="HTS_274_Imposing Demesne" data-flag="@X" onclick="openSidebar('HTS_274_Imposing Demesne',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\268_Atrophic Demesne.png" id="HTS_268_Atrophic Demesne" data-flag="@X" onclick="openSidebar('HTS_268_Atrophic Demesne',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\283_Tranquil Demesne.png" id="HTS_283_Tranquil Demesne" data-flag="@X" onclick="openSidebar('HTS_283_Tranquil Demesne',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\282_Sinuous Demesne.png" id="HTS_282_Sinuous Demesne" data-flag="@X" onclick="openSidebar('HTS_282_Sinuous Demesne',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\269_Blossoming Demesne.png" id="HTS_269_Blossoming Demesne" data-flag="@X" onclick="openSidebar('HTS_269_Blossoming Demesne',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\276_Ravaged Demesne.png" id="HTS_276_Ravaged Demesne" data-flag="@X" onclick="openSidebar('HTS_276_Ravaged Demesne',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\270_Construction Zone.png" id="HTS_270_Construction Zone" data-flag="@X" onclick="openSidebar('HTS_270_Construction Zone',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HTS_e" data-flag="@E" onclick="openSidebar('HTS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HTS_e" data-flag="@E" onclick="openSidebar('HTS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HTS_e" data-flag="@E" onclick="openSidebar('HTS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HTS_e" data-flag="@E" onclick="openSidebar('HTS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\289_Plains.png" id="HTS_289_Plains" data-flag="@X" onclick="openSidebar('HTS_289_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\291_Swamp.png" id="HTS_291_Swamp" data-flag="@X" onclick="openSidebar('HTS_291_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\293_Forest.png" id="HTS_293_Forest" data-flag="@X" onclick="openSidebar('HTS_293_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\290_Island.png" id="HTS_290_Island" data-flag="@X" onclick="openSidebar('HTS_290_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\292_Mountain.png" id="HTS_292_Mountain" data-flag="@X" onclick="openSidebar('HTS_292_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\1t_Homunculus.png" id="1t_Homunculus" data-flag="@X" onclick="openSidebar('1t_Homunculus',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\7t_Fish Horror.png" id="7t_Fish Horror" data-flag="@X" onclick="openSidebar('7t_Fish Horror',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\8t_Horror.png" id="8t_Horror" data-flag="@X" onclick="openSidebar('8t_Horror',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\9t_Horror.png" id="9t_Horror" data-flag="@X" onclick="openSidebar('9t_Horror',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\10t_Treasure.png" id="10t_Treasure" data-flag="@X" onclick="openSidebar('10t_Treasure',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\11t_Everywhere.png" id="11t_Everywhere" data-flag="@X" onclick="openSidebar('11t_Everywhere',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\2t_Bird.png" id="2t_Bird" data-flag="@X" onclick="openSidebar('2t_Bird',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\3t_Student.png" id="3t_Student" data-flag="@X" onclick="openSidebar('3t_Student',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\4t_Demon.png" id="4t_Demon" data-flag="@X" onclick="openSidebar('4t_Demon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\5t_Student.png" id="5t_Student" data-flag="@X" onclick="openSidebar('5t_Student',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HTS-files\img\6t_Dinosaur.png" id="6t_Dinosaur" data-flag="@X" onclick="openSidebar('6t_Dinosaur',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\1t_Homunculus.png" id="HTS_1t_Homunculus" data-flag="@X" onclick="openSidebar('HTS_1t_Homunculus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\7t_Fish Horror.png" id="HTS_7t_Fish Horror" data-flag="@X" onclick="openSidebar('HTS_7t_Fish Horror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\8t_Horror.png" id="HTS_8t_Horror" data-flag="@X" onclick="openSidebar('HTS_8t_Horror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\9t_Horror.png" id="HTS_9t_Horror" data-flag="@X" onclick="openSidebar('HTS_9t_Horror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\10t_Treasure.png" id="HTS_10t_Treasure" data-flag="@X" onclick="openSidebar('HTS_10t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\11t_Everywhere.png" id="HTS_11t_Everywhere" data-flag="@X" onclick="openSidebar('HTS_11t_Everywhere',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\2t_Bird.png" id="HTS_2t_Bird" data-flag="@X" onclick="openSidebar('HTS_2t_Bird',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\3t_Student.png" id="HTS_3t_Student" data-flag="@X" onclick="openSidebar('HTS_3t_Student',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\4t_Demon.png" id="HTS_4t_Demon" data-flag="@X" onclick="openSidebar('HTS_4t_Demon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\5t_Student.png" id="HTS_5t_Student" data-flag="@X" onclick="openSidebar('HTS_5t_Student',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HTS-files\img\6t_Dinosaur.png" id="HTS_6t_Dinosaur" data-flag="@X" onclick="openSidebar('HTS_6t_Dinosaur',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HTS_e" data-flag="@E" onclick="openSidebar('HTS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HTS_e" data-flag="@E" onclick="openSidebar('HTS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HTS_e" data-flag="@E" onclick="openSidebar('HTS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HTS_e" data-flag="@E" onclick="openSidebar('HTS_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HTS_er" data-flag="@E" onclick="openSidebar('HTS_er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -650,19 +676,111 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 
@@ -697,13 +815,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -857,16 +978,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -876,7 +997,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>

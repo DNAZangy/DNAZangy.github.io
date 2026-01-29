@@ -1,9 +1,10 @@
 ﻿{
     "name": "Kaldheim: Bretagard\u2019s Revival",
     "formats": "Zangy",
-    "trimmed": "y",
+    "trimmed": "n",
     "image_type": "png",
-    "draft_structure": "draft booster",
+    "draft_structure": "play booster",
+    "unpreviewed": "card back",
     "cards": [
         {
             "card_name": "Rebuilding Beskir Hall",
@@ -5447,7 +5448,7 @@
             "card_name": "Barrow Marauder",
             "color": "RG",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Troll Warrior",
+            "type": "Snow Creature \u2014 Troll Warrior",
             "number": 264,
             "color_identity": "RG",
             "cost": "{RG}{RG}{RG}{RG}",
@@ -6488,5 +6489,5 @@
             "notes": "!token\n!tag Koma\nOrate Token"
         }
     ],
-    "version": 2
+    "version": 3
 }

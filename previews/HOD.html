@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/HOD-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/HOD-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>HOD visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
 		@font-face {
 			font-family: Beleren;
-			src: url('/resources/beleren.ttf');
+			src: url('../resources/beleren.ttf');
 		}
 		body {
 			font-family: Arial, sans-serif;
@@ -45,13 +48,15 @@
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -62,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -82,6 +87,7 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
@@ -102,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -118,7 +125,7 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -174,565 +181,584 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/HOD-files/logo.png" />
-	<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TWI-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ALK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ACT-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ROS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/G5L-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HOD-files/icon.png" />
-		<img class="preload-hidden" src="/sets/BRE-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HTS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MSK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ORC-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TRO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ZANG-files/icon.png" />
-		<img class="preload-hidden" src="/sets/CIUB-files/icon.png" />
-		<img class="preload-hidden" src="/sets/RAR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ZNU-files/icon.png" />
-		<img class="preload-hidden" id="bg" src="/sets/HOD-files/bg.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/HOD-files/logo.png" />
+	<img class="preload-hidden" src="../sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TWI-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ALK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ACT-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ROS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/G5L-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HOD-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SHU-files/icon.png" />
+		<img class="preload-hidden" src="../sets/BRE-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HTS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MSK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ORC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TRO-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ZANG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CIUB-files/icon.png" />
+		<img class="preload-hidden" src="../sets/RAR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ZNU-files/icon.png" />
+		<img class="preload-hidden" id="bg" src="../sets/HOD-files/bg.png" />
 
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
 
 	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
-		<a class="set-bar" href="HOD"><img src="/sets/HOD-files/icon.png">Houses of Dewold</a>
+		<a class="set-bar" href="../previews/HOD"><img src="../sets/HOD-files/icon.png">Houses of Dewold</a>
 	
-		<a class="set-bar inactive" href="SRC"><img src="/sets/SRC-files/icon.png">Secrets of the River Cities</a>
+		<a class="set-bar inactive" href="../previews/SRC"><img src="../sets/SRC-files/icon.png">Secrets of the River Cities</a>
 	
-		<a class="set-bar inactive" href="TRX"><img src="/sets/TRX-files/icon.png">Theros: Age of Trax</a>
+		<a class="set-bar inactive" href="../previews/TRX"><img src="../sets/TRX-files/icon.png">Theros: Age of Trax</a>
 	
-		<a class="set-bar inactive" href="TWI"><img src="/sets/TWI-files/icon.png">Exalts of Twiltrie</a>
+		<a class="set-bar inactive" href="../previews/TWI"><img src="../sets/TWI-files/icon.png">Exalts of Twiltrie</a>
 	
-		<a class="set-bar inactive" href="ALK"><img src="/sets/ALK-files/icon.png">Alkabah</a>
+		<a class="set-bar inactive" href="../previews/ALK"><img src="../sets/ALK-files/icon.png">Alkabah</a>
 	
-		<a class="set-bar inactive" href="ACT"><img src="/sets/ACT-files/icon.png">The Stage Presents: The Neverending Act</a>
+		<a class="set-bar inactive" href="../previews/ACT"><img src="../sets/ACT-files/icon.png">The Stage Presents: The Neverending Act</a>
 	
-		<a class="set-bar inactive" href="ROS"><img src="/sets/ROS-files/icon.png">Alkabah: Rise of Soli</a>
+		<a class="set-bar inactive" href="../previews/ROS"><img src="../sets/ROS-files/icon.png">Alkabah: Rise of Soli</a>
 	
-		<a class="set-bar inactive" href="G5L"><img src="/sets/G5L-files/icon.png">Alkabah: Golna’s Five Labors</a>
+		<a class="set-bar inactive" href="../previews/G5L"><img src="../sets/G5L-files/icon.png">Alkabah: Golna’s Five Labors</a>
 	
-		<a class="set-bar inactive" href="BRE"><img src="/sets/BRE-files/icon.png">Kaldheim: Bretagard’s Revival</a>
+		<a class="set-bar inactive" href="../previews/SHU"><img src="../sets/SHU-files/icon.png">Shurima: War of the Sands</a>
 	
-		<a class="set-bar inactive" href="HTS"><img src="/sets/HTS-files/icon.png">Hatsuniji: We Stare Through the Window, Together, Holding Hands</a>
+		<a class="set-bar inactive" href="../previews/BRE"><img src="../sets/BRE-files/icon.png">Kaldheim: Bretagard’s Revival</a>
 	
-		<a class="set-bar inactive" href="MSK"><img src="/sets/MSK-files/icon.png">Myths, Masks, and Minutes Spent Apart</a>
+		<a class="set-bar inactive" href="../previews/HTS"><img src="../sets/HTS-files/icon.png">Hatsuniji: We Stare Through the Window, Together, Holding Hands</a>
 	
-		<a class="set-bar inactive" href="ORC"><img src="/sets/ORC-files/icon.png">An Oddness in the River Cities</a>
+		<a class="set-bar inactive" href="../previews/MSK"><img src="../sets/MSK-files/icon.png">Myths, Masks, and Minutes Spent Apart</a>
 	
-		<a class="set-bar inactive" href="TRO"><img src="/sets/TRO-files/icon.png">Trovsko</a>
+		<a class="set-bar inactive" href="../previews/ORC"><img src="../sets/ORC-files/icon.png">An Oddness in the River Cities</a>
 	
-		<a class="set-bar inactive" href="ZANG"><img src="/sets/ZANG-files/icon.png">Zangy Cube</a>
+		<a class="set-bar inactive" href="../previews/TRO"><img src="../sets/TRO-files/icon.png">Trovsko</a>
 	
-		<a class="set-bar inactive" href="CIUB"><img src="/sets/CIUB-files/icon.png">Tairngire Cube</a>
+		<a class="set-bar inactive" href="../previews/ZANG"><img src="../sets/ZANG-files/icon.png">Zangy Cube</a>
 	
-		<a class="set-bar inactive" href="RAR"><img src="/sets/RAR-files/icon.png">Ravnica: Resurgence</a>
+		<a class="set-bar inactive" href="../previews/CIUB"><img src="../sets/CIUB-files/icon.png">Tairngire Cube</a>
 	
-		<a class="set-bar inactive" href="ZNU"><img src="/sets/ZNU-files/icon.png">Zendikar Unleashed</a>
+		<a class="set-bar inactive" href="../previews/RAR"><img src="../sets/RAR-files/icon.png">Ravnica: Resurgence</a>
+	
+		<a class="set-bar inactive" href="../previews/ZNU"><img src="../sets/ZNU-files/icon.png">Zendikar Unleashed</a>
 	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/HOD-files/logo.png">
+		<img class="logo" src="../sets/HOD-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\1_The Aciesblade.png" id="1_The Aciesblade" data-flag="@X" onclick="openSidebar('1_The Aciesblade',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\51_Domineering Mirrorkin.png" id="51_Domineering Mirrorkin" data-flag="@X" onclick="openSidebar('51_Domineering Mirrorkin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\89_Closure.png" id="89_Closure" data-flag="@X" onclick="openSidebar('89_Closure',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\147_Herald of Storms.png" id="147_Herald of Storms" data-flag="@X" onclick="openSidebar('147_Herald of Storms',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\192_One with the Geistwald.png" id="192_One with the Geistwald" data-flag="@X" onclick="openSidebar('192_One with the Geistwald',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\22_Leon's Claim.png" id="22_Leons Claim" data-flag="@X" onclick="openSidebar('22_Leons Claim',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\66_Marilye, Heirloom Pilferer.png" id="66_Marilye, Heirloom Pilferer" data-flag="@X" onclick="openSidebar('66_Marilye, Heirloom Pilferer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\97_Knight of the Endless War.png" id="97_Knight of the Endless War" data-flag="@X" onclick="openSidebar('97_Knight of the Endless War',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\161_Thorough Conflagration.png" id="161_Thorough Conflagration" data-flag="@X" onclick="openSidebar('161_Thorough Conflagration',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\202_Sapner Trapper.png" id="202_Sapner Trapper" data-flag="@X" onclick="openSidebar('202_Sapner Trapper',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\24_Marilye's Revelation.png" id="24_Marilyes Revelation" data-flag="@X" onclick="openSidebar('24_Marilyes Revelation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\74_Royal Seeker.png" id="74_Royal Seeker" data-flag="@X" onclick="openSidebar('74_Royal Seeker',false)"></div>
-				<div class="container"><img loading="lazy" data-alt_src="/sets\HOD-files\img\124_Waldemar, Forgotten Heir_back.png" alt="/sets\HOD-files\img\124_Waldemar, Forgotten Heir_front.png" id="124_Waldemar, Forgotten Heir" data-flag="@XD" onclick="openSidebar('124_Waldemar, Forgotten Heir',false)"><button class="flip-btn" onclick="imgFlip('124_Waldemar, Forgotten Heir')"></button></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\128_Ardleby Gatekeeper.png" id="128_Ardleby Gatekeeper" data-flag="@X" onclick="openSidebar('128_Ardleby Gatekeeper',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\170_Blight-Tipped Hunter.png" id="170_Blight-Tipped Hunter" data-flag="@X" onclick="openSidebar('170_Blight-Tipped Hunter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\2_Approach of the Newly Crowned.png" id="2_Approach of the Newly Crowned" data-flag="@X" onclick="openSidebar('2_Approach of the Newly Crowned',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\45_Beachside Drake.png" id="45_Beachside Drake" data-flag="@X" onclick="openSidebar('45_Beachside Drake',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\87_Bounty Collector.png" id="87_Bounty Collector" data-flag="@X" onclick="openSidebar('87_Bounty Collector',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\133_Blazing Phoenix.png" id="133_Blazing Phoenix" data-flag="@X" onclick="openSidebar('133_Blazing Phoenix',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\175_Choice of Salvations.png" id="175_Choice of Salvations" data-flag="@X" onclick="openSidebar('175_Choice of Salvations',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\3_Arbiter of the Meek.png" id="3_Arbiter of the Meek" data-flag="@X" onclick="openSidebar('3_Arbiter of the Meek',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\55_Geistwald Kraken.png" id="55_Geistwald Kraken" data-flag="@X" onclick="openSidebar('55_Geistwald Kraken',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\102_Petula Vance, the Solemn Joke.png" id="102_Petula Vance, the Solemn Joke" data-flag="@X" onclick="openSidebar('102_Petula Vance, the Solemn Joke',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\136_Caryl Rey, the Rose.png" id="136_Caryl Rey, the Rose" data-flag="@X" onclick="openSidebar('136_Caryl Rey, the Rose',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\176_Chorus of the Silberwald.png" id="176_Chorus of the Silberwald" data-flag="@X" onclick="openSidebar('176_Chorus of the Silberwald',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\8_Call to War.png" id="8_Call to War" data-flag="@X" onclick="openSidebar('8_Call to War',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\58_Idol of Forgotten Gods.png" id="58_Idol of Forgotten Gods" data-flag="@X" onclick="openSidebar('58_Idol of Forgotten Gods',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\104_Plaskett Trickster.png" id="104_Plaskett Trickster" data-flag="@X" onclick="openSidebar('104_Plaskett Trickster',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\142_Fervent Demagogue.png" id="142_Fervent Demagogue" data-flag="@X" onclick="openSidebar('142_Fervent Demagogue',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\183_Geistwald Abomination.png" id="183_Geistwald Abomination" data-flag="@X" onclick="openSidebar('183_Geistwald Abomination',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\18_Knight Exemplar.png" id="18_Knight Exemplar" data-flag="@X" onclick="openSidebar('18_Knight Exemplar',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\59_Inquisitive Otter.png" id="59_Inquisitive Otter" data-flag="@X" onclick="openSidebar('59_Inquisitive Otter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\109_Sapner Hexcrafter.png" id="109_Sapner Hexcrafter" data-flag="@X" onclick="openSidebar('109_Sapner Hexcrafter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\143_Gaze Upon Greatness.png" id="143_Gaze Upon Greatness" data-flag="@X" onclick="openSidebar('143_Gaze Upon Greatness',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\184_Geistwald Amalgam.png" id="184_Geistwald Amalgam" data-flag="@X" onclick="openSidebar('184_Geistwald Amalgam',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\21_Leon Terrel, Unspoken Heir.png" id="21_Leon Terrel, Unspoken Heir" data-flag="@X" onclick="openSidebar('21_Leon Terrel, Unspoken Heir',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\67_Mirrorkin's Bargain.png" id="67_Mirrorkins Bargain" data-flag="@X" onclick="openSidebar('67_Mirrorkins Bargain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\113_Taken by House Vance.png" id="113_Taken by House Vance" data-flag="@X" onclick="openSidebar('113_Taken by House Vance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\144_Geistwald Deceiver.png" id="144_Geistwald Deceiver" data-flag="@X" onclick="openSidebar('144_Geistwald Deceiver',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\187_House Negotiations.png" id="187_House Negotiations" data-flag="@X" onclick="openSidebar('187_House Negotiations',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\30_Regal Lion.png" id="30_Regal Lion" data-flag="@X" onclick="openSidebar('30_Regal Lion',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\73_Read the Wingbeats.png" id="73_Read the Wingbeats" data-flag="@X" onclick="openSidebar('73_Read the Wingbeats',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\115_Thriving Hyena.png" id="115_Thriving Hyena" data-flag="@X" onclick="openSidebar('115_Thriving Hyena',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\158_Standoff at Beachside.png" id="158_Standoff at Beachside" data-flag="@X" onclick="openSidebar('158_Standoff at Beachside',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\190_Long Night's Rest.png" id="190_Long Nights Rest" data-flag="@X" onclick="openSidebar('190_Long Nights Rest',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\32_Sandrock Blacksmith.png" id="32_Sandrock Blacksmith" data-flag="@X" onclick="openSidebar('32_Sandrock Blacksmith',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\77_Sovereign Echomage.png" id="77_Sovereign Echomage" data-flag="@X" onclick="openSidebar('77_Sovereign Echomage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\117_Unending Malice.png" id="117_Unending Malice" data-flag="@X" onclick="openSidebar('117_Unending Malice',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\164_Usurp.png" id="164_Usurp" data-flag="@X" onclick="openSidebar('164_Usurp',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\194_Quirky Chameleon.png" id="194_Quirky Chameleon" data-flag="@X" onclick="openSidebar('194_Quirky Chameleon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\33_Sapner Vindicator.png" id="33_Sapner Vindicator" data-flag="@X" onclick="openSidebar('33_Sapner Vindicator',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\78_Takers of Voice.png" id="78_Takers of Voice" data-flag="@X" onclick="openSidebar('78_Takers of Voice',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\119_Vance Informant.png" id="119_Vance Informant" data-flag="@X" onclick="openSidebar('119_Vance Informant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\167_William's Epiphany.png" id="167_Williams Epiphany" data-flag="@X" onclick="openSidebar('167_Williams Epiphany',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\195_Ranulf, the Seed of Sapner.png" id="195_Ranulf, the Seed of Sapner" data-flag="@X" onclick="openSidebar('195_Ranulf, the Seed of Sapner',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\34_Scorched Earth.png" id="34_Scorched Earth" data-flag="@X" onclick="openSidebar('34_Scorched Earth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\84_Wilmot Nye, the Crafty.png" id="84_Wilmot Nye, the Crafty" data-flag="@X" onclick="openSidebar('84_Wilmot Nye, the Crafty',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\122_Virulent Hexer.png" id="122_Virulent Hexer" data-flag="@X" onclick="openSidebar('122_Virulent Hexer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\127_All-Out Charge.png" id="127_All-Out Charge" data-flag="@X" onclick="openSidebar('127_All-Out Charge',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\169_Attwater Elite.png" id="169_Attwater Elite" data-flag="@X" onclick="openSidebar('169_Attwater Elite',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\12_Heart of Banefort.png" id="12_Heart of Banefort" data-flag="@X" onclick="openSidebar('12_Heart of Banefort',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\44_Attwater Drakerider.png" id="44_Attwater Drakerider" data-flag="@X" onclick="openSidebar('44_Attwater Drakerider',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\85_Alder, Vance's Claw.png" id="85_Alder, Vances Claw" data-flag="@X" onclick="openSidebar('85_Alder, Vances Claw',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\130_Beacon of Greatness.png" id="130_Beacon of Greatness" data-flag="@X" onclick="openSidebar('130_Beacon of Greatness',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\172_The Call to Adventure.png" id="172_The Call to Adventure" data-flag="@X" onclick="openSidebar('172_The Call to Adventure',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\15_Imani Whitaker.png" id="15_Imani Whitaker" data-flag="@X" onclick="openSidebar('15_Imani Whitaker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\46_Beginning of a Grand Heist.png" id="46_Beginning of a Grand Heist" data-flag="@X" onclick="openSidebar('46_Beginning of a Grand Heist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\90_Deadly Interrogation.png" id="90_Deadly Interrogation" data-flag="@X" onclick="openSidebar('90_Deadly Interrogation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\132_Binding Lightning.png" id="132_Binding Lightning" data-flag="@X" onclick="openSidebar('132_Binding Lightning',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\178_Encroach Upon.png" id="178_Encroach Upon" data-flag="@X" onclick="openSidebar('178_Encroach Upon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\17_In Hopeful Caress.png" id="17_In Hopeful Caress" data-flag="@X" onclick="openSidebar('17_In Hopeful Caress',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\50_Disappointing Show.png" id="50_Disappointing Show" data-flag="@X" onclick="openSidebar('50_Disappointing Show',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\96_Fueled by Vengeance.png" id="96_Fueled by Vengeance" data-flag="@X" onclick="openSidebar('96_Fueled by Vengeance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\137_Catastrophic Dragon.png" id="137_Catastrophic Dragon" data-flag="@X" onclick="openSidebar('137_Catastrophic Dragon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\180_Foliage Decoy.png" id="180_Foliage Decoy" data-flag="@X" onclick="openSidebar('180_Foliage Decoy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\20_Left to Wander.png" id="20_Left to Wander" data-flag="@X" onclick="openSidebar('20_Left to Wander',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\53_Everturning Crane.png" id="53_Everturning Crane" data-flag="@X" onclick="openSidebar('53_Everturning Crane',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\98_Massacre at King's Rock.png" id="98_Massacre at Kings Rock" data-flag="@X" onclick="openSidebar('98_Massacre at Kings Rock',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\138_Death's Sting Captain.png" id="138_Deaths Sting Captain" data-flag="@X" onclick="openSidebar('138_Deaths Sting Captain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\182_Fulchard Sapner, Gentle Giant.png" id="182_Fulchard Sapner, Gentle Giant" data-flag="@X" onclick="openSidebar('182_Fulchard Sapner, Gentle Giant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\25_Noble Griffin.png" id="25_Noble Griffin" data-flag="@X" onclick="openSidebar('25_Noble Griffin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\54_Flittering Distraction.png" id="54_Flittering Distraction" data-flag="@X" onclick="openSidebar('54_Flittering Distraction',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\99_Mockery of Innocence.png" id="99_Mockery of Innocence" data-flag="@X" onclick="openSidebar('99_Mockery of Innocence',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\140_Drenched Euphoria.png" id="140_Drenched Euphoria" data-flag="@X" onclick="openSidebar('140_Drenched Euphoria',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\188_Hunter's Expertise.png" id="188_Hunters Expertise" data-flag="@X" onclick="openSidebar('188_Hunters Expertise',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\28_Paragon of Stories.png" id="28_Paragon of Stories" data-flag="@X" onclick="openSidebar('28_Paragon of Stories',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\56_Grand Snail Race at Riverdale.png" id="56_Grand Snail Race at Riverdale" data-flag="@X" onclick="openSidebar('56_Grand Snail Race at Riverdale',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\100_On the Knife's Edge.png" id="100_On the Knifes Edge" data-flag="@X" onclick="openSidebar('100_On the Knifes Edge',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\151_Perle Retainer.png" id="151_Perle Retainer" data-flag="@X" onclick="openSidebar('151_Perle Retainer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\198_Rey Hospitality.png" id="198_Rey Hospitality" data-flag="@X" onclick="openSidebar('198_Rey Hospitality',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\29_Refuse to Yield.png" id="29_Refuse to Yield" data-flag="@X" onclick="openSidebar('29_Refuse to Yield',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\57_Grasp of the Mirrorkin.png" id="57_Grasp of the Mirrorkin" data-flag="@X" onclick="openSidebar('57_Grasp of the Mirrorkin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\103_Plaskett Barber.png" id="103_Plaskett Barber" data-flag="@X" onclick="openSidebar('103_Plaskett Barber',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\153_Radcliff Electromancer.png" id="153_Radcliff Electromancer" data-flag="@X" onclick="openSidebar('153_Radcliff Electromancer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\199_Robust Oxen.png" id="199_Robust Oxen" data-flag="@X" onclick="openSidebar('199_Robust Oxen',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\35_Switching Shifts.png" id="35_Switching Shifts" data-flag="@X" onclick="openSidebar('35_Switching Shifts',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\62_Lodema, Diamond of the Nye.png" id="62_Lodema, Diamond of the Nye" data-flag="@X" onclick="openSidebar('62_Lodema, Diamond of the Nye',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\106_Reaper of Graven Laughs.png" id="106_Reaper of Graven Laughs" data-flag="@X" onclick="openSidebar('106_Reaper of Graven Laughs',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\154_Raving Bomber.png" id="154_Raving Bomber" data-flag="@X" onclick="openSidebar('154_Raving Bomber',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\200_Sapner Battlemage.png" id="200_Sapner Battlemage" data-flag="@X" onclick="openSidebar('200_Sapner Battlemage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\36_Terrel Battlemage.png" id="36_Terrel Battlemage" data-flag="@X" onclick="openSidebar('36_Terrel Battlemage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\63_Lost at Sea.png" id="63_Lost at Sea" data-flag="@X" onclick="openSidebar('63_Lost at Sea',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\112_Tacit Scorpion.png" id="112_Tacit Scorpion" data-flag="@X" onclick="openSidebar('112_Tacit Scorpion',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\155_Rey Battlemages.png" id="155_Rey Battlemages" data-flag="@X" onclick="openSidebar('155_Rey Battlemages',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\203_Show of Aggression.png" id="203_Show of Aggression" data-flag="@X" onclick="openSidebar('203_Show of Aggression',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\38_Travelcart's Care.png" id="38_Travelcarts Care" data-flag="@X" onclick="openSidebar('38_Travelcarts Care',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\65_Many-faced Blade.png" id="65_Many-faced Blade" data-flag="@X" onclick="openSidebar('65_Many-faced Blade',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\118_Vance Battlemage.png" id="118_Vance Battlemage" data-flag="@X" onclick="openSidebar('118_Vance Battlemage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\157_Seeker of Blood.png" id="157_Seeker of Blood" data-flag="@X" onclick="openSidebar('157_Seeker of Blood',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\205_Silberwald Trailblazer.png" id="205_Silberwald Trailblazer" data-flag="@X" onclick="openSidebar('205_Silberwald Trailblazer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\40_Trust in the Future.png" id="40_Trust in the Future" data-flag="@X" onclick="openSidebar('40_Trust in the Future',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\70_Nye Battlemage.png" id="70_Nye Battlemage" data-flag="@X" onclick="openSidebar('70_Nye Battlemage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\121_Vance Soulsapper.png" id="121_Vance Soulsapper" data-flag="@X" onclick="openSidebar('121_Vance Soulsapper',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\162_Torch.png" id="162_Torch" data-flag="@X" onclick="openSidebar('162_Torch',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\207_Turnberry Mediator.png" id="207_Turnberry Mediator" data-flag="@X" onclick="openSidebar('207_Turnberry Mediator',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\41_Whitaker Elite.png" id="41_Whitaker Elite" data-flag="@X" onclick="openSidebar('41_Whitaker Elite',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\72_Pilferer of Shrouded Coasts.png" id="72_Pilferer of Shrouded Coasts" data-flag="@X" onclick="openSidebar('72_Pilferer of Shrouded Coasts',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\123_Voyage to the End of the World.png" id="123_Voyage to the End of the World" data-flag="@X" onclick="openSidebar('123_Voyage to the End of the World',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\166_William Rey, Lover to All.png" id="166_William Rey, Lover to All" data-flag="@X" onclick="openSidebar('166_William Rey, Lover to All',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\208_Turnberry Overseer.png" id="208_Turnberry Overseer" data-flag="@X" onclick="openSidebar('208_Turnberry Overseer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\42_Wystan Terrel, the Occultist.png" id="42_Wystan Terrel, the Occultist" data-flag="@X" onclick="openSidebar('42_Wystan Terrel, the Occultist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\81_Town Busybody.png" id="81_Town Busybody" data-flag="@X" onclick="openSidebar('81_Town Busybody',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\126_Whitaker Devoted.png" id="126_Whitaker Devoted" data-flag="@X" onclick="openSidebar('126_Whitaker Devoted',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\129_Battle Scars.png" id="129_Battle Scars" data-flag="@X" onclick="openSidebar('129_Battle Scars',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\168_Aggressive Urge.png" id="168_Aggressive Urge" data-flag="@X" onclick="openSidebar('168_Aggressive Urge',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\4_Banefort Skywarden.png" id="4_Banefort Skywarden" data-flag="@X" onclick="openSidebar('4_Banefort Skywarden',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\43_Ardent Warsworn.png" id="43_Ardent Warsworn" data-flag="@X" onclick="openSidebar('43_Ardent Warsworn',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\86_Blessing at Graven Laughs.png" id="86_Blessing at Graven Laughs" data-flag="@X" onclick="openSidebar('86_Blessing at Graven Laughs',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\131_Beguiling Soulmage.png" id="131_Beguiling Soulmage" data-flag="@X" onclick="openSidebar('131_Beguiling Soulmage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\171_Bout on the Deck.png" id="171_Bout on the Deck" data-flag="@X" onclick="openSidebar('171_Bout on the Deck',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\5_Battle for the Aciesblade.png" id="5_Battle for the Aciesblade" data-flag="@X" onclick="openSidebar('5_Battle for the Aciesblade',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\47_Blade of Riverdale.png" id="47_Blade of Riverdale" data-flag="@X" onclick="openSidebar('47_Blade of Riverdale',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\88_Catharsis of Grief.png" id="88_Catharsis of Grief" data-flag="@X" onclick="openSidebar('88_Catharsis of Grief',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\134_Bounty Setter.png" id="134_Bounty Setter" data-flag="@X" onclick="openSidebar('134_Bounty Setter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\173_Call to Strength.png" id="173_Call to Strength" data-flag="@X" onclick="openSidebar('173_Call to Strength',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\6_Brotherly Comradery.png" id="6_Brotherly Comradery" data-flag="@X" onclick="openSidebar('6_Brotherly Comradery',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\48_Castle Delta Lookout.png" id="48_Castle Delta Lookout" data-flag="@X" onclick="openSidebar('48_Castle Delta Lookout',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\91_Debt Collection.png" id="91_Debt Collection" data-flag="@X" onclick="openSidebar('91_Debt Collection',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\135_Call of the Rose.png" id="135_Call of the Rose" data-flag="@X" onclick="openSidebar('135_Call of the Rose',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\174_Cherrywood Purification.png" id="174_Cherrywood Purification" data-flag="@X" onclick="openSidebar('174_Cherrywood Purification',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\7_Call of the King.png" id="7_Call of the King" data-flag="@X" onclick="openSidebar('7_Call of the King',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\49_Dealings at the Delta.png" id="49_Dealings at the Delta" data-flag="@X" onclick="openSidebar('49_Dealings at the Delta',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\92_Devious Cutthroat.png" id="92_Devious Cutthroat" data-flag="@X" onclick="openSidebar('92_Devious Cutthroat',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\139_Death's Sting Diplomacy.png" id="139_Deaths Sting Diplomacy" data-flag="@X" onclick="openSidebar('139_Deaths Sting Diplomacy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\177_Cloudkissed Tracker.png" id="177_Cloudkissed Tracker" data-flag="@X" onclick="openSidebar('177_Cloudkissed Tracker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\9_Charitable Faerie.png" id="9_Charitable Faerie" data-flag="@X" onclick="openSidebar('9_Charitable Faerie',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\52_Enduring Turtle.png" id="52_Enduring Turtle" data-flag="@X" onclick="openSidebar('52_Enduring Turtle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\93_Dishonorable End.png" id="93_Dishonorable End" data-flag="@X" onclick="openSidebar('93_Dishonorable End',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\141_Expendable Army.png" id="141_Expendable Army" data-flag="@X" onclick="openSidebar('141_Expendable Army',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\179_Flowing Streams Halberdier.png" id="179_Flowing Streams Halberdier" data-flag="@X" onclick="openSidebar('179_Flowing Streams Halberdier',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\10_Give Penance.png" id="10_Give Penance" data-flag="@X" onclick="openSidebar('10_Give Penance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\60_Kidnapping.png" id="60_Kidnapping" data-flag="@X" onclick="openSidebar('60_Kidnapping',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\94_Duplicitous Crow.png" id="94_Duplicitous Crow" data-flag="@X" onclick="openSidebar('94_Duplicitous Crow',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\145_Gleaming Courage.png" id="145_Gleaming Courage" data-flag="@X" onclick="openSidebar('145_Gleaming Courage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\181_Fort Sapner Caretaker.png" id="181_Fort Sapner Caretaker" data-flag="@X" onclick="openSidebar('181_Fort Sapner Caretaker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\11_Glimpse.png" id="11_Glimpse" data-flag="@X" onclick="openSidebar('11_Glimpse',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\61_King's Rock Warden.png" id="61_Kings Rock Warden" data-flag="@X" onclick="openSidebar('61_Kings Rock Warden',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\95_Fleshborne Horror.png" id="95_Fleshborne Horror" data-flag="@X" onclick="openSidebar('95_Fleshborne Horror',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\146_Hardy Bear.png" id="146_Hardy Bear" data-flag="@X" onclick="openSidebar('146_Hardy Bear',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\185_Geistwald Explorer.png" id="185_Geistwald Explorer" data-flag="@X" onclick="openSidebar('185_Geistwald Explorer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\13_Honored Eagle.png" id="13_Honored Eagle" data-flag="@X" onclick="openSidebar('13_Honored Eagle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\64_Lucky Break.png" id="64_Lucky Break" data-flag="@X" onclick="openSidebar('64_Lucky Break',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\101_Overt Warning.png" id="101_Overt Warning" data-flag="@X" onclick="openSidebar('101_Overt Warning',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\148_Innocent Rendezvous.png" id="148_Innocent Rendezvous" data-flag="@X" onclick="openSidebar('148_Innocent Rendezvous',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\186_Guerrilla Ambush.png" id="186_Guerrilla Ambush" data-flag="@X" onclick="openSidebar('186_Guerrilla Ambush',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\14_Hopeful Spouse.png" id="14_Hopeful Spouse" data-flag="@X" onclick="openSidebar('14_Hopeful Spouse',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\68_Monarch-Wing Retainer.png" id="68_Monarch-Wing Retainer" data-flag="@X" onclick="openSidebar('68_Monarch-Wing Retainer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\105_Pull unto Death.png" id="105_Pull unto Death" data-flag="@X" onclick="openSidebar('105_Pull unto Death',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\149_Kirsa's Page.png" id="149_Kirsas Page" data-flag="@X" onclick="openSidebar('149_Kirsas Page',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\189_Instill with Integrity.png" id="189_Instill with Integrity" data-flag="@X" onclick="openSidebar('189_Instill with Integrity',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\16_Impaling Lance.png" id="16_Impaling Lance" data-flag="@X" onclick="openSidebar('16_Impaling Lance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\69_Naval Diplomacy.png" id="69_Naval Diplomacy" data-flag="@X" onclick="openSidebar('69_Naval Diplomacy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\107_Sandrock Infantry.png" id="107_Sandrock Infantry" data-flag="@X" onclick="openSidebar('107_Sandrock Infantry',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\150_Measured Strike.png" id="150_Measured Strike" data-flag="@X" onclick="openSidebar('150_Measured Strike',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\191_Master the Old Ways.png" id="191_Master the Old Ways" data-flag="@X" onclick="openSidebar('191_Master the Old Ways',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\19_Knight of Skyspire.png" id="19_Knight of Skyspire" data-flag="@X" onclick="openSidebar('19_Knight of Skyspire',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\71_Nye Recruit.png" id="71_Nye Recruit" data-flag="@X" onclick="openSidebar('71_Nye Recruit',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\108_Sanguine Chalice.png" id="108_Sanguine Chalice" data-flag="@X" onclick="openSidebar('108_Sanguine Chalice',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\152_Phyre Sellsword.png" id="152_Phyre Sellsword" data-flag="@X" onclick="openSidebar('152_Phyre Sellsword',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\193_Qualified Windrigger.png" id="193_Qualified Windrigger" data-flag="@X" onclick="openSidebar('193_Qualified Windrigger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\23_Manacles of Stilled Fury.png" id="23_Manacles of Stilled Fury" data-flag="@X" onclick="openSidebar('23_Manacles of Stilled Fury',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\75_Royal Send-Off.png" id="75_Royal Send-Off" data-flag="@X" onclick="openSidebar('75_Royal Send-Off',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\110_Sever the Legacy.png" id="110_Sever the Legacy" data-flag="@X" onclick="openSidebar('110_Sever the Legacy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\156_Rey Recruit.png" id="156_Rey Recruit" data-flag="@X" onclick="openSidebar('156_Rey Recruit',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\196_Replenishing Camp.png" id="196_Replenishing Camp" data-flag="@X" onclick="openSidebar('196_Replenishing Camp',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\26_Overcoming Squire.png" id="26_Overcoming Squire" data-flag="@X" onclick="openSidebar('26_Overcoming Squire',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\76_Show of Might.png" id="76_Show of Might" data-flag="@X" onclick="openSidebar('76_Show of Might',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\111_Slabman Muscle.png" id="111_Slabman Muscle" data-flag="@X" onclick="openSidebar('111_Slabman Muscle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\159_Summer Tryst.png" id="159_Summer Tryst" data-flag="@X" onclick="openSidebar('159_Summer Tryst',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\197_Resolute Elk.png" id="197_Resolute Elk" data-flag="@X" onclick="openSidebar('197_Resolute Elk',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\27_Overzealous Page.png" id="27_Overzealous Page" data-flag="@X" onclick="openSidebar('27_Overzealous Page',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\79_Thugs at the Shrouded Coast.png" id="79_Thugs at the Shrouded Coast" data-flag="@X" onclick="openSidebar('79_Thugs at the Shrouded Coast',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\114_Terrifying Mongrel.png" id="114_Terrifying Mongrel" data-flag="@X" onclick="openSidebar('114_Terrifying Mongrel',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\160_Teller of Infinite Tales.png" id="160_Teller of Infinite Tales" data-flag="@X" onclick="openSidebar('160_Teller of Infinite Tales',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\201_Sapner Recruit.png" id="201_Sapner Recruit" data-flag="@X" onclick="openSidebar('201_Sapner Recruit',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\31_Roul's High Guard.png" id="31_Rouls High Guard" data-flag="@X" onclick="openSidebar('31_Rouls High Guard',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\80_Tormentor of Tales.png" id="80_Tormentor of Tales" data-flag="@X" onclick="openSidebar('80_Tormentor of Tales',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\116_Turnberry Legionnaire.png" id="116_Turnberry Legionnaire" data-flag="@X" onclick="openSidebar('116_Turnberry Legionnaire',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\163_Truetower Lookout.png" id="163_Truetower Lookout" data-flag="@X" onclick="openSidebar('163_Truetower Lookout',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\204_Silberwald Ranger.png" id="204_Silberwald Ranger" data-flag="@X" onclick="openSidebar('204_Silberwald Ranger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\37_Terrel Recruit.png" id="37_Terrel Recruit" data-flag="@X" onclick="openSidebar('37_Terrel Recruit',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\82_Vance Mentor.png" id="82_Vance Mentor" data-flag="@X" onclick="openSidebar('82_Vance Mentor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\120_Vance Recruit.png" id="120_Vance Recruit" data-flag="@X" onclick="openSidebar('120_Vance Recruit',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\165_Vance Devotee.png" id="165_Vance Devotee" data-flag="@X" onclick="openSidebar('165_Vance Devotee',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\206_Spellwild Ouphe.png" id="206_Spellwild Ouphe" data-flag="@X" onclick="openSidebar('206_Spellwild Ouphe',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\39_Truetower Warden.png" id="39_Truetower Warden" data-flag="@X" onclick="openSidebar('39_Truetower Warden',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\83_Vance Racketeers.png" id="83_Vance Racketeers" data-flag="@X" onclick="openSidebar('83_Vance Racketeers',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\125_Warden of Fort Sapner.png" id="125_Warden of Fort Sapner" data-flag="@X" onclick="openSidebar('125_Warden of Fort Sapner',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\HOD-files\img\1_The Aciesblade.png" id="HOD_1_The Aciesblade" data-flag="@X" onclick="openSidebar('HOD_1_The Aciesblade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\51_Domineering Mirrorkin.png" id="HOD_51_Domineering Mirrorkin" data-flag="@X" onclick="openSidebar('HOD_51_Domineering Mirrorkin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\89_Closure.png" id="HOD_89_Closure" data-flag="@X" onclick="openSidebar('HOD_89_Closure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\147_Herald of Storms.png" id="HOD_147_Herald of Storms" data-flag="@X" onclick="openSidebar('HOD_147_Herald of Storms',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\192_One with the Geistwald.png" id="HOD_192_One with the Geistwald" data-flag="@X" onclick="openSidebar('HOD_192_One with the Geistwald',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\22_Leon's Claim.png" id="HOD_22_Leons Claim" data-flag="@X" onclick="openSidebar('HOD_22_Leons Claim',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\66_Marilye, Heirloom Pilferer.png" id="HOD_66_Marilye, Heirloom Pilferer" data-flag="@X" onclick="openSidebar('HOD_66_Marilye, Heirloom Pilferer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\97_Knight of the Endless War.png" id="HOD_97_Knight of the Endless War" data-flag="@X" onclick="openSidebar('HOD_97_Knight of the Endless War',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\161_Thorough Conflagration.png" id="HOD_161_Thorough Conflagration" data-flag="@X" onclick="openSidebar('HOD_161_Thorough Conflagration',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\202_Sapner Trapper.png" id="HOD_202_Sapner Trapper" data-flag="@X" onclick="openSidebar('HOD_202_Sapner Trapper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\24_Marilye's Revelation.png" id="HOD_24_Marilyes Revelation" data-flag="@X" onclick="openSidebar('HOD_24_Marilyes Revelation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\74_Royal Seeker.png" id="HOD_74_Royal Seeker" data-flag="@X" onclick="openSidebar('HOD_74_Royal Seeker',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\HOD-files\img\124_Waldemar, Forgotten Heir_back.png" alt="sets\HOD-files\img\124_Waldemar, Forgotten Heir_front.png" id="HOD_124_Waldemar, Forgotten Heir" data-flag="@XD" onclick="openSidebar('HOD_124_Waldemar, Forgotten Heir',false)"><button class="flip-btn" onclick="imgFlip('HOD_124_Waldemar, Forgotten Heir')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\128_Ardleby Gatekeeper.png" id="HOD_128_Ardleby Gatekeeper" data-flag="@X" onclick="openSidebar('HOD_128_Ardleby Gatekeeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\170_Blight-Tipped Hunter.png" id="HOD_170_Blight-Tipped Hunter" data-flag="@X" onclick="openSidebar('HOD_170_Blight-Tipped Hunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\2_Approach of the Newly Crowned.png" id="HOD_2_Approach of the Newly Crowned" data-flag="@X" onclick="openSidebar('HOD_2_Approach of the Newly Crowned',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\45_Beachside Drake.png" id="HOD_45_Beachside Drake" data-flag="@X" onclick="openSidebar('HOD_45_Beachside Drake',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\87_Bounty Collector.png" id="HOD_87_Bounty Collector" data-flag="@X" onclick="openSidebar('HOD_87_Bounty Collector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\133_Blazing Phoenix.png" id="HOD_133_Blazing Phoenix" data-flag="@X" onclick="openSidebar('HOD_133_Blazing Phoenix',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\175_Choice of Salvations.png" id="HOD_175_Choice of Salvations" data-flag="@X" onclick="openSidebar('HOD_175_Choice of Salvations',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\3_Arbiter of the Meek.png" id="HOD_3_Arbiter of the Meek" data-flag="@X" onclick="openSidebar('HOD_3_Arbiter of the Meek',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\55_Geistwald Kraken.png" id="HOD_55_Geistwald Kraken" data-flag="@X" onclick="openSidebar('HOD_55_Geistwald Kraken',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\102_Petula Vance, the Solemn Joke.png" id="HOD_102_Petula Vance, the Solemn Joke" data-flag="@X" onclick="openSidebar('HOD_102_Petula Vance, the Solemn Joke',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\136_Caryl Rey, the Rose.png" id="HOD_136_Caryl Rey, the Rose" data-flag="@X" onclick="openSidebar('HOD_136_Caryl Rey, the Rose',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\176_Chorus of the Silberwald.png" id="HOD_176_Chorus of the Silberwald" data-flag="@X" onclick="openSidebar('HOD_176_Chorus of the Silberwald',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\8_Call to War.png" id="HOD_8_Call to War" data-flag="@X" onclick="openSidebar('HOD_8_Call to War',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\58_Idol of Forgotten Gods.png" id="HOD_58_Idol of Forgotten Gods" data-flag="@X" onclick="openSidebar('HOD_58_Idol of Forgotten Gods',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\104_Plaskett Trickster.png" id="HOD_104_Plaskett Trickster" data-flag="@X" onclick="openSidebar('HOD_104_Plaskett Trickster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\142_Fervent Demagogue.png" id="HOD_142_Fervent Demagogue" data-flag="@X" onclick="openSidebar('HOD_142_Fervent Demagogue',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\183_Geistwald Abomination.png" id="HOD_183_Geistwald Abomination" data-flag="@X" onclick="openSidebar('HOD_183_Geistwald Abomination',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\18_Knight Exemplar.png" id="HOD_18_Knight Exemplar" data-flag="@X" onclick="openSidebar('HOD_18_Knight Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\59_Inquisitive Otter.png" id="HOD_59_Inquisitive Otter" data-flag="@X" onclick="openSidebar('HOD_59_Inquisitive Otter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\109_Sapner Hexcrafter.png" id="HOD_109_Sapner Hexcrafter" data-flag="@X" onclick="openSidebar('HOD_109_Sapner Hexcrafter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\143_Gaze Upon Greatness.png" id="HOD_143_Gaze Upon Greatness" data-flag="@X" onclick="openSidebar('HOD_143_Gaze Upon Greatness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\184_Geistwald Amalgam.png" id="HOD_184_Geistwald Amalgam" data-flag="@X" onclick="openSidebar('HOD_184_Geistwald Amalgam',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\21_Leon Terrel, Unspoken Heir.png" id="HOD_21_Leon Terrel, Unspoken Heir" data-flag="@X" onclick="openSidebar('HOD_21_Leon Terrel, Unspoken Heir',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\67_Mirrorkin's Bargain.png" id="HOD_67_Mirrorkins Bargain" data-flag="@X" onclick="openSidebar('HOD_67_Mirrorkins Bargain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\113_Taken by House Vance.png" id="HOD_113_Taken by House Vance" data-flag="@X" onclick="openSidebar('HOD_113_Taken by House Vance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\144_Geistwald Deceiver.png" id="HOD_144_Geistwald Deceiver" data-flag="@X" onclick="openSidebar('HOD_144_Geistwald Deceiver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\187_House Negotiations.png" id="HOD_187_House Negotiations" data-flag="@X" onclick="openSidebar('HOD_187_House Negotiations',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\30_Regal Lion.png" id="HOD_30_Regal Lion" data-flag="@X" onclick="openSidebar('HOD_30_Regal Lion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\73_Read the Wingbeats.png" id="HOD_73_Read the Wingbeats" data-flag="@X" onclick="openSidebar('HOD_73_Read the Wingbeats',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\115_Thriving Hyena.png" id="HOD_115_Thriving Hyena" data-flag="@X" onclick="openSidebar('HOD_115_Thriving Hyena',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\158_Standoff at Beachside.png" id="HOD_158_Standoff at Beachside" data-flag="@X" onclick="openSidebar('HOD_158_Standoff at Beachside',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\190_Long Night's Rest.png" id="HOD_190_Long Nights Rest" data-flag="@X" onclick="openSidebar('HOD_190_Long Nights Rest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\32_Sandrock Blacksmith.png" id="HOD_32_Sandrock Blacksmith" data-flag="@X" onclick="openSidebar('HOD_32_Sandrock Blacksmith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\77_Sovereign Echomage.png" id="HOD_77_Sovereign Echomage" data-flag="@X" onclick="openSidebar('HOD_77_Sovereign Echomage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\117_Unending Malice.png" id="HOD_117_Unending Malice" data-flag="@X" onclick="openSidebar('HOD_117_Unending Malice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\164_Usurp.png" id="HOD_164_Usurp" data-flag="@X" onclick="openSidebar('HOD_164_Usurp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\194_Quirky Chameleon.png" id="HOD_194_Quirky Chameleon" data-flag="@X" onclick="openSidebar('HOD_194_Quirky Chameleon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\33_Sapner Vindicator.png" id="HOD_33_Sapner Vindicator" data-flag="@X" onclick="openSidebar('HOD_33_Sapner Vindicator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\78_Takers of Voice.png" id="HOD_78_Takers of Voice" data-flag="@X" onclick="openSidebar('HOD_78_Takers of Voice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\119_Vance Informant.png" id="HOD_119_Vance Informant" data-flag="@X" onclick="openSidebar('HOD_119_Vance Informant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\167_William's Epiphany.png" id="HOD_167_Williams Epiphany" data-flag="@X" onclick="openSidebar('HOD_167_Williams Epiphany',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\195_Ranulf, the Seed of Sapner.png" id="HOD_195_Ranulf, the Seed of Sapner" data-flag="@X" onclick="openSidebar('HOD_195_Ranulf, the Seed of Sapner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\34_Scorched Earth.png" id="HOD_34_Scorched Earth" data-flag="@X" onclick="openSidebar('HOD_34_Scorched Earth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\84_Wilmot Nye, the Crafty.png" id="HOD_84_Wilmot Nye, the Crafty" data-flag="@X" onclick="openSidebar('HOD_84_Wilmot Nye, the Crafty',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\122_Virulent Hexer.png" id="HOD_122_Virulent Hexer" data-flag="@X" onclick="openSidebar('HOD_122_Virulent Hexer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\127_All-Out Charge.png" id="HOD_127_All-Out Charge" data-flag="@X" onclick="openSidebar('HOD_127_All-Out Charge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\169_Attwater Elite.png" id="HOD_169_Attwater Elite" data-flag="@X" onclick="openSidebar('HOD_169_Attwater Elite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\12_Heart of Banefort.png" id="HOD_12_Heart of Banefort" data-flag="@X" onclick="openSidebar('HOD_12_Heart of Banefort',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\44_Attwater Drakerider.png" id="HOD_44_Attwater Drakerider" data-flag="@X" onclick="openSidebar('HOD_44_Attwater Drakerider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\85_Alder, Vance's Claw.png" id="HOD_85_Alder, Vances Claw" data-flag="@X" onclick="openSidebar('HOD_85_Alder, Vances Claw',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\130_Beacon of Greatness.png" id="HOD_130_Beacon of Greatness" data-flag="@X" onclick="openSidebar('HOD_130_Beacon of Greatness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\172_The Call to Adventure.png" id="HOD_172_The Call to Adventure" data-flag="@X" onclick="openSidebar('HOD_172_The Call to Adventure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\15_Imani Whitaker.png" id="HOD_15_Imani Whitaker" data-flag="@X" onclick="openSidebar('HOD_15_Imani Whitaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\46_Beginning of a Grand Heist.png" id="HOD_46_Beginning of a Grand Heist" data-flag="@X" onclick="openSidebar('HOD_46_Beginning of a Grand Heist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\90_Deadly Interrogation.png" id="HOD_90_Deadly Interrogation" data-flag="@X" onclick="openSidebar('HOD_90_Deadly Interrogation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\132_Binding Lightning.png" id="HOD_132_Binding Lightning" data-flag="@X" onclick="openSidebar('HOD_132_Binding Lightning',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\178_Encroach Upon.png" id="HOD_178_Encroach Upon" data-flag="@X" onclick="openSidebar('HOD_178_Encroach Upon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\17_In Hopeful Caress.png" id="HOD_17_In Hopeful Caress" data-flag="@X" onclick="openSidebar('HOD_17_In Hopeful Caress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\50_Disappointing Show.png" id="HOD_50_Disappointing Show" data-flag="@X" onclick="openSidebar('HOD_50_Disappointing Show',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\96_Fueled by Vengeance.png" id="HOD_96_Fueled by Vengeance" data-flag="@X" onclick="openSidebar('HOD_96_Fueled by Vengeance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\137_Catastrophic Dragon.png" id="HOD_137_Catastrophic Dragon" data-flag="@X" onclick="openSidebar('HOD_137_Catastrophic Dragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\180_Foliage Decoy.png" id="HOD_180_Foliage Decoy" data-flag="@X" onclick="openSidebar('HOD_180_Foliage Decoy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\20_Left to Wander.png" id="HOD_20_Left to Wander" data-flag="@X" onclick="openSidebar('HOD_20_Left to Wander',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\53_Everturning Crane.png" id="HOD_53_Everturning Crane" data-flag="@X" onclick="openSidebar('HOD_53_Everturning Crane',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\98_Massacre at King's Rock.png" id="HOD_98_Massacre at Kings Rock" data-flag="@X" onclick="openSidebar('HOD_98_Massacre at Kings Rock',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\138_Death's Sting Captain.png" id="HOD_138_Deaths Sting Captain" data-flag="@X" onclick="openSidebar('HOD_138_Deaths Sting Captain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\182_Fulchard Sapner, Gentle Giant.png" id="HOD_182_Fulchard Sapner, Gentle Giant" data-flag="@X" onclick="openSidebar('HOD_182_Fulchard Sapner, Gentle Giant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\25_Noble Griffin.png" id="HOD_25_Noble Griffin" data-flag="@X" onclick="openSidebar('HOD_25_Noble Griffin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\54_Flittering Distraction.png" id="HOD_54_Flittering Distraction" data-flag="@X" onclick="openSidebar('HOD_54_Flittering Distraction',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\99_Mockery of Innocence.png" id="HOD_99_Mockery of Innocence" data-flag="@X" onclick="openSidebar('HOD_99_Mockery of Innocence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\140_Drenched Euphoria.png" id="HOD_140_Drenched Euphoria" data-flag="@X" onclick="openSidebar('HOD_140_Drenched Euphoria',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\188_Hunter's Expertise.png" id="HOD_188_Hunters Expertise" data-flag="@X" onclick="openSidebar('HOD_188_Hunters Expertise',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\28_Paragon of Stories.png" id="HOD_28_Paragon of Stories" data-flag="@X" onclick="openSidebar('HOD_28_Paragon of Stories',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\56_Grand Snail Race at Riverdale.png" id="HOD_56_Grand Snail Race at Riverdale" data-flag="@X" onclick="openSidebar('HOD_56_Grand Snail Race at Riverdale',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\100_On the Knife's Edge.png" id="HOD_100_On the Knifes Edge" data-flag="@X" onclick="openSidebar('HOD_100_On the Knifes Edge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\151_Perle Retainer.png" id="HOD_151_Perle Retainer" data-flag="@X" onclick="openSidebar('HOD_151_Perle Retainer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\198_Rey Hospitality.png" id="HOD_198_Rey Hospitality" data-flag="@X" onclick="openSidebar('HOD_198_Rey Hospitality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\29_Refuse to Yield.png" id="HOD_29_Refuse to Yield" data-flag="@X" onclick="openSidebar('HOD_29_Refuse to Yield',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\57_Grasp of the Mirrorkin.png" id="HOD_57_Grasp of the Mirrorkin" data-flag="@X" onclick="openSidebar('HOD_57_Grasp of the Mirrorkin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\103_Plaskett Barber.png" id="HOD_103_Plaskett Barber" data-flag="@X" onclick="openSidebar('HOD_103_Plaskett Barber',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\153_Radcliff Electromancer.png" id="HOD_153_Radcliff Electromancer" data-flag="@X" onclick="openSidebar('HOD_153_Radcliff Electromancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\199_Robust Oxen.png" id="HOD_199_Robust Oxen" data-flag="@X" onclick="openSidebar('HOD_199_Robust Oxen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\35_Switching Shifts.png" id="HOD_35_Switching Shifts" data-flag="@X" onclick="openSidebar('HOD_35_Switching Shifts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\62_Lodema, Diamond of the Nye.png" id="HOD_62_Lodema, Diamond of the Nye" data-flag="@X" onclick="openSidebar('HOD_62_Lodema, Diamond of the Nye',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\106_Reaper of Graven Laughs.png" id="HOD_106_Reaper of Graven Laughs" data-flag="@X" onclick="openSidebar('HOD_106_Reaper of Graven Laughs',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\154_Raving Bomber.png" id="HOD_154_Raving Bomber" data-flag="@X" onclick="openSidebar('HOD_154_Raving Bomber',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\200_Sapner Battlemage.png" id="HOD_200_Sapner Battlemage" data-flag="@X" onclick="openSidebar('HOD_200_Sapner Battlemage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\36_Terrel Battlemage.png" id="HOD_36_Terrel Battlemage" data-flag="@X" onclick="openSidebar('HOD_36_Terrel Battlemage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\63_Lost at Sea.png" id="HOD_63_Lost at Sea" data-flag="@X" onclick="openSidebar('HOD_63_Lost at Sea',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\112_Tacit Scorpion.png" id="HOD_112_Tacit Scorpion" data-flag="@X" onclick="openSidebar('HOD_112_Tacit Scorpion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\155_Rey Battlemages.png" id="HOD_155_Rey Battlemages" data-flag="@X" onclick="openSidebar('HOD_155_Rey Battlemages',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\203_Show of Aggression.png" id="HOD_203_Show of Aggression" data-flag="@X" onclick="openSidebar('HOD_203_Show of Aggression',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\38_Travelcart's Care.png" id="HOD_38_Travelcarts Care" data-flag="@X" onclick="openSidebar('HOD_38_Travelcarts Care',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\65_Many-faced Blade.png" id="HOD_65_Many-faced Blade" data-flag="@X" onclick="openSidebar('HOD_65_Many-faced Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\118_Vance Battlemage.png" id="HOD_118_Vance Battlemage" data-flag="@X" onclick="openSidebar('HOD_118_Vance Battlemage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\157_Seeker of Blood.png" id="HOD_157_Seeker of Blood" data-flag="@X" onclick="openSidebar('HOD_157_Seeker of Blood',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\205_Silberwald Trailblazer.png" id="HOD_205_Silberwald Trailblazer" data-flag="@X" onclick="openSidebar('HOD_205_Silberwald Trailblazer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\40_Trust in the Future.png" id="HOD_40_Trust in the Future" data-flag="@X" onclick="openSidebar('HOD_40_Trust in the Future',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\70_Nye Battlemage.png" id="HOD_70_Nye Battlemage" data-flag="@X" onclick="openSidebar('HOD_70_Nye Battlemage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\121_Vance Soulsapper.png" id="HOD_121_Vance Soulsapper" data-flag="@X" onclick="openSidebar('HOD_121_Vance Soulsapper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\162_Torch.png" id="HOD_162_Torch" data-flag="@X" onclick="openSidebar('HOD_162_Torch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\207_Turnberry Mediator.png" id="HOD_207_Turnberry Mediator" data-flag="@X" onclick="openSidebar('HOD_207_Turnberry Mediator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\41_Whitaker Elite.png" id="HOD_41_Whitaker Elite" data-flag="@X" onclick="openSidebar('HOD_41_Whitaker Elite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\72_Pilferer of Shrouded Coasts.png" id="HOD_72_Pilferer of Shrouded Coasts" data-flag="@X" onclick="openSidebar('HOD_72_Pilferer of Shrouded Coasts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\123_Voyage to the End of the World.png" id="HOD_123_Voyage to the End of the World" data-flag="@X" onclick="openSidebar('HOD_123_Voyage to the End of the World',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\166_William Rey, Lover to All.png" id="HOD_166_William Rey, Lover to All" data-flag="@X" onclick="openSidebar('HOD_166_William Rey, Lover to All',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\208_Turnberry Overseer.png" id="HOD_208_Turnberry Overseer" data-flag="@X" onclick="openSidebar('HOD_208_Turnberry Overseer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\42_Wystan Terrel, the Occultist.png" id="HOD_42_Wystan Terrel, the Occultist" data-flag="@X" onclick="openSidebar('HOD_42_Wystan Terrel, the Occultist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\81_Town Busybody.png" id="HOD_81_Town Busybody" data-flag="@X" onclick="openSidebar('HOD_81_Town Busybody',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\126_Whitaker Devoted.png" id="HOD_126_Whitaker Devoted" data-flag="@X" onclick="openSidebar('HOD_126_Whitaker Devoted',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\129_Battle Scars.png" id="HOD_129_Battle Scars" data-flag="@X" onclick="openSidebar('HOD_129_Battle Scars',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\168_Aggressive Urge.png" id="HOD_168_Aggressive Urge" data-flag="@X" onclick="openSidebar('HOD_168_Aggressive Urge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\4_Banefort Skywarden.png" id="HOD_4_Banefort Skywarden" data-flag="@X" onclick="openSidebar('HOD_4_Banefort Skywarden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\43_Ardent Warsworn.png" id="HOD_43_Ardent Warsworn" data-flag="@X" onclick="openSidebar('HOD_43_Ardent Warsworn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\86_Blessing at Graven Laughs.png" id="HOD_86_Blessing at Graven Laughs" data-flag="@X" onclick="openSidebar('HOD_86_Blessing at Graven Laughs',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\131_Beguiling Soulmage.png" id="HOD_131_Beguiling Soulmage" data-flag="@X" onclick="openSidebar('HOD_131_Beguiling Soulmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\171_Bout on the Deck.png" id="HOD_171_Bout on the Deck" data-flag="@X" onclick="openSidebar('HOD_171_Bout on the Deck',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\5_Battle for the Aciesblade.png" id="HOD_5_Battle for the Aciesblade" data-flag="@X" onclick="openSidebar('HOD_5_Battle for the Aciesblade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\47_Blade of Riverdale.png" id="HOD_47_Blade of Riverdale" data-flag="@X" onclick="openSidebar('HOD_47_Blade of Riverdale',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\88_Catharsis of Grief.png" id="HOD_88_Catharsis of Grief" data-flag="@X" onclick="openSidebar('HOD_88_Catharsis of Grief',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\134_Bounty Setter.png" id="HOD_134_Bounty Setter" data-flag="@X" onclick="openSidebar('HOD_134_Bounty Setter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\173_Call to Strength.png" id="HOD_173_Call to Strength" data-flag="@X" onclick="openSidebar('HOD_173_Call to Strength',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\6_Brotherly Comradery.png" id="HOD_6_Brotherly Comradery" data-flag="@X" onclick="openSidebar('HOD_6_Brotherly Comradery',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\48_Castle Delta Lookout.png" id="HOD_48_Castle Delta Lookout" data-flag="@X" onclick="openSidebar('HOD_48_Castle Delta Lookout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\91_Debt Collection.png" id="HOD_91_Debt Collection" data-flag="@X" onclick="openSidebar('HOD_91_Debt Collection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\135_Call of the Rose.png" id="HOD_135_Call of the Rose" data-flag="@X" onclick="openSidebar('HOD_135_Call of the Rose',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\174_Cherrywood Purification.png" id="HOD_174_Cherrywood Purification" data-flag="@X" onclick="openSidebar('HOD_174_Cherrywood Purification',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\7_Call of the King.png" id="HOD_7_Call of the King" data-flag="@X" onclick="openSidebar('HOD_7_Call of the King',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\49_Dealings at the Delta.png" id="HOD_49_Dealings at the Delta" data-flag="@X" onclick="openSidebar('HOD_49_Dealings at the Delta',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\92_Devious Cutthroat.png" id="HOD_92_Devious Cutthroat" data-flag="@X" onclick="openSidebar('HOD_92_Devious Cutthroat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\139_Death's Sting Diplomacy.png" id="HOD_139_Deaths Sting Diplomacy" data-flag="@X" onclick="openSidebar('HOD_139_Deaths Sting Diplomacy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\177_Cloudkissed Tracker.png" id="HOD_177_Cloudkissed Tracker" data-flag="@X" onclick="openSidebar('HOD_177_Cloudkissed Tracker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\9_Charitable Faerie.png" id="HOD_9_Charitable Faerie" data-flag="@X" onclick="openSidebar('HOD_9_Charitable Faerie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\52_Enduring Turtle.png" id="HOD_52_Enduring Turtle" data-flag="@X" onclick="openSidebar('HOD_52_Enduring Turtle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\93_Dishonorable End.png" id="HOD_93_Dishonorable End" data-flag="@X" onclick="openSidebar('HOD_93_Dishonorable End',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\141_Expendable Army.png" id="HOD_141_Expendable Army" data-flag="@X" onclick="openSidebar('HOD_141_Expendable Army',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\179_Flowing Streams Halberdier.png" id="HOD_179_Flowing Streams Halberdier" data-flag="@X" onclick="openSidebar('HOD_179_Flowing Streams Halberdier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\10_Give Penance.png" id="HOD_10_Give Penance" data-flag="@X" onclick="openSidebar('HOD_10_Give Penance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\60_Kidnapping.png" id="HOD_60_Kidnapping" data-flag="@X" onclick="openSidebar('HOD_60_Kidnapping',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\94_Duplicitous Crow.png" id="HOD_94_Duplicitous Crow" data-flag="@X" onclick="openSidebar('HOD_94_Duplicitous Crow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\145_Gleaming Courage.png" id="HOD_145_Gleaming Courage" data-flag="@X" onclick="openSidebar('HOD_145_Gleaming Courage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\181_Fort Sapner Caretaker.png" id="HOD_181_Fort Sapner Caretaker" data-flag="@X" onclick="openSidebar('HOD_181_Fort Sapner Caretaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\11_Glimpse.png" id="HOD_11_Glimpse" data-flag="@X" onclick="openSidebar('HOD_11_Glimpse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\61_King's Rock Warden.png" id="HOD_61_Kings Rock Warden" data-flag="@X" onclick="openSidebar('HOD_61_Kings Rock Warden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\95_Fleshborne Horror.png" id="HOD_95_Fleshborne Horror" data-flag="@X" onclick="openSidebar('HOD_95_Fleshborne Horror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\146_Hardy Bear.png" id="HOD_146_Hardy Bear" data-flag="@X" onclick="openSidebar('HOD_146_Hardy Bear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\185_Geistwald Explorer.png" id="HOD_185_Geistwald Explorer" data-flag="@X" onclick="openSidebar('HOD_185_Geistwald Explorer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\13_Honored Eagle.png" id="HOD_13_Honored Eagle" data-flag="@X" onclick="openSidebar('HOD_13_Honored Eagle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\64_Lucky Break.png" id="HOD_64_Lucky Break" data-flag="@X" onclick="openSidebar('HOD_64_Lucky Break',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\101_Overt Warning.png" id="HOD_101_Overt Warning" data-flag="@X" onclick="openSidebar('HOD_101_Overt Warning',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\148_Innocent Rendezvous.png" id="HOD_148_Innocent Rendezvous" data-flag="@X" onclick="openSidebar('HOD_148_Innocent Rendezvous',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\186_Guerrilla Ambush.png" id="HOD_186_Guerrilla Ambush" data-flag="@X" onclick="openSidebar('HOD_186_Guerrilla Ambush',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\14_Hopeful Spouse.png" id="HOD_14_Hopeful Spouse" data-flag="@X" onclick="openSidebar('HOD_14_Hopeful Spouse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\68_Monarch-Wing Retainer.png" id="HOD_68_Monarch-Wing Retainer" data-flag="@X" onclick="openSidebar('HOD_68_Monarch-Wing Retainer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\105_Pull unto Death.png" id="HOD_105_Pull unto Death" data-flag="@X" onclick="openSidebar('HOD_105_Pull unto Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\149_Kirsa's Page.png" id="HOD_149_Kirsas Page" data-flag="@X" onclick="openSidebar('HOD_149_Kirsas Page',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\189_Instill with Integrity.png" id="HOD_189_Instill with Integrity" data-flag="@X" onclick="openSidebar('HOD_189_Instill with Integrity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\16_Impaling Lance.png" id="HOD_16_Impaling Lance" data-flag="@X" onclick="openSidebar('HOD_16_Impaling Lance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\69_Naval Diplomacy.png" id="HOD_69_Naval Diplomacy" data-flag="@X" onclick="openSidebar('HOD_69_Naval Diplomacy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\107_Sandrock Infantry.png" id="HOD_107_Sandrock Infantry" data-flag="@X" onclick="openSidebar('HOD_107_Sandrock Infantry',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\150_Measured Strike.png" id="HOD_150_Measured Strike" data-flag="@X" onclick="openSidebar('HOD_150_Measured Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\191_Master the Old Ways.png" id="HOD_191_Master the Old Ways" data-flag="@X" onclick="openSidebar('HOD_191_Master the Old Ways',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\19_Knight of Skyspire.png" id="HOD_19_Knight of Skyspire" data-flag="@X" onclick="openSidebar('HOD_19_Knight of Skyspire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\71_Nye Recruit.png" id="HOD_71_Nye Recruit" data-flag="@X" onclick="openSidebar('HOD_71_Nye Recruit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\108_Sanguine Chalice.png" id="HOD_108_Sanguine Chalice" data-flag="@X" onclick="openSidebar('HOD_108_Sanguine Chalice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\152_Phyre Sellsword.png" id="HOD_152_Phyre Sellsword" data-flag="@X" onclick="openSidebar('HOD_152_Phyre Sellsword',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\193_Qualified Windrigger.png" id="HOD_193_Qualified Windrigger" data-flag="@X" onclick="openSidebar('HOD_193_Qualified Windrigger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\23_Manacles of Stilled Fury.png" id="HOD_23_Manacles of Stilled Fury" data-flag="@X" onclick="openSidebar('HOD_23_Manacles of Stilled Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\75_Royal Send-Off.png" id="HOD_75_Royal Send-Off" data-flag="@X" onclick="openSidebar('HOD_75_Royal Send-Off',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\110_Sever the Legacy.png" id="HOD_110_Sever the Legacy" data-flag="@X" onclick="openSidebar('HOD_110_Sever the Legacy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\156_Rey Recruit.png" id="HOD_156_Rey Recruit" data-flag="@X" onclick="openSidebar('HOD_156_Rey Recruit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\196_Replenishing Camp.png" id="HOD_196_Replenishing Camp" data-flag="@X" onclick="openSidebar('HOD_196_Replenishing Camp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\26_Overcoming Squire.png" id="HOD_26_Overcoming Squire" data-flag="@X" onclick="openSidebar('HOD_26_Overcoming Squire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\76_Show of Might.png" id="HOD_76_Show of Might" data-flag="@X" onclick="openSidebar('HOD_76_Show of Might',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\111_Slabman Muscle.png" id="HOD_111_Slabman Muscle" data-flag="@X" onclick="openSidebar('HOD_111_Slabman Muscle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\159_Summer Tryst.png" id="HOD_159_Summer Tryst" data-flag="@X" onclick="openSidebar('HOD_159_Summer Tryst',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\197_Resolute Elk.png" id="HOD_197_Resolute Elk" data-flag="@X" onclick="openSidebar('HOD_197_Resolute Elk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\27_Overzealous Page.png" id="HOD_27_Overzealous Page" data-flag="@X" onclick="openSidebar('HOD_27_Overzealous Page',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\79_Thugs at the Shrouded Coast.png" id="HOD_79_Thugs at the Shrouded Coast" data-flag="@X" onclick="openSidebar('HOD_79_Thugs at the Shrouded Coast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\114_Terrifying Mongrel.png" id="HOD_114_Terrifying Mongrel" data-flag="@X" onclick="openSidebar('HOD_114_Terrifying Mongrel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\160_Teller of Infinite Tales.png" id="HOD_160_Teller of Infinite Tales" data-flag="@X" onclick="openSidebar('HOD_160_Teller of Infinite Tales',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\201_Sapner Recruit.png" id="HOD_201_Sapner Recruit" data-flag="@X" onclick="openSidebar('HOD_201_Sapner Recruit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\31_Roul's High Guard.png" id="HOD_31_Rouls High Guard" data-flag="@X" onclick="openSidebar('HOD_31_Rouls High Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\80_Tormentor of Tales.png" id="HOD_80_Tormentor of Tales" data-flag="@X" onclick="openSidebar('HOD_80_Tormentor of Tales',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\116_Turnberry Legionnaire.png" id="HOD_116_Turnberry Legionnaire" data-flag="@X" onclick="openSidebar('HOD_116_Turnberry Legionnaire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\163_Truetower Lookout.png" id="HOD_163_Truetower Lookout" data-flag="@X" onclick="openSidebar('HOD_163_Truetower Lookout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\204_Silberwald Ranger.png" id="HOD_204_Silberwald Ranger" data-flag="@X" onclick="openSidebar('HOD_204_Silberwald Ranger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\37_Terrel Recruit.png" id="HOD_37_Terrel Recruit" data-flag="@X" onclick="openSidebar('HOD_37_Terrel Recruit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\82_Vance Mentor.png" id="HOD_82_Vance Mentor" data-flag="@X" onclick="openSidebar('HOD_82_Vance Mentor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\120_Vance Recruit.png" id="HOD_120_Vance Recruit" data-flag="@X" onclick="openSidebar('HOD_120_Vance Recruit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\165_Vance Devotee.png" id="HOD_165_Vance Devotee" data-flag="@X" onclick="openSidebar('HOD_165_Vance Devotee',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\206_Spellwild Ouphe.png" id="HOD_206_Spellwild Ouphe" data-flag="@X" onclick="openSidebar('HOD_206_Spellwild Ouphe',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\39_Truetower Warden.png" id="HOD_39_Truetower Warden" data-flag="@X" onclick="openSidebar('HOD_39_Truetower Warden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\83_Vance Racketeers.png" id="HOD_83_Vance Racketeers" data-flag="@X" onclick="openSidebar('HOD_83_Vance Racketeers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\125_Warden of Fort Sapner.png" id="HOD_125_Warden of Fort Sapner" data-flag="@X" onclick="openSidebar('HOD_125_Warden of Fort Sapner',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\210_Oriel Rivers, Wings of Worth.png" id="210_Oriel Rivers, Wings of Worth" data-flag="@X" onclick="openSidebar('210_Oriel Rivers, Wings of Worth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\212_Elias Plaskett, Hidden Blade.png" id="212_Elias Plaskett, Hidden Blade" data-flag="@X" onclick="openSidebar('212_Elias Plaskett, Hidden Blade',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\217_Wulfric Hook, Lord of Ends.png" id="217_Wulfric Hook, Lord of Ends" data-flag="@X" onclick="openSidebar('217_Wulfric Hook, Lord of Ends',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\220_Hann, Herald of the Conqueror.png" id="220_Hann, Herald of the Conqueror" data-flag="@X" onclick="openSidebar('220_Hann, Herald of the Conqueror',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\223_Capac Suyay, Grim Seeker.png" id="223_Capac Suyay, Grim Seeker" data-flag="@X" onclick="openSidebar('223_Capac Suyay, Grim Seeker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\209_Gathering of Lost Souls.png" id="209_Gathering of Lost Souls" data-flag="@X" onclick="openSidebar('209_Gathering of Lost Souls',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\213_Guide of Neglected Hopes.png" id="213_Guide of Neglected Hopes" data-flag="@X" onclick="openSidebar('213_Guide of Neglected Hopes',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\215_Artillery Shot.png" id="215_Artillery Shot" data-flag="@X" onclick="openSidebar('215_Artillery Shot',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\219_The Empty Throne of Phyre.png" id="219_The Empty Throne of Phyre" data-flag="@X" onclick="openSidebar('219_The Empty Throne of Phyre',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\224_Roul Banefort, the Stern.png" id="224_Roul Banefort, the Stern" data-flag="@X" onclick="openSidebar('224_Roul Banefort, the Stern',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\211_Travelcart Guardian.png" id="211_Travelcart Guardian" data-flag="@X" onclick="openSidebar('211_Travelcart Guardian',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\214_Vindictive Spiral.png" id="214_Vindictive Spiral" data-flag="@X" onclick="openSidebar('214_Vindictive Spiral',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\216_Hook Ironmantle.png" id="216_Hook Ironmantle" data-flag="@X" onclick="openSidebar('216_Hook Ironmantle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\218_Break Out.png" id="218_Break Out" data-flag="@X" onclick="openSidebar('218_Break Out',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\225_Standing Army.png" id="225_Standing Army" data-flag="@X" onclick="openSidebar('225_Standing Army',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\221_Phyre Armiger.png" id="221_Phyre Armiger" data-flag="@X" onclick="openSidebar('221_Phyre Armiger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\226_Conrad Whitaker, Protector.png" id="226_Conrad Whitaker, Protector" data-flag="@X" onclick="openSidebar('226_Conrad Whitaker, Protector',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\229_Minna Radcliff, the Swift.png" id="229_Minna Radcliff, the Swift" data-flag="@X" onclick="openSidebar('229_Minna Radcliff, the Swift',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\233_Gosfridus Turnberry.png" id="233_Gosfridus Turnberry" data-flag="@X" onclick="openSidebar('233_Gosfridus Turnberry',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\235_Alger Perle, Lord of Truetower.png" id="235_Alger Perle, Lord of Truetower" data-flag="@X" onclick="openSidebar('235_Alger Perle, Lord of Truetower',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\239_Dovizia Attwater, the Learned.png" id="239_Dovizia Attwater, the Learned" data-flag="@X" onclick="openSidebar('239_Dovizia Attwater, the Learned',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\227_Proof of Divinity.png" id="227_Proof of Divinity" data-flag="@X" onclick="openSidebar('227_Proof of Divinity',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\230_Naval Artillery.png" id="230_Naval Artillery" data-flag="@X" onclick="openSidebar('230_Naval Artillery',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\232_Dirt to Flesh.png" id="232_Dirt to Flesh" data-flag="@X" onclick="openSidebar('232_Dirt to Flesh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\236_Kirsa, the Sword of Perle.png" id="236_Kirsa, the Sword of Perle" data-flag="@X" onclick="openSidebar('236_Kirsa, the Sword of Perle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\238_Attwater Warsworn.png" id="238_Attwater Warsworn" data-flag="@X" onclick="openSidebar('238_Attwater Warsworn',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\228_Whitaker Cavalry.png" id="228_Whitaker Cavalry" data-flag="@X" onclick="openSidebar('228_Whitaker Cavalry',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\231_Radcliff Dragoncaller.png" id="231_Radcliff Dragoncaller" data-flag="@X" onclick="openSidebar('231_Radcliff Dragoncaller',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\234_Restorative Hexer.png" id="234_Restorative Hexer" data-flag="@X" onclick="openSidebar('234_Restorative Hexer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\237_Renodet, the Shield of Perle.png" id="237_Renodet, the Shield of Perle" data-flag="@X" onclick="openSidebar('237_Renodet, the Shield of Perle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\240_Hillcrest Vanguard.png" id="240_Hillcrest Vanguard" data-flag="@X" onclick="openSidebar('240_Hillcrest Vanguard',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\251_Delora Vance, Lord of Laughs.png" id="251_Delora Vance, Lord of Laughs" data-flag="@X" onclick="openSidebar('251_Delora Vance, Lord of Laughs',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\255_Edith Rey, the Just.png" id="255_Edith Rey, the Just" data-flag="@X" onclick="openSidebar('255_Edith Rey, the Just',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\275_Stoic at Graven Laughs.png" id="275_Stoic at Graven Laughs" data-flag="@X" onclick="openSidebar('275_Stoic at Graven Laughs',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\248_The Crown of Skyspire.png" id="248_The Crown of Skyspire" data-flag="@X" onclick="openSidebar('248_The Crown of Skyspire',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\276_Succession Scandal.png" id="276_Succession Scandal" data-flag="@X" onclick="openSidebar('276_Succession Scandal',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\249_Daring General.png" id="249_Daring General" data-flag="@X" onclick="openSidebar('249_Daring General',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\279_Weight of War.png" id="279_Weight of War" data-flag="@X" onclick="openSidebar('279_Weight of War',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\271_Scars of Wars Past.png" id="271_Scars of Wars Past" data-flag="@X" onclick="openSidebar('271_Scars of Wars Past',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\252_Disciple of Entwined Souls.png" id="252_Disciple of Entwined Souls" data-flag="@X" onclick="openSidebar('252_Disciple of Entwined Souls',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\257_Explore the Great Unknown.png" id="257_Explore the Great Unknown" data-flag="@X" onclick="openSidebar('257_Explore the Great Unknown',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\273_Secluded Arachnomorph.png" id="273_Secluded Arachnomorph" data-flag="@X" onclick="openSidebar('273_Secluded Arachnomorph',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\266_Oaksworn Phantom.png" id="266_Oaksworn Phantom" data-flag="@X" onclick="openSidebar('266_Oaksworn Phantom',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\278_Vance Decree.png" id="278_Vance Decree" data-flag="@X" onclick="openSidebar('278_Vance Decree',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\268_Rey Decree.png" id="268_Rey Decree" data-flag="@X" onclick="openSidebar('268_Rey Decree',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\253_Dreamstalker.png" id="253_Dreamstalker" data-flag="@X" onclick="openSidebar('253_Dreamstalker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\272_Scorned Redeemer.png" id="272_Scorned Redeemer" data-flag="@X" onclick="openSidebar('272_Scorned Redeemer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\244_Bistra Sapner, the Flourishing.png" id="244_Bistra Sapner, the Flourishing" data-flag="@X" onclick="openSidebar('244_Bistra Sapner, the Flourishing',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\243_Bennet Terrel, the High King.png" id="243_Bennet Terrel, the High King" data-flag="@X" onclick="openSidebar('243_Bennet Terrel, the High King',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\256_Elric Nye, the Pirate King.png" id="256_Elric Nye, the Pirate King" data-flag="@X" onclick="openSidebar('256_Elric Nye, the Pirate King',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\246_Cherrywood Elite.png" id="246_Cherrywood Elite" data-flag="@X" onclick="openSidebar('246_Cherrywood Elite',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\254_Edict of the Mirrorkin.png" id="254_Edict of the Mirrorkin" data-flag="@X" onclick="openSidebar('254_Edict of the Mirrorkin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\242_Bamboozle.png" id="242_Bamboozle" data-flag="@X" onclick="openSidebar('242_Bamboozle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\250_Decisive Judgment.png" id="250_Decisive Judgment" data-flag="@X" onclick="openSidebar('250_Decisive Judgment',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\261_In Defiance.png" id="261_In Defiance" data-flag="@X" onclick="openSidebar('261_In Defiance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\245_Castle Delta Agitator.png" id="245_Castle Delta Agitator" data-flag="@X" onclick="openSidebar('245_Castle Delta Agitator',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\280_Whisperer of Armies.png" id="280_Whisperer of Armies" data-flag="@X" onclick="openSidebar('280_Whisperer of Armies',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\262_Inspiring Castellan.png" id="262_Inspiring Castellan" data-flag="@X" onclick="openSidebar('262_Inspiring Castellan',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\265_Nye Scoundrel.png" id="265_Nye Scoundrel" data-flag="@X" onclick="openSidebar('265_Nye Scoundrel',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\241_Azra Seasonkeeper.png" id="241_Azra Seasonkeeper" data-flag="@X" onclick="openSidebar('241_Azra Seasonkeeper',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\259_Glory on Bloodied Wings.png" id="259_Glory on Bloodied Wings" data-flag="@X" onclick="openSidebar('259_Glory on Bloodied Wings',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\258_Faceless Mirrorkin.png" id="258_Faceless Mirrorkin" data-flag="@X" onclick="openSidebar('258_Faceless Mirrorkin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\247_Cherrywood Groundskeeper.png" id="247_Cherrywood Groundskeeper" data-flag="@X" onclick="openSidebar('247_Cherrywood Groundskeeper',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\269_Sacred Avenger.png" id="269_Sacred Avenger" data-flag="@X" onclick="openSidebar('269_Sacred Avenger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\264_Nye Decree.png" id="264_Nye Decree" data-flag="@X" onclick="openSidebar('264_Nye Decree',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\270_Sapner Decree.png" id="270_Sapner Decree" data-flag="@X" onclick="openSidebar('270_Sapner Decree',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\277_Terrel Decree.png" id="277_Terrel Decree" data-flag="@X" onclick="openSidebar('277_Terrel Decree',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\267_Respected Captain.png" id="267_Respected Captain" data-flag="@X" onclick="openSidebar('267_Respected Captain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\260_Highborn Sovereign.png" id="260_Highborn Sovereign" data-flag="@X" onclick="openSidebar('260_Highborn Sovereign',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\274_Skulking Smuggler.png" id="274_Skulking Smuggler" data-flag="@X" onclick="openSidebar('274_Skulking Smuggler',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\263_Meeting of Powers.png" id="263_Meeting of Powers" data-flag="@X" onclick="openSidebar('263_Meeting of Powers',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\222_Bistra's Commander.png" id="222_Bistras Commander" data-flag="@X" onclick="openSidebar('222_Bistras Commander',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\210_Oriel Rivers, Wings of Worth.png" id="HOD_210_Oriel Rivers, Wings of Worth" data-flag="@X" onclick="openSidebar('HOD_210_Oriel Rivers, Wings of Worth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\212_Elias Plaskett, Hidden Blade.png" id="HOD_212_Elias Plaskett, Hidden Blade" data-flag="@X" onclick="openSidebar('HOD_212_Elias Plaskett, Hidden Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\217_Wulfric Hook, Lord of Ends.png" id="HOD_217_Wulfric Hook, Lord of Ends" data-flag="@X" onclick="openSidebar('HOD_217_Wulfric Hook, Lord of Ends',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\220_Hann, Herald of the Conqueror.png" id="HOD_220_Hann, Herald of the Conqueror" data-flag="@X" onclick="openSidebar('HOD_220_Hann, Herald of the Conqueror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\223_Capac Suyay, Grim Seeker.png" id="HOD_223_Capac Suyay, Grim Seeker" data-flag="@X" onclick="openSidebar('HOD_223_Capac Suyay, Grim Seeker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\209_Gathering of Lost Souls.png" id="HOD_209_Gathering of Lost Souls" data-flag="@X" onclick="openSidebar('HOD_209_Gathering of Lost Souls',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\213_Guide of Neglected Hopes.png" id="HOD_213_Guide of Neglected Hopes" data-flag="@X" onclick="openSidebar('HOD_213_Guide of Neglected Hopes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\215_Artillery Shot.png" id="HOD_215_Artillery Shot" data-flag="@X" onclick="openSidebar('HOD_215_Artillery Shot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\219_The Empty Throne of Phyre.png" id="HOD_219_The Empty Throne of Phyre" data-flag="@X" onclick="openSidebar('HOD_219_The Empty Throne of Phyre',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\224_Roul Banefort, the Stern.png" id="HOD_224_Roul Banefort, the Stern" data-flag="@X" onclick="openSidebar('HOD_224_Roul Banefort, the Stern',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\211_Travelcart Guardian.png" id="HOD_211_Travelcart Guardian" data-flag="@X" onclick="openSidebar('HOD_211_Travelcart Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\214_Vindictive Spiral.png" id="HOD_214_Vindictive Spiral" data-flag="@X" onclick="openSidebar('HOD_214_Vindictive Spiral',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\216_Hook Ironmantle.png" id="HOD_216_Hook Ironmantle" data-flag="@X" onclick="openSidebar('HOD_216_Hook Ironmantle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\218_Break Out.png" id="HOD_218_Break Out" data-flag="@X" onclick="openSidebar('HOD_218_Break Out',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\225_Standing Army.png" id="HOD_225_Standing Army" data-flag="@X" onclick="openSidebar('HOD_225_Standing Army',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\221_Phyre Armiger.png" id="HOD_221_Phyre Armiger" data-flag="@X" onclick="openSidebar('HOD_221_Phyre Armiger',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\226_Conrad Whitaker, Protector.png" id="HOD_226_Conrad Whitaker, Protector" data-flag="@X" onclick="openSidebar('HOD_226_Conrad Whitaker, Protector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\229_Minna Radcliff, the Swift.png" id="HOD_229_Minna Radcliff, the Swift" data-flag="@X" onclick="openSidebar('HOD_229_Minna Radcliff, the Swift',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\233_Gosfridus Turnberry.png" id="HOD_233_Gosfridus Turnberry" data-flag="@X" onclick="openSidebar('HOD_233_Gosfridus Turnberry',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\235_Alger Perle, Lord of Truetower.png" id="HOD_235_Alger Perle, Lord of Truetower" data-flag="@X" onclick="openSidebar('HOD_235_Alger Perle, Lord of Truetower',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\239_Dovizia Attwater, the Learned.png" id="HOD_239_Dovizia Attwater, the Learned" data-flag="@X" onclick="openSidebar('HOD_239_Dovizia Attwater, the Learned',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\227_Proof of Divinity.png" id="HOD_227_Proof of Divinity" data-flag="@X" onclick="openSidebar('HOD_227_Proof of Divinity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\230_Naval Artillery.png" id="HOD_230_Naval Artillery" data-flag="@X" onclick="openSidebar('HOD_230_Naval Artillery',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\232_Dirt to Flesh.png" id="HOD_232_Dirt to Flesh" data-flag="@X" onclick="openSidebar('HOD_232_Dirt to Flesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\236_Kirsa, the Sword of Perle.png" id="HOD_236_Kirsa, the Sword of Perle" data-flag="@X" onclick="openSidebar('HOD_236_Kirsa, the Sword of Perle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\238_Attwater Warsworn.png" id="HOD_238_Attwater Warsworn" data-flag="@X" onclick="openSidebar('HOD_238_Attwater Warsworn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\228_Whitaker Cavalry.png" id="HOD_228_Whitaker Cavalry" data-flag="@X" onclick="openSidebar('HOD_228_Whitaker Cavalry',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\231_Radcliff Dragoncaller.png" id="HOD_231_Radcliff Dragoncaller" data-flag="@X" onclick="openSidebar('HOD_231_Radcliff Dragoncaller',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\234_Restorative Hexer.png" id="HOD_234_Restorative Hexer" data-flag="@X" onclick="openSidebar('HOD_234_Restorative Hexer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\237_Renodet, the Shield of Perle.png" id="HOD_237_Renodet, the Shield of Perle" data-flag="@X" onclick="openSidebar('HOD_237_Renodet, the Shield of Perle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\240_Hillcrest Vanguard.png" id="HOD_240_Hillcrest Vanguard" data-flag="@X" onclick="openSidebar('HOD_240_Hillcrest Vanguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\251_Delora Vance, Lord of Laughs.png" id="HOD_251_Delora Vance, Lord of Laughs" data-flag="@X" onclick="openSidebar('HOD_251_Delora Vance, Lord of Laughs',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\255_Edith Rey, the Just.png" id="HOD_255_Edith Rey, the Just" data-flag="@X" onclick="openSidebar('HOD_255_Edith Rey, the Just',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\275_Stoic at Graven Laughs.png" id="HOD_275_Stoic at Graven Laughs" data-flag="@X" onclick="openSidebar('HOD_275_Stoic at Graven Laughs',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\248_The Crown of Skyspire.png" id="HOD_248_The Crown of Skyspire" data-flag="@X" onclick="openSidebar('HOD_248_The Crown of Skyspire',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\276_Succession Scandal.png" id="HOD_276_Succession Scandal" data-flag="@X" onclick="openSidebar('HOD_276_Succession Scandal',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\249_Daring General.png" id="HOD_249_Daring General" data-flag="@X" onclick="openSidebar('HOD_249_Daring General',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\279_Weight of War.png" id="HOD_279_Weight of War" data-flag="@X" onclick="openSidebar('HOD_279_Weight of War',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\271_Scars of Wars Past.png" id="HOD_271_Scars of Wars Past" data-flag="@X" onclick="openSidebar('HOD_271_Scars of Wars Past',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\252_Disciple of Entwined Souls.png" id="HOD_252_Disciple of Entwined Souls" data-flag="@X" onclick="openSidebar('HOD_252_Disciple of Entwined Souls',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\257_Explore the Great Unknown.png" id="HOD_257_Explore the Great Unknown" data-flag="@X" onclick="openSidebar('HOD_257_Explore the Great Unknown',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\273_Secluded Arachnomorph.png" id="HOD_273_Secluded Arachnomorph" data-flag="@X" onclick="openSidebar('HOD_273_Secluded Arachnomorph',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\266_Oaksworn Phantom.png" id="HOD_266_Oaksworn Phantom" data-flag="@X" onclick="openSidebar('HOD_266_Oaksworn Phantom',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\278_Vance Decree.png" id="HOD_278_Vance Decree" data-flag="@X" onclick="openSidebar('HOD_278_Vance Decree',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\268_Rey Decree.png" id="HOD_268_Rey Decree" data-flag="@X" onclick="openSidebar('HOD_268_Rey Decree',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\253_Dreamstalker.png" id="HOD_253_Dreamstalker" data-flag="@X" onclick="openSidebar('HOD_253_Dreamstalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\272_Scorned Redeemer.png" id="HOD_272_Scorned Redeemer" data-flag="@X" onclick="openSidebar('HOD_272_Scorned Redeemer',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\244_Bistra Sapner, the Flourishing.png" id="HOD_244_Bistra Sapner, the Flourishing" data-flag="@X" onclick="openSidebar('HOD_244_Bistra Sapner, the Flourishing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\243_Bennet Terrel, the High King.png" id="HOD_243_Bennet Terrel, the High King" data-flag="@X" onclick="openSidebar('HOD_243_Bennet Terrel, the High King',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\256_Elric Nye, the Pirate King.png" id="HOD_256_Elric Nye, the Pirate King" data-flag="@X" onclick="openSidebar('HOD_256_Elric Nye, the Pirate King',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\246_Cherrywood Elite.png" id="HOD_246_Cherrywood Elite" data-flag="@X" onclick="openSidebar('HOD_246_Cherrywood Elite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\254_Edict of the Mirrorkin.png" id="HOD_254_Edict of the Mirrorkin" data-flag="@X" onclick="openSidebar('HOD_254_Edict of the Mirrorkin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\242_Bamboozle.png" id="HOD_242_Bamboozle" data-flag="@X" onclick="openSidebar('HOD_242_Bamboozle',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\250_Decisive Judgment.png" id="HOD_250_Decisive Judgment" data-flag="@X" onclick="openSidebar('HOD_250_Decisive Judgment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\261_In Defiance.png" id="HOD_261_In Defiance" data-flag="@X" onclick="openSidebar('HOD_261_In Defiance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\245_Castle Delta Agitator.png" id="HOD_245_Castle Delta Agitator" data-flag="@X" onclick="openSidebar('HOD_245_Castle Delta Agitator',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\280_Whisperer of Armies.png" id="HOD_280_Whisperer of Armies" data-flag="@X" onclick="openSidebar('HOD_280_Whisperer of Armies',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\262_Inspiring Castellan.png" id="HOD_262_Inspiring Castellan" data-flag="@X" onclick="openSidebar('HOD_262_Inspiring Castellan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\265_Nye Scoundrel.png" id="HOD_265_Nye Scoundrel" data-flag="@X" onclick="openSidebar('HOD_265_Nye Scoundrel',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\241_Azra Seasonkeeper.png" id="HOD_241_Azra Seasonkeeper" data-flag="@X" onclick="openSidebar('HOD_241_Azra Seasonkeeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\259_Glory on Bloodied Wings.png" id="HOD_259_Glory on Bloodied Wings" data-flag="@X" onclick="openSidebar('HOD_259_Glory on Bloodied Wings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\258_Faceless Mirrorkin.png" id="HOD_258_Faceless Mirrorkin" data-flag="@X" onclick="openSidebar('HOD_258_Faceless Mirrorkin',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\247_Cherrywood Groundskeeper.png" id="HOD_247_Cherrywood Groundskeeper" data-flag="@X" onclick="openSidebar('HOD_247_Cherrywood Groundskeeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\269_Sacred Avenger.png" id="HOD_269_Sacred Avenger" data-flag="@X" onclick="openSidebar('HOD_269_Sacred Avenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\264_Nye Decree.png" id="HOD_264_Nye Decree" data-flag="@X" onclick="openSidebar('HOD_264_Nye Decree',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\270_Sapner Decree.png" id="HOD_270_Sapner Decree" data-flag="@X" onclick="openSidebar('HOD_270_Sapner Decree',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\277_Terrel Decree.png" id="HOD_277_Terrel Decree" data-flag="@X" onclick="openSidebar('HOD_277_Terrel Decree',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\267_Respected Captain.png" id="HOD_267_Respected Captain" data-flag="@X" onclick="openSidebar('HOD_267_Respected Captain',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\260_Highborn Sovereign.png" id="HOD_260_Highborn Sovereign" data-flag="@X" onclick="openSidebar('HOD_260_Highborn Sovereign',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\274_Skulking Smuggler.png" id="HOD_274_Skulking Smuggler" data-flag="@X" onclick="openSidebar('HOD_274_Skulking Smuggler',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\263_Meeting of Powers.png" id="HOD_263_Meeting of Powers" data-flag="@X" onclick="openSidebar('HOD_263_Meeting of Powers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\222_Bistra's Commander.png" id="HOD_222_Bistras Commander" data-flag="@X" onclick="openSidebar('HOD_222_Bistras Commander',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\287_Sword of the Royalty.png" id="287_Sword of the Royalty" data-flag="@X" onclick="openSidebar('287_Sword of the Royalty',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\282_Extravagent Airship.png" id="282_Extravagent Airship" data-flag="@X" onclick="openSidebar('282_Extravagent Airship',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\284_Important Parcel.png" id="284_Important Parcel" data-flag="@X" onclick="openSidebar('284_Important Parcel',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\286_Slabman Stoneplate.png" id="286_Slabman Stoneplate" data-flag="@X" onclick="openSidebar('286_Slabman Stoneplate',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\281_Dreadship Vessel.png" id="281_Dreadship Vessel" data-flag="@X" onclick="openSidebar('281_Dreadship Vessel',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\283_Hulking Vessel.png" id="283_Hulking Vessel" data-flag="@X" onclick="openSidebar('283_Hulking Vessel',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\285_Messenger of Absent Messages.png" id="285_Messenger of Absent Messages" data-flag="@X" onclick="openSidebar('285_Messenger of Absent Messages',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\288_War Map.png" id="288_War Map" data-flag="@X" onclick="openSidebar('288_War Map',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\289_Wealthy Slabman.png" id="289_Wealthy Slabman" data-flag="@X" onclick="openSidebar('289_Wealthy Slabman',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\290_Writ of Supplies.png" id="290_Writ of Supplies" data-flag="@X" onclick="openSidebar('290_Writ of Supplies',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\315_Attwater Sigil.png" id="315_Attwater Sigil" data-flag="@X" onclick="openSidebar('315_Attwater Sigil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\316_Banefort Sigil.png" id="316_Banefort Sigil" data-flag="@X" onclick="openSidebar('316_Banefort Sigil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\317_Hook Sigil.png" id="317_Hook Sigil" data-flag="@X" onclick="openSidebar('317_Hook Sigil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\318_Nye Sigil.png" id="318_Nye Sigil" data-flag="@X" onclick="openSidebar('318_Nye Sigil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\319_Perle House Sigil.png" id="319_Perle House Sigil" data-flag="@X" onclick="openSidebar('319_Perle House Sigil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\320_Phyre Sigil.png" id="320_Phyre Sigil" data-flag="@X" onclick="openSidebar('320_Phyre Sigil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\321_Plaskett Sigil.png" id="321_Plaskett Sigil" data-flag="@X" onclick="openSidebar('321_Plaskett Sigil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\322_Radcliff Sigil.png" id="322_Radcliff Sigil" data-flag="@X" onclick="openSidebar('322_Radcliff Sigil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\323_Rey Sigil.png" id="323_Rey Sigil" data-flag="@X" onclick="openSidebar('323_Rey Sigil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\324_Rivers Sigil.png" id="324_Rivers Sigil" data-flag="@X" onclick="openSidebar('324_Rivers Sigil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\325_Sapner Sigil.png" id="325_Sapner Sigil" data-flag="@X" onclick="openSidebar('325_Sapner Sigil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\326_Terrel Sigil.png" id="326_Terrel Sigil" data-flag="@X" onclick="openSidebar('326_Terrel Sigil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\327_Turnberry Sigil.png" id="327_Turnberry Sigil" data-flag="@X" onclick="openSidebar('327_Turnberry Sigil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\328_Vance Sigil.png" id="328_Vance Sigil" data-flag="@X" onclick="openSidebar('328_Vance Sigil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\329_Whitaker Sigil.png" id="329_Whitaker Sigil" data-flag="@X" onclick="openSidebar('329_Whitaker Sigil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\287_Sword of the Royalty.png" id="HOD_287_Sword of the Royalty" data-flag="@X" onclick="openSidebar('HOD_287_Sword of the Royalty',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\282_Extravagent Airship.png" id="HOD_282_Extravagent Airship" data-flag="@X" onclick="openSidebar('HOD_282_Extravagent Airship',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\284_Important Parcel.png" id="HOD_284_Important Parcel" data-flag="@X" onclick="openSidebar('HOD_284_Important Parcel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\286_Slabman Stoneplate.png" id="HOD_286_Slabman Stoneplate" data-flag="@X" onclick="openSidebar('HOD_286_Slabman Stoneplate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\281_Dreadship Vessel.png" id="HOD_281_Dreadship Vessel" data-flag="@X" onclick="openSidebar('HOD_281_Dreadship Vessel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\283_Hulking Vessel.png" id="HOD_283_Hulking Vessel" data-flag="@X" onclick="openSidebar('HOD_283_Hulking Vessel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\285_Messenger of Absent Messages.png" id="HOD_285_Messenger of Absent Messages" data-flag="@X" onclick="openSidebar('HOD_285_Messenger of Absent Messages',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\288_War Map.png" id="HOD_288_War Map" data-flag="@X" onclick="openSidebar('HOD_288_War Map',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\289_Wealthy Slabman.png" id="HOD_289_Wealthy Slabman" data-flag="@X" onclick="openSidebar('HOD_289_Wealthy Slabman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\290_Writ of Supplies.png" id="HOD_290_Writ of Supplies" data-flag="@X" onclick="openSidebar('HOD_290_Writ of Supplies',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\315_Attwater Sigil.png" id="HOD_315_Attwater Sigil" data-flag="@X" onclick="openSidebar('HOD_315_Attwater Sigil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\316_Banefort Sigil.png" id="HOD_316_Banefort Sigil" data-flag="@X" onclick="openSidebar('HOD_316_Banefort Sigil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\317_Hook Sigil.png" id="HOD_317_Hook Sigil" data-flag="@X" onclick="openSidebar('HOD_317_Hook Sigil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\318_Nye Sigil.png" id="HOD_318_Nye Sigil" data-flag="@X" onclick="openSidebar('HOD_318_Nye Sigil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\319_Perle House Sigil.png" id="HOD_319_Perle House Sigil" data-flag="@X" onclick="openSidebar('HOD_319_Perle House Sigil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\320_Phyre Sigil.png" id="HOD_320_Phyre Sigil" data-flag="@X" onclick="openSidebar('HOD_320_Phyre Sigil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\321_Plaskett Sigil.png" id="HOD_321_Plaskett Sigil" data-flag="@X" onclick="openSidebar('HOD_321_Plaskett Sigil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\322_Radcliff Sigil.png" id="HOD_322_Radcliff Sigil" data-flag="@X" onclick="openSidebar('HOD_322_Radcliff Sigil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\323_Rey Sigil.png" id="HOD_323_Rey Sigil" data-flag="@X" onclick="openSidebar('HOD_323_Rey Sigil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\324_Rivers Sigil.png" id="HOD_324_Rivers Sigil" data-flag="@X" onclick="openSidebar('HOD_324_Rivers Sigil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\325_Sapner Sigil.png" id="HOD_325_Sapner Sigil" data-flag="@X" onclick="openSidebar('HOD_325_Sapner Sigil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\326_Terrel Sigil.png" id="HOD_326_Terrel Sigil" data-flag="@X" onclick="openSidebar('HOD_326_Terrel Sigil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\327_Turnberry Sigil.png" id="HOD_327_Turnberry Sigil" data-flag="@X" onclick="openSidebar('HOD_327_Turnberry Sigil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\328_Vance Sigil.png" id="HOD_328_Vance Sigil" data-flag="@X" onclick="openSidebar('HOD_328_Vance Sigil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\329_Whitaker Sigil.png" id="HOD_329_Whitaker Sigil" data-flag="@X" onclick="openSidebar('HOD_329_Whitaker Sigil',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
 				<div id="land" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\297_King's Rock Castle.png" id="297_Kings Rock Castle" data-flag="@X" onclick="openSidebar('297_Kings Rock Castle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\291_Castle on the Delta.png" id="291_Castle on the Delta" data-flag="@X" onclick="openSidebar('291_Castle on the Delta',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\295_Hall of Graven Laughs.png" id="295_Hall of Graven Laughs" data-flag="@X" onclick="openSidebar('295_Hall of Graven Laughs',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\299_Skyspire Keep.png" id="299_Skyspire Keep" data-flag="@X" onclick="openSidebar('299_Skyspire Keep',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\294_Fort Sapner.png" id="294_Fort Sapner" data-flag="@X" onclick="openSidebar('294_Fort Sapner',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\336_Riverdale Fortress.png" id="336_Riverdale Fortress" data-flag="@X" onclick="openSidebar('336_Riverdale Fortress',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\333_Castle of Shrouded Coasts.png" id="333_Castle of Shrouded Coasts" data-flag="@X" onclick="openSidebar('333_Castle of Shrouded Coasts',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\332_Castle of Death's Sting.png" id="332_Castle of Deaths Sting" data-flag="@X" onclick="openSidebar('332_Castle of Deaths Sting',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\330_Ardleby Hold.png" id="330_Ardleby Hold" data-flag="@X" onclick="openSidebar('330_Ardleby Hold',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\334_Cloudkissed Keep.png" id="334_Cloudkissed Keep" data-flag="@X" onclick="openSidebar('334_Cloudkissed Keep',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\337_Sandrock Castle.png" id="337_Sandrock Castle" data-flag="@X" onclick="openSidebar('337_Sandrock Castle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\331_Beachside Castle.png" id="331_Beachside Castle" data-flag="@X" onclick="openSidebar('331_Beachside Castle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\339_Turnberry Citadel.png" id="339_Turnberry Citadel" data-flag="@X" onclick="openSidebar('339_Turnberry Citadel',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\338_Truetower Castle.png" id="338_Truetower Castle" data-flag="@X" onclick="openSidebar('338_Truetower Castle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\335_Hall of Flowing Streams.png" id="335_Hall of Flowing Streams" data-flag="@X" onclick="openSidebar('335_Hall of Flowing Streams',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\292_Clearing in the Glade.png" id="292_Clearing in the Glade" data-flag="@X" onclick="openSidebar('292_Clearing in the Glade',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\296_Hexer's Cave.png" id="296_Hexers Cave" data-flag="@X" onclick="openSidebar('296_Hexers Cave',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\298_Overflowing Sanctuary.png" id="298_Overflowing Sanctuary" data-flag="@X" onclick="openSidebar('298_Overflowing Sanctuary',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\293_Crossroads of Identity.png" id="293_Crossroads of Identity" data-flag="@X" onclick="openSidebar('293_Crossroads of Identity',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\300_Plains.png" id="300_Plains" data-flag="@X" onclick="openSidebar('300_Plains',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\303_Island.png" id="303_Island" data-flag="@X" onclick="openSidebar('303_Island',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\306_Swamp.png" id="306_Swamp" data-flag="@X" onclick="openSidebar('306_Swamp',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\309_Mountain.png" id="309_Mountain" data-flag="@X" onclick="openSidebar('309_Mountain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\312_Forest.png" id="312_Forest" data-flag="@X" onclick="openSidebar('312_Forest',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\304_Island2.png" id="304_Island2" data-flag="@X" onclick="openSidebar('304_Island2',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\307_Swamp2.png" id="307_Swamp2" data-flag="@X" onclick="openSidebar('307_Swamp2',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\310_Mountain2.png" id="310_Mountain2" data-flag="@X" onclick="openSidebar('310_Mountain2',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\313_Forest2.png" id="313_Forest2" data-flag="@X" onclick="openSidebar('313_Forest2',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\302_Plains3.png" id="302_Plains3" data-flag="@X" onclick="openSidebar('302_Plains3',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\305_Island3.png" id="305_Island3" data-flag="@X" onclick="openSidebar('305_Island3',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\308_Swamp3.png" id="308_Swamp3" data-flag="@X" onclick="openSidebar('308_Swamp3',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\311_Mountain3.png" id="311_Mountain3" data-flag="@X" onclick="openSidebar('311_Mountain3',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\314_Forest3.png" id="314_Forest3" data-flag="@X" onclick="openSidebar('314_Forest3',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\301_Plains2.png" id="301_Plains2" data-flag="@X" onclick="openSidebar('301_Plains2',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\297_King's Rock Castle.png" id="HOD_297_Kings Rock Castle" data-flag="@X" onclick="openSidebar('HOD_297_Kings Rock Castle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\291_Castle on the Delta.png" id="HOD_291_Castle on the Delta" data-flag="@X" onclick="openSidebar('HOD_291_Castle on the Delta',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\295_Hall of Graven Laughs.png" id="HOD_295_Hall of Graven Laughs" data-flag="@X" onclick="openSidebar('HOD_295_Hall of Graven Laughs',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\299_Skyspire Keep.png" id="HOD_299_Skyspire Keep" data-flag="@X" onclick="openSidebar('HOD_299_Skyspire Keep',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\294_Fort Sapner.png" id="HOD_294_Fort Sapner" data-flag="@X" onclick="openSidebar('HOD_294_Fort Sapner',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\336_Riverdale Fortress.png" id="HOD_336_Riverdale Fortress" data-flag="@X" onclick="openSidebar('HOD_336_Riverdale Fortress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\333_Castle of Shrouded Coasts.png" id="HOD_333_Castle of Shrouded Coasts" data-flag="@X" onclick="openSidebar('HOD_333_Castle of Shrouded Coasts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\332_Castle of Death's Sting.png" id="HOD_332_Castle of Deaths Sting" data-flag="@X" onclick="openSidebar('HOD_332_Castle of Deaths Sting',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\330_Ardleby Hold.png" id="HOD_330_Ardleby Hold" data-flag="@X" onclick="openSidebar('HOD_330_Ardleby Hold',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\334_Cloudkissed Keep.png" id="HOD_334_Cloudkissed Keep" data-flag="@X" onclick="openSidebar('HOD_334_Cloudkissed Keep',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\337_Sandrock Castle.png" id="HOD_337_Sandrock Castle" data-flag="@X" onclick="openSidebar('HOD_337_Sandrock Castle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\331_Beachside Castle.png" id="HOD_331_Beachside Castle" data-flag="@X" onclick="openSidebar('HOD_331_Beachside Castle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\339_Turnberry Citadel.png" id="HOD_339_Turnberry Citadel" data-flag="@X" onclick="openSidebar('HOD_339_Turnberry Citadel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\338_Truetower Castle.png" id="HOD_338_Truetower Castle" data-flag="@X" onclick="openSidebar('HOD_338_Truetower Castle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\335_Hall of Flowing Streams.png" id="HOD_335_Hall of Flowing Streams" data-flag="@X" onclick="openSidebar('HOD_335_Hall of Flowing Streams',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\292_Clearing in the Glade.png" id="HOD_292_Clearing in the Glade" data-flag="@X" onclick="openSidebar('HOD_292_Clearing in the Glade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\296_Hexer's Cave.png" id="HOD_296_Hexers Cave" data-flag="@X" onclick="openSidebar('HOD_296_Hexers Cave',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\298_Overflowing Sanctuary.png" id="HOD_298_Overflowing Sanctuary" data-flag="@X" onclick="openSidebar('HOD_298_Overflowing Sanctuary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\293_Crossroads of Identity.png" id="HOD_293_Crossroads of Identity" data-flag="@X" onclick="openSidebar('HOD_293_Crossroads of Identity',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\300_Plains.png" id="HOD_300_Plains" data-flag="@X" onclick="openSidebar('HOD_300_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\303_Island.png" id="HOD_303_Island" data-flag="@X" onclick="openSidebar('HOD_303_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\306_Swamp.png" id="HOD_306_Swamp" data-flag="@X" onclick="openSidebar('HOD_306_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\309_Mountain.png" id="HOD_309_Mountain" data-flag="@X" onclick="openSidebar('HOD_309_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\312_Forest.png" id="HOD_312_Forest" data-flag="@X" onclick="openSidebar('HOD_312_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\304_Island2.png" id="HOD_304_Island2" data-flag="@X" onclick="openSidebar('HOD_304_Island2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\307_Swamp2.png" id="HOD_307_Swamp2" data-flag="@X" onclick="openSidebar('HOD_307_Swamp2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\310_Mountain2.png" id="HOD_310_Mountain2" data-flag="@X" onclick="openSidebar('HOD_310_Mountain2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\313_Forest2.png" id="HOD_313_Forest2" data-flag="@X" onclick="openSidebar('HOD_313_Forest2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\302_Plains3.png" id="HOD_302_Plains3" data-flag="@X" onclick="openSidebar('HOD_302_Plains3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\305_Island3.png" id="HOD_305_Island3" data-flag="@X" onclick="openSidebar('HOD_305_Island3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\308_Swamp3.png" id="HOD_308_Swamp3" data-flag="@X" onclick="openSidebar('HOD_308_Swamp3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\311_Mountain3.png" id="HOD_311_Mountain3" data-flag="@X" onclick="openSidebar('HOD_311_Mountain3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\314_Forest3.png" id="HOD_314_Forest3" data-flag="@X" onclick="openSidebar('HOD_314_Forest3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\301_Plains2.png" id="HOD_301_Plains2" data-flag="@X" onclick="openSidebar('HOD_301_Plains2',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\1t_Heir Tracking.png" id="1t_Heir Tracking" data-flag="@X" onclick="openSidebar('1t_Heir Tracking',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\2t_Reserves.png" id="2t_Reserves" data-flag="@X" onclick="openSidebar('2t_Reserves',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\20t_Clue.png" id="20t_Clue" data-flag="@X" onclick="openSidebar('20t_Clue',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\21t_Food.png" id="21t_Food" data-flag="@X" onclick="openSidebar('21t_Food',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\22t_Treasure.png" id="22t_Treasure" data-flag="@X" onclick="openSidebar('22t_Treasure',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\23t_Weapon.png" id="23t_Weapon" data-flag="@X" onclick="openSidebar('23t_Weapon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\3t_Intisuyus Armies.png" id="3t_Intisuyus Armies" data-flag="@X" onclick="openSidebar('3t_Intisuyus Armies',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\4t_The Occultist.png" id="4t_The Occultist" data-flag="@X" onclick="openSidebar('4t_The Occultist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\5t_Soldier.png" id="5t_Soldier" data-flag="@X" onclick="openSidebar('5t_Soldier',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\6t_Suyay's Soldier.png" id="6t_Suyays Soldier" data-flag="@X" onclick="openSidebar('6t_Suyays Soldier',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\7t_The True Heir.png" id="7t_The True Heir" data-flag="@X" onclick="openSidebar('7t_The True Heir',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\8t_The Diamond of the Nye.png" id="8t_The Diamond of the Nye" data-flag="@X" onclick="openSidebar('8t_The Diamond of the Nye',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\9t_Scout.png" id="9t_Scout" data-flag="@X" onclick="openSidebar('9t_Scout',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\10t_Dewold Army.png" id="10t_Dewold Army" data-flag="@X" onclick="openSidebar('10t_Dewold Army',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\11t_Horror.png" id="11t_Horror" data-flag="@X" onclick="openSidebar('11t_Horror',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\12t_Vances Claw.png" id="12t_Vances Claw" data-flag="@X" onclick="openSidebar('12t_Vances Claw',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\13t_Lover to All.png" id="13t_Lover to All" data-flag="@X" onclick="openSidebar('13t_Lover to All',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\14t_Young Soldier.png" id="14t_Young Soldier" data-flag="@X" onclick="openSidebar('14t_Young Soldier',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\15t_Spirit.png" id="15t_Spirit" data-flag="@X" onclick="openSidebar('15t_Spirit',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\16t_The Sword of Perle.png" id="16t_The Sword of Perle" data-flag="@X" onclick="openSidebar('16t_The Sword of Perle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\17t_The Gentle Giant.png" id="17t_The Gentle Giant" data-flag="@X" onclick="openSidebar('17t_The Gentle Giant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\18t_Knight.png" id="18t_Knight" data-flag="@X" onclick="openSidebar('18t_Knight',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\HOD-files\img\19t_Destroyed-Knight.png" id="19t_Destroyed-Knight" data-flag="@X" onclick="openSidebar('19t_Destroyed-Knight',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\1t_Heir Tracking.png" id="HOD_1t_Heir Tracking" data-flag="@X" onclick="openSidebar('HOD_1t_Heir Tracking',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\2t_Reserves.png" id="HOD_2t_Reserves" data-flag="@X" onclick="openSidebar('HOD_2t_Reserves',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\20t_Clue.png" id="HOD_20t_Clue" data-flag="@X" onclick="openSidebar('HOD_20t_Clue',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\21t_Food.png" id="HOD_21t_Food" data-flag="@X" onclick="openSidebar('HOD_21t_Food',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\22t_Treasure.png" id="HOD_22t_Treasure" data-flag="@X" onclick="openSidebar('HOD_22t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\23t_Weapon.png" id="HOD_23t_Weapon" data-flag="@X" onclick="openSidebar('HOD_23t_Weapon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\3t_Intisuyus Armies.png" id="HOD_3t_Intisuyus Armies" data-flag="@X" onclick="openSidebar('HOD_3t_Intisuyus Armies',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\4t_The Occultist.png" id="HOD_4t_The Occultist" data-flag="@X" onclick="openSidebar('HOD_4t_The Occultist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\5t_Soldier.png" id="HOD_5t_Soldier" data-flag="@X" onclick="openSidebar('HOD_5t_Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\6t_Suyay's Soldier.png" id="HOD_6t_Suyays Soldier" data-flag="@X" onclick="openSidebar('HOD_6t_Suyays Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\7t_The True Heir.png" id="HOD_7t_The True Heir" data-flag="@X" onclick="openSidebar('HOD_7t_The True Heir',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\8t_The Diamond of the Nye.png" id="HOD_8t_The Diamond of the Nye" data-flag="@X" onclick="openSidebar('HOD_8t_The Diamond of the Nye',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\9t_Scout.png" id="HOD_9t_Scout" data-flag="@X" onclick="openSidebar('HOD_9t_Scout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\10t_Dewold Army.png" id="HOD_10t_Dewold Army" data-flag="@X" onclick="openSidebar('HOD_10t_Dewold Army',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\11t_Horror.png" id="HOD_11t_Horror" data-flag="@X" onclick="openSidebar('HOD_11t_Horror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\12t_Vances Claw.png" id="HOD_12t_Vances Claw" data-flag="@X" onclick="openSidebar('HOD_12t_Vances Claw',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\13t_Lover to All.png" id="HOD_13t_Lover to All" data-flag="@X" onclick="openSidebar('HOD_13t_Lover to All',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\14t_Young Soldier.png" id="HOD_14t_Young Soldier" data-flag="@X" onclick="openSidebar('HOD_14t_Young Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\15t_Spirit.png" id="HOD_15t_Spirit" data-flag="@X" onclick="openSidebar('HOD_15t_Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\16t_The Sword of Perle.png" id="HOD_16t_The Sword of Perle" data-flag="@X" onclick="openSidebar('HOD_16t_The Sword of Perle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\17t_The Gentle Giant.png" id="HOD_17t_The Gentle Giant" data-flag="@X" onclick="openSidebar('HOD_17t_The Gentle Giant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\18t_Knight.png" id="HOD_18t_Knight" data-flag="@X" onclick="openSidebar('HOD_18t_Knight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\HOD-files\img\19t_Destroyed-Knight.png" id="HOD_19t_Destroyed-Knight" data-flag="@X" onclick="openSidebar('HOD_19t_Destroyed-Knight',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="HOD_e" data-flag="@E" onclick="openSidebar('HOD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="HOD_er" data-flag="@E" onclick="openSidebar('HOD_er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -745,19 +771,111 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 
@@ -792,13 +910,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -952,16 +1073,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -971,7 +1092,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>

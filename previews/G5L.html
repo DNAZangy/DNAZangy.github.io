@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/G5L-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/G5L-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>G5L visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
 		@font-face {
 			font-family: Beleren;
-			src: url('/resources/beleren.ttf');
+			src: url('../resources/beleren.ttf');
 		}
 		body {
 			font-family: Arial, sans-serif;
@@ -45,13 +48,15 @@
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -62,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -82,6 +87,7 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
@@ -102,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -118,7 +125,7 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -174,470 +181,489 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/G5L-files/logo.png" />
-	<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TWI-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ALK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ACT-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ROS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/G5L-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HOD-files/icon.png" />
-		<img class="preload-hidden" src="/sets/BRE-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HTS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MSK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ORC-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TRO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ZANG-files/icon.png" />
-		<img class="preload-hidden" src="/sets/CIUB-files/icon.png" />
-		<img class="preload-hidden" src="/sets/RAR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ZNU-files/icon.png" />
-		<img class="preload-hidden" id="bg" src="/sets/G5L-files/bg.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/G5L-files/logo.png" />
+	<img class="preload-hidden" src="../sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TWI-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ALK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ACT-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ROS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/G5L-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HOD-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SHU-files/icon.png" />
+		<img class="preload-hidden" src="../sets/BRE-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HTS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MSK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ORC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TRO-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ZANG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CIUB-files/icon.png" />
+		<img class="preload-hidden" src="../sets/RAR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ZNU-files/icon.png" />
+		<img class="preload-hidden" id="bg" src="../sets/G5L-files/bg.png" />
 
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
 
 	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
-		<a class="set-bar" href="G5L"><img src="/sets/G5L-files/icon.png">Alkabah: Golna’s Five Labors</a>
+		<a class="set-bar" href="../previews/G5L"><img src="../sets/G5L-files/icon.png">Alkabah: Golna’s Five Labors</a>
 	
-		<a class="set-bar inactive" href="SRC"><img src="/sets/SRC-files/icon.png">Secrets of the River Cities</a>
+		<a class="set-bar inactive" href="../previews/SRC"><img src="../sets/SRC-files/icon.png">Secrets of the River Cities</a>
 	
-		<a class="set-bar inactive" href="TRX"><img src="/sets/TRX-files/icon.png">Theros: Age of Trax</a>
+		<a class="set-bar inactive" href="../previews/TRX"><img src="../sets/TRX-files/icon.png">Theros: Age of Trax</a>
 	
-		<a class="set-bar inactive" href="TWI"><img src="/sets/TWI-files/icon.png">Exalts of Twiltrie</a>
+		<a class="set-bar inactive" href="../previews/TWI"><img src="../sets/TWI-files/icon.png">Exalts of Twiltrie</a>
 	
-		<a class="set-bar inactive" href="ALK"><img src="/sets/ALK-files/icon.png">Alkabah</a>
+		<a class="set-bar inactive" href="../previews/ALK"><img src="../sets/ALK-files/icon.png">Alkabah</a>
 	
-		<a class="set-bar inactive" href="ACT"><img src="/sets/ACT-files/icon.png">The Stage Presents: The Neverending Act</a>
+		<a class="set-bar inactive" href="../previews/ACT"><img src="../sets/ACT-files/icon.png">The Stage Presents: The Neverending Act</a>
 	
-		<a class="set-bar inactive" href="ROS"><img src="/sets/ROS-files/icon.png">Alkabah: Rise of Soli</a>
+		<a class="set-bar inactive" href="../previews/ROS"><img src="../sets/ROS-files/icon.png">Alkabah: Rise of Soli</a>
 	
-		<a class="set-bar inactive" href="HOD"><img src="/sets/HOD-files/icon.png">Houses of Dewold</a>
+		<a class="set-bar inactive" href="../previews/HOD"><img src="../sets/HOD-files/icon.png">Houses of Dewold</a>
 	
-		<a class="set-bar inactive" href="BRE"><img src="/sets/BRE-files/icon.png">Kaldheim: Bretagard’s Revival</a>
+		<a class="set-bar inactive" href="../previews/SHU"><img src="../sets/SHU-files/icon.png">Shurima: War of the Sands</a>
 	
-		<a class="set-bar inactive" href="HTS"><img src="/sets/HTS-files/icon.png">Hatsuniji: We Stare Through the Window, Together, Holding Hands</a>
+		<a class="set-bar inactive" href="../previews/BRE"><img src="../sets/BRE-files/icon.png">Kaldheim: Bretagard’s Revival</a>
 	
-		<a class="set-bar inactive" href="MSK"><img src="/sets/MSK-files/icon.png">Myths, Masks, and Minutes Spent Apart</a>
+		<a class="set-bar inactive" href="../previews/HTS"><img src="../sets/HTS-files/icon.png">Hatsuniji: We Stare Through the Window, Together, Holding Hands</a>
 	
-		<a class="set-bar inactive" href="ORC"><img src="/sets/ORC-files/icon.png">An Oddness in the River Cities</a>
+		<a class="set-bar inactive" href="../previews/MSK"><img src="../sets/MSK-files/icon.png">Myths, Masks, and Minutes Spent Apart</a>
 	
-		<a class="set-bar inactive" href="TRO"><img src="/sets/TRO-files/icon.png">Trovsko</a>
+		<a class="set-bar inactive" href="../previews/ORC"><img src="../sets/ORC-files/icon.png">An Oddness in the River Cities</a>
 	
-		<a class="set-bar inactive" href="ZANG"><img src="/sets/ZANG-files/icon.png">Zangy Cube</a>
+		<a class="set-bar inactive" href="../previews/TRO"><img src="../sets/TRO-files/icon.png">Trovsko</a>
 	
-		<a class="set-bar inactive" href="CIUB"><img src="/sets/CIUB-files/icon.png">Tairngire Cube</a>
+		<a class="set-bar inactive" href="../previews/ZANG"><img src="../sets/ZANG-files/icon.png">Zangy Cube</a>
 	
-		<a class="set-bar inactive" href="RAR"><img src="/sets/RAR-files/icon.png">Ravnica: Resurgence</a>
+		<a class="set-bar inactive" href="../previews/CIUB"><img src="../sets/CIUB-files/icon.png">Tairngire Cube</a>
 	
-		<a class="set-bar inactive" href="ZNU"><img src="/sets/ZNU-files/icon.png">Zendikar Unleashed</a>
+		<a class="set-bar inactive" href="../previews/RAR"><img src="../sets/RAR-files/icon.png">Ravnica: Resurgence</a>
+	
+		<a class="set-bar inactive" href="../previews/ZNU"><img src="../sets/ZNU-files/icon.png">Zendikar Unleashed</a>
 	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/G5L-files/logo.png">
+		<img class="logo" src="../sets/G5L-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\27_Skycrested Roc.png" id="27_Skycrested Roc" data-flag="@X" onclick="openSidebar('27_Skycrested Roc',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\46_General of Phantasms.png" id="46_General of Phantasms" data-flag="@X" onclick="openSidebar('46_General of Phantasms',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\79_Div of Bleeding Reverence.png" id="79_Div of Bleeding Reverence" data-flag="@X" onclick="openSidebar('79_Div of Bleeding Reverence',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\123_Huma of Radiant Flames.png" id="123_Huma of Radiant Flames" data-flag="@X" onclick="openSidebar('123_Huma of Radiant Flames',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\152_Fall of the Tyrant.png" id="152_Fall of the Tyrant" data-flag="@X" onclick="openSidebar('152_Fall of the Tyrant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\30_Stories in Shifting Sand.png" id="30_Stories in Shifting Sand" data-flag="@X" onclick="openSidebar('30_Stories in Shifting Sand',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\50_Last of Marjavar.png" id="50_Last of Marjavar" data-flag="@X" onclick="openSidebar('50_Last of Marjavar',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\99_Seat of the Faceless.png" id="99_Seat of the Faceless" data-flag="@X" onclick="openSidebar('99_Seat of the Faceless',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\126_Koios, the Bereaved.png" id="126_Koios, the Bereaved" data-flag="@X" onclick="openSidebar('126_Koios, the Bereaved',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\159_Legion of Infinite Maws.png" id="159_Legion of Infinite Maws" data-flag="@X" onclick="openSidebar('159_Legion of Infinite Maws',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\4_Blanched Warden.png" id="4_Blanched Warden" data-flag="@X" onclick="openSidebar('4_Blanched Warden',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\49_Labor of Wit.png" id="49_Labor of Wit" data-flag="@X" onclick="openSidebar('49_Labor of Wit',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\71_Amaurosis.png" id="71_Amaurosis" data-flag="@X" onclick="openSidebar('71_Amaurosis',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\141_The Young Proselyte.png" id="141_The Young Proselyte" data-flag="@X" onclick="openSidebar('141_The Young Proselyte',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\146_Break Their Markets Open.png" id="146_Break Their Markets Open" data-flag="@X" onclick="openSidebar('146_Break Their Markets Open',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\5_Choir of Steadfast Hearts.png" id="5_Choir of Steadfast Hearts" data-flag="@X" onclick="openSidebar('5_Choir of Steadfast Hearts',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\51_Maneli Shellsinger.png" id="51_Maneli Shellsinger" data-flag="@X" onclick="openSidebar('51_Maneli Shellsinger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\73_Choir of Trembling Hearts.png" id="73_Choir of Trembling Hearts" data-flag="@X" onclick="openSidebar('73_Choir of Trembling Hearts',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\107_Andazir, Acrimony's Toy.png" id="107_Andazir, Acrimonys Toy" data-flag="@X" onclick="openSidebar('107_Andazir, Acrimonys Toy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\149_Danaj War Lizard.png" id="149_Danaj War Lizard" data-flag="@X" onclick="openSidebar('149_Danaj War Lizard',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\6_Deliverance.png" id="6_Deliverance" data-flag="@X" onclick="openSidebar('6_Deliverance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\56_Petition the Bakhtak.png" id="56_Petition the Bakhtak" data-flag="@X" onclick="openSidebar('56_Petition the Bakhtak',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\75_Coronation of Shadows.png" id="75_Coronation of Shadows" data-flag="@X" onclick="openSidebar('75_Coronation of Shadows',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\110_Atashvar Stormcaller.png" id="110_Atashvar Stormcaller" data-flag="@X" onclick="openSidebar('110_Atashvar Stormcaller',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\158_Labor of Mercy.png" id="158_Labor of Mercy" data-flag="@X" onclick="openSidebar('158_Labor of Mercy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\13_Grove of the Sherdal.png" id="13_Grove of the Sherdal" data-flag="@X" onclick="openSidebar('13_Grove of the Sherdal',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\61_Revelation in Ruin.png" id="61_Revelation in Ruin" data-flag="@X" onclick="openSidebar('61_Revelation in Ruin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\76_Death by One Million Stings.png" id="76_Death by One Million Stings" data-flag="@X" onclick="openSidebar('76_Death by One Million Stings',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\117_Counsel of the Highest Peak.png" id="117_Counsel of the Highest Peak" data-flag="@X" onclick="openSidebar('117_Counsel of the Highest Peak',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\160_March of Many Banners.png" id="160_March of Many Banners" data-flag="@X" onclick="openSidebar('160_March of Many Banners',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\15_Labor of Family.png" id="15_Labor of Family" data-flag="@X" onclick="openSidebar('15_Labor of Family',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\62_Shomi's Boatswain.png" id="62_Shomis Boatswain" data-flag="@X" onclick="openSidebar('62_Shomis Boatswain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\80_Div of Fraying Sanity.png" id="80_Div of Fraying Sanity" data-flag="@X" onclick="openSidebar('80_Div of Fraying Sanity',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\127_Labor of Life.png" id="127_Labor of Life" data-flag="@X" onclick="openSidebar('127_Labor of Life',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\161_Marvels of Alkabah.png" id="161_Marvels of Alkabah" data-flag="@X" onclick="openSidebar('161_Marvels of Alkabah',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\20_Sarvagan Footman.png" id="20_Sarvagan Footman" data-flag="@X" onclick="openSidebar('20_Sarvagan Footman',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\68_Strip Away.png" id="68_Strip Away" data-flag="@X" onclick="openSidebar('68_Strip Away',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\82_Div of Ruined Bargains.png" id="82_Div of Ruined Bargains" data-flag="@X" onclick="openSidebar('82_Div of Ruined Bargains',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\134_Seizure of Atashvar.png" id="134_Seizure of Atashvar" data-flag="@X" onclick="openSidebar('134_Seizure of Atashvar',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\164_Plumecrowned Steed.png" id="164_Plumecrowned Steed" data-flag="@X" onclick="openSidebar('164_Plumecrowned Steed',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\33_Unbidden Mandate.png" id="33_Unbidden Mandate" data-flag="@X" onclick="openSidebar('33_Unbidden Mandate',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\70_Winged Enigma.png" id="70_Winged Enigma" data-flag="@X" onclick="openSidebar('70_Winged Enigma',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\89_Labor of Loyalty.png" id="89_Labor of Loyalty" data-flag="@X" onclick="openSidebar('89_Labor of Loyalty',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\137_Siegebreaker Manticore.png" id="137_Siegebreaker Manticore" data-flag="@X" onclick="openSidebar('137_Siegebreaker Manticore',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\175_Voice of Caravans.png" id="175_Voice of Caravans" data-flag="@X" onclick="openSidebar('175_Voice of Caravans',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\3_Binding of Hadak.png" id="3_Binding of Hadak" data-flag="@X" onclick="openSidebar('3_Binding of Hadak',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\36_Archivist of Soli.png" id="36_Archivist of Soli" data-flag="@X" onclick="openSidebar('36_Archivist of Soli',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\77_Death Deferred.png" id="77_Death Deferred" data-flag="@X" onclick="openSidebar('77_Death Deferred',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\138_Stingbreaker.png" id="138_Stingbreaker" data-flag="@X" onclick="openSidebar('138_Stingbreaker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\142_Akvani Soulwarden.png" id="142_Akvani Soulwarden" data-flag="@X" onclick="openSidebar('142_Akvani Soulwarden',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\8_Djinn of the Measured Road.png" id="8_Djinn of the Measured Road" data-flag="@X" onclick="openSidebar('8_Djinn of the Measured Road',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\38_Cast Overboard.png" id="38_Cast Overboard" data-flag="@X" onclick="openSidebar('38_Cast Overboard',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\78_Devourer of Devotees.png" id="78_Devourer of Devotees" data-flag="@X" onclick="openSidebar('78_Devourer of Devotees',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\106_Akvani Turncoat.png" id="106_Akvani Turncoat" data-flag="@X" onclick="openSidebar('106_Akvani Turncoat',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\143_Akvani Warbrute.png" id="143_Akvani Warbrute" data-flag="@X" onclick="openSidebar('143_Akvani Warbrute',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\11_Fateshifter's Augur.png" id="11_Fateshifters Augur" data-flag="@X" onclick="openSidebar('11_Fateshifters Augur',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\39_Chronicle of Tales.png" id="39_Chronicle of Tales" data-flag="@X" onclick="openSidebar('39_Chronicle of Tales',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\81_Div of Reflected Voices.png" id="81_Div of Reflected Voices" data-flag="@X" onclick="openSidebar('81_Div of Reflected Voices',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\109_Atashvar Mobilized.png" id="109_Atashvar Mobilized" data-flag="@X" onclick="openSidebar('109_Atashvar Mobilized',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\144_Blinded Stomper.png" id="144_Blinded Stomper" data-flag="@X" onclick="openSidebar('144_Blinded Stomper',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\12_Fell the Scourge.png" id="12_Fell the Scourge" data-flag="@X" onclick="openSidebar('12_Fell the Scourge',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\41_Dismiss the Unremarkable.png" id="41_Dismiss the Unremarkable" data-flag="@X" onclick="openSidebar('41_Dismiss the Unremarkable',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\86_Dungeoneering Opportunist.png" id="86_Dungeoneering Opportunist" data-flag="@X" onclick="openSidebar('86_Dungeoneering Opportunist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\112_Blade of Freedom.png" id="112_Blade of Freedom" data-flag="@X" onclick="openSidebar('112_Blade of Freedom',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\148_Chart the Plane.png" id="148_Chart the Plane" data-flag="@X" onclick="openSidebar('148_Chart the Plane',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\14_Guzar Stalwart.png" id="14_Guzar Stalwart" data-flag="@X" onclick="openSidebar('14_Guzar Stalwart',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\42_Displace in Time.png" id="42_Displace in Time" data-flag="@X" onclick="openSidebar('42_Displace in Time',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\88_Glimpse of Failure.png" id="88_Glimpse of Failure" data-flag="@X" onclick="openSidebar('88_Glimpse of Failure',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\114_Bonded Hunter.png" id="114_Bonded Hunter" data-flag="@X" onclick="openSidebar('114_Bonded Hunter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\151_Endearing Companionship.png" id="151_Endearing Companionship" data-flag="@X" onclick="openSidebar('151_Endearing Companionship',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\17_Rally the Fallen.png" id="17_Rally the Fallen" data-flag="@X" onclick="openSidebar('17_Rally the Fallen',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\48_Knight of Open Hands.png" id="48_Knight of Open Hands" data-flag="@X" onclick="openSidebar('48_Knight of Open Hands',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\94_Muktann Scorpion.png" id="94_Muktann Scorpion" data-flag="@X" onclick="openSidebar('94_Muktann Scorpion',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\115_Borrowed Fury.png" id="115_Borrowed Fury" data-flag="@X" onclick="openSidebar('115_Borrowed Fury',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\153_Fate of the Forgotten.png" id="153_Fate of the Forgotten" data-flag="@X" onclick="openSidebar('153_Fate of the Forgotten',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\18_Ride as One.png" id="18_Ride as One" data-flag="@X" onclick="openSidebar('18_Ride as One',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\52_Marjavar Bloomkeeper.png" id="52_Marjavar Bloomkeeper" data-flag="@X" onclick="openSidebar('52_Marjavar Bloomkeeper',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\95_Pass Into Oblivion.png" id="95_Pass Into Oblivion" data-flag="@X" onclick="openSidebar('95_Pass Into Oblivion',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\118_Crushed Resistance.png" id="118_Crushed Resistance" data-flag="@X" onclick="openSidebar('118_Crushed Resistance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\154_Foundation Forger.png" id="154_Foundation Forger" data-flag="@X" onclick="openSidebar('154_Foundation Forger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\21_Satrap of Empty Halls.png" id="21_Satrap of Empty Halls" data-flag="@X" onclick="openSidebar('21_Satrap of Empty Halls',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\55_Overflowing Imagination.png" id="55_Overflowing Imagination" data-flag="@X" onclick="openSidebar('55_Overflowing Imagination',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\96_Rend Mind and Flesh.png" id="96_Rend Mind and Flesh" data-flag="@X" onclick="openSidebar('96_Rend Mind and Flesh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\120_Heartfire Immolator.png" id="120_Heartfire Immolator" data-flag="@X" onclick="openSidebar('120_Heartfire Immolator',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\155_Glow of Defiance.png" id="155_Glow of Defiance" data-flag="@X" onclick="openSidebar('155_Glow of Defiance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\23_Sepidgar Conscript.png" id="23_Sepidgar Conscript" data-flag="@X" onclick="openSidebar('23_Sepidgar Conscript',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\57_Phantomsteed Cavalier.png" id="57_Phantomsteed Cavalier" data-flag="@X" onclick="openSidebar('57_Phantomsteed Cavalier',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\98_Scour the Camp.png" id="98_Scour the Camp" data-flag="@X" onclick="openSidebar('98_Scour the Camp',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\124_Impatient Wishgranter.png" id="124_Impatient Wishgranter" data-flag="@X" onclick="openSidebar('124_Impatient Wishgranter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\156_Grasping Visage.png" id="156_Grasping Visage" data-flag="@X" onclick="openSidebar('156_Grasping Visage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\26_Simurgh of the Quiet Pool.png" id="26_Simurgh of the Quiet Pool" data-flag="@X" onclick="openSidebar('26_Simurgh of the Quiet Pool',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\60_Reefclaw Dredger.png" id="60_Reefclaw Dredger" data-flag="@X" onclick="openSidebar('60_Reefclaw Dredger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\100_Spoils of the Stinging King.png" id="100_Spoils of the Stinging King" data-flag="@X" onclick="openSidebar('100_Spoils of the Stinging King',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\125_Justiciar of Distant Doors.png" id="125_Justiciar of Distant Doors" data-flag="@X" onclick="openSidebar('125_Justiciar of Distant Doors',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\166_Realm That Never Rests.png" id="166_Realm That Never Rests" data-flag="@X" onclick="openSidebar('166_Realm That Never Rests',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\28_Soli Skyguard.png" id="28_Soli Skyguard" data-flag="@X" onclick="openSidebar('28_Soli Skyguard',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\63_Silent Seer.png" id="63_Silent Seer" data-flag="@X" onclick="openSidebar('63_Silent Seer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\101_Spymaster Sphinx.png" id="101_Spymaster Sphinx" data-flag="@X" onclick="openSidebar('101_Spymaster Sphinx',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\129_Muktann Mirage.png" id="129_Muktann Mirage" data-flag="@X" onclick="openSidebar('129_Muktann Mirage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\170_Scouring Windseeker.png" id="170_Scouring Windseeker" data-flag="@X" onclick="openSidebar('170_Scouring Windseeker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\31_Storyteller of Unearthed Tales.png" id="31_Storyteller of Unearthed Tales" data-flag="@X" onclick="openSidebar('31_Storyteller of Unearthed Tales',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\65_Skyrelic Adept.png" id="65_Skyrelic Adept" data-flag="@X" onclick="openSidebar('65_Skyrelic Adept',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\104_Subdue Undeath.png" id="104_Subdue Undeath" data-flag="@X" onclick="openSidebar('104_Subdue Undeath',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\131_Pyroclastic Blood.png" id="131_Pyroclastic Blood" data-flag="@X" onclick="openSidebar('131_Pyroclastic Blood',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\173_Tombbound Creeper.png" id="173_Tombbound Creeper" data-flag="@X" onclick="openSidebar('173_Tombbound Creeper',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\34_Warden of Avaz.png" id="34_Warden of Avaz" data-flag="@X" onclick="openSidebar('34_Warden of Avaz',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\69_Voyage of a Thousand Tales.png" id="69_Voyage of a Thousand Tales" data-flag="@X" onclick="openSidebar('69_Voyage of a Thousand Tales',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\105_Withered Deathchanter.png" id="105_Withered Deathchanter" data-flag="@X" onclick="openSidebar('105_Withered Deathchanter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\133_Secondhand Serenade.png" id="133_Secondhand Serenade" data-flag="@X" onclick="openSidebar('133_Secondhand Serenade',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\176_Wonderlight Magus.png" id="176_Wonderlight Magus" data-flag="@X" onclick="openSidebar('176_Wonderlight Magus',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\1_Banish the False Prince.png" id="1_Banish the False Prince" data-flag="@X" onclick="openSidebar('1_Banish the False Prince',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\37_Cage of Still Time.png" id="37_Cage of Still Time" data-flag="@X" onclick="openSidebar('37_Cage of Still Time',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\72_Blade of the Faceless.png" id="72_Blade of the Faceless" data-flag="@X" onclick="openSidebar('72_Blade of the Faceless',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\139_Tempest of Lightning and Dust.png" id="139_Tempest of Lightning and Dust" data-flag="@X" onclick="openSidebar('139_Tempest of Lightning and Dust',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\145_Boonscale Snake.png" id="145_Boonscale Snake" data-flag="@X" onclick="openSidebar('145_Boonscale Snake',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\2_Bearer of Fallen Tidings.png" id="2_Bearer of Fallen Tidings" data-flag="@X" onclick="openSidebar('2_Bearer of Fallen Tidings',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\40_Deny the Decree.png" id="40_Deny the Decree" data-flag="@X" onclick="openSidebar('40_Deny the Decree',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\74_Cloaked Instigator.png" id="74_Cloaked Instigator" data-flag="@X" onclick="openSidebar('74_Cloaked Instigator',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\108_Atashvar Bowguard.png" id="108_Atashvar Bowguard" data-flag="@X" onclick="openSidebar('108_Atashvar Bowguard',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\147_Caravan Rhino.png" id="147_Caravan Rhino" data-flag="@X" onclick="openSidebar('147_Caravan Rhino',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\7_Div of Broken Teeth.png" id="7_Div of Broken Teeth" data-flag="@X" onclick="openSidebar('7_Div of Broken Teeth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\43_Djinn of Hidden Riches.png" id="43_Djinn of Hidden Riches" data-flag="@X" onclick="openSidebar('43_Djinn of Hidden Riches',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\83_Div of the False Hero.png" id="83_Div of the False Hero" data-flag="@X" onclick="openSidebar('83_Div of the False Hero',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\111_Bitter Ambition.png" id="111_Bitter Ambition" data-flag="@X" onclick="openSidebar('111_Bitter Ambition',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\150_Earthbound Simurgh.png" id="150_Earthbound Simurgh" data-flag="@X" onclick="openSidebar('150_Earthbound Simurgh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\9_Enduring Sandshaper.png" id="9_Enduring Sandshaper" data-flag="@X" onclick="openSidebar('9_Enduring Sandshaper',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\44_Garmrud Peddler.png" id="44_Garmrud Peddler" data-flag="@X" onclick="openSidebar('44_Garmrud Peddler',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\84_Dreadlaugh Manticore.png" id="84_Dreadlaugh Manticore" data-flag="@X" onclick="openSidebar('84_Dreadlaugh Manticore',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\113_Blinding Grit.png" id="113_Blinding Grit" data-flag="@X" onclick="openSidebar('113_Blinding Grit',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\157_Harborline Fishermen.png" id="157_Harborline Fishermen" data-flag="@X" onclick="openSidebar('157_Harborline Fishermen',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\10_Eyes of Every Rank.png" id="10_Eyes of Every Rank" data-flag="@X" onclick="openSidebar('10_Eyes of Every Rank',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\45_Garmrud Skyscout.png" id="45_Garmrud Skyscout" data-flag="@X" onclick="openSidebar('45_Garmrud Skyscout',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\85_Dreamstep Assassin.png" id="85_Dreamstep Assassin" data-flag="@X" onclick="openSidebar('85_Dreamstep Assassin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\116_Conductor of Hidden Patterns.png" id="116_Conductor of Hidden Patterns" data-flag="@X" onclick="openSidebar('116_Conductor of Hidden Patterns',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\162_Nizev Conspirators.png" id="162_Nizev Conspirators" data-flag="@X" onclick="openSidebar('162_Nizev Conspirators',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\16_Peacock of Good Omens.png" id="16_Peacock of Good Omens" data-flag="@X" onclick="openSidebar('16_Peacock of Good Omens',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\47_Knife of the Hidden Face.png" id="47_Knife of the Hidden Face" data-flag="@X" onclick="openSidebar('47_Knife of the Hidden Face',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\87_Escort to Damnation.png" id="87_Escort to Damnation" data-flag="@X" onclick="openSidebar('87_Escort to Damnation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\119_Echoing Fury.png" id="119_Echoing Fury" data-flag="@X" onclick="openSidebar('119_Echoing Fury',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\163_Pathfinder of the Dunesea.png" id="163_Pathfinder of the Dunesea" data-flag="@X" onclick="openSidebar('163_Pathfinder of the Dunesea',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\19_Ruinic Safecraker.png" id="19_Ruinic Safecraker" data-flag="@X" onclick="openSidebar('19_Ruinic Safecraker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\53_Nizev Courier.png" id="53_Nizev Courier" data-flag="@X" onclick="openSidebar('53_Nizev Courier',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\90_Marshal of Sarvagan.png" id="90_Marshal of Sarvagan" data-flag="@X" onclick="openSidebar('90_Marshal of Sarvagan',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\121_Heist Captain.png" id="121_Heist Captain" data-flag="@X" onclick="openSidebar('121_Heist Captain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\165_Prove Your Might.png" id="165_Prove Your Might" data-flag="@X" onclick="openSidebar('165_Prove Your Might',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\22_Searing Sands.png" id="22_Searing Sands" data-flag="@X" onclick="openSidebar('22_Searing Sands',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\54_Omens by Starlight.png" id="54_Omens by Starlight" data-flag="@X" onclick="openSidebar('54_Omens by Starlight',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\91_Maw of the Ultimate Sacrifice.png" id="91_Maw of the Ultimate Sacrifice" data-flag="@X" onclick="openSidebar('91_Maw of the Ultimate Sacrifice',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\122_Host of the Honored.png" id="122_Host of the Honored" data-flag="@X" onclick="openSidebar('122_Host of the Honored',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\167_Roadworn Dromedary.png" id="167_Roadworn Dromedary" data-flag="@X" onclick="openSidebar('167_Roadworn Dromedary',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\24_Shawl of the Rainbow Feather.png" id="24_Shawl of the Rainbow Feather" data-flag="@X" onclick="openSidebar('24_Shawl of the Rainbow Feather',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\58_Promise of Greatness.png" id="58_Promise of Greatness" data-flag="@X" onclick="openSidebar('58_Promise of Greatness',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\92_Means to an End.png" id="92_Means to an End" data-flag="@X" onclick="openSidebar('92_Means to an End',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\128_Mirageblade Arcanist.png" id="128_Mirageblade Arcanist" data-flag="@X" onclick="openSidebar('128_Mirageblade Arcanist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\168_Sahra's Brute.png" id="168_Sahras Brute" data-flag="@X" onclick="openSidebar('168_Sahras Brute',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\25_Silent Ambusher.png" id="25_Silent Ambusher" data-flag="@X" onclick="openSidebar('25_Silent Ambusher',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\59_Razvar Pactcaller.png" id="59_Razvar Pactcaller" data-flag="@X" onclick="openSidebar('59_Razvar Pactcaller',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\93_Mournful Withered.png" id="93_Mournful Withered" data-flag="@X" onclick="openSidebar('93_Mournful Withered',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\130_One Handed Execution.png" id="130_One Handed Execution" data-flag="@X" onclick="openSidebar('130_One Handed Execution',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\169_Satrap of Forgotten Farms.png" id="169_Satrap of Forgotten Farms" data-flag="@X" onclick="openSidebar('169_Satrap of Forgotten Farms',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\29_Steel the Spirit.png" id="29_Steel the Spirit" data-flag="@X" onclick="openSidebar('29_Steel the Spirit',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\64_Skycrowned Despot.png" id="64_Skycrowned Despot" data-flag="@X" onclick="openSidebar('64_Skycrowned Despot',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\97_Rotten Veilcaster.png" id="97_Rotten Veilcaster" data-flag="@X" onclick="openSidebar('97_Rotten Veilcaster',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\132_Rally the Firebinders.png" id="132_Rally the Firebinders" data-flag="@X" onclick="openSidebar('132_Rally the Firebinders',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\171_Splintered Devotee.png" id="171_Splintered Devotee" data-flag="@X" onclick="openSidebar('171_Splintered Devotee',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\32_Strategist of Empty Halls.png" id="32_Strategist of Empty Halls" data-flag="@X" onclick="openSidebar('32_Strategist of Empty Halls',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\66_Spitebound Bakhtak.png" id="66_Spitebound Bakhtak" data-flag="@X" onclick="openSidebar('66_Spitebound Bakhtak',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\102_Strike Down.png" id="102_Strike Down" data-flag="@X" onclick="openSidebar('102_Strike Down',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\135_Sepidgar Outrider.png" id="135_Sepidgar Outrider" data-flag="@X" onclick="openSidebar('135_Sepidgar Outrider',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\172_Spoils of the Muktann.png" id="172_Spoils of the Muktann" data-flag="@X" onclick="openSidebar('172_Spoils of the Muktann',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\35_Warfather of Atashvar.png" id="35_Warfather of Atashvar" data-flag="@X" onclick="openSidebar('35_Warfather of Atashvar',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\67_Step Into Wonder.png" id="67_Step Into Wonder" data-flag="@X" onclick="openSidebar('67_Step Into Wonder',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\103_Strike Through Decay.png" id="103_Strike Through Decay" data-flag="@X" onclick="openSidebar('103_Strike Through Decay',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\136_Serpent of the Shabnam Sea.png" id="136_Serpent of the Shabnam Sea" data-flag="@X" onclick="openSidebar('136_Serpent of the Shabnam Sea',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\174_Trail Through Old Stones.png" id="174_Trail Through Old Stones" data-flag="@X" onclick="openSidebar('174_Trail Through Old Stones',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\140_Volleyweaver Conjurer.png" id="140_Volleyweaver Conjurer" data-flag="@X" onclick="openSidebar('140_Volleyweaver Conjurer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\G5L-files\img\27_Skycrested Roc.png" id="G5L_27_Skycrested Roc" data-flag="@X" onclick="openSidebar('G5L_27_Skycrested Roc',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\46_General of Phantasms.png" id="G5L_46_General of Phantasms" data-flag="@X" onclick="openSidebar('G5L_46_General of Phantasms',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\79_Div of Bleeding Reverence.png" id="G5L_79_Div of Bleeding Reverence" data-flag="@X" onclick="openSidebar('G5L_79_Div of Bleeding Reverence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\123_Huma of Radiant Flames.png" id="G5L_123_Huma of Radiant Flames" data-flag="@X" onclick="openSidebar('G5L_123_Huma of Radiant Flames',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\152_Fall of the Tyrant.png" id="G5L_152_Fall of the Tyrant" data-flag="@X" onclick="openSidebar('G5L_152_Fall of the Tyrant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\30_Stories in Shifting Sand.png" id="G5L_30_Stories in Shifting Sand" data-flag="@X" onclick="openSidebar('G5L_30_Stories in Shifting Sand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\50_Last of Marjavar.png" id="G5L_50_Last of Marjavar" data-flag="@X" onclick="openSidebar('G5L_50_Last of Marjavar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\99_Seat of the Faceless.png" id="G5L_99_Seat of the Faceless" data-flag="@X" onclick="openSidebar('G5L_99_Seat of the Faceless',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\126_Koios, the Bereaved.png" id="G5L_126_Koios, the Bereaved" data-flag="@X" onclick="openSidebar('G5L_126_Koios, the Bereaved',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\159_Legion of Infinite Maws.png" id="G5L_159_Legion of Infinite Maws" data-flag="@X" onclick="openSidebar('G5L_159_Legion of Infinite Maws',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\4_Blanched Warden.png" id="G5L_4_Blanched Warden" data-flag="@X" onclick="openSidebar('G5L_4_Blanched Warden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\49_Labor of Wit.png" id="G5L_49_Labor of Wit" data-flag="@X" onclick="openSidebar('G5L_49_Labor of Wit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\71_Amaurosis.png" id="G5L_71_Amaurosis" data-flag="@X" onclick="openSidebar('G5L_71_Amaurosis',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\141_The Young Proselyte.png" id="G5L_141_The Young Proselyte" data-flag="@X" onclick="openSidebar('G5L_141_The Young Proselyte',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\146_Break Their Markets Open.png" id="G5L_146_Break Their Markets Open" data-flag="@X" onclick="openSidebar('G5L_146_Break Their Markets Open',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\5_Choir of Steadfast Hearts.png" id="G5L_5_Choir of Steadfast Hearts" data-flag="@X" onclick="openSidebar('G5L_5_Choir of Steadfast Hearts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\51_Maneli Shellsinger.png" id="G5L_51_Maneli Shellsinger" data-flag="@X" onclick="openSidebar('G5L_51_Maneli Shellsinger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\73_Choir of Trembling Hearts.png" id="G5L_73_Choir of Trembling Hearts" data-flag="@X" onclick="openSidebar('G5L_73_Choir of Trembling Hearts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\107_Andazir, Acrimony's Toy.png" id="G5L_107_Andazir, Acrimonys Toy" data-flag="@X" onclick="openSidebar('G5L_107_Andazir, Acrimonys Toy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\149_Danaj War Lizard.png" id="G5L_149_Danaj War Lizard" data-flag="@X" onclick="openSidebar('G5L_149_Danaj War Lizard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\6_Deliverance.png" id="G5L_6_Deliverance" data-flag="@X" onclick="openSidebar('G5L_6_Deliverance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\56_Petition the Bakhtak.png" id="G5L_56_Petition the Bakhtak" data-flag="@X" onclick="openSidebar('G5L_56_Petition the Bakhtak',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\75_Coronation of Shadows.png" id="G5L_75_Coronation of Shadows" data-flag="@X" onclick="openSidebar('G5L_75_Coronation of Shadows',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\110_Atashvar Stormcaller.png" id="G5L_110_Atashvar Stormcaller" data-flag="@X" onclick="openSidebar('G5L_110_Atashvar Stormcaller',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\158_Labor of Mercy.png" id="G5L_158_Labor of Mercy" data-flag="@X" onclick="openSidebar('G5L_158_Labor of Mercy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\13_Grove of the Sherdal.png" id="G5L_13_Grove of the Sherdal" data-flag="@X" onclick="openSidebar('G5L_13_Grove of the Sherdal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\61_Revelation in Ruin.png" id="G5L_61_Revelation in Ruin" data-flag="@X" onclick="openSidebar('G5L_61_Revelation in Ruin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\76_Death by One Million Stings.png" id="G5L_76_Death by One Million Stings" data-flag="@X" onclick="openSidebar('G5L_76_Death by One Million Stings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\117_Counsel of the Highest Peak.png" id="G5L_117_Counsel of the Highest Peak" data-flag="@X" onclick="openSidebar('G5L_117_Counsel of the Highest Peak',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\160_March of Many Banners.png" id="G5L_160_March of Many Banners" data-flag="@X" onclick="openSidebar('G5L_160_March of Many Banners',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\15_Labor of Family.png" id="G5L_15_Labor of Family" data-flag="@X" onclick="openSidebar('G5L_15_Labor of Family',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\62_Shomi's Boatswain.png" id="G5L_62_Shomis Boatswain" data-flag="@X" onclick="openSidebar('G5L_62_Shomis Boatswain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\80_Div of Fraying Sanity.png" id="G5L_80_Div of Fraying Sanity" data-flag="@X" onclick="openSidebar('G5L_80_Div of Fraying Sanity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\127_Labor of Life.png" id="G5L_127_Labor of Life" data-flag="@X" onclick="openSidebar('G5L_127_Labor of Life',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\161_Marvels of Alkabah.png" id="G5L_161_Marvels of Alkabah" data-flag="@X" onclick="openSidebar('G5L_161_Marvels of Alkabah',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\20_Sarvagan Footman.png" id="G5L_20_Sarvagan Footman" data-flag="@X" onclick="openSidebar('G5L_20_Sarvagan Footman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\68_Strip Away.png" id="G5L_68_Strip Away" data-flag="@X" onclick="openSidebar('G5L_68_Strip Away',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\82_Div of Ruined Bargains.png" id="G5L_82_Div of Ruined Bargains" data-flag="@X" onclick="openSidebar('G5L_82_Div of Ruined Bargains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\134_Seizure of Atashvar.png" id="G5L_134_Seizure of Atashvar" data-flag="@X" onclick="openSidebar('G5L_134_Seizure of Atashvar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\164_Plumecrowned Steed.png" id="G5L_164_Plumecrowned Steed" data-flag="@X" onclick="openSidebar('G5L_164_Plumecrowned Steed',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\33_Unbidden Mandate.png" id="G5L_33_Unbidden Mandate" data-flag="@X" onclick="openSidebar('G5L_33_Unbidden Mandate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\70_Winged Enigma.png" id="G5L_70_Winged Enigma" data-flag="@X" onclick="openSidebar('G5L_70_Winged Enigma',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\89_Labor of Loyalty.png" id="G5L_89_Labor of Loyalty" data-flag="@X" onclick="openSidebar('G5L_89_Labor of Loyalty',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\137_Siegebreaker Manticore.png" id="G5L_137_Siegebreaker Manticore" data-flag="@X" onclick="openSidebar('G5L_137_Siegebreaker Manticore',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\175_Voice of Caravans.png" id="G5L_175_Voice of Caravans" data-flag="@X" onclick="openSidebar('G5L_175_Voice of Caravans',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\3_Binding of Hadak.png" id="G5L_3_Binding of Hadak" data-flag="@X" onclick="openSidebar('G5L_3_Binding of Hadak',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\36_Archivist of Soli.png" id="G5L_36_Archivist of Soli" data-flag="@X" onclick="openSidebar('G5L_36_Archivist of Soli',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\77_Death Deferred.png" id="G5L_77_Death Deferred" data-flag="@X" onclick="openSidebar('G5L_77_Death Deferred',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\138_Stingbreaker.png" id="G5L_138_Stingbreaker" data-flag="@X" onclick="openSidebar('G5L_138_Stingbreaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\142_Akvani Soulwarden.png" id="G5L_142_Akvani Soulwarden" data-flag="@X" onclick="openSidebar('G5L_142_Akvani Soulwarden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\8_Djinn of the Measured Road.png" id="G5L_8_Djinn of the Measured Road" data-flag="@X" onclick="openSidebar('G5L_8_Djinn of the Measured Road',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\38_Cast Overboard.png" id="G5L_38_Cast Overboard" data-flag="@X" onclick="openSidebar('G5L_38_Cast Overboard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\78_Devourer of Devotees.png" id="G5L_78_Devourer of Devotees" data-flag="@X" onclick="openSidebar('G5L_78_Devourer of Devotees',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\106_Akvani Turncoat.png" id="G5L_106_Akvani Turncoat" data-flag="@X" onclick="openSidebar('G5L_106_Akvani Turncoat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\143_Akvani Warbrute.png" id="G5L_143_Akvani Warbrute" data-flag="@X" onclick="openSidebar('G5L_143_Akvani Warbrute',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\11_Fateshifter's Augur.png" id="G5L_11_Fateshifters Augur" data-flag="@X" onclick="openSidebar('G5L_11_Fateshifters Augur',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\39_Chronicle of Tales.png" id="G5L_39_Chronicle of Tales" data-flag="@X" onclick="openSidebar('G5L_39_Chronicle of Tales',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\81_Div of Reflected Voices.png" id="G5L_81_Div of Reflected Voices" data-flag="@X" onclick="openSidebar('G5L_81_Div of Reflected Voices',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\109_Atashvar Mobilized.png" id="G5L_109_Atashvar Mobilized" data-flag="@X" onclick="openSidebar('G5L_109_Atashvar Mobilized',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\144_Blinded Stomper.png" id="G5L_144_Blinded Stomper" data-flag="@X" onclick="openSidebar('G5L_144_Blinded Stomper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\12_Fell the Scourge.png" id="G5L_12_Fell the Scourge" data-flag="@X" onclick="openSidebar('G5L_12_Fell the Scourge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\41_Dismiss the Unremarkable.png" id="G5L_41_Dismiss the Unremarkable" data-flag="@X" onclick="openSidebar('G5L_41_Dismiss the Unremarkable',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\86_Dungeoneering Opportunist.png" id="G5L_86_Dungeoneering Opportunist" data-flag="@X" onclick="openSidebar('G5L_86_Dungeoneering Opportunist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\112_Blade of Freedom.png" id="G5L_112_Blade of Freedom" data-flag="@X" onclick="openSidebar('G5L_112_Blade of Freedom',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\148_Chart the Plane.png" id="G5L_148_Chart the Plane" data-flag="@X" onclick="openSidebar('G5L_148_Chart the Plane',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\14_Guzar Stalwart.png" id="G5L_14_Guzar Stalwart" data-flag="@X" onclick="openSidebar('G5L_14_Guzar Stalwart',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\42_Displace in Time.png" id="G5L_42_Displace in Time" data-flag="@X" onclick="openSidebar('G5L_42_Displace in Time',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\88_Glimpse of Failure.png" id="G5L_88_Glimpse of Failure" data-flag="@X" onclick="openSidebar('G5L_88_Glimpse of Failure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\114_Bonded Hunter.png" id="G5L_114_Bonded Hunter" data-flag="@X" onclick="openSidebar('G5L_114_Bonded Hunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\151_Endearing Companionship.png" id="G5L_151_Endearing Companionship" data-flag="@X" onclick="openSidebar('G5L_151_Endearing Companionship',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\17_Rally the Fallen.png" id="G5L_17_Rally the Fallen" data-flag="@X" onclick="openSidebar('G5L_17_Rally the Fallen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\48_Knight of Open Hands.png" id="G5L_48_Knight of Open Hands" data-flag="@X" onclick="openSidebar('G5L_48_Knight of Open Hands',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\94_Muktann Scorpion.png" id="G5L_94_Muktann Scorpion" data-flag="@X" onclick="openSidebar('G5L_94_Muktann Scorpion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\115_Borrowed Fury.png" id="G5L_115_Borrowed Fury" data-flag="@X" onclick="openSidebar('G5L_115_Borrowed Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\153_Fate of the Forgotten.png" id="G5L_153_Fate of the Forgotten" data-flag="@X" onclick="openSidebar('G5L_153_Fate of the Forgotten',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\18_Ride as One.png" id="G5L_18_Ride as One" data-flag="@X" onclick="openSidebar('G5L_18_Ride as One',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\52_Marjavar Bloomkeeper.png" id="G5L_52_Marjavar Bloomkeeper" data-flag="@X" onclick="openSidebar('G5L_52_Marjavar Bloomkeeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\95_Pass Into Oblivion.png" id="G5L_95_Pass Into Oblivion" data-flag="@X" onclick="openSidebar('G5L_95_Pass Into Oblivion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\118_Crushed Resistance.png" id="G5L_118_Crushed Resistance" data-flag="@X" onclick="openSidebar('G5L_118_Crushed Resistance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\154_Foundation Forger.png" id="G5L_154_Foundation Forger" data-flag="@X" onclick="openSidebar('G5L_154_Foundation Forger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\21_Satrap of Empty Halls.png" id="G5L_21_Satrap of Empty Halls" data-flag="@X" onclick="openSidebar('G5L_21_Satrap of Empty Halls',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\55_Overflowing Imagination.png" id="G5L_55_Overflowing Imagination" data-flag="@X" onclick="openSidebar('G5L_55_Overflowing Imagination',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\96_Rend Mind and Flesh.png" id="G5L_96_Rend Mind and Flesh" data-flag="@X" onclick="openSidebar('G5L_96_Rend Mind and Flesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\120_Heartfire Immolator.png" id="G5L_120_Heartfire Immolator" data-flag="@X" onclick="openSidebar('G5L_120_Heartfire Immolator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\155_Glow of Defiance.png" id="G5L_155_Glow of Defiance" data-flag="@X" onclick="openSidebar('G5L_155_Glow of Defiance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\23_Sepidgar Conscript.png" id="G5L_23_Sepidgar Conscript" data-flag="@X" onclick="openSidebar('G5L_23_Sepidgar Conscript',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\57_Phantomsteed Cavalier.png" id="G5L_57_Phantomsteed Cavalier" data-flag="@X" onclick="openSidebar('G5L_57_Phantomsteed Cavalier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\98_Scour the Camp.png" id="G5L_98_Scour the Camp" data-flag="@X" onclick="openSidebar('G5L_98_Scour the Camp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\124_Impatient Wishgranter.png" id="G5L_124_Impatient Wishgranter" data-flag="@X" onclick="openSidebar('G5L_124_Impatient Wishgranter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\156_Grasping Visage.png" id="G5L_156_Grasping Visage" data-flag="@X" onclick="openSidebar('G5L_156_Grasping Visage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\26_Simurgh of the Quiet Pool.png" id="G5L_26_Simurgh of the Quiet Pool" data-flag="@X" onclick="openSidebar('G5L_26_Simurgh of the Quiet Pool',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\60_Reefclaw Dredger.png" id="G5L_60_Reefclaw Dredger" data-flag="@X" onclick="openSidebar('G5L_60_Reefclaw Dredger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\100_Spoils of the Stinging King.png" id="G5L_100_Spoils of the Stinging King" data-flag="@X" onclick="openSidebar('G5L_100_Spoils of the Stinging King',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\125_Justiciar of Distant Doors.png" id="G5L_125_Justiciar of Distant Doors" data-flag="@X" onclick="openSidebar('G5L_125_Justiciar of Distant Doors',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\166_Realm That Never Rests.png" id="G5L_166_Realm That Never Rests" data-flag="@X" onclick="openSidebar('G5L_166_Realm That Never Rests',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\28_Soli Skyguard.png" id="G5L_28_Soli Skyguard" data-flag="@X" onclick="openSidebar('G5L_28_Soli Skyguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\63_Silent Seer.png" id="G5L_63_Silent Seer" data-flag="@X" onclick="openSidebar('G5L_63_Silent Seer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\101_Spymaster Sphinx.png" id="G5L_101_Spymaster Sphinx" data-flag="@X" onclick="openSidebar('G5L_101_Spymaster Sphinx',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\129_Muktann Mirage.png" id="G5L_129_Muktann Mirage" data-flag="@X" onclick="openSidebar('G5L_129_Muktann Mirage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\170_Scouring Windseeker.png" id="G5L_170_Scouring Windseeker" data-flag="@X" onclick="openSidebar('G5L_170_Scouring Windseeker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\31_Storyteller of Unearthed Tales.png" id="G5L_31_Storyteller of Unearthed Tales" data-flag="@X" onclick="openSidebar('G5L_31_Storyteller of Unearthed Tales',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\65_Skyrelic Adept.png" id="G5L_65_Skyrelic Adept" data-flag="@X" onclick="openSidebar('G5L_65_Skyrelic Adept',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\104_Subdue Undeath.png" id="G5L_104_Subdue Undeath" data-flag="@X" onclick="openSidebar('G5L_104_Subdue Undeath',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\131_Pyroclastic Blood.png" id="G5L_131_Pyroclastic Blood" data-flag="@X" onclick="openSidebar('G5L_131_Pyroclastic Blood',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\173_Tombbound Creeper.png" id="G5L_173_Tombbound Creeper" data-flag="@X" onclick="openSidebar('G5L_173_Tombbound Creeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\34_Warden of Avaz.png" id="G5L_34_Warden of Avaz" data-flag="@X" onclick="openSidebar('G5L_34_Warden of Avaz',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\69_Voyage of a Thousand Tales.png" id="G5L_69_Voyage of a Thousand Tales" data-flag="@X" onclick="openSidebar('G5L_69_Voyage of a Thousand Tales',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\105_Withered Deathchanter.png" id="G5L_105_Withered Deathchanter" data-flag="@X" onclick="openSidebar('G5L_105_Withered Deathchanter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\133_Secondhand Serenade.png" id="G5L_133_Secondhand Serenade" data-flag="@X" onclick="openSidebar('G5L_133_Secondhand Serenade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\176_Wonderlight Magus.png" id="G5L_176_Wonderlight Magus" data-flag="@X" onclick="openSidebar('G5L_176_Wonderlight Magus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\1_Banish the False Prince.png" id="G5L_1_Banish the False Prince" data-flag="@X" onclick="openSidebar('G5L_1_Banish the False Prince',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\37_Cage of Still Time.png" id="G5L_37_Cage of Still Time" data-flag="@X" onclick="openSidebar('G5L_37_Cage of Still Time',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\72_Blade of the Faceless.png" id="G5L_72_Blade of the Faceless" data-flag="@X" onclick="openSidebar('G5L_72_Blade of the Faceless',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\139_Tempest of Lightning and Dust.png" id="G5L_139_Tempest of Lightning and Dust" data-flag="@X" onclick="openSidebar('G5L_139_Tempest of Lightning and Dust',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\145_Boonscale Snake.png" id="G5L_145_Boonscale Snake" data-flag="@X" onclick="openSidebar('G5L_145_Boonscale Snake',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\2_Bearer of Fallen Tidings.png" id="G5L_2_Bearer of Fallen Tidings" data-flag="@X" onclick="openSidebar('G5L_2_Bearer of Fallen Tidings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\40_Deny the Decree.png" id="G5L_40_Deny the Decree" data-flag="@X" onclick="openSidebar('G5L_40_Deny the Decree',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\74_Cloaked Instigator.png" id="G5L_74_Cloaked Instigator" data-flag="@X" onclick="openSidebar('G5L_74_Cloaked Instigator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\108_Atashvar Bowguard.png" id="G5L_108_Atashvar Bowguard" data-flag="@X" onclick="openSidebar('G5L_108_Atashvar Bowguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\147_Caravan Rhino.png" id="G5L_147_Caravan Rhino" data-flag="@X" onclick="openSidebar('G5L_147_Caravan Rhino',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\7_Div of Broken Teeth.png" id="G5L_7_Div of Broken Teeth" data-flag="@X" onclick="openSidebar('G5L_7_Div of Broken Teeth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\43_Djinn of Hidden Riches.png" id="G5L_43_Djinn of Hidden Riches" data-flag="@X" onclick="openSidebar('G5L_43_Djinn of Hidden Riches',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\83_Div of the False Hero.png" id="G5L_83_Div of the False Hero" data-flag="@X" onclick="openSidebar('G5L_83_Div of the False Hero',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\111_Bitter Ambition.png" id="G5L_111_Bitter Ambition" data-flag="@X" onclick="openSidebar('G5L_111_Bitter Ambition',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\150_Earthbound Simurgh.png" id="G5L_150_Earthbound Simurgh" data-flag="@X" onclick="openSidebar('G5L_150_Earthbound Simurgh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\9_Enduring Sandshaper.png" id="G5L_9_Enduring Sandshaper" data-flag="@X" onclick="openSidebar('G5L_9_Enduring Sandshaper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\44_Garmrud Peddler.png" id="G5L_44_Garmrud Peddler" data-flag="@X" onclick="openSidebar('G5L_44_Garmrud Peddler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\84_Dreadlaugh Manticore.png" id="G5L_84_Dreadlaugh Manticore" data-flag="@X" onclick="openSidebar('G5L_84_Dreadlaugh Manticore',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\113_Blinding Grit.png" id="G5L_113_Blinding Grit" data-flag="@X" onclick="openSidebar('G5L_113_Blinding Grit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\157_Harborline Fishermen.png" id="G5L_157_Harborline Fishermen" data-flag="@X" onclick="openSidebar('G5L_157_Harborline Fishermen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\10_Eyes of Every Rank.png" id="G5L_10_Eyes of Every Rank" data-flag="@X" onclick="openSidebar('G5L_10_Eyes of Every Rank',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\45_Garmrud Skyscout.png" id="G5L_45_Garmrud Skyscout" data-flag="@X" onclick="openSidebar('G5L_45_Garmrud Skyscout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\85_Dreamstep Assassin.png" id="G5L_85_Dreamstep Assassin" data-flag="@X" onclick="openSidebar('G5L_85_Dreamstep Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\116_Conductor of Hidden Patterns.png" id="G5L_116_Conductor of Hidden Patterns" data-flag="@X" onclick="openSidebar('G5L_116_Conductor of Hidden Patterns',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\162_Nizev Conspirators.png" id="G5L_162_Nizev Conspirators" data-flag="@X" onclick="openSidebar('G5L_162_Nizev Conspirators',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\16_Peacock of Good Omens.png" id="G5L_16_Peacock of Good Omens" data-flag="@X" onclick="openSidebar('G5L_16_Peacock of Good Omens',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\47_Knife of the Hidden Face.png" id="G5L_47_Knife of the Hidden Face" data-flag="@X" onclick="openSidebar('G5L_47_Knife of the Hidden Face',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\87_Escort to Damnation.png" id="G5L_87_Escort to Damnation" data-flag="@X" onclick="openSidebar('G5L_87_Escort to Damnation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\119_Echoing Fury.png" id="G5L_119_Echoing Fury" data-flag="@X" onclick="openSidebar('G5L_119_Echoing Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\163_Pathfinder of the Dunesea.png" id="G5L_163_Pathfinder of the Dunesea" data-flag="@X" onclick="openSidebar('G5L_163_Pathfinder of the Dunesea',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\19_Ruinic Safecraker.png" id="G5L_19_Ruinic Safecraker" data-flag="@X" onclick="openSidebar('G5L_19_Ruinic Safecraker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\53_Nizev Courier.png" id="G5L_53_Nizev Courier" data-flag="@X" onclick="openSidebar('G5L_53_Nizev Courier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\90_Marshal of Sarvagan.png" id="G5L_90_Marshal of Sarvagan" data-flag="@X" onclick="openSidebar('G5L_90_Marshal of Sarvagan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\121_Heist Captain.png" id="G5L_121_Heist Captain" data-flag="@X" onclick="openSidebar('G5L_121_Heist Captain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\165_Prove Your Might.png" id="G5L_165_Prove Your Might" data-flag="@X" onclick="openSidebar('G5L_165_Prove Your Might',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\22_Searing Sands.png" id="G5L_22_Searing Sands" data-flag="@X" onclick="openSidebar('G5L_22_Searing Sands',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\54_Omens by Starlight.png" id="G5L_54_Omens by Starlight" data-flag="@X" onclick="openSidebar('G5L_54_Omens by Starlight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\91_Maw of the Ultimate Sacrifice.png" id="G5L_91_Maw of the Ultimate Sacrifice" data-flag="@X" onclick="openSidebar('G5L_91_Maw of the Ultimate Sacrifice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\122_Host of the Honored.png" id="G5L_122_Host of the Honored" data-flag="@X" onclick="openSidebar('G5L_122_Host of the Honored',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\167_Roadworn Dromedary.png" id="G5L_167_Roadworn Dromedary" data-flag="@X" onclick="openSidebar('G5L_167_Roadworn Dromedary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\24_Shawl of the Rainbow Feather.png" id="G5L_24_Shawl of the Rainbow Feather" data-flag="@X" onclick="openSidebar('G5L_24_Shawl of the Rainbow Feather',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\58_Promise of Greatness.png" id="G5L_58_Promise of Greatness" data-flag="@X" onclick="openSidebar('G5L_58_Promise of Greatness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\92_Means to an End.png" id="G5L_92_Means to an End" data-flag="@X" onclick="openSidebar('G5L_92_Means to an End',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\128_Mirageblade Arcanist.png" id="G5L_128_Mirageblade Arcanist" data-flag="@X" onclick="openSidebar('G5L_128_Mirageblade Arcanist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\168_Sahra's Brute.png" id="G5L_168_Sahras Brute" data-flag="@X" onclick="openSidebar('G5L_168_Sahras Brute',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\25_Silent Ambusher.png" id="G5L_25_Silent Ambusher" data-flag="@X" onclick="openSidebar('G5L_25_Silent Ambusher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\59_Razvar Pactcaller.png" id="G5L_59_Razvar Pactcaller" data-flag="@X" onclick="openSidebar('G5L_59_Razvar Pactcaller',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\93_Mournful Withered.png" id="G5L_93_Mournful Withered" data-flag="@X" onclick="openSidebar('G5L_93_Mournful Withered',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\130_One Handed Execution.png" id="G5L_130_One Handed Execution" data-flag="@X" onclick="openSidebar('G5L_130_One Handed Execution',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\169_Satrap of Forgotten Farms.png" id="G5L_169_Satrap of Forgotten Farms" data-flag="@X" onclick="openSidebar('G5L_169_Satrap of Forgotten Farms',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\29_Steel the Spirit.png" id="G5L_29_Steel the Spirit" data-flag="@X" onclick="openSidebar('G5L_29_Steel the Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\64_Skycrowned Despot.png" id="G5L_64_Skycrowned Despot" data-flag="@X" onclick="openSidebar('G5L_64_Skycrowned Despot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\97_Rotten Veilcaster.png" id="G5L_97_Rotten Veilcaster" data-flag="@X" onclick="openSidebar('G5L_97_Rotten Veilcaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\132_Rally the Firebinders.png" id="G5L_132_Rally the Firebinders" data-flag="@X" onclick="openSidebar('G5L_132_Rally the Firebinders',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\171_Splintered Devotee.png" id="G5L_171_Splintered Devotee" data-flag="@X" onclick="openSidebar('G5L_171_Splintered Devotee',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\32_Strategist of Empty Halls.png" id="G5L_32_Strategist of Empty Halls" data-flag="@X" onclick="openSidebar('G5L_32_Strategist of Empty Halls',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\66_Spitebound Bakhtak.png" id="G5L_66_Spitebound Bakhtak" data-flag="@X" onclick="openSidebar('G5L_66_Spitebound Bakhtak',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\102_Strike Down.png" id="G5L_102_Strike Down" data-flag="@X" onclick="openSidebar('G5L_102_Strike Down',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\135_Sepidgar Outrider.png" id="G5L_135_Sepidgar Outrider" data-flag="@X" onclick="openSidebar('G5L_135_Sepidgar Outrider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\172_Spoils of the Muktann.png" id="G5L_172_Spoils of the Muktann" data-flag="@X" onclick="openSidebar('G5L_172_Spoils of the Muktann',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\35_Warfather of Atashvar.png" id="G5L_35_Warfather of Atashvar" data-flag="@X" onclick="openSidebar('G5L_35_Warfather of Atashvar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\67_Step Into Wonder.png" id="G5L_67_Step Into Wonder" data-flag="@X" onclick="openSidebar('G5L_67_Step Into Wonder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\103_Strike Through Decay.png" id="G5L_103_Strike Through Decay" data-flag="@X" onclick="openSidebar('G5L_103_Strike Through Decay',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\136_Serpent of the Shabnam Sea.png" id="G5L_136_Serpent of the Shabnam Sea" data-flag="@X" onclick="openSidebar('G5L_136_Serpent of the Shabnam Sea',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\174_Trail Through Old Stones.png" id="G5L_174_Trail Through Old Stones" data-flag="@X" onclick="openSidebar('G5L_174_Trail Through Old Stones',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\140_Volleyweaver Conjurer.png" id="G5L_140_Volleyweaver Conjurer" data-flag="@X" onclick="openSidebar('G5L_140_Volleyweaver Conjurer',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\179_Unearned Mercy.png" id="179_Unearned Mercy" data-flag="@X" onclick="openSidebar('179_Unearned Mercy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\181_The Only Constant.png" id="181_The Only Constant" data-flag="@X" onclick="openSidebar('181_The Only Constant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\185_Judgment from Above.png" id="185_Judgment from Above" data-flag="@X" onclick="openSidebar('185_Judgment from Above',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\188_Sahra, Hand of Ruin.png" id="188_Sahra, Hand of Ruin" data-flag="@X" onclick="openSidebar('188_Sahra, Hand of Ruin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\190_Paternal Devotion.png" id="190_Paternal Devotion" data-flag="@X" onclick="openSidebar('190_Paternal Devotion',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\178_Tidewatcher's Wisdom.png" id="178_Tidewatchers Wisdom" data-flag="@X" onclick="openSidebar('178_Tidewatchers Wisdom',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\182_Razvar Divbinder.png" id="182_Razvar Divbinder" data-flag="@X" onclick="openSidebar('182_Razvar Divbinder',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\186_Khul-Kata, Tomb Colossus.png" id="186_Khul-Kata, Tomb Colossus" data-flag="@X" onclick="openSidebar('186_Khul-Kata, Tomb Colossus',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\189_Warfront Ravager.png" id="189_Warfront Ravager" data-flag="@X" onclick="openSidebar('189_Warfront Ravager',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\192_Shir, Friend of Golna.png" id="192_Shir, Friend of Golna" data-flag="@X" onclick="openSidebar('192_Shir, Friend of Golna',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\180_Zareen, Innocent Heir.png" id="180_Zareen, Innocent Heir" data-flag="@X" onclick="openSidebar('180_Zareen, Innocent Heir',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\183_Yearning Wavecaller.png" id="183_Yearning Wavecaller" data-flag="@X" onclick="openSidebar('183_Yearning Wavecaller',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\184_Andazir's Bloodrager.png" id="184_Andazirs Bloodrager" data-flag="@X" onclick="openSidebar('184_Andazirs Bloodrager',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\187_Innerflame Awakener.png" id="187_Innerflame Awakener" data-flag="@X" onclick="openSidebar('187_Innerflame Awakener',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\191_Shepherd of the Pride.png" id="191_Shepherd of the Pride" data-flag="@X" onclick="openSidebar('191_Shepherd of the Pride',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\177_Marjavar Tideseer.png" id="177_Marjavar Tideseer" data-flag="@X" onclick="openSidebar('177_Marjavar Tideseer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\236_Whispered Commission.png" id="236_Whispered Commission" data-flag="@X" onclick="openSidebar('236_Whispered Commission',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\237_Strike of the Faceless.png" id="237_Strike of the Faceless" data-flag="@X" onclick="openSidebar('237_Strike of the Faceless',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\238_Run Them Down.png" id="238_Run Them Down" data-flag="@X" onclick="openSidebar('238_Run Them Down',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\239_Decree of the First Shah.png" id="239_Decree of the First Shah" data-flag="@X" onclick="openSidebar('239_Decree of the First Shah',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\235_Stripped of Standing.png" id="235_Stripped of Standing" data-flag="@X" onclick="openSidebar('235_Stripped of Standing',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\194_Discordance.png" id="194_Discordance" data-flag="@X" onclick="openSidebar('194_Discordance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\196_Ambivalence.png" id="196_Ambivalence" data-flag="@X" onclick="openSidebar('196_Ambivalence',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\199_Hayat, Whisper of Nightmares.png" id="199_Hayat, Whisper of Nightmares" data-flag="@X" onclick="openSidebar('199_Hayat, Whisper of Nightmares',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\202_Cyrukan, the Measured Blade.png" id="202_Cyrukan, the Measured Blade" data-flag="@X" onclick="openSidebar('202_Cyrukan, the Measured Blade',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\205_Ruby of the Wastes.png" id="205_Ruby of the Wastes" data-flag="@X" onclick="openSidebar('205_Ruby of the Wastes',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\195_In Mourning.png" id="195_In Mourning" data-flag="@X" onclick="openSidebar('195_In Mourning',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\198_Scour the Tombs.png" id="198_Scour the Tombs" data-flag="@X" onclick="openSidebar('198_Scour the Tombs',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\200_Hollow Eyed Ghulspawn.png" id="200_Hollow Eyed Ghulspawn" data-flag="@X" onclick="openSidebar('200_Hollow Eyed Ghulspawn',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\204_Koios's Charge.png" id="204_Koioss Charge" data-flag="@X" onclick="openSidebar('204_Koioss Charge',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\206_Shomi, Wanderer of Tales.png" id="206_Shomi, Wanderer of Tales" data-flag="@X" onclick="openSidebar('206_Shomi, Wanderer of Tales',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\193_Broken Wing Paragon.png" id="193_Broken Wing Paragon" data-flag="@X" onclick="openSidebar('193_Broken Wing Paragon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\197_Echoing Arcanist.png" id="197_Echoing Arcanist" data-flag="@X" onclick="openSidebar('197_Echoing Arcanist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\201_Withered Sentinel.png" id="201_Withered Sentinel" data-flag="@X" onclick="openSidebar('201_Withered Sentinel',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\203_Div of Shattered Reflections.png" id="203_Div of Shattered Reflections" data-flag="@X" onclick="openSidebar('203_Div of Shattered Reflections',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\207_Wealth of Sarvagan.png" id="207_Wealth of Sarvagan" data-flag="@X" onclick="openSidebar('207_Wealth of Sarvagan',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\240_One Against All.png" id="240_One Against All" data-flag="@X" onclick="openSidebar('240_One Against All',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\241_Teach by Example.png" id="241_Teach by Example" data-flag="@X" onclick="openSidebar('241_Teach by Example',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\242_Draining Revelation.png" id="242_Draining Revelation" data-flag="@X" onclick="openSidebar('242_Draining Revelation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\243_Cyrukan's Favor.png" id="243_Cyrukans Favor" data-flag="@X" onclick="openSidebar('243_Cyrukans Favor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\244_Witness Alkabah.png" id="244_Witness Alkabah" data-flag="@X" onclick="openSidebar('244_Witness Alkabah',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\230_Sarvagan Massacre.png" id="230_Sarvagan Massacre" data-flag="@X" onclick="openSidebar('230_Sarvagan Massacre',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\219_Dragon of Waking Terrors.png" id="219_Dragon of Waking Terrors" data-flag="@X" onclick="openSidebar('219_Dragon of Waking Terrors',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\213_Child of Maaru.png" id="213_Child of Maaru" data-flag="@X" onclick="openSidebar('213_Child of Maaru',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\228_Mirages of Dunesea.png" id="228_Mirages of Dunesea" data-flag="@X" onclick="openSidebar('228_Mirages of Dunesea',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\229_Regiment on Wings.png" id="229_Regiment on Wings" data-flag="@X" onclick="openSidebar('229_Regiment on Wings',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\222_Glimpse of Grandeur.png" id="222_Glimpse of Grandeur" data-flag="@X" onclick="openSidebar('222_Glimpse of Grandeur',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\218_Div of the Wandering Mind.png" id="218_Div of the Wandering Mind" data-flag="@X" onclick="openSidebar('218_Div of the Wandering Mind',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\210_Burn the World.png" id="210_Burn the World" data-flag="@X" onclick="openSidebar('210_Burn the World',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\217_Div of a Thousand Grains.png" id="217_Div of a Thousand Grains" data-flag="@X" onclick="openSidebar('217_Div of a Thousand Grains',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\209_Blossoming Elemental.png" id="209_Blossoming Elemental" data-flag="@X" onclick="openSidebar('209_Blossoming Elemental',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\225_Hadak's Gilded Guard.png" id="225_Hadaks Gilded Guard" data-flag="@X" onclick="openSidebar('225_Hadaks Gilded Guard',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\231_Stalker of Horizons.png" id="231_Stalker of Horizons" data-flag="@X" onclick="openSidebar('231_Stalker of Horizons',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\227_Mehr's Decree.png" id="227_Mehrs Decree" data-flag="@X" onclick="openSidebar('227_Mehrs Decree',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\232_Sunshroud Coil.png" id="232_Sunshroud Coil" data-flag="@X" onclick="openSidebar('232_Sunshroud Coil',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\214_Dali, Scribe of the Fields.png" id="214_Dali, Scribe of the Fields" data-flag="@X" onclick="openSidebar('214_Dali, Scribe of the Fields',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\215_Death of the First Shah.png" id="215_Death of the First Shah" data-flag="@X" onclick="openSidebar('215_Death of the First Shah',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\212_Call to Wander.png" id="212_Call to Wander" data-flag="@X" onclick="openSidebar('212_Call to Wander',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\234_Withered Marshal.png" id="234_Withered Marshal" data-flag="@X" onclick="openSidebar('234_Withered Marshal',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\211_Call of the Huma.png" id="211_Call of the Huma" data-flag="@X" onclick="openSidebar('211_Call of the Huma',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\220_Fall of Marjavar.png" id="220_Fall of Marjavar" data-flag="@X" onclick="openSidebar('220_Fall of Marjavar',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\208_Andazir, Destined Prince.png" id="208_Andazir, Destined Prince" data-flag="@X" onclick="openSidebar('208_Andazir, Destined Prince',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\216_Desire.png" id="216_Desire" data-flag="@X" onclick="openSidebar('216_Desire',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\221_The First Blade of Alkabah.png" id="221_The First Blade of Alkabah" data-flag="@X" onclick="openSidebar('221_The First Blade of Alkabah',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\224_Hadak, Tyrant of Alkabah.png" id="224_Hadak, Tyrant of Alkabah" data-flag="@X" onclick="openSidebar('224_Hadak, Tyrant of Alkabah',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\226_Mehr, Blight of Life.png" id="226_Mehr, Blight of Life" data-flag="@X" onclick="openSidebar('226_Mehr, Blight of Life',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\223_Golna, Shah.png" id="223_Golna, Shah" data-flag="@X" onclick="openSidebar('223_Golna, Shah',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\233_The Timeless Simurgh.png" id="233_The Timeless Simurgh" data-flag="@X" onclick="openSidebar('233_The Timeless Simurgh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\179_Unearned Mercy.png" id="G5L_179_Unearned Mercy" data-flag="@X" onclick="openSidebar('G5L_179_Unearned Mercy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\181_The Only Constant.png" id="G5L_181_The Only Constant" data-flag="@X" onclick="openSidebar('G5L_181_The Only Constant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\185_Judgment from Above.png" id="G5L_185_Judgment from Above" data-flag="@X" onclick="openSidebar('G5L_185_Judgment from Above',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\188_Sahra, Hand of Ruin.png" id="G5L_188_Sahra, Hand of Ruin" data-flag="@X" onclick="openSidebar('G5L_188_Sahra, Hand of Ruin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\190_Paternal Devotion.png" id="G5L_190_Paternal Devotion" data-flag="@X" onclick="openSidebar('G5L_190_Paternal Devotion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\178_Tidewatcher's Wisdom.png" id="G5L_178_Tidewatchers Wisdom" data-flag="@X" onclick="openSidebar('G5L_178_Tidewatchers Wisdom',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\182_Razvar Divbinder.png" id="G5L_182_Razvar Divbinder" data-flag="@X" onclick="openSidebar('G5L_182_Razvar Divbinder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\186_Khul-Kata, Tomb Colossus.png" id="G5L_186_Khul-Kata, Tomb Colossus" data-flag="@X" onclick="openSidebar('G5L_186_Khul-Kata, Tomb Colossus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\189_Warfront Ravager.png" id="G5L_189_Warfront Ravager" data-flag="@X" onclick="openSidebar('G5L_189_Warfront Ravager',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\192_Shir, Friend of Golna.png" id="G5L_192_Shir, Friend of Golna" data-flag="@X" onclick="openSidebar('G5L_192_Shir, Friend of Golna',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\180_Zareen, Innocent Heir.png" id="G5L_180_Zareen, Innocent Heir" data-flag="@X" onclick="openSidebar('G5L_180_Zareen, Innocent Heir',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\183_Yearning Wavecaller.png" id="G5L_183_Yearning Wavecaller" data-flag="@X" onclick="openSidebar('G5L_183_Yearning Wavecaller',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\184_Andazir's Bloodrager.png" id="G5L_184_Andazirs Bloodrager" data-flag="@X" onclick="openSidebar('G5L_184_Andazirs Bloodrager',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\187_Innerflame Awakener.png" id="G5L_187_Innerflame Awakener" data-flag="@X" onclick="openSidebar('G5L_187_Innerflame Awakener',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\191_Shepherd of the Pride.png" id="G5L_191_Shepherd of the Pride" data-flag="@X" onclick="openSidebar('G5L_191_Shepherd of the Pride',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\177_Marjavar Tideseer.png" id="G5L_177_Marjavar Tideseer" data-flag="@X" onclick="openSidebar('G5L_177_Marjavar Tideseer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\236_Whispered Commission.png" id="G5L_236_Whispered Commission" data-flag="@X" onclick="openSidebar('G5L_236_Whispered Commission',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\237_Strike of the Faceless.png" id="G5L_237_Strike of the Faceless" data-flag="@X" onclick="openSidebar('G5L_237_Strike of the Faceless',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\238_Run Them Down.png" id="G5L_238_Run Them Down" data-flag="@X" onclick="openSidebar('G5L_238_Run Them Down',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\239_Decree of the First Shah.png" id="G5L_239_Decree of the First Shah" data-flag="@X" onclick="openSidebar('G5L_239_Decree of the First Shah',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\235_Stripped of Standing.png" id="G5L_235_Stripped of Standing" data-flag="@X" onclick="openSidebar('G5L_235_Stripped of Standing',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\194_Discordance.png" id="G5L_194_Discordance" data-flag="@X" onclick="openSidebar('G5L_194_Discordance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\196_Ambivalence.png" id="G5L_196_Ambivalence" data-flag="@X" onclick="openSidebar('G5L_196_Ambivalence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\199_Hayat, Whisper of Nightmares.png" id="G5L_199_Hayat, Whisper of Nightmares" data-flag="@X" onclick="openSidebar('G5L_199_Hayat, Whisper of Nightmares',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\202_Cyrukan, the Measured Blade.png" id="G5L_202_Cyrukan, the Measured Blade" data-flag="@X" onclick="openSidebar('G5L_202_Cyrukan, the Measured Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\205_Ruby of the Wastes.png" id="G5L_205_Ruby of the Wastes" data-flag="@X" onclick="openSidebar('G5L_205_Ruby of the Wastes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\195_In Mourning.png" id="G5L_195_In Mourning" data-flag="@X" onclick="openSidebar('G5L_195_In Mourning',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\198_Scour the Tombs.png" id="G5L_198_Scour the Tombs" data-flag="@X" onclick="openSidebar('G5L_198_Scour the Tombs',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\200_Hollow Eyed Ghulspawn.png" id="G5L_200_Hollow Eyed Ghulspawn" data-flag="@X" onclick="openSidebar('G5L_200_Hollow Eyed Ghulspawn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\204_Koios's Charge.png" id="G5L_204_Koioss Charge" data-flag="@X" onclick="openSidebar('G5L_204_Koioss Charge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\206_Shomi, Wanderer of Tales.png" id="G5L_206_Shomi, Wanderer of Tales" data-flag="@X" onclick="openSidebar('G5L_206_Shomi, Wanderer of Tales',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\193_Broken Wing Paragon.png" id="G5L_193_Broken Wing Paragon" data-flag="@X" onclick="openSidebar('G5L_193_Broken Wing Paragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\197_Echoing Arcanist.png" id="G5L_197_Echoing Arcanist" data-flag="@X" onclick="openSidebar('G5L_197_Echoing Arcanist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\201_Withered Sentinel.png" id="G5L_201_Withered Sentinel" data-flag="@X" onclick="openSidebar('G5L_201_Withered Sentinel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\203_Div of Shattered Reflections.png" id="G5L_203_Div of Shattered Reflections" data-flag="@X" onclick="openSidebar('G5L_203_Div of Shattered Reflections',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\207_Wealth of Sarvagan.png" id="G5L_207_Wealth of Sarvagan" data-flag="@X" onclick="openSidebar('G5L_207_Wealth of Sarvagan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\240_One Against All.png" id="G5L_240_One Against All" data-flag="@X" onclick="openSidebar('G5L_240_One Against All',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\241_Teach by Example.png" id="G5L_241_Teach by Example" data-flag="@X" onclick="openSidebar('G5L_241_Teach by Example',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\242_Draining Revelation.png" id="G5L_242_Draining Revelation" data-flag="@X" onclick="openSidebar('G5L_242_Draining Revelation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\243_Cyrukan's Favor.png" id="G5L_243_Cyrukans Favor" data-flag="@X" onclick="openSidebar('G5L_243_Cyrukans Favor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\244_Witness Alkabah.png" id="G5L_244_Witness Alkabah" data-flag="@X" onclick="openSidebar('G5L_244_Witness Alkabah',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\230_Sarvagan Massacre.png" id="G5L_230_Sarvagan Massacre" data-flag="@X" onclick="openSidebar('G5L_230_Sarvagan Massacre',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\219_Dragon of Waking Terrors.png" id="G5L_219_Dragon of Waking Terrors" data-flag="@X" onclick="openSidebar('G5L_219_Dragon of Waking Terrors',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\213_Child of Maaru.png" id="G5L_213_Child of Maaru" data-flag="@X" onclick="openSidebar('G5L_213_Child of Maaru',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\228_Mirages of Dunesea.png" id="G5L_228_Mirages of Dunesea" data-flag="@X" onclick="openSidebar('G5L_228_Mirages of Dunesea',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\229_Regiment on Wings.png" id="G5L_229_Regiment on Wings" data-flag="@X" onclick="openSidebar('G5L_229_Regiment on Wings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\222_Glimpse of Grandeur.png" id="G5L_222_Glimpse of Grandeur" data-flag="@X" onclick="openSidebar('G5L_222_Glimpse of Grandeur',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\218_Div of the Wandering Mind.png" id="G5L_218_Div of the Wandering Mind" data-flag="@X" onclick="openSidebar('G5L_218_Div of the Wandering Mind',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\210_Burn the World.png" id="G5L_210_Burn the World" data-flag="@X" onclick="openSidebar('G5L_210_Burn the World',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\217_Div of a Thousand Grains.png" id="G5L_217_Div of a Thousand Grains" data-flag="@X" onclick="openSidebar('G5L_217_Div of a Thousand Grains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\209_Blossoming Elemental.png" id="G5L_209_Blossoming Elemental" data-flag="@X" onclick="openSidebar('G5L_209_Blossoming Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\225_Hadak's Gilded Guard.png" id="G5L_225_Hadaks Gilded Guard" data-flag="@X" onclick="openSidebar('G5L_225_Hadaks Gilded Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\231_Stalker of Horizons.png" id="G5L_231_Stalker of Horizons" data-flag="@X" onclick="openSidebar('G5L_231_Stalker of Horizons',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\227_Mehr's Decree.png" id="G5L_227_Mehrs Decree" data-flag="@X" onclick="openSidebar('G5L_227_Mehrs Decree',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\232_Sunshroud Coil.png" id="G5L_232_Sunshroud Coil" data-flag="@X" onclick="openSidebar('G5L_232_Sunshroud Coil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\214_Dali, Scribe of the Fields.png" id="G5L_214_Dali, Scribe of the Fields" data-flag="@X" onclick="openSidebar('G5L_214_Dali, Scribe of the Fields',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\215_Death of the First Shah.png" id="G5L_215_Death of the First Shah" data-flag="@X" onclick="openSidebar('G5L_215_Death of the First Shah',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\212_Call to Wander.png" id="G5L_212_Call to Wander" data-flag="@X" onclick="openSidebar('G5L_212_Call to Wander',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\234_Withered Marshal.png" id="G5L_234_Withered Marshal" data-flag="@X" onclick="openSidebar('G5L_234_Withered Marshal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\211_Call of the Huma.png" id="G5L_211_Call of the Huma" data-flag="@X" onclick="openSidebar('G5L_211_Call of the Huma',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\220_Fall of Marjavar.png" id="G5L_220_Fall of Marjavar" data-flag="@X" onclick="openSidebar('G5L_220_Fall of Marjavar',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\208_Andazir, Destined Prince.png" id="G5L_208_Andazir, Destined Prince" data-flag="@X" onclick="openSidebar('G5L_208_Andazir, Destined Prince',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\216_Desire.png" id="G5L_216_Desire" data-flag="@X" onclick="openSidebar('G5L_216_Desire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\221_The First Blade of Alkabah.png" id="G5L_221_The First Blade of Alkabah" data-flag="@X" onclick="openSidebar('G5L_221_The First Blade of Alkabah',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\224_Hadak, Tyrant of Alkabah.png" id="G5L_224_Hadak, Tyrant of Alkabah" data-flag="@X" onclick="openSidebar('G5L_224_Hadak, Tyrant of Alkabah',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\226_Mehr, Blight of Life.png" id="G5L_226_Mehr, Blight of Life" data-flag="@X" onclick="openSidebar('G5L_226_Mehr, Blight of Life',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\223_Golna, Shah.png" id="G5L_223_Golna, Shah" data-flag="@X" onclick="openSidebar('G5L_223_Golna, Shah',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\233_The Timeless Simurgh.png" id="G5L_233_The Timeless Simurgh" data-flag="@X" onclick="openSidebar('G5L_233_The Timeless Simurgh',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\252_Feather of All Paths.png" id="252_Feather of All Paths" data-flag="@X" onclick="openSidebar('252_Feather of All Paths',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\246_Blooming Fireheart.png" id="246_Blooming Fireheart" data-flag="@X" onclick="openSidebar('246_Blooming Fireheart',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\247_Clutch of the Tyrant.png" id="247_Clutch of the Tyrant" data-flag="@X" onclick="openSidebar('247_Clutch of the Tyrant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\248_Core of Swelling Fields.png" id="248_Core of Swelling Fields" data-flag="@X" onclick="openSidebar('248_Core of Swelling Fields',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\249_Crucible of Facets.png" id="249_Crucible of Facets" data-flag="@X" onclick="openSidebar('249_Crucible of Facets',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\250_Cup of Infinite Possibilities.png" id="250_Cup of Infinite Possibilities" data-flag="@X" onclick="openSidebar('250_Cup of Infinite Possibilities',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\253_Heart of Creeping Doubt.png" id="253_Heart of Creeping Doubt" data-flag="@X" onclick="openSidebar('253_Heart of Creeping Doubt',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\254_Ic, Seeker of Elsewheres.png" id="254_Ic, Seeker of Elsewheres" data-flag="@X" onclick="openSidebar('254_Ic, Seeker of Elsewheres',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\256_Perch of the Sherdal.png" id="256_Perch of the Sherdal" data-flag="@X" onclick="openSidebar('256_Perch of the Sherdal',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\257_Quill of Fate.png" id="257_Quill of Fate" data-flag="@X" onclick="openSidebar('257_Quill of Fate',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\260_Twinning Lattice.png" id="260_Twinning Lattice" data-flag="@X" onclick="openSidebar('260_Twinning Lattice',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\261_Twins of the Unresting Sting.png" id="261_Twins of the Unresting Sting" data-flag="@X" onclick="openSidebar('261_Twins of the Unresting Sting',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\245_Beacon of Uneasy Futures.png" id="245_Beacon of Uneasy Futures" data-flag="@X" onclick="openSidebar('245_Beacon of Uneasy Futures',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\251_Dagger of Lost Ages.png" id="251_Dagger of Lost Ages" data-flag="@X" onclick="openSidebar('251_Dagger of Lost Ages',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\255_Muktann Colossus.png" id="255_Muktann Colossus" data-flag="@X" onclick="openSidebar('255_Muktann Colossus',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\258_Radiant Hadhayosh.png" id="258_Radiant Hadhayosh" data-flag="@X" onclick="openSidebar('258_Radiant Hadhayosh',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\259_Scepter of Malice.png" id="259_Scepter of Malice" data-flag="@X" onclick="openSidebar('259_Scepter of Malice',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\252_Feather of All Paths.png" id="G5L_252_Feather of All Paths" data-flag="@X" onclick="openSidebar('G5L_252_Feather of All Paths',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\246_Blooming Fireheart.png" id="G5L_246_Blooming Fireheart" data-flag="@X" onclick="openSidebar('G5L_246_Blooming Fireheart',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\247_Clutch of the Tyrant.png" id="G5L_247_Clutch of the Tyrant" data-flag="@X" onclick="openSidebar('G5L_247_Clutch of the Tyrant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\248_Core of Swelling Fields.png" id="G5L_248_Core of Swelling Fields" data-flag="@X" onclick="openSidebar('G5L_248_Core of Swelling Fields',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\249_Crucible of Facets.png" id="G5L_249_Crucible of Facets" data-flag="@X" onclick="openSidebar('G5L_249_Crucible of Facets',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\250_Cup of Infinite Possibilities.png" id="G5L_250_Cup of Infinite Possibilities" data-flag="@X" onclick="openSidebar('G5L_250_Cup of Infinite Possibilities',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\253_Heart of Creeping Doubt.png" id="G5L_253_Heart of Creeping Doubt" data-flag="@X" onclick="openSidebar('G5L_253_Heart of Creeping Doubt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\254_Ic, Seeker of Elsewheres.png" id="G5L_254_Ic, Seeker of Elsewheres" data-flag="@X" onclick="openSidebar('G5L_254_Ic, Seeker of Elsewheres',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\256_Perch of the Sherdal.png" id="G5L_256_Perch of the Sherdal" data-flag="@X" onclick="openSidebar('G5L_256_Perch of the Sherdal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\257_Quill of Fate.png" id="G5L_257_Quill of Fate" data-flag="@X" onclick="openSidebar('G5L_257_Quill of Fate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\260_Twinning Lattice.png" id="G5L_260_Twinning Lattice" data-flag="@X" onclick="openSidebar('G5L_260_Twinning Lattice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\261_Twins of the Unresting Sting.png" id="G5L_261_Twins of the Unresting Sting" data-flag="@X" onclick="openSidebar('G5L_261_Twins of the Unresting Sting',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\245_Beacon of Uneasy Futures.png" id="G5L_245_Beacon of Uneasy Futures" data-flag="@X" onclick="openSidebar('G5L_245_Beacon of Uneasy Futures',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\251_Dagger of Lost Ages.png" id="G5L_251_Dagger of Lost Ages" data-flag="@X" onclick="openSidebar('G5L_251_Dagger of Lost Ages',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\255_Muktann Colossus.png" id="G5L_255_Muktann Colossus" data-flag="@X" onclick="openSidebar('G5L_255_Muktann Colossus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\258_Radiant Hadhayosh.png" id="G5L_258_Radiant Hadhayosh" data-flag="@X" onclick="openSidebar('G5L_258_Radiant Hadhayosh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\259_Scepter of Malice.png" id="G5L_259_Scepter of Malice" data-flag="@X" onclick="openSidebar('G5L_259_Scepter of Malice',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
 				<div id="land" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\284_Soli Palace.png" id="284_Soli Palace" data-flag="@X" onclick="openSidebar('284_Soli Palace',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\271_Garmrud Palace.png" id="271_Garmrud Palace" data-flag="@X" onclick="openSidebar('271_Garmrud Palace',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\263_Atashvar Palace.png" id="263_Atashvar Palace" data-flag="@X" onclick="openSidebar('263_Atashvar Palace',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\265_Avaz Palace.png" id="265_Avaz Palace" data-flag="@X" onclick="openSidebar('265_Avaz Palace',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\270_Danaj Palace.png" id="270_Danaj Palace" data-flag="@X" onclick="openSidebar('270_Danaj Palace',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\283_Soli Fortress.png" id="283_Soli Fortress" data-flag="@X" onclick="openSidebar('283_Soli Fortress',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\277_Nizev Fortress.png" id="277_Nizev Fortress" data-flag="@X" onclick="openSidebar('277_Nizev Fortress',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\274_Kaneh Fortress.png" id="274_Kaneh Fortress" data-flag="@X" onclick="openSidebar('274_Kaneh Fortress',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\264_Avaz Fortress.png" id="264_Avaz Fortress" data-flag="@X" onclick="openSidebar('264_Avaz Fortress',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\269_Danaj Fortress.png" id="269_Danaj Fortress" data-flag="@X" onclick="openSidebar('269_Danaj Fortress',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\282_Sepidgar District.png" id="282_Sepidgar District" data-flag="@X" onclick="openSidebar('282_Sepidgar District',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\275_Marjavar District.png" id="275_Marjavar District" data-flag="@X" onclick="openSidebar('275_Marjavar District',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\276_Nizev District.png" id="276_Nizev District" data-flag="@X" onclick="openSidebar('276_Nizev District',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\262_Atashvar District.png" id="262_Atashvar District" data-flag="@X" onclick="openSidebar('262_Atashvar District',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\280_Sarvagan District.png" id="280_Sarvagan District" data-flag="@X" onclick="openSidebar('280_Sarvagan District',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\285_Soli, the First Great Satrapy.png" id="285_Soli, the First Great Satrapy" data-flag="@X" onclick="openSidebar('285_Soli, the First Great Satrapy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\281_Seat of Power.png" id="281_Seat of Power" data-flag="@X" onclick="openSidebar('281_Seat of Power',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\266_Boundless Expanse.png" id="266_Boundless Expanse" data-flag="@X" onclick="openSidebar('266_Boundless Expanse',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\268_Cinders of Civilization.png" id="268_Cinders of Civilization" data-flag="@X" onclick="openSidebar('268_Cinders of Civilization',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\272_Grave of the Forgotten.png" id="272_Grave of the Forgotten" data-flag="@X" onclick="openSidebar('272_Grave of the Forgotten',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\273_Ironhollow Cavern.png" id="273_Ironhollow Cavern" data-flag="@X" onclick="openSidebar('273_Ironhollow Cavern',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\279_Research Quarter.png" id="279_Research Quarter" data-flag="@X" onclick="openSidebar('279_Research Quarter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\267_Burgeoning Satrapy.png" id="267_Burgeoning Satrapy" data-flag="@X" onclick="openSidebar('267_Burgeoning Satrapy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\278_Reclaimed Ruins.png" id="278_Reclaimed Ruins" data-flag="@X" onclick="openSidebar('278_Reclaimed Ruins',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\286_Plains.png" id="286_Plains" data-flag="@X" onclick="openSidebar('286_Plains',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\287_Island.png" id="287_Island" data-flag="@X" onclick="openSidebar('287_Island',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\288_Swamp.png" id="288_Swamp" data-flag="@X" onclick="openSidebar('288_Swamp',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\289_Mountain.png" id="289_Mountain" data-flag="@X" onclick="openSidebar('289_Mountain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\290_Forest.png" id="290_Forest" data-flag="@X" onclick="openSidebar('290_Forest',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\284_Soli Palace.png" id="G5L_284_Soli Palace" data-flag="@X" onclick="openSidebar('G5L_284_Soli Palace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\271_Garmrud Palace.png" id="G5L_271_Garmrud Palace" data-flag="@X" onclick="openSidebar('G5L_271_Garmrud Palace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\263_Atashvar Palace.png" id="G5L_263_Atashvar Palace" data-flag="@X" onclick="openSidebar('G5L_263_Atashvar Palace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\265_Avaz Palace.png" id="G5L_265_Avaz Palace" data-flag="@X" onclick="openSidebar('G5L_265_Avaz Palace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\270_Danaj Palace.png" id="G5L_270_Danaj Palace" data-flag="@X" onclick="openSidebar('G5L_270_Danaj Palace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\283_Soli Fortress.png" id="G5L_283_Soli Fortress" data-flag="@X" onclick="openSidebar('G5L_283_Soli Fortress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\277_Nizev Fortress.png" id="G5L_277_Nizev Fortress" data-flag="@X" onclick="openSidebar('G5L_277_Nizev Fortress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\274_Kaneh Fortress.png" id="G5L_274_Kaneh Fortress" data-flag="@X" onclick="openSidebar('G5L_274_Kaneh Fortress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\264_Avaz Fortress.png" id="G5L_264_Avaz Fortress" data-flag="@X" onclick="openSidebar('G5L_264_Avaz Fortress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\269_Danaj Fortress.png" id="G5L_269_Danaj Fortress" data-flag="@X" onclick="openSidebar('G5L_269_Danaj Fortress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\282_Sepidgar District.png" id="G5L_282_Sepidgar District" data-flag="@X" onclick="openSidebar('G5L_282_Sepidgar District',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\275_Marjavar District.png" id="G5L_275_Marjavar District" data-flag="@X" onclick="openSidebar('G5L_275_Marjavar District',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\276_Nizev District.png" id="G5L_276_Nizev District" data-flag="@X" onclick="openSidebar('G5L_276_Nizev District',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\262_Atashvar District.png" id="G5L_262_Atashvar District" data-flag="@X" onclick="openSidebar('G5L_262_Atashvar District',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\280_Sarvagan District.png" id="G5L_280_Sarvagan District" data-flag="@X" onclick="openSidebar('G5L_280_Sarvagan District',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\285_Soli, the First Great Satrapy.png" id="G5L_285_Soli, the First Great Satrapy" data-flag="@X" onclick="openSidebar('G5L_285_Soli, the First Great Satrapy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\281_Seat of Power.png" id="G5L_281_Seat of Power" data-flag="@X" onclick="openSidebar('G5L_281_Seat of Power',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\266_Boundless Expanse.png" id="G5L_266_Boundless Expanse" data-flag="@X" onclick="openSidebar('G5L_266_Boundless Expanse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\268_Cinders of Civilization.png" id="G5L_268_Cinders of Civilization" data-flag="@X" onclick="openSidebar('G5L_268_Cinders of Civilization',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\272_Grave of the Forgotten.png" id="G5L_272_Grave of the Forgotten" data-flag="@X" onclick="openSidebar('G5L_272_Grave of the Forgotten',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\273_Ironhollow Cavern.png" id="G5L_273_Ironhollow Cavern" data-flag="@X" onclick="openSidebar('G5L_273_Ironhollow Cavern',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\279_Research Quarter.png" id="G5L_279_Research Quarter" data-flag="@X" onclick="openSidebar('G5L_279_Research Quarter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\267_Burgeoning Satrapy.png" id="G5L_267_Burgeoning Satrapy" data-flag="@X" onclick="openSidebar('G5L_267_Burgeoning Satrapy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\278_Reclaimed Ruins.png" id="G5L_278_Reclaimed Ruins" data-flag="@X" onclick="openSidebar('G5L_278_Reclaimed Ruins',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\286_Plains.png" id="G5L_286_Plains" data-flag="@X" onclick="openSidebar('G5L_286_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\287_Island.png" id="G5L_287_Island" data-flag="@X" onclick="openSidebar('G5L_287_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\288_Swamp.png" id="G5L_288_Swamp" data-flag="@X" onclick="openSidebar('G5L_288_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\289_Mountain.png" id="G5L_289_Mountain" data-flag="@X" onclick="openSidebar('G5L_289_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\290_Forest.png" id="G5L_290_Forest" data-flag="@X" onclick="openSidebar('G5L_290_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\20t_Treasure.png" id="20t_Treasure" data-flag="@X" onclick="openSidebar('20t_Treasure',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\21t_Satrapy.png" id="21t_Satrapy" data-flag="@X" onclick="openSidebar('21t_Satrapy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\1t_Bird.png" id="1t_Bird" data-flag="@X" onclick="openSidebar('1t_Bird',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\2t_Soldier.png" id="2t_Soldier" data-flag="@X" onclick="openSidebar('2t_Soldier',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\3t_Rogue.png" id="3t_Rogue" data-flag="@X" onclick="openSidebar('3t_Rogue',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\4t_Assassin.png" id="4t_Assassin" data-flag="@X" onclick="openSidebar('4t_Assassin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\5t_Horror1.png" id="5t_Horror1" data-flag="@X" onclick="openSidebar('5t_Horror1',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\6t_Zombie.png" id="6t_Zombie" data-flag="@X" onclick="openSidebar('6t_Zombie',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\7t_0Army.png" id="7t_0Army" data-flag="@X" onclick="openSidebar('7t_0Army',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\8t_1Army.png" id="8t_1Army" data-flag="@X" onclick="openSidebar('8t_1Army',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\9t_2Army.png" id="9t_2Army" data-flag="@X" onclick="openSidebar('9t_2Army',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\10t_3Army.png" id="10t_3Army" data-flag="@X" onclick="openSidebar('10t_3Army',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\11t_4Army.png" id="11t_4Army" data-flag="@X" onclick="openSidebar('11t_4Army',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\12t_5Army.png" id="12t_5Army" data-flag="@X" onclick="openSidebar('12t_5Army',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\13t_XArmy.png" id="13t_XArmy" data-flag="@X" onclick="openSidebar('13t_XArmy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\14t_Dragon.png" id="14t_Dragon" data-flag="@X" onclick="openSidebar('14t_Dragon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\15t_Manticore.png" id="15t_Manticore" data-flag="@X" onclick="openSidebar('15t_Manticore',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\16t_Noble.png" id="16t_Noble" data-flag="@X" onclick="openSidebar('16t_Noble',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\17t_Warrior.png" id="17t_Warrior" data-flag="@X" onclick="openSidebar('17t_Warrior',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\18t_Wizard.png" id="18t_Wizard" data-flag="@X" onclick="openSidebar('18t_Wizard',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\G5L-files\img\19t_Horror2.png" id="19t_Horror2" data-flag="@X" onclick="openSidebar('19t_Horror2',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\20t_Treasure.png" id="G5L_20t_Treasure" data-flag="@X" onclick="openSidebar('G5L_20t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\21t_Satrapy.png" id="G5L_21t_Satrapy" data-flag="@X" onclick="openSidebar('G5L_21t_Satrapy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\1t_Bird.png" id="G5L_1t_Bird" data-flag="@X" onclick="openSidebar('G5L_1t_Bird',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\2t_Soldier.png" id="G5L_2t_Soldier" data-flag="@X" onclick="openSidebar('G5L_2t_Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\3t_Rogue.png" id="G5L_3t_Rogue" data-flag="@X" onclick="openSidebar('G5L_3t_Rogue',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\4t_Assassin.png" id="G5L_4t_Assassin" data-flag="@X" onclick="openSidebar('G5L_4t_Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\5t_Horror1.png" id="G5L_5t_Horror1" data-flag="@X" onclick="openSidebar('G5L_5t_Horror1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\6t_Zombie.png" id="G5L_6t_Zombie" data-flag="@X" onclick="openSidebar('G5L_6t_Zombie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\7t_0Army.png" id="G5L_7t_0Army" data-flag="@X" onclick="openSidebar('G5L_7t_0Army',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\8t_1Army.png" id="G5L_8t_1Army" data-flag="@X" onclick="openSidebar('G5L_8t_1Army',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\9t_2Army.png" id="G5L_9t_2Army" data-flag="@X" onclick="openSidebar('G5L_9t_2Army',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\10t_3Army.png" id="G5L_10t_3Army" data-flag="@X" onclick="openSidebar('G5L_10t_3Army',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\11t_4Army.png" id="G5L_11t_4Army" data-flag="@X" onclick="openSidebar('G5L_11t_4Army',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\12t_5Army.png" id="G5L_12t_5Army" data-flag="@X" onclick="openSidebar('G5L_12t_5Army',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\13t_XArmy.png" id="G5L_13t_XArmy" data-flag="@X" onclick="openSidebar('G5L_13t_XArmy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\14t_Dragon.png" id="G5L_14t_Dragon" data-flag="@X" onclick="openSidebar('G5L_14t_Dragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\15t_Manticore.png" id="G5L_15t_Manticore" data-flag="@X" onclick="openSidebar('G5L_15t_Manticore',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\16t_Noble.png" id="G5L_16t_Noble" data-flag="@X" onclick="openSidebar('G5L_16t_Noble',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\17t_Warrior.png" id="G5L_17t_Warrior" data-flag="@X" onclick="openSidebar('G5L_17t_Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\18t_Wizard.png" id="G5L_18t_Wizard" data-flag="@X" onclick="openSidebar('G5L_18t_Wizard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\G5L-files\img\19t_Horror2.png" id="G5L_19t_Horror2" data-flag="@X" onclick="openSidebar('G5L_19t_Horror2',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="G5L_e" data-flag="@E" onclick="openSidebar('G5L_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="G5L_er" data-flag="@E" onclick="openSidebar('G5L_er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -650,19 +676,111 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 
@@ -697,13 +815,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -857,16 +978,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -876,7 +997,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>

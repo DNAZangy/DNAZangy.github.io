@@ -1,9 +1,10 @@
 ﻿{
     "name": "Trovsko",
     "formats": "Zangy",
-    "trimmed": "y",
+    "trimmed": "n",
     "image_type": "png",
     "draft_structure": "play booster",
+    "unpreviewed": "card back",
     "cards": [
         {
             "card_name": "Griefbough Witness",
@@ -2912,7 +2913,7 @@
             "color_identity": "RG",
             "cost": "{2}{R}{G}",
             "rules_text": "At the beginning of your end step, exile the top X cards of your library, where X is the number of creatures that died under your control this turn. You may play those cards until your next end step.",
-            "flavor_text": "[i]\u201cNo witness but a dead god. No vow but a wound they chose to carry together.\u201d[/i]",
+            "flavor_text": "[i]No witness but a dead god. No vow but a wound they chose to carry together.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -6001,7 +6002,7 @@
             "number": 160,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
-            "rules_text": "Syr Kreshtan gets +1/+2 and has flying as long as you control a Dragon.\nWhen Syr Kreshtan of the Ember Wake enters, create a Hunt battle token an opponent protects with 2 defense and \u201cWhen this battle is defeated, create a 4/4 red Dragon creature token with flying.\u201d You can't attack it this turn.",
+            "rules_text": "Syr Kreshtan gets +1/+2 and has flying as long as you control a Dragon.\nWhen Syr Kreshtan of the Ember Wake enters, create a Hunt battle token an opponent protects with 2 defense and \u201cWhen this battle is defeated, create a 4/4 red Dragon creature token with flying.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
@@ -6120,5 +6121,5 @@
             "notes": "!tag Yaoi\n!tag Trovsko\n!tag Kreshtan\n!tag Thomir"
         }
     ],
-    "version": 9
+    "version": 10
 }

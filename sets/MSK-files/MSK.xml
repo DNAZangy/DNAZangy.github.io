@@ -1,0 +1,5125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>MSK</name>
+			<longname>Myths, Masks, and Minutes Spent Apart</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-01-29</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Expelled</name>
+			<text>When Expelled enters, target opponent reveals their hand. You choose a nonland card from it and exile that card until this enchantment leaves the battlefield. You lose 1 life.
+Your opponents can&apos;t cast spells with the same name as the exiled card.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/211_Expelled.png" num="211">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dietrich, Fassahd Seer</name>
+			<text>Vanishing 3 (This creature enters with three time counters. At the beginning of your upkeep, remove one. When the last is removed, sacrifice it.)
+Whenever a counter is removed from Dietrich, for each kind of counter on any number of other target permanents, put another counter of that kind on it or remove one from it.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/191_Dietrich, Fassahd Seer.png" num="191">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Wolf and the Lamb</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/231_The Wolf and the Lamb.png" num="231">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Ludolf Elissia</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>WUBR</manacost>
+				<cmc>4</cmc>
+				<colors>WUBR</colors>
+				<coloridentity>WUBR</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Serenity&apos;s Guide</name>
+			<text>Flying
+When Serenity&apos;s Guide enters, you may put two time counters on target nonland, nonartifact permanent. If it doesn&apos;t have vanishing, it gains vanishing. (At the beginning of each of its controller&apos;s upkeeps, they remove a time counter. When the last is removed, they sacrifice it.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/197_Serenity&apos;s Guide.png" num="197">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rauchim, Skyfire Celebrant</name>
+			<text>Prowess
+Whenever Rauchim, Skyfire Celebrant attacks, you may cast target instant or sorcery card with mana value less than or equal to Rauchim&apos;s power from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/218_Rauchim, Skyfire Celebrant.png" num="218">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Goblin Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Left Behind</name>
+			<text>Enchant nonland permanent
+Vanishing 2 (This permanent enters with two time counters. At the beginning of your upkeep, remove one. When the last is removed, sacrifice it.)
+When Left Behind is put into a graveyard from the battlefield, enchanted permanent&apos;s controller sacrifices it.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/222_Left Behind.png" num="222">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Brunhild, Unraveled</name>
+			<text>Indestructible, haste
+Brunhild can&apos;t block.
+Whenever you sacrifice a permanent, put a +1/+1 counter on Brunhild, Unraveled.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/200_Brunhild, Unraveled.png" num="200">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Quaint Harvest</name>
+			<text>If you control three or fewer lands, exile target nonland permanent with mana value 3 or less.
+Cycling—Sacrifice a land. (Sacrifice a land, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/28_Quaint Harvest.png" num="28">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Veiled Foreboding</name>
+			<text>Vigilance
+When Veiled Foreboding enters, surveil 1, then create a Weapon token. (It&apos;s an Equipment with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/36_Veiled Foreboding.png" num="36">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fassahd Hunting Party</name>
+			<text>When Fassahd Hunting Party enters, choose one —
+• Remove up to two counters from target permanent you don&apos;t control.
+• Destroy target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/13_Fassahd Hunting Party.png" num="13">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deliverance of Dawn</name>
+			<text>Deception {2}{W} ({2}{W}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Flying</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/7_Deliverance of Dawn.png" num="7">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Innocence Denied</name>
+			<text>When Innocence Denied enters, exile target nonland permanent you don&apos;t control with mana value 3 or less until Innocence Denied leaves the battlefield.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/17_Innocence Denied.png" num="17">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Keep Moving</name>
+			<text>Exile target creature card in your graveyard with mana value 3 or less or target creature you control. Then return it to the battlefield tapped under its owner&apos;s control with an additional +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/18_Keep Moving.png" num="18">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rousing Sentinel</name>
+			<text>Boast — {W}: Exile another target creature you control, then return that card to the battlefield under your control. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/29_Rousing Sentinel.png" num="29">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ruhe, Season of Silence</name>
+			<text>Vigilance, lifelink
+Each player can&apos;t cast more than one spell each turn.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/30_Ruhe, Season of Silence.png" num="30">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blade of the Setting Sun</name>
+			<text>Boast — {W}: Blade of the Setting Sun gains first strike until end of turn. (Activate only if this creature attacked this turn and only once each turn.)
+Boast — {W}: Until your next turn, noncreature spells cost {2} more to cast.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/3_Blade of the Setting Sun.png" num="3">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Together As One</name>
+			<text>When Together As One enters, create a 2/2 white Wolf Spirit creature token. 
+Whenever you attack with exactly two creatures, draw a card.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/34_Together As One.png" num="34">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dietrich&apos;s Regret</name>
+			<text>Choose one, then each opponent chooses another one —
+• Destroy all creatures with power 3 or greater.
+• Destroy all creatures with power 2 or less.
+• Destroy all artifacts.
+• Destroy all enchantments.
+• Exile all graveyards.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/8_Dietrich&apos;s Regret.png" num="8">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Waning Moon Adept</name>
+			<text>Whenever another creature you control becomes blocked, you may return it to your hand. If you do, put a +1/+1 counter on Waning Moon Adept.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/38_Waning Moon Adept.png" num="38">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Indifferent Landsknecht</name>
+			<text>Deception—Exile a card from your graveyard. Activate the ability of a card named Indifferent Landsknecht only once each turn. (Exile a card from your graveyard, Return an unblocked attacker you control to hand: Put this onto the battlefield from your hand tapped and attacking.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/16_Indifferent Landsknecht.png" num="16">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Disinherited Scion</name>
+			<text>Boast—Discard a card: Disinherited Scion gains indestructible until end of turn. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/9_Disinherited Scion.png" num="9">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gregarious Buboh</name>
+			<text>When Gregarious Buboh enters, create a Weapon token. (It&apos;s an Equipment with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)
+{T}: Target equipped creature you control gains protection from the color of your choice until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/15_Gregarious Buboh.png" num="15">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ouphe Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Part Missing a Whole</name>
+			<text>Flying
+If damage would be dealt to Part Missing a Whole or a planeswalker you control, prevent 1 of that damage. If it&apos;s an Elissia planeswalker, prevent 2 of that damage instead.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/24_Part Missing a Whole.png" num="24">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Authority of Dawn</name>
+			<text>Deception {1}{W} ({1}{W}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Flying
+Whenever Authority of Dawn deals combat damage to a player, noncreature spells that player casts cost {2} more to cast until your next turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/1_Authority of Dawn.png" num="1">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Escapade Collector</name>
+			<text>Vigilance
+When Escapade Collector enters, create a Weapon token and attach it to a creature you control. When you do, exile up to one target creature you don&apos;t control for as long as that Weapon is attached to that creature. (A Weapon is an Equipment with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/11_Escapade Collector.png" num="11">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ouphe Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Memory Bearers</name>
+			<text>Vigilance
+Boast — {2}{W}: Return target creature card with mana value 3 or less from your graveyard to the battlefield. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/22_Memory Bearers.png" num="22">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soaring Paragon</name>
+			<text>Flying, vigilance
+Whenever Soaring Paragon attacks or blocks, prevent all damage that would be dealt to other creatures you control this turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/31_Soaring Paragon.png" num="31">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zyklinder Herbalist</name>
+			<text>Whenever you commune, put a +1/+1 counter on Zyklinder Herbalist. (You commune after spending at least three mana activating abilities each turn.)
+{2}{U}: Zyklinder Herbalist gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/76_Zyklinder Herbalist.png" num="76">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fassahd Gustwright</name>
+			<text>Flash
+Flying
+When Fassahd Gustwright enters, target creature you control gains hexproof until end of turn.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/50_Fassahd Gustwright.png" num="50">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Student of Syncopation</name>
+			<text>Whenever you commune, you may tap target creature. (You commune after spending at least three mana activating abilities each turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/70_Student of Syncopation.png" num="70">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mite Errant</name>
+			<text>Vanishing 3 (This creature enters with three time counters. At the beginning of your upkeep, remove one. When the last is removed, sacrifice it.)
+When Mite Errant leaves the battlefield, if it had no time counters on it, return target instant or sorcery card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/60_Mite Errant.png" num="60">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jaegrin Outrider</name>
+			<text>Whenever you cast a noncreature spell, put a +1/+1 counter on Jaegrin Outrider.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/54_Jaegrin Outrider.png" num="54">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Misfortune&apos;s Steed</name>
+			<text>Flash
+Flying
+When Misfortune&apos;s Steed enters, tap up to one target creature and put a stun counter on it.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/59_Misfortune&apos;s Steed.png" num="59">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Restless Nights</name>
+			<text>Vanishing 2 (This permanent enters with two time counters. At the beginning of your upkeep, remove one. When the last is removed, sacrifice it.)
+When the last time counter is removed from Restless Nights, up to one target creature&apos;s owner puts it on the top or bottom of their library.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/66_Restless Nights.png" num="66">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spell Pierce</name>
+			<text>Counter target noncreature spell unless its controller pays {2}.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/69_Spell Pierce.png" num="69">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Transpose</name>
+			<text>Return target creature to its owner&apos;s hand. If that creature was attacking, surveil 1.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/73_Transpose.png" num="73">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Belligerent Muckamuck</name>
+			<text>This spell costs {1} less to cast for each noncreature, nonland card in your graveyard.
+Belligerent Muckamuck can&apos;t be the target of the first spell each player casts each turn.
+Exile three noncreature, nonland cards from your graveyard: Belligerent Muckamuck can&apos;t be blocked this turn.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/40_Belligerent Muckamuck.png" num="40">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Salamander Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>7UU</manacost>
+				<cmc>9</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Season&apos;s End Festivalist</name>
+			<text>Ward {2}
+Season&apos;s End Festivalist can&apos;t be blocked as long as there is an unblocked attacking creature with greater power.
+Whenever Season&apos;s End Festivalist deals combat damage to a player or planeswalker, draw a card.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/68_Season&apos;s End Festivalist.png" num="68">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fond Memories</name>
+			<text>Vanishing X (This permanent enters with X time counters. At the beginning of your upkeep, remove one. When the last is removed, sacrifice it.)
+Whenever you remove a time counter from Fond Memories, draw a card.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/51_Fond Memories.png" num="51">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>XU</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Make Trouble</name>
+			<text>Choose up to X. X can&apos;t be more than the number of creatures you control.
+• Target player creates two 1/1 blue Goblin creature tokens with prowess.
+• Counter target activated or triggered ability.
+• Target player draws a card.
+• Counter target spell.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/58_Make Trouble.png" num="58">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XUU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wanderer&apos;s Font</name>
+			<text>At the beginning of each end step, if you&apos;ve communed this turn, create a 3/3 red Spirit creature token. (You&apos;ve communed after spending at least three mana activating abilities each turn.)
+{1}{U}{U}, Discard Wanderer&apos;s Font: Counter target spell.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/75_Wanderer&apos;s Font.png" num="75">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Courier of the Tribes</name>
+			<text>Flying
+{U}, Sacrifice Courier of the Tribes: Counter target spell or ability that targets you or a permanent you control.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/44_Courier of the Tribes.png" num="44">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Irresistible Drums</name>
+			<text>When Irresistible Drums enters, look at target player&apos;s hand. You may choose a nonland card from it. If you do, that player reveals the chosen card, puts it on the bottom of their library, then draws a card.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/53_Irresistible Drums.png" num="53">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Parallel Possibility</name>
+			<text>You may have Parallel Possibility enter the battlefield as a copy of any creature on the battlefield, except it has vanishing 3 if that creature doesn&apos;t have vanishing. (This creature enters with three time counters. At the beginning of your upkeep, remove one. When the last is removed, sacrifice it.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/62_Parallel Possibility.png" num="62">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shapeshifter</type>
+				<maintype>Creature</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Season&apos;s End Celebrant</name>
+			<text>Prowess
+At the beginning of each end step, if you&apos;ve communed this turn, create a 1/1 blue Goblin creature token with prowess. (You&apos;ve communed after spending at least three mana activating abilities each turn.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/67_Season&apos;s End Celebrant.png" num="67">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Longing&apos;s Maw</name>
+			<text>You may pay {U} and exile five cards from your graveyard rather than pay this spell&apos;s mana cost.
+Whenever Longing&apos;s Maw attacks, you may exile a card from your graveyard. If you do, tap target creature.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/57_Longing&apos;s Maw.png" num="57">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Serpent</type>
+				<maintype>Creature</maintype>
+				<manacost>5U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unforeseen Illuminator</name>
+			<text>Flying
+{2}{U}: Return Unforeseen Illuminator to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/74_Unforeseen Illuminator.png" num="74">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Swift Repetition</name>
+			<text>Counter target creature spell. You may put a loyalty counter on an Elissia planeswalker you control.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/72_Swift Repetition.png" num="72">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Proclaim the End</name>
+			<text>Surveil 2, then draw a card.
+At the beginning of each end step, if you&apos;ve communed this turn, return Proclaim the End from your graveyard to your hand. (You&apos;ve communed after spending at least three mana activating abilities each turn.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/64_Proclaim the End.png" num="64">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Echoes Condemned</name>
+			<text>Counter target spell with mana value less than or equal to the number of cards in its controller&apos;s graveyard.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/47_Echoes Condemned.png" num="47">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Carved Histories</name>
+			<text>Vanishing 2 (This permanent enters with two time counters. At the beginning of your upkeep, remove one. When the last is removed, sacrifice it.)
+Whenever a time counter is removed from Carved Histories, you may return an instant or sorcery card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/41_Carved Histories.png" num="41">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dweller in Shadow</name>
+			<text>Menace
+Dweller in Shadow can&apos;t block.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/91_Dweller in Shadow.png" num="91">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fall Apart</name>
+			<text>Until end of turn, target creature gains &quot;When this creature dies, return it to the battlefield tapped under its owner&apos;s control. When you do, each opponent loses 2 life.&quot;</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/93_Fall Apart.png" num="93">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shambling Canker</name>
+			<text>When Shambling Canker enters, target player exiles a card from their hand. If you&apos;ve sacrificed a permanent this turn, instead they exile a random card from their hand instead.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/110_Shambling Canker.png" num="110">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reason to Beware</name>
+			<text>At the beginning of your end step, if you&apos;ve sacrificed a permanent this turn, surveil 1.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/105_Reason to Beware.png" num="105">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Satyr Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Needling Lancer</name>
+			<text>Flash
+Flying
+When Needling Lancer enters, you may pay 2 life. If you do, destroy target creature that was dealt damage this turn.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/101_Needling Lancer.png" num="101">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Better to Forget</name>
+			<text>Target player discards two cards.
+{1}{B}, Exile Better to Forget from your graveyard: Target player exiles their graveyard.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/80_Better to Forget.png" num="80">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Creeping Inadequacy</name>
+			<text>{1}{B}, Pay 2 life: Creeping Inadequacy gets +2/+2 until end of turn.
+When Creeping Inadequacy dies, you may pay X life, where X is equal to half its power, rounded down. If you do, you draw X cards.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/82_Creeping Inadequacy.png" num="82">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shade</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Custodian of Corpses</name>
+			<text>Menace
+Boast— Pay X life: Return target creature card with mana value X or less from your graveyard to the battlefield with a finality counter on it. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/83_Custodian of Corpses.png" num="83">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1BBB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Feeder of Lost Thoughts</name>
+			<text>Flying, lifelink
+When Feeder of Lost Thoughts enters or attacks, you may exile target card from a graveyard. If it was from your graveyard, put a +1/+1 counter on Feeder of Lost Thoughts. If it was from an opponent&apos;s graveyard, that player discards a card.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/95_Feeder of Lost Thoughts.png" num="95">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Echo of Agony</name>
+			<text>Whenever you lose life, put a +1/+1 counter on Echo of Agony. This ability triggers only once each turn.
+At the beginning of your end step, if Echo of Agony&apos;s power is 5 or greater, draw a card.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/92_Echo of Agony.png" num="92">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>False Flag</name>
+			<text>Reveal the top three cards of your library. For each card revealed this way, an opponent may discard a card. If they do, put that card into your graveyard. Otherwise, put it into your hand and you lose 1 life.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/94_False Flag.png" num="94">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rhythm of War</name>
+			<text>Vanishing 4 (This permanent enters with four time counters. At the beginning of your upkeep, remove one. When the last is removed, sacrifice it.)
+Whenever you remove a time counter from Rhythm of War, you may return a creature card with mana value less than or equal to the number of time counters on this enchantment from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/106_Rhythm of War.png" num="106">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Doleful Poleman</name>
+			<text>Whenever you remove one or more counters from a permanent you control, put a +1/+1 counter on Doleful Poleman.
+{2}{B}: Remove a counter from target permanent you control.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/88_Doleful Poleman.png" num="88">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Diviner of False Omens</name>
+			<text>Lifelink
+When Diviner of False Omens enters, each opponent that controls more creatures than you sacrifices a creature.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/87_Diviner of False Omens.png" num="87">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tiller of Memories</name>
+			<text>Menace, reach
+Vanishing 2 (This creature enters with two time counters. At the beginning of your upkeep, remove one. When the last is removed, sacrifice it.)
+Whenever you sacrifice a permanent, put a time counter on Tiller of Memories and you gain 2 life.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/113_Tiller of Memories.png" num="113">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spider Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mender of Mortal Error</name>
+			<text>As an additional cost to cast to cast this spell, pay 4 life or sacrifice a creature.
+Flying
+Whenever Mender of Mortal Error attacks while a player has 10 or less life, defending player discards a card.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/100_Mender of Mortal Error.png" num="100">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rot Begets Regrowth</name>
+			<text>Vanishing 2 (This permanent enters with two time counters. At the beginning of your upkeep, remove one. When the last is removed, sacrifice it.)
+Whenever a time counter is removed from Rot Begets Regrowth, return target creature card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/108_Rot Begets Regrowth.png" num="108">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wandering Doubt</name>
+			<text>Haste
+Whenever Wandering Doubt attacks, target creature can&apos;t block this turn if you&apos;ve communed this turn. (You&apos;ve communed after spending at least three mana activating abilities each turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/148_Wandering Doubt.png" num="148">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lumbering Nomad</name>
+			<text>Trample, reach
+Whenever Lumbering Nomad attacks, put a stun counter on it if you haven&apos;t sacrificed a permanent this turn.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/129_Lumbering Nomad.png" num="129">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wandering Worry</name>
+			<text>Whenever you commune, Wandering Worry deals 1 damage to each opponent. (You commune after spending at least three mana activating abilities each turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/149_Wandering Worry.png" num="149">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Roused Elder</name>
+			<text>Menace
+When Roused Elder enters, return another permanent you control to its owner&apos;s hand.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/143_Roused Elder.png" num="143">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dynamic Entry</name>
+			<text>If you control three or fewer lands, target creature gets +3/+0 and gains first strike until end of turn.
+Cycling—Sacrifice a land.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/120_Dynamic Entry.png" num="120">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rip and Tear</name>
+			<text>Rip and Tear deals 6 damage to target creature or planeswalker. Sacrifice a land.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/142_Rip and Tear.png" num="142">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crestfallen Roseblade</name>
+			<text>Haste
+Whenever Crestfallen Roseblade attacks, it deals 1 damage to each creature you control.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/117_Crestfallen Roseblade.png" num="117">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reconnaissance Agent</name>
+			<text>Deception {R} ({R}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Reconnaissance Agent deals combat damage to a player or planeswalker, add {R}. Until end of turn, you don&apos;t lose this mana as steps and phases end. Exile the top card of your library. You may play it this turn.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/139_Reconnaissance Agent.png" num="139">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flashfire Herald</name>
+			<text>Deception—{5}{R}{R}. This costs {1} less to activate for each attacking creature you control.
+Flying, haste
+When Flashfire Herald enters, another target creature you control gains double strike until end of turn.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/122_Flashfire Herald.png" num="122">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>5RRR</manacost>
+				<cmc>8</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Purgative Rage</name>
+			<text>Destroy all artifacts. When you do, Purgative Rage deals damage to up to one target creature equal to the number of artifacts destroyed this way.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/136_Purgative Rage.png" num="136">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Foraged Arms</name>
+			<text>Whenever you commune, you may attach Foraged Arms to target creature you control. (You commune after spending at least three mana activating abilities each turn.)
+Equipped creature gets +2/+0 and has double strike.
+Equip {3}</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/123_Foraged Arms.png" num="123">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Scatterbrained Scamp</name>
+			<text>Haste
+Whenever you sacrifice a permanent, Scatterbrained Scamp deals 1 damage to each opponent. If it is the third time this ability has resolved this turn, put a +1/+1 counter on Scatterbrained Scamp.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/144_Scatterbrained Scamp.png" num="144">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ouphe Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Boundary Seer</name>
+			<text>Reach, trample
+{1}{R}, Exile a card from your graveyard: Boundary Seer gets +2/+0 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/115_Boundary Seer.png" num="115">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Opulent Settler</name>
+			<text>When Opulent Settler enters, create a 2/1 white Warrior creature token with &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/134_Opulent Settler.png" num="134">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wandering Alarm</name>
+			<text>Prowess
+{2}{R}: Creatures you control get +1/+0 and gain haste until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/147_Wandering Alarm.png" num="147">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lorn Executioner</name>
+			<text>Deception {R} ({R}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+When Lorn Executioner enters, discard two cards, then draw two cards.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/128_Lorn Executioner.png" num="128">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Assassin Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>From Blood, Blades</name>
+			<text>From Blood, Blades deals 2 damage to any target. Create a Weapon token. (It&apos;s an Equipment with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/124_From Blood, Blades.png" num="124">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Calamitous Whispers</name>
+			<text>As an additional cost to cast this spell, sacrifice a permanent or pay {2}.
+Change the target of target spell or ability with a single target.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/116_Calamitous Whispers.png" num="116">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Light at Season&apos;s End</name>
+			<text>At the beginning of each end step, if you&apos;ve communed this turn, put a trance counter on Light at Season&apos;s End. Then it deals damage to each opponent equal to the number of trance counters on it. (You&apos;ve communed after spending at least three mana activating abilities each turn.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/126_Light at Season&apos;s End.png" num="126">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Quell</name>
+			<text>This spell can&apos;t be countered.
+Quell deals 4 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/137_Quell.png" num="137">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Myth Given Voice</name>
+			<text>{T}: Add one mana of any color. Spend this mana only to activate an ability.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/176_Myth Given Voice.png" num="176">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ouphe Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deepwoods Sentinel</name>
+			<text>Trample
+At the beginning of your end step, if Deepwoods Sentinel attacked and you&apos;ve communed this turn, put a +1/+1 counter on Deepwoods Sentinel. (You&apos;ve communed after spending at least three mana activating abilities each turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/162_Deepwoods Sentinel.png" num="162">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Custodian of Cycles</name>
+			<text>Reach, ward {2}
+When Custodian of Cycles enters, create a Weapon token. You may attach that token to a creature you control. (It&apos;s an Equipment with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/160_Custodian of Cycles.png" num="160">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cartographer of History</name>
+			<text>When Cartographer of History enters, you may sacrifice a land. If you do, search your library for a land card, put that card onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/156_Cartographer of History.png" num="156">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Timber Pummeler</name>
+			<text>Timber Pummeler gets +1/+0 for each land card in your graveyard.
+{G}, Pay 2 life, Exile Timber Pummeler from your graveyard: Create a Weapon token. (It&apos;s an Equipment with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/185_Timber Pummeler.png" num="185">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Student of the Oldest Oak</name>
+			<text>Vigilance
+Student of the Oldest Oak gets +2/+1 as long as you&apos;ve communed this turn. (You&apos;ve communed after spending at least three mana activating abilities each turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/184_Student of the Oldest Oak.png" num="184">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fassahd Lookout</name>
+			<text>As as long as you have 10 or less life, Fassahd Lookout has trample and vigilance.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/167_Fassahd Lookout.png" num="167">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Never Back Down</name>
+			<text>Put a +1/+1 counter on target creature you control if you have 10 or less life. Then it fights target creature an opponent controls.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/177_Never Back Down.png" num="177">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Strike from Afar</name>
+			<text>Target creature you control deals damage equal to its power to target creature you don&apos;t control. If the creature you don&apos;t control has flying, it deals twice that amount of damage instead.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/183_Strike from Afar.png" num="183">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A New Direction</name>
+			<text>Reveal the top three cards of your library. You may put a creature or land card from among them into your hand and the rest on the bottom of your library in any order.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/178_A New Direction.png" num="178">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Zwiewald Crusher</name>
+			<text>When you cast this spell, copy it if you have 5 or less life.
+Trample, vigilance, reach
+When Zwiewald Crusher dies, create a 4/4 green Elemental creature token and you gain 3 life.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/190_Zwiewald Crusher.png" num="190">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Censor of the Veiled</name>
+			<text>Reach
+Whenever you commune, return target land card from your graveyard to the battlefield tapped. (You commune after spending at least three mana activating abilities each turn.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/157_Censor of the Veiled.png" num="157">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Curator of Copses</name>
+			<text>Trample
+Boast — {X}{G}: Search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/159_Curator of Copses.png" num="159">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1GGG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rambunctious Mount</name>
+			<text>When Rambunctious Mount enters, put two time counters on each nonland artifact and each nonland enchantment.
+Nonland artifacts and enchantments that don&apos;t have vanishing have vanishing 2. (They enter with two time counters on them. At the beginning of its controller&apos;s upkeep, they remove a time counter from it. When the last is removed, they sacrifice it.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/180_Rambunctious Mount.png" num="180">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dog</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Magniloquent Soulcaller</name>
+			<text>Reach
+Exile a creature card from your graveyard and pay its mana cost: Create a token that&apos;s a copy of that card, except its an Elemental in addition to its other types. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/173_Magniloquent Soulcaller.png" num="173">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Marker of Odd Maps</name>
+			<text>Marker of Odd Maps gets +1/+1 for each type noted for it.
+Whenever a card is put into a graveyard from anywhere, note one of its card types that hasn&apos;t been noted by Marker of Odd Maps.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/174_Marker of Odd Maps.png" num="174">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ouphe Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stewards of the Fassahd</name>
+			<text>Defender, reach, ward {2}
+Pay 2 life: Stewards of the Fassahd can attack as though it didn&apos;t have defender this turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/182_Stewards of the Fassahd.png" num="182">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Parsimonious Scamp</name>
+			<text>Boast — {1}{G}: Destroy target artifact or enchantment. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/179_Parsimonious Scamp.png" num="179">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ouphe Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Twin Mystagogues</name>
+			<text>{T}: Put a loyalty counter on a Kriemhild planeswalker you control.
+{1}{G}, {T}: You may activate an ability of a planeswalker you control.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/186_Twin Mystagogues.png" num="186">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Buboh Shaman</name>
+			<text>Boast — {G}: Add three mana in any combination of colors. Spend this mana only to activate abilities of creatures and artifacts. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/155_Buboh Shaman.png" num="155">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ouphe Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Corpseborn Verdant</name>
+			<text>Trample
+{1}{G}: You may return another creature you control to its owner&apos;s hand. If you do, Corpseborn Verdant gains hexproof and indestructible until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/158_Corpseborn Verdant.png" num="158">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Devoted of Zwiewald</name>
+			<text>This spell costs {3} less if you&apos;ve communed this turn. (You&apos;ve communed after spending at least three mana activating abilities each turn.)
+Trample, ward {3}</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/164_Devoted of Zwiewald.png" num="164">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Untamed Capacity of Growth</name>
+			<text>Trample
+{1}{G}: Exile Untamed Capacity of Growth from your hand with three time counters on it. It gains &quot;Whenever you commune, if this card is exiled with time counters on it, remove a time counter from it. Then if it has no more time counters on it, cast it without paying its mana cost.&quot; (You commune after spending at least three mana activating abilities each turn.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/188_Untamed Capacity of Growth.png" num="188">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>8/8</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hostile Watch</name>
+			<text>Target creature you control deals damage equal to twice its power to target creature or planeswalker you don&apos;t control.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/170_Hostile Watch.png" num="170">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Harken the Past</name>
+			<text>Choose one. If you have 10 or less life, choose any number instead.
+• Destroy target artifact.
+• Destroy target enchantment.
+• Exile target player&apos;s graveyard.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/169_Harken the Past.png" num="169">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Revenge of the Zwiewald</name>
+			<text>Target creature you control deals damage equal to its power to another target creature or planeswalker.
+As long as you have four or more cards in your graveyard, Revenge of the Zwiewald has flashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/181_Revenge of the Zwiewald.png" num="181">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ziel, Season of Endings</name>
+			<text>Protection from tokens
+At the beginning of each player&apos;s upkeep, that player sacrifices a nonlegendary, nontoken permanent. If they sacrificed a creature, they create a 1/1 blue Elemental creature token with flying. If they sacrificed a land, they create a Treasure token. Otherwise, put a +1/+1 counter on Ziel.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/198_Ziel, Season of Endings.png" num="198">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crowned Croaker</name>
+			<text>Trample
+Boast — {R}{G}: Crowned Croaker gets +2/+1 until end of turn. (Activate only if this creature attacked this turn and only once each turn.)
+Whenever Crowned Croaker deals combat damage to a player, you may discard a card. If you do, draw two cards.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/205_Crowned Croaker.png" num="205">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Frog</type>
+				<maintype>Creature</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lessons Learned and Trials Won</name>
+			<text>Whenever you commune, target creature you control gains trample and lifelink until end of turn. (You commune after spending at least three mana activating abilities each turn.)
+{3}{G}{W}: Put a +1/+1 counter on each creature you control.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/210_Lessons Learned and Trials Won.png" num="210">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Invigorating Discovery</name>
+			<text>Whenever you cast an instant or sorcery spell, create a 1/1 blue Goblin creature token with prowess.
+Whenever three or more Goblins you control attack, you may exile target instant or sorcery card from your graveyard. You may cast a copy of it. (You still pay costs.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/216_Invigorating Discovery.png" num="216">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Magali, At Home Anywhere</name>
+			<text>Flash
+At the beginning of your end step, if you&apos;ve communed this turn, create a token that&apos;s a copy of target nonlegendary permanent you control. (You&apos;ve communed after spending at least three mana activating abilities each turn.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/230_Magali, At Home Anywhere.png" num="230">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Merfolk Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kriemhild, Unbidden End</name>
+			<text>Menace
+Whenever Kriemhild attacks, you may mill two cards. If you do, you lose 2 life and you may return a card milled this way to your hand.
+As long as you have seven or more cards in your graveyard, Kriemhild gets +3/+3.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/221_Kriemhild, Unbidden End.png" num="221">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Galvanized Ink</name>
+			<text>Galvanized Ink deals 3 damage to any target.
+Flashback {3}{U}{R}. This spell costs {3} less to cast this way if you&apos;ve cast another noncreature spell this turn. (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/215_Galvanized Ink.png" num="215">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Odd-Eyed Animist</name>
+			<text>Lifelink
+When Odd-Eyed Animist enters, you may sacrifice a permanent. When you do, you may destroy target nonland permanent that shares a type with that permanent.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/213_Odd-Eyed Animist.png" num="213">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ouphe Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Erkinder Explorer</name>
+			<text>Flash
+When Erkinder Explorer enters, tap up to one target nonland permanent and put a stun counter on it. It loses all abilities until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/193_Erkinder Explorer.png" num="193">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Behold Ruhigwelt</name>
+			<text>Create an X/X green Avatar creature token, where X is the number of land cards in your graveyard.
+Flashback—{R}{G}, Sacrifice a land. (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/203_Behold Ruhigwelt.png" num="203">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Witness to Many Ends</name>
+			<text>{2}, Sacrifice an artifact or creature: Create a 3/3 red Spirit creature token. It can&apos;t block this turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/202_Witness to Many Ends.png" num="202">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Satyr Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fatesplicer</name>
+			<text>Reach
+Vanishing 3 (This creature enters with three time counters. At the beginning of your upkeep, remove one. When the last is removed, sacrifice it.)
+When Fatesplicer dies, you may return target creature card with mana value 2 or less from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/195_Fatesplicer.png" num="195">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spider Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Boasting Rootwalla</name>
+			<text>You may cast this spell without paying its mana cost if you&apos;ve activated a boast ability this turn.
+Boast — {G}{W}: Boasting Rootwalla gets +2/+2 until end of turn. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/208_Boasting Rootwalla.png" num="208">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard</type>
+				<maintype>Creature</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fool&apos;s Errand</name>
+			<text>Pay X life: Put a +1/+1 counter on target creature you control. X is equal to 2 plus the number of times you&apos;ve activated this ability this turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/219_Fool&apos;s Errand.png" num="219">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Breitmeer Delver</name>
+			<text>Trample, ward {2}
+Boast — {1}{G}{U}: Breitmeer Delver becomes an X/X creature until end of turn, where X is the power of target attacking creature. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/228_Breitmeer Delver.png" num="228">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cryptic Pioneer</name>
+			<text>When Cryptic Pioneer enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/234_Cryptic Pioneer.png" num="234">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Far-Flung Voyager</name>
+			<text>Whenever Far-Flung Voyager attacks, you may discard a card. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/235_Far-Flung Voyager.png" num="235">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Steward of New Horizons</name>
+			<text>Reach
+When Steward of New Horizons enters, you gain 2 life, then you create a Weapon token. (It&apos;s an Equipment with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/242_Steward of New Horizons.png" num="242">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flowing Blade</name>
+			<text>When Flowing Blade enters, you may destroy target nonland permanent with mana value 2 or less. 
+Equipped creature gets +1/+1.
+Equip {2}</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/236_Flowing Blade.png" num="236">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Skull of Titan&apos;s Past</name>
+			<text>{T}: Target player mills a card.
+{T}: Target player exiles a card from their graveyard.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/241_Skull of Titan&apos;s Past.png" num="241">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Apotropaic Maw</name>
+			<text>{1}, {T}: Add one mana of any color.
+{1}, Sacrifice Apotropaic Maw: Exile target player&apos;s graveyard. Draw a card.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/232_Apotropaic Maw.png" num="232">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Assimilated Explorer</name>
+			<text>Flying
+When Assimilated Explorer enters, you may discard a card. If you do, look at the top three cards of your library. Put one into your hand and the rest on the bottom of your library in a random order.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/233_Assimilated Explorer.png" num="233">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Longshot Resident</name>
+			<text>Ward {1}
+Whenever you create one or more tokens, put a +1/+1 counter on Longshot Resident.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/238_Longshot Resident.png" num="238">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Monument to the Fallen Man</name>
+			<text>{T}: You may put a creature card with mana value 2 from your hand onto the battlefield.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/239_Monument to the Fallen Man.png" num="239">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Unleash Enmity</name>
+			<text>You may pay {0} rather than the costs of the next boast ability you activate this turn.
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/187_Unleash Enmity.png" num="187">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hall of Echoes</name>
+			<text>At the beginning of your end step, if one or more counters were removed from permanents you control this turn, each opponent exiles a card from their hand. If three or more counters were removed from permanents you control this turn, draw a card. (Permanents leaving the battlefield don&apos;t cause counters on them to be removed.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/196_Hall of Echoes.png" num="196">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Breaker of Stagnancy</name>
+			<text>This spell costs {2} less to cast for each permanent you&apos;ve sacrificed this turn.
+Trample</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/199_Breaker of Stagnancy.png" num="199">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Satyr Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>4BR</manacost>
+				<cmc>6</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cloying Expectations</name>
+			<text>Menace
+Whenever Cloying Expectations deals combat damage to a player, you may sacrifice a land. If you do, each opponent that controls three or more lands sacrifices a land.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/204_Cloying Expectations.png" num="204">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Horns of Drained Ichor</name>
+			<text>Each creature you control that dealt damage to a player this turn can boast twice during each of your turns rather than once.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/209_Horns of Drained Ichor.png" num="209">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk</type>
+				<maintype>Creature</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Apis Rider</name>
+			<text>Flying
+Whenever you commune, you may copy target activated ability you control. (You commune after spending at least three mana activating abilities each turn.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/227_Apis Rider.png" num="227">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brightblade Initiator</name>
+			<text>Whenever Brightblade Initiator attacks, add {R}{W}. Until end of combat, you don&apos;t lose this mana as steps end.
+Whenever Brightblade Initiator leaves the battlefield, create a 2/1 white Warrior creature token with &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/224_Brightblade Initiator.png" num="224">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ute&apos;s Honor Guard</name>
+			<text>Deception {1}{R}{W} ({1}{R}{W}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Ute&apos;s Honor Guard deals combat damage to a player or planeswalker, it deals 3 damage to any target and you gain 3 life.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/226_Ute&apos;s Honor Guard.png" num="226">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kriemhild of Many Masks</name>
+			<text>Whenever Kriemhild enters or attacks, you may sacrifice a land. If you do, search your library for a land card, put it onto the battlefield tapped, then shuffle.
+As long as you have four or more land cards in your graveyard, you may play land cards from your graveyard.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/206_Kriemhild of Many Masks.png" num="206">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Call of the Zwiewald</name>
+			<text>Whenever you commune, untap up to three target lands. (You commune after spending at least three mana activating abilities each turn.)
+At the beginning of each end step, create a 4/4 green Elemental creature token if you&apos;ve activated four or more nonmana activated abilities this turn.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/229_The Call of the Zwiewald.png" num="229">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nasaj, the Observer Between</name>
+			<text>Whenever you attack, create a Weapon token and attach it to an attacking creature. (It&apos;s an Equipment with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/240_Nasaj, the Observer Between.png" num="240">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Anina, Breath of the Winds</name>
+			<text>Boast — {G}{W}: Reveal the top four cards of your library. You may put a creature card with mana value 2 or less and a land card from among them into your hand and the rest on the bottom of your library. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/207_Anina, Breath of the Winds.png" num="207">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kriemhild&apos;s First Mask</name>
+			<text>Kriemhild&apos;s First Mask enters with a loyalty counter on it.
+Kriemhild&apos;s First Mask has all loyalty abilities of planeswalkers you control. (You may only activate one loyalty ability of this permanent each turn as a sorcery.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/237_Kriemhild&apos;s First Mask.png" num="237">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/282_Plains.png" num="282">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/283_Island.png" num="283">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/284_Swamp.png" num="284">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/285_Mountain.png" num="285">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/286_Forest.png" num="286">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Barren Desolation</name>
+			<text>As Barren Desolation enters, you may pay 2 life. If you don&apos;t, it enters tapped.
+{T}, Sacrifice Barren Desolation: Search your library for a Plains or Swamp card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/245_Barren Desolation.png" num="245">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Floodwater Depths</name>
+			<text>As Floodwater Depths enters, you may pay 2 life. If you don&apos;t, it enters tapped.
+{T}, Sacrifice Floodwater Depths: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/258_Floodwater Depths.png" num="258">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Grim Bastion</name>
+			<text>As Grim Bastion enters, you may pay 2 life. If you don&apos;t, it enters tapped.
+{T}, Sacrifice Grim Bastion: Search your library for a Swamp or Forest card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/261_Grim Bastion.png" num="261">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Magmatic Torrent</name>
+			<text>As Magmatic Torrent enters, you may pay 2 life. If you don&apos;t, it enters tapped.
+{T}, Sacrifice Magmatic Torrent: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/263_Magmatic Torrent.png" num="263">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Mysterious Cataract</name>
+			<text>As Mysterious Cataract enters, you may pay 2 life. If you don&apos;t, it enters tapped.
+{T}, Sacrifice Mysterious Cataract: Search your library for a Forest or Island card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/264_Mysterious Cataract.png" num="264">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Ocean Monastery</name>
+			<text>As Ocean Monastery enters, you may pay 2 life. If you don&apos;t, it enters tapped.
+{T}, Sacrifice Ocean Monastery: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/265_Ocean Monastery.png" num="265">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Scenic Caldera</name>
+			<text>({T}: Add {R}.)
+Scenic Caldera enters tapped.
+{1}{R}, {T}, Sacrifice Scenic Caldera: Draw a card.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/267_Scenic Caldera.png" num="267">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Scenic Coast</name>
+			<text>({T}: Add {U}.)
+Scenic Coast enters tapped.
+{1}{U}, {T}, Sacrifice Scenic Coast: Draw a card.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/268_Scenic Coast.png" num="268">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Scenic Copse</name>
+			<text>({T}: Add {G}.)
+Scenic Copse enters tapped.
+{1}{G}, {T}, Sacrifice Scenic Copse: Draw a card.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/269_Scenic Copse.png" num="269">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Scenic Hollow</name>
+			<text>({T}: Add {B}.)
+Scenic Hollow enters tapped.
+{1}{B}, {T}, Sacrifice Scenic Hollow: Draw a card.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/270_Scenic Hollow.png" num="270">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Scenic Meadow</name>
+			<text>({T}: Add {W}.)
+Scenic Meadow enters tapped.
+{1}{W}, {T}, Sacrifice Scenic Meadow: Draw a card.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/271_Scenic Meadow.png" num="271">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Shardstone Rift</name>
+			<text>As Shardstone Rift enters, you may pay 2 life. If you don&apos;t, it enters tapped.
+{T}, Sacrifice Shardstone Rift: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/272_Shardstone Rift.png" num="272">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Sunlit Highland</name>
+			<text>As Sunlit Highland enters, you may pay 2 life. If you don&apos;t, it enters tapped.
+{T}, Sacrifice Sunlit Highland: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/273_Sunlit Highland.png" num="273">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Timber Range</name>
+			<text>As Timber Range enters, you may pay 2 life. If you don&apos;t, it enters tapped.
+{T}, Sacrifice Timber Range: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/275_Timber Range.png" num="275">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Wayfarer&apos;s Shrine</name>
+			<text>{T}, Pay 1 life, Sacrifice Wayfarer&apos;s Shrine: Search your library for a basic land card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/280_Wayfarer&apos;s Shrine.png" num="280">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Crossroads of Amnesty</name>
+			<text>({T}: Add {U} or {B}.)
+As Crossroads of Amnesty enters, you may exile two cards from your graveyard. If you don&apos;t, it enters tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/246_Crossroads of Amnesty.png" num="246">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Crossroads of Artistry</name>
+			<text>({T}: Add {U} or {R}.)
+As Crossroads of Artistry enters, you may exile two cards from your graveyard. If you don&apos;t, it enters tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/247_Crossroads of Artistry.png" num="247">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Crossroads of Bravery</name>
+			<text>({T}: Add {R} or {W}.)
+As Crossroads of Bravery enters, you may exile two cards from your graveyard. If you don&apos;t, it enters tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/248_Crossroads of Bravery.png" num="248">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Crossroads of Charity</name>
+			<text>({T}: Add {G} or {W}.)
+As Crossroads of Charity enters, you may exile two cards from your graveyard. If you don&apos;t, it enters tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/249_Crossroads of Charity.png" num="249">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Crossroads of Efficiency</name>
+			<text>({T}: Add {G} or {U}.)
+As Crossroads of Efficiency enters, you may exile two cards from your graveyard. If you don&apos;t, it enters tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/250_Crossroads of Efficiency.png" num="250">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Crossroads of Finality</name>
+			<text>({T}: Add {B} or {R}.)
+As Crossroads of Finality enters, you may exile two cards from your graveyard. If you don&apos;t, it enters tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/251_Crossroads of Finality.png" num="251">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Crossroads of History</name>
+			<text>({T}: Add {R} or {G}.)
+As Crossroads of History enters, you may exile two cards from your graveyard. If you don&apos;t, it enters tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/252_Crossroads of History.png" num="252">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Crossroads of Serenity</name>
+			<text>({T}: Add {W} or {B}.)
+As Crossroads of Serenity enters, you may exile two cards from your graveyard. If you don&apos;t, it enters tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/253_Crossroads of Serenity.png" num="253">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Crossroads of Tenacity</name>
+			<text>({T}: Add {B} or {G}.)
+As Crossroads of Tenacity enters, you may exile two cards from your graveyard. If you don&apos;t, it enters tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/254_Crossroads of Tenacity.png" num="254">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Crossroads of Unity</name>
+			<text>({T}: Add {W} or {U}.)
+As Crossroads of Unity enters, you may exile two cards from your graveyard. If you don&apos;t, it enters tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/255_Crossroads of Unity.png" num="255">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Demolition Field</name>
+			<text>{T}: Add {C}.
+{2}, {T}, Sacrifice Demolition Field: Destroy target nonbasic land an opponent controls. That land&apos;s controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/256_Demolition Field.png" num="256">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Fassahd Outpost</name>
+			<text>Fassahd Outpost enters tapped unless you control two or more other lands.
+{T}: Add {W}.
+{1}{W}, Exile a creature card from your graveyard: Fassahd Outpost becomes a 2/4 Human with vigilance until end of turn. It&apos;s still a land. Activate only once each turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/257_Fassahd Outpost.png" num="257">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Forgotten Monoliths</name>
+			<text>When Forgotten Monoliths enters, exile up to three target cards from graveyards.
+{T}: Add {C}.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/259_Forgotten Monoliths.png" num="259">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Grabeih Outpost</name>
+			<text>Grabeih Outpost enters tapped unless you control two or more other lands.
+{T}: Add {B}.
+Exile a creature card from your graveyard: Grabeih Outpost becomes a 2/2 black Elemental creature until end of turn. It&apos;s still a land. Activate only once each turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/260_Grabeih Outpost.png" num="260">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Jaegrin Outpost</name>
+			<text>Jaegrin Outpost enters tapped unless you control two or more other lands.
+{T}: Add {U}.
+{U}, Exile a creature card from your graveyard: Jaegrin Outpost becomes a 2/2 blue Goblin creature with prowess until end of turn. It&apos;s still a land. Activate only once each turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/262_Jaegrin Outpost.png" num="262">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Testament to Memory</name>
+			<text>{T}: Add {C}.
+{1}, {T}: Draw a card, then put a card from your hand on top of your library.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/274_Testament to Memory.png" num="274">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Valley of the Lost</name>
+			<text>{T}: Add {C}.
+{1}, {T}, Sacrifice Valley of the Lost: Return target land card from your graveyard to the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/278_Valley of the Lost.png" num="278">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Warkrei Outpost</name>
+			<text>Warkrei Outpost enters tapped unless you control two or more other lands.
+{T}: Add {R}.
+{R}, Exile a creature card from your graveyard: Warkrei Outpost becomes a 2/2 red Elf creature with menace until end of turn. It&apos;s still a land. Activate only once each turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/279_Warkrei Outpost.png" num="279">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Zyklinder Outpost</name>
+			<text>Zyklinder Outpost enters tapped unless you control two or more other lands.
+{T}: Add {G}.
+{1}{G}, Exile a creature card from your graveyard: Zyklinder Outpost becomes a 4/3 green Ouphe creature with trample until end of turn. It&apos;s still a land. Activate only once each turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/281_Zyklinder Outpost.png" num="281">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Ash Barrens</name>
+			<text>{T}: Add {C}.
+Basic landcycling {1} ({1}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/244_Ash Barrens.png" num="244">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Stoop</name>
+			<text>Stoop deals 3 damage to target attacking or blocking creature.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/32_Stoop.png" num="32">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Courier Sergeant</name>
+			<text>Boast — {1}{W}: Tap target creature. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/5_Courier Sergeant.png" num="5">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thorough Preparations</name>
+			<text>Choose one or both —
+• Return target spell to its owner&apos;s hand.
+• Untap target creature you control and put a +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/33_Thorough Preparations.png" num="33">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vanguard Naturalist</name>
+			<text>Deception {1}{W} ({1}{W}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+When Vanguard Naturalist enters, target creature gains indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/35_Vanguard Naturalist.png" num="35">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Faithful Harrier</name>
+			<text>Flying
+{1}{W}, Exile Faithful Harrier from your graveyard: Create a Weapon token. (It&apos;s an Equipment with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/12_Faithful Harrier.png" num="12">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Patriotic Landsknecht</name>
+			<text>{1}{W}: Patriotic Landsknecht gains first strike until end of turn.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/25_Patriotic Landsknecht.png" num="25">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Luminous Rearguard</name>
+			<text>Whenever Luminous Rearguard is dealt damage, put a +1/+1 counter on it. (It must survive the damage to get the counter.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/19_Luminous Rearguard.png" num="19">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mellifluous Hussar</name>
+			<text>Flying
+When Mellifluous Hussar enters, you may return another permanent you control to its owner&apos;s hand. If you do, you gain 2 life.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/21_Mellifluous Hussar.png" num="21">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dancer on the Wind</name>
+			<text>First strike
+Boast — {1}{W}: Dancer on the Wind gets +2/+0 until end of turn. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/6_Dancer on the Wind.png" num="6">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Listlessness</name>
+			<text>If you control three or fewer lands, counter target spell.
+Cycling—Sacrifice a land. (Sacrifice a land, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/56_Listlessness.png" num="56">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Erkinder Analyst</name>
+			<text>When Erkinder Analyst enters, you may exile another target creature or enchantment. Return that card to the battlefield under its owner&apos;s control at the beginning of the next end step.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/48_Erkinder Analyst.png" num="48">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aural Gardener</name>
+			<text>Vigilance
+{1}, {T}: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/39_Aural Gardener.png" num="39">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Consult</name>
+			<text>Draw two cards, then put a card from your hand on the top of your library.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/43_Consult.png" num="43">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Consider</name>
+			<text>Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+Draw a card.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/42_Consider.png" num="42">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pelagic Inquiry</name>
+			<text>Choose one —
+• Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
+• Tap target creature. Put two stun counters on it.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/63_Pelagic Inquiry.png" num="63">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dead Weight</name>
+			<text>Enchant creature
+Enchanted creature gets -2/-2.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/84_Dead Weight.png" num="84">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Conspiracy of Ravens</name>
+			<text>Vanishing 1 (This permanent enters with a time counter. At the beginning of your upkeep, remove one. When the last is removed, sacrifice it.)
+When the last time counter is removed from Conspiracy of Ravens, target player reveals their hand. You choose a nonland card from it. That player discards that card.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/81_Conspiracy of Ravens.png" num="81">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Drown Hope</name>
+			<text>If you control four or fewer lands, destroy target creature or planeswalker.
+Cycling—Sacrifice a land. (Sacrifice a land, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/90_Drown Hope.png" num="90">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gallant of Singing Steel</name>
+			<text>Boast — Pay 1 life: Gallant of Singing Steel gains flying until end of turn. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/97_Gallant of Singing Steel.png" num="97">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hardened Heart</name>
+			<text>Vanishing 1 (This permanent enters with a time counter. At the beginning of your upkeep, remove one. When the last is removed, sacrifice it.)
+When the last time counter is removed from Hardened Heart, you may destroy target creature or planeswalker.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/98_Hardened Heart.png" num="98">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>New Places, Old Faces</name>
+			<text>Target opponent reveals their hand. You may choose a nonland card from it with mana value 3 or less. If you do, that player discards that card. If you don&apos;t, return up to one target creature card with mana value 3 or less from your graveyard to the battlefield.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/102_New Places, Old Faces.png" num="102">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Keeper of Those Lost</name>
+			<text>Boast — {1}{B}: Each opponent discards a card. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/99_Keeper of Those Lost.png" num="99">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shade</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Roaming Anguish</name>
+			<text>Haste
+Roaming Anguish gets +1/+1 and has menace as long as you have 10 or less life.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/107_Roaming Anguish.png" num="107">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fledgling Cultivator</name>
+			<text>Deathtouch
+{2}{B}, Exile three cards from your graveyard: If Fledgling Cultivator doesn&apos;t have any counters on it, put two +1/+1 counters on it.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/96_Fledgling Cultivator.png" num="96">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ouphe Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Let Go</name>
+			<text>Choose one —
+• You may discard a card. If you do, draw two cards.
+• Destroy target artifact.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/125_Let Go.png" num="125">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rally the Dragoons</name>
+			<text>Create a 2/1 white Warrior creature token with &quot;This creature can&apos;t block.&quot; It gains haste until end of turn.
+Flashback—{1}{R}, Sacrifice a land. (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/138_Rally the Dragoons.png" num="138">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wrap Up</name>
+			<text>This spell can&apos;t be countered.
+Wrap Up deals 2 damage to any target.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/152_Wrap Up.png" num="152">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vitrified Memory</name>
+			<text>When Vitrified Memory enters, it deals 3 damage any target.
+Equipped creature gets +1/+1.
+Equip {2}</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/146_Vitrified Memory.png" num="146">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Monarch-Clad Fae</name>
+			<text>Whenever you cast a noncreature spell, Monarch-Clad Fae gets +1/+0 and gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/132_Monarch-Clad Fae.png" num="132">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Merry Marauder</name>
+			<text>Deception {R} ({R}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+When Merry Marauder enters, create a tapped Treasure token if you don&apos;t control a Treasure.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/131_Merry Marauder.png" num="131">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warkrei Quartermaster</name>
+			<text>Deception {2}{R} ({2}{R}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Warkrei Quartermaster deals combat damage to a player or planeswalker, create a Weapon token. (It&apos;s an Equipment with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/151_Warkrei Quartermaster.png" num="151">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Protean Bloom</name>
+			<text>For each player, destroy target land that player controls. Each player may search their library for a basic land card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/135_Protean Bloom.png" num="135">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Soldier of Misfortune</name>
+			<text>When Soldier of Misfortune enters, it deals 1 damage to any target.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/145_Soldier of Misfortune.png" num="145">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Edge of Autumn</name>
+			<text>If you control four or fewer lands, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Cycling—Sacrifice a land. (Sacrifice a land, Discard this card: Draw a card.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/166_Edge of Autumn.png" num="166">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Yellowcap Centurion</name>
+			<text>Trample
+Boast — {G}: Put a +1/+1 counter on Yellowcap Centurion. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/189_Yellowcap Centurion.png" num="189">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jolly Scopuinter</name>
+			<text>Boast — {1}: Untap each other creature you control. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/171_Jolly Scopuinter.png" num="171">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deprecate</name>
+			<text>Destroy up to one target artifact or enchantment. Create a Weapon token. (It&apos;s an Equipment with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/163_Deprecate.png" num="163">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deadly Recluse</name>
+			<text>Reach, deathtouch</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/161_Deadly Recluse.png" num="161">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spider</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Amber Hills</name>
+			<text>As Amber Hills enters, you may pay 2 life. If you don&apos;t, it enters tapped.
+{T}, Sacrifice Amber Hills: Search your library for a Forest or Plains card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/243_Amber Hills.png" num="243">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<cipt>1</cipt>
+		</card>
+		<card>
+			<name>Tentative Peace</name>
+			<text>At the beginning of your end step, you may exile target creature you control, then return that card to the battlefield under its owner&apos;s control.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/194_Tentative Peace.png" num="194">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Shrine to the First Dawn</name>
+			<text>Whenever you attack, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it. (If a permanent with a finality counter on it would die, exile it instead.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/214_Shrine to the First Dawn.png" num="214">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Newborn Grausamkeit</name>
+			<text>The first noncreature spell you cast each turn costs {1} less to cast.
+Whenever you cast a noncreature spell, target creature you control has base power and toughness 4/4 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/217_Newborn Grausamkeit.png" num="217">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Werewolf Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inexorable Rot</name>
+			<text>As long as you have 10 or less life, Inexorable Rot gets +3/+3.
+As long as you have 5 or less life, Inexorable Rot has &quot;Whenever Inexorable Rot attacks, defending player sacrifices a creature and discards a card.&quot;
+As long as you have 1 or less life, Inexorable Rot has indestructible and &quot;Ward—Pay 10 life.&quot;</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/220_Inexorable Rot.png" num="220">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brightblade Finisher</name>
+			<text>Deception {2}{R}{W} ({2}{R}{W}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Brightblade Finisher or another creature you control enters, that creature gets +2/+0 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/223_Brightblade Finisher.png" num="223">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Totem of the Forgotten</name>
+			<text>Indestructible
+{T}: Add {C}.
+{2}, {T}: Each player draws a card.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/276_Totem of the Forgotten.png" num="276">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Path of the Unremembered</name>
+			<text>{T}: Add {C}.
+{3}, {T}, Sacrifice Path of the Unremembered: Create a 4/4 green Elemental creature token. Activate only if you don&apos;t control any creatures.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/266_Path of the Unremembered.png" num="266">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Dammern, Season of Song</name>
+			<text>Deception {3}{R}{W} ({3}{R}{W}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Dammern deals combat damage to a player or planeswalker, if it&apos;s the first combat phase of the turn, untap all other creatures you control. After this phase, there is an additional combat phase.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/225_Dammern, Season of Song.png" num="225">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elemental Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Motte, Season of Origins</name>
+			<text>Motte, Season of Origins enters with two +1/+1 counters on him if you didn&apos;t cast him from your hand.
+Lifelink
+You may cast Motte from your graveyard by exiling any number of cards from your graveyard with four or more card types among them in addition to paying his other costs.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/212_Motte, Season of Origins.png" num="212">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Frog Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ludolf, Wartorn</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/201_Ludolf, Wartorn.png" num="201">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Ludolf</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Elissia, Adrift</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/192_Elissia, Adrift.png" num="192">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Elissia</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Kriemhild of One Truth</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/172_Kriemhild of One Truth.png" num="172">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Kriemhild</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Jaegrin Woodweaver</name>
+			<text>Whenever you cast a blue spell, choose up to X, where X is the number of blue mana symbols in that spell&apos;s mana cost —
+• Target player surveils 2. 
+• You may tap or untap target creature.
+• Target creature can&apos;t be blocked this turn.
+• Target player draw a cards, then discards a card.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/55_Jaegrin Woodweaver.png" num="55">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>UUU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Erkinder Cataloger</name>
+			<text>Flash
+Other creatures lose all abilities as long as Erkinder Cataloger entered this turn.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/49_Erkinder Cataloger.png" num="49">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Jellyfish Merfolk Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dwell on Despair</name>
+			<text>Target player reveals their hand. You choose a nonland card from it. That player discards that card unless that player has Dwell on Despair deal 3 damage to them.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/119_Dwell on Despair.png" num="119">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Subvert Weakness</name>
+			<text>This spell costs {1}{B} less to cast as long as you have 10 or less life.
+Destroy target creature.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/111_Subvert Weakness.png" num="111">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Out-of-Body Experience</name>
+			<text>Exile target creature. That creature&apos;s controller creates a 1/1 blue Elemental creature token with flying.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/23_Out-of-Body Experience.png" num="23">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Coerced Contemplation</name>
+			<text>Look at target opponent&apos;s hand. You may exile a nonland card from it. For as long as that card remains exiled, its owner may play it. A spell cast this way costs {2} more to cast. If a card wasn&apos;t exiled this way, draw a card.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/4_Coerced Contemplation.png" num="4">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Beaten but Not Broken</name>
+			<text>Whenever a creature you control leaves the battlefield, put a +1/+1 counter on target creature you control.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/2_Beaten but Not Broken.png" num="2">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Great Lunadoptera</name>
+			<text>As an additional cost to cast this spell, exile two creature cards from your graveyard.
+Flying</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/14_Great Lunadoptera.png" num="14">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Make Peace</name>
+			<text>Exile target creature or planeswalker. At the beginning of the next end step, return that card to the battlefield under its owner&apos;s control. You gain 2 life.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/20_Make Peace.png" num="20">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Overflowing Imagination</name>
+			<text>Whenever you cast a noncreature spell, tap target creature you don&apos;t control. Then you may pay {1}. If you do, put a stun counter on that creature.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/61_Overflowing Imagination.png" num="61">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Culinary Experimentalists</name>
+			<text>Flash
+Prowess
+When Culinary Experimentalists enters, if you cast it, exile any number of target instant and/or sorcery cards from your graveyard. You may cast any number of spells exiled this way with total mana value 2 or less exiled this way without paying its mana cost.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/45_Culinary Experimentalists.png" num="45">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Swap Stories</name>
+			<text>For each player, exile up to one target creature that player controls. Return each creature exiled this way under its owner&apos;s control at the beginning of the next end step.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/71_Swap Stories.png" num="71">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gullet of Want</name>
+			<text>Hexproof
+Vanishing 4 (This creature enters with four time counters. At the beginning of your upkeep, remove one. When the last is removed, sacrifice it.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/52_Gullet of Want.png" num="52">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Serpent</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prune</name>
+			<text>As an additional cost to cast this spell, pay X life. (X can be zero.)
+Each opponent sacrifices a creature with power X or greater.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/103_Prune.png" num="103">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Be Reborn</name>
+			<text>Return target creature or planeswalker card with mana value 3 or less from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/79_Be Reborn.png" num="79">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Alone Together</name>
+			<text>Whenever a player attacks you or a planeswalker you control, that player discards a card.
+Whenever you attack a player, if they have no cards in hand, put a +1/+1 counter on each attacking creature.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/78_Alone Together.png" num="78">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Deathcap Overseer</name>
+			<text>Boast — {2}{B}, Discard a card: Target creature gets -X/-X until end of turn, where X is the mana value of the discarded card. (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/85_Deathcap Overseer.png" num="85">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Abandon the Calling</name>
+			<text>Creatures get -2/-2 until end of turn. If a creature would die this turn, exile it instead.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/77_Abandon the Calling.png" num="77">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Those of Distant Familiarity</name>
+			<text>Those of Distant Familiarity can&apos;t block.
+Boast — {1}{B}: Create a 2/1 white Warrior creature token with &quot;This creature can&apos;t block.&quot; (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/112_Those of Distant Familiarity.png" num="112">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Satyr Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Delighted Madcap</name>
+			<text>Delighted Madcap can&apos;t be blocked by creatures with counters on them.
+Whenever you activate a loyalty ability of a Ludolf planeswalker, you may return Delighted Madcap from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/86_Delighted Madcap.png" num="86">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ouphe Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unseam</name>
+			<text>Target player reveals their hand. You choose a nonland card from it. That player discards that card. If they discarded a card this way, they surveil 2.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/114_Unseam.png" num="114">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Now or Never</name>
+			<text>Now or Never deals 2 damage to each creature. Whenever a creature you control dealt damage this way dies this turn, put a loyalty counter on a Ludolf planeswalker you control.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/133_Now or Never.png" num="133">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>RR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Reignition Screamer</name>
+			<text>This spell costs {1} less to cast for each land card in your graveyard.
+Flying, haste</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/140_Reignition Screamer.png" num="140">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warkrei Bladedancer</name>
+			<text>Deception {2}{R} ({2}{R}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Whenever Warkrei Bladedancer deals combat damage to a player or planeswalker, return it to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/150_Warkrei Bladedancer.png" num="150">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mark of Conquest</name>
+			<text>Players can&apos;t gain life.
+Nonbasic lands enter the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/130_Mark of Conquest.png" num="130">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mend the Scenery</name>
+			<text>Return target land card from your graveyard to the battlefield tapped.
+Flashback {1}{G}, Sacrifice a land. (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/175_Mend the Scenery.png" num="175">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Principality of Dawn</name>
+			<text>Deception {W}{W}{W} ({W}{W}{W}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Flying, lifelink
+Other creatures you control get +1/+1.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/27_Principality of Dawn.png" num="27">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Virtue of Dawn</name>
+			<text>Deception {3}{W} ({3}{W}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+Flying
+When Virtue of Dawn enters, return target creature card with mana value 3 or less from your graveyard to the battlefield. If Virtue of Dawn is attacking, you may have that creature enters the battlefield tapped and attacking.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/37_Virtue of Dawn.png" num="37">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lord Commander Ute IX</name>
+			<text>Ward—Pay 4 life.
+Whenever a creature you control attacks and isn&apos;t blocked, you may return it to your hand. If you do, you may put a creature card in your hand with equal or lesser mana value than the returned creature onto the battlefield tapped and attacking.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/127_Lord Commander Ute IX.png" num="127">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Goblin MSK</name>
+			<text>Prowess</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/4t_Goblin.png" num="4">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Goblin</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+			<reverse_related>Prank of the Ages</reverse_related>
+			<reverse_related>Season&apos;s End Celebrant</reverse_related>
+			<reverse_related>Invigorating Discovery</reverse_related>
+		</card>
+		<card>
+			<name>Play the Part</name>
+			<text>Enchant player
+Creatures enchanted player controls lose all abilities and creature types.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/26_Play the Part.png" num="26">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura Curse</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Reaping Whirlwind</name>
+			<text>Flash
+Flying
+During your turn, instant and sorcery cards in your graveyard have flashback. The flashback cost is equal to the card&apos;s mana cost plus discarding a card.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/65_Reaping Whirlwind.png" num="65">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rationalize</name>
+			<text>Each player chooses six permanents they control, then sacrifices the rest.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/104_Rationalize.png" num="104">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Eike, Bound to the Inferno</name>
+			<text>As long as you have three or more land cards in your graveyard, Eike is a 4/4 Dragon Avatar with flying.
+Whenever one or more Dragons you control attack, you may discard a card. If you do, draw a card.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/121_Eike, Bound to the Inferno.png" num="121">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Boots of the Ground</name>
+			<text>At the beginning of combat on your turn, you may exile any number of cards from your graveyard. Put a +1/+1 counter on Boots of the Ground if there were one or more card types among them. Create a Treasure token if there were two or more card types among them. Create a 4/4 green Elemental creature token if there were four or more card types among them.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/154_Boots of the Ground.png" num="154">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Return to Placidity</name>
+			<text>This spell can&apos;t be countered.
+Return to Placidity deals 4 damage to each creature and planeswalker.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/141_Return to Placidity.png" num="141">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Weapon MSK</name>
+			<text>Equipped creature gets +1/+1.
+Equip {2}</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/9t_Weapon.png" num="9">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+			<reverse_related>Escapade Collector</reverse_related>
+			<reverse_related>Faithful Harrier</reverse_related>
+			<reverse_related>Gregarious Buboh</reverse_related>
+			<reverse_related>Veiled Foreboding</reverse_related>
+			<reverse_related>From Blood, Blades</reverse_related>
+			<reverse_related>Warkrei Commander</reverse_related>
+			<reverse_related>Custodian of Cycles</reverse_related>
+			<reverse_related>Deprecate</reverse_related>
+			<reverse_related>From Hope to Action</reverse_related>
+			<reverse_related>Timber Pummeler</reverse_related>
+			<reverse_related>Zyklinder Shortcutter</reverse_related>
+			<reverse_related>Anina, Breath of the Winds</reverse_related>
+			<reverse_related>Nasaj</reverse_related>
+			<reverse_related>Steward of New Horizons</reverse_related>
+		</card>
+		<card>
+			<name>ElementalGreen MSK</name>
+			<text>Trample</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/7t_ElementalGreen.png" num="7">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+			<reverse_related>Path of the Unremembered</reverse_related>
+			<reverse_related>Kriemhild of One Truth</reverse_related>
+		</card>
+		<card>
+			<name>ElementalBlue MSK</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/3t_ElementalBlue.png" num="3">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+			<reverse_related>Ziel, Season of Endings</reverse_related>
+			<reverse_related>Out-of-Body Experience</reverse_related>
+		</card>
+		<card>
+			<name>Warrior MSK</name>
+			<text>This creature can&apos;t block.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/1t_Warrior.png" num="1">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+			<reverse_related>Those of Distant Familiarity</reverse_related>
+			<reverse_related>A Dream of Reunion</reverse_related>
+			<reverse_related>Opulent Settler</reverse_related>
+			<reverse_related>Rally the Dragoons</reverse_related>
+			<reverse_related>Timber Pummeler</reverse_related>
+			<reverse_related>Lessons Learned Trials Won</reverse_related>
+			<reverse_related>Unblooded Edge</reverse_related>
+		</card>
+		<card>
+			<name>Avatar MSK</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/6t_Avatar.png" num="6">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>X/X</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+			<reverse_related>Behold Ruhigwelt</reverse_related>
+		</card>
+		<card>
+			<name>Wolf Spirit MSK</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/2t_Wolf Spirit.png" num="2">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Wolf Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+			<reverse_related>Together As One</reverse_related>
+		</card>
+		<card>
+			<name>Treasure MSK</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/8t_Treasure.png" num="8">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+			<reverse_related>Crestfallen Roseblade</reverse_related>
+			<reverse_related>Liberator of Petals</reverse_related>
+			<reverse_related>Merry Marauder</reverse_related>
+			<reverse_related>Ziel, Season of Endings</reverse_related>
+		</card>
+		<card>
+			<name>Spirit MSK</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/MSK-files/img/5t_Spirit.png" num="5">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+			<reverse_related>Fount of the Wandering</reverse_related>
+			<reverse_related>Witness to Many Ends</reverse_related>
+		</card>
+		<card>
+			<name>A Dream of Stillness</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/89_A Dream of Stillness.png" num="89">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Dream</type>
+				<maintype>Enchantment</maintype>
+				<manacost>BBB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>A Dream of Horizons</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/10_A Dream of Horizons.png" num="10">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Dream</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>A Dream of Reunion</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/118_A Dream of Reunion.png" num="118">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Dream</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>A Dream of Yesterdays</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/165_A Dream of Yesterdays.png" num="165">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Dream</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Adorned Orator</name>
+			<text>Vigilance
+{1}{G}, Exile a card from your graveyard, {T}: Create a Weapon token. (It&apos;s an Equipment with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)
+{3}{G}: Attach an Equipment you control to Adorned Orator.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/MSK-files/img/153_Adorned Orator.png" num="153">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trunk of Fallen Friends</name>
+			<text>Vanishing 3 (This permanent enters with three time counters. At the beginning of your upkeep, remove one. When the last is removed, sacrifice it.)
+{T}: Add {C}.
+Whenever the last time counter is removed from Trunk of Fallen Friends, search your library for a land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/277_Trunk of Fallen Friends.png" num="277">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>From Hope to Action</name>
+			<text>Creatures you control have &quot;Boast — {2}: Put a +1/+1 counter on this creature.&quot; (Activate only if that creature attacked this turn and only once each turn.)
+Whenever a creature you control deals combat damage to a player, you may activate one of its boast abilities without paying its costs. (You can&apos;t activate the same boast ability twice in a turn.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/168_From Hope to Action.png" num="168">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>A Dream of Mirrors</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/46_A Dream of Mirrors.png" num="46">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Dream</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Secret Histories</name>
+			<text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
+Choose the name of target nonland card in a graveyard if Secret Histories wasn&apos;t kicked. Otherwise, choose a nonland card name. Search target player&apos;s graveyard, hand, and library for any number of cards with the chosen name. That player shuffles, then draws a card for each card exiled from their hand this way.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/MSK-files/img/109_Secret Histories.png" num="109">MSK</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

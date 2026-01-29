@@ -1,9 +1,10 @@
 ﻿{
     "name": "Secrets of the River Cities",
-    "formats": "Zangy, Custard, Revolution",
-    "trimmed": "y",
+    "formats": "Zangy, Revolution",
+    "trimmed": "n",
     "image_type": "png",
     "draft_structure": "draft booster",
+    "unpreviewed": "card back",
     "cards": [
         {
             "card_name": "Bishop of Ameret's Way",
@@ -4992,5 +4993,5 @@
             "notes": "!tag Detrosse\n!tag Jericho\n!tag Planeswalker\n!related Jericho Hudson;\n!exportname Jericho Emblem"
         }
     ],
-    "version": 3
+    "version": 4
 }

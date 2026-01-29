@@ -1,0 +1,5191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>RAR</name>
+			<longname>Ravnica: Resurgence</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-01-29</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Turn to Mist</name>
+			<text>Exile target creature. Return that card to the battlefield under its owner&apos;s control at the beginning of the next end step.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/253_Turn to Mist.png" num="253">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W/U</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vampire Ministrant</name>
+			<text>Lifelink</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/254_Vampire Ministrant.png" num="254">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/B</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grace of the Firemanes</name>
+			<text>Enchant creature
+When Grace of the Firemanes enters the battlefield, draw a card.
+Enchanted creature gains &quot;{R}: This creature gets +1/+0 until end of turn&quot; and &quot;{W}: This creature gets +0/+1 until end of turn.&quot;</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/242_Grace of the Firemanes.png" num="242">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R/W</manacost>
+				<cmc>1</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nature&apos;s Chant</name>
+			<text>Destroy target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/246_Nature&apos;s Chant.png" num="246">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G/W</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stern Strongarm</name>
+			<text>When Stern Strongarm becomes the target of a spell or ability, sacrifice it.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/250_Stern Strongarm.png" num="250">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Minotaur Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>1U/B</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Melek&apos;s Electromancer</name>
+			<text>Instant and sorcery spells you cast cost {1} less to cast.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/245_Melek&apos;s Electromancer.png" num="245">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Weird Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U/R</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fin-Clade Researcher</name>
+			<text>Ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
+Whenever one or more tokens enter the battlefield under your control, put a +1/+1 counter on Fin-Clade Researcher.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/240_Fin-Clade Researcher.png" num="240">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Octopus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G/U</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Footlight Fiend</name>
+			<text>When Footlight Fiend dies, it deals 1 damage to any target.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/241_Footlight Fiend.png" num="241">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil</type>
+				<maintype>Creature</maintype>
+				<manacost>B/R</manacost>
+				<cmc>1</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fervent Fungus-Binder</name>
+			<text>Reach
+When Fervent Fungus-Binder enters the battlefield, mill two cards. You gain 2 life.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/239_Fervent Fungus-Binder.png" num="239">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>B/G</manacost>
+				<cmc>1</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pensive Trog</name>
+			<text>Trample
+Pensive Trog gets +1/+1 as long as you&apos;re in a trance. (You&apos;re in a trance if you&apos;ve cast a noncreature spell or created a token this turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/247_Pensive Trog.png" num="247">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1R/G</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Azorius Throughway</name>
+			<text>Azorius Throughway enters the battlefield tapped.
+{T}: Add {W} or {U}.
+{WU}, Discard Azorius Throughway: Search your library for a Plains or Island card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/257_Azorius Throughway.png" num="257">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Orzhov Throughway</name>
+			<text>Orzhov Throughway enters the battlefield tapped.
+{T}: Add {W} or {B}.
+{WB}, Discard Orzhov Throughway: Search your library for a Plains or Swamp card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/268_Orzhov Throughway.png" num="268">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Boros Throughway</name>
+			<text>Boros Throughway enters the battlefield tapped.
+{T}: Add {R} or {W}.
+{RW}, Discard Boros Throughway: Search your library for a Mountain or Plains card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/259_Boros Throughway.png" num="259">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Selesnya Throughway</name>
+			<text>Selesnya Throughway enters the battlefield tapped.
+{T}: Add {G} or {W}.
+{GW}, Discard Selesnya Throughway: Search your library for a Forest or Plains card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/272_Selesnya Throughway.png" num="272">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Dimir Throughway</name>
+			<text>Dimir Throughway enters the battlefield tapped.
+{T}: Add {U} or {B}.
+{UB}, Discard Dimir Throughway: Search your library for an Island or Swamp card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/261_Dimir Throughway.png" num="261">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Izzet Throughway</name>
+			<text>Izzet Throughway enters the battlefield tapped.
+{T}: Add {U} or {R}.
+{UR}, Discard Izzet Throughway: Search your library for an Island or Mountain card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/266_Izzet Throughway.png" num="266">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Simic Throughway</name>
+			<text>Simic Throughway enters the battlefield tapped.
+{T}: Add {G} or {U}.
+{GU}, Discard Simic Throughway: Search your library for a Forest or Island card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/273_Simic Throughway.png" num="273">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Rakdos Throughway</name>
+			<text>Rakdos Throughway enters the battlefield tapped.
+{T}: Add {B} or {R}.
+{BR}, Discard Rakdos Throughway: Search your library for a Swamp or Mountain card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/270_Rakdos Throughway.png" num="270">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Golgari Throughway</name>
+			<text>Golgari Throughway enters the battlefield tapped.
+{T}: Add {B} or {G}.
+{BG}, Discard Golgari Throughway: Search your library for a Swamp or Forest card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/263_Golgari Throughway.png" num="263">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gruul Throughway</name>
+			<text>Gruul Throughway enters the battlefield tapped.
+{T}: Add {R} or {G}.
+{RG}, Discard Gruul Throughway: Search your library for a Mountain or Forest card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/264_Gruul Throughway.png" num="264">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Inscrutable Hieromancer</name>
+			<text>This spell can&apos;t be countered.
+Flying
+Whenever an opponent draws a card, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)
+Whenever you sacrifice a Clue, Inscrutable Hieromancer gains hexproof until end of turn.</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/160_Inscrutable Hieromancer.png" num="160">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sphinx</type>
+				<maintype>Creature</maintype>
+				<manacost>4WU</manacost>
+				<cmc>6</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>4/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aurelia, Wings of Justice</name>
+			<text>Flying, haste
+When Aurelia, Wings of Justice enters the battlefield, return each creature card with mana value 2 or less from your graveyard to the battlefield. They gain haste until end of turn.</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/220_Aurelia, Wings of Justice.png" num="220">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>4RW</manacost>
+				<cmc>6</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rakdos, Unholy Patron</name>
+			<text>Flying, trample, haste
+Other attacking creatures you control get +2/+0 and have &quot;Whenever this creature deals combat damage, sacrifice it.&quot;</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/179_Rakdos, Unholy Patron.png" num="179">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>1BBRR</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kaya, Freed from Burdens</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/199_Kaya, Freed from Burdens.png" num="199">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Kaya</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Arrester&apos;s Manacles</name>
+			<text>Equipped creature gains vigilance and &quot;Whenever this creature attacks, tap target creature and put a stun counter on it.&quot;
+Equip {1}</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/157_Arrester&apos;s Manacles.png" num="157">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Slice Through Consciousness</name>
+			<text>Choose one —
+• Destroy target creature if its mana value is greater than the number of cards in its controller&apos;s hand.
+• Target creature gets -1/-1 for each card in its controller&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/169_Slice Through Consciousness.png" num="169">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Enter the Carnarium</name>
+			<text>Exile the top three cards of your library. You may play them this turn. At the beginning of your next end step, if there are any cards exiled with Enter the Carnarium, put them into your graveyard, then you lose that much life.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/174_Enter the Carnarium.png" num="174">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Goblin Anarchomancer</name>
+			<text>Each spell you cast that&apos;s red or green costs {1} less to cast.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/183_Goblin Anarchomancer.png" num="183">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tend the Gardens</name>
+			<text>Whenever a land enters the battlefield under your control, create a 1/1 green Saproling creature token.
+{1}{G}{W}, Sacrifice Tend the Gardens: Create a green and white Elemental creature token with &quot;This creature&apos;s power and toughness are each equal to the number of creatures you control.&quot;</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/193_Tend the Gardens.png" num="193">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Kaya&apos;s Cunning</name>
+			<text>When Kaya&apos;s Cunning enters the battlefield, each opponent discards a card and you gain 3 life.
+Whenever a token you control dies, you may return Kaya&apos;s Cunning to your hand.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/200_Kaya&apos;s Cunning.png" num="200">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Unending Experimentation</name>
+			<text>Whenever you cast a noncreature spell, create a 1/1 colorless Soldier artifact creature token.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/210_Unending Experimentation.png" num="210">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Skull Prophet</name>
+			<text>{T}: Add {B} or {G}.
+{T}: Mill two cards.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/216_Skull Prophet.png" num="216">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Solemn Prayer</name>
+			<text>As an additional cost to cast this spell, discard a card.
+Draw two cards. You gain life equal to the total mana value of the discarded cards.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/224_Solemn Prayer.png" num="224">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bounding Krasis</name>
+			<text>Flash
+When Bounding Krasis enters the battlefield, you may tap or untap target creature.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/229_Bounding Krasis.png" num="229">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fish Lizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lyev Prosecutor</name>
+			<text>As Lyev Prosecutor enters the battlefield, choose a card name.
+Activated abilities of sources with the chosen name can&apos;t be activated unless they&apos;re mana abilities.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/162_Lyev Prosecutor.png" num="162">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Key Performer</name>
+			<text>When Key Performer enters the battlefield, target opponent exiles two cards from their hand. Until your next turn, they may play one of those cards. When they do, you may play the other card until the end of your next turn. You may spend mana as though it were mana of any type to cast that spell.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/176_Key Performer.png" num="176">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3BR</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gruul Riotmancer</name>
+			<text>{T}: Add {R}{G}. If that mana is spent on a creature spell, you may have that creature enter the battlefield with an additional +1/+1 counter on it. If you don&apos;t, it gains haste until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/184_Gruul Riotmancer.png" num="184">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alluring Hierarch</name>
+			<text>Vigilance
+{T}: Creatures you control get +1/+1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/188_Alluring Hierarch.png" num="188">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Leeching Advokist</name>
+			<text>Whenever an enchantment enters the battlefield under your control, you may draw a card. If you do, each player loses 1 life.
+{W}{B}, Sacrifice a creature: You gain 2 life.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/201_Leeching Advokist.png" num="201">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Erratic Plasmologist</name>
+			<text>Trample
+Whenever you spend one or more mana to cast a noncreature spell, put that many +1/+1 counters on Erratic Plasmologist.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/206_Erratic Plasmologist.png" num="206">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Putrid Mass</name>
+			<text>Whenever Putrid Mass attacks, mill two cards. Put a +1/+1 counter on Putrid Mass for each nonland card milled this way. You gain 1 life for each land card milled this way.
+When Putrid Mass dies, you may put any number of cards from your graveyard on the bottom of your library in a random order.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/214_Putrid Mass.png" num="214">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Imposing Recruitment</name>
+			<text>Choose one —
+• Create two 1/1 white Soldier creature tokens. They gain indestructible until end of turn.
+• Imposing Recruitment deals 3 damage to any target. You gain 3 life.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/222_Imposing Recruitment.png" num="222">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Emergent Ooze</name>
+			<text>{1}{G}{U}: You may have Emergent Ooze become a 1/1 Ooze creature until end of turn. Put a +1/+1 counter on it.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/230_Emergent Ooze.png" num="230">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lavinia&apos;s Guildmage</name>
+			<text>{W}{U}, {T}: Tap target nonland permanent.
+{2}{W}{U}, {T}: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/243_Lavinia&apos;s Guildmage.png" num="243">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>W/UW/U</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lazav&apos;s Guildmage</name>
+			<text>{U}{B}, {T}: Target creature gains menace until end of turn.
+{U}{B}, {T}: Target creature gains flying until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/244_Lazav&apos;s Guildmage.png" num="244">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>U/BU/B</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rakdos&apos;s Guildmage</name>
+			<text>{B}{R}, {T}: Target creature can&apos;t block this turn.
+{4}{B}{R}, {T}: Target opponent loses 3 life.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/248_Rakdos&apos;s Guildmage.png" num="248">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>B/RB/R</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Borborygmos&apos;s Guildmage</name>
+			<text>{R}{G}, {T}: Add three mana in any combination of colors.
+{4}{R}{G}, {T}: Create a 3/3 green Centaur creature token.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/238_Borborygmos&apos;s Guildmage.png" num="238">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>R/GR/G</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trostani&apos;s Guildmage</name>
+			<text>{G}{W}, {T}: Untap two other target permanents. Activate only once each turn.
+{G}{W}, {T}: Create a 1/1 green Saproling creature token.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/252_Trostani&apos;s Guildmage.png" num="252">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>G/WG/W</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tomik&apos;s Guildmage</name>
+			<text>{W}{B}, {T}: Each opponent loses 1 life and you gain 1 life.
+{1}{W}{B}, {T}: Target creature gets -1/-1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/251_Tomik&apos;s Guildmage.png" num="251">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>W/BW/B</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ral&apos;s Guildmage</name>
+			<text>{U}{R}, {T}: Draw a card, then discard a card.
+{2}{U}{R}, {T}: When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/249_Ral&apos;s Guildmage.png" num="249">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>U/RU/R</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vraska&apos;s Guildmage</name>
+			<text>{B}{G}, {T}: Mill three cards.
+{3}{B}{G}, {T}, Sacrifice a creature: Return target creature card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/256_Vraska&apos;s Guildmage.png" num="256">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>B/GB/G</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aurelia&apos;s Guildmage</name>
+			<text>{R}{W}, {T}: Target creature gains haste until end of turn.
+{4}{R}{W}, {T}: Create two 1/1 white Soldier creature tokens.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/237_Aurelia&apos;s Guildmage.png" num="237">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Minotaur Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>R/WR/W</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vannifar&apos;s Guildmage</name>
+			<text>{G}{U}, {T}: This turn, each creature you control enters the battlefield with an additional +1/+1 counter on it.
+{4}{G}{U}, {T}: Bifurcate target creature you control. Activate only as a sorcery. (If it isn&apos;t a token, sacrifice it. If you do, create two tapped tokens that are copies of it except each is a Mutant.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/255_Vannifar&apos;s Guildmage.png" num="255">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>G/UG/U</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Justiciar of Retribution</name>
+			<text>Flying, first strike
+When Justiciar of Retribution enters the battlefield, it deals 3 damage to target tapped creature.
+Evoke {1}{W} (You may cast this spell for its evoke cost. If you do, it&apos;s sacrificed when it enters.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/19_Justiciar of Retribution.png" num="19">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Abnormal Endurance</name>
+			<text>Until end of turn, target creature gets +2/+0 and gains &quot;When this creature dies, return it to the battlefield tapped under its owner&apos;s control.&quot;</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/63_Abnormal Endurance.png" num="63">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Street Swarm Elder</name>
+			<text>When Street Swarm Elder enters the battlefield, create two 1/1 black and green Plant Zombie creature tokens. If Street Swarm Elder escaped, create two 3/3 black and green Plant Zombie creature tokens instead. 
+Escape—{5}{G}{G}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/149_Street Swarm Elder.png" num="149">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vedalken Lawmage</name>
+			<text>Flash
+When Vedalken Lawmage enters the battlefield, choose one —
+• Tap target creature you don&apos;t control.
+• Return another target creature you control to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/28_Vedalken Lawmage.png" num="28">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vedalken Soldier Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Havoc Jester</name>
+			<text>Whenever you sacrifice a permanent, Havoc Jester deals 1 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/109_Havoc Jester.png" num="109">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Evangel of Growth</name>
+			<text>{T}: Create a Treasure token.
+{6}{G}{G}, Sacrifice Evangel of Growth: Create two green and white Elemental creature tokens with &quot;This creature&apos;s power and toughness are each equal to the number of creatures you control.&quot;</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/134_Evangel of Growth.png" num="134">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Beguiling Sheepopotamus</name>
+			<text>When Beguiling Sheepopotamus enters the battlefield, tap target creature you don&apos;t control and put a stun counter on it.
+{4}{U}: Bifurcate Beguiling Sheepopotamus. (If it isn&apos;t a token, sacrifice it. If you do, create two tapped tokens that are copies of it except each is a Mutant.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/33_Beguiling Sheepopotamus.png" num="33">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hippo Sheep</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dinrova Abductor</name>
+			<text>Prevent all damage Dinrova Abductor would deal to players.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/68_Dinrova Abductor.png" num="68">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Give Chase</name>
+			<text>Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell.)
+Whenever a creature you control with power 1 or less attacks, Give Chase deals 1 damage to the player or planeswalker that creature is attacking.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/106_Give Chase.png" num="106">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Battle of the Titans</name>
+			<text>Target creature you control fights target creature you don&apos;t control. Create a number of Treasure tokens equal to the amount of excess damage dealt to that creature this way.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/127_Battle of the Titans.png" num="127">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Prudent Konstructor</name>
+			<text>Flying
+When Prudent Konstructor enters the battlefield, scry 1, then draw a card.
+Evoke {U} (You may cast this spell for its evoke cost. If you do, it&apos;s sacrificed when it enters.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/55_Prudent Konstructor.png" num="55">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Piper of the Slums</name>
+			<text>Whenever Piper of the Slums enters the battlefield or deals combat damage to a player, create a 1/1 black Rat creature token.
+Whenever a Rat you control deals combat damage to a player, you draw a card and you lose 1 life.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/81_Piper of the Slums.png" num="81">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ordruun Strategist</name>
+			<text>Haste
+Warmind (Whenever this creature attacks, you may have another target creature gain this creature&apos;s abilities this turn.)
+{R}: Ordruun Strategist gets +1/+0 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/112_Ordruun Strategist.png" num="112">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Minotaur Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Growth-Chamber Champion</name>
+			<text>Whenever another creature enters the battlefield under your control, you may pay {X}, where X is its mana value. If you do, bifurcate it. (If it isn&apos;t a token, sacrifice it. If you do, create two tapped tokens that are copies of it except each is a Mutant.)
+{T}: Add two mana in any combination of colors.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/136_Growth-Chamber Champion.png" num="136">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Crab Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lingering Spirits</name>
+			<text>When Lingering Spirits enters the battlefield, exile target card from a graveyard. If you do, you gain 1 life.
+At the beginning of your end step, you may pay {2}. If you do, exile target card from a graveyard, then create a 1/1 black and white Spirit creature token with flying.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/20_Lingering Spirits.png" num="20">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spell Parry</name>
+			<text>As an additional cost to cast this spell, you may discard a card.
+Counter target spell unless its controller pays {1}. If you discarded a card that shares a card type with that spell, counter it instead.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/60_Spell Parry.png" num="60">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rooftop Assassin</name>
+			<text>When Rooftop Assassin enters the battlefield, destroy target tapped creature you don&apos;t control.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/85_Rooftop Assassin.png" num="85">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deafening Blast</name>
+			<text>Players can&apos;t gain life this turn. Damage can&apos;t be prevent this turn. Deafening Blast deals 3 damage to target player or planeswalker.
+Catalyze {1}{R} (As you cast an instant or sorcery spell, you may exile this card from your graveyard and pay its catalyze cost. If you do, add this card&apos;s effects to that spell.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/100_Deafening Blast.png" num="100">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tomik&apos;s Guardian</name>
+			<text>Defender, flying
+As long as Tomik&apos;s Guardian is enchanted, it can attack as though it didn&apos;t have defender.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/27_Tomik&apos;s Guardian.png" num="27">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Gargoyle</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Overgrown History</name>
+			<text>Console {G} (You may tap two untapped creatures you control to cast this spell for its console cost.)
+You gain 3 life. If this spell was consoled, you gain 8 life instead.
+Create a 1/1 green Saproling creature token.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/143_Overgrown History.png" num="143">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deceptive Saboteur</name>
+			<text>Distraction (This creature can&apos;t be blocked as long as there is an unblocked attacking creature with greater power.)
+Whenever Deceptive Saboteur deals combat damage to a player, return up to one target artifact or creature to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/38_Deceptive Saboteur.png" num="38">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vedalken Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heir of Szadek</name>
+			<text>Distraction (This creature can&apos;t be blocked as long as there is an unblocked attacking creature with greater power.)
+Whenever Heir of Szadek deals combat damage to a player, you may sacrifice a creature. When you do, destroy target creature or planeswalker that player controls.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/73_Heir of Szadek.png" num="73">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chaos Bolts</name>
+			<text>Chaos Bolts deals 2 damage to each nontoken creature.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/99_Chaos Bolts.png" num="99">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Korozda Sanctuary</name>
+			<text>When Korozda Sanctuary enters the battlefield, create a 1/1 black and green Plant Zombie creature token.
+Whenever a nontoken creature you control dies, choose one —
+• You gain 1 life.
+• Return Korozda Sanctuary to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/139_Korozda Sanctuary.png" num="139">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Firemane of Integrity</name>
+			<text>Flying, lifelink</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/10_Firemane of Integrity.png" num="10">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hidden in the Crowd</name>
+			<text>At the beginning of your end step, exile up to one target creature you control, then return that card to the battlefield under its owner&apos;s control.
+{3}{U}: Target creature you control can&apos;t be blocked this turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/44_Hidden in the Crowd.png" num="44">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Majesty of Undeath</name>
+			<text>Return target creature card from your graveyard to your hand.
+Escape—{2}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/78_Majesty of Undeath.png" num="78">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cackling Ragemutt</name>
+			<text>When Cackling Ragemutt enters the battlefield, you may put a +1/+1 counter on it. If you don&apos;t, it deals 1 damage to each opponent.
+Cackling Ragemutt can&apos;t block as long as it has a counter on it.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/98_Cackling Ragemutt.png" num="98">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Dog</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Garrison Commando</name>
+			<text>Warmind (Whenever this creature attacks, you may have another target creature gain this creature&apos;s abilities this turn.)
+Whenever Garrison Commando deals combat damage to a player, put a +1/+1 counter on each other creature you control.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/11_Garrison Commando.png" num="11">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Specimen Collector</name>
+			<text>When Specimen Collector enters the battlefield, create a 1/1 green Squirrel creature token and a 0/3 blue Crab creature token.
+When Specimen Collector dies, create a token that&apos;s a copy of target token you control.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/59_Specimen Collector.png" num="59">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vedalken Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Temple Garden</name>
+			<text>({T}: Add {G} or {W}.)
+As Temple Garden enters the battlefield, you may pay 2 life. If you don&apos;t, it enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/276_Temple Garden.png" num="276">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Breeding Pool</name>
+			<text>({T}: Add {G} or {U}.)
+As Breeding Pool enters the battlefield, you may pay 2 life. If you don&apos;t, it enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/260_Breeding Pool.png" num="260">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sacred Foundry</name>
+			<text>({T}: Add {R} or {W}.)
+As Sacred Foundry enters the battlefield, you may pay 2 life. If you don&apos;t, it enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/271_Sacred Foundry.png" num="271">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Steam Vents</name>
+			<text>({T}: Add {U} or {R}.)
+As Steam Vents enters the battlefield, you may pay 2 life. If you don&apos;t, it enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/274_Steam Vents.png" num="274">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Godless Shrine</name>
+			<text>({T}: Add {W} or {B}.)
+As Godless Shrine enters the battlefield, you may pay 2 life. If you don&apos;t, it enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/262_Godless Shrine.png" num="262">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Voda Uniter</name>
+			<text>Console {3}{G}{W} (You may tap two untapped creatures you control to cast this spell for its console cost.)
+Lifelink, trample
+When Voda Uniter enters the battlefield, each creature that consoled it has base power and toughness 5/5. (This effect doesn&apos;t end at end of turn.)</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/195_Voda Uniter.png" num="195">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dryad</type>
+				<maintype>Creature</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trostani, As One</name>
+			<text>Lifelink, vigilance, reach
+Whenever a creature you control becomes tapped, if it isn&apos;t being declared as an attacker, put a +1/+1 counter on it.</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/194_Trostani, As One.png" num="194">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dryad</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Descent of the Legion</name>
+			<text>Choose one or both —
+• Creatures you control gain vigilance and indestructible until end of turn.
+• You may pay {2}. If you do, after this phase, if it&apos;s your main phase, there is an additional combat phase.</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/221_Descent of the Legion.png" num="221">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Grand Arbiter Lavinia</name>
+			<text>Vigilance
+Cards can&apos;t leave graveyards.
+Spells and abilities your opponents control can&apos;t cause you to discard cards.</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/159_Grand Arbiter Lavinia.png" num="159">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Failure of the Guildpact</name>
+			<text>Target player mills half their library, rounded up. You may cast a card from among them without paying its mana cost.</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/166_The Failure of the Guildpact.png" num="166">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4UB</manacost>
+				<cmc>6</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lazav, Master Shapeshifter</name>
+			<text>You may have Lazav, Master Shapeshifter enter the battlefield as a copy of any creature on the battlefield, except its name is Lazav, Master Shapeshifter, it&apos;s legendary in addition to its other types, and it has &quot;Whenever a creature enters the battlefield, you may have Lazav, Master Shapeshifter become a copy of that creature, except its name is Lazav, Master Shapeshifter, it&apos;s legendary in addition to its other types, and it has this ability.&quot;</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/167_Lazav, Master Shapeshifter.png" num="167">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Shapeshifter</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mizzix&apos;s Overload</name>
+			<text>Exile target instant or sorcery card with mana value X or less from your graveyard. You may cast a copy of it without paying its mana cost. Repeat this process up to X times.
+Exile Mizzix&apos;s Overload.</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/208_Mizzix&apos;s Overload.png" num="208">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XUR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ral, Conductor of the League</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/209_Ral, Conductor of the League.png" num="209">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Ral</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vannifar, Simic Apogee</name>
+			<text>Vannifar, Simic Apogee has all activated abilities of all permanents, except they cost {1} more to activate. (This includes mana abilities.)</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/234_Vannifar, Simic Apogee.png" num="234">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Ooze Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Processing Vat</name>
+			<text>Whenever a creature dies, exile it.
+{3}: Create a token that&apos;s a copy of a card exiled with Processing Vat. It gains haste. Exile it at the beginning of the next end step. Activate only once each turn.</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/232_Processing Vat.png" num="232">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Angelic Satirist</name>
+			<text>Flying
+When Angelic Satirist enters the battlefield and at the beginning of your upkeep, choose two at random — 
+• Each player draws a card and loses 2 life.
+• Each player sacrifices a creature.
+• Each player discards a card.
+• Exile each player&apos;s graveyard.</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/172_Angelic Satirist.png" num="172">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>3BR</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Svogthir, Ever-Growing</name>
+			<text>Svogthir, Ever-Growing enters the battlefield with X +1/+1 counters on it.
+Whenever a creature dies, put a +1/+1 counter on Svogthir.
+{X}, Remove X +1/+1 counters from Svogthir: Destroy target nonland permanent with mana value X.</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/217_Svogthir, Ever-Growing.png" num="217">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Zombie Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>XBG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vraska, Swarm&apos;s Matriarch</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/218_Vraska, Swarm&apos;s Matriarch.png" num="218">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Vraska</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ghired, Zhur-Taa Proven</name>
+			<text>Creature tokens you control have hexproof.
+When Ghired, Zhur-Taa Proven enters or leaves the battlefield, if you don&apos;t control a Rhino, create a 4/4 green Rhino creature token with trample.</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/182_Ghired, Zhur-Taa Proven.png" num="182">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>3RG</manacost>
+				<cmc>5</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Borborygmos, the Revolution</name>
+			<text>Trample
+Whenever Borborygmos, the Revolution attacks, if you&apos;re in a trance, put X +1/+1 counters on him, where X is his power. (You&apos;re in a trance if you&apos;ve cast a noncreature spell or created a token this turn.)</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/180_Borborygmos, the Revolution.png" num="180">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Cyclops Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4RG</manacost>
+				<cmc>6</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stomping Grounds</name>
+			<text>({T}: Add {R} or {G}.)
+As Stomping Grounds enters the battlefield, you may pay 2 life. If you don&apos;t, it enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/275_Stomping Grounds.png" num="275">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Blood Crypt</name>
+			<text>({T}: Add {B} or {R}.)
+As Blood Crypt enters the battlefield, you may pay 2 life. If you don&apos;t, it enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/258_Blood Crypt.png" num="258">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Overgrown Tomb</name>
+			<text>({T}: Add {B} or {G}.)
+As Overgrown Tomb enters the battlefield, you may pay 2 life. If you don&apos;t, it enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/269_Overgrown Tomb.png" num="269">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Watery Grave</name>
+			<text>({T}: Add {U} or {B}.)
+As Watery Grave enters the battlefield, you may pay 2 life. If you don&apos;t, it enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/278_Watery Grave.png" num="278">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Hallowed Fountain</name>
+			<text>({T}: Add {W} or {U}.)
+As Hallowed Fountain enters the battlefield, you may pay 2 life. If you don&apos;t, it enters the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/265_Hallowed Fountain.png" num="265">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Bruvac&apos;s Assistance</name>
+			<text>Whenever a creature enters the battlefield under your control, each opponent mills two cards.
+{3}{W}{U}: Return target creature you control to its owner&apos;s hand. Activate only outside of combat.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/158_Bruvac&apos;s Assistance.png" num="158">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Thoughtblock</name>
+			<text>As long as Thoughtblock is on the stack, opponents can&apos;t cast spells.
+Counter target noncreature spell.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/170_Thoughtblock.png" num="170">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Audience Participation</name>
+			<text>At the beginning of each combat, untap target creature, then an opponent chooses one —
+• Creatures that creature&apos;s controller controls block this turn if able.
+• Each creature gains menace until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/173_Audience Participation.png" num="173">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>No Going Back</name>
+			<text>Gain control of target creature and untap it. Until end of turn, it gains trample, haste, and &quot;At the beginning of the end step, this creature&apos;s owner gains control of it unless a creature dealt damage by this creature this turn died.&quot;</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/185_No Going Back.png" num="185">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Openhearted Equenaut</name>
+			<text>Flying, vigilance
+When Openhearted Equenaut enters the battlefield, create two 1/1 green Saproling creature tokens.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/190_Openhearted Equenaut.png" num="190">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3GW</manacost>
+				<cmc>5</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Drown in Gold</name>
+			<text>Target player discards two cards.
+You gain 3 life.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/197_Drown in Gold.png" num="197">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ionize</name>
+			<text>Counter target spell. Ionize deals 2 damage to that spell&apos;s controller.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/207_Ionize.png" num="207">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UUR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scavenge for Parts</name>
+			<text>Choose one or both —
+• Destroy target creature.
+• Put a +1/+1 counter on each creature target player controls.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/215_Scavenge for Parts.png" num="215">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1BBGG</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stunning Directive</name>
+			<text>Stunning Directive deals 3 damage to target creature. Until your next turn, noncreature spells that creature&apos;s controller casts cost {2} more to cast.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/225_Stunning Directive.png" num="225">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gather Materials</name>
+			<text>Surveil 2, then draw a card. You may put a land card from your hand onto the battlefield tapped. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/231_Gather Materials.png" num="231">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lightning Strike</name>
+			<text>Lightning Strike deals 3 damage to any target.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/111_Lightning Strike.png" num="111">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tragicomedy</name>
+			<text>Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell.)
+Choose a nonland card name. Target player reveals their hand and discards a card with that name. If they don&apos;t discard a card this way, they lose 1 life.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/90_Tragicomedy.png" num="90">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wasteful Harvest</name>
+			<text>Mill five cards. You may put a permanent card from among the cards milled this way into your hand.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/154_Wasteful Harvest.png" num="154">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Decommissionify</name>
+			<text>Return target nonland permanent to its owner&apos;s hand.
+Catalyze {3}{U} (As you cast an instant or sorcery spell, you may exile this card from your graveyard and pay its catalyze cost. If you do, add this card&apos;s effects to that spell.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/40_Decommissionify.png" num="40">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Transguild Promenade</name>
+			<text>Transguild Promenade enters the battlefield tapped.
+When Transguild Promenade enters the battlefield, sacrifice it unless you pay {1}.
+{T}: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/277_Transguild Promenade.png" num="277">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Jelenn Mandate</name>
+			<text>You may cast this spell as though it had flash if it targets a creature with power 4 or greater.
+Exile target tapped creature.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/18_Jelenn Mandate.png" num="18">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wojek Skyknight</name>
+			<text>Flying
+Warmind (Whenever this creature attacks, you may have another target creature gain this creature&apos;s abilities this turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/31_Wojek Skyknight.png" num="31">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crypsis Project Vanguard</name>
+			<text>Defender
+{1}{U}: Crypsis Project Vanguard loses defender until end of turn.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/37_Crypsis Project Vanguard.png" num="37">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Octopus Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Syndic Collector</name>
+			<text>Menace
+Syndic Collector gets +1/+0 as long as you control an enchantment or a Spirit.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/88_Syndic Collector.png" num="88">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Acrobatic Flourish</name>
+			<text>Creatures you control get +2/+0 until end of turn. If a creature you control has died this turn, creatures you control gain trample until end of turn.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/94_Acrobatic Flourish.png" num="94">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Larger Than Life</name>
+			<text>Target creature gets +4/+4 and gains trample until end of turn.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/140_Larger Than Life.png" num="140">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Impeccable Timing</name>
+			<text>Impeccable Timing deals 3 damage to target attacking or blocking creature.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/16_Impeccable Timing.png" num="16">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bane Alley Fence</name>
+			<text>Distraction (This creature can&apos;t be blocked as long as there is an unblocked attacking creature with greater power.)
+Whenever Bane Alley Fence deals combat damage to a player, that player mills two cards.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/32_Bane Alley Fence.png" num="32">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vedalken Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spawn of End-Razer</name>
+			<text>When Spawn of End-Razer enters the battlefield, if you control a token, Spawn of End-Razer deals 2 damage to each opponent.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/119_Spawn of End-Razer.png" num="119">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Boar</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Swarm the Skies</name>
+			<text>Destroy target creature with flying. Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/150_Swarm the Skies.png" num="150">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hieromancer&apos;s Cage</name>
+			<text>Enchant creature
+Enchanted creature can&apos;t attack, block, or be sacrificed, and its activated abilities can&apos;t be activated.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/13_Hieromancer&apos;s Cage.png" num="13">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Izzet Soundmage</name>
+			<text>Flying
+Whenever you cast a noncreature spell, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/47_Izzet Soundmage.png" num="47">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Carnarium Rat</name>
+			<text>Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell.)
+When Carnarium Rat enters the battlefield, target player discards a card.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/65_Carnarium Rat.png" num="65">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Rat</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zhur-Taa Clan Ritualist</name>
+			<text>Reach
+Zhur-Taa Clan Ritualist gets +2/+0 and has menace as long as you are in a trance. (You&apos;re in a trance if you&apos;ve cast a noncreature spell or created a token this turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/124_Zhur-Taa Clan Ritualist.png" num="124">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prove Glory</name>
+			<text>Target creature you control deals damage equal to its power to target creature you don&apos;t control. When the creature you don&apos;t control dies this turn, you gain 3 life.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/144_Prove Glory.png" num="144">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Haazda Avenger</name>
+			<text>Whenever another creature enters the battlefield under your control, put a +1/+1 counter on Haazda Avenger.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/12_Haazda Avenger.png" num="12">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stormsong Cyclops</name>
+			<text>{4}{U}{U}: Stormsong Cyclops can&apos;t be blocked this turn. This ability costs {3} less to activate if you&apos;ve cast a noncreature spell this turn.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/61_Stormsong Cyclops.png" num="61">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cyclops Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>5U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hippodrama Butcher</name>
+			<text>Menace
+When Hippodrama Butcher enters the battlefield, destroy target creature with power 2 or less.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/74_Hippodrama Butcher.png" num="74">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Dog Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scab-Clan Stalwart</name>
+			<text>When Scab-Clan Stalwart enters the battlefield, it deals damage to each opponent equal to the number of tokens you control.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/117_Scab-Clan Stalwart.png" num="117">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cyclops Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rejected Subject</name>
+			<text>When Rejected Subject enters the battlefield or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/146_Rejected Subject.png" num="146">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inspiring Hussars</name>
+			<text>Flying
+When Inspiring Hussars enters the battlefield, creatures you control get +2/+0 until end of turn.
+Evoke {2}{W} (You may cast this spell for its evoke cost. If you do, it&apos;s sacrificed when it enters.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/17_Inspiring Hussars.png" num="17">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Meandering Axotle</name>
+			<text>When Meandering Axotle enters the battlefield, tap target creature and put a stun counter on it.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/49_Meandering Axotle.png" num="49">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Axolotl Turtle</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wratislav&apos;s Prize</name>
+			<text>When Wratislav&apos;s Prize enters the battlefield, each opponent loses 2 life and you gain 2 life.
+Escape—{4}{B}, Exile four other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/93_Wratislav&apos;s Prize.png" num="93">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Centaur</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bolrac-Clan Shaman</name>
+			<text>This spell costs {2} less to cast if you are in a trance. (You&apos;re in a trance if you&apos;ve cast a noncreature spell or created a token this turn.)
+Trample</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/96_Bolrac-Clan Shaman.png" num="96">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cyclops Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>5R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ominous Spicrabopus</name>
+			<text>Trample
+Whenever Ominous Spicrabopus deals combat damage to a player, you may bifurcate it. (If it isn&apos;t a token, sacrifice it. If you do, create two tapped tokens that are copies of it except each is a Mutant.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/141_Ominous Spicrabopus.png" num="141">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Crab Spider Octopus</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Luminous Piker</name>
+			<text>Lifelink
+Warmind (Whenever this creature attacks, you may have another target creature gain this creature&apos;s abilities this turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/21_Luminous Piker.png" num="21">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sova Scribe</name>
+			<text>When enters the battlefield, return target instant or sorcery card from your graveyard to your hand.
+Evoke {2}{U} (You may cast this spell for its evoke cost. If you do, it&apos;s sacrificed when it enters.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/58_Sova Scribe.png" num="58">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vedalken Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dead Man Writing</name>
+			<text>When Dead Man Writing dies, create a 2/2 black Zombie creature token.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/66_Dead Man Writing.png" num="66">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reckless Smash</name>
+			<text>Choose one —
+• Target creature gets +2/+0 and gains first strike until end of turn.
+• Destroy target artifact.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/114_Reckless Smash.png" num="114">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deadbridge Spider</name>
+			<text>Reach
+Escape—{5}{G}, Exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)
+Deadbridge Spider escapes with a +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/132_Deadbridge Spider.png" num="132">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spider</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Azorius Squad-Captain</name>
+			<text>When Azorius Squad-Captain enters the battlefield, create two 1/1 white Soldier creature tokens.
+Evoke {1}{W} (You may cast this spell for its evoke cost. If you do, it&apos;s sacrificed when it enters.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/1_Azorius Squad-Captain.png" num="1">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fastidiuous Research</name>
+			<text>Target player mills two cards.
+Draw a card.
+Catalyze {1}{U} (As you cast an instant or sorcery spell, you may exile this card from your graveyard and pay its catalyze cost. If you do, add this card&apos;s effects to that spell.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/41_Fastidiuous Research.png" num="41">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Undercity Warden</name>
+			<text>Undercity Warden can&apos;t block.
+Escape—{3}{B}, Exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/91_Undercity Warden.png" num="91">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elephant Zombie Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stray Bolt</name>
+			<text>Stray Bolt deals 6 damage to target creature or planeswalker.
+{1}{R}, Discard Stray Bolt: Draw a card.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/121_Stray Bolt.png" num="121">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>5R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gravel-Hide Mother</name>
+			<text>{1}, {T}: Target creature you control gets +1/+1 until end of turn. Put a +1/+1 counter on that creature instead if you&apos;re in a trance. Activate only as a sorcery. (You&apos;re in a trance if you&apos;ve cast a noncreature spell or created a token this turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/135_Gravel-Hide Mother.png" num="135">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Swift Justice</name>
+			<text>Until end of turn, target creature gets +1/+0 and gains first strike and lifelink.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/26_Swift Justice.png" num="26">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mirror Mutation</name>
+			<text>Bifurcate target creature you control. (If it isn&apos;t a token, sacrifice it. If you do, create two tapped tokens that are copies of it except each is a Mutant.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/51_Mirror Mutation.png" num="51">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Duskmantle Mindmelter</name>
+			<text>Distraction (This creature can&apos;t be blocked as long as there is an unblocked attacking creature with greater power.)
+Whenever Duskmantle Mindmelter deals combat damage to a player, that player discards a card.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/70_Duskmantle Mindmelter.png" num="70">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloody Lunge</name>
+			<text>Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell.)
+Target creature gets +3/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/95_Bloody Lunge.png" num="95">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cultivated Growth</name>
+			<text>Console {G} (You may tap two untapped creatures you control to cast this spell for its console cost.)
+Search your library for a basic land card and put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/131_Cultivated Growth.png" num="131">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Holy Blessing</name>
+			<text>Enchant creature
+Apparition (When enchanted creature dies, if it wasn&apos;t a token, create a 1/1 white and black Spirit creature token with flying then return this to the battlefield attached to it.)
+Enchanted creature gets +1/+2.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/14_Holy Blessing.png" num="14">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Search for Serenity</name>
+			<text>Draw three cards, then discard two cards unless you discard a multicolored card.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/56_Search for Serenity.png" num="56">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dimir Neuromancer</name>
+			<text>Distraction (This creature can&apos;t be blocked as long as there is an unblocked attacking creature with greater power.)
+Whenever Dimir Neuromancer deals combat damage to a player, put a +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/67_Dimir Neuromancer.png" num="67">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flame-Kin Brigadier</name>
+			<text>Trample
+Warmind (Whenever this creature attacks, you may have another target creature gain this creature&apos;s abilities this turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/103_Flame-Kin Brigadier.png" num="103">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zhur-Taa Clan Summoner</name>
+			<text>Whenever Zhur-Taa Clan Summoner attacks, if you&apos;re in a trance, target creature you control gets +2/+2 until end of turn. (You&apos;re in a trance if you&apos;ve cast a noncreature spell or created a token this turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/155_Zhur-Taa Clan Summoner.png" num="155">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Doomed Worshipper</name>
+			<text>When Doomed Worshipper dies, create a 1/1 white and black Spirit creature token with flying.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/6_Doomed Worshipper.png" num="6">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Binding Decree</name>
+			<text>This spell costs {3} less to cast if a creature you control left the battlefield this turn.
+Enchant creature
+When Binding Decree enters the battlefield, tap enchanted creature.
+Enchanted creature doesn&apos;t untap during its controller&apos;s untap step.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/34_Binding Decree.png" num="34">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Revelation of Agony</name>
+			<text>Choose one or both —
+• Exile target creature.
+• Exile up to four target cards from graveyards.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/84_Revelation of Agony.png" num="84">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Firefist Charger</name>
+			<text>Firefist Charger has first strike as long as it is attacking.
+Warmind (Whenever this creature attacks, you may have another target creature gain this creature&apos;s abilities this turn.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/102_Firefist Charger.png" num="102">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ageless Votary</name>
+			<text>When Ageless Votary enters the battlefield, target opponent sacrifices an artifact or enchantment.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/125_Ageless Votary.png" num="125">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elephant Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sova Decree</name>
+			<text>Choose one —
+• Target creature gains indestructible until end of turn.
+• Destroy target enchantment.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/25_Sova Decree.png" num="25">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Placid Skyskimmer</name>
+			<text>Flying
+{3}{U}, {T}: Bifurcate Placid Skyskimmer. (If it isn&apos;t a token, sacrifice it. If you do, create two tapped tokens that are copies of it except each is a Mutant.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/54_Placid Skyskimmer.png" num="54">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fish</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unholy Blessing</name>
+			<text>Enchant creature
+Apparition (When enchanted creature dies, if it wasn&apos;t a token, create a 1/1 white and black Spirit creature token with flying then return this to the battlefield attached to it.)
+Enchanted creature gets +2/+1.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/92_Unholy Blessing.png" num="92">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gather the Performers</name>
+			<text>Casualty 1 (As you cast this spell, you may sacrifice a creature with power 1 or greater. When you do, copy this spell.)
+Create a 1/1 red Goblin creature token with haste. If this spell wasn&apos;t cast from your hand, create two of those copies instead.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/105_Gather the Performers.png" num="105">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Undercity Sludge</name>
+			<text>Whenever you cast a spell from anywhere other than your hand, create a 1/1 black and green Plant Zombie creature token.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/151_Undercity Sludge.png" num="151">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ooze</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Selesnya Initiate</name>
+			<text>Console {2}{W} (You may tap two untapped creatures you control to cast this spell for its console cost.)
+When Selesnya Initiate enters the battlefield, put a +1/+1 counter on each creature that consoled it.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/24_Selesnya Initiate.png" num="24">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fin-Clade Skirmisher</name>
+			<text>Flying
+When Fin-Clade Skirmisher dies, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/42_Fin-Clade Skirmisher.png" num="42">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Insect Spider Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Looming Debt</name>
+			<text>Enchant creature
+Apparition (When enchanted creature dies, if it wasn&apos;t a token, create a 1/1 white and black Spirit creature token with flying then return this to the battlefield attached to it.)
+As long as enchanted permanent isn&apos;t a token, it gets -1/-1 and can&apos;t block.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/77_Looming Debt.png" num="77">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Clover Heights Smasher</name>
+			<text>Console {4}{G} (You may tap two untapped creatures you control to cast this spell for its console cost.)
+Trample</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/130_Clover Heights Smasher.png" num="130">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wurm</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Impassioned Orator</name>
+			<text>Whenever another creature enters the battlefield under your control, you gain 1 life.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/15_Impassioned Orator.png" num="15">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Decode Thoughts</name>
+			<text>Counter target spell. Each player mills two cards.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/39_Decode Thoughts.png" num="39">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Slizt-Clan Scoundrel</name>
+			<text>When Slizt-Clan Scoundrel enters the battlefield, target creature can&apos;t block this turn.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/118_Slizt-Clan Scoundrel.png" num="118">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Overgrow</name>
+			<text>Create a 1/1 black and green Plant Zombie creature token.
+Escape—{2}{G}, Exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/142_Overgrow.png" num="142">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Secluded Elocuter</name>
+			<text>When Secluded Elocuter enters the battlefield, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/23_Secluded Elocuter.png" num="23">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Collector of Secrets</name>
+			<text>Distraction (This creature can&apos;t be blocked as long as there is an unblocked attacking creature with greater power.)
+Whenever Collector of Secrets deals combat damage to a player, surveil 1.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/36_Collector of Secrets.png" num="36">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Safehouse Inspector</name>
+			<text>Flash
+Flying
+Safehouse Inspector can&apos;t block.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/86_Safehouse Inspector.png" num="86">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Late Night Tinkering</name>
+			<text>Discard a card. If you do, draw two cards.
+Catalyze {2}{R} (As you cast an instant or sorcery spell, you may exile this card from your graveyard and pay its catalyze cost. If you do, add this card&apos;s effects to that spell.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/110_Late Night Tinkering.png" num="110">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gyre-Clade Technician</name>
+			<text>{T}: Add {G}.
+{3}{G}{G}, {T}: Bifurcate Gyre-Clade Technician. (If it isn&apos;t a token, sacrifice it. If you do, create two tapped tokens that are copies of it except each is a Mutant.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/137_Gyre-Clade Technician.png" num="137">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Centaur Woodshaper</name>
+			<text>Console {2}{W} (You may tap two untapped creatures you control to cast this spell for its console cost.)
+Vigilance
+Centaur Woodshaper enters the battlefield with a +1/+1 counter on it if it was consoled.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/4_Centaur Woodshaper.png" num="4">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Centaur Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sova Researcher</name>
+			<text>When Sova Researcher enters the battlefield, you may return target creature you don&apos;t control to its owner&apos;s hand.
+Evoke {U} (You may cast this spell for its evoke cost. If you do, it&apos;s sacrificed when it enters.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/57_Sova Researcher.png" num="57">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Opportune Lunge</name>
+			<text>Target creature gets +2/-2 until end of turn.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/80_Opportune Lunge.png" num="80">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Reborn Beast-Friend</name>
+			<text>When Reborn Beast-Friend enters the battlefield, create a 1/1 red Boar creature token with haste.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/113_Reborn Beast-Friend.png" num="113">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hull-Clade Infantry</name>
+			<text>Deathtouch
+When Hull-Clade Infantry enters the battlefield, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/138_Hull-Clade Infantry.png" num="138">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Scorpion Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Operation Desperation</name>
+			<text>Whenever a multicolored permanent enters the battlefield under your control, if it isn&apos;t exactly the same colors as another creature you control, draw a card. This ability only triggers once each turn.
+At the beginning of your upkeep, if you control a permanent of each color pair, you win the game.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/22_Operation Desperation.png" num="22">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Rebirth Through Life</name>
+			<text>Enchant creature you control
+Apparition (When enchanted creature dies, if it wasn&apos;t a token, create a 1/1 white and black Spirit creature token with flying then return this to the battlefield attached to it.)
+When Rebirth Through Life enters the battlefield, exile a creature card from your graveyard. Enchanted creature becomes a copy of the exiled card.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/83_Rebirth Through Life.png" num="83">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ringmaster&apos;s Show</name>
+			<text>Casualty 3 (As you cast this spell, you may sacrifice a creature with power 3 or greater. When you do, copy this spell.)
+Target opponent may have Ringmaster&apos;s Show deal 3 damage to them. If that player doesn&apos;t, you draw three cards.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/115_Ringmaster&apos;s Show.png" num="115">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Araithia Shokta</name>
+			<text>Hexproof from mana values 2 and lower and from mana values 4 or greater
+Whenever you cast a creature spell, untap each creature you control.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/126_Araithia Shokta.png" num="126">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Centaur Arrester</name>
+			<text>Flash
+When Centaur Arrester enters the battlefield, exile another target creature. Return it to the battlefield at the beginning of the next end step.
+Evoke {W} (You may cast this spell for its evoke cost. If you do, it&apos;s sacrificed when it enters.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/3_Centaur Arrester.png" num="3">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Centaur Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nirvorud, Gateless Student</name>
+			<text>Whenever you cast a noncreature spell, put a study counter on Nirvorud, Gateless Student.
+Whenever Nirvorud attacks, for each study counter on them, choose one. You may choose the same mode more than once.
+• Tap target creature.
+• Put a stun counter on target creature.
+• Surveil 1.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/53_Nirvorud, Gateless Student.png" num="53">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Vedalken Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gateless Swarmlord</name>
+			<text>At the beginning of your upkeep, mill a card. Return that card to your hand unless target opponent has you create a 1/1 black Rat creature token. Then, you lose 1 life for each Rat you control.
+Rats you control get +1/+0 for each other Rat you control.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/71_Gateless Swarmlord.png" num="71">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Speaker&apos;s Sanctum</name>
+			<text>Creature tokens you control have trample.
+At the beginning of your end step, you may bifurcate target creature you control. (If it isn&apos;t a token, sacrifice it. If you do, create two tapped tokens that are copies of it except each is a Mutant.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/148_Speaker&apos;s Sanctum.png" num="148">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Boros Ascendant</name>
+			<text>Warmind (Whenever this creature attacks, you may have another target creature gain this creature&apos;s abilities this turn.)
+Boros Ascendant is a 4/4 white Angel creature with flying as long as it&apos;s attacking.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/2_Boros Ascendant.png" num="2">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inconspicious Moroii</name>
+			<text>Distraction (This creature can&apos;t be blocked as long as there is an unblocked attacking creature with greater power.)
+Whenever Inconspicious Moroii deals combat damage to a player, that player mills half their library, rounded up.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/45_Inconspicious Moroii.png" num="45">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pivlic, Heroic Entrepreneur</name>
+			<text>Flying
+Whenever Pivlic, Heroic Entrepreneur deals combat damage to a player, that player may have you create a Treasure token. If they don&apos;t, put a +1/+1 counter on Pivlic, Heroic Entrepreneur.
+{5}{B}{B}: Exile the top three cards of target opponent&apos;s library. You may cast a card exiled this way without paying its mana cost.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/82_Pivlic, Heroic Entrepreneur.png" num="82">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Imp Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rapture of the Stampede</name>
+			<text>Creatures you control get +1/+1 and have trample. As long as you are in a trance, creatures you control get an additional +1/+1. (You&apos;re in a trance if you&apos;ve cast a noncreature spell or created a token this turn.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/145_Rapture of the Stampede.png" num="145">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Voda&apos;s Cleansing</name>
+			<text>Console {1}{W}{W} (You may tap two untapped creatures you control to cast this spell for its console cost.)
+Destroy all creatures.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/29_Voda&apos;s Cleansing.png" num="29">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Isperia&apos;s Protege</name>
+			<text>Flying
+When Isperia&apos;s Protege enters the battlefield, return all non-Sphinx creatures to their owner&apos;s hand.
+Evoke {3}{U}{U} (You may cast this spell for its evoke cost. If you do, it&apos;s sacrificed when it enters.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/46_Isperia&apos;s Protege.png" num="46">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sphinx</type>
+				<maintype>Creature</maintype>
+				<manacost>6UU</manacost>
+				<cmc>8</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Teratogen of Stone Death</name>
+			<text>Deathtouch
+Each creature card in your graveyard has escape. The escape cost is equal to X life plus exile three other cards from your graveyard, where x is that card&apos;s mana value.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/89_Teratogen of Stone Death.png" num="89">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Gorgon Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sunhome Shaper</name>
+			<text>Warmind (Whenever this creature attacks, you may have another target creature gain this creature&apos;s abilities this turn.)
+Whenever Sunhome Shaper deals combat damage to a player, put a +1/+1 counter on it.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/122_Sunhome Shaper.png" num="122">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Encrusted Surveyor</name>
+			<text>When Encrusted Surveyor enters the battlefield, if you cast it, search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.
+Escape—{X}{G}{G}{G}, Exile X other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/133_Encrusted Surveyor.png" num="133">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Fungus Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>XXGG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Debt of Vengeance</name>
+			<text>Enchant creature you control
+Apparition (When enchanted creature dies, if it wasn&apos;t a token, create a 1/1 white and black Spirit creature token with flying then return this to the battlefield attached to it.)
+When Debt of Vengeance enters the battlefield, exile target nonland permanent an opponent controls until Debt of Vengeance leaves the battlefield.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/5_Debt of Vengeance.png" num="5">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Supervisor of Continuism</name>
+			<text>Each instant and sorcery card in your graveyard has catalyze. The catalyze cost is equal to that card&apos;s mana cost. (You may exile that card as you cast an instant or sorcery spell and pay its catalyze cost. If you do, add that cards effects to that spell.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/62_Supervisor of Continuism.png" num="62">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vedalken Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Candy Butcher</name>
+			<text>Casualty 3 (As you cast this spell, you may sacrifice a creature with power 3 or greater. When you do, copy this spell.)
+When Candy Butcher enters the battlefield, non-Demon creatures get -2/-2 until end of turn.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/64_Candy Butcher.png" num="64">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gruul War Trance</name>
+			<text>At the beginning of your end step, put a blaze counter on Gruul War Trance if you&apos;re in a trance. Then, Gruul War Trance deals damage to each opponent and each planeswalker you don&apos;t control equal to the number of blaze counters on Gruul War Trance. (You&apos;re in a trance if you&apos;ve cast a noncreature spell or created a token this turn.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/108_Gruul War Trance.png" num="108">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vernadi Guardian</name>
+			<text>Console {2}{G}{G} (You may tap two untapped creatures you control to cast this spell for its console cost.)
+This spell can&apos;t be countered.
+Trample, haste
+Vernadi Guardian has hexproof if it was consoled and entered the battlefield this turn.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/152_Vernadi Guardian.png" num="152">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arbiter Uzana</name>
+			<text>Flying
+Whenever a nonlegendary creature enters the battlefield under your control for the first time each turn, you may exile it. If you do, return it to the battlefield under its owner&apos;s control.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/156_Arbiter Uzana.png" num="156">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Vedalken Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trauma Spike</name>
+			<text>Choose a nonland card name. Search target player&apos;s graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles. For each card exiled from their hand this way, you discard a card.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/171_Trauma Spike.png" num="171">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rakdos Fanatic</name>
+			<text>Menace, haste
+Whenever a player casts a spell for more or less mana than that spell&apos;s mana value, Rakdos Fanatic deals 3 damage to that player.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/178_Rakdos Fanatic.png" num="178">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ruric Thar, Ghor-Clan Head</name>
+			<text>This spell can&apos;t be countered.
+Trample, vigilance
+Whenever you cast a noncreature spell, Ruric Thar gets +3/+0 until end of turn.
+Whenever an opponent casts a noncreature spell, Ruric Thar deals 3 damage to that player.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/186_Ruric Thar, Ghor-Clan Head.png" num="186">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ogre Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3RG</manacost>
+				<cmc>5</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Selesnyan Apiarist</name>
+			<text>Each creature spell you cast has console. The console cost is equal to its mana cost. (You may tap two untapped creatures you control as you cast that spell for its console cost.)
+Whenever a creature enters the battlefield under your control, put a +1/+1 counter on each creature that consoled it.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/192_Selesnyan Apiarist.png" num="192">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tomik Vrona, Advokist</name>
+			<text>At the beginning of each player&apos;s upkeep, that player may get a debt counter. If they do, they draw a card.
+At the beginning of your upkeep, each player loses life equal to the number of debt counters they have. You gain life equal to the amount of life opponents have lost this way.</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/203_Tomik Vrona, Advokist.png" num="203">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zorica, Izmundi Blastseeker</name>
+			<text>Ward—Pay 3 life. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life.)
+Whenever you cast your first instant or sorcery spell each turn, copy it. You may choose new targets for the copy.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/211_Zorica, Izmundi Blastseeker.png" num="211">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>UURR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cevraya, Ambitious Matka</name>
+			<text>Trample
+Whenever Cevraya, Ambitious Matka attacks, you may return a permanent card exiled with her to its owner&apos;s hand.
+Escape—{B}{B}{G}{G}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/212_Cevraya, Ambitious Matka.png" num="212">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sunhome Reckoner</name>
+			<text>Warmind (Whenever this creature attacks, you may have another target creature gain this creature&apos;s abilities this turn.)
+Whenever Sunhome Reckoner is dealt damage, it deals that much damage to target creature or player.
+{RW}: Sunhome Reckoner gains first strike until end of turn.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/226_Sunhome Reckoner.png" num="226">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Minotaur Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>RRWW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Yolov, Zameck Bioscientist</name>
+			<text>Whenever a creature you control that&apos;s a copy or a token deals combat damage to a player, put a +1/+1 counter on it, then draw a card.
+Whenever you copy your first spell each turn, bifurcate up to one target creature you control. (If it isn&apos;t a token, sacrifice it. If you do, create two tapped tokens that are copies of it except each is a Mutant.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/235_Yolov, Zameck Bioscientist.png" num="235">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Merfolk Squid</type>
+				<maintype>Creature</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Uzana&apos;s Guard</name>
+			<text>Flash
+When Uzana&apos;s Guard enters the battlefield, choose two —
+• Tap target creature.
+• Counter target noncreature spell unless its controller pays {2}.
+• You gain 3 life.
+Evoke {W}{U}</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/163_Uzana&apos;s Guard.png" num="163">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Atkos Tarr, Hidden Assassin</name>
+			<text>Distraction (This creature can&apos;t be blocked as long as there is an unblocked attacking creature with greater power.)
+At the beginning of combat on your turn, you may have target creature you control have base power and toughness 5/1 until end of turn.
+Whenever Atkos Tarr, Hidden Assassin deals combat damage to a player, create a 1/1 black Bat creature token with flying.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/164_Atkos Tarr, Hidden Assassin.png" num="164">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Vampire Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hekara, Blood Witch</name>
+			<text>Deathtouch
+Instant and sorcery spells you control have deathtouch.
+Whenever a creature an opponent controls dies, that player discards a card. This ability triggers only once each turn.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/175_Hekara, Blood Witch.png" num="175">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Zombie Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tin Street Riot</name>
+			<text>Tin Street Riot deals 4 damage to any target. If a creature or planeswalker is dealt excess damage this way, create that many 1/1 red Goblin creature tokens.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/187_Tin Street Riot.png" num="187">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>RRG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Disperse the Seeds</name>
+			<text>If you would create one or more tokens, you may instead create three times that many 1/1 green Saproling creature tokens.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/189_Disperse the Seeds.png" num="189">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Anthem of the Damned</name>
+			<text>Creatures you control get -3/-3.
+Whenever a creature you control dies, put a soul counter on Anthem of the Damned.
+Creatures you control get +1/+1 for each soul counter on Anthem of the Damned.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/196_Anthem of the Damned.png" num="196">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WBB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Aethercore Weird</name>
+			<text>Whenever Aethercore Weird becomes the target of a spell or ability an opponent controls, that player exiles the top three cards of their library.
+At the beginning of combat on your turn, flip a coin. If it comes up heads, exile the top card of each player&apos;s library. Otherwise, you may cast a card exiled with Aethercore Weird without paying its mana cost.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/204_Aethercore Weird.png" num="204">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Weird</type>
+				<maintype>Creature</maintype>
+				<manacost>4UR</manacost>
+				<cmc>6</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vraska&apos;s Trophy</name>
+			<text>When Vraska&apos;s Trophy enters the battlefield, exile target nonland permanent.
+Whenever a creature attacks you or a planeswalker you control, create a tapped 1/1 black and green Plant Zombie creature token unless that creature&apos;s controller pays 1 life.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/219_Vraska&apos;s Trophy.png" num="219">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mileva, Boros Legionnaire</name>
+			<text>Haste
+At the beginning of combat on your turn, create a 1/1 white Soldier creature token. That token gains haste until end of turn and attacks this combat if able.
+Whenever Mileva, Boros Legionnaire and at least two other creatures attack, prevent all damage that would be dealt to Mileva this turn.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/223_Mileva, Boros Legionnaire.png" num="223">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Biochemist&apos;s Reclamation</name>
+			<text>Gain control of target noncreature permanent and put four +1/+1 counters on it. It becomes a 0/0 green Mutant in addition to its other types.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/228_Biochemist&apos;s Reclamation.png" num="228">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GU</manacost>
+				<cmc>5</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Inundate in Bureaucracy</name>
+			<text>When Inundate in Bureaucracy enters the battlefield or whenever an opponent casts their second spell each turn, put a filibuster counter on Inundate in Bureaucracy.
+Creatures can&apos;t attack you or planeswalkers you control unless their controller pays {X} for each creature they control that&apos;s attacking you, where X is the number of filibuster counters on Inundate in Bureaucracy.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/161_Inundate in Bureaucracy.png" num="161">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Main Act</name>
+			<text>Casualty 3 (As you cast this spell, you may sacrifice a creature with power 3 or greater. When you do, copy this spell.)
+Each player loses half their life total, rounded up.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/177_The Main Act.png" num="177">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4BR</manacost>
+				<cmc>6</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Firekissed Shaman</name>
+			<text>At the beginning of your end step, if you&apos;re in a trance, exile the top card of your library. You may play that card until you exile another card with Firekissed Shaman. (You&apos;re in a trance if you&apos;ve cast a noncreature spell or created a token this turn.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/181_Firekissed Shaman.png" num="181">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Savaryn, Loxodon Stalwart</name>
+			<text>Whenever Savaryn, Loxodon Stalwart or another creature enters the battlefield under your control, you gain 2 life.
+Whenever Savaryn attacks, other attacking creatures you control gain indestructible until end of turn.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/191_Savaryn, Loxodon Stalwart.png" num="191">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elephant Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Echo of the Blood Baron</name>
+			<text>Enchant creature
+Apparition (When enchanted creature dies, if it wasn&apos;t a token, create a 1/1 white and black Spirit creature token with flying then return this to the battlefield attached to it.)
+Enchanted creature gets +2/+2 and has lifelink, hexproof from white and from black, and &quot;As long as you have 30 or more life and an opponent has 10 or less life, this creature gets +6/+6 and has flying.&quot;</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/198_Echo of the Blood Baron.png" num="198">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dracosmithing</name>
+			<text>Create a 5/5 red Dragon creature token with flying and haste.
+Catalyze {4}{U}{R} (As you cast an instant or sorcery spell, you may exile this card from your graveyard and pay its catalyze cost. If you do, add this card&apos;s effects to that spell.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/205_Dracosmithing.png" num="205">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UR</manacost>
+				<cmc>5</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Korozda Caretaker</name>
+			<text>Deathtouch
+Whenever one or more creature cards leave your graveyard, you may draw a card. If you do, you lose 1 life.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/213_Korozda Caretaker.png" num="213">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warmind Initiative</name>
+			<text>Whenever you attack, exile the top card of your library. If its mana value is less than or equal to the number of creatures you attacked with, you may cast it without paying its mana cost. Otherwise, you may play that card this turn.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/227_Warmind Initiative.png" num="227">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spawn of Kraj</name>
+			<text>You may bifurcate tokens you control as though they weren&apos;t tokens.
+Whenever Spawn of Kraj attacks, bifurcate another target creature you control. The tokens enter the battlefield tapped and attacking. (Sacrifice that creature. If you do, create two tapped tokens that are copies of it except each is a mutant.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/233_Spawn of Kraj.png" num="233">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ooze</type>
+				<maintype>Creature</maintype>
+				<manacost>GGUU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Firemane Nevena</name>
+			<text>Flying
+Whenever Firemane Nevena deals combat damage to a player, you may exile target enchantment.
+Whenever a creature deals damage to you, tap that creature. It becomes an enchantment in addition to its other types.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/9_Firemane Nevena.png" num="9">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mass Bifurcation</name>
+			<text>This spell costs {1} less to cast for each creature you control.
+Bifurcate any number of target creatures you control, then untap each creature you control. (To bifurcate a creature, if it isn&apos;t a token, sacrifice it. If you do, create two tapped tokens that are copies of it except each is a Mutant.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/48_Mass Bifurcation.png" num="48">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>12UUU</manacost>
+				<cmc>15</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ismeri Spymaster</name>
+			<text>Distraction (This creature can&apos;t be blocked as long as there is an unblocked attacking creature with greater power.)
+Other creatures you control get +1/+0.
+Whenever Ismeri Spymaster deals combat damage to a player, that player loses half their life, rounded down.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/75_Ismeri Spymaster.png" num="75">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Electrotranscranial Blast</name>
+			<text>Catalyze {2}{R} (As you cast an instant or sorcery spell, you may exile this card from your graveyard and pay its catalyze cost. If you do, add this card&apos;s effects to that spell.)
+Electrotranscranial Blast deals 1 damage to any target. Exile a number of cards from the top of your library equal to the amount of damage this spell dealt. Until the end of your next turn, you may play those cards.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/101_Electrotranscranial Blast.png" num="101">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Serotiny</name>
+			<text>Each opponent sacrifices X total artifacts and/or enchantments.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/147_Serotiny.png" num="147">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XGG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tsuli&apos;van, Dragonborn</name>
+			<text>Whenever Tsuli&apos;van, Dragonborn attacks, put a +1/+1 counter on him.
+As long as Tsuli&apos;van two or more +1/+1 counters on him, he has trample.
+As long as Tsuli&apos;van has four or more +1/+1 counters on him, he has flying and is a Dragon.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/123_Tsuli&apos;van, Dragonborn.png" num="123">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>RR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stormheart Tyrant</name>
+			<text>Flying, haste
+Whenever Stormheart Tyrant becomes the target of a spell or ability an opponent controls, it deals 4 damage to that spell&apos;s controller or ability&apos;s source.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/120_Stormheart Tyrant.png" num="120">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Getaway Artist</name>
+			<text>This spell costs {1} less to cast for each creature you control that dealt damage to an opponent.
+Menace</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/72_Getaway Artist.png" num="72">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Recon Specialist</name>
+			<text>Distraction (This creature can&apos;t be blocked as long as there is an unblocked attacking creature with greater power.)
+Whenever one or more Rogues you control attack and aren&apos;t blocked, look at that many cards from the top of your library. Put one of them into your hand and the rest on the bottom of your library in a random order.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/168_Recon Specialist.png" num="168">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Duskmantle Larcenist</name>
+			<text>Distraction (This creature can&apos;t be blocked as long as there is an unblocked attacking creature with greater power.)
+Whenever Duskmantle Larcenist deals combat damage to a player, look at the top three cards of that player&apos;s library, exile one of them, then put the rest into their graveyard. You may play that card as long as it remains exiled.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/165_Duskmantle Larcenist.png" num="165">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Memory Extract</name>
+			<text>Put the bottom three cards of your library into your graveyard, then return up to one creature card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/79_Memory Extract.png" num="79">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bottled Lightning</name>
+			<text>Bottled Lightning deals 2 damage to target creature or player.
+Catalyze {1}{R} (As you cast an instant or sorcery spell, you may exile this card from your graveyard and pay its catalyze cost. If you do, add this card&apos;s effects to that spell.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/97_Bottled Lightning.png" num="97">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Maladola, Debt Collector</name>
+			<text>Flying, vigilance, lifelink
+When Maladola, Debt Collector enters the battlefield, target player loses half their life, rounded up, and you gain that much life.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/202_Maladola, Debt Collector.png" num="202">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>3WWBB</manacost>
+				<cmc>7</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Galvanice Weird</name>
+			<text>Flash
+When you cast this spell, you may have it become a copy of target instant or sorcery spell. If you do, you may choose new targets for it.
+You may have Galvanice Weird enter the battlefield as a copy of any creature on the battlefield.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/RAR-files/img/43_Galvanice Weird.png" num="43">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Weird Shapeshifter</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ethereal Vitality</name>
+			<text>Enchant creature
+Apparition (When enchanted creature dies, if it wasn&apos;t a token, create a 1/1 white and black Spirit creature token with flying then return this to the battlefield attached to it.)
+Enchanted creature gets +1/+0 and has lifelink.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/8_Ethereal Vitality.png" num="8">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bioessence Leak</name>
+			<text>Counter target spell unless its controller pays {3}. If that spell&apos;s mana value is greater than the number of lands its controller controls, counter that spell instead.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/35_Bioessence Leak.png" num="35">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dramatic Edict</name>
+			<text>Casualty 2 (As you cast this spell, you may sacrifice a creature with power 2 or greater. When you do, copy this spell.)
+Target player sacrifices a creature.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/69_Dramatic Edict.png" num="69">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gore-House Bodyguard</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/107_Gore-House Bodyguard.png" num="107">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Minotaur Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Begin the Trance</name>
+			<text>Untap target creature. It gains hexproof until end of turn.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/128_Begin the Trance.png" num="128">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ethereal Armaments</name>
+			<text>Enchant creature
+Apparition (When enchanted creature dies, if it wasn&apos;t a token, create a 1/1 white and black Spirit creature token with flying then return this to the battlefield attached to it.)
+Enchanted creature gets +1/+1 for each enchantment you control.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/7_Ethereal Armaments.png" num="7">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mizzium Sledge</name>
+			<text>Flash
+When Mizzium Sledge enters the battlefield, until end of turn target creature loses all abilities and can&apos;t gain any abilities this turn.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/52_Mizzium Sledge.png" num="52">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Weird Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Subsidy of Influence</name>
+			<text>Enchant creature
+Apparition (When enchanted creature dies, if it wasn&apos;t a token, create a 1/1 white and black Spirit creature token with flying then return this to the battlefield attached to it.)
+Enchanted creature gets +3/+3 has trample and &quot;At the beginning of your upkeep, sacrifice a creature.&quot;</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/87_Subsidy of Influence.png" num="87">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Rubblebelt Rider</name>
+			<text>Rubblebelt Rider has flying as long as you are in a trance. (You&apos;re in a trance if you&apos;ve cast a noncreature spell or created a token this turn.)
+Whenever Rubblebelt Rider attacks, the next spell you cast this turn costs {1} less to cast.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/116_Rubblebelt Rider.png" num="116">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Burning-Tree Druid</name>
+			<text>{T}: Add one mana of any color. Activate only if you&apos;re in a trance. (You&apos;re in a trance if you&apos;ve cast a noncreature spell or created a token this turn.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/129_Burning-Tree Druid.png" num="129">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Will of the Conclave</name>
+			<text>Console {1}{W} (You may tap two untapped creatures you control to cast this spell for its console cost.)
+Will of the Conclave deals damage to target creature equal to the number of creatures you control. If Will of the Conclave was consoled, draw a card.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/30_Will of the Conclave.png" num="30">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mech-Mage&apos;s Insight</name>
+			<text>Draw two cards.
+Catalyze {2}{U}{U} (As you cast an instant or sorcery spell, you may exile this card from your graveyard and pay its catalyze cost. If you do, add this card&apos;s effects to that spell.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/50_Mech-Mage&apos;s Insight.png" num="50">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Izoni&apos;s Webstrider</name>
+			<text>Menace
+When Izoni&apos;s Webstrider enters the battlefield, you may return target creature card with mana value 3 or less from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/76_Izoni&apos;s Webstrider.png" num="76">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gateless Blacksmith</name>
+			<text>When Gateless Blacksmith enters the battlefield, create a tapped Treasure token.
+Whenever Gateless Blacksmith attacks, you may sacrifice a token. When you do, Gateless Blacksmith deals 1 damage to each opponent. Put a +1/+1 counter on target creature.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/104_Gateless Blacksmith.png" num="104">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warden of the Concordance</name>
+			<text>When Warden of the Concordance enters the battlefield, you gain 7 life.
+{1}{G}, Discard Warden of the Concordance: You gain 2 life. Draw a card.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/153_Warden of the Concordance.png" num="153">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>6G</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Luxury District</name>
+			<text>Luxury District enters the battlefield tapped.
+Luxury District untaps during each player&apos;s untap step.
+{T}: Add {C}.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/RAR-files/img/267_Luxury District.png" num="267">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Elemental RAR</name>
+			<text>This creature&apos;s power and toughness are each equal to the number of creatures you control.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/12t_Elemental.png" num="12">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Niv-Mizzet, Guildpact</name>
+			<text>Flying
+Whenever Niv-Mizzet, Guildpact enters the battlefield or attacks, exile target card from your graveyard that&apos;s exactly two colors. Copy it. You may cast the copy without paying its mana cost.</text>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/RAR-files/img/236_Niv-Mizzet, Guildpact.png" num="236">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>WUBRG</manacost>
+				<cmc>5</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spirit RAR</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/15t_Spirit.png" num="15">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Plant Zombie RAR</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/13t_Plant Zombie.png" num="13">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Plant Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Saproling RAR</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/11t_Saproling.png" num="11">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Saproling</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Dragon RAR</name>
+			<text>Flying, haste</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/7t_Dragon.png" num="7">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Soldier RAR</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/1t_Soldier.png" num="1">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Big Plant Zombie RAR</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/14t_Big Plant Zombie.png" num="14">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Plant Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Rat RAR</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/4t_Rat.png" num="4">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Rat</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Rhino RAR</name>
+			<text>Trample</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/10t_Rhino.png" num="10">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Rhino</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Izzet Soldier RAR</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/17t_Izzet Soldier.png" num="17">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact Creature — Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Centaur RAR</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/9t_Centaur.png" num="9">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Centaur</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Assassin RAR</name>
+			<text>Deathtouch</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/2t_Assassin.png" num="2">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Zombie RAR</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/5t_Zombie.png" num="5">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Treasure RAR</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/18t_Treasure.png" num="18">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Boar RAR</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/6t_Boar.png" num="6">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Boar</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Clue RAR</name>
+			<text>{2}, Sacrifice this artifact: Draw a card.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/16t_Clue.png" num="16">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Clue</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bat RAR</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/3t_Bat.png" num="3">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bat</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Goblin RAR</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/RAR-files/img/8t_Goblin.png" num="8">RAR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Goblin</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

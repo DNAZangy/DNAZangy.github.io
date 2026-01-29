@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/RAR-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/RAR-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>RAR visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
 		@font-face {
 			font-family: Beleren;
-			src: url('/resources/beleren.ttf');
+			src: url('../resources/beleren.ttf');
 		}
 		body {
 			font-family: Arial, sans-serif;
@@ -45,13 +48,15 @@
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -62,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -82,6 +87,7 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
@@ -102,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -118,7 +125,7 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -174,428 +181,447 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/RAR-files/logo.png" />
-	<img class="preload-hidden" src="/sets/SRC-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TRX-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TWI-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ALK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ACT-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ROS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/G5L-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HOD-files/icon.png" />
-		<img class="preload-hidden" src="/sets/BRE-files/icon.png" />
-		<img class="preload-hidden" src="/sets/HTS-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MSK-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ORC-files/icon.png" />
-		<img class="preload-hidden" src="/sets/TRO-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ZANG-files/icon.png" />
-		<img class="preload-hidden" src="/sets/CIUB-files/icon.png" />
-		<img class="preload-hidden" src="/sets/RAR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ZNU-files/icon.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/RAR-files/logo.png" />
+	<img class="preload-hidden" src="../sets/SRC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TRX-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TWI-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ALK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ACT-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ROS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/G5L-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HOD-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SHU-files/icon.png" />
+		<img class="preload-hidden" src="../sets/BRE-files/icon.png" />
+		<img class="preload-hidden" src="../sets/HTS-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MSK-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ORC-files/icon.png" />
+		<img class="preload-hidden" src="../sets/TRO-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ZANG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CIUB-files/icon.png" />
+		<img class="preload-hidden" src="../sets/RAR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ZNU-files/icon.png" />
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
 
 	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
-		<a class="set-bar" href="RAR"><img src="/sets/RAR-files/icon.png">Ravnica: Resurgence</a>
+		<a class="set-bar" href="../previews/RAR"><img src="../sets/RAR-files/icon.png">Ravnica: Resurgence</a>
 	
-		<a class="set-bar inactive" href="SRC"><img src="/sets/SRC-files/icon.png">Secrets of the River Cities</a>
+		<a class="set-bar inactive" href="../previews/SRC"><img src="../sets/SRC-files/icon.png">Secrets of the River Cities</a>
 	
-		<a class="set-bar inactive" href="TRX"><img src="/sets/TRX-files/icon.png">Theros: Age of Trax</a>
+		<a class="set-bar inactive" href="../previews/TRX"><img src="../sets/TRX-files/icon.png">Theros: Age of Trax</a>
 	
-		<a class="set-bar inactive" href="TWI"><img src="/sets/TWI-files/icon.png">Exalts of Twiltrie</a>
+		<a class="set-bar inactive" href="../previews/TWI"><img src="../sets/TWI-files/icon.png">Exalts of Twiltrie</a>
 	
-		<a class="set-bar inactive" href="ALK"><img src="/sets/ALK-files/icon.png">Alkabah</a>
+		<a class="set-bar inactive" href="../previews/ALK"><img src="../sets/ALK-files/icon.png">Alkabah</a>
 	
-		<a class="set-bar inactive" href="ACT"><img src="/sets/ACT-files/icon.png">The Stage Presents: The Neverending Act</a>
+		<a class="set-bar inactive" href="../previews/ACT"><img src="../sets/ACT-files/icon.png">The Stage Presents: The Neverending Act</a>
 	
-		<a class="set-bar inactive" href="ROS"><img src="/sets/ROS-files/icon.png">Alkabah: Rise of Soli</a>
+		<a class="set-bar inactive" href="../previews/ROS"><img src="../sets/ROS-files/icon.png">Alkabah: Rise of Soli</a>
 	
-		<a class="set-bar inactive" href="G5L"><img src="/sets/G5L-files/icon.png">Alkabah: Golna’s Five Labors</a>
+		<a class="set-bar inactive" href="../previews/G5L"><img src="../sets/G5L-files/icon.png">Alkabah: Golna’s Five Labors</a>
 	
-		<a class="set-bar inactive" href="HOD"><img src="/sets/HOD-files/icon.png">Houses of Dewold</a>
+		<a class="set-bar inactive" href="../previews/HOD"><img src="../sets/HOD-files/icon.png">Houses of Dewold</a>
 	
-		<a class="set-bar inactive" href="BRE"><img src="/sets/BRE-files/icon.png">Kaldheim: Bretagard’s Revival</a>
+		<a class="set-bar inactive" href="../previews/SHU"><img src="../sets/SHU-files/icon.png">Shurima: War of the Sands</a>
 	
-		<a class="set-bar inactive" href="HTS"><img src="/sets/HTS-files/icon.png">Hatsuniji: We Stare Through the Window, Together, Holding Hands</a>
+		<a class="set-bar inactive" href="../previews/BRE"><img src="../sets/BRE-files/icon.png">Kaldheim: Bretagard’s Revival</a>
 	
-		<a class="set-bar inactive" href="MSK"><img src="/sets/MSK-files/icon.png">Myths, Masks, and Minutes Spent Apart</a>
+		<a class="set-bar inactive" href="../previews/HTS"><img src="../sets/HTS-files/icon.png">Hatsuniji: We Stare Through the Window, Together, Holding Hands</a>
 	
-		<a class="set-bar inactive" href="ORC"><img src="/sets/ORC-files/icon.png">An Oddness in the River Cities</a>
+		<a class="set-bar inactive" href="../previews/MSK"><img src="../sets/MSK-files/icon.png">Myths, Masks, and Minutes Spent Apart</a>
 	
-		<a class="set-bar inactive" href="TRO"><img src="/sets/TRO-files/icon.png">Trovsko</a>
+		<a class="set-bar inactive" href="../previews/ORC"><img src="../sets/ORC-files/icon.png">An Oddness in the River Cities</a>
 	
-		<a class="set-bar inactive" href="ZANG"><img src="/sets/ZANG-files/icon.png">Zangy Cube</a>
+		<a class="set-bar inactive" href="../previews/TRO"><img src="../sets/TRO-files/icon.png">Trovsko</a>
 	
-		<a class="set-bar inactive" href="CIUB"><img src="/sets/CIUB-files/icon.png">Tairngire Cube</a>
+		<a class="set-bar inactive" href="../previews/ZANG"><img src="../sets/ZANG-files/icon.png">Zangy Cube</a>
 	
-		<a class="set-bar inactive" href="ZNU"><img src="/sets/ZNU-files/icon.png">Zendikar Unleashed</a>
+		<a class="set-bar inactive" href="../previews/CIUB"><img src="../sets/CIUB-files/icon.png">Tairngire Cube</a>
+	
+		<a class="set-bar inactive" href="../previews/ZNU"><img src="../sets/ZNU-files/icon.png">Zendikar Unleashed</a>
 	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/RAR-files/logo.png">
+		<img class="logo" src="../sets/RAR-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\2_Boros Ascendant.png" id="2_Boros Ascendant" data-flag="@X" onclick="openSidebar('2_Boros Ascendant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\43_Galvanice Weird.png" id="43_Galvanice Weird" data-flag="@X" onclick="openSidebar('43_Galvanice Weird',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\64_Candy Butcher.png" id="64_Candy Butcher" data-flag="@X" onclick="openSidebar('64_Candy Butcher',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\101_Electrotranscranial Blast.png" id="101_Electrotranscranial Blast" data-flag="@X" onclick="openSidebar('101_Electrotranscranial Blast',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\126_Araithia Shokta.png" id="126_Araithia Shokta" data-flag="@X" onclick="openSidebar('126_Araithia Shokta',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\3_Centaur Arrester.png" id="3_Centaur Arrester" data-flag="@X" onclick="openSidebar('3_Centaur Arrester',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\45_Inconspicious Moroii.png" id="45_Inconspicious Moroii" data-flag="@X" onclick="openSidebar('45_Inconspicious Moroii',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\71_Gateless Swarmlord.png" id="71_Gateless Swarmlord" data-flag="@X" onclick="openSidebar('71_Gateless Swarmlord',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\108_Gruul War Trance.png" id="108_Gruul War Trance" data-flag="@X" onclick="openSidebar('108_Gruul War Trance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\133_Encrusted Surveyor.png" id="133_Encrusted Surveyor" data-flag="@X" onclick="openSidebar('133_Encrusted Surveyor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\5_Debt of Vengeance.png" id="5_Debt of Vengeance" data-flag="@X" onclick="openSidebar('5_Debt of Vengeance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\46_Isperia's Protege.png" id="46_Isperias Protege" data-flag="@X" onclick="openSidebar('46_Isperias Protege',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\75_Ismeri Spymaster.png" id="75_Ismeri Spymaster" data-flag="@X" onclick="openSidebar('75_Ismeri Spymaster',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\115_Ringmaster's Show.png" id="115_Ringmasters Show" data-flag="@X" onclick="openSidebar('115_Ringmasters Show',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\145_Rapture of the Stampede.png" id="145_Rapture of the Stampede" data-flag="@X" onclick="openSidebar('145_Rapture of the Stampede',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\9_Firemane Nevena.png" id="9_Firemane Nevena" data-flag="@X" onclick="openSidebar('9_Firemane Nevena',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\48_Mass Bifurcation.png" id="48_Mass Bifurcation" data-flag="@X" onclick="openSidebar('48_Mass Bifurcation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\82_Pivlic, Heroic Entrepreneur.png" id="82_Pivlic, Heroic Entrepreneur" data-flag="@X" onclick="openSidebar('82_Pivlic, Heroic Entrepreneur',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\120_Stormheart Tyrant.png" id="120_Stormheart Tyrant" data-flag="@X" onclick="openSidebar('120_Stormheart Tyrant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\147_Serotiny.png" id="147_Serotiny" data-flag="@X" onclick="openSidebar('147_Serotiny',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\22_Operation Desperation.png" id="22_Operation Desperation" data-flag="@X" onclick="openSidebar('22_Operation Desperation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\53_Nirvorud, Gateless Student.png" id="53_Nirvorud, Gateless Student" data-flag="@X" onclick="openSidebar('53_Nirvorud, Gateless Student',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\83_Rebirth Through Life.png" id="83_Rebirth Through Life" data-flag="@X" onclick="openSidebar('83_Rebirth Through Life',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\122_Sunhome Shaper.png" id="122_Sunhome Shaper" data-flag="@X" onclick="openSidebar('122_Sunhome Shaper',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\148_Speaker's Sanctum.png" id="148_Speakers Sanctum" data-flag="@X" onclick="openSidebar('148_Speakers Sanctum',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\29_Voda's Cleansing.png" id="29_Vodas Cleansing" data-flag="@X" onclick="openSidebar('29_Vodas Cleansing',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\62_Supervisor of Continuism.png" id="62_Supervisor of Continuism" data-flag="@X" onclick="openSidebar('62_Supervisor of Continuism',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\89_Teratogen of Stone Death.png" id="89_Teratogen of Stone Death" data-flag="@X" onclick="openSidebar('89_Teratogen of Stone Death',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\123_Tsuli'van, Dragonborn.png" id="123_Tsulivan, Dragonborn" data-flag="@X" onclick="openSidebar('123_Tsulivan, Dragonborn',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\152_Vernadi Guardian.png" id="152_Vernadi Guardian" data-flag="@X" onclick="openSidebar('152_Vernadi Guardian',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\7_Ethereal Armaments.png" id="7_Ethereal Armaments" data-flag="@X" onclick="openSidebar('7_Ethereal Armaments',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\33_Beguiling Sheepopotamus.png" id="33_Beguiling Sheepopotamus" data-flag="@X" onclick="openSidebar('33_Beguiling Sheepopotamus',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\68_Dinrova Abductor.png" id="68_Dinrova Abductor" data-flag="@X" onclick="openSidebar('68_Dinrova Abductor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\98_Cackling Ragemutt.png" id="98_Cackling Ragemutt" data-flag="@X" onclick="openSidebar('98_Cackling Ragemutt',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\127_Battle of the Titans.png" id="127_Battle of the Titans" data-flag="@X" onclick="openSidebar('127_Battle of the Titans',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\10_Firemane of Integrity.png" id="10_Firemane of Integrity" data-flag="@X" onclick="openSidebar('10_Firemane of Integrity',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\38_Deceptive Saboteur.png" id="38_Deceptive Saboteur" data-flag="@X" onclick="openSidebar('38_Deceptive Saboteur',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\73_Heir of Szadek.png" id="73_Heir of Szadek" data-flag="@X" onclick="openSidebar('73_Heir of Szadek',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\99_Chaos Bolts.png" id="99_Chaos Bolts" data-flag="@X" onclick="openSidebar('99_Chaos Bolts',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\129_Burning-Tree Druid.png" id="129_Burning-Tree Druid" data-flag="@X" onclick="openSidebar('129_Burning-Tree Druid',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\11_Garrison Commando.png" id="11_Garrison Commando" data-flag="@X" onclick="openSidebar('11_Garrison Commando',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\44_Hidden in the Crowd.png" id="44_Hidden in the Crowd" data-flag="@X" onclick="openSidebar('44_Hidden in the Crowd',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\76_Izoni's Webstrider.png" id="76_Izonis Webstrider" data-flag="@X" onclick="openSidebar('76_Izonis Webstrider',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\100_Deafening Blast.png" id="100_Deafening Blast" data-flag="@X" onclick="openSidebar('100_Deafening Blast',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\134_Evangel of Growth.png" id="134_Evangel of Growth" data-flag="@X" onclick="openSidebar('134_Evangel of Growth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\19_Justiciar of Retribution.png" id="19_Justiciar of Retribution" data-flag="@X" onclick="openSidebar('19_Justiciar of Retribution',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\50_Mech-Mage's Insight.png" id="50_Mech-Mages Insight" data-flag="@X" onclick="openSidebar('50_Mech-Mages Insight',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\78_Majesty of Undeath.png" id="78_Majesty of Undeath" data-flag="@X" onclick="openSidebar('78_Majesty of Undeath',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\104_Gateless Blacksmith.png" id="104_Gateless Blacksmith" data-flag="@X" onclick="openSidebar('104_Gateless Blacksmith',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\136_Growth-Chamber Champion.png" id="136_Growth-Chamber Champion" data-flag="@X" onclick="openSidebar('136_Growth-Chamber Champion',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\20_Lingering Spirits.png" id="20_Lingering Spirits" data-flag="@X" onclick="openSidebar('20_Lingering Spirits',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\52_Mizzium Sledge.png" id="52_Mizzium Sledge" data-flag="@X" onclick="openSidebar('52_Mizzium Sledge',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\81_Piper of the Slums.png" id="81_Piper of the Slums" data-flag="@X" onclick="openSidebar('81_Piper of the Slums',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\106_Give Chase.png" id="106_Give Chase" data-flag="@X" onclick="openSidebar('106_Give Chase',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\139_Korozda Sanctuary.png" id="139_Korozda Sanctuary" data-flag="@X" onclick="openSidebar('139_Korozda Sanctuary',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\27_Tomik's Guardian.png" id="27_Tomiks Guardian" data-flag="@X" onclick="openSidebar('27_Tomiks Guardian',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\55_Prudent Konstructor.png" id="55_Prudent Konstructor" data-flag="@X" onclick="openSidebar('55_Prudent Konstructor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\85_Rooftop Assassin.png" id="85_Rooftop Assassin" data-flag="@X" onclick="openSidebar('85_Rooftop Assassin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\109_Havoc Jester.png" id="109_Havoc Jester" data-flag="@X" onclick="openSidebar('109_Havoc Jester',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\143_Overgrown History.png" id="143_Overgrown History" data-flag="@X" onclick="openSidebar('143_Overgrown History',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\28_Vedalken Lawmage.png" id="28_Vedalken Lawmage" data-flag="@X" onclick="openSidebar('28_Vedalken Lawmage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\59_Specimen Collector.png" id="59_Specimen Collector" data-flag="@X" onclick="openSidebar('59_Specimen Collector',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\87_Subsidy of Influence.png" id="87_Subsidy of Influence" data-flag="@X" onclick="openSidebar('87_Subsidy of Influence',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\112_Ordruun Strategist.png" id="112_Ordruun Strategist" data-flag="@X" onclick="openSidebar('112_Ordruun Strategist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\149_Street Swarm Elder.png" id="149_Street Swarm Elder" data-flag="@X" onclick="openSidebar('149_Street Swarm Elder',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\30_Will of the Conclave.png" id="30_Will of the Conclave" data-flag="@X" onclick="openSidebar('30_Will of the Conclave',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\60_Spell Parry.png" id="60_Spell Parry" data-flag="@X" onclick="openSidebar('60_Spell Parry',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\90_Tragicomedy.png" id="90_Tragicomedy" data-flag="@X" onclick="openSidebar('90_Tragicomedy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\116_Rubblebelt Rider.png" id="116_Rubblebelt Rider" data-flag="@X" onclick="openSidebar('116_Rubblebelt Rider',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\153_Warden of the Concordance.png" id="153_Warden of the Concordance" data-flag="@X" onclick="openSidebar('153_Warden of the Concordance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\1_Azorius Squad-Captain.png" id="1_Azorius Squad-Captain" data-flag="@X" onclick="openSidebar('1_Azorius Squad-Captain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\32_Bane Alley Fence.png" id="32_Bane Alley Fence" data-flag="@X" onclick="openSidebar('32_Bane Alley Fence',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\63_Abnormal Endurance.png" id="63_Abnormal Endurance" data-flag="@X" onclick="openSidebar('63_Abnormal Endurance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\94_Acrobatic Flourish.png" id="94_Acrobatic Flourish" data-flag="@X" onclick="openSidebar('94_Acrobatic Flourish',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\125_Ageless Votary.png" id="125_Ageless Votary" data-flag="@X" onclick="openSidebar('125_Ageless Votary',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\4_Centaur Woodshaper.png" id="4_Centaur Woodshaper" data-flag="@X" onclick="openSidebar('4_Centaur Woodshaper',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\34_Binding Decree.png" id="34_Binding Decree" data-flag="@X" onclick="openSidebar('34_Binding Decree',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\65_Carnarium Rat.png" id="65_Carnarium Rat" data-flag="@X" onclick="openSidebar('65_Carnarium Rat',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\95_Bloody Lunge.png" id="95_Bloody Lunge" data-flag="@X" onclick="openSidebar('95_Bloody Lunge',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\128_Begin the Trance.png" id="128_Begin the Trance" data-flag="@X" onclick="openSidebar('128_Begin the Trance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\6_Doomed Worshipper.png" id="6_Doomed Worshipper" data-flag="@X" onclick="openSidebar('6_Doomed Worshipper',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\35_Bioessence Leak.png" id="35_Bioessence Leak" data-flag="@X" onclick="openSidebar('35_Bioessence Leak',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\66_Dead Man Writing.png" id="66_Dead Man Writing" data-flag="@X" onclick="openSidebar('66_Dead Man Writing',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\96_Bolrac-Clan Shaman.png" id="96_Bolrac-Clan Shaman" data-flag="@X" onclick="openSidebar('96_Bolrac-Clan Shaman',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\130_Clover Heights Smasher.png" id="130_Clover Heights Smasher" data-flag="@X" onclick="openSidebar('130_Clover Heights Smasher',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\8_Ethereal Vitality.png" id="8_Ethereal Vitality" data-flag="@X" onclick="openSidebar('8_Ethereal Vitality',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\36_Collector of Secrets.png" id="36_Collector of Secrets" data-flag="@X" onclick="openSidebar('36_Collector of Secrets',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\67_Dimir Neuromancer.png" id="67_Dimir Neuromancer" data-flag="@X" onclick="openSidebar('67_Dimir Neuromancer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\97_Bottled Lightning.png" id="97_Bottled Lightning" data-flag="@X" onclick="openSidebar('97_Bottled Lightning',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\131_Cultivated Growth.png" id="131_Cultivated Growth" data-flag="@X" onclick="openSidebar('131_Cultivated Growth',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\12_Haazda Avenger.png" id="12_Haazda Avenger" data-flag="@X" onclick="openSidebar('12_Haazda Avenger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\37_Crypsis Project Vanguard.png" id="37_Crypsis Project Vanguard" data-flag="@X" onclick="openSidebar('37_Crypsis Project Vanguard',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\69_Dramatic Edict.png" id="69_Dramatic Edict" data-flag="@X" onclick="openSidebar('69_Dramatic Edict',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\102_Firefist Charger.png" id="102_Firefist Charger" data-flag="@X" onclick="openSidebar('102_Firefist Charger',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\132_Deadbridge Spider.png" id="132_Deadbridge Spider" data-flag="@X" onclick="openSidebar('132_Deadbridge Spider',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\13_Hieromancer's Cage.png" id="13_Hieromancers Cage" data-flag="@X" onclick="openSidebar('13_Hieromancers Cage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\39_Decode Thoughts.png" id="39_Decode Thoughts" data-flag="@X" onclick="openSidebar('39_Decode Thoughts',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\70_Duskmantle Mindmelter.png" id="70_Duskmantle Mindmelter" data-flag="@X" onclick="openSidebar('70_Duskmantle Mindmelter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\103_Flame-Kin Brigadier.png" id="103_Flame-Kin Brigadier" data-flag="@X" onclick="openSidebar('103_Flame-Kin Brigadier',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\135_Gravel-Hide Mother.png" id="135_Gravel-Hide Mother" data-flag="@X" onclick="openSidebar('135_Gravel-Hide Mother',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\14_Holy Blessing.png" id="14_Holy Blessing" data-flag="@X" onclick="openSidebar('14_Holy Blessing',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\40_Decommissionify.png" id="40_Decommissionify" data-flag="@X" onclick="openSidebar('40_Decommissionify',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\72_Getaway Artist.png" id="72_Getaway Artist" data-flag="@X" onclick="openSidebar('72_Getaway Artist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\105_Gather the Performers.png" id="105_Gather the Performers" data-flag="@X" onclick="openSidebar('105_Gather the Performers',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\137_Gyre-Clade Technician.png" id="137_Gyre-Clade Technician" data-flag="@X" onclick="openSidebar('137_Gyre-Clade Technician',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\15_Impassioned Orator.png" id="15_Impassioned Orator" data-flag="@X" onclick="openSidebar('15_Impassioned Orator',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\41_Fastidiuous Research.png" id="41_Fastidiuous Research" data-flag="@X" onclick="openSidebar('41_Fastidiuous Research',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\74_Hippodrama Butcher.png" id="74_Hippodrama Butcher" data-flag="@X" onclick="openSidebar('74_Hippodrama Butcher',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\107_Gore-House Bodyguard.png" id="107_Gore-House Bodyguard" data-flag="@X" onclick="openSidebar('107_Gore-House Bodyguard',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\138_Hull-Clade Infantry.png" id="138_Hull-Clade Infantry" data-flag="@X" onclick="openSidebar('138_Hull-Clade Infantry',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\16_Impeccable Timing.png" id="16_Impeccable Timing" data-flag="@X" onclick="openSidebar('16_Impeccable Timing',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\42_Fin-Clade Skirmisher.png" id="42_Fin-Clade Skirmisher" data-flag="@X" onclick="openSidebar('42_Fin-Clade Skirmisher',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\77_Looming Debt.png" id="77_Looming Debt" data-flag="@X" onclick="openSidebar('77_Looming Debt',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\110_Late Night Tinkering.png" id="110_Late Night Tinkering" data-flag="@X" onclick="openSidebar('110_Late Night Tinkering',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\140_Larger Than Life.png" id="140_Larger Than Life" data-flag="@X" onclick="openSidebar('140_Larger Than Life',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\17_Inspiring Hussars.png" id="17_Inspiring Hussars" data-flag="@X" onclick="openSidebar('17_Inspiring Hussars',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\47_Izzet Soundmage.png" id="47_Izzet Soundmage" data-flag="@X" onclick="openSidebar('47_Izzet Soundmage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\79_Memory Extract.png" id="79_Memory Extract" data-flag="@X" onclick="openSidebar('79_Memory Extract',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\111_Lightning Strike.png" id="111_Lightning Strike" data-flag="@X" onclick="openSidebar('111_Lightning Strike',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\141_Ominous Spicrabopus.png" id="141_Ominous Spicrabopus" data-flag="@X" onclick="openSidebar('141_Ominous Spicrabopus',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\18_Jelenn Mandate.png" id="18_Jelenn Mandate" data-flag="@X" onclick="openSidebar('18_Jelenn Mandate',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\49_Meandering Axotle.png" id="49_Meandering Axotle" data-flag="@X" onclick="openSidebar('49_Meandering Axotle',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\80_Opportune Lunge.png" id="80_Opportune Lunge" data-flag="@X" onclick="openSidebar('80_Opportune Lunge',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\113_Reborn Beast-Friend.png" id="113_Reborn Beast-Friend" data-flag="@X" onclick="openSidebar('113_Reborn Beast-Friend',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\142_Overgrow.png" id="142_Overgrow" data-flag="@X" onclick="openSidebar('142_Overgrow',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\21_Luminous Piker.png" id="21_Luminous Piker" data-flag="@X" onclick="openSidebar('21_Luminous Piker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\51_Mirror Mutation.png" id="51_Mirror Mutation" data-flag="@X" onclick="openSidebar('51_Mirror Mutation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\84_Revelation of Agony.png" id="84_Revelation of Agony" data-flag="@X" onclick="openSidebar('84_Revelation of Agony',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\114_Reckless Smash.png" id="114_Reckless Smash" data-flag="@X" onclick="openSidebar('114_Reckless Smash',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\144_Prove Glory.png" id="144_Prove Glory" data-flag="@X" onclick="openSidebar('144_Prove Glory',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\23_Secluded Elocuter.png" id="23_Secluded Elocuter" data-flag="@X" onclick="openSidebar('23_Secluded Elocuter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\54_Placid Skyskimmer.png" id="54_Placid Skyskimmer" data-flag="@X" onclick="openSidebar('54_Placid Skyskimmer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\86_Safehouse Inspector.png" id="86_Safehouse Inspector" data-flag="@X" onclick="openSidebar('86_Safehouse Inspector',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\117_Scab-Clan Stalwart.png" id="117_Scab-Clan Stalwart" data-flag="@X" onclick="openSidebar('117_Scab-Clan Stalwart',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\146_Rejected Subject.png" id="146_Rejected Subject" data-flag="@X" onclick="openSidebar('146_Rejected Subject',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\24_Selesnya Initiate.png" id="24_Selesnya Initiate" data-flag="@X" onclick="openSidebar('24_Selesnya Initiate',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\56_Search for Serenity.png" id="56_Search for Serenity" data-flag="@X" onclick="openSidebar('56_Search for Serenity',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\88_Syndic Collector.png" id="88_Syndic Collector" data-flag="@X" onclick="openSidebar('88_Syndic Collector',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\118_Slizt-Clan Scoundrel.png" id="118_Slizt-Clan Scoundrel" data-flag="@X" onclick="openSidebar('118_Slizt-Clan Scoundrel',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\150_Swarm the Skies.png" id="150_Swarm the Skies" data-flag="@X" onclick="openSidebar('150_Swarm the Skies',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\25_Sova Decree.png" id="25_Sova Decree" data-flag="@X" onclick="openSidebar('25_Sova Decree',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\57_Sova Researcher.png" id="57_Sova Researcher" data-flag="@X" onclick="openSidebar('57_Sova Researcher',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\91_Undercity Warden.png" id="91_Undercity Warden" data-flag="@X" onclick="openSidebar('91_Undercity Warden',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\119_Spawn of End-Razer.png" id="119_Spawn of End-Razer" data-flag="@X" onclick="openSidebar('119_Spawn of End-Razer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\151_Undercity Sludge.png" id="151_Undercity Sludge" data-flag="@X" onclick="openSidebar('151_Undercity Sludge',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\26_Swift Justice.png" id="26_Swift Justice" data-flag="@X" onclick="openSidebar('26_Swift Justice',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\58_Sova Scribe.png" id="58_Sova Scribe" data-flag="@X" onclick="openSidebar('58_Sova Scribe',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\92_Unholy Blessing.png" id="92_Unholy Blessing" data-flag="@X" onclick="openSidebar('92_Unholy Blessing',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\121_Stray Bolt.png" id="121_Stray Bolt" data-flag="@X" onclick="openSidebar('121_Stray Bolt',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\154_Wasteful Harvest.png" id="154_Wasteful Harvest" data-flag="@X" onclick="openSidebar('154_Wasteful Harvest',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\31_Wojek Skyknight.png" id="31_Wojek Skyknight" data-flag="@X" onclick="openSidebar('31_Wojek Skyknight',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\61_Stormsong Cyclops.png" id="61_Stormsong Cyclops" data-flag="@X" onclick="openSidebar('61_Stormsong Cyclops',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\93_Wratislav's Prize.png" id="93_Wratislavs Prize" data-flag="@X" onclick="openSidebar('93_Wratislavs Prize',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\124_Zhur-Taa Clan Ritualist.png" id="124_Zhur-Taa Clan Ritualist" data-flag="@X" onclick="openSidebar('124_Zhur-Taa Clan Ritualist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\155_Zhur-Taa Clan Summoner.png" id="155_Zhur-Taa Clan Summoner" data-flag="@X" onclick="openSidebar('155_Zhur-Taa Clan Summoner',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\RAR-files\img\2_Boros Ascendant.png" id="RAR_2_Boros Ascendant" data-flag="@X" onclick="openSidebar('RAR_2_Boros Ascendant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\43_Galvanice Weird.png" id="RAR_43_Galvanice Weird" data-flag="@X" onclick="openSidebar('RAR_43_Galvanice Weird',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\64_Candy Butcher.png" id="RAR_64_Candy Butcher" data-flag="@X" onclick="openSidebar('RAR_64_Candy Butcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\101_Electrotranscranial Blast.png" id="RAR_101_Electrotranscranial Blast" data-flag="@X" onclick="openSidebar('RAR_101_Electrotranscranial Blast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\126_Araithia Shokta.png" id="RAR_126_Araithia Shokta" data-flag="@X" onclick="openSidebar('RAR_126_Araithia Shokta',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\3_Centaur Arrester.png" id="RAR_3_Centaur Arrester" data-flag="@X" onclick="openSidebar('RAR_3_Centaur Arrester',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\45_Inconspicious Moroii.png" id="RAR_45_Inconspicious Moroii" data-flag="@X" onclick="openSidebar('RAR_45_Inconspicious Moroii',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\71_Gateless Swarmlord.png" id="RAR_71_Gateless Swarmlord" data-flag="@X" onclick="openSidebar('RAR_71_Gateless Swarmlord',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\108_Gruul War Trance.png" id="RAR_108_Gruul War Trance" data-flag="@X" onclick="openSidebar('RAR_108_Gruul War Trance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\133_Encrusted Surveyor.png" id="RAR_133_Encrusted Surveyor" data-flag="@X" onclick="openSidebar('RAR_133_Encrusted Surveyor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\5_Debt of Vengeance.png" id="RAR_5_Debt of Vengeance" data-flag="@X" onclick="openSidebar('RAR_5_Debt of Vengeance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\46_Isperia's Protege.png" id="RAR_46_Isperias Protege" data-flag="@X" onclick="openSidebar('RAR_46_Isperias Protege',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\75_Ismeri Spymaster.png" id="RAR_75_Ismeri Spymaster" data-flag="@X" onclick="openSidebar('RAR_75_Ismeri Spymaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\115_Ringmaster's Show.png" id="RAR_115_Ringmasters Show" data-flag="@X" onclick="openSidebar('RAR_115_Ringmasters Show',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\145_Rapture of the Stampede.png" id="RAR_145_Rapture of the Stampede" data-flag="@X" onclick="openSidebar('RAR_145_Rapture of the Stampede',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\9_Firemane Nevena.png" id="RAR_9_Firemane Nevena" data-flag="@X" onclick="openSidebar('RAR_9_Firemane Nevena',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\48_Mass Bifurcation.png" id="RAR_48_Mass Bifurcation" data-flag="@X" onclick="openSidebar('RAR_48_Mass Bifurcation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\82_Pivlic, Heroic Entrepreneur.png" id="RAR_82_Pivlic, Heroic Entrepreneur" data-flag="@X" onclick="openSidebar('RAR_82_Pivlic, Heroic Entrepreneur',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\120_Stormheart Tyrant.png" id="RAR_120_Stormheart Tyrant" data-flag="@X" onclick="openSidebar('RAR_120_Stormheart Tyrant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\147_Serotiny.png" id="RAR_147_Serotiny" data-flag="@X" onclick="openSidebar('RAR_147_Serotiny',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\22_Operation Desperation.png" id="RAR_22_Operation Desperation" data-flag="@X" onclick="openSidebar('RAR_22_Operation Desperation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\53_Nirvorud, Gateless Student.png" id="RAR_53_Nirvorud, Gateless Student" data-flag="@X" onclick="openSidebar('RAR_53_Nirvorud, Gateless Student',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\83_Rebirth Through Life.png" id="RAR_83_Rebirth Through Life" data-flag="@X" onclick="openSidebar('RAR_83_Rebirth Through Life',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\122_Sunhome Shaper.png" id="RAR_122_Sunhome Shaper" data-flag="@X" onclick="openSidebar('RAR_122_Sunhome Shaper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\148_Speaker's Sanctum.png" id="RAR_148_Speakers Sanctum" data-flag="@X" onclick="openSidebar('RAR_148_Speakers Sanctum',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\29_Voda's Cleansing.png" id="RAR_29_Vodas Cleansing" data-flag="@X" onclick="openSidebar('RAR_29_Vodas Cleansing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\62_Supervisor of Continuism.png" id="RAR_62_Supervisor of Continuism" data-flag="@X" onclick="openSidebar('RAR_62_Supervisor of Continuism',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\89_Teratogen of Stone Death.png" id="RAR_89_Teratogen of Stone Death" data-flag="@X" onclick="openSidebar('RAR_89_Teratogen of Stone Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\123_Tsuli'van, Dragonborn.png" id="RAR_123_Tsulivan, Dragonborn" data-flag="@X" onclick="openSidebar('RAR_123_Tsulivan, Dragonborn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\152_Vernadi Guardian.png" id="RAR_152_Vernadi Guardian" data-flag="@X" onclick="openSidebar('RAR_152_Vernadi Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\7_Ethereal Armaments.png" id="RAR_7_Ethereal Armaments" data-flag="@X" onclick="openSidebar('RAR_7_Ethereal Armaments',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\33_Beguiling Sheepopotamus.png" id="RAR_33_Beguiling Sheepopotamus" data-flag="@X" onclick="openSidebar('RAR_33_Beguiling Sheepopotamus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\68_Dinrova Abductor.png" id="RAR_68_Dinrova Abductor" data-flag="@X" onclick="openSidebar('RAR_68_Dinrova Abductor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\98_Cackling Ragemutt.png" id="RAR_98_Cackling Ragemutt" data-flag="@X" onclick="openSidebar('RAR_98_Cackling Ragemutt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\127_Battle of the Titans.png" id="RAR_127_Battle of the Titans" data-flag="@X" onclick="openSidebar('RAR_127_Battle of the Titans',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\10_Firemane of Integrity.png" id="RAR_10_Firemane of Integrity" data-flag="@X" onclick="openSidebar('RAR_10_Firemane of Integrity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\38_Deceptive Saboteur.png" id="RAR_38_Deceptive Saboteur" data-flag="@X" onclick="openSidebar('RAR_38_Deceptive Saboteur',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\73_Heir of Szadek.png" id="RAR_73_Heir of Szadek" data-flag="@X" onclick="openSidebar('RAR_73_Heir of Szadek',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\99_Chaos Bolts.png" id="RAR_99_Chaos Bolts" data-flag="@X" onclick="openSidebar('RAR_99_Chaos Bolts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\129_Burning-Tree Druid.png" id="RAR_129_Burning-Tree Druid" data-flag="@X" onclick="openSidebar('RAR_129_Burning-Tree Druid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\11_Garrison Commando.png" id="RAR_11_Garrison Commando" data-flag="@X" onclick="openSidebar('RAR_11_Garrison Commando',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\44_Hidden in the Crowd.png" id="RAR_44_Hidden in the Crowd" data-flag="@X" onclick="openSidebar('RAR_44_Hidden in the Crowd',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\76_Izoni's Webstrider.png" id="RAR_76_Izonis Webstrider" data-flag="@X" onclick="openSidebar('RAR_76_Izonis Webstrider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\100_Deafening Blast.png" id="RAR_100_Deafening Blast" data-flag="@X" onclick="openSidebar('RAR_100_Deafening Blast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\134_Evangel of Growth.png" id="RAR_134_Evangel of Growth" data-flag="@X" onclick="openSidebar('RAR_134_Evangel of Growth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\19_Justiciar of Retribution.png" id="RAR_19_Justiciar of Retribution" data-flag="@X" onclick="openSidebar('RAR_19_Justiciar of Retribution',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\50_Mech-Mage's Insight.png" id="RAR_50_Mech-Mages Insight" data-flag="@X" onclick="openSidebar('RAR_50_Mech-Mages Insight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\78_Majesty of Undeath.png" id="RAR_78_Majesty of Undeath" data-flag="@X" onclick="openSidebar('RAR_78_Majesty of Undeath',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\104_Gateless Blacksmith.png" id="RAR_104_Gateless Blacksmith" data-flag="@X" onclick="openSidebar('RAR_104_Gateless Blacksmith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\136_Growth-Chamber Champion.png" id="RAR_136_Growth-Chamber Champion" data-flag="@X" onclick="openSidebar('RAR_136_Growth-Chamber Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\20_Lingering Spirits.png" id="RAR_20_Lingering Spirits" data-flag="@X" onclick="openSidebar('RAR_20_Lingering Spirits',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\52_Mizzium Sledge.png" id="RAR_52_Mizzium Sledge" data-flag="@X" onclick="openSidebar('RAR_52_Mizzium Sledge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\81_Piper of the Slums.png" id="RAR_81_Piper of the Slums" data-flag="@X" onclick="openSidebar('RAR_81_Piper of the Slums',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\106_Give Chase.png" id="RAR_106_Give Chase" data-flag="@X" onclick="openSidebar('RAR_106_Give Chase',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\139_Korozda Sanctuary.png" id="RAR_139_Korozda Sanctuary" data-flag="@X" onclick="openSidebar('RAR_139_Korozda Sanctuary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\27_Tomik's Guardian.png" id="RAR_27_Tomiks Guardian" data-flag="@X" onclick="openSidebar('RAR_27_Tomiks Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\55_Prudent Konstructor.png" id="RAR_55_Prudent Konstructor" data-flag="@X" onclick="openSidebar('RAR_55_Prudent Konstructor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\85_Rooftop Assassin.png" id="RAR_85_Rooftop Assassin" data-flag="@X" onclick="openSidebar('RAR_85_Rooftop Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\109_Havoc Jester.png" id="RAR_109_Havoc Jester" data-flag="@X" onclick="openSidebar('RAR_109_Havoc Jester',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\143_Overgrown History.png" id="RAR_143_Overgrown History" data-flag="@X" onclick="openSidebar('RAR_143_Overgrown History',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\28_Vedalken Lawmage.png" id="RAR_28_Vedalken Lawmage" data-flag="@X" onclick="openSidebar('RAR_28_Vedalken Lawmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\59_Specimen Collector.png" id="RAR_59_Specimen Collector" data-flag="@X" onclick="openSidebar('RAR_59_Specimen Collector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\87_Subsidy of Influence.png" id="RAR_87_Subsidy of Influence" data-flag="@X" onclick="openSidebar('RAR_87_Subsidy of Influence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\112_Ordruun Strategist.png" id="RAR_112_Ordruun Strategist" data-flag="@X" onclick="openSidebar('RAR_112_Ordruun Strategist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\149_Street Swarm Elder.png" id="RAR_149_Street Swarm Elder" data-flag="@X" onclick="openSidebar('RAR_149_Street Swarm Elder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\30_Will of the Conclave.png" id="RAR_30_Will of the Conclave" data-flag="@X" onclick="openSidebar('RAR_30_Will of the Conclave',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\60_Spell Parry.png" id="RAR_60_Spell Parry" data-flag="@X" onclick="openSidebar('RAR_60_Spell Parry',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\90_Tragicomedy.png" id="RAR_90_Tragicomedy" data-flag="@X" onclick="openSidebar('RAR_90_Tragicomedy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\116_Rubblebelt Rider.png" id="RAR_116_Rubblebelt Rider" data-flag="@X" onclick="openSidebar('RAR_116_Rubblebelt Rider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\153_Warden of the Concordance.png" id="RAR_153_Warden of the Concordance" data-flag="@X" onclick="openSidebar('RAR_153_Warden of the Concordance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\1_Azorius Squad-Captain.png" id="RAR_1_Azorius Squad-Captain" data-flag="@X" onclick="openSidebar('RAR_1_Azorius Squad-Captain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\32_Bane Alley Fence.png" id="RAR_32_Bane Alley Fence" data-flag="@X" onclick="openSidebar('RAR_32_Bane Alley Fence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\63_Abnormal Endurance.png" id="RAR_63_Abnormal Endurance" data-flag="@X" onclick="openSidebar('RAR_63_Abnormal Endurance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\94_Acrobatic Flourish.png" id="RAR_94_Acrobatic Flourish" data-flag="@X" onclick="openSidebar('RAR_94_Acrobatic Flourish',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\125_Ageless Votary.png" id="RAR_125_Ageless Votary" data-flag="@X" onclick="openSidebar('RAR_125_Ageless Votary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\4_Centaur Woodshaper.png" id="RAR_4_Centaur Woodshaper" data-flag="@X" onclick="openSidebar('RAR_4_Centaur Woodshaper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\34_Binding Decree.png" id="RAR_34_Binding Decree" data-flag="@X" onclick="openSidebar('RAR_34_Binding Decree',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\65_Carnarium Rat.png" id="RAR_65_Carnarium Rat" data-flag="@X" onclick="openSidebar('RAR_65_Carnarium Rat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\95_Bloody Lunge.png" id="RAR_95_Bloody Lunge" data-flag="@X" onclick="openSidebar('RAR_95_Bloody Lunge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\128_Begin the Trance.png" id="RAR_128_Begin the Trance" data-flag="@X" onclick="openSidebar('RAR_128_Begin the Trance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\6_Doomed Worshipper.png" id="RAR_6_Doomed Worshipper" data-flag="@X" onclick="openSidebar('RAR_6_Doomed Worshipper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\35_Bioessence Leak.png" id="RAR_35_Bioessence Leak" data-flag="@X" onclick="openSidebar('RAR_35_Bioessence Leak',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\66_Dead Man Writing.png" id="RAR_66_Dead Man Writing" data-flag="@X" onclick="openSidebar('RAR_66_Dead Man Writing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\96_Bolrac-Clan Shaman.png" id="RAR_96_Bolrac-Clan Shaman" data-flag="@X" onclick="openSidebar('RAR_96_Bolrac-Clan Shaman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\130_Clover Heights Smasher.png" id="RAR_130_Clover Heights Smasher" data-flag="@X" onclick="openSidebar('RAR_130_Clover Heights Smasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\8_Ethereal Vitality.png" id="RAR_8_Ethereal Vitality" data-flag="@X" onclick="openSidebar('RAR_8_Ethereal Vitality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\36_Collector of Secrets.png" id="RAR_36_Collector of Secrets" data-flag="@X" onclick="openSidebar('RAR_36_Collector of Secrets',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\67_Dimir Neuromancer.png" id="RAR_67_Dimir Neuromancer" data-flag="@X" onclick="openSidebar('RAR_67_Dimir Neuromancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\97_Bottled Lightning.png" id="RAR_97_Bottled Lightning" data-flag="@X" onclick="openSidebar('RAR_97_Bottled Lightning',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\131_Cultivated Growth.png" id="RAR_131_Cultivated Growth" data-flag="@X" onclick="openSidebar('RAR_131_Cultivated Growth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\12_Haazda Avenger.png" id="RAR_12_Haazda Avenger" data-flag="@X" onclick="openSidebar('RAR_12_Haazda Avenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\37_Crypsis Project Vanguard.png" id="RAR_37_Crypsis Project Vanguard" data-flag="@X" onclick="openSidebar('RAR_37_Crypsis Project Vanguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\69_Dramatic Edict.png" id="RAR_69_Dramatic Edict" data-flag="@X" onclick="openSidebar('RAR_69_Dramatic Edict',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\102_Firefist Charger.png" id="RAR_102_Firefist Charger" data-flag="@X" onclick="openSidebar('RAR_102_Firefist Charger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\132_Deadbridge Spider.png" id="RAR_132_Deadbridge Spider" data-flag="@X" onclick="openSidebar('RAR_132_Deadbridge Spider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\13_Hieromancer's Cage.png" id="RAR_13_Hieromancers Cage" data-flag="@X" onclick="openSidebar('RAR_13_Hieromancers Cage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\39_Decode Thoughts.png" id="RAR_39_Decode Thoughts" data-flag="@X" onclick="openSidebar('RAR_39_Decode Thoughts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\70_Duskmantle Mindmelter.png" id="RAR_70_Duskmantle Mindmelter" data-flag="@X" onclick="openSidebar('RAR_70_Duskmantle Mindmelter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\103_Flame-Kin Brigadier.png" id="RAR_103_Flame-Kin Brigadier" data-flag="@X" onclick="openSidebar('RAR_103_Flame-Kin Brigadier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\135_Gravel-Hide Mother.png" id="RAR_135_Gravel-Hide Mother" data-flag="@X" onclick="openSidebar('RAR_135_Gravel-Hide Mother',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\14_Holy Blessing.png" id="RAR_14_Holy Blessing" data-flag="@X" onclick="openSidebar('RAR_14_Holy Blessing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\40_Decommissionify.png" id="RAR_40_Decommissionify" data-flag="@X" onclick="openSidebar('RAR_40_Decommissionify',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\72_Getaway Artist.png" id="RAR_72_Getaway Artist" data-flag="@X" onclick="openSidebar('RAR_72_Getaway Artist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\105_Gather the Performers.png" id="RAR_105_Gather the Performers" data-flag="@X" onclick="openSidebar('RAR_105_Gather the Performers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\137_Gyre-Clade Technician.png" id="RAR_137_Gyre-Clade Technician" data-flag="@X" onclick="openSidebar('RAR_137_Gyre-Clade Technician',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\15_Impassioned Orator.png" id="RAR_15_Impassioned Orator" data-flag="@X" onclick="openSidebar('RAR_15_Impassioned Orator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\41_Fastidiuous Research.png" id="RAR_41_Fastidiuous Research" data-flag="@X" onclick="openSidebar('RAR_41_Fastidiuous Research',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\74_Hippodrama Butcher.png" id="RAR_74_Hippodrama Butcher" data-flag="@X" onclick="openSidebar('RAR_74_Hippodrama Butcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\107_Gore-House Bodyguard.png" id="RAR_107_Gore-House Bodyguard" data-flag="@X" onclick="openSidebar('RAR_107_Gore-House Bodyguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\138_Hull-Clade Infantry.png" id="RAR_138_Hull-Clade Infantry" data-flag="@X" onclick="openSidebar('RAR_138_Hull-Clade Infantry',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\16_Impeccable Timing.png" id="RAR_16_Impeccable Timing" data-flag="@X" onclick="openSidebar('RAR_16_Impeccable Timing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\42_Fin-Clade Skirmisher.png" id="RAR_42_Fin-Clade Skirmisher" data-flag="@X" onclick="openSidebar('RAR_42_Fin-Clade Skirmisher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\77_Looming Debt.png" id="RAR_77_Looming Debt" data-flag="@X" onclick="openSidebar('RAR_77_Looming Debt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\110_Late Night Tinkering.png" id="RAR_110_Late Night Tinkering" data-flag="@X" onclick="openSidebar('RAR_110_Late Night Tinkering',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\140_Larger Than Life.png" id="RAR_140_Larger Than Life" data-flag="@X" onclick="openSidebar('RAR_140_Larger Than Life',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\17_Inspiring Hussars.png" id="RAR_17_Inspiring Hussars" data-flag="@X" onclick="openSidebar('RAR_17_Inspiring Hussars',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\47_Izzet Soundmage.png" id="RAR_47_Izzet Soundmage" data-flag="@X" onclick="openSidebar('RAR_47_Izzet Soundmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\79_Memory Extract.png" id="RAR_79_Memory Extract" data-flag="@X" onclick="openSidebar('RAR_79_Memory Extract',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\111_Lightning Strike.png" id="RAR_111_Lightning Strike" data-flag="@X" onclick="openSidebar('RAR_111_Lightning Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\141_Ominous Spicrabopus.png" id="RAR_141_Ominous Spicrabopus" data-flag="@X" onclick="openSidebar('RAR_141_Ominous Spicrabopus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\18_Jelenn Mandate.png" id="RAR_18_Jelenn Mandate" data-flag="@X" onclick="openSidebar('RAR_18_Jelenn Mandate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\49_Meandering Axotle.png" id="RAR_49_Meandering Axotle" data-flag="@X" onclick="openSidebar('RAR_49_Meandering Axotle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\80_Opportune Lunge.png" id="RAR_80_Opportune Lunge" data-flag="@X" onclick="openSidebar('RAR_80_Opportune Lunge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\113_Reborn Beast-Friend.png" id="RAR_113_Reborn Beast-Friend" data-flag="@X" onclick="openSidebar('RAR_113_Reborn Beast-Friend',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\142_Overgrow.png" id="RAR_142_Overgrow" data-flag="@X" onclick="openSidebar('RAR_142_Overgrow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\21_Luminous Piker.png" id="RAR_21_Luminous Piker" data-flag="@X" onclick="openSidebar('RAR_21_Luminous Piker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\51_Mirror Mutation.png" id="RAR_51_Mirror Mutation" data-flag="@X" onclick="openSidebar('RAR_51_Mirror Mutation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\84_Revelation of Agony.png" id="RAR_84_Revelation of Agony" data-flag="@X" onclick="openSidebar('RAR_84_Revelation of Agony',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\114_Reckless Smash.png" id="RAR_114_Reckless Smash" data-flag="@X" onclick="openSidebar('RAR_114_Reckless Smash',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\144_Prove Glory.png" id="RAR_144_Prove Glory" data-flag="@X" onclick="openSidebar('RAR_144_Prove Glory',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\23_Secluded Elocuter.png" id="RAR_23_Secluded Elocuter" data-flag="@X" onclick="openSidebar('RAR_23_Secluded Elocuter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\54_Placid Skyskimmer.png" id="RAR_54_Placid Skyskimmer" data-flag="@X" onclick="openSidebar('RAR_54_Placid Skyskimmer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\86_Safehouse Inspector.png" id="RAR_86_Safehouse Inspector" data-flag="@X" onclick="openSidebar('RAR_86_Safehouse Inspector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\117_Scab-Clan Stalwart.png" id="RAR_117_Scab-Clan Stalwart" data-flag="@X" onclick="openSidebar('RAR_117_Scab-Clan Stalwart',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\146_Rejected Subject.png" id="RAR_146_Rejected Subject" data-flag="@X" onclick="openSidebar('RAR_146_Rejected Subject',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\24_Selesnya Initiate.png" id="RAR_24_Selesnya Initiate" data-flag="@X" onclick="openSidebar('RAR_24_Selesnya Initiate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\56_Search for Serenity.png" id="RAR_56_Search for Serenity" data-flag="@X" onclick="openSidebar('RAR_56_Search for Serenity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\88_Syndic Collector.png" id="RAR_88_Syndic Collector" data-flag="@X" onclick="openSidebar('RAR_88_Syndic Collector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\118_Slizt-Clan Scoundrel.png" id="RAR_118_Slizt-Clan Scoundrel" data-flag="@X" onclick="openSidebar('RAR_118_Slizt-Clan Scoundrel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\150_Swarm the Skies.png" id="RAR_150_Swarm the Skies" data-flag="@X" onclick="openSidebar('RAR_150_Swarm the Skies',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\25_Sova Decree.png" id="RAR_25_Sova Decree" data-flag="@X" onclick="openSidebar('RAR_25_Sova Decree',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\57_Sova Researcher.png" id="RAR_57_Sova Researcher" data-flag="@X" onclick="openSidebar('RAR_57_Sova Researcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\91_Undercity Warden.png" id="RAR_91_Undercity Warden" data-flag="@X" onclick="openSidebar('RAR_91_Undercity Warden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\119_Spawn of End-Razer.png" id="RAR_119_Spawn of End-Razer" data-flag="@X" onclick="openSidebar('RAR_119_Spawn of End-Razer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\151_Undercity Sludge.png" id="RAR_151_Undercity Sludge" data-flag="@X" onclick="openSidebar('RAR_151_Undercity Sludge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\26_Swift Justice.png" id="RAR_26_Swift Justice" data-flag="@X" onclick="openSidebar('RAR_26_Swift Justice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\58_Sova Scribe.png" id="RAR_58_Sova Scribe" data-flag="@X" onclick="openSidebar('RAR_58_Sova Scribe',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\92_Unholy Blessing.png" id="RAR_92_Unholy Blessing" data-flag="@X" onclick="openSidebar('RAR_92_Unholy Blessing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\121_Stray Bolt.png" id="RAR_121_Stray Bolt" data-flag="@X" onclick="openSidebar('RAR_121_Stray Bolt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\154_Wasteful Harvest.png" id="RAR_154_Wasteful Harvest" data-flag="@X" onclick="openSidebar('RAR_154_Wasteful Harvest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\31_Wojek Skyknight.png" id="RAR_31_Wojek Skyknight" data-flag="@X" onclick="openSidebar('RAR_31_Wojek Skyknight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\61_Stormsong Cyclops.png" id="RAR_61_Stormsong Cyclops" data-flag="@X" onclick="openSidebar('RAR_61_Stormsong Cyclops',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\93_Wratislav's Prize.png" id="RAR_93_Wratislavs Prize" data-flag="@X" onclick="openSidebar('RAR_93_Wratislavs Prize',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\124_Zhur-Taa Clan Ritualist.png" id="RAR_124_Zhur-Taa Clan Ritualist" data-flag="@X" onclick="openSidebar('RAR_124_Zhur-Taa Clan Ritualist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\155_Zhur-Taa Clan Summoner.png" id="RAR_155_Zhur-Taa Clan Summoner" data-flag="@X" onclick="openSidebar('RAR_155_Zhur-Taa Clan Summoner',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\159_Grand Arbiter Lavinia.png" id="159_Grand Arbiter Lavinia" data-flag="@X" onclick="openSidebar('159_Grand Arbiter Lavinia',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\166_The Failure of the Guildpact.png" id="166_The Failure of the Guildpact" data-flag="@X" onclick="openSidebar('166_The Failure of the Guildpact',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\172_Angelic Satirist.png" id="172_Angelic Satirist" data-flag="@X" onclick="openSidebar('172_Angelic Satirist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\180_Borborygmos, the Revolution.png" id="180_Borborygmos, the Revolution" data-flag="@X" onclick="openSidebar('180_Borborygmos, the Revolution',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\194_Trostani, As One.png" id="194_Trostani, As One" data-flag="@X" onclick="openSidebar('194_Trostani, As One',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\160_Inscrutable Hieromancer.png" id="160_Inscrutable Hieromancer" data-flag="@X" onclick="openSidebar('160_Inscrutable Hieromancer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\167_Lazav, Master Shapeshifter.png" id="167_Lazav, Master Shapeshifter" data-flag="@X" onclick="openSidebar('167_Lazav, Master Shapeshifter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\179_Rakdos, Unholy Patron.png" id="179_Rakdos, Unholy Patron" data-flag="@X" onclick="openSidebar('179_Rakdos, Unholy Patron',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\182_Ghired, Zhur-Taa Proven.png" id="182_Ghired, Zhur-Taa Proven" data-flag="@X" onclick="openSidebar('182_Ghired, Zhur-Taa Proven',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\195_Voda Uniter.png" id="195_Voda Uniter" data-flag="@X" onclick="openSidebar('195_Voda Uniter',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\156_Arbiter Uzana.png" id="156_Arbiter Uzana" data-flag="@X" onclick="openSidebar('156_Arbiter Uzana',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\164_Atkos Tarr, Hidden Assassin.png" id="164_Atkos Tarr, Hidden Assassin" data-flag="@X" onclick="openSidebar('164_Atkos Tarr, Hidden Assassin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\175_Hekara, Blood Witch.png" id="175_Hekara, Blood Witch" data-flag="@X" onclick="openSidebar('175_Hekara, Blood Witch',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\181_Firekissed Shaman.png" id="181_Firekissed Shaman" data-flag="@X" onclick="openSidebar('181_Firekissed Shaman',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\189_Disperse the Seeds.png" id="189_Disperse the Seeds" data-flag="@X" onclick="openSidebar('189_Disperse the Seeds',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\161_Inundate in Bureaucracy.png" id="161_Inundate in Bureaucracy" data-flag="@X" onclick="openSidebar('161_Inundate in Bureaucracy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\165_Duskmantle Larcenist.png" id="165_Duskmantle Larcenist" data-flag="@X" onclick="openSidebar('165_Duskmantle Larcenist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\177_The Main Act.png" id="177_The Main Act" data-flag="@X" onclick="openSidebar('177_The Main Act',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\186_Ruric Thar, Ghor-Clan Head.png" id="186_Ruric Thar, Ghor-Clan Head" data-flag="@X" onclick="openSidebar('186_Ruric Thar, Ghor-Clan Head',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\191_Savaryn, Loxodon Stalwart.png" id="191_Savaryn, Loxodon Stalwart" data-flag="@X" onclick="openSidebar('191_Savaryn, Loxodon Stalwart',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\163_Uzana's Guard.png" id="163_Uzanas Guard" data-flag="@X" onclick="openSidebar('163_Uzanas Guard',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\171_Trauma Spike.png" id="171_Trauma Spike" data-flag="@X" onclick="openSidebar('171_Trauma Spike',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\178_Rakdos Fanatic.png" id="178_Rakdos Fanatic" data-flag="@X" onclick="openSidebar('178_Rakdos Fanatic',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\187_Tin Street Riot.png" id="187_Tin Street Riot" data-flag="@X" onclick="openSidebar('187_Tin Street Riot',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\192_Selesnyan Apiarist.png" id="192_Selesnyan Apiarist" data-flag="@X" onclick="openSidebar('192_Selesnyan Apiarist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\157_Arrester's Manacles.png" id="157_Arresters Manacles" data-flag="@X" onclick="openSidebar('157_Arresters Manacles',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\168_Recon Specialist.png" id="168_Recon Specialist" data-flag="@X" onclick="openSidebar('168_Recon Specialist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\173_Audience Participation.png" id="173_Audience Participation" data-flag="@X" onclick="openSidebar('173_Audience Participation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\183_Goblin Anarchomancer.png" id="183_Goblin Anarchomancer" data-flag="@X" onclick="openSidebar('183_Goblin Anarchomancer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\188_Alluring Hierarch.png" id="188_Alluring Hierarch" data-flag="@X" onclick="openSidebar('188_Alluring Hierarch',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\158_Bruvac's Assistance.png" id="158_Bruvacs Assistance" data-flag="@X" onclick="openSidebar('158_Bruvacs Assistance',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\169_Slice Through Consciousness.png" id="169_Slice Through Consciousness" data-flag="@X" onclick="openSidebar('169_Slice Through Consciousness',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\174_Enter the Carnarium.png" id="174_Enter the Carnarium" data-flag="@X" onclick="openSidebar('174_Enter the Carnarium',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\184_Gruul Riotmancer.png" id="184_Gruul Riotmancer" data-flag="@X" onclick="openSidebar('184_Gruul Riotmancer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\190_Openhearted Equenaut.png" id="190_Openhearted Equenaut" data-flag="@X" onclick="openSidebar('190_Openhearted Equenaut',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\162_Lyev Prosecutor.png" id="162_Lyev Prosecutor" data-flag="@X" onclick="openSidebar('162_Lyev Prosecutor',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\170_Thoughtblock.png" id="170_Thoughtblock" data-flag="@X" onclick="openSidebar('170_Thoughtblock',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\176_Key Performer.png" id="176_Key Performer" data-flag="@X" onclick="openSidebar('176_Key Performer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\185_No Going Back.png" id="185_No Going Back" data-flag="@X" onclick="openSidebar('185_No Going Back',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\193_Tend the Gardens.png" id="193_Tend the Gardens" data-flag="@X" onclick="openSidebar('193_Tend the Gardens',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\243_Lavinia's Guildmage.png" id="243_Lavinias Guildmage" data-flag="@X" onclick="openSidebar('243_Lavinias Guildmage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\244_Lazav's Guildmage.png" id="244_Lazavs Guildmage" data-flag="@X" onclick="openSidebar('244_Lazavs Guildmage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\248_Rakdos's Guildmage.png" id="248_Rakdoss Guildmage" data-flag="@X" onclick="openSidebar('248_Rakdoss Guildmage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\238_Borborygmos's Guildmage.png" id="238_Borborygmoss Guildmage" data-flag="@X" onclick="openSidebar('238_Borborygmoss Guildmage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\252_Trostani's Guildmage.png" id="252_Trostanis Guildmage" data-flag="@X" onclick="openSidebar('252_Trostanis Guildmage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\253_Turn to Mist.png" id="253_Turn to Mist" data-flag="@X" onclick="openSidebar('253_Turn to Mist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\250_Stern Strongarm.png" id="250_Stern Strongarm" data-flag="@X" onclick="openSidebar('250_Stern Strongarm',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\241_Footlight Fiend.png" id="241_Footlight Fiend" data-flag="@X" onclick="openSidebar('241_Footlight Fiend',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\247_Pensive Trog.png" id="247_Pensive Trog" data-flag="@X" onclick="openSidebar('247_Pensive Trog',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\246_Nature's Chant.png" id="246_Natures Chant" data-flag="@X" onclick="openSidebar('246_Natures Chant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\199_Kaya, Freed from Burdens.png" id="199_Kaya, Freed from Burdens" data-flag="@X" onclick="openSidebar('199_Kaya, Freed from Burdens',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\208_Mizzix's Overload.png" id="208_Mizzixs Overload" data-flag="@X" onclick="openSidebar('208_Mizzixs Overload',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\217_Svogthir, Ever-Growing.png" id="217_Svogthir, Ever-Growing" data-flag="@X" onclick="openSidebar('217_Svogthir, Ever-Growing',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\220_Aurelia, Wings of Justice.png" id="220_Aurelia, Wings of Justice" data-flag="@X" onclick="openSidebar('220_Aurelia, Wings of Justice',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\232_Processing Vat.png" id="232_Processing Vat" data-flag="@X" onclick="openSidebar('232_Processing Vat',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\203_Tomik Vrona, Advokist.png" id="203_Tomik Vrona, Advokist" data-flag="@X" onclick="openSidebar('203_Tomik Vrona, Advokist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\209_Ral, Conductor of the League.png" id="209_Ral, Conductor of the League" data-flag="@X" onclick="openSidebar('209_Ral, Conductor of the League',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\218_Vraska, Swarm's Matriarch.png" id="218_Vraska, Swarms Matriarch" data-flag="@X" onclick="openSidebar('218_Vraska, Swarms Matriarch',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\221_Descent of the Legion.png" id="221_Descent of the Legion" data-flag="@X" onclick="openSidebar('221_Descent of the Legion',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\234_Vannifar, Simic Apogee.png" id="234_Vannifar, Simic Apogee" data-flag="@X" onclick="openSidebar('234_Vannifar, Simic Apogee',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\196_Anthem of the Damned.png" id="196_Anthem of the Damned" data-flag="@X" onclick="openSidebar('196_Anthem of the Damned',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\204_Aethercore Weird.png" id="204_Aethercore Weird" data-flag="@X" onclick="openSidebar('204_Aethercore Weird',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\212_Cevraya, Ambitious Matka.png" id="212_Cevraya, Ambitious Matka" data-flag="@X" onclick="openSidebar('212_Cevraya, Ambitious Matka',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\223_Mileva, Boros Legionnaire.png" id="223_Mileva, Boros Legionnaire" data-flag="@X" onclick="openSidebar('223_Mileva, Boros Legionnaire',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\228_Biochemist's Reclamation.png" id="228_Biochemists Reclamation" data-flag="@X" onclick="openSidebar('228_Biochemists Reclamation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\198_Echo of the Blood Baron.png" id="198_Echo of the Blood Baron" data-flag="@X" onclick="openSidebar('198_Echo of the Blood Baron',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\205_Dracosmithing.png" id="205_Dracosmithing" data-flag="@X" onclick="openSidebar('205_Dracosmithing',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\213_Korozda Caretaker.png" id="213_Korozda Caretaker" data-flag="@X" onclick="openSidebar('213_Korozda Caretaker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\226_Sunhome Reckoner.png" id="226_Sunhome Reckoner" data-flag="@X" onclick="openSidebar('226_Sunhome Reckoner',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\233_Spawn of Kraj.png" id="233_Spawn of Kraj" data-flag="@X" onclick="openSidebar('233_Spawn of Kraj',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\202_Maladola, Debt Collector.png" id="202_Maladola, Debt Collector" data-flag="@X" onclick="openSidebar('202_Maladola, Debt Collector',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\211_Zorica, Izmundi Blastseeker.png" id="211_Zorica, Izmundi Blastseeker" data-flag="@X" onclick="openSidebar('211_Zorica, Izmundi Blastseeker',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\219_Vraska's Trophy.png" id="219_Vraskas Trophy" data-flag="@X" onclick="openSidebar('219_Vraskas Trophy',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\227_Warmind Initiative.png" id="227_Warmind Initiative" data-flag="@X" onclick="openSidebar('227_Warmind Initiative',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\235_Yolov, Zameck Bioscientist.png" id="235_Yolov, Zameck Bioscientist" data-flag="@X" onclick="openSidebar('235_Yolov, Zameck Bioscientist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\197_Drown in Gold.png" id="197_Drown in Gold" data-flag="@X" onclick="openSidebar('197_Drown in Gold',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\206_Erratic Plasmologist.png" id="206_Erratic Plasmologist" data-flag="@X" onclick="openSidebar('206_Erratic Plasmologist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\214_Putrid Mass.png" id="214_Putrid Mass" data-flag="@X" onclick="openSidebar('214_Putrid Mass',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\222_Imposing Recruitment.png" id="222_Imposing Recruitment" data-flag="@X" onclick="openSidebar('222_Imposing Recruitment',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\229_Bounding Krasis.png" id="229_Bounding Krasis" data-flag="@X" onclick="openSidebar('229_Bounding Krasis',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\200_Kaya's Cunning.png" id="200_Kayas Cunning" data-flag="@X" onclick="openSidebar('200_Kayas Cunning',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\207_Ionize.png" id="207_Ionize" data-flag="@X" onclick="openSidebar('207_Ionize',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\215_Scavenge for Parts.png" id="215_Scavenge for Parts" data-flag="@X" onclick="openSidebar('215_Scavenge for Parts',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\224_Solemn Prayer.png" id="224_Solemn Prayer" data-flag="@X" onclick="openSidebar('224_Solemn Prayer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\230_Emergent Ooze.png" id="230_Emergent Ooze" data-flag="@X" onclick="openSidebar('230_Emergent Ooze',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\201_Leeching Advokist.png" id="201_Leeching Advokist" data-flag="@X" onclick="openSidebar('201_Leeching Advokist',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\210_Unending Experimentation.png" id="210_Unending Experimentation" data-flag="@X" onclick="openSidebar('210_Unending Experimentation',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\216_Skull Prophet.png" id="216_Skull Prophet" data-flag="@X" onclick="openSidebar('216_Skull Prophet',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\225_Stunning Directive.png" id="225_Stunning Directive" data-flag="@X" onclick="openSidebar('225_Stunning Directive',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\231_Gather Materials.png" id="231_Gather Materials" data-flag="@X" onclick="openSidebar('231_Gather Materials',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\251_Tomik's Guildmage.png" id="251_Tomiks Guildmage" data-flag="@X" onclick="openSidebar('251_Tomiks Guildmage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\249_Ral's Guildmage.png" id="249_Rals Guildmage" data-flag="@X" onclick="openSidebar('249_Rals Guildmage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\256_Vraska's Guildmage.png" id="256_Vraskas Guildmage" data-flag="@X" onclick="openSidebar('256_Vraskas Guildmage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\237_Aurelia's Guildmage.png" id="237_Aurelias Guildmage" data-flag="@X" onclick="openSidebar('237_Aurelias Guildmage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\255_Vannifar's Guildmage.png" id="255_Vannifars Guildmage" data-flag="@X" onclick="openSidebar('255_Vannifars Guildmage',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\254_Vampire Ministrant.png" id="254_Vampire Ministrant" data-flag="@X" onclick="openSidebar('254_Vampire Ministrant',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\245_Melek's Electromancer.png" id="245_Meleks Electromancer" data-flag="@X" onclick="openSidebar('245_Meleks Electromancer',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\239_Fervent Fungus-Binder.png" id="239_Fervent Fungus-Binder" data-flag="@X" onclick="openSidebar('239_Fervent Fungus-Binder',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\242_Grace of the Firemanes.png" id="242_Grace of the Firemanes" data-flag="@X" onclick="openSidebar('242_Grace of the Firemanes',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\240_Fin-Clade Researcher.png" id="240_Fin-Clade Researcher" data-flag="@X" onclick="openSidebar('240_Fin-Clade Researcher',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\236_Niv-Mizzet, Guildpact.png" id="236_Niv-Mizzet, Guildpact" data-flag="@X" onclick="openSidebar('236_Niv-Mizzet, Guildpact',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\265_Hallowed Fountain.png" id="265_Hallowed Fountain" data-flag="@X" onclick="openSidebar('265_Hallowed Fountain',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\278_Watery Grave.png" id="278_Watery Grave" data-flag="@X" onclick="openSidebar('278_Watery Grave',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\258_Blood Crypt.png" id="258_Blood Crypt" data-flag="@X" onclick="openSidebar('258_Blood Crypt',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\275_Stomping Grounds.png" id="275_Stomping Grounds" data-flag="@X" onclick="openSidebar('275_Stomping Grounds',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\276_Temple Garden.png" id="276_Temple Garden" data-flag="@X" onclick="openSidebar('276_Temple Garden',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\257_Azorius Throughway.png" id="257_Azorius Throughway" data-flag="@X" onclick="openSidebar('257_Azorius Throughway',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\261_Dimir Throughway.png" id="261_Dimir Throughway" data-flag="@X" onclick="openSidebar('261_Dimir Throughway',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\270_Rakdos Throughway.png" id="270_Rakdos Throughway" data-flag="@X" onclick="openSidebar('270_Rakdos Throughway',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\264_Gruul Throughway.png" id="264_Gruul Throughway" data-flag="@X" onclick="openSidebar('264_Gruul Throughway',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\272_Selesnya Throughway.png" id="272_Selesnya Throughway" data-flag="@X" onclick="openSidebar('272_Selesnya Throughway',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\262_Godless Shrine.png" id="262_Godless Shrine" data-flag="@X" onclick="openSidebar('262_Godless Shrine',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\274_Steam Vents.png" id="274_Steam Vents" data-flag="@X" onclick="openSidebar('274_Steam Vents',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\269_Overgrown Tomb.png" id="269_Overgrown Tomb" data-flag="@X" onclick="openSidebar('269_Overgrown Tomb',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\271_Sacred Foundry.png" id="271_Sacred Foundry" data-flag="@X" onclick="openSidebar('271_Sacred Foundry',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\260_Breeding Pool.png" id="260_Breeding Pool" data-flag="@X" onclick="openSidebar('260_Breeding Pool',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\268_Orzhov Throughway.png" id="268_Orzhov Throughway" data-flag="@X" onclick="openSidebar('268_Orzhov Throughway',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\266_Izzet Throughway.png" id="266_Izzet Throughway" data-flag="@X" onclick="openSidebar('266_Izzet Throughway',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\263_Golgari Throughway.png" id="263_Golgari Throughway" data-flag="@X" onclick="openSidebar('263_Golgari Throughway',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\259_Boros Throughway.png" id="259_Boros Throughway" data-flag="@X" onclick="openSidebar('259_Boros Throughway',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\273_Simic Throughway.png" id="273_Simic Throughway" data-flag="@X" onclick="openSidebar('273_Simic Throughway',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\267_Luxury District.png" id="267_Luxury District" data-flag="@X" onclick="openSidebar('267_Luxury District',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\277_Transguild Promenade.png" id="277_Transguild Promenade" data-flag="@X" onclick="openSidebar('277_Transguild Promenade',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\159_Grand Arbiter Lavinia.png" id="RAR_159_Grand Arbiter Lavinia" data-flag="@X" onclick="openSidebar('RAR_159_Grand Arbiter Lavinia',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\166_The Failure of the Guildpact.png" id="RAR_166_The Failure of the Guildpact" data-flag="@X" onclick="openSidebar('RAR_166_The Failure of the Guildpact',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\172_Angelic Satirist.png" id="RAR_172_Angelic Satirist" data-flag="@X" onclick="openSidebar('RAR_172_Angelic Satirist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\180_Borborygmos, the Revolution.png" id="RAR_180_Borborygmos, the Revolution" data-flag="@X" onclick="openSidebar('RAR_180_Borborygmos, the Revolution',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\194_Trostani, As One.png" id="RAR_194_Trostani, As One" data-flag="@X" onclick="openSidebar('RAR_194_Trostani, As One',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\160_Inscrutable Hieromancer.png" id="RAR_160_Inscrutable Hieromancer" data-flag="@X" onclick="openSidebar('RAR_160_Inscrutable Hieromancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\167_Lazav, Master Shapeshifter.png" id="RAR_167_Lazav, Master Shapeshifter" data-flag="@X" onclick="openSidebar('RAR_167_Lazav, Master Shapeshifter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\179_Rakdos, Unholy Patron.png" id="RAR_179_Rakdos, Unholy Patron" data-flag="@X" onclick="openSidebar('RAR_179_Rakdos, Unholy Patron',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\182_Ghired, Zhur-Taa Proven.png" id="RAR_182_Ghired, Zhur-Taa Proven" data-flag="@X" onclick="openSidebar('RAR_182_Ghired, Zhur-Taa Proven',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\195_Voda Uniter.png" id="RAR_195_Voda Uniter" data-flag="@X" onclick="openSidebar('RAR_195_Voda Uniter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\156_Arbiter Uzana.png" id="RAR_156_Arbiter Uzana" data-flag="@X" onclick="openSidebar('RAR_156_Arbiter Uzana',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\164_Atkos Tarr, Hidden Assassin.png" id="RAR_164_Atkos Tarr, Hidden Assassin" data-flag="@X" onclick="openSidebar('RAR_164_Atkos Tarr, Hidden Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\175_Hekara, Blood Witch.png" id="RAR_175_Hekara, Blood Witch" data-flag="@X" onclick="openSidebar('RAR_175_Hekara, Blood Witch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\181_Firekissed Shaman.png" id="RAR_181_Firekissed Shaman" data-flag="@X" onclick="openSidebar('RAR_181_Firekissed Shaman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\189_Disperse the Seeds.png" id="RAR_189_Disperse the Seeds" data-flag="@X" onclick="openSidebar('RAR_189_Disperse the Seeds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\161_Inundate in Bureaucracy.png" id="RAR_161_Inundate in Bureaucracy" data-flag="@X" onclick="openSidebar('RAR_161_Inundate in Bureaucracy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\165_Duskmantle Larcenist.png" id="RAR_165_Duskmantle Larcenist" data-flag="@X" onclick="openSidebar('RAR_165_Duskmantle Larcenist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\177_The Main Act.png" id="RAR_177_The Main Act" data-flag="@X" onclick="openSidebar('RAR_177_The Main Act',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\186_Ruric Thar, Ghor-Clan Head.png" id="RAR_186_Ruric Thar, Ghor-Clan Head" data-flag="@X" onclick="openSidebar('RAR_186_Ruric Thar, Ghor-Clan Head',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\191_Savaryn, Loxodon Stalwart.png" id="RAR_191_Savaryn, Loxodon Stalwart" data-flag="@X" onclick="openSidebar('RAR_191_Savaryn, Loxodon Stalwart',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\163_Uzana's Guard.png" id="RAR_163_Uzanas Guard" data-flag="@X" onclick="openSidebar('RAR_163_Uzanas Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\171_Trauma Spike.png" id="RAR_171_Trauma Spike" data-flag="@X" onclick="openSidebar('RAR_171_Trauma Spike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\178_Rakdos Fanatic.png" id="RAR_178_Rakdos Fanatic" data-flag="@X" onclick="openSidebar('RAR_178_Rakdos Fanatic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\187_Tin Street Riot.png" id="RAR_187_Tin Street Riot" data-flag="@X" onclick="openSidebar('RAR_187_Tin Street Riot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\192_Selesnyan Apiarist.png" id="RAR_192_Selesnyan Apiarist" data-flag="@X" onclick="openSidebar('RAR_192_Selesnyan Apiarist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\157_Arrester's Manacles.png" id="RAR_157_Arresters Manacles" data-flag="@X" onclick="openSidebar('RAR_157_Arresters Manacles',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\168_Recon Specialist.png" id="RAR_168_Recon Specialist" data-flag="@X" onclick="openSidebar('RAR_168_Recon Specialist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\173_Audience Participation.png" id="RAR_173_Audience Participation" data-flag="@X" onclick="openSidebar('RAR_173_Audience Participation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\183_Goblin Anarchomancer.png" id="RAR_183_Goblin Anarchomancer" data-flag="@X" onclick="openSidebar('RAR_183_Goblin Anarchomancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\188_Alluring Hierarch.png" id="RAR_188_Alluring Hierarch" data-flag="@X" onclick="openSidebar('RAR_188_Alluring Hierarch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\158_Bruvac's Assistance.png" id="RAR_158_Bruvacs Assistance" data-flag="@X" onclick="openSidebar('RAR_158_Bruvacs Assistance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\169_Slice Through Consciousness.png" id="RAR_169_Slice Through Consciousness" data-flag="@X" onclick="openSidebar('RAR_169_Slice Through Consciousness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\174_Enter the Carnarium.png" id="RAR_174_Enter the Carnarium" data-flag="@X" onclick="openSidebar('RAR_174_Enter the Carnarium',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\184_Gruul Riotmancer.png" id="RAR_184_Gruul Riotmancer" data-flag="@X" onclick="openSidebar('RAR_184_Gruul Riotmancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\190_Openhearted Equenaut.png" id="RAR_190_Openhearted Equenaut" data-flag="@X" onclick="openSidebar('RAR_190_Openhearted Equenaut',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\162_Lyev Prosecutor.png" id="RAR_162_Lyev Prosecutor" data-flag="@X" onclick="openSidebar('RAR_162_Lyev Prosecutor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\170_Thoughtblock.png" id="RAR_170_Thoughtblock" data-flag="@X" onclick="openSidebar('RAR_170_Thoughtblock',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\176_Key Performer.png" id="RAR_176_Key Performer" data-flag="@X" onclick="openSidebar('RAR_176_Key Performer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\185_No Going Back.png" id="RAR_185_No Going Back" data-flag="@X" onclick="openSidebar('RAR_185_No Going Back',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\193_Tend the Gardens.png" id="RAR_193_Tend the Gardens" data-flag="@X" onclick="openSidebar('RAR_193_Tend the Gardens',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\243_Lavinia's Guildmage.png" id="RAR_243_Lavinias Guildmage" data-flag="@X" onclick="openSidebar('RAR_243_Lavinias Guildmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\244_Lazav's Guildmage.png" id="RAR_244_Lazavs Guildmage" data-flag="@X" onclick="openSidebar('RAR_244_Lazavs Guildmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\248_Rakdos's Guildmage.png" id="RAR_248_Rakdoss Guildmage" data-flag="@X" onclick="openSidebar('RAR_248_Rakdoss Guildmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\238_Borborygmos's Guildmage.png" id="RAR_238_Borborygmoss Guildmage" data-flag="@X" onclick="openSidebar('RAR_238_Borborygmoss Guildmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\252_Trostani's Guildmage.png" id="RAR_252_Trostanis Guildmage" data-flag="@X" onclick="openSidebar('RAR_252_Trostanis Guildmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\253_Turn to Mist.png" id="RAR_253_Turn to Mist" data-flag="@X" onclick="openSidebar('RAR_253_Turn to Mist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\250_Stern Strongarm.png" id="RAR_250_Stern Strongarm" data-flag="@X" onclick="openSidebar('RAR_250_Stern Strongarm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\241_Footlight Fiend.png" id="RAR_241_Footlight Fiend" data-flag="@X" onclick="openSidebar('RAR_241_Footlight Fiend',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\247_Pensive Trog.png" id="RAR_247_Pensive Trog" data-flag="@X" onclick="openSidebar('RAR_247_Pensive Trog',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\246_Nature's Chant.png" id="RAR_246_Natures Chant" data-flag="@X" onclick="openSidebar('RAR_246_Natures Chant',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\199_Kaya, Freed from Burdens.png" id="RAR_199_Kaya, Freed from Burdens" data-flag="@X" onclick="openSidebar('RAR_199_Kaya, Freed from Burdens',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\208_Mizzix's Overload.png" id="RAR_208_Mizzixs Overload" data-flag="@X" onclick="openSidebar('RAR_208_Mizzixs Overload',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\217_Svogthir, Ever-Growing.png" id="RAR_217_Svogthir, Ever-Growing" data-flag="@X" onclick="openSidebar('RAR_217_Svogthir, Ever-Growing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\220_Aurelia, Wings of Justice.png" id="RAR_220_Aurelia, Wings of Justice" data-flag="@X" onclick="openSidebar('RAR_220_Aurelia, Wings of Justice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\232_Processing Vat.png" id="RAR_232_Processing Vat" data-flag="@X" onclick="openSidebar('RAR_232_Processing Vat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\203_Tomik Vrona, Advokist.png" id="RAR_203_Tomik Vrona, Advokist" data-flag="@X" onclick="openSidebar('RAR_203_Tomik Vrona, Advokist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\209_Ral, Conductor of the League.png" id="RAR_209_Ral, Conductor of the League" data-flag="@X" onclick="openSidebar('RAR_209_Ral, Conductor of the League',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\218_Vraska, Swarm's Matriarch.png" id="RAR_218_Vraska, Swarms Matriarch" data-flag="@X" onclick="openSidebar('RAR_218_Vraska, Swarms Matriarch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\221_Descent of the Legion.png" id="RAR_221_Descent of the Legion" data-flag="@X" onclick="openSidebar('RAR_221_Descent of the Legion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\234_Vannifar, Simic Apogee.png" id="RAR_234_Vannifar, Simic Apogee" data-flag="@X" onclick="openSidebar('RAR_234_Vannifar, Simic Apogee',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\196_Anthem of the Damned.png" id="RAR_196_Anthem of the Damned" data-flag="@X" onclick="openSidebar('RAR_196_Anthem of the Damned',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\204_Aethercore Weird.png" id="RAR_204_Aethercore Weird" data-flag="@X" onclick="openSidebar('RAR_204_Aethercore Weird',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\212_Cevraya, Ambitious Matka.png" id="RAR_212_Cevraya, Ambitious Matka" data-flag="@X" onclick="openSidebar('RAR_212_Cevraya, Ambitious Matka',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\223_Mileva, Boros Legionnaire.png" id="RAR_223_Mileva, Boros Legionnaire" data-flag="@X" onclick="openSidebar('RAR_223_Mileva, Boros Legionnaire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\228_Biochemist's Reclamation.png" id="RAR_228_Biochemists Reclamation" data-flag="@X" onclick="openSidebar('RAR_228_Biochemists Reclamation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\198_Echo of the Blood Baron.png" id="RAR_198_Echo of the Blood Baron" data-flag="@X" onclick="openSidebar('RAR_198_Echo of the Blood Baron',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\205_Dracosmithing.png" id="RAR_205_Dracosmithing" data-flag="@X" onclick="openSidebar('RAR_205_Dracosmithing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\213_Korozda Caretaker.png" id="RAR_213_Korozda Caretaker" data-flag="@X" onclick="openSidebar('RAR_213_Korozda Caretaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\226_Sunhome Reckoner.png" id="RAR_226_Sunhome Reckoner" data-flag="@X" onclick="openSidebar('RAR_226_Sunhome Reckoner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\233_Spawn of Kraj.png" id="RAR_233_Spawn of Kraj" data-flag="@X" onclick="openSidebar('RAR_233_Spawn of Kraj',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\202_Maladola, Debt Collector.png" id="RAR_202_Maladola, Debt Collector" data-flag="@X" onclick="openSidebar('RAR_202_Maladola, Debt Collector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\211_Zorica, Izmundi Blastseeker.png" id="RAR_211_Zorica, Izmundi Blastseeker" data-flag="@X" onclick="openSidebar('RAR_211_Zorica, Izmundi Blastseeker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\219_Vraska's Trophy.png" id="RAR_219_Vraskas Trophy" data-flag="@X" onclick="openSidebar('RAR_219_Vraskas Trophy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\227_Warmind Initiative.png" id="RAR_227_Warmind Initiative" data-flag="@X" onclick="openSidebar('RAR_227_Warmind Initiative',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\235_Yolov, Zameck Bioscientist.png" id="RAR_235_Yolov, Zameck Bioscientist" data-flag="@X" onclick="openSidebar('RAR_235_Yolov, Zameck Bioscientist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\197_Drown in Gold.png" id="RAR_197_Drown in Gold" data-flag="@X" onclick="openSidebar('RAR_197_Drown in Gold',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\206_Erratic Plasmologist.png" id="RAR_206_Erratic Plasmologist" data-flag="@X" onclick="openSidebar('RAR_206_Erratic Plasmologist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\214_Putrid Mass.png" id="RAR_214_Putrid Mass" data-flag="@X" onclick="openSidebar('RAR_214_Putrid Mass',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\222_Imposing Recruitment.png" id="RAR_222_Imposing Recruitment" data-flag="@X" onclick="openSidebar('RAR_222_Imposing Recruitment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\229_Bounding Krasis.png" id="RAR_229_Bounding Krasis" data-flag="@X" onclick="openSidebar('RAR_229_Bounding Krasis',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\200_Kaya's Cunning.png" id="RAR_200_Kayas Cunning" data-flag="@X" onclick="openSidebar('RAR_200_Kayas Cunning',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\207_Ionize.png" id="RAR_207_Ionize" data-flag="@X" onclick="openSidebar('RAR_207_Ionize',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\215_Scavenge for Parts.png" id="RAR_215_Scavenge for Parts" data-flag="@X" onclick="openSidebar('RAR_215_Scavenge for Parts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\224_Solemn Prayer.png" id="RAR_224_Solemn Prayer" data-flag="@X" onclick="openSidebar('RAR_224_Solemn Prayer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\230_Emergent Ooze.png" id="RAR_230_Emergent Ooze" data-flag="@X" onclick="openSidebar('RAR_230_Emergent Ooze',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\201_Leeching Advokist.png" id="RAR_201_Leeching Advokist" data-flag="@X" onclick="openSidebar('RAR_201_Leeching Advokist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\210_Unending Experimentation.png" id="RAR_210_Unending Experimentation" data-flag="@X" onclick="openSidebar('RAR_210_Unending Experimentation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\216_Skull Prophet.png" id="RAR_216_Skull Prophet" data-flag="@X" onclick="openSidebar('RAR_216_Skull Prophet',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\225_Stunning Directive.png" id="RAR_225_Stunning Directive" data-flag="@X" onclick="openSidebar('RAR_225_Stunning Directive',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\231_Gather Materials.png" id="RAR_231_Gather Materials" data-flag="@X" onclick="openSidebar('RAR_231_Gather Materials',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\251_Tomik's Guildmage.png" id="RAR_251_Tomiks Guildmage" data-flag="@X" onclick="openSidebar('RAR_251_Tomiks Guildmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\249_Ral's Guildmage.png" id="RAR_249_Rals Guildmage" data-flag="@X" onclick="openSidebar('RAR_249_Rals Guildmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\256_Vraska's Guildmage.png" id="RAR_256_Vraskas Guildmage" data-flag="@X" onclick="openSidebar('RAR_256_Vraskas Guildmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\237_Aurelia's Guildmage.png" id="RAR_237_Aurelias Guildmage" data-flag="@X" onclick="openSidebar('RAR_237_Aurelias Guildmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\255_Vannifar's Guildmage.png" id="RAR_255_Vannifars Guildmage" data-flag="@X" onclick="openSidebar('RAR_255_Vannifars Guildmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\254_Vampire Ministrant.png" id="RAR_254_Vampire Ministrant" data-flag="@X" onclick="openSidebar('RAR_254_Vampire Ministrant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\245_Melek's Electromancer.png" id="RAR_245_Meleks Electromancer" data-flag="@X" onclick="openSidebar('RAR_245_Meleks Electromancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\239_Fervent Fungus-Binder.png" id="RAR_239_Fervent Fungus-Binder" data-flag="@X" onclick="openSidebar('RAR_239_Fervent Fungus-Binder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\242_Grace of the Firemanes.png" id="RAR_242_Grace of the Firemanes" data-flag="@X" onclick="openSidebar('RAR_242_Grace of the Firemanes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\240_Fin-Clade Researcher.png" id="RAR_240_Fin-Clade Researcher" data-flag="@X" onclick="openSidebar('RAR_240_Fin-Clade Researcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\236_Niv-Mizzet, Guildpact.png" id="RAR_236_Niv-Mizzet, Guildpact" data-flag="@X" onclick="openSidebar('RAR_236_Niv-Mizzet, Guildpact',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="RAR_e" data-flag="@E" onclick="openSidebar('RAR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="RAR_e" data-flag="@E" onclick="openSidebar('RAR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="RAR_e" data-flag="@E" onclick="openSidebar('RAR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="RAR_e" data-flag="@E" onclick="openSidebar('RAR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\265_Hallowed Fountain.png" id="RAR_265_Hallowed Fountain" data-flag="@X" onclick="openSidebar('RAR_265_Hallowed Fountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\278_Watery Grave.png" id="RAR_278_Watery Grave" data-flag="@X" onclick="openSidebar('RAR_278_Watery Grave',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\258_Blood Crypt.png" id="RAR_258_Blood Crypt" data-flag="@X" onclick="openSidebar('RAR_258_Blood Crypt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\275_Stomping Grounds.png" id="RAR_275_Stomping Grounds" data-flag="@X" onclick="openSidebar('RAR_275_Stomping Grounds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\276_Temple Garden.png" id="RAR_276_Temple Garden" data-flag="@X" onclick="openSidebar('RAR_276_Temple Garden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\257_Azorius Throughway.png" id="RAR_257_Azorius Throughway" data-flag="@X" onclick="openSidebar('RAR_257_Azorius Throughway',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\261_Dimir Throughway.png" id="RAR_261_Dimir Throughway" data-flag="@X" onclick="openSidebar('RAR_261_Dimir Throughway',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\270_Rakdos Throughway.png" id="RAR_270_Rakdos Throughway" data-flag="@X" onclick="openSidebar('RAR_270_Rakdos Throughway',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\264_Gruul Throughway.png" id="RAR_264_Gruul Throughway" data-flag="@X" onclick="openSidebar('RAR_264_Gruul Throughway',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\272_Selesnya Throughway.png" id="RAR_272_Selesnya Throughway" data-flag="@X" onclick="openSidebar('RAR_272_Selesnya Throughway',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\262_Godless Shrine.png" id="RAR_262_Godless Shrine" data-flag="@X" onclick="openSidebar('RAR_262_Godless Shrine',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\274_Steam Vents.png" id="RAR_274_Steam Vents" data-flag="@X" onclick="openSidebar('RAR_274_Steam Vents',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\269_Overgrown Tomb.png" id="RAR_269_Overgrown Tomb" data-flag="@X" onclick="openSidebar('RAR_269_Overgrown Tomb',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\271_Sacred Foundry.png" id="RAR_271_Sacred Foundry" data-flag="@X" onclick="openSidebar('RAR_271_Sacred Foundry',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\260_Breeding Pool.png" id="RAR_260_Breeding Pool" data-flag="@X" onclick="openSidebar('RAR_260_Breeding Pool',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\268_Orzhov Throughway.png" id="RAR_268_Orzhov Throughway" data-flag="@X" onclick="openSidebar('RAR_268_Orzhov Throughway',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\266_Izzet Throughway.png" id="RAR_266_Izzet Throughway" data-flag="@X" onclick="openSidebar('RAR_266_Izzet Throughway',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\263_Golgari Throughway.png" id="RAR_263_Golgari Throughway" data-flag="@X" onclick="openSidebar('RAR_263_Golgari Throughway',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\259_Boros Throughway.png" id="RAR_259_Boros Throughway" data-flag="@X" onclick="openSidebar('RAR_259_Boros Throughway',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\273_Simic Throughway.png" id="RAR_273_Simic Throughway" data-flag="@X" onclick="openSidebar('RAR_273_Simic Throughway',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\267_Luxury District.png" id="RAR_267_Luxury District" data-flag="@X" onclick="openSidebar('RAR_267_Luxury District',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\277_Transguild Promenade.png" id="RAR_277_Transguild Promenade" data-flag="@X" onclick="openSidebar('RAR_277_Transguild Promenade',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="RAR_e" data-flag="@E" onclick="openSidebar('RAR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="RAR_e" data-flag="@E" onclick="openSidebar('RAR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="RAR_e" data-flag="@E" onclick="openSidebar('RAR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\16t_Clue.png" id="16t_Clue" data-flag="@X" onclick="openSidebar('16t_Clue',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\17t_Izzet Soldier.png" id="17t_Izzet Soldier" data-flag="@X" onclick="openSidebar('17t_Izzet Soldier',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\18t_Treasure.png" id="18t_Treasure" data-flag="@X" onclick="openSidebar('18t_Treasure',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\1t_Soldier.png" id="1t_Soldier" data-flag="@X" onclick="openSidebar('1t_Soldier',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\2t_Assassin.png" id="2t_Assassin" data-flag="@X" onclick="openSidebar('2t_Assassin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\3t_Bat.png" id="3t_Bat" data-flag="@X" onclick="openSidebar('3t_Bat',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\4t_Rat.png" id="4t_Rat" data-flag="@X" onclick="openSidebar('4t_Rat',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\5t_Zombie.png" id="5t_Zombie" data-flag="@X" onclick="openSidebar('5t_Zombie',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\6t_Boar.png" id="6t_Boar" data-flag="@X" onclick="openSidebar('6t_Boar',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\7t_Dragon.png" id="7t_Dragon" data-flag="@X" onclick="openSidebar('7t_Dragon',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\8t_Goblin.png" id="8t_Goblin" data-flag="@X" onclick="openSidebar('8t_Goblin',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\9t_Centaur.png" id="9t_Centaur" data-flag="@X" onclick="openSidebar('9t_Centaur',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\10t_Rhino.png" id="10t_Rhino" data-flag="@X" onclick="openSidebar('10t_Rhino',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\11t_Saproling.png" id="11t_Saproling" data-flag="@X" onclick="openSidebar('11t_Saproling',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\12t_Elemental.png" id="12t_Elemental" data-flag="@X" onclick="openSidebar('12t_Elemental',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\13t_Plant Zombie.png" id="13t_Plant Zombie" data-flag="@X" onclick="openSidebar('13t_Plant Zombie',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\14t_Big Plant Zombie.png" id="14t_Big Plant Zombie" data-flag="@X" onclick="openSidebar('14t_Big Plant Zombie',false)"></div>
-				<div class="container"><img loading="lazy" alt="/sets\RAR-files\img\15t_Spirit.png" id="15t_Spirit" data-flag="@X" onclick="openSidebar('15t_Spirit',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img loading="lazy" alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\16t_Clue.png" id="RAR_16t_Clue" data-flag="@X" onclick="openSidebar('RAR_16t_Clue',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\17t_Izzet Soldier.png" id="RAR_17t_Izzet Soldier" data-flag="@X" onclick="openSidebar('RAR_17t_Izzet Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\18t_Treasure.png" id="RAR_18t_Treasure" data-flag="@X" onclick="openSidebar('RAR_18t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\1t_Soldier.png" id="RAR_1t_Soldier" data-flag="@X" onclick="openSidebar('RAR_1t_Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\2t_Assassin.png" id="RAR_2t_Assassin" data-flag="@X" onclick="openSidebar('RAR_2t_Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\3t_Bat.png" id="RAR_3t_Bat" data-flag="@X" onclick="openSidebar('RAR_3t_Bat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\4t_Rat.png" id="RAR_4t_Rat" data-flag="@X" onclick="openSidebar('RAR_4t_Rat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\5t_Zombie.png" id="RAR_5t_Zombie" data-flag="@X" onclick="openSidebar('RAR_5t_Zombie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\6t_Boar.png" id="RAR_6t_Boar" data-flag="@X" onclick="openSidebar('RAR_6t_Boar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\7t_Dragon.png" id="RAR_7t_Dragon" data-flag="@X" onclick="openSidebar('RAR_7t_Dragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\8t_Goblin.png" id="RAR_8t_Goblin" data-flag="@X" onclick="openSidebar('RAR_8t_Goblin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\9t_Centaur.png" id="RAR_9t_Centaur" data-flag="@X" onclick="openSidebar('RAR_9t_Centaur',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\10t_Rhino.png" id="RAR_10t_Rhino" data-flag="@X" onclick="openSidebar('RAR_10t_Rhino',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\11t_Saproling.png" id="RAR_11t_Saproling" data-flag="@X" onclick="openSidebar('RAR_11t_Saproling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\12t_Elemental.png" id="RAR_12t_Elemental" data-flag="@X" onclick="openSidebar('RAR_12t_Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\13t_Plant Zombie.png" id="RAR_13t_Plant Zombie" data-flag="@X" onclick="openSidebar('RAR_13t_Plant Zombie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\14t_Big Plant Zombie.png" id="RAR_14t_Big Plant Zombie" data-flag="@X" onclick="openSidebar('RAR_14t_Big Plant Zombie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\RAR-files\img\15t_Spirit.png" id="RAR_15t_Spirit" data-flag="@X" onclick="openSidebar('RAR_15t_Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="RAR_e" data-flag="@E" onclick="openSidebar('RAR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="RAR_e" data-flag="@E" onclick="openSidebar('RAR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="RAR_er" data-flag="@E" onclick="openSidebar('RAR_er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -608,19 +634,111 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 
@@ -655,13 +773,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -815,16 +936,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -834,7 +955,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>

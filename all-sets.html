@@ -1,18 +1,21 @@
 ﻿<html>
 	<head>
 	  <title>All Sets</title>
-	  <link rel="icon" type="image/x-icon" href="/img/sets.png">
-	  <link rel="stylesheet" href="/resources/mana.css">
-	  <link rel="stylesheet" href="/resources/header.css">
+	  <link rel="icon" type="image/x-icon" href="./img/sets.png">
+	  <link rel="stylesheet" href="./resources/mana.css">
+	  <link rel="stylesheet" href="./resources/header.css">
 	</head>
+	<script title="root">
+		const rootPath = ".";
+	</script>
 	<style>
 		@font-face {
 			font-family: 'Beleren Small Caps';
-			src: url('/resources/beleren-caps.ttf');
+			src: url('./resources/beleren-caps.ttf');
 		}
 		@font-face {
 			font-family: Beleren;
-			src: url('/resources/beleren.ttf');
+			src: url('./resources/beleren.ttf');
 		}
 		body {
 			font-family: 'Helvetica', 'Arial', sans-serif;
@@ -79,14 +82,30 @@
 	<body>
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
-	</div>			<div class="set-group">Revolution Format</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>			<div class="set-group">Revolution Format</div>
 		
 			<div class="set-table">
 			<div class="set-header-row">
@@ -96,22 +115,22 @@
 				<div>CARDS</div>
 			</div>
 		
-			<a href="/sets/SRC" class="set-row"> 
-				<img src="/sets/SRC-files/icon.png">
+			<a href="sets/SRC" class="set-row"> 
+				<img src="sets/SRC-files/icon.png">
 				<div class="set-title">Secrets of the River Cities</div>
 				<div>SRC</div>
 				<div>254</div>
 			</a>
 			
-			<a href="/sets/TRX" class="set-row"> 
-				<img src="/sets/TRX-files/icon.png">
+			<a href="sets/TRX" class="set-row"> 
+				<img src="sets/TRX-files/icon.png">
 				<div class="set-title">Theros: Age of Trax</div>
 				<div>TRX</div>
 				<div>300</div>
 			</a>
 			
-			<a href="/sets/TWI" class="set-row"> 
-				<img src="/sets/TWI-files/icon.png">
+			<a href="sets/TWI" class="set-row"> 
+				<img src="sets/TWI-files/icon.png">
 				<div class="set-title">Exalts of Twiltrie</div>
 				<div>TWI</div>
 				<div>303</div>
@@ -127,29 +146,29 @@
 				<div>CARDS</div>
 			</div>
 		
-			<a href="/sets/ALK" class="set-row"> 
-				<img src="/sets/ALK-files/icon.png">
+			<a href="sets/ALK" class="set-row"> 
+				<img src="sets/ALK-files/icon.png">
 				<div class="set-title">Alkabah</div>
 				<div>ALK</div>
 				<div>297</div>
 			</a>
 			
-			<a href="/sets/ACT" class="set-row"> 
-				<img src="/sets/ACT-files/icon.png">
+			<a href="sets/ACT" class="set-row"> 
+				<img src="sets/ACT-files/icon.png">
 				<div class="set-title">The Stage Presents: The Neverending Act</div>
 				<div>ACT</div>
 				<div>280</div>
 			</a>
 			
-			<a href="/sets/ROS" class="set-row"> 
-				<img src="/sets/ROS-files/icon.png">
+			<a href="sets/ROS" class="set-row"> 
+				<img src="sets/ROS-files/icon.png">
 				<div class="set-title">Alkabah: Rise of Soli</div>
 				<div>ROS</div>
 				<div>290</div>
 			</a>
 			
-			<a href="/sets/G5L" class="set-row"> 
-				<img src="/sets/G5L-files/icon.png">
+			<a href="sets/G5L" class="set-row"> 
+				<img src="sets/G5L-files/icon.png">
 				<div class="set-title">Alkabah: Golna’s Five Labors</div>
 				<div>G5L</div>
 				<div>285</div>
@@ -165,11 +184,28 @@
 				<div>CARDS</div>
 			</div>
 		
-			<a href="/sets/HOD" class="set-row"> 
-				<img src="/sets/HOD-files/icon.png">
+			<a href="sets/HOD" class="set-row"> 
+				<img src="sets/HOD-files/icon.png">
 				<div class="set-title">Houses of Dewold</div>
 				<div>HOD</div>
 				<div>324</div>
+			</a>
+			</div>
+					<div class="set-group">Runeterra</div>
+		
+			<div class="set-table">
+			<div class="set-header-row">
+				<div></div> <!-- empty div for spacing -->
+				<div>NAME</div>
+				<div>CODE</div>
+				<div>CARDS</div>
+			</div>
+		
+			<a href="sets/SHU" class="set-row"> 
+				<img src="sets/SHU-files/icon.png">
+				<div class="set-title">Shurima: War of the Sands</div>
+				<div>SHU</div>
+				<div>290</div>
 			</a>
 			</div>
 					<div class="set-group">Other Sets</div>
@@ -182,36 +218,36 @@
 				<div>CARDS</div>
 			</div>
 		
-			<a href="/sets/BRE" class="set-row"> 
-				<img src="/sets/BRE-files/icon.png">
+			<a href="sets/BRE" class="set-row"> 
+				<img src="sets/BRE-files/icon.png">
 				<div class="set-title">Kaldheim: Bretagard’s Revival</div>
 				<div>BRE</div>
 				<div>312</div>
 			</a>
 			
-			<a href="/sets/HTS" class="set-row"> 
-				<img src="/sets/HTS-files/icon.png">
+			<a href="sets/HTS" class="set-row"> 
+				<img src="sets/HTS-files/icon.png">
 				<div class="set-title">Hatsuniji: We Stare Through the Window, Together, Holding Hands</div>
 				<div>HTS</div>
 				<div>289</div>
 			</a>
 			
-			<a href="/sets/MSK" class="set-row"> 
-				<img src="/sets/MSK-files/icon.png">
+			<a href="sets/MSK" class="set-row"> 
+				<img src="sets/MSK-files/icon.png">
 				<div class="set-title">Myths, Masks, and Minutes Spent Apart</div>
 				<div>MSK</div>
 				<div>281</div>
 			</a>
 			
-			<a href="/sets/ORC" class="set-row"> 
-				<img src="/sets/ORC-files/icon.png">
+			<a href="sets/ORC" class="set-row"> 
+				<img src="sets/ORC-files/icon.png">
 				<div class="set-title">An Oddness in the River Cities</div>
 				<div>ORC</div>
 				<div>282</div>
 			</a>
 			
-			<a href="/sets/TRO" class="set-row"> 
-				<img src="/sets/TRO-files/icon.png">
+			<a href="sets/TRO" class="set-row"> 
+				<img src="sets/TRO-files/icon.png">
 				<div class="set-title">Trovsko</div>
 				<div>TRO</div>
 				<div>298</div>
@@ -227,15 +263,15 @@
 				<div>CARDS</div>
 			</div>
 		
-			<a href="/sets/ZANG" class="set-row"> 
-				<img src="/sets/ZANG-files/icon.png">
+			<a href="sets/ZANG" class="set-row"> 
+				<img src="sets/ZANG-files/icon.png">
 				<div class="set-title">Zangy Cube</div>
 				<div>ZANG</div>
 				<div>453</div>
 			</a>
 			
-			<a href="/sets/CIUB" class="set-row"> 
-				<img src="/sets/CIUB-files/icon.png">
+			<a href="sets/CIUB" class="set-row"> 
+				<img src="sets/CIUB-files/icon.png">
 				<div class="set-title">Tairngire Cube</div>
 				<div>CIUB</div>
 				<div>540</div>
@@ -251,15 +287,15 @@
 				<div>CARDS</div>
 			</div>
 		
-			<a href="/sets/RAR" class="set-row"> 
-				<img src="/sets/RAR-files/icon.png">
+			<a href="sets/RAR" class="set-row"> 
+				<img src="sets/RAR-files/icon.png">
 				<div class="set-title">Ravnica: Resurgence</div>
 				<div>RAR</div>
 				<div>278</div>
 			</a>
 			
-			<a href="/sets/ZNU" class="set-row"> 
-				<img src="/sets/ZNU-files/icon.png">
+			<a href="sets/ZNU" class="set-row"> 
+				<img src="sets/ZNU-files/icon.png">
 				<div class="set-title">Zendikar Unleashed</div>
 				<div>ZNU</div>
 				<div>311</div>
@@ -272,19 +308,111 @@
 		let displayStyle = "";
 
 		document.addEventListener("DOMContentLoaded", async function () {
-			await fetch('/lists/all-cards.json')
+			await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		});
 
@@ -300,16 +428,16 @@
 		});
 
 		function search() {
-			const url = new URL('search', window.location.origin);
+			const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 			url.searchParams.append('search', document.getElementById("search").value);
-			window.location.href = url;
+			window.location.href = url.pathname + url.search;
 		}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -319,7 +447,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>
