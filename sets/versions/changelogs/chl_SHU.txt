@@ -1,4 +1,293 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Amakra Refugee added.
+Clockling Prototype added.
+Darkin Rapier added.
+Time in a Bottle added.
+
+Temporal Explosion removed.
+Amakra Refuge removed.
+Darkin Blade removed.
+Reveal the Unspeakable removed.
+
+Elujrav'i' Lookout
+rules_text: When Elujrav'i' Lookout enters, surveil 1, then draw a card. [i](To surveil 1, look at the top card of your library. You may put it into your graveyard.)[/i] => When Elujrav'i' Lookout enters, then draw a card.
+
+Strength of Nazumah
+rules_text: Choose one —
+• Strength of Nazumah deals damage to any nonplayer target equal to creatures you control.
+• Create two tapped 1/1 red Warrior creature tokens. => Choose one —
+• Strength of Nazumah deals 3 damage to target attacking, blocking, or tapped creature.
+• Exile target artifact.
+
+Clockwork Fabricator
+rules_text: Flash
+When Clockwork Fabricator enters, create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability.”)[/i] => When Clockwork Fabricator enters, create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability.”)[/i]
+
+Prophet's Devotee
+rules_text: When Prophet's Devotee enters, you lose 3 life unless you discard a card.
+When Prophet's Devotee dies, create a Treasure token. => When Prophet's Devotee enters, you lose 3 life unless you discard a card.
+pt: 3/4 => 3/3
+
+Imperial Revival
+rules_text: Until end of turn, target creature gets +2/+0 and gains “When this creature dies, return it to the battlefield tapped under its owner's control. => Until end of turn, target creature gets +2/+0 and gains “When this creature dies, return it to the battlefield tapped under its owner's control.”
+
+Rock Hopper
+rules_text: Haste
+Whenever Rock Hopper attacks, it traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i]
+Rock Hopper gets +2/+3 if it entered from exile this turn. => Haste
+Whenever Rock Hopper attacks, you may have it traverse. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i]
+Rock Hopper gets +2/+2 if it entered from exile this turn.
+
+Devoted of the Sun Disc
+
+Devoted Council
+pt: 4/4 => 2/3
+
+Dune Predator
+cost: {3}{W}{W} => {4}{W}{W}
+pt: 4/4 => 5/4
+
+Empire Reconstructor
+rules_text: {T}: Add {C}.
+Whenever you cast a spell, if you spent four or more mana on it, draw a card. => {T}: Add {C}.
+Whenever you cast a spell, if you spent four or more mana to cast it, draw a card.
+
+Forgotten Terror
+rules_text: Flash
+When Forgotten Terror enters or attacks tap all creatures you don't control. => Flash
+When Forgotten Terror enters or attacks, tap all creatures you don't control.
+
+Rite of the Arcane
+rules_text: Choose one. If you control three or more artifacts, you may choose both instead —
+• Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
+• Counter target spell unless its controller pays {3}. => Choose one. If you control three or more artifacts as you cast this spell, you may choose both instead —
+• Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
+• Counter target spell unless its controller pays {3}.
+
+Caravan Marker
+rules_text: Once each turn, when an artifact you control enters, exile the top card of your library. You may play it this turn. => Once each turn, when an artifact you control enters, you may exile the top card of your library. You may play it this turn.
+
+Bloodthirsty Marauder
+cost: {2}{R} => {2}{R}{R}
+rules_text: During your turn, Bloodthirsty Marauder has first strike.
+Whenever Bloodthirsty Marauder enters, exile cards from the top of your library until you exile a creature card with mana value 2 or less. Put it onto the battlefield, then it traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => During your turn, Bloodthirsty Marauder has first strike.
+When Bloodthirsty Marauder enters, if it was cast, exile cards from the top of your library until you exile a creature card with mana value 2 or less. Put it onto the battlefield, then it traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i]
+pt: 3/1 => 3/2
+
+Emperor's Divide
+rules_text: Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+Emperor's Divide deals 3 damage target creature or planeswalker. If you have the city's blessing, Emperor's Divide deals 5 damage to that permanent instead. => Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+Emperor's Divide deals 3 damage to target creature or planeswalker. If you have the city's blessing, Emperor's Divide deals 5 damage to that permanent instead.
+
+Heir to the Sands
+rules_text: If a Desert you control would enter tap tapped, you may pay 1 life. If you do, it enters untapped.
+Whenever you sacrifice a Desert, exile the top card of your library. You may play it until the end of your next turn. => If a Desert you control would enter tapped, you may pay 1 life. If you do, it enters untapped.
+Whenever you sacrifice a Desert, exile the top card of your library. You may play it until the end of your next turn.
+
+Saijax Cail-Rynx Kohari Icath'un
+rules_text: Jax has first strike as long as he's equipped.
+When Jax enters, create a Lamppost, legendary colorless Equipment artifact token with equip {2} and “Equipped creature gains the activated and triggered abilities of cards you own with memory counters on them.”
+Whenever a creature you control dies, you may exile it with a memory counter on it. => Jax has first strike as long as he's equipped.
+When Jax enters, create Lamppost, legendary colorless Equipment artifact token with equip {2} and “Equipped creature gains the activated and triggered abilities of exiled cards you own with memory counters on them.”
+Whenever a creature you control dies, you may exile it with a memory counter on it.
+
+Conductor of the Sai
+rules_text: Whenever one or more Desert cards are put into your graveyard from anywhere, choose one —
+• Return target creature card with mana value 2 or less from your graveyard to the battlefield.
+• Create a 1/1 white Sand Soldier creature token. => Whenever one or more Desert cards are put into your graveyard from anywhere, choose one —
+• Return target creature card with mana value 2 or less from your graveyard to the battlefield with a finality counter on it.
+• Create a 1/1 white Sand Soldier creature token.
+
+Sunlit Guardian
+rules_text: Mobilize 1 [i](Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)[/i]
+Whenever a creature you control dies, put a +1/+1 counter on Sunlit Guardian. If this is the fifth time this ability has resolved this turn, instead search your library for a legendary creature, put it onto the battlefield, then shuffle. => Mobilize 1
+Whenever a creature you control dies, put a +1/+1 counter on Sunlit Guardian.
+At the beginning of your end step, you may sacrifice Sunlit Guardian. If you do, search your library for a legendary creature card with mana value equal to or less than Sunlit Guardian's power and put it onto the battlefield, then shuffle.
+
+Pass the Torch
+rules_text: You may cast this spell only during an opponent's turn or during your end step.
+Any number of creatures you control each traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => You may cast this spell only during an opponent's turn or during your end step.
+Any number of creatures you control traverse. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i]
+
+Rise from the Sands
+cost: {2}{W} => {1}{W}{W}
+
+Herald of the Magus
+rules_text: At the beginning of your upkeep, draw two additional cards.
+At the beginning of your end step, discard your hand. => At the beginning of your upkeep, draw two cards.
+At the beginning of your end step, discard your hand.
+
+Capture the Sun
+cost: {6}{U}{U} => {4}{U}{U}
+rules_text: Affinity for artifacts [i](This spell costs {1} less to cast for each artifact you control.)[/i]
+Create two tokens that are each copies of target artifact or creature you control. => Create two tokens that are each copies of target artifact or creature you control.
+
+Visions of the Future
+rules_text: Surveil 4, then draw two cards.
+Flashback {3}{V}{V} [i](You may cast this card from your graveyard for its flashback cost. Then exile it. Spend only colored mana produced by effects that add mana of any color to pay {V}.)[/i] => Surveil 3, then draw two cards.
+Flashback {4}{V}{V} [i](You may cast this card from your graveyard for its flashback cost. Then exile it. Spend only colored mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Death of Divinity
+
+Feast of the Prophet
+
+Horned Swarmcaller
+cost: {2}{R}{R} => {3}{R}{R}
+rules_text: Flying
+At the beginning of your end step, exile the top card of your library. You may play that card until you next exile a card with Horned Swarmcaller. If that card's mana value is equal to or less than the number of creatures that entered under your control this turn, you may cast it without paying its mana cost. => Flying, haste
+At the beginning of your end step, exile the top card of your library. You may play that card until you next exile a card with Horned Swarmcaller. If that card's mana value is equal to or less than the number of creatures that entered under your control this turn, you may cast it without paying its mana cost.
+pt: 4/4 => 5/4
+
+An Explorer's Journey
+rules_text: As an additional cost to cast this spell, sacrifice an artifact.
+Exile the top X cards of your library, where X is the sacrificed artifact's mana value. You may play cards exiled this way until end of turn. At the beginning of your next end step, An Explorer's Journey deals damage to each opponent equal to each card still exiled this way. => As an additional cost to cast this spell, sacrifice an artifact.
+Exile the top X cards of your library, where X is the sacrificed artifact's mana value. You may play cards exiled this way until end of turn. At the beginning of your next end step, An Explorer's Journey deals damage to each opponent equal to the number of cards still exiled this way.
+
+Daring Explorer
+rules_text: When Daring Explorer enters, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i]
+If you would create a token, you may uncover instead. => When Daring Explorer enters, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i]
+The first time you would create one or more tokens each turn, you may uncover instead.
+
+Butcher's Faithful
+cost: {2}{R}{G} => {3}{R}{G}
+
+Zilean, Timekeeper
+rules_text: Flying, vigilance
+At the beginning of each of your postcombat main phases, sacrifice any number of artifacts. If you sacrificed one, there's an additional upkeep after this phase. If you sacrificed two, there is an additional combat phase after this phase. If you sacrificed three, there is an additional beginning phase after this phase. => Flying, vigilance
+At the beginning of each of your postcombat main phases, sacrifice any number of artifacts. If you sacrificed exactly one, there's an additional upkeep after this phase. If you sacrificed exactly two, there is an additional combat phase after this phase. If you sacrificed exactly three, there is an additional beginning phase after this phase.
+
+Pilgrim from Kathkan
+
+Carikkan's Guardian
+rules_text: When Carikkan's Guardian enters, it deals X plus 1 damage to target creature an opponent controls.
+{X}{V}{V}, Exile Carikkan's Guardian from your graveyard: Carikkan's Guardian deals X damage to target opponent. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => When Carikkan's Guardian enters, it deals X damage to target creature an opponent controls.
+{X}{V}{V}, Exile Carikkan's Guardian from your graveyard: Carikkan's Guardian deals X damage to target opponent. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Reconstructed Soldier
+rules_text: When Reconstructed Soldier enters, surveil 2.
+{2}{V}{V}, Exile Reconstructed Soldier from your graveyard: Return target artifact card from your graveyard to the battlefield. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => When Reconstructed Soldier enters, surveil 2.
+{4}{V}{V}, Exile Reconstructed Soldier from your graveyard: Return target artifact card from your graveyard to the battlefield. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Roiling Sands
+rules_text: {T}, Sacrifice Roiling Sands: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+{1}, {T}, Sacrifice Roiling Sands and pay 1 life: Search your library for a Desert card, put it onto the battlefield tapped, then shuffle. => {T}, Sacrifice Roiling Sands: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+{1}, {T}, Sacrifice Roiling Sands, Pay 1 life: Search your library for a Desert card, put it onto the battlefield tapped, then shuffle.
+
+Enduring Sands
+rules_text: Enduring Sands enters tapped unless there is a Desert card or two or more land cards in your graveyard.
+{T}: Add {G} or {W}. => Enduring Sands enters tapped unless there is a Desert card in your graveyard.
+{T}: Add {G} or {W}.
+
+Shattered Sands
+rules_text: Shattered Sands enters tapped unless there is a Desert card or two or more land cards in your graveyard.
+{T}: Add {R} or {G}. => Shattered Sands enters tapped unless there is a Desert card in your graveyard.
+{T}: Add {R} or {G}.
+
+Carved Sands
+rules_text: Carved Sands enters tapped unless there is a Desert card or two or more land cards in your graveyard.
+{T}: Add {U} or {R}. => Carved Sands enters tapped unless there is a Desert card in your graveyard.
+{T}: Add {U} or {R}.
+
+Suspended Sands
+rules_text: Suspended Sands enters tapped unless there is a Desert card or two or more land cards in your graveyard.
+{T}: Add {R} or {W}. => Suspended Sands enters tapped unless there is a Desert card in your graveyard.
+{T}: Add {R} or {W}.
+
+Fractured Sands
+rules_text: Fractured Sands enters tapped unless there are two or more land cards in your graveyard.
+{T}: Add {B} or {G}. => Fractured Sands enters tapped unless there is a Desert card in your graveyard.
+{T}: Add {B} or {G}.
+
+Gleaming Sands
+rules_text: Gleaming Sands enters tapped unless there is a Desert card or two or more land cards in your graveyard.
+{T}: Add {W} or {U}. => Gleaming Sands enters tapped unless there is a Desert card in your graveyard.
+{T}: Add {W} or {U}.
+
+Frozen Sands
+rules_text: Frozen Sands enters tapped unless there is a Desert card or two or more land cards in your graveyard.
+{T}: Add {W} or {B}. => Frozen Sands enters tapped unless there is a Desert card in your graveyard.
+{T}: Add {W} or {B}.
+
+Tranquil Sands
+rules_text: Tranquil Sands enters tapped unless there is a Desert card or two or more land cards in your graveyard.
+{T}: Add {G} or {U}. => Tranquil Sands enters tapped unless there is a Desert card in your graveyard.
+{T}: Add {G} or {U}.
+
+Twisted Sands
+rules_text: Twisted Sands enters tapped unless there is a Desert card or two or more land cards in your graveyard.
+{T}: Add {U} or {B}. => Twisted Sands enters tapped unless there is a Desert card in your graveyard.
+{T}: Add {U} or {B}.
+
+Adaptive Rebirth
+rules_text: As an additional cost to cast this spell, you may sacrifice a creature.
+Return target creature card in your graveyard to the battlefield if its mana value is equal or less than the sacrificed creature's mana value plus 2. Otherwise, return it to your hand. => As an additional cost to cast this spell, you may sacrifice a creature.
+Return target creature card in your graveyard to the battlefield if its mana value is equal to or less than the sacrificed creature's mana value plus 2. Otherwise, return it to your hand.
+
+Cut the Rope
+rules_text: As an additional cost to cast this spell, you may sacrifice an artifact.
+Destroy target creature if it has mana value 2 or less. If you sacrificed a creature to cast this spell, destroy that creature if it has mana value 5 or less instead. => As an additional cost to cast this spell, you may sacrifice an artifact.
+Destroy target creature if it has mana value 2 or less. If this spell's additional cost was paid destroy that creature if it has mana value 5 or less instead.
+
+Cursed Embrace
+rules_text: Choose one —
+• Cursed Embrace deals 2 damage to up to any two targets.
+• Destroy up to three target artifacts with total mana value 5 or less. => Choose one —
+• Cursed Embrace deals 2 damage to each of up to two targets.
+• Destroy up to three target artifacts with total mana value 5 or less.
+
+Saltworker
+rules_text: When Saltworker enters, uncover [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i]
+Tap an untapped artifact or creature you control, {T}: Add one mana of any color.
+{1}{V}, {T}, Sacrifice an artifact: Uncover. => When Saltworker enters, uncover [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i]
+{T}, Tap an untapped artifact or creature you control: Add one mana of any color.
+{1}{V}, {T}, Sacrifice an artifact: Uncover.
+
+Reconstruct the Sun Disc
+cost: {B}{G} => {1}{B}{G}
+rules_text: Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+At the beginning of your end step, mill two cards. Then if you have the city's blessing, you may sacrifice Reconstruct the Sun Disc. When you do, return target permanent card from your graveyard to the battlefield. => Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+At the beginning of your end step, mill two cards and you gain 2 life. Then if you have the city's blessing, you may sacrifice Reconstruct the Sun Disc. When you do, return target permanent card from your graveyard to the battlefield.
+
+Restored Devout
+rules_text: Trample
+Sacrifice two creatures, {V}: Return Restored Devout from your graveyard to your hand. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Trample
+{V}, Sacrifice two creatures: Return Restored Devout from your graveyard to your hand. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Serpentine Protector
+rules_text: [i](Nonexistent mana costs can't be paid.)[/i]
+Trample, menace
+Cycling {1} [i]({1}, Discard this card: Draw a card.)[/i]
+When you cycle Serpentine Protector, exile target card from an opponent's graveyard. => [i](Nonexistent mana costs can't be paid.)[/i]
+Trample, menace
+Cycling {2}
+When you cycle Serpentine Protector, exile target card from an opponent's graveyard.
+pt: 5/4 => 4/4
+
+Rammus the Armordillo
+rules_text: Trample
+When Rammus enters or attacks, return another permanent you control to its owner's hand. If you returned a nontoken card to your hand, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => Trample
+Whenever Rammus enters or attacks, return another permanent you control to its owner's hand. If you returned a nontoken card to your hand, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i]
+
+Shard of Violence
+rules_text: At the beginning of your end step, Shard of Violence deals 1 damage to any target. If you control five or more legendary Shards, it deals 5 damage to any target instead.
+{2}{R}, Sacrifice Shard of Violence: Scry 1, then draw a card. When you do, Shard of Violence deals 3 damage to each opponent. => At the beginning of your end step, Shard of Violence deals 1 damage to any target. If you control five or more legendary Shards, it deals 5 damage to any target instead.
+{2}{R}, Sacrifice Shard of Violence: Scry 1, then draw a card. Shard of Violence deals 3 damage to each opponent.
+
+Screaming Acolytes
+type: Creature — Avatar Mutant Wizard => Creature
+cost: {1}{U}{U} => {U}
+rules_text: Mobilize 1 [i](Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)[/i]
+If you would create a Warrior token during combat, you may instead create a token that's a copy of another creature you control. 
+[i](If it was mobilized, it still gets sacrificed at end of turn.)[/i] => 
+pt: 3/3 => 1/1
+
+One Mind to Many
+cost: {X}{X}{R}{R} => {X}{X}{R}{R}{R}
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
