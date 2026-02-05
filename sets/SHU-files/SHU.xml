@@ -82,7 +82,7 @@ Prevent all damage that would be dealt to Humble Soothsayers on your turn if you
 		<card>
 			<name>Risen Sand Cavalier</name>
 			<text>Whenever a creature you control enters, Risen Sand Cavalier gains lifelink until end of turn.
-{2}{V}, Exile Risen Sand Cavalier from your graveyard: Create two tapped 1/1 white Soldier creature tokens. (Spend only mana produced by effects that add mana of any color to pay {V}.)</text>
+{2}{V}, Exile Risen Sand Cavalier from your graveyard: Create two tapped 1/1 white Sand Soldier creature tokens. (Spend only mana produced by effects that add mana of any color to pay {V}.)</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/29_Risen Sand Cavalier.png" num="29">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -2196,7 +2196,7 @@ At the beginning of your upkeep, if you control a creature with power 4 or great
 		<card>
 			<name>Saijax Cail-Rynx Kohari Icath&apos;un</name>
 			<text>Jax has first strike as long as he&apos;s equipped.
-When Jax enters, create Lamppost, legendary colorless Equipment artifact token with equip {2} and &quot;Equipped creature gains the activated and triggered abilities of exiled cards you own with memory counters on them.&quot;
+When Jax enters, create Lamppost, a legendary colorless Equipment artifact token with equip {2} and &quot;Equipped creature gains the activated and triggered abilities of exiled cards you own with memory counters on them.&quot;
 Whenever a creature you control dies, you may exile it with a memory counter on it.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/30_Saijax Cail-Rynx Kohari Icath&apos;un.png" num="30">SHU</set>
 			<prop>
@@ -2793,7 +2793,7 @@ Whenever Clockling Prototype deals combat damage to a player, end the turn.</tex
 		</card>
 		<card>
 			<name>Conqueror of Belveth</name>
-			<text>When you cast this spell or another spell, create three 1/1 black Horror creature tokens with mobilize 1. (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)
+			<text>When you cast this spell or another spell, create three 1/1 black Horror Pest creature tokens with mobilize 1. (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)
 Whenever an opponent casts a spell, they lose life equal to its mana value unless they discard a card.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/SHU-files/img/83_Conqueror of Belveth.png" num="83">SHU</set>
 			<prop>
@@ -5372,6 +5372,21 @@ Whenever Petrifying Baccai becomes the target of a spell or ability you don&apos
 				<pt>3/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Desert SHU</name>
+			<text>{T}: Add {C}.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/14t_Desert.png" num="14">SHU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Land — Desert</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+			<token>1</token>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

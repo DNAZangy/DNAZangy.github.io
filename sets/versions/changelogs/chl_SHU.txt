@@ -1,4 +1,28 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+Desert added.
+
+
+Risen Sand Cavalier
+rules_text: Whenever a creature you control enters, Risen Sand Cavalier gains lifelink until end of turn.
+{2}{V}, Exile Risen Sand Cavalier from your graveyard: Create two tapped 1/1 white Soldier creature tokens. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Whenever a creature you control enters, Risen Sand Cavalier gains lifelink until end of turn.
+{2}{V}, Exile Risen Sand Cavalier from your graveyard: Create two tapped 1/1 white Sand Soldier creature tokens. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Saijax Cail-Rynx Kohari Icath'un
+rules_text: Jax has first strike as long as he's equipped.
+When Jax enters, create Lamppost, legendary colorless Equipment artifact token with equip {2} and “Equipped creature gains the activated and triggered abilities of exiled cards you own with memory counters on them.”
+Whenever a creature you control dies, you may exile it with a memory counter on it. => Jax has first strike as long as he's equipped.
+When Jax enters, create Lamppost, a legendary colorless Equipment artifact token with equip {2} and “Equipped creature gains the activated and triggered abilities of exiled cards you own with memory counters on them.”
+Whenever a creature you control dies, you may exile it with a memory counter on it.
+
+Conqueror of Belveth
+rules_text: When you cast this spell or another spell, create three 1/1 black Horror creature tokens with mobilize 1. [i](Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)[/i]
+Whenever an opponent casts a spell, they lose life equal to its mana value unless they discard a card. => When you cast this spell or another spell, create three 1/1 black Horror Pest creature tokens with mobilize 1. [i](Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)[/i]
+Whenever an opponent casts a spell, they lose life equal to its mana value unless they discard a card.
+
+
+VERSION 6 CHANGELOG
 ====================
 
 

@@ -86,7 +86,7 @@
             "number": 29,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Whenever a creature you control enters, Risen Sand Cavalier gains lifelink until end of turn.\n{2}{V}, Exile Risen Sand Cavalier from your graveyard: Create two tapped 1/1 white Soldier creature tokens. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]",
+            "rules_text": "Whenever a creature you control enters, Risen Sand Cavalier gains lifelink until end of turn.\n{2}{V}, Exile Risen Sand Cavalier from your graveyard: Create two tapped 1/1 white Sand Soldier creature tokens. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -2246,7 +2246,7 @@
             "number": 30,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Jax has first strike as long as he's equipped.\nWhen Jax enters, create Lamppost, legendary colorless Equipment artifact token with equip {2} and \u201cEquipped creature gains the activated and triggered abilities of exiled cards you own with memory counters on them.\u201d\nWhenever a creature you control dies, you may exile it with a memory counter on it.",
+            "rules_text": "Jax has first strike as long as he's equipped.\nWhen Jax enters, create Lamppost, a legendary colorless Equipment artifact token with equip {2} and \u201cEquipped creature gains the activated and triggered abilities of exiled cards you own with memory counters on them.\u201d\nWhenever a creature you control dies, you may exile it with a memory counter on it.",
             "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
@@ -2858,7 +2858,7 @@
             "number": 83,
             "color_identity": "B",
             "cost": "{5}{B}{B}",
-            "rules_text": "When you cast this spell or another spell, create three 1/1 black Horror creature tokens with mobilize 1. [i](Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)[/i]\nWhenever an opponent casts a spell, they lose life equal to its mana value unless they discard a card.",
+            "rules_text": "When you cast this spell or another spell, create three 1/1 black Horror Pest creature tokens with mobilize 1. [i](Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)[/i]\nWhenever an opponent casts a spell, they lose life equal to its mana value unless they discard a card.",
             "flavor_text": "[i][/i]",
             "pt": "7/7",
             "special_text": "",
@@ -5559,7 +5559,25 @@
             "loyalty": "",
             "artist": "Somnicide",
             "notes": ""
+        },
+        {
+            "card_name": "Desert",
+            "color": "",
+            "rarity": "common",
+            "type": "Token Land \u2014 Desert",
+            "number": 14,
+            "color_identity": "C",
+            "cost": "",
+            "rules_text": "{T}: Add {C}.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "token",
+            "set": "SHU",
+            "loyalty": "",
+            "artist": "Sung Choi",
+            "notes": ""
         }
     ],
-    "version": 6
+    "version": 7
 }
