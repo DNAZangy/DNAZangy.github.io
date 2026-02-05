@@ -5,7 +5,7 @@
 			<name>SHU</name>
 			<longname>Shurima: War of the Sands</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-01-31</releasedate>
+			<releasedate>2026-02-05</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -308,7 +308,7 @@ Exile target nonland permanent.</text>
 		<card>
 			<name>Seeker of Tombs</name>
 			<text>Flying
-When Seeker of Tombs enters, uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)</text>
+When Seeker of Tombs enters, uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/67_Seeker of Tombs.png" num="67">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -450,7 +450,7 @@ Enchanted creature can&apos;t become untapped.</text>
 		<card>
 			<name>Spin to Sand</name>
 			<text>The owner of target nonland permanent puts it into their library second from the top or on the bottom.
-Uncover (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)</text>
+Uncover (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/68_Spin to Sand.png" num="68">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -557,7 +557,7 @@ Sun of Bel&apos;Zhun gets +2/+1 as long as you have the city&apos;s blessing.</t
 		<card>
 			<name>Vekauran Safecraker</name>
 			<text>Menace
-When Vekauran Safecraker enters, uncover and you lose 1 life. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)</text>
+When Vekauran Safecraker enters, uncover and you lose 1 life. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/111_Vekauran Safecraker.png" num="111">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -611,7 +611,7 @@ Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 re
 		<card>
 			<name>Twisted Sentinel</name>
 			<text>Flying
-Whenever Twisted Sentinel dies, uncover and you gain 3 life. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)</text>
+Whenever Twisted Sentinel dies, uncover and you gain 3 life. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/110_Twisted Sentinel.png" num="110">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -765,7 +765,7 @@ Rock Hopper gets +2/+2 if it entered from exile this turn.</text>
 		</card>
 		<card>
 			<name>Plucky Ruin Delver</name>
-			<text>When Plucky Ruin Delver enters, uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)</text>
+			<text>When Plucky Ruin Delver enters, uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/138_Plucky Ruin Delver.png" num="138">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -907,7 +907,7 @@ Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain 
 			<name>Expedition Below</name>
 			<text>As an additional cost to cast this spell, discard a card.
 Draw two cards.
-Uncover (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)</text>
+Uncover (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/131_Expedition Below.png" num="131">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -1386,7 +1386,7 @@ When Dune Predator enters, you draw a card and gain 3 life.</text>
 			<name>Decree of the Sands</name>
 			<text>If an opponent has more life than you, you gain 4 life.
 If an opponent controls more creatures than you, create two 1/1 white Sand Soldier creature tokens.
-If an opponent controls more lands than you, uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)
+If an opponent controls more lands than you, uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)
 Cycling {2}</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/7_Decree of the Sands.png" num="7">SHU</set>
 			<prop>
@@ -1437,7 +1437,7 @@ Exile target nonland permanent if its mana value is 2 or less. If you have the c
 		</card>
 		<card>
 			<name>Tomb Crawler</name>
-			<text>Whenever Tomb Crawler becomes blocked, uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)
+			<text>Whenever Tomb Crawler becomes blocked, uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)
 {V}: Tomb Crawler can&apos;t be blocked this turn. (Spend only mana produced by effects that add mana of any color to pay {V}.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/74_Tomb Crawler.png" num="74">SHU</set>
 			<prop>
@@ -1473,7 +1473,7 @@ Whenever you cast a spell, if you spent four or more mana to cast it, draw a car
 		</card>
 		<card>
 			<name>Ruin Explorers</name>
-			<text>At the beginning of your end step, you may exile two cards that don&apos;t share a card type from your graveyard. If you do, uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)</text>
+			<text>At the beginning of your end step, you may exile two cards that don&apos;t share a card type from your graveyard. If you do, uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/64_Ruin Explorers.png" num="64">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -1526,7 +1526,7 @@ When Forgotten Terror enters or attacks, tap all creatures you don&apos;t contro
 		<card>
 			<name>Memories of an Empire</name>
 			<text>Draw three cards.
-Uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)</text>
+Uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/59_Memories of an Empire.png" num="59">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -1613,7 +1613,7 @@ At the beginning of your end step, if you didn&apos;t attack with a creature thi
 			<name>Shady Appraiser</name>
 			<text>Whenever Shady Appraiser dies, choose one —
 • Target creature gets -1/-1 until end of turn.
-• Uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)</text>
+• Uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/103_Shady Appraiser.png" num="103">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -1647,7 +1647,7 @@ At the beginning of your end step, if you didn&apos;t attack with a creature thi
 		</card>
 		<card>
 			<name>Ruthless Financier</name>
-			<text>At the beginning of your end step, if a creature died this turn, uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)</text>
+			<text>At the beginning of your end step, if a creature died this turn, uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/101_Ruthless Financier.png" num="101">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -1890,14 +1890,14 @@ When Bloodthirsty Marauder enters, if it was cast, exile cards from the top of y
 				<cmc>4</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>3/2</pt>
+				<pt>3/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Vekauran Bruiser</name>
 			<text>Trample
-Whenever Vekauran Bruiser enters or one or more artifact cards leave your graveyard, uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)</text>
+Whenever Vekauran Bruiser enters or one or more artifact cards leave your graveyard, uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/148_Vekauran Bruiser.png" num="148">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -1914,7 +1914,7 @@ Whenever Vekauran Bruiser enters or one or more artifact cards leave your gravey
 		</card>
 		<card>
 			<name>Armed Acquisitioner</name>
-			<text>When Armed Acquisitioner enters, uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)
+			<text>When Armed Acquisitioner enters, uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)
 Sacrifice an artifact: Add one mana of any color.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/117_Armed Acquisitioner.png" num="117">SHU</set>
 			<prop>
@@ -2162,7 +2162,7 @@ Landfall — Whenever a land you control enters, creatures you control get +1/+1
 		</card>
 		<card>
 			<name>Ascended Warfare</name>
-			<text>When Ascended Warfare enters, uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)
+			<text>When Ascended Warfare enters, uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)
 At the beginning of your upkeep, if you control a creature with power 4 or greater, uncover.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/154_Ascended Warfare.png" num="154">SHU</set>
 			<prop>
@@ -2427,14 +2427,14 @@ If a card an opponent controls would be put into a graveyard from anywhere, inst
 		<card>
 			<name>Demon of Domination</name>
 			<text>Deathtouch
-Whenever Demon of Domination enters or attacks, exile target card from a graveyard. If a permanent card was exiled this way, uncover. Otherwise, put a +1/+1 counter on Demon of Domination. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)</text>
+Whenever Demon of Domination enters or attacks, exile target card from a graveyard. If a permanent card was exiled this way, uncover. Otherwise, put a +1/+1 counter on Demon of Domination. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/87_Demon of Domination.png" num="87">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Demon Spirit Noble</type>
 				<maintype>Creature</maintype>
-				<manacost>2B</manacost>
+				<manacost>1BB</manacost>
 				<cmc>3</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
@@ -2481,15 +2481,15 @@ At the beginning of your end step, you lose 2 life for each card in your hand.</
 		</card>
 		<card>
 			<name>Death of Divinity</name>
-			<text>Exile each creature. For as long as they remain exiled, their owners may cast them by paying life equal to its mana value in addition to its mana cost.</text>
+			<text>Destroy all creatures.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/85_Death of Divinity.png" num="85">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>1BB</manacost>
-				<cmc>3</cmc>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -2585,7 +2585,7 @@ At the beginning of your end step, exile the top card of your library. You may p
 		</card>
 		<card>
 			<name>Subterranean Collapse</name>
-			<text>Subterranean Collapse deals X damage to each creature. Until end of turn, whenever a creature dealt damage this way dies, uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)</text>
+			<text>Subterranean Collapse deals X damage to each creature. Until end of turn, whenever a creature dealt damage this way dies, uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/145_Subterranean Collapse.png" num="145">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -2654,7 +2654,7 @@ If Grumpy Rockbear or another creature you control would enter the battlefield, 
 		</card>
 		<card>
 			<name>Daring Explorer</name>
-			<text>When Daring Explorer enters, uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)
+			<text>When Daring Explorer enters, uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)
 The first time you would create one or more tokens each turn, you may uncover instead.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/165_Daring Explorer.png" num="165">SHU</set>
 			<prop>
@@ -2812,7 +2812,7 @@ Whenever an opponent casts a spell, they lose life equal to its mana value unles
 		<card>
 			<name>Where Icathia Once Stood</name>
 			<text>(As this enters, choose an opponent to protect it. You and others can attack it.)
-Creatures you control get +2/+0 and have menace.
+Creatures you control get +2/+0.
 When Where Icathia Once Stood is defeated, destroy all creatures.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/SHU-files/img/113_Where Icathia Once Stood.png" num="113">SHU</set>
 			<prop>
@@ -3348,7 +3348,7 @@ Equip {3}
 		<card>
 			<name>Carikkan&apos;s Guardian</name>
 			<text>When Carikkan&apos;s Guardian enters, it deals X damage to target creature an opponent controls.
-{X}{V}{V}, Exile Carikkan&apos;s Guardian from your graveyard: Carikkan&apos;s Guardian deals X damage to target opponent. (Spend only mana produced by effects that add mana of any color to pay {V}.)</text>
+At the beginning of your end step, you may pay {X}{V}{V} and exile Carikkan&apos;s Guardian from your graveyard. If you do, Carikkan&apos;s Guardian deals X damage to target opponent. (Spend only mana produced by effects that add mana of any color to pay {V}.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/123_Carikkan&apos;s Guardian.png" num="123">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -4121,7 +4121,7 @@ Whenever enchanted land is put into a graveyard from the battlefield, create a 4
 		</card>
 		<card>
 			<name>Brothers&apos; Bloodshed</name>
-			<text>Target creature gets +3/+3 until end of turn. Whenever it deals damage this turn, uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)</text>
+			<text>Target creature gets +3/+3 until end of turn. Whenever it deals damage this turn, uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/158_Brothers&apos; Bloodshed.png" num="158">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -4242,7 +4242,7 @@ At the beginning of your upkeep, create a Clockling token. (It&apos;s a 1/1 Cons
 		</card>
 		<card>
 			<name>Saltworker</name>
-			<text>When Saltworker enters, uncover (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)
+			<text>When Saltworker enters, uncover (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)
 {T}, Tap an untapped artifact or creature you control: Add one mana of any color.
 {1}{V}, {T}, Sacrifice an artifact: Uncover.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/221_Saltworker.png" num="221">SHU</set>
@@ -4296,7 +4296,7 @@ At the beginning of your end step, mill two cards and you gain 2 life. Then if y
 		</card>
 		<card>
 			<name>Dunehopper Engineer</name>
-			<text>When Dunehopper Engineer enters, uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)
+			<text>When Dunehopper Engineer enters, uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)
 Once during each of your turns, when one or more artifact cards are exiled from your graveyard, you may create a token that&apos;s a copy of of one of them.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/209_Dunehopper Engineer.png" num="209">SHU</set>
 			<prop>
@@ -4437,16 +4437,16 @@ Whenever Malzahar, Prophet attacks, you may sacrifice any number of other creatu
 		<card>
 			<name>Vekauran Vagabond</name>
 			<text>Haste
-Whenever Vekauran Vagabond attacks, uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)
-Whenever you activate an ability of a Relic in your graveyard, create a tapped token that&apos;s a copy of Vekauran Vagabond.</text>
+Whenever Vekauran Vagabond attacks, uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)
+If you would uncover, instead create a Treasure token and you may put a Relic card you own from outside the game into your graveyard.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/211_Vekauran Vagabond.png" num="211">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Human Rogue</type>
 				<maintype>Creature</maintype>
-				<manacost>2UR</manacost>
-				<cmc>4</cmc>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
 				<colors>UR</colors>
 				<coloridentity>UR</coloridentity>
 				<pt>3/3</pt>
@@ -4492,7 +4492,7 @@ When Reconstructor of History enters, return up to one target artifact card, up 
 		<card>
 			<name>Rammus the Armordillo</name>
 			<text>Trample
-Whenever Rammus enters or attacks, return another permanent you control to its owner&apos;s hand. If you returned a nontoken card to your hand, uncover. (Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)</text>
+Whenever Rammus enters or attacks, return another permanent you control to its owner&apos;s hand. If you returned a nontoken card to your hand, uncover. (Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/220_Rammus the Armordillo.png" num="220">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -5275,18 +5275,18 @@ Destroy all creatures. If you have the city&apos;s blessing, return a creature c
 		</card>
 		<card>
 			<name>Screaming Acolytes</name>
-			<text></text>
+			<text>When Screaming Acolytes enters, search your library for a legendary creature card, exile it with a number of note counters on it equal to its mana value, then shuffle. For as long as it remains exiled it gains &quot;Whenever you cast a spell, remove a note counter from this card. If you can&apos;t, you may cast it without paying its mana cost. It enters tapped.&quot;</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/SHU-files/img/66_Screaming Acolytes.png" num="66">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature</type>
+				<type>Creature — Avatar Horror</type>
 				<maintype>Creature</maintype>
-				<manacost>U</manacost>
-				<cmc>1</cmc>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
-				<pt>1/1</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>

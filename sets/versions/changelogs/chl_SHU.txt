@@ -1,4 +1,156 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+
+
+Seeker of Tombs
+rules_text: Flying
+When Seeker of Tombs enters, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => Flying
+When Seeker of Tombs enters, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+
+Spin to Sand
+rules_text: The owner of target nonland permanent puts it into their library second from the top or on the bottom.
+Uncover [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => The owner of target nonland permanent puts it into their library second from the top or on the bottom.
+Uncover [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+
+Vekauran Safecraker
+rules_text: Menace
+When Vekauran Safecraker enters, uncover and you lose 1 life. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => Menace
+When Vekauran Safecraker enters, uncover and you lose 1 life. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+
+Twisted Sentinel
+rules_text: Flying
+Whenever Twisted Sentinel dies, uncover and you gain 3 life. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => Flying
+Whenever Twisted Sentinel dies, uncover and you gain 3 life. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+
+Plucky Ruin Delver
+rules_text: When Plucky Ruin Delver enters, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => When Plucky Ruin Delver enters, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+
+Expedition Below
+rules_text: As an additional cost to cast this spell, discard a card.
+Draw two cards.
+Uncover [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => As an additional cost to cast this spell, discard a card.
+Draw two cards.
+Uncover [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+
+Decree of the Sands
+rules_text: If an opponent has more life than you, you gain 4 life.
+If an opponent controls more creatures than you, create two 1/1 white Sand Soldier creature tokens.
+If an opponent controls more lands than you, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i]
+Cycling {2} => If an opponent has more life than you, you gain 4 life.
+If an opponent controls more creatures than you, create two 1/1 white Sand Soldier creature tokens.
+If an opponent controls more lands than you, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+Cycling {2}
+
+Tomb Crawler
+rules_text: Whenever Tomb Crawler becomes blocked, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i]
+{V}: Tomb Crawler can't be blocked this turn. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Whenever Tomb Crawler becomes blocked, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+{V}: Tomb Crawler can't be blocked this turn. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Ruin Explorers
+rules_text: At the beginning of your end step, you may exile two cards that don't share a card type from your graveyard. If you do, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => At the beginning of your end step, you may exile two cards that don't share a card type from your graveyard. If you do, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+
+Memories of an Empire
+rules_text: Draw three cards.
+Uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => Draw three cards.
+Uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+
+Shady Appraiser
+rules_text: Whenever Shady Appraiser dies, choose one —
+• Target creature gets -1/-1 until end of turn.
+• Uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => Whenever Shady Appraiser dies, choose one —
+• Target creature gets -1/-1 until end of turn.
+• Uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+
+Ruthless Financier
+rules_text: At the beginning of your end step, if a creature died this turn, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => At the beginning of your end step, if a creature died this turn, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+
+Bloodthirsty Marauder
+pt: 3/2 => 3/1
+
+Vekauran Bruiser
+rules_text: Trample
+Whenever Vekauran Bruiser enters or one or more artifact cards leave your graveyard, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => Trample
+Whenever Vekauran Bruiser enters or one or more artifact cards leave your graveyard, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+
+Armed Acquisitioner
+rules_text: When Armed Acquisitioner enters, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i]
+Sacrifice an artifact: Add one mana of any color. => When Armed Acquisitioner enters, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+Sacrifice an artifact: Add one mana of any color.
+
+Ascended Warfare
+rules_text: When Ascended Warfare enters, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i]
+At the beginning of your upkeep, if you control a creature with power 4 or greater, uncover. => When Ascended Warfare enters, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+At the beginning of your upkeep, if you control a creature with power 4 or greater, uncover.
+
+Demon of Domination
+cost: {2}{B} => {1}{B}{B}
+rules_text: Deathtouch
+Whenever Demon of Domination enters or attacks, exile target card from a graveyard. If a permanent card was exiled this way, uncover. Otherwise, put a +1/+1 counter on Demon of Domination. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => Deathtouch
+Whenever Demon of Domination enters or attacks, exile target card from a graveyard. If a permanent card was exiled this way, uncover. Otherwise, put a +1/+1 counter on Demon of Domination. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+
+Death of Divinity
+cost: {1}{B}{B} => {2}{B}{B}
+rules_text: Exile each creature. For as long as they remain exiled, their owners may cast them by paying life equal to its mana value in addition to its mana cost. => Destroy all creatures.
+
+Subterranean Collapse
+rules_text: Subterranean Collapse deals X damage to each creature. Until end of turn, whenever a creature dealt damage this way dies, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => Subterranean Collapse deals X damage to each creature. Until end of turn, whenever a creature dealt damage this way dies, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+
+Daring Explorer
+rules_text: When Daring Explorer enters, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i]
+The first time you would create one or more tokens each turn, you may uncover instead. => When Daring Explorer enters, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+The first time you would create one or more tokens each turn, you may uncover instead.
+
+Where Icathia Once Stood
+rules_text: [i](As this enters, choose an opponent to protect it. You and others can attack it.)[/i]
+Creatures you control get +2/+0 and have menace.
+When Where Icathia Once Stood is defeated, destroy all creatures. => [i](As this enters, choose an opponent to protect it. You and others can attack it.)[/i]
+Creatures you control get +2/+0.
+When Where Icathia Once Stood is defeated, destroy all creatures.
+
+Carikkan's Guardian
+rules_text: When Carikkan's Guardian enters, it deals X damage to target creature an opponent controls.
+{X}{V}{V}, Exile Carikkan's Guardian from your graveyard: Carikkan's Guardian deals X damage to target opponent. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => When Carikkan's Guardian enters, it deals X damage to target creature an opponent controls.
+At the beginning of your end step, you may pay {X}{V}{V} and exile Carikkan's Guardian from your graveyard. If you do, Carikkan's Guardian deals X damage to target opponent. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Renekton, the Butcher
+
+Brothers' Bloodshed
+rules_text: Target creature gets +3/+3 until end of turn. Whenever it deals damage this turn, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => Target creature gets +3/+3 until end of turn. Whenever it deals damage this turn, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+
+Saltworker
+rules_text: When Saltworker enters, uncover [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i]
+{T}, Tap an untapped artifact or creature you control: Add one mana of any color.
+{1}{V}, {T}, Sacrifice an artifact: Uncover. => When Saltworker enters, uncover [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+{T}, Tap an untapped artifact or creature you control: Add one mana of any color.
+{1}{V}, {T}, Sacrifice an artifact: Uncover.
+
+Dunehopper Engineer
+rules_text: When Dunehopper Engineer enters, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i]
+Once during each of your turns, when one or more artifact cards are exiled from your graveyard, you may create a token that's a copy of of one of them. => When Dunehopper Engineer enters, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+Once during each of your turns, when one or more artifact cards are exiled from your graveyard, you may create a token that's a copy of of one of them.
+
+Vekauran Vagabond
+cost: {2}{U}{R} => {1}{U}{R}
+rules_text: Haste
+Whenever Vekauran Vagabond attacks, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i]
+Whenever you activate an ability of a Relic in your graveyard, create a tapped token that's a copy of Vekauran Vagabond. => Haste
+Whenever Vekauran Vagabond attacks, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+If you would uncover, instead create a Treasure token and you may put a Relic card you own from outside the game into your graveyard.
+
+Rammus the Armordillo
+rules_text: Trample
+Whenever Rammus enters or attacks, return another permanent you control to its owner's hand. If you returned a nontoken card to your hand, uncover. [i](Create a Treasure token or you may reveal a Relic card you own from outside the game and put it into your graveyard.)[/i] => Trample
+Whenever Rammus enters or attacks, return another permanent you control to its owner's hand. If you returned a nontoken card to your hand, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+
+Screaming Acolytes
+type: Creature => Creature — Avatar Horror
+cost: {U} => {2}{U}
+rules_text:  => When Screaming Acolytes enters, search your library for a legendary creature card, exile it with a number of note counters on it equal to its mana value, then shuffle. For as long as it remains exiled it gains “Whenever you cast a spell, remove a note counter from this card. If you can't, you may cast it without paying its mana cost. It enters tapped.”
+pt: 1/1 => 2/2
+
+
+VERSION 2 CHANGELOG
 ====================
 
 Amakra Refugee added.

@@ -1373,7 +1373,7 @@
 		{
 			"name": "Demon of Domination",
 			"rarity": "rare",
-			"mana_cost": "{2}{B}",
+			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Demon Spirit Noble",
 			"collector_number": "87",
 			"image_uris": {
@@ -1403,7 +1403,7 @@
 		{
 			"name": "Death of Divinity",
 			"rarity": "rare",
-			"mana_cost": "{1}{B}{B}",
+			"mana_cost": "{2}{B}{B}",
 			"type": "Sorcery",
 			"collector_number": "85",
 			"image_uris": {
@@ -2540,7 +2540,7 @@
 		{
 			"name": "Vekauran Vagabond",
 			"rarity": "rare",
-			"mana_cost": "{2}{U}{R}",
+			"mana_cost": "{1}{U}{R}",
 			"type": "Creature — Human Rogue",
 			"collector_number": "211",
 			"image_uris": {
@@ -3030,8 +3030,8 @@
 		{
 			"name": "Screaming Acolytes",
 			"rarity": "mythic",
-			"mana_cost": "{U}",
-			"type": "Creature",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Avatar Horror",
 			"collector_number": "66",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/66_Screaming Acolytes.png"
