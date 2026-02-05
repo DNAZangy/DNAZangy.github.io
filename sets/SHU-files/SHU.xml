@@ -3348,7 +3348,7 @@ Equip {3}
 		<card>
 			<name>Carikkan&apos;s Guardian</name>
 			<text>When Carikkan&apos;s Guardian enters, it deals X damage to target creature an opponent controls.
-At the beginning of your end step, you may pay {X}{V}{V} and exile Carikkan&apos;s Guardian from your graveyard. If you do, Carikkan&apos;s Guardian deals X damage to target opponent. (Spend only mana produced by effects that add mana of any color to pay {V}.)</text>
+{X}{V}{V}, Exile Carikkan&apos;s Guardian from your graveyard: Carikkan&apos;s Guardian deals X damage to target opponent. Activate only as a sorcery. (Spend only mana produced by effects that add mana of any color to pay {V}.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/123_Carikkan&apos;s Guardian.png" num="123">SHU</set>
 			<prop>
 				<layout>normal</layout>

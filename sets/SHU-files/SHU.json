@@ -3434,7 +3434,7 @@
             "number": 123,
             "color_identity": "R",
             "cost": "{X}{R}{R}",
-            "rules_text": "When Carikkan's Guardian enters, it deals X damage to target creature an opponent controls.\nAt the beginning of your end step, you may pay {X}{V}{V} and exile Carikkan's Guardian from your graveyard. If you do, Carikkan's Guardian deals X damage to target opponent. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]",
+            "rules_text": "When Carikkan's Guardian enters, it deals X damage to target creature an opponent controls.\n{X}{V}{V}, Exile Carikkan's Guardian from your graveyard: Carikkan's Guardian deals X damage to target opponent. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
@@ -5561,5 +5561,5 @@
             "notes": ""
         }
     ],
-    "version": 5
+    "version": 6
 }
