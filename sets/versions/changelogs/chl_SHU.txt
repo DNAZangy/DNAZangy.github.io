@@ -1,4 +1,26 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+
+
+Elujrav'i' Lookout
+rules_text: When Elujrav'i' Lookout enters, then draw a card. => When Elujrav'i' Lookout enters, draw a card.
+
+
+VERSION 4 CHANGELOG
+====================
+
+
+
+Sunlit Guardian
+rules_text: Mobilize 1
+Whenever a creature you control dies, put a +1/+1 counter on Sunlit Guardian.
+At the beginning of your end step, you may sacrifice Sunlit Guardian. If you do, search your library for a legendary creature card with mana value equal to or less than Sunlit Guardian's power and put it onto the battlefield, then shuffle. => Mobilize 1
+Whenever a creature you control dies, put a +1/+1 counter on Sunlit Guardian.
+At the beginning of your end step, you may sacrifice Sunlit Guardian. If you do, search your library for a legendary creature card with mana value equal to or less than the number of counters on Sunlit Guardian and put it onto the battlefield, then shuffle.
+
+
+VERSION 3 CHANGELOG
 ====================
 
 

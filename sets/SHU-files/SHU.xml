@@ -28,7 +28,7 @@
 		</card>
 		<card>
 			<name>Elujrav&apos;i&apos; Lookout</name>
-			<text>When Elujrav&apos;i&apos; Lookout enters, then draw a card.</text>
+			<text>When Elujrav&apos;i&apos; Lookout enters, draw a card.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/12_Elujrav&apos;i&apos; Lookout.png" num="12">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -2253,7 +2253,7 @@ When Seer Beyond the Sands enters, exile all artifacts, enchantments, and artifa
 			<name>Sunlit Guardian</name>
 			<text>Mobilize 1
 Whenever a creature you control dies, put a +1/+1 counter on Sunlit Guardian.
-At the beginning of your end step, you may sacrifice Sunlit Guardian. If you do, search your library for a legendary creature card with mana value equal to or less than Sunlit Guardian&apos;s power and put it onto the battlefield, then shuffle.</text>
+At the beginning of your end step, you may sacrifice Sunlit Guardian. If you do, search your library for a legendary creature card with mana value equal to or less than the number of counters on Sunlit Guardian and put it onto the battlefield, then shuffle.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/35_Sunlit Guardian.png" num="35">SHU</set>
 			<prop>
 				<layout>normal</layout>
