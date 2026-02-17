@@ -5,7 +5,7 @@
 			<name>ZANG</name>
 			<longname>Zangy Cube</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-01-29</releasedate>
+			<releasedate>2026-02-16</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -110,7 +110,7 @@ Whenever a land enters under your control, if you control five or more Islands, 
 			<name>Tomb of the First Fighter</name>
 			<text>({T}: Add {W}.)
 Tomb of the First Fighter enters tapped.
-Whenever a land enters under your control, if you control five or more Plains, amass Soldiers 2. (Put two +1/+1 counters on an Army you control. It&apos;s also a Soldier. If you don&apos;t control one, create a 0/0 black Soldier Army creature token first.)</text>
+Whenever a land enters under your control, if you control five or more Plains, amass Soldiers 2. (Put two +1/+1 counters on an Army you control. It&apos;s also a Soldier. If you don&apos;t control an Army, create a 0/0 black Soldier Army creature token first.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/436_Tomb of the First Fighter.png" num="436">ZANG</set>
 			<prop>
 				<layout>normal</layout>
@@ -2931,7 +2931,7 @@ You may discard a card. If you do, draw a card.</text>
 		</card>
 		<card>
 			<name>Impending Peril</name>
-			<text>Impending Peril deals 3 damage to any target. If a creature was dealt damage this way, that creature&apos;s controller creates a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<text>Impending Peril deals 3 damage to any target. If a creature was dealt damage this way, that creature&apos;s controller creates a Blood token. (It&apos;s an artifact with &quot;{1}, {T}, Discard a card, Sacrifice this token: Draw a card.&quot;)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/220_Impending Peril.png" num="220">ZANG</set>
 			<prop>
 				<layout>normal</layout>
@@ -4860,7 +4860,7 @@ Whenever an enchantment you control leaves the battlefield, each opponent loses 
 		</card>
 		<card>
 			<name>Rot to Life</name>
-			<text>Destroy target nonland permanent. If an artifact was destroyed this way, create a Treasure token. If a creature was destroyed this way, create a 1/1 white Human creature token. If an enchantment was destroyed this way, create a Shard token. (A Shard token is an enchantment with &quot;{2}, Sacrifice this enchantment: Scry 1, then draw a card.&quot;)</text>
+			<text>Destroy target nonland permanent. If an artifact was destroyed this way, create a Treasure token. If a creature was destroyed this way, create a 1/1 white Human creature token. If an enchantment was destroyed this way, create a Shard token. (A Shard token is an enchantment with &quot;{2}, Sacrifice this enchantment: Scry 1, then draw a card.&quot;) (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/352_Rot to Life.png" num="352">ZANG</set>
 			<prop>
 				<layout>normal</layout>
@@ -8178,7 +8178,7 @@ Compose (Then if you cast this from your hand, exile it and create a Saga token 
 		</card>
 		<card>
 			<name>Punch Out of Reality</name>
-			<text>Punch Out of Reality deals 3 damage to any target. When a creature or planeswalker dealt damage this way this turn dies, exile all cards from its controller&apos;s graveyard.</text>
+			<text>Punch Out of Reality deals 3 damage to any target. If that creature would die this turn, exile it and its controller&apos;s graveyard instead.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/235_Punch Out of Reality.png" num="235">ZANG</set>
 			<prop>
 				<layout>normal</layout>

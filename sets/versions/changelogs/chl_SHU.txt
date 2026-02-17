@@ -1,4 +1,331 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+
+
+Azir's Missionaries
+pt: 0/4 => 0/3
+
+Acolyte of Xerath
+
+Seeker of Tombs
+rules_text: Flying
+When Seeker of Tombs enters, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i] => Flying
+When Seeker of Tombs enters, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Spin to Sand
+rules_text: The owner of target nonland permanent puts it into their library second from the top or on the bottom.
+Uncover [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i] => The owner of target nonland permanent puts it into their library second from the top or on the bottom.
+Uncover [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Gregarious Clockling
+rules_text: {1}, {T}, Sacrifice Gregarious Clockling: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability.
+{V}, Exile Gregarious Clockling from your graveyard: Surveil 3. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => {T}, Sacrifice Gregarious Clockling: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability.
+{1}{V}, Exile Gregarious Clockling from your graveyard: Surveil 2, then draw a card. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Tomb's Vigil
+rules_text: Deathtouch
+{1}{V}, Exile this card from your graveyard: Return target creature card from your graveyard to your hand. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Deathtouch
+{1}{V}, Exile this card from your graveyard: Each opponent loses 3 life and you gain 3 life. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Vekauran Safecraker
+rules_text: Menace
+When Vekauran Safecraker enters, uncover and you lose 1 life. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i] => Menace
+When Vekauran Safecraker enters, uncover and you lose 1 life. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Twisted Sentinel
+rules_text: Flying
+Whenever Twisted Sentinel dies, uncover and you gain 3 life. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i] => Flying
+Whenever Twisted Sentinel dies, uncover and you gain 3 life. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Rock Hopper
+rules_text: Haste
+Whenever Rock Hopper attacks, you may have it traverse. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i]
+Rock Hopper gets +2/+2 if it entered from exile this turn. => Haste
+Whenever Rock Hopper attacks, you may have it traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+Rock Hopper gets +2/+2 if it entered from exile this turn.
+
+Plucky Ruin Delver
+rules_text: When Plucky Ruin Delver enters, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i] => When Plucky Ruin Delver enters, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Endless Devout
+rules_text: Whenever Endless Devout attacks, target creature can't block this turn.
+{5}{V}, Exile Endless Devout from your graveyard: Create a 5/5 colorless Construct artifact creature token. It can't block this turn. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Whenever Endless Devout attacks, target creature can't block this turn.
+{5}{V}, Exile Endless Devout from your graveyard: Create a 0/0 colorless Construct artifact creature token and put five +1/+1 counters on it. It can't block this turn. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Xer'Sai Dunebreaker
+rules_text: When Xer'Sai Dunebreaker enters, you may have another target creature you control traverse. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i]
+Whenever a creature you control enters during combat, it gets +1/+0 until end of turn. => When Xer'Sai Dunebreaker enters, you may have another target creature you control traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+Whenever a creature you control enters during combat, it gets +1/+0 until end of turn.
+
+Expedition Below
+rules_text: As an additional cost to cast this spell, discard a card.
+Draw two cards.
+Uncover [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i] => As an additional cost to cast this spell, discard a card.
+Draw two cards.
+Uncover [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Clockhand Golem
+rules_text: Trample
+When Clockhand Golem enters, you gain 3 life.
+{2}{V}, Exile Clockhand Golem from your graveyard: Put two +1/+1 counters on up to one target creature.You gain 3 life. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Trample
+{1}{V}, Exile Clockhand Golem from your graveyard: You gain 5 life. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+pt: 6/5 => 6/6
+
+Devoted Council
+rules_text: Lifelink
+Whenever a creature you control enters tapped, untap it.
+At the beginning of your end step, you may have target creature you control traverse. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Lifelink
+Whenever a creature you control enters tapped, untap it.
+At the beginning of your end step, you may have target creature you control traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Decree of the Sands
+rules_text: If an opponent has more life than you, you gain 4 life.
+If an opponent controls more creatures than you, create two 1/1 white Sand Soldier creature tokens.
+If an opponent controls more lands than you, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+Cycling {2} => If an opponent has more life than you, you gain 4 life.
+If an opponent controls more creatures than you, create two 1/1 white Sand Soldier creature tokens.
+If an opponent controls more lands than you, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+Cycling {2}
+
+Tomb Crawler
+rules_text: Whenever Tomb Crawler becomes blocked, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+{V}: Tomb Crawler can't be blocked this turn. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Whenever Tomb Crawler becomes blocked, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+{V}: Tomb Crawler can't be blocked this turn. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Ruin Explorers
+rules_text: At the beginning of your end step, you may exile two cards that don't share a card type from your graveyard. If you do, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i] => At the beginning of your end step, you may exile two cards that don't share a card type from your graveyard. If you do, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Memories of an Empire
+rules_text: Draw three cards.
+Uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i] => Draw three cards.
+Uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Shady Appraiser
+rules_text: Whenever Shady Appraiser dies, choose one —
+• Target creature gets -1/-1 until end of turn.
+• Uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i] => Whenever Shady Appraiser dies, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Ruthless Financier
+rules_text: At the beginning of your end step, if a creature died this turn, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i] => At the beginning of your end step, if a creature died this turn, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Dune Surfer
+rules_text: Prowess, haste
+At the beginning of your end step, Dune Surfer traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Prowess, haste
+At the beginning of your end step, you may have Dune Surfer traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Vekauran Bruiser
+rules_text: Trample
+Whenever Vekauran Bruiser enters or one or more artifact cards leave your graveyard, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i] => Trample
+Whenever Vekauran Bruiser enters or one or more artifact cards leave your graveyard, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Armed Acquisitioner
+rules_text: When Armed Acquisitioner enters, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+Sacrifice an artifact: Add one mana of any color. => When Armed Acquisitioner enters, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+Sacrifice an artifact: Add one mana of any color.
+
+Rockbear Shepherd
+rules_text: Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+You may play an additional land on each of your turns.
+[i]Landfall[/i] — Whenever a land you control enters, if you have the city's blessing, create a 2/1 green Druid creature token => Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+You may play an additional land on each of your turns.
+[i]Landfall[/i] — Whenever a land you control enters, if you have the city's blessing, create a 2/1 green Druid creature token.
+
+Ascended Warfare
+rules_text: When Ascended Warfare enters, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+At the beginning of your upkeep, if you control a creature with power 4 or greater, uncover. => When Ascended Warfare enters, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+At the beginning of your upkeep, if you control a creature with power 4 or greater, uncover.
+
+Saijax Cail-Rynx Kohari Icath'un
+rules_text: Jax has first strike as long as he's equipped.
+When Jax enters, create Lamppost, a legendary colorless Equipment artifact token with equip {2} and “Equipped creature gains the activated and triggered abilities of exiled cards you own with memory counters on them.”
+Whenever a creature you control dies, you may exile it with a memory counter on it. => When Jax enters, create Lamppost, a legendary colorless Equipment artifact token with equip {2} and “Equipped creature gets +1/+1 and has all abilities of keyword counters on it.” If you already control a Lamppost, put your choice of a first strike, lifelink, flying, or a vigilance counter on it. If it already has all four, put an indestructible and double strike counter on it.
+pt: 3/1 => 3/2
+
+Sunlit Guardian
+rules_text: Mobilize 1
+Whenever a creature you control dies, put a +1/+1 counter on Sunlit Guardian.
+At the beginning of your end step, you may sacrifice Sunlit Guardian. If you do, search your library for a legendary creature card with mana value equal to or less than the number of counters on Sunlit Guardian and put it onto the battlefield, then shuffle. => Mobilize 1 [i](Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)[/i]
+Whenever a creature you control dies, put a +1/+1 counter on Sunlit Guardian.
+At the beginning of your end step, you may sacrifice Sunlit Guardian. If you do, search your library for a legendary creature card with mana value equal to or less than the number of counters on Sunlit Guardian and put it onto the battlefield, then shuffle.
+pt: 1/3 => 1/1
+
+Pass the Torch
+rules_text: You may cast this spell only during an opponent's turn or during your end step.
+Any number of creatures you control traverse. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => You may cast this spell only during an opponent's turn or during your end step.
+Any number of creatures you control traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Khahiri, Chosen Through Time
+pt: 4/4 => 4/3
+
+Demon of Domination
+rules_text: Deathtouch
+Whenever Demon of Domination enters or attacks, exile target card from a graveyard. If a permanent card was exiled this way, uncover. Otherwise, put a +1/+1 counter on Demon of Domination. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i] => Deathtouch
+Whenever Demon of Domination enters or attacks, exile target card from a graveyard. If a permanent card was exiled this way, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+pt: 3/3 => 2/3
+
+Void Abomination
+
+Death of Divinity
+cost: {2}{B}{B} => {3}{B}{B}
+rules_text: Destroy all creatures. => Choose a creature you control. Exile all other creatures, then destroy the chosen creature.
+
+Feast of the Prophet
+cost: {1}{B} => {1}{B}{B}
+
+Relentless Sandthresher
+
+Wandering Yordle
+rules_text: Whenever Wandering Yordle attacks, up to one target creature you don't control traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Whenever Wandering Yordle attacks, up to one target nontoken creature you don't control traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i]
+
+Subterranean Collapse
+rules_text: Subterranean Collapse deals X damage to each creature. Until end of turn, whenever a creature dealt damage this way dies, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i] => Subterranean Collapse deals X damage to each creature. Until end of turn, whenever a nontoken creature you control dies, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Taliyah, the Stoneweaver
+rules_text: Once each turn, whenever a Desert card is put into your graveyard from anywhere, you may return it to the battlefield tapped.
+{3}{G}{G}: Put three +1/+1 counters on target land you control. That land becomes a 0/0 Elemental creature in addition to its other types. It gains haste until your next turn. => Once each turn, whenever a Desert card is put into your graveyard from anywhere, create a tapped colorless Desert land token with “{T}: Add {C}.”
+{3}{G}{G}: Put three +1/+1 counters on target land you control. That land becomes a 0/0 Elemental creature in addition to its other types. It gains haste until your next turn.
+
+Grumpy Rockbear
+rules_text: Trample, ward {2}
+If Grumpy Rockbear or another creature you control would enter the battlefield, you may have it traverse instead. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Trample, ward {2}
+If Grumpy Rockbear or another creature you control would enter the battlefield, you may have it traverse instead. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Daring Explorer
+rules_text: When Daring Explorer enters, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+The first time you would create one or more tokens each turn, you may uncover instead. => When Daring Explorer enters, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+The first time you would create one or more tokens each turn, you may uncover instead.
+
+Butcher's Faithful
+rules_text: Creatures you control that entered this turn have menace.
+At the beginning of your end step, up to two target creatures you control traverse. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Creatures you control that entered this turn have menace.
+At the beginning of your end step, up to two target creatures you control traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Echoes of an Empire
+rules_text: Affinity for artifacts [i](This spell costs {1} less to cast for each artifact you control.)[/i]
+Prowess
+{1}{V}, Discard a card, Exile Echoes of an Empire from your graveyard: Draw two cards. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Affinity for artifacts
+Prowess
+{1}{V}, Exile Echoes of an Empire from your graveyard: Create a 0/0 colorless Construct artifact creature token with ‘This token gets +1/+1 for each artifact you control.'” Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Pilgrim from Kathkan
+
+Kassadin, the Void Walker
+rules_text: Flash
+When Kassadin enters, scry 2, then Kassadin deals 2 damage to each opponent.
+{R}: Kassadin gains first strike until end of turn.
+{1}{U}: Kassadin traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Flash
+When Kassadin enters, surveil 3.
+{R}: Kassadin gains first strike until end of turn.
+{1}{U}: Kassadin traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i]
+
+Kai'Sa, Who Came Back
+pt: 3/2 => 3/3
+
+Baccai Witherclaw
+rules_text: You may play an additional land on each of your turns.
+You may play lands from your graveyard. If you do, they enter as 4/4 Sand creature tokens with finality counters on them in addition to their other types. => You may play two additional lands on each of your turns.
+You may play lands from your graveyard. If you do, they enter as 4/4 Sand creature tokens with finality counters on them in addition to their other types.
+
+Renekton, the Butcher
+rules_text: First strike, haste
+As long as a source you control has dealt excess damage this turn, Renekton has indestructible and “Other creatures you control get +2/+0.” => First strike, haste
+As long as a source you control has dealt excess damage this turn, Renekton has indestructible, hexproof and “Other creatures you control get +2/+0.”
+pt: 7/7 => 8/8
+
+Nasus, the Scholar
+rules_text: Trample, lifelink
+As long as you've gained life this turn, Nasus has indestructible and “Creatures you don't control get -2/-0.” [i](Lifelink in combat saves him.)[/i] => Trample, lifelink
+As long as you've gained life this turn, Nasus has indestructible, hexproof, and “Creatures you don't control get -2/-0.” [i](Lifelink in combat saves him.)[/i]
+pt: 7/7 => 8/8
+
+Sandstone Protector
+rules_text: Whenever Sandstone Protector enters, exile up to one target card from a graveyard.
+{1}{V}, Exile Sandstone Protector from your graveyard: Surveil 2, then draw a card. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Whenever Sandstone Protector enters, exile up to one target card from a graveyard.
+{1}{V}, Exile Sandstone Protector from your graveyard: Return target creature card from your graveyard to your hand. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Brothers' Bloodshed
+rules_text: Target creature gets +3/+3 until end of turn. Whenever it deals damage this turn, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i] => Target creature gets +3/+3 until end of turn. Whenever it deals damage this turn, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Saltworker
+rules_text: When Saltworker enters, uncover [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+{T}, Tap an untapped artifact or creature you control: Add one mana of any color.
+{1}{V}, {T}, Sacrifice an artifact: Uncover. => When Saltworker enters, uncover [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+{T}, Tap an untapped artifact or creature you control: Add one mana of any color.
+
+Dunehopper Engineer
+rules_text: When Dunehopper Engineer enters, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+Once during each of your turns, when one or more artifact cards are exiled from your graveyard, you may create a token that's a copy of of one of them. => When Dunehopper Engineer enters, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+Once during each of your turns, when one or more artifact cards are exiled from your graveyard, you may create a token that's a copy of of one of them.
+
+Curator's Sentinel
+rules_text: Flash
+Flying
+Whenever you cast an instant or sorcery spell, you may pay {1}{V} and exile Curator's Sentinel from your graveyard. If you do, copy that spell. You may choose new targets for the copy. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Flash
+Flying
+{1}{V}, Exile Curator's Sentinel from your graveyard: Draw two cards, then discard a card. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Serpentine Protector
+cost:  => {V}{V}
+rules_text: [i](Nonexistent mana costs can't be paid.)[/i]
+Trample, menace
+Cycling {2}
+When you cycle Serpentine Protector, exile target card from an opponent's graveyard. => [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+Serpentine Protector is all colors.
+Menace, trample
+Cycling {2} [i]({2}, Discard this card: Draw a card.)[/i]
+
+Buried Colossus
+rules_text: {5}, {T}, Sacrifice Buried Colossus: Create a 5/5 colorless Construct artifact creature token. It can't block this turn.
+{1}{V}, Exile Buried Colossus from your graveyard: Create a token that's a copy of target token you control. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => {5}, {T}, Sacrifice Buried Colossus: Create a 0/0 colorless Construct artifact creature token. Put five +1/+1 counters on it. It can't block this turn.
+{1}{V}, Exile Buried Colossus from your graveyard: Create a token that's a copy of target token you control. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Vekauran Vagabond
+cost: {1}{U}{R} => {2}{U}{R}
+rules_text: Haste
+Whenever Vekauran Vagabond attacks, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i]
+If you would uncover, instead create a Treasure token and you may put a Relic card you own from outside the game into your graveyard. => Haste
+Whenever Vekauran Vagabond attacks, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+If you would uncover, instead create a Treasure token and you may put a Relic card you own from outside the game into your graveyard.
+
+Rammus the Armordillo
+type: Legendary Creature — Elder Beast => Legendary Creature — Elder Armadillo
+cost: {1}{G}{U} => {2}{G}{U}
+rules_text: Trample
+Whenever Rammus enters or attacks, return another permanent you control to its owner's hand. If you returned a nontoken card to your hand, uncover. [i](Create a Treasure token or you may put Relic card you own from outside the game into your graveyard.)[/i] => Whenever Rammus enters or attacks, you may return another permanent you control to its owner's hand. If you do, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+pt: 4/5 => 4/6
+
+Sivir, Battle Mistress
+pt: 4/3 => 4/4
+
+Rek'Sai, the Terror Beneath
+rules_text: Creatures you control that have entered this turn get +1/+1 and have hexproof.
+At the beginning of your end step, you may have Rek'Sai traverse. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Creatures you control that have entered this turn get +1/+1 and have hexproof.
+At the beginning of your end step, you may have Rek'Sai traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Bel'Zhun, Noxian Outpost
+rules_text: Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+{T}: Add {C}.
+{1}{U}{R}, {T}: Copy target instant or sorcery spell you control. Activate only if you have the city's blessing. => Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+{T}: Add {C}.
+{1}{U}{R}, {T}: Copy target instant or sorcery spell you control. You may choose new targets for the copy. Activate only if you have the city's blessing.
+
+The Great Sai
+type: Land — Desert => Legendary Land — Desert
+rules_text: Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+{T}: Add {C}.
+{T}: Add two mana of any one color. Activate only if you have the city's blessing. => Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+{T}: Add {C}.
+{T}: Add {C}{C}. Activate only if you have the city's blessing.
+
+Construct
+pt: 5/5 => 0/0
+
+Screaming Acolytes
+rules_text: When Screaming Acolytes enters, search your library for a legendary creature card, exile it with a number of note counters on it equal to its mana value, then shuffle. For as long as it remains exiled it gains “Whenever you cast a spell, remove a note counter from this card. If you can't, you may cast it without paying its mana cost. It enters tapped.” => When Screaming Acolytes enters, search your library for a legendary creature card and exile it. It gains “Whenever you cast a spell, put a call counter on this card. Then if it has a number of call counters on it equal to or greater than its mana value, you may cast it without paying its mana cost.”
+
+
+VERSION 7 CHANGELOG
 ====================
 
 Desert added.
