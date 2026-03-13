@@ -5,7 +5,7 @@
 			<name>MSK</name>
 			<longname>Myths, Masks, and Minutes Spent Apart</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-01-29</releasedate>
+			<releasedate>2026-03-12</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -4692,9 +4692,9 @@ Whenever a creature you control attacks and isn&apos;t blocked, you may return i
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Prank of the Ages</reverse_related>
-			<reverse_related>Season&apos;s End Celebrant</reverse_related>
-			<reverse_related>Invigorating Discovery</reverse_related>
+			<reverse-related>Prank of the Ages</reverse-related>
+			<reverse-related>Season&apos;s End Celebrant</reverse-related>
+			<reverse-related>Invigorating Discovery</reverse-related>
 		</card>
 		<card>
 			<name>Play the Part</name>
@@ -4815,20 +4815,20 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Escapade Collector</reverse_related>
-			<reverse_related>Faithful Harrier</reverse_related>
-			<reverse_related>Gregarious Buboh</reverse_related>
-			<reverse_related>Veiled Foreboding</reverse_related>
-			<reverse_related>From Blood, Blades</reverse_related>
-			<reverse_related>Warkrei Commander</reverse_related>
-			<reverse_related>Custodian of Cycles</reverse_related>
-			<reverse_related>Deprecate</reverse_related>
-			<reverse_related>From Hope to Action</reverse_related>
-			<reverse_related>Timber Pummeler</reverse_related>
-			<reverse_related>Zyklinder Shortcutter</reverse_related>
-			<reverse_related>Anina, Breath of the Winds</reverse_related>
-			<reverse_related>Nasaj</reverse_related>
-			<reverse_related>Steward of New Horizons</reverse_related>
+			<reverse-related>Escapade Collector</reverse-related>
+			<reverse-related>Faithful Harrier</reverse-related>
+			<reverse-related>Gregarious Buboh</reverse-related>
+			<reverse-related>Veiled Foreboding</reverse-related>
+			<reverse-related>From Blood, Blades</reverse-related>
+			<reverse-related>Warkrei Commander</reverse-related>
+			<reverse-related>Custodian of Cycles</reverse-related>
+			<reverse-related>Deprecate</reverse-related>
+			<reverse-related>From Hope to Action</reverse-related>
+			<reverse-related>Timber Pummeler</reverse-related>
+			<reverse-related>Zyklinder Shortcutter</reverse-related>
+			<reverse-related>Anina, Breath of the Winds</reverse-related>
+			<reverse-related>Nasaj</reverse-related>
+			<reverse-related>Steward of New Horizons</reverse-related>
 		</card>
 		<card>
 			<name>ElementalGreen MSK</name>
@@ -4847,8 +4847,8 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Path of the Unremembered</reverse_related>
-			<reverse_related>Kriemhild of One Truth</reverse_related>
+			<reverse-related>Path of the Unremembered</reverse-related>
+			<reverse-related>Kriemhild of One Truth</reverse-related>
 		</card>
 		<card>
 			<name>ElementalBlue MSK</name>
@@ -4867,8 +4867,8 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Ziel, Season of Endings</reverse_related>
-			<reverse_related>Out-of-Body Experience</reverse_related>
+			<reverse-related>Ziel, Season of Endings</reverse-related>
+			<reverse-related>Out-of-Body Experience</reverse-related>
 		</card>
 		<card>
 			<name>Warrior MSK</name>
@@ -4887,13 +4887,13 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Those of Distant Familiarity</reverse_related>
-			<reverse_related>A Dream of Reunion</reverse_related>
-			<reverse_related>Opulent Settler</reverse_related>
-			<reverse_related>Rally the Dragoons</reverse_related>
-			<reverse_related>Timber Pummeler</reverse_related>
-			<reverse_related>Lessons Learned Trials Won</reverse_related>
-			<reverse_related>Unblooded Edge</reverse_related>
+			<reverse-related>Those of Distant Familiarity</reverse-related>
+			<reverse-related>A Dream of Reunion</reverse-related>
+			<reverse-related>Opulent Settler</reverse-related>
+			<reverse-related>Rally the Dragoons</reverse-related>
+			<reverse-related>Timber Pummeler</reverse-related>
+			<reverse-related>Lessons Learned Trials Won</reverse-related>
+			<reverse-related>Unblooded Edge</reverse-related>
 		</card>
 		<card>
 			<name>Avatar MSK</name>
@@ -4912,7 +4912,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Behold Ruhigwelt</reverse_related>
+			<reverse-related>Behold Ruhigwelt</reverse-related>
 		</card>
 		<card>
 			<name>Wolf Spirit MSK</name>
@@ -4931,7 +4931,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Together As One</reverse_related>
+			<reverse-related>Together As One</reverse-related>
 		</card>
 		<card>
 			<name>Treasure MSK</name>
@@ -4947,10 +4947,10 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Crestfallen Roseblade</reverse_related>
-			<reverse_related>Liberator of Petals</reverse_related>
-			<reverse_related>Merry Marauder</reverse_related>
-			<reverse_related>Ziel, Season of Endings</reverse_related>
+			<reverse-related>Crestfallen Roseblade</reverse-related>
+			<reverse-related>Liberator of Petals</reverse-related>
+			<reverse-related>Merry Marauder</reverse-related>
+			<reverse-related>Ziel, Season of Endings</reverse-related>
 		</card>
 		<card>
 			<name>Spirit MSK</name>
@@ -4969,8 +4969,8 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Fount of the Wandering</reverse_related>
-			<reverse_related>Witness to Many Ends</reverse_related>
+			<reverse-related>Fount of the Wandering</reverse-related>
+			<reverse-related>Witness to Many Ends</reverse-related>
 		</card>
 		<card>
 			<name>A Dream of Stillness</name>

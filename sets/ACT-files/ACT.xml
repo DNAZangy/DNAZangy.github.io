@@ -5,7 +5,7 @@
 			<name>ACT</name>
 			<longname>The Stage Presents: The Neverending Act</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-01-29</releasedate>
+			<releasedate>2026-03-12</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -27,20 +27,20 @@ Enchanted creature is a Wizard creature with base power and toughness 2/2 and ha
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Cerulean Curtain Treasurer</reverse_related>
-			<reverse_related>Crafty Escape</reverse_related>
-			<reverse_related>Melodrama in a Bottle</reverse_related>
-			<reverse_related>Newswright</reverse_related>
-			<reverse_related>Push to the Background</reverse_related>
-			<reverse_related>A Tale of the Boastful Sailor</reverse_related>
-			<reverse_related>Tuesdays First Victim</reverse_related>
-			<reverse_related>Backdrop Artisan</reverse_related>
-			<reverse_related>Festival Sabotage</reverse_related>
-			<reverse_related>An Invitation to High Rollers</reverse_related>
-			<reverse_related>Opera in a Bottle</reverse_related>
-			<reverse_related>Shining Showstopper</reverse_related>
-			<reverse_related>Swiftwheel Slayers</reverse_related>
-			<reverse_related>Verdant Curtain Prodigy</reverse_related>
+			<reverse-related>Cerulean Curtain Treasurer</reverse-related>
+			<reverse-related>Crafty Escape</reverse-related>
+			<reverse-related>Melodrama in a Bottle</reverse-related>
+			<reverse-related>Newswright</reverse-related>
+			<reverse-related>Push to the Background</reverse-related>
+			<reverse-related>A Tale of the Boastful Sailor</reverse-related>
+			<reverse-related>Tuesdays First Victim</reverse-related>
+			<reverse-related>Backdrop Artisan</reverse-related>
+			<reverse-related>Festival Sabotage</reverse-related>
+			<reverse-related>An Invitation to High Rollers</reverse-related>
+			<reverse-related>Opera in a Bottle</reverse-related>
+			<reverse-related>Shining Showstopper</reverse-related>
+			<reverse-related>Swiftwheel Slayers</reverse-related>
+			<reverse-related>Verdant Curtain Prodigy</reverse-related>
 		</card>
 		<card>
 			<name>Cleric Role ACT</name>
@@ -60,20 +60,20 @@ Enchanted creature is a Cleric creature with base power and toughness 2/2 and ha
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Comedy in a Bottle</reverse_related>
-			<reverse_related> Daydream</reverse_related>
-			<reverse_related>A Delightful Afternoon</reverse_related>
-			<reverse_related>Leading Clergy</reverse_related>
-			<reverse_related>Runaway Princess</reverse_related>
-			<reverse_related>Second-Stage Actress</reverse_related>
-			<reverse_related>Seraph of the Stage</reverse_related>
-			<reverse_related>Bring the Spotlight</reverse_related>
-			<reverse_related>Conclude</reverse_related>
-			<reverse_related>Dastardly Duo</reverse_related>
-			<reverse_related>Sculpt the Scene</reverse_related>
-			<reverse_related>That Fateful Tuesday</reverse_related>
-			<reverse_related>Tragedy in a Bottle</reverse_related>
-			<reverse_related>Verdant Curtain Prodigy</reverse_related>
+			<reverse-related>Comedy in a Bottle</reverse-related>
+			<reverse-related> Daydream</reverse-related>
+			<reverse-related>A Delightful Afternoon</reverse-related>
+			<reverse-related>Leading Clergy</reverse-related>
+			<reverse-related>Runaway Princess</reverse-related>
+			<reverse-related>Second-Stage Actress</reverse-related>
+			<reverse-related>Seraph of the Stage</reverse-related>
+			<reverse-related>Bring the Spotlight</reverse-related>
+			<reverse-related>Conclude</reverse-related>
+			<reverse-related>Dastardly Duo</reverse-related>
+			<reverse-related>Sculpt the Scene</reverse-related>
+			<reverse-related>That Fateful Tuesday</reverse-related>
+			<reverse-related>Tragedy in a Bottle</reverse-related>
+			<reverse-related>Verdant Curtain Prodigy</reverse-related>
 		</card>
 		<card>
 			<name>Scout Role ACT</name>
@@ -93,21 +93,21 @@ Enchanted creature is a Scout creature with base power and toughness 2/3 and has
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Comedy in a Bottle</reverse_related>
-			<reverse_related>Daydream</reverse_related>
-			<reverse_related>A Delightful Afternoon</reverse_related>
-			<reverse_related>Leading Clergy</reverse_related>
-			<reverse_related>Runaway Princess</reverse_related>
-			<reverse_related>Second-Stage Actress</reverse_related>
-			<reverse_related>Seraph of the Stage</reverse_related>
-			<reverse_related>Ballet in a Bottle</reverse_related>
-			<reverse_related>The Investigation of Dr Vaughn</reverse_related>
-			<reverse_related>Jerrolds Descent</reverse_related>
-			<reverse_related>Prop Work</reverse_related>
-			<reverse_related>Strength of Character</reverse_related>
-			<reverse_related>Verdant Curtain Prodigy</reverse_related>
-			<reverse_related>Verdant Curtain Veteran</reverse_related>
-			<reverse_related>Flowering Gardens</reverse_related>
+			<reverse-related>Comedy in a Bottle</reverse-related>
+			<reverse-related>Daydream</reverse-related>
+			<reverse-related>A Delightful Afternoon</reverse-related>
+			<reverse-related>Leading Clergy</reverse-related>
+			<reverse-related>Runaway Princess</reverse-related>
+			<reverse-related>Second-Stage Actress</reverse-related>
+			<reverse-related>Seraph of the Stage</reverse-related>
+			<reverse-related>Ballet in a Bottle</reverse-related>
+			<reverse-related>The Investigation of Dr Vaughn</reverse-related>
+			<reverse-related>Jerrolds Descent</reverse-related>
+			<reverse-related>Prop Work</reverse-related>
+			<reverse-related>Strength of Character</reverse-related>
+			<reverse-related>Verdant Curtain Prodigy</reverse-related>
+			<reverse-related>Verdant Curtain Veteran</reverse-related>
+			<reverse-related>Flowering Gardens</reverse-related>
 		</card>
 		<card>
 			<name>Warlock Role ACT</name>
@@ -127,20 +127,20 @@ Enchanted creature is a Warlock creature with base power and toughness 2/1 and h
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Cerulean Curtain Treasurer</reverse_related>
-			<reverse_related>Crafty Escape</reverse_related>
-			<reverse_related>Melodrama in a Bottle</reverse_related>
-			<reverse_related>Newswright</reverse_related>
-			<reverse_related>Push to the Background</reverse_related>
-			<reverse_related>A Tale of the Boastful Sailor</reverse_related>
-			<reverse_related>Tuesdays First Victim</reverse_related>
-			<reverse_related>Bring the Spotlight</reverse_related>
-			<reverse_related>Conclude</reverse_related>
-			<reverse_related>Dastardly Duo</reverse_related>
-			<reverse_related>Sculpt the Scene</reverse_related>
-			<reverse_related>That Fateful Tuesday</reverse_related>
-			<reverse_related>Tragedy in a Bottle</reverse_related>
-			<reverse_related>Verdant Curtain Prodigy</reverse_related>
+			<reverse-related>Cerulean Curtain Treasurer</reverse-related>
+			<reverse-related>Crafty Escape</reverse-related>
+			<reverse-related>Melodrama in a Bottle</reverse-related>
+			<reverse-related>Newswright</reverse-related>
+			<reverse-related>Push to the Background</reverse-related>
+			<reverse-related>A Tale of the Boastful Sailor</reverse-related>
+			<reverse-related>Tuesdays First Victim</reverse-related>
+			<reverse-related>Bring the Spotlight</reverse-related>
+			<reverse-related>Conclude</reverse-related>
+			<reverse-related>Dastardly Duo</reverse-related>
+			<reverse-related>Sculpt the Scene</reverse-related>
+			<reverse-related>That Fateful Tuesday</reverse-related>
+			<reverse-related>Tragedy in a Bottle</reverse-related>
+			<reverse-related>Verdant Curtain Prodigy</reverse-related>
 		</card>
 		<card>
 			<name>Warrior Role ACT</name>
@@ -160,20 +160,20 @@ Enchanted creature is a Warrior creature with base power and toughness 3/2 and h
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Backdrop Artisan</reverse_related>
-			<reverse_related>Festival Sabotage</reverse_related>
-			<reverse_related>An Invitation to High Rollers</reverse_related>
-			<reverse_related>Opera in a Bottle</reverse_related>
-			<reverse_related>Shining Showstopper</reverse_related>
-			<reverse_related>Swiftwheel Slayers</reverse_related>
-			<reverse_related>Ballet in a Bottle</reverse_related>
-			<reverse_related>The Investigation of Dr Vaughn</reverse_related>
-			<reverse_related>Jerrolds Descent</reverse_related>
-			<reverse_related>Prop Work</reverse_related>
-			<reverse_related>Strength of Character</reverse_related>
-			<reverse_related>Verdant Curtain Prodigy</reverse_related>
-			<reverse_related>Verdant Curtain Veteran</reverse_related>
-			<reverse_related>Flowering Gardens</reverse_related>
+			<reverse-related>Backdrop Artisan</reverse-related>
+			<reverse-related>Festival Sabotage</reverse-related>
+			<reverse-related>An Invitation to High Rollers</reverse-related>
+			<reverse-related>Opera in a Bottle</reverse-related>
+			<reverse-related>Shining Showstopper</reverse-related>
+			<reverse-related>Swiftwheel Slayers</reverse-related>
+			<reverse-related>Ballet in a Bottle</reverse-related>
+			<reverse-related>The Investigation of Dr Vaughn</reverse-related>
+			<reverse-related>Jerrolds Descent</reverse-related>
+			<reverse-related>Prop Work</reverse-related>
+			<reverse-related>Strength of Character</reverse-related>
+			<reverse-related>Verdant Curtain Prodigy</reverse-related>
+			<reverse-related>Verdant Curtain Veteran</reverse-related>
+			<reverse-related>Flowering Gardens</reverse-related>
 		</card>
 		<card>
 			<name>Construct Actor ACT</name>
@@ -190,74 +190,74 @@ Enchanted creature is a Warrior creature with base power and toughness 3/2 and h
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Comedy in a Bottle</reverse_related>
-			<reverse_related count="2">Comedy in a Bottle</reverse_related>
-			<reverse_related count="3">Comedy in a Bottle</reverse_related>
-			<reverse_related count="4">Comedy in a Bottle</reverse_related>
-			<reverse_related>Daydream</reverse_related>
-			<reverse_related>A Delightful Afternoon</reverse_related>
-			<reverse_related>Expendable Victim</reverse_related>
-			<reverse_related count="3">Holding Out for a Hero</reverse_related>
-			<reverse_related>Hope Spot</reverse_related>
-			<reverse_related>Ivory Curtain Producer</reverse_related>
-			<reverse_related>Ivory Curtain Roleweaver</reverse_related>
-			<reverse_related>Leading Clergy</reverse_related>
-			<reverse_related>Radiant Lead</reverse_related>
-			<reverse_related>Runaway Princess</reverse_related>
-			<reverse_related>Second-Stage Actress</reverse_related>
-			<reverse_related>Seraph of the Stage</reverse_related>
-			<reverse_related>Cerulean Curtain Treasurer</reverse_related>
-			<reverse_related>Crafty Escape</reverse_related>
-			<reverse_related>Melodrama in a Bottle</reverse_related>
-			<reverse_related count="2">Melodrama in a Bottle</reverse_related>
-			<reverse_related count="3">Melodrama in a Bottle</reverse_related>
-			<reverse_related count="4">Melodrama in a Bottle</reverse_related>
-			<reverse_related>Newswright</reverse_related>
-			<reverse_related>Push to the Background</reverse_related>
-			<reverse_related>A Tale of the Boastful Sailor</reverse_related>
-			<reverse_related>Tuesdays First Victim</reverse_related>
-			<reverse_related>Bring the Spotlight</reverse_related>
-			<reverse_related>Conclude</reverse_related>
-			<reverse_related>Dastardly Duo</reverse_related>
-			<reverse_related>Sculpt the Scene</reverse_related>
-			<reverse_related>That Fateful Tuesday</reverse_related>
-			<reverse_related>Tragedy in a Bottle</reverse_related>
-			<reverse_related count="2">Tragedy in a Bottle </reverse_related>
-			<reverse_related count="3">Tragedy in a Bottle</reverse_related>
-			<reverse_related count="4">Tragedy in a Bottle</reverse_related>
-			<reverse_related>Backdrop Artisan</reverse_related>
-			<reverse_related>Festival Sabotage</reverse_related>
-			<reverse_related>An Invitation to High Rollers</reverse_related>
-			<reverse_related>Opera in a Bottle</reverse_related>
-			<reverse_related count="2">Opera in a Bottle</reverse_related>
-			<reverse_related count="3">Opera in a Bottle</reverse_related>
-			<reverse_related count="4">Opera in a Bottle</reverse_related>
-			<reverse_related>Shining Showstopper</reverse_related>
-			<reverse_related>Swiftwheel Slayers</reverse_related>
-			<reverse_related>Ballet in a Bottle</reverse_related>
-			<reverse_related count="2">Ballet in a Bottle</reverse_related>
-			<reverse_related count="3">Ballet in a Bottle</reverse_related>
-			<reverse_related count="4">Ballet in a Bottle</reverse_related>
-			<reverse_related>Crocheted Buddy</reverse_related>
-			<reverse_related>The Disappearance of Faye</reverse_related>
-			<reverse_related>The Investigation of Dr Vaughn</reverse_related>
-			<reverse_related>Jerrolds Descent</reverse_related>
-			<reverse_related count="2">Jerrold&apos;s Descent</reverse_related>
-			<reverse_related>Prop Work</reverse_related>
-			<reverse_related>Strength of Character</reverse_related>
-			<reverse_related>Verdant Curtain Prodigy</reverse_related>
-			<reverse_related>Verdant Curtain Veteran</reverse_related>
-			<reverse_related count="2">Wild Entourage</reverse_related>
-			<reverse_related count="3">Assemble the Heroes</reverse_related>
-			<reverse_related>Percy, Master of Puppets</reverse_related>
-			<reverse_related count="2">The Rejection of the Fair Prince</reverse_related>
-			<reverse_related count="2">Lapinized Caster</reverse_related>
-			<reverse_related count="3">Lethal Storyboarding</reverse_related>
-			<reverse_related count="2">Swan Dance</reverse_related>
-			<reverse_related>Performers of Purpose</reverse_related>
-			<reverse_related>Pensive Supporter</reverse_related>
-			<reverse_related count="4">Sophie&apos;s Final Wish</reverse_related>
-			<reverse_related>Flowering Gardens</reverse_related>
+			<reverse-related>Comedy in a Bottle</reverse-related>
+			<reverse-related count="2">Comedy in a Bottle</reverse-related>
+			<reverse-related count="3">Comedy in a Bottle</reverse-related>
+			<reverse-related count="4">Comedy in a Bottle</reverse-related>
+			<reverse-related>Daydream</reverse-related>
+			<reverse-related>A Delightful Afternoon</reverse-related>
+			<reverse-related>Expendable Victim</reverse-related>
+			<reverse-related count="3">Holding Out for a Hero</reverse-related>
+			<reverse-related>Hope Spot</reverse-related>
+			<reverse-related>Ivory Curtain Producer</reverse-related>
+			<reverse-related>Ivory Curtain Roleweaver</reverse-related>
+			<reverse-related>Leading Clergy</reverse-related>
+			<reverse-related>Radiant Lead</reverse-related>
+			<reverse-related>Runaway Princess</reverse-related>
+			<reverse-related>Second-Stage Actress</reverse-related>
+			<reverse-related>Seraph of the Stage</reverse-related>
+			<reverse-related>Cerulean Curtain Treasurer</reverse-related>
+			<reverse-related>Crafty Escape</reverse-related>
+			<reverse-related>Melodrama in a Bottle</reverse-related>
+			<reverse-related count="2">Melodrama in a Bottle</reverse-related>
+			<reverse-related count="3">Melodrama in a Bottle</reverse-related>
+			<reverse-related count="4">Melodrama in a Bottle</reverse-related>
+			<reverse-related>Newswright</reverse-related>
+			<reverse-related>Push to the Background</reverse-related>
+			<reverse-related>A Tale of the Boastful Sailor</reverse-related>
+			<reverse-related>Tuesdays First Victim</reverse-related>
+			<reverse-related>Bring the Spotlight</reverse-related>
+			<reverse-related>Conclude</reverse-related>
+			<reverse-related>Dastardly Duo</reverse-related>
+			<reverse-related>Sculpt the Scene</reverse-related>
+			<reverse-related>That Fateful Tuesday</reverse-related>
+			<reverse-related>Tragedy in a Bottle</reverse-related>
+			<reverse-related count="2">Tragedy in a Bottle </reverse-related>
+			<reverse-related count="3">Tragedy in a Bottle</reverse-related>
+			<reverse-related count="4">Tragedy in a Bottle</reverse-related>
+			<reverse-related>Backdrop Artisan</reverse-related>
+			<reverse-related>Festival Sabotage</reverse-related>
+			<reverse-related>An Invitation to High Rollers</reverse-related>
+			<reverse-related>Opera in a Bottle</reverse-related>
+			<reverse-related count="2">Opera in a Bottle</reverse-related>
+			<reverse-related count="3">Opera in a Bottle</reverse-related>
+			<reverse-related count="4">Opera in a Bottle</reverse-related>
+			<reverse-related>Shining Showstopper</reverse-related>
+			<reverse-related>Swiftwheel Slayers</reverse-related>
+			<reverse-related>Ballet in a Bottle</reverse-related>
+			<reverse-related count="2">Ballet in a Bottle</reverse-related>
+			<reverse-related count="3">Ballet in a Bottle</reverse-related>
+			<reverse-related count="4">Ballet in a Bottle</reverse-related>
+			<reverse-related>Crocheted Buddy</reverse-related>
+			<reverse-related>The Disappearance of Faye</reverse-related>
+			<reverse-related>The Investigation of Dr Vaughn</reverse-related>
+			<reverse-related>Jerrolds Descent</reverse-related>
+			<reverse-related count="2">Jerrold&apos;s Descent</reverse-related>
+			<reverse-related>Prop Work</reverse-related>
+			<reverse-related>Strength of Character</reverse-related>
+			<reverse-related>Verdant Curtain Prodigy</reverse-related>
+			<reverse-related>Verdant Curtain Veteran</reverse-related>
+			<reverse-related count="2">Wild Entourage</reverse-related>
+			<reverse-related count="3">Assemble the Heroes</reverse-related>
+			<reverse-related>Percy, Master of Puppets</reverse-related>
+			<reverse-related count="2">The Rejection of the Fair Prince</reverse-related>
+			<reverse-related count="2">Lapinized Caster</reverse-related>
+			<reverse-related count="3">Lethal Storyboarding</reverse-related>
+			<reverse-related count="2">Swan Dance</reverse-related>
+			<reverse-related>Performers of Purpose</reverse-related>
+			<reverse-related>Pensive Supporter</reverse-related>
+			<reverse-related count="4">Sophie&apos;s Final Wish</reverse-related>
+			<reverse-related>Flowering Gardens</reverse-related>
 		</card>
 		<card>
 			<name>Seraph of the Stage</name>
@@ -4699,10 +4699,10 @@ At the beginning of each end step, if there are five or more +1/+1 counters amon
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Closing-Act Abomination</reverse_related>
-			<reverse_related count="3">Perfect the Models</reverse_related>
-			<reverse_related>Mindscape Ripper</reverse_related>
-			<reverse_related>Stolen Light</reverse_related>
+			<reverse-related>Closing-Act Abomination</reverse-related>
+			<reverse-related count="3">Perfect the Models</reverse-related>
+			<reverse-related>Mindscape Ripper</reverse-related>
+			<reverse-related>Stolen Light</reverse-related>
 		</card>
 		<card>
 			<name>Token Swamp ACT</name>
@@ -4719,7 +4719,7 @@ At the beginning of each end step, if there are five or more +1/+1 counters amon
 			</prop>
 			<tablerow>0</tablerow>
 			<token>1</token>
-			<reverse_related>Make a Plan</reverse_related>
+			<reverse-related>Make a Plan</reverse-related>
 		</card>
 		<card>
 			<name>ACT Treasure ACT</name>
@@ -4735,16 +4735,16 @@ At the beginning of each end step, if there are five or more +1/+1 counters amon
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Fatal Method Acting</reverse_related>
-			<reverse_related>Arms Tinkerer</reverse_related>
-			<reverse_related>The Disappearance of Faye</reverse_related>
-			<reverse_related>Salvage the Stitchings</reverse_related>
-			<reverse_related>Lapinized Caster</reverse_related>
-			<reverse_related>Main Role Maiden</reverse_related>
-			<reverse_related>Pernicious Plagiarist</reverse_related>
-			<reverse_related>The Last Stand</reverse_related>
-			<reverse_related> Xiyue Dragondancer</reverse_related>
-			<reverse_related> Tales from the Fallen Court</reverse_related>
+			<reverse-related>Fatal Method Acting</reverse-related>
+			<reverse-related>Arms Tinkerer</reverse-related>
+			<reverse-related>The Disappearance of Faye</reverse-related>
+			<reverse-related>Salvage the Stitchings</reverse-related>
+			<reverse-related>Lapinized Caster</reverse-related>
+			<reverse-related>Main Role Maiden</reverse-related>
+			<reverse-related>Pernicious Plagiarist</reverse-related>
+			<reverse-related>The Last Stand</reverse-related>
+			<reverse-related> Xiyue Dragondancer</reverse-related>
+			<reverse-related> Tales from the Fallen Court</reverse-related>
 		</card>
 		<card>
 			<name>ACT Weapon ACT</name>
@@ -4761,7 +4761,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>The Disappearance of Faye</reverse_related>
+			<reverse-related>The Disappearance of Faye</reverse-related>
 		</card>
 		<card>
 			<name>ACT Clue ACT</name>
@@ -4777,8 +4777,8 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>The Disappearance of Faye</reverse_related>
-			<reverse_related>Eldon and Eleanor, Sleuths</reverse_related>
+			<reverse-related>The Disappearance of Faye</reverse-related>
+			<reverse-related>Eldon and Eleanor, Sleuths</reverse-related>
 		</card>
 		<card>
 			<name>Horror Knight ACT</name>
@@ -4797,7 +4797,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>A Princess Plea</reverse_related>
+			<reverse-related>A Princess Plea</reverse-related>
 		</card>
 		<card>
 			<name>Horror ACT</name>
@@ -4816,8 +4816,8 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Sower of Seeds</reverse_related>
-			<reverse_related> The Malevolence Chronicles</reverse_related>
+			<reverse-related>Sower of Seeds</reverse-related>
+			<reverse-related> The Malevolence Chronicles</reverse-related>
 		</card>
 		<card>
 			<name>Token Mountain ACT</name>
@@ -4834,7 +4834,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>0</tablerow>
 			<token>1</token>
-			<reverse_related>Make a Plan</reverse_related>
+			<reverse-related>Make a Plan</reverse-related>
 		</card>
 		<card>
 			<name>Token Plains ACT</name>
@@ -4851,7 +4851,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>0</tablerow>
 			<token>1</token>
-			<reverse_related>Make a Plan</reverse_related>
+			<reverse-related>Make a Plan</reverse-related>
 		</card>
 		<card>
 			<name>Token Forest ACT</name>
@@ -4868,7 +4868,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>0</tablerow>
 			<token>1</token>
-			<reverse_related>Make a Plan</reverse_related>
+			<reverse-related>Make a Plan</reverse-related>
 		</card>
 		<card>
 			<name>Token Island ACT</name>
@@ -4885,7 +4885,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>0</tablerow>
 			<token>1</token>
-			<reverse_related>Make a Plan</reverse_related>
+			<reverse-related>Make a Plan</reverse-related>
 		</card>
 		<card>
 			<name>Saga Token ACT</name>
@@ -4901,26 +4901,26 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Collect the Actors</reverse_related>
-			<reverse_related> Holding Out for a Hero</reverse_related>
-			<reverse_related> Powerful Distraction</reverse_related>
-			<reverse_related> Dig for Evidence</reverse_related>
-			<reverse_related> Dream Monologue</reverse_related>
-			<reverse_related> From Curtains to Chills</reverse_related>
-			<reverse_related> Inspect the Plot</reverse_related>
-			<reverse_related> Uncover Secrets</reverse_related>
-			<reverse_related> Defeat of the Greatest Evil</reverse_related>
-			<reverse_related> Imposing Threat</reverse_related>
-			<reverse_related> Inciting Incident</reverse_related>
-			<reverse_related> Repurpose Debris</reverse_related>
-			<reverse_related> Silent Sleep</reverse_related>
-			<reverse_related> Go Out Guns Blazing</reverse_related>
-			<reverse_related> The Highest Stakes</reverse_related>
-			<reverse_related> Timeless Rehearsal</reverse_related>
-			<reverse_related> Apprehend the Nemesis</reverse_related>
-			<reverse_related> Steal the Show</reverse_related>
-			<reverse_related> Time Stands Still and Heroes Emerge</reverse_related>
-			<reverse_related> All Part of the Show</reverse_related>
+			<reverse-related>Collect the Actors</reverse-related>
+			<reverse-related> Holding Out for a Hero</reverse-related>
+			<reverse-related> Powerful Distraction</reverse-related>
+			<reverse-related> Dig for Evidence</reverse-related>
+			<reverse-related> Dream Monologue</reverse-related>
+			<reverse-related> From Curtains to Chills</reverse-related>
+			<reverse-related> Inspect the Plot</reverse-related>
+			<reverse-related> Uncover Secrets</reverse-related>
+			<reverse-related> Defeat of the Greatest Evil</reverse-related>
+			<reverse-related> Imposing Threat</reverse-related>
+			<reverse-related> Inciting Incident</reverse-related>
+			<reverse-related> Repurpose Debris</reverse-related>
+			<reverse-related> Silent Sleep</reverse-related>
+			<reverse-related> Go Out Guns Blazing</reverse-related>
+			<reverse-related> The Highest Stakes</reverse-related>
+			<reverse-related> Timeless Rehearsal</reverse-related>
+			<reverse-related> Apprehend the Nemesis</reverse-related>
+			<reverse-related> Steal the Show</reverse-related>
+			<reverse-related> Time Stands Still and Heroes Emerge</reverse-related>
+			<reverse-related> All Part of the Show</reverse-related>
 		</card>
 		<card>
 			<name>ACT Plains</name>
@@ -5015,7 +5015,7 @@ Enchanted creature is a 5/5 creature with all creature types and flying, trample
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Jeffery Stage Manager</reverse_related>
+			<reverse-related>Jeffery Stage Manager</reverse-related>
 		</card>
 		<card>
 			<name>The Infinite Calls to Marva</name>
@@ -5416,7 +5416,7 @@ Compose (Then if you cast this from your hand, exile it and create a Saga token 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Waltz on a Nimbus</reverse_related>
+			<reverse-related>Waltz on a Nimbus</reverse-related>
 		</card>
 		<card>
 			<name>Splended Scenery</name>

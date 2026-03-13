@@ -5,7 +5,7 @@
 			<name>HOD</name>
 			<longname>Houses of Dewold</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-01-29</releasedate>
+			<releasedate>2026-03-12</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -5409,7 +5409,7 @@ At the beginning of combat on your turn, you may move a token in your reserves o
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related count="2">Capac Suyay, Grim Seeker</reverse_related>
+			<reverse-related count="2">Capac Suyay, Grim Seeker</reverse-related>
 		</card>
 		<card>
 			<name>Suyay&apos;s Soldier HOD</name>
@@ -5428,8 +5428,8 @@ At the beginning of combat on your turn, you may move a token in your reserves o
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related count="2">Capac Suyay, Grim Seeker</reverse_related>
-			<reverse_related> Intisuyu&apos;s Armies</reverse_related>
+			<reverse-related count="2">Capac Suyay, Grim Seeker</reverse-related>
+			<reverse-related> Intisuyu&apos;s Armies</reverse-related>
 		</card>
 		<card>
 			<name>Messenger of Absent Messages</name>
@@ -5463,9 +5463,9 @@ At the beginning of combat on your turn, you may move a token in your reserves o
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Call of the King</reverse_related>
-			<reverse_related> Kirsa&apos;s Page</reverse_related>
-			<reverse_related> Beckon Greatness</reverse_related>
+			<reverse-related>Call of the King</reverse-related>
+			<reverse-related> Kirsa&apos;s Page</reverse-related>
+			<reverse-related> Beckon Greatness</reverse-related>
 		</card>
 		<card>
 			<name>Scout HOD</name>
@@ -5502,7 +5502,7 @@ At the beginning of combat on your turn, you may move a token in your reserves o
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>House Negotiations</reverse_related>
+			<reverse-related>House Negotiations</reverse-related>
 		</card>
 		<card>
 			<name>Vances Claw HOD</name>
@@ -5521,7 +5521,7 @@ At the beginning of combat on your turn, you may move a token in your reserves o
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Blessing at Graven Laughs</reverse_related>
+			<reverse-related>Blessing at Graven Laughs</reverse-related>
 		</card>
 		<card>
 			<name>Lover to All HOD</name>
@@ -5540,8 +5540,8 @@ At the beginning of combat on your turn, you may move a token in your reserves o
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Beckon Greatness</reverse_related>
-			<reverse_related> William&apos;s Page</reverse_related>
+			<reverse-related>Beckon Greatness</reverse-related>
+			<reverse-related> William&apos;s Page</reverse-related>
 		</card>
 		<card>
 			<name>The Diamond of the Nye HOD</name>
@@ -5560,7 +5560,7 @@ At the beginning of combat on your turn, you may move a token in your reserves o
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Tavern Dealings</reverse_related>
+			<reverse-related>Tavern Dealings</reverse-related>
 		</card>
 		<card>
 			<name>The Occultist HOD</name>
@@ -5579,8 +5579,8 @@ At the beginning of combat on your turn, you may move a token in your reserves o
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Call of the King</reverse_related>
-			<reverse_related> Wystan&apos;s Page</reverse_related>
+			<reverse-related>Call of the King</reverse-related>
+			<reverse-related> Wystan&apos;s Page</reverse-related>
 		</card>
 		<card>
 			<name>Horror HOD</name>
@@ -5599,7 +5599,7 @@ At the beginning of combat on your turn, you may move a token in your reserves o
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Gosfridus Turnberry</reverse_related>
+			<reverse-related>Gosfridus Turnberry</reverse-related>
 		</card>
 		<card>
 			<name>Dewold Army HOD</name>
@@ -5618,7 +5618,7 @@ At the beginning of combat on your turn, you may move a token in your reserves o
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Left to Wander</reverse_related>
+			<reverse-related>Left to Wander</reverse-related>
 		</card>
 		<card>
 			<name>Young Soldier HOD</name>
@@ -5637,11 +5637,11 @@ At the beginning of combat on your turn, you may move a token in your reserves o
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Whitaker Captain</reverse_related>
-			<reverse_related count="2"> Turnberry Scout </reverse_related>
-			<reverse_related> Patrol the Geistwald</reverse_related>
-			<reverse_related> Leon&apos;s Claim</reverse_related>
-			<reverse_related> Hulking Vessel</reverse_related>
+			<reverse-related>Whitaker Captain</reverse-related>
+			<reverse-related count="2"> Turnberry Scout </reverse-related>
+			<reverse-related> Patrol the Geistwald</reverse-related>
+			<reverse-related> Leon&apos;s Claim</reverse-related>
+			<reverse-related> Hulking Vessel</reverse-related>
 		</card>
 		<card>
 			<name>Reserves HOD</name>
@@ -5676,11 +5676,11 @@ At the beginning of combat on your turn, you may move a token in your reserves o
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Knight of Skyspire</reverse_related>
-			<reverse_related> Banefort Archer</reverse_related>
-			<reverse_related> Replenishing Camp</reverse_related>
-			<reverse_related> Resolute Elk</reverse_related>
-			<reverse_related> Turnberry Overseer</reverse_related>
+			<reverse-related>Knight of Skyspire</reverse-related>
+			<reverse-related> Banefort Archer</reverse-related>
+			<reverse-related> Replenishing Camp</reverse-related>
+			<reverse-related> Resolute Elk</reverse-related>
+			<reverse-related> Turnberry Overseer</reverse-related>
 		</card>
 		<card>
 			<name>Plains</name>
@@ -5975,10 +5975,10 @@ At the beginning of combat on your turn, you may move a token in your reserves o
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Bounty Collectors</reverse_related>
-			<reverse_related count="2">Cautious Seadog</reverse_related>
-			<reverse_related>Wealthy Slabman</reverse_related>
-			<reverse_related>Writ of Supplies</reverse_related>
+			<reverse-related>Bounty Collectors</reverse-related>
+			<reverse-related count="2">Cautious Seadog</reverse-related>
+			<reverse-related>Wealthy Slabman</reverse-related>
+			<reverse-related>Writ of Supplies</reverse-related>
 		</card>
 		<card>
 			<name>Weapon HOD</name>
@@ -5995,11 +5995,11 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Camp Supplier</reverse_related>
-			<reverse_related>Sandrock Blacksmith</reverse_related>
-			<reverse_related>Weapons Holder</reverse_related>
-			<reverse_related>Heirloom Sword</reverse_related>
-			<reverse_related>Wealthy Slabman</reverse_related>
+			<reverse-related>Camp Supplier</reverse-related>
+			<reverse-related>Sandrock Blacksmith</reverse-related>
+			<reverse-related>Weapons Holder</reverse-related>
+			<reverse-related>Heirloom Sword</reverse-related>
+			<reverse-related>Wealthy Slabman</reverse-related>
 		</card>
 		<card>
 			<name>Food HOD</name>
@@ -6015,8 +6015,8 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Orcish Shepherd</reverse_related>
-			<reverse_related>Writ of Supplies</reverse_related>
+			<reverse-related>Orcish Shepherd</reverse-related>
+			<reverse-related>Writ of Supplies</reverse-related>
 		</card>
 		<card>
 			<name>Clue HOD</name>
@@ -6032,8 +6032,8 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Overt Warning</reverse_related>
-			<reverse_related> Writ of Supplies</reverse_related>
+			<reverse-related>Overt Warning</reverse-related>
+			<reverse-related> Writ of Supplies</reverse-related>
 		</card>
 		<card>
 			<name>Spirit HOD</name>

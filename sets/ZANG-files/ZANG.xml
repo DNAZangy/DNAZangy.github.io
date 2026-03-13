@@ -5,7 +5,7 @@
 			<name>ZANG</name>
 			<longname>Zangy Cube</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-02-16</releasedate>
+			<releasedate>2026-03-12</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -7827,26 +7827,26 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
 				<cmc>0</cmc>
 			</prop>
 			<tablerow>1</tablerow>
-			<reverse_related>Collect the Actors</reverse_related>
-			<reverse_related> Holding Out for a Hero</reverse_related>
-			<reverse_related> Powerful Distraction</reverse_related>
-			<reverse_related> Dig for Evidence</reverse_related>
-			<reverse_related> Dream Monologue</reverse_related>
-			<reverse_related> From Curtains to Chills</reverse_related>
-			<reverse_related> Inspect the Plot</reverse_related>
-			<reverse_related> Uncover Secrets</reverse_related>
-			<reverse_related> Defeat of the Greatest Evil</reverse_related>
-			<reverse_related> Imposing Threat</reverse_related>
-			<reverse_related> Inciting Incident</reverse_related>
-			<reverse_related> Repurpose Debris</reverse_related>
-			<reverse_related> Silent Sleep</reverse_related>
-			<reverse_related> Go Out Guns Blazing</reverse_related>
-			<reverse_related> The Highest Stakes</reverse_related>
-			<reverse_related> Timeless Rehearsal</reverse_related>
-			<reverse_related> Apprehend the Nemesis</reverse_related>
-			<reverse_related> Steal the Show</reverse_related>
-			<reverse_related> Time Stands Still and Heroes Emerge</reverse_related>
-			<reverse_related> All Part of the Show</reverse_related>
+			<reverse-related>Collect the Actors</reverse-related>
+			<reverse-related> Holding Out for a Hero</reverse-related>
+			<reverse-related> Powerful Distraction</reverse-related>
+			<reverse-related> Dig for Evidence</reverse-related>
+			<reverse-related> Dream Monologue</reverse-related>
+			<reverse-related> From Curtains to Chills</reverse-related>
+			<reverse-related> Inspect the Plot</reverse-related>
+			<reverse-related> Uncover Secrets</reverse-related>
+			<reverse-related> Defeat of the Greatest Evil</reverse-related>
+			<reverse-related> Imposing Threat</reverse-related>
+			<reverse-related> Inciting Incident</reverse-related>
+			<reverse-related> Repurpose Debris</reverse-related>
+			<reverse-related> Silent Sleep</reverse-related>
+			<reverse-related> Go Out Guns Blazing</reverse-related>
+			<reverse-related> The Highest Stakes</reverse-related>
+			<reverse-related> Timeless Rehearsal</reverse-related>
+			<reverse-related> Apprehend the Nemesis</reverse-related>
+			<reverse-related> Steal the Show</reverse-related>
+			<reverse-related> Time Stands Still and Heroes Emerge</reverse-related>
+			<reverse-related> All Part of the Show</reverse-related>
 		</card>
 		<card>
 			<name>Angel Soldier ZANG</name>
@@ -7919,7 +7919,7 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Birth of the Praetor&apos;s Voice</reverse_related>
+			<reverse-related>Birth of the Praetor&apos;s Voice</reverse-related>
 		</card>
 		<card>
 			<name>Peyma Saga Token</name>
@@ -8243,7 +8243,7 @@ Create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artif
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related count="X">Terror of Olantin</reverse_related>
+			<reverse-related count="X">Terror of Olantin</reverse-related>
 		</card>
 		<card>
 			<name>Bleeding ZANG</name>
@@ -8384,8 +8384,8 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Ameret, Pride of Cyrukan</reverse_related>
-			<reverse_related>Blade of Cyrukan</reverse_related>
+			<reverse-related>Ameret, Pride of Cyrukan</reverse-related>
+			<reverse-related>Blade of Cyrukan</reverse-related>
 		</card>
 		<card>
 			<name>Clue4 ZANG</name>
@@ -8401,13 +8401,13 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Beholding the Unknown</reverse_related>
-			<reverse_related>Following the Matchbooks</reverse_related>
-			<reverse_related>Following the Slimy Trail</reverse_related>
-			<reverse_related>More Questions than Answers</reverse_related>
-			<reverse_related>Lorre Patsy</reverse_related>
-			<reverse_related>Researcher of the Occult</reverse_related>
-			<reverse_related>Unending Curosity</reverse_related>
+			<reverse-related>Beholding the Unknown</reverse-related>
+			<reverse-related>Following the Matchbooks</reverse-related>
+			<reverse-related>Following the Slimy Trail</reverse-related>
+			<reverse-related>More Questions than Answers</reverse-related>
+			<reverse-related>Lorre Patsy</reverse-related>
+			<reverse-related>Researcher of the Occult</reverse-related>
+			<reverse-related>Unending Curosity</reverse-related>
 		</card>
 		<card>
 			<name>Marit Lage ZANG</name>
@@ -8426,7 +8426,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Embrace of Ice</reverse_related>
+			<reverse-related>Embrace of Ice</reverse-related>
 		</card>
 		<card>
 			<name>High Roller</name>

@@ -5,7 +5,7 @@
 			<name>TRX</name>
 			<longname>Theros: Age of Trax</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-01-29</releasedate>
+			<releasedate>2026-03-12</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -5331,7 +5331,7 @@ Whenever a player sacrifices a creature, Tymaret, Bane of Phenax deals 1 damage 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Patron of Ephara&apos;s Glory</reverse_related>
+			<reverse-related>Patron of Ephara&apos;s Glory</reverse-related>
 		</card>
 		<card>
 			<name>Weapon TRX</name>
@@ -5348,8 +5348,8 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Arena Champion</reverse_related>
-			<reverse_related>Anvilwrought Crane</reverse_related>
+			<reverse-related>Arena Champion</reverse-related>
+			<reverse-related>Anvilwrought Crane</reverse-related>
 		</card>
 		<card>
 			<name>Treasure TRX</name>
@@ -5365,16 +5365,16 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related count="2">Behemoth of the Five Rivers</reverse_related>
-			<reverse_related>Keeper of the Scale</reverse_related>
-			<reverse_related count="X">Apprentice of the Forge-God</reverse_related>
-			<reverse_related>Eidolon of Empty Thoughts</reverse_related>
-			<reverse_related>Raider&apos;s Blessing</reverse_related>
-			<reverse_related>Skophos Raid-Veteran</reverse_related>
-			<reverse_related>Pidae Raider</reverse_related>
-			<reverse_related count="2">Mogis&apos;s Judgment</reverse_related>
-			<reverse_related>Raksolcs Ravage-Soul</reverse_related>
-			<reverse_related>Implacable Shrine-Guard</reverse_related>
+			<reverse-related count="2">Behemoth of the Five Rivers</reverse-related>
+			<reverse-related>Keeper of the Scale</reverse-related>
+			<reverse-related count="X">Apprentice of the Forge-God</reverse-related>
+			<reverse-related>Eidolon of Empty Thoughts</reverse-related>
+			<reverse-related>Raider&apos;s Blessing</reverse-related>
+			<reverse-related>Skophos Raid-Veteran</reverse-related>
+			<reverse-related>Pidae Raider</reverse-related>
+			<reverse-related count="2">Mogis&apos;s Judgment</reverse-related>
+			<reverse-related>Raksolcs Ravage-Soul</reverse-related>
+			<reverse-related>Implacable Shrine-Guard</reverse-related>
 		</card>
 		<card>
 			<name>Army TRX</name>
@@ -5393,16 +5393,16 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Agnomakhos Justice</reverse_related>
-			<reverse_related>Archon of the Legion</reverse_related>
-			<reverse_related count="3">The Army of Trax</reverse_related>
-			<reverse_related count="X">The Army of Trax</reverse_related>
-			<reverse_related>Claes, Shield of Karda</reverse_related>
-			<reverse_related>Claes, Melded Spark</reverse_related>
-			<reverse_related>Command from the Front</reverse_related>
-			<reverse_related>Omen of Victory</reverse_related>
-			<reverse_related>Traxian General</reverse_related>
-			<reverse_related>Shrine to Iroas</reverse_related>
+			<reverse-related>Agnomakhos Justice</reverse-related>
+			<reverse-related>Archon of the Legion</reverse-related>
+			<reverse-related count="3">The Army of Trax</reverse-related>
+			<reverse-related count="X">The Army of Trax</reverse-related>
+			<reverse-related>Claes, Shield of Karda</reverse-related>
+			<reverse-related>Claes, Melded Spark</reverse-related>
+			<reverse-related>Command from the Front</reverse-related>
+			<reverse-related>Omen of Victory</reverse-related>
+			<reverse-related>Traxian General</reverse-related>
+			<reverse-related>Shrine to Iroas</reverse-related>
 		</card>
 		<card>
 			<name>Human TRX</name>
@@ -5421,15 +5421,15 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related count="2">The Fall of Trax</reverse_related>
-			<reverse_related count="X">Shrine to Heliod</reverse_related>
-			<reverse_related>The Founding of the Twelve</reverse_related>
-			<reverse_related>Harmony with Nature</reverse_related>
-			<reverse_related>Skola Nyxweaver</reverse_related>
-			<reverse_related count="4">Iroas&apos;s Judgment</reverse_related>
-			<reverse_related>Shrine to Karametra</reverse_related>
-			<reverse_related count="2">Shrine to Karametra</reverse_related>
-			<reverse_related>Implacable Shrine-Guard</reverse_related>
+			<reverse-related count="2">The Fall of Trax</reverse-related>
+			<reverse-related count="X">Shrine to Heliod</reverse-related>
+			<reverse-related>The Founding of the Twelve</reverse-related>
+			<reverse-related>Harmony with Nature</reverse-related>
+			<reverse-related>Skola Nyxweaver</reverse-related>
+			<reverse-related count="4">Iroas&apos;s Judgment</reverse-related>
+			<reverse-related>Shrine to Karametra</reverse-related>
+			<reverse-related count="2">Shrine to Karametra</reverse-related>
+			<reverse-related>Implacable Shrine-Guard</reverse-related>
 		</card>
 		<card>
 			<name>Snake TRX</name>
@@ -5448,8 +5448,8 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Pharika, Snake-Twined</reverse_related>
-			<reverse_related>Pharika&apos;s Judgment</reverse_related>
+			<reverse-related>Pharika, Snake-Twined</reverse-related>
+			<reverse-related>Pharika&apos;s Judgment</reverse-related>
 		</card>
 		<card>
 			<name>Tentacle TRX</name>
@@ -5468,7 +5468,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related count="X">Terror of Olantin</reverse_related>
+			<reverse-related count="X">Terror of Olantin</reverse-related>
 		</card>
 		<card>
 			<name>Soldier TRX</name>
@@ -5487,9 +5487,9 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Eidolon of Empty Thoughts</reverse_related>
-			<reverse_related>Karda&apos;s Legacy</reverse_related>
-			<reverse_related count="2">Rally the Hoplites</reverse_related>
+			<reverse-related>Eidolon of Empty Thoughts</reverse-related>
+			<reverse-related>Karda&apos;s Legacy</reverse-related>
+			<reverse-related count="2">Rally the Hoplites</reverse-related>
 		</card>
 		<card>
 			<name>Follower TRX</name>
@@ -5506,7 +5506,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Petros, Purphoros&apos;s Double</reverse_related>
+			<reverse-related>Petros, Purphoros&apos;s Double</reverse-related>
 		</card>
 		<card>
 			<name>Zombie TRX</name>
@@ -5525,9 +5525,9 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>New Recruit</reverse_related>
-			<reverse_related count="2">Kakomanties Circle</reverse_related>
-			<reverse_related>Rite of Venom</reverse_related>
+			<reverse-related>New Recruit</reverse-related>
+			<reverse-related count="2">Kakomanties Circle</reverse-related>
+			<reverse-related>Rite of Venom</reverse-related>
 		</card>
 		<card>
 			<name>Wizard TRX</name>
@@ -5546,7 +5546,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related count="2">Meeting of the Minds</reverse_related>
+			<reverse-related count="2">Meeting of the Minds</reverse-related>
 		</card>
 		<card>
 			<name>Kraken TRX</name>
@@ -5565,7 +5565,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Tide&apos;s Ire</reverse_related>
+			<reverse-related>Tide&apos;s Ire</reverse-related>
 		</card>
 		<card>
 			<name>Tromokratis TRX</name>
@@ -5584,7 +5584,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Tide&apos;s Ire</reverse_related>
+			<reverse-related>Tide&apos;s Ire</reverse-related>
 		</card>
 		<card>
 			<name>Centaur TRX</name>
@@ -5603,7 +5603,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related count="2">Traxian Calvary</reverse_related>
+			<reverse-related count="2">Traxian Calvary</reverse-related>
 		</card>
 		<card>
 			<name>Grim Physician</name>
@@ -5639,7 +5639,7 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Thraxes, Sire of Dragons</reverse_related>
+			<reverse-related>Thraxes, Sire of Dragons</reverse-related>
 		</card>
 		<card>
 			<name>Charging Brightmare</name>
@@ -5794,8 +5794,8 @@ Whenever Arena Champion attacks, create a Weapon token, then attach it to an att
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Blessings of the Flock</reverse_related>
-			<reverse_related>Charging Brightmare</reverse_related>
+			<reverse-related>Blessings of the Flock</reverse-related>
+			<reverse-related>Charging Brightmare</reverse-related>
 		</card>
 		<card>
 			<name>Quality Time</name>
@@ -6142,7 +6142,7 @@ Enchanted creature gets +1/+0 and can&apos;t be blocked.
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related count="X">Lost to Memory</reverse_related>
+			<reverse-related count="X">Lost to Memory</reverse-related>
 		</card>
 		<card>
 			<name>Iara, Blessed-Hart</name>
@@ -6253,7 +6253,7 @@ Whenever a creature with deathtouch you control deals combat damage to a player 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related count="3">Fable of Tooth and Fur</reverse_related>
+			<reverse-related count="3">Fable of Tooth and Fur</reverse-related>
 		</card>
 		<card>
 			<name>Snake TRX</name>
@@ -6272,7 +6272,7 @@ Whenever a creature with deathtouch you control deals combat damage to a player 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Pharika, Snake-Twined</reverse_related>
+			<reverse-related>Pharika, Snake-Twined</reverse-related>
 		</card>
 		<card>
 			<name>A God Divided</name>

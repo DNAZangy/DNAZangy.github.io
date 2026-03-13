@@ -5,7 +5,7 @@
 			<name>ALK</name>
 			<longname>Alkabah</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-01-29</releasedate>
+			<releasedate>2026-03-12</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -5122,27 +5122,27 @@ When Vizier of Lies enters, you may return target instant or sorcery card from y
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related count="2">Affluent Knight</reverse_related>
-			<reverse_related>Kahroba Guardians</reverse_related>
-			<reverse_related>Aid from Martoob</reverse_related>
-			<reverse_related>Armys Suppliers</reverse_related>
-			<reverse_related>Assault of the Conscripted</reverse_related>
-			<reverse_related>Kahroba General</reverse_related>
-			<reverse_related>Bringer of Armies</reverse_related>
-			<reverse_related>Call of Reinforcements</reverse_related>
-			<reverse_related>Desperate Stand</reverse_related>
-			<reverse_related>Devastating Charge</reverse_related>
-			<reverse_related>Divine Splendor</reverse_related>
-			<reverse_related>Endless Infantry</reverse_related>
-			<reverse_related>Enlist</reverse_related>
-			<reverse_related>Grand Stand at Danaj</reverse_related>
-			<reverse_related>Hold Captive</reverse_related>
-			<reverse_related>Mahara, the Universal</reverse_related>
-			<reverse_related>Paladin of Order</reverse_related>
-			<reverse_related>Saeedi Kahroba, Daughter</reverse_related>
-			<reverse_related>Scouting Party</reverse_related>
-			<reverse_related>Siaveed, Commander of Armies</reverse_related>
-			<reverse_related>War&apos;s Trauma</reverse_related>
+			<reverse-related count="2">Affluent Knight</reverse-related>
+			<reverse-related>Kahroba Guardians</reverse-related>
+			<reverse-related>Aid from Martoob</reverse-related>
+			<reverse-related>Armys Suppliers</reverse-related>
+			<reverse-related>Assault of the Conscripted</reverse-related>
+			<reverse-related>Kahroba General</reverse-related>
+			<reverse-related>Bringer of Armies</reverse-related>
+			<reverse-related>Call of Reinforcements</reverse-related>
+			<reverse-related>Desperate Stand</reverse-related>
+			<reverse-related>Devastating Charge</reverse-related>
+			<reverse-related>Divine Splendor</reverse-related>
+			<reverse-related>Endless Infantry</reverse-related>
+			<reverse-related>Enlist</reverse-related>
+			<reverse-related>Grand Stand at Danaj</reverse-related>
+			<reverse-related>Hold Captive</reverse-related>
+			<reverse-related>Mahara, the Universal</reverse-related>
+			<reverse-related>Paladin of Order</reverse-related>
+			<reverse-related>Saeedi Kahroba, Daughter</reverse-related>
+			<reverse-related>Scouting Party</reverse-related>
+			<reverse-related>Siaveed, Commander of Armies</reverse-related>
+			<reverse-related>War&apos;s Trauma</reverse-related>
 		</card>
 		<card>
 			<name>black Snake ALK</name>
@@ -5161,7 +5161,7 @@ When Vizier of Lies enters, you may return target instant or sorcery card from y
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Boon of the Pacts</reverse_related>
+			<reverse-related>Boon of the Pacts</reverse-related>
 		</card>
 		<card>
 			<name>Dog ALK</name>
@@ -5180,7 +5180,7 @@ When Vizier of Lies enters, you may return target instant or sorcery card from y
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Fang of Andazir</reverse_related>
+			<reverse-related>Fang of Andazir</reverse-related>
 		</card>
 		<card>
 			<name>Horror ALK</name>
@@ -5199,7 +5199,7 @@ When Vizier of Lies enters, you may return target instant or sorcery card from y
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Tamaak&apos;s Influence</reverse_related>
+			<reverse-related>Tamaak&apos;s Influence</reverse-related>
 		</card>
 		<card>
 			<name>Snake ALK</name>
@@ -5218,8 +5218,8 @@ When Vizier of Lies enters, you may return target instant or sorcery card from y
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Bane of Endless Snakes</reverse_related>
-			<reverse_related>Martoobs Command</reverse_related>
+			<reverse-related>Bane of Endless Snakes</reverse-related>
+			<reverse-related>Martoobs Command</reverse-related>
 		</card>
 		<card>
 			<name>Shir ALK</name>
@@ -5256,7 +5256,7 @@ When Vizier of Lies enters, you may return target instant or sorcery card from y
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related count="3">Gathering of Minds</reverse_related>
+			<reverse-related count="3">Gathering of Minds</reverse-related>
 		</card>
 		<card>
 			<name>Citizen ALK</name>
@@ -5273,7 +5273,7 @@ When Vizier of Lies enters, you may return target instant or sorcery card from y
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Distant Lover</reverse_related>
+			<reverse-related>Distant Lover</reverse-related>
 		</card>
 		<card>
 			<name>Bird ALK</name>
@@ -5292,8 +5292,8 @@ When Vizier of Lies enters, you may return target instant or sorcery card from y
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Falconeering</reverse_related>
-			<reverse_related count="2">Skythrone Aviary</reverse_related>
+			<reverse-related>Falconeering</reverse-related>
+			<reverse-related count="2">Skythrone Aviary</reverse-related>
 		</card>
 		<card>
 			<name>Demon ALK</name>
@@ -5312,7 +5312,7 @@ When Vizier of Lies enters, you may return target instant or sorcery card from y
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Piruz, the Fourth Shah</reverse_related>
+			<reverse-related>Piruz, the Fourth Shah</reverse-related>
 		</card>
 		<card>
 			<name>Rogue ALK</name>
@@ -5331,7 +5331,7 @@ When Vizier of Lies enters, you may return target instant or sorcery card from y
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Treasure Hoard</reverse_related>
+			<reverse-related>Treasure Hoard</reverse-related>
 		</card>
 		<card>
 			<name>Soldier 3 ALK</name>
@@ -5350,7 +5350,7 @@ When Vizier of Lies enters, you may return target instant or sorcery card from y
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related count="2">Kaneh Troops</reverse_related>
+			<reverse-related count="2">Kaneh Troops</reverse-related>
 		</card>
 		<card>
 			<name>Insect ALK</name>
@@ -5369,8 +5369,8 @@ When Vizier of Lies enters, you may return target instant or sorcery card from y
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Aminatou, Justicar</reverse_related>
-			<reverse_related count="3">Aminatou&apos;s Touch</reverse_related>
+			<reverse-related>Aminatou, Justicar</reverse-related>
+			<reverse-related count="3">Aminatou&apos;s Touch</reverse-related>
 		</card>
 		<card>
 			<name>Treasure ALK</name>
@@ -5386,12 +5386,12 @@ When Vizier of Lies enters, you may return target instant or sorcery card from y
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Sahra Poet-Priest</reverse_related>
-			<reverse_related>Succumb to the Div</reverse_related>
-			<reverse_related>Swindle the Rapacious</reverse_related>
-			<reverse_related>Rahstahde Flamespeaker</reverse_related>
-			<reverse_related>Rahstahde Truthseeker</reverse_related>
-			<reverse_related count="2">Treasure Hoard</reverse_related>
+			<reverse-related>Sahra Poet-Priest</reverse-related>
+			<reverse-related>Succumb to the Div</reverse-related>
+			<reverse-related>Swindle the Rapacious</reverse-related>
+			<reverse-related>Rahstahde Flamespeaker</reverse-related>
+			<reverse-related>Rahstahde Truthseeker</reverse-related>
+			<reverse-related count="2">Treasure Hoard</reverse-related>
 		</card>
 		<card>
 			<name>Weapon ALK</name>
@@ -5408,8 +5408,8 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Ameret, Pride of Cyrukan</reverse_related>
-			<reverse_related>Blade of Cyrukan</reverse_related>
+			<reverse-related>Ameret, Pride of Cyrukan</reverse-related>
+			<reverse-related>Blade of Cyrukan</reverse-related>
 		</card>
 		<card>
 			<name>Mercantile Satrapy</name>
@@ -5443,7 +5443,7 @@ Satrapies you control enter untapped.</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>The Path of Greatness</reverse_related>
+			<reverse-related>The Path of Greatness</reverse-related>
 		</card>
 		<card>
 			<name>red Sand ALK</name>
@@ -5462,7 +5462,7 @@ Satrapies you control enter untapped.</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Dunesea Protectors</reverse_related>
+			<reverse-related>Dunesea Protectors</reverse-related>
 		</card>
 		<card>
 			<name>blue Sand ALK</name>
@@ -5481,7 +5481,7 @@ Satrapies you control enter untapped.</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Dunsea Protectors</reverse_related>
+			<reverse-related>Dunsea Protectors</reverse-related>
 		</card>
 		<card>
 			<name>green Sand ALK</name>
@@ -5500,7 +5500,7 @@ Satrapies you control enter untapped.</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Dunesea Protectors</reverse_related>
+			<reverse-related>Dunesea Protectors</reverse-related>
 		</card>
 		<card>
 			<name>white Sand ALK</name>
@@ -5519,7 +5519,7 @@ Satrapies you control enter untapped.</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Dunesea Protectors</reverse_related>
+			<reverse-related>Dunesea Protectors</reverse-related>
 		</card>
 		<card>
 			<name>Illusion ALK</name>
@@ -5536,7 +5536,7 @@ Satrapies you control enter untapped.</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Div of Bonded Souls</reverse_related>
+			<reverse-related>Div of Bonded Souls</reverse-related>
 		</card>
 		<card>
 			<name>Grandstanding Huma</name>
@@ -5715,7 +5715,7 @@ Enchanted creature gets +1/+1 and can&apos;t be blocked by creatures with flying
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Change of Station</reverse_related>
+			<reverse-related>Change of Station</reverse-related>
 		</card>
 		<card>
 			<name>Ironhide Hadhayosh</name>
@@ -6113,7 +6113,7 @@ At the beginning of each end step, scry X, you gain X life, and Nakia, Infinity 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Martoobs Command</reverse_related>
+			<reverse-related>Martoobs Command</reverse-related>
 		</card>
 		<card>
 			<name>blue Bird ALK</name>
@@ -6132,7 +6132,7 @@ At the beginning of each end step, scry X, you gain X life, and Nakia, Infinity 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Martoobs Command</reverse_related>
+			<reverse-related>Martoobs Command</reverse-related>
 		</card>
 		<card>
 			<name>Angel ALK</name>
@@ -6151,7 +6151,7 @@ At the beginning of each end step, scry X, you gain X life, and Nakia, Infinity 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Angel of Infinite Faces</reverse_related>
+			<reverse-related>Angel of Infinite Faces</reverse-related>
 		</card>
 		<card>
 			<name>Soldier 2 ALK</name>
@@ -6170,8 +6170,8 @@ At the beginning of each end step, scry X, you gain X life, and Nakia, Infinity 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Conquerer&apos;s Blade</reverse_related>
-			<reverse_related>Rahstahdes Command</reverse_related>
+			<reverse-related>Conquerer&apos;s Blade</reverse-related>
+			<reverse-related>Rahstahdes Command</reverse-related>
 		</card>
 		<card>
 			<name>Treasure 2 ALK</name>
@@ -6187,12 +6187,12 @@ At the beginning of each end step, scry X, you gain X life, and Nakia, Infinity 
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related count="3">Ascended Alchemist</reverse_related>
-			<reverse_related count="2">Bustling Bizzare</reverse_related>
-			<reverse_related>Dispute</reverse_related>
-			<reverse_related count="2">Doomed Alchemist</reverse_related>
-			<reverse_related>Furnished Ghul</reverse_related>
-			<reverse_related>Hidden Cache</reverse_related>
+			<reverse-related count="3">Ascended Alchemist</reverse-related>
+			<reverse-related count="2">Bustling Bizzare</reverse-related>
+			<reverse-related>Dispute</reverse-related>
+			<reverse-related count="2">Doomed Alchemist</reverse-related>
+			<reverse-related>Furnished Ghul</reverse-related>
+			<reverse-related>Hidden Cache</reverse-related>
 		</card>
 		<card>
 			<name>Satrapy General</name>

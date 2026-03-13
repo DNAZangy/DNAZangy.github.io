@@ -1,4 +1,907 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+Officer of Shared Skin added.
+Damien, Painter of All Colors added.
+Grizzled Precinct Warden added.
+Scaredy Cat added.
+Catscratch Racketeer added.
+Betrayer of Silken Tongues added.
+Vineclaimed Witness added.
+
+Uniter of Holy Flames removed.
+Prodigy of the Opulent removed.
+
+Framed Collection
+
+Learned Rabota
+
+Haunted Widower
+
+Raise the Alarm
+
+Skybound Constable
+
+Lorre Patsy
+
+Gutbucket Gang
+
+Mabuse Recruiter
+
+Hero of the Force
+rules_text: Flying
+Whenever three or more creatures you control aren't blocked, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Flying
+Whenever three or more creatures you control aren't blocked, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Hound of the Bureau
+rules_text: Vigilance
+When Hound of the Bureau enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Vigilance
+When Hound of the Bureau enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Purifier of Division
+
+Asset Protection Manager
+rules_text: Betrayal {3}{W} [i]({3}{W}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+When Asset Protection Manager enters, exile target nonland permanent an opponent controls until Asset Protection Manager leaves the battlefield. => Betrayal {3}{W} [i](You may cast this spell for {3}{W} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+When Asset Protection Manager enters, exile target nonland permanent an opponent controls until Asset Protection Manager leaves the battlefield.
+
+Wrapped in Quiet Lies
+
+Stunning Irruption
+
+Marked for Grace
+
+Lift Archaic Wards
+rules_text: Choose one —
+• Destroy target artifact or enchantment.
+• Exile target creature you control, then return it to the battlefield. [i](This causes creature counters to become creature tokens.)[/i] => Choose one —
+• Destroy target artifact or battle.
+• Exile target creature you control, then return it to the battlefield. [i](This causes creature counters to become creature tokens.)[/i]
+
+Sleep in Company
+
+Sinister Thought-Snatcher
+rules_text: Flying
+When Sinister Thought-Snatcher enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Flying
+When Sinister Thought-Snatcher enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Deepsea Detective
+
+Papertrail Trickster
+
+Drift of the Departed
+
+Sleuth of the Deep Hours
+rules_text: Betrayal {1}{U} [i]({1}{U}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Sleuth of the Deep Hours deals combat damage to a player or noncreature permanent, draw a card. => Betrayal {1}{U} [i](You may cast this spell for {1}{U} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Sleuth of the Deep Hours deals combat damage to a player or noncreature permanent, draw a card.
+
+Squeak-ret Operative
+
+Brute of the Velvet Rope
+rules_text: Betrayal {3}{U} [i]({3}{U}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+When Brute of the Velvet Rope enters, return target creature to its owner's hand. If Brute of the Velvet Rope betrayed a creature, instead you may have that creature's owner puts it on the top or bottom of their library. => Betrayal {3}{U} [i](You may cast this spell for {3}{U} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+When Brute of the Velvet Rope enters, return target creature to its owner's hand. If Brute of the Velvet Rope betrayed a creature, instead you may have that creature's owner puts it on the top or bottom of their library.
+
+Stool Pidgeon
+rules_text: Flash
+Flying
+When Stool Pidgeon enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Flash
+Flying
+When Stool Pidgeon enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Skyline Snooper
+
+Missing Piece of Reality
+rules_text: Counter target spell unless its controller pays {X}.
+{1}{U}, Exile Missing Piece of Reality from your graveyard: Surveil 2, then investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Counter target spell unless its controller pays {X}.
+{1}{U}, Exile Missing Piece of Reality from your graveyard: Surveil 2, then investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Spill the Beans
+rules_text: Draw a card.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Draw a card.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Proboscidian Transmutation
+
+Refuse the Ruse
+
+Woke Up Wrong
+
+Defensive Stratagem
+
+Mockery of Flesh
+
+Lorre Blackmailer
+
+Woman with a Past
+
+Arrogant Moroii
+
+Truthsniffer
+rules_text: When Truthsniffer enters, target opponent reveals their hand. You may choose a nonland card from it and that player discards that card. If no cards were discarded this way, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => When Truthsniffer enters, target opponent reveals their hand. You may choose a nonland card from it and that player discards that card. If no cards were discarded this way, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Lorre Bagman
+rules_text: Betrayal {1}{B} [i]({1}{B}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Medium Creature deals combat damage to a player or noncreature permanent, create a tapped Treasure token. => Betrayal {1}{B} [i](You may cast this spell for {1}{B} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Medium Creature deals combat damage to a player or noncreature permanent, create a tapped Treasure token.
+
+Unweaving Raven
+
+Whisperer to the Chthonic
+rules_text: Betrayal {3}{B} [i]({3}{B}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Whisperer to the Chthonic deals combat damage to a player or noncreature permanent, you may return target creature card from your graveyard to your hand. => Betrayal {3}{B} [i](You may cast this spell for {3}{B} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Whisperer to the Chthonic deals combat damage to a player or noncreature permanent, you may return target creature card from your graveyard to your hand.
+
+Perimeter Lookout
+
+Stage the Grift
+
+Thread of Obsession
+rules_text: You draw a card and you lose 1 life.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => You draw a card and you lose 1 life.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Perseverance
+
+A Step Too Late
+
+Become Ashes
+
+Searing Redemption
+
+Veiled Scapegoat
+rules_text: Prowess
+When Veiled Scapegoat dies, if its power was 2 or greater, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Prowess
+When Veiled Scapegoat dies, if its power was 2 or greater, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Pawn of Plenty
+
+Moroii Initiate
+
+Precinct Director
+rules_text: Betrayal {R} [i]({R}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+When Precinct Director enters, target creature gets +1/+0 and gains first strike until end of turn. => Betrayal {R} [i](You may cast this spell for {R} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+When Precinct Director enters, target creature gets +1/+0 and gains first strike until end of turn.
+
+Veda's Ears
+
+Star of the Gala
+
+Fox Agency Infiltrator
+rules_text: Haste
+Whenever Fox Agency Infiltrator attacks, you may sacrifice a permanent. If you do, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Haste
+Whenever Fox Agency Infiltrator attacks, you may sacrifice a permanent. If you do, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Ill-Mannered Aberration
+
+Chum Collector
+rules_text: Betrayal {4}{R} [i]({4}{R}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Trample
+When Chum Collector enters, you may have it deal 3 damage to any target. => Betrayal {4}{R} [i](You may cast this spell for {4}{R} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Trample
+When Chum Collector enters, you may have it deal 3 damage to any target.
+
+Famished Moroii
+
+Wrap Up
+
+Confession by Gunfire
+
+Affair by Candlelight
+
+Blood Fugue
+
+Boiler Ambush
+
+Dustridden Smuggler
+
+Inspector of the Wilds
+rules_text: When Inspector of the Wilds enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+{T}: Add {G}. => When Inspector of the Wilds enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+{T}: Add {G}.
+
+Furline Smuggler
+rules_text: Betrayal {G} [i]({G}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+When Furline Smuggler enters, target creature gains trample until end of turn. => Betrayal {G} [i](You may cast this spell for {G} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+When Furline Smuggler enters, target creature gains trample until end of turn.
+
+Unwitting Devotee
+
+Unknowing Devotee
+
+Lawbound Tracker
+
+Red-Lipped Dame
+
+Catscratch Bouncer
+rules_text: Betrayal {3}{G} [i]({3}{G}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Catscratch Bouncer deals combat damage to a player or noncreature permanent, create a 1/1 red Rogue creature token. => Betrayal {3}{G} [i](You may cast this spell for {3}{G} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Catscratch Bouncer deals combat damage to a player or noncreature permanent, create a 1/1 red Rogue creature token.
+
+Innocent Stray
+
+Coopmaster
+
+Tampered Instincts
+
+Prizefight
+
+Weighted Farewell
+
+Dust Overload
+rules_text: Target creature gets +2/+2 until end of turn. Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Target creature gets +2/+2 until end of turn. Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Sunset on the Cawyer
+
+Outlands Sifter
+
+Pilfered Jewels
+
+Fusebreaker
+
+Whispered Refuge
+rules_text: {T}, Sacrifice Whispered Refuge: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+{T}, Sacrifice Whispered Refuge: Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => {T}, Sacrifice Whispered Refuge: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+{T}, Sacrifice Whispered Refuge: Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Entry to Preservation
+
+Entry to Divergence
+
+Entry to Ambition
+
+Entry to Indulgence
+
+Entry to Ruin
+
+Thief of the Masked Benefactor
+
+District Nine Runner
+
+Gold-Tongued Broker
+
+Guardian of the Badge
+rules_text: Whenever Guardian of the Badge attacks, up to two other attacking creatures with lesser power gain indestructible until end of turn. 
+When this creature dies, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Whenever Guardian of the Badge attacks, up to two other attacking creatures with lesser power gain indestructible until end of turn. 
+When this creature dies, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Everyone's Acquaintance
+
+Faith-Eaten Penitent
+
+Drift of Griffins
+
+Candle for Those Gone
+type: Creature — Spirit => Creature — Angel Horror Soldier
+rules_text: When Candle for Those Gone enters, put a 1/1 blue Spirit creature counter with flying on each other creature you control. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+Whenever a creature you control dies, if it didn't have counters on it, put a 1/1 blue Spirit creature counter with flying on Candle for Those Gone. => Flying
+When Candle for Those Gone enters, exile up to three cards from graveyards. Put a 1/1 blue Spirit creature counter with flying on Candle for Those Gone for each card exiled from your graveyard this way. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+pt: 2/4 => 3/4
+
+Rekindled Purpose
+
+Herald of Unity
+rules_text: Betrayal {4}{W} [i]({4}{W}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Flying
+When Herald of Unity enters, if it didn't enter from exile, return target permanent card with mana value 3 or less from your graveyard to the battlefield. => Betrayal {4}{W} [i](You may cast this spell for {4}{W} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Flying
+When Herald of Unity enters, if you cast it, return target permanent card with mana value 3 or less from your graveyard to the battlefield.
+
+Containment Sigil
+
+Glimmer of the Chase
+
+Vanishing Act
+cost: {W} => {1}{W}
+rules_text: Exile target creature, then return it to the battlefield under its owner's control.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Exile target creature, then return it to the battlefield under its owner's control.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Case in Motion
+rules_text: Whenever you attack with three or more creatures, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+{2}, Sacrifice a Clue: Create a 2/2 white Soldier creature token. It can't block this turn. => Whenever you attack with three or more creatures, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+{2}, Sacrifice a Clue: Create a 2/2 white Soldier creature token. It can't block this turn.
+
+Quiet Audit
+
+Terms of Salvation
+
+A Forged Familicide
+
+Voicewoven Heretic
+rules_text: Prowess
+Whenever Voicewoven Heretic deals combat damage to a player or noncreature permanent, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Prowess
+Whenever Voicewoven Heretic deals combat damage to a player or noncreature permanent, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Pipeway Inspector
+
+Muckraker Seeker
+rules_text: {T}, Sacrifice a Clue: Draw a card.
+At the beginning of your end step, if three or more creatures dealt combat damage to a player or noncreature permanent this turn, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => {T}, Sacrifice a Clue: Draw a card.
+At the beginning of your end step, if three or more creatures dealt combat damage to a player or noncreature permanent this turn, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Melodic Mole
+rules_text: Flash
+Whenever you cast your first spell during an opponent's turn, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Flash
+Whenever you cast your first spell during an opponent's turn, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Master of Quiet Crimes
+
+Invasion of the Thought-Snatchers
+
+Hardline Enforcer
+rules_text: Flash
+Betrayal {U} [i]({U}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+When Hardline Enforcer enters, target creature phases out. [i](Treat it and anything attached to it as though they don't exist until its controller's next turn.)[/i] => Flash
+Betrayal {U} [i](You may cast this spell for {U} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+When Hardline Enforcer enters, target creature phases out. [i](Treat it and anything attached to it as though they don't exist until its controller's next turn.)[/i]
+
+Mabuse Mastermind
+
+Hull-Cracker Kraken
+
+Reconstruct The Scene
+rules_text: Investigate, then sacrifice any number of Clues. Surveil 3, then draw a card for each Clue sacrificed this way. [i](To investigate, create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Investigate, then sacrifice any number of Clues. Surveil 3, then draw a card for each Clue sacrificed this way. [i](To investigate, create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Still the Pandemonium
+rules_text: Counter target noncreature spell.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Counter target noncreature spell.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Inheritance of Thought
+
+Strange Disappearance
+
+Formally Missing
+
+Arcane Kenning
+
+Low Tide, High Stakes
+
+Impressions of Oil and Flesh
+
+Scene Reader
+rules_text: Whenever Scene Reader or another nonartifact creature you control dies, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Whenever Scene Reader or another nonartifact creature you control dies, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Threadbound Remnant
+
+Lurking Abominations
+
+Threadcloaked Operative
+rules_text: Betrayal {1}{B} [i]({1}{B}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Menace
+Whenever Threadcloaked Operative deals combat damage to a player or noncreature permanent, each opponent discards a card. => Betrayal {1}{B} [i](You may cast this spell for {1}{B} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Menace
+Whenever Threadcloaked Operative deals combat damage to a player or noncreature permanent, each opponent discards a card.
+
+Smooth-Tongued Extractor
+rules_text: Betrayal {1}{B}{B} [i]({1}{B}{B}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Smooth-Tongued Extractor deals combat damage to a player or noncreature permanent, mill three cards, then return a card milled this way to your hand. => Betrayal {1}{B}{B} [i](You may cast this spell for {1}{B}{B} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Smooth-Tongued Extractor deals combat damage to a player or noncreature permanent, mill three cards, then return a card milled this way to your hand.
+
+Tethered Killer
+rules_text: Tethered Killer can't block.
+When Tethered Killer dies, exile it. If you do, put a creature counter that's a copy of it on target permanent you control. You lose 1 life. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i] => Tethered Killer can't block.
+When Tethered Killer dies, you may exile it. If you do, put a creature counter that's a copy of it on target permanent you control. You lose 2 life. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+
+Schedule Maker
+
+Harbinger of Grey
+
+Unworthy Vessel
+
+Deadly Interrogation
+
+Nothing Left to Lose
+
+Buried in Deadlines
+
+The Spider's Bite
+
+Medium of Madness
+rules_text: When Medium of Madness enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+Whenever you sacrifice a permanent, each opponent loses 1 life and you gain 1 life. => When Medium of Madness enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+Whenever you sacrifice a permanent, each opponent loses 1 life and you gain 1 life.
+
+Behind Every Corner
+
+A Wake in Shadows
+
+No Clean Way Out
+
+Clawed Coquette
+
+Silkclad Socialite
+
+Fangpoint Bargainer
+
+Furensics Expert
+rules_text: When Furensics Expert enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+Clues you control have “Sacrifice this artifact: Exile the top card of your library. You may play it this turn” and lose all other abilities. => When Furensics Expert enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+Clues you control have “Sacrifice this artifact: Exile the top card of your library. You may play it this turn” and lose all other abilities.
+
+Unleashed Constable
+
+Infernal Middleman
+
+Ravener of the Docks
+rules_text: Betrayal {3}{R} [i]({3}{R}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Trample
+At the beginning of your end step, sacrifice Ravener of the Docks unless you've sacrificed a permanent this turn. => Betrayal {3}{R} [i](You may cast this spell for {3}{R} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Trample
+At the beginning of your end step, sacrifice Ravener of the Docks unless you've sacrificed a permanent this turn.
+pt: 5/5 => 6/6
+
+Mabuse Muscle
+
+Surge of the Moment
+rules_text: Target creature you control gets +3/+2 until end of turn. Whenever it deals combat damage to a player or battle this turn, you may have it deal that much damage to another player or battle. => Target creature you control gets +3/+2 until end of turn. Whenever it deals combat damage to a player or battle this turn, you may have it deal that much damage to another target player or battle.
+
+Masquerade of Means
+
+Antiquated Shot
+
+Red Herring
+
+Self Check-Out
+
+A Toast and a Vow of Union
+
+Framed in Flames
+
+The Break at Museum Row
+
+Chrysalis Unbound
+
+Oblivious Officer
+
+Shadebound Vessel
+rules_text: If you would put one or more counters on a permanent you control, those counters plus a 1/1 black Shade creature counter are put on it instead. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i] => If you would put one or more counters on a nontoken permanent you control, those counters plus a 1/1 black Shade creature counter are put on it instead. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+pt: 2/3 => 2/2
+
+Hat in the Husks
+
+Outlands Gatekeeper
+
+Cobblestone Crew
+
+Dust-Hardened Tracker
+rules_text: When Dust-Hardened Tracker enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+Clues you control have “{1}, Sacrifice this artifact: Put a +1/+1 counter on target creature. Activate only as a sorcery.” => When Dust-Hardened Tracker enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+Clues you control have “{1}, Sacrifice this artifact: Put a +1/+1 counter on target creature. Activate only as a sorcery.”
+
+Faceless Hound
+
+Chewer of Deals
+rules_text: Betrayal {1}{G} [i]({1}{G}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Chewer of Deals deals combat damage to a player or noncreature permanent, you may destroy target artifact or enchantment. => Betrayal {1}{G} [i](You may cast this spell for {1}{G} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Chewer of Deals deals combat damage to a player or noncreature permanent, you may destroy target artifact or enchantment.
+
+Cradlebreaker Primordial
+
+Writhing Obedience
+
+Wriggling Wound
+
+Coded Passage
+
+Indifferent Brawl
+
+Silent Ambush
+rules_text: Target creature you control deals damage equal to its power to any nonplayer target. Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Target creature you control deals damage equal to its power to any nonplayer target. Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Crashing Diversion
+
+The Silence at Verdant Valley
+
+Simulacrum of Grace
+
+Unburdened Shell
+
+Hullmaw Leviathan
+
+Outlands Interceptor
+rules_text: You may sacrifice two Clues rather than pay this spell's mana cost.
+Flying
+When Outlands Interceptor dies, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => You may sacrifice two Clues rather than pay this spell's mana cost.
+Flying
+When Outlands Interceptor dies, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Empty Vaults
+
+Entry to Elegance
+
+Entry to Omen
+
+Entry to Obscurity
+
+Entry to Decay
+
+Entry to Entertainment
+
+Cawyer Station
+
+Veda's Club
+
+Fox Agency Outpost
+rules_text: Fox Agency Outpost enters tapped. When it does, you may behold a Detective. If you do, untap it. [i](To behold a Detective, choose a Detective you control or reveal a Detective card from your hand.)[/i]
+{T}: Add {U}.
+{2}{U}, {T}: Scry 1, then investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Fox Agency Outpost enters tapped. When it does, you may behold a Detective. If you do, untap it. [i](To behold a Detective, choose a Detective you control or reveal a Detective card from your hand.)[/i]
+{T}: Add {U}.
+{2}{U}, {T}: Surveil 1, then investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Foyer of Silence
+
+Lorre's Lowlight
+
+Divinity Repossessed
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Divinity Repossessed enters, destroy all other nonland, noncreature permanents. [i](This doesn't defeat battles.)[/i] => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Divinity Repossessed enters, if you cast it, destroy all other nonland, noncreature permanents. [i](This doesn't defeat battles.)[/i]
+
+Whorling Eviction
+
+Crowded Murmurs
+
+Wandering Ember
+
+Maw of Borrowed Flesh
+cost: {12}{G}{G}{G} => {13}{G}{G}{G}
+rules_text: This spell costs {X} less to cast, where X is the total power of Horrors you control.
+Trample
+When Maw of Borrowed Flesh enters, you gain 12 life. => This spell costs {X} less to cast, where X is the total power of Horrors you control and among Horror creature counters on permanents you control.
+Trample
+When Maw of Borrowed Flesh enters, you gain 13 life.
+pt: 12/12 => 13/13
+
+Watcher of Fractured Halos
+
+Oneiric Whisperer
+
+Sap Effervescence
+
+L'appel du vide
+rules_text: Whenever a nontoken creature is dealt damage, put a 4/4 green Horror creature counter on it. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+Creatures with counters on them attack each combat if able. => Whenever a nontoken creature is dealt damage, put a 4/4 green Horror creature counter on it. [i](The counter becomes a creature token when the permanent it is on leaves. It must survive to get the counter.)[/i]
+Creatures with counters on them attack each combat if able.
+
+Blessing of the Aberrant
+
+Gentle Collector
+cost: {2}{W} => {1}{W}{W}
+rules_text: When Gentle Collector enters, create a colorless legendary artifact token named Collections Box with “{T}: You gain 1 life.”
+Whenever you gain life, you may put a +1/+1 counter on Gentle Collector. => Betrayal {2}{W}{W} [i](You may cast this spell for {2}{W}{W} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+When Gentle Collector enters, if you cast it, creatures you control gain indestructible until end of turn. Untap them.
+pt: 2/2 => 3/3
+
+Conjuror Extraordinaire
+rules_text: When Conjuror Extraordinaire enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+Whenever you draw your second card each turn, create a token that's a copy of another target creature you control, except it is an Illusion in addition to its other types and has “Whenever this creature is the target of a spell or ability, sacrifice it.” It can't block this turn. => When Conjuror Extraordinaire enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+Whenever you draw your second card each turn, create a token that's a copy of another target creature you control, except it is an Illusion in addition to its other types and has “Whenever this creature is the target of a spell or ability, sacrifice it.” It can't block this turn.
+
+Cleaner's Hammer
+
+Grafted Sins
+
+Scourge of Sapience
+cost: {1}{G}{G} => {2}{G}{G}
+rules_text: At the beginning of your upkeep, return a creature you control to its owner's hand. If it was another creature, put a creature counter that's a copy of that creature on Scourge of Sapience. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i] => At the beginning of your upkeep, return another creature you control to its owner's hand. Put a creature counter that's a copy of that creature on Scourge of Sapience. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+
+Cawyer Station Recruit
+
+Unclocked Apparition
+rules_text: Betrayal {1}{U} [i]({1}{U}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Ward {2}
+Whenever one or more creatures you control deals combat damage to a player or noncreature permanent, you may exile one. Return it to the battlefield at the beginning of the next opponent's end step. => Betrayal {1}{U} [i](You may cast this spell for {1}{U} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever one or more creatures you control deals combat damage to a player or noncreature permanent, you may exile one of them. Return it to the battlefield at the beginning of the next opponent's end step.
+
+Midshift Mourner
+
+Threads of Consumption
+
+Curio of Crawling Secrets
+cost: {4}{G}{G} => {5}{G}{G}
+
+Favor from the Family
+
+Delay the Inevitable
+
+Debt in the Outlands
+
+Turncoat Officer
+rules_text: Betrayal {2}{R}{R} [i]({2}{R}{R}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Turncoat Officer deals combat damage do a player or noncreature permanent during the first combat phase of the turn, untap each other creature you control. They gain haste until end of turn. After this phase there's is an additional combat phase. => Betrayal {2}{R}{R} [i](You may cast this spell for {2}{R}{R} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Turncoat Officer deals combat damage do a player or noncreature permanent during the first combat phase of the turn, untap each other creature you control. They gain haste until end of turn. After this phase there's is an additional combat phase.
+
+District Broker
+rules_text: Betrayal {1}{G} [i]({1}{G}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever District Broker deals combat damage to a player or noncreature permanent, create a tapped colorless basic land token named Wastes with “{T}: Add {C}.” => Betrayal {1}{G} [i](You may cast this spell for {1}{G} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever District Broker deals combat damage to a player or noncreature permanent, create a tapped colorless basic land token named Wastes with “{T}: Add {C}.”
+
+Wide-Eyed Inquirer
+
+Divergence of Minds
+
+Painter of the Unseen
+
+Veda's Broker
+rules_text: At the beginning of combat on your turn, create a 1/1 red Rogue creature token with haste. Exile it at the beginning of the next end step.
+Whenever one or more Rogues you control deal combat damage to a player, you may discard up to that many cards. Then draw cards equal to the number of cards discarded this way. => At the beginning of combat on your turn, create a 1/1 red Rogue creature token with haste. Exile it at the beginning of the next end step.
+Whenever one or more Rogues you control deal combat damage to a player or battle, you may discard up to that many cards. Then draw cards equal to the number of cards discarded this way.
+
+Guttertooth
+rules_text: Reach
+Whenever Guttertooth deals combat damage to a player or noncreature permanent, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Reach
+Whenever Guttertooth deals combat damage to a player or noncreature permanent, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Futures Unwritten
+rules_text: Players can't create tokens and counters can't become permanents.
+Nonbasic lands enter tapped. => Tokens can't enter the battlefield. [i](This stops creature counters from becoming creatures.)[/i]
+Nonbasic lands enter tapped.
+
+Favored Traded in Uneven Hands
+
+Death's Favorite Pet
+rules_text: Betrayal {1}{B}{B}{B} [i]({1}{B}{B}{B}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Death's Favorite Pet deals combat damage to a player or noncreature permanent, exile target creature card from a graveyard. Put a creature counter that's a copy of that creature on a permanent you control. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i] => Betrayal {1}{B}{B}{B} [i](You may cast this spell for {1}{B}{B}{B} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Death's Favorite Pet deals combat damage to a player or noncreature permanent, exile target creature card from a graveyard. Put a creature counter that's a copy of that creature on a permanent you control. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+
+Mabuse Enforcer
+
+Beyond the Lamplight
+
+Echoes of Encouragement
+
+Owl-Knowing Sleuth
+rules_text: Flying
+Whenever Owl-Knowing Sleuth or another Detective you control becomes the target of a spell or ability you don't control, you may sacrifice a Clue. If you do, counter that spell or ability. If you don't, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Flying
+Whenever Owl-Knowing Sleuth or another Detective you control becomes the target of a spell or ability you don't control, you may sacrifice a Clue. If you do, counter that spell or ability. If you don't, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Scourge of Unity
+
+Open the Vault
+
+Detrossian Hydra
+
+Painter of the Fleeting Dawn
+
+Ciar's Sleuthing
+rules_text: Choose X plus 1 — 
+• Return target nonland permanent to its owner's hand.
+• Each opponent sacrifices a creature.
+• Mill three cards, then you may return a creature card from your graveyard to your hand.
+• Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Choose X plus 1 —
+• Return target nonland permanent to its owner's hand.
+• Each opponent sacrifices a creature.
+• Mill three cards, then you may return a creature card from your graveyard to your hand.
+• Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Damnation's Return
+
+Reaping Rite
+
+Refracted Realities
+
+Settle Debts
+rules_text: This spell can't be countered.
+Target nonland permanent's controller sacrifices it. It's controller gains 2 life. => This spell can't be countered.
+Target nonland permanent's controller sacrifices it and gains 3 life.
+
+Monroe's Hatchery
+
+Chthonic Gorger
+
+Paula and Josephine
+
+Unwelcome Welcome
+
+Joined in Song
+
+Haniel, Retired Shepherd
+
+Slumberleech
+rules_text: Betrayal {U}{B} [i]({U}{B}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Flying
+Whenever Slumberleech deals combat damage to a player, that player gets two poison counters, then exiles cards from the top of their library until that player has exiled cards with total mana value equal to the number of poison counters they have or greater. => Betrayal {U}{B} [i](You may cast this spell for {U}{B} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Flying
+Whenever Slumberleech deals combat damage to a player, that player gets two poison counters, then exiles cards from the top of their library until that player has exiled cards with total mana value equal to the number of poison counters they have or greater.
+
+Dealer of Ruin
+rules_text: Betrayal {B}{R} [i]({B}{R}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Dealer of Ruin deals combat damage to a player or noncreature permanent, defending player loses 3 life unless they sacrifice a nonland permanent of their choice or discard a card.
+Pay 2 life: Return Dealer of Ruin from your graveyard to your hand. => Betrayal {B}{R} [i](You may cast this spell for {B}{R} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Dealer of Ruin deals combat damage to a player or noncreature permanent, defending player loses 3 life unless they sacrifice a nonland permanent.
+Pay 2 life: Return Dealer of Ruin from your graveyard to your hand.
+
+Lenny Corr, Door Left Ajar
+
+Frank the Viper Lorre
+
+Feaster of Crimson
+
+Fraying Echoes
+
+Scarlet Moon
+
+Unifier of Flesh and Purpose
+rules_text: Flying
+You can't cast creature spells that aren't named Baneslayer Angel.
+You may cast creature spells as copies of Baneslayer Angel. [i](It's a {3}{W}{W} Angel creature with flying, first strike, lifelink, protection from Demons and from Dragons.)[/i] => Flying
+You can't cast creature spells that aren't named Baneslayer Angel.
+You may cast creature spells as copies of Baneslayer Angel. [i](Baneslayer Angel is a {3}{W}{W} 5/5 Angel creature with flying, first strike, lifelink, protection from Demons and from Dragons.)[/i]
+
+Blinking Horizon
+rules_text: Betrayal {2}{U}{U} [i]({2}{U}{U}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Flash
+Flying
+When Blinking Horizon enters, you may have target nonland permanent or spells' owner put it into its owner's library third from the top. => Betrayal {2}{U}{U} [i](You may cast this spell for {2}{U}{U} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Flash
+Flying
+When Blinking Horizon enters, you may have target nonland permanent or spells' owner put it into its owner's library third from the top.
+
+Endless Investigation
+rules_text: At the beginning of your upkeep, investigate, then put a 2/2 blue Detective creature counter on each Clue you control. [i](To investigate, create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.” The counter becomes a creature token when the permanent it is on leaves.)[/i] => At the beginning of your upkeep, investigate, then put a 2/2 blue Detective creature counter on each Clue you control. [i](To investigate, create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.” The counter becomes a creature token when the permanent it is on leaves.)[/i]
+
+Collapse in Silence
+rules_text: Exile all creatures and put a void counter on each of them.
+{X}{B}, Pay X life, Exile Collapse in Silence from your graveyard: You may cast a card exiled with a void counter on it with mana value X without paying its mana cost. => Exile all creatures and put a void counter on each of them.
+{X}{B}{B}, Pay X life, Exile Collapse in Silence from your graveyard: You may cast a card exiled with a void counter on it with mana value X without paying its mana cost.
+
+Kindly Guide of Souls
+
+Overwhelming Vitality
+
+Rise of the Primordials
+
+Nursery of Skin
+
+Tobias, the Charming Verse
+rules_text:  => Creatures you control have prowess. [i](Multiple instances of prowess stack.)[/i]
+[+1]: Noncreature spells you cast cost {1} less to cast this turn.
+[-2]: Create two 1/1 red Rogue creature tokens.
+[-8]: Exile the top ten cards of your library. You may cast any number of noncreature cards exiled this way without paying their mana costs.
+
+Aryeh, Heart of the Wild
+rules_text:  => Aryeh enters with two 1/1 white Cat creature counters with lifelink on him. [i](The counters become creature tokens when the permanent they're on leaves the battlefield.)[/i]
+[+1]: Put a 1/1 white Cat creature counter with lifelink on target permanent.
+[0]: You may remove any number of counters from Aryeh. When you do, exile target nonland permanent with a mana value equal to or less than the number of counters removed this way.
+
+Frankie Lorre, Underboss
+
+Rescue the Damned
+
+Imani, Answer in a Blade
+rules_text:  => Whenever you attack, create a 2/2 white Soldier creature token that's tapped and attacking.
+[+1]: You get an emblem with “Whenever a creature you control enters, this emblem deals 1 damage to each opponent and you gain 1 life.”
+[-2]: Exile the top three cards of your library. You may play them this turn.
+
+Messa di Requiem per Ctonia
+
+Ciar, Cloaked in Clarity
+rules_text:  => Whenever you cast Ciar, return target creature card from your graveyard to the battlefield.
+[+1]: Mill two cards, then return a card milled this way to your hand.
+[-6]: Exile each creature card in your graveyard. For each card exiled this way, put a creature counter that's a copy of it on a permanent you control that doesn't have any counters on it. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+
+Tangled in Crimson
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+Whenever you discard one or more cards, Tangled in Crimson deals that much damage to itself, then exile those cards.
+When Tangled in Crimson is defeated, you may play any number of cards exiled by it until your next end step. [i](You still pay their costs.)[/i] => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+Whenever you discard one or more cards, Tangled in Crimson deals that much damage to itself, then exile those cards.
+When Tangled in Crimson is defeated, you may play any number of cards exiled by it until your next turn's end step. [i](You still pay their costs.)[/i]
+
+Compounded Realities
+
+Claim of the Aberrant
+
+Tome of Retained Flesh
+
+Abbatar, the Whole of Unity
+rules_text: Flying
+Whenever an opponent casts their first noncreature spell each turn, draw a card unless that player pays {1}.
+You may cast Abbatar from your graveyard by discarding two cards as an additional cost to cast it. => Flying
+Whenever an opponent casts their first spell each turn, draw a card unless that player pays {1}.
+You may cast Abbatar from your graveyard by discarding two cards as an additional cost to cast it.
+
+Zim-Shirrem, Threads of Life
+pt: 5/5 => 5/4
+
+Unattended Mausoleum
+rules_text: {T}: Add {C}.
+{3}, {T}: Exile target card from a graveyard. If you exile a creature card from your graveyard this way, put a creature counter that's a copy of that creature on this land. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+{2}: Until end of turn, this land becomes a copy of a creature counter on it. => {T}: Add {C}.
+{3}, {T}: Exile target card from a graveyard. If you exile a creature card from your graveyard this way, put a creature counter that's a copy of that creature on this land. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+{3}: Until end of turn, this land becomes a copy of a creature counter on it.
+
+Composite Colossus
+
+Unbidden Rabota
+
+Soldier
+
+Clue
+
+Construct
+
+Treasure
+
+Insect
+
+Horror
+
+Bounty
+
+Soldier
+
+Spirit
+
+Rogue
+
+Construct
+
+Construct
+
+Warrior
+
+Detective
+
+Insect Horror
+
+Shade
+
+Copy
+
+Dragon
+
+Dragon Egg
+
+The Glittering Cloud
+rules_text:  => Whenever one or more loyalty counters are removed from The Glittering Cloud, create that many 1/1 green Insect creature tokens. 
+[+1]: Create a 1/1 green Insect creature token. Each opponent loses 1 life.
+[-X]: Target creature gets -X/-X until end of turn. You gain X life.
+
+Mr. Monroe, Exquisite Collector
+
+Frankie's Pet
+
+The Mabuse Trio
+
+Tamsin and Riggs of the Fox Agency
+rules_text: Whenever Tamsin and Riggs of the Fox Agency enters or attacks, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+Nonland cards in your hand have “You may cast this card by sacrificing X Clues you control rather than pay this card's mana cost, where X is this card's mana value.” => Whenever Tamsin and Riggs of the Fox Agency enters or attacks, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+Nonland cards in your hand have “You may cast this card by sacrificing X Clues you control rather than pay this card's mana cost, where X is this card's mana value.”
+
+Spectrum of the Multiverse
+
+Tongue of Tethaleeg
+
+Demon
+
+Sinking Lot
+
+Cat
+
+Horror
+
+Collections Box
+
+Cawyer River Dockworkers
+
+Dapper Detective
+
+Moroii Cleaner
+
+Zhang Seductress
+rules_text: Menace
+Other Rogues you control have menace.
+{R}, {T}, Exile two cards from your graveyard: Create a 1/1 red Rogue creature token. => Menace
+Other Rogues you control have menace.
+{R}, {T}, Exile two cards from your graveyard: Create a 1/1 red Rogue creature token. It can't block this turn.
+
+Shambling Nest
+
+
+VERSION 7 CHANGELOG
 ====================
 
 Lift Archaic Wards added.

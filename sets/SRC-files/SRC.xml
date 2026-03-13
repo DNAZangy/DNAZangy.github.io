@@ -5,7 +5,7 @@
 			<name>SRC</name>
 			<longname>Secrets of the River Cities</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-01-29</releasedate>
+			<releasedate>2026-03-12</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -4217,14 +4217,14 @@ Exile the top three cards of your library. Until the end of your next turn, you 
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related count="2">Barton, Sleuth Extraordinaire</reverse_related>
-			<reverse_related>Clandestine Snitch</reverse_related>
-			<reverse_related>Spill the Beans</reverse_related>
-			<reverse_related>Conspicuous Homicide</reverse_related>
-			<reverse_related>Vicious Cleaner</reverse_related>
-			<reverse_related>Moribund Witness</reverse_related>
-			<reverse_related>Shepherd of the Lost</reverse_related>
-			<reverse_related>Unlicensed Pistol</reverse_related>
+			<reverse-related count="2">Barton, Sleuth Extraordinaire</reverse-related>
+			<reverse-related>Clandestine Snitch</reverse-related>
+			<reverse-related>Spill the Beans</reverse-related>
+			<reverse-related>Conspicuous Homicide</reverse-related>
+			<reverse-related>Vicious Cleaner</reverse-related>
+			<reverse-related>Moribund Witness</reverse-related>
+			<reverse-related>Shepherd of the Lost</reverse-related>
+			<reverse-related>Unlicensed Pistol</reverse-related>
 		</card>
 		<card>
 			<name>Clue 2 SRC</name>
@@ -4240,13 +4240,13 @@ Exile the top three cards of your library. Until the end of your next turn, you 
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Detective&apos;s Ploy</reverse_related>
-			<reverse_related>Guide Dog</reverse_related>
-			<reverse_related>Messenger Magpie</reverse_related>
-			<reverse_related>Following the Matchbook</reverse_related>
-			<reverse_related>Mystery of the Strange Door</reverse_related>
-			<reverse_related>Resounding Shot</reverse_related>
-			<reverse_related>Painter of the Waking Dream</reverse_related>
+			<reverse-related>Detective&apos;s Ploy</reverse-related>
+			<reverse-related>Guide Dog</reverse-related>
+			<reverse-related>Messenger Magpie</reverse-related>
+			<reverse-related>Following the Matchbook</reverse-related>
+			<reverse-related>Mystery of the Strange Door</reverse-related>
+			<reverse-related>Resounding Shot</reverse-related>
+			<reverse-related>Painter of the Waking Dream</reverse-related>
 		</card>
 		<card>
 			<name>Clue 3 SRC</name>
@@ -4262,13 +4262,13 @@ Exile the top three cards of your library. Until the end of your next turn, you 
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related count="2">Crippling Hallucinations</reverse_related>
-			<reverse_related>Malevolent Observer</reverse_related>
-			<reverse_related>Infernal Haunting</reverse_related>
-			<reverse_related>Fox Agency Operator</reverse_related>
-			<reverse_related>Manipulative Phantom</reverse_related>
-			<reverse_related>Sleuthhound</reverse_related>
-			<reverse_related>Eldritch Spirit</reverse_related>
+			<reverse-related count="2">Crippling Hallucinations</reverse-related>
+			<reverse-related>Malevolent Observer</reverse-related>
+			<reverse-related>Infernal Haunting</reverse-related>
+			<reverse-related>Fox Agency Operator</reverse-related>
+			<reverse-related>Manipulative Phantom</reverse-related>
+			<reverse-related>Sleuthhound</reverse-related>
+			<reverse-related>Eldritch Spirit</reverse-related>
 		</card>
 		<card>
 			<name>Clue 4 SRC</name>
@@ -4284,14 +4284,14 @@ Exile the top three cards of your library. Until the end of your next turn, you 
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Blank Memory</reverse_related>
-			<reverse_related>Endless Paper Trail</reverse_related>
-			<reverse_related>Dame on the Run</reverse_related>
-			<reverse_related>Jericho&apos;s Assistant</reverse_related>
-			<reverse_related>Investi-Gator</reverse_related>
-			<reverse_related>Jericho Hudson</reverse_related>
-			<reverse_related>Magnifying Glass</reverse_related>
-			<reverse_related>Devilish Deal</reverse_related>
+			<reverse-related>Blank Memory</reverse-related>
+			<reverse-related>Endless Paper Trail</reverse-related>
+			<reverse-related>Dame on the Run</reverse-related>
+			<reverse-related>Jericho&apos;s Assistant</reverse-related>
+			<reverse-related>Investi-Gator</reverse-related>
+			<reverse-related>Jericho Hudson</reverse-related>
+			<reverse-related>Magnifying Glass</reverse-related>
+			<reverse-related>Devilish Deal</reverse-related>
 		</card>
 		<card>
 			<name>Soldier SRC</name>
@@ -4310,12 +4310,12 @@ Exile the top three cards of your library. Until the end of your next turn, you 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Abigail, Cawyer Station Chief</reverse_related>
-			<reverse_related>Backup Brigade</reverse_related>
-			<reverse_related>Cawyer Station Veteran</reverse_related>
-			<reverse_related>Deacon of Ameret&apos;s Way</reverse_related>
-			<reverse_related count="2">Solitary Heist</reverse_related>
-			<reverse_related>Buddy Cops</reverse_related>
+			<reverse-related>Abigail, Cawyer Station Chief</reverse-related>
+			<reverse-related>Backup Brigade</reverse-related>
+			<reverse-related>Cawyer Station Veteran</reverse-related>
+			<reverse-related>Deacon of Ameret&apos;s Way</reverse-related>
+			<reverse-related count="2">Solitary Heist</reverse-related>
+			<reverse-related>Buddy Cops</reverse-related>
 		</card>
 		<card>
 			<name>Human SRC</name>
@@ -4334,8 +4334,8 @@ Exile the top three cards of your library. Until the end of your next turn, you 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Family Man</reverse_related>
-			<reverse_related count="2">Orphanage Keeper</reverse_related>
+			<reverse-related>Family Man</reverse-related>
+			<reverse-related count="2">Orphanage Keeper</reverse-related>
 		</card>
 		<card>
 			<name>Zombie Cat SRC</name>
@@ -4354,7 +4354,7 @@ Exile the top three cards of your library. Until the end of your next turn, you 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Liliana, Femme Fatale</reverse_related>
+			<reverse-related>Liliana, Femme Fatale</reverse-related>
 		</card>
 		<card>
 			<name>Rogue SRC</name>
@@ -4373,8 +4373,8 @@ Exile the top three cards of your library. Until the end of your next turn, you 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Ne&apos;er-do-wells</reverse_related>
-			<reverse_related>Shank</reverse_related>
+			<reverse-related>Ne&apos;er-do-wells</reverse-related>
+			<reverse-related>Shank</reverse-related>
 		</card>
 		<card>
 			<name>Detective SRC</name>
@@ -4393,8 +4393,8 @@ Exile the top three cards of your library. Until the end of your next turn, you 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Fox Agency Sleuths</reverse_related>
-			<reverse_related>The Masked Benefactor</reverse_related>
+			<reverse-related>Fox Agency Sleuths</reverse-related>
+			<reverse-related>The Masked Benefactor</reverse-related>
 		</card>
 		<card>
 			<name>Mutant SRC</name>
@@ -4413,9 +4413,9 @@ Exile the top three cards of your library. Until the end of your next turn, you 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Gruesome Menagerie</reverse_related>
-			<reverse_related>Occultist&apos;s Heist</reverse_related>
-			<reverse_related>Rhulha&apos;s Blessed</reverse_related>
+			<reverse-related>Gruesome Menagerie</reverse-related>
+			<reverse-related>Occultist&apos;s Heist</reverse-related>
+			<reverse-related>Rhulha&apos;s Blessed</reverse-related>
 		</card>
 		<card>
 			<name>Cleric SRC</name>
@@ -4434,7 +4434,7 @@ Exile the top three cards of your library. Until the end of your next turn, you 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Ameret, Hope of Night</reverse_related>
+			<reverse-related>Ameret, Hope of Night</reverse-related>
 		</card>
 		<card>
 			<name>Horror SRC</name>
@@ -4453,7 +4453,7 @@ Exile the top three cards of your library. Until the end of your next turn, you 
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Painter of the Waking Dream</reverse_related>
+			<reverse-related>Painter of the Waking Dream</reverse-related>
 		</card>
 		<card>
 			<name>Undercover SRC</name>
@@ -4564,8 +4564,8 @@ If a creature cast undercover would die, exile it face down without revealing it
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Mafia Capo</reverse_related>
-			<reverse_related count="2">Frank &quot;the Spider&quot; Lorre</reverse_related>
+			<reverse-related>Mafia Capo</reverse-related>
+			<reverse-related count="2">Frank &quot;the Spider&quot; Lorre</reverse-related>
 		</card>
 		<card>
 			<name>Sinuous Tantalizer</name>
@@ -4636,7 +4636,7 @@ Whenever Sinuous Tantalizer becomes an accomplice, the creature it accompliced g
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse_related>Occultist&apos;s Gambit</reverse_related>
+			<reverse-related>Occultist&apos;s Gambit</reverse-related>
 		</card>
 		<card>
 			<name>Treasure SRC</name>
@@ -4783,7 +4783,7 @@ You get an emblem with &quot;Untap all permanents you control during each other 
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Liliana, Femme Fatale</reverse_related>
+			<reverse-related>Liliana, Femme Fatale</reverse-related>
 		</card>
 		<card>
 			<name>Jericho Emblem SRC</name>
@@ -4799,7 +4799,7 @@ You get an emblem with &quot;Untap all permanents you control during each other 
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse_related>Jericho Hudson</reverse_related>
+			<reverse-related>Jericho Hudson</reverse-related>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

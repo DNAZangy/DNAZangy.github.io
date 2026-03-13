@@ -1,4 +1,1276 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Undaunted Oillipheist added.
+Dearg Due added.
+!!!Step Between Worlds added.
+!!Call the Bluff added.
+Over the Edge added.
+
+Undaughted Oillipheist removed.
+Ashenby Ration Planner removed.
+Step Between Worlds removed.
+Call the Bluff removed.
+
+Quiet Horizon
+
+Undertram Waypost
+
+Bound Grove
+
+Bound Burrow
+rules_text: [i]({T}: Add {R}.)[/i]
+Bound Burrow enters tapped.
+{0}: Until end of turn, Bound Burrow becomes a 2/2 red Spirit creature until end of turn. => [i]({T}: Add {R}.)[/i]
+Bound Burrow enters tapped.
+{0}: Until end of turn, Bound Burrow becomes a 2/2 red Spirit creature. It's still a land.
+
+Aureline Waypost
+
+Bound Bog
+
+Bound Stillwater
+
+Bound Warren
+
+Crownward Encroachment
+
+Detonation Grounds
+
+An Crosog Waypost
+
+Ashenby Waypost
+
+Pageant Mile Waypost
+
+Broadcast Overlook
+
+Savannah
+
+Scrubland
+
+Mortmain Training Yard
+
+Mnemonics Offshore Vault
+
+Tundra
+
+Underground Sea
+
+Tropical Island
+
+Thorne Proving Ground
+
+Plateau
+
+Commonweal Plaza
+
+Dawnhurst Docking Bay
+
+Bayou
+
+Veiled Sightline
+
+Badlands
+
+Lurid Sightline
+
+Sunlit Sightline
+
+Highland Sightline
+
+Fetid Sightline
+
+Radiant Sightline
+
+Gilded Sightline
+
+Glamorous Sightline
+
+Galvanic Sightline
+
+Evergraft Yards
+
+Ashenby Gardens
+
+Everspring Research Lab
+
+Brackish Sightline
+
+Illuminant Spire
+
+Ivory Spire
+
+Searing Spire
+
+Silent Spire
+
+Verdant Spire
+
+Surveyor's Waypoint
+
+Prismatic Vista
+
+Reedbank Developments
+
+Farwatch Station
+
+Hold the City
+
+Tairngire's Unheard Song
+
+Ashenby Vendor
+
+Lorcan, Sellout
+
+Elio the Slicer Luciano
+
+Roisin, Ink Singer
+
+Tiernan, Mind of Many
+
+Giles of the Golden Maw
+
+Daire, Linekeeper
+
+Fionn, Binder of Echoes
+
+Beacon of the Omenpaths
+
+Cormac, Patchsmith
+
+Hand of the King
+
+Old Country Charm
+
+Plan at the Pub
+
+Daol Wing Sergeant
+
+Bag the Score
+
+Desperate Reassembly
+
+Crown's Orders
+
+Vapid Abscondment
+
+Return to Naught
+
+Siobhan, Moonlit Cantor
+type: Legendary Creature — Angel => Legendary Creature — Angel Bard
+
+Service the Ogham-Tech
+
+Kill the Feed
+
+Surrender in Blood
+
+Overtune
+
+Unbridled Horizon
+
+Blackwall's Enforcer
+
+Wildline Invocation
+
+Reserve Reawakening
+
+Forlorn Greycloak
+
+Echo of the Lean Years
+
+Haubay, Vault of Knowledge
+rules_text:  => Flash enact {W}{U} [i](As an instant, you may activate one of this card's abilities by discarding it and paying its enact cost instead of its other costs.)[/i]
+[+1]: Exile up to one target creature. Return it to the battlefield at the beginning of the next end step
+[0]: Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
+[-2]: Exile target tapped creature.
+
+Mnemonics Library
+
+Iliach Shorebreaker
+
+Oghink Ruffian
+rules_text: Whenever Oghink Ruffian or another creature you control dies, create a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”)[/i] => Whenever Oghink Ruffian or another creature you control dies, create a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this token: Draw a card.”)[/i]
+
+Sanctuary of Plenty
+
+Faer Ceithre Lamh
+
+Craicfeed Arcanist
+
+Contracted Strike
+
+Back to Back
+
+An Caimilér is Cairdiúla
+
+Aegis Airlift
+
+Premium Reconstitution
+
+Ludolf, Packless
+rules_text:  => Brink [i](Exile seven cards from your graveyard: You go over the edge. Activate only as a sorcery.)[/i]
+[+1]: Each player discards a card. If you're over the edge, draw a card.
+[-2]: Target player sacrifices a creature. If you're over the edge, that player loses 3 life.
+[-7]: Each opponent loses 10 life for each time you've gone over the edge this game.
+special_text: Brink [i](Exile seven cards from your graveyard: You go over the edge. Activate only as a sorcery.)[/i]
+Whenever you go over the edge, you may activate one of Ludolf's loyalty abilities.
+[+1]: Each player discards a card. If you're over the edge, draw a card.
+[-2]: Target player sacrifices a creature. If you're over the edge, that player loses 3 life.
+[-7]: Each opponent loses 10 life. => Brink [i](Exile seven cards from your graveyard: You go over the edge. Activate only as a sorcery.)[/i]
+[+1]: Each player discards a card. If you're over the edge, draw a card.
+[-2]: Target player sacrifices a creature. If you're over the edge, that player loses 3 life.
+[-7]: Each opponent loses 10 life for each time you've gone over the edge this game.
+
+Grain to Old Country
+
+Shelterline Partners
+
+Crown's Pet
+
+Vivienne Faraday, Idol
+rules_text: Spells you cast anywhere other than your hand cost {2} less to cast.
+{T}, Discard a card: Draw a card. => Heir — You own seven or more cards in exile. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Spells you cast anywhere other than your hand cost {2} less to cast.
+{T}, Discard a card: Draw a card.
+
+Endless Iteration
+
+Reginald Dawnhurst, Prince
+rules_text: Flying 
+Other creatures you control get +1/+1. => Heir — You've attacked with three or more tokens this turn. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Flying 
+Other creatures you control get +1/+1.
+
+Alton Hargreave, Rationeer
+rules_text: Ward {1}
+At the beginning of your upkeep, surveil 1. => Heir — Your library has 60 or more cards in it. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Ward {1}
+At the beginning of your upkeep, surveil 1.
+
+Beatrice Whitcombe, the Swan
+rules_text: Vigilance
+Whenever an artifact you control enters, you may tap or untap target permanent. => Heir — You control five or more artifacts. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Vigilance
+Whenever an artifact you control enters, you may tap or untap target permanent.
+
+Sylas Wycliffe, Broker
+rules_text: Once each turn, you may cast a card from your hand with mana value less than or equal to the number of cards in your library without paying its mana cost. => Heir — Your library has 10 or fewer cards in it. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Once each turn, you may cast a card from your hand with mana value less than or equal to the number of cards in your library without paying its mana cost.
+
+Helena Thorne, Imperative
+rules_text: When Helena Thorne enters, any player may have Helena deal 5 damage to them or discard three cards. If no one does, draw three cards. => Heir — Each player is at lower than half of their starting life total, rounded down. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+When Helena Thorne enters, any player may have Helena deal 5 damage to them or discard three cards. If no one does, draw three cards.
+
+Oliver Pembroke, Chrome Scion
+rules_text: Permanents you control with mana abilities have “{T}, Sacrifice this permanent: Add two mana of any one color.” => Heir — You control ten or more cards with mana abilities. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Permanents you control with mana abilities have “{T}, Sacrifice this permanent: Add two mana of any one color.”
+
+Lionel Montjoy, Notary
+rules_text: Vigilance
+Whenever you cast an enchantment spell, draw a card. => Heir — You control four or more enchantments. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Vigilance
+Whenever you cast an enchantment spell, draw a card.
+
+Alistar Blackwall, Iron Seraph
+rules_text: Flying
+When Alistar Blackwall, Iron Seraph enters, if you cast it, return target creature card from your graveyard to the battlefield. => Heir — There are seven or more creature cards in your graveyard. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Flying
+When Alistar Blackwall, Iron Seraph enters, if you cast it, return target creature card from your graveyard to the battlefield.
+
+Overclocking
+
+Ashenby, Scourge of Crops
+rules_text: Trample
+Ashenby, Scourge of Crops's power and toughness are each equal to the number of cards in your graveyard. => Heir — There are five or more card types among cards in your graveyard. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Trample
+Ashenby, Scourge of Crops's power and toughness are each equal to the number of cards in your graveyard.
+
+Parade of One
+
+Meshline Infiltrator
+
+Breaker of Protests
+
+Gatewalker Constable
+
+Hallowed Peacekeeper
+
+Parapet Gargoyle
+
+Anam i Gcliabhán
+
+Downtown Enforcer
+
+Impartial Quartermaster
+
+Pageant Sentinel
+
+Huebound Retainer
+
+Faoladh Turncloak
+
+Service Tinkerer
+
+The Unbreaking Aegis of Aonar
+
+Survey Skimmer
+
+Rustbelt Brawler
+
+Rooftop Tinkerer
+
+Bumbling Titan
+
+Cu-Model Patrol
+
+Cu-Model Gunner
+
+Pureforge Acolyte
+
+Cogwork Core
+
+Ionized Topaz
+
+Gem of Renewal
+
+Cormac's Patch Bay
+
+The Mnemonic Vault
+
+Idol of the Lost Protector
+
+Outland Refit Bay
+
+Luna Ring
+
+Shaper's Star
+
+Mournful Greycoat
+
+Echovat
+
+Archivist's Edge
+
+Pearl Graft
+
+Jet Graft
+
+Keening Belltower
+
+Mana Decanter
+
+Sapphire Graft
+
+Breadlane Commons
+
+Omenpath Waystone
+
+Ruby Graft
+
+Wardgrid Mech Hangar
+
+Synthetic Mox
+rules_text: {T}: Add {C}. Put a stun counter on Synthetic Mox . => {T}: Add {C}. Put a stun counter on Synthetic Mox.
+
+Emerald Graft
+
+Bedrock Forager
+
+Obsidian Mox
+
+Marshline Relay
+
+Ogink Imprinter
+
+Harmonic Reservoir
+
+Repairing Post
+
+Gleamshard
+
+Mysterious Parcel
+
+Redacted Scroll
+
+Bedside Caretaker
+
+Conversion Cradle
+
+Boneprint Bay
+
+Siphon Capacitor
+
+Workshop Overseer
+
+Null Orb
+
+Step Off the Line
+
+Quell the Iliach
+
+Commonweal Assessment
+
+Collateral Containment Zone
+
+Telltale Stain
+rules_text: Exile target creature or planeswalker. Its controller creates two Blood tokens. [i](They're artifacts with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”)[/i] => Exile target creature or planeswalker. Its controller creates two Blood tokens. [i](They're artifacts with “{1}, {T}, Discard a card, Sacrifice this token: Draw a card.”)[/i]
+
+Quarantine Protocol
+
+Enlistment
+
+Vanishing Act
+rules_text: Exile target creature, then return it to the battlefield under its owner's control.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Exile target creature, then return it to the battlefield under its owner's control.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Theurge's Reprise
+
+Alamazzar, Bane of Titans
+rules_text:  => Creatures you control get +1/+1.
+[+1]: Up to one target creature gains first strike, lifelink, and vigilance until end of turn.
+[-2]: Create two 1/1 white Soldier creature tokens.
+[-7]: For each type among other permanents you control, create five 1/1 white Soldier creature tokens.
+
+Ancient Horologe
+
+Re-Education Protocol
+
+Good as New
+
+Endless Assembly
+
+Workshop Spanner
+
+Dawnhurst Operations
+
+Refashion
+
+Seal of Renewal
+
+Branch House Repairs
+
+Runesworn Blessing
+
+Sanctioned Ascension
+
+Finality
+
+Runesworn Apostle
+
+Ghostshot
+
+Parade of Confidence
+
+Exploit the Opening
+
+Crownward Conversion
+
+Alamazzar's Command
+
+Silence at Noon
+
+Leaving Breadcrumbs
+
+Mortmain Ordinance Sentry 0-9
+
+Steelborne Veteran
+
+Rivetside Engineer
+
+Keening Row Speaker
+
+Warranty Protector
+
+Absolver of Debts
+
+Aegis Retrieval Agent
+
+Interdiction Unit
+
+Spotlight Seraph
+type: Creature — Angel => Creature — Angel Bard
+
+Iron Quarters Skycaptain
+
+Uniform Conversion
+
+Evergraft Duelmaster
+
+Commonweal Benefactor
+
+Parade Field Marshal
+
+Surveyor Frame DSF-9
+
+Safehouse Runner
+
+Colm Se Sciathain
+
+Thorne Expediter
+
+Gian, Mender of Glass
+
+Caoimhnoir na Saol
+
+Crown Guard Shell
+
+Crownwide Conscription
+
+Dawnhurst Line Captain
+
+High Crown Seraph HCS-1
+
+Runecircuit Theurge
+
+OghamNet Uplink M-1
+
+Everspring Permit Auditor
+
+Evergraft Marksman
+
+Restoration Specialist
+
+Craicfeed Runner
+
+Spotlight Jammer
+
+Breadlane Sentinel
+
+Corporate Troubleshooter
+
+Undertram Medic
+
+Little Streets Courier
+
+Banner Vanguard
+
+Gentle Extraction
+rules_text: Draw two cards. Each player creates a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”)[/i] => Draw two cards. Each player creates a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this token: Draw a card.”)[/i]
+
+Lock the Channel
+
+Dispatch the Frames
+
+Mobilize the Intel
+
+Measure for Measure
+
+Grind the Volley
+
+Clear the Shot
+
+Broadcast Doubt
+
+Quell the Channel
+
+Pass Judgment
+
+Bypass Security
+
+Emergency Override
+
+Cut In
+
+Refraction Field
+
+Mirrorlock
+
+Misaligned Transit
+rules_text: Return target nonland permanent to its owner's hand.
+Create a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”)[/i] => Return target nonland permanent to its owner's hand.
+Create a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this token: Draw a card.”)[/i]
+
+Mana Leak
+
+Search the Possibilities
+
+Examine the Hypothesis
+
+Calibration Array
+
+Memory Deluge
+
+Discern
+
+Haubay's Command
+
+Upload the Self
+
+Clip the Escape
+
+Reflected Echo
+
+Scrape the Bottom
+
+Suppose
+
+Thought Scour
+
+Maintenance Hold
+
+Survey the Lanes
+
+Whorling Eviction
+
+Data Archivist
+
+Preordain
+
+Carte Blanche
+
+Seal of Revelation
+
+Surveyor Drone SRD-8
+rules_text: Flying
+When Surveyor Drone SRD-8 enters, create a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”)[/i] => Flying
+When Surveyor Drone SRD-8 enters, create a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this token: Draw a card.”)[/i]
+
+Steelsky Halberdier
+
+Muirsidhe Courier
+
+Rivetside Cutter
+
+GeasKernel Plan G-4
+
+Packet Breacher
+
+Wardgrid Recon Seraph WRS-3
+
+Crown Guard Lancer
+
+Waygate Smuggler
+
+Rooftop Nullifier
+
+Muirsidhe Scrapmage
+
+Niall, Lantern Row Baron
+
+Bradach Broidneireach
+
+Replicant
+
+Aonar Rescue Seraph ARS-3
+
+Aegis Assembler
+rules_text: When Aegis Assembler enters, create two Blood tokens. [i](They're artifacts with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”)[/i]
+Each noncreature artifact token you control is an artifact creature with power and toughness 3/3. => When Aegis Assembler enters, create two Blood tokens. [i](They're artifacts with “{1}, {T}, Discard a card, Sacrifice this token: Draw a card.”)[/i]
+Each noncreature artifact token you control is an artifact creature with power and toughness 3/3.
+
+Ogink Scribe
+
+Aonar Disrupter
+
+Salt Street Syndicate
+
+Ironclaw Caoránach
+
+Surveyor Stockrunner SY-2
+
+Surveyor Interdict Seraph S-8
+
+DW3 Caoranach Skyframe
+rules_text: This spell can't be countered.
+Flying
+Whenever an opponent draws a card, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+Whenever you sacrifice an artifact, DW3 Caoranach Skyframe gains hexproof until end of turn. => This spell can't be countered.
+Flying
+Whenever an opponent draws a card, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+Whenever you sacrifice an artifact, DW3 Caoranach Skyframe gains hexproof until end of turn.
+
+Coimeadai Tomhas
+
+Aonar Survey Sentry WWS-2
+
+Meabhair tri Abhar
+
+Stormbreach Titan TL-2
+
+Tidebreaker Hull LSN-8
+
+Skylink Augur
+
+Mnemonic Plc Complier
+
+Metered Resources
+
+Lift Secrets
+
+System Error
+
+Hard Shutdown
+rules_text: Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.
+Create a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”)[/i] => Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.
+Create a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this token: Draw a card.”)[/i]
+
+Mark for Rebirth
+
+Embrace Oblivion
+
+Cognitive Interceptor
+
+Night's Temptation
+
+Unseen Crossroads
+rules_text: Brink [i](Exile seven cards from your graveyard: You go over the edge. Activate only as a sorcery.)[/i]
+At the beginning of your upkeep, choose one —
+• Create a 1/1 black Rogue creature token, then you lose 1 life. Surveil 1.
+• If you're over the edge, create a 5/5 black Demon creature token with flying, then you lose 5 life. => Brink [i](Exile seven cards from your graveyard: You go over the edge. Activate only as a sorcery.)[/i]
+At the beginning of your upkeep, choose one —
+• You lose 1 life. Create a 1/1 black Rogue creature token.
+• You lose 5 life. If you're over the edge, create a 5/5 black Demon creature token with flying.
+
+Equity in Flesh
+
+Salvaging
+
+Weigh the Score
+
+Virtual Overload
+
+Priority Elimination
+
+Carve a Path
+
+Deadly Interrogation
+
+Collect the Tithe
+
+Dividends to Dust
+
+Controlled Overdose
+
+Bitter Edict
+
+Wipe the Books
+
+Borrow on Blood
+
+Fell
+
+Sever the Legacy
+
+Gutter Snare
+
+Ludolf's Dismay
+
+Graft Rejection
+
+Fracture the Facade
+
+Ludolf's Command
+
+Discreet Cutthroat
+
+Greycoat Wayfarer
+rules_text: Greycoat Wayfarer enters tapped.
+You may cast Greycoat Wayfarer from your graveyard if you behold an artifact and behold a creature. [i](To behold a card, choose a card of that type you control or reveal one from your hand.)[/i] => Greycoat Wayfarer enters tapped.
+You may cast Greycoat Wayfarer from your graveyard if you behold an artifact and behold a creature. [i](To behold a card, choose a card of that type you control or reveal one from your hand.)[/i] [i](To behold an artifact, choose an artifact you control or reveal an artifact card from your hand.)[/i]
+
+Throne Intelligencer
+
+Fenmarket Scrapper
+
+Speaker of Last Rites
+
+Renegade Underclaw
+
+Thorne Data Runner
+
+Aureline Infiltrator
+
+Underhanded Abhartach
+
+Cait Sidhe
+
+Páiste Timpistí
+
+Ogink Resurgist
+
+Leveraged Muscle
+
+Salt Street Bleeder
+
+Synapse Jacker
+rules_text: When Synapse Jacker enters, create a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”)[/i]
+Exhaust — {T}: Target creature gets -2/-2 until end of turn for each artifact token you control. Activate only as a sorcery. [i](Activate each exhaust ability only once.)[/i] => When Synapse Jacker enters, create a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this token: Draw a card.”)[/i]
+Exhaust — {T}: Target creature gets -2/-2 until end of turn for each artifact token you control. Activate only as a sorcery. [i](Activate each exhaust ability only once.)[/i]
+
+An Bacach Ag Caoineadh
+
+Trinity Executioner
+
+Turncloak Tormentor
+
+Mnemonics Harvester
+
+Sumpway Lookout
+
+Cairnside Bonewright
+
+Black Market Dealings
+rules_text: Choose one or more —
+• Create a Treasure token. You lose 1 life.
+• Draw a card. You lose 2 life.
+• Create a 3/2 colorless Shapeshifter creature token with changeling. You lose 3 life. [i](This card is every creature type.)[/i] => Choose one or more —
+• Create a Treasure token. You lose 1 life.
+• Draw a card. You lose 2 life.
+• Create a 3/2 colorless Shapeshifter creature token with changeling. You lose 3 life. [i](It is every creature type.)[/i]
+
+Feoil Crochta
+
+Abhartach Broker
+
+Sidhe-Touched Ritualist
+
+Marionette Artisan
+
+Crosog Racketeer
+
+Thorne Terminator
+
+Ruaigire Scathanna
+
+Guth Deichniúr Fear
+
+Sluagh Artisan
+
+Scian Éadóchas
+rules_text: Menace, lifelink
+When Scian Éadóchas enters, exile target creature. You gain 5 life. => Menace, lifelink
+When Scian Éadóchas enters, exile up to one target creature. You gain 5 life.
+
+Gáire Gan Sonas
+
+Marshgate Enforcer
+
+Hollow Host Assembly
+
+Balor Opressor I-1
+
+Clean Cut
+
+Kindling Shot
+
+Floor Drop
+
+Phantasm Visor
+
+Borrowed Farewell
+
+Overclock
+
+Koios, Reckoner
+rules_text:  => Once each turn, whenever you cast a red spell, you may copy it if its mana value is less than the number of loyalty counters on Koios. [i](Copies of permanent spells become tokens.)[/i]
+[+1]: Discard a card. Draw a card.
+[0]: Add {R}{R}{R}. Spend this mana only to cast red spells.
+[-3]: Koios deals 4 damage to any target.
+
+Luminous Bloom
+
+Powerline Feedback
+
+Grafted Pugilist
+rules_text: When Grafted Pugilist enters, each opponent creates a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”)[/i]
+Whenever a player discards a card, Grafted Pugilist deals 1 damage to each opponent. => When Grafted Pugilist enters, each opponent creates a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this token: Draw a card.”)[/i]
+Whenever a player discards a card, Grafted Pugilist deals 1 damage to each opponent.
+
+Face the Fracture
+
+Koios's Resolution
+rules_text: Enchant creature
+Enchanted creature gets +2/+0 and has trample.
+You may cast Koios's Resolution from your graveyard by beholding an enchantment in addition to paying its other costs. [i](To behold an enchantment choose an enchantment you control or reveal one from your hand.)[/i] => Enchant creature
+Enchanted creature gets +2/+0 and has trample.
+You may cast Koios's Resolution from your graveyard by beholding an enchantment in addition to paying its other costs. [i](To behold an enchantment choose an enchantment you control or reveal one from your hand.)[/i] [i](To behold an enchantment, choose an enchantment you control or reveal an enchantment card from your hand.)[/i]
+
+Caoránach Aspirant
+
+Storm the Till
+
+Afterburn Loop
+
+Legion of One
+
+Seal of Reverberation
+
+Stampede Gauntlet
+
+Koios's Command
+
+Volatile Insight
+
+Feed the Flames
+
+Dwell on Despair
+
+Impending Peril
+rules_text: Impending Peril deals 3 damage to any target. If a creature was dealt damage this way, that creature's controller creates a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”)[/i] => Impending Peril deals 3 damage to any target. If a creature was dealt damage this way, that creature's controller creates a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this token: Draw a card.”)[/i]
+
+Erase from the Maps
+
+Lightning Bolt
+
+Incendiary Firewall
+
+Weaponize the Streets
+
+Oghink Surge
+
+Sever the Unbreakable
+
+Cut the Circuit
+rules_text: Cut the Circuit deals 4 damage to any target.
+Create a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”)[/i] => Cut the Circuit deals 4 damage to any target.
+Create a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this token: Draw a card.”)[/i]
+
+Crowdbreak
+
+Strike the Match
+
+Self Check-Out
+
+Push into the Marshes
+
+Covenant of Passion
+
+Omenpath Incursion
+
+Rekindle the Bond
+
+Gillded Opportunist
+
+Sparkworks Audio Tech
+
+Defiant Arcanist
+
+Fervent Revolutionary
+
+DaolPulse Booster R-7
+
+CuSith Tracker K-9
+
+Caoranach Skyframe Pilot
+
+Lantern Row Lovers
+
+Pyroclastic Insurgent
+
+Impulsive Technician
+rules_text: When Impulsive Technician enters, create a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this artifact: Draw a card.”)[/i]
+{T}, Sacrifice another artifact: Return target artifact card in your graveyard to your hand. => When Impulsive Technician enters, create a Blood token. [i](It's an artifact with “{1}, {T}, Discard a card, Sacrifice this token: Draw a card.”)[/i]
+{T}, Sacrifice another artifact: Return target artifact card in your graveyard to your hand.
+
+Mortmain Shock Trooper
+
+Dwarven Piledriver
+
+AbharGrid Routine W-5
+
+Erratic Defector
+
+Barrowflame Caoranach
+
+Friend of the Bodach
+
+Broadcast Troubadour
+
+Galvanic Stormrager
+
+Gatewalk Runner
+
+FetchStack Phantom S-0
+
+Crosog Ripsaw
+
+Thorne Flareweaver
+
+Undertram Operative
+
+An Cinn Ag Dó
+
+Tine Gan Deireadh
+
+Marcach ón Thar Lar
+
+Hotwire Crew
+
+Fearg Ar Sé Cosa
+
+Smell Fear
+
+Seal of Primordium
+
+Harvest the Shell
+
+Rust
+
+Observe the Marshes
+
+Fiadhan's Command
+
+Fiadhan of Oak and Moss
+rules_text:  => You may play any number of lands on each of your turns.
+Whenever you play a land, if it wasn't the first land you played this turn, remove a loyalty counter from Fiadhan.
+[+1]: Mill two cards. You may return a land card from your graveyard.
+[-1]: Until end of turn, Fiadhan becomes a Spirit creature with power and toughness each equal to the number of lands you control.
+
+Protean Warren
+rules_text: Enchant land
+Enchanted land has “{T}: Create a 3/2 colorless Shapeshifter creature token with changeling.” [i](The creature is every creature type.)[/i] => Enchant land
+Enchanted land has “{T}: Create a 3/2 colorless Shapeshifter creature token with changeling.” [i](It is every creature type.)[/i]
+
+Freedom of the Wilds
+
+Dismantle Prey
+
+Revel in Recovery Mode
+
+Horizon of Growth
+
+Colossal Crescendo
+
+Verdant Renovation
+
+Rite of the Sidhe
+
+Hand Down Hope
+
+Many as One
+
+Veteran Explorer
+
+Ashenby Trailblazer
+
+Dawnhurst Recruit
+
+Holoscape Escapist
+
+Marshland Surveyor
+
+Defunct Observer
+
+Aonar Rail Commuter
+
+Hardened Survivor
+
+Sabotage Specialist
+
+Ecological Researchers
+
+Guerrilla Demolitionist
+
+Salvage Bay Engineer
+
+An Cuisle Tostaithe
+
+Resilient Survivor
+
+Stalwart Strider
+
+Salt Street Fence
+
+Faoladh Galvanizer
+
+Treoir Anamnacha Aimsithe
+
+Propagation Overseer
+
+DaolPulse Bloomer G-3
+
+Protean Pathbreaker
+rules_text: Betrayal {G} [i]({G}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Tokens you control have trample.
+When Protean Pathbreaker enters, create a 3/2 colorless Shapeshifter creature token with changeling. [i](This card is every creature type.)[/i] => Betrayal {G} [i]({G}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Tokens you control have trample.
+When Protean Pathbreaker enters, create a 3/2 colorless Shapeshifter creature token with changeling. [i](It is every creature type.)[/i]
+
+Cailín na Duilliúr
+
+Overclocked Reveler
+
+Everspring Coordinator
+
+Grafted Cutthroat
+
+Voice of the Machine
+
+Manifold Channeler
+
+Thorne Pathfinder
+
+Oghamblight Howler
+
+Grove Rector
+
+Reclaimer of the Wilds
+
+Faoladh Mauler
+
+Reclaimer of the Marshes
+
+Facets of the Self
+
+Wildline Wrangler
+
+Dataforged Witness
+
+Relentless Executioner
+
+Gatewalk Assurance Unit A1
+
+Commander of the Marshes
+
+Nemeton Circle Tenders
+
+Leanbh Na Portaigh
+
+Forerunner of Bog Uaine
+
+Skyline Giant
+
+Feoil Ag Caoineadh
+
+Bog Uaine Colossus
+
+Matán ag Corraí
+
+Riot Suppression RSO-2
+
+Túr an Brón
+
+Envoy of the Marshes
+
+Nemeton Guard WCF-2
+
+Arid Mesa
+
+Bloodstained Mire
+
+Flooded Strand
+
+Marsh Flats
+
+Misty Rainforest
+
+Polluted Delta
+
+Scalding Tarn
+
+Verdant Catacombs
+
+Wayfarer's Shrine
+
+Windswept Heath
+
+Wooded Foothills
+
+Grim Bastion
+
+Amber Hills
+
+Timber Range
+
+Sunlit Highland
+
+Ocean Monastery
+
+Mysterious Cataract
+
+Shardstone Rift
+
+Barren Desolation
+
+Floodwater Depths
+
+Magmatic Torrent
+
+Veiled Grotto
+
+Blood Crypt
+
+Breeding Pool
+
+Godless Shrine
+
+Hallowed Fountain
+
+Overgrown Tomb
+
+Sacred Foundry
+
+Steam Vents
+
+Stomping Grounds
+
+Temple Garden
+
+Watery Grave
+
+Ogham Bulwark
+
+DW4 Relay Signaler
+
+Soldier
+
+Treasure
+
+Clue
+
+Blood
+
+Food
+
+Soldier
+
+Soldier
+
+Rogue
+
+Demon
+
+Shapeshifter
+
+Zombie
+
+Elemental
+
+Elf
+
+Construct
+
+Goblin
+
+Spirit
+
+Servo
+
+Illusion
+
+Dragon
+
+Spirit
+
+Mutant
+
+Construct
+
+Shadowborn Exarch
+
+Aegis Control Center
+
+Sparkworks Studio
+
+Taiga
+
+Volcanic Island
+
+
+VERSION 2 CHANGELOG
 ====================
 
 

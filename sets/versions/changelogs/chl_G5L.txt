@@ -1,4 +1,151 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+Condemn the Div added.
+Paired Advance added.
+Satrapy added.
+Griffin added.
+
+Strike Down removed.
+Ride as One removed.
+
+Draining Revelation
+rules_text: Mill four cards. You gain 4 life. => Mill four cards. You gain 4 life.
+Create a tapped Treasure.
+
+Ironhollow Cavern
+rules_text: {T}: Add {C}.
+{2}, {T}: Destroy target nonbasic land. You and that player each create a colorless Satrapy land with “{T}: Add {C}” and “{1}, {T}: Add one mana of any color.” => {T}: Add {C}.
+{2}, {T}, Sacrifice Ironhollow Cavern: Destroy target nonbasic land. You and that player each create a colorless Satrapy land with “{T}: Add {C}” and “{1}, {T}: Add one mana of any color.”
+
+Warden of Avaz
+rules_text: Ward {1}
+Cards can't leave graveyards. [i](Including by being cast or for collecting.)[/i] => Cards can't leave graveyards. [i](Including by being cast or for collecting.)[/i]
+
+Chart the Plane
+rules_text: Create a colorless Satrapy land token with “{T}: Add {C}.”
+Satrapycycling {2} [i]({2}, Discard this card: Search your library for a Satrapy card, reveal it, put it into your hand, then shuffle.)[/i] => Create a tapped colorless Satrapy land token with “{T}: Add {C}.”
+Satrapycycling {2} [i]({2}, Discard this card: Search your library for a Satrapy card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Blanched Warden
+rules_text: Nonland cards in libraries, exile, and graveyards lose all types, names, and abilities. => Nonland cards in libraries and graveyards lose all types, names, and abilities.
+
+Voice of Caravans
+rules_text: Retinue — 1/1, 1/1 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Creature tokens you control have “{T}: Add one mana of any color.” => Retinue — 2/2 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Creature tokens you control have “{T}: Add one mana of any color.”
+
+Death by One Million Stings
+rules_text: At the beginning of your upkeep, you draw a card and you lose 2 life.
+{X}{B}: Death by One Million Stings becomes an X/X black Scorpion enchantment creature until end of turn. If {W} was spent to activate this ability, it gains lifelink until end of turn. The same is true for {U} and flying, {R} and menace, and {G} and deathtouch. => At the beginning of your upkeep, you draw a card and you lose 2 life.
+{X}{B}: Death by One Million Stings becomes an X/X black Scorpion enchantment creature until end of turn. If {W} was spent to activate this ability, it gains lifelink until end of turn. The same is true for {U} and flying, {R} and menace, and {G} and deathtouch. X can't be 0. Activate only outside of combat.
+
+Siegebreaker Manticore
+cost: {1}{R}{R} => {2}{R}{R}
+rules_text: Flying
+Ward—Pay 3 life.
+Whenever Siegebreaker Manticore attacks, it deals damage to any nonplayer target defending player controls equal to the number of nonbasic lands they control. => Flying menace
+Whenever Siegebreaker Manticore enters, it deals damage to any target equal to the number of nonbasic lands your opponents control.
+pt: 3/3 => 4/3
+
+Unbidden Mandate
+cost: {1}{W} => {W}
+rules_text: Search your library for a legendary card, exile it, then shuffle. If it's mana value is less than the number of legendary nonland permanents you control, you may cast it without paying its mana cost. Otherwise, put it into your hand. => Search your library for a historic card, exile it, then shuffle. You may discard a card. If you do, put that card into your hand. Otherwise, put it on the top of your library. [i](Artifacts, legendaries, and Sagas are historic.)[/i]
+
+Andazir, Acrimony's Toy
+rules_text: Collect backing 3, {R}: Andazir becomes a Mutant with base power and toughness 3/3 [i](For three colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+Collect backing 4, {1}{R}: If Andazir is a Mutant it becomes a Dragon Horror with base power and toughness 5/5 and gains flying.
+Collect backing 5, {4}{R}: If Andazir is a Dragon, it deals 5 damage to any target. => Collect backing 2, {R}: Andazir becomes a Mutant with base power and toughness 3/3 [i](For two colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+Collect backing 3, {1}{R}: If Andazir is a Mutant it becomes a Dragon Horror with base power and toughness 5/5 and gains flying.
+Collect backing 5, {4}{R}: If Andazir is a Dragon, it deals 5 damage to any target.
+
+Mehr, Blight of Life
+rules_text: Whenever Mehr enters or attacks, mill three cards. Return each permanent card milled this way to the battlefield, except they're 4/4 Zombie creatures in addition to their other types. Then distribute a lifelink counter, a deathtouch counter, and a flying counter among those creatures. => Whenever Mehr enters, mill three cards. When you do, return up to three target land cards from your graveyard to the battlefield. They become 4/4 Zombie creatures in addition to their other types. Then distribute a lifelink counter, a deathtouch counter, and a flying counter among those creatures.
+
+The Timeless Simurgh
+cost: {1}{W}{U}{B}{R}{G} => {W}{U}{B}{R}{G}
+
+Scour the Tombs
+rules_text: Mill five cards. For each land card milled this way, create a tapped Treasure token. For each creature card milled this way, create a 1/1 white Soldier creature token. For each nonland, noncreature card milled this way, draw a card. => Mill four cards. For each land card milled this way, create a tapped Treasure token. For each creature card milled this way, create a 1/1 white Soldier creature token. For each nonland, noncreature card milled this way, draw a card.
+
+Hollow Eyed Ghulspawn
+cost: {B}{G} => {1}{B}{G}
+rules_text: At the beginning of your end step, you may collect backing X. Do the following based on X. [i](For X colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+[b]1+ [/b]| Mill two cards.
+[b]3+ [/b]| Create a Treasure token.
+[b]5 [/b]| You draw a card and you lose 1 life. => At the beginning of your end step, you may collect backing X. Do the following based on X. [i](For X colors, tap an untapped creature you control of that color or exile a card of that color from your graveyard.)[/i]
+[b]1+ [/b]| Mill two cards. Create a Treasure.
+[b]3+ [/b]| You draw a card and you lose 1 life.
+[b]5 [/b]| Create a 4/4 green Horror creature token.
+pt: 2/2 => 3/3
+
+Zareen, Innocent Heir
+rules_text: Whenever you attack, scry 1. Then, you may reveal the top card of your library. If its mana value is less than or equal to the number of cards you've looked at while scrying this turn, put it into your hand. Otherwise, you may put it on the bottom of your library. => Whenever you attack, scry 1. If you attacked with three or more creatures, scry 3 instead.
+At the beginning of your end step, if you've looked at three or more cards while scrying or surveiling this turn, create a 1/1 red Noble creature token. If you've looked at five or more cards this way, draw a card.
+
+Secondhand Serenade
+rules_text: Target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. If this spell was cast from your graveyard, that flashback cost is equal to its mana cost minus {1}. 
+Flashback {3}{R} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. If this spell was cast from your graveyard, that flashback cost is equal to its mana cost minus {2}. 
+Flashback {3}{R} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+General of Phantasms
+rules_text: Flash
+Retinue — 0/2, 0/2, 0/2, 0/2 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+General of Phantasms has hexproof and can't be blocked as long as you control an Army. => Flash
+Retinue — 0/2, 0/2, 0/2, 0/2 [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Sacrifice an Army: General of Phantasms and up to one target nonland permanent phase out.
+pt: 5/4 => 5/5
+
+Huma of Radiant Flames
+cost: {3}{R}{R}{R} => {2}{R}{R}{R}
+
+Legion of Infinite Maws
+rules_text: Retinue — X 1/1s [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Creatures in Legion of Infinite Maws's retinue are Hydra Armies and have “Whenever this creature is dealt damage, sacrifice it and create two tokens that are copies of it in the same retinue.” => Retinue — X 1/1s [i](When this enters, create the listed red Army tokens. They attack and block together and with this if able.)[/i]
+Other creatures in Legion of Infinite Maws's retinue are Hydra Armies and have “Whenever this creature is dealt damage, sacrifice it and create two tokens that are copies of it in the same retinue.”
+
+Feather of All Paths
+rules_text: Feather of All Paths can only dynamize once each turn.
+Feather of All Paths has all activated abilities of other artifacts you control with mana value 1 or greater.
+{2}{W}{U}{B}{R}{G}: Dynamize. Activate only once each turn. [i](Activate any number of this artifact's other abilities without paying their costs.)[/i] => Feather of All Paths can only dynamize once each turn.
+Feather of All Paths has all activated abilities of other artifacts you control with mana value 1 or greater.
+{2}{W}{U}{B}{R}{G}: Dynamize. Activate only once each turn. [i](Activate any number of this artifact's other abilities without paying their costs. Timing restrictions apply.)[/i]
+
+Revelation in Ruin
+rules_text: Return all nonland permanents to their owner's hand.
+Take an extra turn after this one. => Return all nonland permanents to their owner's hand.
+Take an extra turn after this one.
+Exile Revelation in Ruin.
+
+The Young Proselyte
+rules_text: When The Young Proselyte dies, you may search your library for a red or white planeswalker card, reveal it, and put it into your hand.
+Whenever you cast a planeswalker spell, you may exile The Young Proselyte from your graveyard. If you do, you may activate the loyalty abilities of that planeswalker twice this turn rather than only once. => When The Young Proselyte dies, you may search your library for a red or white planeswalker card, reveal it, and put it into your hand.
+Whenever you cast a planeswalker spell, you may exile The Young Proselyte from your graveyard. If you do, that planeswalker enters with an additional loyalty counter on it.
+
+Grove of the Sherdal
+rules_text: Token creatures you control have flying and lifelink.
+{1}{W}: Exile target nontoken creature you control. Create a tapped token that's a copy of it. => Token creatures you control have flying and lifelink.
+{1}{W}: Exile target nontoken creature you control. Create a tapped token that's a copy of it. Activate only outside of combat.
+
+Last of Marjavar
+rules_text: As long as you control exactly one creature, that creature gets +1/+1 and has ward {2}.
+Whenever a creature you control enters, if you control another creature, exile that creature. When you control no other creatures, if you don't control any other creatures, return that card to the battlefield under its owner's control. [i](If there are multiple cards exiled with this card, you return only one when a new creature leaves.)[/i] => As long as you control exactly one creature, that creature gets +1/+1 and has ward {2}.
+Whenever a creature you control enters, if you control two or more creatures, exile it. It gains “Whenever you control no other creatures while this card is exiled, if you control no creatures, return it to the battlefield under its owner's control.” [i](They can come back in any order.)[/i]
+
+Seat of the Faceless
+cost: {3}{B}{B} => {2}{B}{B}
+
+Dragon
+type: Token Creature => Token Creature — Dragon
+
+Assassin
+type: Token Creature => Token Creature — Assassin
+
+Zombie
+type: Token Creature => Token Creature — Zombie
+
+
+VERSION 7 CHANGELOG
 ====================
 
 
