@@ -5,7 +5,7 @@
 			<name>ORC</name>
 			<longname>An Oddness in the River Cities</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-03-12</releasedate>
+			<releasedate>2026-03-13</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -308,7 +308,7 @@ Enchanted creature gets +2/+1 and has vigilance.</text>
 			<name>Sinister Thought-Snatcher</name>
 			<text>Flying
 When Sinister Thought-Snatcher enters, investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/17.png" num="80">ORC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/17.png" num="81">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -344,7 +344,7 @@ When Sinister Thought-Snatcher enters, investigate. (Create a Clue token. It&apo
 			<name>Papertrail Trickster</name>
 			<text>Papertrail Trickster gets +1/+0 as long as it is unblocked. (This only happens after blockers have been declared and it is attacking.)
 Whenever you draw your second card each turn, target creature can&apos;t be blocked this turn.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/19.png" num="74">ORC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/19.png" num="75">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -379,7 +379,7 @@ Flashback {4}{U} (You may cast this card from your graveyard for its flashback c
 			<name>Sleuth of the Deep Hours</name>
 			<text>Betrayal {1}{U} (You may cast this spell for {1}{U} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)
 Whenever Sleuth of the Deep Hours deals combat damage to a player or noncreature permanent, draw a card.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/21.png" num="82">ORC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/21.png" num="83">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -397,7 +397,7 @@ Whenever Sleuth of the Deep Hours deals combat damage to a player or noncreature
 			<name>Squeak-ret Operative</name>
 			<text>Prowess
 Whenever Squeak-ret Operative deals combat damage to a player or noncreature permanent, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/22.png" num="84">ORC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/22.png" num="85">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -452,7 +452,7 @@ When Stool Pidgeon enters, investigate. (Create a Clue token. It&apos;s an artif
 			<name>Skyline Snooper</name>
 			<text>Flying, ward {2}
 Islandcycling {2} ({2}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/25.png" num="81">ORC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/25.png" num="82">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -468,9 +468,8 @@ Islandcycling {2} ({2}, Discard this card: Search your library for an Island car
 		</card>
 		<card>
 			<name>Missing Piece of Reality</name>
-			<text>Counter target spell unless its controller pays {X}.
-{1}{U}, Exile Missing Piece of Reality from your graveyard: Surveil 2, then investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/26.png" num="70">ORC</set>
+			<text>Counter target spell unless its controller pays {X}. If that spell had mana value 2 or less, investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/26.png" num="71">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -487,7 +486,7 @@ Islandcycling {2} ({2}, Discard this card: Search your library for an Island car
 			<name>Spill the Beans</name>
 			<text>Draw a card.
 Investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/27.png" num="83">ORC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/27.png" num="84">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -505,7 +504,7 @@ Investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifi
 			<text>Flash
 Enchant creature
 Enchanted creature has base power and toughness 1/1, has flying, loses all other abilities, and is an Insect Mutant in addition to its other types.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/28.png" num="76">ORC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/28.png" num="77">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -523,7 +522,7 @@ Enchanted creature has base power and toughness 1/1, has flying, loses all other
 			<text>Choose one —
 • Counter target spell unless its controller pays {2}.
 • Return target creature with mana value 2 or less to its owner&apos;s hand.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/29.png" num="78">ORC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/29.png" num="79">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -658,7 +657,7 @@ Woman with a Past enters with a 2/2 white Soldier creature counter on it. (The c
 		<card>
 			<name>Lorre Bagman</name>
 			<text>Betrayal {1}{B} (You may cast this spell for {1}{B} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)
-Whenever Medium Creature deals combat damage to a player or noncreature permanent, create a tapped Treasure token.</text>
+Whenever Lorre Bagman deals combat damage to a player or noncreature permanent, create a tapped Treasure token.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/37.png" num="105">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -747,7 +746,7 @@ Flashback {4}{B} (You may cast this card from your graveyard for its flashback c
 		</card>
 		<card>
 			<name>Thread of Obsession</name>
-			<text>You draw a card and you lose 1 life.
+			<text>You draw a card and you lose 2 life.
 Investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/ORC-files/img/42.png" num="128">ORC</set>
 			<prop>
@@ -755,8 +754,8 @@ Investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifi
 				<side>front</side>
 				<type>Instant</type>
 				<maintype>Instant</maintype>
-				<manacost>1B</manacost>
-				<cmc>2</cmc>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -793,8 +792,8 @@ When enchanted creature dies, return it to the battlefield tapped under its owne
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>2B</manacost>
-				<cmc>3</cmc>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -1091,10 +1090,10 @@ Boiler Ambush deals 6 damage to any nonplayer target.</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Sorcery</type>
-				<maintype>Sorcery</maintype>
-				<manacost>2R</manacost>
-				<cmc>3</cmc>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
@@ -1387,7 +1386,7 @@ Flashback {3}{G} (You may cast this card from your graveyard for its flashback c
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Artifact</type>
+				<type>Artifact — Clue</type>
 				<maintype>Artifact</maintype>
 				<manacost>1</manacost>
 				<cmc>1</cmc>
@@ -1788,7 +1787,7 @@ When Terms of Salvation enters or is defeated, return target creature card with 
 		<card>
 			<name>A Forged Familicide</name>
 			<text>(As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)
-When A Forged Familicide enters or is defeated, exile up to two cards from graveyard, then create a 1/1 blue Spirit creature token with flying.</text>
+When A Forged Familicide enters or is defeated, exile up to two cards from graveyards, then create a 1/1 blue Spirit creature token with flying.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/102.png" num="16">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -1825,7 +1824,7 @@ Whenever Voicewoven Heretic deals combat damage to a player or noncreature perma
 			<name>Pipeway Inspector</name>
 			<text>Flash
 When Pipeway Inspector enters, counter target spell unless its controller pays {X}, where X is the number of Detectives you control plus the number of Clues you control.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/104.png" num="75">ORC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/104.png" num="76">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1843,7 +1842,7 @@ When Pipeway Inspector enters, counter target spell unless its controller pays {
 			<name>Muckraker Seeker</name>
 			<text>{T}, Sacrifice a Clue: Draw a card.
 At the beginning of your end step, if three or more creatures dealt combat damage to a player or noncreature permanent this turn, investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/105.png" num="71">ORC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/105.png" num="72">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1861,7 +1860,7 @@ At the beginning of your end step, if three or more creatures dealt combat damag
 			<name>Melodic Mole</name>
 			<text>Flash
 Whenever you cast your first spell during an opponent&apos;s turn, investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/106.png" num="69">ORC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/106.png" num="70">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1881,7 +1880,7 @@ Whenever you cast your first spell during an opponent&apos;s turn, investigate. 
 • Target attacking creature can&apos;t be blocked this turn.
 • Target attacking creature gains flying and gets +1/+0 until end of turn.
 • Untap target attacking creature.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/107.png" num="68">ORC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/107.png" num="69">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1901,7 +1900,7 @@ Whenever you cast your first spell during an opponent&apos;s turn, investigate. 
 Whenever you draw your second card each turn, choose one —
 • Put a +1/+1 counter on each Insect you control.
 • Create a 1/1 blue Insect Horror creature token with flying.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/108.png" num="65">ORC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/108.png" num="66">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1919,7 +1918,7 @@ Whenever you draw your second card each turn, choose one —
 			<text>Flash
 Betrayal {U} (You may cast this spell for {U} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)
 When Hardline Enforcer enters, target creature phases out. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/109.png" num="61">ORC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/109.png" num="62">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1937,7 +1936,7 @@ When Hardline Enforcer enters, target creature phases out. (Treat it and anythin
 			<name>Mabuse Mastermind</name>
 			<text>Ward {2}
 Whenever one or more creatures you control deal combat damage to an opponent or noncreature permanent, draw a card.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/110.png" num="67">ORC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/110.png" num="68">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1956,7 +1955,7 @@ Whenever one or more creatures you control deal combat damage to an opponent or 
 			<text>Flash
 Ward {3} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)
 When Hull-Cracker Kraken enters, return target instant or sorcery card from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/111.png" num="62">ORC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/111.png" num="63">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1972,8 +1971,8 @@ When Hull-Cracker Kraken enters, return target instant or sorcery card from your
 		</card>
 		<card>
 			<name>Reconstruct The Scene</name>
-			<text>Investigate, then sacrifice any number of Clues. Surveil 3, then draw a card for each Clue sacrificed this way. (To investigate, create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/112.png" num="77">ORC</set>
+			<text>Surveil 3, then investigate. Sacrifice any number of Clues. For each Clue sacrificed this way, draw a card. (To investigate, create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/112.png" num="78">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1987,26 +1986,26 @@ When Hull-Cracker Kraken enters, return target instant or sorcery card from your
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Still the Pandemonium</name>
-			<text>Counter target noncreature spell.
-Investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/113.png" num="85">ORC</set>
+			<name>Fleeting Memories</name>
+			<text>When Fleeting Memories enters, investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)
+Whenever you sacrifice a Clue, target player mills three cards.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/113.png" num="60">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
-				<manacost>UU</manacost>
-				<cmc>2</cmc>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
-			<tablerow>3</tablerow>
+			<tablerow>1</tablerow>
 		</card>
 		<card>
 			<name>Inheritance of Thought</name>
 			<text>Put a creature counter on target creature you control that&apos;s a copy of that creature. (The counter becomes a creature token when the permanent it is on leaves.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/114.png" num="64">ORC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/114.png" num="65">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2041,8 +2040,8 @@ Investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifi
 			<name>Formally Missing</name>
 			<text>Flash
 Enchant creature or Clue
-Enchanted permanent is a colorless Clue artifact with &quot;{2}, Sacrifice this artifact: Draw a card&quot; and loses all other abilities. (It&apos;s no longer a creature or planeswalker.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/116.png" num="60">ORC</set>
+Enchanted permanent is a colorless Clue artifact with &quot;{2}, Sacrifice this artifact: Draw a card&quot; and loses all other abilities. (It&apos;s no longer a creature.)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/116.png" num="61">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2077,7 +2076,7 @@ Search your library for an artifact, instant, or sorcery card with mana value eq
 			<text>(As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)
 Flash
 When Low Tide, High Stakes enters, if you cast it, counter target spell.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/118.png" num="66">ORC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/118.png" num="67">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2095,7 +2094,7 @@ When Low Tide, High Stakes enters, if you cast it, counter target spell.</text>
 			<name>Impressions of Oil and Flesh</name>
 			<text>(As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)
 When Impressions of Oil and Flesh enters, if you cast it, you may create a token that&apos;s a copy of target nonbattle permanent you control.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/119.png" num="63">ORC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/119.png" num="64">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2391,7 +2390,7 @@ Whenever A Wake in Shadows is defeated, return target creature card from your gr
 		<card>
 			<name>No Clean Way Out</name>
 			<text>(As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)
-When No Clean Way Out enters or is defeated, each opponent discards a card. You gain 1 life.</text>
+When No Clean Way Out enters or is defeated, each opponent discards a card.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/136.png" num="113">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -2409,7 +2408,7 @@ When No Clean Way Out enters or is defeated, each opponent discards a card. You 
 		<card>
 			<name>Clawed Coquette</name>
 			<text>Prowess
-When Clawed Coquette dies, you may return target instant or sorcery card in your graveyard with a mana value less than Clawed Coquette&apos;s power to your hand.</text>
+When Clawed Coquette dies, you may return target instant or sorcery card in your graveyard with mana value less than Clawed Coquette&apos;s power to your hand.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/137.png" num="144">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -2614,8 +2613,8 @@ Antiquated Shot deals 3 damage to any target.</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
 				<manacost>2R</manacost>
 				<cmc>3</cmc>
 				<colors>R</colors>
@@ -2696,7 +2695,7 @@ When Framed in Flames is defeated, create a Treasure token.</text>
 		<card>
 			<name>The Break at Museum Row</name>
 			<text>(As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)
-When The Break at Museum Row enters or is defeated, exile the top card of your library. You may play it until your next end step.</text>
+When The Break at Museum Row enters or is defeated, exile the top card of your library. You may play it until the end of your next turn.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ORC-files/img/153.png" num="142">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -3258,7 +3257,7 @@ As Entry to Entertainment enters, you may tap another untapped permanent you con
 		<card>
 			<name>Divinity Repossessed</name>
 			<text>(As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)
-When Divinity Repossessed enters, if you cast it, destroy all other nonland, noncreature permanents. (This doesn&apos;t defeat battles.)</text>
+When Divinity Repossessed enters, if you cast it, destroy all other noncreature, nonland permanents. (This doesn&apos;t defeat battles.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/186.png" num="10">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -3292,7 +3291,7 @@ When Divinity Repossessed enters, if you cast it, destroy all other nonland, non
 		<card>
 			<name>Crowded Murmurs</name>
 			<text>Whenever a player casts a spell, that player discards a card unless they pay 3 life.
-As long as a player has no cards in hand, Crowded Murmurs is a 5/3 black Horror creature with deathtouch in addition to its other types.</text>
+As long as a player has one or fewer cards in hand, Crowded Murmurs is a 3/3 black Horror creature with deathtouch in addition to its other types.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/188.png" num="99">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -3309,26 +3308,25 @@ As long as a player has no cards in hand, Crowded Murmurs is a 5/3 black Horror 
 		<card>
 			<name>Wandering Ember</name>
 			<text>Flying, haste
-Whenever Wandering Ember or another creature you control enters, you may exile an instant or sorcery card from your graveyard with lesser mana value. That creature gains &quot;Whenever this creature attacks, you may cast a copy of the exiled card.&quot; (You still pay the costs.)</text>
+When Wandering Ember enters, for each token, that token&apos;s controller sacrifices it unless they have Wandering Ember deal 2 damage to them.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/189.png" num="178">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Spirit</type>
 				<maintype>Creature</maintype>
-				<manacost>2RR</manacost>
-				<cmc>4</cmc>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>3/3</pt>
+				<pt>5/5</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Maw of Borrowed Flesh</name>
 			<text>This spell costs {X} less to cast, where X is the total power of Horrors you control and among Horror creature counters on permanents you control.
-Trample
-When Maw of Borrowed Flesh enters, you gain 13 life.</text>
+Trample</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/190.png" num="207">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -3353,11 +3351,11 @@ Whenever you attack with three or more creatures, return target creature card wi
 				<side>front</side>
 				<type>Creature — Angel Horror</type>
 				<maintype>Creature</maintype>
-				<manacost>2WW</manacost>
-				<cmc>4</cmc>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
-				<pt>4/4</pt>
+				<pt>5/5</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3366,7 +3364,7 @@ Whenever you attack with three or more creatures, return target creature card wi
 			<text>Flying
 Whenever one or more creatures you control deal combat damage to a player, investigate.
 {1}{U}, Sacrifice a Clue: Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/192.png" num="72">ORC</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/192.png" num="73">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3382,15 +3380,15 @@ Whenever one or more creatures you control deal combat damage to a player, inves
 		</card>
 		<card>
 			<name>Sap Effervescence</name>
-			<text>Remove all counters from up to three target permanents. Create a 1/1 green Insect creature token for each counter removed from permanents you control this way.</text>
+			<text>Remove all counters from up to three target permanents. Create a 1/1 green Insect creature token for each type of counter removed from permanents this way.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/193.png" num="118">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>3B</manacost>
-				<cmc>4</cmc>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -3398,8 +3396,7 @@ Whenever one or more creatures you control deal combat damage to a player, inves
 		</card>
 		<card>
 			<name>L&apos;appel du vide</name>
-			<text>Whenever a nontoken creature is dealt damage, put a 4/4 green Horror creature counter on it. (The counter becomes a creature token when the permanent it is on leaves. It must survive to get the counter.)
-Creatures with counters on them attack each combat if able.</text>
+			<text>Whenever a nontoken creature is dealt damage, put a 4/4 green Horror creature counter on it. (The counter becomes a creature token when the permanent it is on leaves. It must survive to get the counter.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/194.png" num="154">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -3450,19 +3447,20 @@ When Gentle Collector enters, if you cast it, creatures you control gain indestr
 		</card>
 		<card>
 			<name>Conjuror Extraordinaire</name>
-			<text>When Conjuror Extraordinaire enters, investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)
-Whenever you draw your second card each turn, create a token that&apos;s a copy of another target creature you control, except it is an Illusion in addition to its other types and has &quot;Whenever this creature is the target of a spell or ability, sacrifice it.&quot; It can&apos;t block this turn.</text>
+			<text>Flash
+Whenever you draw your second card each turn, put a +1/+1 counter on Conjuror Extraordinaire.
+When Conjuror Extraordinaire dies, investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/197.png" num="51">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Elf Wizard</type>
 				<maintype>Creature</maintype>
-				<manacost>2U</manacost>
-				<cmc>3</cmc>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
-				<pt>2/2</pt>
+				<pt>2/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3519,9 +3517,10 @@ Whenever Cleaner&apos;s Hammer or another Warrior you control enters or becomes 
 		</card>
 		<card>
 			<name>Cawyer Station Recruit</name>
-			<text>Whenever another Soldier you control enters or a Soldier creature counter becomes a creature, choose one —
+			<text>Whenever another Soldier you control enters or a Soldier creature counter becomes a creature you control, choose one that hasn&apos;t been chosen this turn —
 • Put a +1/+1 counter on Cawyer Station Recruit.
-• Cawyer Station Recruit gains lifelink and vigilance until end of turn.</text>
+• Cawyer Station Recruit gains lifelink and vigilance until end of turn.
+• asdfasdfasdf</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/201.png" num="7">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -3609,7 +3608,8 @@ If an attacking creature you control would die, you may exile it instead. If you
 		</card>
 		<card>
 			<name>Favor from the Family</name>
-			<text>Destroy all creatures, then destroy all tokens. (This will destroy creature counters that become tokens.)</text>
+			<text>Destroy all creatures.
+Destroy all creatures.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/206.png" num="15">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -3625,7 +3625,7 @@ If an attacking creature you control would die, you may exile it instead. If you
 		</card>
 		<card>
 			<name>Delay the Inevitable</name>
-			<text>Exile target spell. Its controller may cast it for as long as it remains exiled by discarding a card in addition to its other costs.</text>
+			<text>Counter target spell. If you do, exile it and its controller may cast it for as long as it remains exiled by discarding a card in addition to its other costs.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/207.png" num="55">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -3661,18 +3661,18 @@ At the beginning of your upkeep, if you control a Demon, you lose 3 life.</text>
 		<card>
 			<name>Turncoat Officer</name>
 			<text>Betrayal {2}{R}{R} (You may cast this spell for {2}{R}{R} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)
-Whenever Turncoat Officer deals combat damage do a player or noncreature permanent during the first combat phase of the turn, untap each other creature you control. They gain haste until end of turn. After this phase there&apos;s is an additional combat phase.</text>
+Whenever Turncoat Officer deals combat damage to a player or noncreature permanent, if it&apos;s the first combat phase of the turn, untap each other creature you control. They gain haste until end of turn. After this phase there&apos;s is an additional combat phase.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/209.png" num="173">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Human Soldier Warlock</type>
 				<maintype>Creature</maintype>
-				<manacost>3RR</manacost>
-				<cmc>5</cmc>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>5/5</pt>
+				<pt>4/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3721,8 +3721,8 @@ Wide-Eyed Inquirer&apos;s power is equal to the number of tokens you control.</t
 				<side>front</side>
 				<type>Instant</type>
 				<maintype>Instant</maintype>
-				<manacost>3U</manacost>
-				<cmc>4</cmc>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
@@ -3748,7 +3748,7 @@ Wide-Eyed Inquirer&apos;s power is equal to the number of tokens you control.</t
 		<card>
 			<name>Veda&apos;s Broker</name>
 			<text>At the beginning of combat on your turn, create a 1/1 red Rogue creature token with haste. Exile it at the beginning of the next end step.
-Whenever one or more Rogues you control deal combat damage to a player or battle, you may discard up to that many cards. Then draw cards equal to the number of cards discarded this way.</text>
+Whenever one or more Rogues you control deal combat damage to a player or noncreature permanent, you may discard up to that many cards. Then draw cards equal to the number of cards discarded this way.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/214.png" num="175">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -3783,7 +3783,8 @@ Whenever Guttertooth deals combat damage to a player or noncreature permanent, i
 		</card>
 		<card>
 			<name>Futures Unwritten</name>
-			<text>Tokens can&apos;t enter the battlefield. (This stops creature counters from becoming creatures.)
+			<text>Nonland tokens can&apos;t enter the battlefield.
+Counters can&apos;t become creatures.
 Nonbasic lands enter tapped.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/216.png" num="17">ORC</set>
 			<prop>
@@ -3791,18 +3792,18 @@ Nonbasic lands enter tapped.</text>
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>1W</manacost>
-				<cmc>2</cmc>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Favored Traded in Uneven Hands</name>
+			<name>Favor Traded in Uneven Hands</name>
 			<text>(As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)
 Flash
-When Favored Traded in Uneven Hands enters or is defeated, look at the top four cards of your library. Put one into your hand and the rest on the bottom of your library in any order.</text>
+When Favor Traded in Uneven Hands enters or is defeated, look at the top four cards of your library. Put one into your hand and the rest on the bottom of your library in any order.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/217.png" num="59">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -3892,7 +3893,7 @@ At the beginning of your end step, you may exile target creature you control, th
 			<name>Owl-Knowing Sleuth</name>
 			<text>Flying
 Whenever Owl-Knowing Sleuth or another Detective you control becomes the target of a spell or ability you don&apos;t control, you may sacrifice a Clue. If you do, counter that spell or ability. If you don&apos;t, investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/222.png" num="73">ORC</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/222.png" num="74">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4038,7 +4039,7 @@ When Reaping Rite is defeated, search your library for a creature card, put it o
 		</card>
 		<card>
 			<name>Refracted Realities</name>
-			<text>Reveal the top six cards of your library. For each permanent type, you may choose a card of that type. If the total mana value of cards chosen this way is 6 or less, put the chosen cards onto the battlefield. Put all other cards on the bottom of your library in a random order.</text>
+			<text>Reveal the top six cards of your library. For each permanent type, you may choose a card of that type from among them. If the total mana value of cards chosen this way is 6 or less, put the chosen cards onto the battlefield. Put all other cards on the bottom of your library in a random order.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/230.png" num="238">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -4122,7 +4123,7 @@ When Chthonic Gorger enters, destroy all nonland permanents with mana value 1 or
 		</card>
 		<card>
 			<name>Unwelcome Welcome</name>
-			<text>Exile any number of target creatures you control. For each creature counter that became a creature this way, create a token that&apos;s a copy of that token. Then, return all creatures exiled this way to the battlefield tapped.
+			<text>Exile any number of target creatures you control. Return them to the battlefield tapped with a +1/+1 counter on each one.
 Exile Unwelcome Welcome.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/235.png" num="253">ORC</set>
 			<prop>
@@ -4158,7 +4159,7 @@ Exile Unwelcome Welcome.</text>
 			<name>Haniel, Retired Shepherd</name>
 			<text>Flying, vigilance
 Cards can&apos;t leave graveyards.
-Creatures you control with power less than Haniel&apos;s have hexproof.</text>
+Creatures you control with base power 2 or less have hexproof.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/237.png" num="237">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -4213,8 +4214,7 @@ Whenever Slumberleech deals combat damage to a player, that player gets two pois
 		<card>
 			<name>Dealer of Ruin</name>
 			<text>Betrayal {B}{R} (You may cast this spell for {B}{R} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)
-Whenever Dealer of Ruin deals combat damage to a player or noncreature permanent, defending player loses 3 life unless they sacrifice a nonland permanent.
-Pay 2 life: Return Dealer of Ruin from your graveyard to your hand.</text>
+Whenever Dealer of Ruin deals combat damage to a player or noncreature permanent, defending player loses 3 life unless they sacrifice a nonland permanent.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/240.png" num="233">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -4225,7 +4225,7 @@ Pay 2 life: Return Dealer of Ruin from your graveyard to your hand.</text>
 				<cmc>3</cmc>
 				<colors>BR</colors>
 				<coloridentity>BR</coloridentity>
-				<pt>3/2</pt>
+				<pt>3/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -4268,7 +4268,7 @@ Whenever a creature you control with a counter on it attacks, create a token tha
 		<card>
 			<name>Feaster of Crimson</name>
 			<text>First strike
-Whenever one or more creatures you control are unblocked, untap up to that many target permanents you control.</text>
+Whenever one or more creatures you control are blocked, untap up to that many target permanents you control.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/243.png" num="242">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -4341,7 +4341,7 @@ You may cast creature spells as copies of Baneslayer Angel. (Baneslayer Angel is
 			<text>Betrayal {2}{U}{U} (You may cast this spell for {2}{U}{U} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)
 Flash
 Flying
-When Blinking Horizon enters, you may have target nonland permanent or spells&apos; owner put it into its owner&apos;s library third from the top.</text>
+When Blinking Horizon enters, You may choose target spell or nonland permanent. Its owner puts it into their library third from the top.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/ORC-files/img/247.png" num="48">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -4374,16 +4374,15 @@ When Blinking Horizon enters, you may have target nonland permanent or spells&ap
 		</card>
 		<card>
 			<name>Collapse in Silence</name>
-			<text>Exile all creatures and put a void counter on each of them.
-{X}{B}{B}, Pay X life, Exile Collapse in Silence from your graveyard: You may cast a card exiled with a void counter on it with mana value X without paying its mana cost.</text>
+			<text>Collapse in Silence deals X damage to each creature, battle, planeswalker, and player you don&apos;t control, where X is the number of Swamps you control. You gain life equal to the damage dealt this way.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/ORC-files/img/249.png" num="98">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>3BB</manacost>
-				<cmc>5</cmc>
+				<manacost>5BB</manacost>
+				<cmc>7</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -4445,7 +4444,7 @@ Whenever a permanent you control with counters leaves the battlefield, create a 
 		<card>
 			<name>Nursery of Skin</name>
 			<text>Trample
-You may have other creatures you control enter as 4/4 Horror creatures with no abilities.</text>
+Whenever you cast a creature spell, counter it. If you do, create two 4/4 green Horror creature tokens.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/ORC-files/img/253.png" num="208">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -4456,15 +4455,15 @@ You may have other creatures you control enter as 4/4 Horror creatures with no a
 				<cmc>6</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
-				<pt>8/8</pt>
+				<pt>7/7</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Tobias, the Charming Verse</name>
 			<text>Creatures you control have prowess. (Multiple instances of prowess stack.)
-[+1]: Noncreature spells you cast cost {1} less to cast this turn.
-[-2]: Create two 1/1 red Rogue creature tokens.
+[+1]: Create a 1/1 red Rogue creature token.
+[0]: Exile target instant or sorcery card from your graveyard. You may cast it. (You still pay the costs.)
 [-8]: Exile the top ten cards of your library. You may cast any number of noncreature cards exiled this way without paying their mana costs.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/ORC-files/img/254.png" num="244">ORC</set>
 			<prop>
@@ -4482,7 +4481,7 @@ You may have other creatures you control enter as 4/4 Horror creatures with no a
 		</card>
 		<card>
 			<name>Aryeh, Heart of the Wild</name>
-			<text>Aryeh enters with two 1/1 white Cat creature counters with lifelink on him. (The counters become creature tokens when the permanent they&apos;re on leaves the battlefield.)
+			<text>Aryeh enters with three 1/1 white Cat creature counters with lifelink on him. (The counters become creature tokens when the permanent they&apos;re on leaves the battlefield.)
 [+1]: Put a 1/1 white Cat creature counter with lifelink on target permanent.
 [0]: You may remove any number of counters from Aryeh. When you do, exile target nonland permanent with a mana value equal to or less than the number of counters removed this way.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/ORC-files/img/255.png" num="236">ORC</set>
@@ -4552,7 +4551,7 @@ When Rescue the Damned enters or is defeated, choose one —
 				<cmc>5</cmc>
 				<colors>WR</colors>
 				<coloridentity>WR</coloridentity>
-				<loyalty>6</loyalty>
+				<loyalty>4</loyalty>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
@@ -4597,7 +4596,7 @@ When Messa di Requiem per Ctonia enters or is defeated, each player exiles the t
 			<name>Tangled in Crimson</name>
 			<text>(As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)
 Whenever you discard one or more cards, Tangled in Crimson deals that much damage to itself, then exile those cards.
-When Tangled in Crimson is defeated, you may play any number of cards exiled by it until your next turn&apos;s end step. (You still pay their costs.)</text>
+When Tangled in Crimson is defeated, you may play any number of cards exiled by it until the end of your next turn. (You still pay their costs.)</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/ORC-files/img/261.png" num="171">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -4615,7 +4614,7 @@ When Tangled in Crimson is defeated, you may play any number of cards exiled by 
 		<card>
 			<name>Compounded Realities</name>
 			<text>(As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)
-When Compounded Realities is defeated, take an extra turn after this one.</text>
+When Compounded Realities is defeated, exile it. If you do, take an extra turn after this one.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/ORC-files/img/262.png" num="50">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -4704,7 +4703,7 @@ You may cast Zim-Shirrem from your graveyard by discarding two cards in addition
 		<card>
 			<name>Unattended Mausoleum</name>
 			<text>{T}: Add {C}.
-{3}, {T}: Exile target card from a graveyard. If you exile a creature card from your graveyard this way, put a creature counter that&apos;s a copy of that creature on this land. (The counter becomes a creature token when the permanent it is on leaves.)
+{1}, {T}: Exile target card from a graveyard. If you exile a creature card with mana value 3 or less from your graveyard this way, put a creature counter that&apos;s a copy of that creature on this land. (The counter becomes a creature token when the permanent it is on leaves.)
 {3}: Until end of turn, this land becomes a copy of a creature counter on it.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/267.png" num="285">ORC</set>
 			<prop>
@@ -5149,9 +5148,9 @@ When The Mabuse Trio dies, return target nonland nonlegendary permanent card fro
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Tamsin and Riggs of the Fox Agency</name>
-			<text>Whenever Tamsin and Riggs of the Fox Agency enters or attacks, investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)
-Nonland cards in your hand have &quot;You may cast this card by sacrificing X Clues you control rather than pay this card&apos;s mana cost, where X is this card&apos;s mana value.&quot;</text>
+			<name>Tamsin and Riggs, Partners</name>
+			<text>Whenever Tamsin and Riggs, Partners enters or attacks, investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)
+{3}{G}{U}: Target Clue you control becomes a 0/0 artifact creature with &quot;This creature gets +1/+1 for each artifact you control.&quot;</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/ORC-files/img/293.png" num="252">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -5168,20 +5167,24 @@ Nonland cards in your hand have &quot;You may cast this card by sacrificing X Cl
 		</card>
 		<card>
 			<name>Spectrum of the Multiverse</name>
-			<text>The first white spell you cast each turn costs {W} less to cast. The same is true for the first blue spell and {U}, the first black spell and {B}, the first red spell and {R}, and the first green spell and {G}.
-Whenever you cast a spell, if the amount of mana spent to cast that spell was less than its mana value, draw a card.</text>
+			<text>Whenever you cast a white spell, you gain 3 life.
+Whenever you cast a blue spell, surveil 3.
+Whenever you cast a black spell, you draw a card and you lose 3 life.
+Whenever you cast a red spell, Spectrum of the Multiverse deals 3 damage to each opponent.
+Whenever you cast a green spell, target creature you control gets +3/+3 until end of turn.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/ORC-files/img/294.png" num="256">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Enchantment</type>
-				<maintype>Enchantment</maintype>
+				<type>Legendary Creature — Reflection Ooze</type>
+				<maintype>Creature</maintype>
 				<manacost>WUBRG</manacost>
 				<cmc>5</cmc>
 				<colors>WUBRG</colors>
 				<coloridentity>WUBRG</coloridentity>
+				<pt>6/6</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Tongue of Tethaleeg</name>
@@ -5410,7 +5413,7 @@ When Dapper Detective enters, counter target activated or triggered ability from
 		<card>
 			<name>Moroii Cleaner</name>
 			<text>Deathtouch, haste
-At the beginning of your end step, each opponent without any cards in hand loses 2 life. Put a number of 1/1 black Shade creature counters on Moroii Cleaner equal to the amount of life lost this way. (The counters become creature tokens when the permanent they&apos;re on leaves the battlefield.)</text>
+At the beginning of your end step, each opponent with one or fewer cards in hand loses 2 life. Put a number of 1/1 black Shade creature counters on Moroii Cleaner equal to the amount of life lost this way. (The counters become creature tokens when the permanent they&apos;re on leaves the battlefield.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/309.png" num="112">ORC</set>
 			<prop>
 				<layout>normal</layout>
@@ -5485,7 +5488,7 @@ When Grizzled Precinct Warden enters or attacks, put a 2/2 white Soldier creatur
 			<name>Scaredy Cat</name>
 			<text>Scaredy Cat can&apos;t be blocked.
 When Scaredy Cat dies, tap up to one target nonland permanent and put a stun counter on it.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/313.png" num="79">ORC</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ORC-files/img/313.png" num="80">ORC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>

@@ -175,7 +175,7 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Creature — Insect Horror",
-			"collector_number": "80",
+			"collector_number": "81",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/17.png"
 			}
@@ -195,7 +195,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Detective",
-			"collector_number": "74",
+			"collector_number": "75",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/19.png"
 			}
@@ -215,7 +215,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Human Detective",
-			"collector_number": "82",
+			"collector_number": "83",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/21.png"
 			}
@@ -225,7 +225,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Rat Soldier",
-			"collector_number": "84",
+			"collector_number": "85",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/22.png"
 			}
@@ -255,7 +255,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{U}{U}",
 			"type": "Creature — Bird Detective",
-			"collector_number": "81",
+			"collector_number": "82",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/25.png"
 			}
@@ -265,7 +265,7 @@
 			"rarity": "common",
 			"mana_cost": "{X}{U}",
 			"type": "Instant",
-			"collector_number": "70",
+			"collector_number": "71",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/26.png"
 			}
@@ -275,7 +275,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "83",
+			"collector_number": "84",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/27.png"
 			}
@@ -285,7 +285,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "76",
+			"collector_number": "77",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/28.png"
 			}
@@ -295,7 +295,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "78",
+			"collector_number": "79",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/29.png"
 			}
@@ -423,7 +423,7 @@
 		{
 			"name": "Thread of Obsession",
 			"rarity": "common",
-			"mana_cost": "{1}{B}",
+			"mana_cost": "{B}",
 			"type": "Instant",
 			"collector_number": "128",
 			"image_uris": {
@@ -443,7 +443,7 @@
 		{
 			"name": "A Step Too Late",
 			"rarity": "common",
-			"mana_cost": "{2}{B}",
+			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
 			"collector_number": "126",
 			"image_uris": {
@@ -613,8 +613,8 @@
 		{
 			"name": "Boiler Ambush",
 			"rarity": "common",
-			"mana_cost": "{2}{R}",
-			"type": "Sorcery",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
 			"collector_number": "141",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/61.png"
@@ -784,7 +784,7 @@
 			"name": "Pilfered Jewels",
 			"rarity": "common",
 			"mana_cost": "{1}",
-			"type": "Artifact",
+			"type": "Artifact — Clue",
 			"collector_number": "264",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/78.png"
@@ -1045,7 +1045,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Merfolk Detective",
-			"collector_number": "75",
+			"collector_number": "76",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/104.png"
 			}
@@ -1055,7 +1055,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Creature — Merfolk Detective",
-			"collector_number": "71",
+			"collector_number": "72",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/105.png"
 			}
@@ -1065,7 +1065,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Creature — Merfolk Detective",
-			"collector_number": "69",
+			"collector_number": "70",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/106.png"
 			}
@@ -1075,7 +1075,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Human Rogue",
-			"collector_number": "68",
+			"collector_number": "69",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/107.png"
 			}
@@ -1085,7 +1085,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Enchantment",
-			"collector_number": "65",
+			"collector_number": "66",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/108.png"
 			}
@@ -1095,7 +1095,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "61",
+			"collector_number": "62",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/109.png"
 			}
@@ -1105,7 +1105,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Creature — Elf Warrior",
-			"collector_number": "67",
+			"collector_number": "68",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/110.png"
 			}
@@ -1115,7 +1115,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{U}{U}",
 			"type": "Creature — Kraken",
-			"collector_number": "62",
+			"collector_number": "63",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/111.png"
 			}
@@ -1125,17 +1125,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Instant",
-			"collector_number": "77",
+			"collector_number": "78",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/112.png"
 			}
 		},
 		{
-			"name": "Still the Pandemonium",
+			"name": "Fleeting Memories",
 			"rarity": "uncommon",
-			"mana_cost": "{U}{U}",
-			"type": "Instant",
-			"collector_number": "85",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment",
+			"collector_number": "60",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/113.png"
 			}
@@ -1145,7 +1145,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "64",
+			"collector_number": "65",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/114.png"
 			}
@@ -1165,7 +1165,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "60",
+			"collector_number": "61",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/116.png"
 			}
@@ -1185,7 +1185,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Battle — Heist",
-			"collector_number": "66",
+			"collector_number": "67",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/118.png"
 			}
@@ -1195,7 +1195,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Battle — Heist",
-			"collector_number": "63",
+			"collector_number": "64",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/119.png"
 			}
@@ -1484,7 +1484,7 @@
 			"name": "Antiquated Shot",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
-			"type": "Instant",
+			"type": "Sorcery",
 			"collector_number": "138",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/148.png"
@@ -1893,7 +1893,7 @@
 		{
 			"name": "Wandering Ember",
 			"rarity": "rare",
-			"mana_cost": "{2}{R}{R}",
+			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Spirit",
 			"collector_number": "178",
 			"image_uris": {
@@ -1913,7 +1913,7 @@
 		{
 			"name": "Watcher of Fractured Halos",
 			"rarity": "rare",
-			"mana_cost": "{2}{W}{W}",
+			"mana_cost": "{4}{W}",
 			"type": "Creature — Angel Horror",
 			"collector_number": "44",
 			"image_uris": {
@@ -1925,7 +1925,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Creature — Horror",
-			"collector_number": "72",
+			"collector_number": "73",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/192.png"
 			}
@@ -1933,7 +1933,7 @@
 		{
 			"name": "Sap Effervescence",
 			"rarity": "rare",
-			"mana_cost": "{3}{B}",
+			"mana_cost": "{2}{B}",
 			"type": "Sorcery",
 			"collector_number": "118",
 			"image_uris": {
@@ -1973,7 +1973,7 @@
 		{
 			"name": "Conjuror Extraordinaire",
 			"rarity": "rare",
-			"mana_cost": "{2}{U}",
+			"mana_cost": "{1}{U}",
 			"type": "Creature — Elf Wizard",
 			"collector_number": "51",
 			"image_uris": {
@@ -2093,7 +2093,7 @@
 		{
 			"name": "Turncoat Officer",
 			"rarity": "rare",
-			"mana_cost": "{3}{R}{R}",
+			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Human Soldier Warlock",
 			"collector_number": "173",
 			"image_uris": {
@@ -2123,7 +2123,7 @@
 		{
 			"name": "Divergence of Minds",
 			"rarity": "rare",
-			"mana_cost": "{3}{U}",
+			"mana_cost": "{1}{U}{U}",
 			"type": "Instant",
 			"collector_number": "56",
 			"image_uris": {
@@ -2163,7 +2163,7 @@
 		{
 			"name": "Futures Unwritten",
 			"rarity": "rare",
-			"mana_cost": "{1}{W}",
+			"mana_cost": "{2}{W}",
 			"type": "Enchantment",
 			"collector_number": "17",
 			"image_uris": {
@@ -2171,7 +2171,7 @@
 			}
 		},
 		{
-			"name": "Favored Traded in Uneven Hands",
+			"name": "Favor Traded in Uneven Hands",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}",
 			"type": "Battle — Heist",
@@ -2225,7 +2225,7 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Creature — Bird Detective",
-			"collector_number": "73",
+			"collector_number": "74",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/222.png"
 			}
@@ -2493,7 +2493,7 @@
 		{
 			"name": "Collapse in Silence",
 			"rarity": "mythic",
-			"mana_cost": "{3}{B}{B}",
+			"mana_cost": "{5}{B}{B}",
 			"type": "Sorcery",
 			"collector_number": "98",
 			"image_uris": {
@@ -2931,7 +2931,7 @@
 			}
 		},
 		{
-			"name": "Tamsin and Riggs of the Fox Agency",
+			"name": "Tamsin and Riggs, Partners",
 			"rarity": "mythic",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Legendary Creature — Cat Detective",
@@ -2944,7 +2944,7 @@
 			"name": "Spectrum of the Multiverse",
 			"rarity": "mythic",
 			"mana_cost": "{W}{U}{B}{R}{G}",
-			"type": "Enchantment",
+			"type": "Legendary Creature — Reflection Ooze",
 			"collector_number": "256",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/294.png"
@@ -3135,7 +3135,7 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Creature — Cat Detective",
-			"collector_number": "79",
+			"collector_number": "80",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/313.png"
 			}
@@ -3205,7 +3205,7 @@
 	2 Veda's Broker
 	2 Guttertooth
 	2 Futures Unwritten
-	2 Favored Traded in Uneven Hands
+	2 Favor Traded in Uneven Hands
 	2 Death's Favorite Pet
 	2 Mabuse Enforcer
 	2 Beyond the Lamplight
@@ -3260,7 +3260,7 @@
 	1 The Glittering Cloud
 	1 Mr. Monroe, Exquisite Collector
 	1 The Mabuse Trio
-	1 Tamsin and Riggs of the Fox Agency
+	1 Tamsin and Riggs, Partners
 	1 Spectrum of the Multiverse
 	2 Tongue of Tethaleeg
 	2 Cawyer River Dockworkers
@@ -3306,7 +3306,7 @@
 	4 Mabuse Mastermind
 	4 Hull-Cracker Kraken
 	4 Reconstruct The Scene
-	4 Still the Pandemonium
+	4 Fleeting Memories
 	4 Inheritance of Thought
 	4 Strange Disappearance
 	4 Formally Missing
@@ -3658,7 +3658,7 @@
 	6 Mabuse Mastermind
 	6 Hull-Cracker Kraken
 	6 Reconstruct The Scene
-	6 Still the Pandemonium
+	6 Fleeting Memories
 	6 Inheritance of Thought
 	6 Strange Disappearance
 	6 Formally Missing
@@ -3762,7 +3762,7 @@
 	2 Veda's Broker
 	2 Guttertooth
 	2 Futures Unwritten
-	2 Favored Traded in Uneven Hands
+	2 Favor Traded in Uneven Hands
 	2 Death's Favorite Pet
 	2 Mabuse Enforcer
 	2 Beyond the Lamplight
@@ -3818,7 +3818,7 @@
 	1 The Glittering Cloud
 	1 Mr. Monroe, Exquisite Collector
 	1 The Mabuse Trio
-	1 Tamsin and Riggs of the Fox Agency
+	1 Tamsin and Riggs, Partners
 	1 Spectrum of the Multiverse
 	2 Tongue of Tethaleeg
 	6 Sinking Lot
@@ -3946,7 +3946,7 @@
 	15 Mabuse Mastermind
 	15 Hull-Cracker Kraken
 	15 Reconstruct The Scene
-	15 Still the Pandemonium
+	15 Fleeting Memories
 	15 Inheritance of Thought
 	15 Strange Disappearance
 	15 Formally Missing
@@ -4050,7 +4050,7 @@
 	7 Veda's Broker
 	7 Guttertooth
 	7 Futures Unwritten
-	7 Favored Traded in Uneven Hands
+	7 Favor Traded in Uneven Hands
 	7 Death's Favorite Pet
 	7 Mabuse Enforcer
 	7 Beyond the Lamplight
@@ -4106,7 +4106,7 @@
 	4 The Glittering Cloud
 	4 Mr. Monroe, Exquisite Collector
 	4 The Mabuse Trio
-	4 Tamsin and Riggs of the Fox Agency
+	4 Tamsin and Riggs, Partners
 	4 Spectrum of the Multiverse
 	7 Tongue of Tethaleeg
 	15 Sinking Lot
