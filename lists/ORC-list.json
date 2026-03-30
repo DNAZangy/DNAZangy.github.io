@@ -57,7 +57,7 @@
     },
     {
         "card_name": "Kindly Guide of Souls",
-        "number": 104,
+        "number": 105,
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
@@ -97,7 +97,7 @@
     },
     {
         "card_name": "Messa di Requiem per Ctonia",
-        "number": 109,
+        "number": 110,
         "shape": "normal split",
         "set": "ORC",
         "rotated": true,
@@ -125,7 +125,7 @@
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
-        "position": "307"
+        "position": "306"
     },
     {
         "card_name": "Conjuror Extraordinaire",
@@ -141,7 +141,7 @@
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
-        "position": "314"
+        "position": "313"
     },
     {
         "card_name": "Betrayer of Silken Tongues",
@@ -149,7 +149,7 @@
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
-        "position": "315"
+        "position": "314"
     },
     {
         "card_name": "Beyond the Lamplight",
@@ -173,7 +173,7 @@
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
-        "position": "308"
+        "position": "307"
     },
     {
         "card_name": "Cleaner's Hammer",
@@ -336,8 +336,8 @@
         "position": "192"
     },
     {
-        "card_name": "Midshift Mourner",
-        "number": 110,
+        "card_name": "Endless Darkness",
+        "number": 103,
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
@@ -381,7 +381,7 @@
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
-        "position": "309"
+        "position": "308"
     },
     {
         "card_name": "Turncoat Officer",
@@ -405,7 +405,7 @@
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
-        "position": "312"
+        "position": "311"
     },
     {
         "card_name": "Scaredy Cat",
@@ -413,7 +413,7 @@
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
-        "position": "313"
+        "position": "312"
     },
     {
         "card_name": "Painter of the Unseen",
@@ -477,7 +477,7 @@
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
-        "position": "311"
+        "position": "310"
     },
     {
         "card_name": "Wide-Eyed Inquirer",
@@ -509,7 +509,7 @@
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
-        "position": "310"
+        "position": "309"
     },
     {
         "card_name": "Vineclaimed Witness",
@@ -517,7 +517,7 @@
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
-        "position": "316"
+        "position": "315"
     },
     {
         "card_name": "Candle for Those Gone",
@@ -657,7 +657,7 @@
     },
     {
         "card_name": "Harbinger of Grey",
-        "number": 103,
+        "number": 104,
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
@@ -697,7 +697,7 @@
     },
     {
         "card_name": "Lurking Abominations",
-        "number": 107,
+        "number": 108,
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
@@ -737,7 +737,7 @@
     },
     {
         "card_name": "Medium of Madness",
-        "number": 108,
+        "number": 109,
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
@@ -1297,7 +1297,7 @@
     },
     {
         "card_name": "Lorre Bagman",
-        "number": 105,
+        "number": 106,
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
@@ -1337,7 +1337,7 @@
     },
     {
         "card_name": "Lorre Blackmailer",
-        "number": 106,
+        "number": 107,
         "shape": "normal",
         "set": "ORC",
         "rotated": false,
@@ -1720,7 +1720,7 @@
         "position": "66"
     },
     {
-        "card_name": "Stunning Irruption",
+        "card_name": "Stunning Interruption",
         "number": 39,
         "shape": "normal",
         "set": "ORC",
@@ -2511,7 +2511,7 @@
     },
     {
         "card_name": "Bounty",
-        "number": 18,
+        "number": 19,
         "shape": "token",
         "set": "ORC",
         "rotated": false,
@@ -2519,19 +2519,11 @@
     },
     {
         "card_name": "Clue",
-        "number": 19,
-        "shape": "token",
-        "set": "ORC",
-        "rotated": false,
-        "position": "271"
-    },
-    {
-        "card_name": "Collections Box",
         "number": 20,
         "shape": "token",
         "set": "ORC",
         "rotated": false,
-        "position": "306"
+        "position": "271"
     },
     {
         "card_name": "Construct",
@@ -2700,6 +2692,14 @@
         "set": "ORC",
         "rotated": false,
         "position": "274"
+    },
+    {
+        "card_name": "Finding Answers",
+        "number": 18,
+        "shape": "token",
+        "set": "ORC",
+        "rotated": false,
+        "position": "316"
     },
     {
         "card_name": "er"

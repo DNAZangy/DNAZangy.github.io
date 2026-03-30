@@ -1,4 +1,346 @@
-﻿VERSION 9 CHANGELOG
+﻿VERSION 10 CHANGELOG
+====================
+
+Stunning Interruption added.
+Endless Darkness added.
+Finding Answers added.
+
+Stunning Irruption removed.
+Midshift Mourner removed.
+Collections Box removed.
+
+Framed Collection
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Framed Collection enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When Framed Collection enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+
+Spill the Beans
+
+Proboscidian Transmutation
+cost: {1}{U} => {U}
+rules_text: Flash
+Enchant creature
+Enchanted creature has base power and toughness 1/1, has flying, loses all other abilities, and is an Insect Mutant in addition to its other types. => Enchant creature
+Enchanted creature has base power and toughness 1/1, has flying, loses all other abilities, and is an Insect Mutant in addition to its other types.
+
+Thief of the Masked Benefactor
+rules_text: Prowess
+Whenever Thief of the Masked Benefactor attacks a battle or planeswalker, it gets +1/+1 and gains first strike until end of turn. => Prowess
+Whenever Thief of the Masked Benefactor attacks a battle or planeswalker, it gains first strike until end of turn.
+
+Terms of Salvation
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Terms of Salvation enters or is defeated, return target creature card with mana value 3 or less from your graveyard to the battlefield. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When Terms of Salvation enters or is defeated, return target creature card with mana value 3 or less from your graveyard to the battlefield.
+
+A Forged Familicide
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When A Forged Familicide enters or is defeated, exile up to two cards from graveyards, then create a 1/1 blue Spirit creature token with flying. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When A Forged Familicide enters or is defeated, exile up to two cards from graveyards, then create a 1/1 blue Spirit creature token with flying.
+
+Melodic Mole
+pt: 2/4 => 1/4
+
+Hardline Enforcer
+rules_text: Flash
+Betrayal {U} [i](You may cast this spell for {U} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+When Hardline Enforcer enters, target creature phases out. [i](Treat it and anything attached to it as though they don't exist until its controller's next turn.)[/i] => Betrayal {1}{U} [i](You may cast this spell for {1}{U} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+When Hardline Enforcer enters, target creature phases out. [i](Treat it and anything attached to it as though they don't exist until its controller's next turn.)[/i]
+
+Low Tide, High Stakes
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+Flash
+When Low Tide, High Stakes enters, if you cast it, counter target spell. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+Flash
+When Low Tide, High Stakes enters, if you cast it, counter target spell.
+
+Impressions of Oil and Flesh
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Impressions of Oil and Flesh enters, if you cast it, you may create a token that's a copy of target nonbattle permanent you control. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When Impressions of Oil and Flesh enters, if you cast it, you may create a token that's a copy of target nonbattle permanent you control.
+
+A Wake in Shadows
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When A Wake in Shadows enters, mill three cards, then return a card milled this way to your hand.
+Whenever A Wake in Shadows is defeated, return target creature card from your graveyard to the battlefield. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When A Wake in Shadows enters, mill three cards, then return a card milled this way to your hand.
+Whenever A Wake in Shadows is defeated, return target creature card from your graveyard to the battlefield.
+
+No Clean Way Out
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When No Clean Way Out enters or is defeated, each opponent discards a card. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When No Clean Way Out enters or is defeated, each opponent discards a card.
+
+Framed in Flames
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Framed in Flames enters, it deals 4 damage to any other target.
+When Framed in Flames is defeated, create a Treasure token. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When Framed in Flames enters, it deals 4 damage to any other target.
+
+The Break at Museum Row
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When The Break at Museum Row enters or is defeated, exile the top card of your library. You may play it until the end of your next turn. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When The Break at Museum Row enters or is defeated, exile the top card of your library. You may play it until the end of your next turn.
+
+Crashing Diversion
+cost: {2}{G}{G} => {3}{G}
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Crashing Diversion enters or is defeated, put a +1/+1 counter on each creature you control. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When Crashing Diversion enters or is defeated, put a +1/+1 counter on each creature you control.
+
+The Silence at Verdant Valley
+cost: {3}{G} => {2}{G}{G}
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When The Silence at Verdant Valley enters or is defeated, create a 4/4 green Horror creature token. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When The Silence at Verdant Valley enters or is defeated, create a 4/4 green Horror creature token.
+loyalty: 4 => 6
+
+Divinity Repossessed
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Divinity Repossessed enters, if you cast it, destroy all other noncreature, nonland permanents. [i](This doesn't defeat battles.)[/i] => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When Divinity Repossessed enters, if you cast it, destroy all other noncreature, nonland permanents. [i](This doesn't defeat battles.)[/i]
+
+Wandering Ember
+rules_text: Flying, haste
+When Wandering Ember enters, for each token, that token's controller sacrifices it unless they have Wandering Ember deal 2 damage to them. => Flying, menace
+When Wandering Ember enters, for each token, that token's controller sacrifices it unless they have Wandering Ember deal 2 damage to them.
+
+Oneiric Whisperer
+cost: {2}{U}{U} => {4}{U}{U}
+rules_text: Flying
+Whenever one or more creatures you control deal combat damage to a player, investigate.
+{1}{U}, Sacrifice a Clue: Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order. => Flying, ward {2}
+Whenever one or more creatures you control deal combat damage to a player, investigate.
+{1}{U}, Sacrifice a Clue: Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
+pt: 4/4 => 6/6
+
+Cleaner's Hammer
+rules_text: Menace, lifelink
+Whenever Cleaner's Hammer or another Warrior you control enters or becomes a creature, each opponent discards a card if it's your turn. If they don't discard a card, you draw a card and you lose 1 life. => Menace, lifelink
+Whenever Cleaner's Hammer or another Warrior you control enters or becomes a creature for the first time each turn, each opponent discards a card if it's your turn. If they don't discard a card, you draw a card and you lose 1 life.
+pt: 4/4 => 3/4
+
+Scourge of Sapience
+rules_text: At the beginning of your upkeep, return another creature you control to its owner's hand. Put a creature counter that's a copy of that creature on Scourge of Sapience. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i] => At the beginning of your upkeep, return a creature you control to its owner's hand. Put a creature counter that's a copy of that creature on Scourge of Sapience. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+pt: 4/4 => 5/5
+
+Cawyer Station Recruit
+rules_text: Whenever another Soldier you control enters or a Soldier creature counter becomes a creature you control, choose one that hasn't been chosen this turn —
+• Put a +1/+1 counter on Cawyer Station Recruit.
+• Cawyer Station Recruit gains lifelink and vigilance until end of turn.
+• asdfasdfasdf => Whenever another Soldier you control enters or a Soldier creature counter becomes a creature you control, choose one that hasn't been chosen this turn —
+• Put a +1/+1 counter on Cawyer Station Recruit.
+• Cawyer Station Recruit gains lifelink and vigilance until end of turn.
+• Surveil 1.
+
+Favor from the Family
+rules_text: Destroy all creatures.
+Destroy all creatures. => Destroy all creatures, then destroy all creatures. [i](This will kill all creatures, then kill the creature counters that become creatures.)[/i]
+
+Debt in the Outlands
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Debt in the Outlands enters, create a 5/5 black Demon creature token.
+At the beginning of your upkeep, if you control a Demon, you lose 3 life. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When Debt in the Outlands enters, create a 5/5 black Demon creature token.
+At the beginning of your upkeep, if you control a Demon, you lose 3 life.
+
+Favor Traded in Uneven Hands
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+Flash
+When Favor Traded in Uneven Hands enters or is defeated, look at the top four cards of your library. Put one into your hand and the rest on the bottom of your library in any order. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+Flash
+When Favor Traded in Uneven Hands enters or is defeated, look at the top four cards of your library. Put one into your hand and the rest on the bottom of your library in any order.
+loyalty: 3 => 4
+
+Death's Favorite Pet
+rules_text: Betrayal {1}{B}{B}{B} [i](You may cast this spell for {1}{B}{B}{B} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Death's Favorite Pet deals combat damage to a player or noncreature permanent, exile target creature card from a graveyard. Put a creature counter that's a copy of that creature on a permanent you control. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i] => Betrayal {2}{B}{B} [i](You may cast this spell for {2}{B}{B} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Death's Favorite Pet deals combat damage to a player or noncreature permanent, exile target creature card from a graveyard. Put a creature counter that's a copy of that creature on a permanent you control. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+
+Beyond the Lamplight
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+Whenever one or more counters are removed from Beyond the Lamplight, create that many 1/1 black Shade creature tokens. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+Whenever one or more counters are removed from Beyond the Lamplight, create that many 1/1 black Shade creature tokens.
+
+Owl-Knowing Sleuth
+cost: {3}{U}{U} => {2}{U}{U}
+pt: 5/5 => 4/3
+
+Open the Vault
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Open the Vault enters or is defeated, create two Treasure tokens. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When Open the Vault enters or is defeated, create two Treasure tokens.
+
+Detrossian Hydra
+pt: 0/0 => 1/1
+
+Damnation's Return
+rules_text: At the beginning of your end step, each player sacrifices a nonland permanent. If a player didn't sacrifice any permanents, Damnation's Return deals 3 damage to each player that didn't sacrifice a permanent, then sacrifice Damnation's Return. => At the beginning of your end step, each player sacrifices a nonland permanent. If a player didn't sacrifice any permanents, Damnation's Return deals 4 damage to each player that didn't sacrifice a permanent, then sacrifice Damnation's Return.
+
+Reaping Rite
+cost: {1}{R}{G} => {3}{R}{G}
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+Whenever an opponent casts a noncreature spell, Reaping Rite deals 2 damage to itself.
+When Reaping Rite is defeated, search your library for a creature card, put it onto the battlefield, then shuffle. If it's mana value was 5 or less, create a token that's a copy of it. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+Whenever an opponent casts a noncreature spell, Reaping Rite deals 2 damage to itself.
+When Reaping Rite is defeated, search your library for a creature card, put it onto the battlefield, then shuffle. If it's mana value was 5 or less, create a token that's a copy of it.
+
+Paula and Josephine
+rules_text: Whenever you attack, you may discard any number of cards. Paula and Josephine deals damage equal to the number of cards discarded this way to up to any nonplayer target, then you draw that many cards. => Whenever you attack, you may discard any number of cards. Paula and Josephine deals damage equal to the number of types among cards discarded this way to up to any nonplayer target, then you draw that many cards.
+
+Unwelcome Welcome
+rules_text: Exile any number of target creatures you control. Return them to the battlefield tapped with a +1/+1 counter on each one.
+Exile Unwelcome Welcome. => Exile any number of target creatures you control. At the beginning of the next end step, return them to the battlefield tapped with a +1/+1 counter on each one.
+Exile Unwelcome Welcome.
+
+Slumberleech
+rules_text: Betrayal {U}{B} [i](You may cast this spell for {U}{B} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Flying
+Whenever Slumberleech deals combat damage to a player, that player gets two poison counters, then exiles cards from the top of their library until that player has exiled cards with total mana value equal to the number of poison counters they have or greater. => Betrayal {U}{B} [i](You may cast this spell for {U}{B} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Flying
+Whenever a creature you control deals combat damage to an opponent, that player gets a poison counter. If that creature entered this turn, that player gets two poison counters instead.
+
+Dealer of Ruin
+pt: 3/4 => 3/3
+
+Lenny Corr, Door Left Ajar
+rules_text: Lenny Corr enters with a 4/4 green Horror creature counter on it. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+Whenever a creature you control with a counter on it attacks, create a token that's a copy of a creature counter on it that's tapped and attacking. Sacrifice the token at the beginning of the next end step. => Lenny Corr enters with a 4/4 green Horror creature counter on it. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+Whenever you attack, create a token that's a copy of a creature counter on an attacking creature you control that's tapped and attacking. Sacrifice the token at the beginning of the next end step.
+
+Feaster of Crimson
+rules_text: First strike
+Whenever one or more creatures you control are blocked, untap up to that many target permanents you control. => First strike
+Whenever one or more creatures you control are blocked, add that much mana in any combination of colors.
+
+Blinking Horizon
+rules_text: Betrayal {2}{U}{U} [i](You may cast this spell for {2}{U}{U} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Flash
+Flying
+When Blinking Horizon enters, You may choose target spell or nonland permanent. Its owner puts it into their library third from the top. => Betrayal {2}{U}{U} [i](You may cast this spell for {2}{U}{U} if you also sacrifice an unblocked attacker you control during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Flash
+Flying
+When Blinking Horizon enters, target nonland permanent or permanent spell's owner puts it on their choice of the top or bottom of their library.
+pt: 5/4 => 4/4
+
+Collapse in Silence
+rules_text: Collapse in Silence deals X damage to each creature, battle, planeswalker, and player you don't control, where X is the number of Swamps you control. You gain life equal to the damage dealt this way. => Collapse in Silence deals X damage to each creature, battle, planeswalker, and player you don't control, where X is the number of Swamps you control. You gain life equal to the amount of excess damage dealt this way.
+
+Overwhelming Vitality
+rules_text: This spell can't be countered.
+Overwhelming Vitality deals 5 damage to target player and 5 damage to up to one target permanent that player controls. => This spell can't be countered.
+Overwhelming Vitality deals 5 damage to target player and 5 damage to up to one target permanent that player controls or protects.
+
+Rescue the Damned
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Rescue the Damned enters or is defeated, choose one —
+• Search your library for an Angel or Ameret card, reveal it, put it into your hand, then shuffle.
+• You may put an Angel or Ameret card from your hand onto the battlefield. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When Rescue the Damned enters or is defeated, choose one —
+• Search your library for an Angel or Ameret card, reveal it, put it into your hand, then shuffle.
+• You may put an Angel or Ameret card from your hand onto the battlefield.
+
+Imani, Answer in a Blade
+rules_text: Whenever you attack, create a 2/2 white Soldier creature token that's tapped and attacking.
+[+1]: You get an emblem with “Whenever a creature you control enters, this emblem deals 1 damage to each opponent and you gain 1 life.”
+[-2]: Exile the top three cards of your library. You may play them this turn. => Whenever you attack, create a 2/2 white Soldier creature token that's tapped and attacking.
+[+1]: Create a red and white enchantment token named Finding Answers with “Whenever a creature you control enters, this enchantment deals 1 damage to each opponent and you gain 1 life.”
+[-2]: Exile the top three cards of your library. You may play them this turn.
+special_text: Whenever you attack, create a 2/2 white Soldier creature token that's tapped and attacking.
+[+1]: You get an emblem with “Whenever a creature you control enters, this emblem deals 1 damage to each opponent and you gain 1 life.”
+[-2]: Exile the top three cards of your library. You may play them this turn. => Whenever you attack, create a 2/2 white Soldier creature token that's tapped and attacking.
+[+1]: Create a red and white enchantment token named Finding Answers with “Whenever a creature you control enters, this enchantment deals 1 damage to each opponent and you gain 1 life.”
+[-2]: Exile the top three cards of your library. You may play them this turn.
+
+Messa di Requiem per Ctonia
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When [i]Messa di Requiem per Ctonia[/i] enters or is defeated, each player exiles the top half of their library, rounded up. You gain 1 life for each card type among cards exiled this way. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When [i]Messa di Requiem per Ctonia[/i] enters or is defeated, each player exiles the top half of their library, rounded up. You gain 1 life for each card type among cards exiled this way.
+
+Tangled in Crimson
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+Whenever you discard one or more cards, Tangled in Crimson deals that much damage to itself, then exile those cards.
+When Tangled in Crimson is defeated, you may play any number of cards exiled by it until the end of your next turn. [i](You still pay their costs.)[/i] => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+Whenever you discard one or more cards, Tangled in Crimson deals that much damage to itself, then exile those cards.
+When Tangled in Crimson is defeated, you may play any number of cards exiled by it until the end of your next turn. [i](You still pay their costs.)[/i]
+
+Compounded Realities
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+When Compounded Realities is defeated, exile it. If you do, take an extra turn after this one. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+When Compounded Realities is defeated, exile it. If you do, take an extra turn after this one.
+loyalty: 4 => 5
+
+Claim of the Aberrant
+rules_text: [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+1.)[/i]
+Whenever Claim of the Aberrant enters or is defeated, until your next turn's end step, whenever you tap a land for mana, add one mana of any type that land produced. => [i](As a Heist enters, choose an opponent to protect it while you can attack it. When it is defeated, create a Bounty, an artifact token that gives your creatures +1/+0.)[/i]
+Whenever Claim of the Aberrant enters or is defeated, until your next turn's end step, whenever you tap a land for mana, add one mana of any type that land produced.
+
+Tome of Retained Flesh
+rules_text: Whenever a nontoken creature you control dies, if Tome of Retained Flesh doesn't have any creature counters on it, put a creature counter that's a copy of that creature on Tome of Retained Flesh.
+{2}, {T}, Remove a creature counter from Tome of Retained Flesh: Create a token that's a copy of the removed creature counter. => Whenever a nontoken creature you control dies, if Tome of Retained Flesh doesn't have any creature counters on it, put a creature counter that's a copy of that creature on Tome of Retained Flesh.
+{2}, {T}, Remove a creature counter from Tome of Retained Flesh: Create a token that's a copy of the removed creature counter. Activate only as a sorcery.
+
+Bounty
+rules_text: Creatures you control get +1/+1. => Creatures you control get +1/+0.
+
+The Glittering Cloud
+rules_text: Whenever one or more loyalty counters are removed from The Glittering Cloud, create that many 1/1 green Insect creature tokens. 
+[+1]: Create a 1/1 green Insect creature token. Each opponent loses 1 life.
+[-X]: Target creature gets -X/-X until end of turn. You gain X life. => Whenever you activate one of The Glittering Cloud's loyalty abilities, put a 1/1 green Insect creature counter on target permanent. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+[0]: Proliferate.
+[-2]: Any number of players each sacrifice a nonland permanent. Draw a card for each permanent with mana value 2 or less sacrificed this way.
+special_text: Whenever one or more loyalty counters are removed from The Glittering Cloud, create that many 1/1 green Insect creature tokens. 
+[+1]: Create a 1/1 green Insect creature token. Each opponent loses 1 life.
+[-X]: Target creature gets -X/-X until end of turn. You gain X life. => Whenever you activate one of The Glittering Cloud's loyalty abilities, put a 1/1 green Insect creature counter on target permanent. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+[0]: Proliferate.
+[-2]: Any number of players each sacrifice a nonland permanent. Draw a card for each permanent with mana value 2 or less sacrificed this way.
+
+The Mabuse Trio
+rules_text: Flying, menace, deathtouch
+When The Mabuse Trio enters, defending player sacrifices a nonland permanent.
+Whenever The Mabuse Trio attacks, defending player loses 3 life. 
+When The Mabuse Trio dies, return target nonland nonlegendary permanent card from your graveyard to your hand. => Flying, menace, deathtouch
+When The Mabuse Trio enters, each player sacrifices a nonland permanent.
+Whenever The Mabuse Trio attacks, each player discards a card.
+When The Mabuse Trio dies, you may exile them. If you do, return target nonland permanent card from your graveyard to your hand.
+
+Cawyer River Dockworkers
+
+Dapper Detective
+
+Moroii Cleaner
+cost: {2}{B} => {1}{B}{B}
+rules_text: Deathtouch, haste
+At the beginning of your end step, each opponent with one or fewer cards in hand loses 2 life. Put a number of 1/1 black Shade creature counters on Moroii Cleaner equal to the amount of life lost this way. [i](The counters become creature tokens when the permanent they're on leaves the battlefield.)[/i] => Deathtouch, lifelink
+At the beginning of your end step, put a 1/1 black Shade creature counter on Moroii Cleaner. Then, each opponent with one or fewer cards in hand loses life equal to the number of counters on Moroii Cleaner. [i](The counter becomes a creature token when the permanent it is on leaves.)[/i]
+
+Zhang Seductress
+pt: 1/2 => 1/1
+
+Shambling Nest
+rules_text: Shambling Nest enters with two 1/1 green Insect creature counters on it. [i](The counters become creature tokens when the permanent they're on leaves the battlefield.)[/i]
+Shambling Nest can't attack or block as long as it has a counter on it.
+{1}{G}, Remove a counter from a creature you control: Surveil 2, and you gain 3 life. => Shambling Nest enters with two 1/1 green Insect creature counters on it. [i](The counters become creature tokens when the permanent they're on leaves the battlefield.)[/i]
+Shambling Nest can't attack or block as long as it has a counter on it.
+{1}{G}, Remove a counter from a creature you control: Surveil 1, and you gain 2 life.
+
+Grizzled Precinct Warden
+
+Scaredy Cat
+
+Catscratch Racketeer
+
+Betrayer of Silken Tongues
+rules_text: Menace
+When Betrayer of Silken Tongues enters, you may discard a card. If you do, search your library for a battle card, reveal it, put it into your hand, then shuffle.
+Betrayer of Silken Tongues and other Rogues you control get +1/+0 and have haste as long as you control a Bounty. => Menace
+When Betrayer of Silken Tongues enters, you may discard a card. If you do, search your library for a battle card, reveal it, put it into your hand, then shuffle.
+Whenever Betrayer of Silken Tongues or another Rogue you control becomes blocked, you may have it deal 1 damage to target nonplayer permanent.
+
+Vineclaimed Witness
+
+
+VERSION 9 CHANGELOG
 ====================
 
 Fleeting Memories added.

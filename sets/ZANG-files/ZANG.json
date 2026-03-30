@@ -1,10 +1,11 @@
 ﻿{
     "name": "Zangy Cube",
     "formats": "Zangy, Cube",
-    "trimmed": "n",
     "image_type": "png",
     "draft_structure": "cube",
     "unpreviewed": "card back",
+    "image_name": "position",
+    "v_mana": "",
     "cards": [
         {
             "card_name": "Dower Mountainside",
@@ -22,6 +23,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daryl Toh",
+            "alias": "",
+            "position": "0",
+            "rotated": false,
             "notes": "!tag Tacheen"
         },
         {
@@ -40,6 +44,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daryl Toh",
+            "alias": "",
+            "position": "1",
+            "rotated": false,
             "notes": "!tag Tacheen"
         },
         {
@@ -58,6 +65,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daryl Toh",
+            "alias": "",
+            "position": "2",
+            "rotated": false,
             "notes": "!tag Tacheen"
         },
         {
@@ -76,6 +86,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daryl Toh",
+            "alias": "",
+            "position": "3",
+            "rotated": false,
             "notes": "!tag Tacheen"
         },
         {
@@ -94,6 +107,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Envar Studio",
+            "alias": "",
+            "position": "4",
+            "rotated": false,
             "notes": "!tag Kanvere"
         },
         {
@@ -112,6 +128,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Noah Rotter",
+            "alias": "",
+            "position": "5",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -122,7 +141,7 @@
             "number": 436,
             "color_identity": "W",
             "cost": "",
-            "rules_text": "[i]({T}: Add {W}.)[/i]\nTomb of the First Fighter enters tapped.\nWhenever a land enters under your control, if you control five or more Plains, amass Soldiers 2. [i](Put two +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]",
+            "rules_text": "[i]({T}: Add {W}.)[/i]\nTomb of the First Fighter enters tapped.\nWhenever a land enters under your control, if you control five or more Plains, amass Soldiers 2. [i](Put two +1/+1 counters on an Army you control. It's also a Soldier. If you don't control one, create a 0/0 black Soldier Army creature token first.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -130,6 +149,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Nele Diel",
+            "alias": "",
+            "position": "6",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -148,6 +170,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Philipp A Urlich",
+            "alias": "",
+            "position": "7",
+            "rotated": false,
             "notes": "!tag Dewold\n\nColorless Buildaround"
         },
         {
@@ -166,6 +191,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Veronique Meignaud",
+            "alias": "",
+            "position": "8",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -184,6 +212,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Noah Rotter",
+            "alias": "",
+            "position": "9",
+            "rotated": false,
             "notes": "!tag Trovsko"
         },
         {
@@ -202,6 +233,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Quentin Mabille",
+            "alias": "",
+            "position": "10",
+            "rotated": false,
             "notes": "!tag Unknown\n Colorless"
         },
         {
@@ -220,6 +254,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Massimiliano Haematinon Nigro",
+            "alias": "",
+            "position": "11",
+            "rotated": false,
             "notes": "!tag Urshad"
         },
         {
@@ -238,6 +275,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Sebastian Luca",
+            "alias": "",
+            "position": "12",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag Golna\n!tag ShapurRule"
         },
         {
@@ -256,6 +296,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Nele Diel",
+            "alias": "",
+            "position": "13",
+            "rotated": false,
             "notes": "!tag Kephalai"
         },
         {
@@ -274,6 +317,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Francesco Musiani",
+            "alias": "",
+            "position": "14",
+            "rotated": false,
             "notes": "!tag Detrosse"
         },
         {
@@ -292,6 +338,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Andre Cezar",
+            "alias": "",
+            "position": "15",
+            "rotated": false,
             "notes": "!tag theros\nColorless Buildaround"
         },
         {
@@ -310,6 +359,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Wizards of the Coast Kaldheim Concept Art Team",
+            "alias": "",
+            "position": "16",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Immersturm\n!tag CanonReprint\nColorless Destr"
         },
         {
@@ -328,6 +380,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Benjamin Pangan III",
+            "alias": "",
+            "position": "17",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag Piruz\n!tag ShapurRule"
         },
         {
@@ -346,6 +401,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Roman Kuteynikov",
+            "alias": "",
+            "position": "18",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag Hadak\n!tag ShapurRule"
         },
         {
@@ -364,6 +422,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Wizards of the Coast Kaldheim Concept Art Team",
+            "alias": "",
+            "position": "19",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Axgard\n!tag CanonReprint\nCanon Reprint\nFetchland"
         },
         {
@@ -382,6 +443,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Jonas De Ro",
+            "alias": "",
+            "position": "20",
+            "rotated": false,
             "notes": "!tag Dewold\nReprint"
         },
         {
@@ -400,6 +464,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Pablo Dominguez",
+            "alias": "",
+            "position": "21",
+            "rotated": false,
             "notes": "!tag Theros\n!tag CustomReprint"
         },
         {
@@ -418,6 +485,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Wizards of the Coast Kaldheim Concept Art Team",
+            "alias": "",
+            "position": "22",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Immersturm\n!tag CanonReprint\nFetchland\nCanon Reprint"
         },
         {
@@ -436,6 +506,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Rodrigo Vegas",
+            "alias": "",
+            "position": "23",
+            "rotated": false,
             "notes": "!tag Theros\n!tag CustomReprint"
         },
         {
@@ -454,6 +527,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "lei min",
+            "alias": "",
+            "position": "24",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag CustomReprint\nMyths, Masks, and Minutes Spent Apart Reprint"
         },
         {
@@ -472,6 +548,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "lei min",
+            "alias": "",
+            "position": "25",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag CustomReprint\nMyths, Masks, and Minutes Spent Apart Reprint"
         },
         {
@@ -490,6 +569,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "lei min",
+            "alias": "",
+            "position": "26",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag CustomReprint\nMyths, Masks, and Minutes Spent Apart Reprint"
         },
         {
@@ -508,6 +590,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "lei min",
+            "alias": "",
+            "position": "27",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag CustomReprint\nMyths, Masks, and Minutes Spent Apart Reprint"
         },
         {
@@ -526,6 +611,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "lei min",
+            "alias": "",
+            "position": "28",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag CustomReprint\nMyths, Masks, and Minutes Spent Apart Reprint"
         },
         {
@@ -544,6 +632,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "lei min",
+            "alias": "",
+            "position": "29",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag CustomReprint\nMyths, Masks, and Minutes Spent Apart Reprint"
         },
         {
@@ -562,6 +653,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "lei min",
+            "alias": "",
+            "position": "30",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag CustomReprint\nMyths, Masks, and Minutes Spent Apart Reprint"
         },
         {
@@ -580,6 +674,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "lei min",
+            "alias": "",
+            "position": "31",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag CustomReprint\nMyths, Masks, and Minutes Spent Apart Reprint"
         },
         {
@@ -598,6 +695,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Gavin O'Donnell",
+            "alias": "",
+            "position": "32",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag CustomReprint\nMyths, Masks, and Minutes Spent Apart Reprint"
         },
         {
@@ -616,6 +716,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alex Rommel",
+            "alias": "",
+            "position": "33",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag CustomReprint\nMyths, Masks, and Minutes Spent Apart Reprint"
         },
         {
@@ -634,6 +737,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Sebastian Kowoll",
+            "alias": "",
+            "position": "34",
+            "rotated": false,
             "notes": "!tag Theros\n!tag CustomReprint"
         },
         {
@@ -652,6 +758,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Wizards of the Coast Kaldheim Concept Art Team",
+            "alias": "",
+            "position": "35",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Istfell\n!tag CanonReprint\nFetchland\nCanon Reprint"
         },
         {
@@ -670,6 +779,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Richard Lay",
+            "alias": "",
+            "position": "36",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -688,6 +800,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Samantha Shieh",
+            "alias": "",
+            "position": "37",
+            "rotated": false,
             "notes": "!tag Theros\n!tag CustomReprint"
         },
         {
@@ -706,6 +821,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daryl Toh",
+            "alias": "",
+            "position": "38",
+            "rotated": false,
             "notes": "!tag Tacheen\nTacheen: The Open Horizon Reprint"
         },
         {
@@ -724,6 +842,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daryl Toh",
+            "alias": "",
+            "position": "39",
+            "rotated": false,
             "notes": "!tag Tacheen\nTacheen: The Open Horizon Reprint"
         },
         {
@@ -742,6 +863,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Artur Treffner",
+            "alias": "",
+            "position": "40",
+            "rotated": false,
             "notes": "!tag Theros\n!tag CustomReprint"
         },
         {
@@ -760,6 +884,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Envar Studio",
+            "alias": "",
+            "position": "41",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -778,6 +905,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Wizards of the Coast Kaldheim Concept Art Team",
+            "alias": "",
+            "position": "42",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Starnheim\n!tag CanonReprint\nFetchland\nCanon Reprint"
         },
         {
@@ -796,6 +926,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Cullen Cole",
+            "alias": "",
+            "position": "43",
+            "rotated": false,
             "notes": "!tag Theros\n!tag CustomReprint"
         },
         {
@@ -814,6 +947,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Wizards of the Coast Kaldheim Concept Art Team",
+            "alias": "",
+            "position": "44",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Littjara\n!tag CanonReprint\nFetchland\nCanon Reprint"
         },
         {
@@ -832,6 +968,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Anh Le",
+            "alias": "",
+            "position": "45",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -850,6 +989,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Elaine Ho",
+            "alias": "",
+            "position": "46",
+            "rotated": false,
             "notes": "!tag Theros\n!tag CustomReprint"
         },
         {
@@ -868,6 +1010,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Cullen Cole",
+            "alias": "",
+            "position": "47",
+            "rotated": false,
             "notes": "!tag Theros\n!tag CustomReprint"
         },
         {
@@ -886,6 +1031,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "DON",
+            "alias": "",
+            "position": "48",
+            "rotated": false,
             "notes": "!tag Avarelle"
         },
         {
@@ -904,6 +1052,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Wizards of the Coast Kaldheim Concept Art Team",
+            "alias": "",
+            "position": "49",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Karfell\n!tag CanonReprint\nFetchland\nCanon Reprint"
         },
         {
@@ -922,6 +1073,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Wizards of the Coast Kaldheim Concept Art Team",
+            "alias": "",
+            "position": "50",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Surtland\n!tag CanonReprint\nCanon Reprint\nFetchland"
         },
         {
@@ -940,6 +1094,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Rahul Philip",
+            "alias": "",
+            "position": "51",
+            "rotated": false,
             "notes": "!tag Theros\n!tag CustomReprint"
         },
         {
@@ -958,6 +1115,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daryl Toh",
+            "alias": "",
+            "position": "52",
+            "rotated": false,
             "notes": "!tag Tacheen\nTacheen: The Open Horizon Reprint"
         },
         {
@@ -976,6 +1136,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Titus Lunter",
+            "alias": "",
+            "position": "53",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -994,6 +1157,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Xavier Leroux",
+            "alias": "",
+            "position": "54",
+            "rotated": false,
             "notes": "!tag Theros\n!tag CustomReprint"
         },
         {
@@ -1012,6 +1178,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daryl Toh",
+            "alias": "",
+            "position": "55",
+            "rotated": false,
             "notes": "!tag Tacheen\nTacheen: The Open Horizon Reprint"
         },
         {
@@ -1030,6 +1199,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daryl Toh",
+            "alias": "",
+            "position": "56",
+            "rotated": false,
             "notes": "!tag Tacheen\nTacheen: The Open Horizon Reprint"
         },
         {
@@ -1048,6 +1220,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daryl Toh",
+            "alias": "",
+            "position": "57",
+            "rotated": false,
             "notes": "!tag Tacheen\n\nTacheen: The Open Horizon Reprint"
         },
         {
@@ -1066,6 +1241,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Wizards of the Coast Kaldheim Concept Art Team",
+            "alias": "",
+            "position": "58",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Skemfar\n!tag CanonReprint\nFetchland\nCanon Reprint"
         },
         {
@@ -1084,6 +1262,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "QIAN WEI",
+            "alias": "",
+            "position": "59",
+            "rotated": false,
             "notes": "!tag Akaneworld"
         },
         {
@@ -1102,6 +1283,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "QIAN WEI",
+            "alias": "",
+            "position": "60",
+            "rotated": false,
             "notes": "!tag Akaneworld"
         },
         {
@@ -1120,6 +1304,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "QIAN WEI",
+            "alias": "",
+            "position": "61",
+            "rotated": false,
             "notes": "!tag Akaneworld"
         },
         {
@@ -1138,6 +1325,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "QIAN WEI",
+            "alias": "",
+            "position": "62",
+            "rotated": false,
             "notes": "!tag Akaneworld"
         },
         {
@@ -1156,6 +1346,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "QIAN WEI",
+            "alias": "",
+            "position": "63",
+            "rotated": false,
             "notes": "!tag Akaneworld"
         },
         {
@@ -1174,6 +1367,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Ryan Teo",
+            "alias": "",
+            "position": "64",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nMSEM Reprint"
         },
         {
@@ -1192,6 +1388,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Wizards of the Coast Kaldheim Concept Art Team",
+            "alias": "",
+            "position": "65",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Bretagard\n!tag CanonReprint\nFetchland\nCanon Reprint"
         },
         {
@@ -1210,6 +1409,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Wizards of the Coast Kaldheim Concept Art Team",
+            "alias": "",
+            "position": "66",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Gnottvold\n!tag CanonReprint\nFetchland\nCanon Reprint"
         },
         {
@@ -1228,6 +1430,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Kyle Pearson",
+            "alias": "",
+            "position": "67",
+            "rotated": false,
             "notes": "!tag NewPhyrexia"
         },
         {
@@ -1246,6 +1451,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Amelia Tan",
+            "alias": "",
+            "position": "68",
+            "rotated": false,
             "notes": "!tag Trovsko\nRemoval"
         },
         {
@@ -1264,6 +1472,8 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Diego Lafuente",
+            "alias": "",
+            "position": "69",
             "card_name2": "Flanking Strike",
             "color2": "W",
             "type2": "Instant \u2014 Adventure",
@@ -1274,6 +1484,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Whitaker\nRemoval"
         },
         {
@@ -1292,6 +1505,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "NetEase",
+            "alias": "",
+            "position": "70",
+            "rotated": false,
             "notes": "!tag Stage"
         },
         {
@@ -1310,6 +1526,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Felix Donadio",
+            "alias": "",
+            "position": "71",
+            "rotated": false,
             "notes": "!tag Kanvere"
         },
         {
@@ -1328,6 +1547,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Joel Kilpatrick",
+            "alias": "",
+            "position": "72",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Agnomakhos"
         },
         {
@@ -1346,6 +1568,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Raja Nandepu",
+            "alias": "",
+            "position": "73",
+            "rotated": false,
             "notes": "!tag Trovsko"
         },
         {
@@ -1364,6 +1589,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Jeremy Carver",
+            "alias": "",
+            "position": "74",
+            "rotated": false,
             "notes": "!tag Togarplane\nPlanename: Togarplane"
         },
         {
@@ -1382,6 +1610,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "sune",
+            "alias": "",
+            "position": "75",
+            "rotated": false,
             "notes": "!tag Stage\nIf too strong, change away lifelink"
         },
         {
@@ -1400,6 +1631,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Ebony Bodenbender",
+            "alias": "",
+            "position": "76",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel"
         },
         {
@@ -1418,6 +1652,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Artem Chebokha",
+            "alias": "",
+            "position": "77",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -1428,7 +1665,7 @@
             "number": 34,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
-            "rules_text": "",
+            "rules_text": "\nLook at the top six cards of your library. Put up to one creature card with mana value 2 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "\nLook at the top six cards of your library. Put up to one creature card with mana value 2 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.",
@@ -1436,6 +1673,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Airi Pan",
+            "alias": "",
+            "position": "78",
+            "rotated": false,
             "notes": "!tag Alkabah"
         },
         {
@@ -1454,6 +1694,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Glow Production",
+            "alias": "",
+            "position": "79",
+            "rotated": false,
             "notes": "!tag Urshad\n!tag Alamazzar\nRemoval\nCommand cycle"
         },
         {
@@ -1472,6 +1715,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Nikita Vasilchuk",
+            "alias": "",
+            "position": "80",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel"
         },
         {
@@ -1490,6 +1736,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Jeremy Carver",
+            "alias": "",
+            "position": "81",
+            "rotated": false,
             "notes": "!tag Urshad"
         },
         {
@@ -1508,6 +1757,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Akeiron",
+            "alias": "",
+            "position": "82",
+            "rotated": false,
             "notes": "!tag Trovsko\nRemoval"
         },
         {
@@ -1526,6 +1778,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Max Osti",
+            "alias": "",
+            "position": "83",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Bretagard\nMaybe increase to 2 mana\nRemoval"
         },
         {
@@ -1544,6 +1799,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Shibeki",
+            "alias": "",
+            "position": "84",
+            "rotated": false,
             "notes": "!tag theros\n!tag Koios\n!tag Claes\n!tag Yaoi\n!tag Planeswalker"
         },
         {
@@ -1562,6 +1820,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Claybox Studios",
+            "alias": "",
+            "position": "85",
+            "rotated": false,
             "notes": "!tag Akaneworld\n!tag Tsunayoshi"
         },
         {
@@ -1580,6 +1841,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Julie Dillon",
+            "alias": "",
+            "position": "86",
+            "rotated": false,
             "notes": "!tag theros\n!tag Athreos\nOmen Cycle \u2014 Athreos"
         },
         {
@@ -1598,6 +1862,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Paolo Puggioni",
+            "alias": "",
+            "position": "87",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -1616,6 +1883,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Axel Sauerwald",
+            "alias": "",
+            "position": "88",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag Warkrei\nRemoval"
         },
         {
@@ -1634,6 +1904,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Jens Lindfors",
+            "alias": "",
+            "position": "89",
+            "rotated": false,
             "notes": "!tag Giondaz\nRemoval"
         },
         {
@@ -1644,7 +1917,7 @@
             "number": 10,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
-            "rules_text": "",
+            "rules_text": "\nFlash\nBirth of the Praetor's Voice deals 4 damage to target attacking or blocking creature.\nExile up to two target cards from graveyards. You gain 2 life.\nCreate a 3/3 white, black, blue, and green Phyrexian Angel creature token with flying, vigilance, and lifelink.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "\nFlash\nBirth of the Praetor's Voice deals 4 damage to target attacking or blocking creature.\nExile up to two target cards from graveyards. You gain 2 life.\nCreate a 3/3 white, black, blue, and green Phyrexian Angel creature token with flying, vigilance, and lifelink.",
@@ -1652,6 +1925,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Rohland Demoss",
+            "alias": "",
+            "position": "90",
+            "rotated": false,
             "notes": "!tag NewPhyrexia\n!tag EleshNorn\n!tag Atraxa\nSphinxset Reprint\nRemoval"
         },
         {
@@ -1670,6 +1946,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Drawingsofa",
+            "alias": "",
+            "position": "91",
+            "rotated": false,
             "notes": "!tag Detrosse"
         },
         {
@@ -1688,6 +1967,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Mauro Sorghienti",
+            "alias": "",
+            "position": "92",
+            "rotated": false,
             "notes": "!tag theros"
         },
         {
@@ -1706,6 +1988,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Johnson",
+            "alias": "",
+            "position": "93",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1724,6 +2009,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Hikari Illustrations",
+            "alias": "",
+            "position": "94",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag JahanRule\n!tag Jahan\nRemoval"
         },
         {
@@ -1742,6 +2030,8 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alessandro Ferrario",
+            "alias": "",
+            "position": "95",
             "card_name2": "Breath of Traversal",
             "color2": "U",
             "type2": "Sorcery \u2014 Adventure",
@@ -1752,6 +2042,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Surtland\nAdventure Titan Cycle"
         },
         {
@@ -1770,6 +2063,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Dandzialf",
+            "alias": "",
+            "position": "96",
+            "rotated": false,
             "notes": "!tag Unknown\n!tag Achim"
         },
         {
@@ -1788,6 +2084,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Al Drozd",
+            "alias": "",
+            "position": "97",
+            "rotated": false,
             "notes": "!tag Detrosse\nRemoval"
         },
         {
@@ -1806,6 +2105,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Celine Meeuwis",
+            "alias": "",
+            "position": "98",
+            "rotated": false,
             "notes": "!tag Giondaz\ncantrip"
         },
         {
@@ -1824,6 +2126,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Angelina Zhogina",
+            "alias": "",
+            "position": "99",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -1842,6 +2147,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Monztre",
+            "alias": "",
+            "position": "100",
+            "rotated": false,
             "notes": "!tag Strixhaven\nRemoval"
         },
         {
@@ -1860,6 +2168,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Ferdinand Ladera",
+            "alias": "",
+            "position": "101",
+            "rotated": false,
             "notes": "!tag TheCosmos\n!tag Haubay\nRemoval"
         },
         {
@@ -1878,6 +2189,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Richard Fleming",
+            "alias": "",
+            "position": "102",
+            "rotated": false,
             "notes": "!tag theros\n!tag Ephara\nOmen Cycle \u2014 Ephara"
         },
         {
@@ -1896,6 +2210,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Z\u00e9a (Antoine Leblanc)",
+            "alias": "",
+            "position": "103",
+            "rotated": false,
             "notes": "!tag Detrosse\n!tag Tethaleeg\nRemoval"
         },
         {
@@ -1914,6 +2231,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Hoang Lap (Solan)",
+            "alias": "",
+            "position": "104",
+            "rotated": false,
             "notes": "!tag TheCosmos\n!tag Romowum"
         },
         {
@@ -1932,6 +2252,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Anatassia Grigorieva",
+            "alias": "",
+            "position": "105",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1950,6 +2273,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Darko Jovanov",
+            "alias": "",
+            "position": "106",
+            "rotated": false,
             "notes": "!tag Detrosse\n!tag Tethaleeg"
         },
         {
@@ -1968,6 +2294,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Remi Jacquot",
+            "alias": "",
+            "position": "107",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag Fassahd\nRemoval"
         },
         {
@@ -1986,6 +2315,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Lucy Carracedo",
+            "alias": "",
+            "position": "108",
+            "rotated": false,
             "notes": "!tag Twiltrie\nRemoval"
         },
         {
@@ -2004,6 +2336,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "TOOTO",
+            "alias": "",
+            "position": "109",
+            "rotated": false,
             "notes": "!tag Detrosse\nRemoval"
         },
         {
@@ -2022,6 +2357,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alex Petruk",
+            "alias": "",
+            "position": "110",
+            "rotated": false,
             "notes": "!tag Twiltrie"
         },
         {
@@ -2040,6 +2378,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Yaroslav Kurashov",
+            "alias": "",
+            "position": "111",
+            "rotated": false,
             "notes": "!tag Kephalai\nRemoval\nPlanename: Sphinxplane"
         },
         {
@@ -2058,6 +2399,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Vadim Simanin",
+            "alias": "",
+            "position": "112",
+            "rotated": false,
             "notes": "!tag Panxiou\nRemoval"
         },
         {
@@ -2076,6 +2420,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Zoe Tang",
+            "alias": "",
+            "position": "113",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag CustomReprint\n!tag Elissia\nRemoval\nMyths, Masks, and Minutes Spent Apart Reprint"
         },
         {
@@ -2094,6 +2441,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Izaak Rodriguez",
+            "alias": "",
+            "position": "114",
+            "rotated": false,
             "notes": "!tag Kephalai"
         },
         {
@@ -2112,6 +2462,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "ripmedusssa",
+            "alias": "",
+            "position": "115",
+            "rotated": false,
             "notes": "!tag Hudrain\nCantrip"
         },
         {
@@ -2130,6 +2483,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Camille Roux",
+            "alias": "",
+            "position": "116",
+            "rotated": false,
             "notes": "!tag Stage"
         },
         {
@@ -2148,6 +2504,8 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "royz",
+            "alias": "",
+            "position": "117",
             "card_name2": "Scout Ahead",
             "color2": "U",
             "type2": "Sorcery \u2014 Adventure",
@@ -2158,6 +2516,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Anzalan\nCantrip"
         },
         {
@@ -2176,6 +2537,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "SJ Jam",
+            "alias": "",
+            "position": "118",
+            "rotated": false,
             "notes": "!tag Unknown\nRemoval"
         },
         {
@@ -2194,6 +2558,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Elda54",
+            "alias": "",
+            "position": "119",
+            "rotated": false,
             "notes": "!tag Urshad\nCantrip"
         },
         {
@@ -2212,6 +2579,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "o0dzaku0o",
+            "alias": "",
+            "position": "120",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\ncantrip"
         },
         {
@@ -2230,6 +2600,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "A Dan",
+            "alias": "",
+            "position": "121",
+            "rotated": false,
             "notes": "!tag Detrosse"
         },
         {
@@ -2248,6 +2621,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Rose Benjamin",
+            "alias": "",
+            "position": "122",
+            "rotated": false,
             "notes": "!tag Hudrain\n!tag Elissia\n!tag Planeswalker"
         },
         {
@@ -2266,6 +2642,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Anthony Catillaz",
+            "alias": "",
+            "position": "123",
+            "rotated": false,
             "notes": "!tag Dominaria\n!tag MaritLage"
         },
         {
@@ -2276,7 +2655,7 @@
             "number": 86,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "",
+            "rules_text": "\nFlash\nTap target creature and put two stun counters on it.\nSurveil 2.\nProliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "\nFlash\nTap target creature and put two stun counters on it.\nSurveil 2.\nProliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]",
@@ -2284,6 +2663,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Chenatu",
+            "alias": "",
+            "position": "124",
+            "rotated": false,
             "notes": "!tag Stage\n!tag Marva\nRemoval"
         },
         {
@@ -2302,6 +2684,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Sandara Tang",
+            "alias": "",
+            "position": "125",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag Erkinder"
         },
         {
@@ -2320,6 +2705,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Adrien Gonzalez",
+            "alias": "",
+            "position": "126",
+            "rotated": false,
             "notes": "!tag Detrosse"
         },
         {
@@ -2338,6 +2726,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "David Franco",
+            "alias": "",
+            "position": "127",
+            "rotated": false,
             "notes": "!tag theros\n!tag Erebos"
         },
         {
@@ -2356,6 +2747,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "FrostLlamzon",
+            "alias": "",
+            "position": "128",
+            "rotated": false,
             "notes": "!tag Akaneworld\nReanimation spell"
         },
         {
@@ -2374,6 +2768,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "David Su",
+            "alias": "",
+            "position": "129",
+            "rotated": false,
             "notes": "!tag Dundrym"
         },
         {
@@ -2392,6 +2789,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Jeff Brown",
+            "alias": "",
+            "position": "130",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -2410,6 +2810,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Raja Nandepu",
+            "alias": "",
+            "position": "131",
+            "rotated": false,
             "notes": "!tag Trovsko"
         },
         {
@@ -2428,6 +2831,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Anndr Pazyniuk",
+            "alias": "",
+            "position": "132",
+            "rotated": false,
             "notes": "!tag Strixhaven"
         },
         {
@@ -2446,6 +2852,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Marius Bota",
+            "alias": "",
+            "position": "133",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -2464,6 +2873,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Henrique Gomes",
+            "alias": "",
+            "position": "134",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -2482,6 +2894,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Harold Palad",
+            "alias": "",
+            "position": "135",
+            "rotated": false,
             "notes": "!tag theros\nReanimation spell"
         },
         {
@@ -2500,6 +2915,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Heraldo Ortega",
+            "alias": "",
+            "position": "136",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Hayat\n!tag Planeswalker\nWrath"
         },
         {
@@ -2518,6 +2936,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alexander Yakovlev",
+            "alias": "",
+            "position": "137",
+            "rotated": false,
             "notes": "!tag Giondaz\nRemoval"
         },
         {
@@ -2536,6 +2957,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Felix Donadio",
+            "alias": "",
+            "position": "138",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -2554,6 +2978,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "artofclor",
+            "alias": "",
+            "position": "139",
+            "rotated": false,
             "notes": "!tag theros\n!tag Pharika\nOmen Cycle \u2014 Pharika\nRemoval"
         },
         {
@@ -2572,6 +2999,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Markus Stadlober",
+            "alias": "",
+            "position": "140",
+            "rotated": false,
             "notes": "!tag theros\nRemoval"
         },
         {
@@ -2590,6 +3020,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Jiunn Kuo",
+            "alias": "",
+            "position": "141",
+            "rotated": false,
             "notes": "!tag Twiltrie\n!tag Devika"
         },
         {
@@ -2608,6 +3041,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Ksenia Kozhevnikova",
+            "alias": "",
+            "position": "142",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -2626,6 +3062,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Anna Podedworna",
+            "alias": "",
+            "position": "143",
+            "rotated": false,
             "notes": "!tag Trovsko\nRemoval"
         },
         {
@@ -2644,6 +3083,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "lei min",
+            "alias": "",
+            "position": "144",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag Fassahd\n!tag CustomReprint\nRemoval\nMyths, Masks, and Minutes Spent Apart Reprint"
         },
         {
@@ -2662,6 +3104,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Silas Owen",
+            "alias": "",
+            "position": "145",
+            "rotated": false,
             "notes": "!tag Sivis\n!tag Planeswalker\n!tag Kamden\nRemoval"
         },
         {
@@ -2680,6 +3125,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alessandro Grioni",
+            "alias": "",
+            "position": "146",
+            "rotated": false,
             "notes": "!tag NewPhyrexia\nReanimation spell"
         },
         {
@@ -2698,6 +3146,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "rjun",
+            "alias": "",
+            "position": "147",
+            "rotated": false,
             "notes": "!tag Stage\n!tag Paul\n!tag Planeswalker"
         },
         {
@@ -2716,6 +3167,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Denis Kornev",
+            "alias": "",
+            "position": "148",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskett"
         },
         {
@@ -2734,6 +3188,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Andrea Piparo",
+            "alias": "",
+            "position": "149",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Karfell"
         },
         {
@@ -2744,7 +3201,7 @@
             "number": 137,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "",
+            "rules_text": "\nI, II \u2014 You draw a card and The Decline of Dr. Vaughn deals 1 damage to you.\nIII \u2014 Each player sacrifices a creature.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "\nI, II \u2014 You draw a card and The Decline of Dr. Vaughn deals 1 damage to you.\nIII \u2014 Each player sacrifices a creature.",
@@ -2752,6 +3209,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Kylin Wu",
+            "alias": "",
+            "position": "150",
+            "rotated": false,
             "notes": "!tag Stage\n!exportname: The Decline of Dr Vaughn\nPlanename: The Stage"
         },
         {
@@ -2770,6 +3230,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Bogdan Tomchuk",
+            "alias": "",
+            "position": "151",
+            "rotated": false,
             "notes": "!tag Kephalai\nSphinxplane Reprint"
         },
         {
@@ -2788,6 +3251,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Lorenzo Tomaselli",
+            "alias": "",
+            "position": "152",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Hook"
         },
         {
@@ -2806,6 +3272,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "S Q Chen",
+            "alias": "",
+            "position": "153",
+            "rotated": false,
             "notes": "!tag Erzma"
         },
         {
@@ -2824,6 +3293,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Trung Tin Shinji",
+            "alias": "",
+            "position": "154",
+            "rotated": false,
             "notes": "!tag Prakhma"
         },
         {
@@ -2842,6 +3314,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Felix Donadio",
+            "alias": "",
+            "position": "155",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -2860,6 +3335,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Obliviost",
+            "alias": "",
+            "position": "156",
+            "rotated": false,
             "notes": "!tag Twiltrie"
         },
         {
@@ -2878,6 +3356,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Han Flores",
+            "alias": "",
+            "position": "157",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -2888,7 +3369,7 @@
             "number": 239,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "",
+            "rules_text": "\nI \u2014 Create a 1/1 red Warrior creature token with prowess.\nII \u2014 Discard a card. If you do, draw a card.\nIII \u2014 You may return target instant or sorcery card from your graveyard to your hand.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "\nI \u2014 Create a 1/1 red Warrior creature token with prowess.\nII \u2014 Discard a card. If you do, draw a card.\nIII \u2014 You may return target instant or sorcery card from your graveyard to your hand.",
@@ -2896,6 +3377,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daniela Ivanova",
+            "alias": "",
+            "position": "158",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Elena"
         },
         {
@@ -2914,6 +3398,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "harry80779192",
+            "alias": "",
+            "position": "159",
+            "rotated": false,
             "notes": "!tag Akaneworld\n!tag Shinobu"
         },
         {
@@ -2932,6 +3419,8 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Michael Angelo",
+            "alias": "",
+            "position": "160",
             "card_name2": "Searing Ember",
             "color2": "R",
             "type2": "Sorcery \u2014 Adventure",
@@ -2942,6 +3431,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Giondaz\nRemoval"
         },
         {
@@ -2960,6 +3452,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Anh Le",
+            "alias": "",
+            "position": "161",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -2978,6 +3473,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Ellirh Shaan",
+            "alias": "",
+            "position": "162",
+            "rotated": false,
             "notes": "!tag Sivis"
         },
         {
@@ -2996,6 +3494,8 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Andrea Piparo",
+            "alias": "",
+            "position": "163",
             "card_name2": "Solar Breath",
             "color2": "R",
             "type2": "Sorcery \u2014 Adventure",
@@ -3006,6 +3506,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Vraniveer\nPlanename: Vraniveer"
         },
         {
@@ -3024,6 +3527,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "dawnlingchen",
+            "alias": "",
+            "position": "164",
+            "rotated": false,
             "notes": "!tag Twiltrie"
         },
         {
@@ -3042,6 +3548,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Pavel Guzenko",
+            "alias": "",
+            "position": "165",
+            "rotated": false,
             "notes": "!tag Vraniveer"
         },
         {
@@ -3060,6 +3569,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "lei min",
+            "alias": "",
+            "position": "166",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag Eike\n!tag Fassahd\nCantrip\n\nEike"
         },
         {
@@ -3078,6 +3590,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "lei min",
+            "alias": "",
+            "position": "167",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag Eike\n!tag Fassahd"
         },
         {
@@ -3096,6 +3611,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Casper Hansen",
+            "alias": "",
+            "position": "168",
+            "rotated": false,
             "notes": "!tag Kanvere\nRemoval"
         },
         {
@@ -3114,6 +3632,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alexandra Kononenko",
+            "alias": "",
+            "position": "169",
+            "rotated": false,
             "notes": "!tag Detrosse"
         },
         {
@@ -3132,6 +3653,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Nilson Vilela",
+            "alias": "",
+            "position": "170",
+            "rotated": false,
             "notes": "!tag TheCosmos\n!tag Bastazim"
         },
         {
@@ -3150,6 +3674,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Ksenia Kozhevnikova",
+            "alias": "",
+            "position": "171",
+            "rotated": false,
             "notes": "!tag Vraniveer\nRemoval"
         },
         {
@@ -3168,6 +3695,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Toni Muntean",
+            "alias": "",
+            "position": "172",
+            "rotated": false,
             "notes": "!tag Kanvere"
         },
         {
@@ -3186,6 +3716,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Akim Kaliberda",
+            "alias": "",
+            "position": "173",
+            "rotated": false,
             "notes": "!tag Dundrym\n!tag Vice\n!tag Planeswalker\nRemoval"
         },
         {
@@ -3204,6 +3737,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alexi Favini",
+            "alias": "",
+            "position": "174",
+            "rotated": false,
             "notes": "!tag Trovsko\nRemoval"
         },
         {
@@ -3222,6 +3758,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Assassinmilks",
+            "alias": "",
+            "position": "175",
+            "rotated": false,
             "notes": "!tag Hatsuniji\nRemoval"
         },
         {
@@ -3240,6 +3779,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Muhamad Faizal Fikri",
+            "alias": "",
+            "position": "176",
+            "rotated": false,
             "notes": "!tag Akaneworld\nRemoval"
         },
         {
@@ -3258,6 +3800,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Eugene Shevchuk",
+            "alias": "",
+            "position": "177",
+            "rotated": false,
             "notes": "!tag Merveaux"
         },
         {
@@ -3276,6 +3821,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Igor Avdeev",
+            "alias": "",
+            "position": "178",
+            "rotated": false,
             "notes": "!tag Merveaux"
         },
         {
@@ -3294,6 +3842,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "George Krallis",
+            "alias": "",
+            "position": "179",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -3312,6 +3863,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Anastasiia Ivanova",
+            "alias": "",
+            "position": "180",
+            "rotated": false,
             "notes": "!tag Detrosse\nDork"
         },
         {
@@ -3330,6 +3884,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Gabriel Gurjao",
+            "alias": "",
+            "position": "181",
+            "rotated": false,
             "notes": "!tag Hudrain\nRemoval"
         },
         {
@@ -3348,6 +3905,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "P Nicholas",
+            "alias": "",
+            "position": "182",
+            "rotated": false,
             "notes": "!tag NewPhyrexia\nDork"
         },
         {
@@ -3366,6 +3926,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alex Petruk",
+            "alias": "",
+            "position": "183",
+            "rotated": false,
             "notes": "!tag theros\nDork"
         },
         {
@@ -3384,6 +3947,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Anderton Oliveira",
+            "alias": "",
+            "position": "184",
+            "rotated": false,
             "notes": "!tag Dominaria\nDork"
         },
         {
@@ -3402,6 +3968,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Guilherme Reis",
+            "alias": "",
+            "position": "185",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel"
         },
         {
@@ -3420,6 +3989,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Anton Ananin",
+            "alias": "",
+            "position": "186",
+            "rotated": false,
             "notes": "!tag Trovsko"
         },
         {
@@ -3438,6 +4010,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "artofclor",
+            "alias": "",
+            "position": "187",
+            "rotated": false,
             "notes": "!tag Urshad"
         },
         {
@@ -3456,6 +4031,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Netease",
+            "alias": "",
+            "position": "188",
+            "rotated": false,
             "notes": "!tag Stage"
         },
         {
@@ -3474,6 +4052,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Asur Misoa",
+            "alias": "",
+            "position": "189",
+            "rotated": false,
             "notes": "!tag theros\n!tag Karametra\nOmen Cycle \u2014 Karametra"
         },
         {
@@ -3492,6 +4073,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Anna Khudorenko",
+            "alias": "",
+            "position": "190",
+            "rotated": false,
             "notes": "!tag Detrosse\n!tag Jericho\n!tag Planeswalker"
         },
         {
@@ -3510,6 +4094,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Sergey Shikin",
+            "alias": "",
+            "position": "191",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -3520,7 +4107,7 @@
             "number": 261,
             "color_identity": "G",
             "cost": "{G}",
-            "rules_text": "",
+            "rules_text": "\nI \u2014 Target creature you control fights up to one target creature you don't control.\nII \u2014 Mill three cards.\nIII \u2014 Return up to one creature card and up to one land card from your graveyard to your hand.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "\nI \u2014 Target creature you control fights up to one target creature you don't control.\nII \u2014 Mill three cards.\nIII \u2014 Return up to one creature card and up to one land card from your graveyard to your hand.",
@@ -3528,6 +4115,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Andre Simoes",
+            "alias": "",
+            "position": "192",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Istfell"
         },
         {
@@ -3538,7 +4128,7 @@
             "number": 286,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 Up to one target creature or planeswalker you control becomes a 5/5 green Horror creature with indestructible until Jerrold's Truest Form leaves the battlefield.\nYou gain 4 life.\nIII \u2014 Return target legendary card from your graveyard to your hand.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 Up to one target creature or planeswalker you control becomes a 5/5 green Horror creature with indestructible until Jerrold's Truest Form leaves the battlefield.\nYou gain 4 life.\nIII \u2014 Return target legendary card from your graveyard to your hand.",
@@ -3546,6 +4136,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "NetEase",
+            "alias": "",
+            "position": "193",
+            "rotated": false,
             "notes": "!tag Stage\n!tag Jerrold"
         },
         {
@@ -3564,6 +4157,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Eelis Kyttanen",
+            "alias": "",
+            "position": "194",
+            "rotated": false,
             "notes": "!tag Trovsko"
         },
         {
@@ -3582,6 +4178,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Zahid Lagumdzic",
+            "alias": "",
+            "position": "195",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -3600,6 +4199,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Oksana Kerro",
+            "alias": "",
+            "position": "196",
+            "rotated": false,
             "notes": "!tag ???\nRemoval"
         },
         {
@@ -3618,6 +4220,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Anton Fadeev",
+            "alias": "",
+            "position": "197",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag Probe"
         },
         {
@@ -3636,6 +4241,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Ebony Bodenbender",
+            "alias": "",
+            "position": "198",
+            "rotated": false,
             "notes": "!tag Unknown\nRemoval"
         },
         {
@@ -3654,6 +4262,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Jeremy Carver",
+            "alias": "",
+            "position": "199",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -3672,6 +4283,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Joshua Raphael",
+            "alias": "",
+            "position": "200",
+            "rotated": false,
             "notes": "!tag TheCosmos"
         },
         {
@@ -3690,6 +4304,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Trevor Hairsine",
+            "alias": "",
+            "position": "201",
+            "rotated": false,
             "notes": "!tag NewPhyrexia\n!tag CanonReprint\nCanon Reprint"
         },
         {
@@ -3708,6 +4325,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Julija Gumbryte",
+            "alias": "",
+            "position": "202",
+            "rotated": false,
             "notes": "!tag NewPhyrexia"
         },
         {
@@ -3726,6 +4346,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Margarita Bourkova",
+            "alias": "",
+            "position": "203",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -3744,6 +4367,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alejandro Silva",
+            "alias": "",
+            "position": "204",
+            "rotated": false,
             "notes": "!tag Trovsko"
         },
         {
@@ -3762,6 +4388,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Fredrik Giro",
+            "alias": "",
+            "position": "205",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -3780,6 +4409,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alexis Susani",
+            "alias": "",
+            "position": "206",
+            "rotated": false,
             "notes": "!tag Akaneworld"
         },
         {
@@ -3798,6 +4430,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Pavel Golovii",
+            "alias": "",
+            "position": "207",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Bretagard"
         },
         {
@@ -3816,6 +4451,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Zuzanna Wuzyk",
+            "alias": "",
+            "position": "208",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -3834,6 +4472,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Andre Garcia",
+            "alias": "",
+            "position": "209",
+            "rotated": false,
             "notes": "!tag Dominaria"
         },
         {
@@ -3852,6 +4493,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alex Konstx",
+            "alias": "",
+            "position": "210",
+            "rotated": false,
             "notes": "!tag Detrosse"
         },
         {
@@ -3870,6 +4514,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Bad Moon Art",
+            "alias": "",
+            "position": "211",
+            "rotated": false,
             "notes": "!tag Akaneworld\n!tag Ryunosuke"
         },
         {
@@ -3888,6 +4535,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Joohnson",
+            "alias": "",
+            "position": "212",
+            "rotated": false,
             "notes": "!tag Panxiou"
         },
         {
@@ -3906,6 +4556,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Ali Alhassany",
+            "alias": "",
+            "position": "213",
+            "rotated": false,
             "notes": "!tag Urshad"
         },
         {
@@ -3924,6 +4577,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Gabriel Rubio",
+            "alias": "",
+            "position": "214",
+            "rotated": false,
             "notes": "!tag Trovsko"
         },
         {
@@ -3942,6 +4598,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Keiku",
+            "alias": "",
+            "position": "215",
+            "rotated": false,
             "notes": "!tag Akaneworld"
         },
         {
@@ -3960,6 +4619,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Wouter Florusse",
+            "alias": "",
+            "position": "216",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag Fassahd"
         },
         {
@@ -3978,6 +4640,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Jakub Dzikowski",
+            "alias": "",
+            "position": "217",
+            "rotated": false,
             "notes": "!tag Kanvere"
         },
         {
@@ -3996,6 +4661,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daniel Mitchell",
+            "alias": "",
+            "position": "218",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -4014,6 +4682,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "armandeo64",
+            "alias": "",
+            "position": "219",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -4032,6 +4703,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Henrique Linder",
+            "alias": "",
+            "position": "220",
+            "rotated": false,
             "notes": "!tag Detrosse\n!tag Jericho\n!tag Planeswalker"
         },
         {
@@ -4050,6 +4724,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Andrey Popov",
+            "alias": "",
+            "position": "221",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -4068,6 +4745,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Stu Harrington",
+            "alias": "",
+            "position": "222",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -4086,6 +4766,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Henrique Lindner",
+            "alias": "",
+            "position": "223",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4104,6 +4787,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Victoria P Kivo",
+            "alias": "",
+            "position": "224",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -4122,6 +4808,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Mark Tarrisse",
+            "alias": "",
+            "position": "225",
+            "rotated": false,
             "notes": "!tag Kephalai\nCheck if needing to be instant\nRemoval"
         },
         {
@@ -4140,6 +4829,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Julija Gumbryte",
+            "alias": "",
+            "position": "226",
+            "rotated": false,
             "notes": "!tag NewPhyrexia"
         },
         {
@@ -4158,6 +4850,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Francisco Chinchilla",
+            "alias": "",
+            "position": "227",
+            "rotated": false,
             "notes": "!tag Ravnica\n!tag Simic\nDork"
         },
         {
@@ -4176,6 +4871,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "gstudio",
+            "alias": "",
+            "position": "228",
+            "rotated": false,
             "notes": "!tag Sivis\n!tag Planeswalker\n!tag Kamden"
         },
         {
@@ -4194,6 +4892,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Julian Oppermann",
+            "alias": "",
+            "position": "229",
+            "rotated": false,
             "notes": "!tag Twiltrie\n!tag Devika\n!tag Annick\n!tag Cyra\nRemoval"
         },
         {
@@ -4212,6 +4913,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "-lofi",
+            "alias": "",
+            "position": "230",
+            "rotated": false,
             "notes": "!tag Anzalan\nRemoval"
         },
         {
@@ -4230,6 +4934,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "231",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye\nHouses of Dewold Reprint"
         },
         {
@@ -4248,6 +4955,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Diana Khomutina",
+            "alias": "",
+            "position": "232",
+            "rotated": false,
             "notes": "!tag Trovsko"
         },
         {
@@ -4266,6 +4976,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Gabriel Cupidao",
+            "alias": "",
+            "position": "233",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag Warkrei"
         },
         {
@@ -4284,6 +4997,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Mike Azevedo",
+            "alias": "",
+            "position": "234",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -4302,6 +5018,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Korenzo Tomaselli",
+            "alias": "",
+            "position": "235",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -4320,6 +5039,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Liu Yan",
+            "alias": "",
+            "position": "236",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag Peyma\n!tag ShapurRule"
         },
         {
@@ -4338,6 +5060,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Adragonswinging",
+            "alias": "",
+            "position": "237",
+            "rotated": false,
             "notes": "!tag Amonkhet\nRemoval"
         },
         {
@@ -4356,6 +5081,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Joel Kilpatrick",
+            "alias": "",
+            "position": "238",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -4374,6 +5102,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Narendra B Adi",
+            "alias": "",
+            "position": "239",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Whitaker"
         },
         {
@@ -4392,6 +5123,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Kiana Hamm",
+            "alias": "",
+            "position": "240",
+            "rotated": false,
             "notes": "!tag Urshad\n!tag Alamazzar"
         },
         {
@@ -4410,6 +5144,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Thepoppy",
+            "alias": "",
+            "position": "241",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -4428,6 +5165,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "aria safarzadegan",
+            "alias": "",
+            "position": "242",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4446,6 +5186,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Caio Monteiro",
+            "alias": "",
+            "position": "243",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -4464,6 +5207,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Aleksandra Alekseeva",
+            "alias": "",
+            "position": "244",
+            "rotated": false,
             "notes": "!tag Twiltrie"
         },
         {
@@ -4482,6 +5228,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Benjamin Hill",
+            "alias": "",
+            "position": "245",
+            "rotated": false,
             "notes": "!tag Twiltrie"
         },
         {
@@ -4500,6 +5249,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Lorenzo Mastroianni",
+            "alias": "",
+            "position": "246",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4518,6 +5270,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alexandr Elichev",
+            "alias": "",
+            "position": "247",
+            "rotated": false,
             "notes": "!tag Alkabah\n!Tag ShapurRule"
         },
         {
@@ -4536,6 +5291,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Wilson Nugraha",
+            "alias": "",
+            "position": "248",
+            "rotated": false,
             "notes": "!tag Urshad"
         },
         {
@@ -4554,6 +5312,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Noah Thatcher",
+            "alias": "",
+            "position": "249",
+            "rotated": false,
             "notes": "!tag Akaneworld"
         },
         {
@@ -4572,6 +5333,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Jana Herrmann",
+            "alias": "",
+            "position": "250",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag Grabeih"
         },
         {
@@ -4590,6 +5354,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Nathan Xa",
+            "alias": "",
+            "position": "251",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -4608,6 +5375,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Sandara Tang",
+            "alias": "",
+            "position": "252",
+            "rotated": false,
             "notes": "!tag Stage\nreanimation spell"
         },
         {
@@ -4626,6 +5396,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Joel Kilpatrick",
+            "alias": "",
+            "position": "253",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskett"
         },
         {
@@ -4644,6 +5417,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Julbergarts",
+            "alias": "",
+            "position": "254",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -4662,6 +5438,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Anna Podedworna",
+            "alias": "",
+            "position": "255",
+            "rotated": false,
             "notes": "!tag theros"
         },
         {
@@ -4680,6 +5459,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "balalaevGod",
+            "alias": "",
+            "position": "256",
+            "rotated": false,
             "notes": "!tag Anzalan\n!tag Margarete"
         },
         {
@@ -4698,6 +5480,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Jay Axer",
+            "alias": "",
+            "position": "257",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -4716,6 +5501,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Nelson Navarro",
+            "alias": "",
+            "position": "258",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag Andazir\n!tag ShapurRule"
         },
         {
@@ -4734,6 +5522,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Barry Brown Jr",
+            "alias": "",
+            "position": "259",
+            "rotated": false,
             "notes": "!tag Erzma"
         },
         {
@@ -4752,6 +5543,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Asfodelo",
+            "alias": "",
+            "position": "260",
+            "rotated": false,
             "notes": "!tag theros\n!tag Koios"
         },
         {
@@ -4770,6 +5564,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Wojtek Depczynski",
+            "alias": "",
+            "position": "261",
+            "rotated": false,
             "notes": "!tag Ravnica\n!tag Gruul"
         },
         {
@@ -4788,6 +5585,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Lucas Alvaro",
+            "alias": "",
+            "position": "262",
+            "rotated": false,
             "notes": "!tag Hatsuniji"
         },
         {
@@ -4806,6 +5606,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "BlazingStred",
+            "alias": "",
+            "position": "263",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag GolnaRule\n!tag Resentment"
         },
         {
@@ -4824,6 +5627,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Pedro Carlos Dutra",
+            "alias": "",
+            "position": "264",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Axgard"
         },
         {
@@ -4842,6 +5648,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Andrew Soman",
+            "alias": "",
+            "position": "265",
+            "rotated": false,
             "notes": "!tag Strixhaven"
         },
         {
@@ -4860,6 +5669,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "youzheng",
+            "alias": "",
+            "position": "266",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -4878,6 +5690,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Simon Pape",
+            "alias": "",
+            "position": "267",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -4896,6 +5711,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Noah Thatcher",
+            "alias": "",
+            "position": "268",
+            "rotated": false,
             "notes": "!tag TheCosmos"
         },
         {
@@ -4914,6 +5732,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Pedro Carlos Dutra",
+            "alias": "",
+            "position": "269",
+            "rotated": false,
             "notes": "!tag Vraniveer"
         },
         {
@@ -4932,6 +5753,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Aleksey Iromonik",
+            "alias": "",
+            "position": "270",
+            "rotated": false,
             "notes": "!tag Hudrain"
         },
         {
@@ -4950,6 +5774,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Michael David",
+            "alias": "",
+            "position": "271",
+            "rotated": false,
             "notes": "!tag Strixhaven"
         },
         {
@@ -4968,6 +5795,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Cevicrow",
+            "alias": "",
+            "position": "272",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -4986,6 +5816,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Danny Pavlov",
+            "alias": "",
+            "position": "273",
+            "rotated": false,
             "notes": "!tag Hudrain"
         },
         {
@@ -5004,6 +5837,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Lorenzo Lanfranconi",
+            "alias": "",
+            "position": "274",
+            "rotated": false,
             "notes": "!tag Dominaria"
         },
         {
@@ -5022,6 +5858,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "David Roterberg",
+            "alias": "",
+            "position": "275",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -5040,6 +5879,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "ArtMovd",
+            "alias": "",
+            "position": "276",
+            "rotated": false,
             "notes": "!tag Akaneworld"
         },
         {
@@ -5058,6 +5900,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Barret Frymire",
+            "alias": "",
+            "position": "277",
+            "rotated": false,
             "notes": "!tag Dominaria\n\nMaybe reflavor to troll?"
         },
         {
@@ -5076,6 +5921,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Mateusz Wisniewski",
+            "alias": "",
+            "position": "278",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -5094,6 +5942,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Silas Owen",
+            "alias": "",
+            "position": "279",
+            "rotated": false,
             "notes": "!tag Sivis\n!tag Kamden\n!tag Planeswalker\nEnchantments"
         },
         {
@@ -5112,6 +5963,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Cchiuyin",
+            "alias": "",
+            "position": "280",
+            "rotated": false,
             "notes": "!tag Akaneworld\n!tag Ryunosuke\nProwess"
         },
         {
@@ -5130,6 +5984,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Erlan Arya",
+            "alias": "",
+            "position": "281",
+            "rotated": false,
             "notes": "!tag Ravnica\n!tag Gruul\nAttrition\nRename"
         },
         {
@@ -5148,6 +6005,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daniela Ivanova",
+            "alias": "",
+            "position": "282",
+            "rotated": false,
             "notes": "!tag Trovsko\nAttrition"
         },
         {
@@ -5166,6 +6026,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Tao Markey",
+            "alias": "",
+            "position": "283",
+            "rotated": false,
             "notes": "!tag Kanvere\nSuperfriends"
         },
         {
@@ -5184,6 +6047,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "RinRinDaishi",
+            "alias": "",
+            "position": "284",
+            "rotated": false,
             "notes": "!tag Hudrain"
         },
         {
@@ -5202,6 +6068,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Ksenia KJozhevnikova",
+            "alias": "",
+            "position": "285",
+            "rotated": false,
             "notes": "!tag Merveaux\nEnchantments"
         },
         {
@@ -5220,6 +6089,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Ardika Priyata",
+            "alias": "",
+            "position": "286",
+            "rotated": false,
             "notes": "!tag Sivis\nGenerically good\nRemoval"
         },
         {
@@ -5238,6 +6110,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Kamikazuh",
+            "alias": "",
+            "position": "287",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag Warkrei\nProwess"
         },
         {
@@ -5256,6 +6131,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Ivo Campelo da Silva",
+            "alias": "",
+            "position": "288",
+            "rotated": false,
             "notes": "!tag Merveaux\nReanimator"
         },
         {
@@ -5274,6 +6152,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Forswoen6",
+            "alias": "",
+            "position": "289",
+            "rotated": false,
             "notes": "!tag theros\n!tag Keranos"
         },
         {
@@ -5292,6 +6173,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Lorenzo Massaro",
+            "alias": "",
+            "position": "290",
+            "rotated": false,
             "notes": "!tag Unknown\nSuperfriends"
         },
         {
@@ -5302,7 +6186,7 @@
             "number": 267,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "",
+            "rules_text": "[+1]: Mill a card. Add {C} or one mana of the milled card's colors.\n[-2]: Each opponent sacrifices a creature with flying, an artifact, or an enchantment.\n[-4]: Return target card in your graveyard to your hand.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Mill a card. Add {C} or one mana of the milled card's colors.\n[-2]: Each opponent sacrifices a creature with flying, an artifact, or an enchantment.\n[-4]: Return target card in your graveyard to your hand.",
@@ -5310,6 +6194,9 @@
             "set": "ZANG",
             "loyalty": "2",
             "artist": "Matthew Wawn",
+            "alias": "",
+            "position": "291",
+            "rotated": false,
             "notes": "!tag Delroy\n!tag Planeswalker\n!tag Dominaria\nSlotted\nAttrition\nRemoval"
         },
         {
@@ -5320,7 +6207,7 @@
             "number": 165,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
-            "rules_text": "",
+            "rules_text": "If damage would be dealt to Mireio while you control a creature with a cage counter on it, that damage is dealt to a permanent you control with a cage counter on it instead.\n[+1]: You may sacrifice a creature. If you do, draw two cards. If you don't, put a cage counter on a creature you control.\n[-3]: Create two 2/2 black Zombie creature tokens with decayed. [i](It can't block. When it attacks, sacrifice it at end of combat.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "If damage would be dealt to Mireio while you control a creature with a cage counter on it, that damage is dealt to a permanent you control with a cage counter on it instead.\n[+1]: You may sacrifice a creature. If you do, draw two cards. If you don't, put a cage counter on a creature you control.\n[-3]: Create two 2/2 black Zombie creature tokens with decayed. [i](It can't block. When it attacks, sacrifice it at end of combat.)[/i]",
@@ -5328,6 +6215,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "Room 8 Studio",
+            "alias": "",
+            "position": "292",
+            "rotated": false,
             "notes": "!tag Mireio\n!tag ???\n!tag Planeswalker\nPlanename:"
         },
         {
@@ -5338,7 +6228,7 @@
             "number": 356,
             "color_identity": "WR",
             "cost": "{R}{W}",
-            "rules_text": "",
+            "rules_text": "[+1]: Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control one, create a 0/0 black Soldier Army creature token first.)[/i]\n[-2]: Put a +1/+1 counter on each creature you control.\n[-6]: Creatures you control get +1/+1 and gain double strike until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control one, create a 0/0 black Soldier Army creature token first.)[/i]\n[-2]: Put a +1/+1 counter on each creature you control.\n[-6]: Creatures you control get +1/+1 and gain double strike until end of turn.",
@@ -5346,6 +6236,9 @@
             "set": "ZANG",
             "loyalty": "2",
             "artist": "Conceptopolis",
+            "alias": "",
+            "position": "293",
+            "rotated": false,
             "notes": "!tag Imani\n!tag Planeswalker\n!tag Dewold\nSlotted\nGenerically good Aggro"
         },
         {
@@ -5356,7 +6249,7 @@
             "number": 342,
             "color_identity": "WB",
             "cost": "{W}{B}",
-            "rules_text": "",
+            "rules_text": "Sacrifice a nonblocking creature: Prevent all damage that would be dealt to Kamden by the source of your choice this turn.\n[+1]: Create a 0/1 white Serf creature token.\n[-2]: Each player sacrifices a creature.\n[-6]: You get an emblem with \u201cWhenever a creature you control dies, each opponent loses 1 life and you gain 1 life.\u201d Then destroy all creatures.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "Sacrifice a nonblocking creature: Prevent all damage that would be dealt to Kamden by the source of your choice this turn.\n[+1]: Create a 0/1 white Serf creature token.\n[-2]: Each player sacrifices a creature.\n[-6]: You get an emblem with \u201cWhenever a creature you control dies, each opponent loses 1 life and you gain 1 life.\u201d Then destroy all creatures.",
@@ -5364,6 +6257,9 @@
             "set": "ZANG",
             "loyalty": "2",
             "artist": "Silas Owen",
+            "alias": "",
+            "position": "294",
+            "rotated": false,
             "notes": "!tag Kamden\n!tag Planeswalker\n!tag Sivis\nSlotted\nCrats\nRemoval"
         },
         {
@@ -5374,7 +6270,7 @@
             "number": 97,
             "color_identity": "U",
             "cost": "{U}{U}",
-            "rules_text": "",
+            "rules_text": "[+1]: Surveil 2.\n[-2]: Return target creature to its owner's hand.\n[-X]: You may cast target instant or sorcery card from your graveyard with mana value X or less without paying its mana cost.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Surveil 2.\n[-2]: Return target creature to its owner's hand.\n[-X]: You may cast target instant or sorcery card from your graveyard with mana value X or less without paying its mana cost.",
@@ -5382,6 +6278,9 @@
             "set": "ZANG",
             "loyalty": "2",
             "artist": "Robynn Frauhn",
+            "alias": "",
+            "position": "295",
+            "rotated": false,
             "notes": "!tag Kir\n!tag Planeswalker\n!tag Alkabah\nSlotted\nReanimator\nRemoval"
         },
         {
@@ -5392,7 +6291,7 @@
             "number": 295,
             "color_identity": "G",
             "cost": "{X}{G}{G}",
-            "rules_text": "",
+            "rules_text": "[+1]: Until end of turn, Milos becomes a Orc Warrior creature with indestructible and power and toughness each equal to the number of loyalty counters on him. [i](Damage won't reduce his loyalty.)[/i]\n[-2]: Mill two cards, then you may return a card from your graveyard to your hand.\nEscape\u2014{G}{G}, Exile X other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Until end of turn, Milos becomes a Orc Warrior creature with indestructible and power and toughness each equal to the number of loyalty counters on him. [i](Damage won't reduce his loyalty.)[/i]\n[-2]: Mill two cards, then you may return a card from your graveyard to your hand.\nEscape\u2014{G}{G}, Exile X other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]",
@@ -5400,6 +6299,9 @@
             "set": "ZANG",
             "loyalty": "X",
             "artist": "Maliveth",
+            "alias": "",
+            "position": "296",
+            "rotated": false,
             "notes": "!tag Milos\n!tag Planeswalker\n!tag Tacheen\nGenerically good/aggro"
         },
         {
@@ -5418,6 +6320,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Evelyne Park",
+            "alias": "",
+            "position": "297",
+            "rotated": false,
             "notes": "!tag theros\n!tag Klothys\nOmen Cycle \u2014 Klothys\nRemoval"
         },
         {
@@ -5428,7 +6333,7 @@
             "number": 232,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
-            "rules_text": "",
+            "rules_text": "[+1]: Discard a card, then draw a card.\n[+1]: Create a token that's a copy of target creature you control with mana value 2 or less. The copy gains haste. Exile it at the beginning of your next end step.\n[-3]: Exile up to one target instant or sorcery card from your graveyard, copy it and you may cast the copy. The copy costs {2} less to cast.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Discard a card, then draw a card.\n[+1]: Create a token that's a copy of target creature you control with mana value 2 or less. The copy gains haste. Exile it at the beginning of your next end step.\n[-3]: Exile up to one target instant or sorcery card from your graveyard, copy it and you may cast the copy. The copy costs {2} less to cast.",
@@ -5436,6 +6341,9 @@
             "set": "ZANG",
             "loyalty": "3",
             "artist": "NetEase",
+            "alias": "",
+            "position": "298",
+            "rotated": false,
             "notes": "!tag Paul\n!tag Planeswalker\n!tag TheStage\n!tag Alara\nSlotted\nProwess"
         },
         {
@@ -5454,6 +6362,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Drawingsofa",
+            "alias": "",
+            "position": "299",
+            "rotated": false,
             "notes": "!tag Anzalan"
         },
         {
@@ -5472,6 +6383,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "NetEase",
+            "alias": "",
+            "position": "300",
+            "rotated": false,
             "notes": "!tag Stage"
         },
         {
@@ -5490,6 +6404,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Xabier Urrutia",
+            "alias": "",
+            "position": "301",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag Kahroba\n!tag ZareenRule\nRemoval\n\nKahroba doing a killing"
         },
         {
@@ -5508,6 +6425,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Hell Alka",
+            "alias": "",
+            "position": "302",
+            "rotated": false,
             "notes": "!tag Trovsko\nRemoval"
         },
         {
@@ -5526,6 +6446,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Drawingsofa",
+            "alias": "",
+            "position": "303",
+            "rotated": false,
             "notes": "!tag Anzalan\n!tag JustKing"
         },
         {
@@ -5544,6 +6467,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Darya Kalashnikova",
+            "alias": "",
+            "position": "304",
+            "rotated": false,
             "notes": "!tag Trovsko\nRemoval"
         },
         {
@@ -5562,6 +6488,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Naifan Zhang",
+            "alias": "",
+            "position": "305",
+            "rotated": false,
             "notes": "!tag Stage\n!tag CustomReprint\n!tag WeaverCycle\nThe Stage Presents: The Neverending Act Reprint"
         },
         {
@@ -5580,6 +6509,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Cole Eastburn",
+            "alias": "",
+            "position": "306",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag Golnarule"
         },
         {
@@ -5598,6 +6530,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Tibor Sulyok",
+            "alias": "",
+            "position": "307",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -5616,6 +6551,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Egil Thompson",
+            "alias": "",
+            "position": "308",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -5634,6 +6572,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Zyralynn (Malena Santos)",
+            "alias": "",
+            "position": "309",
+            "rotated": false,
             "notes": "!tag Eldraine\nRemoval"
         },
         {
@@ -5652,6 +6593,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Dao Trong",
+            "alias": "",
+            "position": "310",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -5670,6 +6614,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Mingchen Shen",
+            "alias": "",
+            "position": "311",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag Jaegrin\n!tag CustomReprint\n!tag Weavercycle\nMyths, Masks, and Minutes Spent Apart Reprint"
         },
         {
@@ -5688,6 +6635,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Mylene Bertrand",
+            "alias": "",
+            "position": "312",
+            "rotated": false,
             "notes": "!tag Prakhma \n!tag Parvad\n!tag Planeswalker"
         },
         {
@@ -5706,6 +6656,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alex Petruk",
+            "alias": "",
+            "position": "313",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nArtifacts ramp"
         },
         {
@@ -5724,6 +6677,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Gonzalo Vega",
+            "alias": "",
+            "position": "314",
+            "rotated": false,
             "notes": "!tag Giondaz\nRemoval"
         },
         {
@@ -5742,6 +6698,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Manticora Miorro",
+            "alias": "",
+            "position": "315",
+            "rotated": false,
             "notes": "!tag Kephalai"
         },
         {
@@ -5760,6 +6719,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Thomas Bourdon",
+            "alias": "",
+            "position": "316",
+            "rotated": false,
             "notes": "!tag Kephalai"
         },
         {
@@ -5778,6 +6740,8 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alessandra Gava",
+            "alias": "",
+            "position": "317",
             "card_name2": "Badger the Witness",
             "color2": "B",
             "type2": "Sorcery \u2014 Adventure",
@@ -5788,6 +6752,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Detrosse\n!tag Moroii"
         },
         {
@@ -5806,6 +6773,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Nikolay Moskvin",
+            "alias": "",
+            "position": "318",
+            "rotated": false,
             "notes": "!tag Strixhaven\n!tag CustomReprint\n!tag WeaverCycle\nRemoval\nMSEM Reprint"
         },
         {
@@ -5824,6 +6794,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Samuel Eriksson",
+            "alias": "",
+            "position": "319",
+            "rotated": false,
             "notes": "!tag Stage"
         },
         {
@@ -5842,6 +6815,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Nicolo Morelos",
+            "alias": "",
+            "position": "320",
+            "rotated": false,
             "notes": "!tag NewPhyrexia"
         },
         {
@@ -5860,6 +6836,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Egor Kapustin",
+            "alias": "",
+            "position": "321",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -5878,6 +6857,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Sptasil",
+            "alias": "",
+            "position": "322",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Skarnheim"
         },
         {
@@ -5896,6 +6878,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Quang Phan",
+            "alias": "",
+            "position": "323",
+            "rotated": false,
             "notes": "!tag theros"
         },
         {
@@ -5914,6 +6899,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Jake Ortman",
+            "alias": "",
+            "position": "324",
+            "rotated": false,
             "notes": "!tag Unknown\n!tag Amaltheos"
         },
         {
@@ -5932,6 +6920,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Xiaobotong",
+            "alias": "",
+            "position": "325",
+            "rotated": false,
             "notes": "!tag Erzma\n!tag WeaverCycle\nWildWestGothic Reprint"
         },
         {
@@ -5950,6 +6941,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Evan Surya Nugraha",
+            "alias": "",
+            "position": "326",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -5968,6 +6962,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Nikki Dawes",
+            "alias": "",
+            "position": "327",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag PiruzRule\n!tag Mahnaz\nMSEM Reprint"
         },
         {
@@ -5986,6 +6983,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Gabriel Nascimento",
+            "alias": "",
+            "position": "328",
+            "rotated": false,
             "notes": "!tag theros"
         },
         {
@@ -6004,6 +7004,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "balalaevGod",
+            "alias": "",
+            "position": "329",
+            "rotated": false,
             "notes": "!tag Anzalan"
         },
         {
@@ -6022,6 +7025,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Artem Grigoryan",
+            "alias": "",
+            "position": "330",
+            "rotated": false,
             "notes": "!tag Kanvere"
         },
         {
@@ -6040,6 +7046,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "zeander Chong Fei Kang",
+            "alias": "",
+            "position": "331",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -6058,6 +7067,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Helion Art",
+            "alias": "",
+            "position": "332",
+            "rotated": false,
             "notes": "!tag theros"
         },
         {
@@ -6076,6 +7088,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Zi Kun",
+            "alias": "",
+            "position": "333",
+            "rotated": false,
             "notes": "!tag Stage"
         },
         {
@@ -6094,6 +7109,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Bodo Kruhn",
+            "alias": "",
+            "position": "334",
+            "rotated": false,
             "notes": "!tag Kanvere"
         },
         {
@@ -6112,6 +7130,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Barret Frymire",
+            "alias": "",
+            "position": "335",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Skemfar"
         },
         {
@@ -6130,6 +7151,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Jack Hsu",
+            "alias": "",
+            "position": "336",
+            "rotated": false,
             "notes": "!tag Hatsuniji"
         },
         {
@@ -6148,6 +7172,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Paul Reid",
+            "alias": "",
+            "position": "337",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -6166,6 +7193,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Aron Elekes",
+            "alias": "",
+            "position": "338",
+            "rotated": false,
             "notes": "!tag Dominaria"
         },
         {
@@ -6184,6 +7214,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "celeryman6",
+            "alias": "",
+            "position": "339",
+            "rotated": false,
             "notes": "!tag theros\n!tag CustomReprint\n!tag Weavercycle\nTheros: The Age of Trax Reprint"
         },
         {
@@ -6202,6 +7235,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Pavel Vophira",
+            "alias": "",
+            "position": "340",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag Grabeih"
         },
         {
@@ -6220,6 +7256,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Coliandre",
+            "alias": "",
+            "position": "341",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag Fassahd"
         },
         {
@@ -6238,6 +7277,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "joohnson",
+            "alias": "",
+            "position": "342",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -6256,6 +7298,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Viktor Garcia",
+            "alias": "",
+            "position": "343",
+            "rotated": false,
             "notes": "!tag Unknown\nEnchantments"
         },
         {
@@ -6274,6 +7319,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "sune",
+            "alias": "",
+            "position": "344",
+            "rotated": false,
             "notes": "!tag Stage\nSuperfriends"
         },
         {
@@ -6292,6 +7340,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daria Egorova",
+            "alias": "",
+            "position": "345",
+            "rotated": false,
             "notes": "!tag Detrosse\nArtifacts"
         },
         {
@@ -6310,6 +7361,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Collin Ha",
+            "alias": "",
+            "position": "346",
+            "rotated": false,
             "notes": "!tag Unknown\nBurnheal"
         },
         {
@@ -6328,6 +7382,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Marishka Kleyman",
+            "alias": "",
+            "position": "347",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Bretagard\nGenerically good"
         },
         {
@@ -6346,6 +7403,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Erik Davis",
+            "alias": "",
+            "position": "348",
+            "rotated": false,
             "notes": "!tag Strixhaven"
         },
         {
@@ -6364,6 +7424,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Xabier Urrutia",
+            "alias": "",
+            "position": "349",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag Hadak\n!tag ShapurRule\nKahroba"
         },
         {
@@ -6374,7 +7437,7 @@
             "number": 65,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "",
+            "rules_text": "[+1]: Put a prowess counter on up to one target creature. [i](Each instance of prowess triggers separately.)[/i]\n[-2]: Return target instant or sorcery card from your graveyard to your hand.\n[-7]: Until end of turn, instant and sorcery spells you cast cost {15} less to cast.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Put a prowess counter on up to one target creature. [i](Each instance of prowess triggers separately.)[/i]\n[-2]: Return target instant or sorcery card from your graveyard to your hand.\n[-7]: Until end of turn, instant and sorcery spells you cast cost {15} less to cast.",
@@ -6382,6 +7445,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "MadnessDemon",
+            "alias": "",
+            "position": "350",
+            "rotated": false,
             "notes": "!tag Achim\n!tag Planeswalker\n!tag ???\nPlanename: ???\nSlotted\nProwess"
         },
         {
@@ -6392,7 +7458,7 @@
             "number": 129,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "",
+            "rules_text": "[+1]: Mill two cards. You gain life equal to the highest mana value among cards milled this way.\n[-2]: Discard a card. When you do, target creature gets -X/-X until end of turn, where X is the discarded card's mana value.\n[-4]: Return target creature card from your graveyard to the battlefield. You lose life equal to its mana value.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Mill two cards. You gain life equal to the highest mana value among cards milled this way.\n[-2]: Discard a card. When you do, target creature gets -X/-X until end of turn, where X is the discarded card's mana value.\n[-4]: Return target creature card from your graveyard to the battlefield. You lose life equal to its mana value.",
@@ -6400,6 +7466,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "Hyena",
+            "alias": "",
+            "position": "351",
+            "rotated": false,
             "notes": "!tag Amaltheos\n!tag Planeswalker\n!tag ???"
         },
         {
@@ -6410,7 +7479,7 @@
             "number": 321,
             "color_identity": "WU",
             "cost": "{1}{W}{U}",
-            "rules_text": "",
+            "rules_text": "[+1]: Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control one, create a 0/0 black Soldier Army creature token first.)[/i]\n[-3]: Exile target nonland permanent if its mana value is less than or equal to the number of tapped creatures you control.\n[-6]: You get an emblem with \u201cCreatures you control can't be blocked by creatures with greater mana value.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control one, create a 0/0 black Soldier Army creature token first.)[/i]\n[-3]: Exile target nonland permanent if its mana value is less than or equal to the number of tapped creatures you control.\n[-6]: You get an emblem with \u201cCreatures you control can't be blocked by creatures with greater mana value.\u201d",
@@ -6418,6 +7487,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "Dat Phan",
+            "alias": "",
+            "position": "352",
+            "rotated": false,
             "notes": "!tag Claes\n!tag Planeswalker\n!tag theros\nSlotted\nGenerically good/Aggro\nRemoval"
         },
         {
@@ -6428,7 +7500,7 @@
             "number": 322,
             "color_identity": "WU",
             "cost": "{X}{W}{U}",
-            "rules_text": "",
+            "rules_text": "[+1]: Exile up to one target nonland permanent. Return it to the battlefield under its owner's control at the beginning of their next end step.\n[-X]: You gain X life and draw X cards.\n[-4]: Exile up to one target creature you control. Destroy all creatures, then return the exiled creature to the battlefield under your control.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Exile up to one target nonland permanent. Return it to the battlefield under its owner's control at the beginning of their next end step.\n[-X]: You gain X life and draw X cards.\n[-4]: Exile up to one target creature you control. Destroy all creatures, then return the exiled creature to the battlefield under your control.",
@@ -6436,6 +7508,9 @@
             "set": "ZANG",
             "loyalty": "X",
             "artist": "Sentron_Digital",
+            "alias": "",
+            "position": "353",
+            "rotated": false,
             "notes": "!tag Elissia\n!tag Planeswalker\n!tag Hudrain\nSlotted\n\nRamp"
         },
         {
@@ -6446,7 +7521,7 @@
             "number": 270,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
-            "rules_text": "",
+            "rules_text": "[+1]: Put a loyalty counter or a +1/+1 counter on another target permanent.\n[-X]: Exile target planeswalker card from your graveyard. You may activate one of its loyalty abilities with a cost of [-X] or less without paying its costs.\n[-8]: Return any number of planeswalker cards you own in exile and in your graveyard to the battlefield.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Put a loyalty counter or a +1/+1 counter on another target permanent.\n[-X]: Exile target planeswalker card from your graveyard. You may activate one of its loyalty abilities with a cost of [-X] or less without paying its costs.\n[-8]: Return any number of planeswalker cards you own in exile and in your graveyard to the battlefield.",
@@ -6454,6 +7529,9 @@
             "set": "ZANG",
             "loyalty": "3",
             "artist": "MadnessDemon",
+            "alias": "",
+            "position": "354",
+            "rotated": false,
             "notes": "!tag Erwan\n!tag Planeswalker\n!tag ???\nPlanename: ???\nSlotted\nSuperfriends"
         },
         {
@@ -6464,7 +7542,7 @@
             "number": 358,
             "color_identity": "UG",
             "cost": "{1}{G}{U}",
-            "rules_text": "",
+            "rules_text": "[+1]: Create a Clue token. At the beginning of the next end step, untap a land you control.\n[-1]: Tap target artifact or creature and put two stun counters on it.\n[-6]: Investigate five times. You get an emblem with \u201cWhenever you draw your second card each turn, untap each permanent you control.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Create a Clue token. At the beginning of the next end step, untap a land you control.\n[-1]: Tap target artifact or creature and put two stun counters on it.\n[-6]: Investigate five times. You get an emblem with \u201cWhenever you draw your second card each turn, untap each permanent you control.\u201d",
@@ -6472,6 +7550,9 @@
             "set": "ZANG",
             "loyalty": "3",
             "artist": "Chaim Garcia",
+            "alias": "",
+            "position": "355",
+            "rotated": false,
             "notes": "!tag Jericho\n!tag Planeswalker\n!tag Detrosse\nSlotted\nRamp\nRemoval"
         },
         {
@@ -6482,7 +7563,7 @@
             "number": 288,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
-            "rules_text": "",
+            "rules_text": "[+1]: Mill three cards. You may return a land card from your graveyard to your hand.\n[-1]: Reveal your hand and put all land cards from it onto the battlefield tapped. If you do, discard your hand.\n[-4]: Create a 4/4 green Elemental creature token.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Mill three cards. You may return a land card from your graveyard to your hand.\n[-1]: Reveal your hand and put all land cards from it onto the battlefield tapped. If you do, discard your hand.\n[-4]: Create a 4/4 green Elemental creature token.",
@@ -6490,6 +7571,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "lei min",
+            "alias": "",
+            "position": "356",
+            "rotated": false,
             "notes": "!tag Kriemhild\n!tag Planeswalker\n!tag Ruhigwelt\nSlotted\nReanimator/Ramp"
         },
         {
@@ -6500,7 +7584,7 @@
             "number": 330,
             "color_identity": "BR",
             "cost": "{1}{B}{R}",
-            "rules_text": "",
+            "rules_text": "[+1]: Each player discards a card. If no cards were discarded this way, each opponent loses 2 life.\n[-2]: Each opponent sacrifices a nonland permanent. Exile each card that shares a card type with that permanent from that player's graveyard.\n[-6]: Target player sacrifices three permanents that don't share any card types with each other.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Each player discards a card. If no cards were discarded this way, each opponent loses 2 life.\n[-2]: Each opponent sacrifices a nonland permanent. Exile each card that shares a card type with that permanent from that player's graveyard.\n[-6]: Target player sacrifices three permanents that don't share any card types with each other.",
@@ -6508,6 +7592,9 @@
             "set": "ZANG",
             "loyalty": "3",
             "artist": "Hun",
+            "alias": "",
+            "position": "357",
+            "rotated": false,
             "notes": "!tag Ludolf\n!tag Planeswalker\n!tag Anzalan\nSlotted\nAttrition\nRemoval"
         },
         {
@@ -6518,7 +7605,7 @@
             "number": 331,
             "color_identity": "BR",
             "cost": "{1}{B}{R}",
-            "rules_text": "",
+            "rules_text": "[+1]: Create a Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]\n[-1]: Target player sacrifices an artifact. When they do, that player may return another target artifact card from their graveyard to the battlefield.\n[-7]: Search your library and/or graveyard for up to three artifact cards and put them onto the battlefield, then shuffle.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Create a Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]\n[-1]: Target player sacrifices an artifact. When they do, that player may return another target artifact card from their graveyard to the battlefield.\n[-7]: Search your library and/or graveyard for up to three artifact cards and put them onto the battlefield, then shuffle.",
@@ -6526,6 +7613,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "Jes Cole",
+            "alias": "",
+            "position": "358",
+            "rotated": false,
             "notes": "!tag Nelta\n!tag Planeswalker\n!tag Erzma\nSlotted\nArtifacts"
         },
         {
@@ -6536,7 +7626,7 @@
             "number": 236,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
-            "rules_text": "",
+            "rules_text": "Whenever another noncreature source you control deals damage to an opponent or a permanent an opponent controls, put a loyalty counter on Rajabu. This ability triggers once each turn.\n[+1]: Add {R}{R}. You can't use this mana to cast permanent spells.\n[-3]: Rajabu deals 4 damage to target creature or planeswalker.\n[-8]: Each opponent sacrifices five permanents. Rajabu deals 5 damage to each opponent.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "Whenever another noncreature source you control deals damage to an opponent or a permanent an opponent controls, put a loyalty counter on Rajabu. This ability triggers once each turn.\n[+1]: Add {R}{R}. You can't use this mana to cast permanent spells.\n[-3]: Rajabu deals 4 damage to target creature or planeswalker.\n[-8]: Each opponent sacrifices five permanents. Rajabu deals 5 damage to each opponent.",
@@ -6544,6 +7634,9 @@
             "set": "ZANG",
             "loyalty": "3",
             "artist": "Raymond Sebastien",
+            "alias": "",
+            "position": "359",
+            "rotated": false,
             "notes": "!tag Rajabu\n!tag Planeswalker\nPlanename: ???\nSlotted\nPlanename: \nBurnheal\nRemoval"
         },
         {
@@ -6554,7 +7647,7 @@
             "number": 326,
             "color_identity": "UB",
             "cost": "{1}{U}{B}",
-            "rules_text": "",
+            "rules_text": "[+1]: Draw a card, then discard a card.\n[-2]: If The Faceless is on the battlefield, merge target creature card in your graveyard under The Faceless. They become the card on top plus all abilities from under it.\n[-3]: Exile target creature with mana value less than or equal to the number of cards in your graveyard.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Draw a card, then discard a card.\n[-2]: If The Faceless is on the battlefield, merge target creature card in your graveyard under The Faceless. They become the card on top plus all abilities from under it.\n[-3]: Exile target creature with mana value less than or equal to the number of cards in your graveyard.",
@@ -6562,6 +7655,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "Hexsharpe",
+            "alias": "",
+            "position": "360",
+            "rotated": false,
             "notes": "!tag Arif\n!tag Planeswalker\n!tag Alkabah\nSlotted\nReanimator\nRemoval"
         },
         {
@@ -6572,7 +7668,7 @@
             "number": 348,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
-            "rules_text": "",
+            "rules_text": "[+1]: Create a 1/1 red Warrior creature token with prowess.\n[0]: Creatures you control gain prowess until end of turn. [i](Each instance of prowess triggers separately.)[/i]\n[-6]: You may cast instant and sorceries from your graveyard this turn. If a spell cast this way would be put into a graveyard, exile it instead.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Create a 1/1 red Warrior creature token with prowess.\n[0]: Creatures you control gain prowess until end of turn. [i](Each instance of prowess triggers separately.)[/i]\n[-6]: You may cast instant and sorceries from your graveyard this turn. If a spell cast this way would be put into a graveyard, exile it instead.",
@@ -6580,6 +7676,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "Paizo Publishing",
+            "alias": "",
+            "position": "361",
+            "rotated": false,
             "notes": "!tag Planeswalker\n!tag Tobias\nPlanename: ???\nSlotted\nProwess"
         },
         {
@@ -6590,7 +7689,7 @@
             "number": 59,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
-            "rules_text": "",
+            "rules_text": "Whenever you cast a noncreature spell, you may activate one of Tsunayoshi's loyalty abilities. This ability triggers only once each turn.\n[+1]: Put a +1/+1 on up to one target creature. It gains lifelink until end of turn.\n[0]: Create a 1/1 red Warrior creature token with prowess.\n[-8]: Creatures you control gain flying and double strike until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "Whenever you cast a noncreature spell, you may activate one of Tsunayoshi's loyalty abilities. This ability triggers only once each turn.\n[+1]: Put a +1/+1 on up to one target creature. It gains lifelink until end of turn.\n[0]: Create a 1/1 red Warrior creature token with prowess.\n[-8]: Creatures you control gain flying and double strike until end of turn.",
@@ -6598,6 +7697,9 @@
             "set": "ZANG",
             "loyalty": "3",
             "artist": "Final Conqueror Splash Team",
+            "alias": "",
+            "position": "362",
+            "rotated": false,
             "notes": "!tag Tsunayoshi\n!tag Akaneworld\n!tag Planeswalker\nPlanename: Akaneworld\nSlotted\nProwess"
         },
         {
@@ -6608,7 +7710,7 @@
             "number": 360,
             "color_identity": "UG",
             "cost": "{1}{G}{U}",
-            "rules_text": "",
+            "rules_text": "[+1]: Put a +1/+1 counter on up to one target creature. If its power is 4 or greater, it gains flying until end of turn.\n[-2]: Target creature you control fights target creature you don't control. When the creature you control wins the fight, put a +1/+1 counter on it.\n[-6]: For any number of permanents, double the number of any number of kinds of counters on that permanent.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Put a +1/+1 counter on up to one target creature. If its power is 4 or greater, it gains flying until end of turn.\n[-2]: Target creature you control fights target creature you don't control. When the creature you control wins the fight, put a +1/+1 counter on it.\n[-6]: For any number of permanents, double the number of any number of kinds of counters on that permanent.",
@@ -6616,6 +7718,9 @@
             "set": "ZANG",
             "loyalty": "3",
             "artist": "Yeehso Lee",
+            "alias": "",
+            "position": "363",
+            "rotated": false,
             "notes": "!tag Tyrus\n!tag Planeswalker\n!tag Alkabah\nSlotted\nBig Creatures/Counters\nRemoval"
         },
         {
@@ -6626,7 +7731,7 @@
             "number": 389,
             "color_identity": "C",
             "cost": "{3}",
-            "rules_text": "",
+            "rules_text": "You may have Vice enter as a copy of any artifact on the battlefield, except they're an artifact planeswalker instead of their other types and has all of their abilities.\n[+1]: Untap up to two target artifacts you control.\n[-2]: Create a Powerstone token. [i](It's an artifact with \u201c{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\u201d)[/i] [i](It's an artifact with \u201c{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "You may have Vice enter as a copy of any artifact on the battlefield, except they're an artifact planeswalker instead of their other types and has all of their abilities.\n[+1]: Untap up to two target artifacts you control.\n[-2]: Create a Powerstone token. [i](It's an artifact with \u201c{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\u201d)[/i] [i](It's an artifact with \u201c{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.\u201d)[/i]",
@@ -6634,6 +7739,9 @@
             "set": "ZANG",
             "loyalty": "3",
             "artist": "BX Moon Art",
+            "alias": "",
+            "position": "364",
+            "rotated": false,
             "notes": "!tag Planeswalker\n!tag Vice\n!tag Dundrym\nSlotted\nGenerically good"
         },
         {
@@ -6644,7 +7752,7 @@
             "number": 64,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "",
+            "rules_text": "[+1]: Until the end of your next turn, noncreature spells cost {1} more to cast.\n[-2]: Create a white Aura enchantment token named Mask attached to another target permanent. The token has enchant permanent and umbra armor.\n[-6]: Each opponent gets an emblem with \u201cNoncreature spells you cast cost {5} more to cast.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Until the end of your next turn, noncreature spells cost {1} more to cast.\n[-2]: Create a white Aura enchantment token named Mask attached to another target permanent. The token has enchant permanent and umbra armor.\n[-6]: Each opponent gets an emblem with \u201cNoncreature spells you cast cost {5} more to cast.\u201d",
@@ -6652,6 +7760,9 @@
             "set": "ZANG",
             "loyalty": "3",
             "artist": "Ilya Vatutin",
+            "alias": "",
+            "position": "365",
+            "rotated": false,
             "notes": "!tag Yaromir\n!tag Planeswalker\n!tag Unknown\nSlotted\nGenerically good"
         },
         {
@@ -6670,6 +7781,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Assassinmilks",
+            "alias": "",
+            "position": "366",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Siaveed\nRemoval"
         },
         {
@@ -6688,6 +7802,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "user-34817",
+            "alias": "",
+            "position": "367",
+            "rotated": false,
             "notes": "!tag Trovsko"
         },
         {
@@ -6706,6 +7823,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alex Pei",
+            "alias": "",
+            "position": "368",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Skarnheim"
         },
         {
@@ -6724,6 +7844,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "LordM",
+            "alias": "",
+            "position": "369",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -6742,6 +7865,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Noora",
+            "alias": "",
+            "position": "370",
+            "rotated": false,
             "notes": "!tag Kephalai"
         },
         {
@@ -6760,6 +7886,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Owen Pierce",
+            "alias": "",
+            "position": "371",
+            "rotated": false,
             "notes": "!tag theros\n!tag Ephara"
         },
         {
@@ -6778,6 +7907,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "A Dan",
+            "alias": "",
+            "position": "372",
+            "rotated": false,
             "notes": "!tag Detrosse"
         },
         {
@@ -6796,6 +7928,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Yongming Yang",
+            "alias": "",
+            "position": "373",
+            "rotated": false,
             "notes": "!tag Kephalai\n!tag Derukoskai\n!tag Planeswalker"
         },
         {
@@ -6814,6 +7949,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Valery Tsai",
+            "alias": "",
+            "position": "374",
+            "rotated": false,
             "notes": "!tag Hudrain"
         },
         {
@@ -6832,6 +7970,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Jeremy Carver",
+            "alias": "",
+            "position": "375",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -6850,6 +7991,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Debby Illanes",
+            "alias": "",
+            "position": "376",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -6868,6 +8012,8 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Satoshi Kamanaka",
+            "alias": "",
+            "position": "377",
             "card_name2": "Breath of Miasma",
             "color2": "B",
             "type2": "Sorcery \u2014 Adventure",
@@ -6878,6 +8024,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Dominaria\nAdventure Titan Cycle"
         },
         {
@@ -6896,6 +8045,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "TheFearMaster",
+            "alias": "",
+            "position": "378",
+            "rotated": false,
             "notes": "!tag Detrosse"
         },
         {
@@ -6914,6 +8066,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "TheFearMaster",
+            "alias": "",
+            "position": "379",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -6932,6 +8087,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Denilve",
+            "alias": "",
+            "position": "380",
+            "rotated": false,
             "notes": "!tag Trovsko"
         },
         {
@@ -6950,6 +8108,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Sam Santala",
+            "alias": "",
+            "position": "381",
+            "rotated": false,
             "notes": "!tag Anzalan"
         },
         {
@@ -6968,6 +8129,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Olga Kharyton",
+            "alias": "",
+            "position": "382",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -6986,6 +8150,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Timofey Razumov",
+            "alias": "",
+            "position": "383",
+            "rotated": false,
             "notes": "!tag Hudrain"
         },
         {
@@ -7004,6 +8171,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Zakhele",
+            "alias": "",
+            "position": "384",
+            "rotated": false,
             "notes": "!tag Akaneworld"
         },
         {
@@ -7022,6 +8192,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Ardika Priyata",
+            "alias": "",
+            "position": "385",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -7040,6 +8213,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Mozchops",
+            "alias": "",
+            "position": "386",
+            "rotated": false,
             "notes": "!tag Ravnica\n!tag Simic"
         },
         {
@@ -7058,6 +8234,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Noora",
+            "alias": "",
+            "position": "387",
+            "rotated": false,
             "notes": "!tag theros"
         },
         {
@@ -7076,6 +8255,8 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Madness Demon",
+            "alias": "",
+            "position": "388",
             "card_name2": "Till",
             "color2": "G",
             "type2": "Sorcery \u2014 Adventure",
@@ -7086,6 +8267,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag theros"
         },
         {
@@ -7104,6 +8288,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Pedro Sena",
+            "alias": "",
+            "position": "389",
+            "rotated": false,
             "notes": "!tag Akaneworld\n!tag Aka\n!tag Aoi\nGenerically good\nRemoval"
         },
         {
@@ -7122,6 +8309,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Javier martinez ferris",
+            "alias": "",
+            "position": "390",
+            "rotated": false,
             "notes": "!tag Unknown\nArtifacts"
         },
         {
@@ -7140,6 +8330,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Giovanni Maisto",
+            "alias": "",
+            "position": "391",
+            "rotated": false,
             "notes": "!tag Kephalai"
         },
         {
@@ -7150,7 +8343,7 @@
             "number": 4,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
-            "rules_text": "",
+            "rules_text": "You may activate the loyalty abilities of Alamazzar twice each turn rather than only once if you control an artifact, a creature, and an enchantment.\n[+1]: Create a 1/1 white Human creature token.\n[0]: Create a Weapon token. [i](It's an Equipment artifact with equip {2} and \u201cEquipped creature gets +1/+1.\u201d)[/i]\n[-4]: Create a white enchantment token named Glorious Anthem with \u201cCreatures you control get +1/+1.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "You may activate the loyalty abilities of Alamazzar twice each turn rather than only once if you control an artifact, a creature, and an enchantment.\n[+1]: Create a 1/1 white Human creature token.\n[0]: Create a Weapon token. [i](It's an Equipment artifact with equip {2} and \u201cEquipped creature gets +1/+1.\u201d)[/i]\n[-4]: Create a white enchantment token named Glorious Anthem with \u201cCreatures you control get +1/+1.\u201d",
@@ -7158,6 +8351,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "Polar Engine",
+            "alias": "",
+            "position": "392",
+            "rotated": false,
             "notes": "!tag Urshad\n!tag Alamazzar\n!tag Planeswalker\nSlotted\nEnchantments"
         },
         {
@@ -7168,7 +8364,7 @@
             "number": 345,
             "color_identity": "UR",
             "cost": "{2}{U}{R}",
-            "rules_text": "",
+            "rules_text": "As long as it's your turn, Aoi and Aka is a 4/4 Azra Warrior creature with trample and indestructible.\n[+1]: Creatures you control gain haste until end of turn. Whenever one or more creatures you control attack this turn, draw a card.\n[-3]: Target creature gains double strike and flying until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "As long as it's your turn, Aoi and Aka is a 4/4 Azra Warrior creature with trample and indestructible.\n[+1]: Creatures you control gain haste until end of turn. Whenever one or more creatures you control attack this turn, draw a card.\n[-3]: Target creature gains double strike and flying until end of turn.",
@@ -7176,6 +8372,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "Gianluca Rolli",
+            "alias": "",
+            "position": "393",
+            "rotated": false,
             "notes": "!tag Planeswalker\n!tag Aoi\n!tag Aka\n!tag Akaneworld\nPlanename: Akaneworld\nSlotted\nBig creatures/counters"
         },
         {
@@ -7186,7 +8385,7 @@
             "number": 138,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "",
+            "rules_text": "[+1]: Target opponent reveals their hand. You may choose a nonland card from it and exile that until you exile another card with Derukoskai or she leaves the battlefield.\n[-1]: Target player discards a card.\n[-4]: Put eleven -1/-1 counters on target creature.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Target opponent reveals their hand. You may choose a nonland card from it and exile that until you exile another card with Derukoskai or she leaves the battlefield.\n[-1]: Target player discards a card.\n[-4]: Put eleven -1/-1 counters on target creature.",
@@ -7194,6 +8393,9 @@
             "set": "ZANG",
             "loyalty": "3",
             "artist": "Sergio M. Mayorga",
+            "alias": "",
+            "position": "394",
+            "rotated": false,
             "notes": "!tag Derukoskai\n!tag Planeswalker\n!tag Kephalai\nSlotted\nAttrition"
         },
         {
@@ -7204,7 +8406,7 @@
             "number": 139,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "",
+            "rules_text": "[i]Vigor \u2014 [/i]At the beginning of your end step, if your life total has changed this turn, Devika phases out.\n[+1]: Create a 2/2 black Zombie creature token with decayed. [i](It can't block. When it attacks, sacrifice it at end of combat.)[/i]\n[-2]: Put three -1/-1 counters on target creature. You lose 3 life.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[i]Vigor \u2014 [/i]At the beginning of your end step, if your life total has changed this turn, Devika phases out.\n[+1]: Create a 2/2 black Zombie creature token with decayed. [i](It can't block. When it attacks, sacrifice it at end of combat.)[/i]\n[-2]: Put three -1/-1 counters on target creature. You lose 3 life.",
@@ -7212,6 +8414,9 @@
             "set": "ZANG",
             "loyalty": "3",
             "artist": "Chuan C",
+            "alias": "",
+            "position": "395",
+            "rotated": false,
             "notes": "!tag Devika\n!tag Planeswalker\n!tag Twiltrie\nSlotted\nBurnheal\nRemoval"
         },
         {
@@ -7222,7 +8427,7 @@
             "number": 333,
             "color_identity": "RG",
             "cost": "{2}{R}{G}",
-            "rules_text": "",
+            "rules_text": "Spells you control cost {X} less to cast, where X is the number of card types among spells you've cast this turn.\n[+1]: Exile the top card of your library. You may play it this turn.\n[-6]: For each card type, return a card of that type from your graveyard to your hand.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "Spells you control cost {X} less to cast, where X is the number of card types among spells you've cast this turn.\n[+1]: Exile the top card of your library. You may play it this turn.\n[-6]: For each card type, return a card of that type from your graveyard to your hand.",
@@ -7230,6 +8435,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "Richard Sashigane",
+            "alias": "",
+            "position": "396",
+            "rotated": false,
             "notes": "!tag Fane\n!tag Planeswalker\n!tag Strixhaven\nSlotted\nBuild around multiple card types"
         },
         {
@@ -7240,7 +8448,7 @@
             "number": 289,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
-            "rules_text": "",
+            "rules_text": "[+1]: Create a token that's a copy of target land you control.\n[-2]: Untap target land you control. It becomes a 4/4 Elemental creature with haste until end of turn.\n[-3]: Untap each land you control.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Create a token that's a copy of target land you control.\n[-2]: Untap target land you control. It becomes a 4/4 Elemental creature with haste until end of turn.\n[-3]: Untap each land you control.",
@@ -7248,6 +8456,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "Noirsnow",
+            "alias": "",
+            "position": "397",
+            "rotated": false,
             "notes": "!tag Lidija\n!tag Planeswalker\nPlanename: ???\nSlotted\nRamp"
         },
         {
@@ -7266,6 +8477,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "user-34817",
+            "alias": "",
+            "position": "398",
+            "rotated": false,
             "notes": "!tag Stage\n!tag CustomReprint"
         },
         {
@@ -7276,7 +8490,7 @@
             "number": 100,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "",
+            "rules_text": "[+1]: Reveal cards from the top of your library until you reveal an artifact card. Put that card into your hand and the rest on the bottom of your library in a random order.\n[-X]: Create a token that's a copy of target artifact with mana value X.\n[-8]: You get an emblem with \u201cWhenever you cast an artifact spell, gain control of target nonland permanent with mana value less than or equal to that spell.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Reveal cards from the top of your library until you reveal an artifact card. Put that card into your hand and the rest on the bottom of your library in a random order.\n[-X]: Create a token that's a copy of target artifact with mana value X.\n[-8]: You get an emblem with \u201cWhenever you cast an artifact spell, gain control of target nonland permanent with mana value less than or equal to that spell.\u201d",
@@ -7284,6 +8498,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "Rustan Curman",
+            "alias": "",
+            "position": "399",
+            "rotated": false,
             "notes": "!tag Marilye\n!tag Planeswalker\n!tag Dundrym\nSlotted\nArtifacts"
         },
         {
@@ -7294,7 +8511,7 @@
             "number": 251,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
-            "rules_text": "",
+            "rules_text": "[+1]: Togar deals 2 damage to target player. They can't cast spells this turn.\n[-2]: Sacrifice a creature. Togar deals damage equal to that creature's power to any target.\n[-7]: Each opponent gets an emblem with \u201cIf a source would deal damage to you, it deals double that damage instead.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Togar deals 2 damage to target player. They can't cast spells this turn.\n[-2]: Sacrifice a creature. Togar deals damage equal to that creature's power to any target.\n[-7]: Each opponent gets an emblem with \u201cIf a source would deal damage to you, it deals double that damage instead.\u201d",
@@ -7302,6 +8519,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "FrostLlamzon",
+            "alias": "",
+            "position": "400",
+            "rotated": false,
             "notes": "!tag Togar\n!tag Planeswalker\nPlanename: Togarplane\nSlotted\nBurnheal\nRemoval"
         },
         {
@@ -7312,7 +8532,7 @@
             "number": 339,
             "color_identity": "WG",
             "cost": "{2}{G}{W}",
-            "rules_text": "",
+            "rules_text": "Whenever one or more creatures you control deal combat damage to a player, proliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]\n[0]: Vragi, Bretagard's Savior becomes a 4/4 Human Warrior creature with indestructible until end of turn.\n[-1]: Put a +1/+1 counter on each creature you control.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "Whenever one or more creatures you control deal combat damage to a player, proliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]\n[0]: Vragi, Bretagard's Savior becomes a 4/4 Human Warrior creature with indestructible until end of turn.\n[-1]: Put a +1/+1 counter on each creature you control.",
@@ -7320,6 +8540,9 @@
             "set": "ZANG",
             "loyalty": "3",
             "artist": "1999",
+            "alias": "",
+            "position": "401",
+            "rotated": false,
             "notes": "!tag Vragi\n!tag Planeswalker\n!tag Kaldheim\nSlotted\nGenerically good\nPlanename: Kaldheim"
         },
         {
@@ -7338,6 +8561,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Istv\u00e1n D\u00e1nyi",
+            "alias": "",
+            "position": "402",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag Martoob"
         },
         {
@@ -7356,6 +8582,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Jenny Hawkyard",
+            "alias": "",
+            "position": "403",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -7374,6 +8603,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Angelina Zhogina",
+            "alias": "",
+            "position": "404",
+            "rotated": false,
             "notes": "!tag Prakhma"
         },
         {
@@ -7392,6 +8624,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Andrew Chou",
+            "alias": "",
+            "position": "405",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag PiruzRule\n!tag Hadak"
         },
         {
@@ -7410,6 +8645,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alessandro Ferrario",
+            "alias": "",
+            "position": "406",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Surtland"
         },
         {
@@ -7428,6 +8666,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Eelis Kyttanen",
+            "alias": "",
+            "position": "407",
+            "rotated": false,
             "notes": "!tag Trovsko"
         },
         {
@@ -7446,6 +8687,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "neiru",
+            "alias": "",
+            "position": "408",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Attwater"
         },
         {
@@ -7464,6 +8708,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Gonzalo Kenny",
+            "alias": "",
+            "position": "409",
+            "rotated": false,
             "notes": "!tag Urshad"
         },
         {
@@ -7482,6 +8729,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Mike Azevedo",
+            "alias": "",
+            "position": "410",
+            "rotated": false,
             "notes": "!tag Ruhigwelt\n!tag Grabeih"
         },
         {
@@ -7500,6 +8750,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Dmitry Dalnev",
+            "alias": "",
+            "position": "411",
+            "rotated": false,
             "notes": "!tag Trovsko\nBurnheal"
         },
         {
@@ -7518,6 +8771,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Dimitri Gonzalez",
+            "alias": "",
+            "position": "412",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n\nRamp"
         },
         {
@@ -7528,7 +8784,7 @@
             "number": 68,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "",
+            "rules_text": "[+2]: Another target creature or planeswalker you control becomes a 4/4 Dragon creature with flying until your next turn.\n[+1]: Put a +1/+1 counter on up to one target creature. Whenever that creature deals combat damage to a player this turn, draw two cards.\n[-4]: Return each creature you don't control with power 3 or less to their owner's hands.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+2]: Another target creature or planeswalker you control becomes a 4/4 Dragon creature with flying until your next turn.\n[+1]: Put a +1/+1 counter on up to one target creature. Whenever that creature deals combat damage to a player this turn, draw two cards.\n[-4]: Return each creature you don't control with power 3 or less to their owner's hands.",
@@ -7536,6 +8792,9 @@
             "set": "ZANG",
             "loyalty": "5",
             "artist": "Cookie",
+            "alias": "",
+            "position": "413",
+            "rotated": false,
             "notes": "!tag Aldegar\n!tag Planeswalker\n!tag Anzalan\nSlotted\nBig Creatures/Counters"
         },
         {
@@ -7546,7 +8805,7 @@
             "number": 199,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
-            "rules_text": "",
+            "rules_text": "[+2]: Exile the top three cards of your library. You may play a card exiled this way this turn.\n[-4]: Bastazim deals 4 damage to each creature.\n[-10]: For each other planeswalker you control, activate one of their abilities as if they had thirty loyalty counters on them.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+2]: Exile the top three cards of your library. You may play a card exiled this way this turn.\n[-4]: Bastazim deals 4 damage to each creature.\n[-10]: For each other planeswalker you control, activate one of their abilities as if they had thirty loyalty counters on them.",
@@ -7554,6 +8813,9 @@
             "set": "ZANG",
             "loyalty": "5",
             "artist": "Alejandro Arevalo",
+            "alias": "",
+            "position": "414",
+            "rotated": false,
             "notes": "!tag Bastazim\n!tag TheCosmos\n!tag Planeswalker\nPlanename: Cosmic\nSlotted\nSuperfriends"
         },
         {
@@ -7564,7 +8826,7 @@
             "number": 350,
             "color_identity": "BG",
             "cost": "{4}{B}{G}",
-            "rules_text": "",
+            "rules_text": "Whenever you activate one of Hayat's loyalty abilities, create two 1/1 green Insect creature tokens.\n[+1]: Each player sacrifices a permanent.\n[-3]: Target opponent sacrifices a permanent. Create a number of 1/1 green Insect creature tokens equal to six minus that permanent's mana value.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "Whenever you activate one of Hayat's loyalty abilities, create two 1/1 green Insect creature tokens.\n[+1]: Each player sacrifices a permanent.\n[-3]: Target opponent sacrifices a permanent. Create a number of 1/1 green Insect creature tokens equal to six minus that permanent's mana value.",
@@ -7572,6 +8834,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "Duong Lam",
+            "alias": "",
+            "position": "415",
+            "rotated": false,
             "notes": "!tag Hayat\n!tag Planeswalker\n!tag Alkabah\nSlotted\nCrats\nRemoval"
         },
         {
@@ -7582,7 +8847,7 @@
             "number": 223,
             "color_identity": "R",
             "cost": "{2}{R}{R}{R}",
-            "rules_text": "",
+            "rules_text": "[+1]: Create a Unfettered Eidolon token. [i](It's a {2}{R} 3/3 Spirit Soldier enchantment creature with \u201cThis creature can't block unless you control another enchantment.\u201d[/i]\n[-2]: Koios deals damage to any target equal to your devotion to red. [i](Each {R} in the mana costs of permanents you control counts toward your devotion to red.)[/i]\n[-10]: Exile all but the bottom card of your library. You may cast any number of red cards exiled this way without paying their mana costs.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Create a Unfettered Eidolon token. [i](It's a {2}{R} 3/3 Spirit Soldier enchantment creature with \u201cThis creature can't block unless you control another enchantment.\u201d[/i]\n[-2]: Koios deals damage to any target equal to your devotion to red. [i](Each {R} in the mana costs of permanents you control counts toward your devotion to red.)[/i]\n[-10]: Exile all but the bottom card of your library. You may cast any number of red cards exiled this way without paying their mana costs.",
@@ -7590,6 +8855,9 @@
             "set": "ZANG",
             "loyalty": "5",
             "artist": "Lemog Leo",
+            "alias": "",
+            "position": "416",
+            "rotated": false,
             "notes": "!tag Planeswalker\n!tag theros\n!tag Koios\nSlotted\nBig Red build around\nRemoval"
         },
         {
@@ -7600,7 +8868,7 @@
             "number": 327,
             "color_identity": "UB",
             "cost": "{3}{U}{B}",
-            "rules_text": "",
+            "rules_text": "Whenever you cast your first spell each turn, untap up to two lands you control.\n[+1]: Draw a card.\n[-2]: For each player, return up to one target nonland permanent that player controls or card in that player's graveyard to its owner's hand.\n[-9]: You get an emblem with \u201cWhenever you cast your second spell each turn, gain control of target creature.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "Whenever you cast your first spell each turn, untap up to two lands you control.\n[+1]: Draw a card.\n[-2]: For each player, return up to one target nonland permanent that player controls or card in that player's graveyard to its owner's hand.\n[-9]: You get an emblem with \u201cWhenever you cast your second spell each turn, gain control of target creature.\u201d",
@@ -7608,6 +8876,9 @@
             "set": "ZANG",
             "loyalty": "5",
             "artist": "Saraba",
+            "alias": "",
+            "position": "417",
+            "rotated": false,
             "notes": "!tag Salome\n!tag Planeswalker\n!tag Fantasmedeuil\nSlotted\nGenerally good\nRemoval"
         },
         {
@@ -7618,7 +8889,7 @@
             "number": 53,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
-            "rules_text": "",
+            "rules_text": "Other planeswalkers' loyalty abilities you activate cost an additional [+1] to activate.\n[+1]: Until your next turn, other planeswalkers you control have protection from everything.\n[-3]: Create three 1/1 white Spirit creature tokens with flying.\n[-9]: Destroy all nonplaneswalker permanents.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "Other planeswalkers' loyalty abilities you activate cost an additional [+1] to activate.\n[+1]: Until your next turn, other planeswalkers you control have protection from everything.\n[-3]: Create three 1/1 white Spirit creature tokens with flying.\n[-9]: Destroy all nonplaneswalker permanents.",
@@ -7626,6 +8897,9 @@
             "set": "ZANG",
             "loyalty": "5",
             "artist": "Chengwei Pan",
+            "alias": "",
+            "position": "418",
+            "rotated": false,
             "notes": "!tag Sylvia\n!tag Twiltrie\n!tag Planeswalker\nSlotted\nSuperfriends"
         },
         {
@@ -7636,7 +8910,7 @@
             "number": 336,
             "color_identity": "RG",
             "cost": "{1}{R}{R}{G}{G}",
-            "rules_text": "",
+            "rules_text": "[+1]: Untap up to one target land you control. It becomes a 4/4 Elemental creature with haste.\n[-2]: Destroy target noncreature permanent.\n[-8]: For each creature you control with power 4 or greater, create a token that's a copy of that creature. Creatures you control gain haste until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Untap up to one target land you control. It becomes a 4/4 Elemental creature with haste.\n[-2]: Destroy target noncreature permanent.\n[-8]: For each creature you control with power 4 or greater, create a token that's a copy of that creature. Creatures you control gain haste until end of turn.",
@@ -7644,6 +8918,9 @@
             "set": "ZANG",
             "loyalty": "4",
             "artist": "Matias Cabezas",
+            "alias": "",
+            "position": "419",
+            "rotated": false,
             "notes": "!tag Veceslav\n!tag Planeswalker\n!tag Ravnica\nSlotted\nVeceslav \nRemoval"
         },
         {
@@ -7654,7 +8931,7 @@
             "number": 192,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
-            "rules_text": "",
+            "rules_text": "At the beginning of each opponent's upkeep, if that player has no cards in hand, you draw a card and Waldemar deals 1 damage to you.\n[+1]: Target player discards a card. If they can't, that player sacrifices a nonland permanent.\n[-3]: Target player exiles a nonland permanent they control. You may play that card for as long as it remains exiled, and mana of any type can be spent to cast it.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "At the beginning of each opponent's upkeep, if that player has no cards in hand, you draw a card and Waldemar deals 1 damage to you.\n[+1]: Target player discards a card. If they can't, that player sacrifices a nonland permanent.\n[-3]: Target player exiles a nonland permanent they control. You may play that card for as long as it remains exiled, and mana of any type can be spent to cast it.",
@@ -7662,6 +8939,9 @@
             "set": "ZANG",
             "loyalty": "5",
             "artist": "Hinchel Or",
+            "alias": "",
+            "position": "420",
+            "rotated": false,
             "notes": "!tag Waldemar\n!tag Planeswalker\n!tag Dewold\nSlotted\nAttrition\nRemoval"
         },
         {
@@ -7680,6 +8960,8 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Andrew Rimbo",
+            "alias": "",
+            "position": "421",
             "card_name2": "Breath of Ardor",
             "color2": "W",
             "type2": "Sorcery \u2014 Adventure",
@@ -7690,6 +8972,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag theros\nAdventure Titan Cycle"
         },
         {
@@ -7708,6 +8993,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Deltakosh",
+            "alias": "",
+            "position": "422",
+            "rotated": false,
             "notes": "!tag Kanvere"
         },
         {
@@ -7726,6 +9014,8 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Barret Frymire",
+            "alias": "",
+            "position": "423",
             "card_name2": "Breath of Rust",
             "color2": "R",
             "type2": "Instant \u2014 Adventure",
@@ -7736,6 +9026,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag NewPhyrexia\nAdventure Titan Cycle"
         },
         {
@@ -7754,6 +9047,8 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Steve Hamilton",
+            "alias": "",
+            "position": "424",
             "card_name2": "Breath of Growth",
             "color2": "G",
             "type2": "Sorcery \u2014 Adventure",
@@ -7764,6 +9059,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Ravnica\n!tag Gruul\nAdventure Titan Cycle"
         },
         {
@@ -7782,6 +9080,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Valeriya Lutfullina",
+            "alias": "",
+            "position": "425",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Planeswalker\n!tag Kateryna"
         },
         {
@@ -7792,7 +9093,7 @@
             "number": 337,
             "color_identity": "WG",
             "cost": "{4}{G}{W}",
-            "rules_text": "",
+            "rules_text": "If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.\n[+1]: Create a 2/2 green Wolf creature token.\n[-3]: You get an emblem with \u201cWhenever a creature you control dies, put a +1/+1 counter on each creature you control.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.\n[+1]: Create a 2/2 green Wolf creature token.\n[-3]: You get an emblem with \u201cWhenever a creature you control dies, put a +1/+1 counter on each creature you control.\u201d",
@@ -7800,6 +9101,9 @@
             "set": "ZANG",
             "loyalty": "5",
             "artist": "Wilson Nugraha",
+            "alias": "",
+            "position": "426",
+            "rotated": false,
             "notes": "!tag Aryeh\n!tag Planeswalker\n!tag Giondaz\nSlotted\n\"Crats\""
         },
         {
@@ -7810,7 +9114,7 @@
             "number": 27,
             "color_identity": "W",
             "cost": "{4}{W}{W}",
-            "rules_text": "",
+            "rules_text": "[+1]: You may create a Pacifism Aura enchantment token. [i](It's an Aura that prevents the creature from attacking or blocking.)[/i]\n[0]: Create Yaromir, a legendary 0/0 white Fox creature token with \u201cThis creature gets +1/+1 for each enchantment you control.\u201d\n[-7]: Creatures you control get +X/+X until end of turn, where X is the number of enchantments you control.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: You may create a Pacifism Aura enchantment token. [i](It's an Aura that prevents the creature from attacking or blocking.)[/i]\n[0]: Create Yaromir, a legendary 0/0 white Fox creature token with \u201cThis creature gets +1/+1 for each enchantment you control.\u201d\n[-7]: Creatures you control get +X/+X until end of turn, where X is the number of enchantments you control.",
@@ -7818,6 +9122,9 @@
             "set": "ZANG",
             "loyalty": "5",
             "artist": "Olivier Bernard",
+            "alias": "",
+            "position": "427",
+            "rotated": false,
             "notes": "!tag Kateryna\n!tag Trovsko\n!tag Planeswalker\nSlotted\nEnchantments"
         },
         {
@@ -7836,6 +9143,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Hoang Lap (Solan)",
+            "alias": "",
+            "position": "428",
+            "rotated": false,
             "notes": "!tag TheCosmos\n!tag Romowum"
         },
         {
@@ -7854,6 +9164,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Alexstoneart",
+            "alias": "",
+            "position": "429",
+            "rotated": false,
             "notes": "!tag Ruhigwelt"
         },
         {
@@ -7872,6 +9185,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Dariusz Kieliszek",
+            "alias": "",
+            "position": "430",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -7882,7 +9198,7 @@
             "number": 349,
             "color_identity": "BG",
             "cost": "{5}{B}{G}",
-            "rules_text": "",
+            "rules_text": "As long as Ciar isn't on the battlefield, he's a 7/7 Horror creature in addition to his other types.\n[+2]: Mill two cards. Return up to two permanent cards from your graveyard to your hand.\n[+1]: Return target creature card from your graveyard to the battlefield.\n[0]: Destroy target nonland permanent.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "As long as Ciar isn't on the battlefield, he's a 7/7 Horror creature in addition to his other types.\n[+2]: Mill two cards. Return up to two permanent cards from your graveyard to your hand.\n[+1]: Return target creature card from your graveyard to the battlefield.\n[0]: Destroy target nonland permanent.",
@@ -7890,6 +9206,9 @@
             "set": "ZANG",
             "loyalty": "5",
             "artist": "Chris Nazgul",
+            "alias": "",
+            "position": "431",
+            "rotated": false,
             "notes": "!tag Ciar\n!tag Planeswalker\n!tag Giondaz\nSlotted\nReanimator\nRemoval"
         },
         {
@@ -7900,7 +9219,7 @@
             "number": 91,
             "color_identity": "U",
             "cost": "{5}{U}{U}",
-            "rules_text": "",
+            "rules_text": "When you cast this spell, return all nonland permanents to their owners' hands.\n[+3]: Draw three cards, then put a card from your hand on the bottom of your library.\n[-2]: Tap all permanents you don't control. Each opponent distributes four stun counters among permanents they control.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "When you cast this spell, return all nonland permanents to their owners' hands.\n[+3]: Draw three cards, then put a card from your hand on the bottom of your library.\n[-2]: Tap all permanents you don't control. Each opponent distributes four stun counters among permanents they control.",
@@ -7908,6 +9227,9 @@
             "set": "ZANG",
             "loyalty": "5",
             "artist": "Daria Rashev",
+            "alias": "",
+            "position": "432",
+            "rotated": false,
             "notes": "!tag Haubay\n!tag Planeswalker\n!tag TheCosmos\nPlanename: Cosmic\nSlotted\nRamp"
         },
         {
@@ -7926,6 +9248,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Wayne Wu",
+            "alias": "",
+            "position": "433",
+            "rotated": false,
             "notes": "!tag Merveaux"
         },
         {
@@ -7944,6 +9269,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Aela Ervefel",
+            "alias": "",
+            "position": "434",
+            "rotated": false,
             "notes": "!tag Trovsko"
         },
         {
@@ -7962,6 +9290,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "David Auden Nash",
+            "alias": "",
+            "position": "435",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -7980,6 +9311,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Akiman",
+            "alias": "",
+            "position": "436",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -7998,6 +9332,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Tutu",
+            "alias": "",
+            "position": "437",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8016,6 +9353,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Lorenzo Mastroianni",
+            "alias": "",
+            "position": "438",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8034,6 +9374,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Vilenko Vujicevic",
+            "alias": "",
+            "position": "439",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8052,6 +9395,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Envar Studio",
+            "alias": "",
+            "position": "440",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8070,6 +9416,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "mx 1984",
+            "alias": "",
+            "position": "441",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8088,6 +9437,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Sergey Ushakov (Void)",
+            "alias": "",
+            "position": "442",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8106,6 +9458,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Arcipello",
+            "alias": "",
+            "position": "443",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8124,6 +9479,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Vasilyna Holod",
+            "alias": "",
+            "position": "444",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8142,6 +9500,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Dan Watson",
+            "alias": "",
+            "position": "445",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8160,6 +9521,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Sun Pengbo",
+            "alias": "",
+            "position": "446",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8178,6 +9542,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Davi Sacramento",
+            "alias": "",
+            "position": "447",
+            "rotated": false,
             "notes": "!exportname Yaromir token"
         },
         {
@@ -8196,6 +9563,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Scebiqu",
+            "alias": "",
+            "position": "448",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8214,6 +9584,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Olga Kharyton",
+            "alias": "",
+            "position": "449",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -8232,6 +9605,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Ramses Melendez",
+            "alias": "",
+            "position": "450",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8250,6 +9626,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Sergej Felsinger",
+            "alias": "",
+            "position": "451",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8260,14 +9639,17 @@
             "number": 0,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "",
+            "rules_text": "\nI, II \u2014 [i]\u201cTheatre is the art form of the present: It exists only in the present, and then it's gone.\u201d[/i]\nIII \u2014 You may cast a copy of the exiled card from exile without paying its mana cost.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 [i]\u201cTheatre is the art form of the present: It exists only in the present, and then it's gone.\u201d[/i]\nIII \u2014 You may cast a copy of the exiled card from exile without paying its mana cost.\n\u200b",
+            "special_text": "\nI, II \u2014 [i]\u201cTheatre is the art form of the present: It exists only in the present, and then it's gone.\u201d[/i]\nIII \u2014 You may cast a copy of the exiled card from exile without paying its mana cost.",
             "shape": "saga",
             "set": "ZANG",
             "loyalty": "",
             "artist": "NetEase",
+            "alias": "",
+            "position": "452",
+            "rotated": false,
             "notes": "!tag Stage\nPlanename: The Stage\n!related Collect the Actors; Holding Out for a Hero; Powerful Distraction; Dig for Evidence; Dream Monologue; From Curtains to Chills; Inspect the Plot; Uncover Secrets; Defeat of the Greatest Evil; Imposing Threat; Inciting Incident; Repurpose Debris; Silent Sleep; Go Out Guns Blazing; The Highest Stakes; Timeless Rehearsal; Apprehend the Nemesis; Steal the Show; Time Stands Still and Heroes Emerge; All Part of the Show;"
         },
         {
@@ -8286,6 +9668,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "toratoraji",
+            "alias": "",
+            "position": "453",
+            "rotated": false,
             "notes": "!tag Alkabah\nfullart"
         },
         {
@@ -8304,6 +9689,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Rashed Alakroka",
+            "alias": "",
+            "position": "454",
+            "rotated": false,
             "notes": "!tag Alkabah\nfullart"
         },
         {
@@ -8322,6 +9710,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Bogdan Marica",
+            "alias": "",
+            "position": "455",
+            "rotated": false,
             "notes": "!tag Alkabah\nDesigned"
         },
         {
@@ -8340,6 +9731,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daniel Tinning",
+            "alias": "",
+            "position": "456",
+            "rotated": false,
             "notes": "!tag NewPhyrexia\n!related Birth of the Praetor's Voice\nNew Phyrexia"
         },
         {
@@ -8350,7 +9744,7 @@
             "number": 0,
             "color_identity": "W",
             "cost": "",
-            "rules_text": "",
+            "rules_text": "\nWhenever you put a lore counter on this Saga, put a +1/+1 counter on target creature you control.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "\nWhenever you put a lore counter on this Saga, put a +1/+1 counter on target creature you control.\n\u200b",
@@ -8358,6 +9752,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Liu Yan",
+            "alias": "",
+            "position": "457",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8376,6 +9773,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Aitor Sebastian",
+            "alias": "",
+            "position": "458",
+            "rotated": false,
             "notes": "!tag Unknown"
         },
         {
@@ -8394,6 +9794,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "D.Rock Art",
+            "alias": "",
+            "position": "459",
+            "rotated": false,
             "notes": "!tag Stage"
         },
         {
@@ -8412,6 +9815,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "David Romero",
+            "alias": "",
+            "position": "460",
+            "rotated": false,
             "notes": "!tag Detrosse\nRise of the Primordials Reprint"
         },
         {
@@ -8430,6 +9836,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "BNCFan",
+            "alias": "",
+            "position": "461",
+            "rotated": false,
             "notes": "!tag Stage\n!tag CustomReprint\nThe Stage Presents: The Neverending Act Reprint"
         },
         {
@@ -8448,6 +9857,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Hao Zheng",
+            "alias": "",
+            "position": "462",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Bretagard\nKaldheim: Bretaguard's Revival Reprint\nSee if it's too slow"
         },
         {
@@ -8466,6 +9878,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Simon Pape",
+            "alias": "",
+            "position": "463",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -8484,6 +9899,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Peacox Studio",
+            "alias": "",
+            "position": "464",
+            "rotated": false,
             "notes": "!tag NewPhyrexia\n!tag Kaldheim\n!tag CustomReprint\nKaldheim: Bretagard's Revival Reprint"
         },
         {
@@ -8502,6 +9920,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "101neg",
+            "alias": "",
+            "position": "465",
+            "rotated": false,
             "notes": "!tag Detrosse"
         },
         {
@@ -8520,6 +9941,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Theo Legouis",
+            "alias": "",
+            "position": "466",
+            "rotated": false,
             "notes": "!tag Hudrain"
         },
         {
@@ -8538,6 +9962,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Elena Churkina",
+            "alias": "",
+            "position": "467",
+            "rotated": false,
             "notes": "!tag Kaldheim\n!tag Gnottvold\nKaldheim: Bretagard's Revival Reprint"
         },
         {
@@ -8556,6 +9983,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Giuseppe De lure",
+            "alias": "",
+            "position": "468",
+            "rotated": false,
             "notes": "!tag Detrosse"
         },
         {
@@ -8574,6 +10004,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Lily Abdullina",
+            "alias": "",
+            "position": "469",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Phyre"
         },
         {
@@ -8592,6 +10025,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Sebastian Watzalwek",
+            "alias": "",
+            "position": "470",
+            "rotated": false,
             "notes": "!tag Bretagard\n!tag Kaldheim\nKaldheim: Bretagard's Revival Reprint"
         },
         {
@@ -8610,6 +10046,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Batu Ince",
+            "alias": "",
+            "position": "471",
+            "rotated": false,
             "notes": "!tag Alkabah"
         },
         {
@@ -8628,6 +10067,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Riodan Delmiro",
+            "alias": "",
+            "position": "472",
+            "rotated": false,
             "notes": "!tag Prakhma \n!tag Parvad\n!tag Planeswalker\nRemoval"
         },
         {
@@ -8646,6 +10088,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Dongling Guo",
+            "alias": "",
+            "position": "473",
+            "rotated": false,
             "notes": "!tag Detrosse\nRise of the Primordials Reprint"
         },
         {
@@ -8656,7 +10101,7 @@
             "number": 354,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
-            "rules_text": "",
+            "rules_text": "Instant and sorcery spells you cast have lifelink.\n[+1]: Create a 1/1 white and red Cleric creature token with lifelink.\n[0]: Until end of turn, Ameret becomes an 3/3 Angel creature with flying, indestructible, and haste.\n[-2]: Until end of turn, target creature or planeswalker you control gains \u201cWhenever you gain life, put that many +1/+1 counters on this permanent.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "Instant and sorcery spells you cast have lifelink.\n[+1]: Create a 1/1 white and red Cleric creature token with lifelink.\n[0]: Until end of turn, Ameret becomes an 3/3 Angel creature with flying, indestructible, and haste.\n[-2]: Until end of turn, target creature or planeswalker you control gains \u201cWhenever you gain life, put that many +1/+1 counters on this permanent.\u201d",
@@ -8664,6 +10109,9 @@
             "set": "ZANG",
             "loyalty": "3",
             "artist": "Envar Studio",
+            "alias": "",
+            "position": "474",
+            "rotated": false,
             "notes": "!tag Ameret\n!tag Planeswalker\n!tag Alkabah\nSlotted\nBurnheal\nRemoval"
         },
         {
@@ -8682,6 +10130,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Darko Kreculj",
+            "alias": "",
+            "position": "475",
+            "rotated": false,
             "notes": "!related Terror of Olantin<X>;"
         },
         {
@@ -8700,6 +10151,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Sixmorevodka",
+            "alias": "",
+            "position": "476",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8718,6 +10172,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "schastlivaya-ch",
+            "alias": "",
+            "position": "477",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8736,6 +10193,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Jason Behnke",
+            "alias": "",
+            "position": "478",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8754,6 +10214,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Linda Lithen",
+            "alias": "",
+            "position": "479",
+            "rotated": false,
             "notes": "!tag Trovsko"
         },
         {
@@ -8772,6 +10235,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Nick Keller",
+            "alias": "",
+            "position": "480",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8790,6 +10256,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Sergey Ushakov (Void)",
+            "alias": "",
+            "position": "481",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8808,6 +10277,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Zhang Gan",
+            "alias": "",
+            "position": "482",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -8826,6 +10298,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Valeriy Vegera",
+            "alias": "",
+            "position": "483",
+            "rotated": false,
             "notes": "!related Ameret, Pride of Cyrukan;Blade of Cyrukan;"
         },
         {
@@ -8844,6 +10319,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Dimitri Bielak",
+            "alias": "",
+            "position": "484",
+            "rotated": false,
             "notes": "!related Beholding the Unknown;Following the Matchbooks;Following the Slimy Trail;More Questions than Answers;Lorre Patsy;Researcher of the Occult;Unending Curosity;\nreplaceable art\n!exportname Clue4"
         },
         {
@@ -8862,6 +10340,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Stephan Martiniere",
+            "alias": "",
+            "position": "485",
+            "rotated": false,
             "notes": "!related Embrace of Ice\nDominaria"
         },
         {
@@ -8880,6 +10361,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Gabriel Gurjao",
+            "alias": "",
+            "position": "486",
+            "rotated": false,
             "notes": "!tag Detrosse"
         },
         {
@@ -8890,7 +10374,7 @@
             "number": 343,
             "color_identity": "WB",
             "cost": "{4}{W}{B}",
-            "rules_text": "",
+            "rules_text": "Whenever a nontoken creature attacks, exile that creature. That creature's controller creates a tapped token that's a copy of that creature except its a Construct in addition to its other types. [i](It's not attacking.)[/i]\n[+1]: Each opponent loses 3 life. You gain 3 life. \n[-2]: Destroy target tapped nonland permanent.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "Whenever a nontoken creature attacks, exile that creature. That creature's controller creates a tapped token that's a copy of that creature except its a Construct in addition to its other types. [i](It's not attacking.)[/i]\n[+1]: Each opponent loses 3 life. You gain 3 life. \n[-2]: Destroy target tapped nonland permanent.",
@@ -8898,6 +10382,9 @@
             "set": "ZANG",
             "loyalty": "5",
             "artist": "Octter",
+            "alias": "",
+            "position": "487",
+            "rotated": false,
             "notes": "!tag Perceval\n!tag Planeswalker\n!tag Merveaux\n!tag TheStage\nSlotted\nGenerically good control\nRemoval"
         },
         {
@@ -8916,6 +10403,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Tommy Arnold",
+            "alias": "",
+            "position": "488",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -8934,6 +10424,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Daniela Ivanova",
+            "alias": "",
+            "position": "489",
+            "rotated": false,
             "notes": "!tag Akaneworld\n!tag Yoshie\n!exportname Yoshies Operative"
         },
         {
@@ -8952,6 +10445,9 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Sygdom Aida Gomez",
+            "alias": "",
+            "position": "490",
+            "rotated": false,
             "notes": "!tag Giondaz"
         },
         {
@@ -8970,6 +10466,8 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Adrian Ibarra",
+            "alias": "",
+            "position": "491",
             "card_name2": "Ruthless Watch",
             "color2": "R",
             "type2": "Sorcery \u2014 Adventure",
@@ -8980,6 +10478,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Anzalan"
         },
         {
@@ -8998,8 +10499,11 @@
             "set": "ZANG",
             "loyalty": "",
             "artist": "Rudokstavern",
+            "alias": "",
+            "position": "492",
+            "rotated": false,
             "notes": "!tag Giondaz"
         }
     ],
-    "version": 5
+    "version": 6
 }

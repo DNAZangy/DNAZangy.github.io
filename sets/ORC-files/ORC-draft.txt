@@ -131,7 +131,7 @@
 			}
 		},
 		{
-			"name": "Stunning Irruption",
+			"name": "Stunning Interruption",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
@@ -283,7 +283,7 @@
 		{
 			"name": "Proboscidian Transmutation",
 			"rarity": "common",
-			"mana_cost": "{1}{U}",
+			"mana_cost": "{U}",
 			"type": "Enchantment — Aura",
 			"collector_number": "77",
 			"image_uris": {
@@ -335,7 +335,7 @@
 			"rarity": "common",
 			"mana_cost": "{B}{B}",
 			"type": "Creature — Azra Warrior",
-			"collector_number": "106",
+			"collector_number": "107",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/33.png"
 			}
@@ -375,7 +375,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Dwarf Warrior",
-			"collector_number": "105",
+			"collector_number": "106",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/37.png"
 			}
@@ -1225,7 +1225,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}{B}{B}",
 			"type": "Creature — Cat Dog Shade",
-			"collector_number": "107",
+			"collector_number": "108",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/122.png"
 			}
@@ -1275,7 +1275,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{B}{B}",
 			"type": "Creature — Insect Horror",
-			"collector_number": "103",
+			"collector_number": "104",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/127.png"
 			}
@@ -1335,7 +1335,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Enchantment",
-			"collector_number": "108",
+			"collector_number": "109",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/133.png"
 			}
@@ -1693,7 +1693,7 @@
 		{
 			"name": "Crashing Diversion",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{G}{G}",
+			"mana_cost": "{3}{G}",
 			"type": "Battle — Heist",
 			"collector_number": "192",
 			"image_uris": {
@@ -1703,7 +1703,7 @@
 		{
 			"name": "The Silence at Verdant Valley",
 			"rarity": "uncommon",
-			"mana_cost": "{3}{G}",
+			"mana_cost": "{2}{G}{G}",
 			"type": "Battle — Heist",
 			"collector_number": "217",
 			"image_uris": {
@@ -1923,7 +1923,7 @@
 		{
 			"name": "Oneiric Whisperer",
 			"rarity": "rare",
-			"mana_cost": "{2}{U}{U}",
+			"mana_cost": "{4}{U}{U}",
 			"type": "Creature — Horror",
 			"collector_number": "73",
 			"image_uris": {
@@ -2031,11 +2031,11 @@
 			}
 		},
 		{
-			"name": "Midshift Mourner",
+			"name": "Endless Darkness",
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "Creature — Shade",
-			"collector_number": "110",
+			"collector_number": "103",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/203.png"
 			}
@@ -2223,7 +2223,7 @@
 		{
 			"name": "Owl-Knowing Sleuth",
 			"rarity": "rare",
-			"mana_cost": "{3}{U}{U}",
+			"mana_cost": "{2}{U}{U}",
 			"type": "Creature — Bird Detective",
 			"collector_number": "74",
 			"image_uris": {
@@ -2293,7 +2293,7 @@
 		{
 			"name": "Reaping Rite",
 			"rarity": "rare",
-			"mana_cost": "{1}{R}{G}",
+			"mana_cost": "{3}{R}{G}",
 			"type": "Battle — Heist",
 			"collector_number": "235",
 			"image_uris": {
@@ -2505,7 +2505,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Insect Horror",
-			"collector_number": "104",
+			"collector_number": "105",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/250.png"
 			}
@@ -2595,7 +2595,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Battle — Heist",
-			"collector_number": "109",
+			"collector_number": "110",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/259.png"
 			}
@@ -2715,7 +2715,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Clue",
-			"collector_number": "19",
+			"collector_number": "20",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/271.png"
 			}
@@ -2765,7 +2765,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Bounty",
-			"collector_number": "18",
+			"collector_number": "19",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/276.png"
 			}
@@ -3061,23 +3061,13 @@
 			}
 		},
 		{
-			"name": "Collections Box",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Legendary Artifact",
-			"collector_number": "20",
-			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ORC-files/img/306.png"
-			}
-		},
-		{
 			"name": "Cawyer River Dockworkers",
 			"rarity": "rare",
 			"mana_cost": "{6}{W}",
 			"type": "Creature — Orc Citizen",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ORC-files/img/307.png"
+				"en": "https://DNAZangy.github.io/sets/ORC-files/img/306.png"
 			}
 		},
 		{
@@ -3087,17 +3077,17 @@
 			"type": "Creature — Human Detective",
 			"collector_number": "52",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ORC-files/img/308.png"
+				"en": "https://DNAZangy.github.io/sets/ORC-files/img/307.png"
 			}
 		},
 		{
 			"name": "Moroii Cleaner",
 			"rarity": "rare",
-			"mana_cost": "{2}{B}",
+			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Vampire Warrior",
 			"collector_number": "112",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ORC-files/img/309.png"
+				"en": "https://DNAZangy.github.io/sets/ORC-files/img/308.png"
 			}
 		},
 		{
@@ -3107,7 +3097,7 @@
 			"type": "Creature — Gorgon Rogue",
 			"collector_number": "180",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ORC-files/img/310.png"
+				"en": "https://DNAZangy.github.io/sets/ORC-files/img/309.png"
 			}
 		},
 		{
@@ -3117,7 +3107,7 @@
 			"type": "Creature — Insect Horror",
 			"collector_number": "216",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ORC-files/img/311.png"
+				"en": "https://DNAZangy.github.io/sets/ORC-files/img/310.png"
 			}
 		},
 		{
@@ -3127,7 +3117,7 @@
 			"type": "Creature — Dog Soldier",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ORC-files/img/312.png"
+				"en": "https://DNAZangy.github.io/sets/ORC-files/img/311.png"
 			}
 		},
 		{
@@ -3137,7 +3127,7 @@
 			"type": "Creature — Cat Detective",
 			"collector_number": "80",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ORC-files/img/313.png"
+				"en": "https://DNAZangy.github.io/sets/ORC-files/img/312.png"
 			}
 		},
 		{
@@ -3147,7 +3137,7 @@
 			"type": "Creature — Cat Warrior",
 			"collector_number": "96",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ORC-files/img/314.png"
+				"en": "https://DNAZangy.github.io/sets/ORC-files/img/313.png"
 			}
 		},
 		{
@@ -3157,7 +3147,7 @@
 			"type": "Creature — Azra Rogue",
 			"collector_number": "139",
 			"image_uris": {
-				"en": "https://DNAZangy.github.io/sets/ORC-files/img/315.png"
+				"en": "https://DNAZangy.github.io/sets/ORC-files/img/314.png"
 			}
 		},
 		{
@@ -3166,6 +3156,16 @@
 			"mana_cost": "{X}{X}{G}{G}{G}",
 			"type": "Creature — Human Plant Horror",
 			"collector_number": "223",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/ORC-files/img/315.png"
+			}
+		},
+		{
+			"name": "Finding Answers",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment",
+			"collector_number": "18",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/ORC-files/img/316.png"
 			}
@@ -3191,7 +3191,7 @@
 	2 Scourge of Sapience
 	2 Cawyer Station Recruit
 	2 Unclocked Apparition
-	2 Midshift Mourner
+	2 Endless Darkness
 	2 Threads of Consumption
 	2 Curio of Crawling Secrets
 	2 Favor from the Family
@@ -3394,7 +3394,7 @@
 	8 Purifier of Division
 	8 Asset Protection Manager
 	8 Wrapped in Quiet Lies
-	8 Stunning Irruption
+	8 Stunning Interruption
 	8 Marked for Grace
 	8 Lift Archaic Wards
 	8 Sleep in Company
@@ -3476,7 +3476,7 @@
 	8 Purifier of Division
 	8 Asset Protection Manager
 	8 Wrapped in Quiet Lies
-	8 Stunning Irruption
+	8 Stunning Interruption
 	8 Marked for Grace
 	8 Lift Archaic Wards
 	8 Sleep in Company
@@ -3558,7 +3558,7 @@
 	12 Purifier of Division
 	12 Asset Protection Manager
 	12 Wrapped in Quiet Lies
-	12 Stunning Irruption
+	12 Stunning Interruption
 	12 Marked for Grace
 	12 Lift Archaic Wards
 	12 Sleep in Company
@@ -3748,7 +3748,7 @@
 	2 Scourge of Sapience
 	2 Cawyer Station Recruit
 	2 Unclocked Apparition
-	2 Midshift Mourner
+	2 Endless Darkness
 	2 Threads of Consumption
 	2 Curio of Crawling Secrets
 	2 Favor from the Family
@@ -3846,7 +3846,7 @@
 	6 Purifier of Division
 	6 Asset Protection Manager
 	6 Wrapped in Quiet Lies
-	6 Stunning Irruption
+	6 Stunning Interruption
 	6 Marked for Grace
 	6 Lift Archaic Wards
 	6 Sleep in Company
@@ -4036,7 +4036,7 @@
 	7 Scourge of Sapience
 	7 Cawyer Station Recruit
 	7 Unclocked Apparition
-	7 Midshift Mourner
+	7 Endless Darkness
 	7 Threads of Consumption
 	7 Curio of Crawling Secrets
 	7 Favor from the Family

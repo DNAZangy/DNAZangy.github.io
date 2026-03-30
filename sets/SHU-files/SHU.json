@@ -1,10 +1,11 @@
 ﻿{
     "name": "Shurima: War of the Sands",
     "formats": "Zangy, Runeterra",
-    "trimmed": "n",
     "image_type": "png",
     "draft_structure": "play booster",
     "unpreviewed": "card back",
+    "image_name": "position",
+    "v_mana": "",
     "cards": [
         {
             "card_name": "Azir's Missionaries",
@@ -22,6 +23,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Bruno Amaral",
+            "alias": "",
+            "position": "0",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -40,6 +44,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Anastasiia Donets",
+            "alias": "",
+            "position": "1",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -58,6 +65,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "qmo",
+            "alias": "",
+            "position": "2",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -76,6 +86,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jack Hsu, Iqnatius Budi, Anson Tan and \u7f85 \u5149\u4f51",
+            "alias": "",
+            "position": "3",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -94,6 +107,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Iqnatius Budi",
+            "alias": "",
+            "position": "4",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -112,6 +128,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Instantip",
+            "alias": "",
+            "position": "5",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -130,6 +149,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jonathon Reed",
+            "alias": "",
+            "position": "6",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -148,6 +170,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Arturo Gutierrez",
+            "alias": "",
+            "position": "7",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -166,6 +191,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Diegogisbertllorens",
+            "alias": "",
+            "position": "8",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -184,7 +212,10 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Arlequinne",
-            "notes": "!tag Azir\nftftftftftft"
+            "alias": "",
+            "position": "9",
+            "rotated": false,
+            "notes": "!tag Azir"
         },
         {
             "card_name": "Strength of Nazumah",
@@ -202,6 +233,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Elu Aime",
+            "alias": "",
+            "position": "10",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -220,6 +254,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jarek Madyda",
+            "alias": "",
+            "position": "11",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -231,13 +268,16 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "When Sealed in Darkness enters, exile target creature until Sealed in Darkness leaves the battlefield.",
-            "flavor_text": "[i]Renekton gripped his brother's arm. \u201cClose the door, Nasus. Let me save Shurima one last time.\u201d The stone fell. The darkness came. And Nasus stood alone, forever haunted by the sound of it.[/i]",
+            "flavor_text": "[i]Renekton gripped his brother's arm. \u201cClose the door, Nasus. Let me save Shurima one last time.\u201d The stone fell. The darkness came. And Nasus stood alone, forever haunted by the sound.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Crownedkings",
+            "alias": "",
+            "position": "12",
+            "rotated": false,
             "notes": "!tag Nasus\n!tag Renekton"
         },
         {
@@ -256,6 +296,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Marcos Kenji Uchima",
+            "alias": "",
+            "position": "13",
+            "rotated": false,
             "notes": "!tag Azir"
         },
         {
@@ -274,6 +317,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Caio Monteiro",
+            "alias": "",
+            "position": "14",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -285,14 +331,17 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Flying, vigilance",
-            "flavor_text": "[i]Xerath channels his arcane power into devoted followers, transforming them into magical batteries. The acolyte burns with stolen energy, empowered beyond mortal limits but slowly consumed by the very power they wield.[/i]",
+            "flavor_text": "[i]Xerath channels his arcane power into devoted followers, transforming them into magical batteries.[/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Jiunn Kuo",
-            "notes": "ftftftftftft"
+            "alias": "",
+            "position": "15",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Clockwork Fabricator",
@@ -310,6 +359,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Asep Ariyanto",
+            "alias": "",
+            "position": "16",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -328,6 +380,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "sketchy linez",
+            "alias": "",
+            "position": "17",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -346,6 +401,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Masaki Hsu",
+            "alias": "",
+            "position": "18",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -364,6 +422,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Alekey Zhukov",
+            "alias": "",
+            "position": "19",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -382,6 +443,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Lesleylycan",
+            "alias": "",
+            "position": "20",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -400,6 +464,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Adrien Martinez",
+            "alias": "",
+            "position": "21",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -418,6 +485,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Divebound Studio",
+            "alias": "",
+            "position": "22",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -430,12 +500,15 @@
             "cost": "{1}{U}",
             "rules_text": "Kicker {3} [i](You may pay an additional {3} as you cast this spell.)[/i]\nWhen Grasping Voidspawn enters, return target nonland permanent to its owner's hand. Sacrifice Grasping Voidspawn at the beginning of your next end step unless it was kicked.",
             "flavor_text": "[i][/i]",
-            "pt": "4/4",
+            "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "2wenty",
+            "alias": "",
+            "position": "23",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -454,7 +527,10 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "PerSimM",
-            "notes": "ftftftftft"
+            "alias": "",
+            "position": "24",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Spin to Sand",
@@ -472,6 +548,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Hou China",
+            "alias": "",
+            "position": "25",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -490,6 +569,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Asep Ariyanto",
+            "alias": "",
+            "position": "26",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -508,6 +590,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Kangjason",
+            "alias": "",
+            "position": "27",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -526,6 +611,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Almanegra",
+            "alias": "",
+            "position": "28",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -544,6 +632,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jacob Sschade",
+            "alias": "",
+            "position": "29",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -562,7 +653,10 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Aaron Ming",
-            "notes": "\u201c\u201cftftftft noxus go away.\u201d"
+            "alias": "",
+            "position": "30",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Vekauran Safecraker",
@@ -580,6 +674,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Masaki Hsu",
+            "alias": "",
+            "position": "31",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -598,6 +695,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Dhaniels Castillo",
+            "alias": "",
+            "position": "32",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -616,6 +716,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Satriasa",
+            "alias": "",
+            "position": "33",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -634,6 +737,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Vinicius Menezes",
+            "alias": "",
+            "position": "34",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -645,13 +751,16 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Remove up to three counters from target creature or planeswalker. Then it gets -3/-3 until end of turn if it's a creature.",
-            "flavor_text": "[i]Not all who seek Ascension achieve it. Some are rejected by the ritual, their bodies warped into baccai: powerful but flawed, divine but corrupted. The empire's failures.[/i]",
+            "flavor_text": "[i]Some who seek Ascension are rejected, their bodies warped into baccai: powerful but flawed, divine but corrupted. The empire's failures.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Jinsheng Yip",
+            "alias": "",
+            "position": "35",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -670,6 +779,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Gatrick",
+            "alias": "",
+            "position": "36",
+            "rotated": false,
             "notes": "!tag Sivir"
         },
         {
@@ -681,14 +793,17 @@
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "As an additional cost to cast this spell, sacrifice an artifact or creature.\nDraw two cards.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]\u201cEvery grain of sand was once something greater. Each and every life lost builds the empire anew. There is no future without Shurima.\u201d\n\u2014Azir, Emperor of the Sands[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "user-83637",
-            "notes": "!tag Azir\nftftftftftft"
+            "alias": "",
+            "position": "37",
+            "rotated": false,
+            "notes": "!tag Azir\n"
         },
         {
             "card_name": "Hollow Hound",
@@ -706,6 +821,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Travis Anderson",
+            "alias": "",
+            "position": "38",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -724,6 +842,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Artsed",
+            "alias": "",
+            "position": "39",
+            "rotated": false,
             "notes": "!tag Cho'Gath"
         },
         {
@@ -742,6 +863,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Walther Sorg",
+            "alias": "",
+            "position": "40",
+            "rotated": false,
             "notes": "!tag Cassiopeia\n!tag Sivir"
         },
         {
@@ -753,14 +877,17 @@
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Whenever another creature you control enters, Caravan Companion gets +1/+1 until end of turn.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]\u201cMorale wins desert crossings. Water sustains bodies. Hope sustains spirit.\u201d\n\u2014Caravan saying[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Alberto Velez Marino",
-            "notes": "ftftftft"
+            "alias": "",
+            "position": "41",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Rock Hopper",
@@ -778,6 +905,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Dao Trong Le",
+            "alias": "",
+            "position": "42",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -789,14 +919,17 @@
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "When Plucky Ruin Delver enters, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]Yordles have surprising advantages in dungeons. Small size, unnatural luck, and unending optimism about new discoveries.[/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Grafit Studio",
-            "notes": "ftftftftftftftft"
+            "alias": "",
+            "position": "43",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Ruinous Acolyte",
@@ -814,6 +947,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Koyamamichiru",
+            "alias": "",
+            "position": "44",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -825,14 +961,17 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Trample\nWhen Escaped Drakehound enters, exile the top card of your library. Until the end of your next turn, you may play that card.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]\u201cNoxus thinks they can conquer Shurima? They can't even control their own mounts!\u201d\n\u2014K'Sante, Pride of Nazumah[/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Claudya Schmidt",
-            "notes": "ftftftftft"
+            "alias": "",
+            "position": "45",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Endless Devout",
@@ -850,6 +989,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Chris Kintner",
+            "alias": "",
+            "position": "46",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -868,6 +1010,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Forrest Imel, Mitchell Malloy",
+            "alias": "",
+            "position": "47",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -875,7 +1020,7 @@
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Avatar Mutant Wizard",
-            "number": 146,
+            "number": 147,
             "color_identity": "R",
             "cost": "{4}{R}",
             "rules_text": "Menace\n{V}: Tormented Baccai gets +2/+0 until end of turn.",
@@ -886,6 +1031,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "HOANO",
+            "alias": "",
+            "position": "48",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -897,13 +1045,16 @@
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Void Seeker deals 3 damage to any nonplayer target.",
-            "flavor_text": "[i]Claimed by the Void as a child, Kai'Sa survived through sheer will and merged with a living carapace. Now she hunts the monsters that once hunted her, a deadly protector the surface world fears to acknowledge.[/i]",
+            "flavor_text": "[i]Claimed by the Void as a child, Kai'Sa survived through sheer will and merged with a living carapace. Now she hunts the monsters that once hunted her.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "SUQLING",
+            "alias": "",
+            "position": "49",
+            "rotated": false,
             "notes": "!tag Kai'Sa"
         },
         {
@@ -922,6 +1073,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Vo Minh Tuan",
+            "alias": "",
+            "position": "50",
+            "rotated": false,
             "notes": "!tag Renekton"
         },
         {
@@ -940,6 +1094,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Andrea Salonga",
+            "alias": "",
+            "position": "51",
+            "rotated": false,
             "notes": "!tag Sivir"
         },
         {
@@ -958,6 +1115,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "JiHun Lee",
+            "alias": "",
+            "position": "52",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -976,7 +1136,10 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Dylan Deng",
-            "notes": "!tag Kai'Sa\nftftftftftft"
+            "alias": "",
+            "position": "53",
+            "rotated": false,
+            "notes": "!tag Kai'Sa"
         },
         {
             "card_name": "Arcane Obliteration",
@@ -994,6 +1157,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Morkardfc",
+            "alias": "",
+            "position": "54",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1012,6 +1178,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Froilan Avinante",
+            "alias": "",
+            "position": "55",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1023,13 +1192,16 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "When Belvethi Elder enters, put a +1/+1 counter on target creature you control.",
-            "flavor_text": "[i]Shalatai reeled at the horror before her. There lay Ferai, the kind butcher's daughter, crushed to death. Beside her was Gorrub, the fisherman's son, still reaching toward his love with lifeless hands. So many memories gone and lives lost.[/i]",
+            "flavor_text": "[i]Shalatai reeled at the horror before her. There lay Ferai, the kind butcher's daughter, crushed to death. Beside her was Gorrub, the fisherman's son, still reaching toward his love with lifeless hands.[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Yuyu Wong",
+            "alias": "",
+            "position": "56",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1041,14 +1213,17 @@
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "{T}: Add {G}.\n{T}, Exile a card from your graveyard: Add one mana of any color.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]\u201cAlone in the Sai, you're food for Xer'Sai. Together, you're a caravan. Survival is a team effort.\u201d[/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Dao Trong Le",
-            "notes": "ftftftftftft"
+            "alias": "",
+            "position": "57",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Treacherous Bandit",
@@ -1066,6 +1241,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "NUARE",
+            "alias": "",
+            "position": "58",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1084,6 +1262,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Hung Nguyen",
+            "alias": "",
+            "position": "59",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1102,6 +1283,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Grafit Studio",
+            "alias": "",
+            "position": "60",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1113,13 +1297,16 @@
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "Mobilize 2 [i](Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)[/i]",
-            "flavor_text": "[i]The baccai are twisted, warped versions of what they might have been \u2014 had they become part of the Ascended Host \u2014 and the rage they feel at their failure must be unleashed somewhere.[/i]",
+            "flavor_text": "[i]The baccai are twisted, warped versions of what they might have been had they served the Ascended host.[/i]",
             "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "nevan12",
+            "alias": "",
+            "position": "61",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1138,6 +1325,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Pablo Murinelly Rowenz",
+            "alias": "",
+            "position": "62",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1156,6 +1346,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Kevin Sidharta",
+            "alias": "",
+            "position": "63",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1174,6 +1367,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Patrick Faulwetter",
+            "alias": "",
+            "position": "64",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1192,6 +1388,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Thai Thanh",
+            "alias": "",
+            "position": "65",
+            "rotated": false,
             "notes": "!tag Taliyah"
         },
         {
@@ -1210,7 +1409,10 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Alessandro Poli",
-            "notes": "!tag Azir\nftftftftftft"
+            "alias": "",
+            "position": "66",
+            "rotated": false,
+            "notes": "!tag Azir"
         },
         {
             "card_name": "Burst from Below",
@@ -1228,6 +1430,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "kinwii",
+            "alias": "",
+            "position": "67",
+            "rotated": false,
             "notes": "!tag Rek'sai"
         },
         {
@@ -1239,13 +1444,16 @@
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Create a Treasure token.",
-            "flavor_text": "[i]Crossing the desert requires ingenuity: some ride dormun, slow and steady. Others sail wind-driven boats across the sand, trading speed for risk. The Great Sai respects both approaches equally by trying to kill everyone equally.[/i]",
+            "flavor_text": "[i]Crossing the desert requires ingenuity: some ride dormun, slow and steady. Others sail wind-driven boats across the sand, trading speed for risk.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Sim Singh",
+            "alias": "",
+            "position": "68",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1264,6 +1472,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Hyeseong Ahn",
+            "alias": "",
+            "position": "69",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1282,7 +1493,10 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Bruno Amaral",
-            "notes": "!tag Wishlist"
+            "alias": "",
+            "position": "70",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "General of the Dunes",
@@ -1300,6 +1514,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Can Yang",
+            "alias": "",
+            "position": "71",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1318,6 +1535,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Benjamin Giletti",
+            "alias": "",
+            "position": "72",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1336,6 +1556,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Marie Magny",
+            "alias": "",
+            "position": "73",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1354,6 +1577,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Joel Holtzman",
+            "alias": "",
+            "position": "74",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1372,6 +1598,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Envar Studio",
+            "alias": "",
+            "position": "75",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1390,6 +1619,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jack Hsu, Guan Yu chen, Masaki Hsu",
+            "alias": "",
+            "position": "76",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1401,14 +1633,17 @@
             "color_identity": "W",
             "cost": "{4}{W}{W}",
             "rules_text": "Flying\nWhen Dune Predator enters, you draw a card and gain 3 life.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]Most caravans are trained to watch for threats underneath the sands, but in the Great Sai, the skies still hold dangerous predators.[/i]",
             "pt": "5/4",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Alejandro Rojas",
-            "notes": "ftftftftftft"
+            "alias": "",
+            "position": "77",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Decree of the Sands",
@@ -1426,6 +1661,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jayison Devadas",
+            "alias": "",
+            "position": "78",
+            "rotated": false,
             "notes": "!tag Azir"
         },
         {
@@ -1444,6 +1682,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Kudos Productions",
+            "alias": "",
+            "position": "79",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1453,15 +1694,18 @@
             "type": "Artifact Creature \u2014 Chimera",
             "number": 60,
             "color_identity": "U",
-            "cost": "{U}",
-            "rules_text": "Whenever Multifaced Watcher attacks or blocks, sacrifice it at the beginning of the next end step.",
+            "cost": "{2}{U}",
+            "rules_text": "Whenever Multifaced Watcher attacks, sacrifice it at the beginning of your next end step.",
             "flavor_text": "[i]Shuriman tombs are designed to murder the greedy. Traps kill the careless. Curses claim the lucky. And if someone survives all that, the guardians take care of the stragglers.[/i]",
-            "pt": "3/4",
+            "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Texahol",
+            "alias": "",
+            "position": "80",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1480,6 +1724,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Grafit Studio",
+            "alias": "",
+            "position": "81",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1498,6 +1745,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Foritis wang",
+            "alias": "",
+            "position": "82",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1509,13 +1759,16 @@
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "At the beginning of your end step, you may exile two cards that don't share a card type from your graveyard. If you do, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]",
-            "flavor_text": "[i]\u201cRemember: touch nothing and expect everything to try killing us.\u201d\n\u201cSame as always then?\u201d\n\u201cSame as always.\u201d[/i]",
+            "flavor_text": "[i]\u201cRemember: touch nothing and expect everything to try killing us.\u201d\n\u201cSame as always then?\u201d[/i]",
             "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Suzanne Helmigh",
+            "alias": "",
+            "position": "83",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1534,6 +1787,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Operion",
+            "alias": "",
+            "position": "84",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1544,15 +1800,18 @@
             "number": 50,
             "color_identity": "U",
             "cost": "{5}{U}{U}",
-            "rules_text": "Flash\nWhen Forgotten Terror enters or attacks, tap all creatures you don't control.",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Flash\nWhen Forgotten Terror enters or attacks, tap all other creatures.",
+            "flavor_text": "[i]Ancient fears sleep beneath the sands of the Great Sai. Older than empires, older than Ascension. The First of Ten cares not for useless titles.[/i]",
             "pt": "7/6",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Juan Pablo",
-            "notes": "!tag Fiddlesticks\nftftftftftft"
+            "alias": "",
+            "position": "85",
+            "rotated": false,
+            "notes": "!tag Fiddlesticks"
         },
         {
             "card_name": "Memories of an Empire",
@@ -1570,6 +1829,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Zuqling",
+            "alias": "",
+            "position": "86",
+            "rotated": false,
             "notes": "!tag Azir"
         },
         {
@@ -1581,14 +1843,17 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Enchant creature\nEnchanted creature loses all abilities and is a Coward creature with base power and toughness 0/1.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]Fear from the void is visceral, primal, and overwhelming. There is no thought, just deep, dark cold.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "C Can Yang",
-            "notes": "ftftftftft"
+            "alias": "",
+            "position": "87",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Curious Obsession",
@@ -1606,6 +1871,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Patrick Faulwetter",
+            "alias": "",
+            "position": "88",
+            "rotated": false,
             "notes": "!tag Kassadin"
         },
         {
@@ -1624,6 +1892,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Nukacola Quantum",
+            "alias": "",
+            "position": "89",
+            "rotated": false,
             "notes": "!tag Xerath"
         },
         {
@@ -1635,13 +1906,16 @@
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "The owner of target spell or nonland permanent puts it on their choice of the top or bottom of their library.",
-            "flavor_text": "[i]Zilean asked if Khahiri if he was ready for the adventure. Khahiri gave his mentor a reassuring smile. \u201cI'll be back soon. And besides, I've spent every day for years preparing for this moment. If not now, when?\u201d[/i]",
+            "flavor_text": "[i]Zilean asked if Khahiri if he was ready. \u201cI'll be back soon. And besides, I've spent every day for years preparing for this moment. If not now, when?\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Kudos Productions",
+            "alias": "",
+            "position": "90",
+            "rotated": false,
             "notes": "!tag Khakir"
         },
         {
@@ -1660,6 +1934,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Grafit Studio",
+            "alias": "",
+            "position": "91",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1671,13 +1948,16 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Mobilize 2 [i](Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)[/i]",
-            "flavor_text": "[i]Before the vaults, Shurima's mercenaries and tomb robbers must learn to survive the desert's more overt threats. First, the unrelenting heat. Second, the multitude of raiders.[/i]",
+            "flavor_text": "[i]Before the vaults, Shurima's mercenaries and tomb robbers must learn to survive the desert's more overt threats.[/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Grafit Studio",
+            "alias": "",
+            "position": "92",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1696,6 +1976,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Marko Djurdjevic",
+            "alias": "",
+            "position": "93",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1714,6 +1997,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Lazar Starcevic",
+            "alias": "",
+            "position": "94",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1732,6 +2018,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Helder ALMEIDA",
+            "alias": "",
+            "position": "95",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1750,6 +2039,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Herbie Wang",
+            "alias": "",
+            "position": "96",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1768,6 +2060,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Daniel \"Red\" Stultz",
+            "alias": "",
+            "position": "97",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1786,6 +2081,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Artur Mosca",
+            "alias": "",
+            "position": "98",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1804,6 +2102,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "David Ko",
+            "alias": "",
+            "position": "99",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1822,6 +2123,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "ELAIM",
+            "alias": "",
+            "position": "100",
+            "rotated": false,
             "notes": "!tag Xerath"
         },
         {
@@ -1840,6 +2144,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Peihao Wang",
+            "alias": "",
+            "position": "101",
+            "rotated": false,
             "notes": "!tag Malzahar\n!tag Kassadin"
         },
         {
@@ -1847,7 +2154,7 @@
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rogue",
-            "number": 144,
+            "number": 145,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Haste\nWhenever Shuriman Dissident attacks, if another creature entered under your control this turn, target creature can't block this turn.",
@@ -1858,6 +2165,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Herbie Wang",
+            "alias": "",
+            "position": "102",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1876,6 +2186,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Alen Mahmutagic",
+            "alias": "",
+            "position": "103",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1894,6 +2207,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Herbie Wang",
+            "alias": "",
+            "position": "104",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1912,6 +2228,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "G75 Art",
+            "alias": "",
+            "position": "105",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1930,6 +2249,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "JiHun Lee",
+            "alias": "",
+            "position": "106",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1948,6 +2270,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jiunn Kuo",
+            "alias": "",
+            "position": "107",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1966,6 +2291,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Freeman and Lasso",
+            "alias": "",
+            "position": "108",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -1977,13 +2305,16 @@
             "color_identity": "R",
             "cost": "{4}{R}",
             "rules_text": "Trample\nWhen Xer'Sai Callers enters, destroy target permanent unless its controller has Xer'Sai Callers deal damage to them equal to double its mana value.",
-            "flavor_text": "[i]Not all xer'sai are born to butcher. Some can summon their kin with piercing shrieks that rattle the sands as well as the senses.[/i]",
+            "flavor_text": "[i]Not all xer'sai are born to kill.[/i]",
             "pt": "5/3",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Kudos Productions",
+            "alias": "",
+            "position": "109",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2002,17 +2333,20 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Liam Maher",
+            "alias": "",
+            "position": "110",
+            "rotated": false,
             "notes": "!tag Azir"
         },
         {
-            "card_name": "Trash for Treasure",
+            "card_name": "Scavenge the Tombs",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 147,
+            "number": 143,
             "color_identity": "R",
-            "cost": "{2}{R}",
-            "rules_text": "As an additional cost to cast this spell, sacrifice an artifact.\nReturn target artifact card from your graveyard to the battlefield.",
+            "cost": "{3}{R}",
+            "rules_text": "Return target artifact card from your graveyard to the battlefield, then sacrifice an artifact.",
             "flavor_text": "[i]\u201cOne person's trash? Still trash. But one emperor's trash? That's retirement.\u201d \u2014Sivir[/i]",
             "pt": "",
             "special_text": "",
@@ -2020,7 +2354,10 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Andrea Salonga",
-            "notes": "!tag Sivir\nftftftftftft"
+            "alias": "",
+            "position": "111",
+            "rotated": false,
+            "notes": "!tag Sivir"
         },
         {
             "card_name": "Heir to the Sands",
@@ -2038,6 +2375,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Junsartwork",
+            "alias": "",
+            "position": "112",
+            "rotated": false,
             "notes": "!tag Sivir"
         },
         {
@@ -2056,7 +2396,10 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Joe Horne",
-            "notes": "ftftftftftft"
+            "alias": "",
+            "position": "113",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Corrosive Arachnid",
@@ -2074,6 +2417,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Masaki Hsu",
+            "alias": "",
+            "position": "114",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2092,6 +2438,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Guan Yu chen",
+            "alias": "",
+            "position": "115",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2110,6 +2459,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "flowerzzxu",
+            "alias": "",
+            "position": "116",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2128,6 +2480,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Narendra B Adi",
+            "alias": "",
+            "position": "117",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2146,6 +2501,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Sarahjaneart",
+            "alias": "",
+            "position": "118",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2164,6 +2522,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "HOANO",
+            "alias": "",
+            "position": "119",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2182,6 +2543,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Section Studios",
+            "alias": "",
+            "position": "120",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2200,6 +2564,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Fugitivoart",
+            "alias": "",
+            "position": "121",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2218,6 +2585,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Reza fachrul azis",
+            "alias": "",
+            "position": "122",
+            "rotated": false,
             "notes": "!tag Renekton\n!tag Nasus"
         },
         {
@@ -2236,6 +2606,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jason Chan",
+            "alias": "",
+            "position": "123",
+            "rotated": false,
             "notes": "!tag Taliyah"
         },
         {
@@ -2246,7 +2619,7 @@
             "number": 30,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "When Jax enters, create Lamppost, a legendary colorless Equipment artifact token with equip {2} and \u201cEquipped creature gets +1/+1 and has all abilities of keyword counters on it.\u201d If you already control a Lamppost, put your choice of a first strike, lifelink, flying, or a vigilance counter on it. If it already has all four, put an indestructible and double strike counter on it.",
+            "rules_text": "When Jax enters, create Lamppost, a legendary colorless Equipment artifact token with equip {2} and \u201cEquipped creature gets +1/+1 and has all abilities of keyword counters on Lampost.\u201d If you already control a Lamppost, put your choice of a first strike, lifelink, flying, or a vigilance counter on it. If it already has all four, put an indestructible and double strike counter on it.",
             "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
@@ -2254,6 +2627,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Brim Stone",
+            "alias": "",
+            "position": "124",
+            "rotated": false,
             "notes": "!tag Jax"
         },
         {
@@ -2272,6 +2648,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Michal Ivan",
+            "alias": "",
+            "position": "125",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2290,6 +2669,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Dongling guo",
+            "alias": "",
+            "position": "126",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2308,6 +2690,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Zuoan",
+            "alias": "",
+            "position": "127",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2326,6 +2711,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Thai Thanh",
+            "alias": "",
+            "position": "128",
+            "rotated": false,
             "notes": "!tag Jax"
         },
         {
@@ -2344,6 +2732,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Will Gist",
+            "alias": "",
+            "position": "129",
+            "rotated": false,
             "notes": "!tag Nasus"
         },
         {
@@ -2362,6 +2753,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Herbie Wang",
+            "alias": "",
+            "position": "130",
+            "rotated": false,
             "notes": "!tag Khahiri"
         },
         {
@@ -2373,14 +2767,17 @@
             "color_identity": "U",
             "cost": "{U}{U}{U}",
             "rules_text": "At the beginning of your upkeep, draw two cards.\nAt the beginning of your end step, discard your hand.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]\u201cXerath comes! The Magus Ascendant approaches! Witness divinity! Submit or perish!\u201d[/i]",
             "pt": "2/4",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Masaki Hsu",
-            "notes": "ftftftftftft"
+            "alias": "",
+            "position": "131",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Relic Speaker",
@@ -2398,6 +2795,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Juilherme Da Cas",
+            "alias": "",
+            "position": "132",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2416,6 +2816,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Chris Kintner",
+            "alias": "",
+            "position": "133",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2434,6 +2837,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Kudos Productions",
+            "alias": "",
+            "position": "134",
+            "rotated": false,
             "notes": "!tag Azir"
         },
         {
@@ -2452,6 +2858,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Plar Engine",
+            "alias": "",
+            "position": "135",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2470,6 +2879,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jorcerca",
+            "alias": "",
+            "position": "136",
+            "rotated": false,
             "notes": "!tag Cho'Gath"
         },
         {
@@ -2488,6 +2900,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Masaki Hsu",
+            "alias": "",
+            "position": "137",
+            "rotated": false,
             "notes": "!tag Evelynn"
         },
         {
@@ -2506,6 +2921,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Oussama Agazzoum",
+            "alias": "",
+            "position": "138",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2516,7 +2934,7 @@
             "number": 112,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "Flying\nWhen Void Abomination enters, draw three cards.\nAt the beginning of your end step, you lose 2 life for each card in your hand.",
+            "rules_text": "Flying\nWhen Void Abomination enters, draw three cards.\nAt the beginning of your end step, you may discard any number of cards. Then you lose 2 life for each card in your hand.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -2524,7 +2942,10 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "yue yue",
-            "notes": "!tag Wishlist"
+            "alias": "",
+            "position": "139",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Death of Divinity",
@@ -2542,6 +2963,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Iqnatius Budi",
+            "alias": "",
+            "position": "140",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2553,13 +2977,16 @@
             "color_identity": "B",
             "cost": "{1}{B}{B}",
             "rules_text": "At the beginning of your end step, you may sacrifice a creature. If you do, create a 4/3 black Horror creature token.",
-            "flavor_text": "[i]Malzahar's sermon ended simply: \u201cShe will have it.\u201d The desert opened. Hundreds plummeted into the lavender abyss, memories dissolving and their screams stopped. Only the Void remained.[/i]",
+            "flavor_text": "[i]Malzahar's sermon ended simply: \u201cShe will have it.\u201d The desert opened.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Nic Boone",
+            "alias": "",
+            "position": "141",
+            "rotated": false,
             "notes": "!tag Malzahar"
         },
         {
@@ -2578,6 +3005,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jonathan Vera",
+            "alias": "",
+            "position": "142",
+            "rotated": false,
             "notes": "!tag Amumu"
         },
         {
@@ -2589,14 +3019,17 @@
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Haste\nWhenever a Desert you control enters, you may cast Relentless Sandthresher from your graveyard.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]Sandthreshers follow Renekton's every move. When the Butcher demands sacrifice, they provide.[/i]",
             "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Ilker Serdar",
-            "notes": "!tag Wishlist\nftftftftftft"
+            "alias": "",
+            "position": "143",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Horned Swarmcaller",
@@ -2614,6 +3047,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Vu nguyen",
+            "alias": "",
+            "position": "144",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2623,15 +3059,18 @@
             "type": "Creature \u2014 Yordle Merchant",
             "number": 150,
             "color_identity": "R",
-            "cost": "{1}{R}",
-            "rules_text": "Whenever Wandering Yordle attacks, up to one target nontoken creature you don't control traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i]",
+            "cost": "{2}{R}",
+            "rules_text": "Haste\nWhenever Wandering Yordle attacks, up to one target nontoken creature you don't control traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i]",
             "flavor_text": "[i][/i]",
-            "pt": "3/2",
+            "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Gustavo Soares",
+            "alias": "",
+            "position": "145",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2639,7 +3078,7 @@
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 145,
+            "number": 146,
             "color_identity": "R",
             "cost": "{X}{R}{R}",
             "rules_text": "Subterranean Collapse deals X damage to each creature. Until end of turn, whenever a nontoken creature you control dies, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]",
@@ -2650,6 +3089,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Elena Bespalova",
+            "alias": "",
+            "position": "146",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2668,6 +3110,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Grace Kum",
+            "alias": "",
+            "position": "147",
+            "rotated": false,
             "notes": "!tag Ezreal"
         },
         {
@@ -2686,6 +3131,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Greez",
+            "alias": "",
+            "position": "148",
+            "rotated": false,
             "notes": "!tag Taliyah"
         },
         {
@@ -2704,6 +3152,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Dao Trong Le",
+            "alias": "",
+            "position": "149",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2722,6 +3173,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Putridcheese",
+            "alias": "",
+            "position": "150",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2740,6 +3194,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Leija Chan",
+            "alias": "",
+            "position": "151",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2758,6 +3215,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Taylor Jansen",
+            "alias": "",
+            "position": "152",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2776,6 +3236,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Raccoonwolf",
+            "alias": "",
+            "position": "153",
+            "rotated": false,
             "notes": "!tag Nasus"
         },
         {
@@ -2794,6 +3257,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Harpiya",
+            "alias": "",
+            "position": "154",
+            "rotated": false,
             "notes": "!tag Sivir"
         },
         {
@@ -2812,6 +3278,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Rio Sabda",
+            "alias": "",
+            "position": "155",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2830,6 +3299,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Hou China",
+            "alias": "",
+            "position": "156",
+            "rotated": false,
             "notes": "!tag Khahiri"
         },
         {
@@ -2848,6 +3320,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "rain 5615",
+            "alias": "",
+            "position": "157",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2866,6 +3341,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Envar Studio",
+            "alias": "",
+            "position": "158",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2884,6 +3362,9 @@
             "set": "SHU",
             "loyalty": "4",
             "artist": "Patrick Faulwetter",
+            "alias": "",
+            "position": "159",
+            "rotated": true,
             "notes": ""
         },
         {
@@ -2902,7 +3383,10 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "- LASSO \u2014, Fei ren, and Yuyu Wong",
-            "notes": "!tag Ziggs\nftftftftftft"
+            "alias": "",
+            "position": "160",
+            "rotated": false,
+            "notes": "!tag Ziggs\n"
         },
         {
             "card_name": "The Bird and the Branch",
@@ -2920,6 +3404,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Guilherme Hossa",
+            "alias": "",
+            "position": "161",
+            "rotated": false,
             "notes": "!tag Yasuo\n!tag Taliyah"
         },
         {
@@ -2938,6 +3425,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jack Hsu",
+            "alias": "",
+            "position": "162",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2956,6 +3446,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Herbie Wang",
+            "alias": "",
+            "position": "163",
+            "rotated": false,
             "notes": "Multicolor"
         },
         {
@@ -2974,6 +3467,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Maisie Yang",
+            "alias": "",
+            "position": "164",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -2992,6 +3488,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Pukun Wang",
+            "alias": "",
+            "position": "165",
+            "rotated": false,
             "notes": "Multicolor"
         },
         {
@@ -3010,6 +3509,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Tim Warnock",
+            "alias": "",
+            "position": "166",
+            "rotated": false,
             "notes": "!tag Renekton"
         },
         {
@@ -3028,6 +3530,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Ilker Serdar",
+            "alias": "",
+            "position": "167",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3046,6 +3551,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Tuanz",
+            "alias": "",
+            "position": "168",
+            "rotated": false,
             "notes": "Multicolor"
         },
         {
@@ -3064,6 +3572,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Divebound Studio",
+            "alias": "",
+            "position": "169",
+            "rotated": false,
             "notes": "Multicolor"
         },
         {
@@ -3075,13 +3586,16 @@
             "color_identity": "BG",
             "cost": "{BG}{BG}{BG}",
             "rules_text": "Mill three cards. You may return a permanent card from your graveyard to your hand.\nCreate a 2/1 green Druid creature token.",
-            "flavor_text": "[i]\u201cI cannot free you yet,\u201d Azir admitted, his voice heavy with guilt. \u201cBut I can give you this: a name. Xerath. Let it be the first gift of many. One day, I swear, you will be my brother in truth.\u201d[/i]",
+            "flavor_text": "[i]\u201cI cannot free you yet,\u201d Azir admitted, his voice heavy with guilt. \u201cBut I can give you this: a name. Xerath. Let it be the first gift of many.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "ELAIM",
+            "alias": "",
+            "position": "170",
+            "rotated": false,
             "notes": "!tag Xerath\n!tag Azir\nMulticolor"
         },
         {
@@ -3093,13 +3607,16 @@
             "color_identity": "WR",
             "cost": "{2}{RW}{RW}",
             "rules_text": "Flash\nWhen Voice of the Risen enters, target creature gets +1/+0 and gains double strike until end of turn.",
-            "flavor_text": "[i]\u201cAll gather and listen. Shurima is here and the proud Azir is guiding our hand once more. Look towards the sun for a bright future for all of Shurima.\u201d[/i]",
+            "flavor_text": "[i]\u201cAll gather and listen. Shurima is here and Azir is guiding our hand once more. Look towards the sun for a bright future for all of Shurima.\u201d[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Eunice Ye",
+            "alias": "",
+            "position": "171",
+            "rotated": false,
             "notes": "Multicolor"
         },
         {
@@ -3111,13 +3628,16 @@
             "color_identity": "UG",
             "cost": "{X}{X}{GU}{GU}",
             "rules_text": "For each of X target creatures you control, create a token that's a copy of it.",
-            "flavor_text": "[i]K'Sante was able to fight any monster that dared step in front of him. But, the greatest monster that he ever had to fight was one of his own making. His own pride and arrogance.[/i]",
+            "flavor_text": "[i]K'Sante was able to fight any monster that dared step in front of him. But, the greatest monster that he ever had to fight was one of his own making.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Eddy Production",
+            "alias": "",
+            "position": "172",
+            "rotated": false,
             "notes": "!tag K'Sante\nMulticolor"
         },
         {
@@ -3136,6 +3656,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Hugo Lam and Michal Ivan",
+            "alias": "",
+            "position": "173",
+            "rotated": false,
             "notes": "!tag Zilean"
         },
         {
@@ -3154,7 +3677,10 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Maria Santana",
-            "notes": "!tag Wishlist"
+            "alias": "",
+            "position": "174",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "The Fall of Shurima",
@@ -3172,6 +3698,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Oma Om",
+            "alias": "",
+            "position": "175",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3190,6 +3719,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Envar Studio",
+            "alias": "",
+            "position": "176",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3208,7 +3740,10 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Julia Smirnova",
-            "notes": "ftftftftftft"
+            "alias": "",
+            "position": "177",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Betrayal of Brotherhood",
@@ -3219,13 +3754,16 @@
             "color_identity": "WB",
             "cost": "{W}{B}",
             "rules_text": "As an additional cost to cast this spell, pay X life.\nEach opponent sacrifices a nonland permanent with mana value X or greater.",
-            "flavor_text": "[i]Xerath had prepared for betrayal, for excuses and for more of Azir's broken promises. He was not prepared for the truth. But, that wouldn't stop him. He would become a god.[/i]",
+            "flavor_text": "[i]Xerath had prepared for betrayal, for excuses, and for more of Azir's broken promises. He was not prepared for the truth. But, that wouldn't stop him.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "ELAIM",
+            "alias": "",
+            "position": "178",
+            "rotated": false,
             "notes": "!tag Xerath"
         },
         {
@@ -3244,6 +3782,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "voldemort_awei",
+            "alias": "",
+            "position": "179",
+            "rotated": false,
             "notes": "!tag Kassadin"
         },
         {
@@ -3262,6 +3803,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Blake Byun",
+            "alias": "",
+            "position": "180",
+            "rotated": false,
             "notes": "!tag Cassiopeia"
         },
         {
@@ -3280,6 +3824,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Emina",
+            "alias": "",
+            "position": "181",
+            "rotated": false,
             "notes": "!tag Kai'sa"
         },
         {
@@ -3298,6 +3845,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Will Gist",
+            "alias": "",
+            "position": "182",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3316,6 +3866,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Polar Engine",
+            "alias": "",
+            "position": "183",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3334,6 +3887,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Park Jun Seong",
+            "alias": "",
+            "position": "184",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3352,6 +3908,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Michal Ivan",
+            "alias": "",
+            "position": "185",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3370,6 +3929,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jack Hsu",
+            "alias": "",
+            "position": "186",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3388,7 +3950,10 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Kudos Productions",
-            "notes": "ftftftftftft"
+            "alias": "",
+            "position": "187",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Guardian of Tombs",
@@ -3406,6 +3971,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Todor Hristov",
+            "alias": "",
+            "position": "188",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3424,6 +3992,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Tsrodriguez",
+            "alias": "",
+            "position": "189",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3442,6 +4013,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Grace Kum",
+            "alias": "",
+            "position": "190",
+            "rotated": false,
             "notes": "!tag Ezreal"
         },
         {
@@ -3460,96 +4034,114 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Kudos Productions",
+            "alias": "",
+            "position": "191",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "Flourishing Lowlands",
+            "card_name": "Reborn Gardens",
             "color": "",
             "rarity": "uncommon",
             "type": "Land \u2014 Desert",
-            "number": 263,
+            "number": 273,
             "color_identity": "G",
             "cost": "",
-            "rules_text": "Flourishing Lowlands enters tapped.\n{T}: Add {G}.\nDesertcycling {1}{G} [i]({1}{G}, Discard this card: Search your library for a Desert card, reveal it, put it into your hand, then shuffle.)[/i]",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Reborn Gardens enters tapped.\n{T}: Add {G}.\nCycling {G} [i]({G}, Discard this card: Draw a card.)[/i]",
+            "flavor_text": "[i]Near the risen capital, Azir's will coaxes life from sand.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Gunship Revolution",
+            "alias": "",
+            "position": "192",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "Raintouched Basin",
+            "card_name": "Timeless Sanctuary",
             "color": "",
             "rarity": "uncommon",
             "type": "Land \u2014 Desert",
-            "number": 273,
+            "number": 279,
             "color_identity": "U",
             "cost": "",
-            "rules_text": "Raintouched Basin enters tapped.\n{T}: Add {U}.\nDesertcycling {1}{U} [i]({1}{U}, Discard this card: Search your library for a Desert card, reveal it, put it into your hand, then shuffle.)[/i]",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Timeless Sanctuary enters tapped.\n{T}: Add {U}.\nCycling {U} [i]({U}, Discard this card: Draw a card.)[/i]",
+            "flavor_text": "[i]Zilean holds a fragment of Icathia outside of time itself.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Polar Engine",
+            "alias": "",
+            "position": "193",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "Scoured Mesa",
+            "card_name": "Barren Salt Flats",
             "color": "",
             "rarity": "uncommon",
             "type": "Land \u2014 Desert",
-            "number": 276,
+            "number": 257,
             "color_identity": "W",
             "cost": "",
-            "rules_text": "Scoured Mesa enters tapped.\n{T}: Add {W}.\nDesertcycling {1}{W} [i]({1}{W}, Discard this card: Search your library for a Desert card, reveal it, put it into your hand, then shuffle.)[/i]",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Barren Salt Flats enters tapped.\n{T}: Add {W}.\nCycling {W} [i]({W}, Discard this card: Draw a card.)[/i]",
+            "flavor_text": "[i]Where water once flowed, only salt remains.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Enora",
+            "alias": "",
+            "position": "194",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "Silent Ridge",
+            "card_name": "Zoantha Cascade",
             "color": "",
             "rarity": "uncommon",
             "type": "Land \u2014 Desert",
-            "number": 278,
+            "number": 289,
             "color_identity": "B",
             "cost": "",
-            "rules_text": "Silent Ridge enters tapped.\n{T}: Add {B}.\nDesertcycling {1}{B} [i]({1}{B}, Discard this card: Search your library for a Desert card, reveal it, put it into your hand, then shuffle.)[/i]",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Zoantha Cascade enters tapped.\n{T}: Add {B}.\nCycling {B} [i]({B}, Discard this card: Draw a card.)[/i]",
+            "flavor_text": "[i]The shifting tides of the desert have been known to carve paths through bare rock, tumbling over the cliff faces in massive sandfalls.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Section Studios",
+            "alias": "",
+            "position": "195",
+            "rotated": false,
             "notes": ""
         },
         {
-            "card_name": "Windworn Spires",
+            "card_name": "Vekaura Ruins",
             "color": "",
             "rarity": "uncommon",
             "type": "Land \u2014 Desert",
-            "number": 286,
+            "number": 285,
             "color_identity": "R",
             "cost": "",
-            "rules_text": "Windworn Spires enters tapped.\n{T}: Add {R}.\nDesertcycling {1}{R} [i]({1}{R}, Discard this card: Search your library for a Desert card, reveal it, put it into your hand, then shuffle.)[/i]",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Vekaura Ruins enters tapped.\n{T}: Add {R}.\nCycling {R} [i]({R}, Discard this card: Draw a card.)[/i]",
+            "flavor_text": "[i]Once a thriving city. Now a raider camp built on ash and bones.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Jayison Devadas",
+            "alias": "",
+            "position": "196",
+            "rotated": false,
             "notes": "!tag Renekton"
         },
         {
@@ -3568,6 +4160,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Iqnatius Budi",
+            "alias": "",
+            "position": "197",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3586,6 +4181,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Dinulescu Alexandru",
+            "alias": "",
+            "position": "198",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3604,6 +4202,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Dakota Curry",
+            "alias": "",
+            "position": "199",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3622,6 +4223,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Chris Kintner",
+            "alias": "",
+            "position": "200",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3640,6 +4244,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Guan Yu Chen",
+            "alias": "",
+            "position": "201",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3647,7 +4254,7 @@
             "color": "",
             "rarity": "rare",
             "type": "Land \u2014 Desert",
-            "number": 289,
+            "number": 288,
             "color_identity": "W",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add {W}.\n{2}{W}, {T}, Sacrifice a Desert: Return target artifact or enchantment card from your graveyard to your hand.",
@@ -3658,6 +4265,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "REMBERT MONTALD",
+            "alias": "",
+            "position": "202",
+            "rotated": false,
             "notes": "!tag Kai'Sa\n!tag Taliyah"
         },
         {
@@ -3665,7 +4275,7 @@
             "color": "",
             "rarity": "rare",
             "type": "Land \u2014 Desert",
-            "number": 261,
+            "number": 262,
             "color_identity": "U",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add {U}.\n{1}{U}, {T}, Sacrifice a Desert: Draw a card.",
@@ -3676,6 +4286,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Quy Ho",
+            "alias": "",
+            "position": "203",
+            "rotated": false,
             "notes": "!tag Nasus"
         },
         {
@@ -3694,6 +4307,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Whitemar3",
+            "alias": "",
+            "position": "204",
+            "rotated": false,
             "notes": "!tag Bel'Veth"
         },
         {
@@ -3712,6 +4328,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Sky 545",
+            "alias": "",
+            "position": "205",
+            "rotated": false,
             "notes": "!tag Renekton"
         },
         {
@@ -3730,6 +4349,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Michal Ivan",
+            "alias": "",
+            "position": "206",
+            "rotated": false,
             "notes": "!tag Xerath"
         },
         {
@@ -3748,6 +4370,8 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Kirino03",
+            "alias": "",
+            "position": "207",
             "card_name2": "The Darkin Blade",
             "color2": "",
             "type2": "Legendary Artifact \u2014 Equipment",
@@ -3758,6 +4382,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "We Are Royale Studio",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Naafiri"
         },
         {
@@ -3776,6 +4403,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Mahdi Motazedi",
+            "alias": "",
+            "position": "208",
+            "rotated": false,
             "notes": "!tag Nasus"
         },
         {
@@ -3794,6 +4424,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "TQZeng",
+            "alias": "",
+            "position": "209",
+            "rotated": false,
             "notes": "!tag Azir"
         },
         {
@@ -3812,6 +4445,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Kamiyamark",
+            "alias": "",
+            "position": "210",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3823,14 +4459,17 @@
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "{2}{V}: Return Unyielding Warden from your graveyard to the battlefield tapped. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]Ryze looked up towards the guardian. It was here before him and it would be here after his departure.[/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Arnaud Loris Baudry",
-            "notes": "ftftftftftft"
+            "alias": "",
+            "position": "211",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Acolyte's Reliquary",
@@ -3848,6 +4487,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Kudos Productions",
+            "alias": "",
+            "position": "212",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3866,6 +4508,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Fei Ren",
+            "alias": "",
+            "position": "213",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3873,7 +4518,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Desert",
-            "number": 260,
+            "number": 261,
             "color_identity": "C",
             "cost": "",
             "rules_text": "When Conduit Pylons enters, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]\n{T}: Add {C}.\n{1}, {T}: Add one mana of any color.",
@@ -3884,6 +4529,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Stan Huang, Alan Lan, Chun-Yang Chen",
+            "alias": "",
+            "position": "214",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3891,7 +4539,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Desert",
-            "number": 262,
+            "number": 263,
             "color_identity": "WG",
             "cost": "",
             "rules_text": "Enduring Sands enters tapped unless there is a Desert card in your graveyard.\n{T}: Add {G} or {W}.",
@@ -3902,6 +4550,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Li Dan",
+            "alias": "",
+            "position": "215",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3909,17 +4560,20 @@
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Desert",
-            "number": 277,
+            "number": 276,
             "color_identity": "RG",
             "cost": "",
             "rules_text": "Shattered Sands enters tapped unless there is a Desert card in your graveyard.\n{T}: Add {R} or {G}.",
-            "flavor_text": "[i]The fractured landscape draws treasure hunters like vultures to carrion. Most return with trinkets. Some return with curses.[/i]",
+            "flavor_text": "[i]The fractured landscape draws treasure hunters like vultures to carrion.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Section Studios",
+            "alias": "",
+            "position": "216",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3927,7 +4581,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Desert",
-            "number": 259,
+            "number": 260,
             "color_identity": "UR",
             "cost": "",
             "rules_text": "Carved Sands enters tapped unless there is a Desert card in your graveyard.\n{T}: Add {U} or {R}.",
@@ -3938,6 +4592,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Efflam Mercier",
+            "alias": "",
+            "position": "217",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3945,7 +4602,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Desert",
-            "number": 280,
+            "number": 278,
             "color_identity": "WR",
             "cost": "",
             "rules_text": "Suspended Sands enters tapped unless there is a Desert card in your graveyard.\n{T}: Add {R} or {W}.",
@@ -3956,6 +4613,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Quy Ho",
+            "alias": "",
+            "position": "218",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3974,6 +4634,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Efflam Mercier",
+            "alias": "",
+            "position": "219",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -3985,13 +4648,16 @@
             "color_identity": "WU",
             "cost": "",
             "rules_text": "Gleaming Sands enters tapped unless there is a Desert card in your graveyard.\n{T}: Add {W} or {U}.",
-            "flavor_text": "[i]Mineral deposits make this formation shine like polished gold. Scavengers once mistook it for treasure. They climbed it eagerly, found only stone, and descended disappointed. [/i]",
+            "flavor_text": "[i]Mineral deposits make this formation shine like polished gold. Scavengers once mistook it for treasure.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Andres Martinez",
+            "alias": "",
+            "position": "220",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4010,6 +4676,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Quy Ho",
+            "alias": "",
+            "position": "221",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4017,7 +4686,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Desert",
-            "number": 283,
+            "number": 282,
             "color_identity": "UG",
             "cost": "",
             "rules_text": "Tranquil Sands enters tapped unless there is a Desert card in your graveyard.\n{T}: Add {G} or {U}.",
@@ -4028,6 +4697,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Andres Martinez",
+            "alias": "",
+            "position": "222",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4035,17 +4707,20 @@
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Desert",
-            "number": 258,
+            "number": 259,
             "color_identity": "BR",
             "cost": "",
             "rules_text": "Blighted Sands enters tapped unless there is a Desert card in your graveyard.\n{T}: Add {B} or {R}.",
-            "flavor_text": "[i]Icathia's wound never healed. The ground still remembers the Void's first touch, when reality tore open and swallowed a civilization whole. [/i]",
+            "flavor_text": "[i]Icathia's wound never healed. The ground still remembers the Void's first touch.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Patrick Faulwetter",
+            "alias": "",
+            "position": "223",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4053,7 +4728,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Desert",
-            "number": 284,
+            "number": 283,
             "color_identity": "UB",
             "cost": "",
             "rules_text": "Twisted Sands enters tapped unless there is a Desert card in your graveyard.\n{T}: Add {U} or {B}.",
@@ -4064,6 +4739,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Andres Martinez",
+            "alias": "",
+            "position": "224",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4082,6 +4760,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Ivan Fomin",
+            "alias": "",
+            "position": "225",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4100,6 +4781,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Nikola Chobanov",
+            "alias": "",
+            "position": "226",
+            "rotated": false,
             "notes": "!tag Akshan"
         },
         {
@@ -4118,6 +4802,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Opus Artz",
+            "alias": "",
+            "position": "227",
+            "rotated": false,
             "notes": "!tag K'Sante"
         },
         {
@@ -4136,6 +4823,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Polar Engine",
+            "alias": "",
+            "position": "228",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4154,6 +4844,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Michal Ivan",
+            "alias": "",
+            "position": "229",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4172,6 +4865,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Andy Alexxxx",
+            "alias": "",
+            "position": "230",
+            "rotated": false,
             "notes": "!tag Kai'Sa\n!tag Bel'Veth"
         },
         {
@@ -4190,6 +4886,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Masaki Hsu",
+            "alias": "",
+            "position": "231",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4208,6 +4907,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "REMBERT MONTALD",
+            "alias": "",
+            "position": "232",
+            "rotated": false,
             "notes": "!tag Kai'Sa"
         },
         {
@@ -4226,6 +4928,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Paulo Silvano",
+            "alias": "",
+            "position": "233",
+            "rotated": false,
             "notes": "!tag Amumu"
         },
         {
@@ -4244,6 +4949,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Eleventh Hour Games",
+            "alias": "",
+            "position": "234",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4262,6 +4970,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Raccoonwolf",
+            "alias": "",
+            "position": "235",
+            "rotated": false,
             "notes": "!tag Nasus\n!tag Renketon"
         },
         {
@@ -4280,6 +4991,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Herbie Wang",
+            "alias": "",
+            "position": "236",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4298,6 +5012,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Hou China, Yunpeng Wang, Suojia Chen",
+            "alias": "",
+            "position": "237",
+            "rotated": false,
             "notes": "Multicolor"
         },
         {
@@ -4316,6 +5033,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "zhouzx1026",
+            "alias": "",
+            "position": "238",
+            "rotated": false,
             "notes": "Multicolor"
         },
         {
@@ -4334,6 +5054,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Riot Games",
+            "alias": "",
+            "position": "239",
+            "rotated": false,
             "notes": "!tag Xolaani"
         },
         {
@@ -4352,6 +5075,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Iqnatius Budi",
+            "alias": "",
+            "position": "240",
+            "rotated": false,
             "notes": "Multicolor"
         },
         {
@@ -4370,6 +5096,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Maisie Yang",
+            "alias": "",
+            "position": "241",
+            "rotated": false,
             "notes": "!tag Zilean"
         },
         {
@@ -4388,6 +5117,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Kevin Sidharta",
+            "alias": "",
+            "position": "242",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4399,14 +5131,17 @@
             "color_identity": "WR",
             "cost": "{3}{R}{W}",
             "rules_text": "Lifelink\nWhenever a creature you control enters from exile, creatures you control get +1/+0 and gain haste until end of turn.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]Long ago, the river Khaleek bore a great trading post known as Taraleek. That is until one day, a mighty beast broke through the ground, destroying everything. [/i]",
             "pt": "4/5",
             "special_text": "",
             "shape": "normal",
             "set": "SHU",
             "loyalty": "",
             "artist": "Iqnatius Budi",
-            "notes": "ftftftftftft"
+            "alias": "",
+            "position": "243",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Reconstruct the Sun Disc",
@@ -4424,6 +5159,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Mon G",
+            "alias": "",
+            "position": "244",
+            "rotated": false,
             "notes": "!tag Azir"
         },
         {
@@ -4442,6 +5180,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Andrew Chou",
+            "alias": "",
+            "position": "245",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4460,6 +5201,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Chris Kitner",
+            "alias": "",
+            "position": "246",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4478,6 +5222,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Gong Studios",
+            "alias": "",
+            "position": "247",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4496,6 +5243,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Angga Dwipayana",
+            "alias": "",
+            "position": "248",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4514,6 +5264,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Polar Engine",
+            "alias": "",
+            "position": "249",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4532,6 +5285,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Cole Eastburn",
+            "alias": "",
+            "position": "250",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4550,6 +5306,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Sho Xiang",
+            "alias": "",
+            "position": "251",
+            "rotated": false,
             "notes": "!tag K'sante"
         },
         {
@@ -4568,6 +5327,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Robin Heinzmann",
+            "alias": "",
+            "position": "252",
+            "rotated": false,
             "notes": "!tag Malzahar"
         },
         {
@@ -4586,6 +5348,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Roanna Perez",
+            "alias": "",
+            "position": "253",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4604,6 +5369,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Hou China",
+            "alias": "",
+            "position": "254",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4622,6 +5390,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Herbie Wang",
+            "alias": "",
+            "position": "255",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4640,6 +5411,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jason Wang",
+            "alias": "",
+            "position": "256",
+            "rotated": false,
             "notes": "!tag Rammus"
         },
         {
@@ -4658,6 +5432,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jiunn Kuo",
+            "alias": "",
+            "position": "257",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4676,6 +5453,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jonezjar",
+            "alias": "",
+            "position": "258",
+            "rotated": false,
             "notes": "!tag Bel'Veth"
         },
         {
@@ -4694,6 +5474,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Shenze Yang",
+            "alias": "",
+            "position": "259",
+            "rotated": false,
             "notes": "!tag Sivir"
         },
         {
@@ -4712,6 +5495,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "SpTASIL",
+            "alias": "",
+            "position": "260",
+            "rotated": false,
             "notes": "!tag Rek'Sai"
         },
         {
@@ -4719,7 +5505,7 @@
             "color": "",
             "rarity": "rare",
             "type": "Land \u2014 Desert",
-            "number": 287,
+            "number": 286,
             "color_identity": "G",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add {G}.\n{2}{G}, {T}, Sacrifice a Desert: Create a 2/2 black Horror creature token. It can't block this turn.",
@@ -4730,6 +5516,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Snoweng",
+            "alias": "",
+            "position": "261",
+            "rotated": false,
             "notes": "!tag Rek'Sai"
         },
         {
@@ -4737,7 +5526,7 @@
             "color": "",
             "rarity": "rare",
             "type": "Land \u2014 Desert",
-            "number": 279,
+            "number": 277,
             "color_identity": "R",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add {R}.\n{2}{R}{R}, {T}, Sacrifice a Desert: Sunken Capital deals 2 damage to target opponent.",
@@ -4748,6 +5537,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Yadolin Huang",
+            "alias": "",
+            "position": "262",
+            "rotated": false,
             "notes": "!tag Azir"
         },
         {
@@ -4766,6 +5558,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Ben shaw",
+            "alias": "",
+            "position": "263",
+            "rotated": false,
             "notes": "!tag Akshan"
         },
         {
@@ -4784,6 +5579,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Dylan Deng",
+            "alias": "",
+            "position": "264",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4802,6 +5600,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Marcos Kenji Uchima",
+            "alias": "",
+            "position": "265",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4820,6 +5621,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Ilse Harting, Pedro Envar Studio, and Gabriel Rubio",
+            "alias": "",
+            "position": "266",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4838,6 +5642,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Xavier Minguell",
+            "alias": "",
+            "position": "267",
+            "rotated": false,
             "notes": "!tag Kai'Sa\n!tag Bel'Veth"
         },
         {
@@ -4856,6 +5663,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Nocturna Draco",
+            "alias": "",
+            "position": "268",
+            "rotated": false,
             "notes": "!tag Renekton"
         },
         {
@@ -4874,6 +5684,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Deadro",
+            "alias": "",
+            "position": "269",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4892,6 +5705,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Fajareka Setiawan",
+            "alias": "",
+            "position": "270",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4910,6 +5726,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Asep Ariyanto",
+            "alias": "",
+            "position": "271",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -4928,6 +5747,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Park Jun Seong",
+            "alias": "",
+            "position": "272",
+            "rotated": false,
             "notes": "!tag Azir"
         },
         {
@@ -4946,6 +5768,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Will Gist",
+            "alias": "",
+            "position": "273",
+            "rotated": false,
             "notes": "!tag Azir"
         },
         {
@@ -4964,6 +5789,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Sim Singh",
+            "alias": "",
+            "position": "274",
+            "rotated": false,
             "notes": "!tag Sivir"
         },
         {
@@ -4982,6 +5810,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Whitemar3",
+            "alias": "",
+            "position": "275",
+            "rotated": false,
             "notes": "!tag Renekton"
         },
         {
@@ -5000,6 +5831,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Patrick Faulwetter",
+            "alias": "",
+            "position": "276",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5018,6 +5852,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jayison Devadas",
+            "alias": "",
+            "position": "277",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5036,6 +5873,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Section Studios",
+            "alias": "",
+            "position": "278",
+            "rotated": false,
             "notes": "AscendLandCycle"
         },
         {
@@ -5054,6 +5894,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Riot Games",
+            "alias": "",
+            "position": "279",
+            "rotated": false,
             "notes": "AscendLandCycle"
         },
         {
@@ -5061,7 +5904,7 @@
             "color": "",
             "rarity": "rare",
             "type": "Land",
-            "number": 288,
+            "number": 287,
             "color_identity": "WR",
             "cost": "",
             "rules_text": "Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]\n{T}: Add {C}.\n{R}{W}, {T}: Creatures you control get +1/+0 and gain haste until end of turn. Activate only if you have the city's blessing.",
@@ -5072,6 +5915,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "REMBERT MONTALD",
+            "alias": "",
+            "position": "280",
+            "rotated": false,
             "notes": "AscendLandCycle"
         },
         {
@@ -5090,6 +5936,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Lucas Helmintoller",
+            "alias": "",
+            "position": "281",
+            "rotated": false,
             "notes": "AscendLandCycle"
         },
         {
@@ -5097,7 +5946,7 @@
             "color": "",
             "rarity": "rare",
             "type": "Land",
-            "number": 257,
+            "number": 258,
             "color_identity": "UR",
             "cost": "",
             "rules_text": "Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]\n{T}: Add {C}.\n{1}{U}{R}, {T}: Copy target instant or sorcery spell you control. You may choose new targets for the copy. Activate only if you have the city's blessing.",
@@ -5108,6 +5957,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Section Studios",
+            "alias": "",
+            "position": "282",
+            "rotated": false,
             "notes": "AscendLandCycle"
         },
         {
@@ -5115,7 +5967,7 @@
             "color": "",
             "rarity": "rare",
             "type": "Land",
-            "number": 281,
+            "number": 280,
             "color_identity": "WB",
             "cost": "",
             "rules_text": "Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]\n{T}: Add {C}.\n{W}{B}, {T}, Discard a card: You may cast target creature card from your graveyard. It enters with a finality counter. Activate only if you have the city's blessing and only as a sorcery.",
@@ -5126,6 +5978,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Charles Lee",
+            "alias": "",
+            "position": "283",
+            "rotated": false,
             "notes": "AscendLandCycle"
         },
         {
@@ -5144,6 +5999,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Cuba Lee",
+            "alias": "",
+            "position": "284",
+            "rotated": false,
             "notes": "AscendLandCycle"
         },
         {
@@ -5151,7 +6009,7 @@
             "color": "",
             "rarity": "rare",
             "type": "Land",
-            "number": 285,
+            "number": 284,
             "color_identity": "BR",
             "cost": "",
             "rules_text": "Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]\n{T}: Add {C}.\n{1}{B}{R}, {T}: Draw a card unless an opponent has Vekaura deal 3 damage to them. Activate only if you have the city's blessing.",
@@ -5162,6 +6020,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Guan Yu",
+            "alias": "",
+            "position": "285",
+            "rotated": false,
             "notes": "!tag Akshan\nAscendLandCycle"
         },
         {
@@ -5180,6 +6041,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Quy Ho",
+            "alias": "",
+            "position": "286",
+            "rotated": false,
             "notes": "AscendLandCycle"
         },
         {
@@ -5187,7 +6051,7 @@
             "color": "",
             "rarity": "rare",
             "type": "Land",
-            "number": 282,
+            "number": 281,
             "color_identity": "WU",
             "cost": "",
             "rules_text": "Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]\n{T}: Add {C}.\n{W}{U}, {T}: Exile target permanent you control, then return to the battlefield. Activate only if you have the city's blessing and only during your turn.",
@@ -5198,6 +6062,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Maisie Yang",
+            "alias": "",
+            "position": "287",
+            "rotated": false,
             "notes": "AscendLandCycle"
         },
         {
@@ -5216,7 +6083,10 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Jack Hsu",
-            "notes": "!tag Azir\n!tag Wishlist"
+            "alias": "",
+            "position": "288",
+            "rotated": false,
+            "notes": "!tag Azir"
         },
         {
             "card_name": "Sand Soldier",
@@ -5234,6 +6104,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Iqnatius Budi, Masaki Hsu, and Anson Tan",
+            "alias": "",
+            "position": "289",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5252,6 +6125,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Taekwon Kim",
+            "alias": "",
+            "position": "290",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5270,6 +6146,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Cata_1029",
+            "alias": "",
+            "position": "291",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5288,6 +6167,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Anastasia Ovchinnikova",
+            "alias": "",
+            "position": "292",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5306,6 +6188,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Kevin Sidharta",
+            "alias": "",
+            "position": "293",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5324,6 +6209,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Randi Sanchez Verduga",
+            "alias": "",
+            "position": "294",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5342,6 +6230,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Sebastian Barth",
+            "alias": "",
+            "position": "295",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5360,6 +6251,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Kudos Productions",
+            "alias": "",
+            "position": "296",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5378,6 +6272,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "C Can Yang",
+            "alias": "",
+            "position": "297",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5396,6 +6293,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Kudos Productions",
+            "alias": "",
+            "position": "298",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5414,6 +6314,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Cheh Guan Yu",
+            "alias": "",
+            "position": "299",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5421,7 +6324,7 @@
             "color": "R",
             "rarity": "mythic",
             "type": "Legendary Enchantment \u2014 Shard",
-            "number": 143,
+            "number": 144,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "At the beginning of your end step, Shard of Violence deals 1 damage to any target. If you control five or more legendary Shards, it deals 5 damage to any target instead.\n{2}{R}, Sacrifice Shard of Violence: Scry 1, then draw a card. Shard of Violence deals 3 damage to each opponent.",
@@ -5432,6 +6335,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Herbie Wang, Lejia Chan, Rian Chan",
+            "alias": "",
+            "position": "300",
+            "rotated": false,
             "notes": "!tag Ryze"
         },
         {
@@ -5450,6 +6356,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Mon G",
+            "alias": "",
+            "position": "301",
+            "rotated": false,
             "notes": "!tag Azir"
         },
         {
@@ -5468,6 +6377,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Yohann Schepacz",
+            "alias": "",
+            "position": "302",
+            "rotated": false,
             "notes": "!tag Xerath"
         },
         {
@@ -5486,6 +6398,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Section Studio",
+            "alias": "",
+            "position": "303",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5504,6 +6419,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "We Are Royale",
+            "alias": "",
+            "position": "304",
+            "rotated": false,
             "notes": "!tag Naafiri"
         },
         {
@@ -5514,7 +6432,7 @@
             "number": 176,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
-            "rules_text": "This spell can't be countered\nDeathtouch\nWhenever Petrifying Baccai becomes the target of a spell or ability you don't control, you may return target land card from your graveyard to the battlefield tapped.",
+            "rules_text": "This spell can't be countered.\nDeathtouch\nWhenever Petrifying Baccai becomes the target of a spell or ability you don't control, you may return target land card from your graveyard to the battlefield tapped.",
             "flavor_text": "[i][/i]",
             "pt": "4/5",
             "special_text": "",
@@ -5522,6 +6440,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Gabriel De Melo Monteiro",
+            "alias": "",
+            "position": "305",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5540,6 +6461,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Yunpeng Wang",
+            "alias": "",
+            "position": "306",
+            "rotated": false,
             "notes": "!tag Azir"
         },
         {
@@ -5558,6 +6482,9 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Somnicide",
+            "alias": "",
+            "position": "307",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5576,8 +6503,11 @@
             "set": "SHU",
             "loyalty": "",
             "artist": "Sung Choi",
+            "alias": "",
+            "position": "308",
+            "rotated": false,
             "notes": ""
         }
     ],
-    "version": 8
+    "version": 9
 }

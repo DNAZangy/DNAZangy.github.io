@@ -1,4 +1,640 @@
-﻿VERSION 8 CHANGELOG
+﻿VERSION 9 CHANGELOG
+====================
+
+Scavenge the Tombs added.
+Reborn Gardens added.
+Timeless Sanctuary added.
+Barren Salt Flats added.
+Zoantha Cascade added.
+Vekaura Ruins added.
+
+Trash for Treasure removed.
+Flourishing Lowlands removed.
+Raintouched Basin removed.
+Scoured Mesa removed.
+Silent Ridge removed.
+Windworn Spires removed.
+
+Azir's Missionaries
+
+Elujrav'i' Lookout
+
+Gilded Poro
+
+Humble Soothsayers
+
+Risen Sand Cavalier
+
+Nazumah Avenger
+
+Bel'Zhun Insurgent
+
+Kepthalla Vanguard
+
+Imperial Weaponsmith
+
+Arise!
+
+Strength of Nazumah
+
+Purge the Twisted
+
+Sealed in Darkness
+
+Stolen Divinity
+
+Black Rose Infiltrator
+
+Acolyte of Xerath
+
+Clockwork Fabricator
+
+Seeker of Tombs
+
+Baccai Reaper
+
+Oasis Hunter
+
+Imperial Chronicler
+
+Spurn
+
+Scour the Timelines
+
+Grasping Voidspawn
+pt: 4/4 => 4/3
+
+Glimpse of Totality
+
+Spin to Sand
+
+Gregarious Clockling
+
+Tomb's Vigil
+
+Makaran Toxicologist
+
+Prophet's Devotee
+
+Sun of Bel'Zhun
+
+Vekauran Safecraker
+
+Xer'Sai Hatchling
+
+Belvethi Battlemage
+
+Twisted Sentinel
+
+Failed Divinity
+
+Imperial Revival
+
+Shifting Sands
+
+Hollow Hound
+
+Insatiable Hunger
+
+Noxian Betrayal
+
+Caravan Companion
+
+Rock Hopper
+
+Plucky Ruin Delver
+
+Ruinous Acolyte
+
+Escaped Drakehound
+
+Endless Devout
+
+Xer'Sai Dunebreaker
+
+Tormented Baccai
+
+Void Seeker
+
+Cull the Meek
+
+Expedition Below
+
+Brutal Assault
+
+Icathian Rain
+
+Arcane Obliteration
+
+Nazumah's Bulwark
+
+Belvethi Elder
+
+Desert Naturalist
+
+Treacherous Bandit
+
+Tamer of Serpents
+
+Sandthrasher Ambusher
+
+Baccai Warden
+
+Converted Youth
+
+Clockhand Golem
+
+Skallashi Caravan
+
+Stoneweaver's Rebuttal
+
+Scout the City
+
+Burst from Below
+
+Great Sai Navigation
+
+Elite Sun Guard
+
+Devoted of the Sun Disc
+
+General of the Dunes
+
+Void-Addled Prophet
+
+Medallion Muncher
+
+Nazumah Huntress
+
+Priestess Of Desert Light
+
+Devoted Council
+
+Dune Predator
+
+Decree of the Sands
+
+Azir's Verdict
+
+Multifaced Watcher
+cost: {U} => {2}{U}
+rules_text: Whenever Multifaced Watcher attacks or blocks, sacrifice it at the beginning of the next end step. => Whenever Multifaced Watcher attacks, sacrifice it at the beginning of your next end step.
+pt: 3/4 => 4/4
+
+Tomb Crawler
+
+Empire Reconstructor
+
+Ruin Explorers
+
+Timekeeper's Apprentice
+
+Forgotten Terror
+rules_text: Flash
+When Forgotten Terror enters or attacks, tap all creatures you don't control. => Flash
+When Forgotten Terror enters or attacks, tap all other creatures.
+
+Memories of an Empire
+
+Strike with Terror
+
+Curious Obsession
+
+Rite of the Arcane
+
+Future's Burden
+
+Shady Appraiser
+
+Ruin Runner
+
+Ruthless Financier
+
+Temporal Nomad
+
+Priest of Conquest
+
+Sandthresher Mount
+
+Baccai Taskmaster
+
+Azir's Reclaimer
+
+Banished to Darkness
+
+Deceitful Encouragement
+
+Swarm of the Void
+
+Shuriman Dissident
+
+Caravan Marker
+
+Dune Surfer
+
+Channeler of the Arcane
+
+Bloodthirsty Marauder
+
+Vekauran Bruiser
+
+Armed Acquisitioner
+
+Xer'Sai Callers
+
+Emperor's Divide
+
+Heir to the Sands
+
+Amakra Refugee
+
+Corrosive Arachnid
+
+Sandshifter
+
+Great Sai Merchant
+
+Rockbear Shepherd
+
+Charging Tusker
+
+Sandstone Charger
+
+Migrating Dormun
+
+Ravaging Colossus
+
+Ascended Warfare
+
+Narrow Evasion
+
+Saijax Cail-Rynx Kohari Icath'un
+rules_text: When Jax enters, create Lamppost, a legendary colorless Equipment artifact token with equip {2} and “Equipped creature gets +1/+1 and has all abilities of keyword counters on it.” If you already control a Lamppost, put your choice of a first strike, lifelink, flying, or a vigilance counter on it. If it already has all four, put an indestructible and double strike counter on it. => When Jax enters, create Lamppost, a legendary colorless Equipment artifact token with equip {2} and “Equipped creature gets +1/+1 and has all abilities of keyword counters on Lampost.” If you already control a Lamppost, put your choice of a first strike, lifelink, flying, or a vigilance counter on it. If it already has all four, put an indestructible and double strike counter on it.
+
+Seer Beyond the Sands
+
+Conductor of the Sai
+
+Sunlit Guardian
+
+Pass the Torch
+
+Rise from the Sands
+
+Khahiri, Chosen Through Time
+
+Herald of the Magus
+
+Relic Speaker
+
+Capture the Sun
+
+Visions of the Future
+
+Time Stop
+
+Cho'Gath, Hunger of the Void
+
+Demon of Domination
+
+Evangelist of Oblivion
+
+Void Abomination
+rules_text: Flying
+When Void Abomination enters, draw three cards.
+At the beginning of your end step, you lose 2 life for each card in your hand. => Flying
+When Void Abomination enters, draw three cards.
+At the beginning of your end step, you may discard any number of cards. Then you lose 2 life for each card in your hand.
+
+Death of Divinity
+
+Feast of the Prophet
+
+Amumu, Cursed Child
+
+Relentless Sandthresher
+
+Horned Swarmcaller
+
+Wandering Yordle
+cost: {1}{R} => {2}{R}
+rules_text: Whenever Wandering Yordle attacks, up to one target nontoken creature you don't control traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Haste
+Whenever Wandering Yordle attacks, up to one target nontoken creature you don't control traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i]
+pt: 3/2 => 4/3
+
+Subterranean Collapse
+
+An Explorer's Journey
+
+Taliyah, the Stoneweaver
+
+Grumpy Rockbear
+
+Daring Explorer
+
+Golden Herald
+
+Gorging Monstrosity
+
+Radiance of the Ascended
+
+The Chalicar of Setaka
+
+Unstoppable Onslaught
+
+Into the Rift
+
+Clockling Prototype
+
+Conqueror of Belveth
+
+Where Icathia Once Stood
+
+Hotheaded Explosioneer
+
+The Bird and the Branch
+
+Chamber of Renewal
+
+Inspiring Marshal
+
+Darkin Rapier
+
+Void Blaster
+
+Butcher's Faithful
+
+Rampaging Saurens
+
+Fallen Sands General
+
+Echoes of an Empire
+
+A Promise in Truth
+
+Voice of the Risen
+
+Confront the Self
+
+Zilean, Timekeeper
+
+Pilgrim from Kathkan
+
+The Fall of Shurima
+
+Void Gate
+
+Bonded Survivors
+
+Betrayal of Brotherhood
+
+Kassadin, the Void Walker
+
+Lady Cassiopeia
+
+Kai'Sa, Who Came Back
+
+Baccai Witherclaw
+
+Preservationist
+
+Militant Timepiece
+
+Crushing Boulder
+
+Staff of Forgotten Realms
+
+Shuriman Tellstones
+
+Guardian of Tombs
+
+Soul-Siphon Sculpture
+
+Carikkan's Guardian
+
+Sandthresher Grounds
+
+Sanctum Conservator
+
+Arcane Nullifier
+
+Effigy of the Sands
+
+Husked Devout
+
+Reconstructed Soldier
+
+Xolan's Depths
+
+Curator's Archive
+
+Lavender Sea
+
+Renekton, the Butcher
+
+Xerath, Magus Ascendant
+
+Naafiri of a Hundred Bites
+
+Nasus, the Scholar
+
+Azir, Emperor of the Sands
+
+Sandstone Protector
+
+Unyielding Warden
+
+Acolyte's Reliquary
+
+Roiling Sands
+
+Conduit Pylons
+
+Enduring Sands
+
+Shattered Sands
+
+Carved Sands
+
+Suspended Sands
+
+Fractured Sands
+
+Gleaming Sands
+
+Frozen Sands
+
+Tranquil Sands
+
+Blighted Sands
+
+Twisted Sands
+
+Yordle Cardsharp
+
+Heroic Swing
+
+Time in a Bottle
+
+Chronostasis
+
+Temporal Aberration
+
+Adaptive Rebirth
+
+Cut the Rope
+
+Plunge into the Unknown
+
+Cursed Embrace
+
+Corrupted Sanctum
+
+Brothers' Bloodshed
+
+Rampaging Baccai
+
+Golden Phalanx
+
+Raider's Warfrog
+
+Map to the Faceless God
+
+Sandstone Chimera
+
+Threads of Time
+
+Saltworker
+
+Xer'Sai Undertitan
+
+Reconstruct the Sun Disc
+
+Dunehopper Engineer
+
+Restored Devout
+
+Curator's Sentinel
+
+Serpentine Protector
+
+Buried Colossus
+
+Sandstone Sentinel
+
+K'Sante, Pride of Nazumah
+
+Malzahar, Prophet
+
+Vekauran Vagabond
+
+Nashramae Delegate
+
+Reconstructor of History
+
+Rammus the Armordillo
+
+Hive Herald
+
+Bel'Veth, Empress of the Void
+
+Sivir, Battle Mistress
+
+Rek'Sai, the Terror Beneath
+
+Xer'Sai Burrows
+
+Sunken Capital
+
+Akshan, the Rogue Sentinel
+
+The Sun Disc
+
+Protector of the Oasis
+
+Icathian Mirage
+
+Decode Thoughts
+
+Pluck the Soul
+
+Belligerent Ralsiji
+
+Hibernating Rockbear
+
+Clockling
+
+Abandoned Chronarium
+
+Nashramae, Crossroads of Wonder
+
+Nazumeh, Haven of Hunters
+
+Xolan, Ruins of the Faceless
+
+Zuretta, Risen City
+
+Bel'Zhun, Noxian Outpost
+
+Tomb of the Ascended
+
+Marrowmark, Ribcage Market
+
+Vekaura, on Bloodied Coin
+
+Nerimazeth, Ruins of Power
+
+Tower Removed From Time
+
+The Great Sai
+
+Sand Soldier
+
+Lamppost
+
+Dog Shade
+
+Druid
+
+Construct
+
+Clue
+
+Horror
+
+Horror
+
+Horror Pest
+
+Treasure
+
+Warrior
+
+Shard of Violence
+
+Emperor's Judgment
+
+Screaming Acolytes
+
+Hierophant of Zuretta
+
+One Mind to Many
+
+Petrifying Baccai
+rules_text: This spell can't be countered
+Deathtouch
+Whenever Petrifying Baccai becomes the target of a spell or ability you don't control, you may return target land card from your graveyard to the battlefield tapped. => This spell can't be countered.
+Deathtouch
+Whenever Petrifying Baccai becomes the target of a spell or ability you don't control, you may return target land card from your graveyard to the battlefield tapped.
+
+The City's Blessing
+
+Repurposed Automaton
+
+Desert
+
+
+VERSION 8 CHANGELOG
 ====================
 
 
