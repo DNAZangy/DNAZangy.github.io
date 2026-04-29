@@ -1,4 +1,159 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Oozing Grasp added.
+Alleyway Ambush added.
+Offer Compliance added.
+Hand of the Unworthy added.
+
+Disrupting Surge removed.
+Crackling Discharge removed.
+Rupture the Skin removed.
+Pyre of the Unworthy removed.
+
+Oathkeeper's Blade
+
+Hedge Knight of Koad-Kozh
+
+Bro-Heol's Grace
+
+Divine Quarantine
+
+Radiant Confrontation
+rules_text: Whenever you draw your second card each turn, exile up to one target nonland permanent. Return it to the battlefield at the beginning of the next end step.
+{3}{W}: Each player creates a Shard token. [i](It's an enchantment with “{2}, Sacrifice this token: Scry 1, then draw a card.”)[/i] => Whenever you draw your second card each turn, exile up to one target nonland permanent. Return it to the battlefield at the beginning of the next end step.
+{3}{W}: Each player creates a Shard token.
+
+Ballads of the Brave
+
+Village Sprites
+type: Creature — Faerie Citizen => Creature — Faerie
+
+Gorre-Kêr Tinkerer
+
+Fortune's Call
+rules_text: Outfit your Hero. [i](Progress down your Hero's path. If you control no Heroes, create a 1/1 Hero token first.)[/i]
+Create a Shard token. [i](It's an enchantment with “{2}, Sacrifice this token: Scry 1, then draw a card.”)[/i] => Outfit your Hero. [i](Progress down your Hero's path. If you control no Heroes, create a 1/1 Hero token first.)[/i]
+Create a Shard token.
+
+Crown's Captain
+
+Harmony of the Herd
+
+Clotaire, Keen Artificer
+
+Faithful Stray
+rules_text: When Faithful Stray enters, create a Shard token. [i](It's an enchantment with “{2}, Sacrifice this token: Scry 1, then draw a card.”)[/i]
+Whenever you draw your second card each turn, put a +1/+1 counter on Faithful Stray. => When Faithful Stray enters, create a Shard token.
+Whenever you draw your second card each turn, put a +1/+1 counter on Faithful Stray.
+
+Chosen Enforcer
+
+Relic of Unbroken Resolve
+
+Purifying Strike
+
+Blessing of a Bright Road
+
+Comfort of Friends
+
+Fragment
+rules_text: Exile target artifact, battle, enchantment, or planeswalker. Its controller creates a Shard token. [i](It's an enchantment with “{2}, Sacrifice this token: Scry 1, then draw a card.”)[/i] => Exile target artifact, battle, enchantment, or planeswalker. Its controller creates a Shard token.
+
+Vision of the Horizon
+
+Rambling Jetins
+
+Stolen Reflection
+
+Arcane Resonance
+
+Old Friends, New Roads
+rules_text: When Old Friends, New Roads enters, create a 2/1 blue Faerie creature token with flying.
+Whenever a creature you control deals combat damage to a player or planeswalker, create a Shard token. [i](It's an enchantment with “{2}, Sacrifice this token: Scry 1, then draw a card.”)[/i] => When Old Friends, New Roads enters, create a 2/1 blue Faerie creature token with flying.
+Whenever a creature you control deals combat damage to a player or planeswalker, create a Shard token.
+
+Kir Kahroba, Seeker
+rules_text: Whenever you activate one of Kir Kahroba's abilities, create a Shard token. [i](It's an enchantment with “{2}, Sacrifice this token: Scry 1, then draw a card.”)[/i]
+[+1]: Create a 3/2 blue Shark creature token.
+[-2]: Tap target nonland permanent. Put three stun counters on it. For as long as it has a stun counter on it, it loses all abilities.
+[-7]: You get an emblem with “Creatures you control can't be blocked.” => Whenever you activate one of Kir Kahroba's abilities, create a Shard token.
+[+1]: Create a 3/2 blue Shark creature token.
+[-2]: Tap target nonland permanent. Put three stun counters on it. For as long as it has a stun counter on it, it loses all abilities.
+[-7]: You get an emblem with “Creatures you control can't be blocked.”
+special_text: Whenever you activate one of Kir Kahroba's abilities, create a Shard token. [i](It's an enchantment with “{2}, Sacrifice this token: Scry 1, then draw a card.”)[/i]
+[+1]: Create a 3/2 blue Shark creature token.
+[-2]: Tap target nonland permanent. Put three stun counters on it. For as long as it has a stun counter on it, it loses all abilities.
+[-7]: You get an emblem with “Creatures you control can't be blocked.” => Whenever you activate one of Kir Kahroba's abilities, create a Shard token.
+[+1]: Create a 3/2 blue Shark creature token.
+[-2]: Tap target nonland permanent. Put three stun counters on it. For as long as it has a stun counter on it, it loses all abilities.
+[-7]: You get an emblem with “Creatures you control can't be blocked.”
+
+Kozhtud Lorekeeper
+rules_text: When you draw your second card each turn, outfit your Hero. [i](Progress down your Hero's path. If you control no Heroes, create a 1/1 Hero token first.)[/i]
+Whenever a Hero you control dies, create a Shard token. [i](It's an enchantment with “{2}, Sacrifice this token: Scry 1, then draw a card.”)[/i] => When you draw your second card each turn, outfit your Hero. [i](Progress down your Hero's path. If you control no Heroes, create a 1/1 Hero token first.)[/i]
+Whenever a Hero you control dies, create a Shard token.
+
+Keeper of the First Mask
+
+Roadside Oracle
+
+Brine Nullifier
+rules_text: Flash
+When Brine Nullifier enters, counter target spell. Its controller creates a Shard token. [i](It's an enchantment with “{2}, Sacrifice this token: Scry 1, then draw a card.”)[/i] => Flash
+When Brine Nullifier enters, counter target spell. Its controller creates a Shard token.
+
+Humbling Hex
+
+Identity Schism
+rules_text: Target player reveals their hand. You choose a nonland card from it. That player discards that card.
+That player creates a Shard token. [i](It's an enchantment with “{2}, Sacrifice this token: Scry 1, then draw a card.”)[/i] => Target player reveals their hand. You choose a nonland card from it. That player discards that card.
+That player creates a Shard token.
+
+Student of the Crown
+
+Quell
+
+Wayfarer's Respite
+rules_text: Enchant land
+When Wayfarer's Respite enters, create a Shard token. You gain 3 life. [i](It's an enchantment with “{2}, Sacrifice this token: Scry 1, then draw a card.”)[/i]
+Enchanted land has “{T}: Add one mana of any color.” => Enchant land
+When Wayfarer's Respite enters, create a Shard token. You gain 3 life.
+Enchanted land has “{T}: Add one mana of any color.”
+
+Convicted Strike
+
+Melganez, Patient Oracle
+rules_text: At the beginning of your end step, create a Shard token. [i](It's an enchantment with “{2}, Sacrifice this token: Scry 1, then draw a card.”)[/i]
+Melganez has hexproof as long as you've drawn a card this turn and has indestructible as long as you've drawn two or more cards this turn. => At the beginning of your end step, create a Shard token.
+Melganez has hexproof as long as you've drawn a card this turn and has indestructible as long as you've drawn two or more cards this turn.
+
+Swimming with Sharks
+rules_text: Whenever Swimming with Sharks enters or you cast an enchantment spell, create a Shard token. [i](It's an enchantment with “{2}, Sacrifice this token: Scry 1, then draw a card.”)[/i]
+{2}, Sacrifice two Shards: Create a 3/2 blue Shark creature token. It can't block this turn. => Whenever Swimming with Sharks enters or you cast an enchantment spell, create a Shard token.
+{2}, Sacrifice two Shards: Create a 3/2 blue Shark creature token. It can't block this turn.
+
+Emberspark Butterfly
+
+Bastion of Eternal Vigil
+
+Smoldering Passage
+rules_text: Smoldering Passage enters tapped if there are one or more cards in your graveyard.
+{T}: Add {B}.
+{B}, {T}, Sacrifice a creature: Create a Shard token. [i](It's an enchantment with “{2}, Sacrifice this token: Scry 1, then draw a card.”)[/i] => Smoldering Passage enters tapped if there are one or more cards in your graveyard.
+{T}: Add {B}.
+{B}, {T}, Sacrifice a creature: Create a Shard token.
+
+Dour Mountainside
+
+Karchar-Tan
+
+Shardstone Rift
+
+Clotaire, Bound by Darkness
+
+
+VERSION 2 CHANGELOG
 ====================
 
 

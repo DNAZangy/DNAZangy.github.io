@@ -1,4 +1,638 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+
+
+Bishop of Ameret's Way
+
+Abigail, Cawyer Station Chief
+
+Angelic Embezzler
+
+Shepherd Cop
+
+Adamant Will
+
+Lorre Lackey
+
+Dazzling Archangel
+
+Arrest
+
+Backup Brigade
+
+Burden of Guilt
+
+Fourth Street Enforcer
+
+Henry, River Cities Mayor
+
+Citywide Restructuring
+
+Ameret's Sanctity
+
+Debt Collection
+
+Oblivious Handyman
+
+Lorre Lookout
+
+Cawyer Station Deputy
+
+Family Man
+
+Cawyer Station Veteran
+
+Blessing of Hope
+
+Griffin's Grace
+
+Jaded Copper
+
+Obsessive Bureaucrat
+
+Watchful Griffin
+
+Interrogate
+
+Lotus Lane Kidnapper
+
+Officer's Gambit
+
+Lorre Dealbroker
+
+Midnight Call
+
+Deacon of the Old Ways
+
+Mob Cleaning
+
+Inhibit
+
+Resigned Shepherd
+
+Skyscraper Griffin
+
+Solo Officer
+
+Up the River
+
+Aerial Sleuth
+
+Detective's Gambit
+
+Frankie's Frostmage
+
+Phantom's Jurisdiction
+
+Conspiracy Vendor
+
+Ensorcellor
+
+Endless Paper Trail
+rules_text: Flash
+Flying
+Whenever Endless Paper Trail attacks, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Flash
+Flying
+Whenever Endless Paper Trail attacks, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Crippling Hallucinations
+
+Clandestine Snitch
+rules_text: When Clandestine Snitch enters, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => When Clandestine Snitch enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Examine the Goods
+
+Escape the Plane
+
+Faceless Stalker
+
+Foiled Plans
+
+Forbidden Findings
+
+Tethaleeg, the Opulent
+
+Guide Dog
+rules_text: When Guide Dog enters, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => When Guide Dog enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Double Agent
+
+Quick-Witted Detective
+
+Detective's Ploy
+rules_text: Counter target spell unless its controller pays {2}.
+Investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Counter target spell unless its controller pays {2}.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Malevolent Observer
+rules_text: Flying
+When Malevolent Observer dies, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Flying
+When Malevolent Observer dies, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Master Thief
+
+Amnesiac Sleuth
+
+Overworked
+
+Messenger Magpie
+rules_text: Flying
+Whenever Messenger Magpie deals combat damage to a player, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Flying
+Whenever Messenger Magpie deals combat damage to a player, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Private Eye
+
+Confiscate Evidence
+
+Throw Off the Trail
+
+Dreamer of the Opulent
+
+Rescue
+
+Occultist of Heirlooms
+
+Ride to Nowhere
+
+Blank Memory
+rules_text: Creatures your opponents control get -3/-0 until end of turn.
+Investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Creatures your opponents control get -3/-0 until end of turn.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Detective's Intuition
+
+Sleep with the Fishes
+
+Slippery Informant
+
+Spill the Beans
+rules_text: Draw a card.
+Investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Draw a card.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Uncanny Duplicant
+
+Associate of the Spider
+
+Woman with a Story
+
+Air of Decay
+
+Lorre Earner
+
+Nimble Mothman
+
+Morgue Manager
+
+Hound of Rounded Corners
+
+Brutalize
+
+Calling Card
+
+Choking Demise
+
+Dame on the Run
+rules_text: When Dame on the Run dies, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => When Dame on the Run dies, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Liturgy of Liliana
+
+Exsanguinate
+
+Fishing for Bodies
+
+Memory Hostage
+
+Nrom, the Chthonic
+
+Zhang Traveller
+
+Liliana, Femme Fatale
+rules_text: Create a 1/1 black Zombie Cat creature token with “When this creature dies, target opponent discards a card.”
+Sacrifice a creature. If you do, return target creature card from your graveyard to the battlefield.
+Target opponent gets an emblem with “At the beginning of your upkeep, if you have one or fewer cards in hand, you lose the game.” => [+1]: Create a 1/1 black Zombie Cat creature token with “When this creature dies, target opponent discards a card.”
+[-2]: Sacrifice a creature. If you do, return target creature card from your graveyard to the battlefield.
+[-9]: Target opponent gets an emblem with “At the beginning of your upkeep, if you have one or fewer cards in hand, you lose the game.”
+
+Undead Flapper
+
+Liliana's Goon
+
+Lucky Break
+
+Mafia Capo
+
+Lorre Blackmailer
+
+Moroii Aristocrat
+
+Murder
+
+Framed Murder
+
+Ne'er-do-wells
+
+Duress
+
+Stalking Neonate
+
+Devilish Deal
+rules_text: Search your library for a card, put that card into your hand, then shuffle.
+Investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Search your library for a card, put that card into your hand, then shuffle.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Primordial Unveiling
+
+Seductive Gorgon
+
+Alley Shade
+
+Successful Racket
+
+Conspicuous Homicide
+
+Rigged Negotiations
+
+Corrupt Defrauder
+
+Cryptid's Gambit
+
+Ocular Fog
+
+Vicious Cleaner
+rules_text: {1}{B}: Exile target card from a graveyard. If it's a creature card, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+Whenever you sacrifice a Clue, each opponent loses 1 life. => {1}{B}: Exile target card from a graveyard. If it's a creature card, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+Whenever you sacrifice a Clue, each opponent loses 1 life.
+
+Patron of Veda's Club
+
+Vehement Rage
+
+Last Assault
+
+Cityscape Dragon
+
+Inciting Charmer
+
+Blazing Shot
+
+Bloodthirst Vampire
+
+On Borrowed Time
+
+Buddy Cops
+
+Threatening Officer
+
+Distracting Flapper
+
+Crime Spree
+rules_text: When Crime Spree enters, create a 1/1 red Human creature token. It gains haste until end of turn. [i](Choose one or more additional costs.)[/i]
+At the beginning of your upkeep, if you didn't disturb the peace since the beginning of your last turn, sacrifice Crime Spree. [i](Casting a spell on an opponent's turn and one or more creatures dealing combat damage to an opponent disturb the peace.)[/i]
+Creatures you control get +2/+0. => When Crime Spree enters, create a 1/1 red Human creature token. It gains haste until end of turn.
+At the beginning of your upkeep, if you didn't disturb the peace since the beginning of your last turn, sacrifice Crime Spree. [i](Casting a spell on an opponent's turn and one or more creatures dealing combat damage to an opponent disturb the peace.)[/i]
+Creatures you control get +2/+0.
+
+A World of Crime
+
+Deranged Cultist
+
+Dramatic End
+
+Heavenly Fire
+
+Fleeting Options
+
+Getaway Ride
+
+Illicit Electromancer
+
+Go Nuts
+
+Villain's Gambit
+
+Off-Duty Officer
+
+Reckless Corporal
+
+Orphanage Keeper
+
+Pencil Pusher
+
+Violent Discharge
+
+Sermon of the Way
+
+Vigilante Firebug
+
+Shank
+
+Wealthy Patron
+
+Abrupt Possession
+
+Azra Fixer
+
+Station Seven Host
+
+Elvish Poet
+
+Street Razings
+
+Harsh Commander
+
+Torch Singer
+
+Passionate Reunion
+
+Cartel Muscle
+
+Dwarven Butcher
+
+Butcher the Shepherd
+
+Orc Reporter
+
+Wander the Outlands
+
+Epic Confrontation
+
+Search the Unknown
+
+Cover Up
+
+Songstress of the River
+
+Sleuthhound
+rules_text: When Sleuthhound enters, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => When Sleuthhound enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Investi-Gator
+rules_text: When Investi-Gator enters, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+Investi-Gator gets +1/+1 for each card in your hand. => When Investi-Gator enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+Investi-Gator gets +1/+1 for each card in your hand.
+
+Dust Smugglers
+
+Dose of Dust
+
+Alluring Spirit
+
+Embiggen
+
+Share the Concoction
+
+Towering Aracatnid
+
+Following the Matchbook
+rules_text: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
+Investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Decipher the Evidence
+
+Vine Street Stoolie
+
+Fox Agency Sleuths
+
+Sewer Gators
+
+Jericho's Assistant
+rules_text: Whenever another creature you control becomes the target of a spell or ability an opponent controls, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Whenever another creature you control becomes the target of a spell or ability an opponent controls, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Moribund Witness
+rules_text: When Moribund Witness dies, you gain 2 life and investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => When Moribund Witness dies, you gain 2 life and investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Lamb of the Aberrant
+
+Rhulha, the Aberrant
+
+Writhing Thrasher
+
+Snitch Snacker
+
+Outlands Farmer
+
+Resounding Shot
+rules_text: Target creature you control deals damage equal to its power to target creature you don't control.
+Investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => Target creature you control deals damage equal to its power to target creature you don't control.
+Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Occultist's Gambit
+
+Protective Detective
+
+Mystery of the Strange Door
+rules_text: Whenever you cast a creature spell, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+At the beginning of each end step, if you sacrificed three or more Clues this turn, you may put a creature card from your hand onto the battlefield. => Whenever you cast a creature spell, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+At the beginning of each end step, if you sacrificed three or more Clues this turn, you may put a creature card from your hand onto the battlefield.
+
+Manipulative Phantom
+rules_text: When Manipulative Phantom enters, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+Whenever you sacrifice a Clue, target creature an opponent controls blocks this turn if able. => When Manipulative Phantom enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+Whenever you sacrifice a Clue, target creature an opponent controls blocks this turn if able.
+
+Bizarre Menagerie
+
+Lotus Lane Socialite
+
+Unexplained Behemoth
+
+Fox Agency Operator
+rules_text: Whenever one or more creatures you control deal combat damage to an opponent, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+Whenever you sacrifice a Clue, put a +1/+1 counter on target creature. => Whenever one or more creatures you control deal combat damage to an opponent, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+Whenever you sacrifice a Clue, put a +1/+1 counter on target creature.
+
+Uncover Evidence
+
+Uncanny Woodghast
+
+Barton, Sleuth Extraordinaire
+rules_text: If an effect would create one or more noncreature tokens under your control, it creates twice that many of those tokens instead.
+{B}, {T}, Sacrifice a creature: Investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => If an effect would create one or more noncreature tokens under your control, it creates twice that many of those tokens instead.
+{B}, {T}, Sacrifice a creature: Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Ameret, Hope of Night
+rules_text: At the beginning of combat on your turn, if there are six or more loyalty counters on Ameret, they become an 5/5 Angel creature with flying and indestructible until end of turn.
+Create a 1/1 red and white Cleric creature tokens with lifelink and haste.
+Ameret deals X damage to any target. You gain X life. => At the beginning of combat on your turn, if there are seven or more loyalty counters on Ameret, they become a 5/5 Angel creature with flying and indestructible until end of turn.
+[+1]: Create a 1/1 red and white Cleric creature token with lifelink and haste.
+[-X]: Ameret deals X damage to any target. You gain X life.
+
+Chief of District Nine
+
+Incident on Fourth Street
+
+Prying Lawmaker
+
+Cult Leader
+
+Eldritch Spirit
+
+Wayward Lawkeeper
+
+Frankie the Spider Lorre
+
+Elusive Stranger
+
+Black Dogs of Eve's Garden
+
+Painter of the Waking Dream
+rules_text: When Painter of the Waking Dream enters, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+Whenever you sacrifice a Clue, create a tapped 3/3 black Horror creature token. => When Painter of the Waking Dream enters, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+Whenever you sacrifice a Clue, create a tapped 3/3 black Horror creature token.
+
+Perfect Crime
+
+Agency Detectives
+
+Gregor Eddie, Dustmaker
+
+Scandalous Phantom
+
+Loose End Cutter
+
+Moroii Cabalist
+
+Lorre Underboss
+
+Attentive Rabota
+
+Contraband Dagger
+
+Cozy Rabota
+
+Detective's Familiar
+
+Forged Documents
+
+The Masked Benefactor
+
+Unlicensed Pistol
+rules_text: Equipped creature gets +1/-1.
+Whenever equipped creature dies, investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+Equip {0} => Equipped creature gets +1/-1.
+Whenever equipped creature dies, investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+Equip {0}
+
+Impenetrable Vault
+
+Murder Weapon
+
+Pilfered Jewels
+
+Portrait of the Lost
+
+Rabota Bystander
+
+Shroud of Disguise
+
+Copper Copper
+
+Counterfeit Currency
+
+Tome of the Primordials
+
+Trench Sweeper
+
+Riverside View
+
+Thriving Tower
+
+Decadent Hall
+
+Secluded Farmland
+
+Dubious Path
+
+Luxury District
+
+Rural Sinkhole
+
+Magnifying Glass
+rules_text: {T}: Add {C}.
+{4}, {T}: Investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i] => {T}: Add {C}.
+{4}, {T}: Investigate. [i](Create a Clue token. It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+
+Warped Landscape
+
+Lurker on the Walls
+
+Spectral Boon
+
+Witness Protection
+
+Vile Blessing
+
+Failing Flaw
+
+True Love's Moment
+
+Cleansing Wave
+
+Clue 1
+
+Clue 2
+
+Clue 3
+
+Clue 4
+
+Soldier
+
+Human
+
+Zombie Cat
+
+Rogue
+
+Detective
+
+Mutant
+
+Cleric
+
+Horror
+
+Undercover
+
+Warrior
+
+Sinuous Tantalizer
+
+Catscratch Broker
+
+Catscratch Mafioso
+
+green Horror
+
+Treasure
+
+Swindler's Trinket
+
+Jericho Hudson
+rules_text: Investigate. [i](Create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)[/i]
+Until your next turn, up to two target creatures each get -4/-0.
+You get an emblem with “Untap all permanents you control during each other player's untap step.” => [+1]: Investigate.
+[-2]: Until your next turn, up to two target creatures each get -4/-0.
+[-6]: You get an emblem with “Untap all permanents you control during each other player's untap step.”
+
+Beloved Chapel
+
+Reliable Market
+
+Downtown Theater
+
+Disturbing Locale
+
+Impressive Skyline
+
+Liliana Emblem
+
+Jericho Emblem
+
+
+VERSION 4 CHANGELOG
 ====================
 
 No changes.

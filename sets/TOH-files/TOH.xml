@@ -5,7 +5,7 @@
 			<name>TOH</name>
 			<longname>Tacheen: The Open Horizon</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-04-21</releasedate>
+			<releasedate>2026-04-29</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -117,7 +117,7 @@ Bro-Heol&apos;s Grace gets +1/+1 for each enchantment you control.
 		<card>
 			<name>Radiant Confrontation</name>
 			<text>Whenever you draw your second card each turn, exile up to one target nonland permanent. Return it to the battlefield at the beginning of the next end step.
-{3}{W}: Each player creates a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)</text>
+{3}{W}: Each player creates a Shard token.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/6.png" num="27">TOH</set>
 			<prop>
 				<layout>normal</layout>
@@ -214,7 +214,7 @@ Whenever a permanent you control enters, adjust it. (Add a counter that it alrea
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Faerie Citizen</type>
+				<type>Creature — Faerie</type>
 				<maintype>Creature</maintype>
 				<manacost>1W</manacost>
 				<cmc>2</cmc>
@@ -265,7 +265,7 @@ Return target artifact or enchantment card from your graveyard to your hand. (Th
 		<card>
 			<name>Fortune&apos;s Call</name>
 			<text>Outfit your Hero. (Progress down your Hero&apos;s path. If you control no Heroes, create a 1/1 Hero token first.)
-Create a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)</text>
+Create a Shard token.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/14.png" num="11">TOH</set>
 			<prop>
 				<layout>normal</layout>
@@ -441,7 +441,7 @@ When Plan of Ambush enters or is defeated, create two 1/1 red Berserker creature
 		</card>
 		<card>
 			<name>Faithful Stray</name>
-			<text>When Faithful Stray enters, create a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)
+			<text>When Faithful Stray enters, create a Shard token.
 Whenever you draw your second card each turn, put a +1/+1 counter on Faithful Stray.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/24.png" num="10">TOH</set>
 			<prop>
@@ -640,7 +640,7 @@ Splice onto sorcery {2}{W} (As you cast a sorcery spell, you may reveal this car
 		</card>
 		<card>
 			<name>Fragment</name>
-			<text>Exile target artifact, battle, enchantment, or planeswalker. Its controller creates a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)</text>
+			<text>Exile target artifact, battle, enchantment, or planeswalker. Its controller creates a Shard token.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/35.png" num="12">TOH</set>
 			<prop>
 				<layout>normal</layout>
@@ -697,7 +697,7 @@ When Rambling Jetins enters, up to two target permanents you control becomes cop
 
 ---
 
-Create X Shard tokens. (They&apos;re enchantments with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)</text>
+Create X Shard tokens.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/38.png" num="66">TOH</set>
 			<prop>
 				<layout>adventure</layout>
@@ -768,8 +768,8 @@ Splice onto sorcery {1}{U} (As you cast a sorcery spell, you may reveal this car
 		<card>
 			<name>Old Friends, New Roads</name>
 			<text>When Old Friends, New Roads enters, create a 2/1 blue Faerie creature token with flying.
-Whenever a creature you control deals combat damage to a player or planeswalker, create a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/42.png" num="62">TOH</set>
+Whenever a creature you control deals combat damage to a player or planeswalker, create a Shard token.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/42.png" num="61">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -784,11 +784,11 @@ Whenever a creature you control deals combat damage to a player or planeswalker,
 		</card>
 		<card>
 			<name>Kir Kahroba, Seeker</name>
-			<text>Whenever you activate one of Kir Kahroba&apos;s abilities, create a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)
+			<text>Whenever you activate one of Kir Kahroba&apos;s abilities, create a Shard token.
 [+1]: Create a 3/2 blue Shark creature token.
 [-2]: Tap target nonland permanent. Put three stun counters on it. For as long as it has a stun counter on it, it loses all abilities.
 [-7]: You get an emblem with &quot;Creatures you control can&apos;t be blocked.&quot;</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/43.png" num="53">TOH</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/43.png" num="52">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -811,7 +811,7 @@ When Lumbering Drifter enters, gain control of all permanents you own.
 ---
 
 Exchange control of two target nonland permanents. (Then exile this card. You may cast the creature later from exile.)</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/44.png" num="58">TOH</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/44.png" num="57">TOH</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -865,7 +865,7 @@ Splice onto sorcery {2}{U} (As you cast a sorcery spell, you may reveal this car
 			<text>Flash
 Flying
 Whenever you cast a spell during combat or during an opponent&apos;s turn, you may put a stun counter on target creature you don&apos;t control.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/47.png" num="54">TOH</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/47.png" num="53">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -882,8 +882,8 @@ Whenever you cast a spell during combat or during an opponent&apos;s turn, you m
 		<card>
 			<name>Kozhtud Lorekeeper</name>
 			<text>When you draw your second card each turn, outfit your Hero. (Progress down your Hero&apos;s path. If you control no Heroes, create a 1/1 Hero token first.)
-Whenever a Hero you control dies, create a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/48.png" num="56">TOH</set>
+Whenever a Hero you control dies, create a Shard token.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/48.png" num="55">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -902,7 +902,7 @@ Whenever a Hero you control dies, create a Shard token. (It&apos;s an enchantmen
 			<text>Handy Trufflets can&apos;t be blocked.
 When Handy Trufflets attacks, scry 1.
 {2}, Sacrifice Handy Trufflets: Target permanent you control phases out. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/49.png" num="49">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/49.png" num="48">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -919,7 +919,7 @@ When Handy Trufflets attacks, scry 1.
 		<card>
 			<name>Mortud Plunderer</name>
 			<text>Whenever you cast a noncreature spell, adjust target permanent. (Add a counter that it already has to it or remove a counter from it.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/50.png" num="61">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/50.png" num="60">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -937,7 +937,7 @@ When Handy Trufflets attacks, scry 1.
 			<name>Keeper of the First Mask</name>
 			<text>Whenever Keeper of the First Mask attacks, token creatures you control can&apos;t be blocked.
 When Keeper of the First Mask enters, you may put three +1/+1 counters on target noncreature token you control. You may have it become a 0/0 creature in addition to its other types.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/51.png" num="52">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/51.png" num="51">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -959,7 +959,7 @@ When Mor-Glas Resonator enters, untap up to three target permanents.
 ---
 
 The owner of target creature puts it on their choice of the top or bottom of their library. (Then exile this card. You may cast the creature later from exile.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/52.png" num="59">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/52.png" num="58">TOH</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -978,7 +978,7 @@ The owner of target creature puts it on their choice of the top or bottom of the
 			<text>Choose one —
 • Target creature you control gains hexproof until end of turn. Untap it.
 • Return target nonland permanent to its owner&apos;s hand.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/53.png" num="50">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/53.png" num="49">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -994,7 +994,7 @@ The owner of target creature puts it on their choice of the top or bottom of the
 		<card>
 			<name>Kozhtud Echomage</name>
 			<text>At the beginning of your end step, you may discard a card. If you do, create a token that&apos;s a copy of target enchantment you control.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/54.png" num="55">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/54.png" num="54">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1032,7 +1032,7 @@ Noncreature spells you cast cost {1} less to cast.
 
 ---
 
-Create a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)</text>
+Create a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this enchantment: Scry 1, then draw a card.&quot; Then exile this card. You may cast the creature later from exile.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/56.png" num="67">TOH</set>
 			<prop>
 				<layout>adventure</layout>
@@ -1086,7 +1086,7 @@ Outfit your Hero. (Progress down your Hero&apos;s path. If you control no Heroes
 		<card>
 			<name>Brine Nullifier</name>
 			<text>Flash
-When Brine Nullifier enters, counter target spell. Its controller creates a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)</text>
+When Brine Nullifier enters, counter target spell. Its controller creates a Shard token.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/59.png" num="42">TOH</set>
 			<prop>
 				<layout>normal</layout>
@@ -1105,7 +1105,7 @@ When Brine Nullifier enters, counter target spell. Its controller creates a Shar
 			<name>Leyline Portal</name>
 			<text>Exile target nonland permanent you control, then return it to the battlefield under its owner&apos;s control at the beginning of next end step.
 Splice onto sorcery {1}{U} (As you cast a sorcery spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card&apos;s effects to that spell.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/60.png" num="57">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/60.png" num="56">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1143,7 +1143,7 @@ Whenever Mor-Glas Stalker attacks, defending player mills three cards.
 ---
 
 Target creature gets -3/-3 until end of turn. Its controller mills three cards. (Then exile this card. You may cast the creature later from exile.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/62.png" num="60">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/62.png" num="59">TOH</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -1161,7 +1161,7 @@ Target creature gets -3/-3 until end of turn. Its controller mills three cards. 
 			<name>Foretold Journey</name>
 			<text>When Foretold Journey enters, outfit your Hero. (Progress down your Hero&apos;s path. If you control no Heroes, create a 1/1 Hero token first.)
 Whenever you draw your second card each turn, put a +1/+1 counter on target creature you control.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/63.png" num="47">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/63.png" num="46">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1230,7 +1230,7 @@ When Prepare for the Unknown enters or is defeated, scry 2, then draw a card.</t
 		<card>
 			<name>Eyes on the Depths</name>
 			<text>Look at the top three cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order. If you control seven or more lands, put each of those cards into your hand instead.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/67.png" num="46">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/67.png" num="45">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1260,10 +1260,10 @@ When Prepare for the Unknown enters or is defeated, scry 2, then draw a card.</t
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Disrupting Surge</name>
+			<name>Oozing Grasp</name>
 			<text>You may tap or untap target permanent. If you tapped a permanent you don&apos;t control this way, put a stun counter on it.
 Splice onto sorcery {1}{U} (As you cast a sorcery spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card&apos;s effects to that spell.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/69.png" num="45">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/69.png" num="62">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1281,7 +1281,7 @@ Splice onto sorcery {1}{U} (As you cast a sorcery spell, you may reveal this car
 			<text>Flash
 Enchant creature
 Enchanted creature loses all abilities, can&apos;t become untapped, and is a 0/1 Peasant creature.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/70.png" num="51">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/70.png" num="50">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1406,7 +1406,7 @@ Ward—Discard a card.</text>
 		<card>
 			<name>Identity Schism</name>
 			<text>Target player reveals their hand. You choose a nonland card from it. That player discards that card.
-That player creates a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)</text>
+That player creates a Shard token.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/77.png" num="86">TOH</set>
 			<prop>
 				<layout>normal</layout>
@@ -1746,7 +1746,7 @@ Equip {R}</text>
 			<text>(As this enters, choose an opponent to protect it. You can attack it.)
 When By Flame and Horn enters, create a 3/3 green Knight creature token. It can&apos;t attack players as long as you control By Flame and Horn.
 When By Flame and Horn is defeated, create five Treasure tokens.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/96.png" num="103">TOH</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/96.png" num="104">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1782,7 +1782,7 @@ Whenever Mythseeker Dragon attacks, exile target instant or sorcery card at rand
 			<name>Bisclavret Alpha</name>
 			<text>Land creatures you control have haste.
 When Bisclavret Alpha enters, untap up to two target lands you control. They become 3/2 Wolf creatures in addition to their other types.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/98.png" num="102">TOH</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/98.png" num="103">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1890,7 +1890,7 @@ Searing Flare deals 3 damage to target creature or planeswalker. If you sacrific
 			<name>Combination Assault</name>
 			<text>Combination Assault deals 6 damage to any nonplayer target.
 Basic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/104.png" num="104">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/104.png" num="105">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2211,10 +2211,10 @@ When Eager Freelancer dies, it deals 2 damage to each opponent.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Crackling Discharge</name>
-			<text>Crackling Discharge deals 2 damage to any target.
-{2}{R}, Exile Crackling Discharge from your graveyard: Create a Weapon token. (It&apos;s an Equipment artifact with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/122.png" num="105">TOH</set>
+			<name>Alleyway Ambush</name>
+			<text>Alleyway Ambush deals 2 damage to any target.
+{2}{R}, Exile Alleyway Ambush from your graveyard: Create a Weapon token. (It&apos;s an Equipment artifact with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/122.png" num="102">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2547,7 +2547,7 @@ When Bustling Waypoint is defeated, exile it. If you do, return two target perma
 			<text>(As this enters, choose an opponent to protect it. You can attack it.)
 As Request the Worthy enters, search your library for a green creature card and exile it. Put a number of defense counters on Request the Worthy equal to that creature&apos;s mana value. 
 When Request the Worthy is defeated, put the exiled creature card onto the battlefield under your control.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/140.png" num="163">TOH</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/140.png" num="164">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2566,7 +2566,7 @@ When Request the Worthy is defeated, put the exiled creature card onto the battl
 			<text>Vigilance, reach
 {T}: Add one mana of any color.
 {T}: Add two mana of any color. Spend this mana only to pay additional costs of spells.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/141.png" num="162">TOH</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/141.png" num="163">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2848,10 +2848,10 @@ Destroy target artifact or enchantment. (Then exile this card. You may cast the 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Rupture the Skin</name>
+			<name>Offer Compliance</name>
 			<text>Target creature gets +2/+2 and gains trample until end of turn.
 Splice onto sorcery {1}{G} (As you cast a sorcery spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card&apos;s effects to that spell.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/156.png" num="165">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/156.png" num="159">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2867,7 +2867,7 @@ Splice onto sorcery {1}{G} (As you cast a sorcery spell, you may reveal this car
 		<card>
 			<name>Pevartud Partygoer</name>
 			<text>Landfall — Whenever a land you control enters, outfit your Hero. (Progress down your Hero&apos;s path. If you control no Heroes, create a 1/1 Hero token first.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/157.png" num="160">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/157.png" num="161">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2902,7 +2902,7 @@ Splice onto sorcery {1}{G} (As you cast a sorcery spell, you may reveal this car
 			<name>Roaming Broodwurm</name>
 			<text>Trample, reach
 {2}, Sacrifice a land: Return Roaming Broodwurm from your graveyard to your hand. Activate only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/159.png" num="164">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/159.png" num="165">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2919,7 +2919,7 @@ Splice onto sorcery {1}{G} (As you cast a sorcery spell, you may reveal this car
 		<card>
 			<name>Wayfarer&apos;s Respite</name>
 			<text>Enchant land
-When Wayfarer&apos;s Respite enters, create a Shard token. You gain 3 life. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)
+When Wayfarer&apos;s Respite enters, create a Shard token. You gain 3 life.
 Enchanted land has &quot;{T}: Add one mana of any color.&quot;</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/160.png" num="175">TOH</set>
 			<prop>
@@ -3025,7 +3025,7 @@ Splice onto sorcery {1}{G} (As you cast a sorcery spell, you may reveal this car
 			<text>Flash
 When Omen of Harvests enters, sacrifice a land. Search your library for a land card, put that card onto the battlefield, then shuffle. If that land entered tapped, untap it. Otherwise, you gain 2 life.
 {2}{G}, Sacrifice Omen of Harvests: Scry 2.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/166.png" num="159">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/166.png" num="160">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3040,7 +3040,7 @@ When Omen of Harvests enters, sacrifice a land. Search your library for a land c
 		</card>
 		<card>
 			<name>Melganez, Patient Oracle</name>
-			<text>At the beginning of your end step, create a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)
+			<text>At the beginning of your end step, create a Shard token.
 Melganez has hexproof as long as you&apos;ve drawn a card this turn and has indestructible as long as you&apos;ve drawn two or more cards this turn.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/167.png" num="178">TOH</set>
 			<prop>
@@ -3091,7 +3091,7 @@ Melganez has hexproof as long as you&apos;ve drawn a card this turn and has inde
 		</card>
 		<card>
 			<name>Swimming with Sharks</name>
-			<text>Whenever Swimming with Sharks enters or you cast an enchantment spell, create a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)
+			<text>Whenever Swimming with Sharks enters or you cast an enchantment spell, create a Shard token.
 {2}, Sacrifice two Shards: Create a 3/2 blue Shark creature token. It can&apos;t block this turn.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/170.png" num="180">TOH</set>
 			<prop>
@@ -3802,10 +3802,10 @@ When Roaming Bastion dies, draw a card, then create two Treasure tokens.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Pyre of the Unworthy</name>
+			<name>Hand of the Unworthy</name>
 			<text>{T}: Exile target card from a graveyard.
-{4}, {T}, Sacrifice Pyre of the Unworthy: Draw a card for each type among cards exiled by Pyre of the Unworthy.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/210.png" num="225">TOH</set>
+{4}, {T}, Sacrifice Hand of the Unworthy: Draw a card for each type among cards exiled by Hand of the Unworthy.</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/210.png" num="222">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3850,7 +3850,7 @@ When Roaming Bastion dies, draw a card, then create two Treasure tokens.</text>
 			<name>Marble Titan</name>
 			<text>Trample
 When Marble Titan enters or attacks, attacks, reveal the top two cards of your library. An opponent chooses one of them. Put that card into your hand and put the other into your graveyard.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/213.png" num="222">TOH</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/213.png" num="223">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3898,7 +3898,7 @@ Remove fifteen charge counters from Seal to the Dead Dreamer: Create a 15/15 bla
 			<name>Overgrown Warden</name>
 			<text>Flying
 When Overgrown Warden dies, create a Shard token and a Weapon token. (A Weapon is an Equipment token with equip {2} and &quot;Equipped creature gets +1/+1.&quot; A Shard is an enchantment token with &quot;{2}, Sacrifice this enchantment: Scry 1, then draw a card.&quot;)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/216.png" num="224">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/216.png" num="225">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3928,7 +3928,7 @@ When Overgrown Warden dies, create a Shard token and a Weapon token. (A Weapon i
 			<name>Not-So-Subtle Chest</name>
 			<text>When Not-So-Subtle Chest enters, it deals 3 damage to up to one nonplayer target.
 {T}, Sacrifice Not-So-Subtle Chest: Add one mana of any color.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/218.png" num="223">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/218.png" num="224">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4189,7 +4189,7 @@ Return target creature card from your graveyard to your hand. (Then exile this c
 			<name>Smoldering Passage</name>
 			<text>Smoldering Passage enters tapped if there are one or more cards in your graveyard.
 {T}: Add {B}.
-{B}, {T}, Sacrifice a creature: Create a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)</text>
+{B}, {T}, Sacrifice a creature: Create a Shard token.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/TOH-files/img/233.png" num="273">TOH</set>
 			<prop>
 				<layout>normal</layout>
@@ -5296,7 +5296,7 @@ Ward—Pay 2 life.</text>
 ---
 
 Draw two cards. (Then exile this card. You may cast the creature later from exile.)</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/295.png" num="48">TOH</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/295.png" num="47">TOH</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -5330,7 +5330,7 @@ Draw two cards. (Then exile this card. You may cast the creature later from exil
 			<name>Price of Ambition</name>
 			<text>{3}{B}, Sacrifice a creature: Draw a card.
 Whenever a nontoken creature you control dies, outfit your Hero. (Progress down your Hero&apos;s path. If you control no Heroes, create a 1/1 Hero token first.)</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/297.png" num="161">TOH</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/297.png" num="162">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>

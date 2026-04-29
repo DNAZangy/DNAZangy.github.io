@@ -1,4 +1,696 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+
+
+Sunbeam Alseid
+
+Traxian Strategos
+
+New Recruit
+
+Alseid of Stilled Hearts
+
+Daybreak Rider
+
+Traxian Calvary
+
+Skophos Warden
+
+Walk the Dead's Path
+
+Tyranny of Trax
+
+Marble Philosopher
+
+Olantin Stalwart
+
+Traxian Hoplite
+
+Gods Willing
+
+Charming Siren
+
+Melancholic Oracle
+
+Meeting of the Minds
+
+Mentor of the Dakra Isles
+
+Olantin Emissary
+
+Dakran Shipcrusher
+
+Warden of the Deep-Dwelling
+
+Fathomless Dominion
+
+Divine Mishap
+
+Kraken Hatchling
+
+Thassa's Caress
+
+Odunos Smuggler
+
+Possibility Savant
+
+Secluded Gorgon
+
+Hekatan Demagogue
+
+Reaper Archon
+
+Stoic Phylaskia
+
+Remnant of Zakros
+
+Xarr's Mockery
+
+Isolated Misery
+
+Nurture the Future
+
+Skophos Conqueror
+
+Split-Hair Asp
+
+Hero in the Making
+
+Eidolon of Empty Thoughts
+
+Invest in the Future
+
+Anvilwrought Lion
+
+Mogis's Raider
+
+Seismic Chimera
+
+Rally the Hoplites
+
+Guardians of Zakros
+
+Speaker of the Lightning
+
+Punishment from Nyx
+
+Fall from Nyx
+
+Reply to the Call
+
+Heedless Cruelty
+
+Thrice-Blessed Boon
+
+Aegis Assault
+
+Revel Watchguard
+
+Dryad of the Keen-Eyed
+
+Reaper of Fields
+
+Pidae Raider
+
+Caller of Ferocity
+
+Inkblooded Basilisk
+
+Centaur Mentor
+
+Pheres-Band Huntmaster
+
+Slumbering Serpent
+
+Thundering Serpent
+
+Weave Destiny
+
+Punch Out of the Sky
+
+Midsummer Dream
+
+Zakros General
+
+Imposing Serpent
+
+Agnomakhos's Abomination
+
+Ephara's Oracle
+
+Patron of Ephara's Glory
+
+Archon of Glorious Light
+
+Basilo, Lion of Valor
+
+Zakros Decree
+
+Command from the Front
+
+Haubay's Familiar
+
+Traumatic Impact
+
+Eidolon of Graceful Steps
+
+Oracle of Zakros
+
+Horror of the Mystic Sea
+
+The Founding of the Twelve
+
+Turn to Nyx
+
+Aphonai's Reveler
+
+Phenax's Confidant
+
+Pharika's Harbinger
+
+Axiomene, Syrurian Tyrant
+
+Petraform Hermit
+
+Maim
+
+Kakomanties Circle
+
+Together Just a Moment More
+
+Phenax's Touch
+
+Apprentice of the Forge-God
+
+Skophos Raid-Veteran
+
+Zygos, Edge of the Bull
+
+Star-Seeking Dreamer
+
+Zakros Stompers
+
+The Burning of Pidae
+
+Elektes's Charge
+
+Ignite
+
+Star-Studded Sagittaur
+
+Wolf-Whistle Satyr
+
+Survivor of Pidae
+
+Hunger's Door
+
+Labyrinthine Hydra
+
+Disciple of the Weavers
+
+Canopy of the Winter Nexus
+
+Harmony with Nature
+
+The Army of Trax
+
+Prince of the Pride
+
+Chosen of Heliod
+
+The Fall of Trax
+rules_text:  => 
+I — Exile up to one target permanent with mana value 4 or greater.
+II — Create two 1/1 white Human creature tokens.
+III — Each player gains control of all permanents they own. If you gained control of no permanents this way, draw a card.
+
+Shrine to Heliod
+
+Stormscraper of Ketaphos
+
+Lost Caller of the Sea
+
+Thassa's Tideshaper
+
+Absorb Divinity
+
+Lost to Memory
+
+The Sinking of Olantin
+rules_text:  => 
+I — Draw two cards.
+II — Return all nonland, nonenchantment permanents to their owners' hands.
+III — You may cast a non-Saga spell with mana value 5 or less from your hand without paying its mana cost.
+
+Shrine to Thassa
+
+Underworld Tormentor
+
+Slighos the Body-Binder
+
+Keeper of the Scale
+
+Make an Example
+
+The Path of Phenax
+rules_text:  => 
+I — Each opponent discards two cards, then mills two cards.
+II — Each opponent loses 2 life and you gain 2 life.
+III — For each opponent that has eight or more cards in their graveyard, exile a card from that player's graveyard. You may cast cards exiled this way this turn, and mana of any type can be spent to cast cast it.
+special_text: 
+I — Each opponent discards two cards, then mills two cards.
+Each opponent loses 2 life and you gain 2 life.
+II, III — For each opponent that has eight or more cards in their graveyard, exile a card from that player's graveyard. You may cast cards exiled this way this turn, and mana of any type can be spent to cast cast it. => 
+I — Each opponent discards two cards, then mills two cards.
+II — Each opponent loses 2 life and you gain 2 life.
+III — For each opponent that has eight or more cards in their graveyard, exile a card from that player's graveyard. You may cast cards exiled this way this turn, and mana of any type can be spent to cast cast it.
+
+Shrine to Erebos
+
+Satyr Arsonist
+
+Pyros Rider
+
+Skophos Conjuror
+
+Audience at Zakros
+
+Shrine to Purphoros
+
+Nylea's Grovetender
+
+Nessian Scout-Captain
+
+Skola Nyxweaver
+
+King of the Wilderness
+
+Siphon the Divine
+rules_text:  => 
+I, II — Siphon the Divine gains “Creatures your opponents control lose hexproof and indestructible and can't have or gain hexproof and indestructible.”
+III — Target creature you control fights up to one target creature.
+Exile target player's graveyard.
+special_text: 
+I, II — Siphon the Divine gains “Creatures your opponents control lose hexproof and indestructible and can't have or gain hexproof and indestructible.”
+Target creature you control fights up to one target creature.
+III — Exile target player's graveyard. => 
+I, II — Siphon the Divine gains “Creatures your opponents control lose hexproof and indestructible and can't have or gain hexproof and indestructible.”
+III — Target creature you control fights up to one target creature.
+Exile target player's graveyard.
+
+Shrine to Nylea
+
+Phlage, Titan of Burning Wind
+
+The Smoking Strand
+
+Ride the Tartyx
+
+Skotha, Titan of Eternal Dark
+
+Karda, Battle-Born
+
+Koios, Spear of Karda
+rules_text:  => Koios, Spear of Karda enters with a number of additional loyalty counters on him equal to your devotion to red. [i](He doesn't count himself.)[/i]
+[+1]: Exile the top three cards of your library. You may cast one of them.
+[-3]: Koios deals damage to any nonplayer target equal to your devotion to red.
+[-X]: Choose up to X target creatures with total mana value X or less. For each creature chosen this way, create a token that's a copy of it, except it has haste. Sacrifice those tokens at the beginning of the next end step.
+
+Arasta's Handmaiden
+
+Benthalos of Land and Sea
+
+Orestes, Heroic Scoundrel
+
+Raksolcs Ravage-Soul
+
+Molpadia, the Last Acephali
+
+Lykaretos, Harvest's Bounty
+
+Pero, Puppet of Erebos
+
+Timedrinker the Bleached
+
+Biaas the Poison Drinker
+
+Elektes, First King of Akros
+
+Zale, Titanohunter
+
+Builder of Monuments
+
+Through Blood, Knowledge
+
+Spikemane Lion
+
+Archon of Condemnation
+
+Tiro, the Silent Blade
+
+Nikon, Skophos Protector
+
+Nykthos, Architect of Gods
+
+Colossus of Trax
+
+Implacable Shrine-Guard
+
+Tidelock Pearl
+
+Athreos, Gold-Eyed
+
+Karametra, Life-Harvester
+
+Klothys, Fate-Driven
+
+Kruphix, Far-Seeing
+
+Mogis, Rage-Crowned
+
+Iroas, Honor-Bound
+
+Keranos, Fickle-Fortuned
+
+Phenax, Brazen Thief
+
+Pharika, Snake-Twined
+
+Ephara, Hero-Maker
+
+Agnomakhos, Justice
+
+Behemoth of the Five Rivers
+
+Furies of the Natural Order
+
+Thraxes, Sire of Dragons
+
+Seeker of New Horizons
+
+The Arbiter
+rules_text:  => [+2]: Each player puts their hand on the bottom of their library in a random order. You draw five cards, then each opponent draws two cards.
+[+1]: Untap each land you control.
+[-3]: Return up to three target nonland permanents to their owner's hands.
+[-9]: You get an emblem with “Whenever an opponent casts their first spell each turn, gain control of it. You may choose new targets for that spell.”
+
+Xarr of the Eternal Cycle
+rules_text:  => [+2]: Mill three cards. You gain 3 life.
+[+1]: Return target land card from your graveyard to the battlefield. It becomes a 2/2 black Zombie creature in addition to its other types.
+[-2]: Target opponent sacrifices a permanent with mana value 3 or greater.
+[-12]: You get an emblem with “Whenever a player sacrifices a permanent, you may draw a card.” Then each opponent sacrifices five permanents.
+
+Barren Ashlands
+
+Buried Colossus
+
+Ephemeral Mire
+
+Gates to the Underworld
+
+Hundred-Handed Pillars
+
+Miasmic Cove
+
+Nessian Woods
+
+Nimbus of Thought
+
+Shell Cove
+
+Titan's Stairs
+
+Temple of Deceit
+
+Temple of Abandon
+
+Temple of Mystery
+
+Temple of Malice
+
+Temple of Plenty
+
+Temple of Silence
+
+Temple of Epiphany
+
+Temple of Triumph
+
+Temple of Enlightenment
+
+Temple of Malady
+
+Shrine to Those Forgotten
+
+Shrine to Athreos
+
+Shrine to Ephara
+
+Shrine to Iroas
+
+Shrine to Karametra
+
+Shrine to Keranos
+
+Shrine to Klothys
+
+Shrine to Kruphix
+
+Shrine to Mogis
+
+Shrine to Pharika
+
+Shrine to Phenax
+
+Garden of Shrines
+
+Omen of Victory
+
+Omen of Deception
+
+Omen of Slaughter
+
+Omen of Storms
+
+Omen of Horizons
+
+Ordeal of Athreos
+
+Ordeal of Ephara
+
+Ordeal of Pharika
+
+Ordeal of Karda
+
+Ordeal of Karametra
+
+Cybele of the Frozen Faith
+
+Karda's Emmisary
+
+Traveler's Amulet
+
+Anvilwrought Crane
+
+Chromatic Hart
+
+Leonin Hoplite
+
+Terramorphic Expanse
+
+Read the Tides
+
+Shatter the Reflection
+
+Fight the Tides
+
+Arasta's Burden
+
+Monstrous Challenge
+
+Flame Whip
+
+Petros, Purphoros's Double
+
+Erase from Reality
+
+Agent of Deception
+
+Gray Merchant of Asphodel
+
+Nylea's Call
+
+Terror of Olantin
+
+Fall into the Underworld
+
+Agent of Pharika
+
+Rite of Venom
+
+Nyxborn Retriever
+
+Plead to Erebos
+
+Poisoned Strike
+
+Travel Through the Mystic Sea
+
+Shoreline Crasher
+
+Ebb and Flow
+
+Misbegotten Aims
+
+Leonin Phalanx
+
+Spear of the Sun-Crowned
+
+Traxian General
+
+Dedicated Charge
+
+Ephara's Messenger
+
+Zodiac Griffin
+
+Coward-Eater
+
+Skophos Trainee
+
+Clash of the Titans
+
+Soul-Guide Lantern
+
+Bringer of Heliod's Light
+
+Life Begins Anew
+
+Ashlands Phoenix
+
+Momentary Petrification
+
+Archon of the Legion
+
+Fall of Olantin
+
+Nikon's Aegis
+
+Deception's Edge
+
+Eventide Coronet
+
+Tymaret, Bane of Phenax
+
+Sculpture
+
+Weapon
+
+Treasure
+
+Army
+
+Human
+
+Snake
+
+Tentacle
+
+Soldier
+
+Follower
+
+Zombie
+
+Wizard
+
+Kraken
+
+Tromokratis
+
+Centaur
+
+Grim Physician
+
+Dragon
+
+Charging Brightmare
+
+Callaphe the Mariner
+
+Lurking Vyrkolakas
+
+Arena Champion
+
+Belief-Belying Beast
+
+Pegasus
+
+Quality Time
+
+Chrolcatos, Pidae's Founder
+
+Karda's Legacy
+
+Menelaia, Beloved Lyrist
+
+Tide's Ire
+
+Ephara's Judgment
+
+Phenax's Judgment
+
+Mogis's Judgment
+
+Klothys's Judgment
+
+Karametra's Judgment
+
+Athreos's Judgment
+
+Keranos's Judgment
+
+Pharika's Judgment
+
+Iroas's Judgment
+
+Kruphix's Judgment
+
+Pull of Tizerus
+
+Voyage to the Siren Sea
+
+The Champion
+
+Unmarked Shrine
+
+Iara, Blessed-Hart
+
+Trinity of Fates
+
+Host of the Neverending Revel
+
+Efimia of the Horse
+
+Evridiki, Queen of Pidae
+
+Wolf
+
+Snake
+
+A God Divided
+rules_text:  => 
+I — Destroy any number of target artifacts with total mana value 4 or less.
+II — You may discard up to two cards. If you do, draw that many cards.
+III — You may sacrifice a creature. If you do, A God Divided deals damage to any target equal to the sacrificed creature's power.
+
+Claes, Shield of Karda
+
+Kynaios, Blade-Bound
+
+
+VERSION 2 CHANGELOG
 ====================
 
 Kynaios, Blade-Bound added.

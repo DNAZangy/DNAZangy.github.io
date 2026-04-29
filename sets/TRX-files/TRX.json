@@ -1,10 +1,11 @@
 ﻿{
     "name": "Theros: Age of Trax",
     "formats": "Zangy, Revolution",
-    "trimmed": "y",
     "image_type": "png",
-    "draft_structure": "play booster",
+    "draft_structure": "draft booster",
     "unpreviewed": "card back",
+    "image_name": "position",
+    "v_mana": "",
     "cards": [
         {
             "card_name": "Sunbeam Alseid",
@@ -22,6 +23,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Heather Schwartz",
+            "alias": "",
+            "position": "0",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -40,6 +44,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Craig Lee Kentauri",
+            "alias": "",
+            "position": "1",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Ephara\n!tag Agnomakhos"
         },
         {
@@ -58,6 +65,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Aurore Folny",
+            "alias": "",
+            "position": "2",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -76,6 +86,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Chris Beatrice",
+            "alias": "",
+            "position": "3",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -94,6 +107,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pascal Quidault",
+            "alias": "",
+            "position": "4",
             "card_name2": "The Sun's Blessing",
             "color2": "W",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -104,6 +119,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Francesca Resta",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Heliod"
         },
         {
@@ -122,6 +140,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Vincenzo Prattico",
+            "alias": "",
+            "position": "5",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Agnomakhos"
         },
         {
@@ -140,6 +161,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Vizsla",
+            "alias": "",
+            "position": "6",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -158,6 +182,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Andrew Kim",
+            "alias": "",
+            "position": "7",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Phenax\n!tag Evandros\nvampire"
         },
         {
@@ -176,6 +203,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lie Setiawan",
+            "alias": "",
+            "position": "8",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Story\n!tag TRXStory\n!tag Tiro\n!tag Ephara\nStory Spotlight 2\n!update"
         },
         {
@@ -194,6 +224,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Xavier Leroux",
+            "alias": "",
+            "position": "9",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Ephara\nDevotion to Three Cycle"
         },
         {
@@ -212,6 +245,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Chance Miller",
+            "alias": "",
+            "position": "10",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Thassa\nSlow enchantments"
         },
         {
@@ -230,6 +266,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Boli Nolasco",
+            "alias": "",
+            "position": "11",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Agnomakhos\nCrats"
         },
         {
@@ -248,6 +287,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alan Albiach",
+            "alias": "",
+            "position": "12",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Karda\n!tag Claes\n!tag Koios\n!tag Planeswalker\n!tag Yaoi"
         },
         {
@@ -266,6 +308,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "ImmarArt",
+            "alias": "",
+            "position": "13",
             "card_name2": "Left to the Sea",
             "color2": "U",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -276,6 +320,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Michal Niewiara",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -294,6 +341,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Nick Silva",
+            "alias": "",
+            "position": "14",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Benthalos"
         },
         {
@@ -312,6 +362,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Neo 7",
+            "alias": "",
+            "position": "15",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Haubay\n!tag Agnomakhos"
         },
         {
@@ -330,6 +383,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jinho Bae",
+            "alias": "",
+            "position": "16",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Kruphix"
         },
         {
@@ -348,6 +404,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Herckeim",
+            "alias": "",
+            "position": "17",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Benthalos"
         },
         {
@@ -366,6 +425,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Guillaume Ducos",
+            "alias": "",
+            "position": "18",
             "card_name2": "Depths of the Sea",
             "color2": "U",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -376,6 +437,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Juno Viinikka",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\nKLOS"
         },
         {
@@ -394,6 +458,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Justice Wong",
+            "alias": "",
+            "position": "19",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Callaphe\n!tag Benthalos"
         },
         {
@@ -412,6 +479,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Kevin McKenna",
+            "alias": "",
+            "position": "20",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Thassa"
         },
         {
@@ -430,6 +500,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Victor Garcia",
+            "alias": "",
+            "position": "21",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -448,6 +521,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Phill Berry",
+            "alias": "",
+            "position": "22",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Hai\n!tag Planeswalker\n!tag Arixmethes\n!tag Nezahal"
         },
         {
@@ -466,6 +542,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Robynn Frauhn",
+            "alias": "",
+            "position": "23",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Thassa\nDevotion to Three cycle"
         },
         {
@@ -484,6 +563,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Stephanie Bouchard",
+            "alias": "",
+            "position": "24",
+            "rotated": false,
             "notes": "!tag Theros\nEight or more mill"
         },
         {
@@ -502,6 +584,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Juno Viinikka",
+            "alias": "",
+            "position": "25",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Keranos\nNoncreature love"
         },
         {
@@ -520,6 +605,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Renato Prezioso",
+            "alias": "",
+            "position": "26",
             "card_name2": "Glare of the Gorgon",
             "color2": "B",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -530,6 +617,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Victor Adame",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Pharina\n!tag Theros"
         },
         {
@@ -548,6 +638,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ernanda Souza",
+            "alias": "",
+            "position": "27",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Erebos"
         },
         {
@@ -566,6 +659,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "sitoni42",
+            "alias": "",
+            "position": "28",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Haubay\n!tag Agnomakhos\n!tag Planeswalker"
         },
         {
@@ -584,6 +680,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Juan Arrabal",
+            "alias": "",
+            "position": "29",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Phenax\n!tag Erebos"
         },
         {
@@ -602,6 +701,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ari Matti",
+            "alias": "",
+            "position": "30",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Xarr\n!tag Haubay\n!tag Planeswalker"
         },
         {
@@ -620,6 +722,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Tim Guo",
+            "alias": "",
+            "position": "31",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Planeswalker\n!tag Xarr"
         },
         {
@@ -638,6 +743,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Juno Viinikka",
+            "alias": "",
+            "position": "32",
+            "rotated": false,
             "notes": "!tag Theros\nDevotion to Three cycle"
         },
         {
@@ -656,6 +764,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Vicki Pangestu",
+            "alias": "",
+            "position": "33",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Cybele"
         },
         {
@@ -674,6 +785,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Will Balles",
+            "alias": "",
+            "position": "34",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Mogis\nMinotaurs/Sacrifice"
         },
         {
@@ -692,6 +806,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lemog Leo",
+            "alias": "",
+            "position": "35",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Pharika\nDeathtouch Saboteurs"
         },
         {
@@ -710,6 +827,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Taylor Payton",
+            "alias": "",
+            "position": "36",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -728,6 +848,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Vedran Popovic",
+            "alias": "",
+            "position": "37",
+            "rotated": false,
             "notes": "!tag Theros\nDevotion to Three cycle"
         },
         {
@@ -746,6 +869,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sofija Radulovic",
+            "alias": "",
+            "position": "38",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -764,6 +890,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Phu Thieu",
+            "alias": "",
+            "position": "39",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Petros\n!tag Purphoros"
         },
         {
@@ -782,6 +911,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Even Amundsen",
+            "alias": "",
+            "position": "40",
             "card_name2": "Raider's Blessing",
             "color2": "R",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -792,6 +923,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Jonathan Dawo",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Mogis"
         },
         {
@@ -810,6 +944,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Victor Garcia",
+            "alias": "",
+            "position": "41",
             "card_name2": "Tectonic Rage",
             "color2": "R",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -820,6 +956,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Wojtek Depczynski",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Zygos\n!tag SevenWarriors"
         },
         {
@@ -838,6 +977,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Goodname Studio",
+            "alias": "",
+            "position": "42",
+            "rotated": false,
             "notes": "!tag Theros\n!tag SevenWarriors"
         },
         {
@@ -856,6 +998,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Javier Franco Santacreu",
+            "alias": "",
+            "position": "43",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -874,6 +1019,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ozan Pulat",
+            "alias": "",
+            "position": "44",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Purphoros\n!tag Keranos"
         },
         {
@@ -892,6 +1040,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Suke",
+            "alias": "",
+            "position": "45",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Yaoi\n!tag Koios\n!tag Claes"
         },
         {
@@ -910,6 +1061,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Danny Duan",
+            "alias": "",
+            "position": "46",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Koios"
         },
         {
@@ -928,6 +1082,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Andrew Rimbo Hanzlik",
+            "alias": "",
+            "position": "47",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Agnomakhos"
         },
         {
@@ -946,6 +1103,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Russel Jones",
+            "alias": "",
+            "position": "48",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Haubay\n!tag Agnomakhos\n!tag Planeswalker"
         },
         {
@@ -964,6 +1124,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Felipe Gomes Grants",
+            "alias": "",
+            "position": "49",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Purphoros\n!tag Keranos\n!tag Karda"
         },
         {
@@ -982,6 +1145,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Irnyo",
+            "alias": "",
+            "position": "50",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Koios\n!tag Claes\n!tag Yaoi\nCombat Stuff/heroic"
         },
         {
@@ -1000,6 +1166,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lemog Leo",
+            "alias": "",
+            "position": "51",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1018,6 +1187,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sandra Duchiewicz",
+            "alias": "",
+            "position": "52",
+            "rotated": false,
             "notes": "!tag Nylea\n!tag Theros\nDevotion to Three cycle"
         },
         {
@@ -1036,6 +1208,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Guilherme Motta",
+            "alias": "",
+            "position": "53",
             "card_name2": "Fields of Ilysia",
             "color2": "G",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -1046,6 +1220,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Lorenzo Tomaselli",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Klothys"
         },
         {
@@ -1064,6 +1241,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sebastian Kowoll",
+            "alias": "",
+            "position": "54",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Cybele\n!tag Chrolcatos"
         },
         {
@@ -1082,6 +1262,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pedro Cova",
+            "alias": "",
+            "position": "55",
             "card_name2": "Ferocity of Nature",
             "color2": "G",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -1092,6 +1274,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Lemog Leo",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Karametra"
         },
         {
@@ -1110,6 +1295,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Brian Valeza",
+            "alias": "",
+            "position": "56",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Pharika"
         },
         {
@@ -1128,6 +1316,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alexandra Gaudi & Buendia Khitrova",
+            "alias": "",
+            "position": "57",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1146,6 +1337,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Gal Or",
+            "alias": "",
+            "position": "58",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Nylea"
         },
         {
@@ -1164,6 +1358,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sasha Rodriguez",
+            "alias": "",
+            "position": "59",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1182,6 +1379,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Matt Cowdery",
+            "alias": "",
+            "position": "60",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Zale\nKLOS"
         },
         {
@@ -1200,6 +1400,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sanabil Hassan",
+            "alias": "",
+            "position": "61",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Story\n!tag TRXStory\n!tag Klothys\n!tag Claes\n!tag Planeswalker\n!tag Haubay\nStory Spotlight 4"
         },
         {
@@ -1218,6 +1421,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Dionisis Milonas",
+            "alias": "",
+            "position": "62",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1236,6 +1442,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Taran Fiddler",
+            "alias": "",
+            "position": "63",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1254,6 +1463,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sebastian Kowoll",
+            "alias": "",
+            "position": "64",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Agnomakhos\n\nAura-love"
         },
         {
@@ -1272,6 +1484,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Felix Ortiz",
+            "alias": "",
+            "position": "65",
+            "rotated": false,
             "notes": "!tag Theros\nBig Mana\nKLOS"
         },
         {
@@ -1290,6 +1505,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Riccardo Gualdi",
+            "alias": "",
+            "position": "66",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1308,6 +1526,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Brian Caleffi",
+            "alias": "",
+            "position": "67",
+            "rotated": false,
             "notes": "!tag Ephara\n!tag Theros"
         },
         {
@@ -1326,6 +1547,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Bull Storm",
+            "alias": "",
+            "position": "68",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Ephara"
         },
         {
@@ -1344,6 +1568,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Canh Nguyen",
+            "alias": "",
+            "position": "69",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Agnomakhos"
         },
         {
@@ -1362,6 +1589,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Miguel Regodon",
+            "alias": "",
+            "position": "70",
             "card_name2": "The Lion's Charisma",
             "color2": "W",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -1372,6 +1601,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Nguyen Minh Duc",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag SevenWarriors\n!tag Basilo"
         },
         {
@@ -1390,6 +1622,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Maxime Teppe",
+            "alias": "",
+            "position": "71",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1408,6 +1643,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Otl Miu",
+            "alias": "",
+            "position": "72",
+            "rotated": false,
             "notes": "!tag Agnomakhos\n!tag Theros"
         },
         {
@@ -1426,6 +1664,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Magdalena Radziej",
+            "alias": "",
+            "position": "73",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Planeswalker\n!tag Haubay\n!tag Xarr"
         },
         {
@@ -1444,6 +1685,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Mark Tarrisse",
+            "alias": "",
+            "position": "74",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Orestes\n!tag Phenax"
         },
         {
@@ -1462,6 +1706,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Romain Fournier",
+            "alias": "",
+            "position": "75",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1480,6 +1727,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Miguel Regodon",
+            "alias": "",
+            "position": "76",
             "card_name2": "Ocular Insight",
             "color2": "U",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -1490,6 +1739,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Olena Shmahalo",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Kruphix"
         },
         {
@@ -1508,6 +1760,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sebastian Rodriguez",
+            "alias": "",
+            "position": "77",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1526,6 +1781,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Deiv Calviz",
+            "alias": "",
+            "position": "78",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Tiro\n!tag Kynaios"
         },
         {
@@ -1544,6 +1802,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Patricia Moh",
+            "alias": "",
+            "position": "79",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1562,6 +1823,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lily Abdullina",
+            "alias": "",
+            "position": "80",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Phenax"
         },
         {
@@ -1580,6 +1844,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "David Astruga",
+            "alias": "",
+            "position": "81",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Phenax"
         },
         {
@@ -1598,6 +1865,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Irina Nordsol Kuzmina",
+            "alias": "",
+            "position": "82",
             "card_name2": "Poison in the Blood",
             "color2": "B",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -1608,6 +1877,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Victor Tan",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Pharika"
         },
         {
@@ -1626,6 +1898,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Aaron Miller",
+            "alias": "",
+            "position": "83",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1644,6 +1919,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "David Swanson",
+            "alias": "",
+            "position": "84",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1662,6 +1940,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sanjin Halimic",
+            "alias": "",
+            "position": "85",
+            "rotated": false,
             "notes": "!tag Cybele\n!tag Theros"
         },
         {
@@ -1680,6 +1961,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Caelan Stokkermans",
+            "alias": "",
+            "position": "86",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Phenax\n!tag Tymaret\n!tag Erebos"
         },
         {
@@ -1698,6 +1982,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sebastian Kowoll",
+            "alias": "",
+            "position": "87",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1716,6 +2003,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Dante Liu",
+            "alias": "",
+            "position": "88",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Phenax"
         },
         {
@@ -1734,6 +2024,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Georgi Madzharov",
+            "alias": "",
+            "position": "89",
+            "rotated": false,
             "notes": "!tag Purphoros\n!tag Thassa"
         },
         {
@@ -1752,6 +2045,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alexander William Hansson",
+            "alias": "",
+            "position": "90",
+            "rotated": false,
             "notes": "!tag Theros\n!Tag Nikon"
         },
         {
@@ -1770,6 +2066,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lie Setiawan",
+            "alias": "",
+            "position": "91",
             "card_name2": "Blessing of Slaughter",
             "color2": "R",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -1780,6 +2078,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Stefan Kopinski",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag SevenWarriors\n!tag Mogis"
         },
         {
@@ -1798,6 +2099,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ishton",
+            "alias": "",
+            "position": "92",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Kruphix"
         },
         {
@@ -1816,6 +2120,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "sixfoot",
+            "alias": "",
+            "position": "93",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1834,6 +2141,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Vaggelis Manousakas",
+            "alias": "",
+            "position": "94",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Agnomakhos\n!tag Elektes"
         },
         {
@@ -1852,6 +2162,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "phi8",
+            "alias": "",
+            "position": "95",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Elektes"
         },
         {
@@ -1870,6 +2183,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Masaki Hsu",
+            "alias": "",
+            "position": "96",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Iroas\n!tag Elektes"
         },
         {
@@ -1888,6 +2204,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Dananayi Muwanigwa",
+            "alias": "",
+            "position": "97",
             "card_name2": "Equinox Mark",
             "color2": "G",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -1898,6 +2216,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Hugo Puzzuoli",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Klothys"
         },
         {
@@ -1916,6 +2237,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Karoliina Mustamaa",
+            "alias": "",
+            "position": "98",
             "card_name2": "Fable of Tooth and Fur",
             "color2": "G",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -1926,6 +2249,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Styles Osunde",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Nylea"
         },
         {
@@ -1944,6 +2270,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Takiroku-Sama",
+            "alias": "",
+            "position": "99",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Pharika"
         },
         {
@@ -1962,6 +2291,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jenner Chen",
+            "alias": "",
+            "position": "100",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Callaphe\nKLOS"
         },
         {
@@ -1980,6 +2312,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Wayne Reynolds",
+            "alias": "",
+            "position": "101",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -1998,6 +2333,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Amanda Brack",
+            "alias": "",
+            "position": "102",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Kloyths"
         },
         {
@@ -2016,6 +2354,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Russel Jones",
+            "alias": "",
+            "position": "103",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Menelaia\n!tag Pero\n!tag Nylea"
         },
         {
@@ -2034,6 +2375,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sylvain Sarrailh",
+            "alias": "",
+            "position": "104",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Lykaretos\n!tag Karametra"
         },
         {
@@ -2052,6 +2396,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "theDURRRRIAN",
+            "alias": "",
+            "position": "105",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Agnomakhos"
         },
         {
@@ -2070,6 +2417,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Simul",
+            "alias": "",
+            "position": "106",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -2088,6 +2438,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Polar Engine",
+            "alias": "",
+            "position": "107",
             "card_name2": "Heliod's Glory",
             "color2": "W",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -2098,6 +2450,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Sandara Tang",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Heliod"
         },
         {
@@ -2108,7 +2463,7 @@
             "number": 19,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "",
+            "rules_text": "\nI \u2014 Exile up to one target permanent with mana value 4 or greater.\nII \u2014 Create two 1/1 white Human creature tokens.\nIII \u2014 Each player gains control of all permanents they own. If you gained control of no permanents this way, draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "\nI \u2014 Exile up to one target permanent with mana value 4 or greater.\nII \u2014 Create two 1/1 white Human creature tokens.\nIII \u2014 Each player gains control of all permanents they own. If you gained control of no permanents this way, draw a card.",
@@ -2116,6 +2471,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Claudio Pozas",
+            "alias": "",
+            "position": "108",
+            "rotated": false,
             "notes": "!tag Agnomakhos\n!tag Story\n!tag TRXStory\n!tag Kynaois\n!tag Tiro\n!tag Theros\nStory Spotlight 6\n!design Zangy"
         },
         {
@@ -2134,6 +2492,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pascal Quidault",
+            "alias": "",
+            "position": "109",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Heliod"
         },
         {
@@ -2152,6 +2513,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Roiuky",
+            "alias": "",
+            "position": "110",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Thassa\nKLOS\nWith Thassa's grace, the titans that swam through the water gracefully swim through the air."
         },
         {
@@ -2170,6 +2534,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Mike Jordana",
+            "alias": "",
+            "position": "111",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -2188,6 +2555,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Kevin McKenna",
+            "alias": "",
+            "position": "112",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Thassa\n!tag Benthalos"
         },
         {
@@ -2206,6 +2576,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Samantha Shieh",
+            "alias": "",
+            "position": "113",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Agnomakhos\n!tag Haubay\n!tag Story\n!tag TRXStory\nStory Spotlight 1"
         },
         {
@@ -2224,6 +2597,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Taeyoung Kim",
+            "alias": "",
+            "position": "114",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Phenax\n!script \"<s><l>Spawn Shrine</l><f>/spawn Unmarked Shrine TTR</f></s><s><l>Spawn five Shrines</l><f>/spawnx5 Unmarked Shrine TTR</f></s>\",\"r\""
         },
         {
@@ -2234,7 +2610,7 @@
             "number": 71,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "",
+            "rules_text": "\nI \u2014 Draw two cards.\nII \u2014 Return all nonland, nonenchantment permanents to their owners' hands.\nIII \u2014 You may cast a non-Saga spell with mana value 5 or less from your hand without paying its mana cost.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "\nI \u2014 Draw two cards.\nII \u2014 Return all nonland, nonenchantment permanents to their owners' hands.\nIII \u2014 You may cast a non-Saga spell with mana value 5 or less from your hand without paying its mana cost.",
@@ -2242,6 +2618,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alexander Mokhov",
+            "alias": "",
+            "position": "115",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Benthalos"
         },
         {
@@ -2260,6 +2639,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Hugh Pindur",
+            "alias": "",
+            "position": "116",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Thassa"
         },
         {
@@ -2278,6 +2660,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Mika Koskensalmi",
+            "alias": "",
+            "position": "117",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -2296,6 +2681,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Fail Fox",
+            "alias": "",
+            "position": "118",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Slighos"
         },
         {
@@ -2314,6 +2702,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Rachel Perciphone",
+            "alias": "",
+            "position": "119",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -2332,6 +2723,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Giovanni Maisto",
+            "alias": "",
+            "position": "120",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -2342,14 +2736,17 @@
             "number": 105,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "",
+            "rules_text": "\nI \u2014 Each opponent discards two cards, then mills two cards.\nII \u2014 Each opponent loses 2 life and you gain 2 life.\nIII \u2014 For each opponent that has eight or more cards in their graveyard, exile a card from that player's graveyard. You may cast cards exiled this way this turn, and mana of any type can be spent to cast cast it.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nI \u2014 Each opponent discards two cards, then mills two cards.\nEach opponent loses 2 life and you gain 2 life.\nII, III \u2014 For each opponent that has eight or more cards in their graveyard, exile a card from that player's graveyard. You may cast cards exiled this way this turn, and mana of any type can be spent to cast cast it.",
+            "special_text": "\nI \u2014 Each opponent discards two cards, then mills two cards.\nII \u2014 Each opponent loses 2 life and you gain 2 life.\nIII \u2014 For each opponent that has eight or more cards in their graveyard, exile a card from that player's graveyard. You may cast cards exiled this way this turn, and mana of any type can be spent to cast cast it.",
             "shape": "saga",
             "set": "TRX",
             "loyalty": "",
             "artist": "David Demaret",
+            "alias": "",
+            "position": "121",
+            "rotated": false,
             "notes": "!tag Theros\n!design Zangy"
         },
         {
@@ -2368,6 +2765,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jack Sides",
+            "alias": "",
+            "position": "122",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Erebos\n!tag Nykthos\nreworked: Was {2}{B}: Return target creature card with mana value X or less from your graveyard to the battlefield, where X is the number of Shrines you control. Activate only once each turn and only during your turn."
         },
         {
@@ -2386,6 +2786,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jason Strutz + Dall-E",
+            "alias": "",
+            "position": "123",
+            "rotated": false,
             "notes": "!tag Theros\n!update buffed: target now optional"
         },
         {
@@ -2404,6 +2807,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Darekzabrocki",
+            "alias": "",
+            "position": "124",
             "card_name2": "Consuming Flames",
             "color2": "R",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -2414,6 +2819,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Frost Llamzon",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Agnomakhos"
         },
         {
@@ -2432,6 +2840,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Camilo Palma",
+            "alias": "",
+            "position": "125",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -2450,6 +2861,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Cardin Yanis",
+            "alias": "",
+            "position": "126",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -2468,6 +2882,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jan Drenovec",
+            "alias": "",
+            "position": "127",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Purphoros\n!tag Nykthos"
         },
         {
@@ -2486,6 +2903,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Iwo Widulinksi",
+            "alias": "",
+            "position": "128",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Nylea"
         },
         {
@@ -2504,6 +2924,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Henrique Dld",
+            "alias": "",
+            "position": "129",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -2522,6 +2945,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "celeryman6",
+            "alias": "",
+            "position": "130",
+            "rotated": false,
             "notes": "!tag Theros\n!tag WeaverCycle"
         },
         {
@@ -2540,6 +2966,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Michal Kastovsky",
+            "alias": "",
+            "position": "131",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -2550,14 +2979,17 @@
             "number": 197,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "",
+            "rules_text": "\nI, II \u2014 Siphon the Divine gains \u201cCreatures your opponents control lose hexproof and indestructible and can't have or gain hexproof and indestructible.\u201d\nIII \u2014 Target creature you control fights up to one target creature.\nExile target player's graveyard.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nI, II \u2014 Siphon the Divine gains \u201cCreatures your opponents control lose hexproof and indestructible and can't have or gain hexproof and indestructible.\u201d\nTarget creature you control fights up to one target creature.\nIII \u2014 Exile target player's graveyard.",
+            "special_text": "\nI, II \u2014 Siphon the Divine gains \u201cCreatures your opponents control lose hexproof and indestructible and can't have or gain hexproof and indestructible.\u201d\nIII \u2014 Target creature you control fights up to one target creature.\nExile target player's graveyard.",
             "shape": "saga",
             "set": "TRX",
             "loyalty": "",
             "artist": "Alexey Egorov and Dall-E",
+            "alias": "",
+            "position": "132",
+            "rotated": false,
             "notes": "!tag Theros\n!design Zangy"
         },
         {
@@ -2576,6 +3008,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "tu chuanhao",
+            "alias": "",
+            "position": "133",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Nykthos\n!tag Karametra\n!tag Nylea\nbuffed: Was {6}{G}."
         },
         {
@@ -2594,6 +3029,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Bryan Fogaca Rosado",
+            "alias": "",
+            "position": "134",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Phlage"
         },
         {
@@ -2612,6 +3050,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Asim A Steckel",
+            "alias": "",
+            "position": "135",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Klothys\n!tag Haubay\n!tag Claes"
         },
         {
@@ -2630,6 +3071,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alexey Egorov",
+            "alias": "",
+            "position": "136",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Phenax"
         },
         {
@@ -2648,6 +3092,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Joao Pedro Costa",
+            "alias": "",
+            "position": "137",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Skotha"
         },
         {
@@ -2666,6 +3113,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Vo Minh Tuan",
+            "alias": "",
+            "position": "138",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Karda\n!tag Mogis\n!tag Iroas"
         },
         {
@@ -2676,7 +3126,7 @@
             "number": 142,
             "color_identity": "R",
             "cost": "{R}{R}{R}{R}",
-            "rules_text": "",
+            "rules_text": "Koios, Spear of Karda enters with a number of additional loyalty counters on him equal to your devotion to red. [i](He doesn't count himself.)[/i]\n[+1]: Exile the top three cards of your library. You may cast one of them.\n[-3]: Koios deals damage to any nonplayer target equal to your devotion to red.\n[-X]: Choose up to X target creatures with total mana value X or less. For each creature chosen this way, create a token that's a copy of it, except it has haste. Sacrifice those tokens at the beginning of the next end step.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "Koios, Spear of Karda enters with a number of additional loyalty counters on him equal to your devotion to red. [i](He doesn't count himself.)[/i]\n[+1]: Exile the top three cards of your library. You may cast one of them.\n[-3]: Koios deals damage to any nonplayer target equal to your devotion to red.\n[-X]: Choose up to X target creatures with total mana value X or less. For each creature chosen this way, create a token that's a copy of it, except it has haste. Sacrifice those tokens at the beginning of the next end step.",
@@ -2684,6 +3134,9 @@
             "set": "TRX",
             "loyalty": "4",
             "artist": "Miseriae Amet Dolor",
+            "alias": "",
+            "position": "139",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Planeswalker\n!tag Koios"
         },
         {
@@ -2702,6 +3155,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sam Kanios",
+            "alias": "",
+            "position": "140",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Nylea"
         },
         {
@@ -2720,6 +3176,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Polar Engine",
+            "alias": "",
+            "position": "141",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Heliod\n!tag Benthalos\n!tag Thassa\nSlow Enchantments"
         },
         {
@@ -2738,6 +3197,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Grumpygoat",
+            "alias": "",
+            "position": "142",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Orestes\nEight or more mill"
         },
         {
@@ -2756,6 +3218,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sasa Radivojevic",
+            "alias": "",
+            "position": "143",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Rakssolcs\n!tag Mogis\nMinotaurs, Sacrifice"
         },
         {
@@ -2774,6 +3239,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sebastian Kowoll",
+            "alias": "",
+            "position": "144",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Molbadia"
         },
         {
@@ -2792,6 +3260,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Juno Viinikka",
+            "alias": "",
+            "position": "145",
             "card_name2": "The Miraculous Field",
             "color2": "WG",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -2802,6 +3272,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Wandererlink",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Karametra\n!tag Lykaretos\n!tag Trans\nAura love"
         },
         {
@@ -2820,6 +3293,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Takiroku-Sama",
+            "alias": "",
+            "position": "146",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Erebos\n!tag Pero\nCrats, extra value from grave"
         },
         {
@@ -2838,6 +3314,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Joshua Raphael",
+            "alias": "",
+            "position": "147",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Timedrinker\nNoncreatures"
         },
         {
@@ -2856,6 +3335,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Karolina Nakazato",
+            "alias": "",
+            "position": "148",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Biaas\nSabotuers deathtouch"
         },
         {
@@ -2874,6 +3356,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jiunn Kuo",
+            "alias": "",
+            "position": "149",
+            "rotated": false,
             "notes": "!tag Elektes\n!tag Iroas\n!tag SevenWarriors\n!tag Theros"
         },
         {
@@ -2892,6 +3377,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sveta Pikul",
+            "alias": "",
+            "position": "150",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Zale\nBig Mana"
         },
         {
@@ -2910,6 +3398,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lorenzo Tomaselli",
+            "alias": "",
+            "position": "151",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Agnomakhos\nSlow Enchantments\n adjusted: Activated ability is now part of the triggered ability."
         },
         {
@@ -2928,6 +3419,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Luka Brico",
+            "alias": "",
+            "position": "152",
+            "rotated": false,
             "notes": "!tag Theros\nEight or more mill4"
         },
         {
@@ -2946,6 +3440,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Matt Brown",
+            "alias": "",
+            "position": "153",
             "card_name2": "Spikemane Cloak",
             "color2": "RG",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -2956,6 +3452,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "aw anqi",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Telam\nCombat STuff"
         },
         {
@@ -2974,6 +3473,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Antonio J Manzanedo",
+            "alias": "",
+            "position": "154",
             "card_name2": "Confine to Eternity",
             "color2": "WB",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -2984,6 +3485,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Rachel Pugsley",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Agnomakhos\nCrats, extra value from grave"
         },
         {
@@ -3002,6 +3506,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Veronika Fedorova",
+            "alias": "",
+            "position": "155",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Tiro\n!tag Agnomakhos\nNoncreatures"
         },
         {
@@ -3020,6 +3527,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Frost Llamzon",
+            "alias": "",
+            "position": "156",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Nikon\nGo Wide"
         },
         {
@@ -3038,6 +3548,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alexander Voelkle",
+            "alias": "",
+            "position": "157",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Nykthos\n!tag Kruphix\n adjusted: Was a 4/4 for {2}{G}{U}."
         },
         {
@@ -3056,6 +3569,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "zippo514",
+            "alias": "",
+            "position": "158",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Kynaios\n!tag Tiro\n!tag Yaoi"
         },
         {
@@ -3074,6 +3590,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Junaidi Lim",
+            "alias": "",
+            "position": "159",
+            "rotated": false,
             "notes": "!tag Theros\nnewart"
         },
         {
@@ -3092,6 +3611,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jenner Chen",
+            "alias": "",
+            "position": "160",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -3110,6 +3632,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Matheus Graef",
+            "alias": "",
+            "position": "161",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Athreos"
         },
         {
@@ -3128,6 +3653,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "deWitteillustration",
+            "alias": "",
+            "position": "162",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Karametra"
         },
         {
@@ -3146,6 +3674,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "BOOM Comics (Edit: Scribbl)",
+            "alias": "",
+            "position": "163",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Klothys"
         },
         {
@@ -3164,6 +3695,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Joachim Gerlings",
+            "alias": "",
+            "position": "164",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Kruphix"
         },
         {
@@ -3182,6 +3716,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "thesteamhat",
+            "alias": "",
+            "position": "165",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Mogis"
         },
         {
@@ -3200,6 +3737,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Kevin McKenna",
+            "alias": "",
+            "position": "166",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Iroas"
         },
         {
@@ -3218,6 +3758,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Titus Lunter",
+            "alias": "",
+            "position": "167",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Keranos"
         },
         {
@@ -3236,6 +3779,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Yi Ngo",
+            "alias": "",
+            "position": "168",
             "card_name2": "Phenax, Poison-Tongued",
             "color2": "UB",
             "type2": "Legendary Enchantment Creature \u2014 God",
@@ -3246,6 +3791,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "KaizerChang",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Phenax"
         },
         {
@@ -3264,6 +3812,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "fiovske",
+            "alias": "",
+            "position": "169",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Pharika"
         },
         {
@@ -3282,6 +3833,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Diego Lafuente",
+            "alias": "",
+            "position": "170",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Ephara"
         },
         {
@@ -3300,6 +3854,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Andre Cezar",
+            "alias": "",
+            "position": "171",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -3318,6 +3875,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Andre Cezar",
+            "alias": "",
+            "position": "172",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -3336,6 +3896,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Andre Cezar",
+            "alias": "",
+            "position": "173",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -3354,6 +3917,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Andre Cezar",
+            "alias": "",
+            "position": "174",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -3372,6 +3938,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Andre Cezar",
+            "alias": "",
+            "position": "175",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -3390,6 +3959,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sandara",
+            "alias": "",
+            "position": "176",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Agnomakhos"
         },
         {
@@ -3408,6 +3980,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jose Munoz",
+            "alias": "",
+            "position": "177",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -3426,6 +4001,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "John Silva",
+            "alias": "",
+            "position": "178",
             "card_name2": "Tether to Reality",
             "color2": "B",
             "type2": "Enchantment \u2014 Aura Blessing Curse",
@@ -3436,6 +4013,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Anna Moshak",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -3454,6 +4034,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Romain Kurdi",
+            "alias": "",
+            "position": "179",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Thraxes"
         },
         {
@@ -3472,6 +4055,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lana Monx",
+            "alias": "",
+            "position": "180",
             "card_name2": "Ilysian Guardian",
             "color2": "G",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -3482,6 +4067,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Rousteinire",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Karametra"
         },
         {
@@ -3492,7 +4080,7 @@
             "number": 44,
             "color_identity": "U",
             "cost": "{4}{U}{U}{U}",
-            "rules_text": "",
+            "rules_text": "[+2]: Each player puts their hand on the bottom of their library in a random order. You draw five cards, then each opponent draws two cards.\n[+1]: Untap each land you control.\n[-3]: Return up to three target nonland permanents to their owner's hands.\n[-9]: You get an emblem with \u201cWhenever an opponent casts their first spell each turn, gain control of it. You may choose new targets for that spell.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+2]: Each player puts their hand on the bottom of their library in a random order. You draw five cards, then each opponent draws two cards.\n[+1]: Untap each land you control.\n[-3]: Return up to three target nonland permanents to their owner's hands.\n[-9]: You get an emblem with \u201cWhenever an opponent casts their first spell each turn, gain control of it. You may choose new targets for that spell.\u201d",
@@ -3500,6 +4088,9 @@
             "set": "TRX",
             "loyalty": "5",
             "artist": "Daria Rashev",
+            "alias": "",
+            "position": "181",
+            "rotated": false,
             "notes": "!tag Theros\n!tag TheCosmos\n!tag Planeswalker\n!tag Haubay"
         },
         {
@@ -3510,7 +4101,7 @@
             "number": 240,
             "color_identity": "BG",
             "cost": "{3}{B}{G}",
-            "rules_text": "",
+            "rules_text": "[+2]: Mill three cards. You gain 3 life.\n[+1]: Return target land card from your graveyard to the battlefield. It becomes a 2/2 black Zombie creature in addition to its other types.\n[-2]: Target opponent sacrifices a permanent with mana value 3 or greater.\n[-12]: You get an emblem with \u201cWhenever a player sacrifices a permanent, you may draw a card.\u201d Then each opponent sacrifices five permanents.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+2]: Mill three cards. You gain 3 life.\n[+1]: Return target land card from your graveyard to the battlefield. It becomes a 2/2 black Zombie creature in addition to its other types.\n[-2]: Target opponent sacrifices a permanent with mana value 3 or greater.\n[-12]: You get an emblem with \u201cWhenever a player sacrifices a permanent, you may draw a card.\u201d Then each opponent sacrifices five permanents.",
@@ -3518,6 +4109,9 @@
             "set": "TRX",
             "loyalty": "5",
             "artist": "Bodo Kr\u00fchn",
+            "alias": "",
+            "position": "182",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Xarr\n!tag Planeswalker\n!tag Skadeholm"
         },
         {
@@ -3536,6 +4130,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pablo Dominguez",
+            "alias": "",
+            "position": "183",
+            "rotated": false,
             "notes": "!tag Theros\nLand Creature"
         },
         {
@@ -3554,6 +4151,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Rodrigo Vegas",
+            "alias": "",
+            "position": "184",
+            "rotated": false,
             "notes": "!tag Theros\nLand Creature"
         },
         {
@@ -3572,6 +4172,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sebastian Kowoll",
+            "alias": "",
+            "position": "185",
+            "rotated": false,
             "notes": "!tag Theros\nLand Creature"
         },
         {
@@ -3590,6 +4193,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Samantha Shieh",
+            "alias": "",
+            "position": "186",
+            "rotated": false,
             "notes": "!tag Theros\nLand Creature"
         },
         {
@@ -3608,6 +4214,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Artur Treffner",
+            "alias": "",
+            "position": "187",
+            "rotated": false,
             "notes": "!tag Theros\nLand Creature"
         },
         {
@@ -3626,6 +4235,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Cullen Cole",
+            "alias": "",
+            "position": "188",
+            "rotated": false,
             "notes": "!tag Theros\nLand Creature"
         },
         {
@@ -3644,6 +4256,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Elaine Ho",
+            "alias": "",
+            "position": "189",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -3662,6 +4277,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Cullen Cole",
+            "alias": "",
+            "position": "190",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -3680,6 +4298,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Rahul Philip",
+            "alias": "",
+            "position": "191",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -3698,6 +4319,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Xavier Leroux",
+            "alias": "",
+            "position": "192",
+            "rotated": false,
             "notes": "!tag Theros\nLand Creature \n!update\nStone 'stairs' seem carved and ahunted by eerie whistling winds"
         },
         {
@@ -3716,6 +4340,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Miro Petrov",
+            "alias": "",
+            "position": "193",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Phenax\nCronemouth Cove - holds a known gate to the underworld. guarded by a coven of sea hags who share a single tongue."
         },
         {
@@ -3734,6 +4361,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Mon Macairap",
+            "alias": "",
+            "position": "194",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Klothys\nGap between mountains that setessans had a fort to guard the passage"
         },
         {
@@ -3752,6 +4382,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "quanyi",
+            "alias": "",
+            "position": "195",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Kruphix"
         },
         {
@@ -3770,6 +4403,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Catatu Capa",
+            "alias": "",
+            "position": "196",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Mogis"
         },
         {
@@ -3788,6 +4424,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Cullen Cole",
+            "alias": "",
+            "position": "197",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Karametra"
         },
         {
@@ -3806,6 +4445,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ling Xiang",
+            "alias": "",
+            "position": "198",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Athreos\nwestern border of akros, massive chasm that descends to the underworld and belches creatures."
         },
         {
@@ -3824,6 +4466,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lucas Staniec",
+            "alias": "",
+            "position": "199",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Keranos"
         },
         {
@@ -3842,6 +4487,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Nizi Mmexport",
+            "alias": "",
+            "position": "200",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Karda\nMassive temple to Heliod on a mountain"
         },
         {
@@ -3860,6 +4508,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Javier Franco Santacreu",
+            "alias": "",
+            "position": "201",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Ephara\nvast placid lake center of Oreskos. always remains undisturbed. difficult to look at. sometimes looking see splaces far away. see the future/past."
         },
         {
@@ -3878,6 +4529,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ivan Mikhalenko",
+            "alias": "",
+            "position": "202",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Pharika"
         },
         {
@@ -3896,6 +4550,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Zuzanna Wuzyk",
+            "alias": "",
+            "position": "203",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Kruphix\nnerfed: Now enters tapped."
         },
         {
@@ -3914,6 +4571,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Borisut Chamnan",
+            "alias": "",
+            "position": "204",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Nykthos\n!tag Athreos"
         },
         {
@@ -3932,6 +4592,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Taeyoung Kim",
+            "alias": "",
+            "position": "205",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Ephara\n!tag Nykthos\nnerfed: Can no longer tap lands. Second effect adds a stun counter instead of tapping a second permanent."
         },
         {
@@ -3950,6 +4613,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Asim A Steckel",
+            "alias": "",
+            "position": "206",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Karda\n!tag Nykthos\n!tag Iroas\nreworked: Was {2}{R/W}{R/W} with 'At the beginning of combat on your turn, create a 0/0 white Army creature token, then put a +1/+1 counter on it. If you control three or more Shrines, instead create that token, then put a +1/+1 counter on each Army you control.'"
         },
         {
@@ -3968,6 +4634,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Aela Ervefel",
+            "alias": "",
+            "position": "207",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Karametra\n!tag Nykthos\nreworked: Was {3}{G/W} with 'At the beginning of combat on your turn, create a 1/1 white Human creature token. If you control three or more Shrines, create two of those tokens instead.'"
         },
         {
@@ -3986,6 +4655,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Katerina Ladon",
+            "alias": "",
+            "position": "208",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Nykthos\n!tag Keranos\nadjusted: Discard is now optional, effect now checks if you discarded a card."
         },
         {
@@ -4004,6 +4676,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Christopher Scoles",
+            "alias": "",
+            "position": "209",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Nykthos\n!tag Klothys\nreworked: Was {3}{R/G} with 'At the beginning of combat on your turn, creatures you control get +1/+0 until end of turn. If you control three or more Shrines, creatures you control get +2/+0 until end of turn instead.'"
         },
         {
@@ -4022,6 +4697,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pedro Snea",
+            "alias": "",
+            "position": "210",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Kruphix\n!tag Nykthos\nadjusted: Now targets a Shrine rather than a creature."
         },
         {
@@ -4040,6 +4718,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Aaron Miller",
+            "alias": "",
+            "position": "211",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Mogis\n!tag Nykthos"
         },
         {
@@ -4058,6 +4739,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Stijn Windig",
+            "alias": "",
+            "position": "212",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Pharika\n!tag Nykthos\nreworked: Was {3}{B/G} with At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. If you control three or more Shrines, instead put two +1/+1 counters on that creature instead."
         },
         {
@@ -4076,6 +4760,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Massimiliano Haemation",
+            "alias": "",
+            "position": "213",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Nykthos\n!tag Phenax\nnerfed: Was If you control three or more Shrines, you may exile one of those cards. You may cast that card as long as it remains exiled, and mana of any type can be spent to cast that spell."
         },
         {
@@ -4094,6 +4781,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "ilijamandic",
+            "alias": "",
+            "position": "214",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Nykthos"
         },
         {
@@ -4112,6 +4802,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Giovanni Maisto",
+            "alias": "",
+            "position": "215",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Iroas\nomen cycle"
         },
         {
@@ -4130,6 +4823,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Wilfred Wang",
+            "alias": "",
+            "position": "216",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Phenax\nomen cycle"
         },
         {
@@ -4148,6 +4844,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Giovanni Maisto",
+            "alias": "",
+            "position": "217",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Mogis\nomen cycle"
         },
         {
@@ -4166,6 +4865,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Joseph Qiu",
+            "alias": "",
+            "position": "218",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Keranos\nomen cycle"
         },
         {
@@ -4184,6 +4886,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Rebecca On",
+            "alias": "",
+            "position": "219",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Kruphix\nOmen cycle"
         },
         {
@@ -4202,6 +4907,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alexander Hodges",
+            "alias": "",
+            "position": "220",
+            "rotated": false,
             "notes": "!tag Athreos\n!tag Theros\nOrdeal Cycle"
         },
         {
@@ -4220,6 +4928,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Dan Watson",
+            "alias": "",
+            "position": "221",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Ephara\nOrdeal Cycle"
         },
         {
@@ -4238,6 +4949,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jaime Jasso",
+            "alias": "",
+            "position": "222",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Pharika\nOrdeal Cycle"
         },
         {
@@ -4256,6 +4970,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jerry Padilla",
+            "alias": "",
+            "position": "223",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Karda\nOrdeal Cycle"
         },
         {
@@ -4274,6 +4991,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Rebecca On",
+            "alias": "",
+            "position": "224",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Karametra\nOrdeal Cycle"
         },
         {
@@ -4292,6 +5012,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Giselle Almeida",
+            "alias": "",
+            "position": "225",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Cybele\nSabotuers deathtouch"
         },
         {
@@ -4310,6 +5033,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Bachzim",
+            "alias": "",
+            "position": "226",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Kruphix\n!tag Karda\nGo wide Enchantments"
         },
         {
@@ -4328,6 +5054,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Tim Guo",
+            "alias": "",
+            "position": "227",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Klothys\nSmoking Strand"
         },
         {
@@ -4346,6 +5075,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Yannick Corboz",
+            "alias": "",
+            "position": "228",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Biaas\nStymphalian birds"
         },
         {
@@ -4364,6 +5096,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jeremy Carver",
+            "alias": "",
+            "position": "229",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -4382,6 +5117,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Shamerli",
+            "alias": "",
+            "position": "230",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Ephara\n!tag Agnomakhos"
         },
         {
@@ -4400,6 +5138,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jeff Brown",
+            "alias": "",
+            "position": "231",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -4418,6 +5159,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Tommy Arnold",
+            "alias": "",
+            "position": "232",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Benthalos\n!tag Thassa\n!tag Heliod"
         },
         {
@@ -4436,6 +5180,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Irnyo",
+            "alias": "",
+            "position": "233",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -4454,6 +5201,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Halil Ural",
+            "alias": "",
+            "position": "234",
+            "rotated": false,
             "notes": "!tag Theros\nseamonster"
         },
         {
@@ -4472,6 +5222,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Irnyo",
+            "alias": "",
+            "position": "235",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Arasta\n!tag Phenax\n!tag Nylea"
         },
         {
@@ -4490,6 +5243,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Bach Nguy",
+            "alias": "",
+            "position": "236",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Karda\n\nCombat Trick Cycle"
         },
         {
@@ -4508,6 +5264,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Rafater",
+            "alias": "",
+            "position": "237",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Kruphix\nReprint"
         },
         {
@@ -4526,6 +5285,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Oliver Ink",
+            "alias": "",
+            "position": "238",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Petros\n!tag Purphoros\nAll mana cycle"
         },
         {
@@ -4544,6 +5306,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Amagoia Agirre",
+            "alias": "",
+            "position": "239",
+            "rotated": false,
             "notes": "!tag Heliod\n!tag Theros\nremoval"
         },
         {
@@ -4562,6 +5327,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Gabriel Bulik",
+            "alias": "",
+            "position": "240",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Phenax\n!tag CustomReprint\nDesigner: Mako"
         },
         {
@@ -4580,6 +5348,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Victor Tan",
+            "alias": "",
+            "position": "241",
+            "rotated": false,
             "notes": "!tag Theros\n!tag CanonReprint"
         },
         {
@@ -4598,6 +5369,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Juan Pablo Corredor",
+            "alias": "",
+            "position": "242",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Nylea"
         },
         {
@@ -4616,6 +5390,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Gerezon",
+            "alias": "",
+            "position": "243",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Hai\n!tag Planeswalker\nSeamonster \nKLOS"
         },
         {
@@ -4634,6 +5411,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "David Swanson",
+            "alias": "",
+            "position": "244",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -4652,6 +5432,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Francisco Castro",
+            "alias": "",
+            "position": "245",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Story\n!tag TRXStory\n!tag Haubay\nStory Spotlight 3"
         },
         {
@@ -4670,6 +5453,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Even Amundsen",
+            "alias": "",
+            "position": "246",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Camilla\n!tag Pharika\n!tag Planeswalker"
         },
         {
@@ -4688,6 +5474,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lemog Leo",
+            "alias": "",
+            "position": "247",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Basilo"
         },
         {
@@ -4706,6 +5495,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Toru-meow",
+            "alias": "",
+            "position": "248",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Pero\n!tag Erebos"
         },
         {
@@ -4724,6 +5516,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Danny Pavlov",
+            "alias": "",
+            "position": "249",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Orestes\n!tag Phenax"
         },
         {
@@ -4742,6 +5537,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Beto Lima",
+            "alias": "",
+            "position": "250",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Thassa"
         },
         {
@@ -4760,6 +5558,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Angelo Lafaye",
+            "alias": "",
+            "position": "251",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Zale\nSeamonster \nKLOS"
         },
         {
@@ -4778,6 +5579,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pawel Kozera",
+            "alias": "",
+            "position": "252",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Kruphix"
         },
         {
@@ -4796,6 +5600,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Terence Cantal",
+            "alias": "",
+            "position": "253",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -4814,6 +5621,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Woari",
+            "alias": "",
+            "position": "254",
+            "rotated": false,
             "notes": "!tag Agnomakhos\n!tag Theros\n!tag Ephara"
         },
         {
@@ -4832,6 +5642,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Raphael Pinna",
+            "alias": "",
+            "position": "255",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Heliod"
         },
         {
@@ -4850,6 +5663,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ognevka Fenella",
+            "alias": "",
+            "position": "256",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Agnomakhos"
         },
         {
@@ -4868,6 +5684,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Goodname Studio",
+            "alias": "",
+            "position": "257",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Story\n!tag TRXStory\n!tag Kynaios\n!tag Tiro\n!tag Agnomakhos\nStory Spotlight 7\nTwelve Warriors flavor OR Koios Claes FT"
         },
         {
@@ -4886,6 +5705,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Boris Badger",
+            "alias": "",
+            "position": "258",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Ephara"
         },
         {
@@ -4904,6 +5726,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Marc Escachx",
+            "alias": "",
+            "position": "259",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -4922,6 +5747,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Brandon McCamey",
+            "alias": "",
+            "position": "260",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Raksolcs\n!tag Mogis"
         },
         {
@@ -4940,6 +5768,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Dan Watson",
+            "alias": "",
+            "position": "261",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -4958,6 +5789,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Narendra B Adi",
+            "alias": "",
+            "position": "262",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -4976,6 +5810,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Cliff Childs",
+            "alias": "",
+            "position": "263",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -4994,6 +5831,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pascal Quidault",
+            "alias": "",
+            "position": "264",
             "card_name2": "Blinded by Divinity",
             "color2": "W",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -5004,6 +5843,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "David Demaret",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Heliod\nRemoval"
         },
         {
@@ -5022,6 +5864,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Rukikun",
+            "alias": "",
+            "position": "265",
+            "rotated": false,
             "notes": "!tag Koios\n!tag Story\n!tag TRXStory\n!tag Theros\n!tag Claes\n!tag Planeswalker\n!tag Karda\nStory Spotlight 8\nKoios\nAs his god was torn asunder, Koios questioned his entire world, from Theros to Claes. How small was everything in a multiverse so vast?"
         },
         {
@@ -5040,6 +5885,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lemog Leo",
+            "alias": "",
+            "position": "266",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -5058,6 +5906,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Quentin Regnes",
+            "alias": "",
+            "position": "267",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Cybele"
         },
         {
@@ -5076,6 +5927,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Douglas Deri",
+            "alias": "",
+            "position": "268",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Agnomakhos"
         },
         {
@@ -5094,6 +5948,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jeffery Smith",
+            "alias": "",
+            "position": "269",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Benthalos\n!tag Heliod\n!tag Thassa\nAll Mana Cycle"
         },
         {
@@ -5112,6 +5969,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Frost Llamzon",
+            "alias": "",
+            "position": "270",
+            "rotated": false,
             "notes": "!tag Nikon\n!tag Theros"
         },
         {
@@ -5130,6 +5990,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Corey Gooch",
+            "alias": "",
+            "position": "271",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Phenax"
         },
         {
@@ -5148,6 +6011,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jade Dry",
+            "alias": "",
+            "position": "272",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Iara\n!tag SevenWarriors"
         },
         {
@@ -5166,6 +6032,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Beidak",
+            "alias": "",
+            "position": "273",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Tymaret\n!tag Phenax\nspecial"
         },
         {
@@ -5184,7 +6053,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Jarek Nocon",
-            "notes": "!related Patron of Ephara's Glory;"
+            "alias": "",
+            "position": "274",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Weapon",
@@ -5202,7 +6074,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Rainer Petter",
-            "notes": "!related Arena Champion;Anvilwrought Crane"
+            "alias": "",
+            "position": "275",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Treasure",
@@ -5220,7 +6095,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ean Koh",
-            "notes": "!related Behemoth of the Five Rivers<2>;Keeper of the Scale;Apprentice of the Forge-God<X>;Eidolon of Empty Thoughts;Raider's Blessing;Skophos Raid-Veteran;Pidae Raider;Mogis's Judgment<2>;Raksolcs Ravage-Soul;Implacable Shrine-Guard;"
+            "alias": "",
+            "position": "276",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Army",
@@ -5238,7 +6116,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Tomas Honz",
-            "notes": "!related Agnomakhos Justice;Archon of the Legion;The Army of Trax<3>;The Army of Trax<X>;Claes, Shield of Karda;Claes, Melded Spark;Command from the Front;Omen of Victory;Traxian General;Shrine to Iroas;"
+            "alias": "",
+            "position": "277",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Human",
@@ -5256,7 +6137,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Karla Ortiz",
-            "notes": "!related The Fall of Trax<2>;Shrine to Heliod<X>;The Founding of the Twelve;Harmony with Nature;Skola Nyxweaver;Iroas's Judgment<4>;Shrine to Karametra;Shrine to Karametra<2>;Implacable Shrine-Guard"
+            "alias": "",
+            "position": "278",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Snake",
@@ -5274,7 +6158,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "David Swanson",
-            "notes": "!related Pharika, Snake-Twined;Pharika's Judgment"
+            "alias": "",
+            "position": "279",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Tentacle",
@@ -5292,7 +6179,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Darko Kreculj",
-            "notes": "!related Terror of Olantin<X>;"
+            "alias": "",
+            "position": "280",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Soldier",
@@ -5310,7 +6200,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Hephaestus Entertainment",
-            "notes": "!related Eidolon of Empty Thoughts;Karda's Legacy;Rally the Hoplites<2>;"
+            "alias": "",
+            "position": "281",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Follower",
@@ -5328,7 +6221,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "TheMichaelMAcrae",
-            "notes": "!related Petros, Purphoros's Double;"
+            "alias": "",
+            "position": "282",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Zombie",
@@ -5346,7 +6242,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sasha De Trafo",
-            "notes": "!related New Recruit;Kakomanties Circle<2>;Rite of Venom;"
+            "alias": "",
+            "position": "283",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Wizard",
@@ -5364,7 +6263,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Agatan G",
-            "notes": "!related Meeting of the Minds<2>;"
+            "alias": "",
+            "position": "284",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Kraken",
@@ -5382,7 +6284,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Martin Gracia",
-            "notes": "!related Tide's Ire;"
+            "alias": "",
+            "position": "285",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Tromokratis",
@@ -5400,7 +6305,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "LozanoX",
-            "notes": "!related Tide's Ire;"
+            "alias": "",
+            "position": "286",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Centaur",
@@ -5418,7 +6326,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Sergey Samarskiy",
-            "notes": "!related Traxian Calvary<2>;"
+            "alias": "",
+            "position": "287",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Grim Physician",
@@ -5436,6 +6347,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Mark Zug",
+            "alias": "",
+            "position": "288",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Slighos\n!tag CanonReprint"
         },
         {
@@ -5454,7 +6368,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Melvinchanart",
-            "notes": "!related Thraxes, Sire of Dragons;"
+            "alias": "",
+            "position": "289",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Charging Brightmare",
@@ -5472,6 +6389,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Virgile Boulais",
+            "alias": "",
+            "position": "290",
             "card_name2": "Blessings of the Flock",
             "color2": "W",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -5482,6 +6401,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Ilse Gort",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -5500,6 +6422,8 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Angelo Adonis Chavez",
+            "alias": "",
+            "position": "291",
             "card_name2": "Blessing of the Sea",
             "color2": "U",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -5510,6 +6434,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Yapp Jong Rui",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Callaphe\n!tag Thassa"
         },
         {
@@ -5528,6 +6455,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Paizo Publishing and Ana Bolumar",
+            "alias": "",
+            "position": "292",
+            "rotated": false,
             "notes": "!tag Theros\nreworked: Was 1/1 with lifelink and 'Whenever Lurking Vyrkolakas enters or attacks, target player exiles a card from their graveyard. If a nonland card was exiled this way, put a +1/+1 counter on Lurking Vyrkolakas and you gain 1 life.'"
         },
         {
@@ -5546,6 +6476,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Natham Soares",
+            "alias": "",
+            "position": "293",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Iroas"
         },
         {
@@ -5564,6 +6497,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alicia Garcia",
+            "alias": "",
+            "position": "294",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -5582,7 +6518,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Grafit Studio",
-            "notes": "!related Blessings of the Flock;Charging Brightmare;"
+            "alias": "",
+            "position": "295",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Quality Time",
@@ -5600,6 +6539,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Goodname Studio",
+            "alias": "",
+            "position": "296",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Yaoi\n!tag Koios\n!tag Claes\n!tag Planeswalker\n!tag Karda"
         },
         {
@@ -5618,6 +6560,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "BartekFedyczak",
+            "alias": "",
+            "position": "297",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Chrolcatos"
         },
         {
@@ -5636,6 +6581,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Juhani Jokinen",
+            "alias": "",
+            "position": "298",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Iroas\n!tag Mogis\n!tag Karda"
         },
         {
@@ -5654,6 +6602,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Eelis Kyttanen",
+            "alias": "",
+            "position": "299",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Menelaia"
         },
         {
@@ -5672,6 +6623,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "lei min",
+            "alias": "",
+            "position": "300",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Tromokratis\n!tag Thassa"
         },
         {
@@ -5690,6 +6644,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ankou Schnee",
+            "alias": "",
+            "position": "301",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Ephara\nCharm Cycle"
         },
         {
@@ -5708,6 +6665,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Joshua Raphael",
+            "alias": "",
+            "position": "302",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Phenax\nCharm Cycle"
         },
         {
@@ -5726,6 +6686,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "dleoblack",
+            "alias": "",
+            "position": "303",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Mogis\nCharm Cycle"
         },
         {
@@ -5744,6 +6707,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "marcello87",
+            "alias": "",
+            "position": "304",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Klothys\nCharm Cycle"
         },
         {
@@ -5762,6 +6728,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lemog Leo",
+            "alias": "",
+            "position": "305",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Karametra\nCharm Cycle"
         },
         {
@@ -5780,6 +6749,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "dleoblack",
+            "alias": "",
+            "position": "306",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Athreos\nCharm Cycle"
         },
         {
@@ -5798,6 +6770,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Muhamx Faizal",
+            "alias": "",
+            "position": "307",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Keranos\nCharm Cycle"
         },
         {
@@ -5816,6 +6791,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Kim Aldau",
+            "alias": "",
+            "position": "308",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Pharika\nCharm Cycle"
         },
         {
@@ -5834,6 +6812,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ankou Schnee",
+            "alias": "",
+            "position": "309",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Iroas\nCharm Cycle"
         },
         {
@@ -5852,6 +6833,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pawel Kozera",
+            "alias": "",
+            "position": "310",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Kruphix\nCharm Cycle"
         },
         {
@@ -5870,6 +6854,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Melissa Houpert",
+            "alias": "",
+            "position": "311",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Erebos"
         },
         {
@@ -5888,6 +6875,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Adam Adamovic",
+            "alias": "",
+            "position": "312",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -5906,6 +6896,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Lemog Leo",
+            "alias": "",
+            "position": "313",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -5924,7 +6917,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Pius Wirawan",
-            "notes": "!related Lost to Memory<X>;"
+            "alias": "",
+            "position": "314",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Iara, Blessed-Hart",
@@ -5942,6 +6938,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Anna Helme",
+            "alias": "",
+            "position": "315",
+            "rotated": false,
             "notes": "!tag Theros\n!tag SevenWarriors\n!tag Iara\n\"Seven Warriors\""
         },
         {
@@ -5960,6 +6959,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Nephelovia",
+            "alias": "",
+            "position": "316",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -5978,6 +6980,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Emanuel Ortiz",
+            "alias": "",
+            "position": "317",
+            "rotated": false,
             "notes": "!tag Theros"
         },
         {
@@ -5996,6 +7001,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Angelina Zhogina",
+            "alias": "",
+            "position": "318",
+            "rotated": false,
             "notes": "!tag Theros\n!tag SevenWarriors\n\"Seven Warriors\"\n nerfed: Removed Ward-Pay 2 life."
         },
         {
@@ -6014,6 +7022,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Ellirh Shaan",
+            "alias": "",
+            "position": "319",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Pharika\nbuffed: Trigger now includes herself.s"
         },
         {
@@ -6032,7 +7043,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Dusky Woods Art",
-            "notes": "!related Fable of Tooth and Fur<3>;"
+            "alias": "",
+            "position": "320",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Snake",
@@ -6050,7 +7064,10 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Stagex-entertainment",
-            "notes": "!related Pharika, Snake-Twined;"
+            "alias": "",
+            "position": "321",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "A God Divided",
@@ -6060,7 +7077,7 @@
             "number": 135,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "",
+            "rules_text": "\nI \u2014 Destroy any number of target artifacts with total mana value 4 or less.\nII \u2014 You may discard up to two cards. If you do, draw that many cards.\nIII \u2014 You may sacrifice a creature. If you do, A God Divided deals damage to any target equal to the sacrificed creature's power.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "\nI \u2014 Destroy any number of target artifacts with total mana value 4 or less.\nII \u2014 You may discard up to two cards. If you do, draw that many cards.\nIII \u2014 You may sacrifice a creature. If you do, A God Divided deals damage to any target equal to the sacrificed creature's power.",
@@ -6068,6 +7085,9 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Satoru Wada",
+            "alias": "",
+            "position": "322",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Story\n!tag TRXStory\n!tag Karda\n!tag Mogis\n!tag Iroas\nStory Spotlight 5\n!design Zangy"
         },
         {
@@ -6086,16 +7106,21 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Alan Albiach",
+            "alias": "",
+            "position": "323",
             "card_name2": "Claes, Melded Spark",
             "color2": "WU",
             "type2": "Legendary Planeswalker \u2014 Claes Haubay",
             "cost2": "",
-            "rules_text2": "",
+            "rules_text2": "Creatures you control have ward {2}.\n[+1]: Scry 2. You may put a loyalty counter on another planeswalker you control.\n[-1]: Create a 0/0 white Army creature token, then put a +1/+1 counter on each Army you control.\n[-6]: Exile target nonland permanent.\n[-6]: Exile target nonland permanent.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "Creatures you control have ward {2}.\n[+1]: Scry 2. You may put a loyalty counter on another planeswalker you control.\n[-1]: Create a 0/0 white Army creature token, then put a +1/+1 counter on each Army you control.\n[-6]: Exile target nonland permanent.\n[-6]: Exile target nonland permanent.",
             "loyalty2": "",
             "artist2": "Hao Zheng",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Karda\n!tag Claes\n!tag Sparker\n!tag Planeswalker"
         },
         {
@@ -6114,8 +7139,11 @@
             "set": "TRX",
             "loyalty": "",
             "artist": "Muhamx Faizal",
+            "alias": "",
+            "position": "324",
+            "rotated": false,
             "notes": "!tag Theros\n!tag Kynaios\nAura love"
         }
     ],
-    "version": 2
+    "version": 3
 }
