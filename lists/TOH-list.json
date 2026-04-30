@@ -2698,24 +2698,8 @@
         "position": "310"
     },
     {
-        "card_name": "Explorer Hero",
-        "number": 3,
-        "shape": "token",
-        "set": "TOH",
-        "rotated": false,
-        "position": "315"
-    },
-    {
-        "card_name": "Explorer Hero 2",
-        "number": 4,
-        "shape": "token",
-        "set": "TOH",
-        "rotated": false,
-        "position": "313"
-    },
-    {
         "card_name": "Fighter Hero",
-        "number": 5,
+        "number": 3,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2723,19 +2707,35 @@
     },
     {
         "card_name": "Hero",
-        "number": 6,
+        "number": 4,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
         "position": "309"
     },
     {
+        "card_name": "Hero of Tacheen",
+        "number": 5,
+        "shape": "token",
+        "set": "TOH",
+        "rotated": false,
+        "position": "317"
+    },
+    {
         "card_name": "Hero's Path",
-        "number": 7,
+        "number": 6,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
         "position": "284"
+    },
+    {
+        "card_name": "Explorer Hero 2",
+        "number": 7,
+        "shape": "token",
+        "set": "TOH",
+        "rotated": false,
+        "position": "313"
     },
     {
         "card_name": "Practiced Hero",
@@ -2746,8 +2746,16 @@
         "position": "311"
     },
     {
-        "card_name": "Seasoned Hero",
+        "card_name": "Seasoned Explorer Hero",
         "number": 9,
+        "shape": "token",
+        "set": "TOH",
+        "rotated": false,
+        "position": "315"
+    },
+    {
+        "card_name": "Seasoned Hero",
+        "number": 10,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2755,7 +2763,7 @@
     },
     {
         "card_name": "Shard",
-        "number": 10,
+        "number": 11,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2763,7 +2771,7 @@
     },
     {
         "card_name": "Slayer Hero",
-        "number": 11,
+        "number": 12,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2771,7 +2779,7 @@
     },
     {
         "card_name": "Treasure",
-        "number": 23,
+        "number": 24,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2779,7 +2787,7 @@
     },
     {
         "card_name": "Weapon",
-        "number": 24,
+        "number": 25,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2787,7 +2795,7 @@
     },
     {
         "card_name": "Everywhere",
-        "number": 25,
+        "number": 26,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2795,7 +2803,7 @@
     },
     {
         "card_name": "Warrior",
-        "number": 12,
+        "number": 13,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2803,7 +2811,7 @@
     },
     {
         "card_name": "Faerie",
-        "number": 13,
+        "number": 14,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2811,7 +2819,7 @@
     },
     {
         "card_name": "Shark",
-        "number": 14,
+        "number": 15,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2819,7 +2827,7 @@
     },
     {
         "card_name": "Turtle",
-        "number": 15,
+        "number": 16,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2827,7 +2835,7 @@
     },
     {
         "card_name": "Demon",
-        "number": 16,
+        "number": 17,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2835,7 +2843,7 @@
     },
     {
         "card_name": "Demon",
-        "number": 17,
+        "number": 18,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2843,7 +2851,7 @@
     },
     {
         "card_name": "Warlock",
-        "number": 18,
+        "number": 19,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2851,7 +2859,7 @@
     },
     {
         "card_name": "Zombie",
-        "number": 19,
+        "number": 20,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2859,7 +2867,7 @@
     },
     {
         "card_name": "Berserker",
-        "number": 20,
+        "number": 21,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2867,7 +2875,7 @@
     },
     {
         "card_name": "Elemental",
-        "number": 21,
+        "number": 22,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
@@ -2875,11 +2883,23 @@
     },
     {
         "card_name": "Knight",
-        "number": 22,
+        "number": 23,
         "shape": "token",
         "set": "TOH",
         "rotated": false,
         "position": "283"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "er"
