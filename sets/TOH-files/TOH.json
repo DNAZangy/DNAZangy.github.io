@@ -89,7 +89,7 @@
             "alias": "",
             "position": "3",
             "rotated": false,
-            "notes": "!tag Tacheen\n"
+            "notes": "!tag Tacheen"
         },
         {
             "card_name": "Bro-Heol's Grace",
@@ -110,7 +110,7 @@
             "alias": "",
             "position": "4",
             "rotated": false,
-            "notes": "!tag Tacheen\n"
+            "notes": "!tag Tacheen"
         },
         {
             "card_name": "Divine Quarantine",
@@ -131,7 +131,7 @@
             "alias": "",
             "position": "5",
             "rotated": false,
-            "notes": "!tag Tacheen\n"
+            "notes": "!tag Tacheen"
         },
         {
             "card_name": "Radiant Confrontation",
@@ -141,7 +141,7 @@
             "number": 27,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Whenever you draw your second card each turn, exile up to one target nonland permanent. Return it to the battlefield at the beginning of the next end step.\n{3}{W}: Each player creates a Shard token.",
+            "rules_text": "Whenever you draw your second card each turn, exile up to one target nonland permanent. Return it to the battlefield at the beginning of the next end step.\n{3}{W}: Each player creates a Shard token. [i](It's an enchantment with \u201c{2}, Sacrifice this token: Scry 1, then draw a card.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -173,7 +173,7 @@
             "alias": "",
             "position": "7",
             "rotated": true,
-            "notes": "!tag Yann\n!tag Erwan\n!tag Houarn\n!tag Tacheen\n"
+            "notes": "!tag Yann\n!tag Erwan\n!tag Houarn\n!tag Tacheen"
         },
         {
             "card_name": "Yann, Steadfast Mage",
@@ -257,7 +257,7 @@
             "alias": "",
             "position": "11",
             "rotated": false,
-            "notes": "!tag Tacheen\n"
+            "notes": "!tag Tacheen"
         },
         {
             "card_name": "Gorre-K\u00ear Tinkerer",
@@ -290,7 +290,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Tacheen\n"
+            "notes": "!tag Tacheen"
         },
         {
             "card_name": "Sunken Effigy",
@@ -321,7 +321,7 @@
             "number": 11,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Outfit your Hero. [i](Progress down your Hero's path. If you control no Heroes, create a 1/1 Hero token first.)[/i]\nCreate a Shard token.",
+            "rules_text": "Outfit your Hero. [i](Progress down your Hero's path. If you control no Heroes, create a 1/1 Hero token first.)[/i]\nCreate a Shard token. [i](It's an enchantment with \u201c{2}, Sacrifice this token: Scry 1, then draw a card.\u201d)[/i]",
             "flavor_text": "[i]Every adventure begins with someone foolish enough to ask what happens next.[/i]",
             "pt": "",
             "special_text": "",
@@ -353,7 +353,7 @@
             "alias": "",
             "position": "15",
             "rotated": false,
-            "notes": "!tag Tacheen\n"
+            "notes": "!tag Tacheen"
         },
         {
             "card_name": "Oathsworn Sentinel",
@@ -416,7 +416,7 @@
             "alias": "",
             "position": "18",
             "rotated": false,
-            "notes": "!tag Tacheen\n!tag Yann\n!tag adventuringparty1\n"
+            "notes": "!tag Tacheen\n!tag Yann\n!tag adventuringparty1"
         },
         {
             "card_name": "Panicked Courier",
@@ -531,7 +531,7 @@
             "number": 10,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "When Faithful Stray enters, create a Shard token.\nWhenever you draw your second card each turn, put a +1/+1 counter on Faithful Stray.",
+            "rules_text": "When Faithful Stray enters, create a Shard token. [i](It's an enchantment with \u201c{2}, Sacrifice this token: Scry 1, then draw a card.\u201d)[/i]\nWhenever you draw your second card each turn, put a +1/+1 counter on Faithful Stray.",
             "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
@@ -542,7 +542,7 @@
             "alias": "",
             "position": "24",
             "rotated": false,
-            "notes": "!tag Tacheen\n"
+            "notes": "!tag Tacheen"
         },
         {
             "card_name": "Chosen Enforcer",
@@ -563,7 +563,7 @@
             "alias": "",
             "position": "25",
             "rotated": false,
-            "notes": "!tag Tacheen\n"
+            "notes": "!tag Tacheen"
         },
         {
             "card_name": "Relic of Unbroken Resolve",
@@ -764,7 +764,7 @@
             "alias": "",
             "position": "34",
             "rotated": false,
-            "notes": "!tag Tacheen\n!tag Amaltheos\n!tag Rajabu\n!tag Lidija\n!tag adventuringparty5\n"
+            "notes": "!tag Tacheen\n!tag Amaltheos\n!tag Rajabu\n!tag Lidija\n!tag adventuringparty5"
         },
         {
             "card_name": "Fragment",
@@ -774,7 +774,7 @@
             "number": 12,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "Exile target artifact, battle, enchantment, or planeswalker. Its controller creates a Shard token.",
+            "rules_text": "Exile target artifact, battle, enchantment, or planeswalker. Its controller creates a Shard token. [i](It's an enchantment with \u201c{2}, Sacrifice this token: Scry 1, then draw a card.\u201d)[/i]",
             "flavor_text": "[i]The most beautiful stories are written in the cracks of what was once whole.[/i]",
             "pt": "",
             "special_text": "",
@@ -785,7 +785,7 @@
             "alias": "",
             "position": "35",
             "rotated": false,
-            "notes": "!tag Tacheen\n"
+            "notes": "!tag Tacheen"
         },
         {
             "card_name": "Yann, Fledgling Mage",
@@ -851,7 +851,7 @@
             "color2": "U",
             "type2": "Sorcery \u2014 Adventure",
             "cost2": "{X}{U}{U}",
-            "rules_text2": "Create X Shard tokens.",
+            "rules_text2": "Create X Shard tokens. [i](It's an enchantment with \u201c{2}, Sacrifice this enchantment: Scry 1, then draw a card.\u201d Then exile this card. You may cast the creature later from exile.)[/i]",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
@@ -881,7 +881,7 @@
             "alias": "",
             "position": "39",
             "rotated": false,
-            "notes": "!tag Tacheen\n!tag Clotaire\nPRESENTTIMELINE\n!tag adventuringparty4\n"
+            "notes": "!tag Tacheen\n!tag Clotaire\nPRESENTTIMELINE\n!tag adventuringparty4"
         },
         {
             "card_name": "Solitary Departure",
@@ -933,7 +933,7 @@
             "number": 61,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "When Old Friends, New Roads enters, create a 2/1 blue Faerie creature token with flying.\nWhenever a creature you control deals combat damage to a player or planeswalker, create a Shard token.",
+            "rules_text": "When Old Friends, New Roads enters, create a 2/1 blue Faerie creature token with flying.\nWhenever a creature you control deals combat damage to a player or planeswalker, create a Shard token. [i](It's an enchantment with \u201c{2}, Sacrifice this token: Scry 1, then draw a card.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1071,7 +1071,7 @@
             "number": 55,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "When you draw your second card each turn, outfit your Hero. [i](Progress down your Hero's path. If you control no Heroes, create a 1/1 Hero token first.)[/i]\nWhenever a Hero you control dies, create a Shard token.",
+            "rules_text": "When you draw your second card each turn, outfit your Hero. [i](Progress down your Hero's path. If you control no Heroes, create a 1/1 Hero token first.)[/i]\nWhenever a Hero you control dies, create a Shard token. [i](It's an enchantment with \u201c{2}, Sacrifice this token: Scry 1, then draw a card.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "1/4",
             "special_text": "",
@@ -1145,7 +1145,7 @@
             "alias": "",
             "position": "51",
             "rotated": false,
-            "notes": "!tag Tacheen\n!tag Yann\n!tag adventuringparty1\n"
+            "notes": "!tag Tacheen\n!tag Yann\n!tag adventuringparty1"
         },
         {
             "card_name": "Mor-Glas Resonator",
@@ -1326,7 +1326,7 @@
             "number": 42,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "Flash\nWhen Brine Nullifier enters, counter target spell. Its controller creates a Shard token.",
+            "rules_text": "Flash\nWhen Brine Nullifier enters, counter target spell. Its controller creates a Shard token. [i](It's an enchantment with \u201c{2}, Sacrifice this token: Scry 1, then draw a card.\u201d)[/i]",
             "flavor_text": "[i]\u201cThe ocean has enough trouble without you adding to it.\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -1716,7 +1716,7 @@
             "number": 86,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "Target player reveals their hand. You choose a nonland card from it. That player discards that card.\nThat player creates a Shard token.",
+            "rules_text": "Target player reveals their hand. You choose a nonland card from it. That player discards that card.\nThat player creates a Shard token. [i](It's an enchantment with \u201c{2}, Sacrifice this token: Scry 1, then draw a card.\u201d)[/i]",
             "flavor_text": "[i]\u201cTo be trapped is to be unmade, piece by piece.\u201d\n\u2014Kasharath[/i]",
             "pt": "",
             "special_text": "",
@@ -2327,7 +2327,7 @@
             "alias": "",
             "position": "105",
             "rotated": false,
-            "notes": "!tag Tacheen\nTownstuff\n\n\n"
+            "notes": "!tag Tacheen\nTownstuff\n"
         },
         {
             "card_name": "Dormant Heartstone",
@@ -2708,7 +2708,7 @@
             "alias": "",
             "position": "122",
             "rotated": false,
-            "notes": "!tag Tacheen\n"
+            "notes": "!tag Tacheen"
         },
         {
             "card_name": "Tavern Chronicler",
@@ -2846,7 +2846,7 @@
             "alias": "",
             "position": "128",
             "rotated": false,
-            "notes": "!tag Tacheen\n!tag Rajabu\nPRESENTTIMELine\n!tag adventuringparty5\n"
+            "notes": "!tag Tacheen\n!tag Rajabu\nPRESENTTIMELine\n!tag adventuringparty5"
         },
         {
             "card_name": "Rajabu, Lavamancer",
@@ -3506,7 +3506,7 @@
             "alias": "",
             "position": "156",
             "rotated": false,
-            "notes": "!tag Tacheen\n"
+            "notes": "!tag Tacheen"
         },
         {
             "card_name": "Pevartud Partygoer",
@@ -3579,7 +3579,7 @@
             "number": 175,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Enchant land\nWhen Wayfarer's Respite enters, create a Shard token. You gain 3 life.\nEnchanted land has \u201c{T}: Add one mana of any color.\u201d",
+            "rules_text": "Enchant land\nWhen Wayfarer's Respite enters, create a Shard token. You gain 3 life. [i](It's an enchantment with \u201c{2}, Sacrifice this token: Scry 1, then draw a card.\u201d)[/i]\nEnchanted land has \u201c{T}: Add one mana of any color.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3695,7 +3695,7 @@
             "alias": "",
             "position": "165",
             "rotated": false,
-            "notes": "!tag Tacheen\n!tag Reprint\n!tag Clotaire\n!tag Amaltheos\nPRESENTTIMELINE\n!tag adventuringparty4\n"
+            "notes": "!tag Tacheen\n!tag Reprint\n!tag Clotaire\n!tag Amaltheos\nPRESENTTIMELINE\n!tag adventuringparty4"
         },
         {
             "card_name": "Omen of Harvests",
@@ -3726,7 +3726,7 @@
             "number": 178,
             "color_identity": "WU",
             "cost": "{2}{W}{W}{U}{U}",
-            "rules_text": "At the beginning of your end step, create a Shard token.\nMelganez has hexproof as long as you've drawn a card this turn and has indestructible as long as you've drawn two or more cards this turn.",
+            "rules_text": "At the beginning of your end step, create a Shard token. [i](It's an enchantment with \u201c{2}, Sacrifice this token: Scry 1, then draw a card.\u201d)[/i]\nMelganez has hexproof as long as you've drawn a card this turn and has indestructible as long as you've drawn two or more cards this turn.",
             "flavor_text": "[i][/i]",
             "pt": "6/6",
             "special_text": "",
@@ -3789,7 +3789,7 @@
             "number": 180,
             "color_identity": "WU",
             "cost": "{W}{U}",
-            "rules_text": "Whenever Swimming with Sharks enters or you cast an enchantment spell, create a Shard token.\n{2}, Sacrifice two Shards: Create a 3/2 blue Shark creature token. It can't block this turn.",
+            "rules_text": "Whenever Swimming with Sharks enters or you cast an enchantment spell, create a Shard token. [i](It's an enchantment with \u201c{2}, Sacrifice this token: Scry 1, then draw a card.\u201d)[/i]\n{2}, Sacrifice two Shards: Create a 3/2 blue Shark creature token. It can't block this turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4664,7 +4664,7 @@
             "alias": "",
             "position": "210",
             "rotated": false,
-            "notes": "!tag Tacheen\n!tag Tual\n!tag adventuringparty2\n"
+            "notes": "!tag Tacheen\n!tag Tual\n!tag adventuringparty2"
         },
         {
             "card_name": "Scuttling Coffer",
@@ -5184,7 +5184,7 @@
             "number": 273,
             "color_identity": "B",
             "cost": "",
-            "rules_text": "Smoldering Passage enters tapped if there are one or more cards in your graveyard.\n{T}: Add {B}.\n{B}, {T}, Sacrifice a creature: Create a Shard token.",
+            "rules_text": "Smoldering Passage enters tapped if there are one or more cards in your graveyard.\n{T}: Add {B}.\n{B}, {T}, Sacrifice a creature: Create a Shard token. [i](It's an enchantment with \u201c{2}, Sacrifice this token: Scry 1, then draw a card.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5387,7 +5387,7 @@
             "alias": "",
             "position": "241",
             "rotated": false,
-            "notes": "!tag Tacheen\nRoadstuff\n\n"
+            "notes": "!tag Tacheen\nRoadstuff"
         },
         {
             "card_name": "Drowned Mire",
@@ -5567,7 +5567,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Tacheen\nFire Prison\n"
+            "notes": "!tag Tacheen\nFire Prison"
         },
         {
             "card_name": "K\u00ear-Is",
@@ -5822,7 +5822,7 @@
             "alias": "",
             "position": "260",
             "rotated": false,
-            "notes": "!tag Tacheen\n"
+            "notes": "!tag Tacheen"
         },
         {
             "card_name": "Shimmering Beach",
@@ -6000,7 +6000,7 @@
             "number": 282,
             "color_identity": "WB",
             "cost": "",
-            "rules_text": "{T}: Add {W} or {B}. Put a loyalty counter on Toull-Goulo\u00f9, Hole of Light. You lose 1 life.\n{3}{W}{B}, {T}, Sacrifice all creatures and planeswalkers you control: Transform Toull-Goulo\u00f9. Activate only as a sorcery.",
+            "rules_text": "{T}: Add {W} or {B}. Put a loyalty counter on Toull-Goulo\u00f9, Hole of Light. You lose 1 life.\n{3}{W}{B}, {T}, Sacrifice a creature and all planeswalkers you control: Transform Toull-Goulo\u00f9. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6240,7 +6240,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Token Creature \u2014 Elemental",
-            "number": 21,
+            "number": 22,
             "color_identity": "G",
             "cost": "",
             "rules_text": "",
@@ -6261,7 +6261,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Token Creature \u2014 Faerie",
-            "number": 13,
+            "number": 14,
             "color_identity": "U",
             "cost": "",
             "rules_text": "Flying",
@@ -6282,7 +6282,7 @@
             "color": "R",
             "rarity": "common",
             "type": "Token Creature \u2014 Berserker",
-            "number": 20,
+            "number": 21,
             "color_identity": "R",
             "cost": "",
             "rules_text": "",
@@ -6303,7 +6303,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Token Creature \u2014 Knight",
-            "number": 22,
+            "number": 23,
             "color_identity": "G",
             "cost": "",
             "rules_text": "",
@@ -6324,7 +6324,7 @@
             "color": "",
             "rarity": "common",
             "type": "Token",
-            "number": 7,
+            "number": 6,
             "color_identity": "C",
             "cost": "",
             "rules_text": "[b]Induction \u2014 1/1[/b]",
@@ -6345,7 +6345,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Token Creature \u2014 Warrior",
-            "number": 12,
+            "number": 13,
             "color_identity": "W",
             "cost": "",
             "rules_text": "",
@@ -6366,7 +6366,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Token Creature \u2014 Turtle",
-            "number": 15,
+            "number": 16,
             "color_identity": "U",
             "cost": "",
             "rules_text": "",
@@ -6387,7 +6387,7 @@
             "color": "B",
             "rarity": "common",
             "type": "Token Creature \u2014 Warlock",
-            "number": 18,
+            "number": 19,
             "color_identity": "B",
             "cost": "",
             "rules_text": "Whenever this creature dies, it deals 2 damage to target opponent or battle.",
@@ -6408,7 +6408,7 @@
             "color": "",
             "rarity": "common",
             "type": "Token Artifact \u2014 Treasure",
-            "number": 23,
+            "number": 24,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Sacrifice this token: Add one mana of any color.",
@@ -6429,7 +6429,7 @@
             "color": "",
             "rarity": "common",
             "type": "Token Artifact \u2014 Equipment",
-            "number": 24,
+            "number": 25,
             "color_identity": "C",
             "cost": "",
             "rules_text": "Equipped creature gets +1/+1.\nEquip {2}",
@@ -6450,7 +6450,7 @@
             "color": "",
             "rarity": "common",
             "type": "Token Creature \u2014 Hero",
-            "number": 5,
+            "number": 3,
             "color_identity": "C",
             "cost": "",
             "rules_text": "[i](This token gains abilities based on your progress down the Hero's Path.)[/i]\nWard\u2014Pay 2 life.",
@@ -6471,7 +6471,7 @@
             "color": "",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Shard",
-            "number": 10,
+            "number": 11,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{2}, Sacrifice this enchantment: Scry 1, then draw a card.",
@@ -6492,7 +6492,7 @@
             "color": "B",
             "rarity": "common",
             "type": "Token Creature \u2014 Demon",
-            "number": 16,
+            "number": 17,
             "color_identity": "B",
             "cost": "",
             "rules_text": "Indestructible, menace",
@@ -6513,7 +6513,7 @@
             "color": "B",
             "rarity": "common",
             "type": "Token Creature \u2014 Zombie",
-            "number": 19,
+            "number": 20,
             "color_identity": "B",
             "cost": "",
             "rules_text": "Menace",
@@ -6548,7 +6548,7 @@
             "alias": "",
             "position": "294",
             "rotated": false,
-            "notes": "!tag Clotaire\n!tag Paolig\n!tag Tacheen\n!tag Ordeval\n!tag adventuringparty4\n"
+            "notes": "!tag Clotaire\n!tag Paolig\n!tag Tacheen\n!tag Ordeval\n!tag adventuringparty4"
         },
         {
             "card_name": "Grim Tooth Marauder",
@@ -6630,7 +6630,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Token Creature \u2014 Shark",
-            "number": 14,
+            "number": 15,
             "color_identity": "U",
             "cost": "",
             "rules_text": "",
@@ -6651,7 +6651,7 @@
             "color": "B",
             "rarity": "common",
             "type": "Token Creature \u2014 Demon",
-            "number": 17,
+            "number": 18,
             "color_identity": "B",
             "cost": "",
             "rules_text": "",
@@ -6756,7 +6756,7 @@
             "color": "",
             "rarity": "common",
             "type": "Token Land",
-            "number": 25,
+            "number": 26,
             "color_identity": "C",
             "cost": "",
             "rules_text": "This land is a Plains, Island, Swamp, Mountain, and Plains. [i]({T}: Add {W}, {U}, {B}, {R}, or {G}.)[/i]",
@@ -6861,7 +6861,7 @@
             "color": "",
             "rarity": "common",
             "type": "Token Creature \u2014 Hero",
-            "number": 6,
+            "number": 4,
             "color_identity": "C",
             "cost": "",
             "rules_text": "[i](This token gains abilities based on your progress down the Hero's Path.)[/i]",
@@ -6924,7 +6924,7 @@
             "color": "",
             "rarity": "common",
             "type": "Token Creature \u2014 Hero",
-            "number": 11,
+            "number": 12,
             "color_identity": "C",
             "cost": "",
             "rules_text": "Ward\u2014Pay 2 life.\nSlayer Hero has first strike while attacking.\nWhenever Slayer Hero attacks, tap target creature.",
@@ -6945,7 +6945,7 @@
             "color": "",
             "rarity": "common",
             "type": "Token Creature \u2014 Hero",
-            "number": 4,
+            "number": 7,
             "color_identity": "C",
             "cost": "",
             "rules_text": "Prowess\nNoncreature spells you cast cost {1} less to cast.\nWhenever this creature deals damage to a noncreature, draw a card.",
@@ -6966,7 +6966,7 @@
             "color": "",
             "rarity": "common",
             "type": "Token Creature \u2014 Hero",
-            "number": 9,
+            "number": 10,
             "color_identity": "C",
             "cost": "",
             "rules_text": "[i](This token gains abilities based on your progress down the Hero's Path.)[/i]\nWard\u2014Pay 2 life.\nSeasoned Hero has first strike while attacking.",
@@ -6983,14 +6983,14 @@
             "notes": "SPOILERED"
         },
         {
-            "card_name": "Explorer Hero",
+            "card_name": "Seasoned Explorer Hero",
             "color": "",
             "rarity": "common",
             "type": "Token Creature \u2014 Hero",
-            "number": 3,
+            "number": 9,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "Ward\u2014Pay 2 life.\nExplorer Hero has first strike while attacking.\nWhenever Explorer Hero deals damage to a noncreature, draw a card.",
+            "rules_text": "Ward\u2014Pay 2 life.\nSeasoned Explorer Hero has first strike while attacking.\nWhenever Seasoned Explorer Hero deals damage to a noncreature, draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -7023,7 +7023,28 @@
             "position": "316",
             "rotated": false,
             "notes": "SPOILERED"
+        },
+        {
+            "card_name": "Hero of Tacheen",
+            "color": "",
+            "rarity": "common",
+            "type": "Token Creature \u2014 Hero",
+            "number": 5,
+            "color_identity": "C",
+            "cost": "",
+            "rules_text": "[i](This token gains abilities based on your progress down the Hero's Path.)[/i]\nIf you would outfit your Hero, put a +1/+1 counter on this creature instead.",
+            "flavor_text": "[i][/i]",
+            "pt": "3/3",
+            "special_text": "",
+            "shape": "token",
+            "set": "TOH",
+            "loyalty": "",
+            "artist": "Daryl Toh",
+            "alias": "",
+            "position": "317",
+            "rotated": false,
+            "notes": "SPOILERED"
         }
     ],
-    "version": 4
+    "version": 5
 }

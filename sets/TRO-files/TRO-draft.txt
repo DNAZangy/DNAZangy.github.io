@@ -1,0 +1,3719 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Griefbough Witness",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Faerie",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/0.png"
+			}
+		},
+		{
+			"name": "Mavka of Forgotten Groves",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Spirit Archer",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/1.png"
+			}
+		},
+		{
+			"name": "Tuckered-Out Domovoi",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Ouphe",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/2.png"
+			}
+		},
+		{
+			"name": "Voice of the Rimed Path",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Advisor Cleric",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/3.png"
+			}
+		},
+		{
+			"name": "Dawnforged Alkonost",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Siren",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/4.png"
+			}
+		},
+		{
+			"name": "Listless Parched",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Zombie",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/5.png"
+			}
+		},
+		{
+			"name": "Snezvalir Initiate",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/6.png"
+			}
+		},
+		{
+			"name": "Whitehoof Ascendant",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Knight",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/7.png"
+			}
+		},
+		{
+			"name": "Twilight Warden",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Human Cleric Ranger",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/8.png"
+			}
+		},
+		{
+			"name": "Seraph of Stilled Grace",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Angel Cleric",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/9.png"
+			}
+		},
+		{
+			"name": "Sealing Blade",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/10.png"
+			}
+		},
+		{
+			"name": "Sheltered by the Light",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/11.png"
+			}
+		},
+		{
+			"name": "Sunlit Execution",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/12.png"
+			}
+		},
+		{
+			"name": "Silentstep Runner",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Scout",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/13.png"
+			}
+		},
+		{
+			"name": "Undertow Vodnik",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Merfolk Rogue",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/14.png"
+			}
+		},
+		{
+			"name": "Herald of the First Frost",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Faerie Scout",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/15.png"
+			}
+		},
+		{
+			"name": "Scrapswarm Pixies",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Faerie Rogue",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/16.png"
+			}
+		},
+		{
+			"name": "Murkmire Wretch",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Merfolk Rogue",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/17.png"
+			}
+		},
+		{
+			"name": "Warden of the Rimed Oath",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Warrior Wizard",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/18.png"
+			}
+		},
+		{
+			"name": "Direcall Siren",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Siren",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/19.png"
+			}
+		},
+		{
+			"name": "Aspid of the Mires",
+			"rarity": "common",
+			"mana_cost": "{5}{U}",
+			"type": "Creature — Serpent",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/20.png"
+			}
+		},
+		{
+			"name": "Diffuse",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/21.png"
+			}
+		},
+		{
+			"name": "Gift of Inspiration",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/22.png"
+			}
+		},
+		{
+			"name": "Prepare the Path",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/23.png"
+			}
+		},
+		{
+			"name": "Riverborn Hex",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/24.png"
+			}
+		},
+		{
+			"name": "Dance the Night Away",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/25.png"
+			}
+		},
+		{
+			"name": "Slumber in Ice",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/26.png"
+			}
+		},
+		{
+			"name": "Witch of the Mirepaths",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Hag Warlock",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/27.png"
+			}
+		},
+		{
+			"name": "Hollowstep Adept",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Elf Warlock",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/28.png"
+			}
+		},
+		{
+			"name": "Regretful Scion",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire Noble",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/29.png"
+			}
+		},
+		{
+			"name": "Mossborne Grotesque",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Elk Horror",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/30.png"
+			}
+		},
+		{
+			"name": "Thornroot Maiden",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Wraith",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/31.png"
+			}
+		},
+		{
+			"name": "Duskwing Harbinger",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Siren",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/32.png"
+			}
+		},
+		{
+			"name": "Ghastly Bukavac",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Elk Chimera",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/33.png"
+			}
+		},
+		{
+			"name": "Disciple of Dried Blood",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/34.png"
+			}
+		},
+		{
+			"name": "Shepherd of Remembrance",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/35.png"
+			}
+		},
+		{
+			"name": "Bargain of the Drowned",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/36.png"
+			}
+		},
+		{
+			"name": "Doomed to Blossom",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/37.png"
+			}
+		},
+		{
+			"name": "Pry",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/38.png"
+			}
+		},
+		{
+			"name": "Never to Return",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/39.png"
+			}
+		},
+		{
+			"name": "Wander Too Far",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/40.png"
+			}
+		},
+		{
+			"name": "Charmbinder Artisan",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/41.png"
+			}
+		},
+		{
+			"name": "Kindle the Mischief",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/42.png"
+			}
+		},
+		{
+			"name": "Velkora Marshal",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Knight",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/43.png"
+			}
+		},
+		{
+			"name": "Snickering Biesling",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Devil",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/44.png"
+			}
+		},
+		{
+			"name": "Acolyte of Braided Crimson",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/45.png"
+			}
+		},
+		{
+			"name": "Resolute Vakhter",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Ranger",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/46.png"
+			}
+		},
+		{
+			"name": "Hearth-Gut Behemoth",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Artifact Creature — Scarecrow",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/47.png"
+			}
+		},
+		{
+			"name": "Encroaching Embers",
+			"rarity": "common",
+			"mana_cost": "{5}{R}",
+			"type": "Creature — Spirit",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/48.png"
+			}
+		},
+		{
+			"name": "Searing Thirst",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/49.png"
+			}
+		},
+		{
+			"name": "Faceless Watcher",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Ranger",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/50.png"
+			}
+		},
+		{
+			"name": "Vakhter's Edge",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/51.png"
+			}
+		},
+		{
+			"name": "Wreck and Wield",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/52.png"
+			}
+		},
+		{
+			"name": "Kindling of Traveled Pasts",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/53.png"
+			}
+		},
+		{
+			"name": "Ashen Reckoning",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Instant",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/54.png"
+			}
+		},
+		{
+			"name": "Channeler of the Aurora",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/55.png"
+			}
+		},
+		{
+			"name": "Murmurs in the Thicket",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/56.png"
+			}
+		},
+		{
+			"name": "Driblik Gang",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Ouphe Druid",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/57.png"
+			}
+		},
+		{
+			"name": "Blade of the Vale",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Ranger",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/58.png"
+			}
+		},
+		{
+			"name": "Sight-Bound Martyr",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Hag Warlock",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/59.png"
+			}
+		},
+		{
+			"name": "Pathcleaver Vakhter",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Ranger",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/60.png"
+			}
+		},
+		{
+			"name": "Witch's Spine",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Plant",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/61.png"
+			}
+		},
+		{
+			"name": "Briarhoof Guardian",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Satyr Druid",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/62.png"
+			}
+		},
+		{
+			"name": "Vesselbound Maw",
+			"rarity": "common",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Beast Horror",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/63.png"
+			}
+		},
+		{
+			"name": "Strike True",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/64.png"
+			}
+		},
+		{
+			"name": "So Easily Broken",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/65.png"
+			}
+		},
+		{
+			"name": "Ward of the Watchful",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact — Equipment",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/66.png"
+			}
+		},
+		{
+			"name": "Whisperfoot Skitterer",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Ouphe Scout",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/67.png"
+			}
+		},
+		{
+			"name": "Thought Harvest",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/68.png"
+			}
+		},
+		{
+			"name": "Briarhoof Remnant",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Satyr Scarecrow",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/69.png"
+			}
+		},
+		{
+			"name": "Stillmouth Wretch",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Siren Scarecrow",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/70.png"
+			}
+		},
+		{
+			"name": "Grandmother's Maw",
+			"rarity": "common",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Hag Spider",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/71.png"
+			}
+		},
+		{
+			"name": "Wayfarer's Map",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "283",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/72.png"
+			}
+		},
+		{
+			"name": "Brighteyed Stranger",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Faerie",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/73.png"
+			}
+		},
+		{
+			"name": "Rimeveil Courier",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Faerie",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/74.png"
+			}
+		},
+		{
+			"name": "Newcomer at Veshaal's Rest",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/75.png"
+			}
+		},
+		{
+			"name": "Light at Bratovik",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Angel Cleric",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/76.png"
+			}
+		},
+		{
+			"name": "Rimegem Sovereign",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/77.png"
+			}
+		},
+		{
+			"name": "Graincleaver",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Zombie",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/78.png"
+			}
+		},
+		{
+			"name": "Sworn Departure",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/79.png"
+			}
+		},
+		{
+			"name": "Sunward Spear",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/80.png"
+			}
+		},
+		{
+			"name": "Duly Vanquished",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/81.png"
+			}
+		},
+		{
+			"name": "Urgent Summons",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/82.png"
+			}
+		},
+		{
+			"name": "Hearthstead Tinkerer",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/83.png"
+			}
+		},
+		{
+			"name": "Kaelthar's Wing",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Faerie Scout",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/84.png"
+			}
+		},
+		{
+			"name": "March of the Pathbreaker",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/85.png"
+			}
+		},
+		{
+			"name": "Tharnholt Invoker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/86.png"
+			}
+		},
+		{
+			"name": "Messenger of Veyhalde",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Bird",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/87.png"
+			}
+		},
+		{
+			"name": "Snowbound Serenity",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/88.png"
+			}
+		},
+		{
+			"name": "Where the Wind Begins",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/89.png"
+			}
+		},
+		{
+			"name": "Will Away",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/90.png"
+			}
+		},
+		{
+			"name": "Maw of Slumbering Seeds",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/91.png"
+			}
+		},
+		{
+			"name": "Whisper of Stillness",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/92.png"
+			}
+		},
+		{
+			"name": "Evermarching Nyavki",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/93.png"
+			}
+		},
+		{
+			"name": "Unbidden Patron",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Creature — Faerie",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/94.png"
+			}
+		},
+		{
+			"name": "Loathsome Nuckelavee",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Faerie Horse",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/95.png"
+			}
+		},
+		{
+			"name": "Sootwinged Intruder",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Bat Demon",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/96.png"
+			}
+		},
+		{
+			"name": "Wailing Songbeast",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Siren Beast",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/97.png"
+			}
+		},
+		{
+			"name": "Solmhar's Measure",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/98.png"
+			}
+		},
+		{
+			"name": "Pilfer",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/99.png"
+			}
+		},
+		{
+			"name": "Sign in Grief",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/100.png"
+			}
+		},
+		{
+			"name": "Wilt Like the Others",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/101.png"
+			}
+		},
+		{
+			"name": "Devour",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/102.png"
+			}
+		},
+		{
+			"name": "Pitywrought Whelp",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Ouphe",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/103.png"
+			}
+		},
+		{
+			"name": "Briarhoof Hearthtender",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Satyr Druid",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/104.png"
+			}
+		},
+		{
+			"name": "Spiteful Prankster",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Devil",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/105.png"
+			}
+		},
+		{
+			"name": "Troubling Mischief",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/106.png"
+			}
+		},
+		{
+			"name": "Flamemane Skydancer",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Dragon Faerie",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/107.png"
+			}
+		},
+		{
+			"name": "Scorch to Slag",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{R}",
+			"type": "Instant",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/108.png"
+			}
+		},
+		{
+			"name": "Last Vows",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/109.png"
+			}
+		},
+		{
+			"name": "Vespermaw",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Horror",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/110.png"
+			}
+		},
+		{
+			"name": "The Road Made Real",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/111.png"
+			}
+		},
+		{
+			"name": "Rousing Call",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/112.png"
+			}
+		},
+		{
+			"name": "Strayhorn Guide",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Satyr Ranger",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/113.png"
+			}
+		},
+		{
+			"name": "Peltborn Shifter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Shapeshifter Boar",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/114.png"
+			}
+		},
+		{
+			"name": "Emptypetal Crone",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Dryad Hag Warlock",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/115.png"
+			}
+		},
+		{
+			"name": "Crushing Vodyanov",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Merfolk Beast",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/116.png"
+			}
+		},
+		{
+			"name": "Ashhorn Reaper",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Faerie Centaur",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/117.png"
+			}
+		},
+		{
+			"name": "Steward of Hollowood",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Faerie Noble",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/118.png"
+			}
+		},
+		{
+			"name": "Hope's Sprout",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/119.png"
+			}
+		},
+		{
+			"name": "Horizon's Edge",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact — Equipment",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/120.png"
+			}
+		},
+		{
+			"name": "Answer with Steel and Blood",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/121.png"
+			}
+		},
+		{
+			"name": "Snowlit Reverie",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/122.png"
+			}
+		},
+		{
+			"name": "Wreathrot Crossing",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "298",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://DNAZangy.github.io/sets/TRO-files/img/123_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/123_front.png"
+			}
+		},
+		{
+			"name": "Hollowood Crossing",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "292",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://DNAZangy.github.io/sets/TRO-files/img/124_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/124_front.png"
+			}
+		},
+		{
+			"name": "Ashwood Crossing",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "285",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://DNAZangy.github.io/sets/TRO-files/img/125_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/125_front.png"
+			}
+		},
+		{
+			"name": "Singshore Crossing",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "295",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://DNAZangy.github.io/sets/TRO-files/img/126_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/126_front.png"
+			}
+		},
+		{
+			"name": "Veilshroud Crossing",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "297",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://DNAZangy.github.io/sets/TRO-files/img/127_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/127_front.png"
+			}
+		},
+		{
+			"name": "Hearthvale Crossing",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "291",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://DNAZangy.github.io/sets/TRO-files/img/128_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/128_front.png"
+			}
+		},
+		{
+			"name": "Brightwane Crossing",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "286",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://DNAZangy.github.io/sets/TRO-files/img/129_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/129_front.png"
+			}
+		},
+		{
+			"name": "Hagspire Crossing",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "290",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://DNAZangy.github.io/sets/TRO-files/img/130_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/130_front.png"
+			}
+		},
+		{
+			"name": "Glimmerpeak Crossing",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "289",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://DNAZangy.github.io/sets/TRO-files/img/131_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/131_front.png"
+			}
+		},
+		{
+			"name": "Altar to Those Unbroken",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/132.png"
+			}
+		},
+		{
+			"name": "Mockery of Valor",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Warlock",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/133.png"
+			}
+		},
+		{
+			"name": "Clutching Cottage",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/134.png"
+			}
+		},
+		{
+			"name": "Effigy of the Craving",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/135.png"
+			}
+		},
+		{
+			"name": "Helm of the Lost",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/136.png"
+			}
+		},
+		{
+			"name": "Pendant of Good Harvests",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/137.png"
+			}
+		},
+		{
+			"name": "Edge of Stilled Resolve",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/138.png"
+			}
+		},
+		{
+			"name": "Stiltwalker Husk",
+			"rarity": "uncommon",
+			"mana_cost": "{5}",
+			"type": "Artifact — Equipment",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/139.png"
+			}
+		},
+		{
+			"name": "Threadcharmer's Boots",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "279",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/140.png"
+			}
+		},
+		{
+			"name": "Pulse of the Hollowood",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/141.png"
+			}
+		},
+		{
+			"name": "Snezvalir Songshaper",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/142.png"
+			}
+		},
+		{
+			"name": "Call of the Hanging Bough",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Enchantment",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/143.png"
+			}
+		},
+		{
+			"name": "Wax and Woe",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/144.png"
+			}
+		},
+		{
+			"name": "Pale Visage",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/145.png"
+			}
+		},
+		{
+			"name": "Boon of Feathers and Fate",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Instant",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/146.png"
+			}
+		},
+		{
+			"name": "Weeping Cikavac",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}{B}",
+			"type": "Creature — Faerie",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/147.png"
+			}
+		},
+		{
+			"name": "Rekindling Affection",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Instant",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/148.png"
+			}
+		},
+		{
+			"name": "Slabtooth Ambusher",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Troll",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/149.png"
+			}
+		},
+		{
+			"name": "Unintended Transit",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Sorcery",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/150.png"
+			}
+		},
+		{
+			"name": "Errant Krivolak",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/151.png"
+			}
+		},
+		{
+			"name": "Rend to Nothing",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Instant",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/152.png"
+			}
+		},
+		{
+			"name": "Winter's Rebuke",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Sorcery",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/153.png"
+			}
+		},
+		{
+			"name": "Wayward Elder",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Hag Warlock",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/154.png"
+			}
+		},
+		{
+			"name": "Prudent Grovewarden",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Creature — Satyr Druid",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/155.png"
+			}
+		},
+		{
+			"name": "Pledge of Blooms",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Enchantment",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/156.png"
+			}
+		},
+		{
+			"name": "Gracesower Satyr",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Creature — Satyr Warlock",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/157.png"
+			}
+		},
+		{
+			"name": "Hollow Revelry",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Enchantment",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/158.png"
+			}
+		},
+		{
+			"name": "Lockstock Vakhter",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Creature — Human Ranger",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/159.png"
+			}
+		},
+		{
+			"name": "Plea Beneath the Surface",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Instant",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/160.png"
+			}
+		},
+		{
+			"name": "Reckoner of the Bend",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Human Ranger",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/161.png"
+			}
+		},
+		{
+			"name": "Resolute Marshal",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Elf Soldier Advisor",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/162.png"
+			}
+		},
+		{
+			"name": "Echo of the Oathbound",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Spirit Knight",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/163.png"
+			}
+		},
+		{
+			"name": "Binding of Winter's Breath",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/164.png"
+			}
+		},
+		{
+			"name": "Brightstep Chorus",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Elf Bard Cleric",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/165.png"
+			}
+		},
+		{
+			"name": "Concord of the Veiled",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/166.png"
+			}
+		},
+		{
+			"name": "Reflected Memories",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/167.png"
+			}
+		},
+		{
+			"name": "Lurker of the Whisperfens",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Merfolk Rogue",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/168.png"
+			}
+		},
+		{
+			"name": "Devourer of Forms",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/169.png"
+			}
+		},
+		{
+			"name": "Coven of Three",
+			"rarity": "rare",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Hag Warlock",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/170.png"
+			}
+		},
+		{
+			"name": "Tidings Carried on Ash",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/171.png"
+			}
+		},
+		{
+			"name": "Trinket Seeker",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Merfolk Artificer",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/172.png"
+			}
+		},
+		{
+			"name": "Flourish Together",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/173.png"
+			}
+		},
+		{
+			"name": "Kaelthar's Decree",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}{U}",
+			"type": "Instant",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/174.png"
+			}
+		},
+		{
+			"name": "Echo of the Pane",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}{B}",
+			"type": "Creature — Shade",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/175.png"
+			}
+		},
+		{
+			"name": "Arrive in Silence and Ash",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/176.png"
+			}
+		},
+		{
+			"name": "Everwatching Praznostrazh",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Archon Wraith",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/177.png"
+			}
+		},
+		{
+			"name": "Lady on the Blighted Mare",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Zombie Knight",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/178.png"
+			}
+		},
+		{
+			"name": "Become Unwritten",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/179.png"
+			}
+		},
+		{
+			"name": "Sorrow Lasher",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Creature — Vampire Shaman",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/180.png"
+			}
+		},
+		{
+			"name": "Cragroot Rumbler",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dryad",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/181.png"
+			}
+		},
+		{
+			"name": "Eyes of Struna",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Faerie",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/182.png"
+			}
+		},
+		{
+			"name": "Rimebag Wretch",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}{R}",
+			"type": "Creature — Yeti",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/183.png"
+			}
+		},
+		{
+			"name": "Warbark Reaver",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Faerie Artificer",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/184.png"
+			}
+		},
+		{
+			"name": "The Flames Know Guilt",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Enchantment",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/185.png"
+			}
+		},
+		{
+			"name": "Strike of Conviction",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}",
+			"type": "Instant",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/186.png"
+			}
+		},
+		{
+			"name": "One Breath from Ruin",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/187.png"
+			}
+		},
+		{
+			"name": "Honeytongued Sibilisk",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Snake Shaman",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/188.png"
+			}
+		},
+		{
+			"name": "Master of the Pale Frost",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Druid",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/189.png"
+			}
+		},
+		{
+			"name": "Stampeding Gorejaw",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Insect Ox Nightmare",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/190.png"
+			}
+		},
+		{
+			"name": "Instinctive Bond",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/191.png"
+			}
+		},
+		{
+			"name": "Consonance of Seasons",
+			"rarity": "rare",
+			"mana_cost": "{6}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/192.png"
+			}
+		},
+		{
+			"name": "Prepare the Vessel",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/193.png"
+			}
+		},
+		{
+			"name": "First Step into Snezvalir",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Enchantment",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/194.png"
+			}
+		},
+		{
+			"name": "Songward Watcher",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Siren",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/195.png"
+			}
+		},
+		{
+			"name": "Tender Patchbinder",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/196.png"
+			}
+		},
+		{
+			"name": "Thrust Beyond the Shard",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Instant",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/197.png"
+			}
+		},
+		{
+			"name": "Gildfrost Ancient",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/198.png"
+			}
+		},
+		{
+			"name": "Vakhter Conscriptor",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Elf Advisor Ranger",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/199.png"
+			}
+		},
+		{
+			"name": "Blade of the Rimecourt",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/200.png"
+			}
+		},
+		{
+			"name": "The Frozen Gaol",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Enchantment",
+			"collector_number": "96",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://DNAZangy.github.io/sets/TRO-files/img/201_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/201_front.png"
+			}
+		},
+		{
+			"name": "Veyhalde Emberhold",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/202.png"
+			}
+		},
+		{
+			"name": "Brute of Kroslav Heights",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}{G}",
+			"type": "Creature — Giant Warrior",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/203.png"
+			}
+		},
+		{
+			"name": "Jednooko Creeper",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Cyclops",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/204.png"
+			}
+		},
+		{
+			"name": "Dravhollow Current Weaver",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Merfolk Wizard",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/205.png"
+			}
+		},
+		{
+			"name": "Promise of Peril",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Instant",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/206.png"
+			}
+		},
+		{
+			"name": "Krovin, the Gilded Maw",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Giant Warrior",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/207.png"
+			}
+		},
+		{
+			"name": "Tithe of Flesh",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Enchantment",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/208.png"
+			}
+		},
+		{
+			"name": "Crystalfang Howler",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}{W}{W}",
+			"type": "Creature — Wolf Warrior",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/209.png"
+			}
+		},
+		{
+			"name": "Crone's Choosing",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}",
+			"type": "Sorcery",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/210.png"
+			}
+		},
+		{
+			"name": "Shardbreath Tyrant",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/211.png"
+			}
+		},
+		{
+			"name": "Siphoned Radiance",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{G}",
+			"type": "Instant",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/212.png"
+			}
+		},
+		{
+			"name": "Forlorn Hope",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/213.png"
+			}
+		},
+		{
+			"name": "Begin the Empty Pursuit",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Enchantment",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/214.png"
+			}
+		},
+		{
+			"name": "Steps Towards Destiny",
+			"rarity": "rare",
+			"mana_cost": "{G}{U}",
+			"type": "Instant",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/215.png"
+			}
+		},
+		{
+			"name": "Glimpse Beyond the Rime",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}{U}",
+			"type": "Instant",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/216.png"
+			}
+		},
+		{
+			"name": "Selyndor Mindshaper",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/217.png"
+			}
+		},
+		{
+			"name": "Reap the Kindling",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}",
+			"type": "Enchantment",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/218.png"
+			}
+		},
+		{
+			"name": "Boilmaw Lomie",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Elk Beast",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/219.png"
+			}
+		},
+		{
+			"name": "Hope Beneath the Boughs",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}",
+			"type": "Enchantment",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/220.png"
+			}
+		},
+		{
+			"name": "Sunveil Seraph",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Creature — Angel",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/221.png"
+			}
+		},
+		{
+			"name": "Crowned in Summer",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Sorcery",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/222.png"
+			}
+		},
+		{
+			"name": "Erlhan of the Empty Pursuit",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Legendary Creature — Spirit Warrior",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/223.png"
+			}
+		},
+		{
+			"name": "Hero of Earned Steel",
+			"rarity": "rare",
+			"mana_cost": "{R}{W}",
+			"type": "Creature — Human Ranger",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/224.png"
+			}
+		},
+		{
+			"name": "Kaelthar, He Who Stills",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}{U}",
+			"type": "Legendary Creature — Faerie Knight",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/225.png"
+			}
+		},
+		{
+			"name": "Sisters of Rain and River",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{W}{B}",
+			"type": "Legendary Creature — Elder Warlock",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/226.png"
+			}
+		},
+		{
+			"name": "Kateryna, Weaver of Winter",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}{B}",
+			"type": "Legendary Planeswalker — Kateryna",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/227.png"
+			}
+		},
+		{
+			"name": "Vesnara, She Who Bloomed",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}{G}",
+			"type": "Legendary Creature — Faerie Zombie",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/228.png"
+			}
+		},
+		{
+			"name": "Draveth of One Cut",
+			"rarity": "rare",
+			"mana_cost": "{G}{U}{R}",
+			"type": "Legendary Creature — Elf Assassin",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/229.png"
+			}
+		},
+		{
+			"name": "Sorvain, He Who Collects",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}{G}",
+			"type": "Legendary Creature — Faerie Warlock",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/230.png"
+			}
+		},
+		{
+			"name": "Ajani, Forever Adrift",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}{W}",
+			"type": "Legendary Planeswalker — Ajani",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/231.png"
+			}
+		},
+		{
+			"name": "Ciar, Lost Vessel",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}{U}",
+			"type": "Legendary Planeswalker — Ciar",
+			"collector_number": "252",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://DNAZangy.github.io/sets/TRO-files/img/232_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/232_front.png"
+			}
+		},
+		{
+			"name": "Solmhar, He Who Reaps",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{B}{R}",
+			"type": "Legendary Creature — Angel Faerie",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/233.png"
+			}
+		},
+		{
+			"name": "Silence, Kaelthar's Oath",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/234.png"
+			}
+		},
+		{
+			"name": "Tiller of Realms",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Artifact Land — Equipment",
+			"collector_number": "296",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/235.png"
+			}
+		},
+		{
+			"name": "Dewfrost Treads",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/236.png"
+			}
+		},
+		{
+			"name": "Virelen's Skull",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/237.png"
+			}
+		},
+		{
+			"name": "Soulbound Doll",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Human Toy",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/238.png"
+			}
+		},
+		{
+			"name": "Garland of Trez",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/239.png"
+			}
+		},
+		{
+			"name": "Stitched Witness",
+			"rarity": "rare",
+			"mana_cost": "{X}{X}",
+			"type": "Artifact Creature — Scarecrow",
+			"collector_number": "278",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/240.png"
+			}
+		},
+		{
+			"name": "Fateful Beacon",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}",
+			"type": "Artifact — Equipment",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/241.png"
+			}
+		},
+		{
+			"name": "Oathbound Reliquary",
+			"rarity": "rare",
+			"mana_cost": "{5}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/242.png"
+			}
+		},
+		{
+			"name": "The Thirsting Pane",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/243.png"
+			}
+		},
+		{
+			"name": "PlainsWinter",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "300",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/244.png"
+			}
+		},
+		{
+			"name": "PlainsSummer",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "299",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/245.png"
+			}
+		},
+		{
+			"name": "IslandWinter",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "302",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/246.png"
+			}
+		},
+		{
+			"name": "IslandSummer",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "301",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/247.png"
+			}
+		},
+		{
+			"name": "SwampWinter",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "304",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/248.png"
+			}
+		},
+		{
+			"name": "SwampSummer",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "303",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/249.png"
+			}
+		},
+		{
+			"name": "MountainWinter",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "306",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/250.png"
+			}
+		},
+		{
+			"name": "MountainSumemr",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "305",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/251.png"
+			}
+		},
+		{
+			"name": "ForestWinter",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "308",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/252.png"
+			}
+		},
+		{
+			"name": "ForestSummer",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "307",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/253.png"
+			}
+		},
+		{
+			"name": "Frostveil Crossroads",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "288",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/254.png"
+			}
+		},
+		{
+			"name": "Unyielding Witness",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Soldier",
+			"collector_number": "280",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/255.png"
+			}
+		},
+		{
+			"name": "Vigil of Those Lost",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "282",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/256.png"
+			}
+		},
+		{
+			"name": "Quietward Stones",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/257.png"
+			}
+		},
+		{
+			"name": "Woundlace Doll",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment",
+			"collector_number": "284",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/258.png"
+			}
+		},
+		{
+			"name": "Betrayer's Effigy",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact — Equipment",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/259.png"
+			}
+		},
+		{
+			"name": "Copper-Blooded Warden",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/260.png"
+			}
+		},
+		{
+			"name": "Cold Rebuttal",
+			"rarity": "common",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/261.png"
+			}
+		},
+		{
+			"name": "Greedwrought Scourge",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/262.png"
+			}
+		},
+		{
+			"name": "Threadsnare Hag",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Hag Warlock",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/263.png"
+			}
+		},
+		{
+			"name": "Mercy's Burden",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/264.png"
+			}
+		},
+		{
+			"name": "Concord of Ashes",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/265.png"
+			}
+		},
+		{
+			"name": "Angel",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Angel",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/266.png"
+			}
+		},
+		{
+			"name": "Lifebinder's Bough",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/267.png"
+			}
+		},
+		{
+			"name": "Cast to Slumber",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/268.png"
+			}
+		},
+		{
+			"name": "Veilbound Nocnitsa",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Demon",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/269.png"
+			}
+		},
+		{
+			"name": "Cornered Tusker",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Boar",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/270.png"
+			}
+		},
+		{
+			"name": "Tidy Blessing",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/271.png"
+			}
+		},
+		{
+			"name": "Elemental",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elemental",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/272.png"
+			}
+		},
+		{
+			"name": "Ouphe",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Ouphe",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/273.png"
+			}
+		},
+		{
+			"name": "Construct",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Construct",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/274.png"
+			}
+		},
+		{
+			"name": "Human",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/275.png"
+			}
+		},
+		{
+			"name": "Human2",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/276.png"
+			}
+		},
+		{
+			"name": "Yaromir",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Legendary Creature — Fox",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/277.png"
+			}
+		},
+		{
+			"name": "Cat",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Cat",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/278.png"
+			}
+		},
+		{
+			"name": "Spirit",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/279.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/280.png"
+			}
+		},
+		{
+			"name": "Devil",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Devil",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/281.png"
+			}
+		},
+		{
+			"name": "Elemental Beast",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elemental Beast",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/282.png"
+			}
+		},
+		{
+			"name": "Dragon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Dragon",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/283.png"
+			}
+		},
+		{
+			"name": "Weapon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment Weapon",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/284.png"
+			}
+		},
+		{
+			"name": "Hunt for a Card",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Battle — Hunt",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/285.png"
+			}
+		},
+		{
+			"name": "Hunt for a Dragon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Battle — Hunt",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/286.png"
+			}
+		},
+		{
+			"name": "Hunt for Returns",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Battle — Hunt",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/287.png"
+			}
+		},
+		{
+			"name": "Hunt for Whisperfoot Skitterers",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Battle — Hunt",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/288.png"
+			}
+		},
+		{
+			"name": "Hunt for Echoes",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Battle — Hunt",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/289.png"
+			}
+		},
+		{
+			"name": "Wolf",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Wolf",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/290.png"
+			}
+		},
+		{
+			"name": "Stillness Reclaimed",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/291.png"
+			}
+		},
+		{
+			"name": "Veyhalde Liaison",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Satyr Advisor",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/292.png"
+			}
+		},
+		{
+			"name": "Slasher of Stragglers",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Vampire",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/293.png"
+			}
+		},
+		{
+			"name": "Steel Never Sleeps",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/294.png"
+			}
+		},
+		{
+			"name": "Rebirth the Self",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/295.png"
+			}
+		},
+		{
+			"name": "Virelen's Call",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/296.png"
+			}
+		},
+		{
+			"name": "Dance of the Ovinnik",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Sorcery",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/297.png"
+			}
+		},
+		{
+			"name": "Mourning Current",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/298.png"
+			}
+		},
+		{
+			"name": "Pactstitcher",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Satyr Warlock",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/299.png"
+			}
+		},
+		{
+			"name": "Frantic Bukavac",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Elk Chimera",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/300.png"
+			}
+		},
+		{
+			"name": "Evercareful Dvorovoi",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Ouphe",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/301.png"
+			}
+		},
+		{
+			"name": "Sanctum of the Stilled Bloom",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "294",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/302.png"
+			}
+		},
+		{
+			"name": "Steal the Name",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/303.png"
+			}
+		},
+		{
+			"name": "Elena of the Quiet Vale",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}{W}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/304.png"
+			}
+		},
+		{
+			"name": "Mirepath Crossing",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "293",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://DNAZangy.github.io/sets/TRO-files/img/305_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/305_front.png"
+			}
+		},
+		{
+			"name": "Field of Ruin",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "287",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/306.png"
+			}
+		},
+		{
+			"name": "Twiddlebox",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/307.png"
+			}
+		},
+		{
+			"name": "Hunt for Release",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Battle — Hunt",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/308.png"
+			}
+		},
+		{
+			"name": "Hunt for Glory",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Battle — Hunt",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/309.png"
+			}
+		},
+		{
+			"name": "Hunt for Friends",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Battle — Hunt",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/310.png"
+			}
+		},
+		{
+			"name": "Hunt for Elemental",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Battle — Hunt",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/311.png"
+			}
+		},
+		{
+			"name": "Vice, Between Spaces",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact Planeswalker — Vice",
+			"collector_number": "281",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/312.png"
+			}
+		},
+		{
+			"name": "Standard of the Risen Blade",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/313.png"
+			}
+		},
+		{
+			"name": "Confessor's Thorn",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/314.png"
+			}
+		},
+		{
+			"name": "Bitterguard Blade",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Artifact — Equipment",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/315.png"
+			}
+		},
+		{
+			"name": "Bundle of Borrowed Charms",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/316.png"
+			}
+		},
+		{
+			"name": "Wreath of the Willing Bloom",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Artifact — Equipment",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/317.png"
+			}
+		},
+		{
+			"name": "Reforged Vakhter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Advisor Ranger",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/318.png"
+			}
+		},
+		{
+			"name": "Fractal Archivist",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/319.png"
+			}
+		},
+		{
+			"name": "Ivrek Scrivener",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/320.png"
+			}
+		},
+		{
+			"name": "Edgeborne Stalwart",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Elf Soldier",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/321.png"
+			}
+		},
+		{
+			"name": "Crystalfang Keeper",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Wolf Warrior Noble",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/322.png"
+			}
+		},
+		{
+			"name": "Syr Varek of Bratovik",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Human Knight",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/323.png"
+			}
+		},
+		{
+			"name": "Larynya, the Moon's Remnant",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Legendary Creature — Zombie",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/324.png"
+			}
+		},
+		{
+			"name": "Odranna, the Shadelit",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Human Warlock",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/325.png"
+			}
+		},
+		{
+			"name": "Syr Kreshtan of the Ember Wake",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Creature — Human Knight",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/326.png"
+			}
+		},
+		{
+			"name": "Syr Thomir of the Golden Stag",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Human Knight",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/327.png"
+			}
+		},
+		{
+			"name": "Herbalist of Kroslav Bend",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Satyr Druid",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/328.png"
+			}
+		},
+		{
+			"name": "Burden of the Crown",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/329.png"
+			}
+		},
+		{
+			"name": "Gift of Hollow Life",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/330.png"
+			}
+		},
+		{
+			"name": "Farewell in Steel",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/331.png"
+			}
+		},
+		{
+			"name": "Fall of the Golden Stag",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/TRO-files/img/332.png"
+			}
+		}
+	]
+
+[rare(1)]
+	5 Resolute Marshal
+	5 Echo of the Oathbound
+	5 Binding of Winter's Breath
+	5 Brightstep Chorus
+	5 Concord of the Veiled
+	5 Reflected Memories
+	5 Lurker of the Whisperfens
+	5 Devourer of Forms
+	5 Coven of Three
+	5 Tidings Carried on Ash
+	5 Trinket Seeker
+	5 Flourish Together
+	5 Kaelthar's Decree
+	5 Echo of the Pane
+	5 Arrive in Silence and Ash
+	5 Everwatching Praznostrazh
+	5 Lady on the Blighted Mare
+	5 Become Unwritten
+	5 Sorrow Lasher
+	5 Cragroot Rumbler
+	5 Eyes of Struna
+	5 Rimebag Wretch
+	5 Warbark Reaver
+	5 The Flames Know Guilt
+	5 Strike of Conviction
+	5 One Breath from Ruin
+	5 Honeytongued Sibilisk
+	5 Master of the Pale Frost
+	5 Stampeding Gorejaw
+	5 Instinctive Bond
+	5 Consonance of Seasons
+	5 Prepare the Vessel
+	5 First Step into Snezvalir
+	5 Songward Watcher
+	5 Tender Patchbinder
+	5 Thrust Beyond the Shard
+	5 Gildfrost Ancient
+	5 Vakhter Conscriptor
+	5 Blade of the Rimecourt
+	5 The Frozen Gaol
+	5 Veyhalde Emberhold
+	5 Brute of Kroslav Heights
+	5 Jednooko Creeper
+	5 Dravhollow Current Weaver
+	5 Promise of Peril
+	5 Krovin, the Gilded Maw
+	5 Tithe of Flesh
+	5 Crystalfang Howler
+	5 Crone's Choosing
+	5 Shardbreath Tyrant
+	5 Siphoned Radiance
+	5 Forlorn Hope
+	5 Begin the Empty Pursuit
+	5 Steps Towards Destiny
+	5 Glimpse Beyond the Rime
+	5 Selyndor Mindshaper
+	5 Reap the Kindling
+	5 Boilmaw Lomie
+	5 Hope Beneath the Boughs
+	5 Sunveil Seraph
+	5 Crowned in Summer
+	5 Erlhan of the Empty Pursuit
+	5 Hero of Earned Steel
+	5 Kaelthar, He Who Stills
+	5 Sisters of Rain and River
+	5 Kateryna, Weaver of Winter
+	5 Vesnara, She Who Bloomed
+	5 Draveth of One Cut
+	5 Sorvain, He Who Collects
+	5 Ajani, Forever Adrift
+	5 Ciar, Lost Vessel
+	5 Solmhar, He Who Reaps
+	5 Silence, Kaelthar's Oath
+	5 Tiller of Realms
+	5 Dewfrost Treads
+	5 Virelen's Skull
+	5 Soulbound Doll
+	5 Garland of Trez
+	5 Stitched Witness
+	5 Fateful Beacon
+	5 Oathbound Reliquary
+	5 The Thirsting Pane
+	5 Stillness Reclaimed
+	5 Veyhalde Liaison
+	5 Slasher of Stragglers
+	5 Steel Never Sleeps
+	5 Rebirth the Self
+	5 Virelen's Call
+	5 Steal the Name
+	5 Elena of the Quiet Vale
+	5 Vice, Between Spaces
+	5 Syr Varek of Bratovik
+	5 Larynya, the Moon's Remnant
+	5 Odranna, the Shadelit
+	5 Syr Kreshtan of the Ember Wake
+	5 Syr Thomir of the Golden Stag
+[uncommon(3)]
+	5 Pry
+	5 Brighteyed Stranger
+	5 Rimeveil Courier
+	5 Newcomer at Veshaal's Rest
+	5 Light at Bratovik
+	5 Rimegem Sovereign
+	5 Graincleaver
+	5 Sworn Departure
+	5 Sunward Spear
+	5 Duly Vanquished
+	5 Urgent Summons
+	5 Hearthstead Tinkerer
+	5 Kaelthar's Wing
+	5 March of the Pathbreaker
+	5 Tharnholt Invoker
+	5 Messenger of Veyhalde
+	5 Snowbound Serenity
+	5 Where the Wind Begins
+	5 Will Away
+	5 Maw of Slumbering Seeds
+	5 Whisper of Stillness
+	5 Evermarching Nyavki
+	5 Unbidden Patron
+	5 Loathsome Nuckelavee
+	5 Sootwinged Intruder
+	5 Wailing Songbeast
+	5 Solmhar's Measure
+	5 Sign in Grief
+	5 Wilt Like the Others
+	5 Devour
+	5 Pitywrought Whelp
+	5 Briarhoof Hearthtender
+	5 Spiteful Prankster
+	5 Troubling Mischief
+	5 Flamemane Skydancer
+	5 Scorch to Slag
+	5 Last Vows
+	5 Vespermaw
+	5 The Road Made Real
+	5 Rousing Call
+	5 Strayhorn Guide
+	5 Peltborn Shifter
+	5 Emptypetal Crone
+	5 Crushing Vodyanov
+	5 Ashhorn Reaper
+	5 Steward of Hollowood
+	5 Hope's Sprout
+	5 Horizon's Edge
+	5 Answer with Steel and Blood
+	5 Snowlit Reverie
+	5 Wreathrot Crossing
+	5 Hollowood Crossing
+	5 Ashwood Crossing
+	5 Singshore Crossing
+	5 Veilshroud Crossing
+	5 Hearthvale Crossing
+	5 Brightwane Crossing
+	5 Hagspire Crossing
+	5 Glimmerpeak Crossing
+	5 Altar to Those Unbroken
+	5 Mockery of Valor
+	5 Clutching Cottage
+	5 Effigy of the Craving
+	5 Helm of the Lost
+	5 Pendant of Good Harvests
+	5 Edge of Stilled Resolve
+	5 Stiltwalker Husk
+	5 Threadcharmer's Boots
+	5 Pulse of the Hollowood
+	5 Snezvalir Songshaper
+	5 Call of the Hanging Bough
+	5 Wax and Woe
+	5 Pale Visage
+	5 Boon of Feathers and Fate
+	5 Weeping Cikavac
+	5 Rekindling Affection
+	5 Slabtooth Ambusher
+	5 Unintended Transit
+	5 Errant Krivolak
+	5 Rend to Nothing
+	5 Winter's Rebuke
+	5 Wayward Elder
+	5 Prudent Grovewarden
+	5 Pledge of Blooms
+	5 Gracesower Satyr
+	5 Hollow Revelry
+	5 Lockstock Vakhter
+	5 Plea Beneath the Surface
+	5 Reckoner of the Bend
+	5 Lifebinder's Bough
+	5 Cast to Slumber
+	5 Veilbound Nocnitsa
+	5 Cornered Tusker
+	5 Tidy Blessing
+	5 Dance of the Ovinnik
+	5 Mourning Current
+	5 Pactstitcher
+	5 Frantic Bukavac
+	5 Evercareful Dvorovoi
+	5 Sanctum of the Stilled Bloom
+	5 Mirepath Crossing
+	5 Field of Ruin
+	5 Standard of the Risen Blade
+	5 Confessor's Thorn
+	5 Bitterguard Blade
+	5 Bundle of Borrowed Charms
+	5 Wreath of the Willing Bloom
+	5 Reforged Vakhter
+	5 Fractal Archivist
+	5 Ivrek Scrivener
+	5 Edgeborne Stalwart
+	5 Crystalfang Keeper
+	5 Herbalist of Kroslav Bend
+	5 Burden of the Crown
+	5 Gift of Hollow Life
+	5 Farewell in Steel
+	5 Fall of the Golden Stag
+[common(10)]
+	5 Griefbough Witness
+	5 Mavka of Forgotten Groves
+	5 Tuckered-Out Domovoi
+	5 Voice of the Rimed Path
+	5 Dawnforged Alkonost
+	5 Listless Parched
+	5 Snezvalir Initiate
+	5 Whitehoof Ascendant
+	5 Twilight Warden
+	5 Seraph of Stilled Grace
+	5 Sealing Blade
+	5 Sheltered by the Light
+	5 Sunlit Execution
+	5 Silentstep Runner
+	5 Undertow Vodnik
+	5 Herald of the First Frost
+	5 Scrapswarm Pixies
+	5 Murkmire Wretch
+	5 Warden of the Rimed Oath
+	5 Direcall Siren
+	5 Aspid of the Mires
+	5 Diffuse
+	5 Gift of Inspiration
+	5 Prepare the Path
+	5 Riverborn Hex
+	5 Dance the Night Away
+	5 Slumber in Ice
+	5 Witch of the Mirepaths
+	5 Hollowstep Adept
+	5 Regretful Scion
+	5 Mossborne Grotesque
+	5 Thornroot Maiden
+	5 Duskwing Harbinger
+	5 Ghastly Bukavac
+	5 Disciple of Dried Blood
+	5 Shepherd of Remembrance
+	5 Bargain of the Drowned
+	5 Doomed to Blossom
+	5 Never to Return
+	5 Wander Too Far
+	5 Charmbinder Artisan
+	5 Kindle the Mischief
+	5 Velkora Marshal
+	5 Snickering Biesling
+	5 Acolyte of Braided Crimson
+	5 Resolute Vakhter
+	5 Hearth-Gut Behemoth
+	5 Encroaching Embers
+	5 Searing Thirst
+	5 Faceless Watcher
+	5 Vakhter's Edge
+	5 Wreck and Wield
+	5 Kindling of Traveled Pasts
+	5 Ashen Reckoning
+	5 Channeler of the Aurora
+	5 Murmurs in the Thicket
+	5 Driblik Gang
+	5 Blade of the Vale
+	5 Sight-Bound Martyr
+	5 Pathcleaver Vakhter
+	5 Witch's Spine
+	5 Briarhoof Guardian
+	5 Vesselbound Maw
+	5 Strike True
+	5 So Easily Broken
+	5 Ward of the Watchful
+	5 Whisperfoot Skitterer
+	5 Thought Harvest
+	5 Briarhoof Remnant
+	5 Stillmouth Wretch
+	5 Grandmother's Maw
+	5 Wayfarer's Map
+	5 Pilfer
+	5 Frostveil Crossroads
+	5 Unyielding Witness
+	5 Vigil of Those Lost
+	5 Quietward Stones
+	5 Woundlace Doll
+	5 Betrayer's Effigy
+	5 Copper-Blooded Warden
+	5 Cold Rebuttal
+	5 Greedwrought Scourge
+	5 Threadsnare Hag
+	5 Mercy's Burden
+	5 Concord of Ashes
