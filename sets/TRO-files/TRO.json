@@ -1,10 +1,11 @@
 ﻿{
     "name": "Trovsko",
     "formats": "Zangy",
-    "trimmed": "n",
     "image_type": "png",
-    "draft_structure": "play booster",
+    "draft_structure": "draft booster",
     "unpreviewed": "card back",
+    "image_name": "position",
+    "v_mana": "",
     "cards": [
         {
             "card_name": "Griefbough Witness",
@@ -22,6 +23,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Asya Yordanova",
+            "alias": "",
+            "position": "0",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -40,7 +44,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dat Phan",
-            "notes": "!replacetoken Hunt for a Card;1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "1",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Tuckered-Out Domovoi",
@@ -58,6 +65,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Serge Tsvelykh",
+            "alias": "",
+            "position": "2",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -76,6 +86,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Edward Cheekokseang",
+            "alias": "",
+            "position": "3",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -94,6 +107,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Anatoly Muschenko",
+            "alias": "",
+            "position": "4",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -112,6 +128,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Anatoliy Ovseenko",
+            "alias": "",
+            "position": "5",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -130,6 +149,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Syrena Li",
+            "alias": "",
+            "position": "6",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -148,6 +170,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Amanda Wright",
+            "alias": "",
+            "position": "7",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -166,6 +191,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "oberon_blyat",
+            "alias": "",
+            "position": "8",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -184,6 +212,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Xt Art",
+            "alias": "",
+            "position": "9",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -202,6 +233,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Rafael Monk",
+            "alias": "",
+            "position": "10",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -220,6 +254,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Jeon Tae Kang",
+            "alias": "",
+            "position": "11",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -238,6 +275,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Nikita Koblov",
+            "alias": "",
+            "position": "12",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -256,6 +296,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Bramasta Aji",
+            "alias": "",
+            "position": "13",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -274,6 +317,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Natalie Lesiv",
+            "alias": "",
+            "position": "14",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -292,7 +338,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Rodrigo Clark",
-            "notes": "!replacetoken Hunt for a Card;1\n!tag Trovsko\n!tag Snezvalir"
+            "alias": "",
+            "position": "15",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Snezvalir"
         },
         {
             "card_name": "Scrapswarm Pixies",
@@ -310,6 +359,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Alexandr Elichev",
+            "alias": "",
+            "position": "16",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -328,7 +380,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Elena Churkina",
-            "notes": "!replacetoken Hunt for a Card;1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "17",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Warden of the Rimed Oath",
@@ -346,6 +401,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Gon Zunyashi",
+            "alias": "",
+            "position": "18",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -364,6 +422,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Keri Ruediger",
+            "alias": "",
+            "position": "19",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -382,6 +443,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Remi Jacquot",
+            "alias": "",
+            "position": "20",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -400,6 +464,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Alex Petruk",
+            "alias": "",
+            "position": "21",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -418,6 +485,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Valeriy Vegera",
+            "alias": "",
+            "position": "22",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -436,6 +506,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Leo Lasfargue",
+            "alias": "",
+            "position": "23",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -454,6 +527,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Nadine Schakel",
+            "alias": "",
+            "position": "24",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -472,6 +548,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Vladislav Pantic",
+            "alias": "",
+            "position": "25",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -490,7 +569,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Reka Boros",
-            "notes": "!replacetoken Hunt for a Card;1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "26",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Witch of the Mirepaths",
@@ -508,6 +590,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dani McCole",
+            "alias": "",
+            "position": "27",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -526,6 +611,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Maria Arteta",
+            "alias": "",
+            "position": "28",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -544,6 +632,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Filip Storch",
+            "alias": "",
+            "position": "29",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -562,7 +653,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Maxime Minard",
-            "notes": "!replacetoken Hunt for a Card;1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "30",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Thornroot Maiden",
@@ -580,6 +674,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Asya Yordanova",
+            "alias": "",
+            "position": "31",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -598,6 +695,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "T W Sader",
+            "alias": "",
+            "position": "32",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -616,6 +716,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Veronika Kozlova",
+            "alias": "",
+            "position": "33",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -634,6 +737,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Daria Egorova",
+            "alias": "",
+            "position": "34",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -652,7 +758,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Peter Mohrbacher",
-            "notes": "!replacetoken Hunt for a Card 1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "35",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Bargain of the Drowned",
@@ -670,6 +779,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Thiago Lehmann",
+            "alias": "",
+            "position": "36",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\n!tag Kreshtan\n!tag Yaoi"
         },
         {
@@ -688,6 +800,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Adri\u00e1n Ibarra Lugo",
+            "alias": "",
+            "position": "37",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -706,6 +821,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Serge Tsvelykh",
+            "alias": "",
+            "position": "38",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -724,6 +842,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Pedro H Cardoso",
+            "alias": "",
+            "position": "39",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -742,6 +863,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Mykola Prystavskyi",
+            "alias": "",
+            "position": "40",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -760,6 +884,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Vlada Yakavenka",
+            "alias": "",
+            "position": "41",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -778,6 +905,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Daria Egorova",
+            "alias": "",
+            "position": "42",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -796,7 +926,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Olga Tereshenko",
-            "notes": "!replacetoken Hunt for a Card;1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "43",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Snickering Biesling",
@@ -814,6 +947,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Serge Tsvelykh",
+            "alias": "",
+            "position": "44",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -832,6 +968,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Serge Tsvelykh",
+            "alias": "",
+            "position": "45",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -850,6 +989,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Paulina Lonczak",
+            "alias": "",
+            "position": "46",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -868,6 +1010,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Humble Squid Creatives",
+            "alias": "",
+            "position": "47",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -886,6 +1031,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Porfirio Urena",
+            "alias": "",
+            "position": "48",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -904,6 +1052,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Beidak",
+            "alias": "",
+            "position": "49",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -922,6 +1073,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Olivia Rea",
+            "alias": "",
+            "position": "50",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -940,6 +1094,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Jakub Jagoda",
+            "alias": "",
+            "position": "51",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -958,6 +1115,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Axel Le Fur",
+            "alias": "",
+            "position": "52",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -976,6 +1136,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Diana Khomutina",
+            "alias": "",
+            "position": "53",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -994,6 +1157,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Tj Foo",
+            "alias": "",
+            "position": "54",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1012,6 +1178,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Owen O",
+            "alias": "",
+            "position": "55",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -1030,7 +1199,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Alena Kuzminykh",
-            "notes": "!replacetoken Ouphe;2Hunt for a card;1;\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "56",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Driblik Gang",
@@ -1048,6 +1220,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Sandra Duchiewicz",
+            "alias": "",
+            "position": "57",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1066,6 +1241,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Anatoliy OvseenkoBeidak",
+            "alias": "",
+            "position": "58",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1084,6 +1262,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Domenico Cava",
+            "alias": "",
+            "position": "59",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1102,6 +1283,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Alek Wolis",
+            "alias": "",
+            "position": "60",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1120,7 +1304,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Asya Yordanova",
-            "notes": "!replacetoken Hunt for a Card;1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "61",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Briarhoof Guardian",
@@ -1138,6 +1325,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Adri\u00e1n Ibarra Lugo",
+            "alias": "",
+            "position": "62",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1156,6 +1346,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Silvia Pasqualetto",
+            "alias": "",
+            "position": "63",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1174,6 +1367,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Sebastian Szmyd",
+            "alias": "",
+            "position": "64",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1192,6 +1388,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Filip Storch",
+            "alias": "",
+            "position": "65",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1210,6 +1409,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Amelia Poltoracka",
+            "alias": "",
+            "position": "66",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1228,7 +1430,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Valeriy Vegera",
-            "notes": "!replacetoken Hunt for Whisperfoot Skitterers;1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "67",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Thought Harvest",
@@ -1246,6 +1451,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Alexis Susani",
+            "alias": "",
+            "position": "68",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1264,6 +1472,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Margaux Valonia",
+            "alias": "",
+            "position": "69",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1282,7 +1493,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Brian Adriel",
-            "notes": "!replacetoken Hunt for a Card;1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "70",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Grandmother's Maw",
@@ -1300,6 +1514,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Grey Evil Owl",
+            "alias": "",
+            "position": "71",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1318,6 +1535,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Amelia Poltoracka",
+            "alias": "",
+            "position": "72",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1336,6 +1556,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Jannaphia",
+            "alias": "",
+            "position": "73",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1354,6 +1577,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Alexey Kruglov",
+            "alias": "",
+            "position": "74",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\n!tag Snezvalir"
         },
         {
@@ -1372,6 +1598,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Han Flores",
+            "alias": "",
+            "position": "75",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -1390,6 +1619,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Alexandr Leskinen",
+            "alias": "",
+            "position": "76",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1408,6 +1640,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "MagoArt Annan Ma",
+            "alias": "",
+            "position": "77",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -1426,6 +1661,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dariusz Kieliszek",
+            "alias": "",
+            "position": "78",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1444,6 +1682,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Filip Storch",
+            "alias": "",
+            "position": "79",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1462,6 +1703,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Jose Munoz",
+            "alias": "",
+            "position": "80",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1480,6 +1724,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Sebastian Szmyd",
+            "alias": "",
+            "position": "81",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1498,6 +1745,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Zylverxx",
+            "alias": "",
+            "position": "82",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Planeswalker\n!tag Kateryna\nStory Spotlight 07"
         },
         {
@@ -1516,6 +1766,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Olga Samets",
+            "alias": "",
+            "position": "83",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1534,6 +1787,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "save.obscure",
+            "alias": "",
+            "position": "84",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -1552,6 +1808,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Exia",
+            "alias": "",
+            "position": "85",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -1570,6 +1829,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Thai Thanh",
+            "alias": "",
+            "position": "86",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -1588,6 +1850,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Amira the Drake",
+            "alias": "",
+            "position": "87",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -1606,6 +1871,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Sonya Bondareva",
+            "alias": "",
+            "position": "88",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -1624,7 +1892,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Margo Zakharova",
-            "notes": "!replacetoken Hunt for Cards;1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "89",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Will Away",
@@ -1642,6 +1913,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Godfrey Escota",
+            "alias": "",
+            "position": "90",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\nStory Spotlight 05"
         },
         {
@@ -1660,6 +1934,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Julia Zhuravleva",
+            "alias": "",
+            "position": "91",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1678,6 +1955,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Amira the Drake",
+            "alias": "",
+            "position": "92",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1696,7 +1976,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Max Elmberg",
-            "notes": "!replacetoken Hunt for Returns;1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "93",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Unbidden Patron",
@@ -1714,6 +1997,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Amira the Drake",
+            "alias": "",
+            "position": "94",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1732,6 +2018,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Taissia Abdoulina",
+            "alias": "",
+            "position": "95",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1750,6 +2039,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dmitry Dalnev",
+            "alias": "",
+            "position": "96",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -1768,6 +2060,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Kelvvv__",
+            "alias": "",
+            "position": "97",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1786,6 +2081,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Amira the Drake",
+            "alias": "",
+            "position": "98",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1804,6 +2102,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "oberon_blyat",
+            "alias": "",
+            "position": "99",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\n!tag CanonReprint"
         },
         {
@@ -1822,6 +2123,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Olivia Rea",
+            "alias": "",
+            "position": "100",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1840,6 +2144,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Caelan Stokkermans",
+            "alias": "",
+            "position": "101",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1858,6 +2165,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Quintin Gleim",
+            "alias": "",
+            "position": "102",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1876,6 +2186,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Laura Escoin",
+            "alias": "",
+            "position": "103",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1894,6 +2207,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Joni Aikio",
+            "alias": "",
+            "position": "104",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1912,6 +2228,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Karolina Nakazato",
+            "alias": "",
+            "position": "105",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\n!tag CanonReprint"
         },
         {
@@ -1930,7 +2249,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Alex Cristi",
-            "notes": "!replacetoken Ouphe;2\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "106",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Flamemane Skydancer",
@@ -1948,6 +2270,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Alaiorax",
+            "alias": "",
+            "position": "107",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1966,6 +2291,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Lydia Dimitriou",
+            "alias": "",
+            "position": "108",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -1984,6 +2312,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Lumen and Oleksandra Tkachenko",
+            "alias": "",
+            "position": "109",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\n!tag Yaoi\n!tag Kreshtan\n!tag Thomir"
         },
         {
@@ -2002,7 +2333,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "David Szabo",
-            "notes": "!replacetoken Hunt for Echoes;1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "110",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "The Road Made Real",
@@ -2020,6 +2354,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Janna Sophia",
+            "alias": "",
+            "position": "111",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -2038,6 +2375,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Diana Khomutina",
+            "alias": "",
+            "position": "112",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -2056,6 +2396,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Tom Vernon",
+            "alias": "",
+            "position": "113",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -2074,6 +2417,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dario Jelusic",
+            "alias": "",
+            "position": "114",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -2092,7 +2438,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Oksana Kerro",
-            "notes": "!replacetoken Ouphe;1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "115",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Crushing Vodyanov",
@@ -2110,7 +2459,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Marcos Villarroel",
-            "notes": "!replacetoken Hunt for Returns1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "116",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Ashhorn Reaper",
@@ -2128,7 +2480,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Sergey Demidov",
-            "notes": "!replacetoken Hunt for Elemental;1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "117",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Steward of Hollowood",
@@ -2146,6 +2501,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Anastasiya Capibasya",
+            "alias": "",
+            "position": "118",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -2164,6 +2522,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Konhis",
+            "alias": "",
+            "position": "119",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -2182,6 +2543,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Hero Granada",
+            "alias": "",
+            "position": "120",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -2200,6 +2564,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Ton Muntean",
+            "alias": "",
+            "position": "121",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -2218,6 +2585,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Caellaigh Art",
+            "alias": "",
+            "position": "122",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -2236,6 +2606,8 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Filip Storch",
+            "alias": "",
+            "position": "123",
             "card_name2": "Wreathrot Husk",
             "color2": "BR",
             "type2": "Creature \u2014 Spirit",
@@ -2246,6 +2618,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Guillaume Lepage",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -2264,6 +2639,8 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Vlada Yakavenka",
+            "alias": "",
+            "position": "124",
             "card_name2": "Hollowood Matron",
             "color2": "RG",
             "type2": "Creature \u2014 Dryad",
@@ -2274,6 +2651,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Dian Huynh",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -2292,6 +2672,8 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Arnaerr",
+            "alias": "",
+            "position": "125",
             "card_name2": "Ashwood Beckoner",
             "color2": "BG",
             "type2": "Creature \u2014 Faerie Satyr",
@@ -2302,6 +2684,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Lionel Prats",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -2320,6 +2705,8 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dario Jelusic",
+            "alias": "",
+            "position": "126",
             "card_name2": "Singshore Flock",
             "color2": "UG",
             "type2": "Creature \u2014 Griffin",
@@ -2330,6 +2717,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Khalia Art",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -2348,6 +2738,8 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Arnaerr",
+            "alias": "",
+            "position": "127",
             "card_name2": "Veilshroud Harrower",
             "color2": "WU",
             "type2": "Creature \u2014 Faerie",
@@ -2358,6 +2750,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Roman Groph",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -2376,6 +2771,8 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Philipp A Urlich",
+            "alias": "",
+            "position": "128",
             "card_name2": "Hearthvale Butcher",
             "color2": "UB",
             "type2": "Creature \u2014 Elf Assassin",
@@ -2386,6 +2783,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Pedro Silva",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Snezvalir"
         },
         {
@@ -2404,6 +2804,8 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Arnaerr",
+            "alias": "",
+            "position": "129",
             "card_name2": "Brightwane Sentinel",
             "color2": "WG",
             "type2": "Creature \u2014 Dragon Wolf",
@@ -2414,6 +2816,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Amira the Drake",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -2432,6 +2837,8 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Kent Davis",
+            "alias": "",
+            "position": "130",
             "card_name2": "Hagspire Strider",
             "color2": "WR",
             "type2": "Artifact Creature \u2014 Construct",
@@ -2442,6 +2849,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Breuv",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -2460,6 +2870,8 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Arnaerr",
+            "alias": "",
+            "position": "131",
             "card_name2": "Glimmerpeak Hatchling",
             "color2": "UR",
             "type2": "Creature \u2014 Drake",
@@ -2470,6 +2882,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Maria Roklain",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -2488,6 +2903,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dario Jelusic",
+            "alias": "",
+            "position": "132",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -2506,6 +2924,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Noah Thatcher",
+            "alias": "",
+            "position": "133",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -2524,6 +2945,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Denis Zhbankov",
+            "alias": "",
+            "position": "134",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -2542,6 +2966,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Grzegorz Przybys",
+            "alias": "",
+            "position": "135",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -2560,6 +2987,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Juliane Hernandes Barone (Anebarone)",
+            "alias": "",
+            "position": "136",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -2578,6 +3008,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Alexis Susani",
+            "alias": "",
+            "position": "137",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -2596,6 +3029,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Augusto Quirino",
+            "alias": "",
+            "position": "138",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -2614,6 +3050,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Artyom Yaschenko",
+            "alias": "",
+            "position": "139",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -2632,6 +3071,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Emilio Rodriguez",
+            "alias": "",
+            "position": "140",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -2650,6 +3092,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Jonas Lopez Moreno",
+            "alias": "",
+            "position": "141",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -2668,6 +3113,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Blex",
+            "alias": "",
+            "position": "142",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\nGeneric"
         },
         {
@@ -2686,6 +3134,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Mathieu Seveno",
+            "alias": "",
+            "position": "143",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\nArchetype"
         },
         {
@@ -2704,6 +3155,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Nia Kovalevski",
+            "alias": "",
+            "position": "144",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\nGeneric"
         },
         {
@@ -2722,6 +3176,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "SOvKa",
+            "alias": "",
+            "position": "145",
+            "rotated": false,
             "notes": "!tag Myloyar\nGeneric"
         },
         {
@@ -2740,6 +3197,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Taissia Abdoullina",
+            "alias": "",
+            "position": "146",
+            "rotated": false,
             "notes": "Generic\n!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -2758,6 +3218,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Reykat",
+            "alias": "",
+            "position": "147",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\nGeneric"
         },
         {
@@ -2776,6 +3239,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Eva Sola",
+            "alias": "",
+            "position": "148",
+            "rotated": false,
             "notes": "Generic\n!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -2794,6 +3260,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Kyle Herring",
+            "alias": "",
+            "position": "149",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\nArchetype"
         },
         {
@@ -2812,6 +3281,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Hibarry",
+            "alias": "",
+            "position": "150",
+            "rotated": false,
             "notes": "Story Spotlight 01\n!tag Trovsko\n!tag TROStory\n!tag Myloyar\n!tag Ajani\nArchetype"
         },
         {
@@ -2830,6 +3302,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Israel Holtzhausen",
+            "alias": "",
+            "position": "151",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\nArchetype"
         },
         {
@@ -2848,6 +3323,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Lbobo",
+            "alias": "",
+            "position": "152",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\nGeneric\n!tag Virelen"
         },
         {
@@ -2866,6 +3344,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Septimius Ferdian",
+            "alias": "",
+            "position": "153",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\nArchetype\nWinter"
         },
         {
@@ -2884,6 +3365,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Christopher Jin Baron",
+            "alias": "",
+            "position": "154",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\nArchetype"
         },
         {
@@ -2902,7 +3386,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Krzystof Porchowski Jr.",
-            "notes": "!replacetoken Hunt for a Card;1\n!tag Trovsko\n!tag Myloyar\nGeneric"
+            "alias": "",
+            "position": "155",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Myloyar\nGeneric"
         },
         {
             "card_name": "Pledge of Blooms",
@@ -2920,7 +3407,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Lumen (edited)",
-            "notes": "!replacetoken Ouphe;1\n!tag Trovsko\n!tag Myloyar\n!tag Kreshtan\n!tag Thomir\n!tag Yaoi\nArchetype"
+            "alias": "",
+            "position": "156",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Myloyar\n!tag Kreshtan\n!tag Thomir\n!tag Yaoi\nArchetype"
         },
         {
             "card_name": "Gracesower Satyr",
@@ -2938,6 +3428,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Jose Munoz",
+            "alias": "",
+            "position": "157",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\nArchetype"
         },
         {
@@ -2956,6 +3449,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Anastasiya Capibasya",
+            "alias": "",
+            "position": "158",
+            "rotated": false,
             "notes": "Archetype\n!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -2974,6 +3470,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Anton Ananin",
+            "alias": "",
+            "position": "159",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\nArchetype"
         },
         {
@@ -2992,6 +3491,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Sara Forlenza",
+            "alias": "",
+            "position": "160",
+            "rotated": false,
             "notes": "Generic\n!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -3010,6 +3512,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Olga Shvetskaya",
+            "alias": "",
+            "position": "161",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\nGeneric"
         },
         {
@@ -3028,7 +3533,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Tatiana Krstic",
-            "notes": "!replacetoken Hunt for Returns;1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "162",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Echo of the Oathbound",
@@ -3046,6 +3554,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dominik Mayer",
+            "alias": "",
+            "position": "163",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3064,6 +3575,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Paizo Publishing (Dark Archive Artists)",
+            "alias": "",
+            "position": "164",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\n!tag Planeswalker\n!tag Kateryna"
         },
         {
@@ -3082,6 +3596,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Frank Freire",
+            "alias": "",
+            "position": "165",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3100,6 +3617,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Riot Games",
+            "alias": "",
+            "position": "166",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -3118,6 +3638,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Ann Vu",
+            "alias": "",
+            "position": "167",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\n!tag Snezvalir"
         },
         {
@@ -3136,6 +3659,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Julie Dillon",
+            "alias": "",
+            "position": "168",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3154,6 +3680,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Evgeny Loginov",
+            "alias": "",
+            "position": "169",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -3172,6 +3701,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Erica Rossi",
+            "alias": "",
+            "position": "170",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3190,7 +3722,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Lucas Graciano",
-            "notes": "!replacetoken Hunt for a Dragon;1\n!tag Trovsko\nStory Spotlight 04\n!tag Myloyar\n!tag Planeswalker\n!tag Kateryna"
+            "alias": "",
+            "position": "171",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\nStory Spotlight 04\n!tag Myloyar\n!tag Planeswalker\n!tag Kateryna"
         },
         {
             "card_name": "Trinket Seeker",
@@ -3208,6 +3743,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Grey Evil Owl",
+            "alias": "",
+            "position": "172",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3226,6 +3764,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Madeleine Fjall",
+            "alias": "",
+            "position": "173",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\n!tag Yaoi"
         },
         {
@@ -3244,6 +3785,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Mpkpc",
+            "alias": "",
+            "position": "174",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -3262,6 +3806,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dan Watson",
+            "alias": "",
+            "position": "175",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3280,6 +3827,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Jesse Heinil\u00e4 (Edited by Grapple)",
+            "alias": "",
+            "position": "176",
+            "rotated": false,
             "notes": "Story Spotlight 01\n!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -3298,6 +3848,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Victor Ferraz",
+            "alias": "",
+            "position": "177",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3316,6 +3869,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Zana Arnautovic",
+            "alias": "",
+            "position": "178",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3334,6 +3890,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Akeiron",
+            "alias": "",
+            "position": "179",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -3352,6 +3911,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Serge Tsvelykh (Edited by Grapple)",
+            "alias": "",
+            "position": "180",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3370,6 +3932,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dat Phan",
+            "alias": "",
+            "position": "181",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3388,6 +3953,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "joseluisvaladezbaes",
+            "alias": "",
+            "position": "182",
+            "rotated": false,
             "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -3406,6 +3974,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Gon (Humble Squid Creatives)",
+            "alias": "",
+            "position": "183",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -3424,6 +3995,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Coliandre",
+            "alias": "",
+            "position": "184",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3442,6 +4016,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Humble Squid Creatives",
+            "alias": "",
+            "position": "185",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3460,6 +4037,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "FrostLlamzon",
+            "alias": "",
+            "position": "186",
+            "rotated": false,
             "notes": "Story Spotlight 04\n!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -3478,6 +4058,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Aaron Miller",
+            "alias": "",
+            "position": "187",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3496,6 +4079,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Pinguinolog",
+            "alias": "",
+            "position": "188",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3514,6 +4100,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Matteo Meloni",
+            "alias": "",
+            "position": "189",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -3532,7 +4121,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Sebastian Szmyd",
-            "notes": "!replacetoken Hunt for Elemental;3\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "190",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Instinctive Bond",
@@ -3550,6 +4142,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Lynncore (Edited by Grapple)",
+            "alias": "",
+            "position": "191",
+            "rotated": false,
             "notes": "Story Spotlight 02\n!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -3568,6 +4163,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Syd Mills",
+            "alias": "",
+            "position": "192",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3586,7 +4184,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Noe Despreaux",
-            "notes": "!tag Myloyar\n!tag Trovsko\nStory Spotlight 06"
+            "alias": "",
+            "position": "193",
+            "rotated": false,
+            "notes": "!tag Myloyar\n!tag Trovsko\nStory Spotlight 06\n!tag Ajani"
         },
         {
             "card_name": "First Step into Snezvalir",
@@ -3604,6 +4205,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Aw Anqi",
+            "alias": "",
+            "position": "194",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -3622,6 +4226,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Lekso Tiger",
+            "alias": "",
+            "position": "195",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3640,6 +4247,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Serge Tsvelykh",
+            "alias": "",
+            "position": "196",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3658,6 +4268,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Maichol Quinto",
+            "alias": "",
+            "position": "197",
+            "rotated": false,
             "notes": "Story Spotlight 10\n!tag Trovsko\n!tag Myloyar\n!tag Planeswalker\n!tag Kateryna"
         },
         {
@@ -3676,6 +4289,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Revontulis",
+            "alias": "",
+            "position": "198",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -3694,6 +4310,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Sebastian Szmyd",
+            "alias": "",
+            "position": "199",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3712,6 +4331,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Adam Barker",
+            "alias": "",
+            "position": "200",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -3730,6 +4352,8 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Pallax Studio",
+            "alias": "",
+            "position": "201",
             "card_name2": "Virelen of Severed Malice",
             "color2": "B",
             "type2": "Legendary Creature \u2014 Demon",
@@ -3740,7 +4364,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "fan_1847116996",
-            "notes": "!tag Trovsko!\nreplacetoken Hunt for Release;4\n!tag Snezvalir\n!tag Virelen\n\u201cFor ages I dreamed of your agony. Now, I finally wake.\u201d"
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
+            "notes": "!tag Trovsko!\n!tag Snezvalir\n!tag Virelen\n\u201cFor ages I dreamed of your agony. Now, I finally wake.\u201d"
         },
         {
             "card_name": "Veyhalde Emberhold",
@@ -3758,7 +4385,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Brian Adriel",
-            "notes": "!replacetoken Hunt for a Card;1\n!tag Trovsko\n!tag Snezvalir"
+            "alias": "",
+            "position": "202",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Snezvalir"
         },
         {
             "card_name": "Brute of Kroslav Heights",
@@ -3776,6 +4406,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dario Jelusic",
+            "alias": "",
+            "position": "203",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3794,6 +4427,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dario Jelusic",
+            "alias": "",
+            "position": "204",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3812,6 +4448,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "aixyu",
+            "alias": "",
+            "position": "205",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\nArchetype"
         },
         {
@@ -3830,6 +4469,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Ulfr Larynsson",
+            "alias": "",
+            "position": "206",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\n!tag yaoi\nGeneric"
         },
         {
@@ -3848,6 +4490,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dario Jelusic",
+            "alias": "",
+            "position": "207",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\ngenerically good"
         },
         {
@@ -3866,6 +4511,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Laura Galiano",
+            "alias": "",
+            "position": "208",
+            "rotated": false,
             "notes": "Archetype Effect\n!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -3884,6 +4532,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Rudy Siswanto",
+            "alias": "",
+            "position": "209",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\nGenerically good"
         },
         {
@@ -3902,6 +4553,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Domenico Cava",
+            "alias": "",
+            "position": "210",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\ngeneric"
         },
         {
@@ -3920,7 +4574,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Raironu",
-            "notes": "!tag Myloyar\n!tag Trovsko\nStory Spotlight 03\nArchetype"
+            "alias": "",
+            "position": "211",
+            "rotated": false,
+            "notes": "!tag Myloyar\n!tag Trovsko\n!tag Ajani\nStory Spotlight 03\nArchetype"
         },
         {
             "card_name": "Siphoned Radiance",
@@ -3938,6 +4595,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "ExpelledMystery",
+            "alias": "",
+            "position": "212",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\ngeneric"
         },
         {
@@ -3956,6 +4616,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Quanyi Dong",
+            "alias": "",
+            "position": "213",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\ngeneric"
         },
         {
@@ -3974,6 +4637,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Nikulina-Helena",
+            "alias": "",
+            "position": "214",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -3992,6 +4658,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Lumen",
+            "alias": "",
+            "position": "215",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\n!tag Yaoi\n!tag Kreshtan\n!tag Thomir\narchetype"
         },
         {
@@ -4010,6 +4679,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Riot Games",
+            "alias": "",
+            "position": "216",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\nGenerically Good"
         },
         {
@@ -4028,6 +4700,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Eric Xie",
+            "alias": "",
+            "position": "217",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\nArchetype"
         },
         {
@@ -4046,7 +4721,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Giovanni Fim",
-            "notes": "!tag Myloyar\n!tag Trovsko\n!tag Planeswalker\n!tag Kateryna\nStory Spotlight 09\narchetype"
+            "alias": "",
+            "position": "218",
+            "rotated": false,
+            "notes": "!tag Myloyar\n!tag Trovsko\n!tag Planeswalker\n!tag Kateryna\n!tag Ajani\nStory Spotlight 09\narchetype"
         },
         {
             "card_name": "Boilmaw Lomie",
@@ -4064,6 +4742,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Ra\u00fal Jim\u00e9nez",
+            "alias": "",
+            "position": "219",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\nGenerically Good"
         },
         {
@@ -4082,6 +4763,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Rod Mendez",
+            "alias": "",
+            "position": "220",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\nArchetype"
         },
         {
@@ -4100,6 +4784,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Bettyelgyn",
+            "alias": "",
+            "position": "221",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\narchetype"
         },
         {
@@ -4118,6 +4805,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Chance Miller",
+            "alias": "",
+            "position": "222",
+            "rotated": false,
             "notes": "Story Spotlight 08\n!tag Trovsko\n!tag TROStory\n!tag Myloyar\nGeneric?"
         },
         {
@@ -4136,7 +4826,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dario Jelusic",
-            "notes": "!replacetoken Hunt for Echoes;1\n!tag Trovsko\n!tag Myloyar\narchetype"
+            "alias": "",
+            "position": "223",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Myloyar\narchetype"
         },
         {
             "card_name": "Hero of Earned Steel",
@@ -4154,6 +4847,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Anastasiia Ivanova",
+            "alias": "",
+            "position": "224",
+            "rotated": false,
             "notes": "archetype\n!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4172,6 +4868,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Namba",
+            "alias": "",
+            "position": "225",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -4190,7 +4889,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Bella Bergolts",
-            "notes": "!replacetoken Hunt for a Card;1\n!tag Trovsko\n!tag Myloyar\n!tag Snezvalir\n!exportname Sisters of Rain and River"
+            "alias": "",
+            "position": "226",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Myloyar\n!tag Snezvalir"
         },
         {
             "card_name": "Kateryna, Weaver of Winter",
@@ -4200,7 +4902,7 @@
             "number": 256,
             "color_identity": "WUB",
             "cost": "{2}{W}{U}{B}",
-            "rules_text": "",
+            "rules_text": "When you cast this spell, create Yaromir, a legendary 3/2 white Fox creature token with \u201cNoncreature spells you cast cost {1} less to cast.\u201d\n[+1]: Whenever you cast an artifact or enchantment spell this turn, draw a card.\n[-3]: Exile target nonland permanent.\n[-6]: Each opponent loses life equal to the number of artifacts and/or enchantments you control.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "When you cast this spell, create Yaromir, a legendary 3/2 white Fox creature token with \u201cNoncreature spells you cast cost {1} less to cast.\u201d\n[+1]: Whenever you cast an artifact or enchantment spell this turn, draw a card.\n[-3]: Exile target nonland permanent.\n[-6]: Each opponent loses life equal to the number of artifacts and/or enchantments you control.",
@@ -4208,6 +4910,9 @@
             "set": "TRO",
             "loyalty": "4",
             "artist": "lie setiawan",
+            "alias": "",
+            "position": "227",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\n!tag Kateryna\n!tag Planeswalker"
         },
         {
@@ -4226,6 +4931,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Ana Fedina",
+            "alias": "",
+            "position": "228",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4244,6 +4952,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Anastasia Bulgakova",
+            "alias": "",
+            "position": "229",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Snezvalir"
         },
         {
@@ -4262,6 +4973,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Azra Wheeler",
+            "alias": "",
+            "position": "230",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4272,7 +4986,7 @@
             "number": 251,
             "color_identity": "WRG",
             "cost": "{R}{G}{W}",
-            "rules_text": "",
+            "rules_text": "[+1]: Create a 1/1 white Cat creature token with lifelink.\n[-1]: Exile target creature. Return it to the battlefield at the beginning of its owner's next combat step. When you do, you may have it get +2/+2 and gain lifelink and haste until end of turn.\n[-4]: Ajani, Forever Adrift deals damage to any target equal to the amount of life you gained this turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Create a 1/1 white Cat creature token with lifelink.\n[-1]: Exile target creature. Return it to the battlefield at the beginning of its owner's next combat step. When you do, you may have it get +2/+2 and gain lifelink and haste until end of turn.\n[-4]: Ajani, Forever Adrift deals damage to any target equal to the amount of life you gained this turn.",
@@ -4280,6 +4994,9 @@
             "set": "TRO",
             "loyalty": "3",
             "artist": "Mickael Bois",
+            "alias": "",
+            "position": "231",
+            "rotated": false,
             "notes": "!tag Ajani\n!tag Trovsko\n!tag Planeswalker"
         },
         {
@@ -4290,7 +5007,7 @@
             "number": 252,
             "color_identity": "UBG",
             "cost": "{1}{B}{G}{U}",
-            "rules_text": "",
+            "rules_text": "[+1]: Mill two cards, then return a card milled this way to your hand.\n[-3]: Distribute three -1/-1 counters among any number of target creatures.\n[0]: If there are ten or more creature cards in your graveyard, transform Ciar. You may activate another of his abilities this turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Mill two cards, then return a card milled this way to your hand.\n[-3]: Distribute three -1/-1 counters among any number of target creatures.\n[0]: If there are ten or more creature cards in your graveyard, transform Ciar. You may activate another of his abilities this turn.",
@@ -4298,16 +5015,21 @@
             "set": "TRO",
             "loyalty": "4",
             "artist": "Giraholmes",
+            "alias": "",
+            "position": "232",
             "card_name2": "The Overflowing Vessel",
             "color2": "UBG",
             "type2": "Legendary Planeswalker \u2014 Ciar",
             "cost2": "",
-            "rules_text2": "",
+            "rules_text2": "[+1]: Mill five cards, then return a card from your graveyard to your hand. \n[0]: Return target creature card from your graveyard to the battlefield with a finality counter on it. When you no longer control a Ciar planeswalker, sacrifice it.\n[-3]: Distribute five -1/-1 counters among any number of target creatures.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "[+1]: Mill five cards, then return a card from your graveyard to your hand. \n[0]: Return target creature card from your graveyard to the battlefield with a finality counter on it. When you no longer control a Ciar planeswalker, sacrifice it.\n[-3]: Distribute five -1/-1 counters among any number of target creatures.",
             "loyalty2": "",
             "artist2": "Irina Nordsol",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Ciar"
         },
         {
@@ -4326,6 +5048,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Sapphiringore",
+            "alias": "",
+            "position": "233",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4344,6 +5069,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "huekeeper",
+            "alias": "",
+            "position": "234",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\n!tag Kaelthar"
         },
         {
@@ -4362,6 +5090,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Denis Zhbankov",
+            "alias": "",
+            "position": "235",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -4380,6 +5111,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Frank Freire",
+            "alias": "",
+            "position": "236",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -4398,6 +5132,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Sergey Demidov",
+            "alias": "",
+            "position": "237",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\n!tag Virelen"
         },
         {
@@ -4416,6 +5153,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Laura Sava",
+            "alias": "",
+            "position": "238",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4434,6 +5174,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Rune Hrafnagaldur",
+            "alias": "",
+            "position": "239",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4452,6 +5195,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Alex Konstad",
+            "alias": "",
+            "position": "240",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4470,6 +5216,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dasha",
+            "alias": "",
+            "position": "241",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4488,6 +5237,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Alex Petruk",
+            "alias": "",
+            "position": "242",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -4506,6 +5258,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Yuri Chuchmay",
+            "alias": "",
+            "position": "243",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4524,6 +5279,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Earl Lan",
+            "alias": "",
+            "position": "244",
+            "rotated": false,
             "notes": "!tag Trovsko\n!exportname PlainsWinter\n!tag Snezvalir\nWinter"
         },
         {
@@ -4542,6 +5300,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Pochirika Kremenskova",
+            "alias": "",
+            "position": "245",
+            "rotated": false,
             "notes": "!tag Trovsko\n!exportname PlainsSummer\n!tag Myloyar"
         },
         {
@@ -4560,6 +5321,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Arnaerr Liurnia",
+            "alias": "",
+            "position": "246",
+            "rotated": false,
             "notes": "!tag Trovsko\n!exportname IslandWinter\n!tag SnezvalirWinter"
         },
         {
@@ -4578,6 +5342,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Max Suleimanov",
+            "alias": "",
+            "position": "247",
+            "rotated": false,
             "notes": "!tag Trovsko\n!exportname IslandSummer\n!tag Myloyar"
         },
         {
@@ -4596,6 +5363,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Yuyang Olabukoo",
+            "alias": "",
+            "position": "248",
+            "rotated": false,
             "notes": "!tag Trovsko\n!exportname SwampWinter\n!tag SnezvalirWinter"
         },
         {
@@ -4614,6 +5384,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Artem Demura",
+            "alias": "",
+            "position": "249",
+            "rotated": false,
             "notes": "!tag Trovsko\n!exportname SwampSummer\n!tag Myloyar"
         },
         {
@@ -4632,6 +5405,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Yongkun X",
+            "alias": "",
+            "position": "250",
+            "rotated": false,
             "notes": "!tag Trovsko\n!exportname MountainWinter\n!tag SnezvalirWinter"
         },
         {
@@ -4650,6 +5426,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Pawel Kozera",
+            "alias": "",
+            "position": "251",
+            "rotated": false,
             "notes": "!tag Trovsko\n!exportname MountainSumemr\n!tag Myloyar"
         },
         {
@@ -4668,6 +5447,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "David D M",
+            "alias": "",
+            "position": "252",
+            "rotated": false,
             "notes": "!tag Trovsko\n!exportname ForestWinter\n!tag SnezvalirWinter"
         },
         {
@@ -4686,6 +5468,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Sergey Demidov",
+            "alias": "",
+            "position": "253",
+            "rotated": false,
             "notes": "!tag Trovsko\n!exportname ForestSummer\n!tag Myloyar"
         },
         {
@@ -4704,6 +5489,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Alessandro Calbini",
+            "alias": "",
+            "position": "254",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Snezvalir\n!tag Planeswalker\n!tag Kateryna\nSummer Winter"
         },
         {
@@ -4722,6 +5510,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Denis Zhbankov",
+            "alias": "",
+            "position": "255",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -4740,6 +5531,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Sebastian Szmyd",
+            "alias": "",
+            "position": "256",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4758,6 +5552,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Goodname Studio",
+            "alias": "",
+            "position": "257",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4776,6 +5573,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Sebastian Szmyd",
+            "alias": "",
+            "position": "258",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4794,6 +5594,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Dominika Sikora",
+            "alias": "",
+            "position": "259",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4812,6 +5615,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Beidak",
+            "alias": "",
+            "position": "260",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4830,6 +5636,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Leizhenbi",
+            "alias": "",
+            "position": "261",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -4848,6 +5657,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Irina Boimgolts",
+            "alias": "",
+            "position": "262",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4866,6 +5678,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Ismail Inceoglu",
+            "alias": "",
+            "position": "263",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4884,6 +5699,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Richard Sashigane",
+            "alias": "",
+            "position": "264",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4902,6 +5720,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Tu Do Creatives",
+            "alias": "",
+            "position": "265",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4920,7 +5741,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Sebastian Szmyd",
-            "notes": "!tag Trovsko\n!tag Myloyar\n!related Hunt for Salvation"
+            "alias": "",
+            "position": "266",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Myloyar\n"
         },
         {
             "card_name": "Lifebinder's Bough",
@@ -4938,6 +5762,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Vasily Ermolaev",
+            "alias": "",
+            "position": "267",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4956,6 +5783,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Ann Vu",
+            "alias": "",
+            "position": "268",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -4974,7 +5804,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Surya Prasetya",
-            "notes": "!replacetoken Hunt for a Returns;1\n!tag Trovsko\n!tag Myloyar"
+            "alias": "",
+            "position": "269",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Cornered Tusker",
@@ -4992,6 +5825,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Natthan Hansen",
+            "alias": "",
+            "position": "270",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5010,6 +5846,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Maho Chio",
+            "alias": "",
+            "position": "271",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5028,7 +5867,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Artem Grigoryan",
-            "notes": "!tag Trovsko\n!tag Myloyar\n!related Cragroot Rumbler;Hunt for Elemental;Steward of Hollowood;"
+            "alias": "",
+            "position": "272",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Myloyar\n"
         },
         {
             "card_name": "Ouphe",
@@ -5046,7 +5888,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Igor Avdeev",
-            "notes": "!tag Trovsko\n!tag Myloyar\n!tokentag Ouphe\n!related Troubling Mischief<2>;Emptypetal Crone;Murmurs in the Thicket<2>;Rite of Crossing<2>;"
+            "alias": "",
+            "position": "273",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Myloyar\n"
         },
         {
             "card_name": "Construct",
@@ -5064,7 +5909,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Chris Cambel",
-            "notes": "!tag Trovsko\n!tag Myloyar\n!related Gift of Inspiration;Hearthstead Tinkerer;March of the Pathbreaker;Hunt for Friends;"
+            "alias": "",
+            "position": "274",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Myloyar\n"
         },
         {
             "card_name": "Human",
@@ -5082,7 +5930,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Bobby King",
-            "notes": "!tag Trovsko\n!tag Myloyar\n!related Vakhter Conscriptor;Tharnholt Invoker;Veyhalde Liaison;Prudent Grovewarden;Stiltwalker Husk;Singshore Flock;"
+            "alias": "",
+            "position": "275",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Myloyar\n"
         },
         {
             "card_name": "Human2",
@@ -5100,7 +5951,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Anastasia Fedorova",
-            "notes": "!tag Trovsko\n!tag Myloyar\n!exportname Human2\n!related Maw of Slumbering Seeds;Bundle of Borrowed Charms;Woundlace Doll;"
+            "alias": "",
+            "position": "276",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Myloyar\n!exportname Human2\n"
         },
         {
             "card_name": "Yaromir",
@@ -5118,7 +5972,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Lhuin",
-            "notes": "!tag Trovsko\n!related Kateryna, Weaver of Winter\n!tag Planeswalker\n!tag Yaromir"
+            "alias": "",
+            "position": "277",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Planeswalker\n!tag Yaromir"
         },
         {
             "card_name": "Cat",
@@ -5136,7 +5993,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Hinchel Or",
-            "notes": "!tag Trovsko\n!tag Myloyar\n!relatedDance of the Ovinnik<3>;Ajani, Forever Adrift;"
+            "alias": "",
+            "position": "278",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Myloyar\n"
         },
         {
             "card_name": "Spirit",
@@ -5154,7 +6014,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Oleg Rotar",
-            "notes": "!tag Trovsko\n!tag Myloyar\n!related Call of the Hanging Bough;"
+            "alias": "",
+            "position": "279",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Treasure",
@@ -5172,7 +6035,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Juuni",
-            "notes": "!tag Trovsko\n!related Gildfrost Ancient;Gildfrost Ancient<2>;Gildfrost Ancient<3>;The Road Made Real;Velkora Marshal;Crone's Choosing;Chrone's Choosing<2>;Crowned in Summer<3>;Rekindling Affection;Altar to Those Unbroken;"
+            "alias": "",
+            "position": "280",
+            "rotated": false,
+            "notes": "!tag Trovsko\n"
         },
         {
             "card_name": "Devil",
@@ -5190,7 +6056,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Grzegorz Wlazlo",
-            "notes": "!tag Trovsko\n!tag Myloyar\n!related Kindle the Mischief;Kindle the Mischief<2>;Kindle the Mischief<3>;Kindle the Mischief<4>;Kindle the Mischief<5>;One Breath from Ruin;Rousing Call<2>;Snickering Biesling<2>;"
+            "alias": "",
+            "position": "281",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Myloyar"
         },
         {
             "card_name": "Elemental Beast",
@@ -5208,7 +6077,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Aleksandra Alekseeva",
-            "notes": "!tag Trovsko\n!tag Snezvalir\n!related Snowbound Serenity;Hollowstep Adept;"
+            "alias": "",
+            "position": "282",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Snezvalir"
         },
         {
             "card_name": "Dragon",
@@ -5226,7 +6098,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Joel Hustak",
-            "notes": "!tag Trovsko\n!tag Myloyar\n!related Hunt for a Dragon"
+            "alias": "",
+            "position": "283",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Myloyar\n"
         },
         {
             "card_name": "Weapon",
@@ -5244,7 +6119,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Anton Prusov",
-            "notes": "!tag Trovsko\n!related Copper-Blooded Warden;Dawnforged Alkonost;Echo of the Oathbound;Echo of the Oathbound<3>;Graincleaver;Sworn Departure;Direcall Siren;Riverborn Hex;Solmhar's Measure;Hearth-Gut Behemoth;The Road Made Real;Scorch to Slag;Wreck and Wield;Answer with Steel and Blood;Briarhoof Guardian;Mercy's Burden;Pathcleaver Vakhter;Boon of Feathers and Fate<3>;Gracesower Satyr;Hope Beneath the Boughs;Hero of Earned Steel;Mockery of Valor;Stillmouth Wretch;Stitched Witness<X>;Vigil of Those Lost;Hagspire Strider;"
+            "alias": "",
+            "position": "284",
+            "rotated": false,
+            "notes": "!tag Trovsko"
         },
         {
             "card_name": "Hunt for a Card",
@@ -5262,7 +6140,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Madeleine Fjall",
-            "notes": "!tag Trovsko\n!exportname Hunt for a Card\n!tokentag Hunt for a Card\n!related Makva of Forgotten Groves;Herald of the First Frost;Murkmire Wretch;Slumber in Ice;Veyhalde Liaison;Mossborne Grotesque;Velkora Marshal;Veyhalde Emberhold;Murmurs in the Thicket;Witch's Spine;Prudent Grovewarden;Sisters of Rain and River;Stillmouth Wretch;"
+            "alias": "",
+            "position": "285",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!exportname Hunt for a Card\n\n"
         },
         {
             "card_name": "Hunt for a Dragon",
@@ -5280,7 +6161,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Amelia Poltoracka",
-            "notes": "!tag Trovsko\n!tokentag Hunt for a Dragon\n!exportname Hunt for a Dragon\n!related Tidings Carried on Ash;"
+            "alias": "",
+            "position": "286",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!exportname Hunt for a Dragon\n"
         },
         {
             "card_name": "Hunt for Returns",
@@ -5298,7 +6182,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Matteo Meloni",
-            "notes": "!tag Trovsko\n!tokentag Hunt for Returns\n!exportname Hunt for Returns\n!related Evermarching Nyavki;Eyes of Struna;Resolute Marshal;Crushing Vodyanov;"
+            "alias": "",
+            "position": "287",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!exportname Hunt for Returns\n"
         },
         {
             "card_name": "Hunt for Whisperfoot Skitterers",
@@ -5316,7 +6203,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Valeriy Vegera",
-            "notes": "!tag Trovsko\n\n!tokentag Hunt for Whisperfoot Skitterers\n!exportname Hunt for Whisperfoot Skitterers\n!related Whisperfoot Skitterer;"
+            "alias": "",
+            "position": "288",
+            "rotated": false,
+            "notes": "!tag Trovsko\n\n!exportname Hunt for Whisperfoot Skitterers\n"
         },
         {
             "card_name": "Hunt for Echoes",
@@ -5334,7 +6224,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Amelia Poltoracka",
-            "notes": "!tag Trovsko\n!tokentag Hunt for Echoes\n!exportname Hunt for Echoes\n!related Erlhan of the Empty Pursuit;"
+            "alias": "",
+            "position": "289",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!exportname Hunt for Echoes\n"
         },
         {
             "card_name": "Wolf",
@@ -5352,7 +6245,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Mika Koskensalmi",
-            "notes": "!tag Trovsko\n!tag Myloyar\n!related Slasher of Stragglers;Garland of Trez<3>;Cleanse with Frost<2>;Master of the Pale Frost;Crystalfang Howler;Crystalfang Howler<2>;"
+            "alias": "",
+            "position": "290",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Myloyar\n"
         },
         {
             "card_name": "Stillness Reclaimed",
@@ -5370,6 +6266,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "fluffykiwi21",
+            "alias": "",
+            "position": "291",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -5388,7 +6287,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Maros Manhardt",
-            "notes": "!replacetoken Hunt for a Card;1\n!tag Trovsko\n!tag Snezvalir"
+            "alias": "",
+            "position": "292",
+            "rotated": false,
+            "notes": "\n!tag Trovsko\n!tag Snezvalir"
         },
         {
             "card_name": "Slasher of Stragglers",
@@ -5406,6 +6308,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Anastasia Novosadova",
+            "alias": "",
+            "position": "293",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5424,6 +6329,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Anato Finnstark",
+            "alias": "",
+            "position": "294",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5442,6 +6350,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Huyy Nguyen",
+            "alias": "",
+            "position": "295",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -5460,6 +6371,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Jiunn Kuo",
+            "alias": "",
+            "position": "296",
+            "rotated": false,
             "notes": "!tag Virelen\n!tag Trovsko"
         },
         {
@@ -5478,6 +6392,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "sealoflove",
+            "alias": "",
+            "position": "297",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko\nchangeupflavor"
         },
         {
@@ -5496,6 +6413,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Ryky",
+            "alias": "",
+            "position": "298",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5514,6 +6434,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Serge Tsvelykh",
+            "alias": "",
+            "position": "299",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5532,6 +6455,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Neonspaceartist",
+            "alias": "",
+            "position": "300",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5550,6 +6476,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Alessandro Ferrario",
+            "alias": "",
+            "position": "301",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5568,6 +6497,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Roberto Gatto",
+            "alias": "",
+            "position": "302",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Snezvalir"
         },
         {
@@ -5586,6 +6518,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Ksenia Kozhevnikova",
+            "alias": "",
+            "position": "303",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5604,6 +6539,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Anastasia Novosadova",
+            "alias": "",
+            "position": "304",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5622,6 +6560,8 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Grafit Studio",
+            "alias": "",
+            "position": "305",
             "card_name2": "Mirepath Supplicant",
             "color2": "WB",
             "type2": "Creature \u2014 Demon",
@@ -5632,6 +6572,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Nepotune",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -5650,6 +6593,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Ismail Inceoglu",
+            "alias": "",
+            "position": "306",
+            "rotated": false,
             "notes": "!tag Trovsko\n!tag Myloyar"
         },
         {
@@ -5668,7 +6614,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Eunice Ye",
-            "notes": "!tag Trovsko\n!related Trinket Seeker;"
+            "alias": "",
+            "position": "307",
+            "rotated": false,
+            "notes": "!tag Trovsko"
         },
         {
             "card_name": "Hunt for Release",
@@ -5686,7 +6635,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Filip Storch",
-            "notes": "!tag Trovsko\n!tokentag Hunt for Release\n!exportname Hunt for Release\n!related The Frozen Gaol<4>;"
+            "alias": "",
+            "position": "308",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!exportname Hunt for Release\n"
         },
         {
             "card_name": "Hunt for Glory",
@@ -5704,7 +6656,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Devin Elle Kurtz",
-            "notes": "!tag Trovsko\n!tokentag Hunt for Glory\n!exportname Hunt for Glory\n!related Vice, Between Spaces"
+            "alias": "",
+            "position": "309",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tokentag Hunt for Glory\n!exportname Hunt for Glory\n"
         },
         {
             "card_name": "Hunt for Friends",
@@ -5722,7 +6677,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Devin Elle Kurtz",
-            "notes": "!tag Trovsko\n!tokentag Hunt for Friends\n!exportname Hunt for Friends\n!related Vice, Between Spaces"
+            "alias": "",
+            "position": "310",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!exportname Hunt for Friends"
         },
         {
             "card_name": "Hunt for Elemental",
@@ -5740,7 +6698,10 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Mircea Nicula",
-            "notes": "!tag Trovsko\n!tokentag Hunt for Elemental\n!exportname Hunt for Elemental\n!related Ashhorn Reaper;Stampeding Gorejaw<3>;"
+            "alias": "",
+            "position": "311",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!exportname Hunt for Elemental"
         },
         {
             "card_name": "Vice, Between Spaces",
@@ -5750,7 +6711,7 @@
             "number": 281,
             "color_identity": "C",
             "cost": "{3}",
-            "rules_text": "",
+            "rules_text": "Whenever you activate one of Vice's loyalty abilities, create a Hunt battle token an opponent protects with 2 defense with that ability, except it's a triggered ability with \u201cWhen this battle is defeated,\u201d\n[+1]: Create a Treasure token.\n[-2]: Create a 0/0 colorless Construct artifact creature token with \u201cThis creature gets +1/+1 for each artifact you control.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "Whenever you activate one of Vice's loyalty abilities, create a Hunt battle token an opponent protects with 2 defense with that ability, except it's a triggered ability with \u201cWhen this battle is defeated,\u201d\n[+1]: Create a Treasure token.\n[-2]: Create a 0/0 colorless Construct artifact creature token with \u201cThis creature gets +1/+1 for each artifact you control.\u201d",
@@ -5758,7 +6719,10 @@
             "set": "TRO",
             "loyalty": "3",
             "artist": "Saturn Thanatos",
-            "notes": "!replacetoken Hunt for Glory;1;Hunt for Friends;1\n!tag Trovsko\n!tag Vice\n!tag Planeswalker"
+            "alias": "",
+            "position": "312",
+            "rotated": false,
+            "notes": "!tag Trovsko\n!tag Vice\n!tag Planeswalker"
         },
         {
             "card_name": "Standard of the Risen Blade",
@@ -5776,6 +6740,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Neon Laboratory",
+            "alias": "",
+            "position": "313",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko"
         },
         {
@@ -5794,6 +6761,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Soe Giuliasoeima",
+            "alias": "",
+            "position": "314",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5812,6 +6782,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Coliandre",
+            "alias": "",
+            "position": "315",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5830,6 +6803,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Margarita Bourkova",
+            "alias": "",
+            "position": "316",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5848,6 +6824,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "George Patsouras",
+            "alias": "",
+            "position": "317",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5866,6 +6845,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Arnaerr",
+            "alias": "",
+            "position": "318",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\nPristineCycle"
         },
         {
@@ -5884,6 +6866,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Misaoningyo",
+            "alias": "",
+            "position": "319",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\nPristineCycle"
         },
         {
@@ -5902,6 +6887,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Jennifer Wuestling",
+            "alias": "",
+            "position": "320",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\nPristineCycle"
         },
         {
@@ -5920,6 +6908,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Muhammad Fajri",
+            "alias": "",
+            "position": "321",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\nPristineCycle"
         },
         {
@@ -5938,6 +6929,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Francis Tneh",
+            "alias": "",
+            "position": "322",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\nPristineCycle"
         },
         {
@@ -5956,6 +6950,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Lumen (edited)",
+            "alias": "",
+            "position": "323",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5974,6 +6971,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Elisa Serio",
+            "alias": "",
+            "position": "324",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -5992,6 +6992,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Annie Doyon",
+            "alias": "",
+            "position": "325",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -6010,6 +7013,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Lumen",
+            "alias": "",
+            "position": "326",
+            "rotated": false,
             "notes": "!tag Yaoi\n!tag Trovsko\n!tag Kreshtan"
         },
         {
@@ -6028,6 +7034,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Lumen",
+            "alias": "",
+            "position": "327",
+            "rotated": false,
             "notes": "!tag Yaoi\n!tag Trovsko\n!tag Thomir"
         },
         {
@@ -6046,6 +7055,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Edu Brasil",
+            "alias": "",
+            "position": "328",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -6064,6 +7076,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "kurodore",
+            "alias": "",
+            "position": "329",
+            "rotated": false,
             "notes": "!tag Snezvalir\n!tag Trovsko\n!tag Kaelthar"
         },
         {
@@ -6082,6 +7097,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Punctographist",
+            "alias": "",
+            "position": "330",
+            "rotated": false,
             "notes": "!tag Myloyar\n!tag Trovsko"
         },
         {
@@ -6100,6 +7118,9 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Lumen",
+            "alias": "",
+            "position": "331",
+            "rotated": false,
             "notes": "!tag Kreshtan\n!tag Trovsko\n!tag Thomir"
         },
         {
@@ -6118,8 +7139,11 @@
             "set": "TRO",
             "loyalty": "",
             "artist": "Lumen",
+            "alias": "",
+            "position": "332",
+            "rotated": false,
             "notes": "!tag Yaoi\n!tag Trovsko\n!tag Kreshtan\n!tag Thomir"
         }
     ],
-    "version": 10
+    "version": 11
 }
