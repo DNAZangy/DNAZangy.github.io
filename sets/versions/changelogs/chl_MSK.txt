@@ -1,4 +1,634 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Path of Echoes added.
+
+Trunk of Fallen Friends removed.
+
+Expelled
+
+Dietrich, Fassahd Seer
+
+The Wolf and the Lamb
+rules_text:  => [+2]: Draw a card, then each opponent discards a card.
+[-2]: Exile target permanent you control. Return that card to the battlefield under its owner's control at the beginning of the next end step. Each opponent sacrifices a permanent that shares a type with the exiled permanent.
+[-X]: Exile target card in your graveyard with mana value X. Copy it. You may cast the copy without paying its mana cost.
+
+Serenity's Guide
+
+Rauchim, Skyfire Celebrant
+
+Left Behind
+
+Brunhild, Unraveled
+
+Quaint Harvest
+
+Veiled Foreboding
+
+Fassahd Hunting Party
+
+Deliverance of Dawn
+
+Innocence Denied
+
+Keep Moving
+
+Rousing Sentinel
+
+Ruhe, Season of Silence
+
+Blade of the Setting Sun
+
+Together As One
+
+Dietrich's Regret
+
+Waning Moon Adept
+
+Indifferent Landsknecht
+
+Disinherited Scion
+
+Gregarious Buboh
+
+Part Missing a Whole
+
+Authority of Dawn
+
+Escapade Collector
+
+Memory Bearers
+
+Soaring Paragon
+
+Zyklinder Herbalist
+
+Fassahd Gustwright
+
+Student of Syncopation
+
+Mite Errant
+
+Jaegrin Outrider
+
+Misfortune's Steed
+
+Restless Nights
+
+Spell Pierce
+
+Transpose
+
+Belligerent Muckamuck
+
+Season's End Festivalist
+
+Fond Memories
+
+Make Trouble
+
+Wanderer's Font
+
+Courier of the Tribes
+
+Irresistible Drums
+
+Parallel Possibility
+
+Season's End Celebrant
+
+Longing's Maw
+
+Unforeseen Illuminator
+
+Swift Repetition
+
+Proclaim the End
+
+Echoes Condemned
+
+Carved Histories
+
+Dweller in Shadow
+
+Fall Apart
+
+Shambling Canker
+
+Reason to Beware
+
+Needling Lancer
+
+Better to Forget
+
+Creeping Inadequacy
+
+Custodian of Corpses
+
+Feeder of Lost Thoughts
+
+Echo of Agony
+
+False Flag
+
+Rhythm of War
+
+Doleful Poleman
+
+Diviner of False Omens
+
+Tiller of Memories
+
+Mender of Mortal Error
+
+Rot Begets Regrowth
+
+Wandering Doubt
+
+Lumbering Nomad
+
+Wandering Worry
+
+Roused Elder
+
+Dynamic Entry
+
+Rip and Tear
+
+Crestfallen Roseblade
+
+Reconnaissance Agent
+
+Flashfire Herald
+
+Purgative Rage
+
+Foraged Arms
+
+Scatterbrained Scamp
+
+Boundary Seer
+
+Opulent Settler
+
+Wandering Alarm
+
+Lorn Executioner
+
+From Blood, Blades
+
+Calamitous Whispers
+
+Light at Season's End
+
+Quell
+
+Myth Given Voice
+
+Deepwoods Sentinel
+
+Custodian of Cycles
+
+Cartographer of History
+
+Timber Pummeler
+
+Student of the Oldest Oak
+
+Fassahd Lookout
+
+Never Back Down
+
+Strike from Afar
+
+A New Direction
+
+Zwiewald Crusher
+
+Censor of the Veiled
+
+Curator of Copses
+
+Rambunctious Mount
+
+Magniloquent Soulcaller
+
+Marker of Odd Maps
+
+Stewards of the Fassahd
+
+Parsimonious Scamp
+
+Twin Mystagogues
+
+Buboh Shaman
+
+Corpseborn Verdant
+
+Devoted of Zwiewald
+
+Untamed Capacity of Growth
+
+Hostile Watch
+
+Harken the Past
+
+Revenge of the Zwiewald
+
+Ziel, Season of Endings
+
+Crowned Croaker
+
+Lessons Learned and Trials Won
+
+Invigorating Discovery
+
+Magali, At Home Anywhere
+
+Kriemhild, Unbidden End
+
+Galvanized Ink
+
+Odd-Eyed Animist
+
+Erkinder Explorer
+
+Behold Ruhigwelt
+
+Witness to Many Ends
+
+Fatesplicer
+
+Boasting Rootwalla
+
+Fool's Errand
+
+Breitmeer Delver
+
+Cryptic Pioneer
+
+Far-Flung Voyager
+
+Steward of New Horizons
+
+Flowing Blade
+
+Skull of Titan's Past
+
+Apotropaic Maw
+
+Assimilated Explorer
+
+Longshot Resident
+
+Monument to the Fallen Man
+
+Unleash Enmity
+
+Hall of Echoes
+
+Breaker of Stagnancy
+
+Cloying Expectations
+
+Horns of Drained Ichor
+
+Apis Rider
+
+Brightblade Initiator
+
+Ute's Honor Guard
+
+Kriemhild of Many Masks
+
+The Call of the Zwiewald
+
+Nasaj, the Observer Between
+
+Anina, Breath of the Winds
+
+Kriemhild's First Mask
+
+Barren Desolation
+
+Floodwater Depths
+
+Grim Bastion
+
+Magmatic Torrent
+
+Mysterious Cataract
+
+Ocean Monastery
+
+Scenic Caldera
+
+Scenic Coast
+
+Scenic Copse
+
+Scenic Hollow
+
+Scenic Meadow
+
+Shardstone Rift
+
+Sunlit Highland
+
+Timber Range
+
+Wayfarer's Shrine
+
+Crossroads of Amnesty
+
+Crossroads of Artistry
+
+Crossroads of Bravery
+
+Crossroads of Charity
+
+Crossroads of Efficiency
+
+Crossroads of Finality
+
+Crossroads of History
+
+Crossroads of Serenity
+
+Crossroads of Tenacity
+
+Crossroads of Unity
+
+Demolition Field
+
+Fassahd Outpost
+
+Forgotten Monoliths
+
+Grabeih Outpost
+
+Jaegrin Outpost
+
+Testament to Memory
+
+Valley of the Lost
+
+Warkrei Outpost
+
+Zyklinder Outpost
+
+Ash Barrens
+
+Stoop
+
+Courier Sergeant
+
+Thorough Preparations
+
+Vanguard Naturalist
+
+Faithful Harrier
+
+Patriotic Landsknecht
+
+Luminous Rearguard
+
+Mellifluous Hussar
+
+Dancer on the Wind
+
+Listlessness
+
+Erkinder Analyst
+
+Aural Gardener
+
+Consult
+
+Consider
+
+Pelagic Inquiry
+
+Dead Weight
+
+Conspiracy of Ravens
+
+Drown Hope
+
+Gallant of Singing Steel
+
+Hardened Heart
+
+New Places, Old Faces
+
+Keeper of Those Lost
+
+Roaming Anguish
+
+Fledgling Cultivator
+
+Let Go
+
+Rally the Dragoons
+
+Wrap Up
+
+Vitrified Memory
+
+Monarch-Clad Fae
+
+Merry Marauder
+
+Warkrei Quartermaster
+
+Protean Bloom
+
+Soldier of Misfortune
+
+Edge of Autumn
+
+Yellowcap Centurion
+
+Jolly Scopuinter
+
+Deprecate
+
+Deadly Recluse
+
+Amber Hills
+
+Tentative Peace
+
+Shrine to the First Dawn
+
+Newborn Grausamkeit
+
+Inexorable Rot
+
+Brightblade Finisher
+
+Totem of the Forgotten
+
+Path of the Unremembered
+
+Dammern, Season of Song
+
+Motte, Season of Origins
+
+Ludolf, Wartorn
+rules_text:  => [+1]: Each player discards a card. Each player who discarded a nonland card this way draws a card.
+[-1]: Return target nonland card from your graveyard to your hand. Ludolf deals damage to you equal to that card's mana value.
+[-2]: Sacrifice a permanent. When you do, destroy target permanent that shares a type with the sacrificed permanent.
+
+Elissia, Adrift
+rules_text:  => [+1]: Up to one target creature you control can't be blocked this turn. Return that creature to its owner's hand at the beginning of the next end step.
+[-X]: Exile target nonland permanent with mana value X or less.
+[-2]: Exile target nonplaneswalker permanent you control, return it to the battlefield under your control, exile it, then return it to the battlefield under your control.
+
+Kriemhild of One Truth
+rules_text:  => You may play land cards from your graveyard. Lands played this way enter with a finality counter on them.
+[+1]: Surveil 2. You gain 2 life.
+[0]: You may play an additional land this turn.
+[-4]: Create a 4/4 green Elemental creature token.
+
+Jaegrin Woodweaver
+
+Erkinder Cataloger
+
+Dwell on Despair
+
+Subvert Weakness
+
+Out-of-Body Experience
+
+Coerced Contemplation
+
+Beaten but Not Broken
+
+Great Lunadoptera
+
+Make Peace
+
+Overflowing Imagination
+
+Culinary Experimentalists
+
+Swap Stories
+
+Gullet of Want
+
+Prune
+
+Be Reborn
+
+Alone Together
+
+Deathcap Overseer
+
+Abandon the Calling
+
+Those of Distant Familiarity
+
+Delighted Madcap
+
+Unseam
+
+Now or Never
+
+Reignition Screamer
+
+Warkrei Bladedancer
+
+Mark of Conquest
+
+Mend the Scenery
+
+Principality of Dawn
+
+Virtue of Dawn
+
+Lord Commander Ute IX
+
+Goblin
+
+Play the Part
+
+Reaping Whirlwind
+
+Rationalize
+
+Eike, Bound to the Inferno
+
+Boots of the Ground
+
+Return to Placidity
+
+Weapon
+
+ElementalGreen
+
+ElementalBlue
+
+Warrior
+
+Avatar
+
+Wolf Spirit
+
+Treasure
+
+Spirit
+
+A Dream of Stillness
+rules_text:  => [i](Once during each of your turns, you may activate the next ability in order. When you're done dreaming, sacrifice this.)[/i]
+When A Dream of Stillness enters, if you cast it, each creature gets -3/-3 until end of turn.
+{1}{B}: Shut Out
+Each player discards two cards.
+{1}{B}: Open Up
+An opponent may have you draw a card. If they don't, each player sacrifices a non-Dream nonland permanent.
+
+A Dream of Horizons
+rules_text:  => [i](Once during each of your turns, you may activate the next ability in order. When you're done dreaming, sacrifice this.)[/i]
+Flash
+When A Dream of Horizons enters, you may exile target creature you control for as long as you control A Dream of Horizons.
+{W}: Aimless
+You gain 4 life and draw a card.
+{W}: Resolute
+Until end of turn, each creature you control enters with an additional +1/+1 counter on it.
+
+A Dream of Reunion
+rules_text:  => [i](Once during each of your turns, you may activate the next ability in order. When you're done dreaming, sacrifice this.)[/i]
+When this Dream enters, create two 2/1 white Warrior creature tokens with “This creature can't block.”
+{R}: Old Ways
+You may discard up to two cards. If you do, draw that many cards.
+{2}{R}: New Path
+An opponent may have this Dream deal 4 damage to them. If they don't, exile a red card you own from outside the game. Until end of your next turn, you may play that card.
+
+A Dream of Yesterdays
+rules_text:  => [i](Once during each of your turns, you may activate the next ability in order. When you're done dreaming, sacrifice this.)[/i]
+When A Dream of Yesterdays enters, mill three cards. Return a non-Dream permanent card in your graveyard to your hand.
+{1}{G}: Let Go
+Exile up to three target cards from graveyards. You gain 1 life for each card exiled this way.
+{1}{G}: Move On
+Search your library for a land card, put it onto the battlefield, then shuffle.
+
+Adorned Orator
+
+From Hope to Action
+
+A Dream of Mirrors
+rules_text:  => [i](Once during each of your turns, you may activate the next ability in order. When you're done dreaming, sacrifice this.)[/i]
+When A Dream of Mirrors enters, you may draw two cards. If you do, discard two cards.
+{1}{U}: Lost
+Exile up to one target instant or sorcery card from your graveyard. Copy it. You may cast the copy. [i](You still pay costs.)[/i]
+{U}: Found
+Any number of target players shuffles their graveyard into their library. Draw a card.
+
+Secret Histories
+
+
+VERSION 2 CHANGELOG
 ====================
 
 Longing's Maw added.

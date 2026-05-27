@@ -1,4 +1,1532 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+Ballad of the Uncut Thread added.
+Horns Against Scale added.
+Ballad of Starnheim added.
+Cinders that Carve Strength added.
+A Tale of Gold and Flame added.
+Traverse Kaldheim added.
+Strike the Invader added.
+Reunification of the Elves added.
+Seventh Door Oathbearer added.
+Reckoning of Flame added.
+The Himminneater added.
+Sevalgr Cutpurse added.
+Rebuilding Bretagard added.
+Bearer of the Worthy added.
+Glorychanter added.
+Echoes of the Past added.
+Lavasight Hagi added.
+Deepwinter Hagi added.
+Littjara Seer added.
+Hopefilled Rider added.
+Glory of the Tale added.
+Jaspera Trailblazer added.
+Keeper of Old Marks added.
+Cliffthrower added.
+Tales Retold added.
+Gisla, Shepherd of the Brave added.
+Moment's Hinderance added.
+Mistveil Passage added.
+Runeforged Titan added.
+Destined to Istfel added.
+Opt added.
+Whispering Tempters added.
+Consultant of Spoils added.
+Torn Between Duties added.
+Winter's Provisioner added.
+Vanguard of the Sixth Door added.
+Surtland Subduer added.
+Binding the Dread-Wolf (redesign entirely) added.
+Whisperer to the Realmeater added.
+Prepare for Starnheim added.
+Wolf Spirit added.
+Dragon added.
+Ode to Exploration added.
+Harald, Speaker for Koma added.
+Ode to the Hunt added.
+Ode to Pursuit added.
+Ode to Obedience added.
+
+Rebuilding Beskir Hall removed.
+Vela Heights Seer removed.
+Voice of the Longhall removed.
+Vanguard of the Eight Doors removed.
+Ballad of the Thread Uncut removed.
+Horns Against the Coil removed.
+Ambition Halted removed.
+Cinders That Carved Strength removed.
+Tale of Gold and Flame removed.
+Under Starnheim's Gaze removed.
+Unlikely Hero removed.
+Stand Before the Vaklyries removed.
+Sarulf's Binding removed.
+Echoes of the Einir removed.
+Betrayer of the Omenseekers removed.
+Charm of the Code removed.
+Frostvein Binder removed.
+Test of the Vessel removed.
+Draugr's Due removed.
+Snowclash Shaman removed.
+Judgment of the Skoti removed.
+Forge of Five-Hundred Names removed.
+Pathless Ranger removed.
+Keeper of the Old Marks removed.
+Nameless Heirloom removed.
+The Himinneater removed.
+Codespell Arbiter removed.
+Steel at the Threshold removed.
+Shephard's Blade removed.
+Frostvein Binder removed.
+Skald of the Pillars removed.
+Littjara Chime removed.
+Torn Between Duty removed.
+Icebound Prison removed.
+Mindhusk Effigy removed.
+Folly of the Braggarts removed.
+Binding the Dread-Wolf removed.
+Clanborn Pair removed.
+Holder of Toralf's Thunder removed.
+Gloryweaver Bard removed.
+Unlimited Horizons removed.
+Hew the Skyterror removed.
+Whispers to the Fanged removed.
+Koma's Call removed.
+Hunt in Tandem removed.
+Breath Held Still removed.
+Decree of the Skelle removed.
+Accord in Blood removed.
+Monument of the Worthy removed.
+Wardens of the Cycle removed.
+Concord Beyond Names removed.
+Beskir Soul-Guide removed.
+Unearthed Secrets removed.
+Somerled of the Omenpaths removed.
+Blades in Accord removed.
+Return of the Heart removed.
+Oathbearer at the Seventh Door removed.
+Vragi's Rally removed.
+Signs Past the Shore removed.
+Reckoning of Lava removed.
+Reunification removed.
+Thunderpelt Chariot removed.
+Armor of the Bear King removed.
+Developing Fjord removed.
+Mirefang Edge removed.
+Winter's Provision removed.
+Ghostfang Companion removed.
+Lord of Spoils removed.
+Stay Strong removed.
+Rebuke of Rime removed.
+Sevalgr Port removed.
+Frozen Hoard removed.
+Fading Horizon removed.
+Resilient Omenseeker removed.
+Oathsworn Ally removed.
+Run with the Pack removed.
+Skybound Oathsworn removed.
+Chains of the Mire removed.
+Omenpath Pilferer removed.
+Moment's Hindrance removed.
+Gisla, Merciful Shepherd removed.
+Valley of the Twin Warriors removed.
+Serpent removed.
+Warrior removed.
+Angel removed.
+Ode to Discovery removed.
+
+The Elk King
+
+From Triumph to Tomb
+cost: {U}{B}{B} => {U}{B}
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Create a 1/1 white Human Warrior creature token.
+II — Target creature you control gets +2/+0 until end of turn.
+III — You may sacrifice a creature. If you do, create a 4/4 black Zombie Noble creature token.
+special_text: 
+Flash
+Destroy target creature or planeswalker.
+Scry 3.
+Exile target non-Saga permanent, then return it to the battlefield at the beginning of the next end step. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Create a 1/1 white Human Warrior creature token.
+II — Target creature you control gets +2/+0 until end of turn.
+III — You may sacrifice a creature. If you do, create a 4/4 black Zombie Noble creature token.
+
+Verse of the Stolen Kiss
+cost: {1}{B}{R} => {B}{R}
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Return target creature card with mana value 3 or less from your graveyard to the battlefield.
+II — Put a menace counter on target creature you control.
+III — Up to two target creatures you control get +1/+0 until end of turn.
+special_text: 
+I — Return target creature card with mana value 3 or less from your graveyard to the battlefield.
+II — Put a menace counter on target creature you control.
+III — You may sacrifice a creature. If you do, creatures you control get +X/+0 until end of turn, where X is the sacrificed creature's power. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Return target creature card with mana value 3 or less from your graveyard to the battlefield.
+II — Put a menace counter on target creature you control.
+III — Up to two target creatures you control get +1/+0 until end of turn.
+
+Unraveling the Jaspera
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Unraveling the Jaspera deals 3 damage to any target.
+II — You may discard a card. If you do, draw a card.
+III — Create a snow Treasure token.
+special_text: 
+I — Unraveling the Jaspera deals 3 damage to any target.
+II — You may discard a card. If you do, draw a card.
+III — Create a snow Treasure token. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Unraveling the Jaspera deals 3 damage to any target.
+II — You may discard a card. If you do, draw a card.
+III — Create a snow Treasure token.
+
+Restoration of Jormund
+cost: {3}{B}{G} => {2}{B}{G}
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create two 1/1 green Elf Warrior creature tokens.
+Target creature you control gets +X/+X until end of turn, where X is the number of Elves you control.
+​
+special_text: 
+Create three 1/1 green Elf Warrior creature tokens.
+Add X mana of any one color, where X is the number of Elves you control.
+Target creature gets +X/+X until end of turn, where X is the number of Elves you control. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create two 1/1 green Elf Warrior creature tokens.
+Target creature you control gets +X/+X until end of turn, where X is the number of Elves you control.
+​
+
+Labors Without End
+cost: {1}{W} => {1}{WU}
+rules_text: Choose one — 
+• Create a 1/1 white Spirit creature token with flying.
+• Exile up to one target creature, then return it to the battlefield.
+• You gain 3 life.
+[i]Orate[/i] — Then for each mode that wasn't chosen, create a white Saga enchantment token with that mode as r{3}. => Choose one —
+• Create a 1/1 white Spirit creature token with flying.
+• Exile up to one target creature, then return it to the battlefield under its owner's control.
+[i]Orate[/i] — Then create a white Saga enchantment token with the mode that wasn't chosen as its r{3}.
+
+Blighted Coil
+type: Creature — Phyrexian Serpent => Creature — Phyrexian Serpent Zombie
+cost: {4}{B} => {4}{UB}{UB}
+rules_text: {1}{B}, Sacrifice another creature: You gain 1 life and draw a card.
+{3}{B}{B}, Sacrifice a creature: Return Blighted Coil from your graveyard to the battlefield tapped. Activate only as a sorcery. => When Blighted Coil enters, mill three cards, then return a card milled this way to your hand.
+pt: 5/5 => 4/3
+
+Call to Elskul
+cost: {2}{B}{B} => {2}{BR}{BR}
+rules_text: Each opponent sacrifices a creature and discards a card. => Target opponent sacrifices a creature unless they have Call to Elskul deal 3 damage to them. Then that player discards a card unless they have Call to Elskul deal 3 damage to them.
+
+Bloodtusk Terror
+cost: {R}{G} => {2}{RG}{RG}
+rules_text: {S}: Bloodtusk Terror gains your choice of first strike, haste, menace, reach, trample, or vigilance until end of turn. => This spell can't be countered.
+Haste
+{3}{S}: Bloodtusk Terror gets +2/+2 until end of turn. Activate only once each turn.
+
+Hearthstring Elder
+cost: {GW}{GW} => {2}{GW}{GW}
+rules_text: Hearthstring Elder gets +1/+1 for each Human you control.
+[i]Orate[/i] — Whenever you attack with two or more Humans, create a create a blue Saga token with “r{3}—Draw a card.” => At the beginning of your upkeep, choose one —
+• Put a +1/+1 counter on target creature.
+• Put a lore counter on target Saga you control.
+• Put a loyalty counter on target planeswalker.
+pt: 0/0 => 3/3
+
+Stormseer Augur
+cost: {UR}{UR}{UR}{UR}{UR} => {3}{UR}{UR}{UR}
+pt: 6/6 => 
+
+Exchange of Faces
+cost: {4}{U}{U} => {4}{GU}{GU}
+rules_text: Create two 3/3 blue Shapeshifter creature tokens with changeling. [i](This card is every creature type.)[/i] => Create two 3/3 blue Shapeshifter creature tokens with changeling.
+
+Divided Omen
+cost: {1}{U} => {U}
+
+Ceaseless Return
+
+The Njidwing
+cost: {4}{R}{R}{R} => {3}{R}{R}{R}
+rules_text: Flying
+Whenever The Njidwing attacks, create a number of 1/1 red Berserker creature tokens with menace, where X is the number of snow permanents you control. => Flying
+When The Njidwing enters, if it wasn't cast, transform it.
+{2}{R}: The Njidwing gets +2/+0 until end of turn. You may put a counter on it that's the same kind as a counter on another permanent you control.
+pt: 7/7 => 6/5
+
+Crossing the Aldegard
+
+Starnheim Redeemer
+cost: {3}{W}{W} => {3}{WB}{WB}
+rules_text: Flying, vigilance => Flying
+
+The Chasm Beast
+type: Legendary Snow Creature — Leviathan => Legendary Snow Creature — Crocodile
+cost: {4}{U}{U}{U} => {3}{U}{U}{U}
+rules_text: Ward {5} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {5}.)[/i]
+Whenever The Chasm Beast attacks, exile the top five cards of your library. You may cast any number of spells with mana value X or less without paying their mana cost, where X is the number of snow permanents you control. => Vigilance
+When The Chasm Beast enters, if it wasn't cast, transform it.
+Whenever The Chasm Beast attacks, another target creature you control can't be blocked this turn.
+pt: 8/8 => 5/6
+
+The Eidermaw
+cost: {4}{B}{B}{B} => {3}{B}{B}{B}
+rules_text: Trample
+Whenever The Eidermaw attacks, destroy up to X target creatures you don't control with total toughness X or less, where X is the number of snow permanents you control. => Menace
+When The Eidermaw enters, if it wasn't cast, transform it.
+{1}{B}, Sacrifice another creature: The Eidermaw gains indestructible until end of turn. Tap it.
+pt: 9/6 => 6/4
+
+The Stjarnapelt
+cost: {4}{W}{W}{W} => {2}{W}{W}{W}
+rules_text: Vigilance
+Whenever The Stjarnapelt attacks, return any number of target nonland permanent cards in your graveyard with total mana value X or less from your graveyard to the battlefield, where X is the number of snow permanents you control. => Lifelink
+When The Stjarnapelt enters, if it wasn't cast, transform it.
+Other legendary creatures you control get +1/+1 and have vigilance.
+pt: 7/11 => 4/6
+
+Oathbreaker's Pike
+type: Snow Enchantment — Aura => Enchantment — Aura
+cost: {1}{B} => {B}
+
+Earn Your Name
+
+Left to Rust
+
+Auroral Waypost
+
+Frostglade Waypost
+
+Gravecoil Waypost
+
+Mistdrift Waypost
+
+Razorcrag Waypost
+
+Snowworn Expanse
+
+Starlit Expanse
+
+Barrow Marauder
+cost: {RG}{RG}{RG}{RG} => {1}{G}{G}
+rules_text: Trample
+Whenever a Troll you control attacks, create a snow Treasure token.
+{4}{S}{S}: Create a tapped 3/3 green Troll creature token with trample. => Trample
+Whenever Barrow Marauder or another Troll you control deals combat damage to a noncreature, create a snow Treasure token.
+{4}{S}{S}: Create a tapped 3/3 green Troll creature token with trample.
+pt: 5/5 => 3/3
+
+Starnheim Arbiter
+cost: {WB}{WB}{WB} => {3}{B}{B}
+rules_text: Flying, lifelink
+{1}{W}: Starnheim Arbiter gains vigilance until end of turn.
+{1}{B}: Starnheim Arbiter gains deathtouch until end of turn. => Flying
+{1}{B}, Sacrifice another creature: You gain 1 life and draw a card.
+{3}{B}{B}, Sacrifice a creature: Return Starnheim Arbiter from your graveyard to the battlefield tapped. Activate only as a sorcery.
+pt: 3/3 => 4/4
+
+Selfless Remnant
+type: Creature — Spirit Cleric => Creature — Spirit
+cost: {WU}{WU} => {3}{W}{W}
+rules_text: Flash
+Flying
+Sacrifice Selfless Remnant: Target Spirit you control gets +0/+3 and gains hexproof until end of turn. => Teamwork — +1/+1 [i](Whenever this creature deals combat damage to a noncreature, you may put a +1/+1 counter on another target permanent you control.)[/i]
+Whenever a nontoken creature you control with a +1/+1 counter on it dies, create a 1/1 white Human creature token.
+pt: 2/1 => 5/5
+
+Mountaincleaver
+cost: {2}{R} => {4}{R}
+rules_text: When Mountaincleaver enters, you may sacrifice a creature. If you do, create a 5/5 red Giant creature token with trample.
+Equipped creature gets +2/+0 and has “Whenever this creature deals combat damage to a player, exile the top card of your library. You may play it this turn.”
+Equip {3} => When Mountaincleaver enters, create a 5/5 red Giant creature token with trample, then equip Mountaincleaver to it.
+Whenever enchanted creature attacks, creatures with power 2 or less can't block this turn.
+Equip {2}
+
+Bannerless Raider
+cost: {UB} => {U}
+rules_text: Whenever a Zombie you control attacks, defending player exiles the top card of their library with a hollow counter on it.
+As long as an opponent has three or more exiled cards with hollow counters on them, Zombies you control get +1/+1.
+As long as an opponent has nine or more exiled cards with hollow counters on them, Zombies you control can't be blocked. => Bannerless Raider can't be blocked as long as you've drawn two or more cards this turn.
+[i]Orate[/i] — Whenever Bannerless Raider attacks, create a red Saga enchantment token with “r{3}—You may discard up to two cards. If you do, draw that many cards” if you don't control a red Saga. Otherwise, put a lore counter on a red Saga you control.
+
+Goldgate Scout
+cost: {RW} => {R}
+rules_text: Whenever another Dwarf you control enters, put a +1/+1 counter on Goldgate Scout.
+When this creature dies, put its counters on target Dwarf you control. => Teamwork — +1/+1 [i](Whenever this creature deals combat damage to a noncreature, you may put a +1/+1 counter on another target permanent you control.)[/i]
+{1}{R}: Goldgate Scout gains menace until end of turn.
+
+Alrund's Envoy
+type: Creature — Bird => Creature — Bird Spirit
+rules_text: Flying
+When Alrund's Envoy enters, choose one —
+• Create a snow Treasure token.
+• Draw a card, then discard a card. => Flying
+When Alrund's Envoy enters, choose one —
+• Create a tapped snow Treasure token.
+• Draw a card, then discard a card.
+
+Champion of Stillness
+type: Snow Creature — Zombie Warrior => Snow Creature — Zombie Noble Warrior
+rules_text: Flash
+Prowess
+Each spell you cast has split second if mana from a snow permanent was spent to cast it. [i](As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)[/i] => Flash
+Prowess
+Each spell you cast has split second if {S} was spent to cast it.
+pt: 4/4 => 3/3
+
+Scornsong Reaper
+cost: {3}{B}{B} => {1}{B}{B}
+rules_text: Flying
+[i]Orate[/i] — Whenever another creature you control dies, create a white Saga enchantment token with “r{3}—Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.” => Flying, haste
+[i]Orate[/i] — When Scornsong Reaper enters, target opponent creates two white Saga enchantment tokens with “r{3}—Create a 1/1 white Spirit creature token with flying.”
+At the beginning of combat on your turn, any opponent may sacrifice a token. If a player does, tap this creature and draw a card.
+
+Dragonkin Herald
+cost: {1}{R} => {2}{R}
+rules_text: 
+Ward—Pay 2 life. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 2 life.)[/i]
+Whenever Dragonkin Herald attacks while it has a permanent attached to it or a counter on it, until end of turn, its base power and toughness become 4/4, it gains flying, and is a Dragon in addition to its types. => Whenever you cast a spell, add {R}.
+Whenever you cast your fourth spell in a turn, create a 4/4 red Dragon creature token with flying.
+pt: 3/1 => 3/2
+
+Oilbound Spawn
+type: Creature — Phyrexian Horror => Creature — Phyrexian Zombie
+
+Gladewalker Emissary
+type: Creature — Shapeshifter => Snow Creature — Shapeshifter
+cost: {GU}{GU} => {1}{G}
+rules_text: Changeling [i](This card is every creature type.)[/i]
+As Gladewalker Emissary enters, choose a creature type.
+Other creatures of the chosen type get +1/+1 and have ward {1}. => Changeling
+When Gladewalker Emissary enters, search your library for a double faced or snow land card, reveal it, put it into your hand, then shuffle.
+{4}{S}{S}: Creatures you control get +2/+2 until end of turn.
+pt: 2/2 => 1/1
+
+Aldegar, Searching for Stars
+cost: {1}{U}{R}{W} => {1}{U}{R}
+rules_text:  => [i]Orate[/i] — Whenever you activate one of Aldegar's loyalty abilities, create a red Saga enchantment token with that ability as its r{3}.
+[+1]: You may discard up to two cards. If you do, draw that many cards.
+[-2]: Create two Snow Treasure tokens. 
+[-3]: Aldegar deals 3 damage to any target.
+special_text: Whenever you cast a spell with mana value 5 or greater, you may have Aldegar, Searching for Stars become a 5/5 Dragon creature with flying and indestructible until end of turn.
+[+1]: Create a snow Treasure token.
+[-3]: Aldegar, Searching for Stars deals 3 damage to any target. You gain 3 life. => [i]Orate[/i] — Whenever you activate one of Aldegar's loyalty abilities, create a red Saga enchantment token with that ability as its r{3}.
+[+1]: You may discard up to two cards. If you do, draw that many cards.
+[-2]: Create two Snow Treasure tokens. 
+[-3]: Aldegar deals 3 damage to any target.
+
+Alsig, Hardened Reaper
+cost: {B}{B}{B} => {2}{B}{B}
+rules_text: Flying
+If another nontoken creature would die, exile it instead. When you do, you draw a card and you lose 1 life.
+{B}, Discard two cards: Alsig, Hardened Reaper gains indestructible until end of turn. Tap it. => Flying
+Whenever Alsig, Hardened Reaper or another nontoken creature you control dies, if it wasn't attacking or blocking, create a 1/1 white Spirit creature token with flying and each opponent loses 1 life.
+pt: 3/3 => 4/4
+
+Goldspan Hellkite
+
+Vorinclex, the Apex
+type: Legendary Creature — Phyrexian Preator => Legendary Creature — Phyrexian Praetor
+cost: {2}{G}{G}{G}{G} => {G}{G}{G}{G}{G}
+rules_text: Trample
+Ward—Sacrifice a permanent
+During your opponent's turn, permanents you control have indestructible.
+All damage is dealt to permanents opponents control as though its source had deathtouch. => Trample
+Ward—Sacrifice a permanent.
+As long as it isn't your turn, permanents you control have indestructible.
+As long as it is your turn, permanents you control have deathtouch.
+
+Esika, Recovering
+rules_text: Activated abilities of lands you control cost {1} less to activate.
+Once each turn, if you would search your library for one or more land cards, instead you may create that many tokens that are a copy of a land you control. => Once each turn, if you would search your library for one or more land cards, instead you may create that many tokens that are a copy of a land you control.
+pt: 1/3 => 1/4
+
+Knud of the Unknown
+rules_text: At the beginning of your end step, you may sacrifice a nontoken artifact. If you do, create two tokens that are each a copy of that artifact.
+When Knud dies as a creature, return him to the battlefield as a battle with 4 defense counters. => Unbound {2}{R}{G} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of combat on your turn, target nonbattle, noncreature permanent you control becomes a 3/3 Elf creature land with haste until end of turn. 
+When Knud dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+pt: 5/6 => 6/6
+special_text: 2RG — => Unbound {2}{R}{G} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of combat on your turn, target nonbattle, noncreature permanent you control becomes a 3/3 Elf creature land with haste until end of turn. 
+When Knud dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+
+Ingalvur of New Beginnings
+rules_text: Vigilance, haste
+{T}: Add {C} for each enchantment you control.
+When Ingalvur dies as a creature, return them to the battlefield as a battle with 4 defense counters. => Unbound {1}{G}{W} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of your second main phase, add {C} for each enchantment you control.
+When Ingalvur dies as a creature, return them to the battlefield as a Conflict battle with 4 defense counters on them.
+special_text: 1GW — => Unbound {1}{G}{W} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of your second main phase, add {C} for each enchantment you control.
+When Ingalvur dies as a creature, return them to the battlefield as a Conflict battle with 4 defense counters on them.
+
+Bari of Internal Wants
+rules_text: Whenever a creature you control attacks, it deals 1 damage to the player or permanent it is attacking.
+When Bari dies as a creature, return him to the battlefield as a battle with 4 defense counters. => Unbound {1}{B}{R} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Whenever a creature you control attacks, it deals 1 damage to the player or permanent it is attacking.
+When Bari of Internal Wants dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+special_text: 1BR — => Unbound {1}{B}{R} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Whenever a creature you control attacks, it deals 1 damage to the player or permanent it is attacking.
+When Bari of Internal Wants dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+
+Hagduin of the Shadow
+cost: {4}{U}{B} => {3}{U}{B}
+rules_text: Whenever you cast an instant or sorcery spell, you may cast an instant or sorcery card with lesser mana value from your graveyard. Then exile it. 
+When Hagduin dies as a creature, return him to the battlefield as a battle with 4 defense counters. => Unbound {1}{U}{B} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Spells you cast for alternate costs cost {2} less to cast.
+When Hagduin dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+pt: 3/6 => 5/5
+special_text: 1UB — => Unbound {1}{U}{B} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Spells you cast for alternate costs cost {2} less to cast.
+When Hagduin dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+
+Saevel of Thresholds
+cost: {2}{W}{B} => {4}{W}{B}
+rules_text: Whenever a creature attacks a planeswalker you control, that creature's controller loses 1 life and you gain 1 life.
+When Saevel dies as a creature, return her to the battlefield as a battle with 3 defense counters. => Unbound {1}{W}{B} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Lifelink
+Whenever a creature you control dies, Saevel deals 1 damage to each opponent.
+When Saevel dies as a creature, return her to the battlefield as a Conflict battle with 4 defense counters on her.
+pt: 4/4 => 5/5
+special_text: WB — => Unbound {1}{W}{B} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Lifelink
+Whenever a creature you control dies, Saevel deals 1 damage to each opponent.
+When Saevel dies as a creature, return her to the battlefield as a Conflict battle with 4 defense counters on her.
+
+Vinrormr of the Cycle
+rules_text: You may play land cards from your graveyard. If you do, they enter with a finality counter on them.
+When Vinrormr dies as a creature, return her to the battlefield as a battle with 4 defense counters. => Unbound {1}{G}{U} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+You may play land cards from your graveyard.
+When Vinrormr dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+special_text: 1GU — => Unbound {1}{G}{U} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+You may play land cards from your graveyard.
+When Vinrormr dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+
+Lathril of Blade and Claw
+cost: {3}{B}{G} => {4}{B}{G}
+rules_text: Other creatures you control get +1/+0 and have menace.
+When Lathril dies as a creature, return her to the battlefield as a battle with 3 defense counters. => Unbound {2}{B}{G} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Menace
+Other creatures you control get +1/+1 and have menace.
+When Lathril dies as a creature, return her to the battlefield as a Conflict battle with 4 defense counters on her.
+pt: 5/4 => 6/6
+special_text: 1BG — => Unbound {2}{B}{G} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Menace
+Other creatures you control get +1/+1 and have menace.
+When Lathril dies as a creature, return her to the battlefield as a Conflict battle with 4 defense counters on her.
+
+Vragi, Hero of Sevalgr
+rules_text:  => Creatures you control have “Teamwork — Loyalty” [i](Whenever a creature you control deals combat damage to a noncreature, you may put a loyalty counter on another target permanent you control.)[/i]
+[-1]: Create a 3/3 red Warrior creature token.
+[-X]: Exile target nonland permanent with mana value X or less.
+special_text: Creatures you control have “Teamwork — Loyalty” [i](Whenever they deal combat damage to a noncreature, you may put a loyalty counter on another permanent you control.”)[/i]
+[-1]: Create a 3/3 red Warrior creature token.
+[-X]: Exile target nonland permanent with mana value X or less. => Creatures you control have “Teamwork — Loyalty” [i](Whenever a creature you control deals combat damage to a noncreature, you may put a loyalty counter on another target permanent you control.)[/i]
+[-1]: Create a 3/3 red Warrior creature token.
+[-X]: Exile target nonland permanent with mana value X or less.
+
+Ciar, Engineer of Ruin
+rules_text:  => [+1]: Surveil 2, then draw a card.
+[+1]: Remove all counters from target permanent. You gain life equal to the number of counters removed this way.
+[-3]: Return target creature card from your graveyard to the battlefield as a Conflict battle with 3 starting defense under an opponent's protection. It becomes a creature when defeated.
+special_text: [+1]: Surveil 3, then draw a card.
+[+1]: Remove all counters from target permanent. You gain life equal to the number of counters removed this way.
+[-3]: Return target creature card from your graveyard to the battlefield as a Conflict battle with 3 starting defense under an opponent's protection. It's not a creature as long as it has defense counters on it. => [+1]: Surveil 2, then draw a card.
+[+1]: Remove all counters from target permanent. You gain life equal to the number of counters removed this way.
+[-3]: Return target creature card from your graveyard to the battlefield as a Conflict battle with 3 starting defense under an opponent's protection. It becomes a creature when defeated.
+loyalty: 5 => 4
+
+Jarl of the Empty House
+cost: {1}{U}{U}{B}{B} => {1}{U}{B}
+rules_text: When Jarl of the Empty House enters, if you cast it, each other creature gets -X/-X until end of turn, where X is the number of snow permanents you control. => [i]Orate[/i] — Whenever two or more creatures you control deal combat damage to an opponent, create a black Saga enchantment token with “r{3}—Return target Zombie creature card with mana value 3 or less from your graveyard to the battlefield.”
+Zombiecycling {U}{B} [i]({U}{B}, Discard this card: Search your library for a Zombie card, reveal it, put it into your hand, then shuffle.)[/i]
+pt: 4/4 => 3/2
+
+Cairnsplitter
+rules_text: Whenever Cairnsplitter attacks, do each of the following based on number of snow permanents you control.
+[b]3+ [/b]| You may discard a card. If you do, draw a card.
+[b]6+[/b] | Creatures you control can't be blocked by creatures with power 2 or less this turn.
+[b]9+[/b] | Create a tapped and attacking token that's a copy of an attacking creature you control. => Cairnsplitter has hexproof as long as you control five or more snow permanents.
+{S}: Target creature gains your choice of haste, menace, reach, trample, or vigilance until end of turn.
+Trollcycling {R}{G} [i]({R}{G}, Discard this card: Search your library for a Troll card, reveal it, put it into your hand, then shuffle.)[/i]
+pt: 2/3 => 3/3
+
+Trollking of Mossrun
+cost: {X}{R}{G} => {R}{G}
+rules_text: Trollking of Mossrun enters with X +1/+1 counters on it.
+Whenever Trollking of Mossrun or another Troll you control enters, you may destroy target artifact or enchantment with lesser mana value than its power. => Whenever you activate an ability of a Troll, put a +1/+1 counter on it.
+pt: 2/2 => 
+
+Gods' Hall
+
+Goldmaw Chasm
+
+Jaspera of Dreams
+rules_text: {T}: Add {C}.
+{X}{U}{B}, {T}, Exile a card with mana value X: You may cast target instant or sorcery card in your graveyard with mana value X without paying its mana cost. Then exile it. => {T}: Add {C}.
+{X}{U}{B}, Exile a card with mana value X from your graveyard, {T}: You may cast target instant or sorcery card in your graveyard with mana value X without paying its mana cost. Then exile it.
+
+Jaspera of Growth
+
+Jaspera of Health
+
+Jaspera of Necessities
+
+Jaspera of Ruin
+
+Jaspera of Strife
+
+Jaspera of Vigor
+
+Surtland Conflux
+
+Rimewood Falls
+
+Arctic Treeline
+
+Volatile Fjord
+
+Ice Tunnel
+
+Highland Forest
+
+Alpine Meadow
+
+Glacial Floodplain
+
+Snowfield Sinkhole
+
+Woodland Chasm
+
+Sulfurous Mire
+
+Stormwake Drakkar
+cost: {4} => {2}
+rules_text: Crew 3 [i](Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)[/i] => Whenever Stormwake Drakkar attacks, draw a card, then discard a card.
+Crew 2 [i](Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]
+pt: 6/6 => 3/3
+
+Coil of Eternity
+type: Snow Creature — Serpent => Snow Creature
+cost: {6}{G} => {4}{G}
+pt: 7/7 => 5/5
+
+Teacher of the Third Strike
+rules_text: Teamwork — Vigilance [i](Whenever this creature deals combat damage to a noncreature, you may put a Vigilance counter on another target permanent you control.)[/i] => Vigilance
+Teamwork — Vigilance [i](Whenever this creature deals combat damage to a noncreature, you may put a vigilance counter on another target permanent you control.)[/i]
+pt: 3/1 => 2/2
+
+Dwarven Ritualist
+
+Honorbound Witness
+rules_text: Flying
+Whenever an enchantment you control enters or leaves the battlefield, you may tap target creature. => Flying
+Whenever an enchantment you control enters or leaves the battlefield, you may pay {1}. If you do, tap target creature.
+
+Runeshield Shepherd
+rules_text: Flying
+When Runeshield Shepherd enters, exile target nonland permanent you don't control until Runeshield Shepherd leaves the battlefield. => Flying
+When Runeshield Shepherd enters, exile target nonland permanent you don't control until Runeshield Shepherd leaves the battlefield. 1WW — 5
+special_text: 1WW — => Flying
+When Runeshield Shepherd enters, exile target nonland permanent you don't control until Runeshield Shepherd leaves the battlefield. 1WW — 5
+
+Craven Coward
+rules_text: Whenever another creature you control dies, put a +1/+1 counter on Craven Coward. You gain 1 life. => Whenever a permanent you control leaves the battlefield, put a +1/+1 counter on Craven Coward. You gain 1 life.
+
+Reidane's Outriders
+rules_text: Lifelink
+When Reidane's Outriders enters, put a +1/+1 counter on each of up to two other target creatures you control. => Lifelink
+When Reidane's Outriders enters, put a +1/+1 counter on each of up to two other target creatures you control. 2W — 3
+special_text: 2W — => Lifelink
+When Reidane's Outriders enters, put a +1/+1 counter on each of up to two other target creatures you control. 2W — 3
+
+Sevalgr Tinkerer
+
+Shepherd Aspirant
+rules_text: Vigilance
+[i]Orate[/i] — When Shepherd Aspirant enters, if you cast it, create a white Saga enchantment token with “r{3}—Exile up to one target creature, then return it to the battlefield.” => [i]Orate[/i] — When Shepherd Aspirant enters, if you cast it, create a white Saga enchantment token with “r{3}—Exile up to one target creature, then return it to the battlefield under its owner's control.”
+pt: 2/2 => 3/1
+
+Accordant Valkyrie
+
+Code of the Clans
+rules_text: When Code of the Clans enters, create a 3/3 red Warrior creature token and a 1/1 white Human creature token.
+Whenever one or more creatures enter under your control for the first time each turn, scry 1. => When Code of the Clans enters, create a 3/3 red Berserker creature token and a 1/1 white Human creature token.
+Whenever one or more creatures enter under your control for the first time each turn, scry 1.
+
+Judge the Unworthy
+
+Brace Against Ruin
+
+Lawbearer's Axe
+
+Aurora Charger
+
+Harried Covewalker
+rules_text: Changeling [i](This card is every creature type.)[/i]
+When Harried Covewalker enters, you may return another target nonland permanent to its owner's hand. => Changeling
+When Harried Covewalker enters, you may return another target nonland permanent to its owner's hand. 1U — 4
+special_text: 1U — => Changeling
+When Harried Covewalker enters, you may return another target nonland permanent to its owner's hand. 1U — 4
+
+Vela Heights Colossus
+rules_text: Vigilance
+When Vela Heights Colossus enters, scry 3, then draw a card. => Vigilance
+When Vela Heights Colossus enters, scry 3, then draw a card. 1U — 4
+special_text: 1U — => Vigilance
+When Vela Heights Colossus enters, scry 3, then draw a card. 1U — 4
+
+Draugr Ritualist
+
+Deep Freeze
+cost: {1}{U} => {2}{U}
+
+Spirit of Borrowed Deeds
+
+Skyspine Observer
+cost: {6}{U} => {7}{U}
+rules_text: This spell costs {1} less to cast for each snow permanent you control.
+Ward {2} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i] => This spell costs {1} less to cast for each snow permanent you control.
+Ward {2}
+
+Negate
+
+Whisperwing Courier
+
+Snowspeaker
+rules_text: {T}: Add {C}. This mana can't be cast to cast nonsnow creature spells.
+{5}{S}{S}: Snowspeaker's base power and toughness each become equal to the number of snow permanents you control. [i](This effect lasts indefinitely.)[/i] => {T}: Add {C}. This mana can't be spent to cast nonsnow creature spells.
+{5}{S}{S}: Snowspeaker's base power and toughness each become equal to the number of snow permanents you control. [i](This effect lasts indefinitely.)[/i]
+
+Run Ashore
+
+Whsipered Edge
+
+Bitter Raider
+
+Blighted Duskwielder
+
+Jormund Adjudicator
+
+Skulder's Mound Marauder
+
+Graveward Keeper
+rules_text: When Graveward Keeper enters, create two 2/2 black Zombie Warrior creature tokens. => When Graveward Keeper enters, create two 2/2 black Zombie Warrior creature tokens. 3B — 4
+special_text: 3B — => When Graveward Keeper enters, create two 2/2 black Zombie Warrior creature tokens. 3B — 4
+
+Doomskar Harbinger
+
+Chained Ravager
+rules_text: At the beginning of your upkeep, each opponent loses 1 life and you gain 1 life. => At the beginning of your upkeep, each opponent loses 1 life and you gain 1 life. 1BB — 5
+special_text: 1BB — => At the beginning of your upkeep, each opponent loses 1 life and you gain 1 life. 1BB — 5
+
+Reaper Ritualist
+rules_text: Flying
+Whenever another creature you control named Reaper Ritualist enters, each opponent discards a card. => Flying
+Reaper Ritualist can't block.
+Whenever another creature you control named Reaper Ritualist enters, each opponent discards a card.
+
+Omen of Fright
+
+Feast of Empty Vaults
+
+Failure of Form
+
+Unwept and Unnamed
+
+Stand Resolute
+rules_text: Until end of turn, target creature gets +2/+0 and gains “When this creature dies, return it to the battlefield under its owner's control and create a 1/1 white Warrior creature token.” => Until end of turn, target creature gets +2/+0 and gains “When this creature dies, return it to the battlefield under its owner's control and create a 1/1 white Human creature token.”
+
+Rotmaw Ursine
+
+Rootwoven Blade
+rules_text: When Rootwoven Blade enters, create two 1/1 green Elf Warrior creature tokens.
+Equipped creature gets +1/+0 for each creature you control.
+Equip {4} => When Rootwoven Blade enters, create two 1/1 green Elf Warrior creature tokens.
+Equipped creature gets +1/+0 for each creature you control.
+Equip {5}
+
+Ruinpicker Troll
+type: Snow Creature — Troll Shaman => Snow Creature — Troll Sorcerer
+
+Avalanche Hagi
+
+Rimefang Rootwalla
+
+Bond in Battle
+
+Drive the Wound Deeper
+
+Tuskeri Recruit
+rules_text: Menace
+Teamwork — Menace [i](Whenever this creature deals combat damage to a noncreature, you may put a Menace counter on another target permanent you control.)[/i] => Menace
+Teamwork — Menace [i](Whenever this creature deals combat damage to a noncreature, you may put a menace counter on another target permanent you control.)[/i]
+
+Tuskeri Ritualist
+
+Surtland Marauder
+rules_text: When Surtland Marauder enters, it deals 2 damage to any other target. => When Surtland Marauder enters, it deals 2 damage to any other target. R — 4
+special_text: R — => When Surtland Marauder enters, it deals 2 damage to any other target. R — 4
+
+Firesong Braggart
+
+Magda's Charger
+
+Boast of the Bloodied
+
+Overbearing Lightning
+
+Ode Singer
+cost: {1}{R} => {2}{R}
+pt: 3/1 => 3/2
+
+Goldhoard Howler
+type: Creature — Wolf => Snow Creature — Wolf
+rules_text: During your turn, Goldhoard Howler has first strike.
+When Goldhoard Howler enters, create two tapped snow Treasure tokens. => During your turn, Goldhoard Howler has first strike.
+When Goldhoard Howler enters, create two tapped snow Treasure tokens. 2R — 3
+special_text: 2R — => During your turn, Goldhoard Howler has first strike.
+When Goldhoard Howler enters, create two tapped snow Treasure tokens. 2R — 3
+
+Tithefang
+cost: {R} => {1}{R}
+rules_text: Equipped creature gets +1/+0 and has “Whenever this creature deals combat damage to a player or battle, create a snow Treasure token.”
+Equip {1} => When Tithefang enters, exile the top card of your library. You may play it until the end of your next turn.
+Equipped creature gets +2/+0.
+Equip {1}
+
+Gladewalker Ritualist
+rules_text: Changeling [i](This card is every creature type.)[/i]
+Whenever another creature you control named Gladewalker Ritualist enters, draw a card. => Changeling
+Whenever another creature you control named Gladewalker Ritualist enters, draw a card.
+
+Gnottvold Rampager
+
+Petrified Hermit
+special_text: 2G — => 
+
+Sculptor of Winter
+
+Serpent of the First Thaw
+
+Gladebond Protector
+rules_text: When Gladebond Protector enters, create a 1/1 green Elf Warrior creature token. => When Gladebond Protector enters, create a 1/1 green Elf Warrior creature token. G — 3
+special_text: G — => When Gladebond Protector enters, create a 1/1 green Elf Warrior creature token. G — 3
+
+Triumphant Defeat
+rules_text: Target creature you control fights target creature you don't control.
+[i]Orate[/i] — When the creature you control wins the fight, create a blue Saga enchantment token with “r{3}—Draw a card.” [i](A creature wins the fight if it survives while the opponent's creature dies.)[/i] => Target creature you control fights target creature you don't control.
+[i]Orate[/i] — When the creature you control wins the fight, create a blue Saga enchantment token with “r{3}—Draw a card.” [i](A creature wins the fight if it survives while the opponent's creature dies.)[/i] [i](Each deals damage equal to its power to the other.)[/i]
+
+Spilling Tyrite
+
+Felling Blow
+
+Feltmark Violinist
+rules_text: [i]Orate[/i] — When Feltmark Violinist enters, create a green Saga token with “r{3}—You may search your library for a land card, reveal it, put it into your hand, then shuffle.” => [i]Orate[/i] — When Feltmark Violinist enters, create a green Saga enchantment token with “r{3}—You may search your library for a land card, reveal it, put it into your hand, then shuffle.”
+
+Warden of the Cursed Path
+type: Creature — Human Shaman => Creature — Human Scout
+rules_text: Vigilance
+Teamwork — Trample [i](Whenever this creature deals combat damage to a noncreature, you may put a Trample counter on another target permanent you control.)[/i] => Vigilance
+Teamwork — Trample [i](Whenever this creature deals combat damage to a noncreature, you may put a trample counter on another target permanent you control.)[/i]
+
+Cover in Ice
+
+Boughcleaver
+rules_text: Flash
+When Boughcleaver enters, attach it to target creature you control.
+Equipped creature gets +2/+2.
+Equip {4} => When Boughcleaver enters, look at the top five cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+Equipped creature gets +2/+2.
+Equip {4}
+
+Voice of the Wanderers
+cost: {2}{G} => {3}{G}
+pt: 2/4 => 4/4
+
+Crumbling Ruins
+
+Narfi, Raider of the Realms
+
+Kardur, Unbound Doom
+rules_text: Whenever you sacrifice a creature, the next spell you cast this turn costs {1} less to cast. [i](This stacks.)[/i]
+Whenever a creature you control deals combat damage to a noncreature, you may sacrifice it. If you do, you draw a card and you lose 1 life. => Whenever you sacrifice a creature, create a snow Treasure token. Sacrifice it at the beginning of the next end step.
+Whenever a creature you control deals combat damage to a noncreature, you may sacrifice it. If you do, you draw a card and you lose 1 life.
+
+Glashruk, Gnottvold Reaver
+
+Ylva, Spear of Bretagard
+
+Firja, Judge and Executioner
+
+Metar, Sky-Breaker
+type: Legendary Creature — Giant Shaman => Legendary Creature — Giant Wizard
+cost: {3}{U}{U}{R}{R} => {1}{U}{U}{R}{R}
+rules_text: Ward {3}
+Whenever you cast a spell with mana value 5 or greater, Metar, Sky-Breaker deals 3 damage to any target. => Unbound {U}{R} — 6/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Trample
+Whenever you cast a spell with mana value 5 or greater, remove two defense counters from Metar. If you can't, put two +1/+1 counters on him.
+pt: 7/7 => 6/6
+special_text:  => Unbound {U}{R} — 6/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Trample
+Whenever you cast a spell with mana value 5 or greater, remove two defense counters from Metar. If you can't, put two +1/+1 counters on him.
+
+Magnhild of the Red Ridge
+
+Kerr, Student of Forms
+rules_text: Changeling [i](This card is every creature type.)[/i]
+Kerr, Student of Forms has all activated abilities of other snow permanents you control.
+{4}{S}{S}: Put three +1/+1 counters on Kerr, Student of Forms. => Changeling
+Kerr, Student of Forms has all activated abilities of other snow permanents you control.
+{4}{S}{S}: Put three +1/+1 counters on Kerr, Student of Forms.
+
+Koma, Eater of Realms
+
+Covewalker Acolyte
+rules_text: Changeling [i](This card is every creature type.)[/i]
+You may cast noncreature spells as copies as any nontoken creature you control. It gains changeling. [i](You pay the creature's mana cost and it resolves as the creature.)[/i]
+Shapeshiftercycling {G}{U} [i]({G}{U}, Discard this card: Search your library for a Shapeshifter card, reveal it, put it into your hand, then shuffle.)[/i] => Changeling
+You may cast noncreature spells as copies as any nontoken creature you control. It gains changeling. [i](You pay the creature's mana cost and it resolves as the creature.)[/i]
+Shapeshiftercycling {G}{U} [i]({G}{U}, Discard this card: Search your library for a Shapeshifter card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Axgard Reinforcements
+rules_text: Token creatures you control have “Teamwork — +1/+1” [i](Whenever a token creature you control deals combat damage to a noncreature, you may put a +1/+1 counter on another target permanent you control.)[/i]
+When Axgard Reinforcements enters, create two 2/1 red Dwarf Berserker creature tokens. => Token creatures you control have “Teamwork — +1/+1”. [i](Whenever a token creature you control deals combat damage to a noncreature, you may put a +1/+1 counter on another target permanent you control.)[/i]
+When Axgard Reinforcements enters, create two 2/1 red Dwarf Berserker creature tokens.
+
+Harthall Evincar
+
+Laid Among the Roots
+
+Frostflame Ascetic
+
+Skybreaker's Herald
+cost: {3}{U}{R} => {10}{U}{R}
+rules_text: Whenever Skybreaker's Herald or another Giant you control enters, it deals damage up to one target creature or planeswalker equal to its power. If excess damage was dealt this way, create a snow Treasure token.
+Giantcycling {U}{R} [i]({U}{R}, Discard this card: Search your library for a Giant card, reveal it, put it into your hand, then shuffle.)[/i] => This spell costs {2} less to cast for each card in your graveyard with mana value 5 or greater.
+This spell can't be countered.
+Trample, ward {2}
+Giantcycling {U}{R} [i]({U}{R}, Discard this card: Search your library for a Giant card, reveal it, put it into your hand, then shuffle.)[/i]
+pt: 4/4 => 6/6
+
+Contest of Valkyries
+
+Ride of the Valkyries
+
+Maja, Bretagard's Heart
+rules_text: Maja, Bretagard's Heart gets +1/+1 for each lore counter on Sagas you control.
+[i]Orate[/i] — Whenever a final chapter ability of a Saga you control resolves, create a green Saga with “r{3}—Create two 1/1 white Human creature tokens.” => Maja, Bretagard's Heart gets +1/+1 for each lore counter on Sagas you control.
+[i]Orate[/i] — Whenever a final chapter ability of a Saga you control resolves, create a green Saga enchantment token with “r{3}—Create two 1/1 white Human creature tokens.”
+
+Rekindle History
+rules_text: Return all enchantment and Bard cards from your graveyard to the battlefield.
+Humancycling {G}{W} [i]({G}{W}, Discard this card: Search your library for a Human card, reveal it, put it into your hand, then shuffle.)[/i] => Return all enchantment and Bard cards from your graveyard to the battlefield.
+Bardcycling {G}{W} [i]({G}{W}, Discard this card: Search your library for a Bard card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Bloodsky Conquerer
+rules_text: Flying, trample
+When Bloodsky Conquerer enters, create a 1/1 red Berserker creature token with menace.
+{B}{R}, Sacrifice a creature: Bloodsky Conquerer deals 2 damage to any target. => Flying
+When Bloodsky Conquerer enters, it deals 10 damage to each battle. 2BR — 4
+pt: 6/4 => 7/7
+special_text: BR — => Flying
+When Bloodsky Conquerer enters, it deals 10 damage to each battle. 2BR — 4
+
+Blood Price
+rules_text: Exile target creature or planeswalker
+Demoncycling {B}{R}, Berserkercycling {B}{R}. [i](Discard this card: Search your library for a Demon or Berserker card, reveal it, put it into your hand, then shuffle.)[/i] => Exile target creature or planeswalker.
+Demoncycling {B}{R}, Berserkercycling {B}{R}. [i]({B}{R}, Discard this card: Search your library for a Demon or Berserker card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Lord of Rust and Bone
+
+Faded Shieldmate
+
+Guardian of the Honored
+rules_text: Flying
+Teamwork — Flying [i](Whenever this creature deals combat damage to a noncreature, you may put a Flying counter on another target permanent you control.)[/i]
+Whenever you put one or more counters on a permanent, you gain 1 life. => Flying
+Teamwork — Flying [i](Whenever this creature deals combat damage to a noncreature, you may put a flying counter on another target permanent you control.)[/i]
+Whenever you put one or more counters on a permanent, you gain 1 life.
+
+Storyforged Champion
+
+Axgard Warden
+rules_text: Flash
+When Axgard Warden enters, it deals damage to target creature or planeswalker you don't control equal to the number of creatures you control. => Flash
+When Axgard Warden enters, it deals damage to target creature or planeswalker you don't control equal to the number of creatures you control. 1W — 4
+special_text: 1W — => Flash
+When Axgard Warden enters, it deals damage to target creature or planeswalker you don't control equal to the number of creatures you control. 1W — 4
+
+Curse-Bound Wayfarer
+rules_text: Lifelink
+Each player can't cast more than one noncreature spell each turn. => Lifelink
+Each player can't cast more than one noncreature spell each turn. 1W — 3
+special_text: 1W — => Lifelink
+Each player can't cast more than one noncreature spell each turn. 1W — 3
+
+Beskir Lawspeaker
+rules_text: As long as an enchantment has entered or left under your control this turn, Beskir Lawspeaker has indestructible.
+[i]Orate[/i] — {3}{W}, Exile Beskir Lawspeaker from your graveyard: Create a green Saga enchantment token with “r{3}—Create two 1/1 white Human creature tokens.” => As long as an enchantment has entered or left the battlefield under your control this turn, Beskir Lawspeaker has indestructible.
+[i]Orate[/i] — {3}{W}, Exile Beskir Lawspeaker from your graveyard: Create a green Saga enchantment token with “r{3}—Create two 1/1 white Human creature tokens.”
+
+Storysmith of the Hearth
+
+Righteous Roar
+
+Bond of the Code
+cost: {1}{W} => {2}{W}
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Create a 1/1 white Human creature token. You gain 1 life.
+III — Create an enchantment token named Glorious Anthem with “Creatures you control get +1/+1.”
+​
+special_text: 
+I, II — Create a 1/1 white Human creature token.
+III — Create an enchantment token named Glorious Anthem with “Creatures you control get +1/+1.” => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Create a 1/1 white Human creature token. You gain 1 life.
+III — Create an enchantment token named Glorious Anthem with “Creatures you control get +1/+1.”
+​
+
+Covewalker Seer
+rules_text: Changeling [i](This card is every creature type.)[/i]
+Vigilance
+At the beginning of your end step, you may have Covewalker Seer become an Island land until your next turn. [i](It's no longer a creature and has “{T}: Add {U}.” It's still snow.)[/i] => Changeling
+Vigilance
+At the beginning of your end step, you may have Covewalker Seer become an Island land until your next turn. [i](It's no longer a creature and has “{T}: Add {U}.” It's still snow.)[/i]
+
+Frostbitten Legion
+
+Rimebound Mystic
+rules_text: Trample
+When Rimebound Mystic enters, draw three cards. => Trample
+When Rimebound Mystic enters, draw three cards. 3UU — 5
+special_text: 3UU — => Trample
+When Rimebound Mystic enters, draw three cards. 3UU — 5
+
+Weaver of False Tales
+
+Gift of the Frost-Crown
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw a card.
+You may shuffle your graveyard into your library. [i](But not this card.)[/i]
+​
+special_text: 
+Draw a card.
+You may shuffle your graveyard into your library. [i](But not this card.)[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw a card.
+You may shuffle your graveyard into your library. [i](But not this card.)[/i]
+​
+
+Coward Slayer
+
+Harthhall Champion
+pt: 2/1 => 2/2
+
+Remnant of Karfell
+rules_text: At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life. => At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life. B — 3
+special_text: B — => At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life. B — 3
+
+Skemfar Intruder
+rules_text: Menace
+At the beginning of your end step, if a permanent you controlled left the battlefield this turn, put a +1/+1 counter on Skemfar Intruder . => Menace
+At the beginning of your end step, if a permanent you controlled left the battlefield this turn, put a +1/+1 counter on Skemfar Intruder.
+
+Valki's Pawn
+type: Creature — Human Rogue => Creature — Human Berserker
+rules_text: Deathtouch
+Teamwork — Deathtouch [i](Whenever this creature deals combat damage to a noncreature, you may put a Deathtouch counter on another target permanent you control.)[/i] => Deathtouch
+Teamwork — Deathtouch [i](Whenever this creature deals combat damage to a noncreature, you may put a deathtouch counter on another target permanent you control.)[/i]
+
+Selfcrowned Skald
+type: Creature — Human Bard Cleric => Creature — Human Bard Berserker
+rules_text: Menace, lifelink
+[i]Orate[/i] — When Selfcrowned Skald enters, create a black Saga enchantment token with “r{3}—Create a 6/6 black Demon creature token. You lose 6 life unless you sacrifice a Cleric.” => Menace, lifelink
+[i]Orate[/i] — When Selfcrowned Skald enters, create a black Saga enchantment token with “r{3}—Create a 6/6 black Demon creature token. You lose 6 life unless you sacrifice a Bard.”
+
+Festering Rebirth
+
+Vision in the Drifts
+rules_text: Reveal the top five cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order. You lose 2 life for each nonsnow card put into your hand this way. => Reveal the top five cards of your library. Put up to two of them into your hand and the rest on the bottom of your library in any order. You lose 2 life for each nonsnow card put into your hand this way.
+
+Flamesight Augur
+rules_text: Prowess
+When Flamesight Augur enters, exile the top three cards of your library. You may play them until the end of your next turn. => Prowess
+When Flamesight Augur enters, exile the top three cards of your library. You may play them until the end of your next turn. 2R — 5
+special_text: 2R — => Prowess
+When Flamesight Augur enters, exile the top three cards of your library. You may play them until the end of your next turn. 2R — 5
+
+Axgard Doorwarden
+type: Creature — Dwarf => Creature — Dwarf Warrior
+
+Stormchant Magus
+
+The Gates Stood Strong
+cost: {1}{R} => {2}{R}
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Create a tapped snow Treasure token. The Gates Stood Strong deals 1 damage to each opponent.
+III — When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.
+​
+special_text: 
+I, II — Create a tapped snow Treasure token.
+III — When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Create a tapped snow Treasure token. The Gates Stood Strong deals 1 damage to each opponent.
+III — When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.
+​
+
+Burn the Oathless
+
+Gladewalker Wanderers
+rules_text: Changeling [i](This card is every creature type.)[/i]
+When you cast Gladewalker Wanderers, reveal the top six cards of your library. You may put a permanent card with mana value 5 or less from among them onto the battlefield, then shuffle the rest into your library. => Changeling
+When you cast Gladewalker Wanderers, reveal the top six cards of your library. You may put a permanent card with mana value 5 or less from among them onto the battlefield, then shuffle the rest into your library.
+
+Sagaweaver of Koma
+
+Coilseeker
+
+Burrowed Torga
+type: Creature — Troll Shaman => Creature — Troll Druid
+rules_text: Burrowed Torga's power is equal to the number of lands you control.
+Lands you control enter the battlefield untapped. => Burrowed Torga's power is equal to the number of lands you control.
+Lands you control enter the battlefield untapped. 1G — 3
+special_text: 1G — => Burrowed Torga's power is equal to the number of lands you control.
+Lands you control enter the battlefield untapped. 1G — 3
+
+Lathril's Chant
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Chose target creature you control. It fights target creature you don't control.
+Put a +1/+1 counter on the chosen creature. If you don't control it, create a 1/1 green Elf Warrior creature instead.
+Put an indestructible counter on the chosen creature. It becomes a God in addition to its other types.
+special_text: 
+Chose target creature you control. It fights target creature you don't control.
+Put a +1/+1 counter on the chosen creature. If you don't control it, create a 1/1 green Elf Warrior creature instead.
+Put an indestructible counter on the chosen creature. It becomes a God in addition to its other types. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Chose target creature you control. It fights target creature you don't control.
+Put a +1/+1 counter on the chosen creature. If you don't control it, create a 1/1 green Elf Warrior creature instead.
+Put an indestructible counter on the chosen creature. It becomes a God in addition to its other types.
+
+Into the North
+
+Runesworn Champion
+
+Elderleaf Bowmaster
+rules_text: Teamwork — Trample [i](Whenever this creature deals combat damage to a noncreature, you may put a Trample counter on another target permanent you control.)[/i]
+Whenever a creature you control with a counter on it deals combat damage to a noncreature, you may remove a counter from it. If you do, create a 1/1 green Elf Warrior creature token. => Teamwork — Trample [i](Whenever this creature deals combat damage to a noncreature, you may put a trample counter on another target permanent you control.)[/i]
+Whenever a creature you control with a counter on it deals combat damage to a noncreature, you may remove a counter from it. If you do, create a 1/1 green Elf Warrior creature token.
+
+Karo Stone
+
+Realmsplitter
+
+Stonespeaker Crystal
+type: Artifact => Snow Artifact
+rules_text: {T}: Add {C}{C}.
+{2}, {T}, Sacrifice Stonespeaker Crystal: Exile any number of target players' graveyards. Draw a card. => {T}: Add {C}{C}.
+{2}, {T}, Sacrifice Stonespeaker Crystal: Draw two cards.
+
+Protector of the Eight Doors
+rules_text: Creatures can't attack you or battles you protect unless their controller pays {2} for each creature they control that's attacking you or a battle you protect. => Creatures can't attack you or battles you protect unless their controller pays {2} for each creature they control that's attacking you or a battle you protect. 2W — 4
+special_text: 2W — => Creatures can't attack you or battles you protect unless their controller pays {2} for each creature they control that's attacking you or a battle you protect. 2W — 4
+
+Reciter of Tales
+
+Speaker of Bretagard
+rules_text: Whenever a Saga you control enters or leaves, create a 1/1 white Human creature token.
+[i]Orate[/i] — {4}{W}: Create a white Saga enchantment token with “r{3}—You gain 3 life.” => Whenever a Saga you control enters or leaves the battlefield, create a 1/1 white Human creature token.
+[i]Orate[/i] — {4}{W}: Create a white Saga enchantment token with “r{3}—You gain 3 life.”
+
+Istfell Wanderer
+rules_text: [i]Orate[/i] — Whenever Istfell Wanderer deals combat damage to a noncreature, create a blue Saga enchantment token with “r{3}—Draw a card.”
+Discard a card: Istfell Wanderer can't be blocked this turn. => [i](Redesign)[/i]
+Teamwork card
+
+Runebound Mentor
+rules_text: At the beginning of your upkeep, you may draw a card. => At the beginning of your upkeep, you may draw a card. 1UU — 5
+special_text: 1UU — => At the beginning of your upkeep, you may draw a card. 1UU — 5
+
+Volatile Spellcatcher
+rules_text: Flash
+Changeling [i](This card is every creature type.)[/i]
+Flying
+When Volatile Spellcatcher enters, you may put tap it and put two stun counters on it. If you do, counter target noncreature spell. => Flash
+Changeling
+Flying
+When Volatile Spellcatcher enters, you may put tap it and put two stun counters on it. If you do, counter target noncreature spell.
+
+Giant's Rebuff
+
+Elskul Rager
+
+Skelle Scorn Pole
+
+Sarulf, Dread-Wolf
+cost: {2}{B}{B} => {3}{B}{B}
+rules_text: Menace
+Teamwork — Menace [i](Whenever this creature deals combat damage to a noncreature, you may put a Menace counter on another target permanent you control.)[/i]
+Whenever you put one or more counters on a permanent, each opponent loses 1 life and you gain 1 life. => At the beginning of combat on each player's turn, that player chooses another creature. Destroy that creature and put a +1/+1 counter on Sarulf, Dread-Wolf.
+pt: 4/5 => 3/3
+
+Olsen Moltenhand
+cost: {2}{R}{R} => {1}{R}
+rules_text: Other Berserkers you control attack each combat if able.
+At the beginning of combat on your turn, create a 2/1 red Dwarf Berserker creature token with haste. You may attach an Equipment you control to it. => Ward—Pay 2 life.
+Whenever Olsen Moltenhand attacks while modified, his base power and toughness become 4/4, it gains flying, and is a Dragon in addition to his types. [i](He's modified as long as there's an Equipment or Aura attached to him or a counter on him. This doesn't end at end of turn.)[/i]
+pt: 4/4 => 3/2
+
+Surtland Lumberjack
+rules_text: If a source you control would deal damage to a permanent or player, it deals double that damage instead. => [i](redesign)[/i] 3RR — 6 (redesign)[/i]
+special_text: 3RR — => [i](redesign)[/i] 3RR — 6 (redesign)[/i]
+
+Heirloom Fang
+rules_text: Equipped creature has double strike and “Whenever this creature attacks, put a +1/+1 counter on it.”
+Equip {3} => Equipped creature has double strike and “Whenever this creature attacks, put a +1/+1 counter on it.”
+Equip {2}
+
+Horncaller of the Kannah
+
+The Raider's Trail
+type: Enchantment => Legendary Enchantment
+rules_text: Whenever a creature you control leaves the battlefield, put its counters on The Raider's Trail. If it had no counters, put a +1/+1 counter on The Raider's Trail.
+At the beginning of combat on your turn, if The Raider's Trail has counters on it, you may move all counters from it onto target creature. => Whenever put one or more counters on a creature you control, you may put that many of those kinds of counters on The Raider's Trail.
+At the beginning of combat on your turn, you may have The Raider's Trail become a 2/2 Phyrexian Beast enchantment creature until end of turn.
+
+Blighted Pack
+rules_text: Create a 2/2 green Wolf creature token for each snow permanent you control. => Create a 2/2 green snow Phyrexian Wolf creature token for each snow permanent you control.
+
+Ciar's Fleshroot
+type: Creature — Horror => Creature — Troll Horror
+rules_text: Vigilance
+You may play an additional land on each of your turns. => Vigilance
+You may play an additional land on each of your turns. 1G — 3
+special_text: 1G — => Vigilance
+You may play an additional land on each of your turns. 1G — 3
+
+Blade of the Worthy
+
+Dwarf Berserker
+
+Human
+
+Spirit
+
+Glorious Anthem
+
+Berserker
+
+Vehicle
+rules_text: Crew 1 [i](Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)[/i] => Crew 1
+
+Snow Treasure
+
+Zombie Warrior
+
+Elf Warrior
+
+Demon
+
+Giant
+
+Warrior
+type: Token Snow Creature — Warrior => Token Creature — Warrior
+pt: 3/2 => 3/3
+
+Shapeshifter
+rules_text: Changeling [i](This card is every creature type.)[/i] => Changeling
+
+Koma's Coil
+
+Bird Spirit
+
+Elk Spirit
+
+Troll
+
+Wolf
+type: Token Creature — Wolf => Token Snow Creature — Phyrexian Wolf
+
+Ode to Discovery
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Saevel calls from beyond the snow,
+To paths untouched by hearth or throne,
+Where only wandering feet may go.”[/i]
+III — Exile up to one target creature, then return it to the battlefield under its owner's control.
+​
+special_text: 
+“[i]The waves have carried us afar,
+Through omenpaths both wide and strange,
+Till home remembers where we are.”[/i]
+Search your library for a land card, reveal it, put it into your hand, then shuffle.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Saevel calls from beyond the snow,
+To paths untouched by hearth or throne,
+Where only wandering feet may go.”[/i]
+III — Exile up to one target creature, then return it to the battlefield under its owner's control.
+​
+
+Ode to Kin
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Ingalvur walks where first steps fall,
+Through newborn roads and untamed glen,
+And teaches wandering hearts to call.”[/i]
+You gain 3 life.
+​
+special_text: 
+“[i]The gods have smiled to grant you here,
+A gift more bright than gold or fame,
+Till love itself has crowned the year.”[/i]
+You gain 3 life.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Ingalvur walks where first steps fall,
+Through newborn roads and untamed glen,
+And teaches wandering hearts to call.”[/i]
+You gain 3 life.
+​
+
+Ode to Returns
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]The sagas swell with every cheer,
+For heroes home from blood and frost,
+Till all their names ring bright and clear.”[/i]
+Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
+​
+special_text: 
+“[i]The sagas swell with every cheer,
+For heroes home from blood and frost,
+Till all their names ring bright and clear.”[/i]
+Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]The sagas swell with every cheer,
+For heroes home from blood and frost,
+Till all their names ring bright and clear.”[/i]
+Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
+​
+
+Ode to the Departed
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Through silver mist the path is shown,
+Where voices fade and shadows stay,
+Till halls of Istfell claim their own.”[/i]
+III — Create a 1/1 white Spirit creature token with flying.
+​
+special_text: 
+“[i]Through silver mist the path is shown,
+Where voices fade and shadows stay,
+Till halls of Istfell claim their own.”[/i]
+Create a 1/1 white Spirit creature token with flying.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Through silver mist the path is shown,
+Where voices fade and shadows stay,
+Till halls of Istfell claim their own.”[/i]
+III — Create a 1/1 white Spirit creature token with flying.
+​
+
+Ode to Visions
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Vinrormr dreams in serpent sleep,
+While stars dissolve in moss and rain,
+And secrets drown where old gods weep.”[/i]
+Draw a card.
+​
+special_text: 
+“[i]The wind bent low, the sky grew wide,
+And whispered truths I dared not seek,
+Till Alrund's hand was at my side.”[/i]
+Draw a card.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Vinrormr dreams in serpent sleep,
+While stars dissolve in moss and rain,
+And secrets drown where old gods weep.”[/i]
+Draw a card.
+​
+
+Ode to Ashes
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+[i]“Bari kissed the dying flame,
+And held the lonely through the night,
+Till grief and longing spoke one name.”[/i]
+Exile each opponent's graveyard.
+​
+special_text: 
+[i]“I wear your memory like a chain,
+Each step a gift, each breath a strain—
+But walking back would be in vain.”[/i]
+Exile each opponent's graveyard.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+[i]“Bari kissed the dying flame,
+And held the lonely through the night,
+Till grief and longing spoke one name.”[/i]
+Exile each opponent's graveyard.
+​
+
+Ode to Binding
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“The Dread-Wolf clawed through sky and stone,
+But Vragi carved the spell alone,
+And sealed the beast with blood and bone.”[/i]
+III — Return target creature card from your graveyard to the battlefield.
+​
+special_text: 
+[i]“The Dread-Wolf clawed through sky and stone,
+But Vragi carved the spell alone,
+And sealed the beast with blood and bone.”[/i]
+Return target creature card from your graveyard to the battlefield.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“The Dread-Wolf clawed through sky and stone,
+But Vragi carved the spell alone,
+And sealed the beast with blood and bone.”[/i]
+III — Return target creature card from your graveyard to the battlefield.
+​
+
+Ode to Dread
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Hagduin smiles behind your face,
+And whispers truths you dare not keep,
+Till shadows learn to wear your place.”[/i]
+III — Each opponent loses 2 life and you gain 2 life.
+​
+special_text: 
+“[i]Its name is feared where none have seen,
+For whispers spread like fire's hand,
+Till all the world believes the scene.”[/i]
+Each opponent loses 2 life and you gain 2 life.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Hagduin smiles behind your face,
+And whispers truths you dare not keep,
+Till shadows learn to wear your place.”[/i]
+III — Each opponent loses 2 life and you gain 2 life.
+​
+
+Ode to Folly
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“Her voice rang fierce in midnight air,
+Unknowing of the demon's glare—
+A tale cut short, stripped cold and bare.”[/i]
+III — Create a 6/6 black Demon creature token. You lose 6 life unless you sacrifice a Cleric.
+​
+special_text: 
+[i]“Her voice rang fierce in midnight air,
+Unknowing of the demon's glare—
+A tale cut short, stripped cold and bare.”[/i]
+Create a 6/6 black Demon creature token. You lose 6 life unless you sacrifice a Cleric.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“Her voice rang fierce in midnight air,
+Unknowing of the demon's glare—
+A tale cut short, stripped cold and bare.”[/i]
+III — Create a 6/6 black Demon creature token. You lose 6 life unless you sacrifice a Cleric.
+​
+
+Ode to the Vessel
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Split the soul, and twist the bone.
+Let it walk, but not alone.”[/i]
+Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can't, each opponent loses 1 life and you gain 1 life.
+​
+special_text: 
+“[i]Split the soul, and twist the bone.
+Let it walk, but not alone.”[/i]
+Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can't, each opponent loses 1 life and you gain 1 life.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Split the soul, and twist the bone.
+Let it walk, but not alone.”[/i]
+Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can't, each opponent loses 1 life and you gain 1 life.
+​
+
+Ode to Cunning
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Knud walks grinning through the blaze,
+Where endings carve the road ahead,
+And clever fools survive the haze.”[/i]
+You may discard up to two cards. If you do, draw that many cards.
+​
+special_text: 
+“[i]With feint and step the trap was laid,
+Each move a thread to bind the fight,
+Till skill, not steel, the foe betrayed.”[/i]
+You may discard up to two cards. If you do, draw that many cards.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Knud walks grinning through the blaze,
+Where endings carve the road ahead,
+And clever fools survive the haze.”[/i]
+You may discard up to two cards. If you do, draw that many cards.
+​
+
+Ode to the Storm
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]The clouds are canvas, storms the hue,
+Each stroke a flash, each word a blaze,
+Till sky itself bends to the few.”[/i]
+III — Return target instant or sorcery card from your graveyard to your hand.
+​
+special_text: 
+“[i]The clouds are canvas, storms the hue,
+Each stroke a flash, each word a blaze,
+Till sky itself bends to the few.”[/i]
+Return target instant or sorcery card from your graveyard to your hand.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]The clouds are canvas, storms the hue,
+Each stroke a flash, each word a blaze,
+Till sky itself bends to the few.”[/i]
+III — Return target instant or sorcery card from your graveyard to your hand.
+​
+
+Ode to Renewal
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+[i]“Koma coils beneath the stone,
+Through silent earth your heartbeat drums,
+Return, and claim the world your own.”[/i]
+Create a 3/3 blue Serpent creature token named Koma's Coil.
+​
+special_text: 
+“[i]The thaw will crack the frozen floor,
+We say each time the ice runs thin,
+And swear Koma will coil once more.”[/i]
+Create a 3/3 blue Serpent creature token named Koma's Coil.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+[i]“Koma coils beneath the stone,
+Through silent earth your heartbeat drums,
+Return, and claim the world your own.”[/i]
+Create a 3/3 blue Serpent creature token named Koma's Coil.
+​
+
+Ode to the Clans
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Through grief we march, through cold we bear,
+With heart and will to see it through,
+Till Bretagard stands whole and fair.”[/i]
+III — Create two 1/1 white Human creature tokens.
+​
+special_text: 
+“[i]Through grief we march, through cold we bear,
+With heart and will to see it through,
+Till Bretagard stands whole and fair.”[/i]
+Create two 1/1 white Human creature tokens.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Through grief we march, through cold we bear,
+With heart and will to see it through,
+Till Bretagard stands whole and fair.”[/i]
+III — Create two 1/1 white Human creature tokens.
+​
+
+Ode to Valor
+rules_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Lathril stood with fang and spear,
+While beasts and warriors bled as one,
+And taught the trembling not to fear.”[/i]
+III — Put a +1/+1 counter on target creature you control.
+​
+special_text: 
+“[i]The giant's roar split sky and stone,
+But still the warrior held his ground,
+Till mountain's crown was his alone.”[/i]
+Put a +1/+1 counter on target creature you control.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Lathril stood with fang and spear,
+While beasts and warriors bled as one,
+And taught the trembling not to fear.”[/i]
+III — Put a +1/+1 counter on target creature you control.
+​
+
+
+VERSION 4 CHANGELOG
 ====================
 
 
