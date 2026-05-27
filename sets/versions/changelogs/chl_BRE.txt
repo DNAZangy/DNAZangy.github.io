@@ -1,4 +1,34 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+Binding the Dread-Wolf added.
+
+Binding the Dread-Wolf (redesign entirely) removed.
+
+Champion of Stillness
+rules_text: Flash
+Prowess
+Each spell you cast has split second if {S} was spent to cast it. => Flash
+Prowess
+Each spell you cast has split second if {S} was spent to cast it. [i](As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)[/i]
+
+Istfell Wanderer
+cost: {U} => {1}{U}
+rules_text: [i](Redesign)[/i]
+Teamwork card => Vigilance
+Teamwork — Vigilance [i](Whenever this creature deals combat damage to a noncreature, you may put a vigilance counter on another target permanent you control.)[/i]
+{2}{U}, {T}, Tap X untapped creatures you control: Look at the top X cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
+pt: 1/2 => 1/4
+
+Surtland Lumberjack
+rules_text: [i](redesign)[/i] 3RR — 6 (redesign)[/i] => Trample
+At the beginning of combat on your turn, exile the top card of your library. You may then create a 1/1 red Berserker creature token with haste. If you don't, you may play the exiled card this turn 2RR — 6
+pt: 8/6 => 7/7
+special_text: [i](redesign)[/i] 3RR — 6 (redesign)[/i] => Trample
+At the beginning of combat on your turn, exile the top card of your library. You may then create a 1/1 red Berserker creature token with haste. If you don't, you may play the exiled card this turn 2RR — 6
+
+
+VERSION 5 CHANGELOG
 ====================
 
 Ballad of the Uncut Thread added.
