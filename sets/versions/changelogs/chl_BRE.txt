@@ -1,4 +1,396 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+
+
+Ballad of the Uncut Thread
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Create a 1/1 white Spirit creature token. You gain 2 life.
+Scry 3.
+II — Shuffle up to four cards from your graveyard into your library. If exactly four cards were shuffled in this way, draw a card. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create a 1/1 white Spirit creature token. You gain 2 life.
+Scry 3.
+Shuffle up to four cards from your graveyard into your library. If exactly four cards were shuffled in this way, draw a card.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Create a 1/1 white Spirit creature token. You gain 2 life.
+Scry 3.
+II — Shuffle up to four cards from your graveyard into your library. If exactly four cards were shuffled in this way, draw a card. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create a 1/1 white Spirit creature token. You gain 2 life.
+Scry 3.
+Shuffle up to four cards from your graveyard into your library. If exactly four cards were shuffled in this way, draw a card.
+
+Horns Against Scale
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Put two +1/+1 counters and a lifelink counter on target creature you control.
+III — Target creature you control deals damage to target creature or planeswalker you don't control equal to its power.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Put two +1/+1 counters and a lifelink counter on target creature you control.
+Target creature you control deals damage to target creature or planeswalker you don't control equal to its power.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Put two +1/+1 counters and a lifelink counter on target creature you control.
+III — Target creature you control deals damage to target creature or planeswalker you don't control equal to its power.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Put two +1/+1 counters and a lifelink counter on target creature you control.
+Target creature you control deals damage to target creature or planeswalker you don't control equal to its power.
+​
+
+Cinders that Carve Strength
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III, IV — You may cast a spell from your hand with mana value equal to or less than the number of lore counters on Cinders that Carve Strength.
+​
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+You may cast a spell from your hand with mana value equal to or less than the number of lore counters on Cinders that Carve Strength.
+​
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III, IV — You may cast a spell from your hand with mana value equal to or less than the number of lore counters on Cinders that Carve Strength.
+​
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+You may cast a spell from your hand with mana value equal to or less than the number of lore counters on Cinders that Carve Strength.
+​
+​
+
+Restoration of Jormund
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Create two 1/1 green Elf Warrior creature tokens.
+II — Target creature you control gets +X/+X until end of turn, where X is the number of Elves you control.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create two 1/1 green Elf Warrior creature tokens.
+Target creature you control gets +X/+X until end of turn, where X is the number of Elves you control.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Create two 1/1 green Elf Warrior creature tokens.
+II — Target creature you control gets +X/+X until end of turn, where X is the number of Elves you control.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Create two 1/1 green Elf Warrior creature tokens.
+Target creature you control gets +X/+X until end of turn, where X is the number of Elves you control.
+​
+
+A Tale of Gold and Flame
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Exile the top five cards of your library. You may play them as long as you control A Tale of Gold and Flame.
+Add {R}{W}. You can't use this mana to cast spells from your hand.
+II, III — You gain life equal to the number of cards exiled by A Tale of Gold and Flame. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Exile the top five cards of your library. You may play them as long as you control A Tale of Gold and Flame.
+Add {R}{W}. You can't use this mana to cast spells from your hand.
+You gain life equal to the number of cards exiled by A Tale of Gold and Flame.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Exile the top five cards of your library. You may play them as long as you control A Tale of Gold and Flame.
+Add {R}{W}. You can't use this mana to cast spells from your hand.
+II, III — You gain life equal to the number of cards exiled by A Tale of Gold and Flame. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Exile the top five cards of your library. You may play them as long as you control A Tale of Gold and Flame.
+Add {R}{W}. You can't use this mana to cast spells from your hand.
+You gain life equal to the number of cards exiled by A Tale of Gold and Flame.
+
+Traverse Kaldheim
+cost: {G}{U} => {1}{G}{U}
+
+Exchange of Faces
+rules_text: Create two 3/3 blue Shapeshifter creature tokens with changeling. => Create two 3/3 blue Shapeshifter creature tokens with changeling. [i](The tokens are every creature type.)[/i]
+
+Littjara Seer
+rules_text: Flash
+Changeling
+Ward {2}
+[i]Orate[/i] — Whenever one or more creatures you control deal combat damage to a noncreature, create a blue Saga enchantment token with “r{3}—Draw a card.” => Flash
+Changeling [i](This card is every creature type.)[/i]
+Ward {2}
+[i]Orate[/i] — Whenever one or more creatures you control deal combat damage to a noncreature, create a blue Saga enchantment token with “r{3}—Draw a card.”
+
+Glory of the Tale
+rules_text: Creatures you control have “Teamwork — +1/+1”. [i](Whenever a creature you control deals combat damage to a noncreature, you may put a +1/+1 counter on target permanent you control.)[/i]
+{2}{R}: Glory of the Tale becomes a 0/0 red Berserker creature with trample until end of turn. => Creatures you control have “Teamwork — +1/+1”. [i](Whenever a creature you control deals combat damage to a noncreature, you may put a +1/+1 counter on target permanent you control.)[/i]
+{1}{R}: Glory of the Tale becomes a 0/0 red Berserker creature with trample until end of turn.
+
+Gladewalker Emissary
+rules_text: Changeling
+When Gladewalker Emissary enters, search your library for a double faced or snow land card, reveal it, put it into your hand, then shuffle.
+{4}{S}{S}: Creatures you control get +2/+2 until end of turn. => Changeling [i](This card is every creature type.)[/i]
+When Gladewalker Emissary enters, search your library for a double faced or snow land card, reveal it, put it into your hand, then shuffle.
+{4}{S}{S}: Creatures you control get +2/+2 until end of turn.
+
+Aldegar, Searching for Stars
+cost: {1}{U}{R} => {2}{U}{R}
+rules_text: [i]Orate[/i] — Whenever you activate one of Aldegar's loyalty abilities, create a red Saga enchantment token with that ability as its r{3}.
+[+1]: You may discard up to two cards. If you do, draw that many cards.
+[-2]: Create two Snow Treasure tokens. 
+[-3]: Aldegar deals 3 damage to any target. => [i]Orate[/i] — Whenever you activate one of Aldegar's loyalty abilities, create a red Saga enchantment token with that ability as its r{3}.
+[+1]: You may discard up to two cards. If you do, draw that many cards.
+[-2]: Create two snow Treasure tokens. 
+[-3]: Aldegar deals 3 damage to any target.
+special_text: [i]Orate[/i] — Whenever you activate one of Aldegar's loyalty abilities, create a red Saga enchantment token with that ability as its r{3}.
+[+1]: You may discard up to two cards. If you do, draw that many cards.
+[-2]: Create two Snow Treasure tokens. 
+[-3]: Aldegar deals 3 damage to any target. => [i]Orate[/i] — Whenever you activate one of Aldegar's loyalty abilities, create a red Saga enchantment token with that ability as its r{3}.
+[+1]: You may discard up to two cards. If you do, draw that many cards.
+[-2]: Create two snow Treasure tokens. 
+[-3]: Aldegar deals 3 damage to any target.
+loyalty: 4 => 5
+
+Jarl of the Empty House
+rules_text: [i]Orate[/i] — Whenever two or more creatures you control deal combat damage to an opponent, create a black Saga enchantment token with “r{3}—Return target Zombie creature card with mana value 3 or less from your graveyard to the battlefield.”
+Zombiecycling {U}{B} [i]({U}{B}, Discard this card: Search your library for a Zombie card, reveal it, put it into your hand, then shuffle.)[/i] => [i]Orate[/i] — Whenever two or more creatures you control deal combat damage to an opponent, create a black Saga enchantment token with “r{3}—Create a 2/2 black Zombie creature token. Each opponent loses 2 life.”
+Zombiecycling {U}{B} [i]({U}{B}, Discard this card: Search your library for a Zombie card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Runeforged Titan
+rules_text: Changeling
+When Runeforged Titan enters or attacks, you may put target card from a graveyard on the bottom of its owner's library. => Changeling [i](This card is every creature type.)[/i]
+When Runeforged Titan enters or attacks, you may put target card from a graveyard on the bottom of its owner's library.
+
+Gladewalker Ritualist
+rules_text: Changeling
+Whenever another creature you control named Gladewalker Ritualist enters, draw a card. => Changeling [i](This card is every creature type.)[/i]
+Whenever another creature you control named Gladewalker Ritualist enters, draw a card.
+
+Kerr, Student of Forms
+rules_text: Changeling
+Kerr, Student of Forms has all activated abilities of other snow permanents you control.
+{4}{S}{S}: Put three +1/+1 counters on Kerr, Student of Forms. => Changeling [i](This card is every creature type.)[/i]
+Kerr, Student of Forms has all activated abilities of other snow permanents you control.
+{4}{S}{S}: Put three +1/+1 counters on Kerr, Student of Forms.
+
+Covewalker Acolyte
+rules_text: Changeling
+You may cast noncreature spells as copies as any nontoken creature you control. It gains changeling. [i](You pay the creature's mana cost and it resolves as the creature.)[/i]
+Shapeshiftercycling {G}{U} [i]({G}{U}, Discard this card: Search your library for a Shapeshifter card, reveal it, put it into your hand, then shuffle.)[/i] => Changeling [i](This card is every creature type.)[/i]
+You may cast noncreature spells as copies as any nontoken creature you control. It gains changeling. [i](You pay the creature's mana cost and it resolves as the creature.)[/i]
+Shapeshiftercycling {G}{U} [i]({G}{U}, Discard this card: Search your library for a Shapeshifter card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Bloodsky Conquerer
+rules_text: Flying
+When Bloodsky Conquerer enters, it deals 10 damage to each otherbattle. 2BR — 4 => Flying
+When Bloodsky Conquerer enters, it deals 10 damage to each other battle. 2BR — 4
+special_text: Flying
+When Bloodsky Conquerer enters, it deals 10 damage to each otherbattle. 2BR — 4 => Flying
+When Bloodsky Conquerer enters, it deals 10 damage to each other battle. 2BR — 4
+
+Covewalker Seer
+rules_text: Changeling
+Vigilance
+At the beginning of your end step, you may have Covewalker Seer become an Island land until your next turn. [i](It's no longer a creature and has “{T}: Add {U}.” It's still snow.)[/i] => Changeling [i](This card is every creature type.)[/i]
+Vigilance
+At the beginning of your end step, you may have Covewalker Seer become an Island land until your next turn. [i](It's no longer a creature and has “{T}: Add {U}.” It's still snow.)[/i]
+
+Gift of the Frost-Crown
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III — Draw a card.
+IV — You may shuffle your graveyard into your library. [i](But not this card.)[/i]
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw a card.
+You may shuffle your graveyard into your library. [i](But not this card.)[/i]
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III — Draw a card.
+IV — You may shuffle your graveyard into your library. [i](But not this card.)[/i]
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw a card.
+You may shuffle your graveyard into your library. [i](But not this card.)[/i]
+​
+
+Gladewalker Wanderers
+rules_text: Changeling
+When you cast Gladewalker Wanderers, reveal the top six cards of your library. You may put a permanent card with mana value 5 or less from among them onto the battlefield, then shuffle the rest into your library. => Changeling [i](This card is every creature type.)[/i]
+When you cast Gladewalker Wanderers, reveal the top six cards of your library. You may put a permanent card with mana value 5 or less from among them onto the battlefield, then shuffle the rest into your library.
+
+Lathril's Chant
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Chose target creature you control. It fights target creature you don't control.
+Put a +1/+1 counter on the chosen creature. If you don't control it, create a 1/1 green Elf Warrior creature instead.
+II, III — Put an indestructible counter on the chosen creature. It becomes a God in addition to its other types. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Chose target creature you control. It fights target creature you don't control.
+Put a +1/+1 counter on the chosen creature. If you don't control it, create a 1/1 green Elf Warrior creature instead.
+Put an indestructible counter on the chosen creature. It becomes a God in addition to its other types.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Chose target creature you control. It fights target creature you don't control.
+Put a +1/+1 counter on the chosen creature. If you don't control it, create a 1/1 green Elf Warrior creature instead.
+II, III — Put an indestructible counter on the chosen creature. It becomes a God in addition to its other types. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Chose target creature you control. It fights target creature you don't control.
+Put a +1/+1 counter on the chosen creature. If you don't control it, create a 1/1 green Elf Warrior creature instead.
+Put an indestructible counter on the chosen creature. It becomes a God in addition to its other types.
+
+Volatile Spellcatcher
+rules_text: Flash
+Changeling
+Flying
+When Volatile Spellcatcher enters, you may put tap it and put two stun counters on it. If you do, counter target noncreature spell. => Flash
+Changeling [i](This card is every creature type.)[/i]
+Flying
+When Volatile Spellcatcher enters, you may put tap it and put two stun counters on it. If you do, counter target noncreature spell.
+
+Shapeshifter
+rules_text: Changeling => Changeling [i](This card is every creature type.)[/i]
+
+Ode to Kin
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Ingalvur walks where first steps fall,
+Through newborn roads and untamed glen,
+And teaches wandering hearts to call.”[/i]
+III — You gain 3 life.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Ingalvur walks where first steps fall,
+Through newborn roads and untamed glen,
+And teaches wandering hearts to call.”[/i]
+You gain 3 life.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Ingalvur walks where first steps fall,
+Through newborn roads and untamed glen,
+And teaches wandering hearts to call.”[/i]
+III — You gain 3 life.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Ingalvur walks where first steps fall,
+Through newborn roads and untamed glen,
+And teaches wandering hearts to call.”[/i]
+You gain 3 life.
+​
+
+Ode to Returns
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]The sagas swell with every cheer,
+For heroes home from blood and frost,
+Till all their names ring bright and clear.”[/i]
+III — Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]The sagas swell with every cheer,
+For heroes home from blood and frost,
+Till all their names ring bright and clear.”[/i]
+Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]The sagas swell with every cheer,
+For heroes home from blood and frost,
+Till all their names ring bright and clear.”[/i]
+III — Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]The sagas swell with every cheer,
+For heroes home from blood and frost,
+Till all their names ring bright and clear.”[/i]
+Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
+​
+
+Ode to Visions
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Vinrormr dreams in serpent sleep,
+While stars dissolve in moss and rain,
+And secrets drown where old gods weep.”[/i]
+III — Draw a card.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Vinrormr dreams in serpent sleep,
+While stars dissolve in moss and rain,
+And secrets drown where old gods weep.”[/i]
+Draw a card.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Vinrormr dreams in serpent sleep,
+While stars dissolve in moss and rain,
+And secrets drown where old gods weep.”[/i]
+III — Draw a card.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Vinrormr dreams in serpent sleep,
+While stars dissolve in moss and rain,
+And secrets drown where old gods weep.”[/i]
+Draw a card.
+​
+
+Ode to Ashes
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“Bari kissed the dying flame,
+And held the lonely through the night,
+Till grief and longing spoke one name.”[/i]
+III — Exile each opponent's graveyard.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+[i]“Bari kissed the dying flame,
+And held the lonely through the night,
+Till grief and longing spoke one name.”[/i]
+Exile each opponent's graveyard.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“Bari kissed the dying flame,
+And held the lonely through the night,
+Till grief and longing spoke one name.”[/i]
+III — Exile each opponent's graveyard.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+[i]“Bari kissed the dying flame,
+And held the lonely through the night,
+Till grief and longing spoke one name.”[/i]
+Exile each opponent's graveyard.
+​
+
+Ode to Cunning
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Knud walks grinning through the blaze,
+Where endings carve the road ahead,
+And clever fools survive the haze.”[/i]
+III — You may discard up to two cards. If you do, draw that many cards.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Knud walks grinning through the blaze,
+Where endings carve the road ahead,
+And clever fools survive the haze.”[/i]
+You may discard up to two cards. If you do, draw that many cards.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Knud walks grinning through the blaze,
+Where endings carve the road ahead,
+And clever fools survive the haze.”[/i]
+III — You may discard up to two cards. If you do, draw that many cards.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Knud walks grinning through the blaze,
+Where endings carve the road ahead,
+And clever fools survive the haze.”[/i]
+You may discard up to two cards. If you do, draw that many cards.
+​
+
+Ode to Renewal
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“Koma coils beneath the stone,
+Through silent earth your heartbeat drums,
+Return, and claim the world your own.”[/i]
+III — Create a 3/3 blue Serpent creature token named Koma's Coil.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+[i]“Koma coils beneath the stone,
+Through silent earth your heartbeat drums,
+Return, and claim the world your own.”[/i]
+Create a 3/3 blue Serpent creature token named Koma's Coil.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“Koma coils beneath the stone,
+Through silent earth your heartbeat drums,
+Return, and claim the world your own.”[/i]
+III — Create a 3/3 blue Serpent creature token named Koma's Coil.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+[i]“Koma coils beneath the stone,
+Through silent earth your heartbeat drums,
+Return, and claim the world your own.”[/i]
+Create a 3/3 blue Serpent creature token named Koma's Coil.
+​
+
+Ode to Obedience
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]The barrows cracked in deathly frost,
+As hollow eyes opened once more,
+For jarls remember every lost.”[/i]
+III — Return target Zombie creature card with mana value 3 or less from your graveyard to the battlefield.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]The barrows cracked in deathly frost,
+As hollow eyes opened once more,
+For jarls remember every lost.”[/i]
+III — Create a 2/2 black Zombie Warrior creature token. Each opponent loses 2 life.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]The barrows cracked in deathly frost,
+As hollow eyes opened once more,
+For jarls remember every lost.”[/i]
+III — Return target Zombie creature card with mana value 3 or less from your graveyard to the battlefield.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]The barrows cracked in deathly frost,
+As hollow eyes opened once more,
+For jarls remember every lost.”[/i]
+III — Create a 2/2 black Zombie Warrior creature token. Each opponent loses 2 life.
+​
+
+
+VERSION 7 CHANGELOG
 ====================
 
 Alsig, Reaper of Cowards added.
