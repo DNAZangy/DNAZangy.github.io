@@ -1743,8 +1743,8 @@
 		{
 			"name": "Splitting Skin",
 			"rarity": "rare",
-			"mana_cost": "{B}{B}",
-			"type": "Instant",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
 			"collector_number": "107",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/TBC-files/img/174.png"
@@ -2483,7 +2483,7 @@
 		{
 			"name": "The Dreamer's Nightmare",
 			"rarity": "mythic",
-			"mana_cost": "{B}{B}{B}",
+			"mana_cost": "{2}{B}",
 			"type": "Creature — Nightmare Horse",
 			"collector_number": "88",
 			"image_uris": {

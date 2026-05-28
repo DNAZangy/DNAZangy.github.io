@@ -1,4 +1,125 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+
+
+Solath's Charm
+rules_text: Choose one —
+• Mill three cards. You gain 4 life.
+• Return target creature card from your graveyard to your hand.
+• Exile up to three target cards from graveyards. => Choose one —
+• Mill four cards. You gain 4 life.
+• Return target creature card from your graveyard to your hand.
+• Exile up to three target cards from graveyards.
+
+Thornmere Reaver
+rules_text: Begin your breakdown. [i](It begins at 4 and decreases by 1 on each of your turns when the second card is put into your graveyard that turn. You reach rock bottom at 0.)[/i]
+{X}{X}, Sacrifice Thornmere Reaver, {T}: Return target creature card from your graveyard to the battlefield with a finality counter on it. X is equal to your level of breakdown. Activate only as a sorcery. => Begin your breakdown. [i](It begins at 4 and decreases by 1 on each of your turns when the second card is put into your graveyard that turn. You reach rock bottom at 0.)[/i]
+{X}{X}, {T}, Sacrifice Thornmere Reaver: Return target creature card from your graveyard to the battlefield with a finality counter on it. X is equal to your level of breakdown. Activate only as a sorcery.
+
+Scarlet Crusader
+rules_text: During your turn, Scarlet Crusader has first strike.
+Whenever another creature you control dies, create a 1/1 red Soldier creature token if it was attacking and not a token. Otherwise Scarlet Crusader deals 1 damage to each opponent. => During your turn, Scarlet Crusader has first strike.
+Whenever another creature you control dies, create a 1/1 red Soldier creature token if it was attacking and not a token. Otherwise, Scarlet Crusader deals 1 damage to each opponent.
+
+Galveth Runner
+rules_text: Galveth Runner can't be blocked by creatures with even mana value.
+Whenever Galveth Runner attacks, it becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Galveth Runner can't be blocked by creatures with even mana values. [i](Zero is even.)[/i]
+Whenever Galveth Runner attacks, it becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Veyran's Champion
+pt: 1/3 => 1/1
+
+Graneth Intimidator
+rules_text: When Graneth Intimidator enters or attacks, you may unravel {3}. If you do, put a +1/+1 counter on target creature. [i](While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)[/i] => When Graneth Intimidator attacks, you may unravel {3}. If you do, put a +1/+1 counter on target creature. [i](While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)[/i]
+
+Heavensent Sentinel
+rules_text: Heavensent Sentinel enters prepared [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Heavensent Sentinel enters prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Psychobabble
+rules_text: Counter target spell unless its controller unravel {3}. If they do, create a 2/2 blue Spirit creature token with flying. [i](While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)[/i] => Counter target spell unless its controller unravels {3}. If they do, create a 2/2 blue Spirit creature token with flying.
+
+Lifeline Devotee
+
+Skittering Behemoth
+rules_text: Ward—Unravel 3 [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player unravel 3.)[/i]
+At the beginning of combat on your turn, you may unravel {3}. If you do, creatures you control gain trample and haste until end of turn. [i](While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)[/i] => Ward—Unravel {3}. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player unravel 3.)[/i]
+At the beginning of combat on your turn, you may unravel {3}. If you do, creatures you control gain trample and haste until end of turn. [i](While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)[/i]
+
+Fractured Saint
+rules_text: Fractured Saint's power is each equal to the number of creatures you control.
+Whenever Fractured Saint becomes the target of a spell or ability you control for the first time each turn, create a 1/1 black Cleric creature token. => Fractured Saint's power is equal to the number of creatures you control.
+Whenever Fractured Saint becomes the target of a spell or ability you control for the first time each turn, create a 1/1 black Cleric creature token.
+
+Total Dominion
+rules_text: Choose up to X —
+• Target creature gets +3/+3 until end of turn.
+• Exile up to two cards from graveyards.
+• Target creature you control fights target creature you don't control.
+• Destroy target artifact or enchantment. => Choose up to X —
+• Target creature gets +3/+3 until end of turn.
+• Exile up to two target cards from graveyards.
+• Target creature you control fights target creature you don't control.
+• Destroy target artifact or enchantment.
+
+Splitting Skin
+type: Instant => Sorcery
+cost: {B}{B} => {B}
+
+Unspoken Devotee
+rules_text: Whenever you discard one or more cards, put that many +1/+1 counters on this creature.
+Whenever Unspoken Devotee dies, you may discard up to X cards, where X is equal to Unspoken Devotee's power. If you do, draw that many cards. => Trample
+Whenever you discard one or more cards, put that many +1/+1 counters on this creature.
+When Unspoken Devotee dies, you may discard up to X cards, where X is equal to Unspoken Devotee's power. If you do, draw that many cards.
+pt: 1/2 => 2/2
+
+Solath, the Hollow
+rules_text: Whenever Solath, the Hollow enters or attacks, surveil 1.
+At the beginning of your first main phase, you may unravel {X}{X}. When you do, return target creature card with mana value X or less from your graveyard to the battlefield. [i](While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)[/i] => Whenever Solath, the Hollow enters or attacks, surveil 1.
+At the beginning of your first main phase, you may unravel {X}{X}. When you do, return target creature card with mana value X or less from your graveyard to the battlefield with a finality counter on it. [i](While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)[/i]
+
+Veyran, Devoted of Nimrea
+rules_text: Flying
+Token creatures you control get +1/+1.
+Once each turn, when you sacrifice another creature, you may create a token that's a copy of it. Exile that token at the beginning of your next turn's end step. => Flying
+Token creatures you control get +1/+1.
+Once during each of your turns, when you sacrifice another creature, you may create a token that's a copy of it. Exile that token at the beginning of your next turn's end step.
+
+Just For Now
+rules_text: At the beginning of your end step, choose any number. Each mode must choose a different target.
+• Untap target creature you control.
+• Put a +1/+1 counter on target creature you control.
+• Draw a card if target creature's power is 4 or greater.
+• If all other modes were chosen, target player gains 4 life. => At the beginning of your end step, choose any number. Each mode must choose a different target.
+• Untap target creature you control.
+• Put a +1/+1 counter on target creature you control.
+• Target player that controls a creature with power 4 or greater draws a card.
+• If all other modes were chosen, target player gains 4 life.
+
+The Dreamer's Nightmare
+cost: {B}{B}{B} => {2}{B}
+rules_text: The Dreamer's Nightmare gets +1/+1 for each Swamp you control.
+At the beginning of your first main phase, if you have 5 or less life, The Dreamer's Nightmare becomes prepared. => Menace
+The Dreamer's Nightmare gets +1/+1 for each Swamp you control.
+At the beginning of your first main phase, if you have 5 or less life, The Dreamer's Nightmare becomes prepared.
+
+Rider of Blooms
+rules_text: Trample
+At the beginning of each end step, put a +1/+1 counter on each creature you control with power X or less, where X is greatest mana value among creatures you control.
+When Rider of Blooms dies, you may exile it if you control five or fewer lands. If you do, create a token that's a copy of it without this ability. => Trample
+At the beginning of your end step, put a +1/+1 counter on each creature you control with power X or less, where X is greatest mana value among creatures you control.
+When Rider of Blooms dies, you may exile it if you control five or fewer lands. If you do, create a token that's a copy of it without this ability.
+
+Rider of Gales
+rules_text: Flying
+At the beginning of each end step, each player draws cards until they have X cards in hand, where X is the greatest mana value among creatures they control.
+When Rider of Gales dies, you may exile it if you have seven or more cards in hand. If you do, create a token that's a copy of it without this ability. => Flash
+Flying
+At the beginning of each end step, each player draws cards until they have X cards in hand, where X is the greatest mana value among creatures they control.
+When Rider of Gales dies, you may exile it if you have seven or more cards in hand. If you do, create a token that's a copy of it without this ability.
+
+
+VERSION 5 CHANGELOG
 ====================
 
 

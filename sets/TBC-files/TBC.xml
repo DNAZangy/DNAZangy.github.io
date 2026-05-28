@@ -5,7 +5,7 @@
 			<name>TBC</name>
 			<longname>Nemyria: The Beautiful Collapse</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-27</releasedate>
+			<releasedate>2026-05-28</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -187,7 +187,7 @@ You gain X life and draw X cards.</text>
 		<card>
 			<name>Solath&apos;s Charm</name>
 			<text>Choose one —
-• Mill three cards. You gain 4 life.
+• Mill four cards. You gain 4 life.
 • Return target creature card from your graveyard to your hand.
 • Exile up to three target cards from graveyards.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/9.png" num="242">TBC</set>
@@ -379,7 +379,7 @@ Put a +1/+1 counter on target creature you control. It gains flying and haste un
 		<card>
 			<name>Thornmere Reaver</name>
 			<text>Begin your breakdown. (It begins at 4 and decreases by 1 on each of your turns when the second card is put into your graveyard that turn. You reach rock bottom at 0.)
-{X}{X}, Sacrifice Thornmere Reaver, {T}: Return target creature card from your graveyard to the battlefield with a finality counter on it. X is equal to your level of breakdown. Activate only as a sorcery.</text>
+{X}{X}, {T}, Sacrifice Thornmere Reaver: Return target creature card from your graveyard to the battlefield with a finality counter on it. X is equal to your level of breakdown. Activate only as a sorcery.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/19.png" num="214">TBC</set>
 			<prop>
 				<layout>normal</layout>
@@ -397,7 +397,7 @@ Put a +1/+1 counter on target creature you control. It gains flying and haste un
 		<card>
 			<name>Scarlet Crusader</name>
 			<text>During your turn, Scarlet Crusader has first strike.
-Whenever another creature you control dies, create a 1/1 red Soldier creature token if it was attacking and not a token. Otherwise Scarlet Crusader deals 1 damage to each opponent.</text>
+Whenever another creature you control dies, create a 1/1 red Soldier creature token if it was attacking and not a token. Otherwise, Scarlet Crusader deals 1 damage to each opponent.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/20.png" num="216">TBC</set>
 			<prop>
 				<layout>normal</layout>
@@ -452,7 +452,7 @@ When Gracehold Soldier enters, you may tap or untap target creature.</text>
 		</card>
 		<card>
 			<name>Galveth Runner // Hear Me Out</name>
-			<text>Galveth Runner can&apos;t be blocked by creatures with even mana value.
+			<text>Galveth Runner can&apos;t be blocked by creatures with even mana values. (Zero is even.)
 Whenever Galveth Runner attacks, it becomes prepared. (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
 
 ---
@@ -591,7 +591,7 @@ When Veyran&apos;s Champion enters, create a 3/3 green Zombie Knight creature to
 				<cmc>3</cmc>
 				<colors>WR</colors>
 				<coloridentity>WR</coloridentity>
-				<pt>1/3</pt>
+				<pt>1/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1689,7 +1689,7 @@ Exile the top three cards of your library. Until the end of your next turn, you 
 		</card>
 		<card>
 			<name>Graneth Intimidator</name>
-			<text>When Graneth Intimidator enters or attacks, you may unravel {3}. If you do, put a +1/+1 counter on target creature. (While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)</text>
+			<text>When Graneth Intimidator attacks, you may unravel {3}. If you do, put a +1/+1 counter on target creature. (While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/91.png" num="163">TBC</set>
 			<prop>
 				<layout>normal</layout>
@@ -1884,7 +1884,7 @@ When Thornmere Reaper enters, you may destroy target creature that was dealt dam
 		</card>
 		<card>
 			<name>Heavensent Sentinel // Pick Up the Sword</name>
-			<text>Heavensent Sentinel enters prepared (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+			<text>Heavensent Sentinel enters prepared. (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
 
 ---
 
@@ -2185,7 +2185,7 @@ Rock bottom — At the beginning of your end step, create a 2/2 green Wolf creat
 		</card>
 		<card>
 			<name>Psychobabble</name>
-			<text>Counter target spell unless its controller unravel {3}. If they do, create a 2/2 blue Spirit creature token with flying. (While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)</text>
+			<text>Counter target spell unless its controller unravels {3}. If they do, create a 2/2 blue Spirit creature token with flying.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/118.png" num="59">TBC</set>
 			<prop>
 				<layout>normal</layout>
@@ -2450,7 +2450,7 @@ Search your library for a Plains card, put it onto the battlefield tapped, then 
 				<side>front</side>
 				<type>Creature — Azra Cleric // Sorcery</type>
 				<maintype>Creature</maintype>
-				<manacost>1W // 1W</manacost>
+				<manacost>1W // W</manacost>
 				<cmc>2</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
@@ -3095,7 +3095,7 @@ When Angry Angel enters, untap each creature you control. After this phase, ther
 		</card>
 		<card>
 			<name>Skittering Behemoth</name>
-			<text>Ward—Unravel 3 (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player unravel 3.)
+			<text>Ward—Unravel {3}. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player unravel 3.)
 At the beginning of combat on your turn, you may unravel {3}. If you do, creatures you control gain trample and haste until end of turn. (While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/166.png" num="177">TBC</set>
 			<prop>
@@ -3113,7 +3113,7 @@ At the beginning of combat on your turn, you may unravel {3}. If you do, creatur
 		</card>
 		<card>
 			<name>Fractured Saint</name>
-			<text>Fractured Saint&apos;s power is each equal to the number of creatures you control.
+			<text>Fractured Saint&apos;s power is equal to the number of creatures you control.
 Whenever Fractured Saint becomes the target of a spell or ability you control for the first time each turn, create a 1/1 black Cleric creature token.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/167.png" num="12">TBC</set>
 			<prop>
@@ -3189,7 +3189,7 @@ Flashback {6}{R} (You may cast this card from your graveyard for its flashback c
 			<name>Total Dominion</name>
 			<text>Choose up to X —
 • Target creature gets +3/+3 until end of turn.
-• Exile up to two cards from graveyards.
+• Exile up to two target cards from graveyards.
 • Target creature you control fights target creature you don&apos;t control.
 • Destroy target artifact or enchantment.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/171.png" num="184">TBC</set>
@@ -3258,10 +3258,10 @@ Splitting Skin deals X damage to target creature or planeswalker. When it dies t
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
-				<manacost>BB</manacost>
-				<cmc>2</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -3269,8 +3269,9 @@ Splitting Skin deals X damage to target creature or planeswalker. When it dies t
 		</card>
 		<card>
 			<name>Unspoken Devotee</name>
-			<text>Whenever you discard one or more cards, put that many +1/+1 counters on this creature.
-Whenever Unspoken Devotee dies, you may discard up to X cards, where X is equal to Unspoken Devotee&apos;s power. If you do, draw that many cards.</text>
+			<text>Trample
+Whenever you discard one or more cards, put that many +1/+1 counters on this creature.
+When Unspoken Devotee dies, you may discard up to X cards, where X is equal to Unspoken Devotee&apos;s power. If you do, draw that many cards.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/175.png" num="148">TBC</set>
 			<prop>
 				<layout>normal</layout>
@@ -3281,7 +3282,7 @@ Whenever Unspoken Devotee dies, you may discard up to X cards, where X is equal 
 				<cmc>2</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>1/2</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3607,7 +3608,7 @@ Whenever you discard one or more cards, put that many +1/+1 counters on Dreams o
 		<card>
 			<name>Solath, the Hollow</name>
 			<text>Whenever Solath, the Hollow enters or attacks, surveil 1.
-At the beginning of your first main phase, you may unravel {X}{X}. When you do, return target creature card with mana value X or less from your graveyard to the battlefield. (While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)</text>
+At the beginning of your first main phase, you may unravel {X}{X}. When you do, return target creature card with mana value X or less from your graveyard to the battlefield with a finality counter on it. (While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/194.png" num="213">TBC</set>
 			<prop>
 				<layout>normal</layout>
@@ -3626,7 +3627,7 @@ At the beginning of your first main phase, you may unravel {X}{X}. When you do, 
 			<name>Veyran, Devoted of Nimrea</name>
 			<text>Flying
 Token creatures you control get +1/+1.
-Once each turn, when you sacrifice another creature, you may create a token that&apos;s a copy of it. Exile that token at the beginning of your next turn&apos;s end step.</text>
+Once during each of your turns, when you sacrifice another creature, you may create a token that&apos;s a copy of it. Exile that token at the beginning of your next turn&apos;s end step.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/195.png" num="217">TBC</set>
 			<prop>
 				<layout>normal</layout>
@@ -4121,7 +4122,7 @@ Whenever Contractor of the Weave enters or you cast a spell with mana value 5 or
 			<text>At the beginning of your end step, choose any number. Each mode must choose a different target.
 • Untap target creature you control.
 • Put a +1/+1 counter on target creature you control.
-• Draw a card if target creature&apos;s power is 4 or greater.
+• Target player that controls a creature with power 4 or greater draws a card.
 • If all other modes were chosen, target player gains 4 life.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/225.png" num="203">TBC</set>
 			<prop>
@@ -4581,7 +4582,8 @@ Each player discards three cards, then draws three cards.</text>
 		</card>
 		<card>
 			<name>The Dreamer&apos;s Nightmare // Corrupt</name>
-			<text>The Dreamer&apos;s Nightmare gets +1/+1 for each Swamp you control.
+			<text>Menace
+The Dreamer&apos;s Nightmare gets +1/+1 for each Swamp you control.
 At the beginning of your first main phase, if you have 5 or less life, The Dreamer&apos;s Nightmare becomes prepared.
 
 ---
@@ -4593,7 +4595,7 @@ Corrupt deals damage to any target equal to the number of Swamps you control. Yo
 				<side>front</side>
 				<type>Creature — Nightmare Horse // Sorcery</type>
 				<maintype>Creature</maintype>
-				<manacost>BBB // 5B</manacost>
+				<manacost>2B // 5B</manacost>
 				<cmc>3</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
@@ -4666,7 +4668,7 @@ When The Pattern&apos;s Gardener enters, gain life equal to its power.</text>
 		<card>
 			<name>Rider of Blooms</name>
 			<text>Trample
-At the beginning of each end step, put a +1/+1 counter on each creature you control with power X or less, where X is greatest mana value among creatures you control.
+At the beginning of your end step, put a +1/+1 counter on each creature you control with power X or less, where X is greatest mana value among creatures you control.
 When Rider of Blooms dies, you may exile it if you control five or fewer lands. If you do, create a token that&apos;s a copy of it without this ability.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/TBC-files/img/252.png" num="173">TBC</set>
 			<prop>
@@ -4684,7 +4686,8 @@ When Rider of Blooms dies, you may exile it if you control five or fewer lands. 
 		</card>
 		<card>
 			<name>Rider of Gales</name>
-			<text>Flying
+			<text>Flash
+Flying
 At the beginning of each end step, each player draws cards until they have X cards in hand, where X is the greatest mana value among creatures they control.
 When Rider of Gales dies, you may exile it if you have seven or more cards in hand. If you do, create a token that&apos;s a copy of it without this ability.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/TBC-files/img/253.png" num="60">TBC</set>
