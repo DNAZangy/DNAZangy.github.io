@@ -32,9 +32,9 @@
 		<card>
 			<name>Ballad of the Uncut Thread</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Create a 1/1 white Spirit creature token. You gain 2 life.
+I — Create a 1/1 white Spirit creature token. You gain 2 life.
 Scry 3.
-Shuffle up to four cards from your graveyard into your library. If exactly four cards were shuffled in this way, draw a card.</text>
+II — Shuffle up to four cards from your graveyard into your library. If exactly four cards were shuffled in this way, draw a card.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/1.png" num="176">BRE</set>
 			<prop>
 				<layout>saga</layout>
@@ -108,8 +108,8 @@ III — Create a snow Treasure token.</text>
 		<card>
 			<name>Horns Against Scale</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Put two +1/+1 counters and a lifelink counter on target creature you control.
-Target creature you control deals damage to target creature or planeswalker you don&apos;t control equal to its power.
+I, II — Put two +1/+1 counters and a lifelink counter on target creature you control.
+III — Target creature you control deals damage to target creature or planeswalker you don&apos;t control equal to its power.
 ​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/5.png" num="195">BRE</set>
 			<prop>
@@ -146,7 +146,7 @@ III — Each player draws two cards.</text>
 		<card>
 			<name>Cinders that Carve Strength</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-You may cast a spell from your hand with mana value equal to or less than the number of lore counters on Cinders that Carve Strength.
+I, II, III, IV — You may cast a spell from your hand with mana value equal to or less than the number of lore counters on Cinders that Carve Strength.
 ​
 ​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/7.png" num="206">BRE</set>
@@ -165,8 +165,8 @@ You may cast a spell from your hand with mana value equal to or less than the nu
 		<card>
 			<name>Restoration of Jormund</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Create two 1/1 green Elf Warrior creature tokens.
-Target creature you control gets +X/+X until end of turn, where X is the number of Elves you control.
+I — Create two 1/1 green Elf Warrior creature tokens.
+II — Target creature you control gets +X/+X until end of turn, where X is the number of Elves you control.
 ​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/8.png" num="214">BRE</set>
 			<prop>
@@ -184,9 +184,9 @@ Target creature you control gets +X/+X until end of turn, where X is the number 
 		<card>
 			<name>A Tale of Gold and Flame</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Exile the top five cards of your library. You may play them as long as you control A Tale of Gold and Flame.
+I — Exile the top five cards of your library. You may play them as long as you control A Tale of Gold and Flame.
 Add {R}{W}. You can&apos;t use this mana to cast spells from your hand.
-You gain life equal to the number of cards exiled by A Tale of Gold and Flame.</text>
+II, III — You gain life equal to the number of cards exiled by A Tale of Gold and Flame.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/9.png" num="217">BRE</set>
 			<prop>
 				<layout>saga</layout>
@@ -203,8 +203,8 @@ You gain life equal to the number of cards exiled by A Tale of Gold and Flame.</
 		<card>
 			<name>Traverse Kaldheim</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Mill four cards. You may return a snow card or a double-faced card milled this way to your hand. If you don&apos;t, you gain 2 life. 
-You may play an additional land this turn. Until end of turn, lands you control enter untapped.
+I, II — Mill four cards. You may return a snow card or a double-faced card milled this way to your hand. If you don&apos;t, you gain 2 life. 
+III — You may play an additional land this turn. Until end of turn, lands you control enter untapped.
 ​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/10.png" num="222">BRE</set>
 			<prop>
@@ -1794,9 +1794,9 @@ Whenever Gisla, Shepherd of the Brave or another nontoken creature you control d
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Alsig, Hardened Reaper</name>
+			<name>Alsig, Reaper of Cowards</name>
 			<text>Flying
-Whenever Alsig, Hardened Reaper or another nontoken creature you control dies, if it wasn&apos;t attacking or blocking, create a 1/1 white Spirit creature token with flying and each opponent loses 1 life.</text>
+Whenever Alsig, Reaper of Cowards or another nontoken creature you control dies, if it wasn&apos;t attacking or blocking, create a 1/1 white Spirit creature token with flying and each opponent loses 1 life.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/BRE-files/img/69.png" num="70">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -2078,7 +2078,7 @@ Zombiecycling {U}{B} ({U}{B}, Discard this card: Search your library for a Zombi
 		<card>
 			<name>Cairnsplitter</name>
 			<text>Cairnsplitter has hexproof as long as you control five or more snow permanents.
-{S}: Target creature gains your choice of haste, menace, reach, trample, or vigilance until end of turn.
+{S}: Target creature gains your choice of haste, trample, or vigilance until end of turn.
 Trollcycling {R}{G} ({R}{G}, Discard this card: Search your library for a Troll card, reveal it, put it into your hand, then shuffle.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/BRE-files/img/84.png" num="190">BRE</set>
 			<prop>
@@ -2096,17 +2096,19 @@ Trollcycling {R}{G} ({R}{G}, Discard this card: Search your library for a Troll 
 		</card>
 		<card>
 			<name>Trollking of Mossrun</name>
-			<text>Whenever you activate an ability of a Troll, put a +1/+1 counter on it.</text>
+			<text>Whenever you activate an ability of a Troll, put a +1/+1 counter on it.
+{3}{B}, {T}: Sacrifice another Troll: Draw cards equal to the sacrificed creature&apos;s power. Create a number of Snow Treasures equal to its toughness.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/BRE-files/img/85.png" num="193">BRE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Troll Warrior</type>
+				<type>Legendary Creature — Troll Warrior</type>
 				<maintype>Creature</maintype>
 				<manacost>RG</manacost>
 				<cmc>2</cmc>
 				<colors>RG</colors>
-				<coloridentity>RG</coloridentity>
+				<coloridentity>BRG</coloridentity>
+				<pt>2/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -4267,7 +4269,7 @@ Bardcycling {G}{W} ({G}{W}, Discard this card: Search your library for a Bard ca
 		<card>
 			<name>Bloodsky Conquerer</name>
 			<text>Flying
-When Bloodsky Conquerer enters, it deals 10 damage to each battle. 2BR — 4</text>
+When Bloodsky Conquerer enters, it deals 10 damage to each otherbattle. 2BR — 4</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/BRE-files/img/211.png" num="187">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -4573,8 +4575,8 @@ Orate — Whenever you cast a noncreature spell, you may pay {1}. If you do, cre
 		<card>
 			<name>Gift of the Frost-Crown</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Draw a card.
-You may shuffle your graveyard into your library. (But not this card.)
+I, II, III — Draw a card.
+IV — You may shuffle your graveyard into your library. (But not this card.)
 ​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/228.png" num="49">BRE</set>
 			<prop>
@@ -4914,9 +4916,9 @@ Lands you control enter the battlefield untapped. 1G — 3</text>
 		<card>
 			<name>Lathril&apos;s Chant</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Chose target creature you control. It fights target creature you don&apos;t control.
+I — Chose target creature you control. It fights target creature you don&apos;t control.
 Put a +1/+1 counter on the chosen creature. If you don&apos;t control it, create a 1/1 green Elf Warrior creature instead.
-Put an indestructible counter on the chosen creature. It becomes a God in addition to its other types.</text>
+II, III — Put an indestructible counter on the chosen creature. It becomes a God in addition to its other types.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/247.png" num="162">BRE</set>
 			<prop>
 				<layout>saga</layout>
@@ -5264,7 +5266,7 @@ Whenever Olsen Moltenhand attacks while modified, his base power and toughness b
 		<card>
 			<name>Surtland Lumberjack</name>
 			<text>Trample
-At the beginning of combat on your turn, exile the top card of your library. You may then create a 1/1 red Berserker creature token with haste. If you don&apos;t, you may play the exiled card this turn 2RR — 6</text>
+At the beginning of combat on your turn, exile the top card of your library. You may then create a 1/1 red Berserker creature token with haste. If you don&apos;t, you may play the exiled card this turn. 2RR — 6</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/BRE-files/img/267.png" num="135">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -5761,10 +5763,10 @@ III — Exile up to one target creature, then return it to the battlefield under
 		<card>
 			<name>Ode to Kin BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-&quot;Ingalvur walks where first steps fall,
+I, II — &quot;Ingalvur walks where first steps fall,
 Through newborn roads and untamed glen,
 And teaches wandering hearts to call.&quot;
-You gain 3 life.
+III — You gain 3 life.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/295.png" num="277">BRE</set>
 			<prop>
@@ -5782,10 +5784,10 @@ You gain 3 life.
 		<card>
 			<name>Ode to Returns BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-&quot;The sagas swell with every cheer,
+I, II — &quot;The sagas swell with every cheer,
 For heroes home from blood and frost,
 Till all their names ring bright and clear.&quot;
-Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
+III — Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/296.png" num="278">BRE</set>
 			<prop>
@@ -5823,10 +5825,10 @@ III — Create a 1/1 white Spirit creature token with flying.
 		<card>
 			<name>Ode to Visions BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-&quot;Vinrormr dreams in serpent sleep,
+I, II — &quot;Vinrormr dreams in serpent sleep,
 While stars dissolve in moss and rain,
 And secrets drown where old gods weep.&quot;
-Draw a card.
+III — Draw a card.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/298.png" num="280">BRE</set>
 			<prop>
@@ -5844,10 +5846,10 @@ Draw a card.
 		<card>
 			<name>Ode to Ashes BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-&quot;Bari kissed the dying flame,
+I, II — &quot;Bari kissed the dying flame,
 And held the lonely through the night,
 Till grief and longing spoke one name.&quot;
-Exile each opponent&apos;s graveyard.
+III — Exile each opponent&apos;s graveyard.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/299.png" num="281">BRE</set>
 			<prop>
@@ -5928,9 +5930,9 @@ III — Create a 6/6 black Demon creature token. You lose 6 life unless you sacr
 		<card>
 			<name>Ode to the Vessel BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-&quot;Split the soul, and twist the bone.
+I, II — &quot;Split the soul, and twist the bone.
 Let it walk, but not alone.&quot;
-Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can&apos;t, each opponent loses 1 life and you gain 1 life.
+III — Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can&apos;t, each opponent loses 1 life and you gain 1 life.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/303.png" num="286">BRE</set>
 			<prop>
@@ -5948,10 +5950,10 @@ Return a creature card named Oilbound Spawn from your graveyard to the battlefie
 		<card>
 			<name>Ode to Cunning BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-&quot;Knud walks grinning through the blaze,
+I, II — &quot;Knud walks grinning through the blaze,
 Where endings carve the road ahead,
 And clever fools survive the haze.&quot;
-You may discard up to two cards. If you do, draw that many cards.
+III — You may discard up to two cards. If you do, draw that many cards.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/304.png" num="287">BRE</set>
 			<prop>
@@ -6011,10 +6013,10 @@ III — Search your library for a land card, reveal it, put it into your hand, t
 		<card>
 			<name>Ode to Renewal BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-&quot;Koma coils beneath the stone,
+I, II — &quot;Koma coils beneath the stone,
 Through silent earth your heartbeat drums,
 Return, and claim the world your own.&quot;
-Create a 3/3 blue Serpent creature token named Koma&apos;s Coil.
+III — Create a 3/3 blue Serpent creature token named Koma&apos;s Coil.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/307.png" num="292">BRE</set>
 			<prop>
