@@ -5,7 +5,7 @@
 			<name>ZANG</name>
 			<longname>Zangy Cube</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-03-30</releasedate>
+			<releasedate>2026-06-03</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -110,7 +110,7 @@ Whenever a land enters under your control, if you control five or more Islands, 
 			<name>Tomb of the First Fighter</name>
 			<text>({T}: Add {W}.)
 Tomb of the First Fighter enters tapped.
-Whenever a land enters under your control, if you control five or more Plains, amass Soldiers 2. (Put two +1/+1 counters on an Army you control. It&apos;s also a Soldier. If you don&apos;t control one, create a 0/0 black Soldier Army creature token first.)</text>
+Whenever a land enters under your control, if you control five or more Plains, amass Soldiers 2. (Put two +1/+1 counters on an Army you control. It&apos;s also a Soldier. If you don&apos;t control an Army, create a 0/0 black Soldier Army creature token first.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/6.png" num="436">ZANG</set>
 			<prop>
 				<layout>normal</layout>
@@ -1171,7 +1171,7 @@ Compose (Then if you cast this from your hand, exile it and create a Saga token 
 		</card>
 		<card>
 			<name>Agnomakhos&apos;s Legionnaire</name>
-			<text>Planeswalkers you control have &quot;[+1]: Amass Soldiers 1.&quot; (Put a +1/+1 counter on an Army you control. It&apos;s also a Soldier. If you don&apos;t control one, create a 0/0 black Soldier Army creature token first.)</text>
+			<text>Planeswalkers you control have &quot;[+1]: Amass Soldiers 1.&quot; (To amass Soldiers 1, put a +1/+1 counter on an Army you control. It&apos;s also a Soldier. If you don&apos;t control an Army, create a 0/0 black Soldier Army creature token first.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/72.png" num="3">ZANG</set>
 			<prop>
 				<layout>normal</layout>
@@ -1275,7 +1275,10 @@ When Terrel Messenger enters, discover 1. (Exile cards from the top of your libr
 		</card>
 		<card>
 			<name>On the Quest for Friendship</name>
-			<text>Look at the top six cards of your library. Put up to one creature card with mana value 2 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II, III — Look at the top six cards of your library. Put up to one creature card with mana value 2 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
+​
+​</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/78.png" num="34">ZANG</set>
 			<prop>
 				<layout>saga</layout>
@@ -1480,10 +1483,11 @@ When Rest Stop enters, exile target nonland permanent until Rest Stop leaves the
 		</card>
 		<card>
 			<name>Birth of the Praetor&apos;s Voice</name>
-			<text>Flash
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+Flash
 Birth of the Praetor&apos;s Voice deals 4 damage to target attacking or blocking creature.
-Exile up to two target cards from graveyards. You gain 2 life.
-Create a 3/3 white, black, blue, and green Phyrexian Angel creature token with flying, vigilance, and lifelink.</text>
+I — Exile up to two target cards from graveyards. You gain 2 life.
+II — Create a 3/3 white, black, blue, and green Phyrexian Angel creature token with flying, vigilance, and lifelink.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/90.png" num="10">ZANG</set>
 			<prop>
 				<layout>saga</layout>
@@ -1769,7 +1773,7 @@ When Thought Vase enters, draw two cards.
 		</card>
 		<card>
 			<name>Glimpse of Opulent&apos;s Eternity</name>
-			<text>Draw X cards, then amass Soldiers X. (Put X +1/+1 counters on an Army you control. It&apos;s also a Soldier. If you don&apos;t control one, create a 0/0 black Soldier Army creature token first.)</text>
+			<text>Draw X cards, then amass Soldiers X. (To amass Soldiers X, put X +1/+1 counters on an Army you control. It&apos;s also a Soldier. If you don&apos;t control an Army, create a 0/0 black Soldier Army creature token first.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/106.png" num="87">ZANG</set>
 			<prop>
 				<layout>normal</layout>
@@ -2074,10 +2078,11 @@ When your library has five or fewer cards in it, sacrifice Call of Marit Lage. I
 		</card>
 		<card>
 			<name>For Marva</name>
-			<text>Flash
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+Flash
 Tap target creature and put two stun counters on it.
-Surveil 2.
-Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
+I — Surveil 2.
+II — Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/124.png" num="86">ZANG</set>
 			<prop>
 				<layout>saga</layout>
@@ -2527,8 +2532,10 @@ Zombies you control have menace.</text>
 		</card>
 		<card>
 			<name>The Decline of Dr. Vaughn</name>
-			<text>I, II — You draw a card and The Decline of Dr. Vaughn deals 1 damage to you.
-III — Each player sacrifices a creature.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — You draw a card and The Decline of Dr. Vaughn deals 1 damage to you.
+III — Each player sacrifices a creature.
+​</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/150.png" num="137">ZANG</set>
 			<prop>
 				<layout>saga</layout>
@@ -2668,7 +2675,8 @@ Whenever Wraithslayer deals combat damage to a player, that player exiles the to
 		</card>
 		<card>
 			<name>Scorned, but Not Broken</name>
-			<text>I — Create a 1/1 red Warrior creature token with prowess.
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Create a 1/1 red Warrior creature token with prowess.
 II — Discard a card. If you do, draw a card.
 III — You may return target instant or sorcery card from your graveyard to your hand.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/158.png" num="239">ZANG</set>
@@ -3149,7 +3157,7 @@ Remove three spore counters from Elder of Thirty Thousand Spores: Create a token
 		</card>
 		<card>
 			<name>The Assault on Sandrock</name>
-			<text>Amass Soldiers 1. (Put a +1/+1 counter on an Army you control. It&apos;s also a Soldier. If you don&apos;t control one, create a 0/0 black Soldier Army creature token first.)
+			<text>Amass Soldiers 1. (Put a +1/+1 counter on an Army you control. It&apos;s also a Soldier. If you don&apos;t control an Army, create a 0/0 black Soldier Army creature token first.)
 Proliferate X times. (To proliferate, choose any number of permanents and/or players with counters on them, then give each another counter of each kind already there.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/185.png" num="262">ZANG</set>
 			<prop>
@@ -3269,7 +3277,8 @@ Escape—{1}{G}, Exile three other cards from your graveyard. (You may cast this
 		</card>
 		<card>
 			<name>Ascend to the Omenpath</name>
-			<text>I — Target creature you control fights up to one target creature you don&apos;t control.
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Target creature you control fights up to one target creature you don&apos;t control.
 II — Mill three cards.
 III — Return up to one creature card and up to one land card from your graveyard to your hand.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/192.png" num="261">ZANG</set>
@@ -4126,7 +4135,7 @@ Whenever a player draws their second card each turn, put a +1/+1 counter on Toot
 		</card>
 		<card>
 			<name>Keeper Glamourbinder</name>
-			<text>Whenever an enchantment enters under your control, amass Soldiers 1. (Put a +1/+1 counter on an Army you control. It&apos;s also a Soldier. If you don&apos;t control one, create a 0/0 black Soldier Army creature token first.)
+			<text>Whenever an enchantment enters under your control, amass Soldiers 1. (Put a +1/+1 counter on an Army you control. It&apos;s also a Soldier. If you don&apos;t control an Army, create a 0/0 black Soldier Army creature token first.)
 Soldiers you control have flying.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/244.png" num="96">ZANG</set>
 			<prop>
@@ -4874,7 +4883,7 @@ Whenever an enchantment you control leaves the battlefield, each opponent loses 
 		</card>
 		<card>
 			<name>Rot to Life</name>
-			<text>Destroy target nonland permanent. If an artifact was destroyed this way, create a Treasure token. If a creature was destroyed this way, create a 1/1 white Human creature token. If an enchantment was destroyed this way, create a Shard token. (A Shard token is an enchantment with &quot;{2}, Sacrifice this enchantment: Scry 1, then draw a card.&quot;) (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)</text>
+			<text>Destroy target nonland permanent. If an artifact was destroyed this way, create a Treasure token. If a creature was destroyed this way, create a 1/1 white Human creature token. If an enchantment was destroyed this way, create a Shard token. (A Shard token is an enchantment with &quot;{2}, Sacrifice this enchantment: Scry 1, then draw a card.&quot;)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/286.png" num="352">ZANG</set>
 			<prop>
 				<layout>normal</layout>
@@ -4999,7 +5008,7 @@ Planeswalkers enter under your control with an additional loyalty counter on the
 		</card>
 		<card>
 			<name>Imani</name>
-			<text>[+1]: Amass Soldiers 1. (Put a +1/+1 counter on an Army you control. It&apos;s also a Soldier. If you don&apos;t control one, create a 0/0 black Soldier Army creature token first.)
+			<text>[+1]: Amass Soldiers 1. (Put a +1/+1 counter on an Army you control. It&apos;s also a Soldier. If you don&apos;t control an Army, create a 0/0 black Soldier Army creature token first.)
 [-2]: Put a +1/+1 counter on each creature you control.
 [-6]: Creatures you control get +1/+1 and gain double strike until end of turn.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/293.png" num="356">ZANG</set>
@@ -6073,7 +6082,7 @@ Whenever one or more sources you control deal damage to an opponent, proliferate
 		</card>
 		<card>
 			<name>Claes</name>
-			<text>[+1]: Amass Soldiers 1. (Put a +1/+1 counter on an Army you control. It&apos;s also a Soldier. If you don&apos;t control one, create a 0/0 black Soldier Army creature token first.)
+			<text>[+1]: Amass Soldiers 1. (Put a +1/+1 counter on an Army you control. It&apos;s also a Soldier. If you don&apos;t control an Army, create a 0/0 black Soldier Army creature token first.)
 [-3]: Exile target nonland permanent if its mana value is less than or equal to the number of tapped creatures you control.
 [-6]: You get an emblem with &quot;Creatures you control can&apos;t be blocked by creatures with greater mana value.&quot;</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/352.png" num="321">ZANG</set>
@@ -7925,8 +7934,10 @@ Umbra armor (If enchanted permanent would be destroyed, instead remove all damag
 		</card>
 		<card>
 			<name>Saga Token</name>
-			<text>I, II — &quot;Theatre is the art form of the present: It exists only in the present, and then it&apos;s gone.&quot;
-III — You may cast a copy of the exiled card from exile without paying its mana cost.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — &quot;Theatre is the art form of the present: It exists only in the present, and then it&apos;s gone.&quot;
+III — You may cast a copy of the exiled card from exile without paying its mana cost.
+​</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/452.png" num="0">ZANG</set>
 			<prop>
 				<layout>saga</layout>
@@ -7937,26 +7948,6 @@ III — You may cast a copy of the exiled card from exile without paying its man
 				<cmc>0</cmc>
 			</prop>
 			<tablerow>1</tablerow>
-			<reverse-related>Collect the Actors</reverse-related>
-			<reverse-related> Holding Out for a Hero</reverse-related>
-			<reverse-related> Powerful Distraction</reverse-related>
-			<reverse-related> Dig for Evidence</reverse-related>
-			<reverse-related> Dream Monologue</reverse-related>
-			<reverse-related> From Curtains to Chills</reverse-related>
-			<reverse-related> Inspect the Plot</reverse-related>
-			<reverse-related> Uncover Secrets</reverse-related>
-			<reverse-related> Defeat of the Greatest Evil</reverse-related>
-			<reverse-related> Imposing Threat</reverse-related>
-			<reverse-related> Inciting Incident</reverse-related>
-			<reverse-related> Repurpose Debris</reverse-related>
-			<reverse-related> Silent Sleep</reverse-related>
-			<reverse-related> Go Out Guns Blazing</reverse-related>
-			<reverse-related> The Highest Stakes</reverse-related>
-			<reverse-related> Timeless Rehearsal</reverse-related>
-			<reverse-related> Apprehend the Nemesis</reverse-related>
-			<reverse-related> Steal the Show</reverse-related>
-			<reverse-related> Time Stands Still and Heroes Emerge</reverse-related>
-			<reverse-related> All Part of the Show</reverse-related>
 		</card>
 		<card>
 			<name>Angel Soldier ZANG</name>
@@ -8029,11 +8020,12 @@ III — You may cast a copy of the exiled card from exile without paying its man
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse-related>Birth of the Praetor&apos;s Voice</reverse-related>
 		</card>
 		<card>
 			<name>Peyma Saga Token</name>
-			<text>Whenever you put a lore counter on this Saga, put a +1/+1 counter on target creature you control.
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II, III, IV, V, VI, C — Whenever you put a lore counter on this Saga, put a +1/+1 counter on target creature you control.
+​
 ​</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/457.png" num="0">ZANG</set>
 			<prop>
@@ -8223,7 +8215,7 @@ Whenever a permanent you control leaves the battlefield, you gain life equal to 
 		</card>
 		<card>
 			<name>Recoup Vigor</name>
-			<text>Amass Soldiers 1. (Put a +1/+1 counter on an Army you control. It&apos;s also a Soldier. If you don&apos;t control one, create a 0/0 black Soldier Army creature token first.)
+			<text>Amass Soldiers 1. (Put a +1/+1 counter on an Army you control. It&apos;s also a Soldier. If you don&apos;t control an Army, create a 0/0 black Soldier Army creature token first.)
 Compose (Then if you cast this from your hand, exile it and create a Saga token with &quot;r{3}—You may cast a copy of this card from exile without paying its mana cost.&quot;)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/468.png" num="305">ZANG</set>
 			<prop>
@@ -8357,7 +8349,6 @@ Create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this artif
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse-related count="X">Terror of Olantin</reverse-related>
 		</card>
 		<card>
 			<name>Bleeding ZANG</name>
@@ -8498,11 +8489,9 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse-related>Ameret, Pride of Cyrukan</reverse-related>
-			<reverse-related>Blade of Cyrukan</reverse-related>
 		</card>
 		<card>
-			<name>Clue4 ZANG</name>
+			<name>Clue ZANG</name>
 			<text>{2}, Sacrifice this artifact: Draw a card.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ZANG-files/img/484.png" num="29">ZANG</set>
 			<prop>
@@ -8515,13 +8504,6 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse-related>Beholding the Unknown</reverse-related>
-			<reverse-related>Following the Matchbooks</reverse-related>
-			<reverse-related>Following the Slimy Trail</reverse-related>
-			<reverse-related>More Questions than Answers</reverse-related>
-			<reverse-related>Lorre Patsy</reverse-related>
-			<reverse-related>Researcher of the Occult</reverse-related>
-			<reverse-related>Unending Curosity</reverse-related>
 		</card>
 		<card>
 			<name>Marit Lage ZANG</name>
@@ -8540,7 +8522,6 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse-related>Embrace of Ice</reverse-related>
 		</card>
 		<card>
 			<name>High Roller</name>

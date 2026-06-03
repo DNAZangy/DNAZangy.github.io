@@ -2,7 +2,7 @@
     "name": "Myths, Masks, and Minutes Spent Apart",
     "formats": "",
     "image_type": "png",
-    "draft_structure": "play booster",
+    "draft_structure": "draft booster",
     "unpreviewed": "card back",
     "image_name": "position",
     "v_mana": "",
@@ -5717,7 +5717,7 @@
             "alias": "",
             "position": "271",
             "rotated": false,
-            "notes": "!related Prank of the Ages;Season's End Celebrant;Invigorating Discovery;\n!tag Ruhigwelt\n!tag Jaegrin"
+            "notes": "!tag Ruhigwelt\n!tag Jaegrin"
         },
         {
             "card_name": "Play the Part",
@@ -5864,7 +5864,7 @@
             "alias": "",
             "position": "278",
             "rotated": false,
-            "notes": "!related Escapade Collector;Faithful Harrier;Gregarious Buboh;Veiled Foreboding;From Blood, Blades;Warkrei Commander;Custodian of Cycles;Deprecate;From Hope to Action;Timber Pummeler;Zyklinder Shortcutter;Anina, Breath of the Winds;Nasaj;Steward of New Horizons"
+            "notes": ""
         },
         {
             "card_name": "ElementalGreen",
@@ -5885,7 +5885,7 @@
             "alias": "",
             "position": "279",
             "rotated": false,
-            "notes": "!exportname ElementalGreen\n!related Path of the Unremembered;Kriemhild of One Truth;"
+            "notes": "!exportname ElementalGreen\n"
         },
         {
             "card_name": "ElementalBlue",
@@ -5906,7 +5906,7 @@
             "alias": "",
             "position": "280",
             "rotated": false,
-            "notes": "!exportname ElementalBlue\n!related Ziel, Season of Endings;Out-of-Body Experience;"
+            "notes": "!exportname ElementalBlue\n"
         },
         {
             "card_name": "Warrior",
@@ -5927,7 +5927,7 @@
             "alias": "",
             "position": "281",
             "rotated": false,
-            "notes": "!related Those of Distant Familiarity;A Dream of Reunion;Opulent Settler;Rally the Dragoons;Timber Pummeler;Lessons Learned Trials Won;Unblooded Edge;"
+            "notes": ""
         },
         {
             "card_name": "Avatar",
@@ -5948,7 +5948,7 @@
             "alias": "",
             "position": "282",
             "rotated": false,
-            "notes": "!related Behold Ruhigwelt;\nGrabeih"
+            "notes": "\nGrabeih"
         },
         {
             "card_name": "Wolf Spirit",
@@ -5969,7 +5969,7 @@
             "alias": "",
             "position": "283",
             "rotated": false,
-            "notes": "!related Together As One;"
+            "notes": ""
         },
         {
             "card_name": "Treasure",
@@ -5990,7 +5990,7 @@
             "alias": "",
             "position": "284",
             "rotated": false,
-            "notes": "!related Crestfallen Roseblade;Liberator of Petals;Merry Marauder;Ziel, Season of Endings"
+            "notes": ""
         },
         {
             "card_name": "Spirit",
@@ -6011,7 +6011,7 @@
             "alias": "",
             "position": "285",
             "rotated": false,
-            "notes": "!related Fount of the Wandering;Witness to Many Ends\nGrabeih"
+            "notes": "\nGrabeih"
         },
         {
             "card_name": "A Dream of Stillness",
@@ -6203,5 +6203,5 @@
             "notes": "!tag Ruhigwelt\n!tag Fassahd\n!tag Kriemhild\n!tag Planeswalker\n!tag Dietrich"
         }
     ],
-    "version": 3
+    "version": 4
 }

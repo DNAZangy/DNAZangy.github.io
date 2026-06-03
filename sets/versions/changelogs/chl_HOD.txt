@@ -1,4 +1,837 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+
+
+Sword of the Royalty
+
+Knight Exemplar
+
+Arbiter of the Meek
+
+Sandrock Blacksmith
+
+Sapner Vindicator
+
+Call to War
+
+Regal Lion
+
+Leon Terrel, Unspoken Heir
+rules_text: Vigilance
+Other creature tokens you control get +1/+1 and have vigilance. => Heir—You've created five or more tokens with different names this game. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]
+Vigilance
+Other creature tokens you control get +1/+1 and have vigilance.
+
+Scorched Earth
+
+The Aciesblade
+
+Leon's Claim
+
+Mirrorkin's Bargain
+
+Sovereign Echomage
+
+Idol of Forgotten Gods
+
+Takers of Voice
+rules_text: Deception {3}{U}{U} [i]({3}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+Flying
+Whenever Takers of Voice enters, gain control of target nonland permanent for as long as you control Takers of Voice. => Sneak {3}{U}{U} [i](You may cast this spell for {3}{U}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+Flying
+Whenever Takers of Voice enters, gain control of target nonland permanent for as long as you control Takers of Voice.
+
+Wilmot Nye, the Crafty
+rules_text: Creatures you control can't be blocked unless each creature with lesser power than that creature is also blocked. => Heir—Your opponents have been dealt combat damage by unblocked creatures four or more times this game. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition. Each creature counts separately.)[/i]
+Creatures you control can't be blocked unless each attacking creature with lesser power than that creature is also blocked.
+pt: 3/2 => 3/3
+special_text: Heir—Your opponents have been dealt combat damage by unblocked creatures five or more times this game. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition. Each creature counts separately.)[/i]
+Creatures you control can't be blocked unless each creature with lesser power than that creature is also blocked. => Heir—Your opponents have been dealt combat damage by unblocked creatures four or more times this game. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition. Each creature counts separately.)[/i]
+Creatures you control can't be blocked unless each attacking creature with lesser power than that creature is also blocked.
+
+Inquisitive Otter
+
+Geistwald Kraken
+
+Beachside Drake
+
+Marilye, Heirloom Pilferer
+rules_text:  => Sneak {2}{U}{U} [i](You may cast this spell for {2}{U}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+As long as it's your turn, Marilye is a 3/2 Elf Rogue creature with hexproof and indestructible.
+[+1]: Tap target permanent. It doesn't untap during its controller's next untap step.
+[-2]: Exile the top five cards of target opponent's library. You may cast any number of cards exiled this way with total mana value equal to or less than the amount of damage dealt to them this turn without paying their mana costs.
+special_text: Deception {2}{U}{U} [i]({2}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+As long as it's your turn, Marilye is a 3/2 Elf Rogue creature with hexproof and indestructible.
+[+1]: Tap target permanent. It doesn't untap during its controller's next untap step.
+[-2]: Exile the top five cards of target opponent's library. You may cast any number of cards exiled this way with total mana value equal to or less than the amount of damage dealt to them this turn without paying their mana costs. => Sneak {2}{U}{U} [i](You may cast this spell for {2}{U}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+As long as it's your turn, Marilye is a 3/2 Elf Rogue creature with hexproof and indestructible.
+[+1]: Tap target permanent. It doesn't untap during its controller's next untap step.
+[-2]: Exile the top five cards of target opponent's library. You may cast any number of cards exiled this way with total mana value equal to or less than the amount of damage dealt to them this turn without paying their mana costs.
+
+Domineering Mirrorkin
+
+Royal Seeker
+
+Unending Malice
+
+Petula Vance, the Solemn Joke
+rules_text: Whenever Petula Vance attacks, exile another attacking creature you control. If you do, return target creature card from your graveyard to the battlefield tapped and attacking. => Heir—You've cast four or more spells this game for an amount of mana less than their mana value. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]
+Whenever Petula Vance attacks, exile another attacking creature you control. If you do, return target creature card from your graveyard to the battlefield tapped and attacking.
+pt: 3/4 => 4/4
+special_text: Heir—You've cast five or more spells for an amount of mana less than their mana value. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]
+Whenever Petula Vance attacks, exile another attacking creature you control. If you do, return target creature card from your graveyard to the battlefield tapped and attacking. => Heir—You've cast four or more spells this game for an amount of mana less than their mana value. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]
+Whenever Petula Vance attacks, exile another attacking creature you control. If you do, return target creature card from your graveyard to the battlefield tapped and attacking.
+
+Thriving Hyena
+
+Taken by House Vance
+
+Vance Informant
+
+Sapner Hexcrafter
+
+Plaskett Trickster
+rules_text: Deception {2}{B} [i]({2}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+Whenever Plaskett Trickster deals combat damage to a player or planeswalker, defending player exiles a card from their sanctum at random and a card from their hand. You may play those cards for as long as they remain exiled and mana of any type can be spent to cast them. => Sneak {2}{B} [i](You may cast this spell for {2}{B} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+Whenever Plaskett Trickster deals combat damage to a player or planeswalker, choose one to be exiled. You may play the exiled cards for as long as they remain exiled. Mana of any type can be spent to cast spells this way.
+• A card from defending player's hand.
+• A random card from defending player's sanctum.
+
+Virulent Hexer
+
+Closure
+
+Knight of the Endless War
+
+Waldemar, Forgotten Heir
+rules_text: Once per game, when Waldemar deals combat damage to a player, if he was your chosen heir exile him, then return him to the battlefield transformed under that player's control.
+When Waldemar dies, each opponent discards a card. => 
+Once per game, when Waldemar deals combat damage to a player, if he was your chosen heir exile him, then return him to the battlefield transformed under that player's control.
+When Waldemar dies, each opponent discards a card.
+[i][/i]
+pt: 2/1 => 2/2
+special_text: 
+ => 
+Once per game, when Waldemar deals combat damage to a player, if he was your chosen heir exile him, then return him to the battlefield transformed under that player's control.
+When Waldemar dies, each opponent discards a card.
+[i][/i]
+
+Fervent Demagogue
+
+Caryl Rey, the Rose
+rules_text: Menace
+Whenever Caryl Rey, the Rose attacks, exile the top card of your library. You may cast it. If you don't, put a +1/+1 counter on Caryl Rey. => Heir—You have ten or more cards in exile. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]
+Menace
+Whenever Caryl Rey, the Rose attacks, exile the top card of your library. You may cast it. If you don't, put a +1/+1 counter on Caryl Rey.
+special_text: Heir—You have twenty or more cards in exile. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]
+Menace
+Whenever Caryl Rey, the Rose attacks, exile the top card of your library. You may cast it. If you don't, put a +1/+1 counter on Caryl Rey. => Heir—You have ten or more cards in exile. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]
+Menace
+Whenever Caryl Rey, the Rose attacks, exile the top card of your library. You may cast it. If you don't, put a +1/+1 counter on Caryl Rey.
+
+Ardleby Gatekeeper
+rules_text: Whenever you attack, target attacking creature gets +1/+0 until end of turn. Create a token that's a copy it in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i] => Whenever Ardleby Gatekeeper attacks, another target attacking creature gets +1/+0 until end of turn. Create a token that's a copy it in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]
+
+Geistwald Deceiver
+
+Usurp
+
+Standoff at Beachside
+
+William's Epiphany
+
+Blazing Phoenix
+
+Thorough Conflagration
+
+Herald of Storms
+
+House Negotiations
+
+Quirky Chameleon
+
+Ranulf, the Seed of Sapner
+rules_text: [i]Landfall[/i] — Whenever a land you control enters, return target card from your graveyard to your hand. => Heir—You control six or more lands and you don't control any nonbasic lands. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]
+[i]Landfall[/i] — Whenever a land you control enters, return target card from your graveyard to your hand.
+special_text: Heir—You control six or more lands and you don't control any nonbasic lands and there aren't any nonbasic lands in your graveyard. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]
+[i]Landfall[/i] — Whenever a land you control enters, return target card from your graveyard to your hand. => Heir—You control six or more lands and you don't control any nonbasic lands. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]
+[i]Landfall[/i] — Whenever a land you control enters, return target card from your graveyard to your hand.
+
+Geistwald Amalgam
+
+Geistwald Abomination
+
+Choice of Salvations
+
+Chorus of the Silberwald
+cost: {2}{G} => {3}{G}
+rules_text: Deception {3}{G}{G} [i]({3}{G}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+Whenever Chorus of the Silberwald deals combat damage to a player or planeswalker, you may search your library for a creature card with mana value equal to or less than that damage, put it onto the battlefield, then shuffle. => Sneak {2}{G}{G} [i](You may cast this spell for {2}{G}{G} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+Whenever Chorus of the Silberwald deals combat damage to a player or planeswalker, you may search your library for a creature card with mana value equal to or less than that damage, put it onto the battlefield, then shuffle.
+
+Blight-Tipped Hunter
+
+Sapner Trapper
+
+One with the Geistwald
+
+Oriel Rivers, Wings of Worth
+
+Elias Plaskett, Hidden Blade
+
+Wulfric Hook, Lord of Ends
+
+The Empty Throne of Phyre
+
+Capac Suyay, Grim Seeker
+rules_text:  => Whenever a token enters from your reserves, put a +1/+1 counter and your choice of a trample, vigilance, or reach counter on it.
+[+1]: Create two 1/1 white Soldier creature tokens in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]
+[-7]: Create two white enchantment tokens named Intisuyu's Armies with “At the beginning of your end step, create a 1/1 white Solider creature token for each creature you control.”
+
+Roul Banefort, the Stern
+
+Conrad Whitaker, Protector
+
+Minna Radcliff, the Swift
+
+Gosfridus Turnberry
+
+Alger Perle, Lord of Truetower
+
+Dovizia Attwater, the Learned
+rules_text: Deception {1}{G}{U} [i]({1}{G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+Whenever a creature you control enters, it gets +2/+2 until end of turn. => Sneak {1}{G}{U} [i](You may cast this spell for {1}{G}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+Whenever a creature you control enters, it gets +2/+2 until end of turn.
+
+Daring General
+
+In Defiance
+
+Inspiring Castellan
+
+Edict of the Mirrorkin
+
+Bamboozle
+
+Whisperer of Armies
+
+Weight of War
+
+Scars of Wars Past
+
+Succession Scandal
+
+Castle Delta Agitator
+rules_text: Deception {3}{B}{G}{U} [i]({3}{B}{G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+Whenever Castle Delta Agitator deals combat damage to a player or planeswalker, you may cast target card in your graveyard without paying its mana cost. If you do, exile that card as it resolves. => Sneak {3}{B}{G}{U} [i](You may cast this spell for {3}{B}{G}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+Whenever Castle Delta Agitator deals combat damage to a player or planeswalker, you may cast target card in your graveyard without paying its mana cost. If you do, exile that card as it resolves.
+
+Cherrywood Elite
+
+Stoic at Graven Laughs
+
+The Crown of Skyspire
+
+Nye Scoundrel
+
+Decisive Judgment
+
+Bennet Terrel, the High King
+
+Bistra Sapner, the Flourishing
+
+Delora Vance, Lord of Laughs
+
+Edith Rey, the Just
+
+Elric Nye, the Pirate King
+rules_text: Deception {2}{B}{G}{U} [i]({2}{B}{G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+Trample
+Whenever Elric Nye deals combat damage to a player or planeswalker, if it isn't an extra turn, taken an extra turn after this one. => Sneak {2}{B}{G}{U} [i](You may cast this spell for {2}{B}{G}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+Trample
+Whenever Elric Nye deals combat damage to a player or planeswalker, if it isn't an extra turn, taken an extra turn after this one.
+
+Castle on the Delta
+
+Skyspire Keep
+
+King's Rock Castle
+
+Hall of Graven Laughs
+
+Fort Sapner
+
+Slabman Stoneplate
+
+Clearing in the Glade
+
+Important Parcel
+
+Overflowing Sanctuary
+
+Extravagent Airship
+
+Travelcart's Care
+
+Whitaker Elite
+
+Switching Shifts
+
+Terrel Battlemage
+
+Imani Whitaker
+
+Noble Griffin
+
+Paragon of Stories
+
+Wystan Terrel, the Occultist
+
+Heart of Banefort
+
+Trust in the Future
+
+Left to Wander
+
+In Hopeful Caress
+
+Lost at Sea
+
+Nye Battlemage
+
+Many-faced Blade
+
+Flittering Distraction
+
+Pilferer of Shrouded Coasts
+rules_text: Deception {U} [i]({U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+Whenever Pilferer of Shrouded Coasts deals combat damage to a player or planeswalker, create a tapped Treasure token. => Sneak {U} [i](You may cast this spell for {U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+Whenever Pilferer of Shrouded Coasts deals combat damage to a player or planeswalker, create a tapped Treasure token.
+
+Attwater Drakerider
+
+Disappointing Show
+cost: {X}{U} => {X}{X}{U}
+
+Town Busybody
+rules_text: Flash
+Flying
+When Town Busybody enters, tap target creature. => Flash
+Flying
+Whenever Town Busybody attacks, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+
+Lodema, Diamond of the Nye
+
+Grasp of the Mirrorkin
+
+Beginning of a Grand Heist
+
+Grand Snail Race at Riverdale
+
+Vance Soulsapper
+
+Vance Battlemage
+
+Voyage to the End of the World
+
+Massacre at King's Rock
+
+Reaper of Graven Laughs
+
+Fueled by Vengeance
+
+On the Knife's Edge
+
+Whitaker Devoted
+
+Plaskett Barber
+rules_text: Deception {B} [i]({B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+When Plaskett Barber enters, choose one —
+• Remove up to three counters from target permanent or opponent.
+• Exile the top card of target player's library. => Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+When Plaskett Barber enters, choose one —
+• Remove up to three counters from target permanent or opponent.
+• Exile the top card of target player's library.
+
+Tacit Scorpion
+
+Alder, Vance's Claw
+
+Binding Lightning
+
+Torch
+
+William Rey, Lover to All
+
+All-Out Charge
+
+Drenched Euphoria
+
+Death's Sting Captain
+
+Rey Battlemages
+
+Seeker of Blood
+
+Radcliff Electromancer
+
+Catastrophic Dragon
+
+Raving Bomber
+
+Beacon of Greatness
+
+Turnberry Mediator
+
+The Call to Adventure
+rules_text: Deception {3}{G} [i]({3}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+Whenever The Call to Adventure enters during combat or a creature you control deals combat damage to a player or planeswalker, draw a card. => Sneak {3}{G} [i](You may cast this spell for 3G if you also return an unblocked attacker you control to hand during the declare blockers step.)[/i]
+Whenever The Call to Adventure enters during combat or a creature you control deals combat damage to a player or planeswalker, draw a card.
+
+Foliage Decoy
+
+Encroach Upon
+
+Hunter's Expertise
+
+Attwater Elite
+rules_text: Deception {G} [i]({G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+At the beginning of your end step, if you attacked this turn, put a +1/+1 counter on Attwater Elite. => Sneak {G} [i](You may cast this spell for {G} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+At the beginning of your end step, if you attacked this turn, put a +1/+1 counter on Attwater Elite.
+
+Sapner Battlemage
+
+Rey Hospitality
+
+Fulchard Sapner, Gentle Giant
+
+Turnberry Overseer
+
+Silberwald Trailblazer
+rules_text: Deception {5}{G} [i]({5}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+Whenever Silberwald Trailblazer deals combat damage to a player or planeswalker, put a +1/+1 counter on each creature you control. => Sneak {5}{G} [i](You may cast this spell for {5}{G} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+Whenever Silberwald Trailblazer deals combat damage to a player or planeswalker, put a +1/+1 counter on each creature you control.
+
+Robust Oxen
+
+Gathering of Lost Souls
+
+Travelcart Guardian
+
+Vindictive Spiral
+
+Guide of Neglected Hopes
+
+Hook Ironmantle
+
+Artillery Shot
+
+Break Out
+
+Phyre Armiger
+
+Bistra's Commander
+
+Standing Army
+
+Whitaker Cavalry
+
+Proof of Divinity
+
+Radcliff Dragoncaller
+
+Naval Artillery
+
+Dirt to Flesh
+
+Restorative Hexer
+
+Kirsa, the Sword of Perle
+
+Renodet, the Shield of Perle
+
+Hillcrest Vanguard
+rules_text: Deception {G}{U} [i]({G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+If a creature entering the battlefield or dealing combat damage to an opponent causes a triggered ability of a permanent you control to trigger during combat, that ability triggers an additional time. => Sneak {G}{U} [i](You may cast this spell for {G}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+If a creature entering the battlefield or dealing combat damage to an opponent causes a triggered ability of a permanent you control to trigger during combat, that ability triggers an additional time.
+
+Attwater Warsworn
+
+Cherrywood Groundskeeper
+
+Sapner Decree
+
+Terrel Decree
+
+Vance Decree
+
+Rey Decree
+
+Respected Captain
+
+Oaksworn Phantom
+
+Glory on Bloodied Wings
+
+Secluded Arachnomorph
+
+Explore the Great Unknown
+
+Faceless Mirrorkin
+rules_text: Deception {B}{G}{U} [i]({B}{G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+You may have Faceless Mirrorkin enter as a copy of any creature on the battlefield. If you paid this card's deception cost, you may instead have this creature enter as a copy of the creature you returned to your hand. => Sneak {B}{G}{U} [i](You may cast this spell for {B}{G}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+You may have Faceless Mirrorkin enter as a copy of any creature on the battlefield. If you paid this card's sneak cost, you may instead have this creature enter as a copy of the creature you returned to your hand.
+
+Azra Seasonkeeper
+
+Sacred Avenger
+
+Nye Decree
+
+Disciple of Entwined Souls
+
+Scorned Redeemer
+
+Dreamstalker
+
+Skulking Smuggler
+
+Meeting of Powers
+
+Highborn Sovereign
+
+Crossroads of Identity
+
+Whitaker Sigil
+
+Ardleby Hold
+
+Beachside Castle
+
+Castle of Death's Sting
+
+Castle of Shrouded Coasts
+
+Cloudkissed Keep
+
+Hall of Flowing Streams
+
+Riverdale Fortress
+
+Sandrock Castle
+
+Truetower Castle
+
+Turnberry Citadel
+
+Dreadship Vessel
+
+Hulking Vessel
+
+Writ of Supplies
+
+War Map
+
+Wealthy Slabman
+
+Terrel Recruit
+
+Blade of Riverdale
+
+Hardy Bear
+
+Resolute Elk
+
+Glimpse
+
+Royal Send-Off
+
+Blessing at Graven Laughs
+
+Beguiling Soulmage
+
+Guerrilla Ambush
+
+Manacles of Stilled Fury
+
+Dealings at the Delta
+
+Duplicitous Crow
+
+Bounty Setter
+
+Bout on the Deck
+
+Give Penance
+
+Lucky Break
+
+Debt Collection
+
+Vance Devotee
+
+Cherrywood Purification
+
+Impaling Lance
+
+Show of Might
+
+Pull unto Death
+
+Teller of Infinite Tales
+
+Master the Old Ways
+
+Call of the King
+
+Naval Diplomacy
+
+Sandrock Infantry
+
+Summer Tryst
+
+Fort Sapner Caretaker
+
+Roul's High Guard
+
+Kidnapping
+
+Devious Cutthroat
+rules_text: Deception {2}{B} [i]({2}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+Whenever Devious Cutthroat deals combat damage to a player or planeswalker, defending player discards a card. => Sneak {2}{B} [i](You may cast this spell for {2}{B} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+Whenever Devious Cutthroat deals combat damage to a player or planeswalker, defending player discards a card.
+
+Innocent Rendezvous
+
+Instill with Integrity
+
+Truetower Warden
+
+Tormentor of Tales
+
+Warden of Fort Sapner
+
+Truetower Lookout
+
+Silberwald Ranger
+
+Banefort Skywarden
+
+Vance Racketeers
+
+Turnberry Legionnaire
+
+Phyre Sellsword
+
+Flowing Streams Halberdier
+rules_text: Deception {3}{G} [i]({3}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+When Flowing Streams Halberdier enters, target creature gets +2/+0 and gains trample until end of turn. => Sneak {3}{G} [i](You may cast this spell for {3}{G} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+When Flowing Streams Halberdier enters, target creature gets +2/+0 and gains trample until end of turn.
+
+Knight of Skyspire
+
+Enduring Turtle
+
+Sanguine Chalice
+
+Call of the Rose
+
+Qualified Windrigger
+rules_text: Deception {1}{G} [i]({1}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+Whenever Qualified Windrigger deals combat damage to a player, untap up to two lands. => Sneak {1}{G} [i](You may cast this spell for {1}{G} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+Whenever Qualified Windrigger deals combat damage to a player, untap up to two lands.
+
+Honored Eagle
+
+Nye Recruit
+
+Vance Recruit
+
+Measured Strike
+
+Geistwald Explorer
+
+Battle for the Aciesblade
+
+Thugs at the Shrouded Coast
+
+Terrifying Mongrel
+
+Battle Scars
+
+Spellwild Ouphe
+
+Overcoming Squire
+
+Castle Delta Lookout
+rules_text: Deception {1}{U} [i]({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+Whenever Castle Delta Lookout deals combat damage to a player or planeswalker, draw a card. => Sneak {1}{U} [i](You may cast this spell for {1}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+Whenever Castle Delta Lookout deals combat damage to a player or planeswalker, draw a card.
+
+Sever the Legacy
+
+Gleaming Courage
+
+Call to Strength
+
+Overzealous Page
+
+Vance Mentor
+
+Slabman Muscle
+rules_text: Deception {4}{B} [i]({4}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+Flying => Sneak {4}{B} [i](You may cast this spell for {4}{B} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+Flying
+
+Rey Recruit
+
+Replenishing Camp
+
+Charitable Faerie
+
+Ardent Warsworn
+rules_text: Deception {2}{U} [i]({2}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]
+Whenever Ardent Warsworn deals combat damage to a player or planeswalker, you may tap target nonland permanent and put a stun counter on it. => Sneak {2}{U} [i](You may cast this spell for {2}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]
+Whenever Ardent Warsworn deals combat damage to a player or planeswalker, you may tap target nonland permanent and put a stun counter on it.
+
+Fleshborne Horror
+
+Kirsa's Page
+
+Sapner Recruit
+
+Hopeful Spouse
+
+King's Rock Warden
+
+Catharsis of Grief
+
+Expendable Army
+
+Cloudkissed Tracker
+
+Brotherly Comradery
+
+Monarch-Wing Retainer
+
+Overt Warning
+
+Death's Sting Diplomacy
+
+Aggressive Urge
+
+Dishonorable End
+
+Deadly Interrogation
+
+Refuse to Yield
+
+Everturning Crane
+
+Mockery of Innocence
+rules_text: Lifelink
+When Mockery of Innocence enters, you may destroy target creature. You gain life equal to 8 minus that creature's mana value. => Lifelink
+When Mockery of Innocence enters, you may destroy target creature. If you do, you gain life equal to 8 minus that creature's mana value.
+
+Perle Retainer
+
+Show of Aggression
+
+Approach of the Newly Crowned
+
+Read the Wingbeats
+
+Bounty Collector
+
+Gaze Upon Greatness
+
+Long Night's Rest
+
+Hexer's Cave
+
+Intisuyus Armies
+
+Suyay's Soldier
+
+Messenger of Absent Messages
+
+The Sword of Perle
+
+Scout
+
+The Gentle Giant
+
+Vances Claw
+
+Lover to All
+
+The Diamond of the Nye
+
+The Occultist
+
+Horror
+
+Dewold Army
+
+Young Soldier
+
+Reserves
+
+Destroyed-Knight
+
+Soldier
+
+Knight
+
+The True Heir
+
+Treasure
+
+Weapon
+
+Food
+
+Clue
+
+Spirit
+
+Vance Sigil
+
+Turnberry Sigil
+
+Terrel Sigil
+
+Sapner Sigil
+
+Rivers Sigil
+
+Rey Sigil
+
+Radcliff Sigil
+
+Plaskett Sigil
+
+Phyre Sigil
+
+Attwater Sigil
+
+Perle House Sigil
+
+Nye Sigil
+
+Hook Sigil
+
+Banefort Sigil
+
+Hann, Herald of the Conqueror
+
+Marilye's Revelation
+
+Heir Tracking
+
+
+VERSION 4 CHANGELOG
 ====================
 
 Foliage Decoy added.

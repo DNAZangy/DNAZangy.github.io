@@ -1,8 +1,11 @@
 ﻿{
     "name": "Alkabah",
-    "formats": "Zangy, MSEM",
-    "trimmed": "y",
-    "image_type": "jpg",
+    "formats": "MSEM",
+    "image_type": "png",
+    "draft_structure": "draft booster",
+    "unpreviewed": "card back",
+    "image_name": "position",
+    "v_mana": "",
     "cards": [
         {
             "card_name": "Greater Masticore",
@@ -20,6 +23,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "putridCheese",
+            "alias": "",
+            "position": "0",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -38,6 +44,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Benjamin Hill",
+            "alias": "",
+            "position": "1",
             "card_name2": "Tamaak, Drought of Life",
             "color2": "BG",
             "type2": "Legendary Creature \u2014 Elder Demon",
@@ -48,6 +56,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Leonard Haas",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Martoob\n!tag Tamaak"
         },
         {
@@ -66,6 +77,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Pierre Raveneau",
+            "alias": "",
+            "position": "2",
             "card_name2": "Andazir, the Crownless",
             "color2": "BR",
             "type2": "Legendary Creature \u2014 Elder Demon",
@@ -76,6 +89,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Kian Ashrafi",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Mahara"
         },
         {
@@ -94,6 +110,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "daniele ariuolo",
+            "alias": "",
+            "position": "3",
             "card_name2": "Fahrib, Tale of Deceit",
             "color2": "UB",
             "type2": "Legendary Creature \u2014 Elder Demon",
@@ -104,6 +122,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Ian Byerly",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Rahstahde\n!tag Fahrib\nnewart"
         },
         {
@@ -122,6 +143,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Insist__",
+            "alias": "",
+            "position": "4",
             "card_name2": "Atieh, Savior of Destiny",
             "color2": "WU",
             "type2": "Legendary Creature \u2014 Elder Angel",
@@ -132,6 +155,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Ninovecia",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Kahroba\n!tag Atieh"
         },
         {
@@ -150,6 +176,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Oleg Fedorov",
+            "alias": "",
+            "position": "5",
             "card_name2": "Cyrukan, the Vast",
             "color2": "WR",
             "type2": "Legendary Creature \u2014 Elder Angel",
@@ -160,6 +188,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Zhongzheng Luo",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Sahra\n!tag Cyrukan"
         },
         {
@@ -178,6 +209,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Jim \"Dreadjim\" Ling",
+            "alias": "",
+            "position": "6",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nwhite blue red green\nfour color\n!script \"<s><l>Spawn 2/1 Sand</l><f>/spawn 2/1 white Sand ALK</f></s><s><l>Spawn 3/1 Sand</l><f>/spawn 3/1 red Sand ALK</f></s><s><l>Spawn 2/2 Sand</l><f>/spawn 2/2 blue Sand ALK</f></s><s><l>Spawn 3/3 Sand</l><f>/spawn 3/3 green Sand ALK</f></s>\",\"r\""
         },
         {
@@ -196,6 +230,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Veronica o Neill",
+            "alias": "",
+            "position": "7",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\ngreen white blue black\nfour color"
         },
         {
@@ -214,6 +251,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Forrest Imel",
+            "alias": "",
+            "position": "8",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nblue black green red\nfour color"
         },
         {
@@ -232,6 +272,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Muhamad Faizal Fikri",
+            "alias": "",
+            "position": "9",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag GolnaRule\n!tag Hadak\nblack red green white\nfour color"
         },
         {
@@ -250,6 +293,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Angel Yanez Diaz",
+            "alias": "",
+            "position": "10",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nblue black red green\nfour color"
         },
         {
@@ -268,6 +314,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Bogna Gawronska",
+            "alias": "",
+            "position": "11",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -286,6 +335,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Eli Ring",
+            "alias": "",
+            "position": "12",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -304,6 +356,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sally Gottschalk",
+            "alias": "",
+            "position": "13",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag GolnaRule"
         },
         {
@@ -322,6 +377,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sara Forlenza",
+            "alias": "",
+            "position": "14",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Aminatou\n!tag Planeswalker\n!tag Mahara\n\nblue white black\nthree color"
         },
         {
@@ -340,6 +398,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Xavier Lozano",
+            "alias": "",
+            "position": "15",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nblue black red\nthree color"
         },
         {
@@ -358,6 +419,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Frox Tain",
+            "alias": "",
+            "position": "16",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag AmeretALKStory\n!tag Mahara\n\nblack white red\nthree color\nAmeretstory2\nMahara Angel"
         },
         {
@@ -376,6 +440,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Inkognit / Joao Fiuza",
+            "alias": "",
+            "position": "17",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Cyrukan\nCyrukan Angel"
         },
         {
@@ -394,6 +461,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Alvaro Estrada",
+            "alias": "",
+            "position": "18",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Fahrib\n!update nerfed: Condition changed from having power 4 or greater, no longer triggers if it's a token"
         },
         {
@@ -412,6 +482,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Lordigan",
+            "alias": "",
+            "position": "19",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Tamaak\nblack white green\nthree color"
         },
         {
@@ -430,7 +503,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Diana Franco",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "20",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Dunesea Captain",
@@ -448,7 +524,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Arc Noir",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "21",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Zareen's Pariah",
@@ -466,6 +545,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Pius Wirawan Pranoto",
+            "alias": "",
+            "position": "22",
+            "rotated": false,
             "notes": "white blue black red green\n!tag Alkabah\n!tag Zareen\n!tag ZareenRule"
         },
         {
@@ -484,6 +566,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Inka Schulz",
+            "alias": "",
+            "position": "23",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nblack red green\nthree color"
         },
         {
@@ -502,6 +587,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Hetain Wang",
+            "alias": "",
+            "position": "24",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\ngreen blue red\nthree color"
         },
         {
@@ -520,6 +608,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Envak Enkaqti",
+            "alias": "",
+            "position": "25",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n\nred white green \nthree color\nwantart"
         },
         {
@@ -538,6 +629,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Tooth Wu",
+            "alias": "",
+            "position": "26",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nblue white green\nthree color"
         },
         {
@@ -556,6 +650,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Anton Nazarenko",
+            "alias": "",
+            "position": "27",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nblack green blue\nthree color"
         },
         {
@@ -574,6 +671,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Mikhail Chistyakov",
+            "alias": "",
+            "position": "28",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nblue red white\nthree color"
         },
         {
@@ -592,6 +692,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Oleg Kapustin",
+            "alias": "",
+            "position": "29",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Mehr"
         },
         {
@@ -610,6 +713,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Jcbarquet",
+            "alias": "",
+            "position": "30",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag PiruzRule\n!tag Mahara"
         },
         {
@@ -628,6 +734,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Bach Tran",
+            "alias": "",
+            "position": "31",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Andazir"
         },
         {
@@ -646,6 +755,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Jannaphia",
+            "alias": "",
+            "position": "32",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Nozar\ngreen red blue \nthree color"
         },
         {
@@ -664,6 +776,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sancient",
+            "alias": "",
+            "position": "33",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Omid\nwhite black green\nthree color"
         },
         {
@@ -682,6 +797,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Jun Seong Park",
+            "alias": "",
+            "position": "34",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Golna"
         },
         {
@@ -700,6 +818,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Shal Franchini",
+            "alias": "",
+            "position": "35",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Andazir\n!tag Acrimony\nblack red green\nthree color"
         },
         {
@@ -718,6 +839,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Mateusz Michalski",
+            "alias": "",
+            "position": "36",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Reha\nElder spell\nSahra"
         },
         {
@@ -736,6 +860,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Grant Griffin",
+            "alias": "",
+            "position": "37",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Aryeh\n!tag Planeswalker\n!tag Martoob"
         },
         {
@@ -754,6 +881,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Cristian Gonzalez",
+            "alias": "",
+            "position": "38",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!rul You can't cast Cosmic Coalescing without paying its mana cost, as the only legal value of X is 0 and 0 is also an illegal choice."
         },
         {
@@ -772,6 +902,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Angela Wang",
+            "alias": "",
+            "position": "39",
             "card_name2": "Orrey of the Cosmos",
             "color2": "WU",
             "type2": "Artifact \u2014 Monument",
@@ -782,6 +914,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Jonas Hassibi",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Atieh"
         },
         {
@@ -800,6 +935,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Caio Monteiro",
+            "alias": "",
+            "position": "40",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Planeswalker\n!tag Shala\n!tag Marilye"
         },
         {
@@ -818,6 +956,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Ertacaltinoz",
+            "alias": "",
+            "position": "41",
             "card_name2": "Chalice of Fallen Foes",
             "color2": "WB",
             "type2": "Artifact \u2014 Monument",
@@ -828,6 +968,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Ertacaltinoz",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Siaveed"
         },
         {
@@ -846,6 +989,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Marta Blazquez",
+            "alias": "",
+            "position": "42",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Kahroba\nwhite green blue\nthree color\nElder spell"
         },
         {
@@ -864,6 +1010,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Jeremy Carver",
+            "alias": "",
+            "position": "43",
             "card_name2": "Bauble of Infinites",
             "color2": "WUR",
             "type2": "Artifact \u2014 Monument",
@@ -874,6 +1022,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "N I K I T T Y S A N",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Nakia\n!tag Atieh\n\nblue red white \nthree color"
         },
         {
@@ -892,6 +1043,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Igor Sid",
+            "alias": "",
+            "position": "44",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nblack green blue\nthree color"
         },
         {
@@ -910,6 +1064,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Saeed Ramez",
+            "alias": "",
+            "position": "45",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Sahra\n!tag Cyrukan\n!tag Mahara"
         },
         {
@@ -928,6 +1085,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Abe Taraky",
+            "alias": "",
+            "position": "46",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -946,7 +1106,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Ahmed Maihope",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "47",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "The Blacksmith's Banner",
@@ -964,6 +1127,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Hoorakhsh Studio",
+            "alias": "",
+            "position": "48",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag PiruzRule\n!tag Shapur\nred white green\nthree color"
         },
         {
@@ -982,6 +1148,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Greg Danton",
+            "alias": "",
+            "position": "49",
             "card_name2": "Lamp of Endless Possibilities",
             "color2": "R",
             "type2": "Legendary Artifact \u2014 Monument",
@@ -992,6 +1160,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Jong Kwi Seo",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Shapur"
         },
         {
@@ -1010,6 +1181,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Zae369",
+            "alias": "",
+            "position": "50",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Simurgh\nwhite blue black red green"
         },
         {
@@ -1028,6 +1202,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Hazem Ameen",
+            "alias": "",
+            "position": "51",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Kahroba\n!tag Saeedi"
         },
         {
@@ -1046,6 +1223,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Stephen Wood",
+            "alias": "",
+            "position": "52",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Martoob\n!tag Tyrus\n!Tag Planeswalker"
         },
         {
@@ -1064,6 +1244,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Adelruna",
+            "alias": "",
+            "position": "53",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Sahra\n!tag Reha"
         },
         {
@@ -1082,6 +1265,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Michael Sugianto",
+            "alias": "",
+            "position": "54",
             "card_name2": "The Path of Greatness",
             "color2": "G",
             "type2": "Legendary Artifact \u2014 Monument",
@@ -1092,6 +1277,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Anthony Avon",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag GolnaRule\n!tag Golna"
         },
         {
@@ -1110,6 +1298,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Helena Cnockaert",
+            "alias": "",
+            "position": "55",
             "card_name2": "Cup of Jahan",
             "color2": "U",
             "type2": "Legendary Artifact \u2014 Monument",
@@ -1120,6 +1310,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Irina Nordsol",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag JahanRule\n!tag Jahan"
         },
         {
@@ -1138,6 +1331,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Adelruna",
+            "alias": "",
+            "position": "56",
             "card_name2": "Throne of Soli",
             "color2": "W",
             "type2": "Legendary Artifact \u2014 Monument",
@@ -1148,7 +1343,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Alexandra Tokaryuk",
-            "notes": "!tag Alkabah\n!tag Zareen\n!tag ZareenRule\n"
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag Zareen\n!tag ZareenRule"
         },
         {
             "card_name": "Veeni, High Truthseeker",
@@ -1166,6 +1364,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Helmuttt",
+            "alias": "",
+            "position": "57",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Veeni\n!tag Rahstahde"
         },
         {
@@ -1184,6 +1385,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Polo McPrieto",
+            "alias": "",
+            "position": "58",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nblue black red\nthree color"
         },
         {
@@ -1202,6 +1406,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Noah Thatcher",
+            "alias": "",
+            "position": "59",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Siaveed\npower level check \nmahara\n(easy nerf, switch the order)"
         },
         {
@@ -1220,6 +1427,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Edgar Sanchez Hidalgo",
+            "alias": "",
+            "position": "60",
             "card_name2": "Obelisk of Absolute Rule",
             "color2": "BR",
             "type2": "Artifact \u2014 Monument",
@@ -1230,7 +1439,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Jay Epperson",
-            "notes": "!tag Alkabah\n!tag PiruzRule\n!tag JahanRule\n"
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag PiruzRule\n!tag JahanRule"
         },
         {
             "card_name": "Venture into the Muktann",
@@ -1248,7 +1460,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Alexey Rudikov",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "61",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Return to the Beginning",
@@ -1266,6 +1481,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Alfred Ragvest",
+            "alias": "",
+            "position": "62",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ZareenRule\nwhite blue black\nthree color"
         },
         {
@@ -1284,6 +1502,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Dominik Mayer",
+            "alias": "",
+            "position": "63",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nred white black\nthree color"
         },
         {
@@ -1302,6 +1523,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Dominik Mayer",
+            "alias": "",
+            "position": "64",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag GolnaRule\n!tag ZareenRule\n!tag JahanRule\n!tag PiruzRule\n!tag ShapurRule\nwhite blue black red green \nfive color\nFor each legendary permanent you control, this spell costs one less of that permanent's colors."
         },
         {
@@ -1320,6 +1544,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Matteo Spirito",
+            "alias": "",
+            "position": "65",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Shala\n!tag Planeswalker\nremoval\nshala"
         },
         {
@@ -1338,7 +1565,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Bogna Gawronska",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "66",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Adventurous Impulse",
@@ -1356,6 +1586,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Nna Leinwatter",
+            "alias": "",
+            "position": "67",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -1374,6 +1607,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Claudiu Antoniu",
+            "alias": "",
+            "position": "68",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Tamaak\nRecruit / Hunger/Thirst"
         },
         {
@@ -1392,6 +1628,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Nadine Schakel",
+            "alias": "",
+            "position": "69",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Andazir\nSacrifice / Chaos"
         },
         {
@@ -1410,6 +1649,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Thierry Doizon",
+            "alias": "",
+            "position": "70",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Reha\n!tag Ameret\n!tag Planeswalker"
         },
         {
@@ -1428,6 +1670,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Yigit Koroglu",
+            "alias": "",
+            "position": "71",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Rahstahderemoval\nRahstahde angel"
         },
         {
@@ -1446,6 +1691,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Hoorakhsh Studio",
+            "alias": "",
+            "position": "72",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Martoob"
         },
         {
@@ -1464,6 +1712,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Amelia Halgas",
+            "alias": "",
+            "position": "73",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag JahanRule\nremoval"
         },
         {
@@ -1482,6 +1733,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Anndr",
+            "alias": "",
+            "position": "74",
+            "rotated": false,
             "notes": "!tag Planeswalker\n!tag Ameret\n!tag Cyrukan\n!tag Sahra\n!tag ShapurRule\n!tag Ameretstory1"
         },
         {
@@ -1500,6 +1754,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Adelruna",
+            "alias": "",
+            "position": "75",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -1518,6 +1775,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Veronika Kozlova",
+            "alias": "",
+            "position": "76",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag GolnaRule"
         },
         {
@@ -1536,6 +1796,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sugarsart",
+            "alias": "",
+            "position": "77",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -1554,6 +1817,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sabin Boykinov",
+            "alias": "",
+            "position": "78",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Saeedi\n!tag Kahroba\nRecruit / History"
         },
         {
@@ -1572,6 +1838,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Gwendolyn Powell",
+            "alias": "",
+            "position": "79",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Fahrib"
         },
         {
@@ -1590,6 +1859,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Njay",
+            "alias": "",
+            "position": "80",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Kahroba"
         },
         {
@@ -1608,6 +1880,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Veronika Kozlova",
+            "alias": "",
+            "position": "81",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Kahroba"
         },
         {
@@ -1626,6 +1901,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Ertacaltinoz",
+            "alias": "",
+            "position": "82",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -1644,6 +1922,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sara Contreras",
+            "alias": "",
+            "position": "83",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag GolnaRule\n!tag Golna\n!tag Martoob\n!tag ShapurRule"
         },
         {
@@ -1662,6 +1943,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Alexander Deruchenko",
+            "alias": "",
+            "position": "84",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -1680,6 +1964,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Prisca Ardiana",
+            "alias": "",
+            "position": "85",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Cyrukan\n!tapped"
         },
         {
@@ -1698,6 +1985,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Stefan Stankovic",
+            "alias": "",
+            "position": "86",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Sahra\n!tapped"
         },
         {
@@ -1716,6 +2006,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Artcobain",
+            "alias": "",
+            "position": "87",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Mahara"
         },
         {
@@ -1734,6 +2027,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Francisco Garcia",
+            "alias": "",
+            "position": "88",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Sahra"
         },
         {
@@ -1752,6 +2048,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Jesus Blones",
+            "alias": "",
+            "position": "89",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag GolnaRule"
         },
         {
@@ -1770,6 +2069,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Romain Leguay",
+            "alias": "",
+            "position": "90",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Saeedi"
         },
         {
@@ -1788,6 +2090,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "India Lee Crews",
+            "alias": "",
+            "position": "91",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Fahrib\n!tag Planeswalker\n!tag ARif\nEvasion / Lies Deceit"
         },
         {
@@ -1806,6 +2111,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Gabahadatta",
+            "alias": "",
+            "position": "92",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Cyrukan\nEquipment / Metal/Dominion"
         },
         {
@@ -1824,6 +2132,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Preilly",
+            "alias": "",
+            "position": "93",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Kayvish"
         },
         {
@@ -1842,6 +2153,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Mohammad Noureddini",
+            "alias": "",
+            "position": "94",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -1860,6 +2174,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Ryan Okita",
+            "alias": "",
+            "position": "95",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Tyrus\n!tag Planeswalker"
         },
         {
@@ -1878,6 +2195,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Alexandra Tokaryuk",
+            "alias": "",
+            "position": "96",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Martoob\n!tapped"
         },
         {
@@ -1896,6 +2216,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Katerina Ladon",
+            "alias": "",
+            "position": "97",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -1914,6 +2237,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Asim Steckel",
+            "alias": "",
+            "position": "98",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Tamaak\n!tapped"
         },
         {
@@ -1932,6 +2258,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Saeed Ramez",
+            "alias": "",
+            "position": "99",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -1950,6 +2279,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Saeed Ramez",
+            "alias": "",
+            "position": "100",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Siaveed\nRemoval"
         },
         {
@@ -1968,7 +2300,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Artdeepmind",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "101",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Div of the Ingited Soul",
@@ -1986,7 +2321,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Tachiont29",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "102",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Divine Splendor",
@@ -2004,6 +2342,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Anton Dimitryuk",
+            "alias": "",
+            "position": "103",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Shapur\n!tag Cyrukan\n!tag Sahra"
         },
         {
@@ -2022,6 +2363,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Robson Michel",
+            "alias": "",
+            "position": "104",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ZareenRule"
         },
         {
@@ -2040,6 +2384,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Jdtmart",
+            "alias": "",
+            "position": "105",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Martoob\nCounters / Water/Wholeness"
         },
         {
@@ -2058,6 +2405,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Gabor Szasz",
+            "alias": "",
+            "position": "106",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Martoob"
         },
         {
@@ -2076,6 +2426,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Benzy Vyngona",
+            "alias": "",
+            "position": "107",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Rangolsh\n!tag Tamaak"
         },
         {
@@ -2094,6 +2447,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Corey McGill",
+            "alias": "",
+            "position": "108",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Aminatou\n!tag Planeswalker"
         },
         {
@@ -2112,7 +2468,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Randi Sanchez",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "109",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Flying Throne",
@@ -2130,6 +2489,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Felipe Gaona",
+            "alias": "",
+            "position": "110",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -2148,6 +2510,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Matchack",
+            "alias": "",
+            "position": "111",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -2166,6 +2531,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Julien Carrasco",
+            "alias": "",
+            "position": "112",
             "card_name2": "Hadak's Shrine",
             "color2": "R",
             "type2": "Artifact \u2014 Monument",
@@ -2176,6 +2543,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Xavier Lozano",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag GolnaRule"
         },
         {
@@ -2194,7 +2564,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Julien Carrasco",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "113",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Hearty Karkadann",
@@ -2212,6 +2585,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Cindy Liu",
+            "alias": "",
+            "position": "114",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag GolnaRule\n!tag Golna\n!tag Arif\n!tag Planeswalker"
         },
         {
@@ -2230,6 +2606,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Yigit Koroglu",
+            "alias": "",
+            "position": "115",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Shala\n!tag Planeswalker"
         },
         {
@@ -2248,6 +2627,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Juan Pablo Correndor",
+            "alias": "",
+            "position": "116",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag GolnaRule\n!"
         },
         {
@@ -2266,6 +2648,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Brian Valeza",
+            "alias": "",
+            "position": "117",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Rahstahde\nremoval"
         },
         {
@@ -2284,6 +2669,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Edgar S\u00e1nchez Hidalgo",
+            "alias": "",
+            "position": "118",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Atieh"
         },
         {
@@ -2302,6 +2690,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sebastian Horoszko",
+            "alias": "",
+            "position": "119",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Arif\n!tag Planeswalker"
         },
         {
@@ -2320,6 +2711,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Alikasapoglu",
+            "alias": "",
+            "position": "120",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Atieh"
         },
         {
@@ -2338,6 +2732,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Ferdinand Ladera",
+            "alias": "",
+            "position": "121",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Mahara\n!tapped"
         },
         {
@@ -2356,6 +2753,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "jjpeabody",
+            "alias": "",
+            "position": "122",
+            "rotated": false,
             "notes": "!tag Andazir\n!tag Alkabah\n!tag ShapurRule\n!tapped"
         },
         {
@@ -2374,6 +2774,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Raistt",
+            "alias": "",
+            "position": "123",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Ameret\n!tag Sahra\n!tag Siaveed"
         },
         {
@@ -2392,6 +2795,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Oleg Kapustin",
+            "alias": "",
+            "position": "124",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Hayat\n!tag Planeswalker"
         },
         {
@@ -2410,6 +2816,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Mateusz Dabrowski",
+            "alias": "",
+            "position": "125",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Tamaak\nremoval"
         },
         {
@@ -2428,6 +2837,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Alexander Yakovlev",
+            "alias": "",
+            "position": "126",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Arif\n!tag Planeswalker"
         },
         {
@@ -2446,6 +2858,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sam White",
+            "alias": "",
+            "position": "127",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Mahara\nMahara Angel"
         },
         {
@@ -2464,6 +2879,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Bruno Barros",
+            "alias": "",
+            "position": "128",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Nakia\n!tag Atieh"
         },
         {
@@ -2482,6 +2900,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Envak Enkaqti",
+            "alias": "",
+            "position": "129",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -2500,6 +2921,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Mehdi Seylani",
+            "alias": "",
+            "position": "130",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Artiaburz"
         },
         {
@@ -2518,6 +2942,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Boscopenciller",
+            "alias": "",
+            "position": "131",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -2536,6 +2963,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "gukkhwa",
+            "alias": "",
+            "position": "132",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag GolnaRule\n!tag Arif\n!tag Planeswalker"
         },
         {
@@ -2554,6 +2984,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Fredrik Eriksson",
+            "alias": "",
+            "position": "133",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Andazir\n!tag Siaveed\n!tag Majid"
         },
         {
@@ -2572,6 +3005,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Noah Thatcher",
+            "alias": "",
+            "position": "134",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Andazir"
         },
         {
@@ -2590,6 +3026,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Biagio D Alessandro",
+            "alias": "",
+            "position": "135",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Rahstahde\n!tag Fahrib\nsimurgh"
         },
         {
@@ -2608,6 +3047,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Airi Pan",
+            "alias": "",
+            "position": "136",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Rahstahde\n!tapped"
         },
         {
@@ -2626,6 +3068,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Anna Onion",
+            "alias": "",
+            "position": "137",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag Rahstahde\n!tag ShapurRule\n!tag Veeni\n!tag Farza"
         },
         {
@@ -2644,6 +3089,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sergey Savvin",
+            "alias": "",
+            "position": "138",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Fahrib\n!tapped"
         },
         {
@@ -2662,6 +3110,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Likui",
+            "alias": "",
+            "position": "139",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Omid"
         },
         {
@@ -2680,6 +3131,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Roman Roland",
+            "alias": "",
+            "position": "140",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Nakia\n!tag Atieh"
         },
         {
@@ -2698,6 +3152,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Candice Broersma",
+            "alias": "",
+            "position": "141",
             "card_name2": "Skythrone Aviary",
             "color2": "W",
             "type2": "Artifact \u2014 Monument",
@@ -2708,7 +3164,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "ibrahem swaid",
-            "notes": "!tag Alkabah\n!tag Golnarule\n"
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag Golnarule"
         },
         {
             "card_name": "Patronizing Taromad",
@@ -2726,6 +3185,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "John Chiu",
+            "alias": "",
+            "position": "142",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Andazir"
         },
         {
@@ -2744,6 +3206,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Belibr",
+            "alias": "",
+            "position": "143",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Marilye\n!tag Planeswalker"
         },
         {
@@ -2762,6 +3227,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sam Kanios",
+            "alias": "",
+            "position": "144",
+            "rotated": false,
             "notes": "!tag Sahra\n!tag Alkabah\n!tag ShapurRule\nRamp / Entropy"
         },
         {
@@ -2780,6 +3248,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Dante Lui",
+            "alias": "",
+            "position": "145",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Reha\n!tag Sahra"
         },
         {
@@ -2798,6 +3269,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Soheildanesh",
+            "alias": "",
+            "position": "146",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Reha\n!tag Sahra"
         },
         {
@@ -2816,6 +3290,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Benjamin Harris",
+            "alias": "",
+            "position": "147",
             "card_name2": "Vortex of Change",
             "color2": "G",
             "type2": "Artifact \u2014 Monument",
@@ -2826,7 +3302,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Bilalcan Kocaman",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Regulator of Tithes",
@@ -2844,6 +3323,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sam Morris",
+            "alias": "",
+            "position": "148",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Tamaak\n!tag Rahstahde\n!tag Mahara"
         },
         {
@@ -2862,6 +3344,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Bogdan Marica",
+            "alias": "",
+            "position": "149",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -2880,6 +3365,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Ryan Wheeler",
+            "alias": "",
+            "position": "150",
             "card_name2": "Hourglass of Decay",
             "color2": "B",
             "type2": "Artifact \u2014 Monument",
@@ -2890,6 +3377,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Sung Yong Ho",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -2908,6 +3398,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Suzanne Helmigh",
+            "alias": "",
+            "position": "151",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Yaoi"
         },
         {
@@ -2926,6 +3419,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sunsetagain",
+            "alias": "",
+            "position": "152",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nRecruit / Order"
         },
         {
@@ -2944,6 +3440,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Julien Carrasco",
+            "alias": "",
+            "position": "153",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Fahrib"
         },
         {
@@ -2962,6 +3461,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Mikioku",
+            "alias": "",
+            "position": "154",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Saeedi"
         },
         {
@@ -2980,6 +3482,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Alexis Rives",
+            "alias": "",
+            "position": "155",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -2998,6 +3503,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Marc Simonetti",
+            "alias": "",
+            "position": "156",
             "card_name2": "Shrine to the Sailor",
             "color2": "U",
             "type2": "Artifact \u2014 Monument",
@@ -3008,6 +3515,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Bruce Brenneise",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag GolnaRule\n!tag Shomi"
         },
         {
@@ -3026,6 +3536,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "exia xiaotong",
+            "alias": "",
+            "position": "157",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Atieh"
         },
         {
@@ -3044,7 +3557,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Benjamin Harris",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "158",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Soli Sanctuary",
@@ -3062,6 +3578,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Thomas Stoop",
+            "alias": "",
+            "position": "159",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Atieh\n!tapped"
         },
         {
@@ -3080,6 +3599,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Rob Joseph",
+            "alias": "",
+            "position": "160",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Kahroba\n!tapped"
         },
         {
@@ -3098,6 +3620,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Gukkhwa",
+            "alias": "",
+            "position": "161",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Atieh\nScry / Future\n\nAtieh Angel"
         },
         {
@@ -3116,6 +3641,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Senfeng Chen",
+            "alias": "",
+            "position": "162",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Atieh\n\nAtieh Angel"
         },
         {
@@ -3134,6 +3662,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Davood Diba",
+            "alias": "",
+            "position": "163",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Suhra\n!tag Fori"
         },
         {
@@ -3152,6 +3683,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "David Bonilla",
+            "alias": "",
+            "position": "164",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Maaru"
         },
         {
@@ -3170,6 +3704,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Irina Nordsol",
+            "alias": "",
+            "position": "165",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -3188,6 +3725,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "David Auden Nash",
+            "alias": "",
+            "position": "166",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Rahstahde"
         },
         {
@@ -3206,6 +3746,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Mikail Il",
+            "alias": "",
+            "position": "167",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -3224,6 +3767,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Grant Griffin",
+            "alias": "",
+            "position": "168",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Shapur"
         },
         {
@@ -3242,6 +3788,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Ekaterina Burmak",
+            "alias": "",
+            "position": "169",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Shala\n!tag Marilye\n!tag Planeswalker"
         },
         {
@@ -3260,6 +3809,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Felicia Cano",
+            "alias": "",
+            "position": "170",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Rahstahde"
         },
         {
@@ -3278,6 +3830,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Piloreta",
+            "alias": "",
+            "position": "171",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Rahstahde\nProwess Fire/Truth"
         },
         {
@@ -3296,6 +3851,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Alireza seifi",
+            "alias": "",
+            "position": "172",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Omid"
         },
         {
@@ -3314,6 +3872,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sam White",
+            "alias": "",
+            "position": "173",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Fahrib"
         },
         {
@@ -3332,6 +3893,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Metaphor9",
+            "alias": "",
+            "position": "174",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Tyrus\n!tag Planeswalker"
         },
         {
@@ -3350,6 +3914,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Henrique Dld",
+            "alias": "",
+            "position": "175",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag PiruzRule\n!tag ShapurRue\n!tag Piruz\n!tag Shapur"
         },
         {
@@ -3368,6 +3935,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Oakks",
+            "alias": "",
+            "position": "176",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Cyrukan"
         },
         {
@@ -3386,6 +3956,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Jun Seong",
+            "alias": "",
+            "position": "177",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Cyrukan"
         },
         {
@@ -3404,6 +3977,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Oione",
+            "alias": "",
+            "position": "178",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Aminatou\n!tag Planeswalker\n!tag Shapur\nwhite blue black\nthree color"
         },
         {
@@ -3422,6 +3998,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Julia Metzger",
+            "alias": "",
+            "position": "179",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -3440,6 +4019,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "M. Gunnarsson",
+            "alias": "",
+            "position": "180",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Mahara\nwhite red black\nthree color\nMahara Angel"
         },
         {
@@ -3458,6 +4040,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "ubermonster",
+            "alias": "",
+            "position": "181",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Fahrib\nblack green blue\nthree color"
         },
         {
@@ -3476,6 +4061,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Lucas Staniec",
+            "alias": "",
+            "position": "182",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Dilshad\n!tag Kahroba"
         },
         {
@@ -3494,7 +4082,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Suzan Azakli",
-            "notes": "!tag Alkabah\n!tag PiruzrRule\n!tag Laleh\n!tag Mahara\n"
+            "alias": "",
+            "position": "183",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag PiruzrRule\n!tag Laleh\n!tag Mahara"
         },
         {
             "card_name": "Cyrukan's Crossblades",
@@ -3512,6 +4103,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Lanaluu",
+            "alias": "",
+            "position": "184",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Cyrukan"
         },
         {
@@ -3530,6 +4124,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Raul Mendez",
+            "alias": "",
+            "position": "185",
             "card_name2": "Golna's Heart",
             "color2": "G",
             "type2": "Artifact Creature \u2014 Construct Monument",
@@ -3540,7 +4136,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Titov Fedor",
-            "notes": "!tag Alkabah\n!tag GolnaRule\n"
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag GolnaRule"
         },
         {
             "card_name": "Border Seeker",
@@ -3558,7 +4157,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Aurore Folny",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "186",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Bustling Bazaar",
@@ -3576,6 +4178,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Tomasz Chistowski",
+            "alias": "",
+            "position": "187",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -3594,6 +4199,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Lorenzo Massaro",
+            "alias": "",
+            "position": "188",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Fahrib\n!tag Andazir\ngreen blue red\nthree color"
         },
         {
@@ -3612,6 +4220,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "John Chiu",
+            "alias": "",
+            "position": "189",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Sahra\nblack red green\nthree color"
         },
         {
@@ -3630,6 +4241,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Fariba Khamseh",
+            "alias": "",
+            "position": "190",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Atieh\nwhite blue green\nthree color"
         },
         {
@@ -3648,7 +4262,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Pablo Murinelly",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "191",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Collapsing Ramparts",
@@ -3666,6 +4283,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Mohammad Noureddini",
+            "alias": "",
+            "position": "192",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ZareemRule\n!tag Andazir"
         },
         {
@@ -3684,6 +4304,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Taylor Payton",
+            "alias": "",
+            "position": "193",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag Tyrus\n!tag Planeswalker\n!tag Martoob\n!tag ShapurRule"
         },
         {
@@ -3702,6 +4325,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Chris Dien",
+            "alias": "",
+            "position": "194",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -3720,6 +4346,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Alexey Rudikov",
+            "alias": "",
+            "position": "195",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag JahanRule"
         },
         {
@@ -3738,6 +4367,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Alireza Moradi",
+            "alias": "",
+            "position": "196",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -3756,7 +4388,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Aaron Miller",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "197",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "War of Resources",
@@ -3774,6 +4409,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Kobe Sek",
+            "alias": "",
+            "position": "198",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -3792,6 +4430,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Alexander Deruchenko",
+            "alias": "",
+            "position": "199",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Saeedi"
         },
         {
@@ -3810,6 +4451,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Yigit Koroglu",
+            "alias": "",
+            "position": "200",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -3828,6 +4472,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Xavier Lozano",
+            "alias": "",
+            "position": "201",
             "card_name2": "Blade of Ancestors",
             "color2": "W",
             "type2": "Artifact \u2014 Equipment Monument",
@@ -3838,7 +4484,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Bjorn Hurri",
-            "notes": "!tag Alkabah\n!tag GolnaRule\n"
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag GolnaRule"
         },
         {
             "card_name": "Doomed Alchemist",
@@ -3856,6 +4505,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Gallegos",
+            "alias": "",
+            "position": "202",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -3874,7 +4526,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Jumpei",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "203",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Martoob Beastkeeper",
@@ -3892,6 +4547,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Gianluca Rolli",
+            "alias": "",
+            "position": "204",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Martoob"
         },
         {
@@ -3910,6 +4568,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Markella Stayropoulou",
+            "alias": "",
+            "position": "205",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Martoob"
         },
         {
@@ -3928,6 +4589,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Dave Mraky",
+            "alias": "",
+            "position": "206",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Siaveed"
         },
         {
@@ -3946,6 +4610,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Chris Kuhlmann",
+            "alias": "",
+            "position": "207",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -3964,6 +4631,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Kredepops",
+            "alias": "",
+            "position": "208",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Fahrib"
         },
         {
@@ -3982,6 +4652,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Michele Giorgi",
+            "alias": "",
+            "position": "209",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4000,6 +4673,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "thegryph",
+            "alias": "",
+            "position": "210",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag Rahstahde\n!tag ShapurRule"
         },
         {
@@ -4018,6 +4694,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Arthur Bowling",
+            "alias": "",
+            "position": "211",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4036,6 +4715,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Juan Pablo",
+            "alias": "",
+            "position": "212",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nblue black red\nthree color"
         },
         {
@@ -4054,6 +4736,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Anthony Avon",
+            "alias": "",
+            "position": "213",
             "card_name2": "Repository of Thoughts",
             "color2": "UG",
             "type2": "Artifact \u2014 Monument",
@@ -4064,7 +4748,10 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Ryan Teo",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Gilded Guardian",
@@ -4082,6 +4769,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Dante Lui",
+            "alias": "",
+            "position": "214",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4100,7 +4790,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Gary Laib",
-            "notes": "!tag Alkabah\n!tag Tyrus\n!tag Planeswalker\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "215",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag Tyrus\n!tag Planeswalker\n!tag ShapurRule"
         },
         {
             "card_name": "Grand Stand at Danaj",
@@ -4118,6 +4811,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Skaya3000",
+            "alias": "",
+            "position": "216",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ZareenRule\n!tag Tamaak\n!tag Planeswalker\n!tag Hayat\n\nblack white green\nthree color"
         },
         {
@@ -4136,6 +4832,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Shen Fei",
+            "alias": "",
+            "position": "217",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Andazir"
         },
         {
@@ -4154,6 +4853,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Hai Hoang",
+            "alias": "",
+            "position": "218",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Omid"
         },
         {
@@ -4172,6 +4874,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Juno Viinikka",
+            "alias": "",
+            "position": "219",
             "card_name2": "Hadak's Guardian",
             "color2": "R",
             "type2": "Artifact Creature \u2014 Monument Snake",
@@ -4182,6 +4886,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Juno Viinikka",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag GolnaRule"
         },
         {
@@ -4200,6 +4907,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "\u2605 exellero",
+            "alias": "",
+            "position": "220",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag Kahroba\n!tag ShapurRule"
         },
         {
@@ -4218,6 +4928,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Veronika Kozlova",
+            "alias": "",
+            "position": "221",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!cajun another"
         },
         {
@@ -4236,6 +4949,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Lorenzo Mastroianni",
+            "alias": "",
+            "position": "222",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4254,6 +4970,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Valeriya Lutfullina",
+            "alias": "",
+            "position": "223",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Marilye\n!tag Shala\n!tag Planeswalker"
         },
         {
@@ -4272,6 +4991,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Benjamin Hill",
+            "alias": "",
+            "position": "224",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Atieh"
         },
         {
@@ -4290,6 +5012,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Anato Finnstark",
+            "alias": "",
+            "position": "225",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4308,6 +5033,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Kenneth Solis",
+            "alias": "",
+            "position": "226",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4326,7 +5054,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Jason Engle",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "227",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Influence of the Div",
@@ -4344,6 +5075,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Amin Talebi",
+            "alias": "",
+            "position": "228",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4362,7 +5096,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Ioannis Fiore",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Siaveed\n!tag Mahara\n"
+            "alias": "",
+            "position": "229",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Siaveed\n!tag Mahara"
         },
         {
             "card_name": "Aminatou's Adherent",
@@ -4380,6 +5117,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "madnessdemon",
+            "alias": "",
+            "position": "230",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Aminatou\n!tag Planeswalker\n!tag Andazir"
         },
         {
@@ -4398,6 +5138,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Brian Valeza",
+            "alias": "",
+            "position": "231",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Shala\n!tag Planeswalker\nblue red white\nthree color"
         },
         {
@@ -4416,6 +5159,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Lorenzo Bruzzese",
+            "alias": "",
+            "position": "232",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Aminatou\n!tag Planeswalker"
         },
         {
@@ -4434,6 +5180,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "William Rabello",
+            "alias": "",
+            "position": "233",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nrevamp"
         },
         {
@@ -4452,6 +5201,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Terence Cantal",
+            "alias": "",
+            "position": "234",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Atieh"
         },
         {
@@ -4470,6 +5222,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sina Pakzad Kasra",
+            "alias": "",
+            "position": "235",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4488,6 +5243,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Anthony Avon",
+            "alias": "",
+            "position": "236",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Fazra\n!tag Fahrib"
         },
         {
@@ -4506,7 +5264,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Ramzi Firhx",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "237",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Overwhelming Defeat",
@@ -4524,6 +5285,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Anton Nazarenko",
+            "alias": "",
+            "position": "238",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Omid"
         },
         {
@@ -4542,6 +5306,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "sketchbookuniverse",
+            "alias": "",
+            "position": "239",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag PiruzRule\n!tag Laleh"
         },
         {
@@ -4560,6 +5327,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Rachid Lotf",
+            "alias": "",
+            "position": "240",
             "card_name2": "Seer's Astrolabe",
             "color2": "U",
             "type2": "Artifact \u2014 Monument",
@@ -4570,6 +5339,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Julia Metzger",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Jahan"
         },
         {
@@ -4588,6 +5360,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Anthony Avon",
+            "alias": "",
+            "position": "241",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Cyrukan"
         },
         {
@@ -4606,6 +5381,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "\u00c1ngel Y\u00e1\u00f1ez D\u00edaz o",
+            "alias": "",
+            "position": "242",
+            "rotated": false,
             "notes": "!tag Sahra\n!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4624,6 +5402,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Bruno Gentile",
+            "alias": "",
+            "position": "243",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Tamaak"
         },
         {
@@ -4642,6 +5423,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Dominik Mayer",
+            "alias": "",
+            "position": "244",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Majid\n!tag Andazir"
         },
         {
@@ -4660,6 +5444,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Elartwyne Estole",
+            "alias": "",
+            "position": "245",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Reha\n!tag Siaveed\n!tag Ameret\nwhite green red\nthree color"
         },
         {
@@ -4678,6 +5465,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "arc noir",
+            "alias": "",
+            "position": "246",
             "card_name2": "Mausoleum of Ends",
             "color2": "B",
             "type2": "Artifact \u2014 Monument",
@@ -4688,6 +5477,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Jay Epperson",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag PiruzRule"
         },
         {
@@ -4706,6 +5498,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Mohsen Malakooti",
+            "alias": "",
+            "position": "247",
             "card_name2": "Settled Satrapy",
             "color2": "",
             "type2": "Land \u2014 Satrapy",
@@ -4716,6 +5510,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Flaviobolla",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Reha\n!tag Cyrukan"
         },
         {
@@ -4734,6 +5531,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Kaek",
+            "alias": "",
+            "position": "248",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4752,6 +5552,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Mikhail Palamarchuk",
+            "alias": "",
+            "position": "249",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!Tag Marilye\n!tag Shala\n!tag Planeswalker"
         },
         {
@@ -4770,7 +5573,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Ehsan Dabbaghi",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n"
+            "alias": "",
+            "position": "250",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
             "card_name": "Fang of Andazir",
@@ -4788,6 +5594,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sara Forlenza",
+            "alias": "",
+            "position": "251",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Andazir"
         },
         {
@@ -4806,6 +5615,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Adam Kabalak",
+            "alias": "",
+            "position": "252",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4824,6 +5636,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sendolarts",
+            "alias": "",
+            "position": "253",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4842,6 +5657,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Hosne Qanadelo",
+            "alias": "",
+            "position": "254",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Cyrukan\n!tag AmeretALKStory"
         },
         {
@@ -4860,6 +5678,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Chris Kuhlmann",
+            "alias": "",
+            "position": "255",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag Fahrib\n!tag ShapurRule"
         },
         {
@@ -4878,6 +5699,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Dmitry Bolotov",
+            "alias": "",
+            "position": "256",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4896,6 +5720,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Gworld",
+            "alias": "",
+            "position": "257",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4914,6 +5741,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Lionel23",
+            "alias": "",
+            "position": "258",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4932,6 +5762,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Mikail Il",
+            "alias": "",
+            "position": "259",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4950,6 +5783,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Josh Eiten",
+            "alias": "",
+            "position": "260",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4968,6 +5804,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Amelia Halgas",
+            "alias": "",
+            "position": "261",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -4986,7 +5825,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Bogdan Marica",
-            "notes": "!related Affluent Knight<2>;Kahroba Guardians;Aid from Martoob;Armys Suppliers;Assault of the Conscripted;Kahroba General;Bringer of Armies;Call of Reinforcements;Desperate Stand;Devastating Charge;Divine Splendor;Endless Infantry;Enlist;Grand Stand at Danaj;Hold Captive;Mahara, the Universal;Paladin of Order;Saeedi Kahroba, Daughter;Scouting Party;Siaveed, Commander of Armies;War's Trauma;"
+            "alias": "",
+            "position": "262",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "black Snake",
@@ -5004,7 +5846,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "RJ Palmer",
-            "notes": "!related Boon of the Pacts;\n!exportname black Snake"
+            "alias": "",
+            "position": "263",
+            "rotated": false,
+            "notes": "\n!exportname black Snake"
         },
         {
             "card_name": "Dog",
@@ -5022,7 +5867,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Juno Viinikka",
-            "notes": "!related Fang of Andazir"
+            "alias": "",
+            "position": "264",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Horror",
@@ -5040,7 +5888,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Markus Stadlober",
-            "notes": "!related Tamaak's Influence;"
+            "alias": "",
+            "position": "265",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Snake",
@@ -5058,7 +5909,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Markella Stavropoulou",
-            "notes": "\n!related Bane of Endless Snakes;Martoobs Command;"
+            "alias": "",
+            "position": "266",
+            "rotated": false,
+            "notes": "\n"
         },
         {
             "card_name": "Shir",
@@ -5076,7 +5930,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Annie Dovon",
-            "notes": "!Related Golna, the First Shah;"
+            "alias": "",
+            "position": "267",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Advisor",
@@ -5094,7 +5951,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Aguilas",
-            "notes": "!related Gathering of Minds<3>;"
+            "alias": "",
+            "position": "268",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Citizen",
@@ -5112,7 +5972,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Adelruna",
-            "notes": "!related Distant Lover;"
+            "alias": "",
+            "position": "269",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Bird",
@@ -5130,7 +5993,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Kudos Productions",
-            "notes": "!related Falconeering;Skythrone Aviary<2>;"
+            "alias": "",
+            "position": "270",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Demon",
@@ -5148,7 +6014,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Vladimir Matyukhin",
-            "notes": "!related Piruz, the Fourth Shah;"
+            "alias": "",
+            "position": "271",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Rogue",
@@ -5166,7 +6035,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Vladimir Kafanov",
-            "notes": "!related Treasure Hoard;"
+            "alias": "",
+            "position": "272",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Soldier 3",
@@ -5184,7 +6056,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Joan Francesc Oliveras Pallerols",
-            "notes": "!exportname Soldier 3\n!tokenlink ALKsoldier3\n!related Kaneh Troops<2>;"
+            "alias": "",
+            "position": "273",
+            "rotated": false,
+            "notes": "!exportname Soldier 3\n!tokenlink ALKsoldier3"
         },
         {
             "card_name": "Insect",
@@ -5202,7 +6077,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Takumi Hasegawa",
-            "notes": "!related Aminatou, Justicar;Aminatou's Touch<3>;"
+            "alias": "",
+            "position": "274",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Treasure",
@@ -5220,7 +6098,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Drawing_Sofa",
-            "notes": "!related Sahra Poet-Priest;Succumb to the Div;Swindle the Rapacious;Rahstahde Flamespeaker;Rahstahde Truthseeker;Treasure Hoard<2>;"
+            "alias": "",
+            "position": "275",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Weapon",
@@ -5238,7 +6119,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Valeriy Vegera",
-            "notes": "!related Ameret, Pride of Cyrukan;Blade of Cyrukan;"
+            "alias": "",
+            "position": "276",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Mercantile Satrapy",
@@ -5256,6 +6140,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Jerome Cristalli",
+            "alias": "",
+            "position": "277",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -5274,7 +6161,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Ramzi Firhx",
-            "notes": "!related The Path of Greatness;"
+            "alias": "",
+            "position": "278",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "red Sand",
@@ -5292,7 +6182,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Gianluca Rolli",
-            "notes": "!exportname red Sand\n!related Dunesea Protectors;"
+            "alias": "",
+            "position": "279",
+            "rotated": false,
+            "notes": "!exportname red Sand\n"
         },
         {
             "card_name": "blue Sand",
@@ -5310,7 +6203,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "damie_m",
-            "notes": "!exportname blue Sand\n!related Dunsea Protectors;"
+            "alias": "",
+            "position": "280",
+            "rotated": false,
+            "notes": "!exportname blue Sand\n"
         },
         {
             "card_name": "green Sand",
@@ -5328,7 +6224,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Marco Liang",
-            "notes": "!exportname green Sand\n!related Dunesea Protectors;"
+            "alias": "",
+            "position": "281",
+            "rotated": false,
+            "notes": "!exportname green Sand\n"
         },
         {
             "card_name": "white Sand",
@@ -5346,7 +6245,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Roman Guro",
-            "notes": "!exportname white Sand\n!related Dunesea Protectors;"
+            "alias": "",
+            "position": "282",
+            "rotated": false,
+            "notes": "!exportname white Sand\n"
         },
         {
             "card_name": "Illusion",
@@ -5364,7 +6266,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Ioannis Fiore",
-            "notes": "!related Div of Bonded Souls;"
+            "alias": "",
+            "position": "283",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Grandstanding Huma",
@@ -5382,6 +6287,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Firat Solhan",
+            "alias": "",
+            "position": "284",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -5400,6 +6308,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Damian Kryzwonos",
+            "alias": "",
+            "position": "285",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Mahara"
         },
         {
@@ -5418,6 +6329,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Oleg Kapustin",
+            "alias": "",
+            "position": "286",
             "card_name2": "The Spire of Undeath",
             "color2": "B",
             "type2": "Legendary Artifact \u2014 Monument",
@@ -5428,6 +6341,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Erskine Designs",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag PiruzRule\n!tag Piruz"
         },
         {
@@ -5446,6 +6362,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Julia Metzger",
+            "alias": "",
+            "position": "287",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Nakia\n!tag Atieh"
         },
         {
@@ -5464,6 +6383,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Yi De",
+            "alias": "",
+            "position": "288",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -5482,6 +6404,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Aaron Griffin",
+            "alias": "",
+            "position": "289",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Kahroba\n!tag Arif\n!tag Planeswalker"
         },
         {
@@ -5500,7 +6425,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Maichol Quinto",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Shala\n!tag Marilye\n!tag Planeswalker\nshala marilye\n"
+            "alias": "",
+            "position": "290",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Shala\n!tag Marilye\n!tag Planeswalker\nshala marilye"
         },
         {
             "card_name": "Caravan Guard",
@@ -5518,6 +6446,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Mehdi Homayounfar",
+            "alias": "",
+            "position": "291",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -5536,7 +6467,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Alvaro Estrada",
-            "notes": "!related Change of Station;"
+            "alias": "",
+            "position": "292",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Ironhide Hadhayosh",
@@ -5554,6 +6488,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Lo\u00efc Muzy",
+            "alias": "",
+            "position": "293",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule"
         },
         {
@@ -5572,6 +6509,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Harshanand Singh",
+            "alias": "",
+            "position": "294",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Sahra\nblue black red green \nfour color command"
         },
         {
@@ -5590,6 +6530,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Veronika Kozlova",
+            "alias": "",
+            "position": "295",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Kahroba\nwhite black red green \nfour color command"
         },
         {
@@ -5608,6 +6551,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Rafater Rafael",
+            "alias": "",
+            "position": "296",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Martoob\nblue white red green \nfour color command"
         },
         {
@@ -5626,6 +6572,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Benjamin Hill",
+            "alias": "",
+            "position": "297",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Mahara\nblue black white green \nfour color command"
         },
         {
@@ -5644,6 +6593,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Exellero",
+            "alias": "",
+            "position": "298",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Rahstahde\nblue black white red\nfour color command"
         },
         {
@@ -5662,7 +6614,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sung Yong Ho",
-            "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Kahroba\n"
+            "alias": "",
+            "position": "299",
+            "rotated": false,
+            "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Kahroba"
         },
         {
             "card_name": "Nizev Citadel",
@@ -5680,6 +6635,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Julian F",
+            "alias": "",
+            "position": "300",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Rahstahde"
         },
         {
@@ -5698,6 +6656,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Joseph C Knight",
+            "alias": "",
+            "position": "301",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Mahara"
         },
         {
@@ -5716,6 +6677,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Gao Zhiping",
+            "alias": "",
+            "position": "302",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Sahra"
         },
         {
@@ -5734,6 +6698,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sam Perin",
+            "alias": "",
+            "position": "303",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Martoob"
         },
         {
@@ -5752,6 +6719,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sam Keiser",
+            "alias": "",
+            "position": "304",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Suhra\n!tag Fori\nwhite blue black"
         },
         {
@@ -5770,6 +6740,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Jens Kuczwara",
+            "alias": "",
+            "position": "305",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag GolnaRule\n!tag ShapurRule\n!tag Maaru\nblack red green"
         },
         {
@@ -5788,6 +6761,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Luigi Villa",
+            "alias": "",
+            "position": "306",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Artiaburz\ngreen blue red"
         },
         {
@@ -5806,6 +6782,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Ryan Bittner",
+            "alias": "",
+            "position": "307",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Omid\nwhite black green"
         },
         {
@@ -5824,6 +6803,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sveta Pikul",
+            "alias": "",
+            "position": "308",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Martoob\ngreen white blue\nMartoob Angel"
         },
         {
@@ -5842,6 +6824,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Mohamed Sax",
+            "alias": "",
+            "position": "309",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nblack green blue"
         },
         {
@@ -5860,6 +6845,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Harshanand Singh",
+            "alias": "",
+            "position": "310",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag PiruzRule\n!tag Piruz\nred white black"
         },
         {
@@ -5878,6 +6866,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Jan Drenovec",
+            "alias": "",
+            "position": "311",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Kahroba\nred green white"
         },
         {
@@ -5896,6 +6887,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Blake Davis",
+            "alias": "",
+            "position": "312",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nblue black red"
         },
         {
@@ -5914,6 +6908,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Felipe Perez",
+            "alias": "",
+            "position": "313",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Nakia\n!tag Atieh\nblue red white"
         },
         {
@@ -5932,7 +6929,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Sally Gottschalk",
-            "notes": "!related Martoobs Command;"
+            "alias": "",
+            "position": "314",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "blue Bird",
@@ -5950,7 +6950,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "88grzes",
-            "notes": "!related Martoobs Command;\n!exportname blue Bird"
+            "alias": "",
+            "position": "315",
+            "rotated": false,
+            "notes": "\n!exportname blue Bird"
         },
         {
             "card_name": "Angel",
@@ -5968,7 +6971,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Jimmy Dreadjim Ling",
-            "notes": "!related Angel of Infinite Faces;"
+            "alias": "",
+            "position": "316",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Soldier 2",
@@ -5986,7 +6992,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Joan Francesc",
-            "notes": "!related Conquerer's Blade;Rahstahdes Command\n!exportname Soldier 2\n!tokenlink ALKsoldier2"
+            "alias": "",
+            "position": "317",
+            "rotated": false,
+            "notes": "\n!exportname Soldier 2\n!tokenlink ALKsoldier2"
         },
         {
             "card_name": "Treasure 2",
@@ -6004,7 +7013,10 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Javier Gonzalez",
-            "notes": "!exportname Treasure 2\n!related Ascended Alchemist<3>;Bustling Bizzare<2>;Dispute;Doomed Alchemist<2>;Furnished Ghul;Hidden Cache;"
+            "alias": "",
+            "position": "318",
+            "rotated": false,
+            "notes": "!exportname Treasure 2\n"
         },
         {
             "card_name": "Satrapy General",
@@ -6022,6 +7034,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "lingng135",
+            "alias": "",
+            "position": "319",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nSatrapylover Cycle"
         },
         {
@@ -6040,6 +7055,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Henrique Lindner",
+            "alias": "",
+            "position": "320",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nSatrapylover Cycle"
         },
         {
@@ -6058,6 +7076,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Peter Polach",
+            "alias": "",
+            "position": "321",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nSatrapylover Cycle"
         },
         {
@@ -6076,6 +7097,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Javier Gonzalez",
+            "alias": "",
+            "position": "322",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nSatrapylover Cycle"
         },
         {
@@ -6094,6 +7118,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Stoica Alex",
+            "alias": "",
+            "position": "323",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\nSatrapylover Cycle"
         },
         {
@@ -6112,6 +7139,8 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Rachid Lotf",
+            "alias": "",
+            "position": "324",
             "card_name2": "Cosmic Contraption",
             "color2": "",
             "type2": "Artifact",
@@ -6122,6 +7151,9 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Thomas Ricci",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Marilye\n!tag Planeswalker\n!update"
         },
         {
@@ -6132,7 +7164,7 @@
             "number": 211,
             "color_identity": "WUB",
             "cost": "{1}{W}{U}{B}",
-            "rules_text": "Look at the top card of your library. You may put it into your graveyard. Create a 1/1 white Insect creature token with flying.",
+            "rules_text": "[+1]: Scry 2. Create a 1/1 black Insect creature token with flying.\n[-2]: Judge each creature you control.\n[-8]: For each card type, search your library and graveyard for a card of that type and exile it, then shuffle. You may play any number of cards exiled this way without paying their mana costs.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "[+1]: Scry 2. Create a 1/1 black Insect creature token with flying.\n[-2]: Judge each creature you control.\n[-8]: For each card type, search your library and graveyard for a card of that type and exile it, then shuffle. You may play any number of cards exiled this way without paying their mana costs.",
@@ -6140,6 +7172,9 @@
             "set": "ALK",
             "loyalty": "4",
             "artist": "Sanjin Halimic",
+            "alias": "",
+            "position": "325",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Aminatou\n!tag Planeswalker\n\nwhite blue black\nAminatou\nthree color\n!inpend Judge each creature you control./add/ (Honor it by putting a +1/+1 counter on it or condemn it by sacrificing it to draw a card.)"
         },
         {
@@ -6150,7 +7185,7 @@
             "number": 44,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "",
+            "rules_text": "You may spend mana as if it was mana of any color to cast cards exiled with Marilye.\n[+1]: Exile the top card of each opponent's library. Until end of turn, you may cast spells from among those exiled cards.\n[-3]: Exile target creature. You may cast that card. If you don't, return it to its owner's hand.\n[-7]: Gain control of up to five target nonland permanents.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "You may spend mana as if it was mana of any color to cast cards exiled with Marilye.\n[+1]: Exile the top card of each opponent's library. Until end of turn, you may cast spells from among those exiled cards.\n[-3]: Exile target creature. You may cast that card. If you don't, return it to its owner's hand.\n[-7]: Gain control of up to five target nonland permanents.",
@@ -6158,6 +7193,9 @@
             "set": "ALK",
             "loyalty": "4",
             "artist": "Vpdessin",
+            "alias": "",
+            "position": "326",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Dundrym\n!tag Planeswalker\n!tag Marilye"
         },
         {
@@ -6168,7 +7206,7 @@
             "number": 196,
             "color_identity": "WR",
             "cost": "{2}{R}{R}{W}{W}",
-            "rules_text": "",
+            "rules_text": "As long as it's your turn, Ameret is a 4/4 Angel creature with flying, haste, indestructible, and \u201cWhenever Ameret attacks, attach any number of Equipment you control to them.\u201d\n[+2]: Create two 1/1 red and white Cleric creature tokens with lifelink.\n[-3]: Ameret deals 4 damage to target creature or planeswalker. You gain 4 life.\n[-4]: For each creature you control, create a Weapon token and attach it to that creature. [i](It's an Equipment artifact with equip {2} and \u201cEquipped creature gets +1/+1.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "As long as it's your turn, Ameret is a 4/4 Angel creature with flying, haste, indestructible, and \u201cWhenever Ameret attacks, attach any number of Equipment you control to them.\u201d\n[+2]: Create two 1/1 red and white Cleric creature tokens with lifelink.\n[-3]: Ameret deals 4 damage to target creature or planeswalker. You gain 4 life.\n[-4]: For each creature you control, create a Weapon token and attach it to that creature. [i](It's an Equipment artifact with equip {2} and \u201cEquipped creature gets +1/+1.\u201d)[/i]",
@@ -6176,6 +7214,9 @@
             "set": "ALK",
             "loyalty": "6",
             "artist": "Benjamin Ee (Edited by Sol)",
+            "alias": "",
+            "position": "327",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Ameret\n!tag Planeswalker"
         },
         {
@@ -6186,7 +7227,7 @@
             "number": 160,
             "color_identity": "BR",
             "cost": "{3}{B}{R}",
-            "rules_text": "",
+            "rules_text": "When Shala Na enters, each player chooses a creature they control, then sacrifices the rest.\n[+1]: Up to one target creature you control gains double strike and haste until end of turn.\n[-6]: You get an emblem with \u201cWhenever a creature dies, each opponent loses 2 life.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "When Shala Na enters, each player chooses a creature they control, then sacrifices the rest.\n[+1]: Up to one target creature you control gains double strike and haste until end of turn.\n[-6]: You get an emblem with \u201cWhenever a creature dies, each opponent loses 2 life.\u201d",
@@ -6194,6 +7235,9 @@
             "set": "ALK",
             "loyalty": "3",
             "artist": "Hai Hoang",
+            "alias": "",
+            "position": "328",
+            "rotated": false,
             "notes": "!tag Alkabah\n!tag ShapurRule\n!tag Planeswalker\n!tag Shala\n!tag Urshad"
         },
         {
@@ -6212,6 +7256,9 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Hai Hoang",
+            "alias": "",
+            "position": "329",
+            "rotated": false,
             "notes": ""
         },
         {
@@ -6230,8 +7277,11 @@
             "set": "ALK",
             "loyalty": "",
             "artist": "Joshua Bermudez",
+            "alias": "",
+            "position": "330",
+            "rotated": false,
             "notes": ""
         }
     ],
-    "version": 1
+    "version": 2
 }

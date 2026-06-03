@@ -5,7 +5,7 @@
 			<name>ACT</name>
 			<longname>The Stage Presents: The Neverending Act</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-03-30</releasedate>
+			<releasedate>2026-06-03</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -1281,7 +1281,8 @@ When Performers of Purpose enters the battlefield, if a permanent you controlled
 		</card>
 		<card>
 			<name>The Malevolence Chronicles</name>
-			<text>I — Return target creature card from your graveyard to your hand.
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Return target creature card from your graveyard to your hand.
 II — Return target instant or sorcery card from your graveyard to your hand.
 III — At the beginning of the next end step, create an X/X black Horror creature token, where X is the number of spells you cast this turn.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ACT-files/img/73.png" num="175">ACT</set>
@@ -1299,8 +1300,10 @@ III — At the beginning of the next end step, create an X/X black Horror creatu
 		</card>
 		<card>
 			<name>Into Autumns Arms</name>
-			<text>Put a +1/+1 counter on target creature you control.
-Double the number of counters on target creature you control.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Put a +1/+1 counter on target creature you control.
+III — Double the number of counters on target creature you control.
+​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ACT-files/img/74.png" num="185">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -1386,9 +1389,10 @@ Whenever Hollow Queen deals combat damage to a player or planeswalker, you may r
 		</card>
 		<card>
 			<name>Waltz on a Nimbus</name>
-			<text>Exile target nonland permanent you don&apos;t control until Waltz on a Nimbus leaves the battlefield.
-Create a 1/1 white Soldier creature token with &quot;This creature gets +1/+1 for each enchantment you control.&quot;
-Search your library for a non-Saga enchantment card and reveal it. You may cast that card. Then shuffle.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Exile target nonland permanent you don&apos;t control until Waltz on a Nimbus leaves the battlefield.
+II — Create a 1/1 white Soldier creature token with &quot;This creature gets +1/+1 for each enchantment you control.&quot;
+III — Search your library for a non-Saga enchantment card and reveal it. You may cast that card. Then shuffle.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ACT-files/img/79.png" num="174">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -1421,8 +1425,9 @@ Search your library for a non-Saga enchantment card and reveal it. You may cast 
 		</card>
 		<card>
 			<name>A Memorial to Radiance</name>
-			<text>You may create a token that&apos;s a copy of target Aura you control. Attach it to target permanent you control.
-Put a +1/+1 counter on each enchanted creature you control. Those creatures gain indestructible and vigilance until end of turn.
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — You may create a token that&apos;s a copy of target Aura you control. Attach it to target permanent you control.
+III — Put a +1/+1 counter on each enchanted creature you control. Those creatures gain indestructible and vigilance until end of turn.
 ​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ACT-files/img/81.png" num="189">ACT</set>
 			<prop>
@@ -1439,7 +1444,8 @@ Put a +1/+1 counter on each enchanted creature you control. Those creatures gain
 		</card>
 		<card>
 			<name>An Accursed Coronation</name>
-			<text>I — Create four 1/1 colorless Construct Actor creature tokens.
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Create four 1/1 colorless Construct Actor creature tokens.
 II — Each player sacrifices a nontoken creature.
 III — Each player loses 3 life.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ACT-files/img/82.png" num="192">ACT</set>
@@ -1457,7 +1463,8 @@ III — Each player loses 3 life.</text>
 		</card>
 		<card>
 			<name>The Playwrights Gambit</name>
-			<text>I — Put a prowess counter on target creature you control. That creature deals 2 damage to each opponent.
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Put a prowess counter on target creature you control. That creature deals 2 damage to each opponent.
 II — Scry 3.
 III — Until end of turn, if you casting an instant or sorcery spell causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ACT-files/img/83.png" num="200">ACT</set>
@@ -1475,8 +1482,9 @@ III — Until end of turn, if you casting an instant or sorcery spell causes a t
 		</card>
 		<card>
 			<name>Tales from the Fallen Court</name>
-			<text>Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
-For each color, return up to one target creature card of that color from your graveyard to your hand.
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)
+III — For each color, return up to one target creature card of that color from your graveyard to your hand.
 ​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ACT-files/img/84.png" num="205">ACT</set>
 			<prop>
@@ -1493,7 +1501,8 @@ For each color, return up to one target creature card of that color from your gr
 		</card>
 		<card>
 			<name>The Rejection of the Fair Prince</name>
-			<text>I — Create two 1/1 colorless Construct Actor creature tokens.
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Create two 1/1 colorless Construct Actor creature tokens.
 II — Creatures you control gain first strike until end of turn.
 III — Creatures you control get +1/+0 until end of turn.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ACT-files/img/85.png" num="208">ACT</set>
@@ -1511,8 +1520,10 @@ III — Creatures you control get +1/+0 until end of turn.</text>
 		</card>
 		<card>
 			<name>The Tragedy of Fruits and Fanfare</name>
-			<text>Distribute a trample counter, a vigilance counter and a +1/+1 counter among creatures you control.
-You may redistribute counters among other permanents you control.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Distribute a trample counter, a vigilance counter and a +1/+1 counter among creatures you control.
+III — You may redistribute counters among other permanents you control.
+​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ACT-files/img/86.png" num="213">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -1725,8 +1736,10 @@ Whenever you draw your second card each turn, you may reveal it. If you do and i
 		</card>
 		<card>
 			<name>Swan Dance</name>
-			<text>Create two 1/1 colorless Construct Actor creature tokens. 
-Creatures you control gain flying until end of turn. Whenever one or more of them deals combat damage to a player this turn, draw a card.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Create two 1/1 colorless Construct Actor creature tokens. 
+II, III — Creatures you control gain flying until end of turn. Whenever one or more of them deals combat damage to a player this turn, draw a card.
+​</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ACT-files/img/98.png" num="243">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -1742,8 +1755,10 @@ Creatures you control gain flying until end of turn. Whenever one or more of the
 		</card>
 		<card>
 			<name>A Princess Plea</name>
-			<text>You may exile target nonland permanent. If you do, you lose 3 life.
-Create a 7/7 white, black, and green Horror Knight creature token with trample and &quot;Whenever this creature is dealt damage, you lose that much life.&quot;</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — You may exile target nonland permanent. If you do, you lose 3 life.
+III — Create a 7/7 white, black, and green Horror Knight creature token with trample and &quot;Whenever this creature is dealt damage, you lose that much life.&quot;
+​</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ACT-files/img/99.png" num="236">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -1759,7 +1774,10 @@ Create a 7/7 white, black, and green Horror Knight creature token with trample a
 		</card>
 		<card>
 			<name>A Bond that Spans Planes</name>
-			<text>Return up to X target creature cards with mana value 3 or less from your graveyard to the battlefield, where X is the number of lore counters on A Bond that Spans Planes.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II, III — Return up to X target creature cards with mana value 3 or less from your graveyard to the battlefield, where X is the number of lore counters on A Bond that Spans Planes.
+​
+​</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ACT-files/img/100.png" num="216">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -1775,10 +1793,11 @@ Create a 7/7 white, black, and green Horror Knight creature token with trample a
 		</card>
 		<card>
 			<name>A Recipe for Disaster</name>
-			<text>Mill four cards. 
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Mill four cards. 
 Return target land card from your graveyard to the battlefield.
-Return target creature or non-Saga enchantment card from your graveyard to the battlefield.
-You may cast target instant or sorcery card from your graveyard without paying it mana cost</text>
+II — Return target creature or non-Saga enchantment card from your graveyard to the battlefield.
+III — You may cast target instant or sorcery card from your graveyard without paying it mana cost</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ACT-files/img/101.png" num="238">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -1794,9 +1813,10 @@ You may cast target instant or sorcery card from your graveyard without paying i
 		</card>
 		<card>
 			<name>Around the Plane in Three Days</name>
-			<text>Exile each player&apos;s graveyard. Create a token that&apos;s a copy of a creature card exiled this way.
-Create a token that&apos;s a copy of an artifact or enchantment card exiled with Around the Plane in Three Days.
-Create a token that&apos;s a copy of a land or planeswalker card exiled with Around the Plane in Three Days.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Exile each player&apos;s graveyard. Create a token that&apos;s a copy of a creature card exiled this way.
+II — Create a token that&apos;s a copy of an artifact or enchantment card exiled with Around the Plane in Three Days.
+III — Create a token that&apos;s a copy of a land or planeswalker card exiled with Around the Plane in Three Days.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ACT-files/img/102.png" num="215">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -1812,8 +1832,10 @@ Create a token that&apos;s a copy of a land or planeswalker card exiled with Aro
 		</card>
 		<card>
 			<name>Over the Moon</name>
-			<text>Over the Moon deals 4 damage to up to one target creature or planeswalker.
-Spells you cast with mana value 4 or greater cost {1} less to cast this turn and can&apos;t be countered.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Over the Moon deals 4 damage to up to one target creature or planeswalker.
+II, III — Spells you cast with mana value 4 or greater cost {1} less to cast this turn and can&apos;t be countered.
+​</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ACT-files/img/103.png" num="231">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -1829,8 +1851,10 @@ Spells you cast with mana value 4 or greater cost {1} less to cast this turn and
 		</card>
 		<card>
 			<name>Magellas First Step</name>
-			<text>Exile up to one target creature you control. At the beginning of your next end step, return it to the battlefield.
-Until end of turn, if a creature entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Exile up to one target creature you control. At the beginning of your next end step, return it to the battlefield.
+III — Until end of turn, if a creature entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+​</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ACT-files/img/104.png" num="227">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -1846,8 +1870,10 @@ Until end of turn, if a creature entering the battlefield causes a triggered abi
 		</card>
 		<card>
 			<name>A Song of Sleet and Hellfire</name>
-			<text>I, II — Create a token that&apos;s a copy of target Construct you control.
-III — Constructs you control get +2/+0 and gain vigilance until end of turn.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Create a token that&apos;s a copy of target Construct you control.
+III — Constructs you control get +2/+0 and gain vigilance until end of turn.
+​</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ACT-files/img/105.png" num="241">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -1933,9 +1959,10 @@ Whenever Backstage Prompter deals combat damage to a player, put a +1/+1 counter
 		</card>
 		<card>
 			<name>The Unhinging Project</name>
-			<text>Whenever you cast a spell from anywhere other than your hand, remove a lore counter from The Unhinging Project.
-The Unhinging Project deals 2 damage to any target. You gain 2 life.
-Discard your hand. Surveil 3.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+Whenever you cast a spell from anywhere other than your hand, remove a lore counter from The Unhinging Project.
+I, II — The Unhinging Project deals 2 damage to any target. You gain 2 life.
+III — Discard your hand. Surveil 3.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ACT-files/img/110.png" num="244">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -3346,8 +3373,10 @@ Warrior — 3/2 with Trample</text>
 		</card>
 		<card>
 			<name>A Delightful Afternoon</name>
-			<text>Audition for white. (Create a 1/1 Construct Actor creature token, a Scout Role giving 2/3 and vigilance, or a Cleric Role giving 2/2 and lifelink. Roles replace older ones.)
-Distribute two +1/+1 counters among creatures you control.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II, III — Audition for white. (Create a 1/1 Construct Actor creature token, a Scout Role giving 2/3 and vigilance, or a Cleric Role giving 2/2 and lifelink. Roles replace older ones.)
+Distribute two +1/+1 counters among creatures you control.
+​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ACT-files/img/191.png" num="7">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -3363,8 +3392,10 @@ Distribute two +1/+1 counters among creatures you control.</text>
 		</card>
 		<card>
 			<name>A Tale of the Boastful Sailor</name>
-			<text>Audition for blue. (Create a 1/1 Construct Actor creature token or a blue Role Aura on a creature you control. The blue Roles are a 2/2 Wizard with prowess and a 2/1 Warlock with flying.)
-Whenever a creature you control deals combat damage to a player this turn, draw a card.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II, III — Audition for blue. (Create a 1/1 Construct Actor creature token or a blue Role Aura on a creature you control. The blue Roles are a 2/2 Wizard with prowess and a 2/1 Warlock with flying.)
+Whenever a creature you control deals combat damage to a player this turn, draw a card.
+​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ACT-files/img/192.png" num="63">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -3380,8 +3411,10 @@ Whenever a creature you control deals combat damage to a player this turn, draw 
 		</card>
 		<card>
 			<name>That Fateful Tuesday</name>
-			<text>Audition for black. (Create a 1/1 Construct Actor creature token, a Cleric Role giving 2/2 and lifelink, or a Warlock Role giving 2/1 and flying. Roles replace older ones.)
-Until end of turn, if a creature you don&apos;t control would die, instead exile it and that creature&apos;s controller loses 2 life.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — Audition for black. (Create a 1/1 Construct Actor creature token, a Cleric Role giving 2/2 and lifelink, or a Warlock Role giving 2/1 and flying. Roles replace older ones.)
+III — Until end of turn, if a creature you don&apos;t control would die, instead exile it and that creature&apos;s controller loses 2 life.
+​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ACT-files/img/193.png" num="102">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -3397,8 +3430,10 @@ Until end of turn, if a creature you don&apos;t control would die, instead exile
 		</card>
 		<card>
 			<name>An Invitation to High Rollers</name>
-			<text>Audition for red. (Create a 1/1 Construct Actor creature token, a Warrior Role giving 3/2 and trample, or a Wizard Role giving 2/2 and prowess. Roles replace older ones.)
-Whenever a creature you control deals damage to an opponent this turn, exile the top card of your library. You may play it this turn.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II, III — Audition for red. (Create a 1/1 Construct Actor creature token, a Warrior Role giving 3/2 and trample, or a Wizard Role giving 2/2 and prowess. Roles replace older ones.)
+Whenever a creature you control deals damage to an opponent this turn, exile the top card of your library. You may play it this turn.
+​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ACT-files/img/194.png" num="118">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -3414,8 +3449,10 @@ Whenever a creature you control deals damage to an opponent this turn, exile the
 		</card>
 		<card>
 			<name>The Investigation of Dr Vaughn</name>
-			<text>Audition for green. (Create a 1/1 Construct Actor creature token, a Scout Role giving 2/3 and vigilance, or a Warrior Role giving 3/2 and trample. Roles replace older ones.)
-Creatures you control get +1/+0 and gain trample until end of turn.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II, III — Audition for green. (Create a 1/1 Construct Actor creature token, a Scout Role giving 2/3 and vigilance, or a Warrior Role giving 3/2 and trample. Roles replace older ones.)
+Creatures you control get +1/+0 and gain trample until end of turn.
+​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ACT-files/img/195.png" num="149">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -3431,7 +3468,8 @@ Creatures you control get +1/+0 and gain trample until end of turn.</text>
 		</card>
 		<card>
 			<name>The Death of King Mervin</name>
-			<text>I — Destroy target creature you don&apos;t control with the greatest power.
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Destroy target creature you don&apos;t control with the greatest power.
 II — Until your next turn, prevent all damage that would be dealt to you and planeswalkers you control.
 III — Exile target card from a graveyard. You gain 2 life.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ACT-files/img/196.png" num="6">ACT</set>
@@ -3449,7 +3487,8 @@ III — Exile target card from a graveyard. You gain 2 life.</text>
 		</card>
 		<card>
 			<name>The Girl Who Wouldnt Die</name>
-			<text>I — Return target creature card with mana value 2 or less from your graveyard to the battlefield.
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Return target creature card with mana value 2 or less from your graveyard to the battlefield.
 II — Each opponent loses 2 life and you gain 2 life.
 III — Return target creature card with mana value 2 or less from your graveyard to the battlefield.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ACT-files/img/197.png" num="82">ACT</set>
@@ -3467,7 +3506,8 @@ III — Return target creature card with mana value 2 or less from your graveyar
 		</card>
 		<card>
 			<name>As the Lanterns Float On</name>
-			<text>I — Sacrifice a permanent, then As the Lanterns Float On deals 3 damage to any target.
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Sacrifice a permanent, then As the Lanterns Float On deals 3 damage to any target.
 II — Sacrifice a permanent, then draw a card.
 III — Create a token that&apos;s a copy of target permanent card in your graveyard with mana value 4 or less. It gains haste. Sacrifice it at the beginning of the next end step.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ACT-files/img/198.png" num="105">ACT</set>
@@ -3485,7 +3525,8 @@ III — Create a token that&apos;s a copy of target permanent card in your grave
 		</card>
 		<card>
 			<name>The Disappearance of Faye</name>
-			<text>I — Create a 1/1 colorless Construct Actor token.
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Create a 1/1 colorless Construct Actor token.
 II — Create a Food token and a Weapon token. (A Weapon token is an Equipment with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)
 III — You may draw a card. If you don&apos;t and you control five or more tokens, you may exile The Disappearance and return a card from your graveyard to your hand.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ACT-files/img/199.png" num="143">ACT</set>
@@ -3503,7 +3544,8 @@ III — You may draw a card. If you don&apos;t and you control five or more toke
 		</card>
 		<card>
 			<name>Blood on Satin</name>
-			<text>I — Each opponent discards a card and loses 2 life.
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Each opponent discards a card and loses 2 life.
 II — Exile target card from a graveyard. If a creature card was exiled this way, you gain 2 life.
 III — At the beginning of the next end step, you gain 3 life if an opponent lost life this turn and each opponent loses 3 life if you&apos;ve gained life this turn.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/ACT-files/img/200.png" num="180">ACT</set>
@@ -4884,9 +4926,10 @@ Enchanted creature is a 5/5 creature with all creature types and flying, trample
 		</card>
 		<card>
 			<name>The Infinite Calls to Marva</name>
-			<text>Flash
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+Flash
 Draw three cards.
-You may cast a spell with mana value equal to or less than the number of lore counters on The Infinite Calls to Marva from your hand without paying its mana cost.</text>
+I, II, III — You may cast a spell with mana value equal to or less than the number of lore counters on The Infinite Calls to Marva from your hand without paying its mana cost.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ACT-files/img/281.png" num="46">ACT</set>
 			<prop>
 				<layout>saga</layout>
@@ -4902,9 +4945,10 @@ You may cast a spell with mana value equal to or less than the number of lore co
 		</card>
 		<card>
 			<name>Dance of Frost</name>
-			<text>Whenever you cast an enchantment spell, draw a card.
-Tap up to one target nonland permanent and put a stun counter on it. You gain 2 life.
-Target creature you control gets +1/+1 until end of turn for each enchantment you control.</text>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+Whenever you cast an enchantment spell, draw a card.
+I, II — Tap up to one target nonland permanent and put a stun counter on it. You gain 2 life.
+III — Target creature you control gets +1/+1 until end of turn for each enchantment you control.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/ACT-files/img/282.png" num="219">ACT</set>
 			<prop>
 				<layout>saga</layout>

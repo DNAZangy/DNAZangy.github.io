@@ -5,7 +5,7 @@
 			<name>MSK</name>
 			<longname>Myths, Masks, and Minutes Spent Apart</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-27</releasedate>
+			<releasedate>2026-06-03</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -4701,9 +4701,6 @@ Whenever a creature you control attacks and isn&apos;t blocked, you may return i
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse-related>Prank of the Ages</reverse-related>
-			<reverse-related>Season&apos;s End Celebrant</reverse-related>
-			<reverse-related>Invigorating Discovery</reverse-related>
 		</card>
 		<card>
 			<name>Play the Part</name>
@@ -4824,20 +4821,6 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse-related>Escapade Collector</reverse-related>
-			<reverse-related>Faithful Harrier</reverse-related>
-			<reverse-related>Gregarious Buboh</reverse-related>
-			<reverse-related>Veiled Foreboding</reverse-related>
-			<reverse-related>From Blood, Blades</reverse-related>
-			<reverse-related>Warkrei Commander</reverse-related>
-			<reverse-related>Custodian of Cycles</reverse-related>
-			<reverse-related>Deprecate</reverse-related>
-			<reverse-related>From Hope to Action</reverse-related>
-			<reverse-related>Timber Pummeler</reverse-related>
-			<reverse-related>Zyklinder Shortcutter</reverse-related>
-			<reverse-related>Anina, Breath of the Winds</reverse-related>
-			<reverse-related>Nasaj</reverse-related>
-			<reverse-related>Steward of New Horizons</reverse-related>
 		</card>
 		<card>
 			<name>ElementalGreen MSK</name>
@@ -4856,8 +4839,6 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse-related>Path of the Unremembered</reverse-related>
-			<reverse-related>Kriemhild of One Truth</reverse-related>
 		</card>
 		<card>
 			<name>ElementalBlue MSK</name>
@@ -4876,8 +4857,6 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse-related>Ziel, Season of Endings</reverse-related>
-			<reverse-related>Out-of-Body Experience</reverse-related>
 		</card>
 		<card>
 			<name>Warrior MSK</name>
@@ -4896,13 +4875,6 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse-related>Those of Distant Familiarity</reverse-related>
-			<reverse-related>A Dream of Reunion</reverse-related>
-			<reverse-related>Opulent Settler</reverse-related>
-			<reverse-related>Rally the Dragoons</reverse-related>
-			<reverse-related>Timber Pummeler</reverse-related>
-			<reverse-related>Lessons Learned Trials Won</reverse-related>
-			<reverse-related>Unblooded Edge</reverse-related>
 		</card>
 		<card>
 			<name>Avatar MSK</name>
@@ -4921,7 +4893,6 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse-related>Behold Ruhigwelt</reverse-related>
 		</card>
 		<card>
 			<name>Wolf Spirit MSK</name>
@@ -4940,7 +4911,6 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse-related>Together As One</reverse-related>
 		</card>
 		<card>
 			<name>Treasure MSK</name>
@@ -4956,10 +4926,6 @@ Equip {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
-			<reverse-related>Crestfallen Roseblade</reverse-related>
-			<reverse-related>Liberator of Petals</reverse-related>
-			<reverse-related>Merry Marauder</reverse-related>
-			<reverse-related>Ziel, Season of Endings</reverse-related>
 		</card>
 		<card>
 			<name>Spirit MSK</name>
@@ -4978,8 +4944,6 @@ Equip {2}</text>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
-			<reverse-related>Fount of the Wandering</reverse-related>
-			<reverse-related>Witness to Many Ends</reverse-related>
 		</card>
 		<card>
 			<name>A Dream of Stillness</name>

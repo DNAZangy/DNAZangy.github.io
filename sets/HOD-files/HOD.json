@@ -1,9 +1,11 @@
 ﻿{
     "name": "Houses of Dewold",
-    "formats": "Zangy, Voyager",
-    "trimmed": "y",
+    "formats": "Voyager",
     "image_type": "png",
     "draft_structure": "play booster",
+    "unpreviewed": "card back",
+    "image_name": "position",
+    "v_mana": "",
     "cards": [
         {
             "card_name": "Sword of the Royalty",
@@ -21,6 +23,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Grafit Studio",
+            "alias": "",
+            "position": "0",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -39,6 +44,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "La Draws",
+            "alias": "",
+            "position": "1",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Whitaker\n!tag CanonReprint\n!tag Conrad"
         },
         {
@@ -57,6 +65,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "2",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rivers"
         },
         {
@@ -75,6 +86,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Annadel Cinco",
+            "alias": "",
+            "position": "3",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Whitaker"
         },
         {
@@ -93,6 +107,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Stefan Kopinski",
+            "alias": "",
+            "position": "4",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -111,6 +128,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "chuy de leon",
+            "alias": "",
+            "position": "5",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey\n!tag Leon"
         },
         {
@@ -129,6 +149,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Florent Tavani",
+            "alias": "",
+            "position": "6",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel\n!tag HouseAnimal"
         },
         {
@@ -139,7 +162,7 @@
             "number": 21,
             "color_identity": "W",
             "cost": "{4}{W}",
-            "rules_text": "Vigilance\nOther creature tokens you control get +1/+1 and have vigilance.",
+            "rules_text": "Heir\u2014You've created five or more tokens with different names this game. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]\nVigilance\nOther creature tokens you control get +1/+1 and have vigilance.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "Heir\u2014You've created five or more tokens with different names this game. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]\nVigilance\nOther creature tokens you control get +1/+1 and have vigilance.",
@@ -147,6 +170,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Catalin Lartist",
+            "alias": "",
+            "position": "7",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel\n!tag Leon"
         },
         {
@@ -165,6 +191,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alejo Ramos",
+            "alias": "",
+            "position": "8",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Dewold\n!tag Waldemar\n!tag HODStory"
         },
         {
@@ -183,6 +212,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Hue Teo",
+            "alias": "",
+            "position": "9",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel"
         },
         {
@@ -201,6 +233,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "xyzl0119",
+            "alias": "",
+            "position": "10",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel\n!tag Leon"
         },
         {
@@ -219,6 +254,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Anato Finnstark",
+            "alias": "",
+            "position": "11",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Dewold\n!tag HODStory"
         },
         {
@@ -237,6 +275,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Zana Arnautovic",
+            "alias": "",
+            "position": "12",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance"
         },
         {
@@ -255,6 +296,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Sergio Mayo",
+            "alias": "",
+            "position": "13",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Radcliffe"
         },
         {
@@ -265,7 +309,7 @@
             "number": 78,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
-            "rules_text": "Deception {3}{U}{U} [i]({3}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nFlying\nWhenever Takers of Voice enters, gain control of target nonland permanent for as long as you control Takers of Voice.",
+            "rules_text": "Sneak {3}{U}{U} [i](You may cast this spell for {3}{U}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nFlying\nWhenever Takers of Voice enters, gain control of target nonland permanent for as long as you control Takers of Voice.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -273,6 +317,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Taras Susak",
+            "alias": "",
+            "position": "14",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -283,14 +330,17 @@
             "number": 84,
             "color_identity": "U",
             "cost": "{3}{U}",
-            "rules_text": "Creatures you control can't be blocked unless each creature with lesser power than that creature is also blocked.",
+            "rules_text": "Heir\u2014Your opponents have been dealt combat damage by unblocked creatures four or more times this game. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition. Each creature counts separately.)[/i]\nCreatures you control can't be blocked unless each attacking creature with lesser power than that creature is also blocked.",
             "flavor_text": "[i][/i]",
-            "pt": "3/2",
-            "special_text": "Heir\u2014Your opponents have been dealt combat damage by unblocked creatures five or more times this game. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition. Each creature counts separately.)[/i]\nCreatures you control can't be blocked unless each creature with lesser power than that creature is also blocked.",
+            "pt": "3/3",
+            "special_text": "Heir\u2014Your opponents have been dealt combat damage by unblocked creatures four or more times this game. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition. Each creature counts separately.)[/i]\nCreatures you control can't be blocked unless each attacking creature with lesser power than that creature is also blocked.",
             "shape": "normal",
             "set": "HOD",
             "loyalty": "",
             "artist": "Thanh Tuan",
+            "alias": "",
+            "position": "15",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye"
         },
         {
@@ -309,6 +359,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Lhuin",
+            "alias": "",
+            "position": "16",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye\n!tag HouseAnimal"
         },
         {
@@ -327,6 +380,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Brian Valeza",
+            "alias": "",
+            "position": "17",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -345,6 +401,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Yuliya Zabelina",
+            "alias": "",
+            "position": "18",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Radcliff"
         },
         {
@@ -355,14 +414,17 @@
             "number": 66,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "",
+            "rules_text": "Sneak {2}{U}{U} [i](You may cast this spell for {2}{U}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nAs long as it's your turn, Marilye is a 3/2 Elf Rogue creature with hexproof and indestructible.\n[+1]: Tap target permanent. It doesn't untap during its controller's next untap step.\n[-2]: Exile the top five cards of target opponent's library. You may cast any number of cards exiled this way with total mana value equal to or less than the amount of damage dealt to them this turn without paying their mana costs.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Deception {2}{U}{U} [i]({2}{U}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nAs long as it's your turn, Marilye is a 3/2 Elf Rogue creature with hexproof and indestructible.\n[+1]: Tap target permanent. It doesn't untap during its controller's next untap step.\n[-2]: Exile the top five cards of target opponent's library. You may cast any number of cards exiled this way with total mana value equal to or less than the amount of damage dealt to them this turn without paying their mana costs.",
+            "special_text": "Sneak {2}{U}{U} [i](You may cast this spell for {2}{U}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nAs long as it's your turn, Marilye is a 3/2 Elf Rogue creature with hexproof and indestructible.\n[+1]: Tap target permanent. It doesn't untap during its controller's next untap step.\n[-2]: Exile the top five cards of target opponent's library. You may cast any number of cards exiled this way with total mana value equal to or less than the amount of damage dealt to them this turn without paying their mana costs.",
             "shape": "planeswalker",
             "set": "HOD",
             "loyalty": "4",
             "artist": "Ross A Cambell",
+            "alias": "",
+            "position": "19",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Marilye\n!tag Planeswalker\n!tag Dundrym"
         },
         {
@@ -381,6 +443,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Matias Cabezas Montoya",
+            "alias": "",
+            "position": "20",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -399,6 +464,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "SARIYA",
+            "alias": "",
+            "position": "21",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rivers"
         },
         {
@@ -417,6 +485,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Ari Ibarra",
+            "alias": "",
+            "position": "22",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Wulfric\n!tag Hook"
         },
         {
@@ -427,14 +498,17 @@
             "number": 102,
             "color_identity": "B",
             "cost": "{4}{B}",
-            "rules_text": "Whenever Petula Vance attacks, exile another attacking creature you control. If you do, return target creature card from your graveyard to the battlefield tapped and attacking.",
+            "rules_text": "Heir\u2014You've cast four or more spells this game for an amount of mana less than their mana value. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]\nWhenever Petula Vance attacks, exile another attacking creature you control. If you do, return target creature card from your graveyard to the battlefield tapped and attacking.",
             "flavor_text": "[i][/i]",
-            "pt": "3/4",
-            "special_text": "Heir\u2014You've cast five or more spells for an amount of mana less than their mana value. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]\nWhenever Petula Vance attacks, exile another attacking creature you control. If you do, return target creature card from your graveyard to the battlefield tapped and attacking.",
+            "pt": "4/4",
+            "special_text": "Heir\u2014You've cast four or more spells this game for an amount of mana less than their mana value. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]\nWhenever Petula Vance attacks, exile another attacking creature you control. If you do, return target creature card from your graveyard to the battlefield tapped and attacking.",
             "shape": "normal",
             "set": "HOD",
             "loyalty": "",
             "artist": "Jeff Kristian",
+            "alias": "",
+            "position": "23",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance\n!tag Petula"
         },
         {
@@ -453,6 +527,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alfonso de la Torre",
+            "alias": "",
+            "position": "24",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance\n!tag HouseAnimal"
         },
         {
@@ -471,6 +548,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Tatiana Vetrova",
+            "alias": "",
+            "position": "25",
+            "rotated": false,
             "notes": "!tag Dewold\n\n!tag Bennet\n!tag Vance\n!tag HODStory"
         },
         {
@@ -489,6 +569,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Taras Susak",
+            "alias": "",
+            "position": "26",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance"
         },
         {
@@ -507,6 +590,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Tshor Tik",
+            "alias": "",
+            "position": "27",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -517,7 +603,7 @@
             "number": 104,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Deception {2}{B} [i]({2}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nWhenever Plaskett Trickster deals combat damage to a player or planeswalker, defending player exiles a card from their sanctum at random and a card from their hand. You may play those cards for as long as they remain exiled and mana of any type can be spent to cast them.",
+            "rules_text": "Sneak {2}{B} [i](You may cast this spell for {2}{B} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nWhenever Plaskett Trickster deals combat damage to a player or planeswalker, choose one to be exiled. You may play the exiled cards for as long as they remain exiled. Mana of any type can be spent to cast spells this way.\n\u2022 A card from defending player's hand.\n\u2022 A random card from defending player's sanctum.",
             "flavor_text": "[i][/i]",
             "pt": "1/4",
             "special_text": "",
@@ -525,6 +611,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "BenMoran Art",
+            "alias": "",
+            "position": "28",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskett"
         },
         {
@@ -543,6 +632,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Sam Lamont",
+            "alias": "",
+            "position": "29",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -561,6 +653,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Paperwick",
+            "alias": "",
+            "position": "30",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Waldemar\n!tag Planeswalker\n!tag HODStory"
         },
         {
@@ -579,6 +674,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alexandr Elichev",
+            "alias": "",
+            "position": "31",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -589,24 +687,29 @@
             "number": 124,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Once per game, when Waldemar deals combat damage to a player, if he was your chosen heir exile him, then return him to the battlefield transformed under that player's control.\nWhen Waldemar dies, each opponent discards a card.",
+            "rules_text": "\nOnce per game, when Waldemar deals combat damage to a player, if he was your chosen heir exile him, then return him to the battlefield transformed under that player's control.\nWhen Waldemar dies, each opponent discards a card.\n[i][/i]",
             "flavor_text": "[i][/i]",
-            "pt": "2/1",
-            "special_text": "\n",
+            "pt": "2/2",
+            "special_text": "\nOnce per game, when Waldemar deals combat damage to a player, if he was your chosen heir exile him, then return him to the battlefield transformed under that player's control.\nWhen Waldemar dies, each opponent discards a card.\n[i][/i]",
             "shape": "transform double faced",
             "set": "HOD",
             "loyalty": "",
             "artist": "Hinchel Or",
+            "alias": "",
+            "position": "32",
             "card_name2": "Waldemar, Jaded Prince",
             "color2": "B",
             "type2": "Legendary Planeswalker \u2014 Waldemar",
             "cost2": "",
-            "rules_text2": "",
+            "rules_text2": "At the beginning of your upkeep, you lose 2 life, Waldemar's owner draws a card, then remove a loyalty counter from Waldemar.\n[-1]: Discard a card. If you didn't discard a nonland card this way, Waldemar's owner creates a tapped Treasure token.\n[-2]: Sacrifice a non-Waldemar permanent.\n",
             "flavor_text2": "[i][/i]",
             "pt2": "",
-            "special_text2": "At the beginning of your upkeep, you lose 2 life, Waldemar's owner draws a card, then remove a loyalty counter from Waldemar.\n[-1]: Discard a card. If you didn't discard a nonland card this way, Waldemar's owner creates a tapped Treasure token.\n[-2]: Sacrifice a non-Waldemar permanent.\n\n",
+            "special_text2": "At the beginning of your upkeep, you lose 2 life, Waldemar's owner draws a card, then remove a loyalty counter from Waldemar.\n[-1]: Discard a card. If you didn't discard a nonland card this way, Waldemar's owner creates a tapped Treasure token.\n[-2]: Sacrifice a non-Waldemar permanent.\n",
             "loyalty2": "4",
             "artist2": "Pavel Stepanov",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel\n!tag Vance\n!tag Waldemar\n!tag Dewold\n!tag Planeswalker"
         },
         {
@@ -625,6 +728,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Sarah Beth Moore",
+            "alias": "",
+            "position": "33",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance"
         },
         {
@@ -635,14 +741,17 @@
             "number": 136,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "Menace\nWhenever Caryl Rey, the Rose attacks, exile the top card of your library. You may cast it. If you don't, put a +1/+1 counter on Caryl Rey.",
+            "rules_text": "Heir\u2014You have ten or more cards in exile. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]\nMenace\nWhenever Caryl Rey, the Rose attacks, exile the top card of your library. You may cast it. If you don't, put a +1/+1 counter on Caryl Rey.",
             "flavor_text": "[i][/i]",
             "pt": "4/3",
-            "special_text": "Heir\u2014You have twenty or more cards in exile. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]\nMenace\nWhenever Caryl Rey, the Rose attacks, exile the top card of your library. You may cast it. If you don't, put a +1/+1 counter on Caryl Rey.",
+            "special_text": "Heir\u2014You have ten or more cards in exile. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]\nMenace\nWhenever Caryl Rey, the Rose attacks, exile the top card of your library. You may cast it. If you don't, put a +1/+1 counter on Caryl Rey.",
             "shape": "normal",
             "set": "HOD",
             "loyalty": "",
             "artist": "Koni - Amandine GIRARD",
+            "alias": "",
+            "position": "34",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -653,7 +762,7 @@
             "number": 128,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Whenever you attack, target attacking creature gets +1/+0 until end of turn. Create a token that's a copy it in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]",
+            "rules_text": "Whenever Ardleby Gatekeeper attacks, another target attacking creature gets +1/+0 until end of turn. Create a token that's a copy it in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]",
             "flavor_text": "[i]The empty throne of House Phyre tempts many would be aspiring nobility. None have succeeded.[/i]",
             "pt": "2/3",
             "special_text": "",
@@ -661,6 +770,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Andrew Kuzinskiy",
+            "alias": "",
+            "position": "35",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Phyre"
         },
         {
@@ -679,6 +791,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Steven Moreno",
+            "alias": "",
+            "position": "36",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -697,6 +812,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Pouya Moayedi",
+            "alias": "",
+            "position": "37",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel\n!tag HODStory\n!tag Leon\n!tag Waldemar"
         },
         {
@@ -715,6 +833,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Petar Penev",
+            "alias": "",
+            "position": "38",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Radcliff"
         },
         {
@@ -733,6 +854,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "PaleCaesar",
+            "alias": "",
+            "position": "39",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey\n!tag William"
         },
         {
@@ -751,6 +875,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Izabela Kaszuba",
+            "alias": "",
+            "position": "40",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey\n!tag HouseAnimal"
         },
         {
@@ -769,6 +896,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Joel Chaim Holtzman",
+            "alias": "",
+            "position": "41",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -787,6 +917,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Victor Garcia",
+            "alias": "",
+            "position": "42",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Veceslav\n!tag Planeswalker"
         },
         {
@@ -805,6 +938,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Shalizeh",
+            "alias": "",
+            "position": "43",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -823,6 +959,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "David Ceballos",
+            "alias": "",
+            "position": "44",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag HouseAnimal\n!tag Sapner"
         },
         {
@@ -833,14 +972,17 @@
             "number": 195,
             "color_identity": "G",
             "cost": "{5}{G}",
-            "rules_text": "[i]Landfall[/i] \u2014 Whenever a land you control enters, return target card from your graveyard to your hand.",
+            "rules_text": "Heir\u2014You control six or more lands and you don't control any nonbasic lands. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]\n[i]Landfall[/i] \u2014 Whenever a land you control enters, return target card from your graveyard to your hand.",
             "flavor_text": "[i][/i]",
             "pt": "6/6",
-            "special_text": "Heir\u2014You control six or more lands and you don't control any nonbasic lands and there aren't any nonbasic lands in your graveyard. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]\n[i]Landfall[/i] \u2014 Whenever a land you control enters, return target card from your graveyard to your hand.",
+            "special_text": "Heir\u2014You control six or more lands and you don't control any nonbasic lands. [i](If this card is your chosen heir in your sanctum, you may replace a draw with this card if you've met its condition.)[/i]\n[i]Landfall[/i] \u2014 Whenever a land you control enters, return target card from your graveyard to your hand.",
             "shape": "normal",
             "set": "HOD",
             "loyalty": "",
             "artist": "Doe Doe Doe",
+            "alias": "",
+            "position": "45",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Ranulf\n!tag Sapner"
         },
         {
@@ -859,6 +1001,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Javier Gonzalez",
+            "alias": "",
+            "position": "46",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -877,6 +1022,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Sandara Tang",
+            "alias": "",
+            "position": "47",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -895,6 +1043,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "GoodFaun",
+            "alias": "",
+            "position": "48",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -904,8 +1055,8 @@
             "type": "Creature \u2014 Human Druid",
             "number": 176,
             "color_identity": "G",
-            "cost": "{2}{G}",
-            "rules_text": "Deception {3}{G}{G} [i]({3}{G}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nWhenever Chorus of the Silberwald deals combat damage to a player or planeswalker, you may search your library for a creature card with mana value equal to or less than that damage, put it onto the battlefield, then shuffle.",
+            "cost": "{3}{G}",
+            "rules_text": "Sneak {2}{G}{G} [i](You may cast this spell for {2}{G}{G} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nWhenever Chorus of the Silberwald deals combat damage to a player or planeswalker, you may search your library for a creature card with mana value equal to or less than that damage, put it onto the battlefield, then shuffle.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -913,6 +1064,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "49",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Attwater"
         },
         {
@@ -931,6 +1085,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "WhiteVector",
+            "alias": "",
+            "position": "50",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Banefort"
         },
         {
@@ -949,6 +1106,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Nathalie Bindel",
+            "alias": "",
+            "position": "51",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -967,6 +1127,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Jarel Threat",
+            "alias": "",
+            "position": "52",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -985,6 +1148,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Victor Adame",
+            "alias": "",
+            "position": "53",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Oriel\n!tag Rivers"
         },
         {
@@ -1003,6 +1169,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "stumpyfongo",
+            "alias": "",
+            "position": "54",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskett\n!tag Elias"
         },
         {
@@ -1021,6 +1190,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Paul Nong",
+            "alias": "",
+            "position": "55",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Wulfric\n!tag Hook"
         },
         {
@@ -1039,6 +1211,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Bogdan Antoci",
+            "alias": "",
+            "position": "56",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Phyre"
         },
         {
@@ -1049,7 +1224,7 @@
             "number": 223,
             "color_identity": "WG",
             "cost": "{1}{G}{W}",
-            "rules_text": "",
+            "rules_text": "Whenever a token enters from your reserves, put a +1/+1 counter and your choice of a trample, vigilance, or reach counter on it.\n[+1]: Create two 1/1 white Soldier creature tokens in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]\n[-7]: Create two white enchantment tokens named Intisuyu's Armies with \u201cAt the beginning of your end step, create a 1/1 white Solider creature token for each creature you control.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "Whenever a token enters from your reserves, put a +1/+1 counter and your choice of a trample, vigilance, or reach counter on it.\n[+1]: Create two 1/1 white Soldier creature tokens in your reserves. [i]({3}: Put up to three tokens from your reserves onto the battlefield. Activate only as a sorcery.)[/i]\n[-7]: Create two white enchantment tokens named Intisuyu's Armies with \u201cAt the beginning of your end step, create a 1/1 white Solider creature token for each creature you control.\u201d",
@@ -1057,6 +1232,9 @@
             "set": "HOD",
             "loyalty": "4",
             "artist": "Juan Carlos Alegre",
+            "alias": "",
+            "position": "57",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Planeswalker\n!tag Suyay\n!tag CaruMapu"
         },
         {
@@ -1075,6 +1253,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Lain Valentine",
+            "alias": "",
+            "position": "58",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Banefort\n!tag Roul"
         },
         {
@@ -1093,6 +1274,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Nikki Dawes",
+            "alias": "",
+            "position": "59",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Conrad\n!tag Whitaker"
         },
         {
@@ -1111,6 +1295,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Wojtek Depczynski",
+            "alias": "",
+            "position": "60",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Minna\n!tag Radcliff"
         },
         {
@@ -1129,6 +1316,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Benjamin Ee",
+            "alias": "",
+            "position": "61",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Gosfridus\n!tag Turnberry"
         },
         {
@@ -1147,6 +1337,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Lily Abdullina",
+            "alias": "",
+            "position": "62",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Perle"
         },
         {
@@ -1157,7 +1350,7 @@
             "number": 239,
             "color_identity": "UG",
             "cost": "{G}{U}",
-            "rules_text": "Deception {1}{G}{U} [i]({1}{G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nWhenever a creature you control enters, it gets +2/+2 until end of turn.",
+            "rules_text": "Sneak {1}{G}{U} [i](You may cast this spell for {1}{G}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nWhenever a creature you control enters, it gets +2/+2 until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -1165,6 +1358,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "TheMintuu",
+            "alias": "",
+            "position": "63",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Attwater"
         },
         {
@@ -1183,6 +1379,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "64",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey\nTricolor"
         },
         {
@@ -1201,6 +1400,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Nolan Lu",
+            "alias": "",
+            "position": "65",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel\nTricolor"
         },
         {
@@ -1219,6 +1421,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "tahra",
+            "alias": "",
+            "position": "66",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel\nTricolor"
         },
         {
@@ -1237,6 +1442,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "chuy de leon",
+            "alias": "",
+            "position": "67",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel\n!tag HODStory\n!tag Bennet\n!tag Veceslav"
         },
         {
@@ -1255,6 +1463,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "68",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Delora\n!tag Vance\nTricolor"
         },
         {
@@ -1273,6 +1484,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Sforzarto",
+            "alias": "",
+            "position": "69",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner\nTricolor"
         },
         {
@@ -1291,6 +1505,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Anna Moshak",
+            "alias": "",
+            "position": "70",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance\nTricolor"
         },
         {
@@ -1309,6 +1526,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Nicolas Aucher",
+            "alias": "",
+            "position": "71",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey\nTricolor"
         },
         {
@@ -1327,6 +1547,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Brett Macdonald",
+            "alias": "",
+            "position": "72",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance\nTricolor"
         },
         {
@@ -1337,7 +1560,7 @@
             "number": 245,
             "color_identity": "UBG",
             "cost": "{1}{B}{G}{U}",
-            "rules_text": "Deception {3}{B}{G}{U} [i]({3}{B}{G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nWhenever Castle Delta Agitator deals combat damage to a player or planeswalker, you may cast target card in your graveyard without paying its mana cost. If you do, exile that card as it resolves.",
+            "rules_text": "Sneak {3}{B}{G}{U} [i](You may cast this spell for {3}{B}{G}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nWhenever Castle Delta Agitator deals combat damage to a player or planeswalker, you may cast target card in your graveyard without paying its mana cost. If you do, exile that card as it resolves.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -1345,6 +1568,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alex Petruk",
+            "alias": "",
+            "position": "73",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye\nTricolor"
         },
         {
@@ -1363,6 +1589,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Cevicrow",
+            "alias": "",
+            "position": "74",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner\nTricolor"
         },
         {
@@ -1381,6 +1610,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Sina Hayati",
+            "alias": "",
+            "position": "75",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance\nTricolor"
         },
         {
@@ -1399,6 +1631,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Matthew Thomas",
+            "alias": "",
+            "position": "76",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey\nTricolor"
         },
         {
@@ -1417,6 +1652,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "kathrynlayno",
+            "alias": "",
+            "position": "77",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye\nTricolor"
         },
         {
@@ -1435,6 +1673,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Nick Moskvin",
+            "alias": "",
+            "position": "78",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner\nTricolor"
         },
         {
@@ -1453,6 +1694,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Atomhawk",
+            "alias": "",
+            "position": "79",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Bennet\n!tag Terrel"
         },
         {
@@ -1471,6 +1715,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Doe Doe Doe",
+            "alias": "",
+            "position": "80",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -1489,6 +1736,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Joel Turina",
+            "alias": "",
+            "position": "81",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance\n!tag Delora"
         },
         {
@@ -1507,6 +1757,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Julie Dillon",
+            "alias": "",
+            "position": "82",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -1517,7 +1770,7 @@
             "number": 256,
             "color_identity": "UBG",
             "cost": "{3}{B}{G}{U}",
-            "rules_text": "Deception {2}{B}{G}{U} [i]({2}{B}{G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nTrample\nWhenever Elric Nye deals combat damage to a player or planeswalker, if it isn't an extra turn, taken an extra turn after this one.",
+            "rules_text": "Sneak {2}{B}{G}{U} [i](You may cast this spell for {2}{B}{G}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nTrample\nWhenever Elric Nye deals combat damage to a player or planeswalker, if it isn't an extra turn, taken an extra turn after this one.",
             "flavor_text": "[i][/i]",
             "pt": "4/5",
             "special_text": "",
@@ -1525,6 +1778,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Thanh Tuan",
+            "alias": "",
+            "position": "83",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye"
         },
         {
@@ -1543,6 +1799,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Giles Beloeil",
+            "alias": "",
+            "position": "84",
+            "rotated": false,
             "notes": "!tag Nye"
         },
         {
@@ -1561,6 +1820,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Andreas Rocha",
+            "alias": "",
+            "position": "85",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -1579,6 +1841,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Nino Is",
+            "alias": "",
+            "position": "86",
+            "rotated": false,
             "notes": "!tag Terrel"
         },
         {
@@ -1597,6 +1862,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Andreas Rocha",
+            "alias": "",
+            "position": "87",
+            "rotated": false,
             "notes": "!tag Vance"
         },
         {
@@ -1615,6 +1883,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Raphael Masalimov",
+            "alias": "",
+            "position": "88",
+            "rotated": false,
             "notes": "!tag Sapner"
         },
         {
@@ -1633,6 +1904,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Felix Hidayat",
+            "alias": "",
+            "position": "89",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -1651,6 +1925,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Aleksander Brodzinski",
+            "alias": "",
+            "position": "90",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -1669,6 +1946,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Grafit Studio",
+            "alias": "",
+            "position": "91",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -1687,6 +1967,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Rafael Batista",
+            "alias": "",
+            "position": "92",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -1705,6 +1988,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Sungsoo Park",
+            "alias": "",
+            "position": "93",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Radcliff"
         },
         {
@@ -1723,6 +2009,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Feael",
+            "alias": "",
+            "position": "94",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rivers"
         },
         {
@@ -1741,6 +2030,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Andres Agostini",
+            "alias": "",
+            "position": "95",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Whitaker"
         },
         {
@@ -1759,6 +2051,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Cuculum",
+            "alias": "",
+            "position": "96",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel"
         },
         {
@@ -1777,6 +2072,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Laila Kober",
+            "alias": "",
+            "position": "97",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel"
         },
         {
@@ -1795,6 +2093,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Kent Hamilton and Nele Diel",
+            "alias": "",
+            "position": "98",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Marilye\n!tag Whitaker\n!tag Planeswalker\n!tag Imani"
         },
         {
@@ -1813,6 +2114,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Teresa Ramos",
+            "alias": "",
+            "position": "99",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Whitaker\n!tag HouseAnimal"
         },
         {
@@ -1831,6 +2135,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Brendan Lancaster",
+            "alias": "",
+            "position": "100",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Perle"
         },
         {
@@ -1849,6 +2156,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "101",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel\n!tag Wystan"
         },
         {
@@ -1867,6 +2177,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Anton Prusov",
+            "alias": "",
+            "position": "102",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Banefort"
         },
         {
@@ -1885,6 +2198,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Juan Carlos Alegre",
+            "alias": "",
+            "position": "103",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Suyay\n!tag Planeswalker"
         },
         {
@@ -1903,6 +2219,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Yao Wang",
+            "alias": "",
+            "position": "104",
+            "rotated": false,
             "notes": "\n!tag Dewold"
         },
         {
@@ -1921,6 +2240,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Yana Vaseva",
+            "alias": "",
+            "position": "105",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -1939,6 +2261,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Nele Diel",
+            "alias": "",
+            "position": "106",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye"
         },
         {
@@ -1957,6 +2282,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Grafit Studio",
+            "alias": "",
+            "position": "107",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye"
         },
         {
@@ -1975,6 +2303,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Felipe Gaona",
+            "alias": "",
+            "position": "108",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -1993,6 +2324,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "109",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskett"
         },
         {
@@ -2003,7 +2337,7 @@
             "number": 72,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Deception {U} [i]({U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nWhenever Pilferer of Shrouded Coasts deals combat damage to a player or planeswalker, create a tapped Treasure token.",
+            "rules_text": "Sneak {U} [i](You may cast this spell for {U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nWhenever Pilferer of Shrouded Coasts deals combat damage to a player or planeswalker, create a tapped Treasure token.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -2011,6 +2345,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Kieran Yanner",
+            "alias": "",
+            "position": "110",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskett"
         },
         {
@@ -2029,6 +2366,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Antonio Stappaerts",
+            "alias": "",
+            "position": "111",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Attwater"
         },
         {
@@ -2038,7 +2378,7 @@
             "type": "Instant",
             "number": 50,
             "color_identity": "U",
-            "cost": "{X}{U}",
+            "cost": "{X}{X}{U}",
             "rules_text": "Counter target spell with mana value less than or equal to the amount of mana spent to cast this spell.",
             "flavor_text": "[i]\u201cMy standards weren't high, yet you still failed to impress.\u201d\n\u2014Minna Radcliff[/i]",
             "pt": "",
@@ -2047,6 +2387,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Bryan Sola",
+            "alias": "",
+            "position": "112",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Radcliff\n!tag Minna"
         },
         {
@@ -2057,7 +2400,7 @@
             "number": 81,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Flash\nFlying\nWhen Town Busybody enters, tap target creature.",
+            "rules_text": "Flash\nFlying\nWhenever Town Busybody attacks, surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]",
             "flavor_text": "[i]\u201cOf course I know what Lyanna did last Tuesday. I heard she was down at the bar with Brandon...\u201d[/i]",
             "pt": "1/1",
             "special_text": "",
@@ -2065,6 +2408,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "113",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rivers"
         },
         {
@@ -2083,6 +2429,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Ever HARMAAN",
+            "alias": "",
+            "position": "114",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye\n!tag Lodema"
         },
         {
@@ -2101,6 +2450,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Ellie Quinonez",
+            "alias": "",
+            "position": "115",
+            "rotated": false,
             "notes": "!tag HODStory\n!tag Dewold"
         },
         {
@@ -2119,6 +2471,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Olga Drebas",
+            "alias": "",
+            "position": "116",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag HoDStory\n!tag Marilye"
         },
         {
@@ -2137,6 +2492,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Sam Keiser",
+            "alias": "",
+            "position": "117",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rivers"
         },
         {
@@ -2155,6 +2513,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "118",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance"
         },
         {
@@ -2173,6 +2534,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Mert Genccinar",
+            "alias": "",
+            "position": "119",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance"
         },
         {
@@ -2191,6 +2555,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Denis Loebner",
+            "alias": "",
+            "position": "120",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye"
         },
         {
@@ -2209,6 +2576,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Geunjoo Baik",
+            "alias": "",
+            "position": "121",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance\n!tag HODStory"
         },
         {
@@ -2227,6 +2597,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Mx-1984",
+            "alias": "",
+            "position": "122",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance"
         },
         {
@@ -2245,6 +2618,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Ari Ibarra",
+            "alias": "",
+            "position": "123",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Hook"
         },
         {
@@ -2263,6 +2639,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Grafit Studio",
+            "alias": "",
+            "position": "124",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskettt"
         },
         {
@@ -2281,6 +2660,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Nikranel",
+            "alias": "",
+            "position": "125",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Whitaker"
         },
         {
@@ -2291,7 +2673,7 @@
             "number": 103,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Deception {B} [i]({B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nWhen Plaskett Barber enters, choose one \u2014\n\u2022 Remove up to three counters from target permanent or opponent.\n\u2022 Exile the top card of target player's library.",
+            "rules_text": "Sneak {B} [i](You may cast this spell for {B} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nWhen Plaskett Barber enters, choose one \u2014\n\u2022 Remove up to three counters from target permanent or opponent.\n\u2022 Exile the top card of target player's library.",
             "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
@@ -2299,6 +2681,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "126",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskett"
         },
         {
@@ -2317,6 +2702,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "DanteCyberMan",
+            "alias": "",
+            "position": "127",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag HouseAnimal\n!tag Hook"
         },
         {
@@ -2335,6 +2723,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "FenrirDovah",
+            "alias": "",
+            "position": "128",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance\n!tag Alder"
         },
         {
@@ -2353,6 +2744,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Tomasz Ryger",
+            "alias": "",
+            "position": "129",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Planeswalker\n!tag Veceslav"
         },
         {
@@ -2371,6 +2765,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Lily Abdullina",
+            "alias": "",
+            "position": "130",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Radcliff"
         },
         {
@@ -2389,6 +2786,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Gerry Arthur",
+            "alias": "",
+            "position": "131",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -2407,6 +2807,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Andrew Mar",
+            "alias": "",
+            "position": "132",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Suyay"
         },
         {
@@ -2425,6 +2828,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Everton Zomer",
+            "alias": "",
+            "position": "133",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -2443,6 +2849,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Taras Susak",
+            "alias": "",
+            "position": "134",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Hook"
         },
         {
@@ -2461,6 +2870,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Andrew Kuzinskiy",
+            "alias": "",
+            "position": "135",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -2479,6 +2891,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "TheMinttu",
+            "alias": "",
+            "position": "136",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance"
         },
         {
@@ -2497,6 +2912,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Joel Turina",
+            "alias": "",
+            "position": "137",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Minna\n!tag Radcliff"
         },
         {
@@ -2515,6 +2933,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Serena Malyon",
+            "alias": "",
+            "position": "138",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Radcliff\n!tag HouseAnimal"
         },
         {
@@ -2533,6 +2954,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Grzegorz Wlazlo",
+            "alias": "",
+            "position": "139",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel\n!tag Wystan"
         },
         {
@@ -2551,6 +2975,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Aaron Nakahara",
+            "alias": "",
+            "position": "140",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey\n!tag Perle"
         },
         {
@@ -2569,6 +2996,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Michele Parisi",
+            "alias": "",
+            "position": "141",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -2579,7 +3009,7 @@
             "number": 172,
             "color_identity": "G",
             "cost": "{4}{G}",
-            "rules_text": "Deception {3}{G} [i]({3}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nWhenever The Call to Adventure enters during combat or a creature you control deals combat damage to a player or planeswalker, draw a card.",
+            "rules_text": "Sneak {3}{G} [i](You may cast this spell for 3G if you also return an unblocked attacker you control to hand during the declare blockers step.)[/i]\nWhenever The Call to Adventure enters during combat or a creature you control deals combat damage to a player or planeswalker, draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2587,6 +3017,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Sergey Shikin",
+            "alias": "",
+            "position": "142",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye"
         },
         {
@@ -2605,6 +3038,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Anato Finnstark",
+            "alias": "",
+            "position": "143",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Banefort"
         },
         {
@@ -2623,6 +3059,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Vera Slepysheva",
+            "alias": "",
+            "position": "144",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -2641,6 +3080,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "William Wu",
+            "alias": "",
+            "position": "145",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Attwater"
         },
         {
@@ -2651,7 +3093,7 @@
             "number": 169,
             "color_identity": "G",
             "cost": "{G}",
-            "rules_text": "Deception {G} [i]({G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nAt the beginning of your end step, if you attacked this turn, put a +1/+1 counter on Attwater Elite.",
+            "rules_text": "Sneak {G} [i](You may cast this spell for {G} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nAt the beginning of your end step, if you attacked this turn, put a +1/+1 counter on Attwater Elite.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -2659,6 +3101,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "146",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Attwater"
         },
         {
@@ -2677,6 +3122,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Domenico Cava",
+            "alias": "",
+            "position": "147",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -2695,6 +3143,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alejandro Hurtado",
+            "alias": "",
+            "position": "148",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -2713,6 +3164,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "ynorka",
+            "alias": "",
+            "position": "149",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner\n!tag Fulchard"
         },
         {
@@ -2731,6 +3185,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alex Kuhn",
+            "alias": "",
+            "position": "150",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -2741,7 +3198,7 @@
             "number": 205,
             "color_identity": "G",
             "cost": "{3}{G}",
-            "rules_text": "Deception {5}{G} [i]({5}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nWhenever Silberwald Trailblazer deals combat damage to a player or planeswalker, put a +1/+1 counter on each creature you control.",
+            "rules_text": "Sneak {5}{G} [i](You may cast this spell for {5}{G} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nWhenever Silberwald Trailblazer deals combat damage to a player or planeswalker, put a +1/+1 counter on each creature you control.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -2749,6 +3206,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Bram Sels",
+            "alias": "",
+            "position": "151",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Attwater"
         },
         {
@@ -2767,6 +3227,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Fedor Titov",
+            "alias": "",
+            "position": "152",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag HouseAnimal\n!tag Banefort"
         },
         {
@@ -2785,6 +3248,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alexandre Rodrigues",
+            "alias": "",
+            "position": "153",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rivers"
         },
         {
@@ -2803,6 +3269,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alassa Art",
+            "alias": "",
+            "position": "154",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rivers"
         },
         {
@@ -2821,6 +3290,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "MadnessDemon",
+            "alias": "",
+            "position": "155",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Delora\n!tag Vance\n!tag Waldemar\n!tag HODStory"
         },
         {
@@ -2839,6 +3311,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Infesth6",
+            "alias": "",
+            "position": "156",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -2857,6 +3332,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Daria Rashev",
+            "alias": "",
+            "position": "157",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Hook"
         },
         {
@@ -2875,6 +3353,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Sebastian Szmyd",
+            "alias": "",
+            "position": "158",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Hook"
         },
         {
@@ -2893,6 +3374,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Tomasz Ryger",
+            "alias": "",
+            "position": "159",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag CanonReprint"
         },
         {
@@ -2911,6 +3395,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Iromonik",
+            "alias": "",
+            "position": "160",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Phyre"
         },
         {
@@ -2929,6 +3416,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Paperwick",
+            "alias": "",
+            "position": "161",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Ranulf\n!tag Sapner"
         },
         {
@@ -2947,6 +3437,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Barret Frymire",
+            "alias": "",
+            "position": "162",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Banefort"
         },
         {
@@ -2965,6 +3458,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Nicholas Phillips",
+            "alias": "",
+            "position": "163",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Whitaker"
         },
         {
@@ -2983,6 +3479,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Dama Del Lago",
+            "alias": "",
+            "position": "164",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Gosfridus\n!tag HODStory\n!tag Leon\n!tag Gosfridus"
         },
         {
@@ -3001,6 +3500,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Grafit Studio",
+            "alias": "",
+            "position": "165",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Radcliff"
         },
         {
@@ -3019,6 +3521,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Mihail Gard",
+            "alias": "",
+            "position": "166",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye\n!tag Radcliff"
         },
         {
@@ -3037,6 +3542,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Mihail Gard",
+            "alias": "",
+            "position": "167",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -3055,6 +3563,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alena Kubikova",
+            "alias": "",
+            "position": "168",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Gosfridus\n!tag Turnberry"
         },
         {
@@ -3073,6 +3584,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Olie Boldador",
+            "alias": "",
+            "position": "169",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Perle"
         },
         {
@@ -3091,6 +3605,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Vadim Simanin (GenDJiK)",
+            "alias": "",
+            "position": "170",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Perle\n!tag Renodet"
         },
         {
@@ -3101,7 +3618,7 @@
             "number": 240,
             "color_identity": "UG",
             "cost": "{1}{G}{U}",
-            "rules_text": "Deception {G}{U} [i]({G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nIf a creature entering the battlefield or dealing combat damage to an opponent causes a triggered ability of a permanent you control to trigger during combat, that ability triggers an additional time.",
+            "rules_text": "Sneak {G}{U} [i](You may cast this spell for {G}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nIf a creature entering the battlefield or dealing combat damage to an opponent causes a triggered ability of a permanent you control to trigger during combat, that ability triggers an additional time.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -3109,6 +3626,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Yana Vaseva",
+            "alias": "",
+            "position": "171",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Attwater"
         },
         {
@@ -3127,6 +3647,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Vadim Simanin (GenDJiK)",
+            "alias": "",
+            "position": "172",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Attwater"
         },
         {
@@ -3145,6 +3668,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Misao-Christina",
+            "alias": "",
+            "position": "173",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner\nTricolor"
         },
         {
@@ -3163,6 +3689,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Froxtain",
+            "alias": "",
+            "position": "174",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner\nTricolor"
         },
         {
@@ -3181,6 +3710,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Xin Jin",
+            "alias": "",
+            "position": "175",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel\nTricolor"
         },
         {
@@ -3199,6 +3731,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Gal Or",
+            "alias": "",
+            "position": "176",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance\nTricolor"
         },
         {
@@ -3217,6 +3752,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Teresa Ramos (Teradiam)",
+            "alias": "",
+            "position": "177",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey\nTricolor"
         },
         {
@@ -3235,6 +3773,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Soco",
+            "alias": "",
+            "position": "178",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye\nTricolor"
         },
         {
@@ -3253,6 +3794,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Conor Burke",
+            "alias": "",
+            "position": "179",
+            "rotated": false,
             "notes": "!tag Dewold\n\nTricolor"
         },
         {
@@ -3271,6 +3815,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Yannis Colas",
+            "alias": "",
+            "position": "180",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel\nTricolor"
         },
         {
@@ -3289,6 +3836,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Diano Franco",
+            "alias": "",
+            "position": "181",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance\nTricolor"
         },
         {
@@ -3307,6 +3857,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alexander Forssberg",
+            "alias": "",
+            "position": "182",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey\nTricolor"
         },
         {
@@ -3317,7 +3870,7 @@
             "number": 258,
             "color_identity": "UBG",
             "cost": "{1}{B}{G}{U}",
-            "rules_text": "Deception {B}{G}{U} [i]({B}{G}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nYou may have Faceless Mirrorkin enter as a copy of any creature on the battlefield. If you paid this card's deception cost, you may instead have this creature enter as a copy of the creature you returned to your hand.",
+            "rules_text": "Sneak {B}{G}{U} [i](You may cast this spell for {B}{G}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nYou may have Faceless Mirrorkin enter as a copy of any creature on the battlefield. If you paid this card's sneak cost, you may instead have this creature enter as a copy of the creature you returned to your hand.",
             "flavor_text": "[i][/i]",
             "pt": "0/0",
             "special_text": "",
@@ -3325,6 +3878,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Angelo Adonis Chavez",
+            "alias": "",
+            "position": "183",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry\nTricolor"
         },
         {
@@ -3343,6 +3899,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "bhp (artstation)",
+            "alias": "",
+            "position": "184",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner\nTricolor"
         },
         {
@@ -3361,6 +3920,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Even Amundsen",
+            "alias": "",
+            "position": "185",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel\nTricolor"
         },
         {
@@ -3379,6 +3941,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Pixoloid Studios",
+            "alias": "",
+            "position": "186",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye\nTricolor"
         },
         {
@@ -3397,6 +3962,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "TheMinttu",
+            "alias": "",
+            "position": "187",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance\nTricolor"
         },
         {
@@ -3415,6 +3983,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Tatarskiskandal",
+            "alias": "",
+            "position": "188",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -3433,6 +4004,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Nino Is",
+            "alias": "",
+            "position": "189",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance"
         },
         {
@@ -3451,6 +4025,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Borja Pindado",
+            "alias": "",
+            "position": "190",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye"
         },
         {
@@ -3469,6 +4046,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Rene Aigner",
+            "alias": "",
+            "position": "191",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -3487,6 +4067,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Mam ba",
+            "alias": "",
+            "position": "192",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel"
         },
         {
@@ -3505,6 +4088,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Job Menting",
+            "alias": "",
+            "position": "193",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -3523,6 +4109,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Agus Sx",
+            "alias": "",
+            "position": "194",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Whitaker Sigil\n!tag Whitaker"
         },
         {
@@ -3541,6 +4130,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Andy Jaramillo",
+            "alias": "",
+            "position": "195",
+            "rotated": false,
             "notes": "!tag Dewold\nLand Cycle\nHouse Phyre"
         },
         {
@@ -3559,6 +4151,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Andrew Mironov",
+            "alias": "",
+            "position": "196",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Minna\nLand Cycle\nHouse Radcliff"
         },
         {
@@ -3577,6 +4172,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Andreas Rocha",
+            "alias": "",
+            "position": "197",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Wulfric\nLand Cycle\nHouse Hook"
         },
         {
@@ -3595,6 +4193,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Norbert Varga",
+            "alias": "",
+            "position": "198",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Elias\nLand Cycle\nHouse Plaskett"
         },
         {
@@ -3613,6 +4214,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Hue Teo",
+            "alias": "",
+            "position": "199",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Roul\nLand Cycle\nHouse Banefort"
         },
         {
@@ -3631,6 +4235,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Aleksandra Wojtas",
+            "alias": "",
+            "position": "200",
+            "rotated": false,
             "notes": "!tag Dewold\nLand Cycle\nHouse Attwater"
         },
         {
@@ -3649,6 +4256,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "David Honz",
+            "alias": "",
+            "position": "201",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Oriel\nLand Cycle\nHouse Rivers"
         },
         {
@@ -3667,6 +4277,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Andrew Mironov",
+            "alias": "",
+            "position": "202",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Conrad\nLand Cycle\nHouse Whitaker"
         },
         {
@@ -3685,6 +4298,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Roberto Robert",
+            "alias": "",
+            "position": "203",
+            "rotated": false,
             "notes": "!tag Dewold\nLand Cycle\nHouse Perle"
         },
         {
@@ -3703,6 +4319,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Florian Herold",
+            "alias": "",
+            "position": "204",
+            "rotated": false,
             "notes": "!tag Dewold\nLand Cycle\nHouse Turnberry\n!tag Gosfridus"
         },
         {
@@ -3721,6 +4340,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Oksana Kerro",
+            "alias": "",
+            "position": "205",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye"
         },
         {
@@ -3739,6 +4361,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Romain Kurdi",
+            "alias": "",
+            "position": "206",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Attwater"
         },
         {
@@ -3757,6 +4382,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Loles Romero",
+            "alias": "",
+            "position": "207",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -3775,6 +4403,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "208",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -3793,6 +4424,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Olga Shvetskaya",
+            "alias": "",
+            "position": "209",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel"
         },
         {
@@ -3811,6 +4445,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Irvan Pradivta",
+            "alias": "",
+            "position": "210",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel"
         },
         {
@@ -3829,6 +4466,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "211",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rivers"
         },
         {
@@ -3847,6 +4487,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "David Frasheski",
+            "alias": "",
+            "position": "212",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Phyre\n!tag HouseAnimal"
         },
         {
@@ -3865,6 +4508,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Stephen Scott",
+            "alias": "",
+            "position": "213",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry\n!tag HouseAnimal"
         },
         {
@@ -3883,6 +4529,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Rael (Israel MAccari) Dionisio",
+            "alias": "",
+            "position": "214",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -3901,6 +4550,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Daria Rashev",
+            "alias": "",
+            "position": "215",
+            "rotated": false,
             "notes": "!tag HODStory\n!tag Dewold\n!tag Terrel\n!tag Leon\n!tag Bennet"
         },
         {
@@ -3919,6 +4571,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Goodname Studio",
+            "alias": "",
+            "position": "216",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Delora\n!tag Vance\n!tag Alder"
         },
         {
@@ -3937,6 +4592,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Ivona Denovic",
+            "alias": "",
+            "position": "217",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance"
         },
         {
@@ -3955,6 +4613,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Daniel Kong",
+            "alias": "",
+            "position": "218",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Suyay\n!tag Banefort\n!tag HODStory"
         },
         {
@@ -3973,6 +4634,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Apetron",
+            "alias": "",
+            "position": "219",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rivers"
         },
         {
@@ -3991,6 +4655,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "88grzes",
+            "alias": "",
+            "position": "220",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye\n!tag Lodema"
         },
         {
@@ -4009,6 +4676,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Laylton Sousa",
+            "alias": "",
+            "position": "221",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskett\n!tag HouseAnimal"
         },
         {
@@ -4027,6 +4697,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Stepan Alekseev",
+            "alias": "",
+            "position": "222",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Phyre"
         },
         {
@@ -4045,6 +4718,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "KelirongPaz",
+            "alias": "",
+            "position": "223",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye"
         },
         {
@@ -4063,6 +4739,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Olga Shvetskaya",
+            "alias": "",
+            "position": "224",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Bennet\n!tag Terrel"
         },
         {
@@ -4081,6 +4760,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "225",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -4099,6 +4781,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Ala Kapustka",
+            "alias": "",
+            "position": "226",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskett"
         },
         {
@@ -4117,6 +4802,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Jake Murray",
+            "alias": "",
+            "position": "227",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance"
         },
         {
@@ -4135,6 +4823,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Sam Santala",
+            "alias": "",
+            "position": "228",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -4153,6 +4844,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Grafit Studio",
+            "alias": "",
+            "position": "229",
+            "rotated": false,
             "notes": "!tag Sapner\n!tag Ranulf\n!tag Dewold"
         },
         {
@@ -4171,6 +4865,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Peng Lu",
+            "alias": "",
+            "position": "230",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Minna\n!tag Radcliff"
         },
         {
@@ -4189,6 +4886,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Andrew Mironov",
+            "alias": "",
+            "position": "231",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance"
         },
         {
@@ -4207,6 +4907,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alexandra D.",
+            "alias": "",
+            "position": "232",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Perle"
         },
         {
@@ -4225,6 +4928,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "233",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag CustomReprint"
         },
         {
@@ -4243,6 +4949,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Zombich",
+            "alias": "",
+            "position": "234",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel\n!tag HODStory\n!tag Leon"
         },
         {
@@ -4261,6 +4970,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "J Spearing",
+            "alias": "",
+            "position": "235",
+            "rotated": false,
             "notes": "!tag HODStory\n!tag Dewold\n!tag Nye\n!tag Marilye"
         },
         {
@@ -4279,6 +4991,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Stef Tastan",
+            "alias": "",
+            "position": "236",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Conrad\n!tag Whitaker"
         },
         {
@@ -4297,6 +5012,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Koni - Amandine GIRARD",
+            "alias": "",
+            "position": "237",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey\n!tag Caryl"
         },
         {
@@ -4315,6 +5033,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "dusint",
+            "alias": "",
+            "position": "238",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -4333,6 +5054,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alex Li",
+            "alias": "",
+            "position": "239",
+            "rotated": false,
             "notes": "!tag Roul\n!tag Dewold\n!tag Banefort"
         },
         {
@@ -4351,6 +5075,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Samantha Shieh",
+            "alias": "",
+            "position": "240",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskett"
         },
         {
@@ -4361,7 +5088,7 @@
             "number": 92,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Deception {2}{B} [i]({2}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nWhenever Devious Cutthroat deals combat damage to a player or planeswalker, defending player discards a card.",
+            "rules_text": "Sneak {2}{B} [i](You may cast this spell for {2}{B} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nWhenever Devious Cutthroat deals combat damage to a player or planeswalker, defending player discards a card.",
             "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
@@ -4369,6 +5096,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Zhuopeng Zhu",
+            "alias": "",
+            "position": "241",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye"
         },
         {
@@ -4387,6 +5117,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "242",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -4405,6 +5138,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Erika Nose",
+            "alias": "",
+            "position": "243",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -4423,6 +5159,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alejandro Hurtado",
+            "alias": "",
+            "position": "244",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Perle"
         },
         {
@@ -4441,6 +5180,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Jinxin",
+            "alias": "",
+            "position": "245",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -4459,6 +5201,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "katorius",
+            "alias": "",
+            "position": "246",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -4477,6 +5222,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "AKIMBLYA",
+            "alias": "",
+            "position": "247",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Perle"
         },
         {
@@ -4495,6 +5243,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Simona Reggimenti",
+            "alias": "",
+            "position": "248",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Phyre"
         },
         {
@@ -4513,6 +5264,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Abraham Hernandez",
+            "alias": "",
+            "position": "249",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Banefort"
         },
         {
@@ -4531,6 +5285,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Sidharth Chaturvedi",
+            "alias": "",
+            "position": "250",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance"
         },
         {
@@ -4549,6 +5306,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Ernesto Carrasquillo Velez",
+            "alias": "",
+            "position": "251",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Gosfridus\n!tag Turnberry"
         },
         {
@@ -4567,6 +5327,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Abraham Hernandez",
+            "alias": "",
+            "position": "252",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Hook"
         },
         {
@@ -4577,7 +5340,7 @@
             "number": 179,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Deception {3}{G} [i]({3}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nWhen Flowing Streams Halberdier enters, target creature gets +2/+0 and gains trample until end of turn.",
+            "rules_text": "Sneak {3}{G} [i](You may cast this spell for {3}{G} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nWhen Flowing Streams Halberdier enters, target creature gets +2/+0 and gains trample until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "4/2",
             "special_text": "",
@@ -4585,6 +5348,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Romain Kurdi",
+            "alias": "",
+            "position": "253",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Attwater"
         },
         {
@@ -4603,6 +5369,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "254",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -4621,6 +5390,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "JakobAlexanderBrahm",
+            "alias": "",
+            "position": "255",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Attwater\n!tag HouseAnimal"
         },
         {
@@ -4639,6 +5411,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Pedro Sena",
+            "alias": "",
+            "position": "256",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance"
         },
         {
@@ -4657,6 +5432,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alejandro Hurtado",
+            "alias": "",
+            "position": "257",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -4667,7 +5445,7 @@
             "number": 193,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Deception {1}{G} [i]({1}{G}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nWhenever Qualified Windrigger deals combat damage to a player, untap up to two lands.",
+            "rules_text": "Sneak {1}{G} [i](You may cast this spell for {1}{G} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nWhenever Qualified Windrigger deals combat damage to a player, untap up to two lands.",
             "flavor_text": "[i][/i]",
             "pt": "3/1",
             "special_text": "",
@@ -4675,6 +5453,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Namba",
+            "alias": "",
+            "position": "258",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye"
         },
         {
@@ -4693,6 +5474,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "William Wu",
+            "alias": "",
+            "position": "259",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Perle\n!tag HouseAnimal"
         },
         {
@@ -4711,6 +5495,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alexander Exorcist",
+            "alias": "",
+            "position": "260",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye"
         },
         {
@@ -4729,6 +5516,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Nastya Lehn",
+            "alias": "",
+            "position": "261",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance"
         },
         {
@@ -4747,6 +5537,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Murilo Furlan",
+            "alias": "",
+            "position": "262",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Wulfric\n!tag Hook"
         },
         {
@@ -4765,6 +5558,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Iromonik",
+            "alias": "",
+            "position": "263",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Phyre"
         },
         {
@@ -4783,6 +5579,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Kikicianjur",
+            "alias": "",
+            "position": "264",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Marilye\n!tag Suyay\n!tag HODStory"
         },
         {
@@ -4801,6 +5600,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Daniel Valaisis",
+            "alias": "",
+            "position": "265",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskett"
         },
         {
@@ -4819,6 +5621,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Andrew Mironov",
+            "alias": "",
+            "position": "266",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -4837,6 +5642,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "267",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -4855,6 +5663,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Filipe Nunes",
+            "alias": "",
+            "position": "268",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag CanonReprint"
         },
         {
@@ -4873,6 +5684,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Joshua Raphael",
+            "alias": "",
+            "position": "269",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -4883,7 +5697,7 @@
             "number": 48,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Deception {1}{U} [i]({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nWhenever Castle Delta Lookout deals combat damage to a player or planeswalker, draw a card.",
+            "rules_text": "Sneak {1}{U} [i](You may cast this spell for {1}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nWhenever Castle Delta Lookout deals combat damage to a player or planeswalker, draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -4891,6 +5705,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "270",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Nye"
         },
         {
@@ -4909,6 +5726,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Luka Brico",
+            "alias": "",
+            "position": "271",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance\n!tag Petula"
         },
         {
@@ -4927,6 +5747,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Chunyu Wang",
+            "alias": "",
+            "position": "272",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Perle"
         },
         {
@@ -4945,6 +5768,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alex Petruk",
+            "alias": "",
+            "position": "273",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -4963,6 +5789,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Chen0924",
+            "alias": "",
+            "position": "274",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Perle\n!tag Terrel\n!tag Wystan"
         },
         {
@@ -4981,6 +5810,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "275",
+            "rotated": false,
             "notes": "!tag HODStory\n!tag Dewold\n!tag Vance\n!tag HODStory"
         },
         {
@@ -4991,7 +5823,7 @@
             "number": 111,
             "color_identity": "B",
             "cost": "{5}{B}",
-            "rules_text": "Deception {4}{B} [i]({4}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nFlying",
+            "rules_text": "Sneak {4}{B} [i](You may cast this spell for {4}{B} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nFlying",
             "flavor_text": "[i]\u201cA Plaskett never bargains for what they can just as easily steal.\u201d[/i]",
             "pt": "4/3",
             "special_text": "",
@@ -4999,6 +5831,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Scissorsrunner",
+            "alias": "",
+            "position": "276",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskett"
         },
         {
@@ -5017,6 +5852,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Nia Kovalevski",
+            "alias": "",
+            "position": "277",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -5035,6 +5873,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Banana Art Studio",
+            "alias": "",
+            "position": "278",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -5053,6 +5894,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Stephen Stark",
+            "alias": "",
+            "position": "279",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rey"
         },
         {
@@ -5063,7 +5907,7 @@
             "number": 43,
             "color_identity": "U",
             "cost": "{3}{U}",
-            "rules_text": "Deception {2}{U} [i]({2}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)[/i]\nWhenever Ardent Warsworn deals combat damage to a player or planeswalker, you may tap target nonland permanent and put a stun counter on it.",
+            "rules_text": "Sneak {2}{U} [i](You may cast this spell for {2}{U} if you also return an unblocked attacker you control to hand during the declare blocker's step. This creature enters tapped and attacking.)[/i]\nWhenever Ardent Warsworn deals combat damage to a player or planeswalker, you may tap target nonland permanent and put a stun counter on it.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -5071,6 +5915,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Yama Orce",
+            "alias": "",
+            "position": "280",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskett"
         },
         {
@@ -5089,6 +5936,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Diana Franco",
+            "alias": "",
+            "position": "281",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Turnberry"
         },
         {
@@ -5107,6 +5957,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Hellstern",
+            "alias": "",
+            "position": "282",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Perle"
         },
         {
@@ -5125,6 +5978,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Frost Llamzon",
+            "alias": "",
+            "position": "283",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -5143,6 +5999,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "284",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -5161,6 +6020,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Oetar Penev",
+            "alias": "",
+            "position": "285",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel"
         },
         {
@@ -5179,6 +6041,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Kate Fox",
+            "alias": "",
+            "position": "286",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Hook\n!tag Wulfric"
         },
         {
@@ -5197,6 +6062,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Stefan Kopinski",
+            "alias": "",
+            "position": "287",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel"
         },
         {
@@ -5215,6 +6083,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Kii Weatherton",
+            "alias": "",
+            "position": "288",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Banefort"
         },
         {
@@ -5233,6 +6104,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Share Creators",
+            "alias": "",
+            "position": "289",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -5251,6 +6125,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "290",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rivers"
         },
         {
@@ -5269,6 +6146,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Nemanja Stankovic",
+            "alias": "",
+            "position": "291",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Hook"
         },
         {
@@ -5287,6 +6167,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Tiago Sousa",
+            "alias": "",
+            "position": "292",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Hook"
         },
         {
@@ -5305,6 +6188,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Roberto Robert",
+            "alias": "",
+            "position": "293",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Reprint"
         },
         {
@@ -5323,6 +6209,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Raphael Luebke",
+            "alias": "",
+            "position": "294",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Vance"
         },
         {
@@ -5341,6 +6230,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "295",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -5359,6 +6251,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Canh Nguyen",
+            "alias": "",
+            "position": "296",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Fulchard\n!tag Sapner\n!tag CanonReprint"
         },
         {
@@ -5377,6 +6272,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Stephen Scott",
+            "alias": "",
+            "position": "297",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Rivers\n!tag HouseAnimal"
         },
         {
@@ -5387,7 +6285,7 @@
             "number": 99,
             "color_identity": "B",
             "cost": "{5}{B}{B}",
-            "rules_text": "Lifelink\nWhen Mockery of Innocence enters, you may destroy target creature. You gain life equal to 8 minus that creature's mana value.",
+            "rules_text": "Lifelink\nWhen Mockery of Innocence enters, you may destroy target creature. If you do, you gain life equal to 8 minus that creature's mana value.",
             "flavor_text": "[i]\u201cMy armies don't need soldiers and swords. I have siege weapons.\u201d\n\u2014Gosfridus Turnberry[/i]",
             "pt": "7/5",
             "special_text": "",
@@ -5395,6 +6293,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Diano Franco",
+            "alias": "",
+            "position": "298",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Gosfridus\n!tag Turnberry"
         },
         {
@@ -5413,6 +6314,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Rotaken",
+            "alias": "",
+            "position": "299",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Perle"
         },
         {
@@ -5431,6 +6335,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Albert Urmanov",
+            "alias": "",
+            "position": "300",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Sapner"
         },
         {
@@ -5449,6 +6356,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Rudy Parfaite",
+            "alias": "",
+            "position": "301",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Terrel"
         },
         {
@@ -5467,6 +6377,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Sebastian Giacobino",
+            "alias": "",
+            "position": "302",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskett"
         },
         {
@@ -5485,6 +6398,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "303",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Plaskett"
         },
         {
@@ -5503,6 +6419,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Allen Morris",
+            "alias": "",
+            "position": "304",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Radcliff"
         },
         {
@@ -5521,6 +6440,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Ian Kirkpatrick",
+            "alias": "",
+            "position": "305",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Banefort"
         },
         {
@@ -5539,6 +6461,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Tiago Sousa",
+            "alias": "",
+            "position": "306",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -5557,7 +6482,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Frank Abarca",
-            "notes": "!tag Dewold\n!exportname Intisuyus Armies\n!related Capac Suyay, Grim Seeker<2>;"
+            "alias": "",
+            "position": "307",
+            "rotated": false,
+            "notes": "!tag Dewold\n!exportname Intisuyus Armies\n"
         },
         {
             "card_name": "Suyay's Soldier",
@@ -5575,7 +6503,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Frank Abarca",
-            "notes": "!tag Dewold\n!exportname Suyay's Soldier\n!related Capac Suyay, Grim Seeker<2>; Intisuyu's Armies;"
+            "alias": "",
+            "position": "308",
+            "rotated": false,
+            "notes": "!tag Dewold\n!exportname Suyay's Soldier\n"
         },
         {
             "card_name": "Messenger of Absent Messages",
@@ -5593,6 +6524,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Dreamup",
+            "alias": "",
+            "position": "309",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Probe"
         },
         {
@@ -5611,7 +6545,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "nozomi-M",
-            "notes": "!tag Dewold\nRenowned Cycle\n!related Call of the King; Kirsa's Page; Beckon Greatness;"
+            "alias": "",
+            "position": "310",
+            "rotated": false,
+            "notes": "!tag Dewold\nRenowned Cycle\n"
         },
         {
             "card_name": "Scout",
@@ -5629,6 +6566,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
+            "alias": "",
+            "position": "311",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -5647,7 +6587,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "LoranDeSore",
-            "notes": "!tag Dewold\n!related House Negotiations;"
+            "alias": "",
+            "position": "312",
+            "rotated": false,
+            "notes": "!tag Dewold\n"
         },
         {
             "card_name": "Vances Claw",
@@ -5665,7 +6608,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Anton Tareev",
-            "notes": "!tag Dewold\n!exportname Vances Claw\nRenowned Cycle\n!related Blessing at Graven Laughs;"
+            "alias": "",
+            "position": "313",
+            "rotated": false,
+            "notes": "!tag Dewold\n!exportname Vances Claw\nRenowned Cycle\n"
         },
         {
             "card_name": "Lover to All",
@@ -5683,7 +6629,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Darantha",
-            "notes": "!tag Dewold\nRenowned Cycle\n!related Beckon Greatness; William's Page;"
+            "alias": "",
+            "position": "314",
+            "rotated": false,
+            "notes": "!tag Dewold\nRenowned Cycle\n"
         },
         {
             "card_name": "The Diamond of the Nye",
@@ -5701,7 +6650,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Bob Kehl",
-            "notes": "!tag Dewold\nRenowned Cycle\n!related Tavern Dealings;\n!tag Lodema"
+            "alias": "",
+            "position": "315",
+            "rotated": false,
+            "notes": "!tag Dewold\nRenowned Cycle\n!tag Lodema"
         },
         {
             "card_name": "The Occultist",
@@ -5719,7 +6671,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "konhis",
-            "notes": "!tag Dewold\nRenowned Cycle\n!related Call of the King; Wystan's Page;"
+            "alias": "",
+            "position": "316",
+            "rotated": false,
+            "notes": "!tag Dewold\nRenowned Cycle\n"
         },
         {
             "card_name": "Horror",
@@ -5737,7 +6692,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "lks666",
-            "notes": "!tag Dewold\n!related Gosfridus Turnberry;"
+            "alias": "",
+            "position": "317",
+            "rotated": false,
+            "notes": "!tag Dewold\n"
         },
         {
             "card_name": "Dewold Army",
@@ -5755,7 +6713,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Daria Rashev",
-            "notes": "!tag Dewold\n!exportname Dewold Army\n!related Left to Wander"
+            "alias": "",
+            "position": "318",
+            "rotated": false,
+            "notes": "!tag Dewold\n!exportname Dewold Army\n"
         },
         {
             "card_name": "Young Soldier",
@@ -5773,7 +6734,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Viviane Souza",
-            "notes": "!tag Dewold\n!exportname Young Soldier\n!related Whitaker Captain; Turnberry Scout <2>; Patrol the Geistwald; Leon's Claim; Hulking Vessel;"
+            "alias": "",
+            "position": "319",
+            "rotated": false,
+            "notes": "!tag Dewold\n!exportname Young Soldier\n"
         },
         {
             "card_name": "Reserves",
@@ -5791,6 +6755,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Beau Lamb",
+            "alias": "",
+            "position": "320",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -5809,7 +6776,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Madness Demon",
-            "notes": "!tag Dewold\n!exportname Destroyed-Knight\n!related Knight of Skyspire; Banefort Archer; Replenishing Camp; Resolute Elk; Turnberry Overseer;"
+            "alias": "",
+            "position": "321",
+            "rotated": false,
+            "notes": "!tag Dewold\n!exportname Destroyed-Knight\n"
         },
         {
             "card_name": "Plains",
@@ -5827,6 +6797,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Hue Teo",
+            "alias": "",
+            "position": "322",
+            "rotated": false,
             "notes": "!tag Dewold\nSword Cycle"
         },
         {
@@ -5845,6 +6818,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Hue Teo",
+            "alias": "",
+            "position": "323",
+            "rotated": false,
             "notes": "!tag Dewold\nSword Cycle"
         },
         {
@@ -5863,6 +6839,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Hue Teo",
+            "alias": "",
+            "position": "324",
+            "rotated": false,
             "notes": "!tag Dewold\nSword Cycle"
         },
         {
@@ -5881,6 +6860,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Wesley Gardner",
+            "alias": "",
+            "position": "325",
+            "rotated": false,
             "notes": "!tag Dewold\nSword Cycle"
         },
         {
@@ -5899,6 +6881,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Hue Teo",
+            "alias": "",
+            "position": "326",
+            "rotated": false,
             "notes": "!tag Dewold\nSword Cycle"
         },
         {
@@ -5917,6 +6902,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Alvaro Jimenez",
+            "alias": "",
+            "position": "327",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Island2"
         },
         {
@@ -5935,6 +6923,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "David Honz",
+            "alias": "",
+            "position": "328",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Swamp2"
         },
         {
@@ -5953,6 +6944,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Timothee Mathon",
+            "alias": "",
+            "position": "329",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Mountain2"
         },
         {
@@ -5971,6 +6965,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Grady Frederick",
+            "alias": "",
+            "position": "330",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Forest2"
         },
         {
@@ -5989,6 +6986,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Gilles Beloeil",
+            "alias": "",
+            "position": "331",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Plains3"
         },
         {
@@ -6007,6 +7007,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Grady Frederick",
+            "alias": "",
+            "position": "332",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Island3"
         },
         {
@@ -6025,6 +7028,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Uzali_Art - Quentin Gillet",
+            "alias": "",
+            "position": "333",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Swamp3"
         },
         {
@@ -6043,6 +7049,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Asur Misoa",
+            "alias": "",
+            "position": "334",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Mountain3"
         },
         {
@@ -6061,6 +7070,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Ksanda CreepyCrafts",
+            "alias": "",
+            "position": "335",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Forest3"
         },
         {
@@ -6079,6 +7091,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Virginie Juteau",
+            "alias": "",
+            "position": "336",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Plains2"
         },
         {
@@ -6097,6 +7112,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Youngmin Seo",
+            "alias": "",
+            "position": "337",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -6115,6 +7133,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Ekaterina Kazartseva",
+            "alias": "",
+            "position": "338",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -6133,6 +7154,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "KartStudioDigi",
+            "alias": "",
+            "position": "339",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -6151,7 +7175,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Anna Mur",
-            "notes": "!tag Dewold\n!related Bounty Collectors;Cautious Seadog<2>;Wealthy Slabman;Writ of Supplies;"
+            "alias": "",
+            "position": "340",
+            "rotated": false,
+            "notes": "!tag Dewold\n"
         },
         {
             "card_name": "Weapon",
@@ -6169,7 +7196,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Wilson Nugraha",
-            "notes": "!tag Dewold\n!related Camp Supplier;Sandrock Blacksmith;Weapons Holder;Heirloom Sword;Wealthy Slabman;"
+            "alias": "",
+            "position": "341",
+            "rotated": false,
+            "notes": "!tag Dewold\n"
         },
         {
             "card_name": "Food",
@@ -6187,7 +7217,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Rayven Studios",
-            "notes": "!tag Dewold\n!related Orcish Shepherd;Writ of Supplies;"
+            "alias": "",
+            "position": "342",
+            "rotated": false,
+            "notes": "!tag Dewold\n"
         },
         {
             "card_name": "Clue",
@@ -6205,7 +7238,10 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Felix Hidayat",
-            "notes": "!tag Dewold\n!tag Dewold\n!related Overt Warning; Writ of Supplies;"
+            "alias": "",
+            "position": "343",
+            "rotated": false,
+            "notes": "!tag Dewold\n!tag Dewold\n"
         },
         {
             "card_name": "Spirit",
@@ -6223,6 +7259,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Conor Burke",
+            "alias": "",
+            "position": "344",
+            "rotated": false,
             "notes": "!tag Dewold"
         },
         {
@@ -6241,6 +7280,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Efflam Mercier",
+            "alias": "",
+            "position": "345",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Vance Sigil\n!tag Vance"
         },
         {
@@ -6259,6 +7301,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Stefan Kopinski",
+            "alias": "",
+            "position": "346",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Turnberry Sigil\n!tag Turnberry"
         },
         {
@@ -6277,6 +7322,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Hue Teo",
+            "alias": "",
+            "position": "347",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Terrel Sigil\n!tag Terrel"
         },
         {
@@ -6295,6 +7343,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Teejay Ralph",
+            "alias": "",
+            "position": "348",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Sapner Sigil\n!tag Sapner"
         },
         {
@@ -6313,6 +7364,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Josep Perez",
+            "alias": "",
+            "position": "349",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Rivers Sigil\n!tag Rivers"
         },
         {
@@ -6331,6 +7385,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Irvan Pradivta",
+            "alias": "",
+            "position": "350",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Rey Sigil\n!tag Rey"
         },
         {
@@ -6349,6 +7406,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Hue Teo",
+            "alias": "",
+            "position": "351",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Radcliff Sigil\n!tag Radcliff"
         },
         {
@@ -6367,6 +7427,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Joachim Gerlings",
+            "alias": "",
+            "position": "352",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Plaskett Sigil\n!tag Plaskett"
         },
         {
@@ -6385,6 +7448,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "J Alexander",
+            "alias": "",
+            "position": "353",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Phyre\n!exportname Phyre Sigil"
         },
         {
@@ -6403,6 +7469,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Kieran Yanner",
+            "alias": "",
+            "position": "354",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Attwater Sigil\n!tag Attwater"
         },
         {
@@ -6421,6 +7490,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Felix Hidayat",
+            "alias": "",
+            "position": "355",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Perle\n!exportname Perle House Sigil"
         },
         {
@@ -6439,6 +7511,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Anna Mur",
+            "alias": "",
+            "position": "356",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Nye Sigil\n!tag Nye"
         },
         {
@@ -6457,6 +7532,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Arash Razavi",
+            "alias": "",
+            "position": "357",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Hook Sigil\n!tag Hook"
         },
         {
@@ -6475,6 +7553,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Kiri Leonard",
+            "alias": "",
+            "position": "358",
+            "rotated": false,
             "notes": "!tag Dewold\n!exportname Banefort Sigil\n!tag Banefort"
         },
         {
@@ -6493,6 +7574,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "kooks000",
+            "alias": "",
+            "position": "359",
+            "rotated": false,
             "notes": "!tag Dewold\n!tag Phyre\n!tag Veceslav\n!tag Hann"
         },
         {
@@ -6511,6 +7595,9 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "Den Manrooke",
+            "alias": "",
+            "position": "360",
+            "rotated": false,
             "notes": "!tag Marilye\n!tag HODStory\n!tag Dewold\n!tag Marilye"
         },
         {
@@ -6529,8 +7616,11 @@
             "set": "HOD",
             "loyalty": "",
             "artist": "KartStudioDigi",
+            "alias": "",
+            "position": "361",
+            "rotated": false,
             "notes": ""
         }
     ],
-    "version": 4
+    "version": 5
 }
