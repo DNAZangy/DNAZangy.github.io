@@ -1,4 +1,493 @@
-﻿VERSION 8 CHANGELOG
+﻿VERSION 9 CHANGELOG
+====================
+
+Moment's Hindrance added.
+Harthhall Evincar added.
+Bloodsky Conqueror added.
+Ode to Legacy added.
+
+Moment's Hinderance removed.
+Harthall Evincar removed.
+Bloodsky Conquerer removed.
+
+The Elk King
+pt: 4/4 => 3/4
+
+Traverse Kaldheim
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Mill four cards. You may return a snow card or a double-faced card milled this way to your hand. If you don't, you gain 2 life. 
+III — You may play an additional land this turn. Until end of turn, lands you control enter untapped.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Mill four cards. You may return a snow card or a double-faced card milled this way to your hand. If you don't, you gain 2 life. 
+You may play an additional land this turn. Until end of turn, lands you control enter untapped.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Mill four cards. You may return a snow card or a double-faced card milled this way to your hand. If you don't, you gain 2 life. 
+III — You may play an additional land this turn. Until end of turn, lands you control enter untapped.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Mill four cards. You may return a snow card or a double-faced card milled this way to your hand. If you don't, you gain 2 life. 
+You may play an additional land this turn. Until end of turn, lands you control enter untapped.
+​
+
+Blighted Coil
+type: Creature — Phyrexian Serpent Zombie => Creature — Phyrexian Serpent
+
+Stormseer Augur
+cost: {3}{UR}{UR}{UR} => {2}{UR}{UR}{UR}
+pt:  => 4/3
+
+Divided Omen
+cost: {U} => {1}{U}
+
+The Njidwing
+
+Starnheim Redeemer
+
+The Chasm Beast
+
+The Eidermaw
+
+The Himminneater
+
+The Stjarnapelt
+
+Left to Rust
+rules_text: Destroy target artifact or enchantment. => Destroy target artifact, battle, or enchantment.
+
+Snowworn Expanse
+rules_text: {T}: Add {C}.
+{2}, {T}: Snowworn Expanse and target nonbasic land lose all abilities except mana abilities and become snow. => {T}: Add {C}.
+{2}, {T}: Put an ice counter on Snowworn Expanse and target nonbasic land. For as long as they have ice counters on them, they lose all abilities except mana abilities and become snow.
+
+Bearer of the Worthy
+rules_text: Flying
+At the beginning of your end step, if a permanent left the battlefield under your control this turn, create a1/1 white Human creature token. => Flying
+At the beginning of your end step, if a permanent left the battlefield under your control this turn, create a 1/1 white Human creature token.
+
+Echoes of the Past
+rules_text: Look at the top three cards of your library. You may put one into your hand and the rest on the bottom of your library.
+Flashback {3}{S}{S} => Look at the top three cards of your library. You may put one into your hand and the rest on the bottom of your library.
+Flashback {3}{S}{S} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Deepwinter Hagi
+rules_text: Haste
+Whenever a creature you control enters, if {S} was spent to cast it, it gains haste until end of turn. => Haste
+Whenever another creature you control enters, if {S} was spent to cast it, it gains haste until end of turn.
+
+Champion of Stillness
+rules_text: Flash
+Prowess
+Each spell you cast has split second if {S} was spent to cast it. [i](As long as this spell is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)[/i] => Flash
+Prowess
+Each spell you cast has split second if {S} was spent to cast it. [i](As long as it's on the stack, players can't cast spells or activate abilities that aren't mana abilities.)[/i]
+
+Cliffthrower
+type: Creature — Troll => Creature — Troll Warrior
+cost: {7}{R}{R} => {6}{R}{R}
+rules_text: This spell costs {1} less to cast for each nonbasic land you don't control.
+Trample, menace
+{2}{R}, Sacrifice a land: Cliffthrower deals 3 damage to any noncreature target. => This spell costs {1} less to cast for each nonbasic land your opponents control.
+Trample, menace
+{2}{R}, Sacrifice a land: Cliffthrower deals 3 damage to any noncreature target.
+pt: 4/4 => 6/6
+
+Tales Retold
+
+Esika, Recovering
+
+Knud of the Unknown
+rules_text: Unbound {2}{R}{G} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of combat on your turn, target nonbattle, noncreature permanent you control becomes a 3/3 Elf creature land with haste until end of turn. 
+When Knud dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him. => Unbound {2}{R}{G} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of combat on your turn, target nonbattle, noncreature permanent you control becomes a 3/3 Elf creature land with haste until end of turn. 
+When Knud dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+special_text: Unbound {2}{R}{G} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of combat on your turn, target nonbattle, noncreature permanent you control becomes a 3/3 Elf creature land with haste until end of turn. 
+When Knud dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him. => Unbound {2}{R}{G} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of combat on your turn, target nonbattle, noncreature permanent you control becomes a 3/3 Elf creature land with haste until end of turn. 
+When Knud dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+
+Ingalvur of New Beginnings
+rules_text: Unbound {1}{G}{W} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of your second main phase, add {C} for each enchantment you control.
+When Ingalvur dies as a creature, return them to the battlefield as a Conflict battle with 4 defense counters on them. => Unbound {2}{G}{W} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of your second main phase, add {C} for each enchantment you control.
+When Ingalvur dies as a creature, return them to the battlefield as a Conflict battle with 4 defense counters on them.
+special_text: Unbound {1}{G}{W} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of your second main phase, add {C} for each enchantment you control.
+When Ingalvur dies as a creature, return them to the battlefield as a Conflict battle with 4 defense counters on them. => Unbound {2}{G}{W} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of your second main phase, add {C} for each enchantment you control.
+When Ingalvur dies as a creature, return them to the battlefield as a Conflict battle with 4 defense counters on them.
+
+Bari of Internal Wants
+rules_text: Unbound {1}{B}{R} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Whenever a creature you control attacks, it deals 1 damage to the player or permanent it is attacking.
+When Bari of Internal Wants dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him. => Unbound {1}{B}{R} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Whenever a creature you control attacks, it deals 1 damage to the player or permanent it is attacking.
+When Bari of Internal Wants dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+special_text: Unbound {1}{B}{R} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Whenever a creature you control attacks, it deals 1 damage to the player or permanent it is attacking.
+When Bari of Internal Wants dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him. => Unbound {1}{B}{R} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Whenever a creature you control attacks, it deals 1 damage to the player or permanent it is attacking.
+When Bari of Internal Wants dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+
+Hagduin of the Shadow
+rules_text: Unbound {1}{U}{B} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Spells you cast for alternate costs cost {2} less to cast.
+When Hagduin dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him. => Unbound {1}{U}{B} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Spells you cast for alternate costs cost {2} less to cast.
+When Hagduin dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+special_text: Unbound {1}{U}{B} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Spells you cast for alternate costs cost {2} less to cast.
+When Hagduin dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him. => Unbound {1}{U}{B} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Spells you cast for alternate costs cost {2} less to cast.
+When Hagduin dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+
+Saevel of Thresholds
+rules_text: Unbound {1}{W}{B} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Lifelink
+Whenever a creature you control dies, Saevel deals 1 damage to each opponent.
+When Saevel dies as a creature, return her to the battlefield as a Conflict battle with 4 defense counters on her. => Unbound {1}{W}{B} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Lifelink
+Whenever a creature you control dies, Saevel deals 1 damage to each opponent.
+When Saevel dies as a creature, return her to the battlefield as a Conflict battle with 4 defense counters on her.
+special_text: Unbound {1}{W}{B} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Lifelink
+Whenever a creature you control dies, Saevel deals 1 damage to each opponent.
+When Saevel dies as a creature, return her to the battlefield as a Conflict battle with 4 defense counters on her. => Unbound {1}{W}{B} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Lifelink
+Whenever a creature you control dies, Saevel deals 1 damage to each opponent.
+When Saevel dies as a creature, return her to the battlefield as a Conflict battle with 4 defense counters on her.
+
+Vinrormr of the Cycle
+rules_text: Unbound {1}{G}{U} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+You may play land cards from your graveyard.
+When Vinrormr dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him. => Unbound {1}{G}{U} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+You may play land cards from your graveyard.
+When Vinrormr dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+special_text: Unbound {1}{G}{U} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+You may play land cards from your graveyard.
+When Vinrormr dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him. => Unbound {1}{G}{U} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+You may play land cards from your graveyard.
+When Vinrormr dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.
+
+Lathril of Blade and Claw
+rules_text: Unbound {2}{B}{G} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Menace
+Other creatures you control get +1/+1 and have menace.
+When Lathril dies as a creature, return her to the battlefield as a Conflict battle with 4 defense counters on her. => Unbound {2}{B}{G} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Menace
+Other creatures you control get +1/+1 and have menace.
+When Lathril dies as a creature, return her to the battlefield as a Conflict battle with 4 defense counters on her.
+special_text: Unbound {2}{B}{G} — 4/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Menace
+Other creatures you control get +1/+1 and have menace.
+When Lathril dies as a creature, return her to the battlefield as a Conflict battle with 4 defense counters on her. => Unbound {2}{B}{G} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Menace
+Other creatures you control get +1/+1 and have menace.
+When Lathril dies as a creature, return her to the battlefield as a Conflict battle with 4 defense counters on her.
+
+Trollking of Mossrun
+rules_text: Whenever you activate an ability of a Troll, put a +1/+1 counter on it.
+{3}{B}, {T}: Sacrifice another Troll: Draw cards equal to the sacrificed creature's power. Create a number of Snow Treasures equal to its toughness. => Whenever you activate an ability of a Troll, put a +1/+1 counter on it.
+{3}{B}, {T}: Sacrifice another Troll: Draw cards equal to the sacrificed creature's power. Create a number of snow Treasures equal to its toughness.
+
+Jaspera of Dreams
+rules_text: {T}: Add {C}.
+{X}{U}{B}, Exile a card with mana value X from your graveyard, {T}: You may cast target instant or sorcery card in your graveyard with mana value X without paying its mana cost. Then exile it. => {T}: Add {C}.
+{X}{U}{B}, Exile a card with mana value X from your graveyard, {T}: You may cast target instant or sorcery card in your graveyard with mana value X without paying its mana cost. Then exile it. Activate only as a sorcery.
+
+Opt
+type: cantrip => Instant
+
+Coil of Eternity
+type: Snow Creature => Snow Creature — Wurm
+
+Accordant Valkyrie
+
+Brace Against Ruin
+rules_text: Choose one —
+• Target creature you control gets +1/+3 until end of turn. Untap it.
+• Destroy target artifact
+• Destroy target token. => Choose one —
+• Target creature you control gets +1/+3 until end of turn. Untap it.
+• Destroy target artifact or battle.
+• Destroy target token.
+
+Harried Covewalker
+rules_text: Changeling
+When Harried Covewalker enters, you may return another target nonland permanent to its owner's hand. 1U — 4 => Changeling [i](While a creature, this card is every creature type.)[/i]
+When Harried Covewalker enters, you may return another target nonland permanent to its owner's hand. 1U — 4 (While a creature, this card is every creature type.)[/i]
+
+special_text: Changeling
+When Harried Covewalker enters, you may return another target nonland permanent to its owner's hand. 1U — 4 => Changeling [i](While a creature, this card is every creature type.)[/i]
+When Harried Covewalker enters, you may return another target nonland permanent to its owner's hand. 1U — 4 (While a creature, this card is every creature type.)[/i]
+
+
+Torn Between Duties
+rules_text: Counter target spell.
+[i]Orate[/i] — Create a blue Saga enchantment token with “r{3}—Draw a card.” => Counter target spell.
+[i]Orate[/i] — Create a red Saga enchantment token with “r{3}—You may discard up to two cards. If you do, draw that many cards.”
+
+Graveward Keeper
+cost: {5}{B} => {4}{B}{B}
+pt: 2/2 => 3/3
+
+Rotmaw Ursine
+
+Petrified Hermit
+rules_text: Reach
+Whenever Petrified Hermit enters, search your library for a basic land card, put it onto the battlefield, then shuffle. => Reach
+Whenever Petrified Hermit enters, search your library for a basic land card, put it onto the battlefield, then shuffle. 2G — 3
+special_text:  => Reach
+Whenever Petrified Hermit enters, search your library for a basic land card, put it onto the battlefield, then shuffle. 2G — 3
+
+Triumphant Defeat
+rules_text: Target creature you control fights target creature you don't control.
+[i]Orate[/i] — When the creature you control wins the fight, create a blue Saga enchantment token with “r{3}—Draw a card.” [i](A creature wins the fight if it survives while the opponent's creature dies.)[/i] [i](Each deals damage equal to its power to the other.)[/i] => Target creature you control fights target creature you don't control.
+[i]Orate[/i] — Create a blue Saga enchantment token with “r{3}—Draw a card.” [i](A creature wins the fight if it survives while the opponent's creature dies.)[/i] [i](Each deals damage equal to its power to the other.)[/i]
+
+Spilling Tyrite
+rules_text: Choose one —
+• Destroy target artifact.
+• Destroy target enchantment.
+• Target creature gets +1/+1 and gains hexproof until end of turn. => Choose one —
+• Destroy target artifact, battle, or enchantment.
+• Target creature gets +1/+1 and gains hexproof until end of turn.
+
+Metar, Sky-Breaker
+rules_text: Unbound {U}{R} — 6/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Trample
+Whenever you cast a spell with mana value 5 or greater, remove two defense counters from Metar. If you can't, put two +1/+1 counters on him. => Unbound {U}{R} — 6/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Trample
+Whenever you cast a spell with mana value 5 or greater, remove two defense counters from Metar. If you can't, put two +1/+1 counters on him.
+special_text: Unbound {U}{R} — 6/ [i](You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)[/i]
+Trample
+Whenever you cast a spell with mana value 5 or greater, remove two defense counters from Metar. If you can't, put two +1/+1 counters on him. => Unbound {U}{R} — 6/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Trample
+Whenever you cast a spell with mana value 5 or greater, remove two defense counters from Metar. If you can't, put two +1/+1 counters on him.
+
+Axgard Reinforcements
+rules_text: Token creatures you control have “Teamwork — +1/+1”. [i](Whenever a token creature you control deals combat damage to a noncreature, you may put a +1/+1 counter on another target permanent you control.)[/i]
+When Axgard Reinforcements enters, create two 2/1 red Dwarf Berserker creature tokens. => Token creatures you control have “Teamwork — +1/+1”. [i](Whenever a token creature you control deals combat damage to a noncreature, you may put a +1/+1 counter on another target permanent you control.)[/i]
+When Axgard Reinforcements enters, create two 2/1 red Dwarf Berserker creature tokens with trample.
+
+Curse-Bound Wayfarer
+rules_text: Lifelink
+Each player can't cast more than one noncreature spell each turn. 1W — 3 => Lifelink
+Each player can't cast more than one noncreature spell each turn. 2W — 3
+special_text: Lifelink
+Each player can't cast more than one noncreature spell each turn. 1W — 3 => Lifelink
+Each player can't cast more than one noncreature spell each turn. 2W — 3
+
+Righteous Roar
+rules_text: Exile target creature or planeswalker.
+[i]Orate[/i] — It's controller creates a blue Saga enchantment token with “r{3}—Draw a card.” => Exile target battle, creature, or planeswalker.
+[i]Orate[/i] — Its controller creates a blue Saga enchantment token with “r{3}—Draw a card.”
+
+Harthhall Champion
+rules_text: Whenever Harthhall Champion attacks, choose one —
+• Harthhall Champion gains menace until end of turn.
+• Other Elves you control gain menace until end of turn. => Lifelink
+Whenever Harthhall Champion attacks, other Elves you control get +1/+0 until end of turn.
+
+Sagaweaver of Koma
+rules_text: Serpents you control have trample.
+[i]Orate[/i] — Whenever Sagaweaver of Koma enters, create two green Saga enchantment tokens with “r{3}—Create a 3/3 blue Serpent creature token named Koma's Coil.” => Serpents you control have trample.
+[i]Orate[/i] — When Sagaweaver of Koma enters, create two green Saga enchantment tokens with “r{3}—Create a 3/3 blue Serpent creature token named Koma's Coil.”
+
+Giant's Rebuff
+
+Skelle Scorn Pole
+type: Enchantment => Legendary Enchantment
+
+Olsen Moltenhand
+rules_text: Ward—Pay 2 life.
+Whenever Olsen Moltenhand attacks while modified, his base power and toughness become 4/4, it gains flying, and is a Dragon in addition to his types. [i](He's modified as long as there's an Equipment or Aura attached to him or a counter on him. This doesn't end at end of turn.)[/i] => Whenever Olsen Moltenhand attacks while modified, his base power and toughness become 4/4, it gains flying, and is a Dragon in addition to his types. [i](He's modified as long as there's an Equipment or Aura attached to him or a counter on him. This doesn't end at end of turn.)[/i]
+
+Heirloom Fang
+rules_text: Equipped creature has double strike and “Whenever this creature attacks, put a +1/+1 counter on it.”
+Equip {2} => Equipped creature has double strike and “Whenever this creature attacks, put a +1/+1 counter on it.”
+Equip {3}
+
+Dwarf Berserker
+rules_text:  => Trample
+
+Ode to Discovery
+
+Ode to Kin
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Ingalvur walks where first steps fall,
+Through newborn roads and untamed glen,
+And teaches wandering hearts to call.”[/i]
+You gain 3 life.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Ingalvur walks where first steps fall,
+Through newborn roads and untamed glen,
+And teaches wandering hearts to call.”[/i]
+III — You gain 3 life.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Ingalvur walks where first steps fall,
+Through newborn roads and untamed glen,
+And teaches wandering hearts to call.”[/i]
+You gain 3 life.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Ingalvur walks where first steps fall,
+Through newborn roads and untamed glen,
+And teaches wandering hearts to call.”[/i]
+III — You gain 3 life.
+​
+
+Ode to Returns
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]The sagas swell with every cheer,
+For heroes home from blood and frost,
+Till all their names ring bright and clear.”[/i]
+Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]The sagas swell with every cheer,
+For heroes home from blood and frost,
+Till all their names ring bright and clear.”[/i]
+III — Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]The sagas swell with every cheer,
+For heroes home from blood and frost,
+Till all their names ring bright and clear.”[/i]
+Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]The sagas swell with every cheer,
+For heroes home from blood and frost,
+Till all their names ring bright and clear.”[/i]
+III — Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
+​
+
+Ode to the Departed
+
+Ode to Visions
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Vinrormr dreams in serpent sleep,
+While stars dissolve in moss and rain,
+And secrets drown where old gods weep.”[/i]
+Draw a card.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Vinrormr dreams in serpent sleep,
+While stars dissolve in moss and rain,
+And secrets drown where old gods weep.”[/i]
+III — Draw a card.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Vinrormr dreams in serpent sleep,
+While stars dissolve in moss and rain,
+And secrets drown where old gods weep.”[/i]
+Draw a card.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Vinrormr dreams in serpent sleep,
+While stars dissolve in moss and rain,
+And secrets drown where old gods weep.”[/i]
+III — Draw a card.
+​
+
+Ode to Ashes
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+[i]“Bari kissed the dying flame,
+And held the lonely through the night,
+Till grief and longing spoke one name.”[/i]
+Exile each opponent's graveyard.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“Bari kissed the dying flame,
+And held the lonely through the night,
+Till grief and longing spoke one name.”[/i]
+III — Exile each opponent's graveyard.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+[i]“Bari kissed the dying flame,
+And held the lonely through the night,
+Till grief and longing spoke one name.”[/i]
+Exile each opponent's graveyard.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“Bari kissed the dying flame,
+And held the lonely through the night,
+Till grief and longing spoke one name.”[/i]
+III — Exile each opponent's graveyard.
+​
+
+Ode to Binding
+
+Ode to Dread
+
+Ode to Folly
+
+Ode to the Vessel
+
+Ode to Cunning
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Knud walks grinning through the blaze,
+Where endings carve the road ahead,
+And clever fools survive the haze.”[/i]
+You may discard up to two cards. If you do, draw that many cards.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Knud walks grinning through the blaze,
+Where endings carve the road ahead,
+And clever fools survive the haze.”[/i]
+III — You may discard up to two cards. If you do, draw that many cards.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+“[i]Knud walks grinning through the blaze,
+Where endings carve the road ahead,
+And clever fools survive the haze.”[/i]
+You may discard up to two cards. If you do, draw that many cards.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Knud walks grinning through the blaze,
+Where endings carve the road ahead,
+And clever fools survive the haze.”[/i]
+III — You may discard up to two cards. If you do, draw that many cards.
+​
+
+Ode to the Storm
+
+Ode to Exploration
+
+Ode to Renewal
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+[i]“Koma coils beneath the stone,
+Through silent earth your heartbeat drums,
+Return, and claim the world your own.”[/i]
+Create a 3/3 blue Serpent creature token named Koma's Coil.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“Koma coils beneath the stone,
+Through silent earth your heartbeat drums,
+Return, and claim the world your own.”[/i]
+III — Create a 3/3 blue Serpent creature token named Koma's Coil.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+[i]“Koma coils beneath the stone,
+Through silent earth your heartbeat drums,
+Return, and claim the world your own.”[/i]
+Create a 3/3 blue Serpent creature token named Koma's Coil.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“Koma coils beneath the stone,
+Through silent earth your heartbeat drums,
+Return, and claim the world your own.”[/i]
+III — Create a 3/3 blue Serpent creature token named Koma's Coil.
+​
+
+Ode to the Clans
+
+Ode to Valor
+
+Harald, Speaker for Koma
+rules_text: Whenever a nontoken Elf you control enters, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn. => Whenever Harald, Speaker for Koma or another nontoken Elf you control enters, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.
+
+Ode to the Hunt
+
+Ode to Pursuit
+
+Ode to Obedience
+
+
+VERSION 8 CHANGELOG
 ====================
 
 

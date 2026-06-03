@@ -131,7 +131,7 @@
 			"name": "Blighted Coil",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U/B}{U/B}",
-			"type": "Creature — Phyrexian Serpent Zombie",
+			"type": "Creature — Phyrexian Serpent",
 			"collector_number": "227",
 			"back": {
 				"name": "",
@@ -215,7 +215,7 @@
 		{
 			"name": "Stormseer Augur",
 			"rarity": "uncommon",
-			"mana_cost": "{3}{U/R}{U/R}{U/R}",
+			"mana_cost": "{2}{U/R}{U/R}{U/R}",
 			"type": "Creature — Giant Wizard",
 			"collector_number": "232",
 			"back": {
@@ -283,7 +283,7 @@
 		{
 			"name": "Divided Omen",
 			"rarity": "uncommon",
-			"mana_cost": "{U}",
+			"mana_cost": "{1}{U}",
 			"type": "Instant",
 			"collector_number": "44",
 			"back": {
@@ -818,8 +818,8 @@
 		{
 			"name": "Cliffthrower",
 			"rarity": "rare",
-			"mana_cost": "{7}{R}{R}",
-			"type": "Creature — Troll",
+			"mana_cost": "{6}{R}{R}",
+			"type": "Creature — Troll Warrior",
 			"collector_number": "110",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/64.png"
@@ -996,7 +996,7 @@
 			}
 		},
 		{
-			"name": "Moment's Hinderance",
+			"name": "Moment's Hindrance",
 			"rarity": "rare",
 			"mana_cost": "{W}{U}",
 			"type": "Instant",
@@ -1279,7 +1279,7 @@
 			"name": "Opt",
 			"rarity": "common",
 			"mana_cost": "{U}",
-			"type": "cantrip",
+			"type": "Instant",
 			"collector_number": "54",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/110.png"
@@ -1289,7 +1289,7 @@
 			"name": "Coil of Eternity",
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
-			"type": "Snow Creature",
+			"type": "Snow Creature — Wurm",
 			"collector_number": "145",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/111.png"
@@ -1668,7 +1668,7 @@
 		{
 			"name": "Graveward Keeper",
 			"rarity": "common",
-			"mana_cost": "{5}{B}",
+			"mana_cost": "{4}{B}{B}",
 			"type": "Creature — Zombie",
 			"collector_number": "83",
 			"image_uris": {
@@ -2206,7 +2206,7 @@
 			}
 		},
 		{
-			"name": "Harthall Evincar",
+			"name": "Harthhall Evincar",
 			"rarity": "rare",
 			"mana_cost": "{B}{G}",
 			"type": "Creature — Elf Cleric",
@@ -2286,7 +2286,7 @@
 			}
 		},
 		{
-			"name": "Bloodsky Conquerer",
+			"name": "Bloodsky Conqueror",
 			"rarity": "rare",
 			"mana_cost": "{5}{B}{R}",
 			"type": "Creature — Demon Berserker",
@@ -2819,7 +2819,7 @@
 			"name": "Skelle Scorn Pole",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
-			"type": "Enchantment",
+			"type": "Legendary Enchantment",
 			"collector_number": "97",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/264.png"
@@ -3160,7 +3160,7 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Enchantment — Saga",
-			"collector_number": "280",
+			"collector_number": "281",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/298.png"
 			}
@@ -3170,7 +3170,7 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Enchantment — Saga",
-			"collector_number": "281",
+			"collector_number": "282",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/299.png"
 			}
@@ -3180,7 +3180,7 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Enchantment — Saga",
-			"collector_number": "282",
+			"collector_number": "283",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/300.png"
 			}
@@ -3190,7 +3190,7 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Enchantment — Saga",
-			"collector_number": "283",
+			"collector_number": "284",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/301.png"
 			}
@@ -3200,7 +3200,7 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Enchantment — Saga",
-			"collector_number": "284",
+			"collector_number": "285",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/302.png"
 			}
@@ -3210,7 +3210,7 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Enchantment — Saga",
-			"collector_number": "286",
+			"collector_number": "287",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/303.png"
 			}
@@ -3220,7 +3220,7 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Enchantment — Saga",
-			"collector_number": "287",
+			"collector_number": "288",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/304.png"
 			}
@@ -3230,7 +3230,7 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Enchantment — Saga",
-			"collector_number": "290",
+			"collector_number": "291",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/305.png"
 			}
@@ -3240,7 +3240,7 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Enchantment — Saga",
-			"collector_number": "291",
+			"collector_number": "292",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/306.png"
 			}
@@ -3250,7 +3250,7 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Enchantment — Saga",
-			"collector_number": "292",
+			"collector_number": "293",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/307.png"
 			}
@@ -3260,7 +3260,7 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Enchantment — Saga",
-			"collector_number": "293",
+			"collector_number": "294",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/308.png"
 			}
@@ -3270,7 +3270,7 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Enchantment — Saga",
-			"collector_number": "294",
+			"collector_number": "295",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/309.png"
 			}
@@ -3290,7 +3290,7 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Enchantment — Saga",
-			"collector_number": "289",
+			"collector_number": "290",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/311.png"
 			}
@@ -3300,7 +3300,7 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Enchantment — Saga",
-			"collector_number": "288",
+			"collector_number": "289",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/312.png"
 			}
@@ -3310,9 +3310,19 @@
 			"rarity": "special",
 			"mana_cost": "",
 			"type": "Token Enchantment — Saga",
-			"collector_number": "285",
+			"collector_number": "286",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/BRE-files/img/313.png"
+			}
+		},
+		{
+			"name": "Ode to Legacy",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Enchantment — Saga",
+			"collector_number": "280",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/BRE-files/img/314.png"
 			}
 		}
 	]
@@ -3349,7 +3359,7 @@
 	1 Lathril of Blade and Claw
 	1 Vragi, Hero of Sevalgr
 	1 Ciar, Engineer of Ruin
-	2 Moment's Hinderance
+	2 Moment's Hindrance
 	2 Jarl of the Empty House
 	2 Cairnsplitter
 	2 Trollking of Mossrun
@@ -3367,7 +3377,7 @@
 	2 Covewalker Acolyte
 	2 Axgard Reinforcements
 	2 Vanguard of the Sixth Door
-	2 Harthall Evincar
+	2 Harthhall Evincar
 	2 Laid Among the Roots
 	2 Frostflame Ascetic
 	2 Skybreaker's Herald
@@ -3375,7 +3385,7 @@
 	2 Ride of the Valkyries
 	2 Maja, Bretagard's Heart
 	2 Rekindle History
-	2 Bloodsky Conquerer
+	2 Bloodsky Conqueror
 	2 Blood Price
 	2 Lord of Rust and Bone
 	2 Faded Shieldmate
@@ -3764,7 +3774,7 @@
 	1 Lathril of Blade and Claw
 	1 Vragi, Hero of Sevalgr
 	1 Ciar, Engineer of Ruin
-	2 Moment's Hinderance
+	2 Moment's Hindrance
 	2 Jarl of the Empty House
 	2 Cairnsplitter
 	2 Trollking of Mossrun
@@ -3880,7 +3890,7 @@
 	2 Covewalker Acolyte
 	2 Axgard Reinforcements
 	2 Vanguard of the Sixth Door
-	2 Harthall Evincar
+	2 Harthhall Evincar
 	2 Laid Among the Roots
 	2 Frostflame Ascetic
 	2 Skybreaker's Herald
@@ -3888,7 +3898,7 @@
 	2 Ride of the Valkyries
 	2 Maja, Bretagard's Heart
 	2 Rekindle History
-	2 Bloodsky Conquerer
+	2 Bloodsky Conqueror
 	2 Blood Price
 	2 Lord of Rust and Bone
 	2 Faded Shieldmate
@@ -4035,7 +4045,7 @@
 	4 Lathril of Blade and Claw
 	4 Vragi, Hero of Sevalgr
 	4 Ciar, Engineer of Ruin
-	7 Moment's Hinderance
+	7 Moment's Hindrance
 	7 Jarl of the Empty House
 	7 Cairnsplitter
 	7 Trollking of Mossrun
@@ -4151,7 +4161,7 @@
 	7 Covewalker Acolyte
 	7 Axgard Reinforcements
 	7 Vanguard of the Sixth Door
-	7 Harthall Evincar
+	7 Harthhall Evincar
 	7 Laid Among the Roots
 	7 Frostflame Ascetic
 	7 Skybreaker's Herald
@@ -4159,7 +4169,7 @@
 	7 Ride of the Valkyries
 	7 Maja, Bretagard's Heart
 	7 Rekindle History
-	7 Bloodsky Conquerer
+	7 Bloodsky Conqueror
 	7 Blood Price
 	7 Lord of Rust and Bone
 	7 Faded Shieldmate

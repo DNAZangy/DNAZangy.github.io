@@ -1395,12 +1395,7 @@
         "position": "188"
     },
     {
-        "card_name": "Ode to the Departed",
-        "number": 279,
-        "shape": "saga",
-        "set": "BRE",
-        "rotated": false,
-        "position": "297"
+        "card_name": "e"
     },
     {
         "card_name": "e"
@@ -1473,7 +1468,7 @@
         "position": "74"
     },
     {
-        "card_name": "Moment's Hinderance",
+        "card_name": "Moment's Hindrance",
         "number": 179,
         "shape": "normal",
         "set": "BRE",
@@ -1529,7 +1524,7 @@
         "position": "213"
     },
     {
-        "card_name": "Bloodsky Conquerer",
+        "card_name": "Bloodsky Conqueror",
         "number": 187,
         "shape": "normal",
         "set": "BRE",
@@ -1739,7 +1734,7 @@
         "position": "205"
     },
     {
-        "card_name": "Harthall Evincar",
+        "card_name": "Harthhall Evincar",
         "number": 211,
         "shape": "normal",
         "set": "BRE",
@@ -2576,8 +2571,24 @@
         "position": "296"
     },
     {
-        "card_name": "Ode to Visions",
+        "card_name": "Ode to the Departed",
+        "number": 279,
+        "shape": "token",
+        "set": "BRE",
+        "rotated": false,
+        "position": "297"
+    },
+    {
+        "card_name": "Ode to Legacy",
         "number": 280,
+        "shape": "token",
+        "set": "BRE",
+        "rotated": false,
+        "position": "314"
+    },
+    {
+        "card_name": "Ode to Visions",
+        "number": 281,
         "shape": "token",
         "set": "BRE",
         "rotated": false,
@@ -2585,7 +2596,7 @@
     },
     {
         "card_name": "Ode to Ashes",
-        "number": 281,
+        "number": 282,
         "shape": "token",
         "set": "BRE",
         "rotated": false,
@@ -2593,7 +2604,7 @@
     },
     {
         "card_name": "Ode to Binding",
-        "number": 282,
+        "number": 283,
         "shape": "token",
         "set": "BRE",
         "rotated": false,
@@ -2601,7 +2612,7 @@
     },
     {
         "card_name": "Ode to Dread",
-        "number": 283,
+        "number": 284,
         "shape": "token",
         "set": "BRE",
         "rotated": false,
@@ -2609,7 +2620,7 @@
     },
     {
         "card_name": "Ode to Folly",
-        "number": 284,
+        "number": 285,
         "shape": "token",
         "set": "BRE",
         "rotated": false,
@@ -2617,7 +2628,7 @@
     },
     {
         "card_name": "Ode to Obedience",
-        "number": 285,
+        "number": 286,
         "shape": "token",
         "set": "BRE",
         "rotated": false,
@@ -2625,7 +2636,7 @@
     },
     {
         "card_name": "Ode to the Vessel",
-        "number": 286,
+        "number": 287,
         "shape": "token",
         "set": "BRE",
         "rotated": false,
@@ -2633,7 +2644,7 @@
     },
     {
         "card_name": "Ode to Cunning",
-        "number": 287,
+        "number": 288,
         "shape": "token",
         "set": "BRE",
         "rotated": false,
@@ -2641,7 +2652,7 @@
     },
     {
         "card_name": "Ode to Pursuit",
-        "number": 288,
+        "number": 289,
         "shape": "token",
         "set": "BRE",
         "rotated": false,
@@ -2649,7 +2660,7 @@
     },
     {
         "card_name": "Ode to the Hunt",
-        "number": 289,
+        "number": 290,
         "shape": "token",
         "set": "BRE",
         "rotated": false,
@@ -2657,7 +2668,7 @@
     },
     {
         "card_name": "Ode to the Storm",
-        "number": 290,
+        "number": 291,
         "shape": "token",
         "set": "BRE",
         "rotated": false,
@@ -2665,7 +2676,7 @@
     },
     {
         "card_name": "Ode to Exploration",
-        "number": 291,
+        "number": 292,
         "shape": "token",
         "set": "BRE",
         "rotated": false,
@@ -2673,7 +2684,7 @@
     },
     {
         "card_name": "Ode to Renewal",
-        "number": 292,
+        "number": 293,
         "shape": "token",
         "set": "BRE",
         "rotated": false,
@@ -2681,7 +2692,7 @@
     },
     {
         "card_name": "Ode to the Clans",
-        "number": 293,
+        "number": 294,
         "shape": "token",
         "set": "BRE",
         "rotated": false,
@@ -2689,17 +2700,11 @@
     },
     {
         "card_name": "Ode to Valor",
-        "number": 294,
+        "number": 295,
         "shape": "token",
         "set": "BRE",
         "rotated": false,
         "position": "309"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
     },
     {
         "card_name": "er"

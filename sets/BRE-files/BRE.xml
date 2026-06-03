@@ -5,7 +5,7 @@
 			<name>BRE</name>
 			<longname>Kaldheim: Bretagard&apos;s Revival</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-28</releasedate>
+			<releasedate>2026-06-03</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -25,7 +25,7 @@
 				<cmc>4</cmc>
 				<colors>WU</colors>
 				<coloridentity>WU</coloridentity>
-				<pt>4/4</pt>
+				<pt>3/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -203,8 +203,8 @@ You gain life equal to the number of cards exiled by A Tale of Gold and Flame.</
 		<card>
 			<name>Traverse Kaldheim</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-I, II — Mill four cards. You may return a snow card or a double-faced card milled this way to your hand. If you don&apos;t, you gain 2 life. 
-III — You may play an additional land this turn. Until end of turn, lands you control enter untapped.
+Mill four cards. You may return a snow card or a double-faced card milled this way to your hand. If you don&apos;t, you gain 2 life. 
+You may play an additional land this turn. Until end of turn, lands you control enter untapped.
 ​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/10.png" num="222">BRE</set>
 			<prop>
@@ -269,7 +269,7 @@ Orate — Then create a white Saga enchantment token with the mode that wasn&apo
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
-				<type>Creature — Phyrexian Serpent Zombie</type>
+				<type>Creature — Phyrexian Serpent</type>
 				<maintype>Creature</maintype>
 				<manacost>4U/BU/B</manacost>
 				<cmc>6</cmc>
@@ -469,10 +469,11 @@ Haste
 				<side>front</side>
 				<type>Creature — Giant Wizard</type>
 				<maintype>Creature</maintype>
-				<manacost>3U/RU/RU/R</manacost>
-				<cmc>6</cmc>
+				<manacost>2U/RU/RU/R</manacost>
+				<cmc>5</cmc>
 				<colors>UR</colors>
 				<coloridentity>UR</coloridentity>
+				<pt>4/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 			<related attach="transform">Frostgrave Harbor</related>
@@ -623,8 +624,8 @@ When Seventh Door Oathbearer dies, put its counters on target creature you contr
 				<side>front</side>
 				<type>Instant</type>
 				<maintype>Instant</maintype>
-				<manacost>U</manacost>
-				<cmc>1</cmc>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
@@ -789,7 +790,7 @@ When The Njidwing enters, if it wasn&apos;t cast, transform it.
 		</card>
 		<card>
 			<name>Yetta Docks</name>
-			<text>Yetta Docks enters tapped unless you control two or fewer other lands.
+			<text>Yetta Docks enters tapped.
 {T}: Add {W} or {B}.
 ---
 (Front): Starnheim Redeemer</text>
@@ -1127,7 +1128,7 @@ Draw two cards.
 		</card>
 		<card>
 			<name>Left to Rust</name>
-			<text>Destroy target artifact or enchantment.
+			<text>Destroy target artifact, battle, or enchantment.
 ---
 (Back): Karo Glade</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/34_front.png" num="163a">BRE</set>
@@ -1290,7 +1291,7 @@ As Razorcrag Waypost enters, you may pay 1 life. If you don&apos;t, it enters ta
 		<card>
 			<name>Snowworn Expanse</name>
 			<text>{T}: Add {C}.
-{2}, {T}: Snowworn Expanse and target nonbasic land lose all abilities except mana abilities and become snow.</text>
+{2}, {T}: Put an ice counter on Snowworn Expanse and target nonbasic land. For as long as they have ice counters on them, they lose all abilities except mana abilities and become snow.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/41.png" num="265">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -1321,7 +1322,7 @@ As Razorcrag Waypost enters, you may pay 1 life. If you don&apos;t, it enters ta
 		<card>
 			<name>Bearer of the Worthy</name>
 			<text>Flying
-At the beginning of your end step, if a permanent left the battlefield under your control this turn, create a1/1 white Human creature token.</text>
+At the beginning of your end step, if a permanent left the battlefield under your control this turn, create a 1/1 white Human creature token.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/43.png" num="3">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -1412,7 +1413,7 @@ Whenever a nontoken creature you control with a +1/+1 counter on it dies, create
 		<card>
 			<name>Echoes of the Past</name>
 			<text>Look at the top three cards of your library. You may put one into your hand and the rest on the bottom of your library.
-Flashback {3}{S}{S}</text>
+Flashback {3}{S}{S} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/48.png" num="46">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -1446,7 +1447,7 @@ Flashback {3}{S}{S}</text>
 		<card>
 			<name>Deepwinter Hagi</name>
 			<text>Haste
-Whenever a creature you control enters, if {S} was spent to cast it, it gains haste until end of turn.</text>
+Whenever another creature you control enters, if {S} was spent to cast it, it gains haste until end of turn.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/50.png" num="111">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -1577,7 +1578,7 @@ Whenever Hopefilled Rider deals combat damage to a creature, put a +1/+1 counter
 			<name>Champion of Stillness</name>
 			<text>Flash
 Prowess
-Each spell you cast has split second if {S} was spent to cast it. (As long as this spell is on the stack, players can&apos;t cast spells or activate abilities that aren&apos;t mana abilities.)</text>
+Each spell you cast has split second if {S} was spent to cast it. (As long as it&apos;s on the stack, players can&apos;t cast spells or activate abilities that aren&apos;t mana abilities.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/BRE-files/img/57.png" num="39">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -1703,20 +1704,20 @@ Orate — Whenever an opponent discards one or more cards, create a black Saga e
 		</card>
 		<card>
 			<name>Cliffthrower</name>
-			<text>This spell costs {1} less to cast for each nonbasic land you don&apos;t control.
+			<text>This spell costs {1} less to cast for each nonbasic land your opponents control.
 Trample, menace
 {2}{R}, Sacrifice a land: Cliffthrower deals 3 damage to any noncreature target.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/BRE-files/img/64.png" num="110">BRE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Troll</type>
+				<type>Creature — Troll Warrior</type>
 				<maintype>Creature</maintype>
-				<manacost>7RR</manacost>
-				<cmc>9</cmc>
+				<manacost>6RR</manacost>
+				<cmc>8</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>4/4</pt>
+				<pt>6/6</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1869,7 +1870,7 @@ As long as it is your turn, permanents you control have deathtouch.</text>
 		</card>
 		<card>
 			<name>Knud of the Unknown</name>
-			<text>Unbound {2}{R}{G} — 4/ (You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)
+			<text>Unbound {2}{R}{G} — 4/ (You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)
 At the beginning of combat on your turn, target nonbattle, noncreature permanent you control becomes a 3/3 Elf creature land with haste until end of turn. 
 When Knud dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/BRE-files/img/73.png" num="192">BRE</set>
@@ -1888,7 +1889,7 @@ When Knud dies as a creature, return him to the battlefield as a Conflict battle
 		</card>
 		<card>
 			<name>Ingalvur of New Beginnings</name>
-			<text>Unbound {1}{G}{W} — 4/ (You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)
+			<text>Unbound {2}{G}{W} — 4/ (You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)
 At the beginning of your second main phase, add {C} for each enchantment you control.
 When Ingalvur dies as a creature, return them to the battlefield as a Conflict battle with 4 defense counters on them.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/BRE-files/img/74.png" num="196">BRE</set>
@@ -1907,7 +1908,7 @@ When Ingalvur dies as a creature, return them to the battlefield as a Conflict b
 		</card>
 		<card>
 			<name>Bari of Internal Wants</name>
-			<text>Unbound {1}{B}{R} — 4/ (You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)
+			<text>Unbound {1}{B}{R} — 4/ (You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)
 Whenever a creature you control attacks, it deals 1 damage to the player or permanent it is attacking.
 When Bari of Internal Wants dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/BRE-files/img/75.png" num="185">BRE</set>
@@ -1926,7 +1927,7 @@ When Bari of Internal Wants dies as a creature, return him to the battlefield as
 		</card>
 		<card>
 			<name>Hagduin of the Shadow</name>
-			<text>Unbound {1}{U}{B} — 4/ (You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)
+			<text>Unbound {1}{U}{B} — 4/ (You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)
 Spells you cast for alternate costs cost {2} less to cast.
 When Hagduin dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/BRE-files/img/76.png" num="181">BRE</set>
@@ -1945,7 +1946,7 @@ When Hagduin dies as a creature, return him to the battlefield as a Conflict bat
 		</card>
 		<card>
 			<name>Saevel of Thresholds</name>
-			<text>Unbound {1}{W}{B} — 4/ (You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)
+			<text>Unbound {1}{W}{B} — 4/ (You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)
 Lifelink
 Whenever a creature you control dies, Saevel deals 1 damage to each opponent.
 When Saevel dies as a creature, return her to the battlefield as a Conflict battle with 4 defense counters on her.</text>
@@ -1965,7 +1966,7 @@ When Saevel dies as a creature, return her to the battlefield as a Conflict batt
 		</card>
 		<card>
 			<name>Vinrormr of the Cycle</name>
-			<text>Unbound {1}{G}{U} — 4/ (You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)
+			<text>Unbound {1}{G}{U} — 4/ (You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)
 You may play land cards from your graveyard.
 When Vinrormr dies as a creature, return him to the battlefield as a Conflict battle with 4 defense counters on him.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/BRE-files/img/78.png" num="223">BRE</set>
@@ -1984,7 +1985,7 @@ When Vinrormr dies as a creature, return him to the battlefield as a Conflict ba
 		</card>
 		<card>
 			<name>Lathril of Blade and Claw</name>
-			<text>Unbound {2}{B}{G} — 4/ (You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)
+			<text>Unbound {2}{B}{G} — 4/ (You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)
 Menace
 Other creatures you control get +1/+1 and have menace.
 When Lathril dies as a creature, return her to the battlefield as a Conflict battle with 4 defense counters on her.</text>
@@ -2041,8 +2042,8 @@ When Lathril dies as a creature, return her to the battlefield as a Conflict bat
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Moment&apos;s Hinderance</name>
-			<text>Exile target spell or creature. For as long as that card remains exiled, its owner may cast it. A spell cast this way costs {2} more to cast.
+			<name>Moment&apos;s Hindrance</name>
+			<text>Exile target spell or creature. For as long as that card remains exiled, its owner may cast it. A spell cast this way costs {1} more to cast.
 Spiritcycling {W}{U} ({W}{U}, Discard this card: Search your library for a Spirit card, reveal it, put it into your hand, then shuffle.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/BRE-files/img/82.png" num="179">BRE</set>
 			<prop>
@@ -2097,7 +2098,7 @@ Trollcycling {R}{G} ({R}{G}, Discard this card: Search your library for a Troll 
 		<card>
 			<name>Trollking of Mossrun</name>
 			<text>Whenever you activate an ability of a Troll, put a +1/+1 counter on it.
-{3}{B}, {T}: Sacrifice another Troll: Draw cards equal to the sacrificed creature&apos;s power. Create a number of Snow Treasures equal to its toughness.</text>
+{3}{B}, {T}: Sacrifice another Troll: Draw cards equal to the sacrificed creature&apos;s power. Create a number of snow Treasures equal to its toughness.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/BRE-files/img/85.png" num="193">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -2147,7 +2148,7 @@ Trollcycling {R}{G} ({R}{G}, Discard this card: Search your library for a Troll 
 		<card>
 			<name>Jaspera of Dreams</name>
 			<text>{T}: Add {C}.
-{X}{U}{B}, Exile a card with mana value X from your graveyard, {T}: You may cast target instant or sorcery card in your graveyard with mana value X without paying its mana cost. Then exile it.</text>
+{X}{U}{B}, Exile a card with mana value X from your graveyard, {T}: You may cast target instant or sorcery card in your graveyard with mana value X without paying its mana cost. Then exile it. Activate only as a sorcery.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/BRE-files/img/88.png" num="253">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -2504,14 +2505,14 @@ Draw a card.</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>cantrip</type>
-				<maintype>cantrip</maintype>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
 				<manacost>U</manacost>
 				<cmc>1</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
 			<name>Coil of Eternity</name>
@@ -2521,7 +2522,7 @@ When Coil of Eternity enters, you gain life equal to the number of snow permanen
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Snow Creature</type>
+				<type>Snow Creature — Wurm</type>
 				<maintype>Creature</maintype>
 				<manacost>4G</manacost>
 				<cmc>5</cmc>
@@ -2820,7 +2821,7 @@ Whenever one or more creatures enter under your control for the first time each 
 			<name>Brace Against Ruin</name>
 			<text>Choose one —
 • Target creature you control gets +1/+3 until end of turn. Untap it.
-• Destroy target artifact
+• Destroy target artifact or battle.
 • Destroy target token.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/BRE-files/img/129.png" num="7">BRE</set>
 			<prop>
@@ -2875,8 +2876,8 @@ Orate — Whenever Aurora Charger deals combat damage to a noncreature, create a
 		</card>
 		<card>
 			<name>Harried Covewalker</name>
-			<text>Changeling
-When Harried Covewalker enters, you may return another target nonland permanent to its owner&apos;s hand. 1U — 4</text>
+			<text>Changeling (While a creature, this card is every creature type.)
+When Harried Covewalker enters, you may return another target nonland permanent to its owner&apos;s hand. 1U — 4 (While a creature, this card is every creature type.)</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/BRE-files/img/132.png" num="50">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -3000,7 +3001,7 @@ Ward {2}</text>
 		<card>
 			<name>Torn Between Duties</name>
 			<text>Counter target spell.
-Orate — Create a blue Saga enchantment token with &quot;r{3}—Draw a card.&quot;</text>
+Orate — Create a red Saga enchantment token with &quot;r{3}—You may discard up to two cards. If you do, draw that many cards.&quot;</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/BRE-files/img/139.png" num="64">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -3182,11 +3183,11 @@ Orate — {3}{B}, Exile Jormund Adjudicator from your graveyard: Create a black 
 				<side>front</side>
 				<type>Creature — Zombie</type>
 				<maintype>Creature</maintype>
-				<manacost>5B</manacost>
+				<manacost>4BB</manacost>
 				<cmc>6</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>2/2</pt>
+				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3664,7 +3665,7 @@ Teamwork — +1/+1 (Whenever this creature deals combat damage to a noncreature,
 		<card>
 			<name>Petrified Hermit</name>
 			<text>Reach
-Whenever Petrified Hermit enters, search your library for a basic land card, put it onto the battlefield, then shuffle.</text>
+Whenever Petrified Hermit enters, search your library for a basic land card, put it onto the battlefield, then shuffle. 2G — 3</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/BRE-files/img/177.png" num="164">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -3733,7 +3734,7 @@ Whenever Petrified Hermit enters, search your library for a basic land card, put
 		<card>
 			<name>Triumphant Defeat</name>
 			<text>Target creature you control fights target creature you don&apos;t control.
-Orate — When the creature you control wins the fight, create a blue Saga enchantment token with &quot;r{3}—Draw a card.&quot; (A creature wins the fight if it survives while the opponent&apos;s creature dies.) (Each deals damage equal to its power to the other.)</text>
+Orate — Create a blue Saga enchantment token with &quot;r{3}—Draw a card.&quot; (A creature wins the fight if it survives while the opponent&apos;s creature dies.) (Each deals damage equal to its power to the other.)</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/BRE-files/img/181.png" num="171">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -3750,8 +3751,7 @@ Orate — When the creature you control wins the fight, create a blue Saga encha
 		<card>
 			<name>Spilling Tyrite</name>
 			<text>Choose one —
-• Destroy target artifact.
-• Destroy target enchantment.
+• Destroy target artifact, battle, or enchantment.
 • Target creature gets +1/+1 and gains hexproof until end of turn.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/BRE-files/img/182.png" num="170">BRE</set>
 			<prop>
@@ -3996,7 +3996,7 @@ Whenever an enchantment you control leaves the battlefield, create a 1/1 white H
 		</card>
 		<card>
 			<name>Metar, Sky-Breaker</name>
-			<text>Unbound {U}{R} — 6/ (You may cast this spell as a Conflict battle defended by an opponent. It becomes a creature when defeated.)
+			<text>Unbound {U}{R} — 6/ (You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)
 Trample
 Whenever you cast a spell with mana value 5 or greater, remove two defense counters from Metar. If you can&apos;t, put two +1/+1 counters on him.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/196.png" num="208">BRE</set>
@@ -4090,7 +4090,7 @@ Shapeshiftercycling {G}{U} ({G}{U}, Discard this card: Search your library for a
 		<card>
 			<name>Axgard Reinforcements</name>
 			<text>Token creatures you control have &quot;Teamwork — +1/+1&quot;. (Whenever a token creature you control deals combat damage to a noncreature, you may put a +1/+1 counter on another target permanent you control.)
-When Axgard Reinforcements enters, create two 2/1 red Dwarf Berserker creature tokens.</text>
+When Axgard Reinforcements enters, create two 2/1 red Dwarf Berserker creature tokens with trample.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/BRE-files/img/201.png" num="215">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -4123,9 +4123,9 @@ Dwarfcycling {R}{W} ({R}{W}, Discard this card: Search your library for a Dwarf 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Harthall Evincar</name>
+			<name>Harthhall Evincar</name>
 			<text>Other Elves you control get +1/+1.
-{1}{B}{G}, Exile Harthall Evincar from your graveyard: Create two 1/1 green Elf Warrior creature tokens. Activate only as a sorcery.</text>
+{1}{B}{G}, Exile Harthhall Evincar from your graveyard: Create two 1/1 green Elf Warrior creature tokens. Activate only as a sorcery.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/BRE-files/img/203.png" num="211">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -4267,9 +4267,9 @@ Bardcycling {G}{W} ({G}{W}, Discard this card: Search your library for a Bard ca
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Bloodsky Conquerer</name>
+			<name>Bloodsky Conqueror</name>
 			<text>Flying
-When Bloodsky Conquerer enters, it deals 10 damage to each other battle. 2BR — 4</text>
+When Bloodsky Conqueror enters, it deals 10 damage to each other battle. 2BR — 4</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/BRE-files/img/211.png" num="187">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -4395,7 +4395,7 @@ When Axgard Warden enters, it deals damage to target creature or planeswalker yo
 		<card>
 			<name>Curse-Bound Wayfarer</name>
 			<text>Lifelink
-Each player can&apos;t cast more than one noncreature spell each turn. 1W — 3</text>
+Each player can&apos;t cast more than one noncreature spell each turn. 2W — 3</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/218.png" num="10">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -4448,8 +4448,8 @@ Whenever an enchantment you control is put into a graveyard from the battlefield
 		</card>
 		<card>
 			<name>Righteous Roar</name>
-			<text>Exile target creature or planeswalker.
-Orate — It&apos;s controller creates a blue Saga enchantment token with &quot;r{3}—Draw a card.&quot;</text>
+			<text>Exile target battle, creature, or planeswalker.
+Orate — Its controller creates a blue Saga enchantment token with &quot;r{3}—Draw a card.&quot;</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/221.png" num="24">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -4611,9 +4611,8 @@ When Coward Slayer enters, target creature you don&apos;t control gets -2/-2 unt
 		</card>
 		<card>
 			<name>Harthhall Champion</name>
-			<text>Whenever Harthhall Champion attacks, choose one —
-• Harthhall Champion gains menace until end of turn.
-• Other Elves you control gain menace until end of turn.</text>
+			<text>Lifelink
+Whenever Harthhall Champion attacks, other Elves you control get +1/+0 until end of turn.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/230.png" num="84">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -4863,7 +4862,7 @@ When you cast Gladewalker Wanderers, reveal the top six cards of your library. Y
 		<card>
 			<name>Sagaweaver of Koma</name>
 			<text>Serpents you control have trample.
-Orate — Whenever Sagaweaver of Koma enters, create two green Saga enchantment tokens with &quot;r{3}—Create a 3/3 blue Serpent creature token named Koma&apos;s Coil.&quot;</text>
+Orate — When Sagaweaver of Koma enters, create two green Saga enchantment tokens with &quot;r{3}—Create a 3/3 blue Serpent creature token named Koma&apos;s Coil.&quot;</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/244.png" num="167">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -5219,7 +5218,7 @@ Whenever a creature you control dies, you gain 1 life.</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Enchantment</type>
+				<type>Legendary Enchantment</type>
 				<maintype>Enchantment</maintype>
 				<manacost>2BB</manacost>
 				<cmc>4</cmc>
@@ -5247,8 +5246,7 @@ Whenever a creature you control dies, you gain 1 life.</text>
 		</card>
 		<card>
 			<name>Olsen Moltenhand</name>
-			<text>Ward—Pay 2 life.
-Whenever Olsen Moltenhand attacks while modified, his base power and toughness become 4/4, it gains flying, and is a Dragon in addition to his types. (He&apos;s modified as long as there&apos;s an Equipment or Aura attached to him or a counter on him. This doesn&apos;t end at end of turn.)</text>
+			<text>Whenever Olsen Moltenhand attacks while modified, his base power and toughness become 4/4, it gains flying, and is a Dragon in addition to his types. (He&apos;s modified as long as there&apos;s an Equipment or Aura attached to him or a counter on him. This doesn&apos;t end at end of turn.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/BRE-files/img/266.png" num="129">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -5284,7 +5282,7 @@ At the beginning of combat on your turn, exile the top card of your library. You
 		<card>
 			<name>Heirloom Fang</name>
 			<text>Equipped creature has double strike and &quot;Whenever this creature attacks, put a +1/+1 counter on it.&quot;
-Equip {2}</text>
+Equip {3}</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/BRE-files/img/268.png" num="123">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -5387,7 +5385,7 @@ Equip {2}</text>
 		</card>
 		<card>
 			<name>Dwarf Berserker BRE</name>
-			<text></text>
+			<text>Trample</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/BRE-files/img/274.png" num="12">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -5759,14 +5757,16 @@ III — Exile up to one target creature, then return it to the battlefield under
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Shepherd Aspirant</reverse-related>
+			<reverse-related>Labors Without End</reverse-related>
 		</card>
 		<card>
 			<name>Ode to Kin BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-&quot;Ingalvur walks where first steps fall,
+I, II — &quot;Ingalvur walks where first steps fall,
 Through newborn roads and untamed glen,
 And teaches wandering hearts to call.&quot;
-You gain 3 life.
+III — You gain 3 life.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/295.png" num="277">BRE</set>
 			<prop>
@@ -5780,14 +5780,16 @@ You gain 3 life.
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Speaker of Bretagard</reverse-related>
+			<reverse-related>Storysmith of the Hearth</reverse-related>
 		</card>
 		<card>
 			<name>Ode to Returns BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-&quot;The sagas swell with every cheer,
+I, II — &quot;The sagas swell with every cheer,
 For heroes home from blood and frost,
 Till all their names ring bright and clear.&quot;
-Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
+III — Return target creature card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/296.png" num="278">BRE</set>
 			<prop>
@@ -5801,9 +5803,10 @@ Return target creature card with mana value 3 or less from your graveyard to the
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Reciter of Tales</reverse-related>
 		</card>
 		<card>
-			<name>Ode to the Departed</name>
+			<name>Ode to the Departed BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
 I, II — &quot;Through silver mist the path is shown,
 Where voices fade and shadows stay,
@@ -5821,16 +5824,21 @@ III — Create a 1/1 white Spirit creature token with flying.
 				<colors>W</colors>
 			</prop>
 			<tablerow>1</tablerow>
+			<token>1</token>
+			<reverse-related>Whispering Tempters</reverse-related>
+			<reverse-related>Weaver of False Tales</reverse-related>
+			<reverse-related>Scornsong Reaper</reverse-related>
+			<reverse-related>Labors Without End</reverse-related>
 		</card>
 		<card>
 			<name>Ode to Visions BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-&quot;Vinrormr dreams in serpent sleep,
+I, II — &quot;Vinrormr dreams in serpent sleep,
 While stars dissolve in moss and rain,
 And secrets drown where old gods weep.&quot;
-Draw a card.
+III — Draw a card.
 ​</text>
-			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/298.png" num="280">BRE</set>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/298.png" num="281">BRE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -5842,16 +5850,21 @@ Draw a card.
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Righteous Roar</reverse-related>
+			<reverse-related>Aurora Charger</reverse-related>
+			<reverse-related>Littjara Seer</reverse-related>
+			<reverse-related>Spirit of Borrowed Deeds</reverse-related>
+			<reverse-related>Triumphant Defeat</reverse-related>
 		</card>
 		<card>
 			<name>Ode to Ashes BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-&quot;Bari kissed the dying flame,
+I, II — &quot;Bari kissed the dying flame,
 And held the lonely through the night,
 Till grief and longing spoke one name.&quot;
-Exile each opponent&apos;s graveyard.
+III — Exile each opponent&apos;s graveyard.
 ​</text>
-			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/299.png" num="281">BRE</set>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/299.png" num="282">BRE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -5863,6 +5876,8 @@ Exile each opponent&apos;s graveyard.
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Omen of Fright</reverse-related>
+			<reverse-related>Laid Among the Roots</reverse-related>
 		</card>
 		<card>
 			<name>Ode to Binding BRE</name>
@@ -5872,7 +5887,7 @@ But Vragi carved the spell alone,
 And sealed the beast with blood and bone.&quot;
 III — Return target creature card from your graveyard to the battlefield.
 ​</text>
-			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/300.png" num="282">BRE</set>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/300.png" num="283">BRE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -5884,6 +5899,7 @@ III — Return target creature card from your graveyard to the battlefield.
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Festering Rebirth</reverse-related>
 		</card>
 		<card>
 			<name>Ode to Dread BRE</name>
@@ -5893,7 +5909,7 @@ And whispers truths you dare not keep,
 Till shadows learn to wear your place.&quot;
 III — Each opponent loses 2 life and you gain 2 life.
 ​</text>
-			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/301.png" num="283">BRE</set>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/301.png" num="284">BRE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -5905,6 +5921,7 @@ III — Each opponent loses 2 life and you gain 2 life.
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Jormund Adjudicator</reverse-related>
 		</card>
 		<card>
 			<name>Ode to Folly BRE</name>
@@ -5914,7 +5931,7 @@ Unknowing of the demon&apos;s glare—
 A tale cut short, stripped cold and bare.&quot;
 III — Create a 6/6 black Demon creature token. You lose 6 life unless you sacrifice a Cleric.
 ​</text>
-			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/302.png" num="284">BRE</set>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/302.png" num="285">BRE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -5926,6 +5943,7 @@ III — Create a 6/6 black Demon creature token. You lose 6 life unless you sacr
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Selfcrowned Skald</reverse-related>
 		</card>
 		<card>
 			<name>Ode to the Vessel BRE</name>
@@ -5934,7 +5952,7 @@ I, II — &quot;Split the soul, and twist the bone.
 Let it walk, but not alone.&quot;
 III — Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can&apos;t, each opponent loses 1 life and you gain 1 life.
 ​</text>
-			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/303.png" num="286">BRE</set>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/303.png" num="287">BRE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -5946,16 +5964,17 @@ III — Return a creature card named Oilbound Spawn from your graveyard to the b
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Oilbound Spawn</reverse-related>
 		</card>
 		<card>
 			<name>Ode to Cunning BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-&quot;Knud walks grinning through the blaze,
+I, II — &quot;Knud walks grinning through the blaze,
 Where endings carve the road ahead,
 And clever fools survive the haze.&quot;
-You may discard up to two cards. If you do, draw that many cards.
+III — You may discard up to two cards. If you do, draw that many cards.
 ​</text>
-			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/304.png" num="287">BRE</set>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/304.png" num="288">BRE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -5967,6 +5986,10 @@ You may discard up to two cards. If you do, draw that many cards.
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Bannerless Raider</reverse-related>
+			<reverse-related>Aldegar, Searching for Stars</reverse-related>
+			<reverse-related>Overbearing Lightning</reverse-related>
+			<reverse-related>Torn Between Duties</reverse-related>
 		</card>
 		<card>
 			<name>Ode to the Storm BRE</name>
@@ -5976,7 +5999,7 @@ Each stroke a flash, each word a blaze,
 Till sky itself bends to the few.&quot;
 III — Return target instant or sorcery card from your graveyard to your hand.
 ​</text>
-			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/305.png" num="290">BRE</set>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/305.png" num="291">BRE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -5988,6 +6011,7 @@ III — Return target instant or sorcery card from your graveyard to your hand.
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Firesong Braggart</reverse-related>
 		</card>
 		<card>
 			<name>Ode to Exploration BRE</name>
@@ -5997,7 +6021,7 @@ Through omenpaths both wide and strange,
 Till home remembers where we are.&quot;
 III — Search your library for a land card, reveal it, put it into your hand, then shuffle.
 ​</text>
-			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/306.png" num="291">BRE</set>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/306.png" num="292">BRE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -6009,16 +6033,17 @@ III — Search your library for a land card, reveal it, put it into your hand, t
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Feltmark Violinist</reverse-related>
 		</card>
 		<card>
 			<name>Ode to Renewal BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-&quot;Koma coils beneath the stone,
+I, II — &quot;Koma coils beneath the stone,
 Through silent earth your heartbeat drums,
 Return, and claim the world your own.&quot;
-Create a 3/3 blue Serpent creature token named Koma&apos;s Coil.
+III — Create a 3/3 blue Serpent creature token named Koma&apos;s Coil.
 ​</text>
-			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/307.png" num="292">BRE</set>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/307.png" num="293">BRE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -6030,6 +6055,8 @@ Create a 3/3 blue Serpent creature token named Koma&apos;s Coil.
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Coilseeker</reverse-related>
+			<reverse-related>Sagaweaver of Koma</reverse-related>
 		</card>
 		<card>
 			<name>Ode to the Clans BRE</name>
@@ -6039,7 +6066,7 @@ With heart and will to see it through,
 Till Bretagard stands whole and fair.&quot;
 III — Create two 1/1 white Human creature tokens.
 ​</text>
-			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/308.png" num="293">BRE</set>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/308.png" num="294">BRE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -6051,6 +6078,9 @@ III — Create two 1/1 white Human creature tokens.
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Beskir Lawspeaker</reverse-related>
+			<reverse-related>Glorychanter</reverse-related>
+			<reverse-related>Maja, Bretagard&apos;s Heart</reverse-related>
 		</card>
 		<card>
 			<name>Ode to Valor BRE</name>
@@ -6060,7 +6090,7 @@ While beasts and warriors bled as one,
 And taught the trembling not to fear.&quot;
 III — Put a +1/+1 counter on target creature you control.
 ​</text>
-			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/309.png" num="294">BRE</set>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/309.png" num="295">BRE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -6072,10 +6102,11 @@ III — Put a +1/+1 counter on target creature you control.
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Whisperer to the Realmeater</reverse-related>
 		</card>
 		<card>
 			<name>Harald, Speaker for Koma</name>
-			<text>Whenever a nontoken Elf you control enters, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.</text>
+			<text>Whenever Harald, Speaker for Koma or another nontoken Elf you control enters, create a 1/1 green Elf Warrior creature token. This ability triggers only once each turn.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/310.png" num="210">BRE</set>
 			<prop>
 				<layout>normal</layout>
@@ -6098,7 +6129,7 @@ Through frozen vault and shattered stone,
 To claim the gold the grave could not keep.&quot;
 III — Create two Snow Treasure tokens.
 ​</text>
-			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/311.png" num="289">BRE</set>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/311.png" num="290">BRE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -6110,6 +6141,7 @@ III — Create two Snow Treasure tokens.
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Aldegar, Searching for Stars</reverse-related>
 		</card>
 		<card>
 			<name>Ode to Pursuit BRE</name>
@@ -6119,7 +6151,7 @@ While prey grew bold beneath the trees,
 Then painted red the falling sky.&quot;
 III — Ode to Pursuit deals 3 damage to any target.
 ​</text>
-			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/312.png" num="288">BRE</set>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/312.png" num="289">BRE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -6131,6 +6163,7 @@ III — Ode to Pursuit deals 3 damage to any target.
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Aldegar, Searching for Stars</reverse-related>
 		</card>
 		<card>
 			<name>Ode to Obedience BRE</name>
@@ -6140,7 +6173,7 @@ As hollow eyes opened once more,
 For jarls remember every lost.&quot;
 III — Create a 2/2 black Zombie Warrior creature token. Each opponent loses 2 life.
 ​</text>
-			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/313.png" num="285">BRE</set>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/313.png" num="286">BRE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -6152,6 +6185,29 @@ III — Create a 2/2 black Zombie Warrior creature token. Each opponent loses 2 
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+			<reverse-related>Jarl of the Empty House</reverse-related>
+		</card>
+		<card>
+			<name>Ode to Legacy BRE</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I, II — &quot;The hall rang out with ancient praise,
+From voices worn by death and cold,
+Repeating long forgotten days.&quot;
+III — Cast a card you own in exile with a story counter on it without paying its mana cost.
+​</text>
+			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/314.png" num="280">BRE</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Token Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+			<reverse-related>Tales Retold</reverse-related>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

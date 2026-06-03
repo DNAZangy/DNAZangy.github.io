@@ -5,7 +5,7 @@
 			<name>TBC</name>
 			<longname>Nemyria: The Beautiful Collapse</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-28</releasedate>
+			<releasedate>2026-06-03</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -827,7 +827,7 @@ Flashback {1}{W} (You may cast this card from your graveyard for its flashback c
 			<name>Faces in Condensation</name>
 			<text>This spell costs {1} less to cast if you control a token Spirit. It also costs {1} less to cast if you control a nontoken Spirit.
 Counter target spell unless its controller pays {3}.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/43.png" num="49">TBC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/43.png" num="48">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1277,7 +1277,7 @@ Choose target creature you control and target creature an opponent controls. Put
 			<text>Choose one –
 • Target creature you control gets +1/+1 and gains hexproof until end of turn.
 • Target player shuffles up to three target cards from their graveyard into their library.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/68.png" num="50">TBC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/68.png" num="49">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2099,7 +2099,7 @@ When Tide Carried Ghost enters, return target artifact or enchantment card from 
 		<card>
 			<name>Goodnight and Go</name>
 			<text>Return up to two target creatures with total mana value 4 or less to their owner&apos;s hands.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/113.png" num="51">TBC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/113.png" num="50">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2131,8 +2131,8 @@ When Tide Carried Ghost enters, return target artifact or enchantment card from 
 		</card>
 		<card>
 			<name>All-Consuming Obsession</name>
-			<text>At the beginning of your first main phase, add {R}{R}. Spend this mana only to cast spells with mana value 5 or greater.
-Discard a card with mana value 4 or less: Draw a card. Activate only once each turn.</text>
+			<text>At the beginning of your first main phase, add {R}. Spend this mana only to cast spells with mana value 5 or greater.
+Discard a card with mana value 4 or less: Draw a card. Activate only once each turn and as a sorcery.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/115.png" num="112">TBC</set>
 			<prop>
 				<layout>normal</layout>
@@ -2545,7 +2545,7 @@ Counter target noncreature spell unless its controller pays {1}.</text>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
-				<type>Creature — Elf Noble // Instant</type>
+				<type>Creature — Elf Advisor Noble // Instant</type>
 				<maintype>Creature</maintype>
 				<manacost>W // W</manacost>
 				<cmc>1</cmc>
@@ -3147,6 +3147,7 @@ Exile target instant or sorcery card from your graveyard. You may cast a copy of
 				<cmc>4</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3236,7 +3237,7 @@ Whenever Fabricated Ballad attacks, it becomes prepared. (While it&apos;s prepar
 ---
 
 Create a token that&apos;s a copy of target creature you control.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/173.png" num="48">TBC</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/173.png" num="47">TBC</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -3326,7 +3327,7 @@ When Viscerath Abomination enters, draw cards equal to the greatest power among 
 			<text>Flying
 Begin your breakdown. (It begins at 4 and decreases by 1 on each of your turns when the second card is put into your graveyard that turn. You reach rock bottom at 0.)
 Rock bottom — Helenne&apos;s Zealot gets +2/+1 and has ward {2}.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/178.png" num="53">TBC</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/178.png" num="52">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4031,8 +4032,8 @@ Players can&apos;t create tokens.</text>
 		</card>
 		<card>
 			<name>Cherished Keepsake</name>
-			<text>Whenever one or more cards are put into an opponent&apos;s graveyard from anywhere, exile twice that many cards from the top of their library.
-{3}, {T}, Sacrifice Cherished Keepsake: Exile target opponent&apos;s graveyard.</text>
+			<text>Whenever one or more cards are put into an opponent&apos;s graveyard from anywhere, exile one of them.
+{3}, {T}, Sacrifice Cherished Keepsake: Exile target opponent&apos;s graveyard. Draw a card.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/220.png" num="248">TBC</set>
 			<prop>
 				<layout>normal</layout>
@@ -4064,7 +4065,7 @@ Players can&apos;t create tokens.</text>
 		<card>
 			<name>Die Tonight, Live Forever</name>
 			<text>As Die Tonight, Live Forever enters, exile each other nonland, nonenchantment permanent you control.
-Once each turn, you may cast a spell from your hand if it&apos;s mana value is equal to or less than the number of cards exiled by Die Tonight, Live Forever.
+Once each turn, you may cast a spell from your hand without paying its mana cost if it&apos;s mana value is equal to or less than the number of cards exiled by Die Tonight, Live Forever.
 At the beginning of your end step, you may cast a card exiled by Die Tonight, Live Forever without paying its mana cost.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/222.png" num="192">TBC</set>
 			<prop>
@@ -4332,7 +4333,7 @@ Whenever you discard a card, copy it. You may cast the copy without paying its m
 			<name>From Evergreen Gardens</name>
 			<text>Whenever you cast your first spell each turn, create a Treasure token.
 Whenever you cast your second spell each turn, create a 2/2 green Wolf creature token.
-Whenever you cast your third spell each turn, creatures you control get +3/+3 and gain trample until end of turn.</text>
+Whenever you cast your third spell each turn, target creature you control get +3/+3 and gains trample until end of turn.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/236.png" num="160">TBC</set>
 			<prop>
 				<layout>normal</layout>
@@ -4400,7 +4401,7 @@ Choose one or more —
 • Scry 2, then draw a card.
 • Copy target instant or sorcery spell you control. You may choose new targets for the copy.
 You may cast this spell from your graveyard if you&apos;ve cast a spell from anywhere other than your hand this turn. If it would be put into a graveyard, exile it.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/239.png" num="52">TBC</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/239.png" num="51">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4523,7 +4524,7 @@ Choose any number of creatures with different powers. Put a +1/+1 counter on eac
 		</card>
 		<card>
 			<name>This Stage is a Prison</name>
-			<text>Each player exiles their hand and the top ten cards of their library. Starting with you, for each player, one of that player&apos;s opponents chooses any number of nonland cards with at least a total mana value of 8 not named This Stage is a Prison they exiled this way. That player may cast any number of cards chosen this way without paying their mana costs. This Stage is a Prison deals 10 damage to each player who didn&apos;t cast any spells this way.</text>
+			<text>Each player exiles the top card of their library until they have exiled cards with total mana value 8 or greater this way then exiles their hand. Starting with you, for each player, one of that player&apos;s opponents chooses any number of cards with a total mana value of at least 8 total mana value. That player may cast any number of cards chosen this way without paying their mana costs.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/TBC-files/img/245.png" num="147">TBC</set>
 			<prop>
 				<layout>normal</layout>
@@ -4668,7 +4669,7 @@ When The Pattern&apos;s Gardener enters, gain life equal to its power.</text>
 		<card>
 			<name>Rider of Blooms</name>
 			<text>Trample
-At the beginning of your end step, put a +1/+1 counter on each creature you control with power X or less, where X is greatest mana value among creatures you control.
+At the beginning of each end step, put a +1/+1 counter on each creature you control with power X or less, where X is greatest mana value among creatures you control.
 When Rider of Blooms dies, you may exile it if you control five or fewer lands. If you do, create a token that&apos;s a copy of it without this ability.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/TBC-files/img/252.png" num="173">TBC</set>
 			<prop>
@@ -4676,8 +4677,8 @@ When Rider of Blooms dies, you may exile it if you control five or fewer lands. 
 				<side>front</side>
 				<type>Creature — Azra Knight</type>
 				<maintype>Creature</maintype>
-				<manacost>2GG</manacost>
-				<cmc>4</cmc>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 				<pt>5/5</pt>
@@ -4778,11 +4779,11 @@ When Rider of Dusk dies, you may exile it if you control no creatures. If you do
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Eyes Go Arctic</name>
+			<name>Intercept the Arrow of Time</name>
 			<text>Choose one —
-• Counter target spell if it was cast from a graveyard or exile.
+• Counter target spell that wasn&apos;t cast from its owner&apos;s hand.
 • Counter target spell if its mana value is greater than the amount of mana spent to cast it.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/258.png" num="47">TBC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/258.png" num="53">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
