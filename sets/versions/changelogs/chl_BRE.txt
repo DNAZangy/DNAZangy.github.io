@@ -1,4 +1,488 @@
-﻿VERSION 9 CHANGELOG
+﻿VERSION 10 CHANGELOG
+====================
+
+Somerled, Keeper of Old Marks added.
+
+Keeper of Old Marks removed.
+
+Labors Without End
+type: Instant => Snow Instant
+rules_text: Choose one —
+• Create a 1/1 white Spirit creature token with flying.
+• Exile up to one target creature, then return it to the battlefield under its owner's control.
+[i]Orate[/i] — Then create a white Saga enchantment token with the mode that wasn't chosen as its r{3}. => Choose one —
+• Create a 1/1 white Spirit creature token with flying.
+• Exile up to one target creature you control, then return it to the battlefield under its owner's control.
+[i]Orate[/i] — Then create a white Saga enchantment token with the mode that wasn't chosen as its r{3}.
+
+Blighted Coil
+type: Creature — Phyrexian Serpent => Snow Creature — Phyrexian Serpent
+
+Call to Elskul
+type: Sorcery => Snow Sorcery
+
+Hearthstring Elder
+type: Creature — Human Bard => Snow Creature — Human Bard
+
+Strike the Invader
+type: Instant => Snow Instant
+
+Stormseer Augur
+type: Creature — Giant Wizard => Snow Creature — Giant Wizard
+
+Reunification of the Elves
+type: Sorcery => Snow Sorcery
+
+Exchange of Faces
+type: Sorcery => Snow Sorcery
+
+Divided Omen
+type: Instant => Snow Instant
+
+Ceaseless Return
+type: Sorcery => Snow Sorcery
+
+Crossing the Aldegard
+type: Sorcery => Snow Sorcery
+
+Reckoning of Flame
+type: Sorcery => Snow Sorcery
+
+Sevalgr Cutpurse
+type: Creature — Human Rogue => Snow Creature — Human Rogue
+
+Oathbreaker's Pike
+type: Enchantment — Aura => Snow Enchantment — Aura
+cost: {B} => {1}{B}
+
+Earn Your Name
+type: Sorcery => Snow Sorcery
+
+Left to Rust
+type: Instant => Snow Instant
+
+Rebuilding Bretagard
+type: Instant => Snow Instant
+
+Glorychanter
+
+Deepwinter Hagi
+rules_text: Haste
+Whenever another creature you control enters, if {S} was spent to cast it, it gains haste until end of turn. => {S}: Target creature gains haste until end of turn.
+
+Littjara Seer
+
+Bannerless Raider
+
+Scornsong Reaper
+rules_text: Flying, haste
+[i]Orate[/i] — When Scornsong Reaper enters, target opponent creates two white Saga enchantment tokens with “r{3}—Create a 1/1 white Spirit creature token with flying.”
+At the beginning of combat on your turn, any opponent may sacrifice a token. If a player does, tap this creature and draw a card. => Flying, haste
+[i]Orate[/i] — When Scornsong Reaper enters, target opponent creates two white Saga enchantment tokens with “r{3}—Create a 1/1 white Spirit creature token with flying.”
+At the beginning of combat on your turn, any opponent may sacrifice a nonland permanent. If a player does, tap this creature and draw a card.
+
+Oilbound Spawn
+
+Cliffthrower
+cost: {6}{R}{R} => {6}{R}{G}
+rules_text: This spell costs {1} less to cast for each nonbasic land your opponents control.
+Trample, menace
+{2}{R}, Sacrifice a land: Cliffthrower deals 3 damage to any noncreature target. => This spell costs {1} less to cast for each nonbasic land your opponents control.
+Trample, menace
+{2}{R}, Sacrifice a land: Cliffthrower deals 3 damage to any noncreature target.
+Trollcycling {R}{G} [i]({R}{G}, Discard this card: Search your library for a Troll card, reveal it, put it into your hand, then shuffle.)[/i]
+
+Gladewalker Emissary
+rules_text: Changeling [i](This card is every creature type.)[/i]
+When Gladewalker Emissary enters, search your library for a double faced or snow land card, reveal it, put it into your hand, then shuffle.
+{4}{S}{S}: Creatures you control get +2/+2 until end of turn. => Changeling [i](This card is every creature type.)[/i]
+When Gladewalker Emissary enters, search your library for a snow land card, reveal it, put it into your hand, then shuffle.
+{4}{S}{S}: Creatures you control get +2/+2 until end of turn.
+
+Tales Retold
+
+Aldegar, Searching for Stars
+
+Jarl of the Empty House
+
+Cairnsplitter
+cost: {R}{G} => {R}{R}
+rules_text: Cairnsplitter has hexproof as long as you control five or more snow permanents.
+{S}: Target creature gains your choice of haste, trample, or vigilance until end of turn.
+Trollcycling {R}{G} [i]({R}{G}, Discard this card: Search your library for a Troll card, reveal it, put it into your hand, then shuffle.)[/i] => As long as you control five or more snow permanents, Cairnsplitter has “Ward—Pay 5 life.”
+{S}: Target creature gains your choice of haste, trample, or menace until end of turn.
+
+Runeshield Shepherd
+rules_text: Flying
+When Runeshield Shepherd enters, exile target nonland permanent you don't control until Runeshield Shepherd leaves the battlefield. 1WW — 5 => Unbound {1}{W}{W} — 5/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Flying
+When Runeshield Shepherd enters, exile target nonland permanent you don't control until Runeshield Shepherd leaves the battlefield.
+special_text: Flying
+When Runeshield Shepherd enters, exile target nonland permanent you don't control until Runeshield Shepherd leaves the battlefield. 1WW — 5 => Unbound {1}{W}{W} — 5/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Flying
+When Runeshield Shepherd enters, exile target nonland permanent you don't control until Runeshield Shepherd leaves the battlefield.
+
+Whispering Tempters
+
+Reidane's Outriders
+rules_text: Lifelink
+When Reidane's Outriders enters, put a +1/+1 counter on each of up to two other target creatures you control. 2W — 3 => Unbound {2}{W} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Lifelink
+When Reidane's Outriders enters, put a +1/+1 counter on each of up to two other target creatures you control.
+special_text: Lifelink
+When Reidane's Outriders enters, put a +1/+1 counter on each of up to two other target creatures you control. 2W — 3 => Unbound {2}{W} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Lifelink
+When Reidane's Outriders enters, put a +1/+1 counter on each of up to two other target creatures you control.
+
+Shepherd Aspirant
+rules_text: [i]Orate[/i] — When Shepherd Aspirant enters, if you cast it, create a white Saga enchantment token with “r{3}—Exile up to one target creature, then return it to the battlefield under its owner's control.” => [i]Orate[/i] — When Shepherd Aspirant enters, if you cast it, create a white Saga enchantment token with “r{3}—Exile up to one target creature you control, then return it to the battlefield under its owner's control.”
+
+Aurora Charger
+
+Harried Covewalker
+rules_text: Changeling [i](While a creature, this card is every creature type.)[/i]
+When Harried Covewalker enters, you may return another target nonland permanent to its owner's hand. 1U — 4 (While a creature, this card is every creature type.)[/i]
+ => Unbound {1}{U} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Changeling [i](While a creature, this card is every creature type.)[/i]
+When Harried Covewalker enters, you may return another target nonland permanent to its owner's hand.
+special_text: Changeling [i](While a creature, this card is every creature type.)[/i]
+When Harried Covewalker enters, you may return another target nonland permanent to its owner's hand. 1U — 4 (While a creature, this card is every creature type.)[/i]
+ => Unbound {1}{U} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Changeling [i](While a creature, this card is every creature type.)[/i]
+When Harried Covewalker enters, you may return another target nonland permanent to its owner's hand.
+
+Vela Heights Colossus
+rules_text: Vigilance
+When Vela Heights Colossus enters, scry 3, then draw a card. 1U — 4 => Unbound {1}{U} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Vigilance
+When Vela Heights Colossus enters, scry 3, then draw a card.
+special_text: Vigilance
+When Vela Heights Colossus enters, scry 3, then draw a card. 1U — 4 => Unbound {1}{U} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Vigilance
+When Vela Heights Colossus enters, scry 3, then draw a card.
+
+Spirit of Borrowed Deeds
+
+Torn Between Duties
+
+Jormund Adjudicator
+
+Graveward Keeper
+rules_text: When Graveward Keeper enters, create two 2/2 black Zombie Warrior creature tokens. 3B — 4 => Unbound {3}{B} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+When Graveward Keeper enters, create two 2/2 black Zombie Warrior creature tokens.
+special_text: When Graveward Keeper enters, create two 2/2 black Zombie Warrior creature tokens. 3B — 4 => Unbound {3}{B} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+When Graveward Keeper enters, create two 2/2 black Zombie Warrior creature tokens.
+
+Chained Ravager
+rules_text: At the beginning of your upkeep, each opponent loses 1 life and you gain 1 life. 1BB — 5 => Unbound {1}{B}{B} — 5/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of your upkeep, each opponent loses 1 life and you gain 1 life.
+special_text: At the beginning of your upkeep, each opponent loses 1 life and you gain 1 life. 1BB — 5 => Unbound {1}{B}{B} — 5/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of your upkeep, each opponent loses 1 life and you gain 1 life.
+
+Omen of Fright
+
+Surtland Marauder
+rules_text: When Surtland Marauder enters, it deals 2 damage to any other target. R — 4 => Unbound {R} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+When Surtland Marauder enters, it deals 2 damage to any other target.
+special_text: When Surtland Marauder enters, it deals 2 damage to any other target. R — 4 => Unbound {R} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+When Surtland Marauder enters, it deals 2 damage to any other target.
+
+Firesong Braggart
+
+Overbearing Lightning
+
+Goldhoard Howler
+rules_text: During your turn, Goldhoard Howler has first strike.
+When Goldhoard Howler enters, create two tapped snow Treasure tokens. 2R — 3 => Unbound {2}{R} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+During your turn, Goldhoard Howler has first strike.
+When Goldhoard Howler enters, create two tapped snow Treasure tokens.
+special_text: During your turn, Goldhoard Howler has first strike.
+When Goldhoard Howler enters, create two tapped snow Treasure tokens. 2R — 3 => Unbound {2}{R} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+During your turn, Goldhoard Howler has first strike.
+When Goldhoard Howler enters, create two tapped snow Treasure tokens.
+
+Tithefang
+
+Petrified Hermit
+rules_text: Reach
+Whenever Petrified Hermit enters, search your library for a basic land card, put it onto the battlefield, then shuffle. 2G — 3 => Unbound {2}{G} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Reach
+Whenever Petrified Hermit enters, search your library for a basic land card, put it onto the battlefield, then shuffle.
+special_text: Reach
+Whenever Petrified Hermit enters, search your library for a basic land card, put it onto the battlefield, then shuffle. 2G — 3 => Unbound {2}{G} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Reach
+Whenever Petrified Hermit enters, search your library for a basic land card, put it onto the battlefield, then shuffle.
+
+Gladebond Protector
+rules_text: When Gladebond Protector enters, create a 1/1 green Elf Warrior creature token. G — 3 => Unbound {G} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+When Gladebond Protector enters, create a 1/1 green Elf Warrior creature token.
+special_text: When Gladebond Protector enters, create a 1/1 green Elf Warrior creature token. G — 3 => Unbound {G} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+When Gladebond Protector enters, create a 1/1 green Elf Warrior creature token.
+
+Triumphant Defeat
+
+Feltmark Violinist
+
+Laid Among the Roots
+
+Maja, Bretagard's Heart
+
+Bloodsky Conqueror
+rules_text: Flying
+When Bloodsky Conqueror enters, it deals 10 damage to each other battle. 2BR — 4 => Unbound {2}{B}{R} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Flying
+When Bloodsky Conqueror enters, it deals 10 damage to each other battle.
+special_text: Flying
+When Bloodsky Conqueror enters, it deals 10 damage to each other battle. 2BR — 4 => Unbound {2}{B}{R} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Flying
+When Bloodsky Conqueror enters, it deals 10 damage to each other battle.
+
+Axgard Warden
+rules_text: Flash
+When Axgard Warden enters, it deals damage to target creature or planeswalker you don't control equal to the number of creatures you control. 1W — 4 => Unbound {1}{W} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Flash
+When Axgard Warden enters, it deals damage to target creature or planeswalker you don't control equal to the number of creatures you control.
+special_text: Flash
+When Axgard Warden enters, it deals damage to target creature or planeswalker you don't control equal to the number of creatures you control. 1W — 4 => Unbound {1}{W} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Flash
+When Axgard Warden enters, it deals damage to target creature or planeswalker you don't control equal to the number of creatures you control.
+
+Curse-Bound Wayfarer
+rules_text: Lifelink
+Each player can't cast more than one noncreature spell each turn. 2W — 3 => Unbound {2}{W} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Lifelink
+Each player can't cast more than one noncreature spell each turn.
+special_text: Lifelink
+Each player can't cast more than one noncreature spell each turn. 2W — 3 => Unbound {2}{W} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Lifelink
+Each player can't cast more than one noncreature spell each turn.
+
+Beskir Lawspeaker
+
+Storysmith of the Hearth
+
+Righteous Roar
+
+Rimebound Mystic
+rules_text: Trample
+When Rimebound Mystic enters, draw three cards. 3UU — 5 => Unbound {3}{U}{U} — 5/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Trample
+When Rimebound Mystic enters, draw three cards.
+special_text: Trample
+When Rimebound Mystic enters, draw three cards. 3UU — 5 => Unbound {3}{U}{U} — 5/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Trample
+When Rimebound Mystic enters, draw three cards.
+
+Surtland Subduer
+rules_text: Flying
+{S}, {T}: Tap target nonland permanent. 1UU — 5 => Unbound {1}{U}{U} — 5/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Flying
+{S}, {T}: Tap target nonland permanent.
+special_text: Flying
+{S}, {T}: Tap target nonland permanent. 1UU — 5 => Unbound {1}{U}{U} — 5/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Flying
+{S}, {T}: Tap target nonland permanent.
+
+Weaver of False Tales
+
+Remnant of Karfell
+rules_text: At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life. B — 3 => Unbound {B} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life.
+special_text: At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life. B — 3 => Unbound {B} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 3 life.
+
+Selfcrowned Skald
+
+Festering Rebirth
+
+Flamesight Augur
+rules_text: Prowess
+When Flamesight Augur enters, exile the top three cards of your library. You may play them until the end of your next turn. 2R — 5 => Unbound {2}{R} — 5/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Prowess
+When Flamesight Augur enters, exile the top three cards of your library. You may play them until the end of your next turn.
+special_text: Prowess
+When Flamesight Augur enters, exile the top three cards of your library. You may play them until the end of your next turn. 2R — 5 => Unbound {2}{R} — 5/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Prowess
+When Flamesight Augur enters, exile the top three cards of your library. You may play them until the end of your next turn.
+
+Sagaweaver of Koma
+
+Coilseeker
+
+Burrowed Torga
+rules_text: Burrowed Torga's power is equal to the number of lands you control.
+Lands you control enter the battlefield untapped. 1G — 3 => Unbound {1}{G} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Burrowed Torga's power is equal to the number of lands you control.
+Lands you control enter the battlefield untapped.
+special_text: Burrowed Torga's power is equal to the number of lands you control.
+Lands you control enter the battlefield untapped. 1G — 3 => Unbound {1}{G} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Burrowed Torga's power is equal to the number of lands you control.
+Lands you control enter the battlefield untapped.
+
+Whisperer to the Realmeater
+
+Protector of the Eight Doors
+rules_text: Creatures can't attack you or battles you protect unless their controller pays {2} for each creature they control that's attacking you or a battle you protect. 2W — 4 => Unbound {2}{W} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Creatures can't attack you or battles you protect unless their controller pays {2} for each creature they control that's attacking you or a battle you protect.
+special_text: Creatures can't attack you or battles you protect unless their controller pays {2} for each creature they control that's attacking you or a battle you protect. 2W — 4 => Unbound {2}{W} — 4/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Creatures can't attack you or battles you protect unless their controller pays {2} for each creature they control that's attacking you or a battle you protect.
+
+Reciter of Tales
+
+Speaker of Bretagard
+
+Runebound Mentor
+rules_text: At the beginning of your upkeep, you may draw a card. 1UU — 5 => Unbound {1}{U}{U} — 5/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of your upkeep, you may draw a card.
+special_text: At the beginning of your upkeep, you may draw a card. 1UU — 5 => Unbound {1}{U}{U} — 5/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+At the beginning of your upkeep, you may draw a card.
+
+Surtland Lumberjack
+rules_text: Trample
+At the beginning of combat on your turn, exile the top card of your library. You may then create a 1/1 red Berserker creature token with haste. If you don't, you may play the exiled card this turn. 2RR — 6 => Unbound {2}{R}{R} — 6/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Trample
+At the beginning of combat on your turn, exile the top card of your library. You may then create a 1/1 red Berserker creature token with haste. If you don't, you may play the exiled card this turn.
+special_text: Trample
+At the beginning of combat on your turn, exile the top card of your library. You may then create a 1/1 red Berserker creature token with haste. If you don't, you may play the exiled card this turn. 2RR — 6 => Unbound {2}{R}{R} — 6/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Trample
+At the beginning of combat on your turn, exile the top card of your library. You may then create a 1/1 red Berserker creature token with haste. If you don't, you may play the exiled card this turn.
+
+Ciar's Fleshroot
+rules_text: Vigilance
+You may play an additional land on each of your turns. 1G — 3 => Unbound {1}{G} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Vigilance
+You may play an additional land on each of your turns.
+special_text: Vigilance
+You may play an additional land on each of your turns. 1G — 3 => Unbound {1}{G} — 3/ [i](You may cast this spell as a Conflict battle protected by an opponent. It becomes a creature when defeated.)[/i]
+Vigilance
+You may play an additional land on each of your turns.
+
+Ode to Discovery
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Saevel calls from beyond the snow,
+To paths untouched by hearth or throne,
+Where only wandering feet may go.”[/i]
+III — Exile up to one target creature, then return it to the battlefield under its owner's control.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Saevel calls from beyond the snow,
+To paths untouched by hearth or throne,
+Where only wandering feet may go.”[/i]
+III — Exile up to one target creature you control, then return it to the battlefield under its owner's control.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Saevel calls from beyond the snow,
+To paths untouched by hearth or throne,
+Where only wandering feet may go.”[/i]
+III — Exile up to one target creature, then return it to the battlefield under its owner's control.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Saevel calls from beyond the snow,
+To paths untouched by hearth or throne,
+Where only wandering feet may go.”[/i]
+III — Exile up to one target creature you control, then return it to the battlefield under its owner's control.
+​
+
+Ode to Kin
+
+Ode to Returns
+
+Ode to the Departed
+
+Ode to Visions
+
+Ode to Ashes
+
+Ode to Binding
+
+Ode to Dread
+
+Ode to Folly
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“Her voice rang fierce in midnight air,
+Unknowing of the demon's glare—
+A tale cut short, stripped cold and bare.”[/i]
+III — Create a 6/6 black Demon creature token. You lose 6 life unless you sacrifice a Cleric.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“Her voice rang fierce in midnight air,
+Unknowing of the demon's glare—
+A tale cut short, stripped cold and bare.”[/i]
+III — Create a 6/6 black Demon creature token. You lose 6 life unless you sacrifice a Bard.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“Her voice rang fierce in midnight air,
+Unknowing of the demon's glare—
+A tale cut short, stripped cold and bare.”[/i]
+III — Create a 6/6 black Demon creature token. You lose 6 life unless you sacrifice a Cleric.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — [i]“Her voice rang fierce in midnight air,
+Unknowing of the demon's glare—
+A tale cut short, stripped cold and bare.”[/i]
+III — Create a 6/6 black Demon creature token. You lose 6 life unless you sacrifice a Bard.
+​
+
+Ode to the Vessel
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Split the soul, and twist the bone.
+Let it walk, but not alone.”[/i]
+III — Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can't, each opponent loses 1 life and you gain 1 life.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — “[i]Split the soul, and twist the bone.
+Let it walk, but not alone.”[/i]
+II, III — Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can't, each opponent loses 1 life and you gain 1 life.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]Split the soul, and twist the bone.
+Let it walk, but not alone.”[/i]
+III — Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can't, each opponent loses 1 life and you gain 1 life.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — “[i]Split the soul, and twist the bone.
+Let it walk, but not alone.”[/i]
+II, III — Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can't, each opponent loses 1 life and you gain 1 life.
+​
+
+Ode to Cunning
+
+Ode to the Storm
+
+Ode to Exploration
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]The waves have carried us afar,
+Through omenpaths both wide and strange,
+Till home remembers where we are.”[/i]
+III — Search your library for a land card, reveal it, put it into your hand, then shuffle.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]The waves have carried us afar,
+Through Omenpaths both wide and strange,
+Till home remembers where we are.”[/i]
+III — Search your library for a land card, reveal it, put it into your hand, then shuffle.
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]The waves have carried us afar,
+Through omenpaths both wide and strange,
+Till home remembers where we are.”[/i]
+III — Search your library for a land card, reveal it, put it into your hand, then shuffle.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — “[i]The waves have carried us afar,
+Through Omenpaths both wide and strange,
+Till home remembers where we are.”[/i]
+III — Search your library for a land card, reveal it, put it into your hand, then shuffle.
+​
+
+Ode to Renewal
+
+Ode to the Clans
+
+Ode to Valor
+
+Ode to the Hunt
+
+Ode to Pursuit
+
+Ode to Obedience
+
+Ode to Legacy
+
+
+VERSION 9 CHANGELOG
 ====================
 
 Moment's Hindrance added.

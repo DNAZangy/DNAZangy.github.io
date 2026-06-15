@@ -1,4 +1,539 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+New Divide added.
+
+Evolving Wilds removed.
+
+Ludolf, Out of Touch
+rules_text: Begin your breakdown. [i](It begins at 4 and decreases by 1 on each of your turns when the second card is put into your graveyard that turn. You reach rock bottom at 0.)[/i]
+Rock Bottom — You may activate Ludolf's loyalty abilities twice each turn rather than once.
+[+1]: Each player discards a card.
+[-2]: Each opponent sacrifices a permanent with the lowest mana value among nonland permanents they control. => Begin your breakdown. [i](It begins at 4 and decreases by 1 on each of your turns when the second card is put into your graveyard that turn. You reach rock bottom at 0.)[/i]
+[+1]: Each player discards a card. Then draw a card if you're at rock bottom.
+[-2]: Any number of target players each sacrifices a nonland permanent. If you sacrificed a permanent or you're at rock bottom, return a creature card from your graveyard to your hand.
+special_text: Begin your breakdown. [i](It begins at 4 and decreases by 1 on each of your turns when the second card is put into your graveyard that turn. You reach rock bottom at 0.)[/i]
+Rock Bottom — You may activate Ludolf's loyalty abilities twice each turn rather than once.
+[+1]: Each player discards a card.
+[-2]: Each opponent sacrifices a permanent with the lowest mana value among nonland permanents they control. => Begin your breakdown. [i](It begins at 4 and decreases by 1 on each of your turns when the second card is put into your graveyard that turn. You reach rock bottom at 0.)[/i]
+[+1]: Each player discards a card. Then draw a card if you're at rock bottom.
+[-2]: Any number of target players each sacrifices a nonland permanent. If you sacrificed a permanent or you're at rock bottom, return a creature card from your graveyard to your hand.
+
+Elissia, Heart in a Headlock
+
+Helenne's Charm
+
+Nimrea's Charm
+
+Elwyn's Charm
+
+Drevos's Charm
+
+Igrath's Charm
+
+Ilyan's Charm
+
+Pale Knight
+
+Candlevane Arcanist
+
+Ashenreach Raider
+
+Nimrea's Marshal
+
+Give It All
+
+Galveth Lancer
+
+Thornmere Reaver
+
+Scarlet Crusader
+
+Elwyn's Scholar
+
+Gracehold Soldier
+
+Galveth Runner
+
+Make You Bleed
+
+Embervast Cinderhorn
+
+Bones Stay Strong
+
+Heavenshold Supplicant
+
+Telomend Spellblade
+
+Crusher of Crops
+
+Veyran's Champion
+
+Where the Story Goes
+rules_text: Look at the top three cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+Flashback {4}{GU}{GU} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Mill three cards. You may return a creature or land card milled this way to your hand.
+Flashback {4}{GU}{GU} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Goldenmarch Aide
+
+Seeking Skulker
+
+Maddening Shroud
+
+Galveth Marauder
+
+Vigil Mourner
+
+Wandering Sentry
+
+Leviathan of the Weave
+
+Corpse Reader
+
+Galveth Sorcerer
+
+Shaper of the Pattern
+
+Stay a Little Longer
+rules_text: Create a 1/1 white Spirit creature token with flying. It can't block this turn.
+Flashback {1}{W} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Create a 1/1 white Spirit creature token with flying. It can't block this turn.
+Flashback {W} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Faces in Condensation
+
+Must Be Dreaming
+
+Ashenreach Packcaller
+
+Arcadian Aspirant
+
+Sacred Guardian
+
+Tides Carry You Back
+
+Duress
+
+Paindrunk Pyromancer
+
+Telomend Sentinel
+
+Iridescent Warden
+
+Tell Tale Scholar
+
+The Dreamer's Decree
+
+Conceited Firestarter
+
+Branching Maze Crawler
+
+Constant Warden
+
+Drifting Phantasm
+
+Blazing Skirmisher
+
+Thornmere Crusher
+
+Drifting Pathfinder
+
+Adherent of Vraxxis
+
+Heavenshold Revenant
+
+Telomend Channeler
+
+Done Dancing
+
+Fall from the Heavens
+
+Flutter
+
+Dusk Raider
+
+Embervast Defiler
+
+Give Back in Kind
+
+Corveith Operative
+
+Fire from the Heavens
+
+Arcadian Forager
+
+Duty
+
+Vertigo of Bliss
+
+Unbound Stalker
+
+Chokehold
+
+Even in Arcadia
+
+Resist the Violence
+
+Conqueror of Nightmares
+
+High Water Deserter
+
+Arms Still Swinging
+
+Arcadian Iron Guard
+
+Unwise Bargain
+
+Old Kingdoms Rising
+
+Light Up the Sky
+
+Graneth Intimidator
+
+Annals Collector
+
+Oilskin Colossus
+
+Dream Surgeon
+
+Through Death, Action
+
+Melody of Silence
+
+Sage of the Final Parallel
+
+Thornmere Reaper
+
+Scarlet Hunt
+
+Goldenmarch Champion
+
+Heavensent Sentinel
+
+Past Lives Sage
+
+Graneth Caller
+
+Ignited Mage
+
+Goldenmarch Tender
+
+Tidal Scholar
+
+Breaker of Structures
+
+Thornweb Trapper
+
+Tide Carried Ghost
+
+Goodnight and Go
+cost: {1}{U} => {U}{U}
+rules_text: Return up to two target creatures with total mana value 4 or less to their owner's hands. => Return up to two target creatures with total mana value 4 or less you don't control to their owner's hands.
+
+Valeshorn Stalwart
+
+Misery's Spiral
+
+Stalker of the Evergreens
+
+Psychobabble
+rules_text: Counter target spell unless its controller unravels {3}. If they do, create a 2/2 blue Spirit creature token with flying. => Counter target spell unless its controller unravels {3}. If they do, create a 2/2 blue Spirit creature token with flying. [i](While paying an unravel cost, a player can exile cards from their graveyard. Each card pays for {1}.)[/i]
+
+Ashenreach Herald
+
+Army of Two
+
+Telomend Whisperer
+
+Goldenmarch Soldier
+
+Telomend Knight
+
+Visceral Rite
+
+Graneth Dragoon
+
+Evergreen Hierarch
+
+Lovelorn Spirit
+rules_text: Vigilance
+Other Spirits you control have vigilance.
+Sacrifice Lovelorn Spirit: Target Spirit you control phases out. [i](Treat it and anything attached to it as though they don't exist until its controller's next turn.)[/i] => Vigilance
+Other Spirits you control have vigilance.
+Sacrifice Lovelorn Spirit: Another target Spirit you control phases out. [i](Treat it and anything attached to it as though they don't exist until its controller's next turn.)[/i]
+
+Scholar's Delight
+
+Past the Edge
+
+Galveth Cavalier
+
+Resilience
+
+Lifeline Devotee
+
+Stormy Sea Drake
+
+Dream's Inquisitor
+
+Lifeline Warden
+
+Arcadian Arbiter
+
+Crystalline Compass
+
+Corveith Reaver
+
+Blazing Hussar
+
+Cultivator of the Pattern
+
+Prismatic Striker
+
+Bad Body Double
+
+Hollowed Host
+
+Empty Road Skirmisher
+
+Jaws of Fate
+
+Scarlet Avenger
+
+Dawnmere Haunt
+
+Candlevane Wraith
+
+Evergreen Stag
+
+Crumbling Heart
+
+Magnanimous Magistrate
+
+Pensive Dragoon
+rules_text: Flying, ward {1}
+Begin your breakdown. [i](It begins at 4 and decreases by 1 on each of your turns when the second card is put into your graveyard that turn. You reach rock bottom at 0.)[/i]
+Pensive Dragoon can't attack or block unless the number of cards in your hand is more than twice the your level of breakdown. => Flying
+Begin your breakdown. [i](It begins at 4 and decreases by 1 on each of your turns when the second card is put into your graveyard that turn. You reach rock bottom at 0.)[/i]
+Pensive Dragoon can't attack or block unless the number of cards in your hand is more than your level of breakdown.
+pt: 3/4 => 3/3
+
+Blacklit Revivalist
+
+Red River Corsair
+
+The Pattern's Gift
+
+Mouth of Infinity
+cost: {7}{W} => {6}{W}
+
+Minds Without Fear
+
+Invoker of Vorkath
+
+Arcadian Arcanist
+
+Harmonic Tender
+
+Neglected Spires Phantom
+
+Weft Revenant
+
+Silencer of the Dream
+
+Angry Angel
+
+Skittering Behemoth
+
+Fractured Saint
+
+Telomend Infiltrator
+
+Dominion's End
+
+Flex on a Full Moon
+
+Total Dominion
+type: Instant => Sorcery
+
+Monitoring Orator
+
+Fabricated Ballad
+
+Splitting Skin
+
+Unspoken Devotee
+
+Viscerath Abomination
+
+Abandoning Heaven
+
+Helenne's Zealot
+
+Blacklit Harbinger
+
+Burning Bright
+
+Sanctuary of the Pattern
+
+Hollow Coronation
+
+Clear the Area
+
+Blacklit Hierophant
+
+Ashenreach Hellhound
+
+Not Getting Any Better
+
+What Have You Done to Me?
+
+Ludolf's Runner
+
+The Night Does Not Belong to God
+
+Elwyn of Scale and Leaf
+
+Reclaim the Vessel
+
+Dreams of Conquering
+
+Solath, the Hollow
+rules_text: Whenever Solath, the Hollow enters or attacks, surveil 1.
+At the beginning of your first main phase, you may unravel {X}{X}. When you do, return target creature card with mana value X or less from your graveyard to the battlefield with a finality counter on it. [i](While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)[/i] => Whenever Solath, the Hollow enters or attacks, surveil 1.
+At the beginning of your first main phase, you may unravel {X}{X}. When you do, return target creature card with mana value X or less from your graveyard to the battlefield with a finality counter on it.
+
+Veyran, Devoted of Nimrea
+
+Shivery Cocoon
+
+Golden Lodestone
+
+Telomend Archive
+
+Overgrown Farmland
+
+Deserted Beach
+
+Rockfall Valley
+
+Shattered Sanctum
+
+Shipwreck Marsh
+
+Stormcarved Coast
+
+Sundown Pass
+
+Fracture Point
+
+Haunted Ridge
+
+Dreamroot Cascade
+
+Dawnmere Crossing
+
+Garden of Stories
+
+Ash Barrens
+
+Grief Engine
+
+Crystalline Custodian
+
+The Listening Chair
+cost: {1}{W}{U} => {W}{U}
+
+Heartfire Blademaster
+
+Contractor of the Weave
+
+Just For Now
+
+Heavenshold Martyr
+
+Cindermark, Heart of Fire
+
+Contracted Strike
+
+Open Warfare
+
+Tidal Tender
+rules_text: You may play an additional land on each of your turns.
+At the beginning of your end step, if you didn't play a land this turn, Tidal Tender becomes prepared. This abilities triggers only once. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => You may play an additional land on each of your turns.
+At the beginning of your end step, if you didn't play a land this turn, Tidal Tender becomes prepared. This ability triggers only once. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Arcadian Dealer
+rules_text: Whenever a creature you control becomes the target of a spell or ability an opponent controls, Arcadian Dealer becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => Whenever you or a creature you control becomes the target of a spell or ability an opponent controls, Arcadian Dealer becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+False Sovereign
+
+Path to Eternity
+
+From Evergreen Gardens
+
+Archfiend of the Weave
+
+Seeker of Nothing
+
+Gracious Future
+
+Crumbling Legionnaire
+
+Relentless Arcanist
+
+Vraxxis, Between Worlds
+
+Igrath of the Weave
+rules_text: Indestructible, flying
+Igrath can't attack or block as long as he is prepared.
+Whenever Igrath enters or attacks, prepare him. => Indestructible, flying
+Igrath of the Weave can't attack or block as long as he is prepared.
+At the beginning of your end step, prepare Igrath.
+
+Ilyan of the Pattern
+rules_text: Indestructible, flying
+Ilyan can't attack or block as long as she is prepared.
+Whenever Ilyan enters or attacks, prepare them. => Indestructible, flying
+Ilyan can't attack or block as long as she is prepared.
+At the beginning of your end step, prepare Ilyan.
+
+Helenne, Keeper of Telomend
+
+Drevos of the Dream
+rules_text: Indestructible, flying
+Drevos can't attack or block as long as he is prepared.
+Whenever Drevos enters or attacks, prepare him. => Indestructible, flying
+Drevos of the Dream can't attack or block as long as he is prepared.
+At the beginning of your end step, prepare Drevos.
+
+The Dreamer's Nightmare
+
+Solath, Vessel Adrift
+
+The Pattern's Gardener
+
+Arcadian Cavalry
+
+Locked and Caged
+
+Intercept the Arrow of Time
+
+Sulfur on Breath
+
+Start with a Song
+
+Blessing of Respite
+
+Ravager of the Tangle
+
+Amulet of Dreams
+
+Nimrea, Sovereign of Arcadia
+
+Canvas of Sound
+
+
+VERSION 7 CHANGELOG
 ====================
 
 Intercept the Arrow of Time added.
