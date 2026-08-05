@@ -1,4 +1,445 @@
-﻿VERSION 9 CHANGELOG
+﻿VERSION 10 CHANGELOG
+====================
+
+Sunlit Guardians added.
+
+Sunlit Guardian removed.
+
+Azir's Missionaries
+pt: 0/3 => 0/2
+
+Risen Sand Cavalier
+rules_text: Whenever a creature you control enters, Risen Sand Cavalier gains lifelink until end of turn.
+{2}{V}, Exile Risen Sand Cavalier from your graveyard: Create two tapped 1/1 white Sand Soldier creature tokens. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Risen Sand Cavalier has lifelink as long as a creature entered under your control this turn.
+{1}{cajunhazard.png}, Exile Risen Sand Cavalier from your graveyard: Create two tapped 1/1 white Sand Soldier creature tokens. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Sealed in Darkness
+
+Black Rose Infiltrator
+
+Clockwork Fabricator
+rules_text: When Clockwork Fabricator enters, create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability.”)[/i] => When Clockwork Fabricator enters, create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i]
+
+Baccai Reaper
+
+Scour the Timelines
+rules_text: Look at the top two cards of your library. Put one into your hand and the other on the top or bottom of your library.
+Create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability.”)[/i] => Look at the top two cards of your library. Put one into your hand and the other on the top or bottom of your library.
+Create a tapped Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i]
+
+Gregarious Clockling
+rules_text: {T}, Sacrifice Gregarious Clockling: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability.
+{1}{V}, Exile Gregarious Clockling from your graveyard: Surveil 2, then draw a card. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => {T}, Sacrifice Gregarious Clockling: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.
+{1}{cajunhazard.png}, Exile Gregarious Clockling from your graveyard: Surveil 2, then draw a card. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Tomb's Vigil
+rules_text: Deathtouch
+{1}{V}, Exile this card from your graveyard: Each opponent loses 3 life and you gain 3 life. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Deathtouch
+{1}{cajunhazard.png}, Exile this card from your graveyard: Each opponent loses 3 life and you gain 3 life. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Makaran Toxicologist
+
+Failed Divinity
+
+Shifting Sands
+
+Escaped Drakehound
+
+Endless Devout
+rules_text: Whenever Endless Devout attacks, target creature can't block this turn.
+{5}{V}, Exile Endless Devout from your graveyard: Create a 0/0 colorless Construct artifact creature token and put five +1/+1 counters on it. It can't block this turn. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Whenever Endless Devout attacks, target creature can't block this turn.
+{5}{cajunhazard.png}, Exile Endless Devout from your graveyard: Create a 0/0 colorless Construct artifact creature token and put five +1/+1 counters on it. It can't block this turn. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Tormented Baccai
+rules_text: Menace
+{V}: Tormented Baccai gets +2/+0 until end of turn. => Menace
+{cajunhazard.png}: Tormented Baccai gets +2/+0 until end of turn.
+
+Void Seeker
+
+Icathian Rain
+
+Treacherous Bandit
+type: Creature — Human Soldier => Creature — Human Rogue
+rules_text: Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+Treacherous Bandit gets +4/+0 and has vigilance as long as you have the city's blessing. => Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+Treacherous Bandit gets +3/+1 and has vigilance as long as you have the city's blessing.
+pt: 0/4 => 1/3
+
+Clockhand Golem
+rules_text: Trample
+{1}{V}, Exile Clockhand Golem from your graveyard: You gain 5 life. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Trample
+{1}{cajunhazard.png}, Exile Clockhand Golem from your graveyard: You gain 6 life. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Void-Addled Prophet
+rules_text: When Void-Addled Prophet enters or dies, exile up to two target cards from an opponent's graveyard.
+{1}{W}{W}, Sacrifice Void-Addled Prophet: Search your library for a creature card with mana value 3 or less, reveal it, put it into your hand, then shuffle. => When Void-Addled Prophet enters or dies, exile up to two target cards from an opponent's graveyard.
+{2}{W}{W}, Exile Void-Addled Prophet from your graveyard: Search your library for a creature card with mana value 3 or less, reveal it, put it into your hand, then shuffle.
+
+Azir's Verdict
+type: Instant => Sorcery
+cost: {1}{W} => {W}
+
+Tomb Crawler
+rules_text: Whenever Tomb Crawler becomes blocked, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+{V}: Tomb Crawler can't be blocked this turn. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Whenever Tomb Crawler becomes blocked, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+{cajunhazard.png}: Tomb Crawler can't be blocked this turn. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Timekeeper's Apprentice
+rules_text: Whenever you cast a noncreature spell, you may pay {1}. If you do, create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability.”)[/i] => Whenever you cast a noncreature spell, you may pay {1}. If you do, create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i]
+
+Forgotten Terror
+pt: 7/6 => 6/5
+
+Future's Burden
+
+Shady Appraiser
+
+Priest of Conquest
+rules_text: At the beginning of each of your postcombat main phases, you may sacrifice an artifact or creature. If you sacrificed an artifact this way, create a 1/1 red Warrior creature token. If you sacrificed a creature this way, create a Treasure token. => At the beginning of your second main phase, you may sacrifice an artifact or creature. If you sacrificed an artifact this way, create a 1/1 red Warrior creature token. If you sacrificed a creature this way, create a Treasure token. [i](Do both if you sacrificed an artifact creature.)[/i]
+
+Sandthresher Mount
+cost: {3}{B} => {2}{B}{B}
+
+Deceitful Encouragement
+rules_text: Target opponent reveals their hand. You choose a nonland permanent card from it. That player discards that card. You lose 1 life.
+Flashback—{B}, Sacrifice a creature. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Target opponent reveals their hand. You choose a nonland permanent card from it. That player discards that card. You lose 1 life.
+Flashback—{1}{B}, Sacrifice a creature. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Caravan Marker
+rules_text: Once each turn, when an artifact you control enters, you may exile the top card of your library. You may play it this turn. => Once each turn, when an artifact you control enters, you may discard a card. If you do, draw a card.
+pt: 2/1 => 2/2
+
+Channeler of the Arcane
+pt: 4/2 => 4/3
+
+Xer'Sai Callers
+rules_text: Trample
+When Xer'Sai Callers enters, destroy target permanent unless its controller has Xer'Sai Callers deal damage to them equal to double its mana value. => Trample
+When Xer'Sai Callers enters, destroy target permanent unless its controller has Xer'Sai Callers deal damage to them equal to double that permanent's mana value.
+
+Scavenge the Tombs
+
+Heir to the Sands
+cost: {1}{R} => {R}
+rules_text: If a Desert you control would enter tapped, you may pay 1 life. If you do, it enters untapped.
+Whenever you sacrifice a Desert, exile the top card of your library. You may play it until the end of your next turn. => If a Desert you control would enter tapped, you may pay 1 life. If you do, it enters untapped.
+{2}{R}, Sacrifice Heir to the Sands: Exile three target Desert cards from your graveyard. If you do, exile the top three cards of your library. You may play up to three cards exiled this way until the beginning of your next end step.
+
+Amakra Refugee
+rules_text: Whenever Amakra Refugee attacks, it traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Whenever Amakra Refugee becomes the target of a spell or ability, it traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i]
+pt: 3/3 => 2/1
+
+Corrosive Arachnid
+rules_text: Reach
+When Corrosive Arachnid enters, if you control three or more creatures, you may destroy target artifact or enchantment. => Reach
+When Corrosive Arachnid enters, you may destroy target artifact or enchantment if you control three or more creatures or its mana value is 0.
+
+Great Sai Merchant
+pt: 1/2 => 1/1
+
+Sandstone Charger
+
+Saijax Cail-Rynx Kohari Icath'un
+cost: {1}{W} => {W}{W}
+pt: 3/2 => 3/3
+
+Khahiri, Chosen Through Time
+rules_text: Flash
+When Khahiri attacks, mill four cards, then return up to one permanent card and up to one instant or sorcery card milled this way to your hand.
+At the beginning of your end step, shuffle Khahiri into your library, then create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability.”)[/i] => Flash
+When Khahiri attacks, mill four cards, then return up to one permanent card and up to one instant or sorcery card milled this way to your hand.
+At the beginning of your end step, shuffle Khahiri into your library, then create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i]
+
+Herald of the Magus
+pt: 2/4 => 4/4
+
+Capture the Sun
+rules_text: Create two tokens that are each copies of target artifact or creature you control. => Create a token that's a copy of target artifact or creature you control.
+Create a token that's a copy of target artifact or creature you control.
+
+Visions of the Future
+rules_text: Surveil 3, then draw two cards.
+Flashback {4}{V}{V} [i](You may cast this card from your graveyard for its flashback cost. Then exile it. Spend only colored mana produced by effects that add mana of any color to pay {V}.)[/i] => Surveil 3, then draw two cards.
+Flashback {3}{cajunhazard.png}{cajunhazard.png} [i](You may cast this card from your graveyard for its flashback cost. Then exile it. Spend only colored mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Void Abomination
+rules_text: Flying
+When Void Abomination enters, draw three cards.
+At the beginning of your end step, you may discard any number of cards. Then you lose 2 life for each card in your hand. => Flying
+When Void Abomination enters, draw two cards.
+At the beginning of your end step, you may discard any number of cards. Then you lose 1 life for each card in your hand.
+pt: 3/3 => 4/4
+
+Relentless Sandthresher
+cost: {2}{R} => {1}{R}
+rules_text: Haste
+Whenever a Desert you control enters, you may cast Relentless Sandthresher from your graveyard. => Haste
+When Relentless Sandthresher dies, you may sacrifice a Desert. If you do, return it to the battlefield tapped.
+pt: 3/2 => 2/2
+
+Gorging Monstrosity
+
+Radiance of the Ascended
+cost: {2}{G}{G} => {1}{G}{G}
+
+Into the Rift
+rules_text: Exile the top eight cards of your library. An opponent puts three time counters on a nonland card exiled this way, then two on another nonland, and then one on another nonland. Each card that had a time counter put on it this way that doesn't have suspend gains suspend. [i](At the beginning of its your upkeep, remove a time counter. When the last is removed, you may play it for free. If it's a creature, it has haste.)[/i] => Exile the top card of your library until you exile five nonland cards. An opponent puts three time counters on a nonland card exiled this way, then two on another nonland, and then one on another nonland. Each card that had a time counter put on it this way that doesn't have suspend gains suspend. [i](At the beginning of its your upkeep, remove a time counter. When the last is removed, you may play it for free. If it's a creature, it has haste.)[/i]
+
+Clockling Prototype
+
+Where Icathia Once Stood
+rules_text: [i](As this enters, choose an opponent to protect it. You and others can attack it.)[/i]
+Creatures you control get +2/+0.
+When Where Icathia Once Stood is defeated, destroy all creatures. => [i](As this enters, choose an opponent to protect it. You and others can attack it.)[/i]
+Creatures you control get +2/+0.
+When Where Icathia Once Stood is defeated, you may sacrifice any number of creatures you control. Draw a card for each creature sacrificed this way.
+
+Hotheaded Explosioneer
+
+Butcher's Faithful
+rules_text: Creatures you control that entered this turn have menace.
+At the beginning of your end step, up to two target creatures you control traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i] => Counters remain on creatures you control as they move to exile or the battlefield.
+Whenever a creature you control deals combat damage to a player or planeswalker, you may have it traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Echoes of an Empire
+rules_text: Affinity for artifacts
+Prowess
+{1}{V}, Exile Echoes of an Empire from your graveyard: Create a 0/0 colorless Construct artifact creature token with ‘This token gets +1/+1 for each artifact you control.'” Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Affinity for artifacts
+Prowess
+{1}{cajunhazard.png}, Exile Echoes of an Empire from your graveyard: Create a 0/0 colorless Construct artifact creature token with “This token gets +1/+1 for each artifact you control.” Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Zilean, Timekeeper
+rules_text: Flying, vigilance
+At the beginning of each of your postcombat main phases, sacrifice any number of artifacts. If you sacrificed exactly one, there's an additional upkeep after this phase. If you sacrificed exactly two, there is an additional combat phase after this phase. If you sacrificed exactly three, there is an additional beginning phase after this phase. => Flying, vigilance
+At the beginning of your second main phase, sacrifice any number of artifacts. If you sacrificed exactly one, there's an additional upkeep after this phase. If you sacrificed exactly two, there is an additional combat phase after this phase. If you sacrificed exactly three, there is an additional beginning phase after this phase.
+
+Pilgrim from Kathkan
+rules_text: Exile an instant or sorcery spell you control: Return target creature card with equal or lesser mana value than the exiled spell from your graveyard to the battlefield. => Ward {1}
+Exile an instant or sorcery spell you control: Return target creature card with equal or lesser mana value than the exiled spell from your graveyard to the battlefield.
+
+Betrayal of Brotherhood
+
+Militant Timepiece
+rules_text: {1}, {T}, Sacrifice Militant Timepiece: Create a Clockling token. End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability.”)[/i] => {1}, {T}, Sacrifice Militant Timepiece: Create a Clockling token. End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i]
+
+Staff of Forgotten Realms
+rules_text: Equipped creature gets +2/+2.
+Equip {3}
+{2}{V}: Return Staff of Forgotten Realms from your graveyard to the battlefield attached to target creature you control. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Equipped creature gets +2/+2.
+Equip {3}
+{1}{cajunhazard.png}: Return Staff of Forgotten Realms from your graveyard to the battlefield attached to target creature you control. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Guardian of Tombs
+rules_text: Double strike
+{3}{V}, Exile Guardian of Tombs from your graveyard: Return up to two target creature cards each with mana value 2 or less from your graveyard to the battlefield. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Double strike
+{3}{cajunhazard.png}, Exile Guardian of Tombs from your graveyard: Return up to two target creature cards each with mana value 2 or less from your graveyard to the battlefield. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Soul-Siphon Sculpture
+rules_text: Flying, lifelink
+{3}{V}{V}, Exile Soul-Siphon Sculpture from your graveyard: You draw three cards and you lose 3 life. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Flying, lifelink
+{3}{cajunhazard.png}{cajunhazard.png}, Exile Soul-Siphon Sculpture from your graveyard: You draw three cards and you lose 3 life. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Carikkan's Guardian
+rules_text: When Carikkan's Guardian enters, it deals X damage to target creature an opponent controls.
+{X}{V}{V}, Exile Carikkan's Guardian from your graveyard: Carikkan's Guardian deals X damage to target opponent. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => When Carikkan's Guardian enters, it deals X damage to target creature an opponent controls.
+{X}{cajunhazard.png}{cajunhazard.png}, Exile Carikkan's Guardian from your graveyard: Carikkan's Guardian deals X damage to target opponent. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Sanctum Conservator
+rules_text: When Sanctum Conservator enters, destroy target nonland permanent you don't control.
+{4}{V}{V}, Exile Sanctum Conservator from your graveyard: Destroy target nonland permanent. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => When Sanctum Conservator enters, destroy target nonland permanent you don't control.
+{4}{cajunhazard.png}{cajunhazard.png}, Exile Sanctum Conservator from your graveyard: Destroy target nonland permanent. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Arcane Nullifier
+cost: {2} => {1}
+rules_text: Casting spells doesn't cause abilities to trigger.
+Cycling {2} [i]({2}, Discard this card: Draw a card.)[/i] => Casting spells doesn't cause abilities to trigger. [i](Including from spells that trigger themselves.)[/i]
+Cycling {2} [i]({2}, Discard this card: Draw a card.)[/i]
+
+Effigy of the Sands
+rules_text: Whenever Effigy of the Sands enters or attacks, you may sacrifice a Desert. If you do, draw two cards.
+{1}{V}, Exile Effigy of the Sands from your graveyard: Create a tapped colorless Desert land token with “{T}: Add {C}.” [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Whenever Effigy of the Sands enters or attacks, you may sacrifice a Desert. If you do, draw two cards.
+{1}{cajunhazard.png}, Exile Effigy of the Sands from your graveyard: Create a tapped colorless Desert land token with “{T}: Add {C}.” [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Husked Devout
+rules_text: {T}: Put a +1/+1 counter on each artifact creature you control.
+{1}{V}, Exile Husked Devout from your graveyard: Proliferate. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => {T}: Put a +1/+1 counter on each artifact creature you control.
+{1}{cajunhazard.png}, Exile Husked Devout from your graveyard: Proliferate. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Reconstructed Soldier
+rules_text: When Reconstructed Soldier enters, surveil 2.
+{4}{V}{V}, Exile Reconstructed Soldier from your graveyard: Return target artifact card from your graveyard to the battlefield. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => When Reconstructed Soldier enters, surveil 2.
+{2}{cajunhazard.png}{cajunhazard.png}, Exile Reconstructed Soldier from your graveyard: Return target artifact card from your graveyard to the battlefield. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Naafiri of a Hundred Bites
+
+Sandstone Protector
+rules_text: Whenever Sandstone Protector enters, exile up to one target card from a graveyard.
+{1}{V}, Exile Sandstone Protector from your graveyard: Return target creature card from your graveyard to your hand. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Whenever Sandstone Protector enters, exile up to one target card from a graveyard.
+{1}{cajunhazard.png}, Exile Sandstone Protector from your graveyard: Return target creature card from your graveyard to your hand. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Unyielding Warden
+rules_text: {2}{V}: Return Unyielding Warden from your graveyard to the battlefield tapped. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => {2}{cajunhazard.png}: Return Unyielding Warden from your graveyard to the battlefield tapped. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Time in a Bottle
+rules_text: Create two Clockling tokens. [i](They're 1/1 Construct artifact creatures with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability.”)[/i] => Create two Clockling tokens. [i](They're 1/1 Construct artifact creatures with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i]
+
+Chronostasis
+rules_text: Tap up to two target creatures. Put a stun counter on each of them.
+Create two tapped Clockling tokens. [i](They're 1/1 Construct artifact creatures with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability.”)[/i] => Tap up to two target creatures. Put a stun counter on each of them.
+Create two tapped Clockling tokens. [i](They're 1/1 Construct artifact creatures with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i]
+
+Temporal Aberration
+rules_text: Flying
+Whenever Temporal Aberration enters, create two Clockling tokens. [i](They're 1/1 Construct artifact creatures with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability.”)[/i]
+Creature tokens you control have flying. => Flying
+Whenever Temporal Aberration enters, create two Clockling tokens. [i](They're 1/1 Construct artifact creatures with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i]
+Creature tokens you control have flying.
+
+Plunge into the Unknown
+cost: {1}{R} => {2}{R}
+rules_text: Creatures you control that have entered this turn get +1/+1 and have first strike.
+At the beginning of your end step, you may pay {R}. If you do, target creature you control traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Creatures you control that have entered this turn get +2/+0.
+At the beginning of your end step, up to one target target creature you control traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i]
+
+Cursed Embrace
+rules_text: Choose one —
+• Cursed Embrace deals 2 damage to each of up to two targets.
+• Destroy up to three target artifacts with total mana value 5 or less. => Choose one —
+• Cursed Embrace deals 2 damage to each creature and each planeswalker.
+• Destroy up to two target artifacts.
+
+Corrupted Sanctum
+rules_text: Enchant land
+Whenever enchanted land is tapped for mana, its controller adds an additional {G}.
+Whenever enchanted land is put into a graveyard from the battlefield, create a 4/3 black Horror creature token and draw a card. => Enchant land
+Whenever enchanted land is tapped for mana, its controller adds an additional {G}.
+Whenever enchanted land is put into a graveyard from the battlefield, create a 4/3 black Horror creature token.
+
+Map to the Faceless God
+rules_text: Whenever you sacrifice an artifact during your turn, create a 1/1 red Warrior creature token. This ability triggers only twice each turn.
+{T}, Sacrifice an artifact: Exile the top card of your library. Until end of turn, you may play that card. => Whenever one or more artifact cards you own are exiled during your turn, create a 2/2 black Horror creature token.
+{T}, Sacrifice an artifact or creature: Uncover. Activate only as a sorcery. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Sandstone Chimera
+rules_text: Flying
+When Sandstone Chimera enters, return two creatures you control to their owners' hands. => Flying
+When Sandstone Chimera enters, if you cast it, return two creatures you control to their owners' hands.
+
+Threads of Time
+rules_text: You may activate abilities of creatures you control as though those creatures had haste.
+At the beginning of your upkeep, create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability.”)[/i] => You may activate abilities of creatures you control as though those creatures had haste.
+At the beginning of your upkeep, create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i]
+
+Restored Devout
+rules_text: Trample
+{V}, Sacrifice two creatures: Return Restored Devout from your graveyard to your hand. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Trample
+{1}{cajunhazard.png}, Sacrifice two creatures: Return Restored Devout from your graveyard to the battlefield. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Curator's Sentinel
+rules_text: Flash
+Flying
+{1}{V}, Exile Curator's Sentinel from your graveyard: Draw two cards, then discard a card. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => Flash
+Flying
+{1}{cajunhazard.png}, Exile Curator's Sentinel from your graveyard: Draw two cards, then discard a card. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Serpentine Protector
+cost: {V}{V} => {cajunhazard.png}{cajunhazard.png}
+rules_text: [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+Serpentine Protector is all colors.
+Menace, trample
+Cycling {2} [i]({2}, Discard this card: Draw a card.)[/i] => [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+Serpentine Protector is all colors.
+Menace, trample
+Cycling {2} [i]({2}, Discard this card: Draw a card.)[/i]
+
+Buried Colossus
+rules_text: {5}, {T}, Sacrifice Buried Colossus: Create a 0/0 colorless Construct artifact creature token. Put five +1/+1 counters on it. It can't block this turn.
+{1}{V}, Exile Buried Colossus from your graveyard: Create a token that's a copy of target token you control. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => {5}, {T}, Sacrifice Buried Colossus: Create a 0/0 colorless Construct artifact creature token. Put five +1/+1 counters on it. It can't block this turn.
+{1}{cajunhazard.png}, Exile Buried Colossus from your graveyard: Create a token that's a copy of target token you control. For each counter on the token, put that many counters on the copy. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Sandstone Sentinel
+rules_text: When Sandstone Sentinel enters, mill three cards.
+{1}{V}, Exile Sandstone Sentinel from your graveyard: Return up to three land cards from your graveyard to your hand. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => When Sandstone Sentinel enters, mill three cards.
+{1}{cajunhazard.png}, Exile Sandstone Sentinel from your graveyard: Return up to three land cards from your graveyard to your hand. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+
+Rammus the Armordillo
+rules_text: Whenever Rammus enters or attacks, you may return another permanent you control to its owner's hand. If you do, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i] => Trample
+Whenever Rammus enters or attacks, you may return another permanent you control to its owner's hand. If you do, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Hive Herald
+
+Bel'Veth, Empress of the Void
+pt: 6/6 => 7/5
+
+Rek'Sai, the Terror Beneath
+rules_text: Creatures you control that have entered this turn get +1/+1 and have hexproof.
+At the beginning of your end step, you may have Rek'Sai traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i] => Creatures you control that have entered this turn get +1/+1 and have ward {3}.
+At the beginning of your end step, you may have Rek'Sai traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Akshan, the Rogue Sentinel
+pt: 4/3 => 4/4
+
+Protector of the Oasis
+rules_text: Reach
+You may play lands from your graveyard.
+When Protector of the Oasis enters, mill three cards.
+When Protector of the Oasis dies, you gain 4 life. => Reach
+Protector of the Oasis's power and toughness are each equal to the number of lands you control.
+Whenever this creature enters or attacks, you may return target land card from your graveyard to the battlefield. It becomes a 1/1 green Treefolk creature in addition to its other types.
+pt: 2/4 => */*
+
+Belligerent Ralsiji
+rules_text: Kicker {3} [i](You may pay an additional {3} as you cast this spell.)[/i]
+Haste
+When Belligerent Ralsiji enters, sacrifice it at the beginning of your next end step unless it was kicked. => Kicker {2} [i](You may pay an additional {2} as you cast this spell.)[/i]
+Haste
+When Belligerent Ralsiji enters, sacrifice it at the beginning of your next end step unless it was kicked.
+
+Clockling
+rules_text: {1}, {T}, Sacrifice this creature: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability. => {1}, {T}, Sacrifice this creature: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.
+
+Abandoned Chronarium
+rules_text: {T}: Add {C}.
+{4}, {T}: Create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability.”)[/i] => {T}: Add {C}.
+{1}, {T}: Add one mana of any color.
+{3}, Pay 1 life, {T}: Create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i]
+
+Tomb of the Ascended
+rules_text: Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+{T}: Add {C}.
+{W}{B}, {T}, Discard a card: You may cast target creature card from your graveyard. It enters with a finality counter. Activate only if you have the city's blessing and only as a sorcery. => Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+{T}: Add {C}.
+{W}{B}, {T}, Discard a card: You may cast target creature card from your graveyard. It enters with a finality counter. A spell cast this way costs {3} less to cast. Activate only if you have the city's blessing and only as a sorcery.
+
+Shard of Violence
+cost: {2}{R} => {1}{R}
+rules_text: At the beginning of your end step, Shard of Violence deals 1 damage to any target. If you control five or more legendary Shards, it deals 5 damage to any target instead.
+{2}{R}, Sacrifice Shard of Violence: Scry 1, then draw a card. Shard of Violence deals 3 damage to each opponent. => At the beginning of your end step, Shard of Violence deals 1 damage to any noncreature target. If you control five or more legendary Shards, it deals 5 damage to that target instead.
+{3}{R}, Sacrifice Shard of Violence: Scry 1, then draw a card. Shard of Violence deals 3 damage to each opponent.
+
+Screaming Acolytes
+cost: {2}{U} => {2}{U}{U}
+rules_text: When Screaming Acolytes enters, search your library for a legendary creature card and exile it. It gains “Whenever you cast a spell, put a call counter on this card. Then if it has a number of call counters on it equal to or greater than its mana value, you may cast it without paying its mana cost.” => When Screaming Acolytes enters, if it isn't a token, create two tokens that are copies of it.
+When Screaming Acolytes dies, look at the top three cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+pt: 2/2 => 1/2
+
+Hierophant of Zuretta
+rules_text: Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+As long as you have the city's blessing, Hierophant of Zuretta gets +2/+3 and has “Whenever this creature attacks or blocks, discard a card.” => Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+As long as you have the city's blessing, Hierophant of Zuretta gets +2/+3 and has menace and “Whenever this creature attacks or blocks, discard a card.”
+
+Petrifying Baccai
+rules_text: This spell can't be countered.
+Deathtouch
+Whenever Petrifying Baccai becomes the target of a spell or ability you don't control, you may return target land card from your graveyard to the battlefield tapped. => This spell can't be countered.
+Deathtouch
+Whenever Petrifying Baccai becomes the target of a spell or ability you don't control, return target non-Mutant permanent card from your graveyard to your hand.
+
+Repurposed Automaton
+
+
+VERSION 9 CHANGELOG
 ====================
 
 Scavenge the Tombs added.

@@ -1,4 +1,49 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+
+
+Reginald Dawnhurst, Prince
+rules_text: Heir — You've attacked with three or more tokens this turn. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Flying 
+Other creatures you control get +1/+1. => Heir — You've attacked with three or more tokens in a turn this game. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Flying 
+Other creatures you control get +1/+1.
+special_text: Heir — You've attacked with three or more tokens this turn. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Flying 
+Other creatures you control get +1/+1. => Heir — You've attacked with three or more tokens in a turn this game. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Flying 
+Other creatures you control get +1/+1.
+
+Sylas Wycliffe, Broker
+rules_text: Heir — Your library has 10 or fewer cards in it. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Once each turn, you may cast a card from your hand with mana value less than or equal to the number of cards in your library without paying its mana cost. => Heir — Your library has 10 or fewer cards in it. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Once each turn, you may cast a card from your hand with mana value greater than or equal to the number of cards in your library without paying its mana cost.
+special_text: Heir — Your library has 10 or fewer cards in it. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Once each turn, you may cast a card from your hand with mana value less than or equal to the number of cards in your library without paying its mana cost. => Heir — Your library has 10 or fewer cards in it. [i](If this card is your chosen heir, you may replace a draw with this card if you've met its condition.)[/i]
+Once each turn, you may cast a card from your hand with mana value greater than or equal to the number of cards in your library without paying its mana cost.
+
+Greycoat Wayfarer
+rules_text: Greycoat Wayfarer enters tapped.
+You may cast Greycoat Wayfarer from your graveyard if you behold an artifact and behold a creature. [i](To behold a card, choose a card of that type you control or reveal one from your hand.)[/i] [i](To behold an artifact, choose an artifact you control or reveal an artifact card from your hand.)[/i] => Greycoat Wayfarer enters tapped.
+You may cast Greycoat Wayfarer from your graveyard if you behold an artifact and behold a creature. [i](To behold a card, choose a card of that type you control or reveal one from your hand.)[/i]
+
+Underhanded Abhartach
+rules_text: Exhaust — {3}{B}, Exile two creature cards from your graveyard: Create two 2/2 black Zombie creature tokens.
+Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life. => Exhaust — {3}{B}, Exile two creature cards from your graveyard: Create two 2/2 black Zombie creature tokens. [i](Activate each exhaust ability only once.)[/i]
+Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life.
+
+Koios's Resolution
+rules_text: Enchant creature
+Enchanted creature gets +2/+0 and has trample.
+You may cast Koios's Resolution from your graveyard by beholding an enchantment in addition to paying its other costs. [i](To behold an enchantment choose an enchantment you control or reveal one from your hand.)[/i] [i](To behold an enchantment, choose an enchantment you control or reveal an enchantment card from your hand.)[/i] => Enchant creature
+Enchanted creature gets +2/+0 and has trample.
+You may cast Koios's Resolution from your graveyard by beholding an enchantment in addition to paying its other costs. [i](To behold an enchantment choose an enchantment you control or reveal one from your hand.)[/i] [i](To behold an enchantment choose an enchantment you control or reveal one from your hand, choose an enchantment choose an enchantment you control or reveal one from your hand you control or reveal an enchantment choose an enchantment you control or reveal one from your hand card from your hand.)[/i]
+
+Over the Edge
+
+
+VERSION 5 CHANGELOG
 ====================
 
 Step Between Worlds added.

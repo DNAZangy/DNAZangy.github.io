@@ -5,7 +5,7 @@
 			<name>TBC</name>
 			<longname>Nemyria: The Beautiful Collapse</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-06-15</releasedate>
+			<releasedate>2026-08-04</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -188,7 +188,7 @@ You gain X life and draw X cards.</text>
 			<text>Choose one —
 • Mill four cards. You gain 4 life.
 • Return target creature card from your graveyard to your hand.
-• Exile up to three target cards from graveyards.</text>
+• Exile up to four target cards from graveyards.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/9.png" num="242">TBC</set>
 			<prop>
 				<layout>normal</layout>
@@ -338,7 +338,7 @@ Whenever a creature you control is the target of a spell or ability you control 
 		</card>
 		<card>
 			<name>Give It All</name>
-			<text>Creatures you control have elation. (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+			<text>Creatures you control have elation. (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 At the beginning of your end step, if a creature died under your control this turn, create a 2/2 blue Spirit creature token with flying.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/17.png" num="205">TBC</set>
 			<prop>
@@ -433,7 +433,7 @@ Whenever you cast your second spell each turn, look at the top card of your libr
 			<name>Gracehold Soldier</name>
 			<text>Flash
 Flying
-Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Gracehold Soldier enters, you may tap or untap target creature.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/22.png" num="228">TBC</set>
 			<prop>
@@ -578,7 +578,7 @@ When Crusher of Crops dies, surveil 2.</text>
 		</card>
 		<card>
 			<name>Veyran&apos;s Champion</name>
-			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Veyran&apos;s Champion enters, create a 3/3 green Zombie Knight creature token.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/30.png" num="244">TBC</set>
 			<prop>
@@ -613,7 +613,7 @@ Flashback {4}{GU}{GU} (You may cast this card from your graveyard for its flashb
 		</card>
 		<card>
 			<name>Goldenmarch Aide</name>
-			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Goldenmarch Aide enters, put a +1/+1 counter on target creature you control.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/32.png" num="14">TBC</set>
 			<prop>
@@ -678,7 +678,7 @@ Galveth Marauder enters prepared. (While it&apos;s prepared, you may cast a copy
 ---
 
 Create a 5/4 red Ogre creature token with trample.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/35.png" num="133">TBC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/35.png" num="132">TBC</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -769,7 +769,7 @@ Rock bottom — Leviathan of the Weave can&apos;t be blocked.</text>
 			<text>Reach
 Discard a card: Draw a card. Activate only as a sorcery and only once each turn.
 Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/40.png" num="134">TBC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/40.png" num="133">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1036,9 +1036,9 @@ Exile target creature or planeswalker.</text>
 		<card>
 			<name>Conceited Firestarter</name>
 			<text>Menace
-Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Conceited Firestarter enters, you may sacrifice another artifact or creature. When you do, Conceited Firestarter deals 2 damage to any target.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/55.png" num="126">TBC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/55.png" num="125">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1097,7 +1097,7 @@ Draw a card.</text>
 		<card>
 			<name>Drifting Phantasm</name>
 			<text>Flying
-Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Drifting Phantasm enters, draw a card.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/58.png" num="46">TBC</set>
 			<prop>
@@ -1131,7 +1131,7 @@ When Drifting Phantasm enters, draw a card.</text>
 		</card>
 		<card>
 			<name>Blazing Skirmisher</name>
-			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Blazing Skirmisher enters, you may discard a card. If you do, draw a card.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/60.png" num="121">TBC</set>
 			<prop>
@@ -1242,7 +1242,7 @@ Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, 
 			<name>Done Dancing</name>
 			<text>As an additional cost to cast this spell, you may unravel {2}. (While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)
 Choose target creature you control and target creature an opponent controls. Put a +1/+1 counter on the creature you control if this spell&apos;s additional cost was paid. Then those creatures fight each other.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/66.png" num="157">TBC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/66.png" num="158">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1292,7 +1292,7 @@ Choose target creature you control and target creature an opponent controls. Put
 		<card>
 			<name>Dusk Raider</name>
 			<text>Menace
-Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Dusk Raider enters, each opponent loses 1 life and you gain 1 life.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/69.png" num="91">TBC</set>
 			<prop>
@@ -1313,7 +1313,7 @@ When Dusk Raider enters, each opponent loses 1 life and you gain 1 life.</text>
 			<text>Menace
 Begin your breakdown. (It begins at 4 and decreases by 1 on each of your turns when the second card is put into your graveyard that turn. You reach rock bottom at 0.)
 Max speed — Whenever Embervast Defiler attacks, target creature can&apos;t block this turn.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/70.png" num="127">TBC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/70.png" num="126">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1403,7 +1403,7 @@ Target player discards a card.</text>
 		<card>
 			<name>Fire from the Heavens</name>
 			<text>Fire from the Heavens deals 5 damage to target creature. If that creature would die this turn, exile it instead.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/75.png" num="130">TBC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/75.png" num="129">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1496,7 +1496,7 @@ Each player sacrifices a creature.</text>
 			<name>Chokehold</name>
 			<text>Chokehold costs {1} less to cast if it targets a permanent with mana value 1 or less.
 Chokehold deals 3 damage to any target.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/80.png" num="125">TBC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/80.png" num="124">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1512,7 +1512,7 @@ Chokehold deals 3 damage to any target.</text>
 		<card>
 			<name>Even in Arcadia</name>
 			<text>Search your library for a Forest card, put it onto the battlefield tapped, then shuffle.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/81.png" num="158">TBC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/81.png" num="159">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1545,7 +1545,7 @@ Chokehold deals 3 damage to any target.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Conqueror of Nightmares</name>
+			<name>Conqueror of Dreams</name>
 			<text>Flying
 Unravel {3}, {T}: Tap target creature. (While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/83.png" num="43">TBC</set>
@@ -1602,7 +1602,7 @@ Rock bottom — High Water Deserter gets +1/+0 and has lifelink.</text>
 			<text>Choose one —
 • Target creature you control deals damage equal to its power to target creature or planeswalker.
 • Mill four cards. You may put a permanent card from among them into your hand.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/86.png" num="154">TBC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/86.png" num="155">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1689,7 +1689,7 @@ Exile the top three cards of your library. Until the end of your next turn, you 
 		<card>
 			<name>Graneth Intimidator</name>
 			<text>When Graneth Intimidator attacks, you may unravel {3}. If you do, put a +1/+1 counter on target creature. (While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/91.png" num="163">TBC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/91.png" num="164">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1796,7 +1796,7 @@ Flashback {5}{G}{G} (You may cast this card from your graveyard for its flashbac
 		<card>
 			<name>Melody of Silence</name>
 			<text>Flying
-Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Melody of Silence enters, you gain 2 life.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/97.png" num="24">TBC</set>
 			<prop>
@@ -1832,7 +1832,7 @@ When Melody of Silence enters, you gain 2 life.</text>
 		<card>
 			<name>Thornmere Reaper</name>
 			<text>Menace
-Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Thornmere Reaper enters, you may destroy target creature that was dealt damage this turn.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/99.png" num="108">TBC</set>
 			<prop>
@@ -1867,7 +1867,7 @@ When Thornmere Reaper enters, you may destroy target creature that was dealt dam
 		<card>
 			<name>Goldenmarch Champion</name>
 			<text>Whenever this creature becomes the target of a spell or ability you control for the first time each turn, it gains indestructible until end of turn.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/101.png" num="161">TBC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/101.png" num="162">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1949,7 +1949,7 @@ Ignited Mage enters prepared. (While it&apos;s prepared, you may cast a copy of 
 ---
 
 Lash Out deals 2 damage to each opponent.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/105.png" num="136">TBC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/105.png" num="135">TBC</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -1972,7 +1972,7 @@ Goldenmarch Tender enters prepared. (While it&apos;s prepared, you may cast a co
 ---
 
 You gain 1 life for each land you control.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/106.png" num="162">TBC</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/106.png" num="163">TBC</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -2041,7 +2041,7 @@ Each opponent sacrifices a creature with power X or greater.</text>
 		<card>
 			<name>Breaker of Structures</name>
 			<text>Once each turn, when you discard a card, you may exile that card from your graveyard. If you do, you may play that card this turn.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/110.png" num="123">TBC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/110.png" num="122">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2079,7 +2079,7 @@ Put a +1/+1 counter on target creature, then double the number of +1/+1 counters
 		</card>
 		<card>
 			<name>Tide Carried Ghost</name>
-			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Tide Carried Ghost enters, return target artifact or enchantment card from your graveyard to your hand.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/112.png" num="36">TBC</set>
 			<prop>
@@ -2150,7 +2150,7 @@ Discard a card with mana value 4 or less: Draw a card. Activate only once each t
 			<text>Trample
 Begin your breakdown. (It begins at 4 and decreases by 1 on each of your turns when the second card is put into your graveyard that turn. You reach rock bottom at 0.)
 Misery&apos;s Spiral gets -X/-X, where X is your level of breakdown.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/116.png" num="167">TBC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/116.png" num="168">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2312,7 +2312,7 @@ Draw three cards.</text>
 ---
 
 Create a 1/1 red Soldier creature token. Creatures you control get +1/+0 and gain haste until end of turn.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/125.png" num="135">TBC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/125.png" num="134">TBC</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -2333,7 +2333,7 @@ Create a 1/1 red Soldier creature token. Creatures you control get +1/+0 and gai
 ---
 
 Mill seven cards. For each permanent type, you may put a permanent of that type from among the milled cards onto the battlefield.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/126.png" num="159">TBC</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/126.png" num="160">TBC</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -2403,7 +2403,7 @@ Flashback {5}{U} (You may cast this card from your graveyard for its flashback c
 			<name>Galveth Cavalier</name>
 			<text>Menace
 At the beginning of combat on your turn, target creature you control gets +1/+0 and gains haste and elation until end of turn. (When it deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/130.png" num="132">TBC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/130.png" num="131">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2418,11 +2418,11 @@ At the beginning of combat on your turn, target creature you control gets +1/+0 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Resilience</name>
+			<name>Calming Resilience</name>
 			<text>Trample
-When Resilience enters, you gain 5 life.
-Prevent all combat damage that would be dealt to Resilience.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/131.png" num="172">TBC</set>
+When Calming Resilience enters, you gain 5 life.
+Prevent all combat damage that would be dealt to Calming Resilience.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/131.png" num="154">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2477,7 +2477,7 @@ Unravel {3}: Stormy Sea Drake phases out. (While paying an unravel cost, you can
 		</card>
 		<card>
 			<name>Dream&apos;s Inquisitor</name>
-			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Dream&apos;s Inquisitor enters, target opponent discards a card. 
 {B}, Discard a card: Dream&apos;s Inquisitor gains menace until end of turn.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/134.png" num="89">TBC</set>
@@ -2519,7 +2519,7 @@ Whenever Lifeline Warden becomes the target of a spell or ability you control fo
 
 Target creature gets +1/+1 and gains trample until end of turn.
 Draw a card.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/136.png" num="166">TBC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/136.png" num="167">TBC</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -2619,7 +2619,7 @@ Look at the top six cards of your library. You may put a creature card with mana
 			<name>Cultivator of the Pattern</name>
 			<text>Trample
 Whenever you cast a spell with mana value 5 or greater, draw a card if it was a creature card. Otherwise, put two +1/+1 counters on Cultivator of the Pattern.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/141.png" num="156">TBC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/141.png" num="157">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2636,7 +2636,7 @@ Whenever you cast a spell with mana value 5 or greater, draw a card if it was a 
 		<card>
 			<name>Prismatic Striker</name>
 			<text>Flying
-Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Prismatic Striker enters, exile up to one target enchantment.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/142.png" num="29">TBC</set>
 			<prop>
@@ -2684,7 +2684,7 @@ Surveil 3. You lose 3 life.</text>
 				<side>front</side>
 				<type>Creature — Vampire // Sorcery</type>
 				<maintype>Creature</maintype>
-				<manacost>1B // 2B</manacost>
+				<manacost>1B // 1B</manacost>
 				<cmc>2</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
@@ -2696,7 +2696,7 @@ Surveil 3. You lose 3 life.</text>
 			<name>Empty Road Skirmisher</name>
 			<text>Begin your breakdown (It begins at 4 and decreases by 1 on each of your turns when the second card is put into your graveyard that turn. You reach rock bottom at 0.)
 Empty Road Skirmisher can&apos;t attack or block unless you control another creature with power greater than your level of breakdown.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/145.png" num="128">TBC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/145.png" num="127">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2714,7 +2714,7 @@ Empty Road Skirmisher can&apos;t attack or block unless you control another crea
 			<name>Jaws of Fate</name>
 			<text>This spell costs {2} less to cast if you&apos;ve cast another spell this turn.
 Up to two target creatures you control each deal damage equal to their power to target creature an opponent controls.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/146.png" num="165">TBC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/146.png" num="166">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2797,7 +2797,7 @@ At the beginning of your end step, you may pay {B} and exile a number of other c
 Flash
 Trample
 Evergreen Stag enters tapped if it&apos;s not your turn.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/150.png" num="129">TBC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/150.png" num="128">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2815,7 +2815,7 @@ Evergreen Stag enters tapped if it&apos;s not your turn.</text>
 			<name>Crumbling Heart</name>
 			<text>At the beginning of your upkeep, surveil 1.
 Unravel {12}: Crumbling Heart becomes a 8/8 Horror creature in addition to its other types. (While paying an unravel cost, you can exile cards from your graveyard. Each pair of cards pays for {1}. This effect lasts indefinitely.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/151.png" num="155">TBC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/151.png" num="156">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2886,7 +2886,7 @@ When Blacklit Revivalist enters, return target creature card that was put there 
 		</card>
 		<card>
 			<name>Red River Corsair</name>
-			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Red River Corsair enters, mill a card. You may play that card this turn.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/155.png" num="139">TBC</set>
 			<prop>
@@ -2906,7 +2906,7 @@ When Red River Corsair enters, mill a card. You may play that card this turn.</t
 			<name>The Pattern&apos;s Gift</name>
 			<text>As an additional cost to cast this spell, you may unravel {4}. If you do, copy it. You may choose new targets for the copy. (While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)
 Target creature gets +3/+3 and gains trample until end of turn.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/156.png" num="170">TBC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/156.png" num="171">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3003,7 +3003,7 @@ Harmonic Tender gets +1/+1 for each basic land type among lands you control.
 ---
 
 Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/161.png" num="164">TBC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/161.png" num="165">TBC</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -3020,7 +3020,7 @@ Search your library for a basic land card, put it onto the battlefield tapped, t
 		<card>
 			<name>Neglected Spires Phantom</name>
 			<text>Flying
-Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Neglected Spires Phantom enters, destroy up to one target nonbasic land. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/162.png" num="27">TBC</set>
 			<prop>
@@ -3057,7 +3057,7 @@ You may cast the first Spirit spell you cast each turn by paying {U} and unravel
 		<card>
 			<name>Silencer of the Dream</name>
 			<text>Menace
-Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Silencer of the Dream enters, each other creature gets -2/-2 until end of turn.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/164.png" num="106">TBC</set>
 			<prop>
@@ -3076,7 +3076,7 @@ When Silencer of the Dream enters, each other creature gets -2/-2 until end of t
 		<card>
 			<name>Angry Angel</name>
 			<text>Flying, menace
-Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Angry Angel enters, untap each creature you control. After this phase, there is an additional combat phase.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/165.png" num="113">TBC</set>
 			<prop>
@@ -3172,7 +3172,7 @@ Exile target instant or sorcery card from your graveyard. You may cast a copy of
 			<name>Flex on a Full Moon</name>
 			<text>Until end of turn, double target creature&apos;s power and it gains double strike.
 Flashback {6}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/170.png" num="131">TBC</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/170.png" num="130">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3288,7 +3288,7 @@ When Unspoken Devotee dies, you may discard up to X cards, where X is equal to U
 		</card>
 		<card>
 			<name>Viscerath Abomination</name>
-			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Viscerath Abomination enters, draw cards equal to the greatest power among creatures that died under your control this turn.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/176.png" num="186">TBC</set>
 			<prop>
@@ -3363,7 +3363,7 @@ At the beginning of your end step, if an opponent lost more life than your level
 			<text>Begin your breakdown. (It begins at 4 and decreases by 1 on each of your turns when the second card is put into your graveyard that turn. You reach rock bottom at 0.)
 When Burning Bright enters, if you cast it, it deals 5 damage to any target and damage to you equal to your level of breakdown.
 Rock bottom — Creatures you control have haste.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/180.png" num="124">TBC</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/180.png" num="123">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3450,7 +3450,7 @@ Rock bottom — Pay 5 life: Add {B}{B}{B}{B}{B}. Activate only once.</text>
 		<card>
 			<name>Ashenreach Hellhound</name>
 			<text>Menace
-Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Ashenreach Hellhound enters, discard your hand, then create three Clue tokens.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/185.png" num="118">TBC</set>
 			<prop>
@@ -3471,7 +3471,7 @@ When Ashenreach Hellhound enters, discard your hand, then create three Clue toke
 			<text>Begin your breakdown. (It begins at 4 and decreases by 1 on each of your turns when the second card is put into your graveyard that turn. You reach rock bottom at 0.)
 Creature spells you cast cost {X} more to cast, where X is your level of breakdown.
 Whenever you cast a creature spell, copy that spell.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/186.png" num="168">TBC</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/186.png" num="169">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3728,7 +3728,7 @@ When Patient Mariner dies, surveil 1, then put a +1/+1 counter on up to two targ
 		</card>
 		<card>
 			<name>Embedded Surveyor</name>
-			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability.)
+			<text>Elation (When this creature deals combat damage to a player, you may sacrifice it to trigger its &quot;enters&quot; ability and surveil 1.)
 When Embedded Surveyor enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TBC-files/img/201.png" num="251">TBC</set>
 			<prop>
@@ -4334,7 +4334,7 @@ Whenever you discard a card, copy it. You may cast the copy without paying its m
 			<text>Whenever you cast your first spell each turn, create a Treasure token.
 Whenever you cast your second spell each turn, create a 2/2 green Wolf creature token.
 Whenever you cast your third spell each turn, target creature you control get +3/+3 and gains trample until end of turn.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/236.png" num="160">TBC</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TBC-files/img/236.png" num="161">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4652,7 +4652,7 @@ Return target permanent card from your graveyard to the battlefield with a hexpr
 Trample
 The Pattern&apos;s Gardener enters with X +1/+1 counters on it.
 When The Pattern&apos;s Gardener enters, gain life equal to its power.</text>
-			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/TBC-files/img/251.png" num="169">TBC</set>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/TBC-files/img/251.png" num="170">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4839,8 +4839,8 @@ The next creature spell target player casts this turn costs {X} less to cast.</t
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>1G</manacost>
-				<cmc>2</cmc>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 			</prop>
@@ -4897,10 +4897,10 @@ Flashback— {1}{B}, Sacrifice a creature. (You may cast this card from your gra
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Blood and Fury</name>
+			<name>Lacerate</name>
 			<text>As an additional cost to cast this spell, unravel {5}. (While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)
-Blood and Fury deals 5 damage to target creature or planeswalker.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/265.png" num="122">TBC</set>
+Lacerate deals 5 damage to target creature or planeswalker.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/265.png" num="136">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4916,7 +4916,7 @@ Blood and Fury deals 5 damage to target creature or planeswalker.</text>
 		<card>
 			<name>Ravager of the Tangle</name>
 			<text>Whenever Ravager of the Tangle attacks, you may unravel {5}. If you do, reveal the top card of your library until you reveal a creature card. Put that card into your hand and the rest on the bottom of your library in a random order. (While paying an unravel cost, you can exile cards from your graveyard. Each card pays for {1}.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/266.png" num="171">TBC</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TBC-files/img/266.png" num="172">TBC</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>

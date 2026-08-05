@@ -584,7 +584,7 @@
 			"name": "Treacherous Bandit",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Human Soldier",
+			"type": "Creature — Human Rogue",
 			"collector_number": "190",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/58.png"
@@ -793,8 +793,8 @@
 		{
 			"name": "Azir's Verdict",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{W}",
-			"type": "Instant",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
 			"collector_number": "3",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/79.png"
@@ -963,7 +963,7 @@
 		{
 			"name": "Sandthresher Mount",
 			"rarity": "uncommon",
-			"mana_cost": "{3}{B}",
+			"mana_cost": "{2}{B}{B}",
 			"type": "Creature — Frog Lizard",
 			"collector_number": "102",
 			"image_uris": {
@@ -1123,7 +1123,7 @@
 		{
 			"name": "Heir to the Sands",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{R}",
+			"mana_cost": "{R}",
 			"type": "Enchantment",
 			"collector_number": "133",
 			"image_uris": {
@@ -1243,7 +1243,7 @@
 		{
 			"name": "Saijax Cail-Rynx Kohari Icath'un",
 			"rarity": "rare",
-			"mana_cost": "{1}{W}",
+			"mana_cost": "{W}{W}",
 			"type": "Legendary Creature — Troll Soldier",
 			"collector_number": "30",
 			"image_uris": {
@@ -1271,7 +1271,7 @@
 			}
 		},
 		{
-			"name": "Sunlit Guardian",
+			"name": "Sunlit Guardians",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Soldier",
@@ -1433,7 +1433,7 @@
 		{
 			"name": "Relentless Sandthresher",
 			"rarity": "rare",
-			"mana_cost": "{2}{R}",
+			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Berserker",
 			"collector_number": "140",
 			"image_uris": {
@@ -1533,7 +1533,7 @@
 		{
 			"name": "Radiance of the Ascended",
 			"rarity": "rare",
-			"mana_cost": "{2}{G}{G}",
+			"mana_cost": "{1}{G}{G}",
 			"type": "Enchantment",
 			"collector_number": "178",
 			"image_uris": {
@@ -1983,7 +1983,7 @@
 		{
 			"name": "Arcane Nullifier",
 			"rarity": "rare",
-			"mana_cost": "{2}",
+			"mana_cost": "{1}",
 			"type": "Artifact",
 			"collector_number": "239",
 			"image_uris": {
@@ -2330,7 +2330,7 @@
 		{
 			"name": "Plunge into the Unknown",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{R}",
+			"mana_cost": "{2}{R}",
 			"type": "Enchantment",
 			"collector_number": "139",
 			"image_uris": {
@@ -2490,7 +2490,7 @@
 		{
 			"name": "Serpentine Protector",
 			"rarity": "uncommon",
-			"mana_cost": "{V}{V}",
+			"mana_cost": "{cajunhazard.png}{cajunhazard.png}",
 			"type": "Artifact Creature — Snake Relic",
 			"collector_number": "251",
 			"image_uris": {
@@ -3010,7 +3010,7 @@
 		{
 			"name": "Shard of Violence",
 			"rarity": "mythic",
-			"mana_cost": "{2}{R}",
+			"mana_cost": "{1}{R}",
 			"type": "Legendary Enchantment — Shard",
 			"collector_number": "144",
 			"image_uris": {
@@ -3030,7 +3030,7 @@
 		{
 			"name": "Screaming Acolytes",
 			"rarity": "mythic",
-			"mana_cost": "{2}{U}",
+			"mana_cost": "{2}{U}{U}",
 			"type": "Creature — Avatar Horror",
 			"collector_number": "66",
 			"image_uris": {
@@ -3103,7 +3103,7 @@
 	2 Saijax Cail-Rynx Kohari Icath'un
 	2 Seer Beyond the Sands
 	2 Conductor of the Sai
-	2 Sunlit Guardian
+	2 Sunlit Guardians
 	2 Pass the Torch
 	2 Rise from the Sands
 	2 Khahiri, Chosen Through Time
@@ -3616,7 +3616,7 @@
 	2 Saijax Cail-Rynx Kohari Icath'un
 	2 Seer Beyond the Sands
 	2 Conductor of the Sai
-	2 Sunlit Guardian
+	2 Sunlit Guardians
 	2 Pass the Torch
 	2 Rise from the Sands
 	2 Khahiri, Chosen Through Time
@@ -3907,7 +3907,7 @@
 	7 Saijax Cail-Rynx Kohari Icath'un
 	7 Seer Beyond the Sands
 	7 Conductor of the Sai
-	7 Sunlit Guardian
+	7 Sunlit Guardians
 	7 Pass the Torch
 	7 Rise from the Sands
 	7 Khahiri, Chosen Through Time

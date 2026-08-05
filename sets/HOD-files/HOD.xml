@@ -5,7 +5,7 @@
 			<name>HOD</name>
 			<longname>Houses of Dewold</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-06-03</releasedate>
+			<releasedate>2026-08-04</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -1366,8 +1366,7 @@ Whenever Castle Delta Agitator deals combat damage to a player or planeswalker, 
 		</card>
 		<card>
 			<name>Cherrywood Elite</name>
-			<text>Lifelink
-At the beginning of each end step, you may discard a card. If you do, return Cherrywood Elite from your graveyard to the battlefield if you spent four or more mana on casting noncreature spells and/or paying for bloom costs this turn.</text>
+			<text>At the beginning of each end step, if you spent four or more mana on casting noncreature spells and/or paying for bloom costs this turn, you may discard a card. If you do, return Cherrywood Elite from your graveyard to the battlefield.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HOD-files/img/74.png" num="246">HOD</set>
 			<prop>
 				<layout>normal</layout>
@@ -1378,7 +1377,7 @@ At the beginning of each end step, you may discard a card. If you do, return Che
 				<cmc>3</cmc>
 				<colors>WBG</colors>
 				<coloridentity>WBG</coloridentity>
-				<pt>3/2</pt>
+				<pt>4/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>

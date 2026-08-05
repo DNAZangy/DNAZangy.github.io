@@ -2,7 +2,7 @@
     "name": "Houses of Dewold",
     "formats": "Voyager",
     "image_type": "png",
-    "draft_structure": "play booster",
+    "draft_structure": "draft booster",
     "unpreviewed": "card back",
     "image_name": "position",
     "v_mana": "",
@@ -1581,9 +1581,9 @@
             "number": 246,
             "color_identity": "WBG",
             "cost": "{W}{B}{G}",
-            "rules_text": "Lifelink\nAt the beginning of each end step, you may discard a card. If you do, return Cherrywood Elite from your graveyard to the battlefield if you spent four or more mana on casting noncreature spells and/or paying for bloom costs this turn.",
+            "rules_text": "At the beginning of each end step, if you spent four or more mana on casting noncreature spells and/or paying for bloom costs this turn, you may discard a card. If you do, return Cherrywood Elite from your graveyard to the battlefield.",
             "flavor_text": "[i][/i]",
-            "pt": "3/2",
+            "pt": "4/2",
             "special_text": "",
             "shape": "normal",
             "set": "HOD",
@@ -6485,7 +6485,7 @@
             "alias": "",
             "position": "307",
             "rotated": false,
-            "notes": "!tag Dewold\n!exportname Intisuyus Armies\n"
+            "notes": "!tag Dewold\n!exportname Intisuyus Armies"
         },
         {
             "card_name": "Suyay's Soldier",
@@ -6506,7 +6506,7 @@
             "alias": "",
             "position": "308",
             "rotated": false,
-            "notes": "!tag Dewold\n!exportname Suyay's Soldier\n"
+            "notes": "!tag Dewold\n!exportname Suyay's Soldier"
         },
         {
             "card_name": "Messenger of Absent Messages",
@@ -6548,7 +6548,7 @@
             "alias": "",
             "position": "310",
             "rotated": false,
-            "notes": "!tag Dewold\nRenowned Cycle\n"
+            "notes": "!tag Dewold\nRenowned Cycle"
         },
         {
             "card_name": "Scout",
@@ -6590,7 +6590,7 @@
             "alias": "",
             "position": "312",
             "rotated": false,
-            "notes": "!tag Dewold\n"
+            "notes": "!tag Dewold"
         },
         {
             "card_name": "Vances Claw",
@@ -6611,7 +6611,7 @@
             "alias": "",
             "position": "313",
             "rotated": false,
-            "notes": "!tag Dewold\n!exportname Vances Claw\nRenowned Cycle\n"
+            "notes": "!tag Dewold\n!exportname Vances Claw\nRenowned Cycle"
         },
         {
             "card_name": "Lover to All",
@@ -6632,7 +6632,7 @@
             "alias": "",
             "position": "314",
             "rotated": false,
-            "notes": "!tag Dewold\nRenowned Cycle\n"
+            "notes": "!tag Dewold\nRenowned Cycle"
         },
         {
             "card_name": "The Diamond of the Nye",
@@ -6674,7 +6674,7 @@
             "alias": "",
             "position": "316",
             "rotated": false,
-            "notes": "!tag Dewold\nRenowned Cycle\n"
+            "notes": "!tag Dewold\nRenowned Cycle"
         },
         {
             "card_name": "Horror",
@@ -6695,7 +6695,7 @@
             "alias": "",
             "position": "317",
             "rotated": false,
-            "notes": "!tag Dewold\n"
+            "notes": "!tag Dewold"
         },
         {
             "card_name": "Dewold Army",
@@ -6716,7 +6716,7 @@
             "alias": "",
             "position": "318",
             "rotated": false,
-            "notes": "!tag Dewold\n!exportname Dewold Army\n"
+            "notes": "!tag Dewold\n!exportname Dewold Army"
         },
         {
             "card_name": "Young Soldier",
@@ -6737,7 +6737,7 @@
             "alias": "",
             "position": "319",
             "rotated": false,
-            "notes": "!tag Dewold\n!exportname Young Soldier\n"
+            "notes": "!tag Dewold\n!exportname Young Soldier"
         },
         {
             "card_name": "Reserves",
@@ -6779,7 +6779,7 @@
             "alias": "",
             "position": "321",
             "rotated": false,
-            "notes": "!tag Dewold\n!exportname Destroyed-Knight\n"
+            "notes": "!tag Dewold\n!exportname Destroyed-Knight"
         },
         {
             "card_name": "Plains",
@@ -7178,7 +7178,7 @@
             "alias": "",
             "position": "340",
             "rotated": false,
-            "notes": "!tag Dewold\n"
+            "notes": "!tag Dewold"
         },
         {
             "card_name": "Weapon",
@@ -7199,7 +7199,7 @@
             "alias": "",
             "position": "341",
             "rotated": false,
-            "notes": "!tag Dewold\n"
+            "notes": "!tag Dewold"
         },
         {
             "card_name": "Food",
@@ -7220,7 +7220,7 @@
             "alias": "",
             "position": "342",
             "rotated": false,
-            "notes": "!tag Dewold\n"
+            "notes": "!tag Dewold"
         },
         {
             "card_name": "Clue",
@@ -7241,7 +7241,7 @@
             "alias": "",
             "position": "343",
             "rotated": false,
-            "notes": "!tag Dewold\n!tag Dewold\n"
+            "notes": "!tag Dewold\n!tag Dewold"
         },
         {
             "card_name": "Spirit",
@@ -7622,5 +7622,5 @@
             "notes": ""
         }
     ],
-    "version": 5
+    "version": 6
 }

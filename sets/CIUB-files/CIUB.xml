@@ -5,7 +5,7 @@
 			<name>CIUB</name>
 			<longname>Tairngire Cube</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-04-21</releasedate>
+			<releasedate>2026-08-04</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -1695,7 +1695,7 @@ Dredge 3 (If you would draw a card, you may mill three cards instead. If you do,
 		</card>
 		<card>
 			<name>Reginald Dawnhurst, Prince</name>
-			<text>Heir — You&apos;ve attacked with three or more tokens this turn. (If this card is your chosen heir, you may replace a draw with this card if you&apos;ve met its condition.)
+			<text>Heir — You&apos;ve attacked with three or more tokens in a turn this game. (If this card is your chosen heir, you may replace a draw with this card if you&apos;ve met its condition.)
 Flying 
 Other creatures you control get +1/+1.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/CIUB-files/img/99.png" num="396">CIUB</set>
@@ -1753,7 +1753,7 @@ Whenever an artifact you control enters, you may tap or untap target permanent.<
 		<card>
 			<name>Sylas Wycliffe, Broker</name>
 			<text>Heir — Your library has 10 or fewer cards in it. (If this card is your chosen heir, you may replace a draw with this card if you&apos;ve met its condition.)
-Once each turn, you may cast a card from your hand with mana value less than or equal to the number of cards in your library without paying its mana cost.</text>
+Once each turn, you may cast a card from your hand with mana value greater than or equal to the number of cards in your library without paying its mana cost.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/CIUB-files/img/102.png" num="389">CIUB</set>
 			<prop>
 				<layout>normal</layout>
@@ -5709,7 +5709,7 @@ Whenever one or more creatures you control deal combat damage to an opponent, yo
 		<card>
 			<name>Greycoat Wayfarer</name>
 			<text>Greycoat Wayfarer enters tapped.
-You may cast Greycoat Wayfarer from your graveyard if you behold an artifact and behold a creature. (To behold a card, choose a card of that type you control or reveal one from your hand.) (To behold an artifact, choose an artifact you control or reveal an artifact card from your hand.)</text>
+You may cast Greycoat Wayfarer from your graveyard if you behold an artifact and behold a creature. (To behold a card, choose a card of that type you control or reveal one from your hand.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/CIUB-files/img/331.png" num="161">CIUB</set>
 			<prop>
 				<layout>normal</layout>
@@ -5833,7 +5833,7 @@ Exhaust — {3}{B}: Return target creature card from your graveyard to the battl
 		</card>
 		<card>
 			<name>Underhanded Abhartach</name>
-			<text>Exhaust — {3}{B}, Exile two creature cards from your graveyard: Create two 2/2 black Zombie creature tokens.
+			<text>Exhaust — {3}{B}, Exile two creature cards from your graveyard: Create two 2/2 black Zombie creature tokens. (Activate each exhaust ability only once.)
 Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/CIUB-files/img/338.png" num="197">CIUB</set>
 			<prop>
@@ -6557,7 +6557,7 @@ Draw two cards if you discarded a card or if you are over the edge.</text>
 			<name>Koios&apos;s Resolution</name>
 			<text>Enchant creature
 Enchanted creature gets +2/+0 and has trample.
-You may cast Koios&apos;s Resolution from your graveyard by beholding an enchantment in addition to paying its other costs. (To behold an enchantment choose an enchantment you control or reveal one from your hand.) (To behold an enchantment, choose an enchantment you control or reveal an enchantment card from your hand.)</text>
+You may cast Koios&apos;s Resolution from your graveyard by beholding an enchantment in addition to paying its other costs. (To behold an enchantment choose an enchantment you control or reveal one from your hand.) (To behold an enchantment choose an enchantment you control or reveal one from your hand, choose an enchantment choose an enchantment you control or reveal one from your hand you control or reveal an enchantment choose an enchantment you control or reveal one from your hand card from your hand.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/CIUB-files/img/378.png" num="241">CIUB</set>
 			<prop>
 				<layout>normal</layout>

@@ -1,4 +1,364 @@
-﻿VERSION 8 CHANGELOG
+﻿VERSION 9 CHANGELOG
+====================
+
+Conqueror of Dreams added.
+Calming Resilience added.
+Lacerate added.
+
+Conqueror of Nightmares removed.
+Resilience removed.
+Blood and Fury removed.
+
+Ludolf, Out of Touch
+
+Elissia, Heart in a Headlock
+
+Elissia's Charm
+
+Ludolf's Charm
+
+Solath's Charm
+rules_text: Choose one —
+• Mill four cards. You gain 4 life.
+• Return target creature card from your graveyard to your hand.
+• Exile up to three target cards from graveyards. => Choose one —
+• Mill four cards. You gain 4 life.
+• Return target creature card from your graveyard to your hand.
+• Exile up to four target cards from graveyards.
+
+Give It All
+rules_text: Creatures you control have elation. [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+At the beginning of your end step, if a creature died under your control this turn, create a 2/2 blue Spirit creature token with flying. => Creatures you control have elation. [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+At the beginning of your end step, if a creature died under your control this turn, create a 2/2 blue Spirit creature token with flying.
+
+Galveth Lancer
+
+Gracehold Soldier
+rules_text: Flash
+Flying
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Gracehold Soldier enters, you may tap or untap target creature. => Flash
+Flying
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Gracehold Soldier enters, you may tap or untap target creature.
+
+Galveth Runner
+
+Make You Bleed
+
+Bones Stay Strong
+
+Heavenshold Supplicant
+
+Crusher of Crops
+
+Veyran's Champion
+rules_text: Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Veyran's Champion enters, create a 3/3 green Zombie Knight creature token. => Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Veyran's Champion enters, create a 3/3 green Zombie Knight creature token.
+
+Goldenmarch Aide
+rules_text: Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Goldenmarch Aide enters, put a +1/+1 counter on target creature you control. => Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Goldenmarch Aide enters, put a +1/+1 counter on target creature you control.
+
+Seeking Skulker
+
+Vigil Mourner
+
+Wandering Sentry
+
+Corpse Reader
+
+Shaper of the Pattern
+
+Stay a Little Longer
+
+Faces in Condensation
+
+Must Be Dreaming
+
+Sacred Guardian
+
+Duress
+
+Iridescent Warden
+
+The Dreamer's Decree
+
+Conceited Firestarter
+rules_text: Menace
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Conceited Firestarter enters, you may sacrifice another artifact or creature. When you do, Conceited Firestarter deals 2 damage to any target. => Menace
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Conceited Firestarter enters, you may sacrifice another artifact or creature. When you do, Conceited Firestarter deals 2 damage to any target.
+
+Drifting Phantasm
+rules_text: Flying
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Drifting Phantasm enters, draw a card. => Flying
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Drifting Phantasm enters, draw a card.
+
+Blazing Skirmisher
+rules_text: Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Blazing Skirmisher enters, you may discard a card. If you do, draw a card. => Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Blazing Skirmisher enters, you may discard a card. If you do, draw a card.
+
+Heavenshold Revenant
+
+Telomend Channeler
+
+Done Dancing
+
+Fall from the Heavens
+
+Flutter
+
+Dusk Raider
+rules_text: Menace
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Dusk Raider enters, each opponent loses 1 life and you gain 1 life. => Menace
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Dusk Raider enters, each opponent loses 1 life and you gain 1 life.
+
+Shatter the System
+
+Telemiscommunications
+
+Fire from the Heavens
+
+Arcadian Forager
+
+Vertigo of Bliss
+
+Chokehold
+
+Even in Arcadia
+
+Resist the Violence
+
+Coming to the Surface
+
+Graneth Intimidator
+
+Oilskin Colossus
+
+Dream Surgeon
+
+Valeshorn Survivor
+
+Melody of Silence
+rules_text: Flying
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Melody of Silence enters, you gain 2 life. => Flying
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Melody of Silence enters, you gain 2 life.
+
+Sage of the Final Parallel
+
+Thornmere Reaper
+rules_text: Menace
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Thornmere Reaper enters, you may destroy target creature that was dealt damage this turn. => Menace
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Thornmere Reaper enters, you may destroy target creature that was dealt damage this turn.
+
+Scarlet Hunt
+
+Goldenmarch Champion
+
+Heavensent Sentinel
+
+Past Lives Sage
+
+Graneth Caller
+
+It's Good to Be in Love
+
+Cold Love, Hot Blood
+
+Breaker of Structures
+
+Thornweb Trapper
+
+Tide Carried Ghost
+rules_text: Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Tide Carried Ghost enters, return target artifact or enchantment card from your graveyard to your hand. => Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Tide Carried Ghost enters, return target artifact or enchantment card from your graveyard to your hand.
+
+Goodnight and Go
+
+Psychobabble
+
+Army of Two
+
+Telomend Whisperer
+
+Graneth Dragoon
+
+Past the Edge
+
+Lifeline Devotee
+
+Stormy Sea Drake
+
+Dream's Inquisitor
+rules_text: Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Dream's Inquisitor enters, target opponent discards a card. 
+{B}, Discard a card: Dream's Inquisitor gains menace until end of turn. => Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Dream's Inquisitor enters, target opponent discards a card. 
+{B}, Discard a card: Dream's Inquisitor gains menace until end of turn.
+
+Lifeline Warden
+
+Arcadian Arbiter
+
+Cultivator of the Pattern
+
+Prismatic Striker
+rules_text: Flying
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Prismatic Striker enters, exile up to one target enchantment. => Flying
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Prismatic Striker enters, exile up to one target enchantment.
+
+Bad Body Double
+
+Hollowed Host
+
+Jaws of Fate
+
+Scarlet Avenger
+
+Evergreen Stag
+
+Red River Corsair
+rules_text: Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Red River Corsair enters, mill a card. You may play that card this turn. => Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Red River Corsair enters, mill a card. You may play that card this turn.
+
+Minds Without Fear
+
+Neglected Spires Phantom
+rules_text: Flying
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Neglected Spires Phantom enters, destroy up to one target nonbasic land. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle. => Flying
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Neglected Spires Phantom enters, destroy up to one target nonbasic land. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.
+
+Silencer of the Dream
+rules_text: Menace
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Silencer of the Dream enters, each other creature gets -2/-2 until end of turn. => Menace
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Silencer of the Dream enters, each other creature gets -2/-2 until end of turn.
+
+Angry Angel
+rules_text: Flying, menace
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Angry Angel enters, untap each creature you control. After this phase, there is an additional combat phase. => Flying, menace
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Angry Angel enters, untap each creature you control. After this phase, there is an additional combat phase.
+
+Flex on a Full Moon
+
+Viscerath Abomination
+rules_text: Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Viscerath Abomination enters, draw cards equal to the greatest power among creatures that died under your control this turn. => Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Viscerath Abomination enters, draw cards equal to the greatest power among creatures that died under your control this turn.
+
+Abandoning Heaven
+
+Burning Bright
+
+Clear the Area
+
+Ashenreach Hellhound
+rules_text: Menace
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Ashenreach Hellhound enters, discard your hand, then create three Clue tokens. => Menace
+Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Ashenreach Hellhound enters, discard your hand, then create three Clue tokens.
+
+Not Getting Any Better
+
+This Empty Love
+
+What Have You Done to Me?
+
+The Night Does Not Belong to God
+
+Reclaim the Vessel
+
+Shivery Cocoon
+
+Golden Lodestone
+
+New Divide
+
+Embedded Surveyor
+rules_text: Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability.)[/i]
+When Embedded Surveyor enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. => Elation [i](When this creature deals combat damage to a player, you may sacrifice it to trigger its “enters” ability and surveil 1.)[/i]
+When Embedded Surveyor enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.
+
+Deathcap Glade
+
+Ash Barrens
+
+Cryptic Prospector
+
+Crystalline Custodian
+
+Cherished Keepsake
+
+The Listening Chair
+
+Die Tonight, Live Forever
+
+Cindermark, Heart of Fire
+
+Contracted Strike
+
+Scholar of the Old Ways
+
+Ascensionism
+
+Path to Eternity
+
+Archfiend of the Weave
+
+Relentless Arcanist
+
+Igrath of the Weave
+
+Ilyan of the Pattern
+
+This Stage is a Prison
+
+Drevos of the Dream
+
+Rider of Gales
+
+Rider of Dawn
+
+Rider of Dusk
+
+Beauty in the Breakdown
+
+Sulfur on Breath
+
+Start with a Song
+cost: {1}{G} => {G}
+
+Thirst for Understanding
+
+Feel Nothing as Well
+
+Rider of Passion
+
+
+VERSION 8 CHANGELOG
 ====================
 
 New Divide added.

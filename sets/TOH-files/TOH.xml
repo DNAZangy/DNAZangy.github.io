@@ -5,7 +5,7 @@
 			<name>TOH</name>
 			<longname>Tacheen: The Open Horizon</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-04-29</releasedate>
+			<releasedate>2026-08-04</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -101,7 +101,7 @@ Bro-Heol&apos;s Grace gets +1/+1 for each enchantment you control.
 		<card>
 			<name>Divine Quarantine</name>
 			<text>Choose any number of nonland permanent types. Destroy each permanent of the chosen type.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/5.png" num="9">TOH</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/5.png" num="10">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -266,7 +266,7 @@ Return target artifact or enchantment card from your graveyard to your hand. (Th
 			<name>Fortune&apos;s Call</name>
 			<text>Outfit your Hero. (Progress down your Hero&apos;s path. If you control no Heroes, create a 1/1 Hero token first.)
 Create a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/14.png" num="11">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/14.png" num="12">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -282,7 +282,7 @@ Create a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this t
 		<card>
 			<name>Crown&apos;s Captain</name>
 			<text>When Crown&apos;s Captain enters, create a Weapon token. You may attach it to another creature you control. Then you gain life equal to the number of equipped creatures you control. (It&apos;s an Equipment artifact with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/15.png" num="8">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/15.png" num="9">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -389,7 +389,7 @@ When Snowfield Oracle dies, you may exile it. If you do, return target enchantme
 			<text>Equip abilities you activate cost {1} less to activate.
 [+1]: Untap up to one target artifact or creature.
 [-2]: Create a Weapon token. You gain 3 life. (It&apos;s an Equipment artifact with equip {2} and &quot;Equipped creature gets +1/+1.&quot;)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/21.png" num="6">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/21.png" num="7">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -443,7 +443,7 @@ When Plan of Ambush enters or is defeated, create two 1/1 red Berserker creature
 			<name>Faithful Stray</name>
 			<text>When Faithful Stray enters, create a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)
 Whenever you draw your second card each turn, put a +1/+1 counter on Faithful Stray.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/24.png" num="10">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/24.png" num="11">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -461,7 +461,7 @@ Whenever you draw your second card each turn, put a +1/+1 counter on Faithful St
 			<name>Chosen Enforcer</name>
 			<text>Flash
 When Chosen Enforcer enters, you may exile another target permanent you control. Return it to the battlefield at the beginning of the next end step.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/25.png" num="4">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/25.png" num="5">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -625,7 +625,7 @@ Whenever Kazhtud Adventurer attacks, adjust another target permanent you control
 			<name>Comfort of Friends</name>
 			<text>Outfit your Hero. (Progress down your Hero&apos;s path. If you control no Heroes, create a 1/1 Hero token first.)
 Splice onto sorcery {2}{W} (As you cast a sorcery spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card&apos;s effects to that spell.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/34.png" num="7">TOH</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/34.png" num="8">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -639,9 +639,9 @@ Splice onto sorcery {2}{W} (As you cast a sorcery spell, you may reveal this car
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Fragment</name>
+			<name>Chisel</name>
 			<text>Exile target artifact, battle, enchantment, or planeswalker. Its controller creates a Shard token. (It&apos;s an enchantment with &quot;{2}, Sacrifice this token: Scry 1, then draw a card.&quot;)</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/35.png" num="12">TOH</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/35.png" num="4">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4244,9 +4244,9 @@ For any number of permanents you control, you may remove a counter from it. If y
 		</card>
 		<card>
 			<name>Maw of Karchar-Tan</name>
-			<text>Maw of Karchar-Tan enters tapped.
-{T}: Add {B}.
-{2}{B}{B}, Sacrifice Maw of Karchar-Tan: You draw two cards and you lose 2 life.</text>
+			<text>({T}: Add {B}.)
+Maw of Karchar-Tan enters tapped.
+{2}{B}{B}, {T}, Sacrifice Maw of Karchar-Tan: You draw two cards and you lose 2 life.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/TOH-files/img/236.png" num="259">TOH</set>
 			<prop>
 				<layout>normal</layout>
@@ -4596,8 +4596,8 @@ Leechridden Swamp enters tapped.
 		</card>
 		<card>
 			<name>Lurking Lake</name>
-			<text>If you control two or more other lands, Lurking Lake enters tapped.
-{T}: Add {U}.
+			<text>({T}: Add {U}.)
+If you control two or more other lands, Lurking Lake enters tapped.
 {U}, Tap an untapped creature you control: Lurking Lake becomes a 3/2 blue Shark creature with prowess until end of turn. It&apos;s still a land.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/TOH-files/img/254.png" num="257">TOH</set>
 			<prop>
@@ -4724,8 +4724,8 @@ As Shimmering Beach enters, you may reveal a basic Plains or basic Island card f
 		</card>
 		<card>
 			<name>Smoldering Remains</name>
-			<text>If you control two or more other lands, Smoldering Remains enters tapped.
-{T}: Add {R}.
+			<text>({T}: Add {R}.)
+If you control two or more other lands, Smoldering Remains enters tapped.
 {2}{R}, Tap an untapped creature you control: Smoldering Remains becomes a 4/4 red Dragon creature with flying until end of turn. It&apos;s still a land.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/TOH-files/img/262.png" num="274">TOH</set>
 			<prop>
@@ -4757,8 +4757,8 @@ As Shimmering Beach enters, you may reveal a basic Plains or basic Island card f
 		</card>
 		<card>
 			<name>Stagnating Marsh</name>
-			<text>If you control two or more other lands, Stagnating Marsh enters tapped.
-{T}: Add {B}.
+			<text>({T}: Add {B}.)
+If you control two or more other lands, Stagnating Marsh enters tapped.
 {1}{B}, Tap an untapped creature you control: Stagnating Marsh becomes a 3/3 Ooze creature until end of turn. It&apos;s still a land. It can&apos;t be blocked this turn.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/TOH-files/img/264.png" num="277">TOH</set>
 			<prop>
@@ -4774,8 +4774,8 @@ As Shimmering Beach enters, you may reveal a basic Plains or basic Island card f
 		</card>
 		<card>
 			<name>Stained Grove</name>
-			<text>If you control two or more other lands, Stained Grove enters tapped.
-{T}: Add {G}.
+			<text>({T}: Add {G}.)
+If you control two or more other lands, Stained Grove enters tapped.
 {2}{G}{G}, Tap an untapped creature you control: Stained Grove becomes a 6/6 green Giant creature with trample until end of turn. It&apos;s still a land.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/TOH-files/img/265.png" num="278">TOH</set>
 			<prop>
@@ -4857,7 +4857,7 @@ As Shimmering Beach enters, you may reveal a basic Plains or basic Island card f
 			<name>Kasharath, Unbound Fury</name>
 			<text>[+1]: Create a 2/2 white Warrior creature token. You gain 2 life.
 [-2]: Choose a nonland type. Each opponent sacrifices a permanent of that type.
-[-6]: Target opponent loses half their lofe, rounded up. You gain that much life.
+[-6]: Target opponent loses half their life, rounded up. You gain that much life.
 ---
 (Front): Toull-Gouloù, Hole of Light</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/TOH-files/img/269_back.png" num="282b">TOH</set>
@@ -4954,8 +4954,8 @@ As Verdant Canyon enters, you may reveal a basic Mountain or basic Forest card f
 		</card>
 		<card>
 			<name>Whispering Grotto</name>
-			<text>If you control two or more other lands, Whispering Grotto enters tapped.
-{T}: Add {W}.
+			<text>({T}: Add {W}.)
+If you control two or more other lands, Whispering Grotto enters tapped.
 {1}{W}, Tap an untapped creature you control: Whispering Grotto becomes a 2/3 Spirit creature with lifelink until end of turn. It&apos;s still a land.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/TOH-files/img/275.png" num="288">TOH</set>
 			<prop>
@@ -5275,7 +5275,7 @@ Ward—Pay 2 life.</text>
 [+2]: Create a Weapon token.
 [-3]: Clotaire deals 3 damage to target tapped creature. 
 [-2]: Move any number of counters from permanents you control onto target Equipment. It gains &quot;Equipped creature gets +2/+2 and has all abilities of keyword counters on this Equipment.&quot;</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/294.png" num="5">TOH</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/294.png" num="6">TOH</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>

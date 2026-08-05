@@ -1,8 +1,8 @@
 ﻿{
     "name": "Tacheen: The Open Horizon",
-    "formats": "Zangy",
+    "formats": "",
     "image_type": "png",
-    "draft_structure": "draft booster",
+    "draft_structure": "play booster",
     "unpreviewed": "card back",
     "image_name": "position",
     "v_mana": "",
@@ -117,7 +117,7 @@
             "color": "W",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 9,
+            "number": 10,
             "color_identity": "W",
             "cost": "{2}{W}{W}{W}",
             "rules_text": "Choose any number of nonland permanent types. Destroy each permanent of the chosen type.",
@@ -172,7 +172,7 @@
             "artist": "Daryl Toh",
             "alias": "",
             "position": "7",
-            "rotated": true,
+            "rotated": false,
             "notes": "!tag Yann\n!tag Erwan\n!tag Houarn\n!tag Tacheen"
         },
         {
@@ -214,7 +214,7 @@
             "artist": "Daryl Toh",
             "alias": "",
             "position": "9",
-            "rotated": true,
+            "rotated": false,
             "notes": "!tag Tacheen\nTownstuff\nSPOILERED"
         },
         {
@@ -318,7 +318,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 11,
+            "number": 12,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Outfit your Hero. [i](Progress down your Hero's path. If you control no Heroes, create a 1/1 Hero token first.)[/i]\nCreate a Shard token. [i](It's an enchantment with \u201c{2}, Sacrifice this token: Scry 1, then draw a card.\u201d)[/i]",
@@ -339,7 +339,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Knight",
-            "number": 8,
+            "number": 9,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "When Crown's Captain enters, create a Weapon token. You may attach it to another creature you control. Then you gain life equal to the number of equipped creatures you control. [i](It's an Equipment artifact with equip {2} and \u201cEquipped creature gets +1/+1.\u201d)[/i]",
@@ -465,7 +465,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Legendary Planeswalker \u2014 Clotaire",
-            "number": 6,
+            "number": 7,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Equip abilities you activate cost {1} less to activate.\n[+1]: Untap up to one target artifact or creature.\n[-2]: Create a Weapon token. You gain 3 life. [i](It's an Equipment artifact with equip {2} and \u201cEquipped creature gets +1/+1.\u201d)[/i]",
@@ -499,7 +499,7 @@
             "artist": "Daryl Toh",
             "alias": "",
             "position": "22",
-            "rotated": true,
+            "rotated": false,
             "notes": "!tag Tacheen\n!tag Yaromir\nPASTTIMELINE\n!tag adventuringparty5\nSPOILERED"
         },
         {
@@ -520,7 +520,7 @@
             "artist": "Daryl Toh",
             "alias": "",
             "position": "23",
-            "rotated": true,
+            "rotated": false,
             "notes": "!tag Tacheen\n!tag Brieg\n!tag Tual\nPRESENTTIMELINE\n!tag adventuringparty2\nSPOILERED"
         },
         {
@@ -528,7 +528,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Dog",
-            "number": 10,
+            "number": 11,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "When Faithful Stray enters, create a Shard token. [i](It's an enchantment with \u201c{2}, Sacrifice this token: Scry 1, then draw a card.\u201d)[/i]\nWhenever you draw your second card each turn, put a +1/+1 counter on Faithful Stray.",
@@ -549,7 +549,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Soldier",
-            "number": 4,
+            "number": 5,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "Flash\nWhen Chosen Enforcer enters, you may exile another target permanent you control. Return it to the battlefield at the beginning of the next end step.",
@@ -750,7 +750,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 7,
+            "number": 8,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Outfit your Hero. [i](Progress down your Hero's path. If you control no Heroes, create a 1/1 Hero token first.)[/i]\nSplice onto sorcery {2}{W} [i](As you cast a sorcery spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)[/i]",
@@ -767,11 +767,11 @@
             "notes": "!tag Tacheen\n!tag Amaltheos\n!tag Rajabu\n!tag Lidija\n!tag adventuringparty5"
         },
         {
-            "card_name": "Fragment",
+            "card_name": "Chisel",
             "color": "W",
             "rarity": "rare",
             "type": "Instant",
-            "number": 12,
+            "number": 4,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Exile target artifact, battle, enchantment, or planeswalker. Its controller creates a Shard token. [i](It's an enchantment with \u201c{2}, Sacrifice this token: Scry 1, then draw a card.\u201d)[/i]",
@@ -901,7 +901,7 @@
             "artist": "Daryl Toh",
             "alias": "",
             "position": "40",
-            "rotated": true,
+            "rotated": false,
             "notes": "!tag Tacheen\n!tag Amaltheos\nPRESENTTIMELINE\n!tag adventuringparty5\nSPOILERED"
         },
         {
@@ -1495,7 +1495,7 @@
             "artist": "Daryl Toh",
             "alias": "",
             "position": "66",
-            "rotated": true,
+            "rotated": false,
             "notes": "!tag Tacheen\n!tag Erwan\n!tag Yann\n!tag Brieg\n!tag Tual\nPRESENTTIMELINE\nLaterAdventure\n!tag Adventuringparty2\nTimeline\n!tag adventuringparty1\n\nTheHeavy\nTheClear\ncycle2\nSPOILERED"
         },
         {
@@ -1768,7 +1768,7 @@
             "artist": "Daryl Toh",
             "alias": "",
             "position": "79",
-            "rotated": true,
+            "rotated": false,
             "notes": "!tag Tacheen\n!tag Tual\nPRESENTTIMELINE\n!tag adventuringparty2\nSPOILERED"
         },
         {
@@ -1957,7 +1957,7 @@
             "artist": "Daryl Toh",
             "alias": "",
             "position": "88",
-            "rotated": true,
+            "rotated": false,
             "notes": "!tag Tacheen\n!tag Hunvreg\nDungeonstuff\nSPOILERED"
         },
         {
@@ -2125,7 +2125,7 @@
             "artist": "Daryl Toh",
             "alias": "",
             "position": "96",
-            "rotated": true,
+            "rotated": false,
             "notes": "!tag Tacheen\n!tag Amaltheos\n!tag Rajabu\nPRESENTTIMELINE\n!tag adventuringparty5\nSPOILERED"
         },
         {
@@ -2327,7 +2327,7 @@
             "alias": "",
             "position": "105",
             "rotated": false,
-            "notes": "!tag Tacheen\nTownstuff\n"
+            "notes": "!tag Tacheen\nTownstuff"
         },
         {
             "card_name": "Dormant Heartstone",
@@ -2632,7 +2632,7 @@
             "artist": "Daryl Toh",
             "alias": "",
             "position": "119",
-            "rotated": true,
+            "rotated": false,
             "notes": "!tag Tacheen\n!tag Erwan\n!tag Yann\n!tag Houarn \nPResenttimeline\nLaterAdventure\n!tag adventuringparty1\n\nTheHeavy\nTheClear\nCycle2\nSPOILERED"
         },
         {
@@ -3058,7 +3058,7 @@
             "artist": "Daryl Toh",
             "alias": "",
             "position": "137",
-            "rotated": true,
+            "rotated": false,
             "notes": "!tag Tacheen\n!tag Erwan\n!tag Yann\nPasttimeline2\n!tag adventuringparty1\n\nTheHeavy\nTheClear\nCycle1\nSPOILERED"
         },
         {
@@ -3121,7 +3121,7 @@
             "artist": "Daryl Toh",
             "alias": "",
             "position": "140",
-            "rotated": true,
+            "rotated": false,
             "notes": "!tag Tacheen\n!tag Rajabu\n!tag Lidija\nPRESENTTIMELINE\n!tag adventuringparty5\nSPOILERED"
         },
         {
@@ -3205,7 +3205,7 @@
             "artist": "Daryl Toh",
             "alias": "",
             "position": "144",
-            "rotated": true,
+            "rotated": false,
             "notes": "!tag Tacheen\n!tag Erwan\n!tag Yann\n!tag Houarn \nPResenttimeline\nLaterAdventure\n!tag adventuringparty1\n\nTheHeavy\nTheClear\nCycle2\nSPOILERED"
         },
         {
@@ -3226,7 +3226,7 @@
             "artist": "Daryl Toh",
             "alias": "",
             "position": "145",
-            "rotated": true,
+            "rotated": false,
             "notes": "!tag Tacheen\n!tag Erwan\nPasttimeline2\n!tag adventuringparty1\n\nCycle1\nTheBrittle\nSPOILERED"
         },
         {
@@ -5271,7 +5271,7 @@
             "number": 259,
             "color_identity": "B",
             "cost": "",
-            "rules_text": "Maw of Karchar-Tan enters tapped.\n{T}: Add {B}.\n{2}{B}{B}, Sacrifice Maw of Karchar-Tan: You draw two cards and you lose 2 life.",
+            "rules_text": "[i]({T}: Add {B}.)[/i]\nMaw of Karchar-Tan enters tapped.\n{2}{B}{B}, {T}, Sacrifice Maw of Karchar-Tan: You draw two cards and you lose 2 life.",
             "flavor_text": "[i]\u201cI told myself that there was no other way. But, when the gate closed on Kadou, I knew I was just a coward.\u201d\n\u2014Arzur, journal entry[/i]",
             "pt": "",
             "special_text": "",
@@ -5685,7 +5685,7 @@
             "number": 257,
             "color_identity": "U",
             "cost": "",
-            "rules_text": "If you control two or more other lands, Lurking Lake enters tapped.\n{T}: Add {U}.\n{U}, Tap an untapped creature you control: Lurking Lake becomes a 3/2 blue Shark creature with prowess until end of turn. It's still a land.",
+            "rules_text": "[i]({T}: Add {U}.)[/i]\nIf you control two or more other lands, Lurking Lake enters tapped.\n{U}, Tap an untapped creature you control: Lurking Lake becomes a 3/2 blue Shark creature with prowess until end of turn. It's still a land.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5853,7 +5853,7 @@
             "number": 274,
             "color_identity": "R",
             "cost": "",
-            "rules_text": "If you control two or more other lands, Smoldering Remains enters tapped.\n{T}: Add {R}.\n{2}{R}, Tap an untapped creature you control: Smoldering Remains becomes a 4/4 red Dragon creature with flying until end of turn. It's still a land.",
+            "rules_text": "[i]({T}: Add {R}.)[/i]\nIf you control two or more other lands, Smoldering Remains enters tapped.\n{2}{R}, Tap an untapped creature you control: Smoldering Remains becomes a 4/4 red Dragon creature with flying until end of turn. It's still a land.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5895,7 +5895,7 @@
             "number": 277,
             "color_identity": "B",
             "cost": "",
-            "rules_text": "If you control two or more other lands, Stagnating Marsh enters tapped.\n{T}: Add {B}.\n{1}{B}, Tap an untapped creature you control: Stagnating Marsh becomes a 3/3 Ooze creature until end of turn. It's still a land. It can't be blocked this turn.",
+            "rules_text": "[i]({T}: Add {B}.)[/i]\nIf you control two or more other lands, Stagnating Marsh enters tapped.\n{1}{B}, Tap an untapped creature you control: Stagnating Marsh becomes a 3/3 Ooze creature until end of turn. It's still a land. It can't be blocked this turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5916,7 +5916,7 @@
             "number": 278,
             "color_identity": "G",
             "cost": "",
-            "rules_text": "If you control two or more other lands, Stained Grove enters tapped.\n{T}: Add {G}.\n{2}{G}{G}, Tap an untapped creature you control: Stained Grove becomes a 6/6 green Giant creature with trample until end of turn. It's still a land.",
+            "rules_text": "[i]({T}: Add {G}.)[/i]\nIf you control two or more other lands, Stained Grove enters tapped.\n{2}{G}{G}, Tap an untapped creature you control: Stained Grove becomes a 6/6 green Giant creature with trample until end of turn. It's still a land.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6014,10 +6014,10 @@
             "color2": "WB",
             "type2": "Legendary Planeswalker \u2014 Kasharath",
             "cost2": "",
-            "rules_text2": "[+1]: Create a 2/2 white Warrior creature token. You gain 2 life.\n[-2]: Choose a nonland type. Each opponent sacrifices a permanent of that type.\n[-6]: Target opponent loses half their lofe, rounded up. You gain that much life.",
+            "rules_text2": "[+1]: Create a 2/2 white Warrior creature token. You gain 2 life.\n[-2]: Choose a nonland type. Each opponent sacrifices a permanent of that type.\n[-6]: Target opponent loses half their life, rounded up. You gain that much life.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
-            "special_text2": "[+1]: Create a 2/2 white Warrior creature token. You gain 2 life.\n[-2]: Choose a nonland type. Each opponent sacrifices a permanent of that type.\n[-6]: Target opponent loses half their lofe, rounded up. You gain that much life.",
+            "special_text2": "[+1]: Create a 2/2 white Warrior creature token. You gain 2 life.\n[-2]: Choose a nonland type. Each opponent sacrifices a permanent of that type.\n[-6]: Target opponent loses half their life, rounded up. You gain that much life.",
             "loyalty2": "",
             "artist2": "Daryl Toh",
             "alias2": "",
@@ -6138,7 +6138,7 @@
             "number": 288,
             "color_identity": "W",
             "cost": "",
-            "rules_text": "If you control two or more other lands, Whispering Grotto enters tapped.\n{T}: Add {W}.\n{1}{W}, Tap an untapped creature you control: Whispering Grotto becomes a 2/3 Spirit creature with lifelink until end of turn. It's still a land.",
+            "rules_text": "[i]({T}: Add {W}.)[/i]\nIf you control two or more other lands, Whispering Grotto enters tapped.\n{1}{W}, Tap an untapped creature you control: Whispering Grotto becomes a 2/3 Spirit creature with lifelink until end of turn. It's still a land.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6534,7 +6534,7 @@
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Planeswalker \u2014 Clotaire",
-            "number": 5,
+            "number": 6,
             "color_identity": "WB",
             "cost": "{2}{W}{W}",
             "rules_text": "Clotaire enters with a lifelink and deathtouch counter on him if {B} was spent to cast him.\n[+2]: Create a Weapon token.\n[-3]: Clotaire deals 3 damage to target tapped creature. \n[-2]: Move any number of counters from permanents you control onto target Equipment. It gains \u201cEquipped creature gets +2/+2 and has all abilities of keyword counters on this Equipment.\u201d",
@@ -6685,7 +6685,7 @@
             "artist": "Daryl Toh",
             "alias": "",
             "position": "300",
-            "rotated": true,
+            "rotated": false,
             "notes": "!tag Tacheen\nPRESENTTIMELINE\n!tag Paolig\n!tag adventuringparty4\nSPOILERED"
         },
         {
