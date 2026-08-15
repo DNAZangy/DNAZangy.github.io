@@ -1976,8 +1976,16 @@
     },
     "a->colorless",
     {
+        "card_name": "Shifting Bracelet",
+        "number": 252,
+        "shape": "normal",
+        "set": "SHU",
+        "rotated": false,
+        "position": "309"
+    },
+    {
         "card_name": "The Sun Disc",
-        "number": 254,
+        "number": 255,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2097,7 +2105,7 @@
     },
     {
         "card_name": "Shuriman Tellstones",
-        "number": 252,
+        "number": 253,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2105,7 +2113,7 @@
     },
     {
         "card_name": "Staff of Forgotten Realms",
-        "number": 253,
+        "number": 254,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2113,14 +2121,11 @@
     },
     {
         "card_name": "Unyielding Warden",
-        "number": 255,
+        "number": 256,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
         "position": "211"
-    },
-    {
-        "card_name": "e"
     },
     {
         "card_name": "e"
@@ -2140,7 +2145,7 @@
     "a->land",
     {
         "card_name": "Xolan's Depths",
-        "number": 288,
+        "number": 290,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2148,7 +2153,7 @@
     },
     {
         "card_name": "Curator's Archive",
-        "number": 262,
+        "number": 263,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2156,7 +2161,7 @@
     },
     {
         "card_name": "Lavender Sea",
-        "number": 268,
+        "number": 269,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2164,7 +2169,7 @@
     },
     {
         "card_name": "Sunken Capital",
-        "number": 277,
+        "number": 278,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2172,7 +2177,7 @@
     },
     {
         "card_name": "Xer'Sai Burrows",
-        "number": 286,
+        "number": 288,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2180,7 +2185,7 @@
     },
     {
         "card_name": "Barren Salt Flats",
-        "number": 257,
+        "number": 258,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2188,7 +2193,7 @@
     },
     {
         "card_name": "Timeless Sanctuary",
-        "number": 279,
+        "number": 280,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2196,7 +2201,7 @@
     },
     {
         "card_name": "Zoantha Cascade",
-        "number": 289,
+        "number": 291,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2204,7 +2209,7 @@
     },
     {
         "card_name": "Vekaura Ruins",
-        "number": 285,
+        "number": 286,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2212,7 +2217,7 @@
     },
     {
         "card_name": "Reborn Gardens",
-        "number": 273,
+        "number": 274,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2235,7 +2240,7 @@
     },
     {
         "card_name": "Tower Removed From Time",
-        "number": 281,
+        "number": 282,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2243,7 +2248,7 @@
     },
     {
         "card_name": "Nerimazeth, Ruins of Power",
-        "number": 272,
+        "number": 273,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2251,7 +2256,7 @@
     },
     {
         "card_name": "Vekaura, on Bloodied Coin",
-        "number": 284,
+        "number": 285,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2259,7 +2264,7 @@
     },
     {
         "card_name": "Marrowmark, Ribcage Market",
-        "number": 269,
+        "number": 270,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2267,7 +2272,7 @@
     },
     {
         "card_name": "Nazumeh, Haven of Hunters",
-        "number": 271,
+        "number": 272,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2275,7 +2280,7 @@
     },
     {
         "card_name": "Gleaming Sands",
-        "number": 266,
+        "number": 267,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2283,7 +2288,7 @@
     },
     {
         "card_name": "Twisted Sands",
-        "number": 283,
+        "number": 284,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2291,7 +2296,7 @@
     },
     {
         "card_name": "Blighted Sands",
-        "number": 259,
+        "number": 260,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2299,7 +2304,7 @@
     },
     {
         "card_name": "Shattered Sands",
-        "number": 276,
+        "number": 277,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2307,7 +2312,7 @@
     },
     {
         "card_name": "Enduring Sands",
-        "number": 263,
+        "number": 264,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2330,7 +2335,7 @@
     },
     {
         "card_name": "Tomb of the Ascended",
-        "number": 280,
+        "number": 281,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2338,7 +2343,7 @@
     },
     {
         "card_name": "Bel'Zhun, Noxian Outpost",
-        "number": 258,
+        "number": 259,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2346,7 +2351,7 @@
     },
     {
         "card_name": "Zuretta, Risen City",
-        "number": 290,
+        "number": 292,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2354,7 +2359,7 @@
     },
     {
         "card_name": "Xolan, Ruins of the Faceless",
-        "number": 287,
+        "number": 289,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2362,7 +2367,7 @@
     },
     {
         "card_name": "Nashramae, Crossroads of Wonder",
-        "number": 270,
+        "number": 271,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2370,7 +2375,7 @@
     },
     {
         "card_name": "Frozen Sands",
-        "number": 265,
+        "number": 266,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2378,7 +2383,7 @@
     },
     {
         "card_name": "Carved Sands",
-        "number": 260,
+        "number": 261,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2386,7 +2391,7 @@
     },
     {
         "card_name": "Fractured Sands",
-        "number": 264,
+        "number": 265,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2394,7 +2399,7 @@
     },
     {
         "card_name": "Suspended Sands",
-        "number": 278,
+        "number": 279,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2402,7 +2407,7 @@
     },
     {
         "card_name": "Tranquil Sands",
-        "number": 282,
+        "number": 283,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2425,7 +2430,7 @@
     },
     {
         "card_name": "The Great Sai",
-        "number": 267,
+        "number": 268,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2433,15 +2438,23 @@
     },
     {
         "card_name": "Abandoned Chronarium",
-        "number": 256,
+        "number": 257,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
         "position": "277"
     },
     {
+        "card_name": "Weathered Sanctum",
+        "number": 287,
+        "shape": "normal",
+        "set": "SHU",
+        "rotated": false,
+        "position": "310"
+    },
+    {
         "card_name": "Sandthresher Grounds",
-        "number": 275,
+        "number": 276,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2449,7 +2462,7 @@
     },
     {
         "card_name": "Conduit Pylons",
-        "number": 261,
+        "number": 262,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2457,11 +2470,23 @@
     },
     {
         "card_name": "Roiling Sands",
-        "number": 274,
+        "number": 275,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
         "position": "213"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "er"
@@ -2480,7 +2505,7 @@
     },
     {
         "card_name": "Plains",
-        "number": 291,
+        "number": 293,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2488,7 +2513,7 @@
     },
     {
         "card_name": "Island",
-        "number": 292,
+        "number": 294,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2496,7 +2521,7 @@
     },
     {
         "card_name": "Swamp",
-        "number": 293,
+        "number": 295,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2504,7 +2529,7 @@
     },
     {
         "card_name": "Mountain",
-        "number": 294,
+        "number": 296,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,
@@ -2512,7 +2537,7 @@
     },
     {
         "card_name": "Forest",
-        "number": 295,
+        "number": 297,
         "shape": "normal",
         "set": "SHU",
         "rotated": false,

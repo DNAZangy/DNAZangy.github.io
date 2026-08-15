@@ -1,4 +1,191 @@
-﻿VERSION 10 CHANGELOG
+﻿VERSION 11 CHANGELOG
+====================
+
+Shifting Bracelet added.
+Weathered Sanctum added.
+
+
+Risen Sand Cavalier
+rules_text: Risen Sand Cavalier has lifelink as long as a creature entered under your control this turn.
+{1}{cajunhazard.png}, Exile Risen Sand Cavalier from your graveyard: Create two tapped 1/1 white Sand Soldier creature tokens. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => Risen Sand Cavalier has lifelink as long as a creature entered under your control this turn.
+{1}{V}, Exile Risen Sand Cavalier from your graveyard: Create two tapped 1/1 white Sand Soldier creature tokens. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Strength of Nazumah
+cost: {1}{W} => {W}
+rules_text: Choose one —
+• Strength of Nazumah deals 3 damage to target attacking, blocking, or tapped creature.
+• Exile target artifact. => Choose one —
+• Strength of Nazumah deals 3 damage to target attacking or blocking creature.
+• Destroy target artifact with mana value 2 or less.
+
+Gregarious Clockling
+rules_text: {T}, Sacrifice Gregarious Clockling: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.
+{1}{cajunhazard.png}, Exile Gregarious Clockling from your graveyard: Surveil 2, then draw a card. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => {T}, Sacrifice Gregarious Clockling: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.
+{1}{V}, Exile Gregarious Clockling from your graveyard: Surveil 2, then draw a card. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Tomb's Vigil
+rules_text: Deathtouch
+{1}{cajunhazard.png}, Exile this card from your graveyard: Each opponent loses 3 life and you gain 3 life. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => Deathtouch
+{1}{V}, Exile this card from your graveyard: Each opponent loses 3 life and you gain 3 life. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Endless Devout
+rules_text: Whenever Endless Devout attacks, target creature can't block this turn.
+{5}{cajunhazard.png}, Exile Endless Devout from your graveyard: Create a 0/0 colorless Construct artifact creature token and put five +1/+1 counters on it. It can't block this turn. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => Whenever Endless Devout attacks, target creature can't block this turn.
+{5}{V}, Exile Endless Devout from your graveyard: Create a 0/0 colorless Construct artifact creature token and put five +1/+1 counters on it. It can't block this turn. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Tormented Baccai
+rules_text: Menace
+{cajunhazard.png}: Tormented Baccai gets +2/+0 until end of turn. => Menace
+{V}: Tormented Baccai gets +2/+0 until end of turn.
+
+Expedition Below
+type: Sorcery => Instant
+
+Clockhand Golem
+rules_text: Trample
+{1}{cajunhazard.png}, Exile Clockhand Golem from your graveyard: You gain 6 life. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => Trample
+{1}{V}, Exile Clockhand Golem from your graveyard: You gain 6 life. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Tomb Crawler
+rules_text: Whenever Tomb Crawler becomes blocked, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+{cajunhazard.png}: Tomb Crawler can't be blocked this turn. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => Whenever Tomb Crawler attacks, you may pay {V}. When you do, target attacking creature can't be blocked this turn. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+Whenever Tomb Crawler deals combat damage to a player or planeswalker, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Ruthless Financier
+cost: {1}{B} => {2}{B}
+rules_text: At the beginning of your end step, if a creature died this turn, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i] => Whenever one or more other creatures die, uncover. This ability triggers only once each turn. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Temporal Nomad
+cost: {1}{B}{B} => {B}{B}
+rules_text: Menace
+Play with the top card of your library revealed.
+At the beginning of your upkeep, draw a card.
+At the beginning of your end step, you lose life equal to the mana value of the top card of your library. => Play with the top card of your library revealed.
+At the beginning of your upkeep, draw a card.
+At the beginning of your end step, you lose life equal to the mana value of the top card of your library.
+
+Ravaging Colossus
+
+Visions of the Future
+rules_text: Surveil 3, then draw two cards.
+Flashback {3}{cajunhazard.png}{cajunhazard.png} [i](You may cast this card from your graveyard for its flashback cost. Then exile it. Spend only colored mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => Surveil 3, then draw two cards.
+Flashback {3}{V}{V} [i](You may cast this card from your graveyard for its flashback cost. Then exile it. Spend only colored mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Demon of Domination
+cost: {1}{B}{B} => {1}{B}
+pt: 2/3 => 2/2
+
+The Bird and the Branch
+rules_text: Whenever a creature you control attacks alone, up to one target land you control becomes a Sand creature with trample and “This creature's power and toughness are each equal to the number of lands you control.” => Whenever a creature you control attacks alone, up to one target land you control becomes a Sand creature land with trample and “This creature's power and toughness are each equal to the number of lands you control.” You may tap that land to have it become attacking.
+
+Echoes of an Empire
+rules_text: Affinity for artifacts
+Prowess
+{1}{cajunhazard.png}, Exile Echoes of an Empire from your graveyard: Create a 0/0 colorless Construct artifact creature token with “This token gets +1/+1 for each artifact you control.” Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => Affinity for artifacts
+Prowess
+{1}{V}, Exile Echoes of an Empire from your graveyard: Create a 0/0 colorless Construct artifact creature token with “This token gets +1/+1 for each artifact you control.” Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Kai'Sa, Who Came Back
+rules_text: Flash
+Flying
+Whenever you cast a noncreature spell, up to one target creature you control traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Flash
+Flying
+When Kai'Sa enters or whenever you cast a noncreature spell, up to one target creature you control traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i]
+pt: 3/3 => 3/4
+
+Staff of Forgotten Realms
+rules_text: Equipped creature gets +2/+2.
+Equip {3}
+{1}{cajunhazard.png}: Return Staff of Forgotten Realms from your graveyard to the battlefield attached to target creature you control. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => Equipped creature gets +2/+2.
+Equip {3}
+{1}{V}: Return Staff of Forgotten Realms from your graveyard to the battlefield attached to target creature you control. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Guardian of Tombs
+rules_text: Double strike
+{3}{cajunhazard.png}, Exile Guardian of Tombs from your graveyard: Return up to two target creature cards each with mana value 2 or less from your graveyard to the battlefield. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => Double strike
+{3}{V}, Exile Guardian of Tombs from your graveyard: Return up to two target creature cards each with mana value 2 or less from your graveyard to the battlefield. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Soul-Siphon Sculpture
+rules_text: Flying, lifelink
+{3}{cajunhazard.png}{cajunhazard.png}, Exile Soul-Siphon Sculpture from your graveyard: You draw three cards and you lose 3 life. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => Flying, lifelink
+{3}{V}{V}, Exile Soul-Siphon Sculpture from your graveyard: You draw three cards and you lose 3 life. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Carikkan's Guardian
+rules_text: When Carikkan's Guardian enters, it deals X damage to target creature an opponent controls.
+{X}{cajunhazard.png}{cajunhazard.png}, Exile Carikkan's Guardian from your graveyard: Carikkan's Guardian deals X damage to target opponent. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => When Carikkan's Guardian enters, it deals X damage to target creature an opponent controls.
+{X}{V}{V}, Exile Carikkan's Guardian from your graveyard: Carikkan's Guardian deals X damage to target opponent. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Sanctum Conservator
+rules_text: When Sanctum Conservator enters, destroy target nonland permanent you don't control.
+{4}{cajunhazard.png}{cajunhazard.png}, Exile Sanctum Conservator from your graveyard: Destroy target nonland permanent. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => When Sanctum Conservator enters, destroy target nonland permanent you don't control.
+{3}{V}{V}, Exile Sanctum Conservator from your graveyard: Destroy target nonland permanent. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+pt: 5/5 => 6/6
+
+Effigy of the Sands
+rules_text: Whenever Effigy of the Sands enters or attacks, you may sacrifice a Desert. If you do, draw two cards.
+{1}{cajunhazard.png}, Exile Effigy of the Sands from your graveyard: Create a tapped colorless Desert land token with “{T}: Add {C}.” [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => Whenever Effigy of the Sands enters or attacks, you may sacrifice a Desert. If you do, draw two cards.
+{1}{V}, Exile Effigy of the Sands from your graveyard: Create a tapped colorless Desert land token with “{T}: Add {C}.” [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Husked Devout
+rules_text: {T}: Put a +1/+1 counter on each artifact creature you control.
+{1}{cajunhazard.png}, Exile Husked Devout from your graveyard: Proliferate. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => {T}: Put a +1/+1 counter on each artifact creature you control.
+{1}{V}, Exile Husked Devout from your graveyard: Proliferate. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Reconstructed Soldier
+rules_text: When Reconstructed Soldier enters, surveil 2.
+{2}{cajunhazard.png}{cajunhazard.png}, Exile Reconstructed Soldier from your graveyard: Return target artifact card from your graveyard to the battlefield. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => When Reconstructed Soldier enters, surveil 2.
+{2}{V}{V}, Exile Reconstructed Soldier from your graveyard: Return target artifact card from your graveyard to the battlefield. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Sandstone Protector
+rules_text: Whenever Sandstone Protector enters, exile up to one target card from a graveyard.
+{1}{cajunhazard.png}, Exile Sandstone Protector from your graveyard: Return target creature card from your graveyard to your hand. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => Whenever Sandstone Protector enters, exile up to one target card from a graveyard.
+{1}{V}, Exile Sandstone Protector from your graveyard: Return target creature card from your graveyard to your hand. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Unyielding Warden
+rules_text: {2}{cajunhazard.png}: Return Unyielding Warden from your graveyard to the battlefield tapped. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => {2}{V}: Return Unyielding Warden from your graveyard to the battlefield tapped. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Brothers' Bloodshed
+rules_text: Target creature gets +3/+3 until end of turn. Whenever it deals damage this turn, uncover. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i] => Uncover, then target creature you control gets +1/+1 until end of turn for each Treasure you control. [i](Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)[/i]
+
+Restored Devout
+rules_text: Trample
+{1}{cajunhazard.png}, Sacrifice two creatures: Return Restored Devout from your graveyard to the battlefield. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => Trample
+{1}{V}, Sacrifice two artifacts and/or creatures: Return Restored Devout from your graveyard to the battlefield. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Curator's Sentinel
+rules_text: Flash
+Flying
+{1}{cajunhazard.png}, Exile Curator's Sentinel from your graveyard: Draw two cards, then discard a card. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => Flash
+Flying
+{1}{V}, Exile Curator's Sentinel from your graveyard: Draw two cards, then discard a card. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Serpentine Protector
+cost: {cajunhazard.png}{cajunhazard.png} => {V}{V}
+rules_text: [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i]
+Serpentine Protector is all colors.
+Menace, trample
+Cycling {2} [i]({2}, Discard this card: Draw a card.)[/i] => [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+Serpentine Protector is all colors.
+Menace, trample
+Cycling {2} [i]({2}, Discard this card: Draw a card.)[/i]
+
+Buried Colossus
+rules_text: {5}, {T}, Sacrifice Buried Colossus: Create a 0/0 colorless Construct artifact creature token. Put five +1/+1 counters on it. It can't block this turn.
+{1}{cajunhazard.png}, Exile Buried Colossus from your graveyard: Create a token that's a copy of target token you control. For each counter on the token, put that many counters on the copy. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => {5}, {T}, Sacrifice Buried Colossus: Create a 0/0 colorless Construct artifact creature token. Put five +1/+1 counters on it. It can't block this turn.
+{1}{V}, Exile Buried Colossus from your graveyard: Create a token that's a copy of target token you control. For each counter on the token, put that many counters on the copy. Activate only as a sorcery. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Sandstone Sentinel
+rules_text: When Sandstone Sentinel enters, mill three cards.
+{1}{cajunhazard.png}, Exile Sandstone Sentinel from your graveyard: Return up to three land cards from your graveyard to your hand. [i](Spend only mana produced by effects that add mana of any color to pay {cajunhazard.png}.)[/i] => When Sandstone Sentinel enters, mill three cards.
+{1}{V}, Exile Sandstone Sentinel from your graveyard: Return up to three land cards from your graveyard to your hand. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+K'Sante, Pride of Nazumah
+rules_text: Vigilance, reach, trample
+Whenever K'Sante attacks, you may tap him. If you do, prevent all damage that would be dealt this turn to other creatures you control. => Vigilance, reach, trample, ward {2}
+Whenever K'Sante attacks, you may tap him. If you do, prevent all damage that would be dealt this turn to other creatures you control.
+
+
+VERSION 10 CHANGELOG
 ====================
 
 Sunlit Guardians added.

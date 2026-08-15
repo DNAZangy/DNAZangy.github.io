@@ -103,7 +103,7 @@
 		{
 			"name": "Strength of Nazumah",
 			"rarity": "common",
-			"mana_cost": "{1}{W}",
+			"mana_cost": "{W}",
 			"type": "Instant",
 			"collector_number": "34",
 			"image_uris": {
@@ -514,7 +514,7 @@
 			"name": "Expedition Below",
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
-			"type": "Sorcery",
+			"type": "Instant",
 			"collector_number": "131",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/51.png"
@@ -933,7 +933,7 @@
 		{
 			"name": "Ruthless Financier",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{B}",
+			"mana_cost": "{2}{B}",
 			"type": "Creature — Human Merchant",
 			"collector_number": "101",
 			"image_uris": {
@@ -943,7 +943,7 @@
 		{
 			"name": "Temporal Nomad",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{B}{B}",
+			"mana_cost": "{B}{B}",
 			"type": "Creature — Human Wizard",
 			"collector_number": "108",
 			"image_uris": {
@@ -1373,7 +1373,7 @@
 		{
 			"name": "Demon of Domination",
 			"rarity": "rare",
-			"mana_cost": "{1}{B}{B}",
+			"mana_cost": "{1}{B}",
 			"type": "Creature — Demon Spirit Noble",
 			"collector_number": "87",
 			"image_uris": {
@@ -1865,7 +1865,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment Relic",
-			"collector_number": "253",
+			"collector_number": "254",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/186.png"
 			}
@@ -1875,7 +1875,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "252",
+			"collector_number": "253",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/187.png"
 			}
@@ -1915,7 +1915,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "275",
+			"collector_number": "276",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/191.png"
 			}
@@ -1925,7 +1925,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "273",
+			"collector_number": "274",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/192.png"
 			}
@@ -1935,7 +1935,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "279",
+			"collector_number": "280",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/193.png"
 			}
@@ -1945,7 +1945,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "257",
+			"collector_number": "258",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/194.png"
 			}
@@ -1955,7 +1955,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "289",
+			"collector_number": "291",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/195.png"
 			}
@@ -1965,7 +1965,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "285",
+			"collector_number": "286",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/196.png"
 			}
@@ -2025,7 +2025,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "288",
+			"collector_number": "290",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/202.png"
 			}
@@ -2035,7 +2035,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "262",
+			"collector_number": "263",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/203.png"
 			}
@@ -2045,7 +2045,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "268",
+			"collector_number": "269",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/204.png"
 			}
@@ -2122,7 +2122,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact Creature — Golem Relic",
-			"collector_number": "255",
+			"collector_number": "256",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/211.png"
 			}
@@ -2142,7 +2142,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "274",
+			"collector_number": "275",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/213.png"
 			}
@@ -2152,7 +2152,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "261",
+			"collector_number": "262",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/214.png"
 			}
@@ -2162,7 +2162,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "263",
+			"collector_number": "264",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/215.png"
 			}
@@ -2172,7 +2172,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "276",
+			"collector_number": "277",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/216.png"
 			}
@@ -2182,7 +2182,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "260",
+			"collector_number": "261",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/217.png"
 			}
@@ -2192,7 +2192,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "278",
+			"collector_number": "279",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/218.png"
 			}
@@ -2202,7 +2202,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "264",
+			"collector_number": "265",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/219.png"
 			}
@@ -2212,7 +2212,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "266",
+			"collector_number": "267",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/220.png"
 			}
@@ -2222,7 +2222,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "265",
+			"collector_number": "266",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/221.png"
 			}
@@ -2232,7 +2232,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "282",
+			"collector_number": "283",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/222.png"
 			}
@@ -2242,7 +2242,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "259",
+			"collector_number": "260",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/223.png"
 			}
@@ -2252,7 +2252,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "283",
+			"collector_number": "284",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/224.png"
 			}
@@ -2490,7 +2490,7 @@
 		{
 			"name": "Serpentine Protector",
 			"rarity": "uncommon",
-			"mana_cost": "{cajunhazard.png}{cajunhazard.png}",
+			"mana_cost": "{V}{V}",
 			"type": "Artifact Creature — Snake Relic",
 			"collector_number": "251",
 			"image_uris": {
@@ -2622,7 +2622,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "286",
+			"collector_number": "288",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/261.png"
 			}
@@ -2632,7 +2632,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "277",
+			"collector_number": "278",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/262.png"
 			}
@@ -2652,7 +2652,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}",
 			"type": "Legendary Artifact",
-			"collector_number": "254",
+			"collector_number": "255",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/264.png"
 			}
@@ -2732,7 +2732,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Plains",
-			"collector_number": "291",
+			"collector_number": "293",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/272.png"
 			}
@@ -2742,7 +2742,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Island",
-			"collector_number": "292",
+			"collector_number": "294",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/273.png"
 			}
@@ -2752,7 +2752,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Swamp",
-			"collector_number": "293",
+			"collector_number": "295",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/274.png"
 			}
@@ -2762,7 +2762,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Mountain",
-			"collector_number": "294",
+			"collector_number": "296",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/275.png"
 			}
@@ -2772,7 +2772,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest",
-			"collector_number": "295",
+			"collector_number": "297",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/276.png"
 			}
@@ -2782,7 +2782,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Desert",
-			"collector_number": "256",
+			"collector_number": "257",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/277.png"
 			}
@@ -2792,7 +2792,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "270",
+			"collector_number": "271",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/278.png"
 			}
@@ -2802,7 +2802,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "271",
+			"collector_number": "272",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/279.png"
 			}
@@ -2812,7 +2812,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "287",
+			"collector_number": "289",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/280.png"
 			}
@@ -2822,7 +2822,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "290",
+			"collector_number": "292",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/281.png"
 			}
@@ -2832,7 +2832,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "258",
+			"collector_number": "259",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/282.png"
 			}
@@ -2842,7 +2842,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "280",
+			"collector_number": "281",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/283.png"
 			}
@@ -2852,7 +2852,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "269",
+			"collector_number": "270",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/284.png"
 			}
@@ -2862,7 +2862,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "284",
+			"collector_number": "285",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/285.png"
 			}
@@ -2872,7 +2872,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "272",
+			"collector_number": "273",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/286.png"
 			}
@@ -2882,7 +2882,7 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "281",
+			"collector_number": "282",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/287.png"
 			}
@@ -2892,7 +2892,7 @@
 			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "Legendary Land — Desert",
-			"collector_number": "267",
+			"collector_number": "268",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/288.png"
 			}
@@ -3096,6 +3096,26 @@
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/308.png"
 			}
+		},
+		{
+			"name": "Shifting Bracelet",
+			"rarity": "mythic",
+			"mana_cost": "{1}{V}{V}",
+			"type": "Artifact",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/SHU-files/img/309.png"
+			}
+		},
+		{
+			"name": "Weathered Sanctum",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land — Desert",
+			"collector_number": "287",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/SHU-files/img/310.png"
+			}
 		}
 	]
 
@@ -3195,6 +3215,8 @@
 	2 Hierophant of Zuretta
 	2 One Mind to Many
 	2 Petrifying Baccai
+	1 Shifting Bracelet
+	2 Weathered Sanctum
 [uncommon(3)]
 	4 Elite Sun Guard
 	4 Devoted of the Sun Disc
@@ -3779,6 +3801,8 @@
 	2 One Mind to Many
 	2 Petrifying Baccai
 	6 Repurposed Automaton
+	1 Shifting Bracelet
+	2 Weathered Sanctum
 [wildcard(1)]
 	6 Azir's Missionaries
 	6 Elujrav'i' Lookout
@@ -4070,3 +4094,5 @@
 	7 One Mind to Many
 	7 Petrifying Baccai
 	15 Repurposed Automaton
+	4 Shifting Bracelet
+	7 Weathered Sanctum
