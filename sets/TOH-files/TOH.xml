@@ -5,7 +5,7 @@
 			<name>TOH</name>
 			<longname>Tacheen: The Open Horizon</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-08-04</releasedate>
+			<releasedate>2026-08-18</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -138,7 +138,7 @@ When Ballads of the Brave enters, search your library for a legendary creature o
 When Ballads of the Brave is defeated, you may put a legendary permanent card from your hand onto the battlefield.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/7.png" num="1">TOH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
 				<type>Battle — Conflict</type>
 				<maintype>Battle</maintype>
@@ -175,7 +175,7 @@ When Ballads of the Brave is defeated, you may put a legendary permanent card fr
 Whenever one or more counters are removed from Reclamation of the Lost, return target permanent card in your graveyard with mana value equal to or less than the number of counters removed this way to the battlefield.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/9.png" num="29">TOH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
 				<type>Battle — Conflict</type>
 				<maintype>Battle</maintype>
@@ -409,7 +409,7 @@ When Snowfield Oracle dies, you may exile it. If you do, return target enchantme
 When Petition the Crown enters or is defeated, distribute three +1/+1 counters among one, two, or three target creatures you control.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/22.png" num="24">TOH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
 				<type>Battle — Conflict</type>
 				<maintype>Battle</maintype>
@@ -427,7 +427,7 @@ When Petition the Crown enters or is defeated, distribute three +1/+1 counters a
 When Plan of Ambush enters or is defeated, create two 1/1 red Berserker creature tokens.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/23.png" num="25">TOH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
 				<type>Battle — Conflict</type>
 				<maintype>Battle</maintype>
@@ -735,7 +735,7 @@ When Solitary Departure enters, its protector mills half their library, rounded 
 When one or more defense counters are removed from Solitary Departure, its protector mills twice that many cards.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/40.png" num="69">TOH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
 				<type>Battle — Conflict</type>
 				<maintype>Battle</maintype>
@@ -1215,7 +1215,7 @@ Basic landcycling {2} ({2}, Discard this card: Search your library for a basic l
 When Prepare for the Unknown enters or is defeated, scry 2, then draw a card.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/66.png" num="65">TOH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
 				<type>Battle — Conflict</type>
 				<maintype>Battle</maintype>
@@ -1447,7 +1447,7 @@ When Surrender to Darkness enters, target opponent discards a card. That player 
 When Surrender to Darkness is defeated, create a 5/5 black Demon creature token. You lose 5 life.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/79.png" num="96">TOH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
 				<type>Battle — Conflict</type>
 				<maintype>Battle</maintype>
@@ -1605,7 +1605,7 @@ When Awakening the Dreamer enters, create three 2/1 black Warlock creature token
 When Awakening the Dreamer is defeated, create a 15/15 black Demon creature token with indestructible and menace.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/88.png" num="79">TOH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
 				<type>Battle — Conflict</type>
 				<maintype>Battle</maintype>
@@ -1748,7 +1748,7 @@ When By Flame and Horn enters, create a 3/3 green Knight creature token. It can&
 When By Flame and Horn is defeated, create five Treasure tokens.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/96.png" num="104">TOH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
 				<type>Battle — Conflict</type>
 				<maintype>Battle</maintype>
@@ -2159,7 +2159,7 @@ When Shoreline Cartographers leaves the battlefield, sacrifice a land.</text>
 When Fireside Vigil enters or is defeated, exile the top two cards of your library. You may play one until the end of your next turn.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/119.png" num="114">TOH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
 				<type>Battle — Conflict</type>
 				<maintype>Battle</maintype>
@@ -2492,7 +2492,7 @@ When Bustling Waypoint enters, create a 4/4 green Elemental creature token.
 When Bustling Waypoint is defeated, exile it. If you do, return two target permanent cards from your graveyard to your hand.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/137.png" num="145">TOH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
 				<type>Battle — Conflict</type>
 				<maintype>Battle</maintype>
@@ -2549,7 +2549,7 @@ As Request the Worthy enters, search your library for a green creature card and 
 When Request the Worthy is defeated, put the exiled creature card onto the battlefield under your control.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/140.png" num="164">TOH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
 				<type>Battle — Conflict</type>
 				<maintype>Battle</maintype>
@@ -2622,7 +2622,7 @@ Equip {3}{G}</text>
 When Canopy&apos;s Threshold enters or is defeated, return up to two land cards from your graveyard to the battlefield tapped. If you returned fewer than two lands this way, you gain 3 life.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/144.png" num="147">TOH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
 				<type>Battle — Conflict</type>
 				<maintype>Battle</maintype>
@@ -2640,7 +2640,7 @@ When Canopy&apos;s Threshold enters or is defeated, return up to two land cards 
 When Mentor&apos;s Trial enters or is defeated, outfit your Hero. (Progress down your Hero&apos;s path. If you control no Heroes, create a 1/1 Hero token first.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TOH-files/img/145.png" num="158">TOH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
 				<type>Battle — Conflict</type>
 				<maintype>Battle</maintype>
@@ -5386,7 +5386,7 @@ When Collapsing Halls enters, discard your hand.
 When Collapsing Halls is defeated, exile it. Target opponent chooses seven nonland cards in your graveyard. Return them to your hand. (If there are fewer than seven, return them all.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TOH-files/img/300.png" num="81">TOH</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>battle</layout>
 				<side>front</side>
 				<type>Battle — Conflict</type>
 				<maintype>Battle</maintype>

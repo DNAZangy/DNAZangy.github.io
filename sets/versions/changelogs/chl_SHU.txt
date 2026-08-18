@@ -1,4 +1,150 @@
-﻿VERSION 11 CHANGELOG
+﻿VERSION 12 CHANGELOG
+====================
+
+
+
+Azir's Missionaries
+pt: 0/2 => 0/3
+
+Clockwork Fabricator
+rules_text: When Clockwork Fabricator enters, create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i] => When Clockwork Fabricator enters, create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn.”)[/i]
+
+Scour the Timelines
+rules_text: Look at the top two cards of your library. Put one into your hand and the other on the top or bottom of your library.
+Create a tapped Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i] => Look at the top two cards of your library. Put one into your hand and the other on the top or bottom of your library.
+Create a tapped Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn.”)[/i]
+
+Gregarious Clockling
+rules_text: {T}, Sacrifice Gregarious Clockling: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.
+{1}{V}, Exile Gregarious Clockling from your graveyard: Surveil 2, then draw a card. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i] => {T}, Sacrifice Gregarious Clockling: End the turn. Activate only during your turn.
+{1}{V}, Exile Gregarious Clockling from your graveyard: Surveil 2, then draw a card. [i](Spend only mana produced by effects that add mana of any color to pay {V}.)[/i]
+
+Timekeeper's Apprentice
+rules_text: Whenever you cast a noncreature spell, you may pay {1}. If you do, create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i] => Whenever you cast a noncreature spell, you may pay {1}. If you do, create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn.”)[/i]
+
+Khahiri, Chosen Through Time
+rules_text: Flash
+When Khahiri attacks, mill four cards, then return up to one permanent card and up to one instant or sorcery card milled this way to your hand.
+At the beginning of your end step, shuffle Khahiri into your library, then create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i] => Flash
+When Khahiri attacks, mill four cards, then return up to one permanent card and up to one instant or sorcery card milled this way to your hand.
+At the beginning of your end step, shuffle Khahiri into your library, then create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn.”)[/i]
+
+Into the Rift
+cost: {2}{U}{U}{U} => {2}{U}{U}
+rules_text: Exile the top card of your library until you exile five nonland cards. An opponent puts three time counters on a nonland card exiled this way, then two on another nonland, and then one on another nonland. Each card that had a time counter put on it this way that doesn't have suspend gains suspend. [i](At the beginning of its your upkeep, remove a time counter. When the last is removed, you may play it for free. If it's a creature, it has haste.)[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Exile cards from the top of your library until you exile five nonland cards. Put all lands on the bottom of your library in a random order.
+II, III, IV, V, VI — An opponent chooses a card exiled by Into the Rift. You may cast it without paying its mana cost.
+​
+special_text:  => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Exile cards from the top of your library until you exile five nonland cards. Put all lands on the bottom of your library in a random order.
+II, III, IV, V, VI — An opponent chooses a card exiled by Into the Rift. You may cast it without paying its mana cost.
+​
+
+Where Icathia Once Stood
+cost: {2}{B}{B} => {2}{B}{B}{B}
+rules_text: [i](As this enters, choose an opponent to protect it. You and others can attack it.)[/i]
+Creatures you control get +2/+0.
+When Where Icathia Once Stood is defeated, you may sacrifice any number of creatures you control. Draw a card for each creature sacrificed this way. => [i](As this enters, choose an opponent to protect it. You and others can attack it.)[/i]
+When Where Icathia Once Stood enters, create two 4/3 black Horror creature tokens.
+When Where Icathia Once Stood is defeated, each player exiles two permanents they control.
+loyalty: 4 => 6
+
+Butcher's Faithful
+cost: {3}{R}{G} => {1}{R}{G}
+
+Pilgrim from Kathkan
+rules_text: Ward {1}
+Exile an instant or sorcery spell you control: Return target creature card with equal or lesser mana value than the exiled spell from your graveyard to the battlefield. => Ward {1}
+Exile an instant or sorcery spell you control: Return target creature card with mana value equal to or less than the exiled spell's mana value plus two from your graveyard to the battlefield.
+
+Militant Timepiece
+rules_text: {1}, {T}, Sacrifice Militant Timepiece: Create a Clockling token. End the turn. Activate only during your turn and if an opponent doesn't control a spell or ability. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i] => {1}, {T}, Sacrifice Militant Timepiece: Create a Clockling token. End the turn. Activate only during your turn. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn.”)[/i]
+
+Renekton, the Butcher
+rules_text: First strike, haste
+As long as a source you control has dealt excess damage this turn, Renekton has indestructible, hexproof and “Other creatures you control get +2/+0.” => First strike, haste
+As long as a source you control has dealt damage this turn, Renekton has indestructible, hexproof and “Other creatures you control get +2/+0.”
+pt: 8/8 => 7/7
+
+Naafiri of a Hundred Bites
+rules_text: Mobilize X, where X is the number of creatures you control. [i](Whenever this creature attacks, create X tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)[/i]
+Whenever Naafiri dies, return her to the battlefield transformed with a finality counter on her. => Mobilize X, where X is the number of creatures you control. [i](Whenever this creature attacks, create X tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)[/i]
+Whenever Naafiri dies, return her to the battlefield transformed.
+
+Nasus, the Scholar
+rules_text: Trample, lifelink
+As long as you've gained life this turn, Nasus has indestructible, hexproof, and “Creatures you don't control get -2/-0.” [i](Lifelink in combat saves him.)[/i] => Trample, lifelink
+As long as you've drawn a card this turn, Nasus has indestructible, hexproof, and “Creatures you don't control get -2/-0.”
+pt: 8/8 => 7/7
+
+Time in a Bottle
+rules_text: Create two Clockling tokens. [i](They're 1/1 Construct artifact creatures with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i] => Create two Clockling tokens. [i](They're 1/1 Construct artifact creatures with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn.”)[/i]
+
+Chronostasis
+rules_text: Tap up to two target creatures. Put a stun counter on each of them.
+Create two tapped Clockling tokens. [i](They're 1/1 Construct artifact creatures with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i] => Tap up to two target creatures. Put a stun counter on each of them.
+Create two tapped Clockling tokens. [i](They're 1/1 Construct artifact creatures with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn.”)[/i]
+
+Temporal Aberration
+rules_text: Flying
+Whenever Temporal Aberration enters, create two Clockling tokens. [i](They're 1/1 Construct artifact creatures with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i]
+Creature tokens you control have flying. => Flying
+Whenever Temporal Aberration enters, create two Clockling tokens. [i](They're 1/1 Construct artifact creatures with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn.”)[/i]
+Creature tokens you control have flying.
+
+Plunge into the Unknown
+cost: {2}{R} => {1}{R}{W}
+
+Threads of Time
+rules_text: You may activate abilities of creatures you control as though those creatures had haste.
+At the beginning of your upkeep, create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i] => You may activate abilities of creatures you control as though those creatures had haste.
+At the beginning of your upkeep, create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn.”)[/i]
+
+Xer'Sai Undertitan
+cost: {3}{R}{W} => {3}{R}{R}
+rules_text: Lifelink
+Whenever a creature you control enters from exile, creatures you control get +1/+0 and gain haste until end of turn. => Menace
+Whenever a creature you control enters from exile, creatures you control get +1/+0 and gain haste until end of turn.
+
+Akshan, the Rogue Sentinel
+rules_text: First strike
+Whenever another creature you control dies, exile it with an atonement counter on it.
+Once each turn, when a creature you control deals combat damage to an opponent, you may cast a card you own exiled with an atonement counter on it. [i](You still pay its costs.)[/i] => First strike, ward {2}
+Whenever another creature you control dies, exile it with an atonement counter on it.
+Whenever a creature you control deals combat damage to an opponent, you may cast a card you own exiled with an atonement counter on it. [i](You still pay its costs.)[/i]
+
+Protector of the Oasis
+cost: {2}{G}{G} => {2}{G}
+rules_text: Reach
+Protector of the Oasis's power and toughness are each equal to the number of lands you control.
+Whenever this creature enters or attacks, you may return target land card from your graveyard to the battlefield. It becomes a 1/1 green Treefolk creature in addition to its other types. => As long as Protector of the Oasis is on the battlefield, it's a Desert land in addition to its other types.
+Reach
+{T}: Add {G}.
+Whenever Protector of the Oasis or another land you control is put into a graveyard, you gain 1 life.
+pt: */* => 1/4
+
+Clockling
+rules_text: {1}, {T}, Sacrifice this creature: End the turn. Activate only during your turn and only if no opponent controls a spell or ability. => {1}, {T}, Sacrifice this creature: End the turn. Activate only during your turn.
+
+Abandoned Chronarium
+rules_text: {T}: Add {C}.
+{1}, {T}: Add one mana of any color.
+{3}, Pay 1 life, {T}: Create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn and only if no opponent controls a spell or ability.”)[/i] => {T}: Add {C}.
+{1}, {T}: Add one mana of any color.
+{3}, Pay 1 life, {T}: Create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn.”)[/i]
+
+Shard of Violence
+rules_text: At the beginning of your end step, Shard of Violence deals 1 damage to any noncreature target. If you control five or more legendary Shards, it deals 5 damage to that target instead.
+{3}{R}, Sacrifice Shard of Violence: Scry 1, then draw a card. Shard of Violence deals 3 damage to each opponent. => At the beginning of your end step, Shard of Violence deals 1 damage to any noncreature target. If you control five or more legendary Shards, it deals 5 damage to any target instead.
+{3}{R}, Sacrifice Shard of Violence: Scry 1, then draw a card. Shard of Violence deals 3 damage to each opponent.
+
+Screaming Acolytes
+rules_text: When Screaming Acolytes enters, if it isn't a token, create two tokens that are copies of it.
+When Screaming Acolytes dies, look at the top three cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. => When Screaming Acolytes enters, if it isn't a token, create two tokens that are copies of it.
+When Screaming Acolytes dies, look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+
+
+VERSION 11 CHANGELOG
 ====================
 
 Shifting Bracelet added.

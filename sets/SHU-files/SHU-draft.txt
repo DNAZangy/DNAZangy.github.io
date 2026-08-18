@@ -425,7 +425,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Scout",
-			"collector_number": "141",
+			"collector_number": "140",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/42.png"
 			}
@@ -445,7 +445,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Avatar Mutant Wizard",
-			"collector_number": "142",
+			"collector_number": "141",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/44.png"
 			}
@@ -475,7 +475,7 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Horror",
-			"collector_number": "152",
+			"collector_number": "151",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/47.png"
 			}
@@ -485,7 +485,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Avatar Mutant Wizard",
-			"collector_number": "147",
+			"collector_number": "146",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/48.png"
 			}
@@ -495,7 +495,7 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "149",
+			"collector_number": "148",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/49.png"
 			}
@@ -1025,7 +1025,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Creature — Human Rogue",
-			"collector_number": "145",
+			"collector_number": "144",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/102.png"
 			}
@@ -1075,7 +1075,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Human Rogue",
-			"collector_number": "148",
+			"collector_number": "147",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/107.png"
 			}
@@ -1095,7 +1095,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Horror",
-			"collector_number": "151",
+			"collector_number": "150",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/109.png"
 			}
@@ -1115,7 +1115,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
 			"type": "Sorcery",
-			"collector_number": "143",
+			"collector_number": "142",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/111.png"
 			}
@@ -1435,7 +1435,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Berserker",
-			"collector_number": "140",
+			"collector_number": "139",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/143.png"
 			}
@@ -1455,7 +1455,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Yordle Merchant",
-			"collector_number": "150",
+			"collector_number": "149",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/145.png"
 			}
@@ -1465,7 +1465,7 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "146",
+			"collector_number": "145",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/146.png"
 			}
@@ -1563,7 +1563,7 @@
 		{
 			"name": "Into the Rift",
 			"rarity": "mythic",
-			"mana_cost": "{2}{U}{U}{U}",
+			"mana_cost": "{2}{U}{U}",
 			"type": "Sorcery",
 			"collector_number": "57",
 			"image_uris": {
@@ -1593,7 +1593,7 @@
 		{
 			"name": "Where Icathia Once Stood",
 			"rarity": "mythic",
-			"mana_cost": "{2}{B}{B}",
+			"mana_cost": "{2}{B}{B}{B}",
 			"type": "Battle — Conflict",
 			"collector_number": "113",
 			"image_uris": {
@@ -1663,7 +1663,7 @@
 		{
 			"name": "Butcher's Faithful",
 			"rarity": "uncommon",
-			"mana_cost": "{3}{R}{G}",
+			"mana_cost": "{1}{R}{G}",
 			"type": "Enchantment",
 			"collector_number": "200",
 			"image_uris": {
@@ -2330,9 +2330,9 @@
 		{
 			"name": "Plunge into the Unknown",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{R}",
+			"mana_cost": "{1}{R}{W}",
 			"type": "Enchantment",
-			"collector_number": "139",
+			"collector_number": "217",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/232.png"
 			}
@@ -2440,9 +2440,9 @@
 		{
 			"name": "Xer'Sai Undertitan",
 			"rarity": "uncommon",
-			"mana_cost": "{3}{R}{W}",
+			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Horror",
-			"collector_number": "218",
+			"collector_number": "152",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/243.png"
 			}
@@ -2562,7 +2562,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{R}{W}",
 			"type": "Creature — Human Knight",
-			"collector_number": "217",
+			"collector_number": "218",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/255.png"
 			}
@@ -2660,7 +2660,7 @@
 		{
 			"name": "Protector of the Oasis",
 			"rarity": "mythic",
-			"mana_cost": "{2}{G}{G}",
+			"mana_cost": "{2}{G}",
 			"type": "Creature — Treefolk Spirit",
 			"collector_number": "177",
 			"image_uris": {
@@ -3012,7 +3012,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Enchantment — Shard",
-			"collector_number": "144",
+			"collector_number": "143",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/SHU-files/img/300.png"
 			}
