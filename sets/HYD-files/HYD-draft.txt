@@ -1,0 +1,3889 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Endless One",
+			"rarity": "common",
+			"mana_cost": "{X}",
+			"type": "Creature — Eldrazi",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/0.png"
+			}
+		},
+		{
+			"name": "Watchful Matron",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/1.png"
+			}
+		},
+		{
+			"name": "Monk of the Still Path",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Monk",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/2.png"
+			}
+		},
+		{
+			"name": "Grovewarden of the Herd",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Centaur Cleric",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/3.png"
+			}
+		},
+		{
+			"name": "Votary of Prosperity",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/4.png"
+			}
+		},
+		{
+			"name": "Ruin Templeguard",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Bird Soldier",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/5.png"
+			}
+		},
+		{
+			"name": "Waiting Weaver",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Spider Scout",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/6.png"
+			}
+		},
+		{
+			"name": "Painted Captain",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Centaur Cleric",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/7.png"
+			}
+		},
+		{
+			"name": "Basri's Faithful",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Cat",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/8.png"
+			}
+		},
+		{
+			"name": "Calcified Hydra",
+			"rarity": "common",
+			"mana_cost": "{X}{W}{W}",
+			"type": "Creature — Hydra",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/9.png"
+			}
+		},
+		{
+			"name": "Highwood Guardian",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/10.png"
+			}
+		},
+		{
+			"name": "Justice on Many Hands",
+			"rarity": "common",
+			"mana_cost": "{5}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/11.png"
+			}
+		},
+		{
+			"name": "Fetters of Light",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/12.png"
+			}
+		},
+		{
+			"name": "Words Before the Spear",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/13.png"
+			}
+		},
+		{
+			"name": "Elissia's Reckoning",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/14.png"
+			}
+		},
+		{
+			"name": "Beheading Stroke",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/15.png"
+			}
+		},
+		{
+			"name": "Drownwood Cutpurse",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Faerie Rogue",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/16.png"
+			}
+		},
+		{
+			"name": "Sanctuary Stargazer",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Vedalken Wizard",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/17.png"
+			}
+		},
+		{
+			"name": "Screaming Watcher",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Faerie Horror",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/18.png"
+			}
+		},
+		{
+			"name": "Coastal Wanderer",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Vedalken Scout",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/19.png"
+			}
+		},
+		{
+			"name": "Sphinx of Endless Queries",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Sphinx Wizard",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/20.png"
+			}
+		},
+		{
+			"name": "Wading Stiltbird",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Bird",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/21.png"
+			}
+		},
+		{
+			"name": "Silt Lurker",
+			"rarity": "common",
+			"mana_cost": "{X}{U}",
+			"type": "Creature — Crocodile Hydra",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/22.png"
+			}
+		},
+		{
+			"name": "Lull to Stillness",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/23.png"
+			}
+		},
+		{
+			"name": "Scour the Blind Eternities",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/24.png"
+			}
+		},
+		{
+			"name": "Grow by Knowing",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/25.png"
+			}
+		},
+		{
+			"name": "Bound Within",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/26.png"
+			}
+		},
+		{
+			"name": "Misdirect the Advance",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/27.png"
+			}
+		},
+		{
+			"name": "Elissia's Dismissal",
+			"rarity": "common",
+			"mana_cost": "{X}{U}",
+			"type": "Instant",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/28.png"
+			}
+		},
+		{
+			"name": "Patient Ambush",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/29.png"
+			}
+		},
+		{
+			"name": "Mutiny of Flesh",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/30.png"
+			}
+		},
+		{
+			"name": "Imbibed Resolve",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/31.png"
+			}
+		},
+		{
+			"name": "Seething Hunger",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/32.png"
+			}
+		},
+		{
+			"name": "Recall the Fallen",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/33.png"
+			}
+		},
+		{
+			"name": "An Offer in Blood",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/34.png"
+			}
+		},
+		{
+			"name": "Torn Asunder",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/35.png"
+			}
+		},
+		{
+			"name": "Wandering Mercy-Seller",
+			"rarity": "common",
+			"mana_cost": "{6}{B}",
+			"type": "Creature — Lizard Cleric",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/36.png"
+			}
+		},
+		{
+			"name": "Gatecrasher Hydra",
+			"rarity": "common",
+			"mana_cost": "{X}{B}{B}",
+			"type": "Creature — Hydra",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/37.png"
+			}
+		},
+		{
+			"name": "Deceiving Mockasaur",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Lizard",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/38.png"
+			}
+		},
+		{
+			"name": "Ribcage Marauder",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Giant Warrior",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/39.png"
+			}
+		},
+		{
+			"name": "Deadhand Conjurer",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Wizard",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/40.png"
+			}
+		},
+		{
+			"name": "Stumbling Horror",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Bird Horror",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/41.png"
+			}
+		},
+		{
+			"name": "Faceless Screamer",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/42.png"
+			}
+		},
+		{
+			"name": "Hag of the Thresholds",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Hag Warlock",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/43.png"
+			}
+		},
+		{
+			"name": "Disguisting Ratking",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Rat",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/44.png"
+			}
+		},
+		{
+			"name": "Sanctuary Bloodletter",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Devil Warlock",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/45.png"
+			}
+		},
+		{
+			"name": "Innerflame Adept",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Sorcerer",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/46.png"
+			}
+		},
+		{
+			"name": "Ashreach Blacksmith",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Lizard Artificer",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/47.png"
+			}
+		},
+		{
+			"name": "Crackling Cyclops",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Cyclops Wizard",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/48.png"
+			}
+		},
+		{
+			"name": "Wildeyed Duneraider",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Azra Warrior",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/49.png"
+			}
+		},
+		{
+			"name": "Unity's Victim",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Azra Horror",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/50.png"
+			}
+		},
+		{
+			"name": "Deepweaver Pathfinder",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Spider Warrior Scout",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/51.png"
+			}
+		},
+		{
+			"name": "Feeder of the Sacred Flame",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Demon Warrior",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/52.png"
+			}
+		},
+		{
+			"name": "Ashreach Tyrant",
+			"rarity": "common",
+			"mana_cost": "{5}{R}",
+			"type": "Creature — Dinosaur Elemental",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/53.png"
+			}
+		},
+		{
+			"name": "Snapfeeder",
+			"rarity": "common",
+			"mana_cost": "{X}{R}",
+			"type": "Creature — Hydra",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/54.png"
+			}
+		},
+		{
+			"name": "Feed the Beast",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/55.png"
+			}
+		},
+		{
+			"name": "Cut Down the Raider",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/56.png"
+			}
+		},
+		{
+			"name": "Thunderous Charge",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/57.png"
+			}
+		},
+		{
+			"name": "Codex of Hunters",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Book",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/58.png"
+			}
+		},
+		{
+			"name": "Incinerating Grasp",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/59.png"
+			}
+		},
+		{
+			"name": "River Hydra",
+			"rarity": "common",
+			"mana_cost": "{X}{G}",
+			"type": "Creature — Hydra",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/60.png"
+			}
+		},
+		{
+			"name": "Bristlewatch Quiller",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Porcupine",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/61.png"
+			}
+		},
+		{
+			"name": "Corvine Tender",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Dryad",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/62.png"
+			}
+		},
+		{
+			"name": "Elder of the Furrow",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Azra Druid",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/63.png"
+			}
+		},
+		{
+			"name": "Petition the Evergreen",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/64.png"
+			}
+		},
+		{
+			"name": "Carrion Gardener",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Spider Cleric",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/65.png"
+			}
+		},
+		{
+			"name": "Vigorous Clanguard",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Orc Warrior",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/66.png"
+			}
+		},
+		{
+			"name": "Puffball Elder",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Dryad Druid",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/67.png"
+			}
+		},
+		{
+			"name": "Sporepod Guardians",
+			"rarity": "common",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Fungus Warrior",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/68.png"
+			}
+		},
+		{
+			"name": "Champion of the Hundredfold",
+			"rarity": "common",
+			"mana_cost": "{6}{G}{G}",
+			"type": "Creature — Azra Warrior",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/69.png"
+			}
+		},
+		{
+			"name": "Manawright Adept",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/70.png"
+			}
+		},
+		{
+			"name": "Pull the Threads Loose",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/71.png"
+			}
+		},
+		{
+			"name": "Pincer Attack",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/72.png"
+			}
+		},
+		{
+			"name": "Unchecked Blossom",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/73.png"
+			}
+		},
+		{
+			"name": "Bushwhack",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/74.png"
+			}
+		},
+		{
+			"name": "Vice's Chosen Shell",
+			"rarity": "common",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Construct Warrior",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/75.png"
+			}
+		},
+		{
+			"name": "Prophetic Prism",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/76.png"
+			}
+		},
+		{
+			"name": "Molten Warforged",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/77.png"
+			}
+		},
+		{
+			"name": "Pilgrim's Font",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/78.png"
+			}
+		},
+		{
+			"name": "Faces in the Falls",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/79.png"
+			}
+		},
+		{
+			"name": "Monk of the Eclipse",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Monk",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/80.png"
+			}
+		},
+		{
+			"name": "Highbough Outrider",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Centaur Scout",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/81.png"
+			}
+		},
+		{
+			"name": "Longgrass Courser",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Horse",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/82.png"
+			}
+		},
+		{
+			"name": "Officious Homunculus",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Homunculus",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/83.png"
+			}
+		},
+		{
+			"name": "Downpour Hydra",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{W}",
+			"type": "Creature — Slug Dog Hydra",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/84.png"
+			}
+		},
+		{
+			"name": "Baker of Sanctuary",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/85.png"
+			}
+		},
+		{
+			"name": "Arbiter of Equipoise",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/86.png"
+			}
+		},
+		{
+			"name": "Shepherd of the Expanse",
+			"rarity": "uncommon",
+			"mana_cost": "{8}{W}{W}",
+			"type": "Creature — Giant Peasant",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/87.png"
+			}
+		},
+		{
+			"name": "Live in the Shadow of Gods",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/88.png"
+			}
+		},
+		{
+			"name": "Sanctuary Doorwarden",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Orc Soldier",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/89.png"
+			}
+		},
+		{
+			"name": "Hudra Furneth's Answer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/90.png"
+			}
+		},
+		{
+			"name": "Lone Candlebearer",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Vedalken Wizard",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/91.png"
+			}
+		},
+		{
+			"name": "Overseeing Owl",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Bird",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/92.png"
+			}
+		},
+		{
+			"name": "Twinheaded Keyholder",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Drake",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/93.png"
+			}
+		},
+		{
+			"name": "Farwatch Diviner",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard Scout",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/94.png"
+			}
+		},
+		{
+			"name": "Flooded Oracle",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Vedalken Wizard",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/95.png"
+			}
+		},
+		{
+			"name": "Drowned Fisher",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Merfolk Scout",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/96.png"
+			}
+		},
+		{
+			"name": "Cliffhole Scavenger",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Merfolk Scout",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/97.png"
+			}
+		},
+		{
+			"name": "Hundredhanded Crawler",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Human Insect",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/98.png"
+			}
+		},
+		{
+			"name": "Sentinel of the Ruins",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/99.png"
+			}
+		},
+		{
+			"name": "Weight of the Future",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/100.png"
+			}
+		},
+		{
+			"name": "Cast Out of Sanctuary",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/101.png"
+			}
+		},
+		{
+			"name": "Open the Great Beast",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/102.png"
+			}
+		},
+		{
+			"name": "Embrace of Grief",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/103.png"
+			}
+		},
+		{
+			"name": "Hungering Lash",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact — Equipment",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/104.png"
+			}
+		},
+		{
+			"name": "Drinking Mire",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/105.png"
+			}
+		},
+		{
+			"name": "Pick Clean",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/106.png"
+			}
+		},
+		{
+			"name": "Sap the Soul",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/107.png"
+			}
+		},
+		{
+			"name": "Collapse Inward",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/108.png"
+			}
+		},
+		{
+			"name": "Emaciated Devourer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Skeleton Warlock",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/109.png"
+			}
+		},
+		{
+			"name": "Verdict of the Heads",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Creature — Demon",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/110.png"
+			}
+		},
+		{
+			"name": "Grafted Glutton",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/111.png"
+			}
+		},
+		{
+			"name": "Kindle Hunger",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Enchantment",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/112.png"
+			}
+		},
+		{
+			"name": "Scavenger of the Underground",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Azra Survivor",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/113.png"
+			}
+		},
+		{
+			"name": "Ruthless Duneprowler",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Lizard Beast",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/114.png"
+			}
+		},
+		{
+			"name": "Sanctuary Bladehand",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Lizard Assassin",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/115.png"
+			}
+		},
+		{
+			"name": "Lotus Forager",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Centaur Druid",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/116.png"
+			}
+		},
+		{
+			"name": "Wrath of Furneth",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/117.png"
+			}
+		},
+		{
+			"name": "Cavemouth Hydra",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{X}{R}",
+			"type": "Creature — Hydra",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/118.png"
+			}
+		},
+		{
+			"name": "Culling Farmer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Druid",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/119.png"
+			}
+		},
+		{
+			"name": "Rootless Homeseeker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Goblin Knight",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/120.png"
+			}
+		},
+		{
+			"name": "Strike with the Sun",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/121.png"
+			}
+		},
+		{
+			"name": "Answer in Flame",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/122.png"
+			}
+		},
+		{
+			"name": "Seared with Knowledge",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/123.png"
+			}
+		},
+		{
+			"name": "Lotus Cultivator",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Human Druid",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/124.png"
+			}
+		},
+		{
+			"name": "Cultivated Cartographer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Orc Druid",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/125.png"
+			}
+		},
+		{
+			"name": "Hoarder of the Dead",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Orc Druid",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/126.png"
+			}
+		},
+		{
+			"name": "Tutor of Sanctuary",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Snake Druid",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/127.png"
+			}
+		},
+		{
+			"name": "Grasping Oak",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Treefolk",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/128.png"
+			}
+		},
+		{
+			"name": "Gadis of the Endless Bounty",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Legendary Creature — Azra Druid",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/129.png"
+			}
+		},
+		{
+			"name": "Rootless Wayfinder",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Orc Knight",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/130.png"
+			}
+		},
+		{
+			"name": "Decorated Guardian",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Wolf",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/131.png"
+			}
+		},
+		{
+			"name": "Fogmaw Behemoth",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}{G}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/132.png"
+			}
+		},
+		{
+			"name": "Charnel Colossus",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Beast Zombie",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/133.png"
+			}
+		},
+		{
+			"name": "Molting Hydra",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{G}{G}{G}",
+			"type": "Creature — Hydra",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/134.png"
+			}
+		},
+		{
+			"name": "Lightweaver",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/135.png"
+			}
+		},
+		{
+			"name": "Reexamine",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/136.png"
+			}
+		},
+		{
+			"name": "Rootwrapped Bones",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Skeleton Druid",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/137.png"
+			}
+		},
+		{
+			"name": "A Newfound Perspective",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/138.png"
+			}
+		},
+		{
+			"name": "Awe of the Many",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/139.png"
+			}
+		},
+		{
+			"name": "Reward of Prayer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/140.png"
+			}
+		},
+		{
+			"name": "Yssevar's Touch",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/141.png"
+			}
+		},
+		{
+			"name": "Patient Deepweaver",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Spider Warlock",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/142.png"
+			}
+		},
+		{
+			"name": "Savagery",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/143.png"
+			}
+		},
+		{
+			"name": "Consume and Thrive",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/144.png"
+			}
+		},
+		{
+			"name": "Fourfold Counsel",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/145.png"
+			}
+		},
+		{
+			"name": "Mimic's Ascension",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/146.png"
+			}
+		},
+		{
+			"name": "Soothing Lethemancer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/147.png"
+			}
+		},
+		{
+			"name": "Consuming Flames",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/148.png"
+			}
+		},
+		{
+			"name": "Tend to the World",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/149.png"
+			}
+		},
+		{
+			"name": "Honor",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/150.png"
+			}
+		},
+		{
+			"name": "Refine the Reflection",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/151.png"
+			}
+		},
+		{
+			"name": "Hudra Vesceth's Chosen",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Vampire Cleric",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/152.png"
+			}
+		},
+		{
+			"name": "Foresight's Reward",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/153.png"
+			}
+		},
+		{
+			"name": "Free the Caged Soul",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Enchantment",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/154.png"
+			}
+		},
+		{
+			"name": "Brinelurker",
+			"rarity": "rare",
+			"mana_cost": "{X}{W}{U}",
+			"type": "Creature — Hydra",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/155.png"
+			}
+		},
+		{
+			"name": "Ovst's Unease",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Instant",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/156.png"
+			}
+		},
+		{
+			"name": "Blind Burrower",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Mole Beast",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/157.png"
+			}
+		},
+		{
+			"name": "Wrathful Grovekeeper",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Azra Druid",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/158.png"
+			}
+		},
+		{
+			"name": "The Herd as One",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Enchantment",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/159.png"
+			}
+		},
+		{
+			"name": "Bogwading Grazer",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}{B}",
+			"type": "Creature — Beast",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/160.png"
+			}
+		},
+		{
+			"name": "Cull the Flow",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Instant",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/161.png"
+			}
+		},
+		{
+			"name": "Molting Season",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Enchantment",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/162.png"
+			}
+		},
+		{
+			"name": "Burning Vanguard",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Azra Soldier",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/163.png"
+			}
+		},
+		{
+			"name": "Lost in Introspection",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{U}",
+			"type": "Sorcery",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/164.png"
+			}
+		},
+		{
+			"name": "Shrine to the Everlasting",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/165.png"
+			}
+		},
+		{
+			"name": "Shrine to the Everwatching",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/166.png"
+			}
+		},
+		{
+			"name": "Shrine to the Everhungry",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/167.png"
+			}
+		},
+		{
+			"name": "Shrine to the Everburning",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/168.png"
+			}
+		},
+		{
+			"name": "Shrine to the Evergrowing",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/169.png"
+			}
+		},
+		{
+			"name": "Grafted Harness",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/170.png"
+			}
+		},
+		{
+			"name": "Fracture Point",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land — Desert",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/171.png"
+			}
+		},
+		{
+			"name": "Basking Shoal",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/172.png"
+			}
+		},
+		{
+			"name": "Restless Scoutling",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct Scout",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/173.png"
+			}
+		},
+		{
+			"name": "Dealer of Masks",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/174.png"
+			}
+		},
+		{
+			"name": "Detaining Orb",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/175.png"
+			}
+		},
+		{
+			"name": "Tidecrest Hydra",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{U}{U}",
+			"type": "Creature — Hydra",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/176.png"
+			}
+		},
+		{
+			"name": "Gaunt Ravager",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{B}{B}",
+			"type": "Creature — Hydra",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/177.png"
+			}
+		},
+		{
+			"name": "Terror of the Emberwood",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}{R}",
+			"type": "Creature — Dragon Hydra",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/178.png"
+			}
+		},
+		{
+			"name": "Sixfold Idol",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Artifact",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/179.png"
+			}
+		},
+		{
+			"name": "Farwatch Reservoir",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/180.png"
+			}
+		},
+		{
+			"name": "Falselight Reservoir",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/181.png"
+			}
+		},
+		{
+			"name": "Ashreach Reservoir",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/182.png"
+			}
+		},
+		{
+			"name": "Emberwood Reservoir",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/183.png"
+			}
+		},
+		{
+			"name": "Grasping Reservoir",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/184.png"
+			}
+		},
+		{
+			"name": "Mistcovered Reservoir",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/185.png"
+			}
+		},
+		{
+			"name": "Clamshell Reservoir",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/186.png"
+			}
+		},
+		{
+			"name": "Crumbling Reservoir",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/187.png"
+			}
+		},
+		{
+			"name": "Highpass Reservoir",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/188.png"
+			}
+		},
+		{
+			"name": "Lakeshrine Reservoir",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/189.png"
+			}
+		},
+		{
+			"name": "Rally the Fenstride",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/190.png"
+			}
+		},
+		{
+			"name": "Sate the Infinite",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/191.png"
+			}
+		},
+		{
+			"name": "Skullnumbing Screech",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/192.png"
+			}
+		},
+		{
+			"name": "Reach Beyond the Self",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/193.png"
+			}
+		},
+		{
+			"name": "Glean from Possibilities",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/194.png"
+			}
+		},
+		{
+			"name": "Longgrass Vanguard",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Centaur Soldier",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/195.png"
+			}
+		},
+		{
+			"name": "Clarity of the Unblinking",
+			"rarity": "rare",
+			"mana_cost": "{X}{U}{U}",
+			"type": "Instant",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/196.png"
+			}
+		},
+		{
+			"name": "Silenced Minds",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/197.png"
+			}
+		},
+		{
+			"name": "Resolute Shrineguard",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Monk",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/198.png"
+			}
+		},
+		{
+			"name": "Hermit of the Evergreen",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Azra Druid",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/199.png"
+			}
+		},
+		{
+			"name": "Sovereign of Carrion",
+			"rarity": "rare",
+			"mana_cost": "{X}{W}{W}",
+			"type": "Creature — Cat Hydra",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/200.png"
+			}
+		},
+		{
+			"name": "Sovereign of Echoes",
+			"rarity": "rare",
+			"mana_cost": "{X}{U}",
+			"type": "Creature — Hydra",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/201.png"
+			}
+		},
+		{
+			"name": "Rotspew Hydra",
+			"rarity": "rare",
+			"mana_cost": "{X}{B}{B}",
+			"type": "Creature — Hydra",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/202.png"
+			}
+		},
+		{
+			"name": "Shipbreaker Hydra",
+			"rarity": "rare",
+			"mana_cost": "{X}{R}{R}{R}",
+			"type": "Creature — Hydra",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/203.png"
+			}
+		},
+		{
+			"name": "Snapping Hydra",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}{G}",
+			"type": "Creature — Hydra Turtle",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/204.png"
+			}
+		},
+		{
+			"name": "Concordant Dragon",
+			"rarity": "mythic",
+			"mana_cost": "{U}{R}{W}",
+			"type": "Creature — Dragon",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/205.png"
+			}
+		},
+		{
+			"name": "Tidewrought Hydra",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Hydra",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/206.png"
+			}
+		},
+		{
+			"name": "Horizon of Heads",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}{B}",
+			"type": "Creature — Hydra",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/207.png"
+			}
+		},
+		{
+			"name": "Apex of Ashreach",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Dragon Hydra",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/208.png"
+			}
+		},
+		{
+			"name": "Bloodied Avenger",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{G}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/209.png"
+			}
+		},
+		{
+			"name": "Force Between Spaces",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Instant",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/210.png"
+			}
+		},
+		{
+			"name": "Prowler of the Depths",
+			"rarity": "rare",
+			"mana_cost": "{X}{U}{B}",
+			"type": "Creature — Hydra",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/211.png"
+			}
+		},
+		{
+			"name": "Blasphemous Amalgam",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Human Hydra",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/212.png"
+			}
+		},
+		{
+			"name": "Scourge of Sanctuary",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Dragon Hydra",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/213.png"
+			}
+		},
+		{
+			"name": "Plumed Hydra",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}{W}",
+			"type": "Creature — Bird Hydra",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/214.png"
+			}
+		},
+		{
+			"name": "Blessing of Above and Below",
+			"rarity": "rare",
+			"mana_cost": "{X}{W}{W/B}{B}",
+			"type": "Sorcery",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/215.png"
+			}
+		},
+		{
+			"name": "Lurker in the Waves",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Creature — Ox Spider",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/216.png"
+			}
+		},
+		{
+			"name": "Ichorladen Scavenger",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Demon",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/217.png"
+			}
+		},
+		{
+			"name": "Alamazzar's Strike",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Sorcery",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/218.png"
+			}
+		},
+		{
+			"name": "Rooted Vinereader",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Vedalken Druid",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/219.png"
+			}
+		},
+		{
+			"name": "Hudra Solveth, Undivided",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}{W}",
+			"type": "Legendary Creature — God",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/220.png"
+			}
+		},
+		{
+			"name": "Yssevar, the Everreaching",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}{R}",
+			"type": "Legendary Creature — Horror",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/221.png"
+			}
+		},
+		{
+			"name": "Hudra Vesceth, Unfed",
+			"rarity": "mythic",
+			"mana_cost": "{B}{B}{B}",
+			"type": "Legendary Creature — God",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/222.png"
+			}
+		},
+		{
+			"name": "Hudra Furneth, Unstilled",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{R}{R}",
+			"type": "Legendary Creature — God",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/223.png"
+			}
+		},
+		{
+			"name": "Hudra Cresveth, Unspent",
+			"rarity": "mythic",
+			"mana_cost": "{G}{G}{G}",
+			"type": "Legendary Creature — God",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/224.png"
+			}
+		},
+		{
+			"name": "Rimepeak Hydra",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Hydra",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/225.png"
+			}
+		},
+		{
+			"name": "Hudra Miraneth, Unblinking",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{U}{U}",
+			"type": "Legendary Creature — God",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/226.png"
+			}
+		},
+		{
+			"name": "Ghalmyr, Nine-fanged Fog",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{R}{G}",
+			"type": "Legendary Creature — Hydra Avatar",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/227.png"
+			}
+		},
+		{
+			"name": "Pelttaker",
+			"rarity": "mythic",
+			"mana_cost": "{G}{U}{R}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/228.png"
+			}
+		},
+		{
+			"name": "Maev, Matriarch of the Deep",
+			"rarity": "mythic",
+			"mana_cost": "{5}{W}{B}{G}",
+			"type": "Legendary Creature — Spider Cleric",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/229.png"
+			}
+		},
+		{
+			"name": "Elissia, Alone",
+			"rarity": "mythic",
+			"mana_cost": "{X}{G}{W}{U}",
+			"type": "Legendary Planeswalker — Elissia",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/230.png"
+			}
+		},
+		{
+			"name": "Ovst, Steward of Sanctuary",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{G}{U}",
+			"type": "Legendary Creature — Vedalken Noble",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/231.png"
+			}
+		},
+		{
+			"name": "Cael, Warden of Strays",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{U}{B}",
+			"type": "Legendary Creature — Spirit Centaur",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/232.png"
+			}
+		},
+		{
+			"name": "Alamazzar, Slayer of All",
+			"rarity": "mythic",
+			"mana_cost": "{R}{W}{B}",
+			"type": "Legendary Planeswalker — Alamazzar",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/233.png"
+			}
+		},
+		{
+			"name": "Plaguemaw Hydra",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Hydra",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/234.png"
+			}
+		},
+		{
+			"name": "Solitary Surveyor",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Scout",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/235.png"
+			}
+		},
+		{
+			"name": "Crag Smasher",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Beast",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/236.png"
+			}
+		},
+		{
+			"name": "Vice's Facsimile",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/237.png"
+			}
+		},
+		{
+			"name": "Engine of Bone and Sinew",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/238.png"
+			}
+		},
+		{
+			"name": "Ironwrought Hydra",
+			"rarity": "rare",
+			"mana_cost": "{X}{X}",
+			"type": "Artifact Creature — Hydra",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/239.png"
+			}
+		},
+		{
+			"name": "Hudra Solveth's Reliquary",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/240.png"
+			}
+		},
+		{
+			"name": "Drownwood Heron",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Bird",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/241.png"
+			}
+		},
+		{
+			"name": "Knight of the Old Oath",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}{B}{B}",
+			"type": "Creature — Avatar Knight",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/242.png"
+			}
+		},
+		{
+			"name": "Insatiable Guardian",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}{R}",
+			"type": "Creature — Dog",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/243.png"
+			}
+		},
+		{
+			"name": "Hudrain's Abundance",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/244.png"
+			}
+		},
+		{
+			"name": "Leyline Detonation",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/245.png"
+			}
+		},
+		{
+			"name": "Rooted Trailblazer",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Vedalken Wizard",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/246.png"
+			}
+		},
+		{
+			"name": "Alamazzar's Disappointment",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/247.png"
+			}
+		},
+		{
+			"name": "Twinheaded Dragon",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/248.png"
+			}
+		},
+		{
+			"name": "Deepweaver Marksman",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Spider Archer",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/249.png"
+			}
+		},
+		{
+			"name": "Ashreach Hammerwright",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/250.png"
+			}
+		},
+		{
+			"name": "Evergreen Skywatcher",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Creature — Faerie Scout",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/251.png"
+			}
+		},
+		{
+			"name": "Yssevar's Grasp",
+			"rarity": "rare",
+			"mana_cost": "{6}{B}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/252.png"
+			}
+		},
+		{
+			"name": "Knight of the Unbroken",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Azra Knight",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/253.png"
+			}
+		},
+		{
+			"name": "Warden of the Circle",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Creature — Azra Druid",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/254.png"
+			}
+		},
+		{
+			"name": "Shared Honor",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Enchantment",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/255.png"
+			}
+		},
+		{
+			"name": "Alone and Aching",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/256.png"
+			}
+		},
+		{
+			"name": "Apostate of Two Faces",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Human Demon",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/257.png"
+			}
+		},
+		{
+			"name": "Remake the Flesh",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/258.png"
+			}
+		},
+		{
+			"name": "Lotusstrider",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Centaur Druid",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/259.png"
+			}
+		},
+		{
+			"name": "Skyward Sentry",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Orc Archer",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/260.png"
+			}
+		},
+		{
+			"name": "Vice's Consumption",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/261.png"
+			}
+		},
+		{
+			"name": "Reveaing Amalgam",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/262.png"
+			}
+		},
+		{
+			"name": "Hundred-Handed Colossus",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}{R}",
+			"type": "Creature — Giant Warrior",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/263.png"
+			}
+		},
+		{
+			"name": "Neverending Growth",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/264.png"
+			}
+		},
+		{
+			"name": "Kindled Aspirant",
+			"rarity": "rare",
+			"mana_cost": "{W}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/265.png"
+			}
+		},
+		{
+			"name": "Deepwater Archmage",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Merfolk Wizard",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/266.png"
+			}
+		},
+		{
+			"name": "Confound and Decay",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/267.png"
+			}
+		},
+		{
+			"name": "Alamazzar's Contempt",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/268.png"
+			}
+		},
+		{
+			"name": "Sow Unease",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/269.png"
+			}
+		},
+		{
+			"name": "Elemental",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elemental",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/270.png"
+			}
+		},
+		{
+			"name": "Hydra",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Hydra",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/271.png"
+			}
+		},
+		{
+			"name": "Demon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Demon",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/272.png"
+			}
+		},
+		{
+			"name": "Skeleton",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Skeleton",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/273.png"
+			}
+		},
+		{
+			"name": "Soldier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Soldier",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/274.png"
+			}
+		},
+		{
+			"name": "Obelisk",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Obelisk",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/275.png"
+			}
+		},
+		{
+			"name": "Hyena",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Hyena",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/276.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/277.png"
+			}
+		},
+		{
+			"name": "Lizard Assassin",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Lizard Assassin",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/278.png"
+			}
+		},
+		{
+			"name": "Goblin",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Goblin",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/279.png"
+			}
+		},
+		{
+			"name": "Centaur",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Centaur",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/280.png"
+			}
+		},
+		{
+			"name": "Avatar",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Avatar",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/281.png"
+			}
+		},
+		{
+			"name": "Everywhere",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Land",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/282.png"
+			}
+		},
+		{
+			"name": "Verdant Repose",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment — Aura",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/283.png"
+			}
+		},
+		{
+			"name": "Expedition Map",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/284.png"
+			}
+		},
+		{
+			"name": "Borrowed Face",
+			"rarity": "mythic",
+			"mana_cost": "{G}{U}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/285.png"
+			}
+		},
+		{
+			"name": "Humbler of the Brash",
+			"rarity": "mythic",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Demon Pangolin",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/286.png"
+			}
+		},
+		{
+			"name": "Sentinel of Highbough",
+			"rarity": "mythic",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/287.png"
+			}
+		},
+		{
+			"name": "Vice, the Borrowed Legion",
+			"rarity": "mythic",
+			"mana_cost": "{3}{C}",
+			"type": "Legendary Artifact Planeswalker — Vice",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/288.png"
+			}
+		},
+		{
+			"name": "Basri, Speaker of Oketra",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Planeswalker — Basri",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/289.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/290.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "278",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/291.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "279",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/292.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "280",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/293.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "281",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/294.png"
+			}
+		},
+		{
+			"name": "Wavecaller Pillager",
+			"rarity": "common",
+			"mana_cost": "{7}{U}",
+			"type": "Creature — Merfolk Wizard",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://DNAZangy.github.io/sets/HYD-files/img/295.png"
+			}
+		}
+	]
+
+[rare(1)]
+	2 Brinelurker
+	2 Rally the Fenstride
+	2 Sate the Infinite
+	2 Skullnumbing Screech
+	2 Reach Beyond the Self
+	2 Glean from Possibilities
+	2 Longgrass Vanguard
+	2 Clarity of the Unblinking
+	2 Silenced Minds
+	2 Resolute Shrineguard
+	2 Hermit of the Evergreen
+	2 Sovereign of Carrion
+	2 Sovereign of Echoes
+	2 Rotspew Hydra
+	2 Shipbreaker Hydra
+	2 Snapping Hydra
+	1 Concordant Dragon
+	1 Tidewrought Hydra
+	1 Horizon of Heads
+	1 Apex of Ashreach
+	1 Bloodied Avenger
+	2 Prowler of the Depths
+	2 Blasphemous Amalgam
+	2 Scourge of Sanctuary
+	2 Plumed Hydra
+	2 Blessing of Above and Below
+	2 Lurker in the Waves
+	2 Ichorladen Scavenger
+	2 Alamazzar's Strike
+	2 Rooted Vinereader
+	1 Hudra Solveth, Undivided
+	1 Yssevar, the Everreaching
+	1 Hudra Vesceth, Unfed
+	1 Hudra Furneth, Unstilled
+	1 Hudra Cresveth, Unspent
+	1 Rimepeak Hydra
+	1 Hudra Miraneth, Unblinking
+	1 Ghalmyr, Nine-fanged Fog
+	1 Pelttaker
+	1 Maev, Matriarch of the Deep
+	1 Elissia, Alone
+	1 Ovst, Steward of Sanctuary
+	1 Cael, Warden of Strays
+	1 Alamazzar, Slayer of All
+	1 Plaguemaw Hydra
+	2 Solitary Surveyor
+	2 Crag Smasher
+	2 Vice's Facsimile
+	2 Engine of Bone and Sinew
+	2 Ironwrought Hydra
+	2 Hudra Solveth's Reliquary
+	2 Drownwood Heron
+	2 Knight of the Old Oath
+	2 Insatiable Guardian
+	2 Hudrain's Abundance
+	2 Leyline Detonation
+	2 Rooted Trailblazer
+	2 Alamazzar's Disappointment
+	2 Twinheaded Dragon
+	2 Deepweaver Marksman
+	2 Ashreach Hammerwright
+	2 Evergreen Skywatcher
+	2 Yssevar's Grasp
+	2 Knight of the Unbroken
+	2 Warden of the Circle
+	2 Shared Honor
+	2 Alone and Aching
+	2 Apostate of Two Faces
+	2 Remake the Flesh
+	2 Lotusstrider
+	2 Skyward Sentry
+	2 Vice's Consumption
+	2 Reveaing Amalgam
+	2 Hundred-Handed Colossus
+	2 Neverending Growth
+	2 Kindled Aspirant
+	2 Deepwater Archmage
+	2 Confound and Decay
+	2 Alamazzar's Contempt
+	2 Sow Unease
+	1 Borrowed Face
+	1 Humbler of the Brash
+	1 Sentinel of Highbough
+	1 Vice, the Borrowed Legion
+	1 Basri, Speaker of Oketra
+[uncommon(3)]
+	4 Monk of the Eclipse
+	4 Highbough Outrider
+	4 Longgrass Courser
+	4 Officious Homunculus
+	4 Downpour Hydra
+	4 Baker of Sanctuary
+	4 Arbiter of Equipoise
+	4 Shepherd of the Expanse
+	4 Live in the Shadow of Gods
+	4 Sanctuary Doorwarden
+	4 Hudra Furneth's Answer
+	4 Lone Candlebearer
+	4 Overseeing Owl
+	4 Twinheaded Keyholder
+	4 Farwatch Diviner
+	4 Flooded Oracle
+	4 Drowned Fisher
+	4 Cliffhole Scavenger
+	4 Hundredhanded Crawler
+	4 Sentinel of the Ruins
+	4 Weight of the Future
+	4 Cast Out of Sanctuary
+	4 Open the Great Beast
+	4 Embrace of Grief
+	4 Hungering Lash
+	4 Drinking Mire
+	4 Pick Clean
+	4 Sap the Soul
+	4 Collapse Inward
+	4 Emaciated Devourer
+	4 Verdict of the Heads
+	4 Grafted Glutton
+	4 Kindle Hunger
+	4 Scavenger of the Underground
+	4 Ruthless Duneprowler
+	4 Sanctuary Bladehand
+	4 Lotus Forager
+	4 Wrath of Furneth
+	4 Cavemouth Hydra
+	4 Culling Farmer
+	4 Rootless Homeseeker
+	4 Strike with the Sun
+	4 Answer in Flame
+	4 Seared with Knowledge
+	4 Lotus Cultivator
+	4 Cultivated Cartographer
+	4 Hoarder of the Dead
+	4 Tutor of Sanctuary
+	4 Grasping Oak
+	4 Gadis of the Endless Bounty
+	4 Rootless Wayfinder
+	4 Decorated Guardian
+	4 Fogmaw Behemoth
+	4 Charnel Colossus
+	4 Molting Hydra
+	4 Lightweaver
+	4 Reexamine
+	4 Rootwrapped Bones
+	4 A Newfound Perspective
+	4 Awe of the Many
+	4 Reward of Prayer
+	4 Yssevar's Touch
+	4 Patient Deepweaver
+	4 Savagery
+	4 Consume and Thrive
+	4 Fourfold Counsel
+	4 Mimic's Ascension
+	4 Soothing Lethemancer
+	4 Consuming Flames
+	4 Tend to the World
+	4 Honor
+	4 Refine the Reflection
+	4 Hudra Vesceth's Chosen
+	4 Foresight's Reward
+	4 Free the Caged Soul
+	4 Ovst's Unease
+	4 Blind Burrower
+	4 Wrathful Grovekeeper
+	4 The Herd as One
+	4 Bogwading Grazer
+	4 Cull the Flow
+	4 Molting Season
+	4 Burning Vanguard
+	4 Lost in Introspection
+	4 Shrine to the Everlasting
+	4 Shrine to the Everwatching
+	4 Shrine to the Everhungry
+	4 Shrine to the Everburning
+	4 Shrine to the Evergrowing
+	4 Grafted Harness
+	4 Fracture Point
+	4 Basking Shoal
+	4 Restless Scoutling
+	4 Dealer of Masks
+	4 Detaining Orb
+	4 Tidecrest Hydra
+	4 Gaunt Ravager
+	4 Terror of the Emberwood
+	4 Sixfold Idol
+	4 Force Between Spaces
+[common(6)]
+	8 Endless One
+	8 Watchful Matron
+	8 Monk of the Still Path
+	8 Grovewarden of the Herd
+	8 Votary of Prosperity
+	8 Ruin Templeguard
+	8 Waiting Weaver
+	8 Painted Captain
+	8 Basri's Faithful
+	8 Calcified Hydra
+	8 Highwood Guardian
+	8 Justice on Many Hands
+	8 Fetters of Light
+	8 Words Before the Spear
+	8 Elissia's Reckoning
+	8 Beheading Stroke
+	8 Drownwood Cutpurse
+	8 Sanctuary Stargazer
+	8 Screaming Watcher
+	8 Coastal Wanderer
+	8 Sphinx of Endless Queries
+	8 Wading Stiltbird
+	8 Silt Lurker
+	8 Lull to Stillness
+	8 Scour the Blind Eternities
+	8 Grow by Knowing
+	8 Bound Within
+	8 Misdirect the Advance
+	8 Elissia's Dismissal
+	8 Patient Ambush
+	8 Mutiny of Flesh
+	8 Imbibed Resolve
+	8 Seething Hunger
+	8 Recall the Fallen
+	8 An Offer in Blood
+	8 Torn Asunder
+	8 Wandering Mercy-Seller
+	8 Gatecrasher Hydra
+	8 Deceiving Mockasaur
+	8 Ribcage Marauder
+	8 Deadhand Conjurer
+	8 Stumbling Horror
+	8 Faceless Screamer
+	8 Hag of the Thresholds
+	8 Disguisting Ratking
+	8 Sanctuary Bloodletter
+	8 Innerflame Adept
+	8 Ashreach Blacksmith
+	8 Crackling Cyclops
+	8 Wildeyed Duneraider
+	8 Unity's Victim
+	8 Deepweaver Pathfinder
+	8 Feeder of the Sacred Flame
+	8 Ashreach Tyrant
+	8 Snapfeeder
+	8 Feed the Beast
+	8 Cut Down the Raider
+	8 Thunderous Charge
+	8 Codex of Hunters
+	8 Incinerating Grasp
+	8 River Hydra
+	8 Bristlewatch Quiller
+	8 Corvine Tender
+	8 Elder of the Furrow
+	8 Petition the Evergreen
+	8 Carrion Gardener
+	8 Vigorous Clanguard
+	8 Puffball Elder
+	8 Sporepod Guardians
+	8 Champion of the Hundredfold
+	8 Manawright Adept
+	8 Pull the Threads Loose
+	8 Pincer Attack
+	8 Unchecked Blossom
+	8 Bushwhack
+	8 Vice's Chosen Shell
+	8 Prophetic Prism
+	8 Molten Warforged
+	8 Pilgrim's Font
+	8 Faces in the Falls
+	8 Farwatch Reservoir
+	8 Falselight Reservoir
+	8 Ashreach Reservoir
+	8 Emberwood Reservoir
+	8 Grasping Reservoir
+	8 Mistcovered Reservoir
+	8 Clamshell Reservoir
+	8 Crumbling Reservoir
+	8 Highpass Reservoir
+	8 Lakeshrine Reservoir
+	8 Wavecaller Pillager
+[common | masterpiece(1)]
+	8 Endless One
+	8 Watchful Matron
+	8 Monk of the Still Path
+	8 Grovewarden of the Herd
+	8 Votary of Prosperity
+	8 Ruin Templeguard
+	8 Waiting Weaver
+	8 Painted Captain
+	8 Basri's Faithful
+	8 Calcified Hydra
+	8 Highwood Guardian
+	8 Justice on Many Hands
+	8 Fetters of Light
+	8 Words Before the Spear
+	8 Elissia's Reckoning
+	8 Beheading Stroke
+	8 Drownwood Cutpurse
+	8 Sanctuary Stargazer
+	8 Screaming Watcher
+	8 Coastal Wanderer
+	8 Sphinx of Endless Queries
+	8 Wading Stiltbird
+	8 Silt Lurker
+	8 Lull to Stillness
+	8 Scour the Blind Eternities
+	8 Grow by Knowing
+	8 Bound Within
+	8 Misdirect the Advance
+	8 Elissia's Dismissal
+	8 Patient Ambush
+	8 Mutiny of Flesh
+	8 Imbibed Resolve
+	8 Seething Hunger
+	8 Recall the Fallen
+	8 An Offer in Blood
+	8 Torn Asunder
+	8 Wandering Mercy-Seller
+	8 Gatecrasher Hydra
+	8 Deceiving Mockasaur
+	8 Ribcage Marauder
+	8 Deadhand Conjurer
+	8 Stumbling Horror
+	8 Faceless Screamer
+	8 Hag of the Thresholds
+	8 Disguisting Ratking
+	8 Sanctuary Bloodletter
+	8 Innerflame Adept
+	8 Ashreach Blacksmith
+	8 Crackling Cyclops
+	8 Wildeyed Duneraider
+	8 Unity's Victim
+	8 Deepweaver Pathfinder
+	8 Feeder of the Sacred Flame
+	8 Ashreach Tyrant
+	8 Snapfeeder
+	8 Feed the Beast
+	8 Cut Down the Raider
+	8 Thunderous Charge
+	8 Codex of Hunters
+	8 Incinerating Grasp
+	8 River Hydra
+	8 Bristlewatch Quiller
+	8 Corvine Tender
+	8 Elder of the Furrow
+	8 Petition the Evergreen
+	8 Carrion Gardener
+	8 Vigorous Clanguard
+	8 Puffball Elder
+	8 Sporepod Guardians
+	8 Champion of the Hundredfold
+	8 Manawright Adept
+	8 Pull the Threads Loose
+	8 Pincer Attack
+	8 Unchecked Blossom
+	8 Bushwhack
+	8 Vice's Chosen Shell
+	8 Prophetic Prism
+	8 Molten Warforged
+	8 Pilgrim's Font
+	8 Faces in the Falls
+	8 Farwatch Reservoir
+	8 Falselight Reservoir
+	8 Ashreach Reservoir
+	8 Emberwood Reservoir
+	8 Grasping Reservoir
+	8 Mistcovered Reservoir
+	8 Clamshell Reservoir
+	8 Crumbling Reservoir
+	8 Highpass Reservoir
+	8 Lakeshrine Reservoir
+	8 Wavecaller Pillager
+[foil(1)]
+	12 Endless One
+	12 Watchful Matron
+	12 Monk of the Still Path
+	12 Grovewarden of the Herd
+	12 Votary of Prosperity
+	12 Ruin Templeguard
+	12 Waiting Weaver
+	12 Painted Captain
+	12 Basri's Faithful
+	12 Calcified Hydra
+	12 Highwood Guardian
+	12 Justice on Many Hands
+	12 Fetters of Light
+	12 Words Before the Spear
+	12 Elissia's Reckoning
+	12 Beheading Stroke
+	12 Drownwood Cutpurse
+	12 Sanctuary Stargazer
+	12 Screaming Watcher
+	12 Coastal Wanderer
+	12 Sphinx of Endless Queries
+	12 Wading Stiltbird
+	12 Silt Lurker
+	12 Lull to Stillness
+	12 Scour the Blind Eternities
+	12 Grow by Knowing
+	12 Bound Within
+	12 Misdirect the Advance
+	12 Elissia's Dismissal
+	12 Patient Ambush
+	12 Mutiny of Flesh
+	12 Imbibed Resolve
+	12 Seething Hunger
+	12 Recall the Fallen
+	12 An Offer in Blood
+	12 Torn Asunder
+	12 Wandering Mercy-Seller
+	12 Gatecrasher Hydra
+	12 Deceiving Mockasaur
+	12 Ribcage Marauder
+	12 Deadhand Conjurer
+	12 Stumbling Horror
+	12 Faceless Screamer
+	12 Hag of the Thresholds
+	12 Disguisting Ratking
+	12 Sanctuary Bloodletter
+	12 Innerflame Adept
+	12 Ashreach Blacksmith
+	12 Crackling Cyclops
+	12 Wildeyed Duneraider
+	12 Unity's Victim
+	12 Deepweaver Pathfinder
+	12 Feeder of the Sacred Flame
+	12 Ashreach Tyrant
+	12 Snapfeeder
+	12 Feed the Beast
+	12 Cut Down the Raider
+	12 Thunderous Charge
+	12 Codex of Hunters
+	12 Incinerating Grasp
+	12 River Hydra
+	12 Bristlewatch Quiller
+	12 Corvine Tender
+	12 Elder of the Furrow
+	12 Petition the Evergreen
+	12 Carrion Gardener
+	12 Vigorous Clanguard
+	12 Puffball Elder
+	12 Sporepod Guardians
+	12 Champion of the Hundredfold
+	12 Manawright Adept
+	12 Pull the Threads Loose
+	12 Pincer Attack
+	12 Unchecked Blossom
+	12 Bushwhack
+	12 Vice's Chosen Shell
+	12 Prophetic Prism
+	12 Molten Warforged
+	12 Pilgrim's Font
+	12 Faces in the Falls
+	6 Monk of the Eclipse
+	6 Highbough Outrider
+	6 Longgrass Courser
+	6 Officious Homunculus
+	6 Downpour Hydra
+	6 Baker of Sanctuary
+	6 Arbiter of Equipoise
+	6 Shepherd of the Expanse
+	6 Live in the Shadow of Gods
+	6 Sanctuary Doorwarden
+	6 Hudra Furneth's Answer
+	6 Lone Candlebearer
+	6 Overseeing Owl
+	6 Twinheaded Keyholder
+	6 Farwatch Diviner
+	6 Flooded Oracle
+	6 Drowned Fisher
+	6 Cliffhole Scavenger
+	6 Hundredhanded Crawler
+	6 Sentinel of the Ruins
+	6 Weight of the Future
+	6 Cast Out of Sanctuary
+	6 Open the Great Beast
+	6 Embrace of Grief
+	6 Hungering Lash
+	6 Drinking Mire
+	6 Pick Clean
+	6 Sap the Soul
+	6 Collapse Inward
+	6 Emaciated Devourer
+	6 Verdict of the Heads
+	6 Grafted Glutton
+	6 Kindle Hunger
+	6 Scavenger of the Underground
+	6 Ruthless Duneprowler
+	6 Sanctuary Bladehand
+	6 Lotus Forager
+	6 Wrath of Furneth
+	6 Cavemouth Hydra
+	6 Culling Farmer
+	6 Rootless Homeseeker
+	6 Strike with the Sun
+	6 Answer in Flame
+	6 Seared with Knowledge
+	6 Lotus Cultivator
+	6 Cultivated Cartographer
+	6 Hoarder of the Dead
+	6 Tutor of Sanctuary
+	6 Grasping Oak
+	6 Gadis of the Endless Bounty
+	6 Rootless Wayfinder
+	6 Decorated Guardian
+	6 Fogmaw Behemoth
+	6 Charnel Colossus
+	6 Molting Hydra
+	6 Lightweaver
+	6 Reexamine
+	6 Rootwrapped Bones
+	6 A Newfound Perspective
+	6 Awe of the Many
+	6 Reward of Prayer
+	6 Yssevar's Touch
+	6 Patient Deepweaver
+	6 Savagery
+	6 Consume and Thrive
+	6 Fourfold Counsel
+	6 Mimic's Ascension
+	6 Soothing Lethemancer
+	6 Consuming Flames
+	6 Tend to the World
+	6 Honor
+	6 Refine the Reflection
+	6 Hudra Vesceth's Chosen
+	6 Foresight's Reward
+	6 Free the Caged Soul
+	2 Brinelurker
+	6 Ovst's Unease
+	6 Blind Burrower
+	6 Wrathful Grovekeeper
+	6 The Herd as One
+	6 Bogwading Grazer
+	6 Cull the Flow
+	6 Molting Season
+	6 Burning Vanguard
+	6 Lost in Introspection
+	6 Shrine to the Everlasting
+	6 Shrine to the Everwatching
+	6 Shrine to the Everhungry
+	6 Shrine to the Everburning
+	6 Shrine to the Evergrowing
+	6 Grafted Harness
+	6 Fracture Point
+	6 Basking Shoal
+	6 Restless Scoutling
+	6 Dealer of Masks
+	6 Detaining Orb
+	6 Tidecrest Hydra
+	6 Gaunt Ravager
+	6 Terror of the Emberwood
+	6 Sixfold Idol
+	12 Farwatch Reservoir
+	12 Falselight Reservoir
+	12 Ashreach Reservoir
+	12 Emberwood Reservoir
+	12 Grasping Reservoir
+	12 Mistcovered Reservoir
+	12 Clamshell Reservoir
+	12 Crumbling Reservoir
+	12 Highpass Reservoir
+	12 Lakeshrine Reservoir
+	2 Rally the Fenstride
+	2 Sate the Infinite
+	2 Skullnumbing Screech
+	2 Reach Beyond the Self
+	2 Glean from Possibilities
+	2 Longgrass Vanguard
+	2 Clarity of the Unblinking
+	2 Silenced Minds
+	2 Resolute Shrineguard
+	2 Hermit of the Evergreen
+	2 Sovereign of Carrion
+	2 Sovereign of Echoes
+	2 Rotspew Hydra
+	2 Shipbreaker Hydra
+	2 Snapping Hydra
+	1 Concordant Dragon
+	1 Tidewrought Hydra
+	1 Horizon of Heads
+	1 Apex of Ashreach
+	1 Bloodied Avenger
+	6 Force Between Spaces
+	2 Prowler of the Depths
+	2 Blasphemous Amalgam
+	2 Scourge of Sanctuary
+	2 Plumed Hydra
+	2 Blessing of Above and Below
+	2 Lurker in the Waves
+	2 Ichorladen Scavenger
+	2 Alamazzar's Strike
+	2 Rooted Vinereader
+	1 Hudra Solveth, Undivided
+	1 Yssevar, the Everreaching
+	1 Hudra Vesceth, Unfed
+	1 Hudra Furneth, Unstilled
+	1 Hudra Cresveth, Unspent
+	1 Rimepeak Hydra
+	1 Hudra Miraneth, Unblinking
+	1 Ghalmyr, Nine-fanged Fog
+	1 Pelttaker
+	1 Maev, Matriarch of the Deep
+	1 Elissia, Alone
+	1 Ovst, Steward of Sanctuary
+	1 Cael, Warden of Strays
+	1 Alamazzar, Slayer of All
+	1 Plaguemaw Hydra
+	2 Solitary Surveyor
+	2 Crag Smasher
+	2 Vice's Facsimile
+	2 Engine of Bone and Sinew
+	2 Ironwrought Hydra
+	2 Hudra Solveth's Reliquary
+	2 Drownwood Heron
+	2 Knight of the Old Oath
+	2 Insatiable Guardian
+	2 Hudrain's Abundance
+	2 Leyline Detonation
+	2 Rooted Trailblazer
+	2 Alamazzar's Disappointment
+	2 Twinheaded Dragon
+	2 Deepweaver Marksman
+	2 Ashreach Hammerwright
+	2 Evergreen Skywatcher
+	2 Yssevar's Grasp
+	2 Knight of the Unbroken
+	2 Warden of the Circle
+	2 Shared Honor
+	2 Alone and Aching
+	2 Apostate of Two Faces
+	2 Remake the Flesh
+	2 Lotusstrider
+	2 Skyward Sentry
+	2 Vice's Consumption
+	2 Reveaing Amalgam
+	2 Hundred-Handed Colossus
+	2 Neverending Growth
+	2 Kindled Aspirant
+	2 Deepwater Archmage
+	2 Confound and Decay
+	2 Alamazzar's Contempt
+	2 Sow Unease
+	1 Borrowed Face
+	1 Humbler of the Brash
+	1 Sentinel of Highbough
+	1 Vice, the Borrowed Legion
+	1 Basri, Speaker of Oketra
+	12 Wavecaller Pillager
+[wildcard(1)]
+	6 Endless One
+	6 Watchful Matron
+	6 Monk of the Still Path
+	6 Grovewarden of the Herd
+	6 Votary of Prosperity
+	6 Ruin Templeguard
+	6 Waiting Weaver
+	6 Painted Captain
+	6 Basri's Faithful
+	6 Calcified Hydra
+	6 Highwood Guardian
+	6 Justice on Many Hands
+	6 Fetters of Light
+	6 Words Before the Spear
+	6 Elissia's Reckoning
+	6 Beheading Stroke
+	6 Drownwood Cutpurse
+	6 Sanctuary Stargazer
+	6 Screaming Watcher
+	6 Coastal Wanderer
+	6 Sphinx of Endless Queries
+	6 Wading Stiltbird
+	6 Silt Lurker
+	6 Lull to Stillness
+	6 Scour the Blind Eternities
+	6 Grow by Knowing
+	6 Bound Within
+	6 Misdirect the Advance
+	6 Elissia's Dismissal
+	6 Patient Ambush
+	6 Mutiny of Flesh
+	6 Imbibed Resolve
+	6 Seething Hunger
+	6 Recall the Fallen
+	6 An Offer in Blood
+	6 Torn Asunder
+	6 Wandering Mercy-Seller
+	6 Gatecrasher Hydra
+	6 Deceiving Mockasaur
+	6 Ribcage Marauder
+	6 Deadhand Conjurer
+	6 Stumbling Horror
+	6 Faceless Screamer
+	6 Hag of the Thresholds
+	6 Disguisting Ratking
+	6 Sanctuary Bloodletter
+	6 Innerflame Adept
+	6 Ashreach Blacksmith
+	6 Crackling Cyclops
+	6 Wildeyed Duneraider
+	6 Unity's Victim
+	6 Deepweaver Pathfinder
+	6 Feeder of the Sacred Flame
+	6 Ashreach Tyrant
+	6 Snapfeeder
+	6 Feed the Beast
+	6 Cut Down the Raider
+	6 Thunderous Charge
+	6 Codex of Hunters
+	6 Incinerating Grasp
+	6 River Hydra
+	6 Bristlewatch Quiller
+	6 Corvine Tender
+	6 Elder of the Furrow
+	6 Petition the Evergreen
+	6 Carrion Gardener
+	6 Vigorous Clanguard
+	6 Puffball Elder
+	6 Sporepod Guardians
+	6 Champion of the Hundredfold
+	6 Manawright Adept
+	6 Pull the Threads Loose
+	6 Pincer Attack
+	6 Unchecked Blossom
+	6 Bushwhack
+	6 Vice's Chosen Shell
+	6 Prophetic Prism
+	6 Molten Warforged
+	6 Pilgrim's Font
+	6 Faces in the Falls
+	15 Monk of the Eclipse
+	15 Highbough Outrider
+	15 Longgrass Courser
+	15 Officious Homunculus
+	15 Downpour Hydra
+	15 Baker of Sanctuary
+	15 Arbiter of Equipoise
+	15 Shepherd of the Expanse
+	15 Live in the Shadow of Gods
+	15 Sanctuary Doorwarden
+	15 Hudra Furneth's Answer
+	15 Lone Candlebearer
+	15 Overseeing Owl
+	15 Twinheaded Keyholder
+	15 Farwatch Diviner
+	15 Flooded Oracle
+	15 Drowned Fisher
+	15 Cliffhole Scavenger
+	15 Hundredhanded Crawler
+	15 Sentinel of the Ruins
+	15 Weight of the Future
+	15 Cast Out of Sanctuary
+	15 Open the Great Beast
+	15 Embrace of Grief
+	15 Hungering Lash
+	15 Drinking Mire
+	15 Pick Clean
+	15 Sap the Soul
+	15 Collapse Inward
+	15 Emaciated Devourer
+	15 Verdict of the Heads
+	15 Grafted Glutton
+	15 Kindle Hunger
+	15 Scavenger of the Underground
+	15 Ruthless Duneprowler
+	15 Sanctuary Bladehand
+	15 Lotus Forager
+	15 Wrath of Furneth
+	15 Cavemouth Hydra
+	15 Culling Farmer
+	15 Rootless Homeseeker
+	15 Strike with the Sun
+	15 Answer in Flame
+	15 Seared with Knowledge
+	15 Lotus Cultivator
+	15 Cultivated Cartographer
+	15 Hoarder of the Dead
+	15 Tutor of Sanctuary
+	15 Grasping Oak
+	15 Gadis of the Endless Bounty
+	15 Rootless Wayfinder
+	15 Decorated Guardian
+	15 Fogmaw Behemoth
+	15 Charnel Colossus
+	15 Molting Hydra
+	15 Lightweaver
+	15 Reexamine
+	15 Rootwrapped Bones
+	15 A Newfound Perspective
+	15 Awe of the Many
+	15 Reward of Prayer
+	15 Yssevar's Touch
+	15 Patient Deepweaver
+	15 Savagery
+	15 Consume and Thrive
+	15 Fourfold Counsel
+	15 Mimic's Ascension
+	15 Soothing Lethemancer
+	15 Consuming Flames
+	15 Tend to the World
+	15 Honor
+	15 Refine the Reflection
+	15 Hudra Vesceth's Chosen
+	15 Foresight's Reward
+	15 Free the Caged Soul
+	7 Brinelurker
+	15 Ovst's Unease
+	15 Blind Burrower
+	15 Wrathful Grovekeeper
+	15 The Herd as One
+	15 Bogwading Grazer
+	15 Cull the Flow
+	15 Molting Season
+	15 Burning Vanguard
+	15 Lost in Introspection
+	15 Shrine to the Everlasting
+	15 Shrine to the Everwatching
+	15 Shrine to the Everhungry
+	15 Shrine to the Everburning
+	15 Shrine to the Evergrowing
+	15 Grafted Harness
+	15 Fracture Point
+	15 Basking Shoal
+	15 Restless Scoutling
+	15 Dealer of Masks
+	15 Detaining Orb
+	15 Tidecrest Hydra
+	15 Gaunt Ravager
+	15 Terror of the Emberwood
+	15 Sixfold Idol
+	6 Farwatch Reservoir
+	6 Falselight Reservoir
+	6 Ashreach Reservoir
+	6 Emberwood Reservoir
+	6 Grasping Reservoir
+	6 Mistcovered Reservoir
+	6 Clamshell Reservoir
+	6 Crumbling Reservoir
+	6 Highpass Reservoir
+	6 Lakeshrine Reservoir
+	7 Rally the Fenstride
+	7 Sate the Infinite
+	7 Skullnumbing Screech
+	7 Reach Beyond the Self
+	7 Glean from Possibilities
+	7 Longgrass Vanguard
+	7 Clarity of the Unblinking
+	7 Silenced Minds
+	7 Resolute Shrineguard
+	7 Hermit of the Evergreen
+	7 Sovereign of Carrion
+	7 Sovereign of Echoes
+	7 Rotspew Hydra
+	7 Shipbreaker Hydra
+	7 Snapping Hydra
+	4 Concordant Dragon
+	4 Tidewrought Hydra
+	4 Horizon of Heads
+	4 Apex of Ashreach
+	4 Bloodied Avenger
+	15 Force Between Spaces
+	7 Prowler of the Depths
+	7 Blasphemous Amalgam
+	7 Scourge of Sanctuary
+	7 Plumed Hydra
+	7 Blessing of Above and Below
+	7 Lurker in the Waves
+	7 Ichorladen Scavenger
+	7 Alamazzar's Strike
+	7 Rooted Vinereader
+	4 Hudra Solveth, Undivided
+	4 Yssevar, the Everreaching
+	4 Hudra Vesceth, Unfed
+	4 Hudra Furneth, Unstilled
+	4 Hudra Cresveth, Unspent
+	4 Rimepeak Hydra
+	4 Hudra Miraneth, Unblinking
+	4 Ghalmyr, Nine-fanged Fog
+	4 Pelttaker
+	4 Maev, Matriarch of the Deep
+	4 Elissia, Alone
+	4 Ovst, Steward of Sanctuary
+	4 Cael, Warden of Strays
+	4 Alamazzar, Slayer of All
+	4 Plaguemaw Hydra
+	7 Solitary Surveyor
+	7 Crag Smasher
+	7 Vice's Facsimile
+	7 Engine of Bone and Sinew
+	7 Ironwrought Hydra
+	7 Hudra Solveth's Reliquary
+	7 Drownwood Heron
+	7 Knight of the Old Oath
+	7 Insatiable Guardian
+	7 Hudrain's Abundance
+	7 Leyline Detonation
+	7 Rooted Trailblazer
+	7 Alamazzar's Disappointment
+	7 Twinheaded Dragon
+	7 Deepweaver Marksman
+	7 Ashreach Hammerwright
+	7 Evergreen Skywatcher
+	7 Yssevar's Grasp
+	7 Knight of the Unbroken
+	7 Warden of the Circle
+	7 Shared Honor
+	7 Alone and Aching
+	7 Apostate of Two Faces
+	7 Remake the Flesh
+	7 Lotusstrider
+	7 Skyward Sentry
+	7 Vice's Consumption
+	7 Reveaing Amalgam
+	7 Hundred-Handed Colossus
+	7 Neverending Growth
+	7 Kindled Aspirant
+	7 Deepwater Archmage
+	7 Confound and Decay
+	7 Alamazzar's Contempt
+	7 Sow Unease
+	4 Borrowed Face
+	4 Humbler of the Brash
+	4 Sentinel of Highbough
+	4 Vice, the Borrowed Legion
+	4 Basri, Speaker of Oketra
+	6 Wavecaller Pillager

@@ -1,4 +1,144 @@
-﻿VERSION 8 CHANGELOG
+﻿VERSION 9 CHANGELOG
+====================
+
+
+
+Tomb of the First Fighter
+rules_text: [i]({T}: Add {W}.)[/i]
+Tomb of the First Fighter enters tapped.
+Whenever a land enters under your control, if you control five or more Plains, amass Soldiers 2. [i](Put two +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i] => [i]({T}: Add {W}.)[/i]
+Tomb of the First Fighter enters tapped.
+Whenever a land enters under your control, if you control five or more Plains, amass Soldiers 2. [i](Put two +1/+1 counters on an Army you control. It's also a Soldier. If you don't control one, create a 0/0 black Soldier Army creature token first.)[/i]
+
+Crossroads of Efficiency
+rules_text: [i]({T}: Add {G} or {U}.)[/i]
+As Crossroads of Efficiency enters , you may exile two cards from your graveyard. If you don't, it enters tapped. => [i]({T}: Add {G} or {U}.)[/i]
+As Crossroads of Efficiency enters, you may exile two cards from your graveyard. If you don't, it enters tapped.
+
+Crossroads of Finality
+rules_text: [i]({T}: Add {B} or {R}.)[/i]
+As Crossroads of Finality enters, you may exile two cards from your graveyard. If you don't, it enterstapped. => [i]({T}: Add {B} or {R}.)[/i]
+As Crossroads of Finality enters, you may exile two cards from your graveyard. If you don't, it enters tapped.
+
+Agnomakhos's Legionnaire
+rules_text: Planeswalkers you control have “[+1]: Amass Soldiers 1.” [i](To amass Soldiers 1, put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i] => Planeswalkers you control have “[+1]: Amass Soldiers 1.” [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control one, create a 0/0 black Soldier Army creature token first.)[/i]
+
+On the Quest for Friendship
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III — Look at the top six cards of your library. Put up to one creature card with mana value 2 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
+​
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Look at the top six cards of your library. Put up to one creature card with mana value 2 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
+​
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III — Look at the top six cards of your library. Put up to one creature card with mana value 2 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
+​
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Look at the top six cards of your library. Put up to one creature card with mana value 2 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
+​
+​
+
+Birth of the Praetor's Voice
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Flash
+Birth of the Praetor's Voice deals 4 damage to target attacking or blocking creature.
+I — Exile up to two target cards from graveyards. You gain 2 life.
+II — Create a 3/3 white, black, blue, and green Phyrexian Angel creature token with flying, vigilance, and lifelink. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Flash
+Birth of the Praetor's Voice deals 4 damage to target attacking or blocking creature.
+Exile up to two target cards from graveyards. You gain 2 life.
+Create a 3/3 white, black, blue, and green Phyrexian Angel creature token with flying, vigilance, and lifelink.
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Flash
+Birth of the Praetor's Voice deals 4 damage to target attacking or blocking creature.
+I — Exile up to two target cards from graveyards. You gain 2 life.
+II — Create a 3/3 white, black, blue, and green Phyrexian Angel creature token with flying, vigilance, and lifelink. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Flash
+Birth of the Praetor's Voice deals 4 damage to target attacking or blocking creature.
+Exile up to two target cards from graveyards. You gain 2 life.
+Create a 3/3 white, black, blue, and green Phyrexian Angel creature token with flying, vigilance, and lifelink.
+
+Glimpse of Opulent's Eternity
+rules_text: Draw X cards, then amass Soldiers X. [i](To amass Soldiers X, put X +1/+1 counters on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i] => Draw X cards, then amass Soldiers X. [i](Put X +1/+1 counters on an Army you control. It's also a Soldier. If you don't control one, create a 0/0 black Soldier Army creature token first.)[/i]
+
+For Marva
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Flash
+Tap target creature and put two stun counters on it.
+I — Surveil 2.
+II — Proliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Flash
+Tap target creature and put two stun counters on it.
+Surveil 2.
+Proliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Flash
+Tap target creature and put two stun counters on it.
+I — Surveil 2.
+II — Proliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Flash
+Tap target creature and put two stun counters on it.
+Surveil 2.
+Proliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]
+
+The Assault on Sandrock
+rules_text: Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Proliferate X times. [i](To proliferate, choose any number of permanents and/or players with counters on them, then give each another counter of each kind already there.)[/i] => Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control one, create a 0/0 black Soldier Army creature token first.)[/i]
+Proliferate X times. [i](To proliferate, choose any number of permanents and/or players with counters on them, then give each another counter of each kind already there.)[/i]
+
+Keeper Glamourbinder
+rules_text: Whenever an enchantment enters under your control, amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Soldiers you control have flying. => Whenever an enchantment enters under your control, amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control one, create a 0/0 black Soldier Army creature token first.)[/i]
+Soldiers you control have flying.
+
+Imani
+rules_text: [+1]: Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+[-2]: Put a +1/+1 counter on each creature you control.
+[-6]: Creatures you control get +1/+1 and gain double strike until end of turn. => [+1]: Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control one, create a 0/0 black Soldier Army creature token first.)[/i]
+[-2]: Put a +1/+1 counter on each creature you control.
+[-6]: Creatures you control get +1/+1 and gain double strike until end of turn.
+special_text: [+1]: Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+[-2]: Put a +1/+1 counter on each creature you control.
+[-6]: Creatures you control get +1/+1 and gain double strike until end of turn. => [+1]: Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control one, create a 0/0 black Soldier Army creature token first.)[/i]
+[-2]: Put a +1/+1 counter on each creature you control.
+[-6]: Creatures you control get +1/+1 and gain double strike until end of turn.
+
+Claes
+rules_text: [+1]: Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+[-3]: Exile target nonland permanent if its mana value is less than or equal to the number of tapped creatures you control.
+[-6]: You get an emblem with “Creatures you control can't be blocked by creatures with greater mana value.” => [+1]: Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control one, create a 0/0 black Soldier Army creature token first.)[/i]
+[-3]: Exile target nonland permanent if its mana value is less than or equal to the number of tapped creatures you control.
+[-6]: You get an emblem with “Creatures you control can't be blocked by creatures with greater mana value.”
+special_text: [+1]: Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+[-3]: Exile target nonland permanent if its mana value is less than or equal to the number of tapped creatures you control.
+[-6]: You get an emblem with “Creatures you control can't be blocked by creatures with greater mana value.” => [+1]: Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control one, create a 0/0 black Soldier Army creature token first.)[/i]
+[-3]: Exile target nonland permanent if its mana value is less than or equal to the number of tapped creatures you control.
+[-6]: You get an emblem with “Creatures you control can't be blocked by creatures with greater mana value.”
+
+Peyma Saga Token
+rules_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III, IV, V, VI, C — Whenever you put a lore counter on this Saga, put a +1/+1 counter on target creature you control.
+​
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Whenever you put a lore counter on this Saga, put a +1/+1 counter on target creature you control.
+​
+​
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III, IV, V, VI, C — Whenever you put a lore counter on this Saga, put a +1/+1 counter on target creature you control.
+​
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Whenever you put a lore counter on this Saga, put a +1/+1 counter on target creature you control.
+​
+​
+
+Recoup Vigor
+rules_text: Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control an Army, create a 0/0 black Soldier Army creature token first.)[/i]
+Compose [i](Then if you cast this from your hand, exile it and create a Saga token with “r{3}—You may cast a copy of this card from exile without paying its mana cost.”)[/i] => Amass Soldiers 1. [i](Put a +1/+1 counter on an Army you control. It's also a Soldier. If you don't control one, create a 0/0 black Soldier Army creature token first.)[/i]
+Compose [i](Then if you cast this from your hand, exile it and create a Saga token with “r{3}—You may cast a copy of this card from exile without paying its mana cost.”)[/i]
+
+
+VERSION 8 CHANGELOG
 ====================
 
 
