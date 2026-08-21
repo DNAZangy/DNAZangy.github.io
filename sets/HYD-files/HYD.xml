@@ -5,7 +5,7 @@
 			<name>HYD</name>
 			<longname>Hudrain: Unyielding</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-08-20</releasedate>
+			<releasedate>2026-08-21</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -49,7 +49,7 @@ Tap two untapped creatures you control: You may move a counter from this creatur
 ---
 
 Tap target creature.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/2.png" num="29">HYD</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/2.png" num="28">HYD</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -67,7 +67,7 @@ Tap target creature.</text>
 			<name>Grovewarden of the Herd</name>
 			<text>Whenever this creature becomes tapped, surveil 1.
 {3}, Exile this card from your graveyard: Draw a card.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/3.png" num="14">HYD</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/3.png" num="13">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -103,7 +103,7 @@ Whenever this or another creature you control with base power 2 or less enters, 
 			<name>Ruin Templeguard</name>
 			<text>This creature enters with two +1/+1 counters and a flying counter on it.
 When this creature dies, put its counters on target creature you control.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/5.png" num="35">HYD</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/5.png" num="34">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -138,7 +138,7 @@ When this creature dies, put its counters on target creature you control.</text>
 			<name>Painted Captain</name>
 			<text>Vigilance
 Whenever this creature attacks, you may tap two other untapped creatures you control. If you do, put a +1/+1 counter on this creature and you gain 2 life.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/7.png" num="31">HYD</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/7.png" num="30">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -198,7 +198,7 @@ When this creature enters, you gain X life.</text>
 			<text>Flying, vigilance
 When this creature enters, create two 1/1 white Soldier creature tokens.
 Obelisk ({2}, Exile this card from your hand face down: Create a tapped Obelisk artifact token with &quot;{T}: Add {C}&quot; and &quot;{T}, Sacrifice this: Until end of turn, you may cast the exiled card.&quot; Activate only as a sorcery.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/10.png" num="16">HYD</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/10.png" num="15">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -216,7 +216,7 @@ Obelisk ({2}, Exile this card from your hand face down: Create a tapped Obelisk 
 			<name>Justice on Many Hands</name>
 			<text>This spell costs {1} less to cast for each creature you control with base power 2 or less.
 Flying</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/11.png" num="21">HYD</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/11.png" num="20">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -234,7 +234,7 @@ Flying</text>
 			<name>Fetters of Light</name>
 			<text>As an additional cost to cast this spell, you may tap two untapped creatures you control.
 When this enchantment enters, exile target nonland permanent if it&apos;s a creature with mana value 3 or less or if you tapped two creatures to cast this spell until this enchantment leaves the battlefield.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/12.png" num="12">HYD</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/12.png" num="11">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -270,7 +270,7 @@ Impose {X}{W} (You may cast this card from your graveyard for its impose cost, r
 • Target creature you control gets +2/+0 and gains indestructible until end of turn.
 • Elissia&apos;s Reckoning deals 3 damage to target attacking or blocking creature.
 • Exile up to four cards from target player&apos;s graveyard.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/14.png" num="11">HYD</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/14.png" num="10">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -362,7 +362,7 @@ Whenever you draw your second card each turn, exile this creature, then return i
 		</card>
 		<card>
 			<name>Coastal Wanderer</name>
-			<text>Whenever this creature attacks, choose another target creature. Until end of turn, that creature has base power and toughness 3/3.</text>
+			<text>Whenever this creature attacks, you may choose another target creature. Until end of turn, that creature has base power and toughness 3/3.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/19.png" num="50">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -373,7 +373,7 @@ Whenever you draw your second card each turn, exile this creature, then return i
 				<cmc>3</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
-				<pt>1/6</pt>
+				<pt>1/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -451,7 +451,8 @@ At the beginning of combat on your turn, you may remove a counter from a permane
 		</card>
 		<card>
 			<name>Scour the Blind Eternities</name>
-			<text>Look at the top [b][two][/b] cards of your library. Put one of them into your hand and the rest on the bottom of your library in a random order.
+			<text>Look at the top [b][two][/b] cards of your library. Put up to one on top of your library and the rest on the bottom in a random order.
+Draw a card.
 Impose {X}{U}{U}{U} (You may cast this card from your graveyard for its impose cost, replacing all the numbers in brackets with X. Then exile it.)</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/24.png" num="73">HYD</set>
 			<prop>
@@ -570,8 +571,8 @@ Surveil 2.</text>
 		</card>
 		<card>
 			<name>Imbibed Resolve</name>
-			<text>As an additional cost to cast this spell, you may remove two counters from permanents you control. If you do, copy it. You may choose new targets for the copy.
-Target creature you control gets +2/+0 and gains indestructible until end of turn.</text>
+			<text>As an additional cost to cast this spell, you may remove two counters from permanents you control.
+Target creature you control gets +2/+0 and gains indestructible until end of turn. If this spell&apos;s additional cost was paid, that creature also gains deathtouch and lifelink until end of turn.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/31.png" num="106">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -660,18 +661,18 @@ This creature enters prepared. (While it&apos;s prepared, you may cast a copy of
 
 ---
 
-Return target non-Lizard creature card from your graveyard to the battlefield.</text>
+Return target non-Lizard creature card from your graveyard to your hand.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/36.png" num="127">HYD</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
 				<type>Creature — Lizard Cleric // Sorcery</type>
 				<maintype>Creature</maintype>
-				<manacost>6B // 3B</manacost>
-				<cmc>7</cmc>
+				<manacost>7B // 2B</manacost>
+				<cmc>8</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>4/3</pt>
+				<pt>5/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -818,7 +819,7 @@ Target player discards a card.</text>
 				<side>front</side>
 				<type>Creature — Rat // Sorcery</type>
 				<maintype>Creature</maintype>
-				<manacost>B // 1B</manacost>
+				<manacost>B // 2B</manacost>
 				<cmc>1</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
@@ -851,7 +852,7 @@ Create a 4/3 red Lizard Assassin creature token with trample.</text>
 		</card>
 		<card>
 			<name>Innerflame Adept // Pyretic Ritual</name>
-			<text>At the beginning of your end step, this creature becomes prepared. (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+			<text>At the beginning of your end step, if this creature isn&apos;t prepared, it becomes prepared. (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
 
 ---
 
@@ -990,7 +991,7 @@ Draw a card.</text>
 				<side>front</side>
 				<type>Creature — Dinosaur Elemental</type>
 				<maintype>Creature</maintype>
-				<manacost>5R</manacost>
+				<manacost>4RR</manacost>
 				<cmc>6</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
@@ -1020,14 +1021,14 @@ At the beginning of your end step, sacrifice this creature.</text>
 		<card>
 			<name>Feed the Beast</name>
 			<text>As an additional cost to cast this spell, you may sacrifice an artifact or creature. If you do, copy this spell. You may choose new targets for the copy.
-This spell deals 3 damage to any target.</text>
+This spell deals 3 damage to target creature or planeswalker.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/55.png" num="141">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>2R</manacost>
+				<manacost>1RR</manacost>
 				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
@@ -1038,7 +1039,7 @@ This spell deals 3 damage to any target.</text>
 			<name>Cut Down the Raider</name>
 			<text>Choose one —
 • Destroy up to one target artifact. Create a Treasure token.
-• Target creature can&apos;t block this turn. Another target creature gets +2/+1 and gains haste until end of turn.</text>
+• Up to one target creature can&apos;t block this turn. Another target creature gets +2/+1 and gains haste until end of turn.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/56.png" num="139">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -1072,7 +1073,7 @@ Obelisk ({2}, Exile this card from your hand face down: Create a tapped Obelisk 
 		<card>
 			<name>Codex of Hunters</name>
 			<text>When Codex of Hunters enters or leaves, exile the top card of your library. You may play it until the end of your next turn.
-{2}, {T}, Sacrifice Codex of Hunters: Up to one target creature gets +1/+0 and gains haste until end of turn.</text>
+{2}, {T}, Sacrifice Codex of Hunters: Up to one target creature gets +1/+0 and gains haste until end of turn. Activate only as a sorcery.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/58.png" num="135">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -1211,7 +1212,7 @@ Mill three cards, then return a land card or creature card from your graveyard t
 				<cmc>4</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
-				<pt>2/4</pt>
+				<pt>1/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1284,7 +1285,7 @@ Obelisk ({2}, Exile this card from your hand face down: Create a tapped Obelisk 
 				<cmc>8</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
-				<pt>7/7</pt>
+				<pt>8/8</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1408,13 +1409,12 @@ Whenever enchanted land is tapped for mana, add one mana of any color.
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Molten Warforged // Fragment</name>
+			<name>Molten Warforged // Become Fragments</name>
 			<text>This creature enters prepared. (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
 When this creature dies, create a Treasure token.
 
 ---
 
-This spell costs {3} less to cast if it targets a permanent with mana value 3 or less.
 Destroy target nonland permanent.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/77.png" num="250">HYD</set>
 			<prop>
@@ -1422,7 +1422,7 @@ Destroy target nonland permanent.</text>
 				<side>front</side>
 				<type>Artifact Creature — Construct // Sorcery</type>
 				<maintype>Creature</maintype>
-				<manacost>2 // 5</manacost>
+				<manacost>2 // 7</manacost>
 				<cmc>2</cmc>
 				<pt>2/1</pt>
 			</prop>
@@ -1467,7 +1467,7 @@ Add one mana of any color.</text>
 			<name>Monk of the Eclipse</name>
 			<text>Exaptation (Whenever another creature you control enters or dies, if that creature&apos;s power is greater than this creature&apos;s, put a +1/+1 counter on this creature.)
 Remove two counters from this creature: This creature gains indestructible until end of turn. Tap it.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/80.png" num="28">HYD</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/80.png" num="27">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1483,8 +1483,8 @@ Remove two counters from this creature: This creature gains indestructible until
 		</card>
 		<card>
 			<name>Highbough Outrider</name>
-			<text>When this creature enters, look at the top five cards of your library. You may reveal a creature card with power 2 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order. If you put a card into your hand this way, discard a card or sacrifice a creature.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/81.png" num="15">HYD</set>
+			<text>When this creature enters, look at the top five cards of your library. You may reveal a creature card with power 2 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/81.png" num="14">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1494,7 +1494,7 @@ Remove two counters from this creature: This creature gains indestructible until
 				<cmc>2</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
-				<pt>2/2</pt>
+				<pt>2/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1502,7 +1502,7 @@ Remove two counters from this creature: This creature gains indestructible until
 			<name>Longgrass Courser</name>
 			<text>Lifelink
 When this creature enters, put a +1/+1 counter on it and each other creature you control with base power 2 or less.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/82.png" num="26">HYD</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/82.png" num="25">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1524,7 +1524,7 @@ Whenever another nontoken creature you control enters, this creature becomes pre
 ---
 
 Destroy target nontoken creature you control. Create a token that&apos;s a copy of it, then put a +1/+1 counter on that creature.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/83.png" num="30">HYD</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/83.png" num="29">HYD</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -1539,10 +1539,10 @@ Destroy target nontoken creature you control. Create a token that&apos;s a copy 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Downpour Hydra</name>
+			<name>Viscous Hydra</name>
 			<text>As an additional cost to cast this spell, you may tap any number of untapped creatures you control. This spell costs {1} less for each creature tapped this way.
 This creature enters with X +1/+1 counters on it.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/84.png" num="10">HYD</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/84.png" num="40">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1600,16 +1600,16 @@ Exaptation (Whenever another creature you control enters or dies, if that creatu
 		<card>
 			<name>Shepherd of the Expanse</name>
 			<text>This spell costs {2} less to cast for each tapped creature you control.
-At the beginning of your end step, if you control two or more tapped creatures, create a tapped 2/2 green Centaur creature token.
+At the beginning of your end step, if you control two or more other tapped creatures, create a tapped 2/2 green Centaur creature token.
 Obelisk ({2}, Exile this card from your hand face down: Create a tapped Obelisk artifact token with &quot;{T}: Add {C}&quot; and &quot;{T}, Sacrifice this: Until end of turn, you may cast the exiled card.&quot; Activate only as a sorcery.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/87.png" num="38">HYD</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/87.png" num="37">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Giant Peasant</type>
 				<maintype>Creature</maintype>
-				<manacost>8WW</manacost>
-				<cmc>10</cmc>
+				<manacost>10WW</manacost>
+				<cmc>12</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
 				<pt>5/5</pt>
@@ -1620,7 +1620,7 @@ Obelisk ({2}, Exile this card from your hand face down: Create a tapped Obelisk 
 			<name>Live in the Shadow of Gods</name>
 			<text>You gain [b][3][/b] life. Create a 0/0 green Hydra creature token and put a number of +1/+1 counters on it equal to the amount of life you&apos;ve gained this turn.
 Impose {X}{W}{W} (You may cast this card from your graveyard for its impose cost, replacing all the numbers in brackets with X. Then exile it.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/88.png" num="25">HYD</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/88.png" num="24">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1636,8 +1636,8 @@ Impose {X}{W}{W} (You may cast this card from your graveyard for its impose cost
 		<card>
 			<name>Sanctuary Doorwarden</name>
 			<text>This creature enters with a +1/+1 counter on it.
-Whenever you attack, you may exile target creature card with mana value X or less from your graveyard, where X is the number of counters on attacking creatures you control. If you do, create a tapped token that&apos;s a copy of it with a finality counter on it.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/89.png" num="36">HYD</set>
+Whenever you attack, you may exile target creature card with mana value X or less from your graveyard, where X is the number of counters on attacking creatures you control. If you do, create a tapped token that&apos;s a copy of it.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/89.png" num="35">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1654,7 +1654,7 @@ Whenever you attack, you may exile target creature card with mana value X or les
 		<card>
 			<name>Hudra Furneth&apos;s Answer</name>
 			<text>Return target non-Aura, nonland permanent card with mana value 3 or less from your graveyard to the battlefield. If it&apos;s not a creature, it becomes a 0/0 Avatar creature in addition to its other types. If its power is less than three, put a number of +1/+1 counters on it equal to the difference.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/90.png" num="18">HYD</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/90.png" num="17">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1692,8 +1692,10 @@ Put a +1/+1 counter on target tapped Wizard you control.</text>
 		</card>
 		<card>
 			<name>Overseeing Owl</name>
-			<text>Flying
-Whenever this creature attacks, choose up to one other target creature. Until end of turn, that creature has base power and toughness 4/4.</text>
+			<text>Flash
+Flying
+This creature enters tapped.
+When this creature enters, choose up to one other target creature. Until end of turn, that creature has base power and toughness 4/4 and gains hexproof.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/92.png" num="66">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -1729,7 +1731,7 @@ This creature gets +1/+0 for each card you&apos;ve drawn this turn.
 		</card>
 		<card>
 			<name>Farwatch Diviner</name>
-			<text>At the beginning of combat on your turn, dispute with an opponent. If you win, creatures that player controls can&apos;t block this creature this turn. (Each disputing player draws a card, then discards a card. A player wins if their discarded card had an equal or greater mana value.)
+			<text>At the beginning of combat on your turn, dispute with an opponent. When you win, tap up to two target creatures that player controls. (Each disputing player draws a card, then discards a card. A player wins if their discarded card had an equal or greater mana value.)
 Whenever this creature deals combat damage to a player, draw a card.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/94.png" num="57">HYD</set>
 			<prop>
@@ -2058,6 +2060,7 @@ Whenever a player sacrifices a creature, put a +1/+1 counter on this creature.</
 		<card>
 			<name>Kindle Hunger</name>
 			<text>This enchantment enters with five hatch counters on it.
+{1}{B}, Pay 2 life: Remove a hatch counter from this enchantment.
 At the beginning of your end step, remove a counter from this enchantment. If you remove the last or can&apos;t, sacrifice it. When you do, return target creature card from your graveyard to the battlefield.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/112.png" num="107">HYD</set>
 			<prop>
@@ -2258,8 +2261,8 @@ This spell deals 4 damage to any target.</text>
 				<side>front</side>
 				<type>Instant</type>
 				<maintype>Instant</maintype>
-				<manacost>3R</manacost>
-				<cmc>4</cmc>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
@@ -2358,7 +2361,7 @@ Whenever a creature you control with power 4 or greater dies, draw a card.</text
 				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
-				<pt>1/1</pt>
+				<pt>1/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -2384,7 +2387,7 @@ At the beginning of combat on your turn, you may dispute with an opponent. If yo
 			<name>Gadis of the Endless Bounty</name>
 			<text>You may pay {W}{U}{B}{R}{G} rather than pay the mana cost for the first spell you cast each turn. If you cast a spell with X in its mana cost this way, X is 5.
 Whenever Gadis deals combat damage to a player, create a Treasure token.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/129.png" num="185">HYD</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/129.png" num="185">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2494,7 +2497,7 @@ When this creature dies, you gain 3 life and draw a card. If its power was 8 or 
 			<text>Vigilance
 Other creatures you control have vigilance.
 Tap three untapped creatures you control: Tap target creature.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/135.png" num="24">HYD</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/135.png" num="23">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2529,7 +2532,7 @@ Tap three untapped creatures you control: Tap target creature.</text>
 		<card>
 			<name>Rootwrapped Bones</name>
 			<text>Whenever a player discards one or more cards during your turn, put that many +1/+1 counters on this creature.
-{2}{B}, Discard a card: This creature gains deathtouch and menace until end of turn.</text>
+{3}{B}, Discard a card: This creature gains deathtouch and menace until end of turn.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/137.png" num="117">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -2582,7 +2585,7 @@ Obelisk ({2}, Exile this card from your hand face down: Create a tapped Obelisk 
 			<name>Reward of Prayer</name>
 			<text>As an additional cost to cast this spell, pay {2} or tap two untapped creatures you control.
 Exile target artifact or creature.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/140.png" num="33">HYD</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/140.png" num="32">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2619,7 +2622,7 @@ This creature enters prepared and tapped with four stun counters on it. (While i
 ---
 
 As an additional cost to cast this spell, remove two counters from among permanents you control.
-Draw two cards.</text>
+You draw two cards and you lose 2 life.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/142.png" num="112">HYD</set>
 			<prop>
 				<layout>adventure</layout>
@@ -2675,7 +2678,7 @@ Whenever you cast a spell with mana value 4 or greater, you may return this card
 • Exile up to two cards from a single graveyard.
 • You gain 3 life.
 • Draw a card.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/145.png" num="13">HYD</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/145.png" num="12">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2707,7 +2710,7 @@ Exile three cards from your graveyard: Put a +1/+1 counter on this enchantment. 
 		</card>
 		<card>
 			<name>Soothing Lethemancer</name>
-			<text>When this creature enters, you draw a card and you lose 1 life.
+			<text>When this creature enters, each player draws a card and loses 1 life.
 At the beginning of your upkeep, each player discards a card.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/147.png" num="123">HYD</set>
 			<prop>
@@ -2719,13 +2722,13 @@ At the beginning of your upkeep, each player discards a card.</text>
 				<cmc>3</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>2/2</pt>
+				<pt>2/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Consuming Flames</name>
-			<text>Put a finality counter on any number of target creatures. This spell deals 1 damage to each creature and each planeswalker.</text>
+			<text>Put a finality counter on each creature and each planeswalker. This spell deals 1 damage to each creature and each planeswalker you don&apos;t control.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/148.png" num="136">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -2760,7 +2763,7 @@ Impose {X}{G}{G}{G} (You may cast this card from your graveyard for its impose c
 			<name>Honor</name>
 			<text>Put a +1/+1 counter on target creature.
 Draw a card.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/150.png" num="17">HYD</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/150.png" num="16">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2811,15 +2814,16 @@ Remove a +1/+1 counter from this creature: Target player discards a card. Activa
 		</card>
 		<card>
 			<name>Foresight&apos;s Reward</name>
-			<text>Whenever this enchantment enters or you cast a spell with mana value 4 or greater, exile the top card of your library. You may play that card until you exile another card with this enchantment.</text>
+			<text>Spells you cast from anywhere other than your hand cost {1} less to cast.
+Whenever this enchantment enters or you cast a spell with mana value 4 or greater, exile the top card of your library. You may play that card until you exile another card with this enchantment.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/153.png" num="143">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>1R</manacost>
-				<cmc>2</cmc>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
@@ -2896,7 +2900,7 @@ When this creature dies, you may sacrifice an artifact or creature. If you do, r
 				<cmc>2</cmc>
 				<colors>BR</colors>
 				<coloridentity>BR</coloridentity>
-				<pt>3/2</pt>
+				<pt>3/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -2943,7 +2947,7 @@ Create two 2/2 green Centaur creature tokens.</text>
 		<card>
 			<name>Bogwading Grazer</name>
 			<text>Menace, lifelink
-When this creature enters, if you cast it return up to two target creature cards each with mana value 3 or less from your graveyard to the battlefield.</text>
+When this creature enters, if you cast it, return up to two target creature cards each with mana value 3 or less from your graveyard to the battlefield.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/160.png" num="224">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -2978,7 +2982,7 @@ Impose {X}{U}{R} (You may cast this card from your graveyard for its impose cost
 		<card>
 			<name>Molting Season</name>
 			<text>When this enchantment enters, mill four cards.
-At the beginning of your end step, return the nonenchantment permanent card in your graveyard with the lowest or tied for the lowest mana value to your hand.</text>
+At the beginning of your upkeep, return the nonenchantment permanent card in your graveyard with the lowest or tied for the lowest mana value to your hand. If one or more cards have the lowest, return one of those at random.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/162.png" num="228">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -3467,7 +3471,7 @@ When this creature enters, it deals damage equal to its power to up to one targe
 			<name>Rally the Fenstride</name>
 			<text>Create [b][two][/b] 1/1 white Soldier creature tokens.
 Impose {X}{X}{W}. Spend only white mana on X. (You may cast this card from your graveyard for its impose cost, replacing all the numbers in brackets with X. Then exile it.)</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/190.png" num="32">HYD</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/190.png" num="31">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3490,8 +3494,8 @@ Impose {X}{U}{U}. Spend only blue mana on X. (You may cast this card from your g
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>1UU</manacost>
-				<cmc>3</cmc>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
@@ -3507,7 +3511,7 @@ Impose {X}{X}{B}{B}. Spend only black mana on X. X can&apos;t be 0. (You may cas
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>2B</manacost>
+				<manacost>1BB</manacost>
 				<cmc>3</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
@@ -3552,7 +3556,7 @@ Impose {X}{X}{X}{X}. Spend only green mana on X. (You may cast this card from yo
 			<name>Longgrass Vanguard</name>
 			<text>Flash
 If a player would create one or more tokens, instead that player puts that many +1/+1 counters on a creature they control.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/195.png" num="27">HYD</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/195.png" num="26">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3622,7 +3626,7 @@ Whenever you discard a card, you may exile it. For as long as it remains exiled 
 		<card>
 			<name>Hermit of the Evergreen</name>
 			<text>Exaptation (Whenever another creature you control enters or dies, if that creature&apos;s power is greater than this creature&apos;s, put a +1/+1 counter on this creature.)
-{T}, Remove X +1/+1 counters from this creature: You may put a creature card with mana value twice X or less from your hand onto the battlefield. Activate only as a sorcery.</text>
+At the beginning of combat on your turn, you may put a creature card with mana value twice this creature&apos;s power or less from your hand onto the battlefield.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/199.png" num="188">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -3646,7 +3650,7 @@ Remove a counter from this creature: It becomes prepared. (While it&apos;s prepa
 ---
 
 Return target creature card with mana value 3 or less from your graveyard to the battlefield.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/200.png" num="40">HYD</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/200.png" num="39">HYD</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -3780,15 +3784,15 @@ Whenever a creature you control enters, this enchantment deals 1 damage to each 
 			<name>Tidewrought Hydra</name>
 			<text>Flash
 This creature enters the battlefield with three +1/+1 counters on it.
-Whenever this creature attacks, double the number of each kind of counter on any number of target permanents.</text>
+Whenever you cast a noncreature spell, double the number of counters on this creature.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/HYD-files/img/206.png" num="80">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Hydra</type>
 				<maintype>Creature</maintype>
-				<manacost>4UU</manacost>
-				<cmc>6</cmc>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 				<pt>0/0</pt>
@@ -3854,7 +3858,7 @@ When this creature enters, draw a card. Then, you may put a permanent card with 
 		</card>
 		<card>
 			<name>Force Between Spaces</name>
-			<text>For each player, exile target spell or permanent that player controls. For as long as those cards remain exiled, their owners may cast them for {2} rather than their mana costs.</text>
+			<text>For each player, exile target spell or nonland permanent that player controls. For as long as those cards remain exiled, their owners may cast them for {2} rather than their mana costs.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/210.png" num="214">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -3873,7 +3877,7 @@ When this creature enters, draw a card. Then, you may put a permanent card with 
 			<text>This creature enters with X +1/+1 counters on it.
 Flying
 When this creature enters, dispute with an opponent for each counter on it. (Each disputing player draws a card, then discards a card. A player wins if their discarded card had an equal or greater mana value.)
-Whenever you win a dispute, each opponent loses 1 life and you gain 1 life.</text>
+Whenever you win a dispute, each opponent loses 2 life and you gain 2 life.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/211.png" num="216">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -3891,7 +3895,7 @@ Whenever you win a dispute, each opponent loses 1 life and you gain 1 life.</tex
 		<card>
 			<name>Blasphemous Amalgam</name>
 			<text>This creature enters with a +1/+1 counter on it.
-Whenever a creature dies, double the number of +1/+1 counters on this creature.
+Whenever a creature dies, put a +1/+1 counter on this creature.
 {2}, Remove a counter from this creature: This creature gains indestructible until end of turn. Tap it.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/212.png" num="217">HYD</set>
 			<prop>
@@ -3911,7 +3915,7 @@ Whenever a creature dies, double the number of +1/+1 counters on this creature.
 			<name>Scourge of Sanctuary</name>
 			<text>Flying
 This creature gets +1/+1 for each artifact you control.
-Cards in your hand have obelisk. The obelisk cost is equal to its mana cost. 
+Each nonland card in your hand have obelisk.
 Obelisk ({2}, Exile this card from your hand face down: Create a tapped Obelisk artifact token with &quot;{T}: Add {C}&quot; and &quot;{T}, Sacrifice this: Until end of turn, you may cast the exiled card.&quot; Activate only as a sorcery.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/213.png" num="220">HYD</set>
 			<prop>
@@ -3919,11 +3923,11 @@ Obelisk ({2}, Exile this card from your hand face down: Create a tapped Obelisk 
 				<side>front</side>
 				<type>Creature — Dragon Hydra</type>
 				<maintype>Creature</maintype>
-				<manacost>RG</manacost>
-				<cmc>2</cmc>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
 				<colors>RG</colors>
 				<coloridentity>RG</coloridentity>
-				<pt>0/1</pt>
+				<pt>1/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3988,7 +3992,7 @@ Whenever you cast a spell, you may have this creature phase out.
 		<card>
 			<name>Ichorladen Scavenger</name>
 			<text>This creature&apos;s power is equal to the number of card types among cards in your graveyard.
-Whenever this creature deals combat damage to a player, mill five cards. Return any number of permanent cards milled this way with total mana value equal or less than the amount of damage dealt to your hand.</text>
+Whenever this creature deals combat damage to a player, mill five cards. Return up to two permanent cards milled this way with total mana value equal or less than the amount of damage dealt to your hand.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/217.png" num="227">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -3999,7 +4003,7 @@ Whenever this creature deals combat damage to a player, mill five cards. Return 
 				<cmc>3</cmc>
 				<colors>BG</colors>
 				<coloridentity>BG</coloridentity>
-				<pt>*/5</pt>
+				<pt>*/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -4043,7 +4047,7 @@ At the beginning of your upkeep, draw a card if the number of counters on this c
 			<text>Flying, lifelink
 As long as Hudra Solveth has a +1/+1 counter on it, it has indestructible and if damage would be dealt to it, instead prevent that damage and remove a counter from it.
 Whenever you create a token, put a +1/+1 counter on Hudra Solveth.</text>
-			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/HYD-files/img/220.png" num="19">HYD</set>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/HYD-files/img/220.png" num="18">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4139,7 +4143,7 @@ Whenever you spend your fourth total mana to cast spells during a turn, put a +1
 			<text>Double strike
 This creature enters with two +1/+1 counters on it.
 Whenever you gain life for the first time each turn, double the number of +1/+1 counters on each creature you control.</text>
-			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/HYD-files/img/225.png" num="34">HYD</set>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/HYD-files/img/225.png" num="33">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4173,7 +4177,7 @@ Whenever you draw your second card each turn, put a +1/+1 counter on Hudra Miran
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Ghalmyr, Nine-fanged Fog</name>
+			<name>Ghalmyr, Six-Fanged Fog</name>
 			<text>Ward—Sacrifice a nonland permanent.
 Whenever you cast a permanent spell with {X} in its mana cost, you may have the value of X become equal to the number of nonland permanents you control. Do this only once each turn.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/HYD-files/img/227.png" num="239">HYD</set>
@@ -4232,9 +4236,9 @@ At the beginning of your end step, draw a card.</text>
 			<name>Elissia, Alone</name>
 			<text>Flash
 When Elissia enters, you may activate her loyalty abilities X times.
-[+1]: Exile up to one other target permanent, then return it to the battlefield. You may tap it.
+[+1]: Exile up to one other target nonland permanent, then return it to the battlefield. You may tap it.
 [-2]: Create a 1/1 white Avatar creature token with flying. Put a number of +1/+1 counters on it equal to the number of other permanents that entered under your control this turn.
-[-8]: You get an emblem with &quot;Whenever a permanent enters, draw a card.</text>
+[-8]: You get an emblem with &quot;Whenever a permanent enters, draw a card.&quot;</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/HYD-files/img/230.png" num="238">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -4358,7 +4362,7 @@ At the beginning of your end step, you may remove a counter from this creature. 
 		</card>
 		<card>
 			<name>Vice&apos;s Facsimile</name>
-			<text>You may have this artifact enter as a copy of any artifact on the battlefield, except its has its other abilities.
+			<text>You may have this artifact enter as a copy of any artifact on the battlefield, except it has its other abilities.
 {2}: This artifact becomes a copy of another target permanent you control, except it has this ability and is an artifact in addition to its other types.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/237.png" num="257">HYD</set>
 			<prop>
@@ -4408,7 +4412,7 @@ When this creature enters, distribute X +1/+1 counters among other creatures you
 			<text>Flying
 Exaptation (Whenever another creature you control enters or dies, if that creature&apos;s power is greater than this creature&apos;s, put a +1/+1 counter on this creature.)
 {T}: Return target creature card from your graveyard to the battlefield if its mana value is less than or equal to the number of counters on this creature.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/240.png" num="20">HYD</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/240.png" num="19">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4506,7 +4510,7 @@ Exile this card.</text>
 			<name>Leyline Detonation</name>
 			<text>Dispute with an opponent. If you win the dispute, you may return a permanent you own to its owner&apos;s hand. (Each disputing player draws a card, then discards a card. A player wins if their discarded card had an equal or greater mana value.)
 Destroy all creatures.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/245.png" num="23">HYD</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/245.png" num="22">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4614,7 +4618,7 @@ Whenever you attack, choose up to one target creature with base power 2 or less.
 			<name>Evergreen Skywatcher</name>
 			<text>Flying
 Whenever you draw your second card each turn, put a +1/+1 counter on this creature.
-Whenever this creature attacks, up to one target nonland with mana value less than or equal to this creature&apos;s power loses all abilities until your next turn.</text>
+Whenever this creature attacks, up to one target nonland permanent with mana value less than or equal to this creature&apos;s power loses all abilities until your next turn.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/251.png" num="56">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -4689,7 +4693,7 @@ Whenever you cast a green spell with mana value 5 or greater, draw a card.</text
 		<card>
 			<name>Shared Honor</name>
 			<text>If one or more +1/+1 counters would be put on a creature you control, put that many +1/+1 counters on each creature you control instead.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/255.png" num="37">HYD</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/255.png" num="36">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4734,7 +4738,7 @@ Whenever this creature attacks, dispute with the defending player. If you lost, 
 				<cmc>4</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>8/8</pt>
+				<pt>7/7</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -4757,8 +4761,8 @@ Whenever this creature attacks, dispute with the defending player. If you lost, 
 		<card>
 			<name>Lotusstrider</name>
 			<text>When this creature enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
-{W}{U}{B}{R}{G}: Until end of turn, up to two target creatures you control have base power and toughness 5/5 and gain trample.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/259.png" num="193">HYD</set>
+{W}{U}{B}{R}{G}: Until end of turn, up to two target creatures you control have base power and toughness 5/5 and gain trample. Activate only outside of combat.</text>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/259.png" num="193">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4776,7 +4780,7 @@ Whenever this creature attacks, dispute with the defending player. If you lost, 
 			<name>Skyward Sentry</name>
 			<text>Reach
 At the beginning of combat on your turn, untap each creature you control. Creatures untapped this way gain vigilance until end of turn.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/260.png" num="39">HYD</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/260.png" num="38">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4794,7 +4798,7 @@ At the beginning of combat on your turn, untap each creature you control. Creatu
 			<name>Vice&apos;s Consumption</name>
 			<text>Enchant artifact or creature
 As this Aura enters, choose a permanent you control.
-Enchanted permanent is a 5/5 colorless artifact creature in addition to its other types and has all activated and triggered abilities of the chosen permanent. (Even if that permanent leaves.)</text>
+Enchanted permanent is a 5/5 colorless artifact creature in addition to its other types and has all activated and triggered abilities of the chosen permanent. (Even if the other permanent leaves.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/261.png" num="82">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -4871,7 +4875,7 @@ Whenever enchanted creature attacks, put a +1/+1 counter on it, then double its 
 			<text>Lifelink
 If you control seven or more permanents, this creature enters the battlefield with two +1/+1 counters and a flying counter on it.
 Obelisk ({2}, Exile this card from your hand face down: Create a tapped Obelisk artifact token with &quot;{T}: Add {C}&quot; and &quot;{T}, Sacrifice this: Until end of turn, you may cast the exiled card.&quot; Activate only as a sorcery.)</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/265.png" num="22">HYD</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/265.png" num="21">HYD</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5218,7 +5222,7 @@ Whenever you gain life, put a +1/+1 counter on enchanted creature.</text>
 		<card>
 			<name>Borrowed Face</name>
 			<text>{2}{G}: Put a +1/+1 counter on target creature.
-{1}{U}: Target creature you control gains all activated and triggered abilities of target creature you control with a counter on it.</text>
+{1}{U}: Until end of turn, target creature you control gains all activated and triggered abilities of another target creature you control with a counter on it.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/HYD-files/img/285.png" num="231">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -5260,7 +5264,7 @@ As long as this artifact has five or more counters on it, it&apos;s a 5/5 Centau
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Artifact</type>
+				<type>Legendary Artifact</type>
 				<maintype>Artifact</maintype>
 				<manacost>2</manacost>
 				<cmc>2</cmc>

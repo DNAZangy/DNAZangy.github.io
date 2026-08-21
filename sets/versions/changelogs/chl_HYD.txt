@@ -1,4 +1,704 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Viscous Hydra added.
+Ghalmyr, Six-Fanged Fog added.
+
+Downpour Hydra removed.
+Ghalmyr, Nine-fanged Fog removed.
+
+Watchful Matron
+
+Monk of the Still Path
+
+Grovewarden of the Herd
+
+Votary of Prosperity
+
+Ruin Templeguard
+
+Waiting Weaver
+
+Painted Captain
+
+Basri's Faithful
+
+Calcified Hydra
+
+Highwood Guardian
+
+Justice on Many Hands
+
+Fetters of Light
+
+Words Before the Spear
+
+Beheading Stroke
+
+Drownwood Cutpurse
+
+Sanctuary Stargazer
+
+Screaming Watcher
+
+Coastal Wanderer
+rules_text: Whenever this creature attacks, choose another target creature. Until end of turn, that creature has base power and toughness 3/3. => Whenever this creature attacks, you may choose another target creature. Until end of turn, that creature has base power and toughness 3/3.
+pt: 1/6 => 1/4
+
+Sphinx of Endless Queries
+
+Wading Stiltbird
+
+Silt Lurker
+
+Lull to Stillness
+
+Scour the Blind Eternities
+rules_text: Look at the top [b][two][/b] cards of your library. Put one of them into your hand and the rest on the bottom of your library in a random order.
+Impose {X}{U}{U}{U} [i](You may cast this card from your graveyard for its impose cost, replacing all the numbers in brackets with X. Then exile it.)[/i] => Look at the top [b][two][/b] cards of your library. Put up to one on top of your library and the rest on the bottom in a random order.
+Draw a card.
+Impose {X}{U}{U}{U} [i](You may cast this card from your graveyard for its impose cost, replacing all the numbers in brackets with X. Then exile it.)[/i]
+
+Grow by Knowing
+
+Bound Within
+
+Misdirect the Advance
+
+Patient Ambush
+
+Mutiny of Flesh
+
+Imbibed Resolve
+rules_text: As an additional cost to cast this spell, you may remove two counters from permanents you control. If you do, copy it. You may choose new targets for the copy.
+Target creature you control gets +2/+0 and gains indestructible until end of turn. => As an additional cost to cast this spell, you may remove two counters from permanents you control.
+Target creature you control gets +2/+0 and gains indestructible until end of turn. If this spell's additional cost was paid, that creature also gains deathtouch and lifelink until end of turn.
+
+Seething Hunger
+
+Recall the Fallen
+
+An Offer in Blood
+
+Torn Asunder
+
+Wandering Mercy-Seller
+cost: {6}{B} => {7}{B}
+pt: 4/3 => 5/4
+
+Gatecrasher Hydra
+
+Deceiving Mockasaur
+
+Ribcage Marauder
+
+Deadhand Conjurer
+
+Stumbling Horror
+
+Faceless Screamer
+
+Hag of the Thresholds
+
+Disguisting Ratking
+
+Sanctuary Bloodletter
+
+Innerflame Adept
+rules_text: At the beginning of your end step, this creature becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i] => At the beginning of your end step, if this creature isn't prepared, it becomes prepared. [i](While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)[/i]
+
+Ashreach Blacksmith
+
+Crackling Cyclops
+
+Wildeyed Duneraider
+
+Unity's Victim
+
+Deepweaver Pathfinder
+
+Feeder of the Sacred Flame
+
+Ashreach Tyrant
+cost: {5}{R} => {4}{R}{R}
+
+Snapfeeder
+
+Feed the Beast
+cost: {2}{R} => {1}{R}{R}
+rules_text: As an additional cost to cast this spell, you may sacrifice an artifact or creature. If you do, copy this spell. You may choose new targets for the copy.
+This spell deals 3 damage to any target. => As an additional cost to cast this spell, you may sacrifice an artifact or creature. If you do, copy this spell. You may choose new targets for the copy.
+This spell deals 3 damage to target creature or planeswalker.
+
+Cut Down the Raider
+rules_text: Choose one —
+• Destroy up to one target artifact. Create a Treasure token.
+• Target creature can't block this turn. Another target creature gets +2/+1 and gains haste until end of turn. => Choose one —
+• Destroy up to one target artifact. Create a Treasure token.
+• Up to one target creature can't block this turn. Another target creature gets +2/+1 and gains haste until end of turn.
+
+Thunderous Charge
+
+Codex of Hunters
+rules_text: When Codex of Hunters enters or leaves, exile the top card of your library. You may play it until the end of your next turn.
+{2}, {T}, Sacrifice Codex of Hunters: Up to one target creature gets +1/+0 and gains haste until end of turn. => When Codex of Hunters enters or leaves, exile the top card of your library. You may play it until the end of your next turn.
+{2}, {T}, Sacrifice Codex of Hunters: Up to one target creature gets +1/+0 and gains haste until end of turn. Activate only as a sorcery.
+
+Incinerating Grasp
+
+River Hydra
+
+Bristlewatch Quiller
+
+Corvine Tender
+
+Elder of the Furrow
+
+Petition the Evergreen
+
+Carrion Gardener
+pt: 2/4 => 1/4
+
+Vigorous Clanguard
+
+Puffball Elder
+
+Sporepod Guardians
+
+Champion of the Hundredfold
+pt: 7/7 => 8/8
+
+Manawright Adept
+
+Pull the Threads Loose
+
+Pincer Attack
+
+Unchecked Blossom
+
+Bushwhack
+
+Prophetic Prism
+
+Molten Warforged
+
+Pilgrim's Font
+
+Faces in the Falls
+
+Monk of the Eclipse
+
+Highbough Outrider
+rules_text: When this creature enters, look at the top five cards of your library. You may reveal a creature card with power 2 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order. If you put a card into your hand this way, discard a card or sacrifice a creature. => When this creature enters, look at the top five cards of your library. You may reveal a creature card with power 2 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+pt: 2/2 => 2/1
+
+Longgrass Courser
+
+Officious Homunculus
+
+Baker of Sanctuary
+
+Arbiter of Equipoise
+
+Shepherd of the Expanse
+cost: {8}{W}{W} => {10}{W}{W}
+rules_text: This spell costs {2} less to cast for each tapped creature you control.
+At the beginning of your end step, if you control two or more tapped creatures, create a tapped 2/2 green Centaur creature token.
+Obelisk [i]({2}, Exile this card from your hand face down: Create a tapped Obelisk artifact token with “{T}: Add {C}” and “{T}, Sacrifice this: Until end of turn, you may cast the exiled card.” Activate only as a sorcery.)[/i] => This spell costs {2} less to cast for each tapped creature you control.
+At the beginning of your end step, if you control two or more other tapped creatures, create a tapped 2/2 green Centaur creature token.
+Obelisk [i]({2}, Exile this card from your hand face down: Create a tapped Obelisk artifact token with “{T}: Add {C}” and “{T}, Sacrifice this: Until end of turn, you may cast the exiled card.” Activate only as a sorcery.)[/i]
+
+Live in the Shadow of Gods
+
+Sanctuary Doorwarden
+rules_text: This creature enters with a +1/+1 counter on it.
+Whenever you attack, you may exile target creature card with mana value X or less from your graveyard, where X is the number of counters on attacking creatures you control. If you do, create a tapped token that's a copy of it with a finality counter on it. => This creature enters with a +1/+1 counter on it.
+Whenever you attack, you may exile target creature card with mana value X or less from your graveyard, where X is the number of counters on attacking creatures you control. If you do, create a tapped token that's a copy of it.
+
+Hudra Furneth's Answer
+
+Lone Candlebearer
+
+Overseeing Owl
+rules_text: Flying
+Whenever this creature attacks, choose up to one other target creature. Until end of turn, that creature has base power and toughness 4/4. => Flash
+Flying
+This creature enters tapped.
+When this creature enters, choose up to one other target creature. Until end of turn, that creature has base power and toughness 4/4 and gains hexproof.
+
+Twinheaded Keyholder
+
+Farwatch Diviner
+rules_text: At the beginning of combat on your turn, dispute with an opponent. If you win, creatures that player controls can't block this creature this turn. [i](Each disputing player draws a card, then discards a card. A player wins if their discarded card had an equal or greater mana value.)[/i]
+Whenever this creature deals combat damage to a player, draw a card. => At the beginning of combat on your turn, dispute with an opponent. When you win, tap up to two target creatures that player controls. [i](Each disputing player draws a card, then discards a card. A player wins if their discarded card had an equal or greater mana value.)[/i]
+Whenever this creature deals combat damage to a player, draw a card.
+
+Flooded Oracle
+
+Drowned Fisher
+
+Cliffhole Scavenger
+
+Hundredhanded Crawler
+
+Sentinel of the Ruins
+
+Weight of the Future
+
+Cast Out of Sanctuary
+
+Open the Great Beast
+
+Embrace of Grief
+
+Hungering Lash
+
+Drinking Mire
+
+Pick Clean
+
+Sap the Soul
+
+Collapse Inward
+
+Emaciated Devourer
+
+Verdict of the Heads
+
+Grafted Glutton
+
+Kindle Hunger
+rules_text: This enchantment enters with five hatch counters on it.
+At the beginning of your end step, remove a counter from this enchantment. If you remove the last or can't, sacrifice it. When you do, return target creature card from your graveyard to the battlefield. => This enchantment enters with five hatch counters on it.
+{1}{B}, Pay 2 life: Remove a hatch counter from this enchantment.
+At the beginning of your end step, remove a counter from this enchantment. If you remove the last or can't, sacrifice it. When you do, return target creature card from your graveyard to the battlefield.
+
+Scavenger of the Underground
+
+Ruthless Duneprowler
+
+Sanctuary Bladehand
+
+Lotus Forager
+
+Wrath of Furneth
+
+Cavemouth Hydra
+
+Culling Farmer
+
+Rootless Homeseeker
+
+Strike with the Sun
+
+Answer in Flame
+cost: {3}{R} => {4}{R}
+
+Seared with Knowledge
+
+Lotus Cultivator
+
+Cultivated Cartographer
+
+Hoarder of the Dead
+
+Tutor of Sanctuary
+pt: 1/1 => 1/2
+
+Grasping Oak
+
+Gadis of the Endless Bounty
+
+Rootless Wayfinder
+
+Decorated Guardian
+
+Fogmaw Behemoth
+
+Charnel Colossus
+
+Molting Hydra
+
+Lightweaver
+
+Reexamine
+
+Rootwrapped Bones
+rules_text: Whenever a player discards one or more cards during your turn, put that many +1/+1 counters on this creature.
+{2}{B}, Discard a card: This creature gains deathtouch and menace until end of turn. => Whenever a player discards one or more cards during your turn, put that many +1/+1 counters on this creature.
+{3}{B}, Discard a card: This creature gains deathtouch and menace until end of turn.
+
+A Newfound Perspective
+
+Awe of the Many
+
+Yssevar's Touch
+
+Patient Deepweaver
+
+Savagery
+
+Consume and Thrive
+
+Fourfold Counsel
+
+Soothing Lethemancer
+rules_text: When this creature enters, you draw a card and you lose 1 life.
+At the beginning of your upkeep, each player discards a card. => When this creature enters, each player draws a card and loses 1 life.
+At the beginning of your upkeep, each player discards a card.
+pt: 2/2 => 2/1
+
+Consuming Flames
+rules_text: Put a finality counter on any number of target creatures. This spell deals 1 damage to each creature and each planeswalker. => Put a finality counter on each creature and each planeswalker. This spell deals 1 damage to each creature and each planeswalker you don't control.
+
+Tend to the World
+
+Refine the Reflection
+
+Hudra Vesceth's Chosen
+
+Foresight's Reward
+cost: {1}{R} => {2}{R}
+rules_text: Whenever this enchantment enters or you cast a spell with mana value 4 or greater, exile the top card of your library. You may play that card until you exile another card with this enchantment. => Spells you cast from anywhere other than your hand cost {1} less to cast.
+Whenever this enchantment enters or you cast a spell with mana value 4 or greater, exile the top card of your library. You may play that card until you exile another card with this enchantment.
+
+Brinelurker
+
+Ovst's Unease
+
+Blind Burrower
+pt: 3/2 => 3/1
+
+Wrathful Grovekeeper
+
+The Herd as One
+
+Bogwading Grazer
+rules_text: Menace, lifelink
+When this creature enters, if you cast it return up to two target creature cards each with mana value 3 or less from your graveyard to the battlefield. => Menace, lifelink
+When this creature enters, if you cast it, return up to two target creature cards each with mana value 3 or less from your graveyard to the battlefield.
+
+Cull the Flow
+
+Molting Season
+rules_text: When this enchantment enters, mill four cards.
+At the beginning of your end step, return the nonenchantment permanent card in your graveyard with the lowest or tied for the lowest mana value to your hand. => When this enchantment enters, mill four cards.
+At the beginning of your upkeep, return the nonenchantment permanent card in your graveyard with the lowest or tied for the lowest mana value to your hand. If one or more cards have the lowest, return one of those at random.
+
+Burning Vanguard
+
+Shrine to the Everlasting
+
+Shrine to the Everwatching
+
+Shrine to the Everhungry
+
+Shrine to the Everburning
+
+Shrine to the Evergrowing
+
+Grafted Harness
+
+Fracture Point
+
+Basking Shoal
+
+Restless Scoutling
+
+Dealer of Masks
+
+Detaining Orb
+
+Tidecrest Hydra
+
+Gaunt Ravager
+
+Terror of the Emberwood
+
+Sixfold Idol
+
+Farwatch Reservoir
+
+Falselight Reservoir
+
+Ashreach Reservoir
+
+Emberwood Reservoir
+
+Grasping Reservoir
+
+Mistcovered Reservoir
+
+Clamshell Reservoir
+
+Crumbling Reservoir
+
+Highpass Reservoir
+
+Rally the Fenstride
+
+Sate the Infinite
+cost: {1}{U}{U} => {2}{U}{U}
+
+Skullnumbing Screech
+cost: {2}{B} => {1}{B}{B}
+
+Reach Beyond the Self
+
+Glean from Possibilities
+
+Longgrass Vanguard
+
+Clarity of the Unblinking
+
+Silenced Minds
+
+Resolute Shrineguard
+
+Hermit of the Evergreen
+rules_text: Exaptation [i](Whenever another creature you control enters or dies, if that creature's power is greater than this creature's, put a +1/+1 counter on this creature.)[/i]
+{T}, Remove X +1/+1 counters from this creature: You may put a creature card with mana value twice X or less from your hand onto the battlefield. Activate only as a sorcery. => Exaptation [i](Whenever another creature you control enters or dies, if that creature's power is greater than this creature's, put a +1/+1 counter on this creature.)[/i]
+At the beginning of combat on your turn, you may put a creature card with mana value twice this creature's power or less from your hand onto the battlefield.
+
+Sovereign of Carrion
+
+Sovereign of Echoes
+
+Rotspew Hydra
+
+Shipbreaker Hydra
+
+Snapping Hydra
+
+Concordant Dragon
+
+Tidewrought Hydra
+cost: {4}{U}{U} => {3}{U}{U}
+rules_text: Flash
+This creature enters the battlefield with three +1/+1 counters on it.
+Whenever this creature attacks, double the number of each kind of counter on any number of target permanents. => Flash
+This creature enters the battlefield with three +1/+1 counters on it.
+Whenever you cast a noncreature spell, double the number of counters on this creature.
+
+Horizon of Heads
+
+Apex of Ashreach
+
+Bloodied Avenger
+
+Force Between Spaces
+rules_text: For each player, exile target spell or permanent that player controls. For as long as those cards remain exiled, their owners may cast them for {2} rather than their mana costs. => For each player, exile target spell or nonland permanent that player controls. For as long as those cards remain exiled, their owners may cast them for {2} rather than their mana costs.
+
+Prowler of the Depths
+rules_text: This creature enters with X +1/+1 counters on it.
+Flying
+When this creature enters, dispute with an opponent for each counter on it. [i](Each disputing player draws a card, then discards a card. A player wins if their discarded card had an equal or greater mana value.)[/i]
+Whenever you win a dispute, each opponent loses 1 life and you gain 1 life. => This creature enters with X +1/+1 counters on it.
+Flying
+When this creature enters, dispute with an opponent for each counter on it. [i](Each disputing player draws a card, then discards a card. A player wins if their discarded card had an equal or greater mana value.)[/i]
+Whenever you win a dispute, each opponent loses 2 life and you gain 2 life.
+
+Blasphemous Amalgam
+rules_text: This creature enters with a +1/+1 counter on it.
+Whenever a creature dies, double the number of +1/+1 counters on this creature.
+{2}, Remove a counter from this creature: This creature gains indestructible until end of turn. Tap it. => This creature enters with a +1/+1 counter on it.
+Whenever a creature dies, put a +1/+1 counter on this creature.
+{2}, Remove a counter from this creature: This creature gains indestructible until end of turn. Tap it.
+
+Scourge of Sanctuary
+cost: {R}{G} => {1}{R}{G}
+rules_text: Flying
+This creature gets +1/+1 for each artifact you control.
+Cards in your hand have obelisk. The obelisk cost is equal to its mana cost. 
+Obelisk [i]({2}, Exile this card from your hand face down: Create a tapped Obelisk artifact token with “{T}: Add {C}” and “{T}, Sacrifice this: Until end of turn, you may cast the exiled card.” Activate only as a sorcery.)[/i] => Flying
+This creature gets +1/+1 for each artifact you control.
+Each nonland card in your hand have obelisk.
+Obelisk [i]({2}, Exile this card from your hand face down: Create a tapped Obelisk artifact token with “{T}: Add {C}” and “{T}, Sacrifice this: Until end of turn, you may cast the exiled card.” Activate only as a sorcery.)[/i]
+pt: 0/1 => 1/1
+
+Plumed Hydra
+
+Blessing of Above and Below
+
+Lurker in the Waves
+
+Ichorladen Scavenger
+rules_text: This creature's power is equal to the number of card types among cards in your graveyard.
+Whenever this creature deals combat damage to a player, mill five cards. Return any number of permanent cards milled this way with total mana value equal or less than the amount of damage dealt to your hand. => This creature's power is equal to the number of card types among cards in your graveyard.
+Whenever this creature deals combat damage to a player, mill five cards. Return up to two permanent cards milled this way with total mana value equal or less than the amount of damage dealt to your hand.
+pt: */5 => */4
+
+Rooted Vinereader
+
+Hudra Solveth, Undivided
+
+Hudra Vesceth, Unfed
+
+Hudra Furneth, Unstilled
+
+Hudra Cresveth, Unspent
+
+Rimepeak Hydra
+
+Hudra Miraneth, Unblinking
+
+Pelttaker
+
+Maev, Matriarch of the Deep
+
+Elissia, Alone
+rules_text: Flash
+When Elissia enters, you may activate her loyalty abilities X times.
+[+1]: Exile up to one other target permanent, then return it to the battlefield. You may tap it.
+[-2]: Create a 1/1 white Avatar creature token with flying. Put a number of +1/+1 counters on it equal to the number of other permanents that entered under your control this turn.
+[-8]: You get an emblem with “Whenever a permanent enters, draw a card. => Flash
+When Elissia enters, you may activate her loyalty abilities X times.
+[+1]: Exile up to one other target nonland permanent, then return it to the battlefield. You may tap it.
+[-2]: Create a 1/1 white Avatar creature token with flying. Put a number of +1/+1 counters on it equal to the number of other permanents that entered under your control this turn.
+[-8]: You get an emblem with “Whenever a permanent enters, draw a card.”
+special_text: Flash
+When Elissia enters, you may activate her loyalty abilities X times.
+[+1]: Exile up to one other target permanent, then return it to the battlefield. You may tap it.
+[-2]: Create a 1/1 white Avatar creature token with flying. Put a number of +1/+1 counters on it equal to the number of other permanents that entered under your control this turn.
+[-8]: You get an emblem with “Whenever a permanent enters, draw a card. => Flash
+When Elissia enters, you may activate her loyalty abilities X times.
+[+1]: Exile up to one other target nonland permanent, then return it to the battlefield. You may tap it.
+[-2]: Create a 1/1 white Avatar creature token with flying. Put a number of +1/+1 counters on it equal to the number of other permanents that entered under your control this turn.
+[-8]: You get an emblem with “Whenever a permanent enters, draw a card.”
+
+Ovst, Steward of Sanctuary
+
+Cael, Warden of Strays
+
+Alamazzar, Slayer of All
+
+Plaguemaw Hydra
+
+Crag Smasher
+
+Vice's Facsimile
+rules_text: You may have this artifact enter as a copy of any artifact on the battlefield, except its has its other abilities.
+{2}: This artifact becomes a copy of another target permanent you control, except it has this ability and is an artifact in addition to its other types. => You may have this artifact enter as a copy of any artifact on the battlefield, except it has its other abilities.
+{2}: This artifact becomes a copy of another target permanent you control, except it has this ability and is an artifact in addition to its other types.
+
+Engine of Bone and Sinew
+
+Ironwrought Hydra
+
+Hudra Solveth's Reliquary
+
+Drownwood Heron
+
+Knight of the Old Oath
+
+Insatiable Guardian
+
+Hudrain's Abundance
+
+Leyline Detonation
+
+Rooted Trailblazer
+
+Twinheaded Dragon
+
+Deepweaver Marksman
+
+Ashreach Hammerwright
+
+Evergreen Skywatcher
+rules_text: Flying
+Whenever you draw your second card each turn, put a +1/+1 counter on this creature.
+Whenever this creature attacks, up to one target nonland with mana value less than or equal to this creature's power loses all abilities until your next turn. => Flying
+Whenever you draw your second card each turn, put a +1/+1 counter on this creature.
+Whenever this creature attacks, up to one target nonland permanent with mana value less than or equal to this creature's power loses all abilities until your next turn.
+
+Yssevar's Grasp
+
+Knight of the Unbroken
+
+Warden of the Circle
+
+Apostate of Two Faces
+pt: 8/8 => 7/7
+
+Remake the Flesh
+
+Lotusstrider
+rules_text: When this creature enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+{W}{U}{B}{R}{G}: Until end of turn, up to two target creatures you control have base power and toughness 5/5 and gain trample. => When this creature enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+{W}{U}{B}{R}{G}: Until end of turn, up to two target creatures you control have base power and toughness 5/5 and gain trample. Activate only outside of combat.
+
+Skyward Sentry
+
+Vice's Consumption
+rules_text: Enchant artifact or creature
+As this Aura enters, choose a permanent you control.
+Enchanted permanent is a 5/5 colorless artifact creature in addition to its other types and has all activated and triggered abilities of the chosen permanent. [i](Even if that permanent leaves.)[/i] => Enchant artifact or creature
+As this Aura enters, choose a permanent you control.
+Enchanted permanent is a 5/5 colorless artifact creature in addition to its other types and has all activated and triggered abilities of the chosen permanent. [i](Even if the other permanent leaves.)[/i]
+
+Reveaing Amalgam
+
+Hundred-Handed Colossus
+
+Neverending Growth
+
+Kindled Aspirant
+
+Deepwater Archmage
+
+Confound and Decay
+
+Alamazzar's Contempt
+
+Sow Unease
+
+Elemental
+
+Hydra
+
+Demon
+
+Skeleton
+
+Soldier
+
+Obelisk
+
+Hyena
+
+Treasure
+
+Lizard Assassin
+
+Goblin
+
+Centaur
+
+Avatar
+
+Everywhere
+
+Verdant Repose
+
+Expedition Map
+
+Borrowed Face
+rules_text: {2}{G}: Put a +1/+1 counter on target creature.
+{1}{U}: Target creature you control gains all activated and triggered abilities of target creature you control with a counter on it. => {2}{G}: Put a +1/+1 counter on target creature.
+{1}{U}: Until end of turn, target creature you control gains all activated and triggered abilities of another target creature you control with a counter on it.
+
+Humbler of the Brash
+
+Sentinel of Highbough
+type: Artifact => Legendary Artifact
+
+Basri, Speaker of Oketra
+
+Wavecaller Pillager
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

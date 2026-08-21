@@ -25,7 +25,7 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Creature — Human Monk",
-			"collector_number": "29",
+			"collector_number": "28",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/2.png"
 			}
@@ -35,7 +35,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Centaur Cleric",
-			"collector_number": "14",
+			"collector_number": "13",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/3.png"
 			}
@@ -55,7 +55,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Bird Soldier",
-			"collector_number": "35",
+			"collector_number": "34",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/5.png"
 			}
@@ -75,7 +75,7 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Centaur Cleric",
-			"collector_number": "31",
+			"collector_number": "30",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/7.png"
 			}
@@ -105,7 +105,7 @@
 			"rarity": "common",
 			"mana_cost": "{4}{W}",
 			"type": "Creature — Angel",
-			"collector_number": "16",
+			"collector_number": "15",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/10.png"
 			}
@@ -115,7 +115,7 @@
 			"rarity": "common",
 			"mana_cost": "{5}{W}",
 			"type": "Creature — Angel",
-			"collector_number": "21",
+			"collector_number": "20",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/11.png"
 			}
@@ -125,7 +125,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment",
-			"collector_number": "12",
+			"collector_number": "11",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/12.png"
 			}
@@ -145,7 +145,7 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "11",
+			"collector_number": "10",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/14.png"
 			}
@@ -363,7 +363,7 @@
 		{
 			"name": "Wandering Mercy-Seller",
 			"rarity": "common",
-			"mana_cost": "{6}{B}",
+			"mana_cost": "{7}{B}",
 			"type": "Creature — Lizard Cleric",
 			"collector_number": "127",
 			"image_uris": {
@@ -533,7 +533,7 @@
 		{
 			"name": "Ashreach Tyrant",
 			"rarity": "common",
-			"mana_cost": "{5}{R}",
+			"mana_cost": "{4}{R}{R}",
 			"type": "Creature — Dinosaur Elemental",
 			"collector_number": "133",
 			"image_uris": {
@@ -553,7 +553,7 @@
 		{
 			"name": "Feed the Beast",
 			"rarity": "common",
-			"mana_cost": "{2}{R}",
+			"mana_cost": "{1}{R}{R}",
 			"type": "Sorcery",
 			"collector_number": "141",
 			"image_uris": {
@@ -805,7 +805,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Creature — Human Monk",
-			"collector_number": "28",
+			"collector_number": "27",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/80.png"
 			}
@@ -815,7 +815,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Centaur Scout",
-			"collector_number": "15",
+			"collector_number": "14",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/81.png"
 			}
@@ -825,7 +825,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Horse",
-			"collector_number": "26",
+			"collector_number": "25",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/82.png"
 			}
@@ -835,17 +835,17 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Homunculus",
-			"collector_number": "30",
+			"collector_number": "29",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/83.png"
 			}
 		},
 		{
-			"name": "Downpour Hydra",
+			"name": "Viscous Hydra",
 			"rarity": "uncommon",
 			"mana_cost": "{X}{W}",
 			"type": "Creature — Slug Dog Hydra",
-			"collector_number": "10",
+			"collector_number": "40",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/84.png"
 			}
@@ -873,9 +873,9 @@
 		{
 			"name": "Shepherd of the Expanse",
 			"rarity": "uncommon",
-			"mana_cost": "{8}{W}{W}",
+			"mana_cost": "{10}{W}{W}",
 			"type": "Creature — Giant Peasant",
-			"collector_number": "38",
+			"collector_number": "37",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/87.png"
 			}
@@ -885,7 +885,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "25",
+			"collector_number": "24",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/88.png"
 			}
@@ -895,7 +895,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Creature — Orc Soldier",
-			"collector_number": "36",
+			"collector_number": "35",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/89.png"
 			}
@@ -905,7 +905,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Sorcery",
-			"collector_number": "18",
+			"collector_number": "17",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/90.png"
 			}
@@ -1223,7 +1223,7 @@
 		{
 			"name": "Answer in Flame",
 			"rarity": "uncommon",
-			"mana_cost": "{3}{R}",
+			"mana_cost": "{4}{R}",
 			"type": "Instant",
 			"collector_number": "130",
 			"image_uris": {
@@ -1292,7 +1292,7 @@
 		},
 		{
 			"name": "Gadis of the Endless Bounty",
-			"rarity": "uncommon",
+			"rarity": "rare",
 			"mana_cost": "{3}{G}",
 			"type": "Legendary Creature — Azra Druid",
 			"collector_number": "185",
@@ -1355,7 +1355,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Human Cleric",
-			"collector_number": "24",
+			"collector_number": "23",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/135.png"
 			}
@@ -1405,7 +1405,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "33",
+			"collector_number": "32",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/140.png"
 			}
@@ -1455,7 +1455,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment",
-			"collector_number": "13",
+			"collector_number": "12",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/145.png"
 			}
@@ -1505,7 +1505,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "17",
+			"collector_number": "16",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/150.png"
 			}
@@ -1533,7 +1533,7 @@
 		{
 			"name": "Foresight's Reward",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{R}",
+			"mana_cost": "{2}{R}",
 			"type": "Enchantment",
 			"collector_number": "143",
 			"image_uris": {
@@ -1905,7 +1905,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "32",
+			"collector_number": "31",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/190.png"
 			}
@@ -1913,7 +1913,7 @@
 		{
 			"name": "Sate the Infinite",
 			"rarity": "rare",
-			"mana_cost": "{1}{U}{U}",
+			"mana_cost": "{2}{U}{U}",
 			"type": "Sorcery",
 			"collector_number": "72",
 			"image_uris": {
@@ -1923,7 +1923,7 @@
 		{
 			"name": "Skullnumbing Screech",
 			"rarity": "rare",
-			"mana_cost": "{2}{B}",
+			"mana_cost": "{1}{B}{B}",
 			"type": "Sorcery",
 			"collector_number": "122",
 			"image_uris": {
@@ -1955,7 +1955,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Centaur Soldier",
-			"collector_number": "27",
+			"collector_number": "26",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/195.png"
 			}
@@ -2005,7 +2005,7 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{W}{W}",
 			"type": "Creature — Cat Hydra",
-			"collector_number": "40",
+			"collector_number": "39",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/200.png"
 			}
@@ -2063,7 +2063,7 @@
 		{
 			"name": "Tidewrought Hydra",
 			"rarity": "mythic",
-			"mana_cost": "{4}{U}{U}",
+			"mana_cost": "{3}{U}{U}",
 			"type": "Creature — Hydra",
 			"collector_number": "80",
 			"image_uris": {
@@ -2133,7 +2133,7 @@
 		{
 			"name": "Scourge of Sanctuary",
 			"rarity": "rare",
-			"mana_cost": "{R}{G}",
+			"mana_cost": "{1}{R}{G}",
 			"type": "Creature — Dragon Hydra",
 			"collector_number": "220",
 			"image_uris": {
@@ -2205,7 +2205,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{W}{W}{W}",
 			"type": "Legendary Creature — God",
-			"collector_number": "19",
+			"collector_number": "18",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/220.png"
 			}
@@ -2255,7 +2255,7 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Creature — Hydra",
-			"collector_number": "34",
+			"collector_number": "33",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/225.png"
 			}
@@ -2271,7 +2271,7 @@
 			}
 		},
 		{
-			"name": "Ghalmyr, Nine-fanged Fog",
+			"name": "Ghalmyr, Six-Fanged Fog",
 			"rarity": "mythic",
 			"mana_cost": "{3}{B}{R}{G}",
 			"type": "Legendary Creature — Hydra Avatar",
@@ -2405,7 +2405,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Creature — Angel",
-			"collector_number": "20",
+			"collector_number": "19",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/240.png"
 			}
@@ -2455,7 +2455,7 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "23",
+			"collector_number": "22",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/245.png"
 			}
@@ -2555,7 +2555,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W}",
 			"type": "Enchantment",
-			"collector_number": "37",
+			"collector_number": "36",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/255.png"
 			}
@@ -2592,7 +2592,7 @@
 		},
 		{
 			"name": "Lotusstrider",
-			"rarity": "rare",
+			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Centaur Druid",
 			"collector_number": "193",
@@ -2605,7 +2605,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W}",
 			"type": "Creature — Orc Archer",
-			"collector_number": "39",
+			"collector_number": "38",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/260.png"
 			}
@@ -2655,7 +2655,7 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{W}",
 			"type": "Creature — Human Cleric",
-			"collector_number": "22",
+			"collector_number": "21",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/265.png"
 			}
@@ -2874,7 +2874,7 @@
 			"name": "Sentinel of Highbough",
 			"rarity": "mythic",
 			"mana_cost": "{2}",
-			"type": "Artifact",
+			"type": "Legendary Artifact",
 			"collector_number": "253",
 			"image_uris": {
 				"en": "https://DNAZangy.github.io/sets/HYD-files/img/287.png"
@@ -2963,6 +2963,7 @@
 	]
 
 [rare(1)]
+	2 Gadis of the Endless Bounty
 	2 Brinelurker
 	2 Rally the Fenstride
 	2 Sate the Infinite
@@ -3000,7 +3001,7 @@
 	1 Hudra Cresveth, Unspent
 	1 Rimepeak Hydra
 	1 Hudra Miraneth, Unblinking
-	1 Ghalmyr, Nine-fanged Fog
+	1 Ghalmyr, Six-Fanged Fog
 	1 Pelttaker
 	1 Maev, Matriarch of the Deep
 	1 Elissia, Alone
@@ -3032,7 +3033,6 @@
 	2 Alone and Aching
 	2 Apostate of Two Faces
 	2 Remake the Flesh
-	2 Lotusstrider
 	2 Skyward Sentry
 	2 Vice's Consumption
 	2 Reveaing Amalgam
@@ -3053,7 +3053,7 @@
 	4 Highbough Outrider
 	4 Longgrass Courser
 	4 Officious Homunculus
-	4 Downpour Hydra
+	4 Viscous Hydra
 	4 Baker of Sanctuary
 	4 Arbiter of Equipoise
 	4 Shepherd of the Expanse
@@ -3098,7 +3098,6 @@
 	4 Hoarder of the Dead
 	4 Tutor of Sanctuary
 	4 Grasping Oak
-	4 Gadis of the Endless Bounty
 	4 Rootless Wayfinder
 	4 Decorated Guardian
 	4 Fogmaw Behemoth
@@ -3149,6 +3148,7 @@
 	4 Terror of the Emberwood
 	4 Sixfold Idol
 	4 Force Between Spaces
+	4 Lotusstrider
 [common(6)]
 	8 Endless One
 	8 Watchful Matron
@@ -3418,7 +3418,7 @@
 	6 Highbough Outrider
 	6 Longgrass Courser
 	6 Officious Homunculus
-	6 Downpour Hydra
+	6 Viscous Hydra
 	6 Baker of Sanctuary
 	6 Arbiter of Equipoise
 	6 Shepherd of the Expanse
@@ -3463,7 +3463,7 @@
 	6 Hoarder of the Dead
 	6 Tutor of Sanctuary
 	6 Grasping Oak
-	6 Gadis of the Endless Bounty
+	2 Gadis of the Endless Bounty
 	6 Rootless Wayfinder
 	6 Decorated Guardian
 	6 Fogmaw Behemoth
@@ -3561,7 +3561,7 @@
 	1 Hudra Cresveth, Unspent
 	1 Rimepeak Hydra
 	1 Hudra Miraneth, Unblinking
-	1 Ghalmyr, Nine-fanged Fog
+	1 Ghalmyr, Six-Fanged Fog
 	1 Pelttaker
 	1 Maev, Matriarch of the Deep
 	1 Elissia, Alone
@@ -3593,7 +3593,7 @@
 	2 Alone and Aching
 	2 Apostate of Two Faces
 	2 Remake the Flesh
-	2 Lotusstrider
+	6 Lotusstrider
 	2 Skyward Sentry
 	2 Vice's Consumption
 	2 Reveaing Amalgam
@@ -3695,7 +3695,7 @@
 	15 Highbough Outrider
 	15 Longgrass Courser
 	15 Officious Homunculus
-	15 Downpour Hydra
+	15 Viscous Hydra
 	15 Baker of Sanctuary
 	15 Arbiter of Equipoise
 	15 Shepherd of the Expanse
@@ -3740,7 +3740,7 @@
 	15 Hoarder of the Dead
 	15 Tutor of Sanctuary
 	15 Grasping Oak
-	15 Gadis of the Endless Bounty
+	7 Gadis of the Endless Bounty
 	15 Rootless Wayfinder
 	15 Decorated Guardian
 	15 Fogmaw Behemoth
@@ -3838,7 +3838,7 @@
 	4 Hudra Cresveth, Unspent
 	4 Rimepeak Hydra
 	4 Hudra Miraneth, Unblinking
-	4 Ghalmyr, Nine-fanged Fog
+	4 Ghalmyr, Six-Fanged Fog
 	4 Pelttaker
 	4 Maev, Matriarch of the Deep
 	4 Elissia, Alone
@@ -3870,7 +3870,7 @@
 	7 Alone and Aching
 	7 Apostate of Two Faces
 	7 Remake the Flesh
-	7 Lotusstrider
+	15 Lotusstrider
 	7 Skyward Sentry
 	7 Vice's Consumption
 	7 Reveaing Amalgam
