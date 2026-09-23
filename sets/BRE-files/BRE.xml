@@ -5,7 +5,7 @@
 			<name>BRE</name>
 			<longname>Kaldheim: Bretagard&apos;s Revival</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-06-15</releasedate>
+			<releasedate>2026-09-22</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -32,9 +32,9 @@
 		<card>
 			<name>Ballad of the Uncut Thread</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Create a 1/1 white Spirit creature token. You gain 2 life.
+I — Create a 1/1 white Spirit creature token. You gain 2 life.
 Scry 3.
-Shuffle up to four cards from your graveyard into your library. If exactly four cards were shuffled in this way, draw a card.</text>
+II, III — Shuffle up to four cards from your graveyard into your library. If exactly four cards were shuffled in this way, draw a card.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/1.png" num="176">BRE</set>
 			<prop>
 				<layout>saga</layout>
@@ -108,8 +108,8 @@ III — Create a snow Treasure token.</text>
 		<card>
 			<name>Horns Against Scale</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Put two +1/+1 counters and a lifelink counter on target creature you control.
-Target creature you control deals damage to target creature or planeswalker you don&apos;t control equal to its power.
+I, II — Put two +1/+1 counters and a lifelink counter on target creature you control.
+III — Target creature you control deals damage to target creature or planeswalker you don&apos;t control equal to its power.
 ​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/5.png" num="195">BRE</set>
 			<prop>
@@ -146,7 +146,7 @@ III — Each player draws two cards.</text>
 		<card>
 			<name>Cinders that Carve Strength</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-You may cast a spell from your hand with mana value equal to or less than the number of lore counters on Cinders that Carve Strength.
+I, II, III, IV — You may cast a spell from your hand with mana value equal to or less than the number of lore counters on Cinders that Carve Strength.
 ​
 ​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/7.png" num="206">BRE</set>
@@ -165,8 +165,8 @@ You may cast a spell from your hand with mana value equal to or less than the nu
 		<card>
 			<name>Restoration of Jormund</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Create two 1/1 green Elf Warrior creature tokens.
-Target creature you control gets +X/+X until end of turn, where X is the number of Elves you control.
+I, II — Create two 1/1 green Elf Warrior creature tokens.
+III — Target creature you control gets +X/+X until end of turn, where X is the number of Elves you control.
 ​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/8.png" num="214">BRE</set>
 			<prop>
@@ -184,9 +184,9 @@ Target creature you control gets +X/+X until end of turn, where X is the number 
 		<card>
 			<name>A Tale of Gold and Flame</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Exile the top five cards of your library. You may play them as long as you control A Tale of Gold and Flame.
-Add {R}{W}. You can&apos;t use this mana to cast spells from your hand.
-You gain life equal to the number of cards exiled by A Tale of Gold and Flame.</text>
+I — Exile the top five cards of your library. You may play them as long as you control A Tale of Gold and Flame.
+II, III — Add {R}{W}. You can&apos;t use this mana to cast spells from your hand.
+IV — You gain life equal to the number of cards exiled by A Tale of Gold and Flame.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/9.png" num="217">BRE</set>
 			<prop>
 				<layout>saga</layout>
@@ -203,8 +203,8 @@ You gain life equal to the number of cards exiled by A Tale of Gold and Flame.</
 		<card>
 			<name>Traverse Kaldheim</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Mill four cards. You may return a snow card or a double-faced card milled this way to your hand. If you don&apos;t, you gain 2 life. 
-You may play an additional land this turn. Until end of turn, lands you control enter untapped.
+I, II — Mill four cards. You may return a snow card or a double-faced card milled this way to your hand. If you don&apos;t, you gain 2 life. 
+III — You may play an additional land this turn. Until end of turn, lands you control enter untapped.
 ​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/10.png" num="222">BRE</set>
 			<prop>
@@ -4620,8 +4620,8 @@ Orate — Whenever you cast a noncreature spell, you may pay {1}. If you do, cre
 		<card>
 			<name>Gift of the Frost-Crown</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Draw a card.
-You may shuffle your graveyard into your library. (But not this card.)
+I, II, III — Draw a card.
+IV — You may shuffle your graveyard into your library. (But not this card.)
 ​</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/228.png" num="49">BRE</set>
 			<prop>
@@ -4967,9 +4967,9 @@ Lands you control enter the battlefield untapped.</text>
 		<card>
 			<name>Lathril&apos;s Chant</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-Chose target creature you control. It fights target creature you don&apos;t control.
-Put a +1/+1 counter on the chosen creature. If you don&apos;t control it, create a 1/1 green Elf Warrior creature instead.
-Put an indestructible counter on the chosen creature. It becomes a God in addition to its other types.</text>
+I — Chose target creature you control. It fights target creature you don&apos;t control.
+II, III — Put a +1/+1 counter on the chosen creature. If you don&apos;t control it, create a 1/1 green Elf Warrior creature instead.
+IV — Put an indestructible counter on the chosen creature. It becomes a God in addition to its other types.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/BRE-files/img/247.png" num="161">BRE</set>
 			<prop>
 				<layout>saga</layout>
@@ -5822,10 +5822,10 @@ III — Exile up to one target creature you control, then return it to the battl
 		<card>
 			<name>Ode to Kin BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-I, II — &quot;Ingalvur walks where first steps fall,
+I, II, III — &quot;Ingalvur walks where first steps fall,
 Through newborn roads and untamed glen,
 And teaches wandering hearts to call.&quot;
-III — You gain 3 life.
+You gain 3 life.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/295.png" num="277">BRE</set>
 			<prop>
@@ -5892,10 +5892,10 @@ III — Create a 1/1 white Spirit creature token with flying.
 		<card>
 			<name>Ode to Visions BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-I, II — &quot;Vinrormr dreams in serpent sleep,
+I, II, III — &quot;Vinrormr dreams in serpent sleep,
 While stars dissolve in moss and rain,
 And secrets drown where old gods weep.&quot;
-III — Draw a card.
+Draw a card.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/298.png" num="281">BRE</set>
 			<prop>
@@ -5919,10 +5919,10 @@ III — Draw a card.
 		<card>
 			<name>Ode to Ashes BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-I, II — &quot;Bari kissed the dying flame,
+I, II, III — &quot;Bari kissed the dying flame,
 And held the lonely through the night,
 Till grief and longing spoke one name.&quot;
-III — Exile each opponent&apos;s graveyard.
+Exile each opponent&apos;s graveyard.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/299.png" num="282">BRE</set>
 			<prop>
@@ -6008,9 +6008,9 @@ III — Create a 6/6 black Demon creature token. You lose 6 life unless you sacr
 		<card>
 			<name>Ode to the Vessel BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-I — &quot;Split the soul, and twist the bone.
+I, II — &quot;Split the soul, and twist the bone.
 Let it walk, but not alone.&quot;
-II, III — Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can&apos;t, each opponent loses 1 life and you gain 1 life.
+III — Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can&apos;t, each opponent loses 1 life and you gain 1 life.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/303.png" num="287">BRE</set>
 			<prop>
@@ -6029,10 +6029,10 @@ II, III — Return a creature card named Oilbound Spawn from your graveyard to t
 		<card>
 			<name>Ode to Cunning BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-I, II — &quot;Knud walks grinning through the blaze,
+I, II, III — &quot;Knud walks grinning through the blaze,
 Where endings carve the road ahead,
 And clever fools survive the haze.&quot;
-III — You may discard up to two cards. If you do, draw that many cards.
+You may discard up to two cards. If you do, draw that many cards.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/304.png" num="288">BRE</set>
 			<prop>
@@ -6098,10 +6098,10 @@ III — Search your library for a land card, reveal it, put it into your hand, t
 		<card>
 			<name>Ode to Renewal BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-I, II — &quot;Koma coils beneath the stone,
+I, II, III — &quot;Koma coils beneath the stone,
 Through silent earth your heartbeat drums,
 Return, and claim the world your own.&quot;
-III — Create a 3/3 blue Serpent creature token named Koma&apos;s Coil.
+Create a 3/3 blue Serpent creature token named Koma&apos;s Coil.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/307.png" num="293">BRE</set>
 			<prop>
@@ -6251,10 +6251,10 @@ III — Create a 2/2 black Zombie Warrior creature token. Each opponent loses 2 
 		<card>
 			<name>Ode to Legacy BRE</name>
 			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
-I, II — &quot;The hall rang out with ancient praise,
+I, II, III — &quot;The hall rang out with ancient praise,
 From voices worn by death and cold,
 Repeating long forgotten days.&quot;
-III — Cast a card you own in exile with a story counter on it without paying its mana cost.
+Cast a card you own in exile with a story counter on it without paying its mana cost.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/BRE-files/img/314.png" num="280">BRE</set>
 			<prop>

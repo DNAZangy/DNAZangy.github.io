@@ -1,4 +1,121 @@
-﻿VERSION 12 CHANGELOG
+﻿VERSION 13 CHANGELOG
+====================
+
+Conquering Sands added.
+Evade to Strike added.
+Recall Time added.
+
+Shifting Sands removed.
+Pass the Torch removed.
+Time in a Bottle removed.
+
+Kepthalla Vanguard
+rules_text: Flying, vigilance
+When Kepthalla Vanguard enters, you may have another target creature you control traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Flying, vigilance
+When Kepthalla Vanguard enters, you may have another target creature you control departs. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Rock Hopper
+rules_text: Haste
+Whenever Rock Hopper attacks, you may have it traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+Rock Hopper gets +2/+2 if it entered from exile this turn. => Haste
+Whenever Rock Hopper attacks, you may have it depart. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+Rock Hopper gets +2/+2 if it entered from exile this turn.
+
+Xer'Sai Dunebreaker
+rules_text: When Xer'Sai Dunebreaker enters, you may have another target creature you control traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+Whenever a creature you control enters during combat, it gets +1/+0 until end of turn. => When Xer'Sai Dunebreaker enters, you may have another target creature you control departs. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+Whenever a creature you control enters during combat, it gets +1/+0 until end of turn.
+
+Burst from Below
+rules_text: Choose one —
+• Target creature you control gets +2/+2 until end of turn.
+• Target creature you control traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Choose one —
+• Target creature you control gets +2/+2 until end of turn.
+• Target creature you control departs. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Devoted Council
+rules_text: Lifelink
+Whenever a creature you control enters tapped, untap it.
+At the beginning of your end step, you may have target creature you control traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i] => Lifelink
+Whenever a creature you control enters tapped, untap it.
+At the beginning of your end step, you may have target creature you control depart. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Dune Surfer
+rules_text: Prowess, haste
+At the beginning of your end step, you may have Dune Surfer traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i] => Prowess, haste
+At the beginning of your end step, you may have Dune Surfer depart. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Bloodthirsty Marauder
+rules_text: During your turn, Bloodthirsty Marauder has first strike.
+When Bloodthirsty Marauder enters, if it was cast, exile cards from the top of your library until you exile a creature card with mana value 2 or less. Put it onto the battlefield, then it traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => During your turn, Bloodthirsty Marauder has first strike.
+When Bloodthirsty Marauder enters, if it was cast, exile cards from the top of your library until you exile a creature card with mana value 2 or less. Put it onto the battlefield, then it departs. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Amakra Refugee
+rules_text: Whenever Amakra Refugee becomes the target of a spell or ability, it traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Whenever Amakra Refugee becomes the target of a spell or ability, it departs. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Narrow Evasion
+rules_text: Any number of target attacking nontoken creatures traverse. [i](Exile them until its owner's next combat phase. They may have any number of them enter tapped and attacking.)[/i] => Any number of target attacking nontoken creatures departs. [i](Exile them until its owner's next declare attackers step. They may have any number of them enter tapped and attacking.)[/i]
+
+Wandering Yordle
+rules_text: Haste
+Whenever Wandering Yordle attacks, up to one target nontoken creature you don't control traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Haste
+Whenever Wandering Yordle attacks, up to one target nontoken creature you don't control departs. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Grumpy Rockbear
+rules_text: Trample, ward {2}
+If Grumpy Rockbear or another creature you control would enter the battlefield, you may have it traverse instead. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i] => Trample, ward {2}
+If Grumpy Rockbear or another creature you control would enter the battlefield, you may have it depart instead. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Into the Rift
+type: Sorcery => Enchantment — Saga
+
+Butcher's Faithful
+rules_text: Counters remain on creatures you control as they move to exile or the battlefield.
+Whenever a creature you control deals combat damage to a player or planeswalker, you may have it traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i] => Counters remain on creatures you control as they move to exile or the battlefield.
+Whenever a creature you control deals combat damage to a player or planeswalker, you may have it depart. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Kassadin, the Void Walker
+rules_text: Flash
+When Kassadin enters, surveil 3.
+{R}: Kassadin gains first strike until end of turn.
+{1}{U}: Kassadin traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Flash
+When Kassadin enters, surveil 3.
+{R}: Kassadin gains first strike until end of turn.
+{1}{U}: Kassadin departs. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Kai'Sa, Who Came Back
+rules_text: Flash
+Flying
+When Kai'Sa enters or whenever you cast a noncreature spell, up to one target creature you control traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Flash
+Flying
+When Kai'Sa enters or whenever you cast a noncreature spell, up to one target creature you control departs. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Plunge into the Unknown
+rules_text: Creatures you control that have entered this turn get +2/+0.
+At the beginning of your end step, up to one target target creature you control traverses. [i](Exile it until its owner's next combat phase. They may have it enter tapped and attacking.)[/i] => Creatures you control that have entered this turn get +2/+0.
+At the beginning of your end step, up to one target target creature you control departs. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Rek'Sai, the Terror Beneath
+rules_text: Creatures you control that have entered this turn get +1/+1 and have ward {3}.
+At the beginning of your end step, you may have Rek'Sai traverse. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i] => Creatures you control that have entered this turn get +1/+1 and have ward {3}.
+At the beginning of your end step, you may have Rek'Sai depart. [i](Exile it until its owner's next declare attackers step. They may have it enter tapped and attacking.)[/i]
+
+Abandoned Chronarium
+rules_text: {T}: Add {C}.
+{1}, {T}: Add one mana of any color.
+{3}, Pay 1 life, {T}: Create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn.”)[/i] => {T}: Add {C}.
+{1}, {T}: Add one mana of any color.
+{3}, {T}, Pay 1 life: Create a Clockling token. [i](It's a 1/1 Construct artifact creature with “{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn.”)[/i]
+
+Tower Removed From Time
+rules_text: Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+{T}: Add {C}.
+{W}{U}, {T}: Exile target permanent you control, then return to the battlefield. Activate only if you have the city's blessing and only during your turn. => Ascend [i](If you control ten or more permanents, you get the city's blessing for the rest of the game.)[/i]
+{T}: Add {C}.
+{W}{U}, {T}: Exile target permanent you control, then return it to the battlefield. Activate only if you have the city's blessing and only during your turn.
+
+
+VERSION 12 CHANGELOG
 ====================
 
 

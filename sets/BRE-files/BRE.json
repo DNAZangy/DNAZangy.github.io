@@ -36,10 +36,10 @@
             "number": 176,
             "color_identity": "WU",
             "cost": "{W}{U}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nCreate a 1/1 white Spirit creature token. You gain 2 life.\nScry 3.\nShuffle up to four cards from your graveyard into your library. If exactly four cards were shuffled in this way, draw a card.",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Create a 1/1 white Spirit creature token. You gain 2 life.\nScry 3.\nII, III \u2014 Shuffle up to four cards from your graveyard into your library. If exactly four cards were shuffled in this way, draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nCreate a 1/1 white Spirit creature token. You gain 2 life.\nScry 3.\nShuffle up to four cards from your graveyard into your library. If exactly four cards were shuffled in this way, draw a card.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Create a 1/1 white Spirit creature token. You gain 2 life.\nScry 3.\nII, III \u2014 Shuffle up to four cards from your graveyard into your library. If exactly four cards were shuffled in this way, draw a card.",
             "shape": "saga",
             "set": "BRE",
             "loyalty": "",
@@ -120,10 +120,10 @@
             "number": 195,
             "color_identity": "WG",
             "cost": "{2}{G}{W}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nPut two +1/+1 counters and a lifelink counter on target creature you control.\nTarget creature you control deals damage to target creature or planeswalker you don't control equal to its power.\n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 Put two +1/+1 counters and a lifelink counter on target creature you control.\nIII \u2014 Target creature you control deals damage to target creature or planeswalker you don't control equal to its power.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nPut two +1/+1 counters and a lifelink counter on target creature you control.\nTarget creature you control deals damage to target creature or planeswalker you don't control equal to its power.\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 Put two +1/+1 counters and a lifelink counter on target creature you control.\nIII \u2014 Target creature you control deals damage to target creature or planeswalker you don't control equal to its power.\n\u200b",
             "shape": "saga",
             "set": "BRE",
             "loyalty": "",
@@ -162,10 +162,10 @@
             "number": 206,
             "color_identity": "UR",
             "cost": "{U}{R}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nYou may cast a spell from your hand with mana value equal to or less than the number of lore counters on Cinders that Carve Strength.\n\u200b\n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III, IV \u2014 You may cast a spell from your hand with mana value equal to or less than the number of lore counters on Cinders that Carve Strength.\n\u200b\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nYou may cast a spell from your hand with mana value equal to or less than the number of lore counters on Cinders that Carve Strength.\n\u200b\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III, IV \u2014 You may cast a spell from your hand with mana value equal to or less than the number of lore counters on Cinders that Carve Strength.\n\u200b\n\u200b",
             "shape": "saga",
             "set": "BRE",
             "loyalty": "",
@@ -183,10 +183,10 @@
             "number": 214,
             "color_identity": "BG",
             "cost": "{2}{B}{G}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nCreate two 1/1 green Elf Warrior creature tokens.\nTarget creature you control gets +X/+X until end of turn, where X is the number of Elves you control.\n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 Create two 1/1 green Elf Warrior creature tokens.\nIII \u2014 Target creature you control gets +X/+X until end of turn, where X is the number of Elves you control.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nCreate two 1/1 green Elf Warrior creature tokens.\nTarget creature you control gets +X/+X until end of turn, where X is the number of Elves you control.\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 Create two 1/1 green Elf Warrior creature tokens.\nIII \u2014 Target creature you control gets +X/+X until end of turn, where X is the number of Elves you control.\n\u200b",
             "shape": "saga",
             "set": "BRE",
             "loyalty": "",
@@ -204,10 +204,10 @@
             "number": 217,
             "color_identity": "WR",
             "cost": "{2}{R}{W}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nExile the top five cards of your library. You may play them as long as you control A Tale of Gold and Flame.\nAdd {R}{W}. You can't use this mana to cast spells from your hand.\nYou gain life equal to the number of cards exiled by A Tale of Gold and Flame.",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Exile the top five cards of your library. You may play them as long as you control A Tale of Gold and Flame.\nII, III \u2014 Add {R}{W}. You can't use this mana to cast spells from your hand.\nIV \u2014 You gain life equal to the number of cards exiled by A Tale of Gold and Flame.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nExile the top five cards of your library. You may play them as long as you control A Tale of Gold and Flame.\nAdd {R}{W}. You can't use this mana to cast spells from your hand.\nYou gain life equal to the number of cards exiled by A Tale of Gold and Flame.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Exile the top five cards of your library. You may play them as long as you control A Tale of Gold and Flame.\nII, III \u2014 Add {R}{W}. You can't use this mana to cast spells from your hand.\nIV \u2014 You gain life equal to the number of cards exiled by A Tale of Gold and Flame.",
             "shape": "saga",
             "set": "BRE",
             "loyalty": "",
@@ -225,10 +225,10 @@
             "number": 222,
             "color_identity": "UG",
             "cost": "{1}{G}{U}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nMill four cards. You may return a snow card or a double-faced card milled this way to your hand. If you don't, you gain 2 life. \nYou may play an additional land this turn. Until end of turn, lands you control enter untapped.\n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 Mill four cards. You may return a snow card or a double-faced card milled this way to your hand. If you don't, you gain 2 life. \nIII \u2014 You may play an additional land this turn. Until end of turn, lands you control enter untapped.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nMill four cards. You may return a snow card or a double-faced card milled this way to your hand. If you don't, you gain 2 life. \nYou may play an additional land this turn. Until end of turn, lands you control enter untapped.\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 Mill four cards. You may return a snow card or a double-faced card milled this way to your hand. If you don't, you gain 2 life. \nIII \u2014 You may play an additional land this turn. Until end of turn, lands you control enter untapped.\n\u200b",
             "shape": "saga",
             "set": "BRE",
             "loyalty": "",
@@ -434,7 +434,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!tag Vragi"
         },
         {
             "card_name": "Stormseer Augur",
@@ -929,7 +929,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!tag Vragi"
         },
         {
             "card_name": "Oathbreaker's Pike",
@@ -1649,7 +1649,7 @@
             "alias": "",
             "position": "63",
             "rotated": false,
-            "notes": "\n!addtoken Ode to the Vessel;1"
+            "notes": "!addtoken Ode to the Vessel;1"
         },
         {
             "card_name": "Cliffthrower",
@@ -2006,7 +2006,7 @@
             "alias": "",
             "position": "80",
             "rotated": false,
-            "notes": ""
+            "notes": "!tag Vragi"
         },
         {
             "card_name": "Ciar, Engineer of Ruin",
@@ -5103,10 +5103,10 @@
             "number": 49,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nDraw a card.\nYou may shuffle your graveyard into your library. [i](But not this card.)[/i]\n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 Draw a card.\nIV \u2014 You may shuffle your graveyard into your library. [i](But not this card.)[/i]\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nDraw a card.\nYou may shuffle your graveyard into your library. [i](But not this card.)[/i]\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 Draw a card.\nIV \u2014 You may shuffle your graveyard into your library. [i](But not this card.)[/i]\n\u200b",
             "shape": "saga",
             "set": "BRE",
             "loyalty": "",
@@ -5502,10 +5502,10 @@
             "number": 161,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nChose target creature you control. It fights target creature you don't control.\nPut a +1/+1 counter on the chosen creature. If you don't control it, create a 1/1 green Elf Warrior creature instead.\nPut an indestructible counter on the chosen creature. It becomes a God in addition to its other types.",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Chose target creature you control. It fights target creature you don't control.\nII, III \u2014 Put a +1/+1 counter on the chosen creature. If you don't control it, create a 1/1 green Elf Warrior creature instead.\nIV \u2014 Put an indestructible counter on the chosen creature. It becomes a God in addition to its other types.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nChose target creature you control. It fights target creature you don't control.\nPut a +1/+1 counter on the chosen creature. If you don't control it, create a 1/1 green Elf Warrior creature instead.\nPut an indestructible counter on the chosen creature. It becomes a God in addition to its other types.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Chose target creature you control. It fights target creature you don't control.\nII, III \u2014 Put a +1/+1 counter on the chosen creature. If you don't control it, create a 1/1 green Elf Warrior creature instead.\nIV \u2014 Put an indestructible counter on the chosen creature. It becomes a God in addition to its other types.",
             "shape": "saga",
             "set": "BRE",
             "loyalty": "",
@@ -6510,10 +6510,10 @@
             "number": 277,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 \u201c[i]Ingalvur walks where first steps fall,\nThrough newborn roads and untamed glen,\nAnd teaches wandering hearts to call.\u201d[/i]\nIII \u2014 You gain 3 life.\n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 \u201c[i]Ingalvur walks where first steps fall,\nThrough newborn roads and untamed glen,\nAnd teaches wandering hearts to call.\u201d[/i]\nYou gain 3 life.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 \u201c[i]Ingalvur walks where first steps fall,\nThrough newborn roads and untamed glen,\nAnd teaches wandering hearts to call.\u201d[/i]\nIII \u2014 You gain 3 life.\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 \u201c[i]Ingalvur walks where first steps fall,\nThrough newborn roads and untamed glen,\nAnd teaches wandering hearts to call.\u201d[/i]\nYou gain 3 life.\n\u200b",
             "shape": "token",
             "set": "BRE",
             "loyalty": "",
@@ -6521,7 +6521,7 @@
             "alias": "",
             "position": "295",
             "rotated": false,
-            "notes": "!tag Kaldheim\n!tokentag Ode to Kin\n!token\n!tag Ingalvur\nOrate Token\n!related Speaker of Bretagard\n!related Storysmith of the Hearth\n\n"
+            "notes": "!tag Kaldheim\n!tokentag Ode to Kin\n!token\n!tag Ingalvur\nOrate Token\n!related Speaker of Bretagard\n!related Storysmith of the Hearth"
         },
         {
             "card_name": "Ode to Returns",
@@ -6542,7 +6542,7 @@
             "alias": "",
             "position": "296",
             "rotated": false,
-            "notes": "!token\n!tokentag Ode to Returns\nOrate Token\n!related Reciter of Tales\n\n"
+            "notes": "!token\n!tokentag Ode to Returns\nOrate Token\n!related Reciter of Tales"
         },
         {
             "card_name": "Ode to the Departed",
@@ -6563,7 +6563,7 @@
             "alias": "",
             "position": "297",
             "rotated": false,
-            "notes": "!tag Kaldheim\n!tokentag Ode to the Departed\n!related Whispering Tempters\n!related Weaver of False Tales\n!related Scornsong Reaper\n!related Labors Without End\n!token\nOrate Token\n\n"
+            "notes": "!tag Kaldheim\n!tokentag Ode to the Departed\n!related Whispering Tempters\n!related Weaver of False Tales\n!related Scornsong Reaper\n!related Labors Without End\n!token\nOrate Token"
         },
         {
             "card_name": "Ode to Visions",
@@ -6573,10 +6573,10 @@
             "number": 281,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 \u201c[i]Vinrormr dreams in serpent sleep,\nWhile stars dissolve in moss and rain,\nAnd secrets drown where old gods weep.\u201d[/i]\nIII \u2014 Draw a card.\n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 \u201c[i]Vinrormr dreams in serpent sleep,\nWhile stars dissolve in moss and rain,\nAnd secrets drown where old gods weep.\u201d[/i]\nDraw a card.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 \u201c[i]Vinrormr dreams in serpent sleep,\nWhile stars dissolve in moss and rain,\nAnd secrets drown where old gods weep.\u201d[/i]\nIII \u2014 Draw a card.\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 \u201c[i]Vinrormr dreams in serpent sleep,\nWhile stars dissolve in moss and rain,\nAnd secrets drown where old gods weep.\u201d[/i]\nDraw a card.\n\u200b",
             "shape": "token",
             "set": "BRE",
             "loyalty": "",
@@ -6594,10 +6594,10 @@
             "number": 282,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 [i]\u201cBari kissed the dying flame,\nAnd held the lonely through the night,\nTill grief and longing spoke one name.\u201d[/i]\nIII \u2014 Exile each opponent's graveyard.\n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 [i]\u201cBari kissed the dying flame,\nAnd held the lonely through the night,\nTill grief and longing spoke one name.\u201d[/i]\nExile each opponent's graveyard.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 [i]\u201cBari kissed the dying flame,\nAnd held the lonely through the night,\nTill grief and longing spoke one name.\u201d[/i]\nIII \u2014 Exile each opponent's graveyard.\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 [i]\u201cBari kissed the dying flame,\nAnd held the lonely through the night,\nTill grief and longing spoke one name.\u201d[/i]\nExile each opponent's graveyard.\n\u200b",
             "shape": "token",
             "set": "BRE",
             "loyalty": "",
@@ -6605,7 +6605,7 @@
             "alias": "",
             "position": "299",
             "rotated": false,
-            "notes": "!token\n!tokentag Ode to Ashes\n!related Omen of Fright\n!related Laid Among the Roots\n\nOrate Token\n"
+            "notes": "!token\n!tokentag Ode to Ashes\n!related Omen of Fright\n!related Laid Among the Roots\n\nOrate Token"
         },
         {
             "card_name": "Ode to Binding",
@@ -6626,7 +6626,7 @@
             "alias": "",
             "position": "300",
             "rotated": false,
-            "notes": "!token\n!tokentag Ode to Binding\n!related Festering Rebirth\n!tag Vragi\nOrate Token\n"
+            "notes": "!token\n!tokentag Ode to Binding\n!related Festering Rebirth\n!tag Vragi\nOrate Token"
         },
         {
             "card_name": "Ode to Dread",
@@ -6647,7 +6647,7 @@
             "alias": "",
             "position": "301",
             "rotated": false,
-            "notes": "!token\n!tokentag Ode to Dread\n!related Jormund Adjudicator\n\nOrate Token\n\n"
+            "notes": "!token\n!tokentag Ode to Dread\n!related Jormund Adjudicator\n\nOrate Token"
         },
         {
             "card_name": "Ode to Folly",
@@ -6668,7 +6668,7 @@
             "alias": "",
             "position": "302",
             "rotated": false,
-            "notes": "!token\n!tokentag Ode to Folly\n!related Selfcrowned Skald\nOrate Token\n\n"
+            "notes": "!token\n!tokentag Ode to Folly\n!related Selfcrowned Skald\nOrate Token"
         },
         {
             "card_name": "Ode to the Vessel",
@@ -6678,10 +6678,10 @@
             "number": 287,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 \u201c[i]Split the soul, and twist the bone.\nLet it walk, but not alone.\u201d[/i]\nII, III \u2014 Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can't, each opponent loses 1 life and you gain 1 life.\n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 \u201c[i]Split the soul, and twist the bone.\nLet it walk, but not alone.\u201d[/i]\nIII \u2014 Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can't, each opponent loses 1 life and you gain 1 life.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 \u201c[i]Split the soul, and twist the bone.\nLet it walk, but not alone.\u201d[/i]\nII, III \u2014 Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can't, each opponent loses 1 life and you gain 1 life.\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 \u201c[i]Split the soul, and twist the bone.\nLet it walk, but not alone.\u201d[/i]\nIII \u2014 Return a creature card named Oilbound Spawn from your graveyard to the battlefield. If you can't, each opponent loses 1 life and you gain 1 life.\n\u200b",
             "shape": "token",
             "set": "BRE",
             "loyalty": "",
@@ -6689,7 +6689,7 @@
             "alias": "",
             "position": "303",
             "rotated": false,
-            "notes": "!token\n!tokentag Ode to the Vessel\n!related Oilbound Spawn\nOrate Token\n!tag Ciar\n\n"
+            "notes": "!token\n!tokentag Ode to the Vessel\n!related Oilbound Spawn\nOrate Token\n!tag Ciar"
         },
         {
             "card_name": "Ode to Cunning",
@@ -6699,10 +6699,10 @@
             "number": 288,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 \u201c[i]Knud walks grinning through the blaze,\nWhere endings carve the road ahead,\nAnd clever fools survive the haze.\u201d[/i]\nIII \u2014 You may discard up to two cards. If you do, draw that many cards.\n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 \u201c[i]Knud walks grinning through the blaze,\nWhere endings carve the road ahead,\nAnd clever fools survive the haze.\u201d[/i]\nYou may discard up to two cards. If you do, draw that many cards.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 \u201c[i]Knud walks grinning through the blaze,\nWhere endings carve the road ahead,\nAnd clever fools survive the haze.\u201d[/i]\nIII \u2014 You may discard up to two cards. If you do, draw that many cards.\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 \u201c[i]Knud walks grinning through the blaze,\nWhere endings carve the road ahead,\nAnd clever fools survive the haze.\u201d[/i]\nYou may discard up to two cards. If you do, draw that many cards.\n\u200b",
             "shape": "token",
             "set": "BRE",
             "loyalty": "",
@@ -6710,7 +6710,7 @@
             "alias": "",
             "position": "304",
             "rotated": false,
-            "notes": "!token\n!tokentag Ode to Cunning\n!related Bannerless Raider\n!related Aldegar, Searching for Stars\n!related Overbearing Lightning\n!related Torn Between Duties\n\nOrate Token\n\n"
+            "notes": "!token\n!tokentag Ode to Cunning\n!related Bannerless Raider\n!related Aldegar, Searching for Stars\n!related Overbearing Lightning\n!related Torn Between Duties\n\nOrate Token"
         },
         {
             "card_name": "Ode to the Storm",
@@ -6731,7 +6731,7 @@
             "alias": "",
             "position": "305",
             "rotated": false,
-            "notes": "!token\n!tokentag Ode to the Storm\n!related Firesong Braggart\nOrate Token\n"
+            "notes": "!token\n!tokentag Ode to the Storm\n!related Firesong Braggart\nOrate Token"
         },
         {
             "card_name": "Ode to Exploration",
@@ -6752,7 +6752,7 @@
             "alias": "",
             "position": "306",
             "rotated": false,
-            "notes": "!token\n!tokentag Ode to Exploration\n!related Feltmark Violinist\nOrate Token\n"
+            "notes": "!token\n!tokentag Ode to Exploration\n!related Feltmark Violinist\nOrate Token"
         },
         {
             "card_name": "Ode to Renewal",
@@ -6762,10 +6762,10 @@
             "number": 293,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 [i]\u201cKoma coils beneath the stone,\nThrough silent earth your heartbeat drums,\nReturn, and claim the world your own.\u201d[/i]\nIII \u2014 Create a 3/3 blue Serpent creature token named Koma's Coil.\n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 [i]\u201cKoma coils beneath the stone,\nThrough silent earth your heartbeat drums,\nReturn, and claim the world your own.\u201d[/i]\nCreate a 3/3 blue Serpent creature token named Koma's Coil.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 [i]\u201cKoma coils beneath the stone,\nThrough silent earth your heartbeat drums,\nReturn, and claim the world your own.\u201d[/i]\nIII \u2014 Create a 3/3 blue Serpent creature token named Koma's Coil.\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 [i]\u201cKoma coils beneath the stone,\nThrough silent earth your heartbeat drums,\nReturn, and claim the world your own.\u201d[/i]\nCreate a 3/3 blue Serpent creature token named Koma's Coil.\n\u200b",
             "shape": "token",
             "set": "BRE",
             "loyalty": "",
@@ -6773,7 +6773,7 @@
             "alias": "",
             "position": "307",
             "rotated": false,
-            "notes": "!token\n!tokentag Ode to Renewal\n!tag Koma\n!related Coilseeker\n!related Sagaweaver of Koma\n\nOrate Token\n"
+            "notes": "!token\n!tokentag Ode to Renewal\n!tag Koma\n!related Coilseeker\n!related Sagaweaver of Koma\n\nOrate Token"
         },
         {
             "card_name": "Ode to the Clans",
@@ -6794,7 +6794,7 @@
             "alias": "",
             "position": "308",
             "rotated": false,
-            "notes": "!token\n!tokentag Ode to the Clans\n!tag Kaldheim\n!tag Bretagard\n!related Beskir Lawspeaker\n!related Glorychanter\n!related Maja, Bretagard's Heart\nOrate Token\n\n"
+            "notes": "!token\n!tokentag Ode to the Clans\n!tag Kaldheim\n!tag Bretagard\n!related Beskir Lawspeaker\n!related Glorychanter\n!related Maja, Bretagard's Heart\nOrate Token"
         },
         {
             "card_name": "Ode to Valor",
@@ -6815,7 +6815,7 @@
             "alias": "",
             "position": "309",
             "rotated": false,
-            "notes": "!token\n!tokentag Ode to Valor\n!related Whisperer to the Realmeater\nOrate Token\n\nLathril Quote\n\n"
+            "notes": "!token\n!tokentag Ode to Valor\n!related Whisperer to the Realmeater\nOrate Token\n\nLathril Quote"
         },
         {
             "card_name": "Harald, Speaker for Koma",
@@ -6899,7 +6899,7 @@
             "alias": "",
             "position": "313",
             "rotated": false,
-            "notes": "!token\n!tokentag Ode to Obedience\n!related Jarl of the Empty House\n!tag Vragi\nOrate Token\n\n"
+            "notes": "!token\n!tokentag Ode to Obedience\n!related Jarl of the Empty House\n!tag Vragi\nOrate Token"
         },
         {
             "card_name": "Ode to Legacy",
@@ -6909,10 +6909,10 @@
             "number": 280,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 [i]\u201cThe hall rang out with ancient praise,\nFrom voices worn by death and cold,\nRepeating long forgotten days.\u201d[/i]\nIII \u2014 Cast a card you own in exile with a story counter on it without paying its mana cost.\n\u200b",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 [i]\u201cThe hall rang out with ancient praise,\nFrom voices worn by death and cold,\nRepeating long forgotten days.\u201d[/i]\nCast a card you own in exile with a story counter on it without paying its mana cost.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 [i]\u201cThe hall rang out with ancient praise,\nFrom voices worn by death and cold,\nRepeating long forgotten days.\u201d[/i]\nIII \u2014 Cast a card you own in exile with a story counter on it without paying its mana cost.\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 [i]\u201cThe hall rang out with ancient praise,\nFrom voices worn by death and cold,\nRepeating long forgotten days.\u201d[/i]\nCast a card you own in exile with a story counter on it without paying its mana cost.\n\u200b",
             "shape": "token",
             "set": "BRE",
             "loyalty": "",
@@ -6920,8 +6920,8 @@
             "alias": "",
             "position": "314",
             "rotated": false,
-            "notes": "!token\n!tokentag Ode to Legacy\n!related Tales Retold\nOrate Token\n\n"
+            "notes": "!token\n!tokentag Ode to Legacy\n!related Tales Retold\nOrate Token"
         }
     ],
-    "version": 10
+    "version": 11
 }

@@ -5,7 +5,7 @@
 			<name>SHU</name>
 			<longname>Shurima: War of the Sands</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-08-18</releasedate>
+			<releasedate>2026-09-22</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -47,7 +47,7 @@
 			<name>Gilded Poro</name>
 			<text>Flying
 {5}{W}: Creatures you control get +1/+1 until end of turn.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/2.png" num="15">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/2.png" num="16">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -65,7 +65,7 @@
 			<name>Humble Soothsayers</name>
 			<text>Ascend (If you control ten or more permanents, you get the city&apos;s blessing for the rest of the game.)
 Prevent all damage that would be dealt to Humble Soothsayers on your turn if you have the city&apos;s blessing.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/3.png" num="18">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/3.png" num="19">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -83,7 +83,7 @@ Prevent all damage that would be dealt to Humble Soothsayers on your turn if you
 			<name>Risen Sand Cavalier</name>
 			<text>Risen Sand Cavalier has lifelink as long as a creature entered under your control this turn.
 {1}{V}, Exile Risen Sand Cavalier from your graveyard: Create two tapped 1/1 white Sand Soldier creature tokens. (Spend only mana produced by effects that add mana of any color to pay {V}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/4.png" num="29">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/4.png" num="30">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -101,7 +101,7 @@ Prevent all damage that would be dealt to Humble Soothsayers on your turn if you
 			<name>Nazumah Avenger</name>
 			<text>Vigilance
 Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/5.png" num="23">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/5.png" num="24">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -136,8 +136,8 @@ Whenever Bel&apos;Zhun Insurgent attacks, you may sacrifice another creature. If
 		<card>
 			<name>Kepthalla Vanguard</name>
 			<text>Flying, vigilance
-When Kepthalla Vanguard enters, you may have another target creature you control traverses. (Exile it until its owner&apos;s next combat phase. They may have it enter tapped and attacking.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/7.png" num="21">SHU</set>
+When Kepthalla Vanguard enters, you may have another target creature you control departs. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/7.png" num="22">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -156,7 +156,7 @@ When Kepthalla Vanguard enters, you may have another target creature you control
 			<text>When Imperial Weaponsmith enters, choose one —
 • Create two 1/1 white Sand Soldier creature tokens.
 • Return target artifact card from your graveyard to your hand. You gain 3 life.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/8.png" num="20">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/8.png" num="21">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -192,7 +192,7 @@ Plainscycling {2} ({2}, Discard this card: Search your library for a Plains card
 			<text>Choose one —
 • Strength of Nazumah deals 3 damage to target attacking or blocking creature.
 • Destroy target artifact with mana value 2 or less.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/10.png" num="34">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/10.png" num="35">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -225,7 +225,7 @@ Exile target nonland permanent.</text>
 		<card>
 			<name>Sealed in Darkness</name>
 			<text>When Sealed in Darkness enters, exile target creature until Sealed in Darkness leaves the battlefield.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/12.png" num="31">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/12.png" num="32">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -241,7 +241,7 @@ Exile target nonland permanent.</text>
 		<card>
 			<name>Stolen Divinity</name>
 			<text>Exile target creature. At the beginning of your next end step, return that card to the battlefield under its owner&apos;s control.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/13.png" num="33">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/13.png" num="34">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -504,7 +504,7 @@ Uncover (Create a Treasure token or put a Relic card you own from outside the ga
 			<name>Makaran Toxicologist</name>
 			<text>Lifelink
 When Makaran Toxicologist dies, create a 1/1 red Warrior creature token.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/28.png" num="95">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/28.png" num="96">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -521,7 +521,7 @@ When Makaran Toxicologist dies, create a 1/1 red Warrior creature token.</text>
 		<card>
 			<name>Prophet&apos;s Devotee</name>
 			<text>When Prophet&apos;s Devotee enters, you lose 3 life unless you discard a card.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/29.png" num="99">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/29.png" num="100">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -629,7 +629,7 @@ Whenever Twisted Sentinel dies, uncover and you gain 3 life. (Create a Treasure 
 		<card>
 			<name>Failed Divinity</name>
 			<text>Remove up to three counters from target creature or planeswalker. Then it gets -3/-3 until end of turn if it&apos;s a creature.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/35.png" num="89">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/35.png" num="90">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -645,7 +645,7 @@ Whenever Twisted Sentinel dies, uncover and you gain 3 life. (Create a Treasure 
 		<card>
 			<name>Imperial Revival</name>
 			<text>Until end of turn, target creature gets +2/+0 and gains &quot;When this creature dies, return it to the battlefield tapped under its owner&apos;s control.&quot;</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/36.png" num="93">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/36.png" num="94">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -659,10 +659,10 @@ Whenever Twisted Sentinel dies, uncover and you gain 3 life. (Create a Treasure 
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Shifting Sands</name>
+			<name>Conquering Sands</name>
 			<text>As an additional cost to cast this spell, sacrifice an artifact or creature.
 Draw two cards.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/37.png" num="104">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/37.png" num="83">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -679,7 +679,7 @@ Draw two cards.</text>
 			<name>Hollow Hound</name>
 			<text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
 When Hollow Hound enters, target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Sacrifice Hollow Hound at the beginning of your next end step unless it was kicked.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/38.png" num="92">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/38.png" num="93">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -697,7 +697,7 @@ When Hollow Hound enters, target opponent reveals their hand. You choose a nonla
 			<name>Insatiable Hunger</name>
 			<text>This spell costs {1}{B} less to cast if targets a creature that has dealt or been dealt damage this turn.
 Destroy target creature.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/39.png" num="94">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/39.png" num="95">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -714,7 +714,7 @@ Destroy target creature.</text>
 			<name>Noxian Betrayal</name>
 			<text>Destroy target creature. Create a Treasure token.
 Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/40.png" num="96">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/40.png" num="97">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -747,7 +747,7 @@ Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, 
 		<card>
 			<name>Rock Hopper</name>
 			<text>Haste
-Whenever Rock Hopper attacks, you may have it traverse. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)
+Whenever Rock Hopper attacks, you may have it depart. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)
 Rock Hopper gets +2/+2 if it entered from exile this turn.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/42.png" num="140">SHU</set>
 			<prop>
@@ -836,7 +836,7 @@ When Escaped Drakehound enters, exile the top card of your library. Until the en
 		</card>
 		<card>
 			<name>Xer&apos;Sai Dunebreaker</name>
-			<text>When Xer&apos;Sai Dunebreaker enters, you may have another target creature you control traverse. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)
+			<text>When Xer&apos;Sai Dunebreaker enters, you may have another target creature you control departs. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)
 Whenever a creature you control enters during combat, it gets +1/+0 until end of turn.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/47.png" num="151">SHU</set>
 			<prop>
@@ -1190,7 +1190,7 @@ Forestcycling {2} ({2}, Discard this card: Search your library for a Forest card
 			<name>Burst from Below</name>
 			<text>Choose one —
 • Target creature you control gets +2/+2 until end of turn.
-• Target creature you control traverses. (Exile it until its owner&apos;s next combat phase. They may have it enter tapped and attacking.)</text>
+• Target creature you control departs. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/67.png" num="159">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -1260,7 +1260,7 @@ At the beginning of combat on your turn, if you have the city&apos;s blessing, p
 			<name>General of the Dunes</name>
 			<text>Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)
 {1}, Sacrifice a creature: General of the Dunes gains indestructible until end of turn. Tap it.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/71.png" num="14">SHU</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/71.png" num="15">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1295,7 +1295,7 @@ At the beginning of combat on your turn, if you have the city&apos;s blessing, p
 		<card>
 			<name>Medallion Muncher</name>
 			<text>Once each turn, whenever you sacrifice a non-Gremlin token, you may create a token that&apos;s a copy of it.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/73.png" num="22">SHU</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/73.png" num="23">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1313,7 +1313,7 @@ At the beginning of combat on your turn, if you have the city&apos;s blessing, p
 			<name>Nazumah Huntress</name>
 			<text>Nazumah Huntress&apos;s power and toughness are each equal to the number of creatures you control.
 Whenever Nazumah Huntress deals combat damage to a player, you may create a token that&apos;s a copy of a token you control.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/74.png" num="24">SHU</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/74.png" num="25">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1348,7 +1348,7 @@ Whenever Nazumah Huntress deals combat damage to a player, you may create a toke
 			<name>Devoted Council</name>
 			<text>Lifelink
 Whenever a creature you control enters tapped, untap it.
-At the beginning of your end step, you may have target creature you control traverse. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
+At the beginning of your end step, you may have target creature you control depart. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/76.png" num="8">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -1611,7 +1611,7 @@ At the beginning of your end step, if you didn&apos;t attack with a creature thi
 		<card>
 			<name>Shady Appraiser</name>
 			<text>Whenever Shady Appraiser dies, uncover. (Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/91.png" num="103">SHU</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/91.png" num="104">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1628,7 +1628,7 @@ At the beginning of your end step, if you didn&apos;t attack with a creature thi
 		<card>
 			<name>Ruin Runner</name>
 			<text>Mobilize 2 (Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/92.png" num="100">SHU</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/92.png" num="101">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1645,7 +1645,7 @@ At the beginning of your end step, if you didn&apos;t attack with a creature thi
 		<card>
 			<name>Ruthless Financier</name>
 			<text>Whenever one or more other creatures die, uncover. This ability triggers only once each turn. (Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/93.png" num="101">SHU</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/93.png" num="102">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1681,7 +1681,7 @@ At the beginning of your end step, you lose life equal to the mana value of the 
 		<card>
 			<name>Priest of Conquest</name>
 			<text>At the beginning of your second main phase, you may sacrifice an artifact or creature. If you sacrificed an artifact this way, create a 1/1 red Warrior creature token. If you sacrificed a creature this way, create a Treasure token. (Do both if you sacrificed an artifact creature.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/95.png" num="98">SHU</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/95.png" num="99">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1700,7 +1700,7 @@ At the beginning of your end step, you lose life equal to the mana value of the 
 			<text>Trample
 Ward—Pay 4 life. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 4 life.)
 At the beginning of your end step, you lose 4 life.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/96.png" num="102">SHU</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/96.png" num="103">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1772,7 +1772,7 @@ Target creature gets -5/-5 until end of turn. If you have the city&apos;s blessi
 			<name>Deceitful Encouragement</name>
 			<text>Target opponent reveals their hand. You choose a nonland permanent card from it. That player discards that card. You lose 1 life.
 Flashback—{1}{B}, Sacrifice a creature. (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/100.png" num="86">SHU</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/100.png" num="87">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1839,7 +1839,7 @@ Whenever Shuriman Dissident attacks, if another creature entered under your cont
 		<card>
 			<name>Dune Surfer</name>
 			<text>Prowess, haste
-At the beginning of your end step, you may have Dune Surfer traverse. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
+At the beginning of your end step, you may have Dune Surfer depart. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/104.png" num="127">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -1875,7 +1875,7 @@ Whenever a player activates an ability of a card that isn&apos;t on the battlefi
 		<card>
 			<name>Bloodthirsty Marauder</name>
 			<text>During your turn, Bloodthirsty Marauder has first strike.
-When Bloodthirsty Marauder enters, if it was cast, exile cards from the top of your library until you exile a creature card with mana value 2 or less. Put it onto the battlefield, then it traverses. (Exile it until its owner&apos;s next combat phase. They may have it enter tapped and attacking.)</text>
+When Bloodthirsty Marauder enters, if it was cast, exile cards from the top of your library until you exile a creature card with mana value 2 or less. Put it onto the battlefield, then it departs. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/106.png" num="119">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -1996,7 +1996,7 @@ Emperor&apos;s Divide deals 3 damage to target creature or planeswalker. If you 
 		</card>
 		<card>
 			<name>Amakra Refugee</name>
-			<text>Whenever Amakra Refugee becomes the target of a spell or ability, it traverses. (Exile it until its owner&apos;s next combat phase. They may have it enter tapped and attacking.)</text>
+			<text>Whenever Amakra Refugee becomes the target of a spell or ability, it departs. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/113.png" num="153">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -2174,7 +2174,7 @@ At the beginning of your upkeep, if you control a creature with power 4 or great
 		</card>
 		<card>
 			<name>Narrow Evasion</name>
-			<text>Any number of target attacking nontoken creatures traverse. (Exile them until its owner&apos;s next combat phase. They may have any number of them enter tapped and attacking.)</text>
+			<text>Any number of target attacking nontoken creatures departs. (Exile them until its owner&apos;s next declare attackers step. They may have any number of them enter tapped and attacking.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/123.png" num="174">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -2191,7 +2191,7 @@ At the beginning of your upkeep, if you control a creature with power 4 or great
 		<card>
 			<name>Saijax Cail-Rynx Kohari Icath&apos;un</name>
 			<text>When Jax enters, create Lamppost, a legendary colorless Equipment artifact token with equip {2} and &quot;Equipped creature gets +1/+1 and has all abilities of keyword counters on Lampost.&quot; If you already control a Lamppost, put your choice of a first strike, lifelink, flying, or a vigilance counter on it. If it already has all four, put an indestructible and double strike counter on it.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/124.png" num="30">SHU</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/124.png" num="31">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2209,7 +2209,7 @@ At the beginning of your upkeep, if you control a creature with power 4 or great
 			<name>Seer Beyond the Sands</name>
 			<text>Flying
 When Seer Beyond the Sands enters, exile all artifacts, enchantments, and artifact and enchantment cards in graveyards.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/125.png" num="32">SHU</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/125.png" num="33">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2247,7 +2247,7 @@ When Seer Beyond the Sands enters, exile all artifacts, enchantments, and artifa
 			<text>Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)
 Whenever a creature you control dies, put a +1/+1 counter on Sunlit Guardians.
 At the beginning of your end step, you may sacrifice Sunlit Guardians. If you do, search your library for a legendary creature card with mana value equal to or less than the number of counters on Sunlit Guardians and put it onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/127.png" num="35">SHU</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/127.png" num="36">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2262,10 +2262,10 @@ At the beginning of your end step, you may sacrifice Sunlit Guardians. If you do
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Pass the Torch</name>
+			<name>Evade to Strike</name>
 			<text>You may cast this spell only during an opponent&apos;s turn or during your end step.
-Any number of creatures you control traverse. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/128.png" num="25">SHU</set>
+Any number of creatures you control depart. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/128.png" num="14">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2282,7 +2282,7 @@ Any number of creatures you control traverse. (Exile it until its owner&apos;s n
 			<name>Rise from the Sands</name>
 			<text>Ascend (If you control ten or more permanents, you get the city&apos;s blessing for the rest of the game.)
 At the beginning of your end step, create a 1/1 white Sand Soldier creature token. When you do, if you have the city&apos;s blessing, return target creature card with mana value 3 or less from your graveyard to the battlefield.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/129.png" num="28">SHU</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/129.png" num="29">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2422,7 +2422,7 @@ If a card an opponent controls would be put into a graveyard from anywhere, inst
 			<name>Demon of Domination</name>
 			<text>Deathtouch
 Whenever Demon of Domination enters or attacks, exile target card from a graveyard. If a permanent card was exiled this way, uncover. (Create a Treasure token or put a Relic card you own from outside the game into your graveyard.)</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/137.png" num="87">SHU</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/137.png" num="88">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2440,7 +2440,7 @@ Whenever Demon of Domination enters or attacks, exile target card from a graveya
 			<name>Evangelist of Oblivion</name>
 			<text>Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)
 Whenever an opponent draws one or more cards except the first one they draw in each of their draw steps, create a 1/1 black Horror Pest creature token with mobilize 1.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/138.png" num="88">SHU</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/138.png" num="89">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2476,7 +2476,7 @@ At the beginning of your end step, you may discard any number of cards. Then you
 		<card>
 			<name>Death of Divinity</name>
 			<text>Choose a creature you control. Exile all other creatures, then destroy the chosen creature.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/140.png" num="85">SHU</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/140.png" num="86">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2492,7 +2492,7 @@ At the beginning of your end step, you may discard any number of cards. Then you
 		<card>
 			<name>Feast of the Prophet</name>
 			<text>At the beginning of your end step, you may sacrifice a creature. If you do, create a 4/3 black Horror creature token.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/141.png" num="90">SHU</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/141.png" num="91">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2563,7 +2563,7 @@ At the beginning of your end step, exile the top card of your library. You may p
 		<card>
 			<name>Wandering Yordle</name>
 			<text>Haste
-Whenever Wandering Yordle attacks, up to one target nontoken creature you don&apos;t control traverses. (Exile it until its owner&apos;s next combat phase. They may have it enter tapped and attacking.)</text>
+Whenever Wandering Yordle attacks, up to one target nontoken creature you don&apos;t control departs. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/145.png" num="149">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -2632,7 +2632,7 @@ Exile the top X cards of your library, where X is the sacrificed artifact&apos;s
 		<card>
 			<name>Grumpy Rockbear</name>
 			<text>Trample, ward {2}
-If Grumpy Rockbear or another creature you control would enter the battlefield, you may have it traverse instead. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
+If Grumpy Rockbear or another creature you control would enter the battlefield, you may have it depart instead. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/149.png" num="171">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -2760,16 +2760,16 @@ II, III, IV, V, VI — An opponent chooses a card exiled by Into the Rift. You m
 ​</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/SHU-files/img/156.png" num="57">SHU</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>saga</layout>
 				<side>front</side>
-				<type>Sorcery</type>
-				<maintype>Sorcery</maintype>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
 				<manacost>2UU</manacost>
 				<cmc>4</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
-			<tablerow>3</tablerow>
+			<tablerow>1</tablerow>
 		</card>
 		<card>
 			<name>Clockling Prototype</name>
@@ -2793,7 +2793,7 @@ Whenever Clockling Prototype deals combat damage to a player, end the turn.</tex
 			<name>Conqueror of Belveth</name>
 			<text>When you cast this spell or another spell, create three 1/1 black Horror Pest creature tokens with mobilize 1. (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)
 Whenever an opponent casts a spell, they lose life equal to its mana value unless they discard a card.</text>
-			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/SHU-files/img/158.png" num="83">SHU</set>
+			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/SHU-files/img/158.png" num="84">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2933,7 +2933,7 @@ When Void Blaster dies, it deals damage equal to its power to any target.</text>
 		<card>
 			<name>Butcher&apos;s Faithful</name>
 			<text>Counters remain on creatures you control as they move to exile or the battlefield.
-Whenever a creature you control deals combat damage to a player or planeswalker, you may have it traverse. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
+Whenever a creature you control deals combat damage to a player or planeswalker, you may have it depart. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/166.png" num="200">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -3161,7 +3161,7 @@ Each opponent sacrifices a nonland permanent with mana value X or greater.</text
 			<text>Flash
 When Kassadin enters, surveil 3.
 {R}: Kassadin gains first strike until end of turn.
-{1}{U}: Kassadin traverses. (Exile it until its owner&apos;s next combat phase. They may have it enter tapped and attacking.)</text>
+{1}{U}: Kassadin departs. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/179.png" num="210">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -3198,7 +3198,7 @@ Whenever a creature an opponent controls dies, if it was dealt damage less than 
 			<name>Kai&apos;Sa, Who Came Back</name>
 			<text>Flash
 Flying
-When Kai&apos;Sa enters or whenever you cast a noncreature spell, up to one target creature you control traverses. (Exile it until its owner&apos;s next combat phase. They may have it enter tapped and attacking.)</text>
+When Kai&apos;Sa enters or whenever you cast a noncreature spell, up to one target creature you control departs. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/181.png" num="216">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -3312,7 +3312,7 @@ Equip {3}
 			<name>Guardian of Tombs</name>
 			<text>Double strike
 {3}{V}, Exile Guardian of Tombs from your graveyard: Return up to two target creature cards each with mana value 2 or less from your graveyard to the battlefield. Activate only as a sorcery. (Spend only mana produced by effects that add mana of any color to pay {V}.)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/188.png" num="16">SHU</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/188.png" num="17">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3966,7 +3966,7 @@ Whenever you cast a nonlegendary creature spell, create a token that&apos;s a co
 			<text>Enchant creature
 Enchanted creature gets +1/+0 and has flying.
 Whenever a creature you control enters, if it&apos;s attacking, you may return Heroic Swing from your graveyard to the battlefield enchanting it.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/226.png" num="17">SHU</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/226.png" num="18">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3980,9 +3980,9 @@ Whenever a creature you control enters, if it&apos;s attacking, you may return H
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Time in a Bottle</name>
+			<name>Recall Time</name>
 			<text>Create two Clockling tokens. (They&apos;re 1/1 Construct artifact creatures with &quot;{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn.&quot;)</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/227.png" num="36">SHU</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/227.png" num="28">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4052,7 +4052,7 @@ Return target creature card in your graveyard to the battlefield if its mana val
 			<name>Cut the Rope</name>
 			<text>As an additional cost to cast this spell, you may sacrifice an artifact.
 Destroy target creature if it has mana value 2 or less. If this spell&apos;s additional cost was paid destroy that creature if it has mana value 5 or less instead.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/231.png" num="84">SHU</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/231.png" num="85">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4068,7 +4068,7 @@ Destroy target creature if it has mana value 2 or less. If this spell&apos;s add
 		<card>
 			<name>Plunge into the Unknown</name>
 			<text>Creatures you control that have entered this turn get +2/+0.
-At the beginning of your end step, up to one target target creature you control traverses. (Exile it until its owner&apos;s next combat phase. They may have it enter tapped and attacking.)</text>
+At the beginning of your end step, up to one target target creature you control departs. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/SHU-files/img/232.png" num="217">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -4566,7 +4566,7 @@ At the beginning of your end step, return target artifact card from your graveya
 		<card>
 			<name>Rek&apos;Sai, the Terror Beneath</name>
 			<text>Creatures you control that have entered this turn get +1/+1 and have ward {3}.
-At the beginning of your end step, you may have Rek&apos;Sai traverse. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
+At the beginning of your end step, you may have Rek&apos;Sai depart. (Exile it until its owner&apos;s next declare attackers step. They may have it enter tapped and attacking.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/260.png" num="201">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -4673,7 +4673,7 @@ Whenever Protector of the Oasis or another land you control is put into a gravey
 			<name>Icathian Mirage</name>
 			<text>Kicker {2}{W} (You may pay an additional {2}{W} as you cast this spell.)
 When Icathian Mirage enters, destroy up to one target artifact or enchantment. Sacrifice Icathian Mirage at the beginning of your next end step unless it was kicked.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/266.png" num="19">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/266.png" num="20">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4708,7 +4708,7 @@ When Icathian Mirage enters, destroy up to one target artifact or enchantment. S
 			<text>Choose one –
 • Target opponent reveals their hand. You may choose a creature, enchantment, or planeswalker card from it. That player discards that card.
 • Target opponent sacrifices a battle or enchantment.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/268.png" num="97">SHU</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/SHU-files/img/268.png" num="98">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4853,7 +4853,7 @@ When Hibernating Rockbear enters, search your library for a basic Forest card, p
 			<name>Abandoned Chronarium</name>
 			<text>{T}: Add {C}.
 {1}, {T}: Add one mana of any color.
-{3}, Pay 1 life, {T}: Create a Clockling token. (It&apos;s a 1/1 Construct artifact creature with &quot;{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn.&quot;)</text>
+{3}, {T}, Pay 1 life: Create a Clockling token. (It&apos;s a 1/1 Construct artifact creature with &quot;{1}, {T}, Sacrifice this artifact: End the turn. Activate only during your turn.&quot;)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/277.png" num="257">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -5022,7 +5022,7 @@ When Hibernating Rockbear enters, search your library for a basic Forest card, p
 			<name>Tower Removed From Time</name>
 			<text>Ascend (If you control ten or more permanents, you get the city&apos;s blessing for the rest of the game.)
 {T}: Add {C}.
-{W}{U}, {T}: Exile target permanent you control, then return to the battlefield. Activate only if you have the city&apos;s blessing and only during your turn.</text>
+{W}{U}, {T}: Exile target permanent you control, then return it to the battlefield. Activate only if you have the city&apos;s blessing and only during your turn.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/287.png" num="282">SHU</set>
 			<prop>
 				<layout>normal</layout>
@@ -5295,7 +5295,7 @@ When Screaming Acolytes dies, look at the top four cards of your library. You ma
 			<name>Hierophant of Zuretta</name>
 			<text>Ascend (If you control ten or more permanents, you get the city&apos;s blessing for the rest of the game.)
 As long as you have the city&apos;s blessing, Hierophant of Zuretta gets +2/+3 and has menace and &quot;Whenever this creature attacks or blocks, discard a card.&quot;</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/303.png" num="91">SHU</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/SHU-files/img/303.png" num="92">SHU</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
