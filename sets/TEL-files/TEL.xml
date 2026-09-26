@@ -5,7 +5,7 @@
 			<name>TEL</name>
 			<longname>Theros the Elekteid</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-22</releasedate>
+			<releasedate>2026-09-26</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -449,9 +449,9 @@ Untap all lands you control during each other player&apos;s untap step.</text>
 		<card>
 			<name>Legendary</name>
 			<text>Lyric {W} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I — This Saga deals damage equal to the number of creatures you control to target creature.
-II — Put a lifelink counter on target creature you control.
-III — Creatures you control get +1/+1 until end of turn.</text>
+This Saga deals damage equal to the number of creatures you control to target creature.
+Put a lifelink counter on target creature you control.
+Creatures you control get +1/+1 until end of turn.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/20.png" num="263">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -468,8 +468,8 @@ III — Creatures you control get +1/+1 until end of turn.</text>
 		<card>
 			<name>Thunder Bringer</name>
 			<text>Lyric {3}{W} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II — Permanents you control gain indestructible until end of turn.
-III — Separate each creature into two piles and an opponent chooses one of the piles. Tap all creatures in the chosen pile and exile the rest.
+Permanents you control gain indestructible until end of turn.
+Separate each creature into two piles and an opponent chooses one of the piles. Tap all creatures in the chosen pile and exile the rest.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/21.png" num="268">TEL</set>
 			<prop>
@@ -506,8 +506,8 @@ III — Target creature you control gains flying, double strike, and lifelink un
 		<card>
 			<name>Just a Man</name>
 			<text>Lyric {1}{W} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II — Exile up to one target creature. Return it to the battlefield under its owner&apos;s control at the beginning of the next end step.
-III — You may sacrifice a creature. If you do, exile target creature.
+Exile up to one target creature. Return it to the battlefield under its owner&apos;s control at the beginning of the next end step.
+You may sacrifice a creature. If you do, exile target creature.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/23.png" num="262">TEL</set>
 			<prop>
@@ -525,8 +525,8 @@ III — You may sacrifice a creature. If you do, exile target creature.
 		<card>
 			<name>Odysseus</name>
 			<text>Lyric {1}{W} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II — Target creature gets +2/+2 and gains lifelink and indestructible until end of turn.
-III — Exile target player&apos;s graveyard.
+Target creature gets +2/+2 and gains lifelink and indestructible until end of turn.
+Exile target player&apos;s graveyard.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/24.png" num="264">TEL</set>
 			<prop>
@@ -582,7 +582,7 @@ III — Return each Aura card from your graveyard to the battlefield.</text>
 		<card>
 			<name>The Horse and the Infant</name>
 			<text>Lyric {W} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II, III — Create a 0/0 white Army creature token, then put a +1/+1 counter on each Army you control.
+Create a 0/0 white Army creature token, then put a +1/+1 counter on each Army you control.
 Scry 2, then you gain 4 life.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/27.png" num="267">TEL</set>
@@ -620,8 +620,8 @@ III — Return target nonland permanent card with mana value 3 or less from your
 		<card>
 			<name>Get in the Water</name>
 			<text>Lyric {1}{U} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I — Put a defender counter on target creature.
-II, III — Until end of turn, target permanent you control becomes a God enchantment creature with base power and toughness 5/5
+Put a defender counter on target creature.
+Until end of turn, target permanent you control becomes a God enchantment creature with base power and toughness 5/5
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/29.png" num="270">TEL</set>
 			<prop>
@@ -639,8 +639,8 @@ II, III — Until end of turn, target permanent you control becomes a God enchan
 		<card>
 			<name>I Can&apos;t Help But Wonder</name>
 			<text>Lyric {2}{U} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II — Untap all nonland permanents you control.
-III — Spells you control can&apos;t be countered this turn. Draw a card.
+Untap all nonland permanents you control.
+Spells you control can&apos;t be countered this turn. Draw a card.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/30.png" num="271">TEL</set>
 			<prop>
@@ -658,8 +658,8 @@ III — Spells you control can&apos;t be countered this turn. Draw a card.
 		<card>
 			<name>Love in Paradise</name>
 			<text>Lyric {U} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I — Return target creature to its owner&apos;s hand.
-II, III — Choose a card type. Cards of the chosen type cost {2} more to cast until your next turn.
+Return target creature to its owner&apos;s hand.
+Choose a card type. Cards of the chosen type cost {2} more to cast until your next turn.
 You may return a non-Saga permanent you control to its owner&apos;s hand.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/31.png" num="273">TEL</set>
 			<prop>
@@ -677,7 +677,7 @@ You may return a non-Saga permanent you control to its owner&apos;s hand.</text>
 		<card>
 			<name>Keep Your Friends Close</name>
 			<text>Lyric {1}{U} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II, III — Target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard.
+Target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard.
 Exile target instant or sorcery spell from your graveyard. Copy that card and you may cast the copy.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/32.png" num="272">TEL</set>
@@ -698,7 +698,7 @@ Exile target instant or sorcery spell from your graveyard. Copy that card and yo
 			<text>Lyric {1}{U}{U} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
 Flash
 Counter target spell.
-I, II, III — Draw two cards, then discard a card.</text>
+Draw two cards, then discard a card.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/33.png" num="274">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -716,8 +716,8 @@ I, II, III — Draw two cards, then discard a card.</text>
 			<name>Ruthlessness</name>
 			<text>Lyric—{4}{U}, Sacrifice a creature. (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
 Gain control of target creature.
-I — Return all creatures except target creature to their owner&apos;s hands.
-II, III — Each player shuffles their hand into their library, then draws cards equal to the greatest number of cards a player shuffled in this way.</text>
+Return all creatures except target creature to their owner&apos;s hands.
+Each player shuffles their hand into their library, then draws cards equal to the greatest number of cards a player shuffled in this way.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/34.png" num="275">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -734,8 +734,8 @@ II, III — Each player shuffles their hand into their library, then draws cards
 		<card>
 			<name>Storm</name>
 			<text>Lyric {2}{U} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II — Tap up to two target creatures and put a stun counter on each of them.
-III — Whenever a creature you control deals combat damage to a player this turn, draw a card.
+Tap up to two target creatures and put a stun counter on each of them.
+Whenever a creature you control deals combat damage to a player this turn, draw a card.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/35.png" num="276">TEL</set>
 			<prop>
@@ -753,9 +753,9 @@ III — Whenever a creature you control deals combat damage to a player this tur
 		<card>
 			<name>Suffering</name>
 			<text>Lyric {5}{U} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I — Create two 3/3 blue Siren creature tokens.
+Create two 3/3 blue Siren creature tokens.
 Draw three cards.
-II, III — Any number of creatures each becomes a copy of target nonlegendary creature until end of turn.</text>
+Any number of creatures each becomes a copy of target nonlegendary creature until end of turn.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/36.png" num="277">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -772,8 +772,8 @@ II, III — Any number of creatures each becomes a copy of target nonlegendary c
 		<card>
 			<name>Little Wolf</name>
 			<text>Lyric {1}{B} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I — Destroy target creature. You lose 3 life.
-II, III — Target creature you control gets +3/+0 and gains lifelink until end of turn. If damage would be dealt to it this turn, you lose that much life instead.
+Destroy target creature. You lose 3 life.
+Target creature you control gets +3/+0 and gains lifelink until end of turn. If damage would be dealt to it this turn, you lose that much life instead.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/37.png" num="279">TEL</set>
 			<prop>
@@ -791,9 +791,9 @@ II, III — Target creature you control gets +3/+0 and gains lifelink until end 
 		<card>
 			<name>Hold Them Down</name>
 			<text>Lyric {1}{B}{B} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I — Destroy target up to one target creature.
-II — Exile target player&apos;s graveyard. You gain 2 life for each nonland card exiled this way.
-III — Until end of turn, permanents you control gain &quot;When this permanent dies, each opponent loses 2 life.&quot;</text>
+Destroy target up to one target creature.
+Exile target player&apos;s graveyard. You gain 2 life for each nonland card exiled this way.
+Until end of turn, permanents you control gain &quot;When this permanent dies, each opponent loses 2 life.&quot;</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/38.png" num="278">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -829,8 +829,8 @@ III — Return target creature card with mana value 5 or less from your graveyar
 		<card>
 			<name>No Longer You</name>
 			<text>Lyric {B}{B} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II — Target player reveals their hand. You choose a nonland card from it. That player discards that card. Then if it is their turn, they draw a card.
-III — Mill three cards. You may put a card milled this way into your hand.
+Target player reveals their hand. You choose a nonland card from it. That player discards that card. Then if it is their turn, they draw a card.
+Mill three cards. You may put a card milled this way into your hand.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/40.png" num="281">TEL</set>
 			<prop>
@@ -849,7 +849,7 @@ III — Mill three cards. You may put a card milled this way into your hand.
 			<name>Not Sorry For Loving You</name>
 			<text>Lyric {B} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
 Your maximum hand size is reduced by two for each lore counter on this Saga.
-I, II, III, IV — You draw a card and you lose 1 life.
+You draw a card and you lose 1 life.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/41.png" num="282">TEL</set>
 			<prop>
@@ -867,9 +867,9 @@ I, II, III, IV — You draw a card and you lose 1 life.
 		<card>
 			<name>Scylla</name>
 			<text>Lyric {6}{B}{B} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I — Exile the top card of each opponent&apos;s library until you exile two nonland cards. You may cast any number of cards exiled this way without paying their mana costs.
-II — Create a 6/6 blue Demon Leviathan creature token.
-III — Each player sacrifices six non-Demon creatures of their choice. Each player who sacrificed six creatures this way draws six cards.</text>
+Exile the top card of each opponent&apos;s library until you exile two nonland cards. You may cast any number of cards exiled this way without paying their mana costs.
+Create a 6/6 blue Demon Leviathan creature token.
+Each player sacrifices six non-Demon creatures of their choice. Each player who sacrificed six creatures this way draws six cards.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/42.png" num="283">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -886,9 +886,9 @@ III — Each player sacrifices six non-Demon creatures of their choice. Each pla
 		<card>
 			<name>The Underworld</name>
 			<text>Lyric {1}{B} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I — Target player sacrifices a creature of their choice.
-II — Return target creature card with mana value 2 or less from your graveyard to the battlefield.
-III — Each opponent loses 3 life and you gain 3 life.</text>
+Target player sacrifices a creature of their choice.
+Return target creature card with mana value 2 or less from your graveyard to the battlefield.
+Each opponent loses 3 life and you gain 3 life.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/43.png" num="284">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -905,8 +905,8 @@ III — Each opponent loses 3 life and you gain 3 life.</text>
 		<card>
 			<name>We&apos;ll Be Fine</name>
 			<text>Lyric {R}{R} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II — Exile target instant or sorcery card from your graveyard. Until the end of your next turn, you may cast a copy of that card.
-III — The next time you cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.
+Exile target instant or sorcery card from your graveyard. Until the end of your next turn, you may cast a copy of that card.
+The next time you cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/44.png" num="290">TEL</set>
 			<prop>
@@ -924,8 +924,8 @@ III — The next time you cast an instant or sorcery spell this turn, copy it. Y
 		<card>
 			<name>Dangerous</name>
 			<text>Lyric {R} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II — Create a 1/1 white Soldier creature token. This Saga deals 1 damage to each opponent.
-III — Target creature you control gets +3/+1 until end of turn.
+Create a 1/1 white Soldier creature token. This Saga deals 1 damage to each opponent.
+Target creature you control gets +3/+1 until end of turn.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/45.png" num="285">TEL</set>
 			<prop>
@@ -962,8 +962,8 @@ III — Creatures you control get +1/+0 and gain trample until end of turn.</tex
 		<card>
 			<name>Mutiny</name>
 			<text>Lyric {3}{R}{R} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II — Gain control of target creature until end of turn. Untap it and it gains haste until end of turn.
-III — Create three 1/1 white Soldier creature tokens.
+Gain control of target creature until end of turn. Untap it and it gains haste until end of turn.
+Create three 1/1 white Soldier creature tokens.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/47.png" num="287">TEL</set>
 			<prop>
@@ -981,9 +981,9 @@ III — Create three 1/1 white Soldier creature tokens.
 		<card>
 			<name>Puppeteer</name>
 			<text>Lyric {3}{R} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I — Until your next turn, creatures your opponents control attack each combat if able.
-II — This Saga deals 6 damage to up to one target tapped creature.
-III — Target player sacrifices a nonland permanent of their choice.</text>
+Until your next turn, creatures your opponents control attack each combat if able.
+This Saga deals 6 damage to up to one target tapped creature.
+Target player sacrifices a nonland permanent of their choice.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/48.png" num="288">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -1000,8 +1000,8 @@ III — Target player sacrifices a nonland permanent of their choice.</text>
 		<card>
 			<name>There Are Other Ways</name>
 			<text>Lyric—{2}{R} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II — Any opponent may have this Saga deal 4 damage to them. If no one does, destroy all artifacts.
-III — Any opponent may have this Saga deal 4 damage to them. If no one does, draw three cards.
+Any opponent may have this Saga deal 4 damage to them. If no one does, destroy all artifacts.
+Any opponent may have this Saga deal 4 damage to them. If no one does, draw three cards.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/49.png" num="289">TEL</set>
 			<prop>
@@ -1038,8 +1038,8 @@ III — Exile the top three cards of your library. You may play them until your 
 		<card>
 			<name>Wouldn&apos;t You Like</name>
 			<text>Lyric {2}{R} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II — You create two tapped Treasure tokens unless an opponent has you create a 3/3 green Cyclops creature token with trample.
-III — Create a token that&apos;s a copy of target creature you control, except it has haste and &quot;At the beginning of the end step, exile this permanent.&quot;
+You create two tapped Treasure tokens unless an opponent has you create a 3/3 green Cyclops creature token with trample.
+Create a token that&apos;s a copy of target creature you control, except it has haste and &quot;At the beginning of the end step, exile this permanent.&quot;
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/51.png" num="292">TEL</set>
 			<prop>
@@ -1057,9 +1057,9 @@ III — Create a token that&apos;s a copy of target creature you control, except
 		<card>
 			<name>Charybdis</name>
 			<text>Lyric {4}{G}{G} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I — Draw cards equal to the greatest power among creatures you control.
-II — Create a 7/7 green Octopus Horror creature token with vigilance.
-III — Creatures you control must be blocked this turn if able.</text>
+Draw cards equal to the greatest power among creatures you control.
+Create a 7/7 green Octopus Horror creature token with vigilance.
+Creatures you control must be blocked this turn if able.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/52.png" num="293">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -1076,7 +1076,7 @@ III — Creatures you control must be blocked this turn if able.</text>
 		<card>
 			<name>God Games</name>
 			<text>Lyric {3}{G} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II, III, IV — Add {W}{U}{B}{R}{G}. This mana can&apos;t be spent to pay generic mana costs. At the beginning of the next end step, if you&apos;ve spent {W}{U}{B}{R}{G} to cast spells this turn, search your library for a legendary card, reveal it, put it into your hand, then shuffle.
+Add {W}{U}{B}{R}{G}. This mana can&apos;t be spent to pay generic mana costs. At the beginning of the next end step, if you&apos;ve spent {W}{U}{B}{R}{G} to cast spells this turn, search your library for a legendary card, reveal it, put it into your hand, then shuffle.
 ​
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/53.png" num="295">TEL</set>
@@ -1095,8 +1095,8 @@ I, II, III, IV — Add {W}{U}{B}{R}{G}. This mana can&apos;t be spent to pay gen
 		<card>
 			<name>The Challenge</name>
 			<text>Lyric {2}{G} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II — Target creature you control gets +2/+2 and gains hexproof until end of turn.
-III — Search your library for a basic land card, put it onto the battlefield, then shuffle.
+Target creature you control gets +2/+2 and gains hexproof until end of turn.
+Search your library for a basic land card, put it onto the battlefield, then shuffle.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/54.png" num="300">TEL</set>
 			<prop>
@@ -1114,8 +1114,8 @@ III — Search your library for a basic land card, put it onto the battlefield, 
 		<card>
 			<name>Different Beast</name>
 			<text>Lyric {1}{G} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II — Target creature you control fights target creature you don&apos;t control.
-III — Distribute two +1/+1 counters among up to two target creatures.
+Target creature you control fights target creature you don&apos;t control.
+Distribute two +1/+1 counters among up to two target creatures.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/55.png" num="294">TEL</set>
 			<prop>
@@ -1133,8 +1133,8 @@ III — Distribute two +1/+1 counters among up to two target creatures.
 		<card>
 			<name>My Goodbye</name>
 			<text>Lyric—{1}{G} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I, II — Mill three cards. You may return a creature or land card from your graveyard to your hand.
-III — Search your library and graveyard for a creature card, reveal it, put it into your hand, then shuffle your graveyard into your library.
+Mill three cards. You may return a creature or land card from your graveyard to your hand.
+Search your library and graveyard for a creature card, reveal it, put it into your hand, then shuffle your graveyard into your library.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/56.png" num="296">TEL</set>
 			<prop>
@@ -1152,9 +1152,9 @@ III — Search your library and graveyard for a creature card, reveal it, put it
 		<card>
 			<name>Polyphemus</name>
 			<text>Lyric {1}{G}{G} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-I — Create two 1/1 green Sheep Food artifact creature tokens with &quot;{2}, {T}, Sacrifice this token: You gain 3 life.&quot;
-II — You may sacrifice a token. If you do, you gain 7 life.
-III — Create a 3/3 green Cyclops creature token with trample.</text>
+Create two 1/1 green Sheep Food artifact creature tokens with &quot;{2}, {T}, Sacrifice this token: You gain 3 life.&quot;
+You may sacrifice a token. If you do, you gain 7 life.
+Create a 3/3 green Cyclops creature token with trample.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/57.png" num="297">TEL</set>
 			<prop>
 				<layout>saga</layout>

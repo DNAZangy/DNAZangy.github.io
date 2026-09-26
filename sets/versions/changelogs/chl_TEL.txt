@@ -1,4 +1,508 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+
+
+Legendary
+rules_text: Lyric {W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — This Saga deals damage equal to the number of creatures you control to target creature.
+II — Put a lifelink counter on target creature you control.
+III — Creatures you control get +1/+1 until end of turn. => Lyric {W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+This Saga deals damage equal to the number of creatures you control to target creature.
+Put a lifelink counter on target creature you control.
+Creatures you control get +1/+1 until end of turn.
+special_text: Lyric {W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — This Saga deals damage equal to the number of creatures you control to target creature.
+II — Put a lifelink counter on target creature you control.
+III — Creatures you control get +1/+1 until end of turn. => Lyric {W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+This Saga deals damage equal to the number of creatures you control to target creature.
+Put a lifelink counter on target creature you control.
+Creatures you control get +1/+1 until end of turn.
+
+Thunder Bringer
+rules_text: Lyric {3}{W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Permanents you control gain indestructible until end of turn.
+III — Separate each creature into two piles and an opponent chooses one of the piles. Tap all creatures in the chosen pile and exile the rest.
+​ => Lyric {3}{W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Permanents you control gain indestructible until end of turn.
+Separate each creature into two piles and an opponent chooses one of the piles. Tap all creatures in the chosen pile and exile the rest.
+​
+special_text: Lyric {3}{W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Permanents you control gain indestructible until end of turn.
+III — Separate each creature into two piles and an opponent chooses one of the piles. Tap all creatures in the chosen pile and exile the rest.
+​ => Lyric {3}{W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Permanents you control gain indestructible until end of turn.
+Separate each creature into two piles and an opponent chooses one of the piles. Tap all creatures in the chosen pile and exile the rest.
+​
+
+Just a Man
+rules_text: Lyric {1}{W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Exile up to one target creature. Return it to the battlefield under its owner's control at the beginning of the next end step.
+III — You may sacrifice a creature. If you do, exile target creature.
+​ => Lyric {1}{W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Exile up to one target creature. Return it to the battlefield under its owner's control at the beginning of the next end step.
+You may sacrifice a creature. If you do, exile target creature.
+​
+special_text: Lyric {1}{W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Exile up to one target creature. Return it to the battlefield under its owner's control at the beginning of the next end step.
+III — You may sacrifice a creature. If you do, exile target creature.
+​ => Lyric {1}{W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Exile up to one target creature. Return it to the battlefield under its owner's control at the beginning of the next end step.
+You may sacrifice a creature. If you do, exile target creature.
+​
+
+Odysseus
+rules_text: Lyric {1}{W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Target creature gets +2/+2 and gains lifelink and indestructible until end of turn.
+III — Exile target player's graveyard.
+​ => Lyric {1}{W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Target creature gets +2/+2 and gains lifelink and indestructible until end of turn.
+Exile target player's graveyard.
+​
+special_text: Lyric {1}{W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Target creature gets +2/+2 and gains lifelink and indestructible until end of turn.
+III — Exile target player's graveyard.
+​ => Lyric {1}{W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Target creature gets +2/+2 and gains lifelink and indestructible until end of turn.
+Exile target player's graveyard.
+​
+
+The Horse and the Infant
+rules_text: Lyric {W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II, III — Create a 0/0 white Army creature token, then put a +1/+1 counter on each Army you control.
+Scry 2, then you gain 4 life.
+​ => Lyric {W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Create a 0/0 white Army creature token, then put a +1/+1 counter on each Army you control.
+Scry 2, then you gain 4 life.
+​
+special_text: Lyric {W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II, III — Create a 0/0 white Army creature token, then put a +1/+1 counter on each Army you control.
+Scry 2, then you gain 4 life.
+​ => Lyric {W} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Create a 0/0 white Army creature token, then put a +1/+1 counter on each Army you control.
+Scry 2, then you gain 4 life.
+​
+
+Get in the Water
+rules_text: Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Put a defender counter on target creature.
+II, III — Until end of turn, target permanent you control becomes a God enchantment creature with base power and toughness 5/5
+​ => Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Put a defender counter on target creature.
+Until end of turn, target permanent you control becomes a God enchantment creature with base power and toughness 5/5
+​
+special_text: Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Put a defender counter on target creature.
+II, III — Until end of turn, target permanent you control becomes a God enchantment creature with base power and toughness 5/5
+​ => Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Put a defender counter on target creature.
+Until end of turn, target permanent you control becomes a God enchantment creature with base power and toughness 5/5
+​
+
+I Can't Help But Wonder
+rules_text: Lyric {2}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Untap all nonland permanents you control.
+III — Spells you control can't be countered this turn. Draw a card.
+​ => Lyric {2}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Untap all nonland permanents you control.
+Spells you control can't be countered this turn. Draw a card.
+​
+special_text: Lyric {2}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Untap all nonland permanents you control.
+III — Spells you control can't be countered this turn. Draw a card.
+​ => Lyric {2}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Untap all nonland permanents you control.
+Spells you control can't be countered this turn. Draw a card.
+​
+
+Love in Paradise
+rules_text: Lyric {U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Return target creature to its owner's hand.
+II, III — Choose a card type. Cards of the chosen type cost {2} more to cast until your next turn.
+You may return a non-Saga permanent you control to its owner's hand. => Lyric {U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Return target creature to its owner's hand.
+Choose a card type. Cards of the chosen type cost {2} more to cast until your next turn.
+You may return a non-Saga permanent you control to its owner's hand.
+special_text: Lyric {U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Return target creature to its owner's hand.
+II, III — Choose a card type. Cards of the chosen type cost {2} more to cast until your next turn.
+You may return a non-Saga permanent you control to its owner's hand. => Lyric {U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Return target creature to its owner's hand.
+Choose a card type. Cards of the chosen type cost {2} more to cast until your next turn.
+You may return a non-Saga permanent you control to its owner's hand.
+
+Keep Your Friends Close
+rules_text: Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II, III — Target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard.
+Exile target instant or sorcery spell from your graveyard. Copy that card and you may cast the copy.
+​ => Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard.
+Exile target instant or sorcery spell from your graveyard. Copy that card and you may cast the copy.
+​
+special_text: Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II, III — Target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard.
+Exile target instant or sorcery spell from your graveyard. Copy that card and you may cast the copy.
+​ => Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard.
+Exile target instant or sorcery spell from your graveyard. Copy that card and you may cast the copy.
+​
+
+Luck Runs Out
+rules_text: Lyric {1}{U}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Flash
+Counter target spell.
+I, II, III — Draw two cards, then discard a card. => Lyric {1}{U}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Flash
+Counter target spell.
+Draw two cards, then discard a card.
+special_text: Lyric {1}{U}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Flash
+Counter target spell.
+I, II, III — Draw two cards, then discard a card. => Lyric {1}{U}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Flash
+Counter target spell.
+Draw two cards, then discard a card.
+
+Ruthlessness
+rules_text: Lyric—{4}{U}, Sacrifice a creature. [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Gain control of target creature.
+I — Return all creatures except target creature to their owner's hands.
+II, III — Each player shuffles their hand into their library, then draws cards equal to the greatest number of cards a player shuffled in this way. => Lyric—{4}{U}, Sacrifice a creature. [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Gain control of target creature.
+Return all creatures except target creature to their owner's hands.
+Each player shuffles their hand into their library, then draws cards equal to the greatest number of cards a player shuffled in this way.
+special_text: Lyric—{4}{U}, Sacrifice a creature. [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Gain control of target creature.
+I — Return all creatures except target creature to their owner's hands.
+II, III — Each player shuffles their hand into their library, then draws cards equal to the greatest number of cards a player shuffled in this way. => Lyric—{4}{U}, Sacrifice a creature. [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Gain control of target creature.
+Return all creatures except target creature to their owner's hands.
+Each player shuffles their hand into their library, then draws cards equal to the greatest number of cards a player shuffled in this way.
+
+Storm
+rules_text: Lyric {2}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Tap up to two target creatures and put a stun counter on each of them.
+III — Whenever a creature you control deals combat damage to a player this turn, draw a card.
+​ => Lyric {2}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Tap up to two target creatures and put a stun counter on each of them.
+Whenever a creature you control deals combat damage to a player this turn, draw a card.
+​
+special_text: Lyric {2}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Tap up to two target creatures and put a stun counter on each of them.
+III — Whenever a creature you control deals combat damage to a player this turn, draw a card.
+​ => Lyric {2}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Tap up to two target creatures and put a stun counter on each of them.
+Whenever a creature you control deals combat damage to a player this turn, draw a card.
+​
+
+Suffering
+rules_text: Lyric {5}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Create two 3/3 blue Siren creature tokens.
+Draw three cards.
+II, III — Any number of creatures each becomes a copy of target nonlegendary creature until end of turn. => Lyric {5}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Create two 3/3 blue Siren creature tokens.
+Draw three cards.
+Any number of creatures each becomes a copy of target nonlegendary creature until end of turn.
+special_text: Lyric {5}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Create two 3/3 blue Siren creature tokens.
+Draw three cards.
+II, III — Any number of creatures each becomes a copy of target nonlegendary creature until end of turn. => Lyric {5}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Create two 3/3 blue Siren creature tokens.
+Draw three cards.
+Any number of creatures each becomes a copy of target nonlegendary creature until end of turn.
+
+Little Wolf
+rules_text: Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Destroy target creature. You lose 3 life.
+II, III — Target creature you control gets +3/+0 and gains lifelink until end of turn. If damage would be dealt to it this turn, you lose that much life instead.
+​ => Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Destroy target creature. You lose 3 life.
+Target creature you control gets +3/+0 and gains lifelink until end of turn. If damage would be dealt to it this turn, you lose that much life instead.
+​
+special_text: Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Destroy target creature. You lose 3 life.
+II, III — Target creature you control gets +3/+0 and gains lifelink until end of turn. If damage would be dealt to it this turn, you lose that much life instead.
+​ => Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Destroy target creature. You lose 3 life.
+Target creature you control gets +3/+0 and gains lifelink until end of turn. If damage would be dealt to it this turn, you lose that much life instead.
+​
+
+Hold Them Down
+rules_text: Lyric {1}{B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Destroy target up to one target creature.
+II — Exile target player's graveyard. You gain 2 life for each nonland card exiled this way.
+III — Until end of turn, permanents you control gain “When this permanent dies, each opponent loses 2 life.” => Lyric {1}{B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Destroy target up to one target creature.
+Exile target player's graveyard. You gain 2 life for each nonland card exiled this way.
+Until end of turn, permanents you control gain “When this permanent dies, each opponent loses 2 life.”
+special_text: Lyric {1}{B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Destroy target up to one target creature.
+II — Exile target player's graveyard. You gain 2 life for each nonland card exiled this way.
+III — Until end of turn, permanents you control gain “When this permanent dies, each opponent loses 2 life.” => Lyric {1}{B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Destroy target up to one target creature.
+Exile target player's graveyard. You gain 2 life for each nonland card exiled this way.
+Until end of turn, permanents you control gain “When this permanent dies, each opponent loses 2 life.”
+
+No Longer You
+rules_text: Lyric {B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Target player reveals their hand. You choose a nonland card from it. That player discards that card. Then if it is their turn, they draw a card.
+III — Mill three cards. You may put a card milled this way into your hand.
+​ => Lyric {B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Target player reveals their hand. You choose a nonland card from it. That player discards that card. Then if it is their turn, they draw a card.
+Mill three cards. You may put a card milled this way into your hand.
+​
+special_text: Lyric {B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Target player reveals their hand. You choose a nonland card from it. That player discards that card. Then if it is their turn, they draw a card.
+III — Mill three cards. You may put a card milled this way into your hand.
+​ => Lyric {B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Target player reveals their hand. You choose a nonland card from it. That player discards that card. Then if it is their turn, they draw a card.
+Mill three cards. You may put a card milled this way into your hand.
+​
+
+Not Sorry For Loving You
+rules_text: Lyric {B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Your maximum hand size is reduced by two for each lore counter on this Saga.
+I, II, III, IV — You draw a card and you lose 1 life.
+​ => Lyric {B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Your maximum hand size is reduced by two for each lore counter on this Saga.
+You draw a card and you lose 1 life.
+​
+special_text: Lyric {B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Your maximum hand size is reduced by two for each lore counter on this Saga.
+I, II, III, IV — You draw a card and you lose 1 life.
+​ => Lyric {B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Your maximum hand size is reduced by two for each lore counter on this Saga.
+You draw a card and you lose 1 life.
+​
+
+Scylla
+rules_text: Lyric {6}{B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Exile the top card of each opponent's library until you exile two nonland cards. You may cast any number of cards exiled this way without paying their mana costs.
+II — Create a 6/6 blue Demon Leviathan creature token.
+III — Each player sacrifices six non-Demon creatures of their choice. Each player who sacrificed six creatures this way draws six cards. => Lyric {6}{B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Exile the top card of each opponent's library until you exile two nonland cards. You may cast any number of cards exiled this way without paying their mana costs.
+Create a 6/6 blue Demon Leviathan creature token.
+Each player sacrifices six non-Demon creatures of their choice. Each player who sacrificed six creatures this way draws six cards.
+special_text: Lyric {6}{B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Exile the top card of each opponent's library until you exile two nonland cards. You may cast any number of cards exiled this way without paying their mana costs.
+II — Create a 6/6 blue Demon Leviathan creature token.
+III — Each player sacrifices six non-Demon creatures of their choice. Each player who sacrificed six creatures this way draws six cards. => Lyric {6}{B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Exile the top card of each opponent's library until you exile two nonland cards. You may cast any number of cards exiled this way without paying their mana costs.
+Create a 6/6 blue Demon Leviathan creature token.
+Each player sacrifices six non-Demon creatures of their choice. Each player who sacrificed six creatures this way draws six cards.
+
+The Underworld
+rules_text: Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Target player sacrifices a creature of their choice.
+II — Return target creature card with mana value 2 or less from your graveyard to the battlefield.
+III — Each opponent loses 3 life and you gain 3 life. => Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Target player sacrifices a creature of their choice.
+Return target creature card with mana value 2 or less from your graveyard to the battlefield.
+Each opponent loses 3 life and you gain 3 life.
+special_text: Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Target player sacrifices a creature of their choice.
+II — Return target creature card with mana value 2 or less from your graveyard to the battlefield.
+III — Each opponent loses 3 life and you gain 3 life. => Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Target player sacrifices a creature of their choice.
+Return target creature card with mana value 2 or less from your graveyard to the battlefield.
+Each opponent loses 3 life and you gain 3 life.
+
+We'll Be Fine
+rules_text: Lyric {R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Exile target instant or sorcery card from your graveyard. Until the end of your next turn, you may cast a copy of that card.
+III — The next time you cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.
+​ => Lyric {R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Exile target instant or sorcery card from your graveyard. Until the end of your next turn, you may cast a copy of that card.
+The next time you cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.
+​
+special_text: Lyric {R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Exile target instant or sorcery card from your graveyard. Until the end of your next turn, you may cast a copy of that card.
+III — The next time you cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.
+​ => Lyric {R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Exile target instant or sorcery card from your graveyard. Until the end of your next turn, you may cast a copy of that card.
+The next time you cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.
+​
+
+Dangerous
+rules_text: Lyric {R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Create a 1/1 white Soldier creature token. This Saga deals 1 damage to each opponent.
+III — Target creature you control gets +3/+1 until end of turn.
+​ => Lyric {R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Create a 1/1 white Soldier creature token. This Saga deals 1 damage to each opponent.
+Target creature you control gets +3/+1 until end of turn.
+​
+special_text: Lyric {R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Create a 1/1 white Soldier creature token. This Saga deals 1 damage to each opponent.
+III — Target creature you control gets +3/+1 until end of turn.
+​ => Lyric {R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Create a 1/1 white Soldier creature token. This Saga deals 1 damage to each opponent.
+Target creature you control gets +3/+1 until end of turn.
+​
+
+Mutiny
+rules_text: Lyric {3}{R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Gain control of target creature until end of turn. Untap it and it gains haste until end of turn.
+III — Create three 1/1 white Soldier creature tokens.
+​ => Lyric {3}{R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Gain control of target creature until end of turn. Untap it and it gains haste until end of turn.
+Create three 1/1 white Soldier creature tokens.
+​
+special_text: Lyric {3}{R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Gain control of target creature until end of turn. Untap it and it gains haste until end of turn.
+III — Create three 1/1 white Soldier creature tokens.
+​ => Lyric {3}{R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Gain control of target creature until end of turn. Untap it and it gains haste until end of turn.
+Create three 1/1 white Soldier creature tokens.
+​
+
+Puppeteer
+rules_text: Lyric {3}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Until your next turn, creatures your opponents control attack each combat if able.
+II — This Saga deals 6 damage to up to one target tapped creature.
+III — Target player sacrifices a nonland permanent of their choice. => Lyric {3}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Until your next turn, creatures your opponents control attack each combat if able.
+This Saga deals 6 damage to up to one target tapped creature.
+Target player sacrifices a nonland permanent of their choice.
+special_text: Lyric {3}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Until your next turn, creatures your opponents control attack each combat if able.
+II — This Saga deals 6 damage to up to one target tapped creature.
+III — Target player sacrifices a nonland permanent of their choice. => Lyric {3}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Until your next turn, creatures your opponents control attack each combat if able.
+This Saga deals 6 damage to up to one target tapped creature.
+Target player sacrifices a nonland permanent of their choice.
+
+There Are Other Ways
+rules_text: Lyric—{2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Any opponent may have this Saga deal 4 damage to them. If no one does, destroy all artifacts.
+III — Any opponent may have this Saga deal 4 damage to them. If no one does, draw three cards.
+​ => Lyric—{2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Any opponent may have this Saga deal 4 damage to them. If no one does, destroy all artifacts.
+Any opponent may have this Saga deal 4 damage to them. If no one does, draw three cards.
+​
+special_text: Lyric—{2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Any opponent may have this Saga deal 4 damage to them. If no one does, destroy all artifacts.
+III — Any opponent may have this Saga deal 4 damage to them. If no one does, draw three cards.
+​ => Lyric—{2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Any opponent may have this Saga deal 4 damage to them. If no one does, destroy all artifacts.
+Any opponent may have this Saga deal 4 damage to them. If no one does, draw three cards.
+​
+
+Wouldn't You Like
+rules_text: Lyric {2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — You create two tapped Treasure tokens unless an opponent has you create a 3/3 green Cyclops creature token with trample.
+III — Create a token that's a copy of target creature you control, except it has haste and “At the beginning of the end step, exile this permanent.”
+​ => Lyric {2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+You create two tapped Treasure tokens unless an opponent has you create a 3/3 green Cyclops creature token with trample.
+Create a token that's a copy of target creature you control, except it has haste and “At the beginning of the end step, exile this permanent.”
+​
+special_text: Lyric {2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — You create two tapped Treasure tokens unless an opponent has you create a 3/3 green Cyclops creature token with trample.
+III — Create a token that's a copy of target creature you control, except it has haste and “At the beginning of the end step, exile this permanent.”
+​ => Lyric {2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+You create two tapped Treasure tokens unless an opponent has you create a 3/3 green Cyclops creature token with trample.
+Create a token that's a copy of target creature you control, except it has haste and “At the beginning of the end step, exile this permanent.”
+​
+
+Charybdis
+rules_text: Lyric {4}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Draw cards equal to the greatest power among creatures you control.
+II — Create a 7/7 green Octopus Horror creature token with vigilance.
+III — Creatures you control must be blocked this turn if able. => Lyric {4}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Draw cards equal to the greatest power among creatures you control.
+Create a 7/7 green Octopus Horror creature token with vigilance.
+Creatures you control must be blocked this turn if able.
+special_text: Lyric {4}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Draw cards equal to the greatest power among creatures you control.
+II — Create a 7/7 green Octopus Horror creature token with vigilance.
+III — Creatures you control must be blocked this turn if able. => Lyric {4}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Draw cards equal to the greatest power among creatures you control.
+Create a 7/7 green Octopus Horror creature token with vigilance.
+Creatures you control must be blocked this turn if able.
+
+God Games
+rules_text: Lyric {3}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II, III, IV — Add {W}{U}{B}{R}{G}. This mana can't be spent to pay generic mana costs. At the beginning of the next end step, if you've spent {W}{U}{B}{R}{G} to cast spells this turn, search your library for a legendary card, reveal it, put it into your hand, then shuffle.
+​
+​ => Lyric {3}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Add {W}{U}{B}{R}{G}. This mana can't be spent to pay generic mana costs. At the beginning of the next end step, if you've spent {W}{U}{B}{R}{G} to cast spells this turn, search your library for a legendary card, reveal it, put it into your hand, then shuffle.
+​
+​
+special_text: Lyric {3}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II, III, IV — Add {W}{U}{B}{R}{G}. This mana can't be spent to pay generic mana costs. At the beginning of the next end step, if you've spent {W}{U}{B}{R}{G} to cast spells this turn, search your library for a legendary card, reveal it, put it into your hand, then shuffle.
+​
+​ => Lyric {3}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Add {W}{U}{B}{R}{G}. This mana can't be spent to pay generic mana costs. At the beginning of the next end step, if you've spent {W}{U}{B}{R}{G} to cast spells this turn, search your library for a legendary card, reveal it, put it into your hand, then shuffle.
+​
+​
+
+The Challenge
+rules_text: Lyric {2}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Target creature you control gets +2/+2 and gains hexproof until end of turn.
+III — Search your library for a basic land card, put it onto the battlefield, then shuffle.
+​ => Lyric {2}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Target creature you control gets +2/+2 and gains hexproof until end of turn.
+Search your library for a basic land card, put it onto the battlefield, then shuffle.
+​
+special_text: Lyric {2}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Target creature you control gets +2/+2 and gains hexproof until end of turn.
+III — Search your library for a basic land card, put it onto the battlefield, then shuffle.
+​ => Lyric {2}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Target creature you control gets +2/+2 and gains hexproof until end of turn.
+Search your library for a basic land card, put it onto the battlefield, then shuffle.
+​
+
+Different Beast
+rules_text: Lyric {1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Target creature you control fights target creature you don't control.
+III — Distribute two +1/+1 counters among up to two target creatures.
+​ => Lyric {1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Target creature you control fights target creature you don't control.
+Distribute two +1/+1 counters among up to two target creatures.
+​
+special_text: Lyric {1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Target creature you control fights target creature you don't control.
+III — Distribute two +1/+1 counters among up to two target creatures.
+​ => Lyric {1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Target creature you control fights target creature you don't control.
+Distribute two +1/+1 counters among up to two target creatures.
+​
+
+My Goodbye
+rules_text: Lyric—{1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Mill three cards. You may return a creature or land card from your graveyard to your hand.
+III — Search your library and graveyard for a creature card, reveal it, put it into your hand, then shuffle your graveyard into your library.
+​ => Lyric—{1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Mill three cards. You may return a creature or land card from your graveyard to your hand.
+Search your library and graveyard for a creature card, reveal it, put it into your hand, then shuffle your graveyard into your library.
+​
+special_text: Lyric—{1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I, II — Mill three cards. You may return a creature or land card from your graveyard to your hand.
+III — Search your library and graveyard for a creature card, reveal it, put it into your hand, then shuffle your graveyard into your library.
+​ => Lyric—{1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Mill three cards. You may return a creature or land card from your graveyard to your hand.
+Search your library and graveyard for a creature card, reveal it, put it into your hand, then shuffle your graveyard into your library.
+​
+
+Polyphemus
+rules_text: Lyric {1}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Create two 1/1 green Sheep Food artifact creature tokens with “{2}, {T}, Sacrifice this token: You gain 3 life.”
+II — You may sacrifice a token. If you do, you gain 7 life.
+III — Create a 3/3 green Cyclops creature token with trample. => Lyric {1}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Create two 1/1 green Sheep Food artifact creature tokens with “{2}, {T}, Sacrifice this token: You gain 3 life.”
+You may sacrifice a token. If you do, you gain 7 life.
+Create a 3/3 green Cyclops creature token with trample.
+special_text: Lyric {1}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+I — Create two 1/1 green Sheep Food artifact creature tokens with “{2}, {T}, Sacrifice this token: You gain 3 life.”
+II — You may sacrifice a token. If you do, you gain 7 life.
+III — Create a 3/3 green Cyclops creature token with trample. => Lyric {1}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]
+Create two 1/1 green Sheep Food artifact creature tokens with “{2}, {T}, Sacrifice this token: You gain 3 life.”
+You may sacrifice a token. If you do, you gain 7 life.
+Create a 3/3 green Cyclops creature token with trample.
+
+Dakra Isles
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
