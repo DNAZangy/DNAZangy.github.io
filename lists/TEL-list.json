@@ -173,7 +173,7 @@
         "shape": "adventure",
         "set": "TEL",
         "rotated": false,
-        "position": "300"
+        "position": "299"
     },
     {
         "card_name": "Descend to Tizerus",
@@ -272,7 +272,7 @@
         "position": "66"
     },
     {
-        "card_name": "Gulgagastra, the Everchurning",
+        "card_name": "Gulgagastra, Everchurning",
         "number": 168,
         "shape": "normal",
         "set": "TEL",
@@ -349,7 +349,7 @@
         "shape": "adventure",
         "set": "TEL",
         "rotated": false,
-        "position": "307"
+        "position": "306"
     },
     {
         "card_name": "Nylea's Judgment",
@@ -533,7 +533,7 @@
         "shape": "adventure",
         "set": "TEL",
         "rotated": false,
-        "position": "299"
+        "position": "298"
     },
     {
         "card_name": "First Doubt",
@@ -1021,7 +1021,7 @@
         "shape": "adventure",
         "set": "TEL",
         "rotated": false,
-        "position": "303"
+        "position": "302"
     },
     {
         "card_name": "Curious Dockhand",
@@ -1069,7 +1069,7 @@
         "shape": "adventure",
         "set": "TEL",
         "rotated": false,
-        "position": "306"
+        "position": "305"
     },
     {
         "card_name": "Bassara Tower Archer",
@@ -1141,7 +1141,7 @@
         "shape": "adventure",
         "set": "TEL",
         "rotated": false,
-        "position": "304"
+        "position": "303"
     },
     {
         "card_name": "Join the Fray",
@@ -1213,7 +1213,7 @@
         "shape": "adventure",
         "set": "TEL",
         "rotated": false,
-        "position": "302"
+        "position": "301"
     },
     {
         "card_name": "Omen of Affliction",
@@ -1229,7 +1229,7 @@
         "shape": "adventure",
         "set": "TEL",
         "rotated": false,
-        "position": "305"
+        "position": "304"
     },
     {
         "card_name": "Inseparable Pair",
@@ -1277,7 +1277,7 @@
         "shape": "adventure",
         "set": "TEL",
         "rotated": false,
-        "position": "308"
+        "position": "307"
     },
     {
         "card_name": "Meletian Conscripts",
@@ -1293,7 +1293,7 @@
         "shape": "transform double faced",
         "set": "TEL",
         "rotated": false,
-        "position": "344"
+        "position": "342"
     },
     {
         "card_name": "Pidae Fugitive",
@@ -1437,7 +1437,7 @@
         "shape": "adventure",
         "set": "TEL",
         "rotated": false,
-        "position": "309"
+        "position": "308"
     },
     {
         "card_name": "Unwelcome Home",
@@ -1453,7 +1453,7 @@
         "shape": "adventure",
         "set": "TEL",
         "rotated": false,
-        "position": "301"
+        "position": "300"
     },
     {
         "card_name": "Run Through",
@@ -1485,7 +1485,7 @@
         "shape": "adventure",
         "set": "TEL",
         "rotated": false,
-        "position": "298"
+        "position": "297"
     },
     {
         "card_name": "Triton Tidewarden",
@@ -2145,7 +2145,7 @@
         "shape": "adventure",
         "set": "TEL",
         "rotated": false,
-        "position": "310"
+        "position": "309"
     },
     {
         "card_name": "e"
@@ -2575,6 +2575,14 @@
         "position": "281"
     },
     {
+        "card_name": "Spirit",
+        "number": 2,
+        "shape": "token",
+        "set": "TEL",
+        "rotated": false,
+        "position": "344"
+    },
+    {
         "card_name": "Food",
         "number": 43,
         "shape": "token",
@@ -2588,19 +2596,11 @@
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "297"
-    },
-    {
-        "card_name": "Forest",
-        "number": 45,
-        "shape": "token",
-        "set": "TEL",
-        "rotated": false,
-        "position": "292"
+        "position": "296"
     },
     {
         "card_name": "Forest Dryad",
-        "number": 46,
+        "number": 45,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
@@ -2608,7 +2608,7 @@
     },
     {
         "card_name": "Army",
-        "number": 2,
+        "number": 3,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
@@ -2616,39 +2616,39 @@
     },
     {
         "card_name": "Bravery",
-        "number": 3,
+        "number": 4,
+        "shape": "token",
+        "set": "TEL",
+        "rotated": false,
+        "position": "320"
+    },
+    {
+        "card_name": "Daybreak Coronet",
+        "number": 5,
+        "shape": "token",
+        "set": "TEL",
+        "rotated": false,
+        "position": "326"
+    },
+    {
+        "card_name": "Glory of Mortals",
+        "number": 6,
+        "shape": "token",
+        "set": "TEL",
+        "rotated": false,
+        "position": "332"
+    },
+    {
+        "card_name": "Heliod's Light",
+        "number": 7,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
         "position": "321"
     },
     {
-        "card_name": "Daybreak Coronet",
-        "number": 4,
-        "shape": "token",
-        "set": "TEL",
-        "rotated": false,
-        "position": "327"
-    },
-    {
-        "card_name": "Glory of Mortals",
-        "number": 5,
-        "shape": "token",
-        "set": "TEL",
-        "rotated": false,
-        "position": "333"
-    },
-    {
-        "card_name": "Heliod's Light",
-        "number": 6,
-        "shape": "token",
-        "set": "TEL",
-        "rotated": false,
-        "position": "322"
-    },
-    {
         "card_name": "Soldier",
-        "number": 7,
+        "number": 8,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
@@ -2656,134 +2656,126 @@
     },
     {
         "card_name": "Uplift",
-        "number": 8,
-        "shape": "token",
-        "set": "TEL",
-        "rotated": false,
-        "position": "319"
-    },
-    {
-        "card_name": "Carry Past",
         "number": 9,
-        "shape": "token",
-        "set": "TEL",
-        "rotated": false,
-        "position": "315"
-    },
-    {
-        "card_name": "Demon Leviathan",
-        "number": 10,
-        "shape": "token",
-        "set": "TEL",
-        "rotated": false,
-        "position": "342"
-    },
-    {
-        "card_name": "Good Intel",
-        "number": 11,
-        "shape": "token",
-        "set": "TEL",
-        "rotated": false,
-        "position": "337"
-    },
-    {
-        "card_name": "Inevitable Tide",
-        "number": 12,
-        "shape": "token",
-        "set": "TEL",
-        "rotated": false,
-        "position": "316"
-    },
-    {
-        "card_name": "Merfolk",
-        "number": 13,
-        "shape": "token",
-        "set": "TEL",
-        "rotated": false,
-        "position": "339"
-    },
-    {
-        "card_name": "Phenax's Gift",
-        "number": 14,
-        "shape": "token",
-        "set": "TEL",
-        "rotated": false,
-        "position": "317"
-    },
-    {
-        "card_name": "Siren",
-        "number": 15,
-        "shape": "token",
-        "set": "TEL",
-        "rotated": false,
-        "position": "294"
-    },
-    {
-        "card_name": "Unravel Threads",
-        "number": 16,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
         "position": "318"
     },
     {
-        "card_name": "Anguish",
-        "number": 17,
+        "card_name": "Carry Past",
+        "number": 10,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "332"
+        "position": "314"
     },
     {
-        "card_name": "Call to Rule",
-        "number": 18,
+        "card_name": "Demon Leviathan",
+        "number": 11,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "320"
+        "position": "340"
     },
     {
-        "card_name": "Creeping Rot",
-        "number": 19,
+        "card_name": "Good Intel",
+        "number": 12,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
         "position": "336"
     },
     {
-        "card_name": "Gift of Stone",
+        "card_name": "Inevitable Tide",
+        "number": 13,
+        "shape": "token",
+        "set": "TEL",
+        "rotated": false,
+        "position": "315"
+    },
+    {
+        "card_name": "Merfolk",
+        "number": 14,
+        "shape": "token",
+        "set": "TEL",
+        "rotated": false,
+        "position": "338"
+    },
+    {
+        "card_name": "Phenax's Gift",
+        "number": 15,
+        "shape": "token",
+        "set": "TEL",
+        "rotated": false,
+        "position": "316"
+    },
+    {
+        "card_name": "Siren",
+        "number": 16,
+        "shape": "token",
+        "set": "TEL",
+        "rotated": false,
+        "position": "293"
+    },
+    {
+        "card_name": "Unravel Threads",
+        "number": 17,
+        "shape": "token",
+        "set": "TEL",
+        "rotated": false,
+        "position": "317"
+    },
+    {
+        "card_name": "Anguish",
+        "number": 18,
+        "shape": "token",
+        "set": "TEL",
+        "rotated": false,
+        "position": "331"
+    },
+    {
+        "card_name": "Call to Rule",
+        "number": 19,
+        "shape": "token",
+        "set": "TEL",
+        "rotated": false,
+        "position": "319"
+    },
+    {
+        "card_name": "Creeping Rot",
         "number": 20,
-        "shape": "token",
-        "set": "TEL",
-        "rotated": false,
-        "position": "334"
-    },
-    {
-        "card_name": "Harpy",
-        "number": 21,
-        "shape": "token",
-        "set": "TEL",
-        "rotated": false,
-        "position": "295"
-    },
-    {
-        "card_name": "Rise Once More",
-        "number": 22,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
         "position": "335"
     },
     {
-        "card_name": "Shade",
+        "card_name": "Gift of Stone",
+        "number": 21,
+        "shape": "token",
+        "set": "TEL",
+        "rotated": false,
+        "position": "333"
+    },
+    {
+        "card_name": "Harpy",
+        "number": 22,
+        "shape": "token",
+        "set": "TEL",
+        "rotated": false,
+        "position": "294"
+    },
+    {
+        "card_name": "Rise Once More",
         "number": 23,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "343"
+        "position": "334"
     },
     {
-        "card_name": "Zombie",
+        "card_name": "Shade",
         "number": 24,
         "shape": "token",
         "set": "TEL",
@@ -2791,23 +2783,23 @@
         "position": "341"
     },
     {
-        "card_name": "Aid of Iroas",
+        "card_name": "Zombie",
         "number": 25,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "312"
+        "position": "339"
     },
     {
-        "card_name": "Blessing of Slaughter",
+        "card_name": "Aid of Iroas",
         "number": 26,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "314"
+        "position": "311"
     },
     {
-        "card_name": "Consume Shame",
+        "card_name": "Blessing of Slaughter",
         "number": 27,
         "shape": "token",
         "set": "TEL",
@@ -2815,24 +2807,32 @@
         "position": "313"
     },
     {
-        "card_name": "Messenger's Speed",
+        "card_name": "Consume Shame",
         "number": 28,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "325"
+        "position": "312"
     },
     {
-        "card_name": "Pierced Heart",
+        "card_name": "Messenger's Speed",
         "number": 29,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "331"
+        "position": "324"
+    },
+    {
+        "card_name": "Pierced Heart",
+        "number": 30,
+        "shape": "token",
+        "set": "TEL",
+        "rotated": false,
+        "position": "330"
     },
     {
         "card_name": "Soldier",
-        "number": 30,
+        "number": 31,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
@@ -2840,59 +2840,51 @@
     },
     {
         "card_name": "Blanchwood Armor",
-        "number": 31,
-        "shape": "token",
-        "set": "TEL",
-        "rotated": false,
-        "position": "329"
-    },
-    {
-        "card_name": "Centaur",
         "number": 32,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "345"
+        "position": "328"
     },
     {
-        "card_name": "Cyclops",
+        "card_name": "Centaur",
         "number": 33,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "293"
+        "position": "343"
     },
     {
-        "card_name": "Growth",
+        "card_name": "Cyclops",
         "number": 34,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "326"
+        "position": "292"
     },
     {
-        "card_name": "Mythic Proportions",
+        "card_name": "Growth",
         "number": 35,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "324"
+        "position": "325"
     },
     {
-        "card_name": "Octopus Horror",
+        "card_name": "Mythic Proportions",
         "number": 36,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "338"
+        "position": "323"
     },
     {
-        "card_name": "Satyr",
+        "card_name": "Octopus Horror",
         "number": 37,
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "340"
+        "position": "337"
     },
     {
         "card_name": "Setessan Training",
@@ -2900,7 +2892,7 @@
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "311"
+        "position": "310"
     },
     {
         "card_name": "Sheep Food",
@@ -2908,7 +2900,7 @@
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "296"
+        "position": "295"
     },
     {
         "card_name": "Wild Growth",
@@ -2916,7 +2908,7 @@
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "323"
+        "position": "322"
     },
     {
         "card_name": "Blinding Visions",
@@ -2924,7 +2916,7 @@
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "328"
+        "position": "327"
     },
     {
         "card_name": "Smuggle",
@@ -2932,19 +2924,7 @@
         "shape": "token",
         "set": "TEL",
         "rotated": false,
-        "position": "330"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
+        "position": "329"
     },
     {
         "card_name": "er"

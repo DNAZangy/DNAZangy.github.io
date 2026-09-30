@@ -5,7 +5,7 @@
 			<name>TEL</name>
 			<longname>Theros the Elekteid</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-26</releasedate>
+			<releasedate>2026-09-30</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -14,7 +14,7 @@
 			<text>You can&apos;t cast Heliod unless your devotion to white is five or more.
 Indestructible
 Whenever Heliod enters or attacks, you may exile another target creature or enchantment, then return it to the battlefield tapped under its owner&apos;s control.
-{1}{W}, Discard Heliod: Exile target creature or enchantment, then return it to the battlefield under its owner&apos;s control.</text>
+{1}{W}, Discard Heliod: Exile target creature or enchantment, then return it to the battlefield tapped under its owner&apos;s control.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/TEL-files/img/0.png" num="14">TEL</set>
 			<prop>
 				<layout>normal</layout>
@@ -61,11 +61,11 @@ Whenever Erebos enters or attacks, up to one target creature gets -2/-2 until en
 				<side>front</side>
 				<type>Legendary Enchantment Creature — God</type>
 				<maintype>Creature</maintype>
-				<manacost>1BB</manacost>
-				<cmc>3</cmc>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>5/4</pt>
+				<pt>6/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -81,11 +81,11 @@ Whenever Purphoros enters or attacks, exile the top two cards of your library. Y
 				<side>front</side>
 				<type>Legendary Enchantment Creature — God</type>
 				<maintype>Creature</maintype>
-				<manacost>1RR</manacost>
-				<cmc>3</cmc>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>5/4</pt>
+				<pt>6/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -288,6 +288,7 @@ Landfall — Whenever a land you control enters, create a 1/1 white Soldier crea
 				<cmc>3</cmc>
 				<colors>WG</colors>
 				<coloridentity>WG</coloridentity>
+				<pt>5/5</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -603,7 +604,7 @@ Scry 2, then you gain 4 life.
 			<text>Lyric—{W}, Tap an untapped creature you control. (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
 I — Destroy up to one target artifact or enchantment.
 II — Put a +1/+1 counter and a prowess counter on target creature you control.
-III — Return target nonland permanent card with mana value 3 or less from your graveyard to the battlefield.</text>
+III — Return target nonland, non-Saga permanent card with mana value 3 or less from your graveyard to the battlefield.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/28.png" num="269">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -620,8 +621,8 @@ III — Return target nonland permanent card with mana value 3 or less from your
 		<card>
 			<name>Get in the Water</name>
 			<text>Lyric {1}{U} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Put a defender counter on target creature.
-Until end of turn, target permanent you control becomes a God enchantment creature with base power and toughness 5/5
+I, II — Put a defender counter on target creature.
+III — Until end of turn, target permanent you control becomes a God enchantment creature with base power and toughness 5/5.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/29.png" num="270">TEL</set>
 			<prop>
@@ -677,8 +678,8 @@ You may return a non-Saga permanent you control to its owner&apos;s hand.</text>
 		<card>
 			<name>Keep Your Friends Close</name>
 			<text>Lyric {1}{U} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Target opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard.
-Exile target instant or sorcery spell from your graveyard. Copy that card and you may cast the copy.
+I, II — Look at the top three cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one pile to put into your graveyard. Put the other pile into your hand.
+III — Exile target instant or sorcery spell from your graveyard. Copy that card and you may cast the copy.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/32.png" num="272">TEL</set>
 			<prop>
@@ -698,7 +699,7 @@ Exile target instant or sorcery spell from your graveyard. Copy that card and yo
 			<text>Lyric {1}{U}{U} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
 Flash
 Counter target spell.
-Draw two cards, then discard a card.</text>
+I, II, III — Draw two cards, then discard a card.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/33.png" num="274">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -734,8 +735,8 @@ Each player shuffles their hand into their library, then draws cards equal to th
 		<card>
 			<name>Storm</name>
 			<text>Lyric {2}{U} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Tap up to two target creatures and put a stun counter on each of them.
-Whenever a creature you control deals combat damage to a player this turn, draw a card.
+I — Tap up to two target creatures and put a stun counter on each of them.
+II, III — Whenever a creature you control deals combat damage to a player this turn, draw a card.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/35.png" num="276">TEL</set>
 			<prop>
@@ -755,7 +756,7 @@ Whenever a creature you control deals combat damage to a player this turn, draw 
 			<text>Lyric {5}{U} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
 Create two 3/3 blue Siren creature tokens.
 Draw three cards.
-Any number of creatures each becomes a copy of target nonlegendary creature until end of turn.</text>
+I — Any number of creatures each becomes a copy of target nonlegendary creature until end of turn.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/36.png" num="277">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -772,8 +773,8 @@ Any number of creatures each becomes a copy of target nonlegendary creature unti
 		<card>
 			<name>Little Wolf</name>
 			<text>Lyric {1}{B} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Destroy target creature. You lose 3 life.
-Target creature you control gets +3/+0 and gains lifelink until end of turn. If damage would be dealt to it this turn, you lose that much life instead.
+I — Destroy target creature. You lose 3 life.
+II, III — Target creature you control gets +3/+0 and gains lifelink until end of turn. If damage would be dealt to it this turn, you lose that much life instead.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/37.png" num="279">TEL</set>
 			<prop>
@@ -811,8 +812,8 @@ Until end of turn, permanents you control gain &quot;When this permanent dies, e
 			<name>Monster</name>
 			<text>Lyric—{B}{B}{B}, Pay 3 life. (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
 I — All creatures get -3/-3 until end of turn.
-II — Search your library for a card and put that card into your hand. Then shuffle.
-III — Return target creature card with mana value 5 or less from your graveyard to the battlefield.</text>
+II — Search your library for a card with mana value less than or equal to the number of creature cards in your graveyard, reveal it, put it into your hand, then shuffle.
+III — Return target creature card with mana value 5 or less from your graveyard to the battlefield. It can&apos;t block this turn.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/39.png" num="280">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -829,8 +830,8 @@ III — Return target creature card with mana value 5 or less from your graveyar
 		<card>
 			<name>No Longer You</name>
 			<text>Lyric {B}{B} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Target player reveals their hand. You choose a nonland card from it. That player discards that card. Then if it is their turn, they draw a card.
-Mill three cards. You may put a card milled this way into your hand.
+I — Target player reveals their hand. You choose a nonland card from it. That player discards that card. Then if it is their turn, they draw a card.
+II, III — Mill three cards. You may put a card milled this way into your hand.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/40.png" num="281">TEL</set>
 			<prop>
@@ -849,7 +850,7 @@ Mill three cards. You may put a card milled this way into your hand.
 			<name>Not Sorry For Loving You</name>
 			<text>Lyric {B} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
 Your maximum hand size is reduced by two for each lore counter on this Saga.
-You draw a card and you lose 1 life.
+I, II, III, IV — You draw a card and you lose 1 life.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/41.png" num="282">TEL</set>
 			<prop>
@@ -867,9 +868,9 @@ You draw a card and you lose 1 life.
 		<card>
 			<name>Scylla</name>
 			<text>Lyric {6}{B}{B} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Exile the top card of each opponent&apos;s library until you exile two nonland cards. You may cast any number of cards exiled this way without paying their mana costs.
+I, II — Exile the top card of each opponent&apos;s library until you exile two nonland cards. You may cast any number of cards exiled this way without paying their mana costs.
 Create a 6/6 blue Demon Leviathan creature token.
-Each player sacrifices six non-Demon creatures of their choice. Each player who sacrificed six creatures this way draws six cards.</text>
+III — Each player sacrifices six non-Demon creatures of their choice. Each player who sacrificed six creatures this way draws six cards.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/42.png" num="283">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -887,8 +888,8 @@ Each player sacrifices six non-Demon creatures of their choice. Each player who 
 			<name>The Underworld</name>
 			<text>Lyric {1}{B} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
 Target player sacrifices a creature of their choice.
-Return target creature card with mana value 2 or less from your graveyard to the battlefield.
-Each opponent loses 3 life and you gain 3 life.</text>
+I — Return target creature card with mana value 2 or less from your graveyard to the battlefield.
+II — Each opponent loses 3 life and you gain 3 life.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/43.png" num="284">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -905,8 +906,8 @@ Each opponent loses 3 life and you gain 3 life.</text>
 		<card>
 			<name>We&apos;ll Be Fine</name>
 			<text>Lyric {R}{R} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Exile target instant or sorcery card from your graveyard. Until the end of your next turn, you may cast a copy of that card.
-The next time you cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.
+I, II — Exile target instant or sorcery card from your graveyard. Until the end of your next turn, you may cast a copy of that card.
+III — The next time you cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/44.png" num="290">TEL</set>
 			<prop>
@@ -924,8 +925,8 @@ The next time you cast an instant or sorcery spell this turn, copy it. You may c
 		<card>
 			<name>Dangerous</name>
 			<text>Lyric {R} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Create a 1/1 white Soldier creature token. This Saga deals 1 damage to each opponent.
-Target creature you control gets +3/+1 until end of turn.
+I, II — Create a 1/1 white Soldier creature token. This Saga deals 1 damage to each opponent.
+III — Target creature you control gets +3/+1 until end of turn.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/45.png" num="285">TEL</set>
 			<prop>
@@ -942,10 +943,10 @@ Target creature you control gets +3/+1 until end of turn.
 		</card>
 		<card>
 			<name>Done For</name>
-			<text>Lyric {R}{R} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
+			<text>Lyric {2}{R} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
 I — This Saga deals 3 damage to any target.
 II — Discard a card. If you do, draw two cards.
-III — Creatures you control get +1/+0 and gain trample until end of turn.</text>
+III — Creatures you control get +2/+0 and gain trample until end of turn.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/46.png" num="286">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -962,8 +963,8 @@ III — Creatures you control get +1/+0 and gain trample until end of turn.</tex
 		<card>
 			<name>Mutiny</name>
 			<text>Lyric {3}{R}{R} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Gain control of target creature until end of turn. Untap it and it gains haste until end of turn.
-Create three 1/1 white Soldier creature tokens.
+I, II — Gain control of target creature until end of turn. Untap it and it gains haste until end of turn.
+III — Create three 1/1 white Soldier creature tokens.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/47.png" num="287">TEL</set>
 			<prop>
@@ -981,9 +982,9 @@ Create three 1/1 white Soldier creature tokens.
 		<card>
 			<name>Puppeteer</name>
 			<text>Lyric {3}{R} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Until your next turn, creatures your opponents control attack each combat if able.
+I — Until your next turn, creatures your opponents control attack each combat if able.
 This Saga deals 6 damage to up to one target tapped creature.
-Target player sacrifices a nonland permanent of their choice.</text>
+II — Target player sacrifices a nonland permanent of their choice.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/48.png" num="288">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -1000,8 +1001,8 @@ Target player sacrifices a nonland permanent of their choice.</text>
 		<card>
 			<name>There Are Other Ways</name>
 			<text>Lyric—{2}{R} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Any opponent may have this Saga deal 4 damage to them. If no one does, destroy all artifacts.
-Any opponent may have this Saga deal 4 damage to them. If no one does, draw three cards.
+I — Any opponent may have this Saga deal 4 damage to them. If no one does, destroy all artifacts.
+II, III — Any opponent may have this Saga deal 4 damage to them. If no one does, draw three cards.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/49.png" num="289">TEL</set>
 			<prop>
@@ -1038,8 +1039,8 @@ III — Exile the top three cards of your library. You may play them until your 
 		<card>
 			<name>Wouldn&apos;t You Like</name>
 			<text>Lyric {2}{R} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-You create two tapped Treasure tokens unless an opponent has you create a 3/3 green Cyclops creature token with trample.
-Create a token that&apos;s a copy of target creature you control, except it has haste and &quot;At the beginning of the end step, exile this permanent.&quot;
+I, II — You create two tapped Treasure tokens unless an opponent has you create a 3/3 green Cyclops creature token with trample.
+III — Create a token that&apos;s a copy of target creature you control, except it has haste and &quot;At the beginning of the end step, exile this permanent.&quot;
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/51.png" num="292">TEL</set>
 			<prop>
@@ -1057,9 +1058,9 @@ Create a token that&apos;s a copy of target creature you control, except it has 
 		<card>
 			<name>Charybdis</name>
 			<text>Lyric {4}{G}{G} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Draw cards equal to the greatest power among creatures you control.
-Create a 7/7 green Octopus Horror creature token with vigilance.
-Creatures you control must be blocked this turn if able.</text>
+I — Draw cards equal to the greatest power among creatures you control.
+II — Create a 7/7 green Octopus Horror creature token with vigilance.
+III — Creatures you control must be blocked this turn if able.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/52.png" num="293">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -1076,7 +1077,7 @@ Creatures you control must be blocked this turn if able.</text>
 		<card>
 			<name>God Games</name>
 			<text>Lyric {3}{G} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Add {W}{U}{B}{R}{G}. This mana can&apos;t be spent to pay generic mana costs. At the beginning of the next end step, if you&apos;ve spent {W}{U}{B}{R}{G} to cast spells this turn, search your library for a legendary card, reveal it, put it into your hand, then shuffle.
+I, II, III, IV — Add {W}{U}{B}{R}{G}. This mana can&apos;t be spent to pay generic mana costs. At the beginning of the next end step, if you&apos;ve spent {W}{U}{B}{R}{G} to cast spells this turn, search your library for a legendary card, reveal it, put it into your hand, then shuffle.
 ​
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/53.png" num="295">TEL</set>
@@ -1095,8 +1096,8 @@ Add {W}{U}{B}{R}{G}. This mana can&apos;t be spent to pay generic mana costs. At
 		<card>
 			<name>The Challenge</name>
 			<text>Lyric {2}{G} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Target creature you control gets +2/+2 and gains hexproof until end of turn.
-Search your library for a basic land card, put it onto the battlefield, then shuffle.
+I — Target creature you control gets +2/+2 and gains hexproof until end of turn.
+II, III — Search your library for a basic land card, put it onto the battlefield, then shuffle.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/54.png" num="300">TEL</set>
 			<prop>
@@ -1115,7 +1116,7 @@ Search your library for a basic land card, put it onto the battlefield, then shu
 			<name>Different Beast</name>
 			<text>Lyric {1}{G} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
 Target creature you control fights target creature you don&apos;t control.
-Distribute two +1/+1 counters among up to two target creatures.
+I, II, III — Distribute two +1/+1 counters among up to two target creatures.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/55.png" num="294">TEL</set>
 			<prop>
@@ -1133,8 +1134,8 @@ Distribute two +1/+1 counters among up to two target creatures.
 		<card>
 			<name>My Goodbye</name>
 			<text>Lyric—{1}{G} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Mill three cards. You may return a creature or land card from your graveyard to your hand.
-Search your library and graveyard for a creature card, reveal it, put it into your hand, then shuffle your graveyard into your library.
+I, II — Mill three cards. You may return a creature or land card from your graveyard to your hand.
+III — Search your library and graveyard for a creature card with mana value 4 or less, reveal it, put it into your hand, then shuffle your graveyard into your library. Then discard a card.
 ​</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/56.png" num="296">TEL</set>
 			<prop>
@@ -1152,9 +1153,9 @@ Search your library and graveyard for a creature card, reveal it, put it into yo
 		<card>
 			<name>Polyphemus</name>
 			<text>Lyric {1}{G}{G} (You may cast any of this Saga&apos;s chapters from your hand as an instant spell for its lyric cost.)
-Create two 1/1 green Sheep Food artifact creature tokens with &quot;{2}, {T}, Sacrifice this token: You gain 3 life.&quot;
-You may sacrifice a token. If you do, you gain 7 life.
-Create a 3/3 green Cyclops creature token with trample.</text>
+I — Create two 1/1 green Sheep Food artifact creature tokens with &quot;{2}, {T}, Sacrifice this token: You gain 3 life.&quot;
+II — You may sacrifice a token. If you do, you gain 7 life.
+III — Create a 3/3 green Cyclops creature token with trample.</text>
 			<set rarity="special" picurl="https://DNAZangy.github.io/sets/TEL-files/img/57.png" num="297">TEL</set>
 			<prop>
 				<layout>saga</layout>
@@ -1390,9 +1391,8 @@ Sacrifice this creature: Creatures you control get +1/+0 and gain indestructible
 		</card>
 		<card>
 			<name>Deiraia, Toll Taker</name>
-			<text>Deiraia costs {3} less to cast for each card you&apos;ve drawn this turn.
+			<text>Deiraia costs {2} less to cast for each card you&apos;ve drawn this turn.
 Trample
-Spells your opponents cast that target Deiraia that cost less than six mana to cast cost six mana to cast.
 Whenever Deiraia deals combat damage to a player, draw that many cards.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TEL-files/img/69.png" num="43">TEL</set>
 			<prop>
@@ -1400,11 +1400,11 @@ Whenever Deiraia deals combat damage to a player, draw that many cards.</text>
 				<side>front</side>
 				<type>Legendary Creature — Demon Leviathan</type>
 				<maintype>Creature</maintype>
-				<manacost>9UU</manacost>
-				<cmc>11</cmc>
+				<manacost>6UUU</manacost>
+				<cmc>9</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
-				<pt>7/7</pt>
+				<pt>6/6</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1563,7 +1563,7 @@ Enchanted creature gets +8/+8 and has trample.</text>
 		</card>
 		<card>
 			<name>Bed of Akros</name>
-			<text>{1}, {T}: Choose a number. Target opponent guesses whether one or more cards in your hand have the chosen mana valuer. Then you may reveal your hand. If you do and they guessed wrong, draw a card. If you do and they guessed right, each player draws a card.</text>
+			<text>{1}, {T}: Choose a number. Target opponent guesses whether one or more cards in your hand have the chosen mana value. Then you may reveal your hand. If you do and they guessed wrong, draw a card. If you do and they guessed right, each player draws a card.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TEL-files/img/78.png" num="4">TEL</set>
 			<prop>
 				<layout>normal</layout>
@@ -1718,7 +1718,7 @@ As long as this creature is monstrous, other Merfolk you control get +1/+1.</tex
 		</card>
 		<card>
 			<name>Skeptic of Erebos</name>
-			<text>Zombies you control get +1/+1.
+			<text>Other Zombies you control get +1/+1.
 Embark {2} ({2}, Discard this card: Draw a card, then conjure a copy of this card&apos;s backside into your library third from the top.)
 ---
 (Back): Ruthless Palamnite</text>
@@ -1804,8 +1804,8 @@ At the beginning of combat on your turn, create three 1/1 white Soldier creature
 		</card>
 		<card>
 			<name>Gift of Truth</name>
-			<text>When Gift enters or is put into a graveyard from the battlefield, prepare each unprepared creature you control.
-{2}, {T}, Sacrifice Gift: You gain 3 life.</text>
+			<text>When Gift of Truth enters or is put into a graveyard from the battlefield, prepare each unprepared creature you control.
+{2}, {T}, Sacrifice Gift of Truth: You gain 3 life.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TEL-files/img/87.png" num="166">TEL</set>
 			<prop>
 				<layout>normal</layout>
@@ -1931,8 +1931,7 @@ At the beginning of combat on your turn, put a +1/+1 counter on each creature yo
 		</card>
 		<card>
 			<name>Salome&apos;s Trick</name>
-			<text>Flash
-When this enchantment enters, exile all creatures and artifacts until this enchantment leaves the battlefield.</text>
+			<text>When this enchantment enters, exile all creatures and artifacts until this enchantment leaves the battlefield.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TEL-files/img/93.png" num="27">TEL</set>
 			<prop>
 				<layout>normal</layout>
@@ -1983,9 +1982,9 @@ When this creature enters, it deals 4 damage divided as you choose among any num
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Gulgagastra, the Everchurning</name>
+			<name>Gulgagastra, Everchurning</name>
 			<text>Vigilance, ward {2}
-Whenever Gulgagastra attacks, you may tap her put a stun counter on her. If you do, untap each other permanent you control.</text>
+Whenever Gulgagastra attacks, you may tap her and put a stun counter on her. If you do, untap each other permanent you control.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TEL-files/img/96.png" num="168">TEL</set>
 			<prop>
 				<layout>normal</layout>
@@ -2404,7 +2403,7 @@ Embark {GU}{GU} ({GU}{GU}, Discard this card: Draw a card, then conjure a copy o
 			<name>Hand of Thassa</name>
 			<text>Flying
 Whenever you cast a noncreature spell, choose one. If you cast that spell from anywhere other than your hand, choose both instead.
-• Create a 2/1 white Merfolk creature token with prowess.
+• Create a 2/1 blue Merfolk creature token with prowess.
 • Put a +1/+1 counter on this creature and you gain 2 life.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TEL-files/img/107.png" num="195">TEL</set>
 			<prop>
@@ -2531,7 +2530,7 @@ At the beginning of your end step, if you control exactly two creatures, draw a 
 			<name>Alethra, the Unwavering</name>
 			<text>Other creatures you control get +2/+2 and have vigilance.
 Suspend 20—{W} (Rather than cast this card from your hand, you may pay {W} and exile it with twenty time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)
-Whenever you attack with one or more creatures while Alethra is suspended, remove twice that many time counters from her.</text>
+Whenever you attack, remove two time counters from Alethra for each attacking creature if she is suspended..</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TEL-files/img/111.png" num="2">TEL</set>
 			<prop>
 				<layout>normal</layout>
@@ -2609,14 +2608,14 @@ When this enchantment enters, it deals 3 damage to any target you don&apos;t con
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
 				<manacost>1RW</manacost>
 				<cmc>3</cmc>
 				<colors>WR</colors>
 				<coloridentity>WR</coloridentity>
 			</prop>
-			<tablerow>3</tablerow>
+			<tablerow>1</tablerow>
 		</card>
 		<card>
 			<name>Baryphon, Shepherd of Stone</name>
@@ -2780,7 +2779,7 @@ Each opponent sacrifices a creature or planeswalker of their choice.</text>
 		<card>
 			<name>Toll of Flesh</name>
 			<text>{1}, Sacrifice a creature: This enchantment deals 1 damage to any target. Put a hunger counter on this enchantment.
-As long as this enchantment has six or more hunger counters on it, it is a 6/6 blue Demon Leviathan enchantment creature. (Instead of its other types.)</text>
+As long as this enchantment has six or more hunger counters on it, it is a 6/6 blue Demon Leviathan enchantment creature.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TEL-files/img/125.png" num="148">TEL</set>
 			<prop>
 				<layout>normal</layout>
@@ -2911,7 +2910,7 @@ Draw two cards.
 ---
 
 Enchant creature
-At the beginning of your end step, put a +1/+1 counter enchanted creature.</text>
+At the beginning of your end step, put a +1/+1 counter on enchanted creature.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TEL-files/img/131.png" num="164">TEL</set>
 			<prop>
 				<layout>adventure</layout>
@@ -2983,7 +2982,7 @@ At the beginning of each end step, if an opponent was dealt damage this turn, ex
 		</card>
 		<card>
 			<name>Gore</name>
-			<text>This spell deals 5 damage to target creature or planeswalker. If you control a Minotaur, it deals 1 damage to each other creature and planeswalker your opponents control.</text>
+			<text>Gore deals 5 damage to target creature or planeswalker. If you control a Minotaur, it deals 1 damage to each other creature and planeswalker your opponents control.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TEL-files/img/135.png" num="122">TEL</set>
 			<prop>
 				<layout>normal</layout>
@@ -3201,7 +3200,7 @@ Enchanted creature gets +3/+3 and can&apos;t be blocked by creatures with power 
 		</card>
 		<card>
 			<name>Devout Helmsman</name>
-			<text>Whenever you draw your second card each turn, create a 1/1 white Spirit creature token with flying.
+			<text>Whenever you draw your second card each turn, create a 1/1 colorless Spirit creature token with flying.
 Whenever you draw your fourth card each turn, create a 3/3 blue Siren creature token.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TEL-files/img/143.png" num="45">TEL</set>
 			<prop>
@@ -3290,16 +3289,17 @@ Once during each of your turns, you may exile a card from your graveyard. You ma
 		</card>
 		<card>
 			<name>Refuse the Call</name>
-			<text>You may sacrifice a God rather than pay this spell&apos;s mana cost.
-Counter target spell.</text>
+			<text>As long as you control an Island, you may sacrifice a God rather than pay this spell&apos;s mana cost.
+Counter target spell.
+Draw a card.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TEL-files/img/148.png" num="60">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Instant</type>
 				<maintype>Instant</maintype>
-				<manacost>1UU</manacost>
-				<cmc>3</cmc>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
@@ -3308,7 +3308,7 @@ Counter target spell.</text>
 		<card>
 			<name>First Doubt</name>
 			<text>Target opponent reveals their hand. You choose a creature or enchantment from it. That player discards that card.
-Embark {3} ({3}, Discard this card: Draw a card, then conjure a copy of this card&apos;s backside into your library third from the top.)
+Embark {2} ({2}, Discard this card: Draw a card, then conjure a copy of this card&apos;s backside into your library third from the top.)
 ---
 (Back): Open Mutiny</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TEL-files/img/149_front.png" num="91a">TEL</set>
@@ -3483,7 +3483,7 @@ If this creature would die while it has a +1/+1 counter on it, instead remove a 
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Human Army</type>
+				<type>Creature — Human Soldier Army</type>
 				<maintype>Creature</maintype>
 				<manacost>1W</manacost>
 				<cmc>2</cmc>
@@ -3626,7 +3626,7 @@ Return target nonland permanent to its owner&apos;s hand.</text>
 		<card>
 			<name>Twofold Scorn</name>
 			<text>When you cast this spell, you may copy it if your devotion to red is four or greater. You may choose new targets for the copy. (Each {R} in the mana costs of permanents you control counts toward your devotion to red.)
-This spell deals 3 damage to target creature or planeswalker.</text>
+Twofold Scorn deals 3 damage to target creature or planeswalker.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TEL-files/img/165.png" num="150">TEL</set>
 			<prop>
 				<layout>normal</layout>
@@ -3970,7 +3970,7 @@ Enchanted creature gets +1/+1 for each Forest you control.</text>
 		</card>
 		<card>
 			<name>Read the Signs</name>
-			<text>Create a token that&apos;s a copy of target enchantment you control, except it&apos;s a 3/3 Spirit creature in addition to its types.
+			<text>Create a token that&apos;s a copy of target enchantment you control, except it&apos;s a 3/3 Spirit enchantment creature in addition to its types.
 Embark {2} ({2}, Discard this card: Draw a card, then conjure a copy of this card&apos;s backside into your library third from the top.)
 ---
 (Back): Welcome Home</text>
@@ -3991,7 +3991,7 @@ Embark {2} ({2}, Discard this card: Draw a card, then conjure a copy of this car
 		<card>
 			<name>Welcome Home</name>
 			<text>(You can&apos;t play this side unless it was conjured.)
-Create two tokens that are each a copy of target enchantment you control, except they&apos;re 3/3 Spirit creatures in addition to their types.
+Create two tokens that are each a copy of target enchantment you control, except they&apos;re 3/3 Spirit enchantment creatures in addition to their types.
 ---
 (Front): Read the Signs</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TEL-files/img/181_back.png" num="25b">TEL</set>
@@ -4431,7 +4431,7 @@ When this creature enters, create a Treasure token.</text>
 				<cmc>4</cmc>
 				<colors>RG</colors>
 				<coloridentity>RG</coloridentity>
-				<pt>4/4</pt>
+				<pt>5/5</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -4610,7 +4610,7 @@ At the beginning of combat on your turn, another target creature you control can
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature</type>
+				<type>Creature — Sphinx Wizard</type>
 				<maintype>Creature</maintype>
 				<manacost>4U</manacost>
 				<cmc>5</cmc>
@@ -4720,7 +4720,7 @@ When this enchantment enters, it deals 2 damage to target attacking or blocking 
 				<cmc>2</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>1/1</pt>
+				<pt>1/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -4831,7 +4831,7 @@ When this creature enters, put a +1/+1 counter on another target creature you co
 		<card>
 			<name>Dakra Island Scavenger</name>
 			<text>Flying
-Whenever one or more other creatures die, scry 1.</text>
+Whenever one or more other creatures you control die, scry 1.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/228.png" num="84">TEL</set>
 			<prop>
 				<layout>normal</layout>
@@ -4848,7 +4848,7 @@ Whenever one or more other creatures die, scry 1.</text>
 		</card>
 		<card>
 			<name>Blinding Brand</name>
-			<text>This spell deals 6 damage to target creature or planeswalker. Scry 2.</text>
+			<text>Blinding Brand deals 6 damage to target creature or planeswalker. Scry 2.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/229.png" num="115">TEL</set>
 			<prop>
 				<layout>normal</layout>
@@ -4937,7 +4937,7 @@ When this creature enters, target creature an opponent controls gets -X/-X until
 		<card>
 			<name>Omen of Destiny</name>
 			<text>Flash
-When this enchantment enters, target creature gets +3/+3 and gains trample until end of turn.
+When this enchantment enters, target creature gets +3/+0 and gains trample until end of turn.
 {2}{R}, Sacrifice this enchantment: Scry 2.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/234.png" num="133">TEL</set>
 			<prop>
@@ -4945,8 +4945,8 @@ When this enchantment enters, target creature gets +3/+3 and gains trample until
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>1R</manacost>
-				<cmc>2</cmc>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
@@ -4973,7 +4973,7 @@ As long as you&apos;ve scried or surveiled this turn, this creature can attack a
 		</card>
 		<card>
 			<name>Stab Him in the Eye!</name>
-			<text>This spell deals 2 damage to any target.
+			<text>Stab Him in the Eye! deals 2 damage to any target.
 The next creature spell you cast this turn gains haste.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/236.png" num="144">TEL</set>
 			<prop>
@@ -5179,7 +5179,7 @@ Whenever you draw your second card each turn, put a +1/+1 counter on this creatu
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Merfolk</type>
+				<type>Creature — Merfolk Wizard</type>
 				<maintype>Creature</maintype>
 				<manacost>3U</manacost>
 				<cmc>4</cmc>
@@ -5333,7 +5333,7 @@ Embark {2} ({2}, Discard this card: Draw a card, then conjure a copy of this car
 		<card>
 			<name>Still Beating</name>
 			<text>(You can&apos;t play this side unless it was conjured.)
-Create a 2/2 red Soldier creature token. This spell deals 2 damage to each opponent.
+Create a 2/2 red Soldier creature token. Still Beating deals 2 damage to each opponent.
 ---
 (Front): Joy of Two Hearts</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/254_back.png" num="127b">TEL</set>
@@ -5426,7 +5426,7 @@ Enchanted creature gets +2/+2 and has vigilance.</text>
 		<card>
 			<name>Omen of Harvests</name>
 			<text>Flash
-When this enchantment enters, mill three cards, then return a creature or land card milled this way to your hand.
+When this enchantment enters, mill two cards, then return a permanent card milled this way to your hand.
 {2}{G}, Sacrifice this enchantment: Scry 2.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/259.png" num="179">TEL</set>
 			<prop>
@@ -5434,8 +5434,8 @@ When this enchantment enters, mill three cards, then return a creature or land c
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>1G</manacost>
-				<cmc>2</cmc>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 			</prop>
@@ -5485,8 +5485,8 @@ Scry 2, then draw two cards. Create a Food token.</text>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>2B</manacost>
-				<cmc>3</cmc>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -5531,7 +5531,7 @@ When this creature enters, look at the top three cards of your library. You may 
 			<name>Erebos&apos;s Judgment</name>
 			<text>Choose one. If your devotion to black is three or greater, you may choose another. If it is six or greater, choose any number instead.
 • Target player sacrifices a creature or planeswalker of their choice.
-• Target player reveals their hand. Choose a nonland card from it. That player discards that card.
+• Target player reveals their hand. Choose a noncreature, nonland card from it. That player discards that card.
 • Target player exiles their graveyard.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TEL-files/img/265.png" num="89">TEL</set>
 			<prop>
@@ -5549,9 +5549,9 @@ When this creature enters, look at the top three cards of your library. You may 
 		<card>
 			<name>Heliod&apos;s Judgment</name>
 			<text>Choose one. If your devotion to white is three or greater, you may choose another. If it is six or greater, choose any number instead.
-• Return each creature card with mana value X or less from your graveyard to the battlefield.
+• Return up to twice X target creature card with mana value X or less from your graveyard to the battlefield.
 • Exile target nonland permanent with mana value less than the amount of mana spent to cast this spell.
-• You gain life equal to the amount of mana spent to cast this spell.</text>
+• Target player gains life equal to the amount of mana spent to cast this spell.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TEL-files/img/266.png" num="15">TEL</set>
 			<prop>
 				<layout>normal</layout>
@@ -5569,7 +5569,7 @@ When this creature enters, look at the top three cards of your library. You may 
 			<name>Nylea&apos;s Judgment</name>
 			<text>Choose one. If your devotion to green is three or greater, you may choose another. If it is six or greater, choose any number instead.
 • Each opponent sacrifices an artifact or enchantment of their choice.
-• Create a tapped green Forest Dryad land creature token. (It is a land creature with &quot;{T}: Add {G}.&quot;)
+• Create a tapped 1/1 green Forest Dryad land creature token. (It is a land creature with &quot;{T}: Add {G}.&quot;)
 • You gain 5 life.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TEL-files/img/267.png" num="178">TEL</set>
 			<prop>
@@ -5675,7 +5675,7 @@ When this land enters, scry 1.
 		</card>
 		<card>
 			<name>Surveying Gemita</name>
-			<text>Search your library for a basic land or Cave card, reveal it, put it into your hand, then shuffle.
+			<text>Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
 Embark {2} ({2}, Discard this card: Draw a card, then conjure a copy of this card&apos;s backside into your library third from the top.)
 ---
 (Back): Gemita Guardian</text>
@@ -5961,7 +5961,7 @@ The owner of target nonland permanent puts it into their library second from the
 		<card>
 			<name>Soldier TEL</name>
 			<text></text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/287.png" num="7">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/287.png" num="8">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5979,7 +5979,7 @@ The owner of target nonland permanent puts it into their library second from the
 		<card>
 			<name>Army TEL</name>
 			<text></text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/288.png" num="2">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/288.png" num="3">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5997,7 +5997,7 @@ The owner of target nonland permanent puts it into their library second from the
 		<card>
 			<name>Soldier TEL</name>
 			<text></text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/289.png" num="30">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/289.png" num="31">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6030,7 +6030,7 @@ The owner of target nonland permanent puts it into their library second from the
 		<card>
 			<name>Forest Dryad TEL</name>
 			<text>{T}: Add {G}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/291.png" num="46">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/291.png" num="45">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6045,25 +6045,9 @@ The owner of target nonland permanent puts it into their library second from the
 			<token>1</token>
 		</card>
 		<card>
-			<name>Forest TEL</name>
-			<text>({T}: Add {G}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/292.png" num="45">TEL</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Token Land — Forest</type>
-				<maintype>Land</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<coloridentity>G</coloridentity>
-			</prop>
-			<tablerow>0</tablerow>
-			<token>1</token>
-		</card>
-		<card>
 			<name>Cyclops TEL</name>
 			<text>Trample</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/293.png" num="33">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/292.png" num="34">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6081,7 +6065,7 @@ The owner of target nonland permanent puts it into their library second from the
 		<card>
 			<name>Siren TEL</name>
 			<text></text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/294.png" num="15">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/293.png" num="16">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6099,7 +6083,7 @@ The owner of target nonland permanent puts it into their library second from the
 		<card>
 			<name>Harpy TEL</name>
 			<text>Flying</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/295.png" num="21">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/294.png" num="22">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6117,7 +6101,7 @@ The owner of target nonland permanent puts it into their library second from the
 		<card>
 			<name>Sheep Food TEL</name>
 			<text>{2}, {T}, Sacrifice this token: You gain 3 life.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/296.png" num="39">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/295.png" num="39">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6135,7 +6119,7 @@ The owner of target nonland permanent puts it into their library second from the
 		<card>
 			<name>Treasure TEL</name>
 			<text>{T}, Sacrifice this token: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/297.png" num="44">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/296.png" num="44">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6155,7 +6139,7 @@ The owner of target nonland permanent puts it into their library second from the
 
 Enchant creature
 Creatures you control get +1/+1.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/298.png" num="38">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/297.png" num="38">TEL</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -6179,7 +6163,7 @@ Ruthlessness (Dealing excess or unblocked damage while attacking prepares this. 
 
 Enchant creature
 Enchanted creature gets +1/+0 and has prowess.</text>
-			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TEL-files/img/299.png" num="46">TEL</set>
+			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/TEL-files/img/298.png" num="46">TEL</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -6201,7 +6185,7 @@ Enchanted creature gets +1/+0 and has prowess.</text>
 
 Enchant creature
 Enchanted creature has &quot;At the beginning of your upkeep, return a nonland permanent you control to its owner&apos;s hand.&quot;</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TEL-files/img/300.png" num="49">TEL</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TEL-files/img/299.png" num="49">TEL</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -6224,7 +6208,7 @@ When this creature enters, tap target creature an opponent controls and put a st
 
 Enchant creature
 {2}{U}: Enchanted creature can&apos;t be blocked this turn.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/301.png" num="69">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/300.png" num="69">TEL</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -6247,7 +6231,7 @@ Ruthlessness (Dealing excess or unblocked damage while attacking prepares this. 
 
 Enchant creature
 Whenever enchanted creature deals combat damage to a player, sacrifice this enchantment and draw a card.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/302.png" num="56">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/301.png" num="56">TEL</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -6269,8 +6253,8 @@ Ruthlessness (Dealing excess or unblocked damage while attacking prepares this. 
 ---
 
 Enchant creature
-Whenever this creature dies, create a 2/2 black Zombie creature token. You gain 2 life.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/303.png" num="81">TEL</set>
+Whenever enchanted creature dies, create a 2/2 black Zombie creature token. You gain 2 life.</text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/302.png" num="81">TEL</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -6293,7 +6277,7 @@ Ruthlessness (Dealing excess or unblocked damage while attacking prepares this. 
 
 Enchant creature
 Whenever enchanted creature dies, you may exile it. When you do, return target creature card from your graveyard to your hand.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/304.png" num="90">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/303.png" num="90">TEL</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -6316,7 +6300,7 @@ Ruthlessness (Dealing excess or unblocked damage while attacking prepares this. 
 
 Enchant creature
 Enchanted creature has trample and haste.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/305.png" num="129">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/304.png" num="129">TEL</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -6338,7 +6322,7 @@ Enchanted creature has trample and haste.</text>
 
 Enchant creature
 When enchanted creature dies, it deals 1 damage to each opponent. Create a Treasure token.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/306.png" num="119">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/305.png" num="119">TEL</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -6362,7 +6346,7 @@ Ruthlessness (Dealing excess or unblocked damage while attacking prepares this. 
 Enchant creature
 Noncreature spells you cast cost {1} less to cast.
 Enchanted creature has menace.</text>
-			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TEL-files/img/307.png" num="147">TEL</set>
+			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/TEL-files/img/306.png" num="147">TEL</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -6385,7 +6369,7 @@ Ruthlessness (Dealing excess or unblocked damage while attacking prepares this. 
 
 Enchant land
 Whenever enchanted land is tapped for mana, its controller adds an additional {G}.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/308.png" num="174">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/307.png" num="174">TEL</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -6407,7 +6391,7 @@ Whenever enchanted land is tapped for mana, its controller adds an additional {G
 
 Enchant creature
 Enchanted creature gets +1/+1 has trample.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/309.png" num="184">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/308.png" num="184">TEL</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -6430,7 +6414,7 @@ Ruthlessness (Dealing excess or unblocked damage while attacking prepares this. 
 
 Enchant creature
 Enchanted creature can&apos;t be blocked by more than one creature.</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/310.png" num="223">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/309.png" num="223">TEL</set>
 			<prop>
 				<layout>adventure</layout>
 				<side>front</side>
@@ -6449,7 +6433,7 @@ Enchanted creature can&apos;t be blocked by more than one creature.</text>
 			<text>Enchant creature
 Enchanted creature gets +1/+1 has trample.
 (This token&apos;s mana cost is {1}{G}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/311.png" num="38">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/310.png" num="38">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6469,7 +6453,7 @@ Enchanted creature gets +1/+1 has trample.
 Noncreature spells you cast cost {1} less to cast.
 Enchanted creature has menace.
 (This token&apos;s mana cost is {3}{R}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/312.png" num="25">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/311.png" num="26">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6488,7 +6472,7 @@ Enchanted creature has menace.
 			<text>Enchant creature
 When enchanted creature dies, it deals 1 damage to each opponent. Create a Treasure token.
 (This token&apos;s mana cost is {R}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/313.png" num="27">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/312.png" num="28">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6507,7 +6491,7 @@ When enchanted creature dies, it deals 1 damage to each opponent. Create a Treas
 			<text>Enchant creature
 Enchanted creature has double strike.
 (This token&apos;s mana cost is {2}{R}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/314.png" num="26">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/313.png" num="27">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6526,7 +6510,7 @@ Enchanted creature has double strike.
 			<text>Enchant creature
 {2}{U}: Enchanted creature can&apos;t be blocked this turn.
 (This token&apos;s mana cost is {1}{U}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/315.png" num="9">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/314.png" num="10">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6545,7 +6529,7 @@ Enchanted creature has double strike.
 			<text>Enchant creature
 Enchanted creature has &quot;At the beginning of your upkeep, return a nonland permanent you control to its owner&apos;s hand.&quot;
 (This token&apos;s mana cost is {2}{U}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/316.png" num="12">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/315.png" num="13">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6564,7 +6548,7 @@ Enchanted creature has &quot;At the beginning of your upkeep, return a nonland p
 			<text>Enchant creature
 Enchanted creature gets +1/+0 and has prowess.
 (This token&apos;s mana cost is {1}{U}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/317.png" num="14">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/316.png" num="15">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6583,7 +6567,7 @@ Enchanted creature gets +1/+0 and has prowess.
 			<text>Enchant creature
 Enchanted creature has &quot;At the beginning of your upkeep, tap this creature unless you exile a card from your graveyard.&quot;
 (This token&apos;s mana cost is {1}{U}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/318.png" num="16">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/317.png" num="17">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6602,7 +6586,7 @@ Enchanted creature has &quot;At the beginning of your upkeep, tap this creature 
 			<text>Enchant creature
 Enchanted creature is a Spirit with base power and toughness 4/4 with flying and vigilance instead of its other types.
 (This token&apos;s mana cost is {2}{W}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/319.png" num="8">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/318.png" num="9">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6622,7 +6606,7 @@ Enchanted creature is a Spirit with base power and toughness 4/4 with flying and
 Enchant creature
 Enchanted creature gets +2/+2.
 (This token&apos;s mana cost is {1}{B}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/320.png" num="18">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/319.png" num="19">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6641,7 +6625,7 @@ Enchanted creature gets +2/+2.
 			<text>Enchant creature
 Enchanted creature gets +2/+2 and has vigilance.
 (This token&apos;s mana cost is {4}{W}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/321.png" num="3">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/320.png" num="4">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6660,7 +6644,7 @@ Enchanted creature gets +2/+2 and has vigilance.
 			<text>Enchant creature
 Enchanted creature gets +X/+X, where X is your devotion to white. (Each {W} in the mana costs of permanents you control counts toward your devotion to white.)
 (This token&apos;s mana cost is {3}{W}{W}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/322.png" num="6">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/321.png" num="7">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6679,7 +6663,7 @@ Enchanted creature gets +X/+X, where X is your devotion to white. (Each {W} in t
 			<text>Enchant land
 Whenever enchanted land is tapped for mana, its controller adds an additional {G}.
 (This token&apos;s mana cost is {G}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/323.png" num="40">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/322.png" num="40">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6698,7 +6682,7 @@ Whenever enchanted land is tapped for mana, its controller adds an additional {G
 			<text>Enchant creature
 Enchanted creature gets +8/+8 and has trample.
 (This token&apos;s mana cost is {4}{G}{G}{G}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/324.png" num="35">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/323.png" num="36">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6717,7 +6701,7 @@ Enchanted creature gets +8/+8 and has trample.
 			<text>Enchant creature
 Enchanted creature has trample and haste.
 (This token&apos;s mana cost is {R}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/325.png" num="28">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/324.png" num="29">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6736,7 +6720,7 @@ Enchanted creature has trample and haste.
 			<text>Enchant creature
 At the beginning of your end step, put a +1/+1 counter enchanted creature.
 (This token&apos;s mana cost is {1}{G}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/326.png" num="34">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/325.png" num="35">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6755,7 +6739,7 @@ At the beginning of your end step, put a +1/+1 counter enchanted creature.
 			<text>Enchant creature with another Aura attached to it.
 Enchanted creature gets +3/+3 and has first strike, vigilance, and lifelink.
 (This token&apos;s mana cost is {W}{W}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/327.png" num="4">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/326.png" num="5">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6774,7 +6758,7 @@ Enchanted creature gets +3/+3 and has first strike, vigilance, and lifelink.
 			<text>Enchant player
 Noncreature spells enchanted player cast cost {1} more to cast.
 (This token&apos;s mana cost is {2}{WU}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/328.png" num="41">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/327.png" num="41">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6793,7 +6777,7 @@ Noncreature spells enchanted player cast cost {1} more to cast.
 			<text>Enchant creature
 Enchanted creature gets +1/+1 for each Forest you control.
 (This token&apos;s mana cost is {2}{G}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/329.png" num="31">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/328.png" num="32">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6812,7 +6796,7 @@ Enchanted creature gets +1/+1 for each Forest you control.
 			<text>Enchant creature
 Enchanted creature can&apos;t be blocked by more than one creature.
 (This token&apos;s mana cost is {1}{GU}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/330.png" num="42">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/329.png" num="42">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6831,7 +6815,7 @@ Enchanted creature can&apos;t be blocked by more than one creature.
 			<text>Enchant player
 At the beginning of enchanted player&apos;s upkeep, this Aura deals 1 damage to that player.
 (This token&apos;s mana cost is {1}{R}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/331.png" num="29">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/330.png" num="30">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6850,7 +6834,7 @@ At the beginning of enchanted player&apos;s upkeep, this Aura deals 1 damage to 
 			<text>Enchant creature
 Enchanted creature gets -1/-1 and can&apos;t block Zombies.
 (This token&apos;s mana cost is {B}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/332.png" num="17">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/331.png" num="18">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6869,7 +6853,7 @@ Enchanted creature gets -1/-1 and can&apos;t block Zombies.
 			<text>Enchant creature
 Creatures you control get +1/+1.
 (This token&apos;s mana cost is {3}{W}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/333.png" num="5">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/332.png" num="6">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6888,7 +6872,7 @@ Creatures you control get +1/+1.
 			<text>Enchant player
 At the beginning of each end step, enchanted player loses 2 life if they&apos;ve lost life this turn.
 (This token&apos;s mana cost is {2}{B}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/334.png" num="20">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/333.png" num="21">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6907,7 +6891,7 @@ At the beginning of each end step, enchanted player loses 2 life if they&apos;ve
 			<text>Enchant creature
 Whenever enchanted creature dies, you may exile it. When you do, return target creature card from your graveyard to your hand.
 (This token&apos;s mana cost is {3}{B}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/335.png" num="22">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/334.png" num="23">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6924,9 +6908,9 @@ Whenever enchanted creature dies, you may exile it. When you do, return target c
 		<card>
 			<name>Creeping Rot TEL</name>
 			<text>Enchant creature
-Whenever this creature dies, create a 2/2 black Zombie creature token. You gain 2 life.
+Whenever enchanted creature dies, create a 2/2 black Zombie creature token. You gain 2 life.
 (This token&apos;s mana cost is {2}{B}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/336.png" num="19">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/335.png" num="20">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6945,7 +6929,7 @@ Whenever this creature dies, create a 2/2 black Zombie creature token. You gain 
 			<text>Enchant creature
 Whenever enchanted creature deals combat damage to a player, sacrifice this enchantment and draw a card.
 (This token&apos;s mana cost is {U}.)</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/337.png" num="11">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/336.png" num="12">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6962,7 +6946,7 @@ Whenever enchanted creature deals combat damage to a player, sacrifice this ench
 		<card>
 			<name>Octopus Horror TEL</name>
 			<text>Vigilance</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/338.png" num="36">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/337.png" num="37">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6980,7 +6964,7 @@ Whenever enchanted creature deals combat damage to a player, sacrifice this ench
 		<card>
 			<name>Merfolk TEL</name>
 			<text>Prowess</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/339.png" num="13">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/338.png" num="14">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -6996,27 +6980,9 @@ Whenever enchanted creature deals combat damage to a player, sacrifice this ench
 			<token>1</token>
 		</card>
 		<card>
-			<name>Satyr TEL</name>
-			<text></text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/340.png" num="37">TEL</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Token Creature — Satyr</type>
-				<maintype>Creature</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<colors>G</colors>
-				<coloridentity>G</coloridentity>
-				<pt>2/2</pt>
-			</prop>
-			<tablerow>2</tablerow>
-			<token>1</token>
-		</card>
-		<card>
 			<name>Zombie TEL</name>
 			<text></text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/341.png" num="24">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/339.png" num="25">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -7034,7 +7000,7 @@ Whenever enchanted creature deals combat damage to a player, sacrifice this ench
 		<card>
 			<name>Demon Leviathan TEL</name>
 			<text></text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/342.png" num="10">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/340.png" num="11">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -7052,7 +7018,7 @@ Whenever enchanted creature deals combat damage to a player, sacrifice this ench
 		<card>
 			<name>Shade TEL</name>
 			<text></text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/343.png" num="23">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/341.png" num="24">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -7073,11 +7039,11 @@ Whenever enchanted creature deals combat damage to a player, sacrifice this ench
 Embark {2} ({2}, Discard this card: Draw a card, then conjure a copy of this card&apos;s backside into your library third from the top.)
 ---
 (Back): Overseer of Clarity</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/344_front.png" num="58a">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/342_front.png" num="58a">TEL</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
-				<type>Creature — Merfolk Knight</type>
+				<type>Creature — Human Cleric</type>
 				<maintype>Creature</maintype>
 				<manacost>1U</manacost>
 				<cmc>2</cmc>
@@ -7095,11 +7061,11 @@ Flying
 When this creature enters, draw a card.
 ---
 (Front): Oracle of Action</text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/344_back.png" num="58b">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/342_back.png" num="58b">TEL</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
-				<type>Creature — Merfolk Knight</type>
+				<type>Creature — Human Cleric</type>
 				<maintype>Creature</maintype>
 				<manacost>2U</manacost>
 				<cmc>3</cmc>
@@ -7113,7 +7079,7 @@ When this creature enters, draw a card.
 		<card>
 			<name>Centaur TEL</name>
 			<text></text>
-			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/345.png" num="32">TEL</set>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/343.png" num="33">TEL</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -7124,6 +7090,22 @@ When this creature enters, draw a card.
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Spirit TEL</name>
+			<text></text>
+			<set rarity="common" picurl="https://DNAZangy.github.io/sets/TEL-files/img/344.png" num="2">TEL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Enchantment Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>

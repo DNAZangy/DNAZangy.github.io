@@ -15,7 +15,7 @@
             "number": 14,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
-            "rules_text": "You can't cast Heliod unless your devotion to white is five or more.\nIndestructible\nWhenever Heliod enters or attacks, you may exile another target creature or enchantment, then return it to the battlefield tapped under its owner's control.\n{1}{W}, Discard Heliod: Exile target creature or enchantment, then return it to the battlefield under its owner's control.",
+            "rules_text": "You can't cast Heliod unless your devotion to white is five or more.\nIndestructible\nWhenever Heliod enters or attacks, you may exile another target creature or enchantment, then return it to the battlefield tapped under its owner's control.\n{1}{W}, Discard Heliod: Exile target creature or enchantment, then return it to the battlefield tapped under its owner's control.",
             "flavor_text": "[i][/i]",
             "pt": "5/6",
             "special_text": "",
@@ -26,7 +26,7 @@
             "alias": "",
             "position": "0",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": "!tag wishlist"
         },
         {
             "card_name": "Thassa of Storm and Sea",
@@ -47,7 +47,7 @@
             "alias": "",
             "position": "1",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Erebos of Death and Envy",
@@ -56,10 +56,10 @@
             "type": "Legendary Enchantment Creature \u2014 God",
             "number": 88,
             "color_identity": "B",
-            "cost": "{1}{B}{B}",
+            "cost": "{2}{B}{B}",
             "rules_text": "You can't cast Erebos unless your devotion to black is five or more.\nIndestructible\nWhenever Erebos enters or attacks, up to one target creature gets -2/-2 until end of turn.\n{1}{B}, Discard Erebos: Target creature gets -2/-2 until end of turn.",
             "flavor_text": "[i][/i]",
-            "pt": "5/4",
+            "pt": "6/4",
             "special_text": "",
             "shape": "normal",
             "set": "TEL",
@@ -68,7 +68,7 @@
             "alias": "",
             "position": "2",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Purphoros of Steel and Forge",
@@ -77,10 +77,10 @@
             "type": "Legendary Enchantment Creature \u2014 God",
             "number": 136,
             "color_identity": "R",
-            "cost": "{1}{R}{R}",
+            "cost": "{2}{R}{R}",
             "rules_text": "You can't cast Purphoros unless your devotion to red is five or more.\nIndestructible\nWhenever Purphoros enters or attacks, exile the top two cards of your library. You may play them until your next end step.\n{1}{R}, Discard Purphoros: Exile the top two cards of your library. You may play them until your next end step.",
             "flavor_text": "[i][/i]",
-            "pt": "5/4",
+            "pt": "6/4",
             "special_text": "",
             "shape": "normal",
             "set": "TEL",
@@ -89,7 +89,7 @@
             "alias": "",
             "position": "3",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Camilla, Heir of Pidae",
@@ -122,7 +122,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Camilla, Avenger of Pidae;1"
         },
         {
             "card_name": "Nylea of Nature and Change",
@@ -143,7 +143,7 @@
             "alias": "",
             "position": "5",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": "!tag ramp"
         },
         {
             "card_name": "Trickster in the Sky",
@@ -164,7 +164,7 @@
             "alias": "",
             "position": "6",
             "rotated": false,
-            "notes": "Story Spotlight \u2014 Ocean Saga \u2014 Keep Your Freinds Close\nNOWRITEUP"
+            "notes": "Story Spotlight \u2014 Ocean Saga \u2014 Keep Your Freinds Close\n"
         },
         {
             "card_name": "Benthalos, Thassa's Chosen",
@@ -197,7 +197,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Ephara of Law and Rulers",
@@ -218,7 +218,7 @@
             "alias": "",
             "position": "8",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Phenax of Truth and Lies",
@@ -239,7 +239,7 @@
             "alias": "",
             "position": "9",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Mogis of Rage and Brutality",
@@ -260,7 +260,7 @@
             "alias": "",
             "position": "10",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Klothys of Fate and Destiny",
@@ -281,7 +281,7 @@
             "alias": "",
             "position": "11",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Karametra of Harvest and Shelter",
@@ -293,7 +293,7 @@
             "cost": "{1}{GW}{GW}",
             "rules_text": "Indestructible\nAs long as your devotion to green and white is less than seven, Karametra isn't a creature.\n[i]Landfall[/i] \u2014 Whenever a land you control enters, create a 1/1 white Soldier creature token. If that land was a basic land, you gain 1 life.",
             "flavor_text": "[i][/i]",
-            "pt": "",
+            "pt": "5/5",
             "special_text": "",
             "shape": "normal",
             "set": "TEL",
@@ -302,7 +302,7 @@
             "alias": "",
             "position": "12",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Athreos of Thresholds and Gold",
@@ -323,7 +323,7 @@
             "alias": "",
             "position": "13",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Keranos of Action and Clarity",
@@ -344,7 +344,7 @@
             "alias": "",
             "position": "14",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Pharika of Life and Death",
@@ -365,7 +365,7 @@
             "alias": "",
             "position": "15",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Elektes, Conqueror of Pidae",
@@ -390,7 +390,7 @@
             "type2": "Legendary Enchantment Creature \u2014 Demigod",
             "cost2": "{2}{R}{W}",
             "rules_text2": "[i](You can't play this side unless it was conjured.)[/i]\nDouble strike\nAt the beginning of combat on your turn, up to two target creatures get +X/+0 until end of turn, where X is your devotion to red and white.",
-            "flavor_text2": "[i]\u201cIf I must become the monsters so that I may see my wife again, so be it.\u201d[/i]",
+            "flavor_text2": "[i]\u201cIf I must become the monster so that I may see my wife again, so be it.\u201d[/i]",
             "pt2": "2/4",
             "special_text2": "",
             "loyalty2": "",
@@ -398,7 +398,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!tag wishlist\n!tag aggro-threat\n!spellbook Elektes, Heart-Hardened;1"
         },
         {
             "card_name": "Iroas of Wisdom and Victory",
@@ -419,7 +419,7 @@
             "alias": "",
             "position": "17",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Kruphix of Time and Potential",
@@ -440,7 +440,7 @@
             "alias": "",
             "position": "18",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Gift to Pidae",
@@ -461,7 +461,7 @@
             "alias": "",
             "position": "19",
             "rotated": false,
-            "notes": "Story \u2014 Troy Saga \u2014 The Horse and the Infant\nNOWRITEUP"
+            "notes": "Story \u2014 Troy Saga \u2014 The Horse and the Infant\n"
         },
         {
             "card_name": "Legendary",
@@ -639,10 +639,10 @@
             "number": 269,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Lyric\u2014{W}, Tap an untapped creature you control. [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Destroy up to one target artifact or enchantment.\nII \u2014 Put a +1/+1 counter and a prowess counter on target creature you control.\nIII \u2014 Return target nonland permanent card with mana value 3 or less from your graveyard to the battlefield.",
+            "rules_text": "Lyric\u2014{W}, Tap an untapped creature you control. [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Destroy up to one target artifact or enchantment.\nII \u2014 Put a +1/+1 counter and a prowess counter on target creature you control.\nIII \u2014 Return target nonland, non-Saga permanent card with mana value 3 or less from your graveyard to the battlefield.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric\u2014{W}, Tap an untapped creature you control. [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Destroy up to one target artifact or enchantment.\nII \u2014 Put a +1/+1 counter and a prowess counter on target creature you control.\nIII \u2014 Return target nonland permanent card with mana value 3 or less from your graveyard to the battlefield.",
+            "special_text": "Lyric\u2014{W}, Tap an untapped creature you control. [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Destroy up to one target artifact or enchantment.\nII \u2014 Put a +1/+1 counter and a prowess counter on target creature you control.\nIII \u2014 Return target nonland, non-Saga permanent card with mana value 3 or less from your graveyard to the battlefield.",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -660,10 +660,10 @@
             "number": 270,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nPut a defender counter on target creature.\nUntil end of turn, target permanent you control becomes a God enchantment creature with base power and toughness 5/5\n\u200b",
+            "rules_text": "Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 Put a defender counter on target creature.\nIII \u2014 Until end of turn, target permanent you control becomes a God enchantment creature with base power and toughness 5/5.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nPut a defender counter on target creature.\nUntil end of turn, target permanent you control becomes a God enchantment creature with base power and toughness 5/5\n\u200b",
+            "special_text": "Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 Put a defender counter on target creature.\nIII \u2014 Until end of turn, target permanent you control becomes a God enchantment creature with base power and toughness 5/5.\n\u200b",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -723,10 +723,10 @@
             "number": 272,
             "color_identity": "U",
             "cost": "{3}{U}",
-            "rules_text": "Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTarget opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard.\nExile target instant or sorcery spell from your graveyard. Copy that card and you may cast the copy.\n\u200b",
+            "rules_text": "Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 Look at the top three cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one pile to put into your graveyard. Put the other pile into your hand.\nIII \u2014 Exile target instant or sorcery spell from your graveyard. Copy that card and you may cast the copy.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTarget opponent looks at the top three cards of your library and separates them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard.\nExile target instant or sorcery spell from your graveyard. Copy that card and you may cast the copy.\n\u200b",
+            "special_text": "Lyric {1}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 Look at the top three cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one pile to put into your graveyard. Put the other pile into your hand.\nIII \u2014 Exile target instant or sorcery spell from your graveyard. Copy that card and you may cast the copy.\n\u200b",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -734,7 +734,7 @@
             "alias": "",
             "position": "32",
             "rotated": false,
-            "notes": "Act 1 \u2014 3 Storm Saga"
+            "notes": "!tag wishlist\nAct 1 \u2014 3 Storm Saga"
         },
         {
             "card_name": "Luck Runs Out",
@@ -744,10 +744,10 @@
             "number": 274,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "Lyric {1}{U}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nFlash\nCounter target spell.\nDraw two cards, then discard a card.",
+            "rules_text": "Lyric {1}{U}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nFlash\nCounter target spell.\nI, II, III \u2014 Draw two cards, then discard a card.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {1}{U}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nFlash\nCounter target spell.\nDraw two cards, then discard a card.",
+            "special_text": "Lyric {1}{U}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nFlash\nCounter target spell.\nI, II, III \u2014 Draw two cards, then discard a card.",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -786,10 +786,10 @@
             "number": 276,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "Lyric {2}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTap up to two target creatures and put a stun counter on each of them.\nWhenever a creature you control deals combat damage to a player this turn, draw a card.\n\u200b",
+            "rules_text": "Lyric {2}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Tap up to two target creatures and put a stun counter on each of them.\nII, III \u2014 Whenever a creature you control deals combat damage to a player this turn, draw a card.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {2}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTap up to two target creatures and put a stun counter on each of them.\nWhenever a creature you control deals combat damage to a player this turn, draw a card.\n\u200b",
+            "special_text": "Lyric {2}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Tap up to two target creatures and put a stun counter on each of them.\nII, III \u2014 Whenever a creature you control deals combat damage to a player this turn, draw a card.\n\u200b",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -807,10 +807,10 @@
             "number": 277,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
-            "rules_text": "Lyric {5}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nCreate two 3/3 blue Siren creature tokens.\nDraw three cards.\nAny number of creatures each becomes a copy of target nonlegendary creature until end of turn.",
+            "rules_text": "Lyric {5}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nCreate two 3/3 blue Siren creature tokens.\nDraw three cards.\nI \u2014 Any number of creatures each becomes a copy of target nonlegendary creature until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {5}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nCreate two 3/3 blue Siren creature tokens.\nDraw three cards.\nAny number of creatures each becomes a copy of target nonlegendary creature until end of turn.",
+            "special_text": "Lyric {5}{U} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nCreate two 3/3 blue Siren creature tokens.\nDraw three cards.\nI \u2014 Any number of creatures each becomes a copy of target nonlegendary creature until end of turn.",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -828,10 +828,10 @@
             "number": 279,
             "color_identity": "B",
             "cost": "{3}{B}",
-            "rules_text": "Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nDestroy target creature. You lose 3 life.\nTarget creature you control gets +3/+0 and gains lifelink until end of turn. If damage would be dealt to it this turn, you lose that much life instead.\n\u200b",
+            "rules_text": "Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Destroy target creature. You lose 3 life.\nII, III \u2014 Target creature you control gets +3/+0 and gains lifelink until end of turn. If damage would be dealt to it this turn, you lose that much life instead.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nDestroy target creature. You lose 3 life.\nTarget creature you control gets +3/+0 and gains lifelink until end of turn. If damage would be dealt to it this turn, you lose that much life instead.\n\u200b",
+            "special_text": "Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Destroy target creature. You lose 3 life.\nII, III \u2014 Target creature you control gets +3/+0 and gains lifelink until end of turn. If damage would be dealt to it this turn, you lose that much life instead.\n\u200b",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -870,10 +870,10 @@
             "number": 280,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
-            "rules_text": "Lyric\u2014{B}{B}{B}, Pay 3 life. [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 All creatures get -3/-3 until end of turn.\nII \u2014 Search your library for a card and put that card into your hand. Then shuffle.\nIII \u2014 Return target creature card with mana value 5 or less from your graveyard to the battlefield.",
+            "rules_text": "Lyric\u2014{B}{B}{B}, Pay 3 life. [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 All creatures get -3/-3 until end of turn.\nII \u2014 Search your library for a card with mana value less than or equal to the number of creature cards in your graveyard, reveal it, put it into your hand, then shuffle.\nIII \u2014 Return target creature card with mana value 5 or less from your graveyard to the battlefield. It can't block this turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric\u2014{B}{B}{B}, Pay 3 life. [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 All creatures get -3/-3 until end of turn.\nII \u2014 Search your library for a card and put that card into your hand. Then shuffle.\nIII \u2014 Return target creature card with mana value 5 or less from your graveyard to the battlefield.",
+            "special_text": "Lyric\u2014{B}{B}{B}, Pay 3 life. [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 All creatures get -3/-3 until end of turn.\nII \u2014 Search your library for a card with mana value less than or equal to the number of creature cards in your graveyard, reveal it, put it into your hand, then shuffle.\nIII \u2014 Return target creature card with mana value 5 or less from your graveyard to the battlefield. It can't block this turn.",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -881,7 +881,7 @@
             "alias": "",
             "position": "39",
             "rotated": false,
-            "notes": "Act 1 \u2014 5 Underworld Saga\nSaga End"
+            "notes": "!tag tutor\n!tag sweeper\nAct 1 \u2014 5 Underworld Saga"
         },
         {
             "card_name": "No Longer You",
@@ -891,10 +891,10 @@
             "number": 281,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Lyric {B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTarget player reveals their hand. You choose a nonland card from it. That player discards that card. Then if it is their turn, they draw a card.\nMill three cards. You may put a card milled this way into your hand.\n\u200b",
+            "rules_text": "Lyric {B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Target player reveals their hand. You choose a nonland card from it. That player discards that card. Then if it is their turn, they draw a card.\nII, III \u2014 Mill three cards. You may put a card milled this way into your hand.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTarget player reveals their hand. You choose a nonland card from it. That player discards that card. Then if it is their turn, they draw a card.\nMill three cards. You may put a card milled this way into your hand.\n\u200b",
+            "special_text": "Lyric {B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Target player reveals their hand. You choose a nonland card from it. That player discards that card. Then if it is their turn, they draw a card.\nII, III \u2014 Mill three cards. You may put a card milled this way into your hand.\n\u200b",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -902,7 +902,7 @@
             "alias": "",
             "position": "40",
             "rotated": false,
-            "notes": "Act 1 \u2014 5 Underworld Saga"
+            "notes": "!tag discard\nAct 1 \u2014 5 Underworld Saga"
         },
         {
             "card_name": "Not Sorry For Loving You",
@@ -912,10 +912,10 @@
             "number": 282,
             "color_identity": "B",
             "cost": "{B}{B}",
-            "rules_text": "Lyric {B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nYour maximum hand size is reduced by two for each lore counter on this Saga.\nYou draw a card and you lose 1 life.\n\u200b",
+            "rules_text": "Lyric {B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nYour maximum hand size is reduced by two for each lore counter on this Saga.\nI, II, III, IV \u2014 You draw a card and you lose 1 life.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nYour maximum hand size is reduced by two for each lore counter on this Saga.\nYou draw a card and you lose 1 life.\n\u200b",
+            "special_text": "Lyric {B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nYour maximum hand size is reduced by two for each lore counter on this Saga.\nI, II, III, IV \u2014 You draw a card and you lose 1 life.\n\u200b",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -923,7 +923,7 @@
             "alias": "",
             "position": "41",
             "rotated": false,
-            "notes": "Act 2 \u2014 8 Vengeance Saga"
+            "notes": "!tag card-engine\nAct 2 \u2014 8 Vengeance Saga"
         },
         {
             "card_name": "Scylla",
@@ -933,10 +933,10 @@
             "number": 283,
             "color_identity": "B",
             "cost": "{4}{B}{B}",
-            "rules_text": "Lyric {6}{B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nExile the top card of each opponent's library until you exile two nonland cards. You may cast any number of cards exiled this way without paying their mana costs.\nCreate a 6/6 blue Demon Leviathan creature token.\nEach player sacrifices six non-Demon creatures of their choice. Each player who sacrificed six creatures this way draws six cards.",
+            "rules_text": "Lyric {6}{B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 Exile the top card of each opponent's library until you exile two nonland cards. You may cast any number of cards exiled this way without paying their mana costs.\nCreate a 6/6 blue Demon Leviathan creature token.\nIII \u2014 Each player sacrifices six non-Demon creatures of their choice. Each player who sacrificed six creatures this way draws six cards.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {6}{B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nExile the top card of each opponent's library until you exile two nonland cards. You may cast any number of cards exiled this way without paying their mana costs.\nCreate a 6/6 blue Demon Leviathan creature token.\nEach player sacrifices six non-Demon creatures of their choice. Each player who sacrificed six creatures this way draws six cards.",
+            "special_text": "Lyric {6}{B}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 Exile the top card of each opponent's library until you exile two nonland cards. You may cast any number of cards exiled this way without paying their mana costs.\nCreate a 6/6 blue Demon Leviathan creature token.\nIII \u2014 Each player sacrifices six non-Demon creatures of their choice. Each player who sacrificed six creatures this way draws six cards.",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -954,10 +954,10 @@
             "number": 284,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTarget player sacrifices a creature of their choice.\nReturn target creature card with mana value 2 or less from your graveyard to the battlefield.\nEach opponent loses 3 life and you gain 3 life.",
+            "rules_text": "Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTarget player sacrifices a creature of their choice.\nI \u2014 Return target creature card with mana value 2 or less from your graveyard to the battlefield.\nII \u2014 Each opponent loses 3 life and you gain 3 life.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTarget player sacrifices a creature of their choice.\nReturn target creature card with mana value 2 or less from your graveyard to the battlefield.\nEach opponent loses 3 life and you gain 3 life.",
+            "special_text": "Lyric {1}{B} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTarget player sacrifices a creature of their choice.\nI \u2014 Return target creature card with mana value 2 or less from your graveyard to the battlefield.\nII \u2014 Each opponent loses 3 life and you gain 3 life.",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -975,10 +975,10 @@
             "number": 290,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Lyric {R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nExile target instant or sorcery card from your graveyard. Until the end of your next turn, you may cast a copy of that card.\nThe next time you cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.\n\u200b",
+            "rules_text": "Lyric {R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 Exile target instant or sorcery card from your graveyard. Until the end of your next turn, you may cast a copy of that card.\nIII \u2014 The next time you cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nExile target instant or sorcery card from your graveyard. Until the end of your next turn, you may cast a copy of that card.\nThe next time you cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.\n\u200b",
+            "special_text": "Lyric {R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 Exile target instant or sorcery card from your graveyard. Until the end of your next turn, you may cast a copy of that card.\nIII \u2014 The next time you cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.\n\u200b",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -996,10 +996,10 @@
             "number": 285,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Lyric {R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nCreate a 1/1 white Soldier creature token. This Saga deals 1 damage to each opponent.\nTarget creature you control gets +3/+1 until end of turn.\n\u200b",
+            "rules_text": "Lyric {R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 Create a 1/1 white Soldier creature token. This Saga deals 1 damage to each opponent.\nIII \u2014 Target creature you control gets +3/+1 until end of turn.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nCreate a 1/1 white Soldier creature token. This Saga deals 1 damage to each opponent.\nTarget creature you control gets +3/+1 until end of turn.\n\u200b",
+            "special_text": "Lyric {R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 Create a 1/1 white Soldier creature token. This Saga deals 1 damage to each opponent.\nIII \u2014 Target creature you control gets +3/+1 until end of turn.\n\u200b",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -1017,10 +1017,10 @@
             "number": 286,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "Lyric {R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 This Saga deals 3 damage to any target.\nII \u2014 Discard a card. If you do, draw two cards.\nIII \u2014 Creatures you control get +1/+0 and gain trample until end of turn.",
+            "rules_text": "Lyric {2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 This Saga deals 3 damage to any target.\nII \u2014 Discard a card. If you do, draw two cards.\nIII \u2014 Creatures you control get +2/+0 and gain trample until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 This Saga deals 3 damage to any target.\nII \u2014 Discard a card. If you do, draw two cards.\nIII \u2014 Creatures you control get +1/+0 and gain trample until end of turn.",
+            "special_text": "Lyric {2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 This Saga deals 3 damage to any target.\nII \u2014 Discard a card. If you do, draw two cards.\nIII \u2014 Creatures you control get +2/+0 and gain trample until end of turn.",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -1038,10 +1038,10 @@
             "number": 287,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
-            "rules_text": "Lyric {3}{R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nGain control of target creature until end of turn. Untap it and it gains haste until end of turn.\nCreate three 1/1 white Soldier creature tokens.\n\u200b",
+            "rules_text": "Lyric {3}{R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 Gain control of target creature until end of turn. Untap it and it gains haste until end of turn.\nIII \u2014 Create three 1/1 white Soldier creature tokens.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {3}{R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nGain control of target creature until end of turn. Untap it and it gains haste until end of turn.\nCreate three 1/1 white Soldier creature tokens.\n\u200b",
+            "special_text": "Lyric {3}{R}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 Gain control of target creature until end of turn. Untap it and it gains haste until end of turn.\nIII \u2014 Create three 1/1 white Soldier creature tokens.\n\u200b",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -1059,10 +1059,10 @@
             "number": 288,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Lyric {3}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nUntil your next turn, creatures your opponents control attack each combat if able.\nThis Saga deals 6 damage to up to one target tapped creature.\nTarget player sacrifices a nonland permanent of their choice.",
+            "rules_text": "Lyric {3}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Until your next turn, creatures your opponents control attack each combat if able.\nThis Saga deals 6 damage to up to one target tapped creature.\nII \u2014 Target player sacrifices a nonland permanent of their choice.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {3}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nUntil your next turn, creatures your opponents control attack each combat if able.\nThis Saga deals 6 damage to up to one target tapped creature.\nTarget player sacrifices a nonland permanent of their choice.",
+            "special_text": "Lyric {3}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Until your next turn, creatures your opponents control attack each combat if able.\nThis Saga deals 6 damage to up to one target tapped creature.\nII \u2014 Target player sacrifices a nonland permanent of their choice.",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -1080,10 +1080,10 @@
             "number": 289,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
-            "rules_text": "Lyric\u2014{2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nAny opponent may have this Saga deal 4 damage to them. If no one does, destroy all artifacts.\nAny opponent may have this Saga deal 4 damage to them. If no one does, draw three cards.\n\u200b",
+            "rules_text": "Lyric\u2014{2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Any opponent may have this Saga deal 4 damage to them. If no one does, destroy all artifacts.\nII, III \u2014 Any opponent may have this Saga deal 4 damage to them. If no one does, draw three cards.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric\u2014{2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nAny opponent may have this Saga deal 4 damage to them. If no one does, destroy all artifacts.\nAny opponent may have this Saga deal 4 damage to them. If no one does, draw three cards.\n\u200b",
+            "special_text": "Lyric\u2014{2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Any opponent may have this Saga deal 4 damage to them. If no one does, destroy all artifacts.\nII, III \u2014 Any opponent may have this Saga deal 4 damage to them. If no one does, draw three cards.\n\u200b",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -1122,10 +1122,10 @@
             "number": 292,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "Lyric {2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nYou create two tapped Treasure tokens unless an opponent has you create a 3/3 green Cyclops creature token with trample.\nCreate a token that's a copy of target creature you control, except it has haste and \u201cAt the beginning of the end step, exile this permanent.\u201d\n\u200b",
+            "rules_text": "Lyric {2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 You create two tapped Treasure tokens unless an opponent has you create a 3/3 green Cyclops creature token with trample.\nIII \u2014 Create a token that's a copy of target creature you control, except it has haste and \u201cAt the beginning of the end step, exile this permanent.\u201d\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nYou create two tapped Treasure tokens unless an opponent has you create a 3/3 green Cyclops creature token with trample.\nCreate a token that's a copy of target creature you control, except it has haste and \u201cAt the beginning of the end step, exile this permanent.\u201d\n\u200b",
+            "special_text": "Lyric {2}{R} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 You create two tapped Treasure tokens unless an opponent has you create a 3/3 green Cyclops creature token with trample.\nIII \u2014 Create a token that's a copy of target creature you control, except it has haste and \u201cAt the beginning of the end step, exile this permanent.\u201d\n\u200b",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -1143,10 +1143,10 @@
             "number": 293,
             "color_identity": "G",
             "cost": "{4}{G}",
-            "rules_text": "Lyric {4}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nDraw cards equal to the greatest power among creatures you control.\nCreate a 7/7 green Octopus Horror creature token with vigilance.\nCreatures you control must be blocked this turn if able.",
+            "rules_text": "Lyric {4}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Draw cards equal to the greatest power among creatures you control.\nII \u2014 Create a 7/7 green Octopus Horror creature token with vigilance.\nIII \u2014 Creatures you control must be blocked this turn if able.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {4}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nDraw cards equal to the greatest power among creatures you control.\nCreate a 7/7 green Octopus Horror creature token with vigilance.\nCreatures you control must be blocked this turn if able.",
+            "special_text": "Lyric {4}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Draw cards equal to the greatest power among creatures you control.\nII \u2014 Create a 7/7 green Octopus Horror creature token with vigilance.\nIII \u2014 Creatures you control must be blocked this turn if able.",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -1164,10 +1164,10 @@
             "number": 295,
             "color_identity": "WUBRG",
             "cost": "{5}{G}{G}",
-            "rules_text": "Lyric {3}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nAdd {W}{U}{B}{R}{G}. This mana can't be spent to pay generic mana costs. At the beginning of the next end step, if you've spent {W}{U}{B}{R}{G} to cast spells this turn, search your library for a legendary card, reveal it, put it into your hand, then shuffle.\n\u200b\n\u200b",
+            "rules_text": "Lyric {3}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II, III, IV \u2014 Add {W}{U}{B}{R}{G}. This mana can't be spent to pay generic mana costs. At the beginning of the next end step, if you've spent {W}{U}{B}{R}{G} to cast spells this turn, search your library for a legendary card, reveal it, put it into your hand, then shuffle.\n\u200b\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {3}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nAdd {W}{U}{B}{R}{G}. This mana can't be spent to pay generic mana costs. At the beginning of the next end step, if you've spent {W}{U}{B}{R}{G} to cast spells this turn, search your library for a legendary card, reveal it, put it into your hand, then shuffle.\n\u200b\n\u200b",
+            "special_text": "Lyric {3}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II, III, IV \u2014 Add {W}{U}{B}{R}{G}. This mana can't be spent to pay generic mana costs. At the beginning of the next end step, if you've spent {W}{U}{B}{R}{G} to cast spells this turn, search your library for a legendary card, reveal it, put it into your hand, then shuffle.\n\u200b\n\u200b",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -1185,10 +1185,10 @@
             "number": 300,
             "color_identity": "G",
             "cost": "{4}{G}",
-            "rules_text": "Lyric {2}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTarget creature you control gets +2/+2 and gains hexproof until end of turn.\nSearch your library for a basic land card, put it onto the battlefield, then shuffle.\n\u200b",
+            "rules_text": "Lyric {2}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Target creature you control gets +2/+2 and gains hexproof until end of turn.\nII, III \u2014 Search your library for a basic land card, put it onto the battlefield, then shuffle.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {2}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTarget creature you control gets +2/+2 and gains hexproof until end of turn.\nSearch your library for a basic land card, put it onto the battlefield, then shuffle.\n\u200b",
+            "special_text": "Lyric {2}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Target creature you control gets +2/+2 and gains hexproof until end of turn.\nII, III \u2014 Search your library for a basic land card, put it onto the battlefield, then shuffle.\n\u200b",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -1206,10 +1206,10 @@
             "number": 294,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Lyric {1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTarget creature you control fights target creature you don't control.\nDistribute two +1/+1 counters among up to two target creatures.\n\u200b",
+            "rules_text": "Lyric {1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTarget creature you control fights target creature you don't control.\nI, II, III \u2014 Distribute two +1/+1 counters among up to two target creatures.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTarget creature you control fights target creature you don't control.\nDistribute two +1/+1 counters among up to two target creatures.\n\u200b",
+            "special_text": "Lyric {1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nTarget creature you control fights target creature you don't control.\nI, II, III \u2014 Distribute two +1/+1 counters among up to two target creatures.\n\u200b",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -1227,10 +1227,10 @@
             "number": 296,
             "color_identity": "G",
             "cost": "{3}{G}",
-            "rules_text": "Lyric\u2014{1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nMill three cards. You may return a creature or land card from your graveyard to your hand.\nSearch your library and graveyard for a creature card, reveal it, put it into your hand, then shuffle your graveyard into your library.\n\u200b",
+            "rules_text": "Lyric\u2014{1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 Mill three cards. You may return a creature or land card from your graveyard to your hand.\nIII \u2014 Search your library and graveyard for a creature card with mana value 4 or less, reveal it, put it into your hand, then shuffle your graveyard into your library. Then discard a card.\n\u200b",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric\u2014{1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nMill three cards. You may return a creature or land card from your graveyard to your hand.\nSearch your library and graveyard for a creature card, reveal it, put it into your hand, then shuffle your graveyard into your library.\n\u200b",
+            "special_text": "Lyric\u2014{1}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI, II \u2014 Mill three cards. You may return a creature or land card from your graveyard to your hand.\nIII \u2014 Search your library and graveyard for a creature card with mana value 4 or less, reveal it, put it into your hand, then shuffle your graveyard into your library. Then discard a card.\n\u200b",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -1248,10 +1248,10 @@
             "number": 297,
             "color_identity": "G",
             "cost": "{3}{G}",
-            "rules_text": "Lyric {1}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nCreate two 1/1 green Sheep Food artifact creature tokens with \u201c{2}, {T}, Sacrifice this token: You gain 3 life.\u201d\nYou may sacrifice a token. If you do, you gain 7 life.\nCreate a 3/3 green Cyclops creature token with trample.",
+            "rules_text": "Lyric {1}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Create two 1/1 green Sheep Food artifact creature tokens with \u201c{2}, {T}, Sacrifice this token: You gain 3 life.\u201d\nII \u2014 You may sacrifice a token. If you do, you gain 7 life.\nIII \u2014 Create a 3/3 green Cyclops creature token with trample.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Lyric {1}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nCreate two 1/1 green Sheep Food artifact creature tokens with \u201c{2}, {T}, Sacrifice this token: You gain 3 life.\u201d\nYou may sacrifice a token. If you do, you gain 7 life.\nCreate a 3/3 green Cyclops creature token with trample.",
+            "special_text": "Lyric {1}{G}{G} [i](You may cast any of this Saga's chapters from your hand as an instant spell for its lyric cost.)[/i]\nI \u2014 Create two 1/1 green Sheep Food artifact creature tokens with \u201c{2}, {T}, Sacrifice this token: You gain 3 life.\u201d\nII \u2014 You may sacrifice a token. If you do, you gain 7 life.\nIII \u2014 Create a 3/3 green Cyclops creature token with trample.",
             "shape": "saga",
             "set": "TEL",
             "loyalty": "",
@@ -1322,7 +1322,7 @@
             "alias": "",
             "position": "60",
             "rotated": false,
-            "notes": "Story \u2014 Cyclops Saga \u2014 Survive\nNOWRITEUP"
+            "notes": "Story \u2014 Cyclops Saga \u2014 Survive\n"
         },
         {
             "card_name": "Wrath of Storm and Sea",
@@ -1502,7 +1502,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag SevenWarriors"
+            "notes": "!spellbook Hesperos, Unforgotten;1\n !tag SevenWarriors"
         },
         {
             "card_name": "Deiraia, Toll Taker",
@@ -1511,10 +1511,10 @@
             "type": "Legendary Creature \u2014 Demon Leviathan",
             "number": 43,
             "color_identity": "U",
-            "cost": "{9}{U}{U}",
-            "rules_text": "Deiraia costs {3} less to cast for each card you've drawn this turn.\nTrample\nSpells your opponents cast that target Deiraia that cost less than six mana to cast cost six mana to cast.\nWhenever Deiraia deals combat damage to a player, draw that many cards.",
+            "cost": "{6}{U}{U}{U}",
+            "rules_text": "Deiraia costs {2} less to cast for each card you've drawn this turn.\nTrample\nWhenever Deiraia deals combat damage to a player, draw that many cards.",
             "flavor_text": "[i][/i]",
-            "pt": "7/7",
+            "pt": "6/6",
             "special_text": "",
             "shape": "normal",
             "set": "TEL",
@@ -1682,7 +1682,7 @@
             "alias": "",
             "position": "76",
             "rotated": false,
-            "notes": ""
+            "notes": "!tag aggro-threat"
         },
         {
             "card_name": "Boar of Unlimited Skill",
@@ -1725,7 +1725,7 @@
             "number": 4,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "{1}, {T}: Choose a number. Target opponent guesses whether one or more cards in your hand have the chosen mana valuer. Then you may reveal your hand. If you do and they guessed wrong, draw a card. If you do and they guessed right, each player draws a card.",
+            "rules_text": "{1}, {T}: Choose a number. Target opponent guesses whether one or more cards in your hand have the chosen mana value. Then you may reveal your hand. If you do and they guessed wrong, draw a card. If you do and they guessed right, each player draws a card.",
             "flavor_text": "[i]\u201cTwenty years of suitors brought a thousand clever deceits. An impostor could mimic a king's posture, but only her husband knew where the roots took hold.[/i]",
             "pt": "",
             "special_text": "",
@@ -1757,7 +1757,7 @@
             "alias": "",
             "position": "79",
             "rotated": false,
-            "notes": ""
+            "notes": "!tag interactive-threat"
         },
         {
             "card_name": "Greyblooded Agent",
@@ -1844,7 +1844,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Deiraia's Brood;1"
         },
         {
             "card_name": "Sworn of the Ram",
@@ -1896,7 +1896,7 @@
             "number": 110,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Zombies you control get +1/+1.\nEmbark {2} [i]({2}, Discard this card: Draw a card, then conjure a copy of this card's backside into your library third from the top.)[/i]",
+            "rules_text": "Other Zombies you control get +1/+1.\nEmbark {2} [i]({2}, Discard this card: Draw a card, then conjure a copy of this card's backside into your library third from the top.)[/i]",
             "flavor_text": "[i]He rejected the despair of the Asphodel gray mud, planning his ascent from the day his coin was spent.[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -1919,7 +1919,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Ruthless Palamnite;1"
         },
         {
             "card_name": "Kyanae's Menagerie",
@@ -1952,7 +1952,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Pride of the Pen;1"
         },
         {
             "card_name": "Gift of Truth",
@@ -1962,7 +1962,7 @@
             "number": 166,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "When Gift enters or is put into a graveyard from the battlefield, prepare each unprepared creature you control.\n{2}, {T}, Sacrifice Gift: You gain 3 life.",
+            "rules_text": "When Gift of Truth enters or is put into a graveyard from the battlefield, prepare each unprepared creature you control.\n{2}, {T}, Sacrifice Gift of Truth: You gain 3 life.",
             "flavor_text": "[i]\u201cWouldn't you like a taste of power that the witch cannot unravel?\u201d\n\u2014Phenax, to Elektes[/i]",
             "pt": "",
             "special_text": "",
@@ -2027,7 +2027,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Shellback Rider;1"
         },
         {
             "card_name": "Bargain with Lost Prophecies",
@@ -2100,7 +2100,7 @@
             "number": 27,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
-            "rules_text": "Flash\nWhen this enchantment enters, exile all creatures and artifacts until this enchantment leaves the battlefield.",
+            "rules_text": "When this enchantment enters, exile all creatures and artifacts until this enchantment leaves the battlefield.",
             "flavor_text": "[i]\u201cA gift of wind to take you home, or a trap to blow you to the edge of Nyx. It all depends on whether your men can mind their own business.\u201d\n\u2014Salome[/i]",
             "pt": "",
             "special_text": "",
@@ -2156,14 +2156,14 @@
             "notes": ""
         },
         {
-            "card_name": "Gulgagastra, the Everchurning",
+            "card_name": "Gulgagastra, Everchurning",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Octopus Horror",
             "number": 168,
             "color_identity": "G",
             "cost": "{3}{G}{G}",
-            "rules_text": "Vigilance, ward {2}\nWhenever Gulgagastra attacks, you may tap her put a stun counter on her. If you do, untap each other permanent you control.",
+            "rules_text": "Vigilance, ward {2}\nWhenever Gulgagastra attacks, you may tap her and put a stun counter on her. If you do, untap each other permanent you control.",
             "flavor_text": "[i]\u201cNo crew left for you to drown and no galleys left to splinter. It's just you and me in this ocean.\u201d\n\u2014Elektes, Heart-Hardened[/i]",
             "pt": "7/7",
             "special_text": "",
@@ -2207,7 +2207,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Mount Hiastos;1"
         },
         {
             "card_name": "Asphodel, Polis of the Dead",
@@ -2240,7 +2240,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Stoa of Shadows;1"
         },
         {
             "card_name": "Abandoned Chaparral",
@@ -2273,7 +2273,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Skola Vale, Land of Revels;1"
         },
         {
             "card_name": "Endless Maze",
@@ -2306,7 +2306,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Skophos, Labryinth of Mogis;1"
         },
         {
             "card_name": "Katachton Plateau",
@@ -2339,7 +2339,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": "!spellbook Akros, Polis of Strength;1"
         },
         {
             "card_name": "Dakra Isles",
@@ -2372,7 +2372,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Cronemouth Cove;1"
         },
         {
             "card_name": "Meletis, Fledgling Polis",
@@ -2405,7 +2405,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Meletis, Polis of Wisdom;1"
         },
         {
             "card_name": "Nistos Forest",
@@ -2438,7 +2438,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Setessa, Polis of Harmony;1"
         },
         {
             "card_name": "Pidae, Bounding Polis",
@@ -2471,7 +2471,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Ruins of Pidae;1"
         },
         {
             "card_name": "Sunken Polis",
@@ -2504,7 +2504,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Olantin, Sea-Blessed;1"
         },
         {
             "card_name": "Hand of Thassa",
@@ -2514,7 +2514,7 @@
             "number": 195,
             "color_identity": "WU",
             "cost": "{2}{W}{U}",
-            "rules_text": "Flying\nWhenever you cast a noncreature spell, choose one. If you cast that spell from anywhere other than your hand, choose both instead.\n\u2022 Create a 2/1 white Merfolk creature token with prowess.\n\u2022 Put a +1/+1 counter on this creature and you gain 2 life.",
+            "rules_text": "Flying\nWhenever you cast a noncreature spell, choose one. If you cast that spell from anywhere other than your hand, choose both instead.\n\u2022 Create a 2/1 blue Merfolk creature token with prowess.\n\u2022 Put a +1/+1 counter on this creature and you gain 2 life.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -2558,7 +2558,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Traverse the Underworld;1"
         },
         {
             "card_name": "Zygos, the Bull's Edge",
@@ -2591,7 +2591,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "\n !tag SevenWarriors"
+            "notes": "!tag wishlist\n!tag aggro-threat\n!spellbook Zygos, the Accuser;1\n!tag SevenWarriors"
         },
         {
             "card_name": "Lethaia, Unrepentant",
@@ -2622,7 +2622,7 @@
             "number": 2,
             "color_identity": "W",
             "cost": "{4}{W}{W}",
-            "rules_text": "Other creatures you control get +2/+2 and have vigilance.\nSuspend 20\u2014{W} [i](Rather than cast this card from your hand, you may pay {W} and exile it with twenty time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)[/i]\nWhenever you attack with one or more creatures while Alethra is suspended, remove twice that many time counters from her.",
+            "rules_text": "Other creatures you control get +2/+2 and have vigilance.\nSuspend 20\u2014{W} [i](Rather than cast this card from your hand, you may pay {W} and exile it with twenty time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)[/i]\nWhenever you attack, remove two time counters from Alethra for each attacking creature if she is suspended..",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -2696,13 +2696,13 @@
             "alias": "",
             "position": "114",
             "rotated": false,
-            "notes": ""
+            "notes": "!tag removal"
         },
         {
             "card_name": "Iroas' Disdain",
             "color": "WR",
             "rarity": "rare",
-            "type": "Instant",
+            "type": "Enchantment",
             "number": 197,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
@@ -2916,7 +2916,7 @@
             "number": 148,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "{1}, Sacrifice a creature: This enchantment deals 1 damage to any target. Put a hunger counter on this enchantment.\nAs long as this enchantment has six or more hunger counters on it, it is a 6/6 blue Demon Leviathan enchantment creature. [i](Instead of its other types.)[/i]",
+            "rules_text": "{1}, Sacrifice a creature: This enchantment deals 1 damage to any target. Put a hunger counter on this enchantment.\nAs long as this enchantment has six or more hunger counters on it, it is a 6/6 blue Demon Leviathan enchantment creature.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2969,7 +2969,7 @@
             "alias": "",
             "position": "127",
             "rotated": false,
-            "notes": "Story \u2014 Wisdom Saga \u2014 God Games\nNOWRITEUP"
+            "notes": "Story \u2014 Wisdom Saga \u2014 God Games\n"
         },
         {
             "card_name": "Thoughts of Home",
@@ -3002,7 +3002,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Memories Made;1"
         },
         {
             "card_name": "Omnious Prophecy",
@@ -3023,7 +3023,7 @@
             "alias": "",
             "position": "129",
             "rotated": false,
-            "notes": "Story \u2014 Underworld Saga \u2014 No Longer You\nNOWRITEUP"
+            "notes": "Story \u2014 Underworld Saga \u2014 No Longer You\n"
         },
         {
             "card_name": "Plea to Purphoros",
@@ -3068,7 +3068,7 @@
             "color2": "G",
             "type2": "Enchantment \u2014 Aura",
             "cost2": "{1}{G}",
-            "rules_text2": "Enchant creature\nAt the beginning of your end step, put a +1/+1 counter enchanted creature.",
+            "rules_text2": "Enchant creature\nAt the beginning of your end step, put a +1/+1 counter on enchanted creature.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
@@ -3150,7 +3150,7 @@
             "number": 122,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "This spell deals 5 damage to target creature or planeswalker. If you control a Minotaur, it deals 1 damage to each other creature and planeswalker your opponents control.",
+            "rules_text": "Gore deals 5 damage to target creature or planeswalker. If you control a Minotaur, it deals 1 damage to each other creature and planeswalker your opponents control.",
             "flavor_text": "[i]In the narrow canyons of Phoberos, combat is swift, merciless, and drenched in red.[/i]",
             "pt": "",
             "special_text": "",
@@ -3248,7 +3248,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Champion of Storm and Sea;1"
         },
         {
             "card_name": "Gathering Shades",
@@ -3281,7 +3281,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Host of Bothros;1"
         },
         {
             "card_name": "Willing to Burn",
@@ -3335,7 +3335,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Hardened Heart;1"
         },
         {
             "card_name": "Counting the Remains",
@@ -3366,7 +3366,7 @@
             "number": 45,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Whenever you draw your second card each turn, create a 1/1 white Spirit creature token with flying.\nWhenever you draw your fourth card each turn, create a 3/3 blue Siren creature token.",
+            "rules_text": "Whenever you draw your second card each turn, create a 1/1 colorless Spirit creature token with flying.\nWhenever you draw your fourth card each turn, create a 3/3 blue Siren creature token.",
             "flavor_text": "[i]\u201cGuide my bow through the froth, Thassa, and I will keep your praise.\u201d[/i]",
             "pt": "2/3",
             "special_text": "",
@@ -3461,7 +3461,7 @@
             "alias": "",
             "position": "147",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Refuse the Call",
@@ -3470,8 +3470,8 @@
             "type": "Instant",
             "number": 60,
             "color_identity": "U",
-            "cost": "{1}{U}{U}",
-            "rules_text": "You may sacrifice a God rather than pay this spell's mana cost.\nCounter target spell.",
+            "cost": "{3}{U}{U}",
+            "rules_text": "As long as you control an Island, you may sacrifice a God rather than pay this spell's mana cost.\nCounter target spell.\nDraw a card.",
             "flavor_text": "[i]\u201cMarch with me to a greater campaign, my champion,\u201d Iroas called forth, spear blazing with light. Elektes cast his sword down to the ground. \u201cI have conquered an empire and have done enough. I just want to see my Alethra.\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -3492,7 +3492,7 @@
             "number": 91,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "Target opponent reveals their hand. You choose a creature or enchantment from it. That player discards that card.\nEmbark {3} [i]({3}, Discard this card: Draw a card, then conjure a copy of this card's backside into your library third from the top.)[/i]",
+            "rules_text": "Target opponent reveals their hand. You choose a creature or enchantment from it. That player discards that card.\nEmbark {2} [i]({2}, Discard this card: Draw a card, then conjure a copy of this card's backside into your library third from the top.)[/i]",
             "flavor_text": "[i]The knots held back a hurricane, but the crew saw only a royal purse hidden beneath the commander's bench.[/i]",
             "pt": "",
             "special_text": "",
@@ -3515,7 +3515,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "Story \u2014 Thunder Saga \u2014 Mutiny"
+            "notes": "!spellbook Open Mutiny;1\nStory \u2014 Thunder Saga \u2014 Mutiny"
         },
         {
             "card_name": "Emberfused Nyxborn",
@@ -3674,13 +3674,13 @@
             "alias": "",
             "position": "156",
             "rotated": false,
-            "notes": "Story \u2014 Troy Saga \u2014 Open Arms\nNOWRITEUP"
+            "notes": "Story \u2014 Troy Saga \u2014 Open Arms\n"
         },
         {
             "card_name": "Traxian Lockstep",
             "color": "W",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Human Army",
+            "type": "Creature \u2014 Human Soldier Army",
             "number": 34,
             "color_identity": "W",
             "cost": "{1}{W}",
@@ -3824,7 +3824,7 @@
             "alias": "",
             "position": "162",
             "rotated": false,
-            "notes": "Story \u2014 Ocean Saga \u2014 Storm\nNOWRITEUP"
+            "notes": "Story \u2014 Ocean Saga \u2014 Storm\n"
         },
         {
             "card_name": "Twofold Escape",
@@ -3866,7 +3866,7 @@
             "alias": "",
             "position": "164",
             "rotated": false,
-            "notes": "\nStory \u2014 Underworld Saga \u2014 The Underworld"
+            "notes": "!tag removal\nStory \u2014 Underworld Saga \u2014 The Underworld"
         },
         {
             "card_name": "Twofold Scorn",
@@ -3876,7 +3876,7 @@
             "number": 150,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "When you cast this spell, you may copy it if your devotion to red is four or greater. You may choose new targets for the copy. [i](Each {R} in the mana costs of permanents you control counts toward your devotion to red.)[/i]\nThis spell deals 3 damage to target creature or planeswalker.",
+            "rules_text": "When you cast this spell, you may copy it if your devotion to red is four or greater. You may choose new targets for the copy. [i](Each {R} in the mana costs of permanents you control counts toward your devotion to red.)[/i]\nTwofold Scorn deals 3 damage to target creature or planeswalker.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3941,7 +3941,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Astraia, Still Waiting;1"
         },
         {
             "card_name": "Thassa's Refusal",
@@ -3962,7 +3962,7 @@
             "alias": "",
             "position": "168",
             "rotated": false,
-            "notes": ""
+            "notes": "!tag counterspell"
         },
         {
             "card_name": "Congealed Vengeance",
@@ -4037,7 +4037,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Nylea's Protection;1"
         },
         {
             "card_name": "Polis Protector",
@@ -4272,7 +4272,7 @@
             "number": 25,
             "color_identity": "W",
             "cost": "{3}{W}",
-            "rules_text": "Create a token that's a copy of target enchantment you control, except it's a 3/3 Spirit creature in addition to its types.\nEmbark {2} [i]({2}, Discard this card: Draw a card, then conjure a copy of this card's backside into your library third from the top.)[/i]",
+            "rules_text": "Create a token that's a copy of target enchantment you control, except it's a 3/3 Spirit enchantment creature in addition to its types.\nEmbark {2} [i]({2}, Discard this card: Draw a card, then conjure a copy of this card's backside into your library third from the top.)[/i]",
             "flavor_text": "[i]Twenty winters she watched the horizon, reading the flights of gulls and the shape of distant tempests for the return of her husband.[/i]",
             "pt": "",
             "special_text": "",
@@ -4286,7 +4286,7 @@
             "color2": "W",
             "type2": "Sorcery",
             "cost2": "{3}{W}",
-            "rules_text2": "[i](You can't play this side unless it was conjured.)[/i]\nCreate two tokens that are each a copy of target enchantment you control, except they're 3/3 Spirit creatures in addition to their types.",
+            "rules_text2": "[i](You can't play this side unless it was conjured.)[/i]\nCreate two tokens that are each a copy of target enchantment you control, except they're 3/3 Spirit enchantment creatures in addition to their types.",
             "flavor_text2": "[i]\u201cDon't tell me you aren't the same person. I will fall in love with you over and over again. No matter how many winters have passed, you are mine. You will always be my husband.\u201d\n\u2014Alethra, to Elektes[/i]",
             "pt2": "",
             "special_text2": "",
@@ -4295,7 +4295,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Welcome Home;1"
         },
         {
             "card_name": "Olantin Duelist",
@@ -4361,7 +4361,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "\nStory \u2014 Underworld Saga \u2014 The Underworld"
+            "notes": "!spellbook Delayed Guidance;1\nStory \u2014 Underworld Saga \u2014 The Underworld"
         },
         {
             "card_name": "Nymph's Curiosity",
@@ -4394,7 +4394,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "\nStory \u2014 Circe Saga \u2014 Done For / There are other Ways"
+            "notes": "!spellbook Nymph's Warmth;1\nStory \u2014 Circe Saga \u2014 Done For / There are other Ways"
         },
         {
             "card_name": "Twofold Sailor",
@@ -4625,7 +4625,7 @@
             "alias": "",
             "position": "195",
             "rotated": false,
-            "notes": ""
+            "notes": "!tag utility-land"
         },
         {
             "card_name": "Plains",
@@ -4646,7 +4646,7 @@
             "alias": "",
             "position": "196",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Island",
@@ -4667,7 +4667,7 @@
             "alias": "",
             "position": "197",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Swamp",
@@ -4688,7 +4688,7 @@
             "alias": "",
             "position": "198",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Mountain",
@@ -4709,7 +4709,7 @@
             "alias": "",
             "position": "199",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Forest",
@@ -4730,7 +4730,7 @@
             "alias": "",
             "position": "200",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Overwhelming Visions",
@@ -4805,7 +4805,7 @@
             "cost": "{2}{RG}{RG}",
             "rules_text": "This creature can't block unless you control ten or more permanents.\nWhen this creature enters, create a Treasure token.",
             "flavor_text": "[i]An instrument of fate wrapped in bronze and volcanic fury.[/i]",
-            "pt": "4/4",
+            "pt": "5/5",
             "special_text": "",
             "shape": "normal",
             "set": "TEL",
@@ -5030,7 +5030,7 @@
             "card_name": "Sphinx of Six Questions",
             "color": "U",
             "rarity": "common",
-            "type": "Creature",
+            "type": "Creature \u2014 Sphinx Wizard",
             "number": 64,
             "color_identity": "U",
             "cost": "{4}{U}",
@@ -5129,7 +5129,7 @@
             "alias": "",
             "position": "219",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Pidae Fugitive",
@@ -5162,7 +5162,7 @@
             "cost": "{1}{R}",
             "rules_text": "Whenever another creature or enchantment you control dies, this creature deals 1 damage to each opponent.",
             "flavor_text": "[i]\u201cLightning does not strike at random. It seeks out that which rises too high above the plain.\u201d[/i]",
-            "pt": "1/1",
+            "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "TEL",
@@ -5307,7 +5307,7 @@
             "number": 84,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Flying\nWhenever one or more other creatures die, scry 1.",
+            "rules_text": "Flying\nWhenever one or more other creatures you control die, scry 1.",
             "flavor_text": "[i]The harpies circled high above the shattered galleys, waiting for the screams to drown.[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -5328,7 +5328,7 @@
             "number": 115,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "This spell deals 6 damage to target creature or planeswalker. Scry 2.",
+            "rules_text": "Blinding Brand deals 6 damage to target creature or planeswalker. Scry 2.",
             "flavor_text": "[i]Sharpened in secret and heated among glowing embers, the charred olive timber hissed as it was driven deep into the cyclops's drunken gaze.[/i]",
             "pt": "",
             "special_text": "",
@@ -5432,8 +5432,8 @@
             "type": "Enchantment",
             "number": 133,
             "color_identity": "R",
-            "cost": "{1}{R}",
-            "rules_text": "Flash\nWhen this enchantment enters, target creature gets +3/+3 and gains trample until end of turn.\n{2}{R}, Sacrifice this enchantment: Scry 2.",
+            "cost": "{R}",
+            "rules_text": "Flash\nWhen this enchantment enters, target creature gets +3/+0 and gains trample until end of turn.\n{2}{R}, Sacrifice this enchantment: Scry 2.",
             "flavor_text": "[i]\u201cMy time will come, when each Fate plays out on key.\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -5444,7 +5444,7 @@
             "alias": "",
             "position": "234",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Eidolon of Whispered Secrets",
@@ -5475,7 +5475,7 @@
             "number": 144,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "This spell deals 2 damage to any target.\nThe next creature spell you cast this turn gains haste.",
+            "rules_text": "Stab Him in the Eye! deals 2 damage to any target.\nThe next creature spell you cast this turn gains haste.",
             "flavor_text": "[i]The cyclops thudded onto the ground, as the lotus-laced wine coursed through his veins. Elektes snapped back to his senses. His fallen friends would not die in vain.[/i]",
             "pt": "",
             "special_text": "",
@@ -5486,7 +5486,7 @@
             "alias": "",
             "position": "236",
             "rotated": false,
-            "notes": "Story \u2014 Cyclops Saga \u2014 Remember Them\nNOWRITEUP"
+            "notes": "Story \u2014 Cyclops Saga \u2014 Remember Them\n"
         },
         {
             "card_name": "Braggart of Skola Vale",
@@ -5687,13 +5687,13 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Oreskos Veteran;1"
         },
         {
             "card_name": "Olantin Waterbearer",
             "color": "U",
             "rarity": "common",
-            "type": "Creature \u2014 Merfolk",
+            "type": "Creature \u2014 Merfolk Wizard",
             "number": 55,
             "color_identity": "U",
             "cost": "{3}{U}",
@@ -5855,7 +5855,7 @@
             "alias": "",
             "position": "253",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": "!tag removal"
         },
         {
             "card_name": "Joy of Two Hearts",
@@ -5879,7 +5879,7 @@
             "color2": "R",
             "type2": "Sorcery",
             "cost2": "{R}",
-            "rules_text2": "[i](You can't play this side unless it was conjured.)[/i]\nCreate a 2/2 red Soldier creature token. This spell deals 2 damage to each opponent.",
+            "rules_text2": "[i](You can't play this side unless it was conjured.)[/i]\nCreate a 2/2 red Soldier creature token. Still Beating deals 2 damage to each opponent.",
             "flavor_text2": "[i]Death severed the flesh, but never the devotion. Even the cold of the Underworld could not extinguish their bond.[/i]",
             "pt2": "",
             "special_text2": "",
@@ -5888,7 +5888,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Still Beating;1"
         },
         {
             "card_name": "Ironmane Stalwart",
@@ -5963,7 +5963,7 @@
             "alias": "",
             "position": "257",
             "rotated": false,
-            "notes": "Story \u2014 Troy Saga \u2014 Just a Man\nNOWRITEUP"
+            "notes": "Story \u2014 Troy Saga \u2014 Just a Man\n"
         },
         {
             "card_name": "Minotaur Deckhand",
@@ -5993,8 +5993,8 @@
             "type": "Enchantment",
             "number": 179,
             "color_identity": "G",
-            "cost": "{1}{G}",
-            "rules_text": "Flash\nWhen this enchantment enters, mill three cards, then return a creature or land card milled this way to your hand.\n{2}{G}, Sacrifice this enchantment: Scry 2.",
+            "cost": "{G}",
+            "rules_text": "Flash\nWhen this enchantment enters, mill two cards, then return a permanent card milled this way to your hand.\n{2}{G}, Sacrifice this enchantment: Scry 2.",
             "flavor_text": "[i]\u201cMy time will come, when each seed sprouts to reach the sky.\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -6005,7 +6005,7 @@
             "alias": "",
             "position": "259",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Lead from the Heart",
@@ -6047,7 +6047,7 @@
             "alias": "",
             "position": "261",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Baryphon's Grief",
@@ -6056,7 +6056,7 @@
             "type": "Sorcery",
             "number": 80,
             "color_identity": "B",
-            "cost": "{2}{B}",
+            "cost": "{1}{B}",
             "rules_text": "As an additional cost to cast this spell, sacrifice a creature.\nScry 2, then draw two cards. Create a Food token.",
             "flavor_text": "[i]\u201cYou came into my home and slaughtered my sheep. My favorite sheep. What gives you a right to deal a pain so deep?\u201d\n\u2014Baryphon, Shepherd of Stone[/i]",
             "pt": "",
@@ -6120,7 +6120,7 @@
             "number": 89,
             "color_identity": "B",
             "cost": "{B}{B}",
-            "rules_text": "Choose one. If your devotion to black is three or greater, you may choose another. If it is six or greater, choose any number instead.\n\u2022 Target player sacrifices a creature or planeswalker of their choice.\n\u2022 Target player reveals their hand. Choose a nonland card from it. That player discards that card.\n\u2022 Target player exiles their graveyard.",
+            "rules_text": "Choose one. If your devotion to black is three or greater, you may choose another. If it is six or greater, choose any number instead.\n\u2022 Target player sacrifices a creature or planeswalker of their choice.\n\u2022 Target player reveals their hand. Choose a noncreature, nonland card from it. That player discards that card.\n\u2022 Target player exiles their graveyard.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6131,7 +6131,7 @@
             "alias": "",
             "position": "265",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": "!tag discard"
         },
         {
             "card_name": "Heliod's Judgment",
@@ -6141,7 +6141,7 @@
             "number": 15,
             "color_identity": "W",
             "cost": "{X}{W}{W}",
-            "rules_text": "Choose one. If your devotion to white is three or greater, you may choose another. If it is six or greater, choose any number instead.\n\u2022 Return each creature card with mana value X or less from your graveyard to the battlefield.\n\u2022 Exile target nonland permanent with mana value less than the amount of mana spent to cast this spell.\n\u2022 You gain life equal to the amount of mana spent to cast this spell.",
+            "rules_text": "Choose one. If your devotion to white is three or greater, you may choose another. If it is six or greater, choose any number instead.\n\u2022 Return up to twice X target creature card with mana value X or less from your graveyard to the battlefield.\n\u2022 Exile target nonland permanent with mana value less than the amount of mana spent to cast this spell.\n\u2022 Target player gains life equal to the amount of mana spent to cast this spell.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6152,7 +6152,7 @@
             "alias": "",
             "position": "266",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Nylea's Judgment",
@@ -6162,7 +6162,7 @@
             "number": 178,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Choose one. If your devotion to green is three or greater, you may choose another. If it is six or greater, choose any number instead.\n\u2022 Each opponent sacrifices an artifact or enchantment of their choice.\n\u2022 Create a tapped green Forest Dryad land creature token. [i](It is a land creature with \u201c{T}: Add {G}.\u201d)[/i]\n\u2022 You gain 5 life.",
+            "rules_text": "Choose one. If your devotion to green is three or greater, you may choose another. If it is six or greater, choose any number instead.\n\u2022 Each opponent sacrifices an artifact or enchantment of their choice.\n\u2022 Create a tapped 1/1 green Forest Dryad land creature token. [i](It is a land creature with \u201c{T}: Add {G}.\u201d)[/i]\n\u2022 You gain 5 life.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6173,7 +6173,7 @@
             "alias": "",
             "position": "267",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": "!tag ramp"
         },
         {
             "card_name": "Purphoros's Judgment",
@@ -6194,7 +6194,7 @@
             "alias": "",
             "position": "268",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Thassa's Judgment",
@@ -6215,7 +6215,7 @@
             "alias": "",
             "position": "269",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": "!tag counterspell"
         },
         {
             "card_name": "Asphodel Corpsebroker",
@@ -6236,7 +6236,7 @@
             "alias": "",
             "position": "270",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": "!tag wishlist"
         },
         {
             "card_name": "Winter Nexus",
@@ -6257,7 +6257,7 @@
             "alias": "",
             "position": "271",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Heartless Dispatch",
@@ -6278,7 +6278,7 @@
             "alias": "",
             "position": "272",
             "rotated": false,
-            "notes": "Story \u2014 Cyclops Saga \u2014 Polyphemus\nNOWRITEUP"
+            "notes": "Story \u2014 Cyclops Saga \u2014 Polyphemus\n"
         },
         {
             "card_name": "Surveying Gemita",
@@ -6288,7 +6288,7 @@
             "number": 189,
             "color_identity": "G",
             "cost": "{G}",
-            "rules_text": "Search your library for a basic land or Cave card, reveal it, put it into your hand, then shuffle.\nEmbark {2} [i]({2}, Discard this card: Draw a card, then conjure a copy of this card's backside into your library third from the top.)[/i]",
+            "rules_text": "Search your library for a basic land card, reveal it, put it into your hand, then shuffle.\nEmbark {2} [i]({2}, Discard this card: Draw a card, then conjure a copy of this card's backside into your library third from the top.)[/i]",
             "flavor_text": "[i]The crew approached the island filled with strange and wonderful creatures.[/i]",
             "pt": "",
             "special_text": "",
@@ -6311,7 +6311,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Gemita Guardian;1"
         },
         {
             "card_name": "Nibble of Lotus",
@@ -6344,7 +6344,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Gorge on the Lotus;1"
         },
         {
             "card_name": "Reveal Their True Form",
@@ -6603,7 +6603,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Token Creature \u2014 Soldier",
-            "number": 7,
+            "number": 8,
             "color_identity": "W",
             "cost": "",
             "rules_text": "",
@@ -6624,7 +6624,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Token Creature \u2014 Army",
-            "number": 2,
+            "number": 3,
             "color_identity": "W",
             "cost": "",
             "rules_text": "",
@@ -6645,7 +6645,7 @@
             "color": "R",
             "rarity": "common",
             "type": "Token Creature \u2014 Soldier",
-            "number": 30,
+            "number": 31,
             "color_identity": "R",
             "cost": "",
             "rules_text": "",
@@ -6687,10 +6687,10 @@
             "color": "",
             "rarity": "common",
             "type": "Token Land Creature \u2014 Forest Dryad",
-            "number": 46,
+            "number": 45,
             "color_identity": "G",
             "cost": "",
-            "rules_text": "\n{T}: Add {G}.)",
+            "rules_text": "{T}: Add {G}.)",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -6704,32 +6704,11 @@
             "notes": ""
         },
         {
-            "card_name": "Forest",
-            "color": "",
-            "rarity": "common",
-            "type": "Token Land \u2014 Forest",
-            "number": 45,
-            "color_identity": "G",
-            "cost": "",
-            "rules_text": "[i]({T}: Add {G}.)[/i]",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "token",
-            "set": "TEL",
-            "loyalty": "",
-            "artist": "Ari Targownik",
-            "alias": "",
-            "position": "292",
-            "rotated": false,
-            "notes": ""
-        },
-        {
             "card_name": "Cyclops",
             "color": "G",
             "rarity": "common",
             "type": "Token Creature \u2014 Cyclops",
-            "number": 33,
+            "number": 34,
             "color_identity": "G",
             "cost": "",
             "rules_text": "Trample",
@@ -6741,7 +6720,7 @@
             "loyalty": "",
             "artist": "Noel Cabrera Fernandez",
             "alias": "",
-            "position": "293",
+            "position": "292",
             "rotated": false,
             "notes": ""
         },
@@ -6750,7 +6729,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Token Creature \u2014 Siren",
-            "number": 15,
+            "number": 16,
             "color_identity": "U",
             "cost": "",
             "rules_text": "",
@@ -6762,7 +6741,7 @@
             "loyalty": "",
             "artist": "Nikola Vujadinovic",
             "alias": "",
-            "position": "294",
+            "position": "293",
             "rotated": false,
             "notes": ""
         },
@@ -6771,7 +6750,7 @@
             "color": "B",
             "rarity": "common",
             "type": "Token Creature \u2014 Harpy",
-            "number": 21,
+            "number": 22,
             "color_identity": "B",
             "cost": "",
             "rules_text": "Flying",
@@ -6783,7 +6762,7 @@
             "loyalty": "",
             "artist": "Diana Khomutina",
             "alias": "",
-            "position": "295",
+            "position": "294",
             "rotated": false,
             "notes": ""
         },
@@ -6804,7 +6783,7 @@
             "loyalty": "",
             "artist": "Auranchik",
             "alias": "",
-            "position": "296",
+            "position": "295",
             "rotated": false,
             "notes": ""
         },
@@ -6825,7 +6804,7 @@
             "loyalty": "",
             "artist": "Volta Eleventhhour",
             "alias": "",
-            "position": "297",
+            "position": "296",
             "rotated": false,
             "notes": ""
         },
@@ -6846,7 +6825,7 @@
             "loyalty": "",
             "artist": "Ben Guildemond",
             "alias": "",
-            "position": "298",
+            "position": "297",
             "card_name2": "Glory of Mortals",
             "color2": "W",
             "type2": "Legendary Enchantment \u2014 Aura",
@@ -6879,7 +6858,7 @@
             "loyalty": "",
             "artist": "Qcrowscant",
             "alias": "",
-            "position": "299",
+            "position": "298",
             "card_name2": "Phenax's Gift",
             "color2": "U",
             "type2": "Enchantment \u2014 Aura",
@@ -6912,7 +6891,7 @@
             "loyalty": "",
             "artist": "Tomas Duchek",
             "alias": "",
-            "position": "300",
+            "position": "299",
             "card_name2": "Inevitable Tide",
             "color2": "U",
             "type2": "Enchantment \u2014 Aura",
@@ -6945,7 +6924,7 @@
             "loyalty": "",
             "artist": "Angela Chiarelli",
             "alias": "",
-            "position": "301",
+            "position": "300",
             "card_name2": "Carry Past",
             "color2": "U",
             "type2": "Enchantment \u2014 Aura",
@@ -6978,7 +6957,7 @@
             "loyalty": "",
             "artist": "Duong Lam",
             "alias": "",
-            "position": "302",
+            "position": "301",
             "card_name2": "Good Intel",
             "color2": "U",
             "type2": "Enchantment \u2014 Aura",
@@ -7011,12 +6990,12 @@
             "loyalty": "",
             "artist": "Bogdan Rezunenko",
             "alias": "",
-            "position": "303",
+            "position": "302",
             "card_name2": "Creeping Rot",
             "color2": "B",
             "type2": "Enchantment \u2014 Aura",
             "cost2": "{2}{B}",
-            "rules_text2": "Enchant creature\nWhenever this creature dies, create a 2/2 black Zombie creature token. You gain 2 life.",
+            "rules_text2": "Enchant creature\nWhenever enchanted creature dies, create a 2/2 black Zombie creature token. You gain 2 life.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
@@ -7044,7 +7023,7 @@
             "loyalty": "",
             "artist": "Connor Sinclair",
             "alias": "",
-            "position": "304",
+            "position": "303",
             "card_name2": "Rise Once More",
             "color2": "B",
             "type2": "Enchantment \u2014 Aura",
@@ -7077,7 +7056,7 @@
             "loyalty": "",
             "artist": "Miguel Coimbra",
             "alias": "",
-            "position": "305",
+            "position": "304",
             "card_name2": "Messenger's Speed",
             "color2": "R",
             "type2": "Enchantment \u2014 Aura",
@@ -7110,7 +7089,7 @@
             "loyalty": "",
             "artist": "Max Kostin",
             "alias": "",
-            "position": "306",
+            "position": "305",
             "card_name2": "Consume Shame",
             "color2": "R",
             "type2": "Enchantment \u2014 Aura",
@@ -7143,7 +7122,7 @@
             "loyalty": "",
             "artist": "Jonathan Kiem",
             "alias": "",
-            "position": "307",
+            "position": "306",
             "card_name2": "Aid of Iroas",
             "color2": "R",
             "type2": "Enchantment \u2014 Aura",
@@ -7157,7 +7136,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "NOWRITEUP"
+            "notes": ""
         },
         {
             "card_name": "Koletra of the Lagonna-Band",
@@ -7176,7 +7155,7 @@
             "loyalty": "",
             "artist": "Jingyu Wen",
             "alias": "",
-            "position": "308",
+            "position": "307",
             "card_name2": "Wild Growth",
             "color2": "G",
             "type2": "Enchantment \u2014 Aura",
@@ -7209,7 +7188,7 @@
             "loyalty": "",
             "artist": "Rayven Studios",
             "alias": "",
-            "position": "309",
+            "position": "308",
             "card_name2": "Setessan Training",
             "color2": "G",
             "type2": "Enchantment \u2014 Aura",
@@ -7242,7 +7221,7 @@
             "loyalty": "",
             "artist": "Ricardo Mango",
             "alias": "",
-            "position": "310",
+            "position": "309",
             "card_name2": "Smuggle",
             "color2": "UG",
             "type2": "Enchantment \u2014 Aura",
@@ -7275,7 +7254,7 @@
             "loyalty": "",
             "artist": "Magd Essam",
             "alias": "",
-            "position": "311",
+            "position": "310",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7284,7 +7263,7 @@
             "color": "R",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 25,
+            "number": 26,
             "color_identity": "R",
             "cost": "",
             "rules_text": "Enchant creature\nNoncreature spells you cast cost {1} less to cast.\nEnchanted creature has menace.\n[i](This token's mana cost is {3}{R}.)[/i]",
@@ -7296,7 +7275,7 @@
             "loyalty": "",
             "artist": "Marius Villard",
             "alias": "",
-            "position": "312",
+            "position": "311",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7305,7 +7284,7 @@
             "color": "R",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 27,
+            "number": 28,
             "color_identity": "R",
             "cost": "",
             "rules_text": "Enchant creature\nWhen enchanted creature dies, it deals 1 damage to each opponent. Create a Treasure token.\n[i](This token's mana cost is {R}.)[/i]",
@@ -7317,7 +7296,7 @@
             "loyalty": "",
             "artist": "Tanapon Wachirakul",
             "alias": "",
-            "position": "313",
+            "position": "312",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7326,7 +7305,7 @@
             "color": "R",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 26,
+            "number": 27,
             "color_identity": "R",
             "cost": "",
             "rules_text": "Enchant creature\nEnchanted creature has double strike.\n[i](This token's mana cost is {2}{R}.)[/i]",
@@ -7338,7 +7317,7 @@
             "loyalty": "",
             "artist": "Michalivan",
             "alias": "",
-            "position": "314",
+            "position": "313",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7347,7 +7326,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 9,
+            "number": 10,
             "color_identity": "U",
             "cost": "",
             "rules_text": "Enchant creature\n{2}{U}: Enchanted creature can't be blocked this turn.\n[i](This token's mana cost is {1}{U}.)[/i]",
@@ -7359,7 +7338,7 @@
             "loyalty": "",
             "artist": "Andromeda",
             "alias": "",
-            "position": "315",
+            "position": "314",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7368,7 +7347,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 12,
+            "number": 13,
             "color_identity": "U",
             "cost": "",
             "rules_text": "Enchant creature\nEnchanted creature has \u201cAt the beginning of your upkeep, return a nonland permanent you control to its owner's hand.\u201d\n[i](This token's mana cost is {2}{U}.)[/i]",
@@ -7380,7 +7359,7 @@
             "loyalty": "",
             "artist": "Tenoart",
             "alias": "",
-            "position": "316",
+            "position": "315",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7389,7 +7368,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 14,
+            "number": 15,
             "color_identity": "U",
             "cost": "",
             "rules_text": "Enchant creature\nEnchanted creature gets +1/+0 and has prowess.\n[i](This token's mana cost is {1}{U}.)[/i]",
@@ -7401,7 +7380,7 @@
             "loyalty": "",
             "artist": "M1rafaye",
             "alias": "",
-            "position": "317",
+            "position": "316",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7410,7 +7389,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 16,
+            "number": 17,
             "color_identity": "U",
             "cost": "",
             "rules_text": "Enchant creature\nEnchanted creature has \u201cAt the beginning of your upkeep, tap this creature unless you exile a card from your graveyard.\u201d\n[i](This token's mana cost is {1}{U}.)[/i]",
@@ -7422,7 +7401,7 @@
             "loyalty": "",
             "artist": "Fovfvk",
             "alias": "",
-            "position": "318",
+            "position": "317",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7431,7 +7410,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 8,
+            "number": 9,
             "color_identity": "W",
             "cost": "",
             "rules_text": "Enchant creature\nEnchanted creature is a Spirit with base power and toughness 4/4 with flying and vigilance instead of its other types.\n[i](This token's mana cost is {2}{W}.)[/i]",
@@ -7443,7 +7422,7 @@
             "loyalty": "",
             "artist": "Rob Rey",
             "alias": "",
-            "position": "319",
+            "position": "318",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7452,7 +7431,7 @@
             "color": "B",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 18,
+            "number": 19,
             "color_identity": "B",
             "cost": "",
             "rules_text": "As an additional cost to cast this spell, pay 2 life.\nEnchant creature\nEnchanted creature gets +2/+2.\n[i](This token's mana cost is {1}{B}.)[/i]",
@@ -7464,7 +7443,7 @@
             "loyalty": "",
             "artist": "Xinyi Zhou",
             "alias": "",
-            "position": "320",
+            "position": "319",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7473,7 +7452,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 3,
+            "number": 4,
             "color_identity": "W",
             "cost": "",
             "rules_text": "Enchant creature\nEnchanted creature gets +2/+2 and has vigilance.\n[i](This token's mana cost is {4}{W}.)[/i]",
@@ -7485,7 +7464,7 @@
             "loyalty": "",
             "artist": "Julie Dillon",
             "alias": "",
-            "position": "321",
+            "position": "320",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7494,7 +7473,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 6,
+            "number": 7,
             "color_identity": "W",
             "cost": "",
             "rules_text": "Enchant creature\nEnchanted creature gets +X/+X, where X is your devotion to white. [i](Each {W} in the mana costs of permanents you control counts toward your devotion to white.)[/i]\n[i](This token's mana cost is {3}{W}{W}.)[/i]",
@@ -7506,7 +7485,7 @@
             "loyalty": "",
             "artist": "Miguel Coimbra",
             "alias": "",
-            "position": "322",
+            "position": "321",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7527,7 +7506,7 @@
             "loyalty": "",
             "artist": "Matsyua Das",
             "alias": "",
-            "position": "323",
+            "position": "322",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7536,7 +7515,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 35,
+            "number": 36,
             "color_identity": "G",
             "cost": "",
             "rules_text": "Enchant creature\nEnchanted creature gets +8/+8 and has trample.\n[i](This token's mana cost is {4}{G}{G}{G}.)[/i]",
@@ -7548,7 +7527,7 @@
             "loyalty": "",
             "artist": "Hazem Ameen",
             "alias": "",
-            "position": "324",
+            "position": "323",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7557,7 +7536,7 @@
             "color": "R",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 28,
+            "number": 29,
             "color_identity": "R",
             "cost": "",
             "rules_text": "Enchant creature\nEnchanted creature has trample and haste.\n[i](This token's mana cost is {R}.)[/i]",
@@ -7569,7 +7548,7 @@
             "loyalty": "",
             "artist": "Tom Cuminal",
             "alias": "",
-            "position": "325",
+            "position": "324",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7578,7 +7557,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 34,
+            "number": 35,
             "color_identity": "G",
             "cost": "",
             "rules_text": "Enchant creature\nAt the beginning of your end step, put a +1/+1 counter enchanted creature.\n[i](This token's mana cost is {1}{G}.)[/i]",
@@ -7590,7 +7569,7 @@
             "loyalty": "",
             "artist": "Ren tu",
             "alias": "",
-            "position": "326",
+            "position": "325",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7599,7 +7578,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 4,
+            "number": 5,
             "color_identity": "W",
             "cost": "",
             "rules_text": "Enchant creature with another Aura attached to it.\nEnchanted creature gets +3/+3 and has first strike, vigilance, and lifelink.\n[i](This token's mana cost is {W}{W}.)[/i]",
@@ -7611,7 +7590,7 @@
             "loyalty": "",
             "artist": "M1rafaye",
             "alias": "",
-            "position": "327",
+            "position": "326",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7632,7 +7611,7 @@
             "loyalty": "",
             "artist": "Zrdenzia",
             "alias": "",
-            "position": "328",
+            "position": "327",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7641,7 +7620,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 31,
+            "number": 32,
             "color_identity": "G",
             "cost": "",
             "rules_text": "Enchant creature\nEnchanted creature gets +1/+1 for each Forest you control.\n[i](This token's mana cost is {2}{G}.)[/i]",
@@ -7653,7 +7632,7 @@
             "loyalty": "",
             "artist": "Diablo Immortal Concept Art",
             "alias": "",
-            "position": "329",
+            "position": "328",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7674,7 +7653,7 @@
             "loyalty": "",
             "artist": "Andrea Piparo",
             "alias": "",
-            "position": "330",
+            "position": "329",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7683,7 +7662,7 @@
             "color": "R",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 29,
+            "number": 30,
             "color_identity": "R",
             "cost": "",
             "rules_text": "Enchant player\nAt the beginning of enchanted player's upkeep, this Aura deals 1 damage to that player.\n[i](This token's mana cost is {1}{R}.)[/i]",
@@ -7695,7 +7674,7 @@
             "loyalty": "",
             "artist": "Sydney-Empire",
             "alias": "",
-            "position": "331",
+            "position": "330",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7704,7 +7683,7 @@
             "color": "B",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 17,
+            "number": 18,
             "color_identity": "B",
             "cost": "",
             "rules_text": "Enchant creature\nEnchanted creature gets -1/-1 and can't block Zombies.\n[i](This token's mana cost is {B}.)[/i]",
@@ -7716,7 +7695,7 @@
             "loyalty": "",
             "artist": "Nicole Cardiff",
             "alias": "",
-            "position": "332",
+            "position": "331",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7725,7 +7704,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Token Legendary Enchantment \u2014 Aura",
-            "number": 5,
+            "number": 6,
             "color_identity": "W",
             "cost": "",
             "rules_text": "Enchant creature\nCreatures you control get +1/+1.\n[i](This token's mana cost is {3}{W}.)[/i]",
@@ -7737,7 +7716,7 @@
             "loyalty": "",
             "artist": "Tkitart",
             "alias": "",
-            "position": "333",
+            "position": "332",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7746,7 +7725,7 @@
             "color": "B",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura Curse",
-            "number": 20,
+            "number": 21,
             "color_identity": "B",
             "cost": "",
             "rules_text": "Enchant player\nAt the beginning of each end step, enchanted player loses 2 life if they've lost life this turn.\n[i](This token's mana cost is {2}{B}.)[/i]",
@@ -7758,7 +7737,7 @@
             "loyalty": "",
             "artist": "Pablo Hurtado de Mendoza",
             "alias": "",
-            "position": "334",
+            "position": "333",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7767,7 +7746,7 @@
             "color": "B",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 22,
+            "number": 23,
             "color_identity": "B",
             "cost": "",
             "rules_text": "Enchant creature\nWhenever enchanted creature dies, you may exile it. When you do, return target creature card from your graveyard to your hand.\n[i](This token's mana cost is {3}{B}.)[/i]",
@@ -7779,7 +7758,7 @@
             "loyalty": "",
             "artist": "Tomasz Jedruszek",
             "alias": "",
-            "position": "335",
+            "position": "334",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7788,10 +7767,10 @@
             "color": "B",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 19,
+            "number": 20,
             "color_identity": "B",
             "cost": "",
-            "rules_text": "Enchant creature\nWhenever this creature dies, create a 2/2 black Zombie creature token. You gain 2 life.\n[i](This token's mana cost is {2}{B}.)[/i]",
+            "rules_text": "Enchant creature\nWhenever enchanted creature dies, create a 2/2 black Zombie creature token. You gain 2 life.\n[i](This token's mana cost is {2}{B}.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -7800,7 +7779,7 @@
             "loyalty": "",
             "artist": "User IX",
             "alias": "",
-            "position": "336",
+            "position": "335",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7809,7 +7788,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Token Enchantment \u2014 Aura",
-            "number": 11,
+            "number": 12,
             "color_identity": "U",
             "cost": "",
             "rules_text": "Enchant creature\nWhenever enchanted creature deals combat damage to a player, sacrifice this enchantment and draw a card.\n[i](This token's mana cost is {U}.)[/i]",
@@ -7821,7 +7800,7 @@
             "loyalty": "",
             "artist": "Ibrahem Swaid",
             "alias": "",
-            "position": "337",
+            "position": "336",
             "rotated": false,
             "notes": "Ruthlessness Token"
         },
@@ -7830,7 +7809,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Token Creature \u2014 Octopus Horror",
-            "number": 36,
+            "number": 37,
             "color_identity": "G",
             "cost": "",
             "rules_text": "Vigilance",
@@ -7842,7 +7821,7 @@
             "loyalty": "",
             "artist": "Sebastian Kowoll",
             "alias": "",
-            "position": "338",
+            "position": "337",
             "rotated": false,
             "notes": ""
         },
@@ -7851,7 +7830,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Token Creature \u2014 Merfolk",
-            "number": 13,
+            "number": 14,
             "color_identity": "U",
             "cost": "",
             "rules_text": "Prowess",
@@ -7863,28 +7842,7 @@
             "loyalty": "",
             "artist": "Onyksaa",
             "alias": "",
-            "position": "339",
-            "rotated": false,
-            "notes": ""
-        },
-        {
-            "card_name": "Satyr",
-            "color": "G",
-            "rarity": "common",
-            "type": "Token Creature \u2014 Satyr",
-            "number": 37,
-            "color_identity": "G",
-            "cost": "",
-            "rules_text": "",
-            "flavor_text": "[i][/i]",
-            "pt": "2/2",
-            "special_text": "",
-            "shape": "token",
-            "set": "TEL",
-            "loyalty": "",
-            "artist": "Formalinov",
-            "alias": "",
-            "position": "340",
+            "position": "338",
             "rotated": false,
             "notes": ""
         },
@@ -7893,7 +7851,7 @@
             "color": "B",
             "rarity": "common",
             "type": "Token Creature \u2014 Zombie",
-            "number": 24,
+            "number": 25,
             "color_identity": "B",
             "cost": "",
             "rules_text": "",
@@ -7905,7 +7863,7 @@
             "loyalty": "",
             "artist": "Emrah Elmasli",
             "alias": "",
-            "position": "341",
+            "position": "339",
             "rotated": false,
             "notes": ""
         },
@@ -7914,7 +7872,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Token Creature \u2014 Demon Leviathan",
-            "number": 10,
+            "number": 11,
             "color_identity": "U",
             "cost": "",
             "rules_text": "",
@@ -7926,7 +7884,7 @@
             "loyalty": "",
             "artist": "Guillem H. Pongiluppi",
             "alias": "",
-            "position": "342",
+            "position": "340",
             "rotated": false,
             "notes": ""
         },
@@ -7935,7 +7893,7 @@
             "color": "B",
             "rarity": "common",
             "type": "Token Creature \u2014 Shade",
-            "number": 23,
+            "number": 24,
             "color_identity": "B",
             "cost": "",
             "rules_text": "",
@@ -7947,7 +7905,7 @@
             "loyalty": "",
             "artist": "Vale Amazon",
             "alias": "",
-            "position": "343",
+            "position": "341",
             "rotated": false,
             "notes": ""
         },
@@ -7955,7 +7913,7 @@
             "card_name": "Oracle of Action",
             "color": "U",
             "rarity": "common",
-            "type": "Creature \u2014 Merfolk Knight",
+            "type": "Creature \u2014 Human Cleric",
             "number": 58,
             "color_identity": "U",
             "cost": "{1}{U}",
@@ -7968,10 +7926,10 @@
             "loyalty": "",
             "artist": "Thomas Dumey Locki",
             "alias": "",
-            "position": "344",
+            "position": "342",
             "card_name2": "Overseer of Clarity",
             "color2": "U",
-            "type2": "Creature \u2014 Merfolk Knight",
+            "type2": "Creature \u2014 Human Cleric",
             "cost2": "{2}{U}",
             "rules_text2": "[i](You can't play this side unless it was conjured.)[/i]\nFlying\nWhen this creature enters, draw a card.",
             "flavor_text2": "[i]In the blinding flash of Keranos's wrath, the chaos of battle resolves into a crystal clear tapestry of cause and consequence.[/i]",
@@ -7982,14 +7940,14 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": ""
+            "notes": "!spellbook Overseer of Clarity;1"
         },
         {
             "card_name": "Centaur",
             "color": "G",
             "rarity": "common",
             "type": "Token Creature \u2014 Centaur",
-            "number": 32,
+            "number": 33,
             "color_identity": "G",
             "cost": "",
             "rules_text": "",
@@ -8001,7 +7959,28 @@
             "loyalty": "",
             "artist": "Lise Baron",
             "alias": "",
-            "position": "345",
+            "position": "343",
+            "rotated": false,
+            "notes": ""
+        },
+        {
+            "card_name": "Spirit",
+            "color": "",
+            "rarity": "common",
+            "type": "Token Enchantment Creature \u2014 Spirit",
+            "number": 2,
+            "color_identity": "C",
+            "cost": "",
+            "rules_text": "",
+            "flavor_text": "[i][/i]",
+            "pt": "3/3",
+            "special_text": "",
+            "shape": "token",
+            "set": "TEL",
+            "loyalty": "",
+            "artist": "Risto Kokkonen",
+            "alias": "",
+            "position": "344",
             "rotated": false,
             "notes": ""
         }
