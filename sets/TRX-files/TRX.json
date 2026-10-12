@@ -1,6 +1,6 @@
 ﻿{
     "name": "Theros: Age of Trax",
-    "formats": "Zangy, Revolution",
+    "formats": "REV",
     "image_type": "png",
     "draft_structure": "draft booster",
     "unpreviewed": "card back",
@@ -26,7 +26,7 @@
             "alias": "",
             "position": "0",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Traxian Strategos",
@@ -47,7 +47,7 @@
             "alias": "",
             "position": "1",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Ephara\n!tag Agnomakhos"
+            "notes": ""
         },
         {
             "card_name": "New Recruit",
@@ -68,7 +68,7 @@
             "alias": "",
             "position": "2",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Alseid of Stilled Hearts",
@@ -89,7 +89,7 @@
             "alias": "",
             "position": "3",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Daybreak Rider",
@@ -122,7 +122,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Heliod"
+            "notes": ""
         },
         {
             "card_name": "Traxian Calvary",
@@ -143,7 +143,7 @@
             "alias": "",
             "position": "5",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Agnomakhos"
+            "notes": ""
         },
         {
             "card_name": "Skophos Warden",
@@ -164,7 +164,7 @@
             "alias": "",
             "position": "6",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Walk the Dead's Path",
@@ -185,7 +185,7 @@
             "alias": "",
             "position": "7",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Phenax\n!tag Evandros\nvampire"
+            "notes": "vampire"
         },
         {
             "card_name": "Tyranny of Trax",
@@ -206,7 +206,7 @@
             "alias": "",
             "position": "8",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Story\n!tag TRXStory\n!tag Tiro\n!tag Ephara\nStory Spotlight 2\n!update"
+            "notes": "Story Spotlight 2"
         },
         {
             "card_name": "Marble Philosopher",
@@ -227,7 +227,7 @@
             "alias": "",
             "position": "9",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Ephara\nDevotion to Three Cycle"
+            "notes": "Devotion to Three Cycle"
         },
         {
             "card_name": "Olantin Stalwart",
@@ -248,7 +248,7 @@
             "alias": "",
             "position": "10",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Thassa\nSlow enchantments"
+            "notes": "Slow enchantments"
         },
         {
             "card_name": "Traxian Hoplite",
@@ -269,7 +269,7 @@
             "alias": "",
             "position": "11",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Agnomakhos\nCrats"
+            "notes": "Crats"
         },
         {
             "card_name": "Gods Willing",
@@ -290,7 +290,7 @@
             "alias": "",
             "position": "12",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Karda\n!tag Claes\n!tag Koios\n!tag Planeswalker\n!tag Yaoi"
+            "notes": ""
         },
         {
             "card_name": "Charming Siren",
@@ -300,7 +300,7 @@
             "number": 47,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Flying\nWhen Charming Siren leaves the battlefield, if it wasn't blocking, you may bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
+            "rules_text": "Flying\nWhen Charming Siren dies, if it wasn't blocking, you may bless target creature. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -323,7 +323,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Melancholic Oracle",
@@ -344,7 +344,7 @@
             "alias": "",
             "position": "14",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Benthalos"
+            "notes": ""
         },
         {
             "card_name": "Meeting of the Minds",
@@ -365,7 +365,7 @@
             "alias": "",
             "position": "15",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Haubay\n!tag Agnomakhos"
+            "notes": ""
         },
         {
             "card_name": "Mentor of the Dakra Isles",
@@ -386,7 +386,7 @@
             "alias": "",
             "position": "16",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Kruphix"
+            "notes": ""
         },
         {
             "card_name": "Olantin Emissary",
@@ -407,7 +407,7 @@
             "alias": "",
             "position": "17",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Benthalos"
+            "notes": ""
         },
         {
             "card_name": "Dakran Shipcrusher",
@@ -440,7 +440,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\nKLOS"
+            "notes": "KLOS"
         },
         {
             "card_name": "Warden of the Deep-Dwelling",
@@ -461,7 +461,7 @@
             "alias": "",
             "position": "19",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Callaphe\n!tag Benthalos"
+            "notes": ""
         },
         {
             "card_name": "Fathomless Dominion",
@@ -482,7 +482,7 @@
             "alias": "",
             "position": "20",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Thassa"
+            "notes": "Thassa"
         },
         {
             "card_name": "Divine Mishap",
@@ -503,7 +503,7 @@
             "alias": "",
             "position": "21",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Kraken Hatchling",
@@ -524,7 +524,7 @@
             "alias": "",
             "position": "22",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Hai\n!tag Planeswalker\n!tag Arixmethes\n!tag Nezahal"
+            "notes": ""
         },
         {
             "card_name": "Thassa's Caress",
@@ -545,7 +545,7 @@
             "alias": "",
             "position": "23",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Thassa\nDevotion to Three cycle"
+            "notes": "Devotion to Three cycle"
         },
         {
             "card_name": "Odunos Smuggler",
@@ -566,7 +566,7 @@
             "alias": "",
             "position": "24",
             "rotated": false,
-            "notes": "!tag Theros\nEight or more mill"
+            "notes": "Eight or more mill"
         },
         {
             "card_name": "Possibility Savant",
@@ -587,7 +587,7 @@
             "alias": "",
             "position": "25",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Keranos\nNoncreature love"
+            "notes": "Noncreature love"
         },
         {
             "card_name": "Secluded Gorgon",
@@ -620,7 +620,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Pharina\n!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Hekatan Demagogue",
@@ -641,7 +641,7 @@
             "alias": "",
             "position": "27",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Erebos"
+            "notes": ""
         },
         {
             "card_name": "Reaper Archon",
@@ -662,7 +662,7 @@
             "alias": "",
             "position": "28",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Haubay\n!tag Agnomakhos\n!tag Planeswalker"
+            "notes": ""
         },
         {
             "card_name": "Stoic Phylaskia",
@@ -683,7 +683,7 @@
             "alias": "",
             "position": "29",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Phenax\n!tag Erebos"
+            "notes": ""
         },
         {
             "card_name": "Remnant of Zakros",
@@ -704,7 +704,7 @@
             "alias": "",
             "position": "30",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Xarr\n!tag Haubay\n!tag Planeswalker"
+            "notes": ""
         },
         {
             "card_name": "Xarr's Mockery",
@@ -725,7 +725,7 @@
             "alias": "",
             "position": "31",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Planeswalker\n!tag Xarr"
+            "notes": ""
         },
         {
             "card_name": "Isolated Misery",
@@ -746,7 +746,7 @@
             "alias": "",
             "position": "32",
             "rotated": false,
-            "notes": "!tag Theros\nDevotion to Three cycle"
+            "notes": "Devotion to Three cycle"
         },
         {
             "card_name": "Nurture the Future",
@@ -767,7 +767,7 @@
             "alias": "",
             "position": "33",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Cybele"
+            "notes": "adjusted: Devotion buff changed from flash."
         },
         {
             "card_name": "Skophos Conqueror",
@@ -788,7 +788,7 @@
             "alias": "",
             "position": "34",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Mogis\nMinotaurs/Sacrifice"
+            "notes": "Minotaurs/Sacrifice"
         },
         {
             "card_name": "Split-Hair Asp",
@@ -809,7 +809,7 @@
             "alias": "",
             "position": "35",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Pharika\nDeathtouch Saboteurs"
+            "notes": "Deathtouch Saboteurs"
         },
         {
             "card_name": "Hero in the Making",
@@ -830,7 +830,7 @@
             "alias": "",
             "position": "36",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Eidolon of Empty Thoughts",
@@ -851,7 +851,7 @@
             "alias": "",
             "position": "37",
             "rotated": false,
-            "notes": "!tag Theros\nDevotion to Three cycle"
+            "notes": "Devotion to Three cycle"
         },
         {
             "card_name": "Invest in the Future",
@@ -872,7 +872,7 @@
             "alias": "",
             "position": "38",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Anvilwrought Lion",
@@ -893,7 +893,7 @@
             "alias": "",
             "position": "39",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Petros\n!tag Purphoros"
+            "notes": ""
         },
         {
             "card_name": "Mogis's Raider",
@@ -926,7 +926,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Mogis"
+            "notes": ""
         },
         {
             "card_name": "Seismic Chimera",
@@ -959,7 +959,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Zygos\n!tag SevenWarriors"
+            "notes": ""
         },
         {
             "card_name": "Rally the Hoplites",
@@ -980,7 +980,7 @@
             "alias": "",
             "position": "42",
             "rotated": false,
-            "notes": "!tag Theros\n!tag SevenWarriors"
+            "notes": ""
         },
         {
             "card_name": "Guardians of Zakros",
@@ -1001,7 +1001,7 @@
             "alias": "",
             "position": "43",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Speaker of the Lightning",
@@ -1022,7 +1022,7 @@
             "alias": "",
             "position": "44",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Purphoros\n!tag Keranos"
+            "notes": ""
         },
         {
             "card_name": "Punishment from Nyx",
@@ -1043,7 +1043,7 @@
             "alias": "",
             "position": "45",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Yaoi\n!tag Koios\n!tag Claes"
+            "notes": ""
         },
         {
             "card_name": "Fall from Nyx",
@@ -1064,7 +1064,7 @@
             "alias": "",
             "position": "46",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Koios"
+            "notes": ""
         },
         {
             "card_name": "Reply to the Call",
@@ -1085,7 +1085,7 @@
             "alias": "",
             "position": "47",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Agnomakhos"
+            "notes": ""
         },
         {
             "card_name": "Heedless Cruelty",
@@ -1106,7 +1106,7 @@
             "alias": "",
             "position": "48",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Haubay\n!tag Agnomakhos\n!tag Planeswalker"
+            "notes": ""
         },
         {
             "card_name": "Thrice-Blessed Boon",
@@ -1127,7 +1127,7 @@
             "alias": "",
             "position": "49",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Purphoros\n!tag Keranos\n!tag Karda"
+            "notes": ""
         },
         {
             "card_name": "Aegis Assault",
@@ -1148,7 +1148,7 @@
             "alias": "",
             "position": "50",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Koios\n!tag Claes\n!tag Yaoi\nCombat Stuff/heroic"
+            "notes": "Combat Stuff/heroic"
         },
         {
             "card_name": "Revel Watchguard",
@@ -1169,7 +1169,7 @@
             "alias": "",
             "position": "51",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Dryad of the Keen-Eyed",
@@ -1190,7 +1190,7 @@
             "alias": "",
             "position": "52",
             "rotated": false,
-            "notes": "!tag Nylea\n!tag Theros\nDevotion to Three cycle"
+            "notes": "Devotion to Three cycle"
         },
         {
             "card_name": "Reaper of Fields",
@@ -1223,7 +1223,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Klothys"
+            "notes": ""
         },
         {
             "card_name": "Pidae Raider",
@@ -1244,7 +1244,7 @@
             "alias": "",
             "position": "54",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Cybele\n!tag Chrolcatos"
+            "notes": ""
         },
         {
             "card_name": "Caller of Ferocity",
@@ -1277,7 +1277,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Karametra"
+            "notes": ""
         },
         {
             "card_name": "Inkblooded Basilisk",
@@ -1298,7 +1298,7 @@
             "alias": "",
             "position": "56",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Pharika"
+            "notes": ""
         },
         {
             "card_name": "Centaur Mentor",
@@ -1319,7 +1319,7 @@
             "alias": "",
             "position": "57",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Pheres-Band Huntmaster",
@@ -1340,7 +1340,7 @@
             "alias": "",
             "position": "58",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Nylea"
+            "notes": ""
         },
         {
             "card_name": "Slumbering Serpent",
@@ -1361,7 +1361,7 @@
             "alias": "",
             "position": "59",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Thundering Serpent",
@@ -1382,7 +1382,7 @@
             "alias": "",
             "position": "60",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Zale\nKLOS"
+            "notes": "KLOS"
         },
         {
             "card_name": "Weave Destiny",
@@ -1403,7 +1403,7 @@
             "alias": "",
             "position": "61",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Story\n!tag TRXStory\n!tag Klothys\n!tag Claes\n!tag Planeswalker\n!tag Haubay\nStory Spotlight 4"
+            "notes": "Story Spotlight 4"
         },
         {
             "card_name": "Punch Out of the Sky",
@@ -1424,7 +1424,7 @@
             "alias": "",
             "position": "62",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Midsummer Dream",
@@ -1445,7 +1445,7 @@
             "alias": "",
             "position": "63",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Zakros General",
@@ -1466,7 +1466,7 @@
             "alias": "",
             "position": "64",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Agnomakhos\n\nAura-love"
+            "notes": "Aura-love"
         },
         {
             "card_name": "Imposing Serpent",
@@ -1487,7 +1487,7 @@
             "alias": "",
             "position": "65",
             "rotated": false,
-            "notes": "!tag Theros\nBig Mana\nKLOS"
+            "notes": "Big Mana\nKLOS"
         },
         {
             "card_name": "Agnomakhos's Abomination",
@@ -1508,7 +1508,7 @@
             "alias": "",
             "position": "66",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Ephara's Oracle",
@@ -1529,7 +1529,7 @@
             "alias": "",
             "position": "67",
             "rotated": false,
-            "notes": "!tag Ephara\n!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Patron of Ephara's Glory",
@@ -1550,7 +1550,7 @@
             "alias": "",
             "position": "68",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Ephara"
+            "notes": ""
         },
         {
             "card_name": "Archon of Glorious Light",
@@ -1571,7 +1571,7 @@
             "alias": "",
             "position": "69",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Agnomakhos"
+            "notes": ""
         },
         {
             "card_name": "Basilo, Lion of Valor",
@@ -1604,7 +1604,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag SevenWarriors\n!tag Basilo"
+            "notes": "\"Seven Warriors\""
         },
         {
             "card_name": "Zakros Decree",
@@ -1625,7 +1625,7 @@
             "alias": "",
             "position": "71",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Command from the Front",
@@ -1646,7 +1646,7 @@
             "alias": "",
             "position": "72",
             "rotated": false,
-            "notes": "!tag Agnomakhos\n!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Haubay's Familiar",
@@ -1657,7 +1657,7 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Flying\nWhenever you draw your second card each turn, put a +1/+1 counter on Haubay's Familiar.",
-            "flavor_text": "[i]\u201cAlways with the eyes and ears, Haubay. You love your schemes, but consider . . . some plans require a personal touch.\u201d\n\u2014Dreadlord Xarr[/i]",
+            "flavor_text": "[i]\u201cAlways with the eyes and ears, Haubey. You love your schemes, but consider... some plans require a personal touch.\u201d\n\u2014Dreadlord Xarr[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
@@ -1667,7 +1667,7 @@
             "alias": "",
             "position": "73",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Planeswalker\n!tag Haubay\n!tag Xarr"
+            "notes": ""
         },
         {
             "card_name": "Traumatic Impact",
@@ -1688,7 +1688,7 @@
             "alias": "",
             "position": "74",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Orestes\n!tag Phenax"
+            "notes": ""
         },
         {
             "card_name": "Eidolon of Graceful Steps",
@@ -1709,7 +1709,7 @@
             "alias": "",
             "position": "75",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Oracle of Zakros",
@@ -1742,7 +1742,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Kruphix"
+            "notes": ""
         },
         {
             "card_name": "Horror of the Mystic Sea",
@@ -1763,7 +1763,7 @@
             "alias": "",
             "position": "77",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "The Founding of the Twelve",
@@ -1773,7 +1773,7 @@
             "number": 53,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Whenever you cast a noncreature spell, create a 1/1 white Human creature token and target player mills two cards.",
+            "rules_text": "Whenever you cast a noncreature spell, create a 1/1 white Human creature token, then target player mills two cards.",
             "flavor_text": "[i]Trax fell and Meletis rose.[/i]",
             "pt": "",
             "special_text": "",
@@ -1784,7 +1784,7 @@
             "alias": "",
             "position": "78",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Tiro\n!tag Kynaios"
+            "notes": "buffed: was Choose one, token, mill three cards, scry 2."
         },
         {
             "card_name": "Turn to Nyx",
@@ -1805,7 +1805,7 @@
             "alias": "",
             "position": "79",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Aphonai's Reveler",
@@ -1826,7 +1826,7 @@
             "alias": "",
             "position": "80",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Phenax"
+            "notes": ""
         },
         {
             "card_name": "Phenax's Confidant",
@@ -1847,7 +1847,7 @@
             "alias": "",
             "position": "81",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Phenax"
+            "notes": ""
         },
         {
             "card_name": "Pharika's Harbinger",
@@ -1880,7 +1880,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Pharika"
+            "notes": ""
         },
         {
             "card_name": "Axiomene, Syrurian Tyrant",
@@ -1901,7 +1901,7 @@
             "alias": "",
             "position": "83",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Petraform Hermit",
@@ -1922,7 +1922,7 @@
             "alias": "",
             "position": "84",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Maim",
@@ -1943,7 +1943,7 @@
             "alias": "",
             "position": "85",
             "rotated": false,
-            "notes": "!tag Cybele\n!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Kakomanties Circle",
@@ -1964,7 +1964,7 @@
             "alias": "",
             "position": "86",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Phenax\n!tag Tymaret\n!tag Erebos"
+            "notes": ""
         },
         {
             "card_name": "Together Just a Moment More",
@@ -1985,7 +1985,7 @@
             "alias": "",
             "position": "87",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Phenax's Touch",
@@ -2006,7 +2006,7 @@
             "alias": "",
             "position": "88",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Phenax"
+            "notes": ""
         },
         {
             "card_name": "Apprentice of the Forge-God",
@@ -2027,7 +2027,7 @@
             "alias": "",
             "position": "89",
             "rotated": false,
-            "notes": "!tag Purphoros\n!tag Thassa"
+            "notes": ""
         },
         {
             "card_name": "Skophos Raid-Veteran",
@@ -2048,7 +2048,7 @@
             "alias": "",
             "position": "90",
             "rotated": false,
-            "notes": "!tag Theros\n!Tag Nikon"
+            "notes": ""
         },
         {
             "card_name": "Zygos, Edge of the Bull",
@@ -2081,7 +2081,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag SevenWarriors\n!tag Mogis"
+            "notes": "\"Seven Warriors\""
         },
         {
             "card_name": "Star-Seeking Dreamer",
@@ -2102,7 +2102,7 @@
             "alias": "",
             "position": "92",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Kruphix"
+            "notes": ""
         },
         {
             "card_name": "Zakros Stompers",
@@ -2123,7 +2123,7 @@
             "alias": "",
             "position": "93",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "The Burning of Pidae",
@@ -2144,7 +2144,7 @@
             "alias": "",
             "position": "94",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Agnomakhos\n!tag Elektes"
+            "notes": ""
         },
         {
             "card_name": "Elektes's Charge",
@@ -2154,7 +2154,7 @@
             "number": 132,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Choose one \u2014\n\u2022 Elektes's Charge deals 2 damage to each creature that's not enchanted.\n\u2022 Up to two target creatures you control each get +2/+0 and gain trample until end of turn.",
+            "rules_text": "Choose one \u2014\n\u2022 Elektes's Charge deals 2 damage to each nonenchantment creature.\n\u2022 Up to two target creatures you control each get +2/+0 and gain trample until end of turn.",
             "flavor_text": "[i]\u201cOnly victory endures.\u201d\n\u2014Elektes, First King of Akros[/i]",
             "pt": "",
             "special_text": "",
@@ -2165,7 +2165,7 @@
             "alias": "",
             "position": "95",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Elektes"
+            "notes": "adjusted: Changed from damaging creatures that aren't enchanted to nonenchantment."
         },
         {
             "card_name": "Ignite",
@@ -2186,7 +2186,7 @@
             "alias": "",
             "position": "96",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Iroas\n!tag Elektes"
+            "notes": ""
         },
         {
             "card_name": "Star-Studded Sagittaur",
@@ -2219,7 +2219,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Klothys"
+            "notes": ""
         },
         {
             "card_name": "Wolf-Whistle Satyr",
@@ -2252,7 +2252,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Nylea"
+            "notes": ""
         },
         {
             "card_name": "Survivor of Pidae",
@@ -2273,7 +2273,7 @@
             "alias": "",
             "position": "99",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Pharika"
+            "notes": ""
         },
         {
             "card_name": "Hunger's Door",
@@ -2294,7 +2294,7 @@
             "alias": "",
             "position": "100",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Callaphe\nKLOS"
+            "notes": "KLOS"
         },
         {
             "card_name": "Labyrinthine Hydra",
@@ -2315,7 +2315,7 @@
             "alias": "",
             "position": "101",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Disciple of the Weavers",
@@ -2336,7 +2336,7 @@
             "alias": "",
             "position": "102",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Kloyths"
+            "notes": ""
         },
         {
             "card_name": "Canopy of the Winter Nexus",
@@ -2346,7 +2346,7 @@
             "number": 169,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Whenever you attack, you may cast an Aura spell from your graveyard if that spell targets an attacking creature. [i](You still pay their costs. You may cast Blessings this way.)[/i]",
+            "rules_text": "Whenever you attack, you may cast an Aura card or a Blessing from your graveyard if that spell targets an attacking creature.",
             "flavor_text": "[i]And so Menelaia stood at the edge of the Winter Nexus, playing her song to attempt to reach her long lost love, the Keen-Eyed watching for any retaliation.[/i]",
             "pt": "",
             "special_text": "",
@@ -2357,7 +2357,7 @@
             "alias": "",
             "position": "103",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Menelaia\n!tag Pero\n!tag Nylea"
+            "notes": "buffed: can now cast Blessings."
         },
         {
             "card_name": "Harmony with Nature",
@@ -2367,7 +2367,7 @@
             "number": 177,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "At the beginning of your end step, if you control two or more other enchantments, create a 1/1 white Human creature token. If you control five or more other enchantments, create two of those tokens instead.",
+            "rules_text": "At the beginning of your end step, if you control two or more other enchantments, create a 1/1 white Human creature token. If you control five or more enchantments, create two of those tokens instead.",
             "flavor_text": "[i]Only a mortal, Lykaretos taught Karametra that blessed life did not have to come from bloodshed and sacrifice.[/i]",
             "pt": "",
             "special_text": "",
@@ -2378,7 +2378,7 @@
             "alias": "",
             "position": "104",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Lykaretos\n!tag Karametra"
+            "notes": ""
         },
         {
             "card_name": "The Army of Trax",
@@ -2399,7 +2399,7 @@
             "alias": "",
             "position": "105",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Agnomakhos"
+            "notes": "buffed: Was {5}{W}{W}"
         },
         {
             "card_name": "Prince of the Pride",
@@ -2420,7 +2420,7 @@
             "alias": "",
             "position": "106",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Chosen of Heliod",
@@ -2444,7 +2444,7 @@
             "color2": "W",
             "type2": "Enchantment \u2014 Aura Blessing",
             "cost2": "{1}{W}",
-            "rules_text2": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nEnchanted creature gets +1/+1 and has protection from creatures. [i](This creature can't be blocked, targeted or dealt damage by creatures..)[/i]",
+            "rules_text2": "[i](You may also cast this side from your hand.)[/i]\nEnchant creature\nEnchanted creature gets +1/+1 and has protection from creatures. [i](This creature can't be blocked, targeted or dealt damage by creatures.)[/i]",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
@@ -2453,7 +2453,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Heliod"
+            "notes": ""
         },
         {
             "card_name": "The Fall of Trax",
@@ -2463,10 +2463,10 @@
             "number": 19,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "\nI \u2014 Exile up to one target permanent with mana value 4 or greater.\nII \u2014 Create two 1/1 white Human creature tokens.\nIII \u2014 Each player gains control of all permanents they own. If you gained control of no permanents this way, draw a card.",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nExile up to one target permanent with mana value 4 or greater.\nCreate two 1/1 white Human creature tokens.\nEach player gains control of all permanents they own. If you gained control of no permanents this way, draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nI \u2014 Exile up to one target permanent with mana value 4 or greater.\nII \u2014 Create two 1/1 white Human creature tokens.\nIII \u2014 Each player gains control of all permanents they own. If you gained control of no permanents this way, draw a card.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nExile up to one target permanent with mana value 4 or greater.\nCreate two 1/1 white Human creature tokens.\nEach player gains control of all permanents they own. If you gained control of no permanents this way, draw a card.",
             "shape": "saga",
             "set": "TRX",
             "loyalty": "",
@@ -2474,7 +2474,7 @@
             "alias": "",
             "position": "108",
             "rotated": false,
-            "notes": "!tag Agnomakhos\n!tag Story\n!tag TRXStory\n!tag Kynaois\n!tag Tiro\n!tag Theros\nStory Spotlight 6\n!design Zangy"
+            "notes": "Story Spotlight 6\n!design Zangy"
         },
         {
             "card_name": "Shrine to Heliod",
@@ -2495,7 +2495,7 @@
             "alias": "",
             "position": "109",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Heliod"
+            "notes": ""
         },
         {
             "card_name": "Stormscraper of Ketaphos",
@@ -2516,7 +2516,7 @@
             "alias": "",
             "position": "110",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Thassa\nKLOS\nWith Thassa's grace, the titans that swam through the water gracefully swim through the air."
+            "notes": "KLOS\nWith Thassa's grace, the titans that swam through the water gracefully swim through the air."
         },
         {
             "card_name": "Lost Caller of the Sea",
@@ -2537,7 +2537,7 @@
             "alias": "",
             "position": "111",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Thassa's Tideshaper",
@@ -2558,7 +2558,7 @@
             "alias": "",
             "position": "112",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Thassa\n!tag Benthalos"
+            "notes": ""
         },
         {
             "card_name": "Absorb Divinity",
@@ -2579,7 +2579,7 @@
             "alias": "",
             "position": "113",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Agnomakhos\n!tag Haubay\n!tag Story\n!tag TRXStory\nStory Spotlight 1"
+            "notes": "Story Spotlight 1"
         },
         {
             "card_name": "Lost to Memory",
@@ -2600,7 +2600,7 @@
             "alias": "",
             "position": "114",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Phenax\n!script \"<s><l>Spawn Shrine</l><f>/spawn Unmarked Shrine TTR</f></s><s><l>Spawn five Shrines</l><f>/spawnx5 Unmarked Shrine TTR</f></s>\",\"r\""
+            "notes": "!script \"<s><l>Spawn Shrine</l><f>/spawn Unmarked Shrine TTR</f></s><s><l>Spawn five Shrines</l><f>/spawnx5 Unmarked Shrine TTR</f></s>\",\"r\""
         },
         {
             "card_name": "The Sinking of Olantin",
@@ -2610,10 +2610,10 @@
             "number": 71,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "\nI \u2014 Draw two cards.\nII \u2014 Return all nonland, nonenchantment permanents to their owners' hands.\nIII \u2014 You may cast a non-Saga spell with mana value 5 or less from your hand without paying its mana cost.",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nDraw two cards.\nReturn all nonland, nonenchantment permanents to their owners' hands.\nYou may cast a non-Saga spell with mana value 5 or less from your hand without paying its mana cost.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nI \u2014 Draw two cards.\nII \u2014 Return all nonland, nonenchantment permanents to their owners' hands.\nIII \u2014 You may cast a non-Saga spell with mana value 5 or less from your hand without paying its mana cost.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nDraw two cards.\nReturn all nonland, nonenchantment permanents to their owners' hands.\nYou may cast a non-Saga spell with mana value 5 or less from your hand without paying its mana cost.",
             "shape": "saga",
             "set": "TRX",
             "loyalty": "",
@@ -2621,7 +2621,7 @@
             "alias": "",
             "position": "115",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Benthalos"
+            "notes": "\n!design Zangy"
         },
         {
             "card_name": "Shrine to Thassa",
@@ -2642,7 +2642,7 @@
             "alias": "",
             "position": "116",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Thassa"
+            "notes": ""
         },
         {
             "card_name": "Underworld Tormentor",
@@ -2663,7 +2663,7 @@
             "alias": "",
             "position": "117",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Slighos the Body-Binder",
@@ -2684,7 +2684,7 @@
             "alias": "",
             "position": "118",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Slighos"
+            "notes": ""
         },
         {
             "card_name": "Keeper of the Scale",
@@ -2705,7 +2705,7 @@
             "alias": "",
             "position": "119",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Make an Example",
@@ -2726,7 +2726,7 @@
             "alias": "",
             "position": "120",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "The Path of Phenax",
@@ -2736,10 +2736,10 @@
             "number": 105,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "\nI \u2014 Each opponent discards two cards, then mills two cards.\nII \u2014 Each opponent loses 2 life and you gain 2 life.\nIII \u2014 For each opponent that has eight or more cards in their graveyard, exile a card from that player's graveyard. You may cast cards exiled this way this turn, and mana of any type can be spent to cast cast it.",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nEach opponent discards two cards, then mills two cards.\nEach opponent loses 2 life and you gain 2 life.\nFor each opponent that has eight or more cards in their graveyard, exile a card from that player's graveyard. You may cast cards exiled this way this turn, and mana of any type can be spent to cast it.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nI \u2014 Each opponent discards two cards, then mills two cards.\nII \u2014 Each opponent loses 2 life and you gain 2 life.\nIII \u2014 For each opponent that has eight or more cards in their graveyard, exile a card from that player's graveyard. You may cast cards exiled this way this turn, and mana of any type can be spent to cast cast it.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nEach opponent discards two cards, then mills two cards.\nEach opponent loses 2 life and you gain 2 life.\nFor each opponent that has eight or more cards in their graveyard, exile a card from that player's graveyard. You may cast cards exiled this way this turn, and mana of any type can be spent to cast it.",
             "shape": "saga",
             "set": "TRX",
             "loyalty": "",
@@ -2747,7 +2747,7 @@
             "alias": "",
             "position": "121",
             "rotated": false,
-            "notes": "!tag Theros\n!design Zangy"
+            "notes": "!design Zangy"
         },
         {
             "card_name": "Shrine to Erebos",
@@ -2768,7 +2768,7 @@
             "alias": "",
             "position": "122",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Erebos\n!tag Nykthos\nreworked: Was {2}{B}: Return target creature card with mana value X or less from your graveyard to the battlefield, where X is the number of Shrines you control. Activate only once each turn and only during your turn."
+            "notes": "reworked: Was {2}{B}: Return target creature card with mana value X or less from your graveyard to the battlefield, where X is the number of Shrines you control. Activate only once each turn and only during your turn."
         },
         {
             "card_name": "Satyr Arsonist",
@@ -2789,7 +2789,7 @@
             "alias": "",
             "position": "123",
             "rotated": false,
-            "notes": "!tag Theros\n!update buffed: target now optional"
+            "notes": ""
         },
         {
             "card_name": "Pyros Rider",
@@ -2822,7 +2822,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Agnomakhos"
+            "notes": ""
         },
         {
             "card_name": "Skophos Conjuror",
@@ -2843,7 +2843,7 @@
             "alias": "",
             "position": "125",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Audience at Zakros",
@@ -2864,7 +2864,28 @@
             "alias": "",
             "position": "126",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
+        },
+        {
+            "card_name": "A God Divided",
+            "color": "R",
+            "rarity": "rare",
+            "type": "Enchantment \u2014 Saga",
+            "number": 135,
+            "color_identity": "R",
+            "cost": "{2}{R}",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nDestroy any number of target artifacts with total mana value 4 or less.\nDiscard up to two cards, then draw that many cards.\nYou may sacrifice a creature. If you do, A God Divided deals damage to any target equal to the sacrificed creature's power.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nDestroy any number of target artifacts with total mana value 4 or less.\nDiscard up to two cards, then draw that many cards.\nYou may sacrifice a creature. If you do, A God Divided deals damage to any target equal to the sacrificed creature's power.",
+            "shape": "saga",
+            "set": "TRX",
+            "loyalty": "",
+            "artist": "Satoru Wada",
+            "alias": "",
+            "position": "127",
+            "rotated": false,
+            "notes": "Story Spotlight 5\n!design Zangy\n reworked: Was I \u2014 A God Divided deals 2 damage to each nonenchantment creature.; II \u2014 Creatures you control get +1/+0 until end of turn."
         },
         {
             "card_name": "Shrine to Purphoros",
@@ -2883,9 +2904,9 @@
             "loyalty": "",
             "artist": "Jan Drenovec",
             "alias": "",
-            "position": "127",
+            "position": "128",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Purphoros\n!tag Nykthos"
+            "notes": ""
         },
         {
             "card_name": "Nylea's Grovetender",
@@ -2904,9 +2925,9 @@
             "loyalty": "",
             "artist": "Iwo Widulinksi",
             "alias": "",
-            "position": "128",
+            "position": "129",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Nylea"
+            "notes": ""
         },
         {
             "card_name": "Nessian Scout-Captain",
@@ -2925,9 +2946,9 @@
             "loyalty": "",
             "artist": "Henrique Dld",
             "alias": "",
-            "position": "129",
+            "position": "130",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Skola Nyxweaver",
@@ -2946,9 +2967,9 @@
             "loyalty": "",
             "artist": "celeryman6",
             "alias": "",
-            "position": "130",
+            "position": "131",
             "rotated": false,
-            "notes": "!tag Theros\n!tag WeaverCycle"
+            "notes": ""
         },
         {
             "card_name": "King of the Wilderness",
@@ -2967,9 +2988,9 @@
             "loyalty": "",
             "artist": "Michal Kastovsky",
             "alias": "",
-            "position": "131",
+            "position": "132",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": "adjusted: Was 3/3 for {G}{G}{G} without haste."
         },
         {
             "card_name": "Siphon the Divine",
@@ -2979,18 +3000,18 @@
             "number": 197,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "\nI, II \u2014 Siphon the Divine gains \u201cCreatures your opponents control lose hexproof and indestructible and can't have or gain hexproof and indestructible.\u201d\nIII \u2014 Target creature you control fights up to one target creature.\nExile target player's graveyard.",
+            "rules_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nSiphon the Divine gains \u201cCreatures your opponents control lose hexproof and indestructible and can't have or gain hexproof and indestructible.\u201d\nTarget creature you control fights up to one target creature.\nExile target player's graveyard.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nI, II \u2014 Siphon the Divine gains \u201cCreatures your opponents control lose hexproof and indestructible and can't have or gain hexproof and indestructible.\u201d\nIII \u2014 Target creature you control fights up to one target creature.\nExile target player's graveyard.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nSiphon the Divine gains \u201cCreatures your opponents control lose hexproof and indestructible and can't have or gain hexproof and indestructible.\u201d\nTarget creature you control fights up to one target creature.\nExile target player's graveyard.",
             "shape": "saga",
             "set": "TRX",
             "loyalty": "",
             "artist": "Alexey Egorov and Dall-E",
             "alias": "",
-            "position": "132",
+            "position": "133",
             "rotated": false,
-            "notes": "!tag Theros\n!design Zangy"
+            "notes": "\n!design Zangy"
         },
         {
             "card_name": "Shrine to Nylea",
@@ -3009,9 +3030,42 @@
             "loyalty": "",
             "artist": "tu chuanhao",
             "alias": "",
-            "position": "133",
+            "position": "134",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Nykthos\n!tag Karametra\n!tag Nylea\nbuffed: Was {6}{G}."
+            "notes": "buffed: Was {6}{G}."
+        },
+        {
+            "card_name": "Claes, Shield of Karda",
+            "color": "W",
+            "rarity": "mythic",
+            "type": "Legendary Creature \u2014 Human Soldier",
+            "number": 11,
+            "color_identity": "WU",
+            "cost": "{W}",
+            "rules_text": "Whenever Claes, Shield of Karda attacks, another target attacking creature you control gains indestructible until end of turn.\nWhenever a planeswalker you control enters, you may exile Claes, then return him to the battlefield transformed with a number of loyalty counters on him equal to the starting loyalty of that planeswalker.",
+            "flavor_text": "[i][/i]",
+            "pt": "2/1",
+            "special_text": "",
+            "shape": "transform double faced",
+            "set": "TRX",
+            "loyalty": "",
+            "artist": "Alan Albiach",
+            "alias": "",
+            "position": "135",
+            "card_name2": "Claes, Melded Spark",
+            "color2": "WU",
+            "type2": "Legendary Planeswalker \u2014 Claes Haubay",
+            "cost2": "",
+            "rules_text2": "\n",
+            "flavor_text2": "[i][/i]",
+            "pt2": "",
+            "special_text2": "\n",
+            "loyalty2": "",
+            "artist2": "Hao Zheng",
+            "alias2": "",
+            "rules_text3": "",
+            "rotated": false,
+            "notes": ""
         },
         {
             "card_name": "Phlage, Titan of Burning Wind",
@@ -3021,7 +3075,7 @@
             "number": 232,
             "color_identity": "UR",
             "cost": "{4}{U}{R}",
-            "rules_text": "Whenever Phlage enters or attacks, Phlage deals 2 damage to any target and you draw a card.\n{2}{U}{R}: Return Phlage from your graveyard to the battlefield, then put it on the bottom of its owner's library. Activate only as a sorcery.",
+            "rules_text": "Whenever Phlage enters or attacks, Phlage deals 2 damage divided as you choose among one or two targets. Draw a card.\n{U}{U}{R}{R}: Return Phlage from your graveyard to the battlefield, then put it on the bottom of its owner's library. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "6/6",
             "special_text": "",
@@ -3030,9 +3084,9 @@
             "loyalty": "",
             "artist": "Bryan Fogaca Rosado",
             "alias": "",
-            "position": "134",
+            "position": "136",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Phlage"
+            "notes": ""
         },
         {
             "card_name": "The Smoking Strand",
@@ -3051,9 +3105,9 @@
             "loyalty": "",
             "artist": "Asim A Steckel",
             "alias": "",
-            "position": "135",
+            "position": "137",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Klothys\n!tag Haubay\n!tag Claes"
+            "notes": ""
         },
         {
             "card_name": "Ride the Tartyx",
@@ -3072,9 +3126,9 @@
             "loyalty": "",
             "artist": "Alexey Egorov",
             "alias": "",
-            "position": "136",
+            "position": "138",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Phenax"
+            "notes": ""
         },
         {
             "card_name": "Skotha, Titan of Eternal Dark",
@@ -3084,7 +3138,7 @@
             "number": 239,
             "color_identity": "BG",
             "cost": "{4}{B}{G}",
-            "rules_text": "Whenever Skotha enters or attacks, target player discards a card and you untap all lands you control.\n{2}{B}{G}: Return Skotha from your graveyard to the battlefield, then put it on the bottom of its owner's library. Activate only as a sorcery.",
+            "rules_text": "Whenever Skotha enters or attacks, each opponent discards a card. Then you may return a permanent card with mana value 3 or less from your graveyard to the battlefield.\n{B}{B}{G}{G}: Return Skotha from your graveyard to the battlefield, then put it on the bottom of its owner's library. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "6/6",
             "special_text": "",
@@ -3093,9 +3147,9 @@
             "loyalty": "",
             "artist": "Joao Pedro Costa",
             "alias": "",
-            "position": "137",
+            "position": "139",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Skotha"
+            "notes": ""
         },
         {
             "card_name": "Karda, Battle-Born",
@@ -3114,9 +3168,9 @@
             "loyalty": "",
             "artist": "Vo Minh Tuan",
             "alias": "",
-            "position": "138",
+            "position": "140",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Karda\n!tag Mogis\n!tag Iroas"
+            "notes": ""
         },
         {
             "card_name": "Koios, Spear of Karda",
@@ -3135,9 +3189,9 @@
             "loyalty": "4",
             "artist": "Miseriae Amet Dolor",
             "alias": "",
-            "position": "139",
+            "position": "141",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Planeswalker\n!tag Koios"
+            "notes": ""
         },
         {
             "card_name": "Arasta's Handmaiden",
@@ -3156,9 +3210,9 @@
             "loyalty": "",
             "artist": "Sam Kanios",
             "alias": "",
-            "position": "140",
+            "position": "142",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Nylea"
+            "notes": ""
         },
         {
             "card_name": "Benthalos of Land and Sea",
@@ -3168,7 +3222,7 @@
             "number": 206,
             "color_identity": "WU",
             "cost": "{W}{U}",
-            "rules_text": "Flash\nWhen Benthalos enters, you may cast a copy of target white or blue enchantment you control. [i](The copy becomes a token.)[/i]",
+            "rules_text": "Flash\nWhen Benthalos of Land and Sea enters, you may cast a copy of target white or blue enchantment you control. [i](The copy becomes a token.)[/i]",
             "flavor_text": "[i]\u201cBy Heliod's spear and Thassa's trident, I will not fall to the likes of you.\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -3177,9 +3231,9 @@
             "loyalty": "",
             "artist": "Polar Engine",
             "alias": "",
-            "position": "141",
+            "position": "143",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Heliod\n!tag Benthalos\n!tag Thassa\nSlow Enchantments"
+            "notes": "Slow Enchantments\n nerfed: Was pay {X} to make a copy of a white/blue enchantment with mv X or less."
         },
         {
             "card_name": "Orestes, Heroic Scoundrel",
@@ -3198,9 +3252,9 @@
             "loyalty": "",
             "artist": "Grumpygoat",
             "alias": "",
-            "position": "142",
+            "position": "144",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Orestes\nEight or more mill"
+            "notes": "Eight or more mill\n\nA master thief and oracle who was one of Phenax's first followers. He was able to divine a mortal's lifespan as well as whether they would become Returned by interpreting their blood. A scoundrel-hero who devoted his life to Phenax, according to legend he stole the sun from above the polis of Setessa, tricked a cerberus into devouring itself, stole a kraken's heart, and raced a skiff ahead of the River Guide, Athreos. After his death, Orestes's tomb became a holy site for followers of Phenax, in part due to his sarcophagus taking on the oracle-thief's powers of prophecy"
         },
         {
             "card_name": "Raksolcs Ravage-Soul",
@@ -3219,9 +3273,9 @@
             "loyalty": "",
             "artist": "Sasa Radivojevic",
             "alias": "",
-            "position": "143",
+            "position": "145",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Rakssolcs\n!tag Mogis\nMinotaurs, Sacrifice"
+            "notes": "Minotaurs, Sacrifice"
         },
         {
             "card_name": "Molpadia, the Last Acephali",
@@ -3240,9 +3294,9 @@
             "loyalty": "",
             "artist": "Sebastian Kowoll",
             "alias": "",
-            "position": "144",
+            "position": "146",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Molbadia"
+            "notes": "Combat STuff"
         },
         {
             "card_name": "Lykaretos, Harvest's Bounty",
@@ -3261,7 +3315,7 @@
             "loyalty": "",
             "artist": "Juno Viinikka",
             "alias": "",
-            "position": "145",
+            "position": "147",
             "card_name2": "The Miraculous Field",
             "color2": "WG",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -3275,7 +3329,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Karametra\n!tag Lykaretos\n!tag Trans\nAura love"
+            "notes": "Aura love"
         },
         {
             "card_name": "Pero, Puppet of Erebos",
@@ -3294,9 +3348,9 @@
             "loyalty": "",
             "artist": "Takiroku-Sama",
             "alias": "",
-            "position": "146",
+            "position": "148",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Erebos\n!tag Pero\nCrats, extra value from grave"
+            "notes": "Crats, extra value from grave"
         },
         {
             "card_name": "Timedrinker the Bleached",
@@ -3315,9 +3369,9 @@
             "loyalty": "",
             "artist": "Joshua Raphael",
             "alias": "",
-            "position": "147",
+            "position": "149",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Timedrinker\nNoncreatures"
+            "notes": "Noncreatures"
         },
         {
             "card_name": "Biaas the Poison Drinker",
@@ -3336,9 +3390,9 @@
             "loyalty": "",
             "artist": "Karolina Nakazato",
             "alias": "",
-            "position": "148",
+            "position": "150",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Biaas\nSabotuers deathtouch"
+            "notes": "Sabotuers deathtouch"
         },
         {
             "card_name": "Elektes, First King of Akros",
@@ -3357,9 +3411,9 @@
             "loyalty": "",
             "artist": "Jiunn Kuo",
             "alias": "",
-            "position": "149",
+            "position": "151",
             "rotated": false,
-            "notes": "!tag Elektes\n!tag Iroas\n!tag SevenWarriors\n!tag Theros"
+            "notes": "Go Wide\n\"Seven Warriors\""
         },
         {
             "card_name": "Zale, Titanohunter",
@@ -3378,9 +3432,9 @@
             "loyalty": "",
             "artist": "Sveta Pikul",
             "alias": "",
-            "position": "150",
+            "position": "152",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Zale\nBig Mana"
+            "notes": "Big Mana"
         },
         {
             "card_name": "Builder of Monuments",
@@ -3399,9 +3453,9 @@
             "loyalty": "",
             "artist": "Lorenzo Tomaselli",
             "alias": "",
-            "position": "151",
+            "position": "153",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Agnomakhos\nSlow Enchantments\n adjusted: Activated ability is now part of the triggered ability."
+            "notes": "Slow Enchantments\n adjusted: Activated ability is now part of the triggered ability."
         },
         {
             "card_name": "Through Blood, Knowledge",
@@ -3420,9 +3474,9 @@
             "loyalty": "",
             "artist": "Luka Brico",
             "alias": "",
-            "position": "152",
+            "position": "154",
             "rotated": false,
-            "notes": "!tag Theros\nEight or more mill4"
+            "notes": "Eight or more mill4"
         },
         {
             "card_name": "Spikemane Lion",
@@ -3441,7 +3495,7 @@
             "loyalty": "",
             "artist": "Matt Brown",
             "alias": "",
-            "position": "153",
+            "position": "155",
             "card_name2": "Spikemane Cloak",
             "color2": "RG",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -3455,7 +3509,28 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Telam\nCombat STuff"
+            "notes": "Combat STuff"
+        },
+        {
+            "card_name": "Kynaios, Blade-Bound",
+            "color": "WG",
+            "rarity": "rare",
+            "type": "Legendary Creature \u2014 Human Soldier",
+            "number": 224,
+            "color_identity": "WG",
+            "cost": "{1}{G}{W}",
+            "rules_text": "Ward {1}\nWhenever Kynaios, Blade-Bound attacks, reveal the top five cards of your library. You may put an Aura card or a card with a Blessing from among them into your hand. Put the rest on the bottom of your library in any order.",
+            "flavor_text": "[i][/i]",
+            "pt": "2/4",
+            "special_text": "",
+            "shape": "normal",
+            "set": "TRX",
+            "loyalty": "",
+            "artist": "Muhamx Faizal",
+            "alias": "",
+            "position": "156",
+            "rotated": false,
+            "notes": "Aura love"
         },
         {
             "card_name": "Archon of Condemnation",
@@ -3474,7 +3549,7 @@
             "loyalty": "",
             "artist": "Antonio J Manzanedo",
             "alias": "",
-            "position": "154",
+            "position": "157",
             "card_name2": "Confine to Eternity",
             "color2": "WB",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -3488,7 +3563,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Agnomakhos\nCrats, extra value from grave"
+            "notes": "Crats, extra value from grave"
         },
         {
             "card_name": "Tiro, the Silent Blade",
@@ -3507,9 +3582,9 @@
             "loyalty": "",
             "artist": "Veronika Fedorova",
             "alias": "",
-            "position": "155",
+            "position": "158",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Tiro\n!tag Agnomakhos\nNoncreatures"
+            "notes": "Noncreatures"
         },
         {
             "card_name": "Nikon, Skophos Protector",
@@ -3528,9 +3603,9 @@
             "loyalty": "",
             "artist": "Frost Llamzon",
             "alias": "",
-            "position": "156",
+            "position": "159",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Nikon\nGo Wide"
+            "notes": "Go Wide"
         },
         {
             "card_name": "Nykthos, Architect of Gods",
@@ -3549,9 +3624,9 @@
             "loyalty": "",
             "artist": "Alexander Voelkle",
             "alias": "",
-            "position": "157",
+            "position": "160",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Nykthos\n!tag Kruphix\n adjusted: Was a 4/4 for {2}{G}{U}."
+            "notes": "Big Mana\n adjusted: Was a 4/4 for {2}{G}{U}."
         },
         {
             "card_name": "Colossus of Trax",
@@ -3570,9 +3645,9 @@
             "loyalty": "",
             "artist": "zippo514",
             "alias": "",
-            "position": "158",
+            "position": "161",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Kynaios\n!tag Tiro\n!tag Yaoi"
+            "notes": ""
         },
         {
             "card_name": "Implacable Shrine-Guard",
@@ -3591,9 +3666,9 @@
             "loyalty": "",
             "artist": "Junaidi Lim",
             "alias": "",
-            "position": "159",
+            "position": "162",
             "rotated": false,
-            "notes": "!tag Theros\nnewart"
+            "notes": "newart"
         },
         {
             "card_name": "Tidelock Pearl",
@@ -3612,9 +3687,9 @@
             "loyalty": "",
             "artist": "Jenner Chen",
             "alias": "",
-            "position": "160",
+            "position": "163",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Athreos, Gold-Eyed",
@@ -3624,7 +3699,7 @@
             "number": 227,
             "color_identity": "WB",
             "cost": "{1}{W}{B}",
-            "rules_text": "Indestructible\nAs long as your devotion to white and black is less than seven, Athreos isn't a creature.\nIf a creature would die, instead exile it with a coin counter. Each opponent loses 1 life and you gain 1 life.\nWhenever Athreos attacks, put a creature card you exiled with a coin counter on it onto the battlefield under your control.",
+            "rules_text": "Indestructible\nAs long as your devotion to white and black is less than seven, Athreos isn't a creature.\nIf a creature would die, exile it with a coin counter on it instead. When you do, each opponent loses 1 life and you gain 1 life.\nWhenever Athreos attacks, put a creature card you exiled with a coin counter on it onto the battlefield under your control.",
             "flavor_text": "[i][/i]",
             "pt": "5/4",
             "special_text": "",
@@ -3633,9 +3708,9 @@
             "loyalty": "",
             "artist": "Matheus Graef",
             "alias": "",
-            "position": "161",
+            "position": "164",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Athreos"
+            "notes": ""
         },
         {
             "card_name": "Karametra, Life-Harvester",
@@ -3654,9 +3729,9 @@
             "loyalty": "",
             "artist": "deWitteillustration",
             "alias": "",
-            "position": "162",
+            "position": "165",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Karametra"
+            "notes": ""
         },
         {
             "card_name": "Klothys, Fate-Driven",
@@ -3675,9 +3750,9 @@
             "loyalty": "",
             "artist": "BOOM Comics (Edit: Scribbl)",
             "alias": "",
-            "position": "163",
+            "position": "166",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Klothys"
+            "notes": ""
         },
         {
             "card_name": "Kruphix, Far-Seeing",
@@ -3696,9 +3771,9 @@
             "loyalty": "",
             "artist": "Joachim Gerlings",
             "alias": "",
-            "position": "164",
+            "position": "167",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Kruphix"
+            "notes": ""
         },
         {
             "card_name": "Mogis, Rage-Crowned",
@@ -3717,9 +3792,9 @@
             "loyalty": "",
             "artist": "thesteamhat",
             "alias": "",
-            "position": "165",
+            "position": "168",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Mogis"
+            "notes": ""
         },
         {
             "card_name": "Iroas, Honor-Bound",
@@ -3738,9 +3813,9 @@
             "loyalty": "",
             "artist": "Kevin McKenna",
             "alias": "",
-            "position": "166",
+            "position": "169",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Iroas"
+            "notes": ""
         },
         {
             "card_name": "Keranos, Fickle-Fortuned",
@@ -3759,9 +3834,9 @@
             "loyalty": "",
             "artist": "Titus Lunter",
             "alias": "",
-            "position": "167",
+            "position": "170",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Keranos"
+            "notes": ""
         },
         {
             "card_name": "Phenax, Brazen Thief",
@@ -3780,7 +3855,7 @@
             "loyalty": "",
             "artist": "Yi Ngo",
             "alias": "",
-            "position": "168",
+            "position": "171",
             "card_name2": "Phenax, Poison-Tongued",
             "color2": "UB",
             "type2": "Legendary Enchantment Creature \u2014 God",
@@ -3794,7 +3869,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Phenax"
+            "notes": ""
         },
         {
             "card_name": "Pharika, Snake-Twined",
@@ -3813,9 +3888,9 @@
             "loyalty": "",
             "artist": "fiovske",
             "alias": "",
-            "position": "169",
+            "position": "172",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Pharika"
+            "notes": ""
         },
         {
             "card_name": "Ephara, Hero-Maker",
@@ -3834,9 +3909,9 @@
             "loyalty": "",
             "artist": "Diego Lafuente",
             "alias": "",
-            "position": "170",
+            "position": "173",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Ephara"
+            "notes": ""
         },
         {
             "card_name": "Plains",
@@ -3855,9 +3930,9 @@
             "loyalty": "",
             "artist": "Andre Cezar",
             "alias": "",
-            "position": "171",
+            "position": "174",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Island",
@@ -3876,9 +3951,9 @@
             "loyalty": "",
             "artist": "Andre Cezar",
             "alias": "",
-            "position": "172",
+            "position": "175",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Swamp",
@@ -3897,9 +3972,9 @@
             "loyalty": "",
             "artist": "Andre Cezar",
             "alias": "",
-            "position": "173",
+            "position": "176",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Mountain",
@@ -3918,9 +3993,9 @@
             "loyalty": "",
             "artist": "Andre Cezar",
             "alias": "",
-            "position": "174",
+            "position": "177",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Forest",
@@ -3939,9 +4014,9 @@
             "loyalty": "",
             "artist": "Andre Cezar",
             "alias": "",
-            "position": "175",
+            "position": "178",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Agnomakhos, Justice",
@@ -3960,9 +4035,9 @@
             "loyalty": "",
             "artist": "Sandara",
             "alias": "",
-            "position": "176",
+            "position": "179",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Agnomakhos"
+            "notes": ""
         },
         {
             "card_name": "Behemoth of the Five Rivers",
@@ -3981,9 +4056,9 @@
             "loyalty": "",
             "artist": "Jose Munoz",
             "alias": "",
-            "position": "177",
+            "position": "180",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Furies of the Natural Order",
@@ -3993,7 +4068,7 @@
             "number": 90,
             "color_identity": "B",
             "cost": "{4}{B}{B}",
-            "rules_text": "Deathtouch, menace\nWhen Furies of the Natural Order enters, bless any number of target players. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
+            "rules_text": "Menace, deathtouch\nWhen Furies of the Natural Order enters, bless any number of target players. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
@@ -4002,12 +4077,12 @@
             "loyalty": "",
             "artist": "John Silva",
             "alias": "",
-            "position": "178",
+            "position": "181",
             "card_name2": "Tether to Reality",
             "color2": "B",
             "type2": "Enchantment \u2014 Aura Blessing Curse",
             "cost2": "{2}{B}",
-            "rules_text2": "[i](You may also cast this side from your hand.)[/i]\nEnchant player\nEnchanted player can't gain life. and At the beginning of your upkeep, you gain 1 life and enchanted player loses 1 life.",
+            "rules_text2": "[i](You may also cast this side from your hand.)[/i]\nEnchant player\nEnchanted player can't gain life.\nAt the beginning of your upkeep, enchanted player loses 1 life and you gain 1 life.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
@@ -4016,7 +4091,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": "rework: Had lifelink instead of menace, Tether changed from 2BB, end step trigger that doubled all life loss/gain."
         },
         {
             "card_name": "Thraxes, Sire of Dragons",
@@ -4035,9 +4110,9 @@
             "loyalty": "",
             "artist": "Romain Kurdi",
             "alias": "",
-            "position": "179",
+            "position": "182",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Thraxes"
+            "notes": ""
         },
         {
             "card_name": "Seeker of New Horizons",
@@ -4056,7 +4131,7 @@
             "loyalty": "",
             "artist": "Lana Monx",
             "alias": "",
-            "position": "180",
+            "position": "183",
             "card_name2": "Ilysian Guardian",
             "color2": "G",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -4070,7 +4145,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Karametra"
+            "notes": ""
         },
         {
             "card_name": "The Arbiter",
@@ -4089,9 +4164,9 @@
             "loyalty": "5",
             "artist": "Daria Rashev",
             "alias": "",
-            "position": "181",
+            "position": "184",
             "rotated": false,
-            "notes": "!tag Theros\n!tag TheCosmos\n!tag Planeswalker\n!tag Haubay"
+            "notes": ""
         },
         {
             "card_name": "Xarr of the Eternal Cycle",
@@ -4110,9 +4185,9 @@
             "loyalty": "5",
             "artist": "Bodo Kr\u00fchn",
             "alias": "",
-            "position": "182",
+            "position": "185",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Xarr\n!tag Planeswalker\n!tag Skadeholm"
+            "notes": "Thorn"
         },
         {
             "card_name": "Barren Ashlands",
@@ -4131,9 +4206,9 @@
             "loyalty": "",
             "artist": "Pablo Dominguez",
             "alias": "",
-            "position": "183",
+            "position": "186",
             "rotated": false,
-            "notes": "!tag Theros\nLand Creature"
+            "notes": "Land Creature"
         },
         {
             "card_name": "Buried Colossus",
@@ -4152,9 +4227,9 @@
             "loyalty": "",
             "artist": "Rodrigo Vegas",
             "alias": "",
-            "position": "184",
+            "position": "187",
             "rotated": false,
-            "notes": "!tag Theros\nLand Creature"
+            "notes": "Land Creature"
         },
         {
             "card_name": "Ephemeral Mire",
@@ -4173,9 +4248,9 @@
             "loyalty": "",
             "artist": "Sebastian Kowoll",
             "alias": "",
-            "position": "185",
+            "position": "188",
             "rotated": false,
-            "notes": "!tag Theros\nLand Creature"
+            "notes": "Land Creature"
         },
         {
             "card_name": "Gates to the Underworld",
@@ -4194,9 +4269,9 @@
             "loyalty": "",
             "artist": "Samantha Shieh",
             "alias": "",
-            "position": "186",
+            "position": "189",
             "rotated": false,
-            "notes": "!tag Theros\nLand Creature"
+            "notes": "Land Creature"
         },
         {
             "card_name": "Hundred-Handed Pillars",
@@ -4215,9 +4290,9 @@
             "loyalty": "",
             "artist": "Artur Treffner",
             "alias": "",
-            "position": "187",
+            "position": "190",
             "rotated": false,
-            "notes": "!tag Theros\nLand Creature"
+            "notes": "Land Creature"
         },
         {
             "card_name": "Miasmic Cove",
@@ -4236,9 +4311,9 @@
             "loyalty": "",
             "artist": "Cullen Cole",
             "alias": "",
-            "position": "188",
+            "position": "191",
             "rotated": false,
-            "notes": "!tag Theros\nLand Creature"
+            "notes": "Land Creature"
         },
         {
             "card_name": "Nessian Woods",
@@ -4257,9 +4332,9 @@
             "loyalty": "",
             "artist": "Elaine Ho",
             "alias": "",
-            "position": "189",
+            "position": "192",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": "Land Creature"
         },
         {
             "card_name": "Nimbus of Thought",
@@ -4278,9 +4353,9 @@
             "loyalty": "",
             "artist": "Cullen Cole",
             "alias": "",
-            "position": "190",
+            "position": "193",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": "Land Creature"
         },
         {
             "card_name": "Shell Cove",
@@ -4299,9 +4374,9 @@
             "loyalty": "",
             "artist": "Rahul Philip",
             "alias": "",
-            "position": "191",
+            "position": "194",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": "Land Creature"
         },
         {
             "card_name": "Titan's Stairs",
@@ -4320,9 +4395,9 @@
             "loyalty": "",
             "artist": "Xavier Leroux",
             "alias": "",
-            "position": "192",
+            "position": "195",
             "rotated": false,
-            "notes": "!tag Theros\nLand Creature \n!update\nStone 'stairs' seem carved and ahunted by eerie whistling winds"
+            "notes": "Land Creature \nStone 'stairs' seem carved and ahunted by eerie whistling winds"
         },
         {
             "card_name": "Temple of Deceit",
@@ -4341,9 +4416,9 @@
             "loyalty": "",
             "artist": "Miro Petrov",
             "alias": "",
-            "position": "193",
+            "position": "196",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Phenax\nCronemouth Cove - holds a known gate to the underworld. guarded by a coven of sea hags who share a single tongue."
+            "notes": "\nCronemouth Cove - holds a known gate to the underworld. guarded by a coven of sea hags who share a single tongue."
         },
         {
             "card_name": "Temple of Abandon",
@@ -4362,9 +4437,9 @@
             "loyalty": "",
             "artist": "Mon Macairap",
             "alias": "",
-            "position": "194",
+            "position": "197",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Klothys\nGap between mountains that setessans had a fort to guard the passage"
+            "notes": "Gap between mountains that setessans had a fort to guard the passage"
         },
         {
             "card_name": "Temple of Mystery",
@@ -4383,9 +4458,9 @@
             "loyalty": "",
             "artist": "quanyi",
             "alias": "",
-            "position": "195",
+            "position": "198",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Kruphix"
+            "notes": ""
         },
         {
             "card_name": "Temple of Malice",
@@ -4404,9 +4479,9 @@
             "loyalty": "",
             "artist": "Catatu Capa",
             "alias": "",
-            "position": "196",
+            "position": "199",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Mogis"
+            "notes": ""
         },
         {
             "card_name": "Temple of Plenty",
@@ -4425,9 +4500,9 @@
             "loyalty": "",
             "artist": "Cullen Cole",
             "alias": "",
-            "position": "197",
+            "position": "200",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Karametra"
+            "notes": ""
         },
         {
             "card_name": "Temple of Silence",
@@ -4444,11 +4519,11 @@
             "shape": "normal",
             "set": "TRX",
             "loyalty": "",
-            "artist": "Ling Xiang",
+            "artist": "Erskine Designs",
             "alias": "",
-            "position": "198",
+            "position": "201",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Athreos\nwestern border of akros, massive chasm that descends to the underworld and belches creatures."
+            "notes": "western border of akros, massive chasm that descends to the underworld and belches creatures."
         },
         {
             "card_name": "Temple of Epiphany",
@@ -4467,9 +4542,9 @@
             "loyalty": "",
             "artist": "Lucas Staniec",
             "alias": "",
-            "position": "199",
+            "position": "202",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Keranos"
+            "notes": ""
         },
         {
             "card_name": "Temple of Triumph",
@@ -4488,9 +4563,9 @@
             "loyalty": "",
             "artist": "Nizi Mmexport",
             "alias": "",
-            "position": "200",
+            "position": "203",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Karda\nMassive temple to Heliod on a mountain"
+            "notes": "Massive temple to Heliod on a mountain"
         },
         {
             "card_name": "Temple of Enlightenment",
@@ -4509,9 +4584,9 @@
             "loyalty": "",
             "artist": "Javier Franco Santacreu",
             "alias": "",
-            "position": "201",
+            "position": "204",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Ephara\nvast placid lake center of Oreskos. always remains undisturbed. difficult to look at. sometimes looking see splaces far away. see the future/past."
+            "notes": "vast placid lake center of Oreskos. always remains undisturbed. difficult to look at. sometimes looking see splaces far away. see the future/past."
         },
         {
             "card_name": "Temple of Malady",
@@ -4530,9 +4605,9 @@
             "loyalty": "",
             "artist": "Ivan Mikhalenko",
             "alias": "",
-            "position": "202",
+            "position": "205",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Pharika"
+            "notes": ""
         },
         {
             "card_name": "Shrine to Those Forgotten",
@@ -4551,9 +4626,9 @@
             "loyalty": "",
             "artist": "Zuzanna Wuzyk",
             "alias": "",
-            "position": "203",
+            "position": "206",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Kruphix\nnerfed: Now enters tapped."
+            "notes": "nerfed: Now enters tapped."
         },
         {
             "card_name": "Shrine to Athreos",
@@ -4572,9 +4647,9 @@
             "loyalty": "",
             "artist": "Borisut Chamnan",
             "alias": "",
-            "position": "204",
+            "position": "207",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Nykthos\n!tag Athreos"
+            "notes": ""
         },
         {
             "card_name": "Shrine to Ephara",
@@ -4593,9 +4668,9 @@
             "loyalty": "",
             "artist": "Taeyoung Kim",
             "alias": "",
-            "position": "205",
+            "position": "208",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Ephara\n!tag Nykthos\nnerfed: Can no longer tap lands. Second effect adds a stun counter instead of tapping a second permanent."
+            "notes": "nerfed: Can no longer tap lands. Second effect adds a stun counter instead of tapping a second permanent."
         },
         {
             "card_name": "Shrine to Iroas",
@@ -4614,9 +4689,9 @@
             "loyalty": "",
             "artist": "Asim A Steckel",
             "alias": "",
-            "position": "206",
+            "position": "209",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Karda\n!tag Nykthos\n!tag Iroas\nreworked: Was {2}{R/W}{R/W} with 'At the beginning of combat on your turn, create a 0/0 white Army creature token, then put a +1/+1 counter on it. If you control three or more Shrines, instead create that token, then put a +1/+1 counter on each Army you control.'"
+            "notes": "reworked: Was {2}{R/W}{R/W} with 'At the beginning of combat on your turn, create a 0/0 white Army creature token, then put a +1/+1 counter on it. If you control three or more Shrines, instead create that token, then put a +1/+1 counter on each Army you control.'"
         },
         {
             "card_name": "Shrine to Karametra",
@@ -4635,9 +4710,9 @@
             "loyalty": "",
             "artist": "Aela Ervefel",
             "alias": "",
-            "position": "207",
+            "position": "210",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Karametra\n!tag Nykthos\nreworked: Was {3}{G/W} with 'At the beginning of combat on your turn, create a 1/1 white Human creature token. If you control three or more Shrines, create two of those tokens instead.'"
+            "notes": "reworked: Was {3}{G/W} with 'At the beginning of combat on your turn, create a 1/1 white Human creature token. If you control three or more Shrines, create two of those tokens instead.'"
         },
         {
             "card_name": "Shrine to Keranos",
@@ -4656,9 +4731,9 @@
             "loyalty": "",
             "artist": "Katerina Ladon",
             "alias": "",
-            "position": "208",
+            "position": "211",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Nykthos\n!tag Keranos\nadjusted: Discard is now optional, effect now checks if you discarded a card."
+            "notes": "adjusted: Discard is now optional, effect now checks if you discarded a card."
         },
         {
             "card_name": "Shrine to Klothys",
@@ -4677,9 +4752,9 @@
             "loyalty": "",
             "artist": "Christopher Scoles",
             "alias": "",
-            "position": "209",
+            "position": "212",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Nykthos\n!tag Klothys\nreworked: Was {3}{R/G} with 'At the beginning of combat on your turn, creatures you control get +1/+0 until end of turn. If you control three or more Shrines, creatures you control get +2/+0 until end of turn instead.'"
+            "notes": "reworked: Was {3}{R/G} with 'At the beginning of combat on your turn, creatures you control get +1/+0 until end of turn. If you control three or more Shrines, creatures you control get +2/+0 until end of turn instead.'"
         },
         {
             "card_name": "Shrine to Kruphix",
@@ -4698,9 +4773,9 @@
             "loyalty": "",
             "artist": "Pedro Snea",
             "alias": "",
-            "position": "210",
+            "position": "213",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Kruphix\n!tag Nykthos\nadjusted: Now targets a Shrine rather than a creature."
+            "notes": "adjusted: Now targets a Shrine rather than a creature."
         },
         {
             "card_name": "Shrine to Mogis",
@@ -4719,9 +4794,9 @@
             "loyalty": "",
             "artist": "Aaron Miller",
             "alias": "",
-            "position": "211",
+            "position": "214",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Mogis\n!tag Nykthos"
+            "notes": ""
         },
         {
             "card_name": "Shrine to Pharika",
@@ -4740,9 +4815,9 @@
             "loyalty": "",
             "artist": "Stijn Windig",
             "alias": "",
-            "position": "212",
+            "position": "215",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Pharika\n!tag Nykthos\nreworked: Was {3}{B/G} with At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. If you control three or more Shrines, instead put two +1/+1 counters on that creature instead."
+            "notes": "reworked: Was {3}{B/G} with At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. If you control three or more Shrines, instead put two +1/+1 counters on that creature instead."
         },
         {
             "card_name": "Shrine to Phenax",
@@ -4753,7 +4828,7 @@
             "color_identity": "UB",
             "cost": "{UB}",
             "rules_text": "At the beginning of combat on your turn, each opponent mills two cards. If you control three or more Shrines, scry 2.",
-            "flavor_text": "[i]No one will admit that they visit the lead idol, strung with coins and shrouded in silk. But yet, each night the candles are lit fresh and the bowl heavy with new offerings.[/i]",
+            "flavor_text": "[i]No one will admit that they visit the lead idol, strung wit coins and shrouded in silk. But yet, each night the candles are lit fresh and the bowl heavy with new offerings.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -4761,9 +4836,9 @@
             "loyalty": "",
             "artist": "Massimiliano Haemation",
             "alias": "",
-            "position": "213",
+            "position": "216",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Nykthos\n!tag Phenax\nnerfed: Was If you control three or more Shrines, you may exile one of those cards. You may cast that card as long as it remains exiled, and mana of any type can be spent to cast that spell."
+            "notes": ""
         },
         {
             "card_name": "Garden of Shrines",
@@ -4782,9 +4857,9 @@
             "loyalty": "",
             "artist": "ilijamandic",
             "alias": "",
-            "position": "214",
+            "position": "217",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Nykthos"
+            "notes": ""
         },
         {
             "card_name": "Omen of Victory",
@@ -4803,9 +4878,9 @@
             "loyalty": "",
             "artist": "Giovanni Maisto",
             "alias": "",
-            "position": "215",
+            "position": "218",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Iroas\nomen cycle"
+            "notes": "omen cycle"
         },
         {
             "card_name": "Omen of Deception",
@@ -4824,9 +4899,9 @@
             "loyalty": "",
             "artist": "Wilfred Wang",
             "alias": "",
-            "position": "216",
+            "position": "219",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Phenax\nomen cycle"
+            "notes": "omen cycle"
         },
         {
             "card_name": "Omen of Slaughter",
@@ -4845,9 +4920,9 @@
             "loyalty": "",
             "artist": "Giovanni Maisto",
             "alias": "",
-            "position": "217",
+            "position": "220",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Mogis\nomen cycle"
+            "notes": "omen cycle"
         },
         {
             "card_name": "Omen of Storms",
@@ -4866,9 +4941,9 @@
             "loyalty": "",
             "artist": "Joseph Qiu",
             "alias": "",
-            "position": "218",
+            "position": "221",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Keranos\nomen cycle"
+            "notes": "omen cycle\nKeranos"
         },
         {
             "card_name": "Omen of Horizons",
@@ -4887,9 +4962,9 @@
             "loyalty": "",
             "artist": "Rebecca On",
             "alias": "",
-            "position": "219",
+            "position": "222",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Kruphix\nOmen cycle"
+            "notes": "Omen cycle"
         },
         {
             "card_name": "Ordeal of Athreos",
@@ -4908,9 +4983,9 @@
             "loyalty": "",
             "artist": "Alexander Hodges",
             "alias": "",
-            "position": "220",
+            "position": "223",
             "rotated": false,
-            "notes": "!tag Athreos\n!tag Theros\nOrdeal Cycle"
+            "notes": "Ordeal Cycle"
         },
         {
             "card_name": "Ordeal of Ephara",
@@ -4929,9 +5004,9 @@
             "loyalty": "",
             "artist": "Dan Watson",
             "alias": "",
-            "position": "221",
+            "position": "224",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Ephara\nOrdeal Cycle"
+            "notes": "Ordeal Cycle"
         },
         {
             "card_name": "Ordeal of Pharika",
@@ -4950,9 +5025,9 @@
             "loyalty": "",
             "artist": "Jaime Jasso",
             "alias": "",
-            "position": "222",
+            "position": "225",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Pharika\nOrdeal Cycle"
+            "notes": "Ordeal Cycle"
         },
         {
             "card_name": "Ordeal of Karda",
@@ -4971,9 +5046,9 @@
             "loyalty": "",
             "artist": "Jerry Padilla",
             "alias": "",
-            "position": "223",
+            "position": "226",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Karda\nOrdeal Cycle"
+            "notes": "Ordeal Cycle"
         },
         {
             "card_name": "Ordeal of Karametra",
@@ -4992,9 +5067,9 @@
             "loyalty": "",
             "artist": "Rebecca On",
             "alias": "",
-            "position": "224",
+            "position": "227",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Karametra\nOrdeal Cycle"
+            "notes": "Ordeal Cycle"
         },
         {
             "card_name": "Cybele of the Frozen Faith",
@@ -5013,9 +5088,9 @@
             "loyalty": "",
             "artist": "Giselle Almeida",
             "alias": "",
-            "position": "225",
+            "position": "228",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Cybele\nSabotuers deathtouch"
+            "notes": "Sabotuers deathtouch"
         },
         {
             "card_name": "Karda's Emmisary",
@@ -5034,9 +5109,9 @@
             "loyalty": "",
             "artist": "Bachzim",
             "alias": "",
-            "position": "226",
+            "position": "229",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Kruphix\n!tag Karda\nGo wide Enchantments"
+            "notes": "Go wide Enchantments"
         },
         {
             "card_name": "Traveler's Amulet",
@@ -5055,9 +5130,9 @@
             "loyalty": "",
             "artist": "Tim Guo",
             "alias": "",
-            "position": "227",
+            "position": "230",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Klothys\nSmoking Strand"
+            "notes": "Smoking Strand"
         },
         {
             "card_name": "Anvilwrought Crane",
@@ -5076,9 +5151,9 @@
             "loyalty": "",
             "artist": "Yannick Corboz",
             "alias": "",
-            "position": "228",
+            "position": "231",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Biaas\nStymphalian birds"
+            "notes": "Stymphalian birds"
         },
         {
             "card_name": "Chromatic Hart",
@@ -5097,9 +5172,9 @@
             "loyalty": "",
             "artist": "Jeremy Carver",
             "alias": "",
-            "position": "229",
+            "position": "232",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Leonin Hoplite",
@@ -5118,9 +5193,9 @@
             "loyalty": "",
             "artist": "Shamerli",
             "alias": "",
-            "position": "230",
+            "position": "233",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Ephara\n!tag Agnomakhos"
+            "notes": ""
         },
         {
             "card_name": "Terramorphic Expanse",
@@ -5139,9 +5214,9 @@
             "loyalty": "",
             "artist": "Jeff Brown",
             "alias": "",
-            "position": "231",
+            "position": "234",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Read the Tides",
@@ -5160,9 +5235,9 @@
             "loyalty": "",
             "artist": "Tommy Arnold",
             "alias": "",
-            "position": "232",
+            "position": "235",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Benthalos\n!tag Thassa\n!tag Heliod"
+            "notes": ""
         },
         {
             "card_name": "Shatter the Reflection",
@@ -5181,9 +5256,9 @@
             "loyalty": "",
             "artist": "Irnyo",
             "alias": "",
-            "position": "233",
+            "position": "236",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Fight the Tides",
@@ -5202,9 +5277,9 @@
             "loyalty": "",
             "artist": "Halil Ural",
             "alias": "",
-            "position": "234",
+            "position": "237",
             "rotated": false,
-            "notes": "!tag Theros\nseamonster"
+            "notes": "seamonster"
         },
         {
             "card_name": "Arasta's Burden",
@@ -5223,9 +5298,9 @@
             "loyalty": "",
             "artist": "Irnyo",
             "alias": "",
-            "position": "235",
+            "position": "238",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Arasta\n!tag Phenax\n!tag Nylea"
+            "notes": ""
         },
         {
             "card_name": "Monstrous Challenge",
@@ -5244,9 +5319,9 @@
             "loyalty": "",
             "artist": "Bach Nguy",
             "alias": "",
-            "position": "236",
+            "position": "239",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Karda\n\nCombat Trick Cycle"
+            "notes": "Combat Trick Cycle"
         },
         {
             "card_name": "Flame Whip",
@@ -5265,9 +5340,9 @@
             "loyalty": "",
             "artist": "Rafater",
             "alias": "",
-            "position": "237",
+            "position": "240",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Kruphix\nReprint"
+            "notes": "Reprint\n rework: Was a reprint of Flame Lash, {3}{R} instant, deal 4 to any target."
         },
         {
             "card_name": "Petros, Purphoros's Double",
@@ -5286,9 +5361,9 @@
             "loyalty": "",
             "artist": "Oliver Ink",
             "alias": "",
-            "position": "238",
+            "position": "241",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Petros\n!tag Purphoros\nAll mana cycle"
+            "notes": "All mana cycle"
         },
         {
             "card_name": "Erase from Reality",
@@ -5307,9 +5382,9 @@
             "loyalty": "",
             "artist": "Amagoia Agirre",
             "alias": "",
-            "position": "239",
+            "position": "242",
             "rotated": false,
-            "notes": "!tag Heliod\n!tag Theros\nremoval"
+            "notes": "removal"
         },
         {
             "card_name": "Agent of Deception",
@@ -5328,9 +5403,9 @@
             "loyalty": "",
             "artist": "Gabriel Bulik",
             "alias": "",
-            "position": "240",
+            "position": "243",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Phenax\n!tag CustomReprint\nDesigner: Mako"
+            "notes": "Designer: Mako"
         },
         {
             "card_name": "Gray Merchant of Asphodel",
@@ -5349,9 +5424,9 @@
             "loyalty": "",
             "artist": "Victor Tan",
             "alias": "",
-            "position": "241",
+            "position": "244",
             "rotated": false,
-            "notes": "!tag Theros\n!tag CanonReprint"
+            "notes": "Reprint"
         },
         {
             "card_name": "Nylea's Call",
@@ -5370,9 +5445,9 @@
             "loyalty": "",
             "artist": "Juan Pablo Corredor",
             "alias": "",
-            "position": "242",
+            "position": "245",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Nylea"
+            "notes": ""
         },
         {
             "card_name": "Terror of Olantin",
@@ -5391,9 +5466,9 @@
             "loyalty": "",
             "artist": "Gerezon",
             "alias": "",
-            "position": "243",
+            "position": "246",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Hai\n!tag Planeswalker\nSeamonster \nKLOS"
+            "notes": "Seamonster \nKLOS"
         },
         {
             "card_name": "Fall into the Underworld",
@@ -5412,9 +5487,9 @@
             "loyalty": "",
             "artist": "David Swanson",
             "alias": "",
-            "position": "244",
+            "position": "247",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Agent of Pharika",
@@ -5433,9 +5508,9 @@
             "loyalty": "",
             "artist": "Francisco Castro",
             "alias": "",
-            "position": "245",
+            "position": "248",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Story\n!tag TRXStory\n!tag Haubay\nStory Spotlight 3"
+            "notes": "Story Spotlight 3"
         },
         {
             "card_name": "Rite of Venom",
@@ -5454,9 +5529,9 @@
             "loyalty": "",
             "artist": "Even Amundsen",
             "alias": "",
-            "position": "246",
+            "position": "249",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Camilla\n!tag Pharika\n!tag Planeswalker"
+            "notes": ""
         },
         {
             "card_name": "Nyxborn Retriever",
@@ -5475,9 +5550,9 @@
             "loyalty": "",
             "artist": "Lemog Leo",
             "alias": "",
-            "position": "247",
+            "position": "250",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Basilo"
+            "notes": ""
         },
         {
             "card_name": "Plead to Erebos",
@@ -5496,9 +5571,9 @@
             "loyalty": "",
             "artist": "Toru-meow",
             "alias": "",
-            "position": "248",
+            "position": "251",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Pero\n!tag Erebos"
+            "notes": ""
         },
         {
             "card_name": "Poisoned Strike",
@@ -5517,9 +5592,9 @@
             "loyalty": "",
             "artist": "Danny Pavlov",
             "alias": "",
-            "position": "249",
+            "position": "252",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Orestes\n!tag Phenax"
+            "notes": ""
         },
         {
             "card_name": "Travel Through the Mystic Sea",
@@ -5538,9 +5613,9 @@
             "loyalty": "",
             "artist": "Beto Lima",
             "alias": "",
-            "position": "250",
+            "position": "253",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Thassa"
+            "notes": ""
         },
         {
             "card_name": "Shoreline Crasher",
@@ -5559,9 +5634,9 @@
             "loyalty": "",
             "artist": "Angelo Lafaye",
             "alias": "",
-            "position": "251",
+            "position": "254",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Zale\nSeamonster \nKLOS"
+            "notes": "Seamonster \nKLOS"
         },
         {
             "card_name": "Ebb and Flow",
@@ -5580,9 +5655,9 @@
             "loyalty": "",
             "artist": "Pawel Kozera",
             "alias": "",
-            "position": "252",
+            "position": "255",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Kruphix"
+            "notes": ""
         },
         {
             "card_name": "Misbegotten Aims",
@@ -5601,9 +5676,9 @@
             "loyalty": "",
             "artist": "Terence Cantal",
             "alias": "",
-            "position": "253",
+            "position": "256",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Leonin Phalanx",
@@ -5622,9 +5697,9 @@
             "loyalty": "",
             "artist": "Woari",
             "alias": "",
-            "position": "254",
+            "position": "257",
             "rotated": false,
-            "notes": "!tag Agnomakhos\n!tag Theros\n!tag Ephara"
+            "notes": ""
         },
         {
             "card_name": "Spear of the Sun-Crowned",
@@ -5643,9 +5718,9 @@
             "loyalty": "",
             "artist": "Raphael Pinna",
             "alias": "",
-            "position": "255",
+            "position": "258",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Heliod"
+            "notes": ""
         },
         {
             "card_name": "Traxian General",
@@ -5664,9 +5739,9 @@
             "loyalty": "",
             "artist": "Ognevka Fenella",
             "alias": "",
-            "position": "256",
+            "position": "259",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Agnomakhos"
+            "notes": ""
         },
         {
             "card_name": "Dedicated Charge",
@@ -5685,9 +5760,9 @@
             "loyalty": "",
             "artist": "Goodname Studio",
             "alias": "",
-            "position": "257",
+            "position": "260",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Story\n!tag TRXStory\n!tag Kynaios\n!tag Tiro\n!tag Agnomakhos\nStory Spotlight 7\nTwelve Warriors flavor OR Koios Claes FT"
+            "notes": "Story Spotlight 7\nTwelve Warriors flavor OR Koios Claes FT"
         },
         {
             "card_name": "Ephara's Messenger",
@@ -5706,9 +5781,9 @@
             "loyalty": "",
             "artist": "Boris Badger",
             "alias": "",
-            "position": "258",
+            "position": "261",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Ephara"
+            "notes": ""
         },
         {
             "card_name": "Zodiac Griffin",
@@ -5727,9 +5802,9 @@
             "loyalty": "",
             "artist": "Marc Escachx",
             "alias": "",
-            "position": "259",
+            "position": "262",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Coward-Eater",
@@ -5748,9 +5823,9 @@
             "loyalty": "",
             "artist": "Brandon McCamey",
             "alias": "",
-            "position": "260",
+            "position": "263",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Raksolcs\n!tag Mogis"
+            "notes": ""
         },
         {
             "card_name": "Skophos Trainee",
@@ -5769,9 +5844,9 @@
             "loyalty": "",
             "artist": "Dan Watson",
             "alias": "",
-            "position": "261",
+            "position": "264",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Clash of the Titans",
@@ -5790,9 +5865,9 @@
             "loyalty": "",
             "artist": "Narendra B Adi",
             "alias": "",
-            "position": "262",
+            "position": "265",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Soul-Guide Lantern",
@@ -5811,9 +5886,9 @@
             "loyalty": "",
             "artist": "Cliff Childs",
             "alias": "",
-            "position": "263",
+            "position": "266",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Bringer of Heliod's Light",
@@ -5832,7 +5907,7 @@
             "loyalty": "",
             "artist": "Pascal Quidault",
             "alias": "",
-            "position": "264",
+            "position": "267",
             "card_name2": "Blinded by Divinity",
             "color2": "W",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -5846,7 +5921,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Heliod\nRemoval"
+            "notes": "Removal"
         },
         {
             "card_name": "Life Begins Anew",
@@ -5865,9 +5940,9 @@
             "loyalty": "",
             "artist": "Rukikun",
             "alias": "",
-            "position": "265",
+            "position": "268",
             "rotated": false,
-            "notes": "!tag Koios\n!tag Story\n!tag TRXStory\n!tag Theros\n!tag Claes\n!tag Planeswalker\n!tag Karda\nStory Spotlight 8\nKoios\nAs his god was torn asunder, Koios questioned his entire world, from Theros to Claes. How small was everything in a multiverse so vast?"
+            "notes": "Story Spotlight 8\n\nKoios\nAs his god was torn asunder, Koios questioned his entire world, from Theros to Claes. How small was everything in a multiverse so vast?"
         },
         {
             "card_name": "Ashlands Phoenix",
@@ -5886,9 +5961,9 @@
             "loyalty": "",
             "artist": "Lemog Leo",
             "alias": "",
-            "position": "266",
+            "position": "269",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Momentary Petrification",
@@ -5907,9 +5982,9 @@
             "loyalty": "",
             "artist": "Quentin Regnes",
             "alias": "",
-            "position": "267",
+            "position": "270",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Cybele"
+            "notes": ""
         },
         {
             "card_name": "Archon of the Legion",
@@ -5928,9 +6003,9 @@
             "loyalty": "",
             "artist": "Douglas Deri",
             "alias": "",
-            "position": "268",
+            "position": "271",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Agnomakhos"
+            "notes": ""
         },
         {
             "card_name": "Fall of Olantin",
@@ -5949,9 +6024,9 @@
             "loyalty": "",
             "artist": "Jeffery Smith",
             "alias": "",
-            "position": "269",
+            "position": "272",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Benthalos\n!tag Heliod\n!tag Thassa\nAll Mana Cycle"
+            "notes": "All Mana Cycle"
         },
         {
             "card_name": "Nikon's Aegis",
@@ -5970,9 +6045,9 @@
             "loyalty": "",
             "artist": "Frost Llamzon",
             "alias": "",
-            "position": "270",
+            "position": "273",
             "rotated": false,
-            "notes": "!tag Nikon\n!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Deception's Edge",
@@ -5991,9 +6066,9 @@
             "loyalty": "",
             "artist": "Corey Gooch",
             "alias": "",
-            "position": "271",
+            "position": "274",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Phenax"
+            "notes": ""
         },
         {
             "card_name": "Eventide Coronet",
@@ -6012,9 +6087,9 @@
             "loyalty": "",
             "artist": "Jade Dry",
             "alias": "",
-            "position": "272",
+            "position": "275",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Iara\n!tag SevenWarriors"
+            "notes": ""
         },
         {
             "card_name": "Tymaret, Bane of Phenax",
@@ -6033,9 +6108,9 @@
             "loyalty": "",
             "artist": "Beidak",
             "alias": "",
-            "position": "273",
+            "position": "276",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Tymaret\n!tag Phenax\nspecial"
+            "notes": "special"
         },
         {
             "card_name": "Sculpture",
@@ -6054,7 +6129,7 @@
             "loyalty": "",
             "artist": "Jarek Nocon",
             "alias": "",
-            "position": "274",
+            "position": "277",
             "rotated": false,
             "notes": ""
         },
@@ -6075,7 +6150,7 @@
             "loyalty": "",
             "artist": "Rainer Petter",
             "alias": "",
-            "position": "275",
+            "position": "278",
             "rotated": false,
             "notes": ""
         },
@@ -6096,7 +6171,7 @@
             "loyalty": "",
             "artist": "Ean Koh",
             "alias": "",
-            "position": "276",
+            "position": "279",
             "rotated": false,
             "notes": ""
         },
@@ -6117,7 +6192,7 @@
             "loyalty": "",
             "artist": "Tomas Honz",
             "alias": "",
-            "position": "277",
+            "position": "280",
             "rotated": false,
             "notes": ""
         },
@@ -6138,7 +6213,7 @@
             "loyalty": "",
             "artist": "Karla Ortiz",
             "alias": "",
-            "position": "278",
+            "position": "281",
             "rotated": false,
             "notes": ""
         },
@@ -6159,7 +6234,7 @@
             "loyalty": "",
             "artist": "David Swanson",
             "alias": "",
-            "position": "279",
+            "position": "282",
             "rotated": false,
             "notes": ""
         },
@@ -6180,7 +6255,7 @@
             "loyalty": "",
             "artist": "Darko Kreculj",
             "alias": "",
-            "position": "280",
+            "position": "283",
             "rotated": false,
             "notes": ""
         },
@@ -6201,7 +6276,7 @@
             "loyalty": "",
             "artist": "Hephaestus Entertainment",
             "alias": "",
-            "position": "281",
+            "position": "284",
             "rotated": false,
             "notes": ""
         },
@@ -6222,7 +6297,7 @@
             "loyalty": "",
             "artist": "TheMichaelMAcrae",
             "alias": "",
-            "position": "282",
+            "position": "285",
             "rotated": false,
             "notes": ""
         },
@@ -6243,7 +6318,7 @@
             "loyalty": "",
             "artist": "Sasha De Trafo",
             "alias": "",
-            "position": "283",
+            "position": "286",
             "rotated": false,
             "notes": ""
         },
@@ -6264,7 +6339,7 @@
             "loyalty": "",
             "artist": "Agatan G",
             "alias": "",
-            "position": "284",
+            "position": "287",
             "rotated": false,
             "notes": ""
         },
@@ -6285,7 +6360,7 @@
             "loyalty": "",
             "artist": "Martin Gracia",
             "alias": "",
-            "position": "285",
+            "position": "288",
             "rotated": false,
             "notes": ""
         },
@@ -6306,7 +6381,7 @@
             "loyalty": "",
             "artist": "LozanoX",
             "alias": "",
-            "position": "286",
+            "position": "289",
             "rotated": false,
             "notes": ""
         },
@@ -6327,7 +6402,7 @@
             "loyalty": "",
             "artist": "Sergey Samarskiy",
             "alias": "",
-            "position": "287",
+            "position": "290",
             "rotated": false,
             "notes": ""
         },
@@ -6348,9 +6423,9 @@
             "loyalty": "",
             "artist": "Mark Zug",
             "alias": "",
-            "position": "288",
+            "position": "291",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Slighos\n!tag CanonReprint"
+            "notes": "Reprint"
         },
         {
             "card_name": "Dragon",
@@ -6369,7 +6444,7 @@
             "loyalty": "",
             "artist": "Melvinchanart",
             "alias": "",
-            "position": "289",
+            "position": "292",
             "rotated": false,
             "notes": ""
         },
@@ -6390,7 +6465,7 @@
             "loyalty": "",
             "artist": "Virgile Boulais",
             "alias": "",
-            "position": "290",
+            "position": "293",
             "card_name2": "Blessings of the Flock",
             "color2": "W",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -6404,7 +6479,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": "AA was {4}{W}"
         },
         {
             "card_name": "Callaphe the Mariner",
@@ -6414,7 +6489,7 @@
             "number": 46,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Callaphe the Mariner can't be blocked by creatures with power 3 or greater.\nWhenever Callaphe deals combat damage to a player, you get an experience counter. Then if you have three or more experience counters, bless target player. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
+            "rules_text": "Callaphe can't be blocked by creatures with mana value 3 or greater.\nWhenever Callaphe the Mariner deals combat damage to a player, you get an experience counter. Then if you have three or more experience counters, bless target player. [i](Create a token copy of this creature's blessing attached to that permanent.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
@@ -6423,7 +6498,7 @@
             "loyalty": "",
             "artist": "Angelo Adonis Chavez",
             "alias": "",
-            "position": "291",
+            "position": "294",
             "card_name2": "Blessing of the Sea",
             "color2": "U",
             "type2": "Enchantment \u2014 Aura Blessing",
@@ -6437,7 +6512,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Callaphe\n!tag Thassa"
+            "notes": "buff: Evasion was mv4 or greater."
         },
         {
             "card_name": "Lurking Vyrkolakas",
@@ -6456,9 +6531,9 @@
             "loyalty": "",
             "artist": "Paizo Publishing and Ana Bolumar",
             "alias": "",
-            "position": "292",
+            "position": "295",
             "rotated": false,
-            "notes": "!tag Theros\nreworked: Was 1/1 with lifelink and 'Whenever Lurking Vyrkolakas enters or attacks, target player exiles a card from their graveyard. If a nonland card was exiled this way, put a +1/+1 counter on Lurking Vyrkolakas and you gain 1 life.'"
+            "notes": "reworked: Was 1/1 with lifelink and 'Whenever Lurking Vyrkolakas enters or attacks, target player exiles a card from their graveyard. If a nonland card was exiled this way, put a +1/+1 counter on Lurking Vyrkolakas and you gain 1 life.'"
         },
         {
             "card_name": "Arena Champion",
@@ -6477,9 +6552,9 @@
             "loyalty": "",
             "artist": "Natham Soares",
             "alias": "",
-            "position": "293",
+            "position": "296",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Iroas"
+            "notes": ""
         },
         {
             "card_name": "Belief-Belying Beast",
@@ -6498,9 +6573,9 @@
             "loyalty": "",
             "artist": "Alicia Garcia",
             "alias": "",
-            "position": "294",
+            "position": "297",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Pegasus",
@@ -6519,7 +6594,7 @@
             "loyalty": "",
             "artist": "Grafit Studio",
             "alias": "",
-            "position": "295",
+            "position": "298",
             "rotated": false,
             "notes": ""
         },
@@ -6540,9 +6615,9 @@
             "loyalty": "",
             "artist": "Goodname Studio",
             "alias": "",
-            "position": "296",
+            "position": "299",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Yaoi\n!tag Koios\n!tag Claes\n!tag Planeswalker\n!tag Karda"
+            "notes": ""
         },
         {
             "card_name": "Chrolcatos, Pidae's Founder",
@@ -6561,9 +6636,9 @@
             "loyalty": "",
             "artist": "BartekFedyczak",
             "alias": "",
-            "position": "297",
+            "position": "300",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Chrolcatos"
+            "notes": ""
         },
         {
             "card_name": "Karda's Legacy",
@@ -6582,9 +6657,9 @@
             "loyalty": "",
             "artist": "Juhani Jokinen",
             "alias": "",
-            "position": "298",
+            "position": "301",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Iroas\n!tag Mogis\n!tag Karda"
+            "notes": ""
         },
         {
             "card_name": "Menelaia, Beloved Lyrist",
@@ -6594,7 +6669,7 @@
             "number": 182,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "When Menelaia, Beloved Lyrist enters, put a +1/+1 counter on up to two target creatures.\n{1}, Remove a counter from another creature you control: Tap that creature. It gains indestructible until end of turn.",
+            "rules_text": "When Menelaia enters, put a +1/+1 counter on up to two target creatures.\n{1}, Remove a +1/+1 counter from another creature you control: That creature gain indestructible until end of turn. Tap it.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -6603,9 +6678,9 @@
             "loyalty": "",
             "artist": "Eelis Kyttanen",
             "alias": "",
-            "position": "299",
+            "position": "302",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Menelaia"
+            "notes": ""
         },
         {
             "card_name": "Tide's Ire",
@@ -6624,9 +6699,9 @@
             "loyalty": "",
             "artist": "lei min",
             "alias": "",
-            "position": "300",
+            "position": "303",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Tromokratis\n!tag Thassa"
+            "notes": ""
         },
         {
             "card_name": "Ephara's Judgment",
@@ -6645,9 +6720,9 @@
             "loyalty": "",
             "artist": "Ankou Schnee",
             "alias": "",
-            "position": "301",
+            "position": "304",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Ephara\nCharm Cycle"
+            "notes": "Charm Cycle"
         },
         {
             "card_name": "Phenax's Judgment",
@@ -6666,9 +6741,9 @@
             "loyalty": "",
             "artist": "Joshua Raphael",
             "alias": "",
-            "position": "302",
+            "position": "305",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Phenax\nCharm Cycle"
+            "notes": "Charm Cycle"
         },
         {
             "card_name": "Mogis's Judgment",
@@ -6687,9 +6762,9 @@
             "loyalty": "",
             "artist": "dleoblack",
             "alias": "",
-            "position": "303",
+            "position": "306",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Mogis\nCharm Cycle"
+            "notes": "Charm Cycle"
         },
         {
             "card_name": "Klothys's Judgment",
@@ -6708,9 +6783,9 @@
             "loyalty": "",
             "artist": "marcello87",
             "alias": "",
-            "position": "304",
+            "position": "307",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Klothys\nCharm Cycle"
+            "notes": "Charm Cycle"
         },
         {
             "card_name": "Karametra's Judgment",
@@ -6729,9 +6804,9 @@
             "loyalty": "",
             "artist": "Lemog Leo",
             "alias": "",
-            "position": "305",
+            "position": "308",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Karametra\nCharm Cycle"
+            "notes": "Charm Cycle"
         },
         {
             "card_name": "Athreos's Judgment",
@@ -6750,9 +6825,9 @@
             "loyalty": "",
             "artist": "dleoblack",
             "alias": "",
-            "position": "306",
+            "position": "309",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Athreos\nCharm Cycle"
+            "notes": "Charm Cycle"
         },
         {
             "card_name": "Keranos's Judgment",
@@ -6771,9 +6846,9 @@
             "loyalty": "",
             "artist": "Muhamx Faizal",
             "alias": "",
-            "position": "307",
+            "position": "310",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Keranos\nCharm Cycle"
+            "notes": "Charm Cycle"
         },
         {
             "card_name": "Pharika's Judgment",
@@ -6792,9 +6867,9 @@
             "loyalty": "",
             "artist": "Kim Aldau",
             "alias": "",
-            "position": "308",
+            "position": "311",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Pharika\nCharm Cycle"
+            "notes": "Charm Cycle"
         },
         {
             "card_name": "Iroas's Judgment",
@@ -6813,9 +6888,9 @@
             "loyalty": "",
             "artist": "Ankou Schnee",
             "alias": "",
-            "position": "309",
+            "position": "312",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Iroas\nCharm Cycle"
+            "notes": "Charm Cycle\n adjusted: Was {3}{R}{W} and made four tokens."
         },
         {
             "card_name": "Kruphix's Judgment",
@@ -6834,9 +6909,9 @@
             "loyalty": "",
             "artist": "Pawel Kozera",
             "alias": "",
-            "position": "310",
+            "position": "313",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Kruphix\nCharm Cycle"
+            "notes": "Charm Cycle"
         },
         {
             "card_name": "Pull of Tizerus",
@@ -6855,9 +6930,9 @@
             "loyalty": "",
             "artist": "Melissa Houpert",
             "alias": "",
-            "position": "311",
+            "position": "314",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Erebos"
+            "notes": ""
         },
         {
             "card_name": "Voyage to the Siren Sea",
@@ -6876,9 +6951,9 @@
             "loyalty": "",
             "artist": "Adam Adamovic",
             "alias": "",
-            "position": "312",
+            "position": "315",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": "nerfed: AA was {3}{U}{U}, Exile Voyage to the Siren Sea from your graveyard or the battlefield: Take an extra turn after this one. Activate only as a sorcery and only if two or more creatures you control dealt combat damage to an opponent this turn."
         },
         {
             "card_name": "The Champion",
@@ -6897,7 +6972,7 @@
             "loyalty": "",
             "artist": "Lemog Leo",
             "alias": "",
-            "position": "313",
+            "position": "316",
             "rotated": false,
             "notes": ""
         },
@@ -6918,7 +6993,7 @@
             "loyalty": "",
             "artist": "Pius Wirawan",
             "alias": "",
-            "position": "314",
+            "position": "317",
             "rotated": false,
             "notes": ""
         },
@@ -6939,9 +7014,9 @@
             "loyalty": "",
             "artist": "Anna Helme",
             "alias": "",
-            "position": "315",
+            "position": "318",
             "rotated": false,
-            "notes": "!tag Theros\n!tag SevenWarriors\n!tag Iara\n\"Seven Warriors\""
+            "notes": "\"Seven Warriors\""
         },
         {
             "card_name": "Trinity of Fates",
@@ -6960,9 +7035,9 @@
             "loyalty": "",
             "artist": "Nephelovia",
             "alias": "",
-            "position": "316",
+            "position": "319",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Host of the Neverending Revel",
@@ -6981,9 +7056,9 @@
             "loyalty": "",
             "artist": "Emanuel Ortiz",
             "alias": "",
-            "position": "317",
+            "position": "320",
             "rotated": false,
-            "notes": "!tag Theros"
+            "notes": ""
         },
         {
             "card_name": "Efimia of the Horse",
@@ -7002,9 +7077,9 @@
             "loyalty": "",
             "artist": "Angelina Zhogina",
             "alias": "",
-            "position": "318",
+            "position": "321",
             "rotated": false,
-            "notes": "!tag Theros\n!tag SevenWarriors\n\"Seven Warriors\"\n nerfed: Removed Ward-Pay 2 life."
+            "notes": "\"Seven Warriors\"\n nerfed: Removed Ward-Pay 2 life."
         },
         {
             "card_name": "Evridiki, Queen of Pidae",
@@ -7023,9 +7098,9 @@
             "loyalty": "",
             "artist": "Ellirh Shaan",
             "alias": "",
-            "position": "319",
+            "position": "322",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Pharika\nbuffed: Trigger now includes herself.s"
+            "notes": "buffed: Trigger now includes herself.s"
         },
         {
             "card_name": "Wolf",
@@ -7044,7 +7119,7 @@
             "loyalty": "",
             "artist": "Dusky Woods Art",
             "alias": "",
-            "position": "320",
+            "position": "323",
             "rotated": false,
             "notes": ""
         },
@@ -7065,85 +7140,10 @@
             "loyalty": "",
             "artist": "Stagex-entertainment",
             "alias": "",
-            "position": "321",
-            "rotated": false,
-            "notes": ""
-        },
-        {
-            "card_name": "A God Divided",
-            "color": "R",
-            "rarity": "rare",
-            "type": "Enchantment \u2014 Saga",
-            "number": 135,
-            "color_identity": "R",
-            "cost": "{2}{R}",
-            "rules_text": "\nI \u2014 Destroy any number of target artifacts with total mana value 4 or less.\nII \u2014 You may discard up to two cards. If you do, draw that many cards.\nIII \u2014 You may sacrifice a creature. If you do, A God Divided deals damage to any target equal to the sacrificed creature's power.",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "\nI \u2014 Destroy any number of target artifacts with total mana value 4 or less.\nII \u2014 You may discard up to two cards. If you do, draw that many cards.\nIII \u2014 You may sacrifice a creature. If you do, A God Divided deals damage to any target equal to the sacrificed creature's power.",
-            "shape": "saga",
-            "set": "TRX",
-            "loyalty": "",
-            "artist": "Satoru Wada",
-            "alias": "",
-            "position": "322",
-            "rotated": false,
-            "notes": "!tag Theros\n!tag Story\n!tag TRXStory\n!tag Karda\n!tag Mogis\n!tag Iroas\nStory Spotlight 5\n!design Zangy"
-        },
-        {
-            "card_name": "Claes, Shield of Karda",
-            "color": "W",
-            "rarity": "mythic",
-            "type": "Legendary Creature \u2014 Human Soldier",
-            "number": 11,
-            "color_identity": "WU",
-            "cost": "{W}",
-            "rules_text": "Whenever Claes, Shield of Karda attacks, another target attacking creature you control gains indestructible until end of turn.\nWhenever a planeswalker you control enters, you may exile Claes, then return him to the battlefield transformed with a number of loyalty counters on him equal to the starting loyalty of that planeswalker.",
-            "flavor_text": "[i][/i]",
-            "pt": "2/1",
-            "special_text": "",
-            "shape": "modal double faced",
-            "set": "TRX",
-            "loyalty": "",
-            "artist": "Alan Albiach",
-            "alias": "",
-            "position": "323",
-            "card_name2": "Claes, Melded Spark",
-            "color2": "WU",
-            "type2": "Legendary Planeswalker \u2014 Claes Haubay",
-            "cost2": "",
-            "rules_text2": "Creatures you control have ward {2}.\n[+1]: Scry 2. You may put a loyalty counter on another planeswalker you control.\n[-1]: Create a 0/0 white Army creature token, then put a +1/+1 counter on each Army you control.\n[-6]: Exile target nonland permanent.\n[-6]: Exile target nonland permanent.",
-            "flavor_text2": "[i][/i]",
-            "pt2": "",
-            "special_text2": "Creatures you control have ward {2}.\n[+1]: Scry 2. You may put a loyalty counter on another planeswalker you control.\n[-1]: Create a 0/0 white Army creature token, then put a +1/+1 counter on each Army you control.\n[-6]: Exile target nonland permanent.\n[-6]: Exile target nonland permanent.",
-            "loyalty2": "",
-            "artist2": "Hao Zheng",
-            "alias2": "",
-            "rules_text3": "",
-            "rotated": false,
-            "notes": "!tag Theros\n!tag Karda\n!tag Claes\n!tag Sparker\n!tag Planeswalker"
-        },
-        {
-            "card_name": "Kynaios, Blade-Bound",
-            "color": "WG",
-            "rarity": "rare",
-            "type": "Legendary Creature \u2014 Human Soldier",
-            "number": 224,
-            "color_identity": "WG",
-            "cost": "{1}{G}{W}",
-            "rules_text": "Ward {1}\nWhenever Kynaios attacks, reveal the top five cards of your library. You may put an Aura card or a card with a Blessing from among them into your hand and the rest on the bottom of your library in a random order.",
-            "flavor_text": "[i][/i]",
-            "pt": "2/4",
-            "special_text": "",
-            "shape": "normal",
-            "set": "TRX",
-            "loyalty": "",
-            "artist": "Muhamx Faizal",
-            "alias": "",
             "position": "324",
             "rotated": false,
-            "notes": "!tag Theros\n!tag Kynaios\nAura love"
+            "notes": ""
         }
     ],
-    "version": 28
+    "version": 29
 }
