@@ -1,4 +1,146 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+Ogink Ruffian added.
+Ogink Surge added.
+Gilded Opportunist added.
+
+Oghink Ruffian removed.
+Oghink Surge removed.
+Gillded Opportunist removed.
+
+Thorne Proving Ground
+
+Return to Naught
+
+Endless Iteration
+
+Meshline Infiltrator
+rules_text: Betrayal {1}{G}{U} [i]({1}{G}{U}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Meshline Infiltrator's power and toughness are each equal to the number of cards in your hand.
+Whenever a Rogue you control deals combat damage to an opponent, draw a card. => Betrayal {1}{G}{U} [i](You may cast this spell for {1}{G}{U} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Meshline Infiltrator's power and toughness are each equal to the number of cards in your hand.
+Whenever a Rogue you control deals combat damage to an opponent, draw a card.
+
+Conversion Cradle
+rules_text: {2}, Sacrifice a nontoken artifact: Create a 2/1 red Soldier artifact creature token and a Treasure token. the Soldier token can't block this turn. => {2}, Sacrifice a nontoken artifact: Create a 2/1 red Soldier artifact creature token and a Treasure token. The Soldier token can't block this turn.
+
+Quell the Iliach
+
+Thorne Expediter
+rules_text: Betrayal {1}{W} [i]({1}{W}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+When Thorne Expediter enters, exile target nonland permanent you don't control until Thorne Expediter leaves the battlefield. => Betrayal {1}{W} [i](You may cast this spell for {1}{W} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+When Thorne Expediter enters, exile target nonland permanent you don't control until Thorne Expediter leaves the battlefield.
+
+Muirsidhe Courier
+rules_text: Betrayal {1}{U} [i]({1}{U}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Muirsidhe Courier deals combat damage to a player, draw a card. => Betrayal {1}{U} [i](You may cast this spell for {1}{U} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Muirsidhe Courier deals combat damage to a player, draw a card.
+
+Waygate Smuggler
+rules_text: Betrayal {3}{U}{U} [i]({3}{U}{U}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Waygate Smuggler deals combat damage to a player, you may put a permanent card from your hand or you own from outside the game onto the battlefield. => Betrayal {3}{U}{U} [i](You may cast this spell for {3}{U}{U} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Waygate Smuggler deals combat damage to a player, you may put a permanent card from your hand or you own from outside the game onto the battlefield.
+
+Aonar Disrupter
+rules_text: Betrayal {3}{U}{U} [i]({3}{U}{U}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Aonar Disrupter deals combat damage to a player, if it isn't an extra turn, take an extra turn after this one. => Betrayal {3}{U}{U} [i](You may cast this spell for {3}{U}{U} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Aonar Disrupter deals combat damage to a player, if it isn't an extra turn, take an extra turn after this one.
+
+Virtual Overload
+rules_text: Brink [i](You may exile seven cards from your graveyard to go over the edge.)[/i]
+Destroy target creature or planeswalker if it's mana value is 3 or less or you've gone over the edge. => Brink [i](You may exile seven cards from your graveyard to go over the edge.)[/i]
+Destroy target creature or planeswalker if its mana value is 3 or less or you've gone over the edge.
+
+Ludolf's Dismay
+rules_text: When Ludolf's Dismay enters, target opponent reveals their hand and you choose a nonland card from it. Exile that card until this creature leaves the battlefield.
+Whenever an opponent casts a spell that shares a type with the exiled spell, you gain 1 life. => When Ludolf's Dismay enters, target opponent reveals their hand and you choose a nonland card from it. Exile that card until this enchantment leaves the battlefield.
+Whenever an opponent casts a spell that shares a type with the exiled spell, you gain 1 life.
+
+Turncloak Tormentor
+rules_text: Betrayal {1}{B} [i]({1}{B}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Menace
+Whenever Turncloak Tormentor deals combat damage to a player, that player discards a card. => Betrayal {1}{B} [i](You may cast this spell for {1}{B} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Menace
+Whenever Turncloak Tormentor deals combat damage to a player, that player discards a card.
+
+Feoil Crochta
+rules_text: Betrayal {2}{B} [i]({2}{B}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Feoil Crochta deals combat damage to a player, return target creature card with mana value 3 or less from your graveyard to the battlefield. => Betrayal {2}{B} [i](You may cast this spell for {2}{B} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Feoil Crochta deals combat damage to a player, return target creature card with mana value 3 or less from your graveyard to the battlefield.
+
+Crosog Racketeer
+rules_text: Betrayal {1}{B}{B} [i]({1}{B}{B}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+When Crosóg Racketeer enters, destroy target creature. => Betrayal {1}{B}{B} [i](You may cast this spell for {1}{B}{B} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+When Crosóg Racketeer enters, destroy target creature.
+
+Koios's Resolution
+rules_text: Enchant creature
+Enchanted creature gets +2/+0 and has trample.
+You may cast Koios's Resolution from your graveyard by beholding an enchantment in addition to paying its other costs. [i](To behold an enchantment choose an enchantment you control or reveal one from your hand.)[/i] [i](To behold an enchantment choose an enchantment you control or reveal one from your hand, choose an enchantment choose an enchantment you control or reveal one from your hand you control or reveal an enchantment choose an enchantment you control or reveal one from your hand card from your hand.)[/i] => Enchant creature
+Enchanted creature gets +2/+0 and has trample.
+You may cast Koios's Resolution from your graveyard by beholding an enchantment in addition to paying its other costs. [i](To behold an enchantment choose an enchantment you control or reveal one from your hand.)[/i]
+
+Erratic Defector
+rules_text: Betrayal {R} [i]({R}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Erratic Defector deals combat damage to a player, exile the top card of your library. You may play it this turn. => Betrayal {R} [i](You may cast this spell for {R} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Erratic Defector deals combat damage to a player, exile the top card of your library. You may play it this turn.
+
+Crosog Ripsaw
+rules_text: Betrayal {1}{R}{R} [i]({1}{R}{R}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+When Crosóg Ravager enters, you may discard your hand. If you do, draw that many cards plus one. => Betrayal {1}{R}{R} [i](You may cast this spell for {1}{R}{R} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+When Crosóg Ravager enters, you may discard your hand. If you do, draw that many cards plus one.
+
+Hotwire Crew
+rules_text: Betrayal {4}{R}{R} [i]({4}{R}{R}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+When Hotwire Crew enters, gain control of target creature until end of turn. It gains haste until end of turn. If Hotwire Crew is attacking, that creature becomes attacking. [i](It won't be blocked.)[/i] => Betrayal {4}{R}{R} [i](You may cast this spell for {4}{R}{R} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+When Hotwire Crew enters, gain control of target creature until end of turn. It gains haste until end of turn. If Hotwire Crew is attacking, that creature becomes attacking. [i](It won't be blocked.)[/i]
+
+Seal of Primordium
+
+Fiadhan of Oak and Moss
+type: Legendary Planeswalker — Fiadhad => Legendary Planeswalker — Fiadhan
+
+Salt Street Fence
+rules_text: Betrayal {G} [i]({G}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Whenever Salt Street Fence deals combat damage to a player, create a Treasure token. => Betrayal {G} [i](You may cast this spell for {G} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Whenever Salt Street Fence deals combat damage to a player, create a Treasure token.
+
+Protean Pathbreaker
+rules_text: Betrayal {G} [i]({G}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Tokens you control have trample.
+When Protean Pathbreaker enters, create a 3/2 colorless Shapeshifter creature token with changeling. [i](It is every creature type.)[/i] => Betrayal {G} [i](You may cast this spell for {G} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Tokens you control have trample.
+When Protean Pathbreaker enters, create a 3/2 colorless Shapeshifter creature token with changeling. [i](It is every creature type.)[/i]
+
+Facets of the Self
+rules_text: Betrayal {1}{G} [i]({1}{G}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Changeling [i](This card is every creature type.)[/i]
+You may have Facets of the Self enter as a copy of any creature you control, except it has changeling. => Betrayal {1}{G} [i](You may cast this spell for {1}{G} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Changeling [i](This card is every creature type.)[/i]
+You may have Facets of the Self enter as a copy of any creature you control, except it has changeling.
+
+Dataforged Witness
+rules_text: Betrayal {2}{G} [i]({2}{G}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+When Dataforged Witness enters, return target card from your graveyard to your hand. => Betrayal {2}{G} [i](You may cast this spell for {2}{G} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+When Dataforged Witness enters, return target card from your graveyard to your hand.
+
+Leanbh Na Portaigh
+rules_text: Enact {1}{G} [i](As a sorcery, you may activate one of this card's abilities by discarding it and paying its enact cost instead of its other costs.)[/i]
+Leanbh Na Portaigh's power and toughness are each equal to the number of lands you control.
+{3}{G}: Search your library for a basic land card, put it onto the battlefield, then shuffle => Enact {1}{G} [i](As a sorcery, you may activate one of this card's abilities by discarding it and paying its enact cost instead of its other costs.)[/i]
+Leanbh Na Portaigh's power and toughness are each equal to the number of lands you control.
+{3}{G}: Search your library for a basic land card, put it onto the battlefield, then shuffle.
+
+Matán ag Corraí
+rules_text: Betrayal {3}{G}{G}{G} [i]({3}{G}{G}{G}, Sacrifice an unblocked attacker: Put this card onto the battlefield from your hand tapped and attacking, then draw a card.)[/i]
+Trample
+When Matán ag Corraí enters, create a 5/5 green Spirit creature token with trample. => Betrayal {3}{G}{G}{G} [i](You may cast this spell for {3}{G}{G}{G} if you also sacrifice an unblocked attacker during the declare blockers step. It enters tapped and attacking. When it does, draw a card.)[/i]
+Trample
+When Matán ag Corraí enters, create a 5/5 green Spirit creature token with trample.
+
+
+VERSION 6 CHANGELOG
 ====================
 
 

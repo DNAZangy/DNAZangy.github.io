@@ -5,7 +5,7 @@
 			<name>HYD</name>
 			<longname>Hudrain: Unyielding</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-08-21</releasedate>
+			<releasedate>2026-10-26</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -379,8 +379,8 @@ Whenever you draw your second card each turn, exile this creature, then return i
 		</card>
 		<card>
 			<name>Sphinx of Endless Queries</name>
-			<text>The first noncreature spell you cast each turn costs {1} less to cast.
-Flying
+			<text>Flying
+The first noncreature spell you cast each turn costs {1} less to cast.
 As long as you&apos;ve drawn two or more cards this turn, Sphinx of Endless Queries gets +1/+0.</text>
 			<set rarity="common" picurl="https://DNAZangy.github.io/sets/HYD-files/img/20.png" num="78">HYD</set>
 			<prop>
@@ -2744,7 +2744,7 @@ At the beginning of your upkeep, each player discards a card.</text>
 		</card>
 		<card>
 			<name>Tend to the World</name>
-			<text>Search your library for up to [b][two][/b] basic land cards and reveal them. Put one into your hand and the rest onto the battlefield tapped.
+			<text>Search your library for up to [b][two][/b] basic land cards and reveal them. Put one into your hand and the rest onto the battlefield tapped, then shuffle.
 Impose {X}{G}{G}{G} (You may cast this card from your graveyard for its impose cost, replacing all the numbers in brackets with X. Then exile it.)</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/149.png" num="208">HYD</set>
 			<prop>
@@ -2815,7 +2815,7 @@ Remove a +1/+1 counter from this creature: Target player discards a card. Activa
 		<card>
 			<name>Foresight&apos;s Reward</name>
 			<text>Spells you cast from anywhere other than your hand cost {1} less to cast.
-Whenever this enchantment enters or you cast a spell with mana value 4 or greater, exile the top card of your library. You may play that card until you exile another card with this enchantment.</text>
+When this enchantment enters or you cast a spell with mana value 4 or greater, exile the top card of your library. You may play that card until you exile another card with this enchantment.</text>
 			<set rarity="uncommon" picurl="https://DNAZangy.github.io/sets/HYD-files/img/153.png" num="143">HYD</set>
 			<prop>
 				<layout>normal</layout>
@@ -3537,7 +3537,7 @@ Impose {X}{X}{R}{R}{R}. Spend only red mana on X. (You may cast this card from y
 		</card>
 		<card>
 			<name>Glean from Possibilities</name>
-			<text>Look at the top five cards of your library. You may put up to [b][two][/b] permanent cards with mana value value 5 or less among them onto the battlefield. Put the rest on the bottom of your library in a random order.
+			<text>Look at the top five cards of your library. You may put up to [b][two][/b] permanent cards with mana value 5 or less among them onto the battlefield. Put the rest on the bottom of your library in a random order.
 Impose {X}{X}{X}{X}. Spend only green mana on X. (You may cast this card from your graveyard for its impose cost, replacing all the numbers in brackets with X. Then exile it.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/194.png" num="186">HYD</set>
 			<prop>
@@ -3783,7 +3783,7 @@ Whenever a creature you control enters, this enchantment deals 1 damage to each 
 		<card>
 			<name>Tidewrought Hydra</name>
 			<text>Flash
-This creature enters the battlefield with three +1/+1 counters on it.
+This creature enters with three +1/+1 counters on it.
 Whenever you cast a noncreature spell, double the number of counters on this creature.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/HYD-files/img/206.png" num="80">HYD</set>
 			<prop>
@@ -4064,7 +4064,7 @@ Whenever you create a token, put a +1/+1 counter on Hudra Solveth.</text>
 		<card>
 			<name>Yssevar, the Everreaching</name>
 			<text>Reach
-Ward—Exile at least three cards from your gravyard that have three or more card types among them.
+Ward—Exile at least three cards from your graveyard that have three or more card types among them.
 You may look at the top card of your library at any time.
 You may play cards from the top of your library if they don&apos;t share a type with a type noted by Yssevar. When you do, note its card types.</text>
 			<set rarity="mythic" picurl="https://DNAZangy.github.io/sets/HYD-files/img/221.png" num="243">HYD</set>
@@ -4635,7 +4635,7 @@ Whenever this creature attacks, up to one target nonland permanent with mana val
 		</card>
 		<card>
 			<name>Yssevar&apos;s Grasp</name>
-			<text>As an additional cost to cast this spell, you may remove a counter from any number of permanents you control. Each counter you remove pays pays for {1}.
+			<text>As an additional cost to cast this spell, you may remove a counter from any number of permanents you control. Each counter you remove pays for {1}.
 Destroy up to six target creatures and/or planeswalkers. If fewer than six permanents were destroyed this way, draw cards equal to the difference and you lose that much life.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/252.png" num="128">HYD</set>
 			<prop>
@@ -4708,7 +4708,7 @@ Whenever you cast a green spell with mana value 5 or greater, draw a card.</text
 		</card>
 		<card>
 			<name>Alone and Aching</name>
-			<text>Whenever this enchantment enters or you activate an ability of an Elissia planeswalker, draw a card.
+			<text>When this enchantment enters or you activate an ability of an Elissia planeswalker, draw a card.
 Whenever a creature enters under your control, you may tap or untap target nonland permanent.</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/256.png" num="45">HYD</set>
 			<prop>
@@ -4873,7 +4873,7 @@ Whenever enchanted creature attacks, put a +1/+1 counter on it, then double its 
 		<card>
 			<name>Kindled Aspirant</name>
 			<text>Lifelink
-If you control seven or more permanents, this creature enters the battlefield with two +1/+1 counters and a flying counter on it.
+If you control seven or more permanents, this creature enters with two +1/+1 counters and a flying counter on it.
 Obelisk ({2}, Exile this card from your hand face down: Create a tapped Obelisk artifact token with &quot;{T}: Add {C}&quot; and &quot;{T}, Sacrifice this: Until end of turn, you may cast the exiled card.&quot; Activate only as a sorcery.)</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/265.png" num="21">HYD</set>
 			<prop>
@@ -4945,7 +4945,7 @@ Whenever you discard one or more cards during your turn, each opponent discards 
 		</card>
 		<card>
 			<name>Sow Unease</name>
-			<text>At the beginning of combat on your turn, until end of turn target creature gains deathtouch and &quot;Whenever this creature deals combat damage to a player, put a +1/+1 counter on it.&quot;</text>
+			<text>At the beginning of combat on your turn, until end of turn, target creature gains deathtouch and &quot;Whenever this creature deals combat damage to a player, put a +1/+1 counter on it.&quot;</text>
 			<set rarity="rare" picurl="https://DNAZangy.github.io/sets/HYD-files/img/269.png" num="206">HYD</set>
 			<prop>
 				<layout>normal</layout>
